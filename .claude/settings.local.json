@@ -11,7 +11,8 @@
       "Bash(then echo \"using conda\")",
       "Bash(else echo \"using venv\")",
       "Bash(fi)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []

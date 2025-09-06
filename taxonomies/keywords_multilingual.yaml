@@ -1,0 +1,17 @@
+sectors:
+  AI/HPC/Data:
+    en: ["artificial intelligence","machine learning","deep learning","HPC","supercomput*","foundation model","LLM"]
+    local: []
+    zh: ["人工智能","机器学习","深度学习","高性能计算"]
+  Space/EO:
+    en: ["earth observation","remote sensing","satellite imaging","SAR","GNSS"]
+    local: []
+    zh: ["遥感","合成孔径雷达","卫星"]
+  Semiconductors/µE:
+    en: ["semiconductor","microelectronic*","chip","foundry","lithography"]
+    local: []
+    zh: ["半导体","微电子","芯片","光刻"]
+  Robotics/UxS:
+    en: ["robotics","UAV","UAS","autonomous system","AGV"]
+    local: []
+    zh: ["机器人","无人机","自主系统"]
