@@ -15,6 +15,10 @@ guard-country:
 	  exit 2; \
 	fi
 
+# ---- Optional feature toggles ----
+ENABLE_AUTOCOPY_TEMPLATES ?= 1
+export ENABLE_AUTOCOPY_TEMPLATES
+
 # ---------------- Pulls ----------------
 .PHONY: pull pull-openaire pull-crossref pull-crossref-affil pull-eventdata pull-ietf pull-gleif pull-opencorp pull-patents pull-cordis-online pull-cordis-offline
 
@@ -131,12 +135,36 @@ normalize-cerlite: guard-country
 health: guard-country
 	python scripts/health_check.py --country $(COUNTRY)
 
+# ---- Policy normalization and brief ----
+.PHONY: normalize-policy build-policy-brief
+normalize-policy: guard-country
+	python -m src.normalize.policy_ingest --country $(COUNTRY)
+
+build-policy-brief: guard-country
+	python -m src.analysis.policy_brief --country $(COUNTRY)
+
+# ---- Auto-copy templates ----
+.PHONY: reports-init
+reports-init: guard-country
+	python scripts/autocopy_templates.py --country $(COUNTRY)
+
+# ---- Text Intelligence bootstrap ----
+.PHONY: bootstrap-textint bootstrap-textint-overwrite
+bootstrap-textint: guard-country
+	python scripts/bootstrap_textint.py --country $(COUNTRY)
+
+bootstrap-textint-overwrite: guard-country
+	python scripts/bootstrap_textint.py --country $(COUNTRY) --overwrite
+
 # ---------------- Convenience ----------------
 help:
 	@echo "Targets:"; \
 	echo "  pull (openaire, crossref, ietf, gleif)"; \
 	echo "  pull-openaire / pull-crossref [/ pull-crossref-affil] / pull-eventdata / pull-ietf / pull-gleif / pull-opencorp / pull-patents"; \
 	echo "  pull-cordis-online / pull-cordis-offline CSV=/path/to/file.csv"; \
-	echo "  normalize (original set) / normalize-all (full chain) / normalize-cordis"; \
-	echo "  build (2,5,7C) / build-all (2–8) / reports"; \
+	echo "  normalize (original set) / normalize-all (full chain) / normalize-cordis / normalize-policy / normalize-cerlite"; \
+	echo "  build (2,5,7C) / build-all (2–8) / build-phase-2s / build-policy-brief / reports"; \
+	echo "  health / reports-init"; \
+	echo "  bootstrap-textint           Create Text Intelligence prompts + watchlist for COUNTRY"; \
+	echo "  bootstrap-textint-overwrite Regenerate Text Intelligence prompts + watchlist (overwrite)"; \
 	echo "Use: make <target> COUNTRY=<ISO2> [QUERY_FILE=... LIMIT=...]";

@@ -26,6 +26,7 @@ import csv
 from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Dict, List, Tuple
+from src.utils.reporting import ensure_template
 
 # ----------------- helpers -----------------
 
@@ -189,6 +190,7 @@ def main():
     args = ap.parse_args()
 
     ccode = args.country.upper()
+    ensure_template(ccode, "phase-2s_supply_chain.md")
     out = Path("reports") / f"country={ccode}" / "phase-2s_supply_chain.md"
     ensure_dir(out)
     md = build_report(ccode)

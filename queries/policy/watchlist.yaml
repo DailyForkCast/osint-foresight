@@ -1,0 +1,37 @@
+# Minimal policy/narrative watchlist (low‑cadence refreshes)
+# Cadence is a hint for occasional rechecks; most docs are stable once ingested.
+- name: Ministry of Industry and Information Technology (MIIT) notices
+  cadence: quarterly
+  country: CN
+  notes: policy/standards/MCF
+  url: https://www.miit.gov.cn/
+- name: US Treasury / OFAC updates
+  cadence: weekly
+  country: US
+  notes: sanctions lists
+  url: https://ofac.treasury.gov/sanctions-lists
+- name: European Commission — DG TRADE (export controls / dual-use)
+  cadence: quarterly
+  country: EU
+  notes: guidance / regulations
+  url: https://policy.trade.ec.europa.eu/index_en
+- name: National Accreditation Body — NO
+  cadence: annual
+  country: NO
+  notes: ISO/IEC 17025/17020 accredited labs directory
+  url: ""
+- name: National Think Tank — NO
+  cadence: semiannual
+  country: NO
+  notes: AI/HPC/critical-tech reports
+  url: ""
+- name: Standards bodies (IETF / ISO / IEC / ITU) — liaison updates
+  cadence: quarterly
+  country: multi
+  notes: standards roadmaps / roles / ballots
+  url: https://datatracker.ietf.org/
+- name: BIS Entity/MEU/UVL lists
+  cadence: weekly
+  country: US
+  notes: export restrictions
+  url: https://www.bis.doc.gov/
