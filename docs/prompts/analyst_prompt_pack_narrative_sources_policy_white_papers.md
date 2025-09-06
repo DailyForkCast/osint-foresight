@@ -1,6 +1,6 @@
 # Analyst Prompt Pack — Narrative Sources (Policy/White Papers)
 
-Use these prompts with ChatGPT/Claude/Gemini to turn unstructured documents into structured facts that feed Phases 5/6/7C/2S. They’re designed for a **single analyst** and work offline with pasted text.
+Use these prompts with ChatGPT/Claude/Gemini to turn unstructured documents into structured facts that feed Phases 5/6/7C/2S. They're designed for a **single analyst** and work offline with pasted text.
 
 ---
 
@@ -30,7 +30,7 @@ Use these prompts with ChatGPT/Claude/Gemini to turn unstructured documents into
 ---
 
 ## 5) Controls to Phase 6 (risk mitigations)
-> Translate the identified controls into **Phase‑6** mitigations. For each control, provide: control name, target risk vector, sector, SCS pillar, implementation burden (low/med/high), and a one‑line “how to apply” in an SME or university.
+> Translate the identified controls into **Phase‑6** mitigations. For each control, provide: control name, target risk vector, sector, SCS pillar, implementation burden (low/med/high), and a one‑line "how to apply" in an SME or university.
 
 ---
 
@@ -40,7 +40,7 @@ Use these prompts with ChatGPT/Claude/Gemini to turn unstructured documents into
 ---
 
 ## 7) Contradiction & Tension Finder
-> Compare this document’s claims with previously captured `policy_assertions.tsv` excerpts I paste. List “Potential Contradictions” and “Resolution Ideas” (who is authoritative, which one is newer, how to safely phrase the uncertainty in our reports).
+> Compare this document's claims with previously captured `policy_assertions.tsv` excerpts I paste. List "Potential Contradictions" and "Resolution Ideas" (who is authoritative, which one is newer, how to safely phrase the uncertainty in our reports).
 
 ---
 
@@ -57,8 +57,7 @@ Use these prompts with ChatGPT/Claude/Gemini to turn unstructured documents into
 - **1**: Media/blog/advocacy.
 
 ## Notes for the solo analyst
-- Do **one pass** per document unless it’s on your watchlist; attach the TSV rows and move on.  
-- Keep **confidence low** when you don’t have strong cites.  
+- Do **one pass** per document unless it's on your watchlist; attach the TSV rows and move on.  
+- Keep **confidence low** when you don't have strong cites.  
 - Prefer **short quotes** with page numbers over paraphrase.  
 - Use the watchlist to decide what to re‑check **quarterly/annually**.
-
