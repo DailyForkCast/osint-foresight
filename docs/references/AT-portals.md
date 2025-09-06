@@ -1,7 +1,7 @@
 ---
 title: "Austria — References & Portals (Seed List)"
 author: Analyst
-date: "2025-01-06"
+date: "<AUTO>"
 ---
 
 > Purpose: authoritative, mostly-stable sources to support narratives, verification, and optional manual data boosts. Keep this list short; expand only when a later phase needs it.
