@@ -12,7 +12,8 @@
       "Bash(else echo \"using venv\")",
       "Bash(fi)",
       "Bash(git commit:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git push:*)"
     ],
     "deny": [],
     "ask": []

@@ -11,3 +11,8 @@ opencorporates:
 patents:
   epo_ops: https://ops.epo.org/3.2/rest-services
   google_bigquery: patents-public-data.patents
+cordis:
+  ckan_base: https://data.europa.eu/api/3/action
+  # package IDs are examples; adjust if needed in future
+  package_id: cordis-h2020projects
+  resource_hint: participants  # choose resource whose name contains this string
