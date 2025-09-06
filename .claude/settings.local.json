@@ -10,7 +10,8 @@
       "Bash(/dev/null)",
       "Bash(then echo \"using conda\")",
       "Bash(else echo \"using venv\")",
-      "Bash(fi)"
+      "Bash(fi)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []

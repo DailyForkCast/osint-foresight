@@ -5,6 +5,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -U pip
 pip install -r requirements.txt
+cp .env.example .env.local  # Add your API keys to .env.local
 
 ## conda/mamba
 conda install -n base -c conda-forge mamba -y || true

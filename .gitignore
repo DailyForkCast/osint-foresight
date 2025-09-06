@@ -3,6 +3,9 @@ __pycache__/
 *.pyc
 .venv/
 
+# Environment variables (NEVER commit!)
+.env.local
+
 # Data (raw and screenshots not versioned)
 /data/raw/
 /evidence/screenshots/

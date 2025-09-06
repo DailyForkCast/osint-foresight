@@ -10,6 +10,10 @@ python3 -m venv .venv && source .venv/bin/activate && python -m pip install -U p
 mamba env create -f environment.yml || conda env create -f environment.yml
 conda activate osint-foresight
 
+### Configure API keys (optional)
+cp .env.example .env.local
+# Edit .env.local to add your API keys
+
 ### First country
 chmod +x scripts/new_country.sh
 ./scripts/new_country.sh PT Portugal 2015-2025
@@ -19,3 +23,5 @@ chmod +x scripts/new_country.sh
 # Or Make: make COUNTRY=PT pull && make COUNTRY=PT build
 
 Outputs land in `data/processed/country=PT/` and `reports/country=PT/`.
+
+See **docs/references/** for official links, recipes, and Evidence Register how‑tos.
