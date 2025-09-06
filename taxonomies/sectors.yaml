@@ -1,0 +1,22 @@
+sectors:
+  - Semiconductors/µE
+  - AI/HPC/Data
+  - Space/EO
+  - Materials/AM
+  - Robotics/UxS
+  - Quantum/Sensing
+  - Cyber/Secure Comms
+  - Bio/Biosecurity
+  - Smart Cities/CI
+  - Remote Sensing & Geospatial   # optional module
+  - PNT & Resilient Timing        # optional module
+  - Edge Comms & Spectrum         # optional module
+arctic_overlays:
+  - ARCTIC_POLAR_COMMS
+  - ARCTIC_SENSING
+  - ARCTIC_AUTONOMY
+  - ARCTIC_MATERIALS_POWER
+  - ARCTIC_INFRA_LOGISTICS
+  - ARCTIC_SUBSEA_SECURITY
+  - ARCTIC_ENV_MONITORING
+  - ARCTIC_STANDARDS_GOV

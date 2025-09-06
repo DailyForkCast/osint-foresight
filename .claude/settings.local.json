@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/mrear/Downloads/**)",
+      "Bash(mkdir:*)",
+      "Bash(chmod:*)",
+      "Bash(./scripts/new_country.sh:*)",
+      "Bash(test:*)",
+      "Bash(if command -v conda)",
+      "Bash(/dev/null)",
+      "Bash(then echo \"using conda\")",
+      "Bash(else echo \"using venv\")",
+      "Bash(fi)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

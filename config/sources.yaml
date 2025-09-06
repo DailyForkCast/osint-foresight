@@ -1,0 +1,13 @@
+openaire:
+  base: https://api.openaire.eu/v1/graph
+crossref:
+  base: https://api.crossref.org
+ietf:
+  base: https://datatracker.ietf.org/api/v1
+gleif:
+  base: https://api.gleif.org/api/v1
+opencorporates:
+  base: https://api.opencorporates.com/v0.4
+patents:
+  epo_ops: https://ops.epo.org/3.2/rest-services
+  google_bigquery: patents-public-data.patents

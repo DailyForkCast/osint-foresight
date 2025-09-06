@@ -1,0 +1,7 @@
+country: Portugal
+iso2: PT
+years: "2015-2025"
+toggles:
+  export_controls: EU_2021_821
+  us_natsec_8: true
+sectors: []

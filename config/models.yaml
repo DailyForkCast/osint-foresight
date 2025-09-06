@@ -1,0 +1,9 @@
+phase7c:
+  weights:
+    interest: 0.25
+    specificity: 0.30
+    mechanism: 0.30
+    friction: 0.15
+  thresholds:
+    priority: 7
+    convenience: 4

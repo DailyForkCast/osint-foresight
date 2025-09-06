@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Data (raw and screenshots not versioned)
+/data/raw/
+/evidence/screenshots/
+
+# OS/IDE
+.DS_Store
+.vscode/
+!.vscode/tasks.json
+!.vscode/settings.json
