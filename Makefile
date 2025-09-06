@@ -87,7 +87,8 @@ normalize-all: guard-country
 	python -m src.normalize.opencorp_to_mechanisms --country $(COUNTRY) && \
 	python -m src.normalize.patents_to_mechanisms --country $(COUNTRY) && \
 	python -m src.normalize.cordis_to_programs --country $(COUNTRY) && \
-	python -m src.normalize.cordis_to_relationships --country $(COUNTRY)
+	python -m src.normalize.cordis_to_relationships --country $(COUNTRY) && \
+	python -m src.utils.cer_lite --country $(COUNTRY)
 
 normalize-cordis: guard-country
 	python -m src.normalize.cordis_to_programs --country $(COUNTRY) && \
@@ -114,6 +115,21 @@ build-all: guard-country normalize-all
 
 reports: build
 	@echo "Reports generated under reports/country=$(COUNTRY)/"
+
+# ---- Phase 2S (CLI parity) ----
+.PHONY: build-phase-2s
+build-phase-2s: guard-country
+	python -m src.analysis.phase2s_supply_chain --country $(COUNTRY)
+
+# ---- CER-lite normalization ----
+.PHONY: normalize-cerlite
+normalize-cerlite: guard-country
+	python -m src.utils.cer_lite --country $(COUNTRY)
+
+# ---- Health check ----
+.PHONY: health
+health: guard-country
+	python scripts/health_check.py --country $(COUNTRY)
 
 # ---------------- Convenience ----------------
 help:
