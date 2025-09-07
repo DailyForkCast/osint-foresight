@@ -1,0 +1,35 @@
+# Save to: queries/keywords/country=AT/phaseX_keywords.yaml
+clusters:
+  C1_AI_ML:
+    core: ["model training", "fine-tuning", "benchmark", "evaluation", "safety"]
+    loose: ["EuroHPC", "VSC", "GPU", "inference", "dataset"]
+    de: { core: ["Modelltraining", "Bewertung"], loose: ["Hochleistungsrechner", "GPU"] }
+    excludes: ["art exhibition", "children's AI toy"]
+  C2_HPC:
+    core: ["SLURM", "MPI", "scheduler", "Infiniband"]
+    loose: ["queue", "job", "node"]
+    de: { core: ["Clusterverwaltung"], loose: ["Warteschlange"] }
+  C3_Comms_Timing:
+    core: ["IPPM", "NTP", "PTP", "time synchronization"]
+    loose: ["latency", "jitter", "packet loss"]
+    de: { core: ["Zeitprotokoll"], loose: ["Latenz"] }
+  C4_Sensing_PNT:
+    core: ["GNSS", "time frequency", "LiDAR", "laser"]
+    loose: ["rubidium", "TOF", "calibration"]
+    de: { core: ["Zeit/Frequenz", "Photonik"], loose: ["Reichweite"] }
+  C5_AdvMfg_Materials:
+    core: ["additive manufacturing", "NDT", "ISO 9712"]
+    loose: ["powder bed", "ultrasonic testing"]
+    de: { core: ["Additive Fertigung", "ZfP"], loose: ["Pulverbett"] }
+  C6_Semiconductors_Electronics:
+    core: ["EMC", "RED", "CISPR", "IEC 61000"]
+    loose: ["anechoic", "shielded room"]
+    de: { core: ["EMV", "Funk"], loose: ["Schirmkammer"] }
+  C7_Space_EO:
+    core: ["ground segment", "remote sensing", "CCSDS"]
+    loose: ["payload", "downlink"]
+    de: { core: ["Bodenstation"], loose: ["Nutzlast"] }
+  C8_Cyber_SafetySW:
+    core: ["ISO 27001", "IEC 61508", "ISO 26262", "HSM"]
+    loose: ["secure module", "SIL"]
+    de: { core: ["Funktionale Sicherheit"], loose: ["SIL"] }

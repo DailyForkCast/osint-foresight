@@ -1,0 +1,7 @@
+framework	code	label	applies_to_subdomains	notes
+EU Annex I	3	Electronics	SD8	General pointer only
+EU Annex I	4	Computers	SD3	Compute/HPC hooks
+EU Annex I	5	Telecom/Information Security	SD4,SD10	Crypto handled carefully
+EU Annex I	6	Sensors & Lasers	SD6	Photonics
+EU Annex I	7	Navigation & Avionics	SD5	GNSS/time
+EU Annex I	9	Aerospace & Propulsion	SD7,SD9	Manufacturing & space interfaces

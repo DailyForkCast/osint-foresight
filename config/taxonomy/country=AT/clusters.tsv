@@ -1,0 +1,9 @@
+cluster_id	name	definition	why_in_AT	export_control_refs	primary_SDOs	example_use_cases
+C1	AI/ML & Autonomy	Methods, models, training/inference, assurance	VSC/EuroHPC access; AI initiatives; intl conferences	ECCN 3D/4D (software) high‑level; ML14 (EU) analogues	ISO/IEC JTC1/SC42; CEN/CENELEC AI; IETF AINEMA (obs)	Model evaluation labs; applied autonomy in industry
+C2	High‑Performance Computing	Compute/testbeds, schedulers, interconnects, tooling	VSC footprint; EuroHPC collaborations	ECCN 4A/4D (systems/software) high‑level	PRACE/EuroHPC; OpenMP; MPI Forum	Access agreements; HPC codes & benchmarks
+C3	Comms, Networking & Timing	IP networking, measurement, NTP/PTP timing	Named roles at IETF IPPM/NTP; test labs	ECCN 5A/5D general (crypto export separate)	IETF (IPPM, NTP, TICTOC); ETSI	Testbeds; perf/latency tooling; time sync infra
+C4	Sensing & PNT	GNSS/time&freq, radar/LiDAR, photonics sensing	Metrology labs; optics/photonics expertise	ECCN 7 (nav) / 6 (sensors) high‑level	ISO; IEC TC 37/TC 76; ETSI; CEN	Calibration benches; RF/GNSS labs
+C5	Advanced Manufacturing & Materials	AM, welding, NDT, specialty steels/alloys	Industrial base; inspection bodies	ML10 (aircraft parts) analogues; Annex I metals	ISO/ASTM AM; ISO 9712 (NDT); CEN	Aerospace/rail/energy component QA
+C6	Semiconductors & Electronics	Power electronics, EMC/RED, test & measurement	EMC/product cert bodies; electronics labs	ECCN 3/5; Annex I semi equipment	IEC TC 47; ETSI RED; CISPR	EMC labs; power modules; instrument chains
+C7	Space/EO Interfaces	Smallsat subsystems, ground segment, EO data	EU/ESA ties; research collaborations	ML15/Annex I remote sensing (high‑level)	ECSS; CCSDS; ISO	Payload data chains; downlink; processing
+C8	Cybersecurity & Safety‑Critical SW	Crypto modules, 27001, functional safety	27001 cert bodies; SW safety	ECCN 5A002/5D002 (crypto) high‑level	ISO/IEC 27001; IEC 61508; ISO 26262	Secure modules; SIL pipelines

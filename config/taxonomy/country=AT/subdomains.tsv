@@ -1,0 +1,11 @@
+cluster_id	subdomain_id	subdomain_name	description	keywords_core	keywords_loose	example_techs
+C1	SD1	Model training & eval	Training/inference; eval/bench	model training; fine‑tuning; benchmark; de:Modelltraining; de:Bewertung	GPU; EuroHPC; VSC; de:Hochleistungsrechner	LLM eval suites; HPC training jobs
+C1	SD2	Safety & assurance	testing, red‑teaming, RAI	model safety; assurance; de:Sicherheit; de:Gewährleistung	risk card; eval harness	Safety test harnesses
+C2	SD3	Schedulers & interconnect	SLURM, MPI, IB	SLURM; MPI; Infiniband; de:Clusterverwaltung	job queue; de:Warteschlange	HPC cluster configs
+C3	SD4	Performance measurement	IPPM metrics; NTP/PTP	IPPM; NTP; PTP; de:Zeitprotokoll	latency; jitter; de:Latenz	Perf probes; time sync
+C4	SD5	GNSS & time/freq	receivers; calibration	GNSS; time frequency; de:Zeit/Frequenz	disciplining; rubidium	GNSS labs
+C4	SD6	Photonics sensing	lidar, lasers	LiDAR; laser; de:Laser; de:Photonik	TOF; range	LiDAR benches
+C5	SD7	AM & NDT	AM processes; ISO 9712	additive manufacturing; NDT; de:Additive Fertigung; de:ZfP	powder bed; UT/RT/MT	AM part QA
+C6	SD8	EMC/RED & electronics test	EMC chambers; radio	EMC; RED; de:EMV; de:Funk	anechoic; conformity	EMC test labs
+C7	SD9	Ground segment & EO	downlink, processing	ground segment; remote sensing; de:Bodenstation	CCSDS; payload	EO data chains
+C8	SD10	Crypto & safety SW	27001, 61508, 26262	27001; 61508; de:Funktionale Sicherheit	HSM; module	Safety pipelines
