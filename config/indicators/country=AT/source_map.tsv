@@ -1,0 +1,13 @@
+source_id	indicator_id	name	type	access	notes
+SRC1	IND1	OpenAIRE Explore/Graph	API/portal	Free	Co-authorship, grants (EU)
+SRC2	IND1	Crossref + Event Data	API	Free	Pubs + citations/events
+SRC3	IND2	IETF Datatracker	Web/CSV	Free	WG roles; drafts; authors
+SRC4	IND2	ETSI portal (WG rosters)	Web	Free	Roles, groups (manual scrape)
+SRC5	IND3	Akkreditierung Austria registry	Web	Free	17025/17020/17065 scopes
+SRC6	IND4	CORDIS	API/CSV	Free	Projects, partners, topics
+SRC7	IND5	EuroHPC/VSC portals	Web/RSS	Free	Facility nodes/allocations
+SRC8	IND6	GLEIF (LEI)	API/CSV	Free	Legal entity IDs
+SRC9	IND6	OpenCorporates	API	Token	Ownership/JV links
+SRC10	IND7	EU/UK/CA/AU/NZ/UN sanctions	Web/CSV	Free	Signals only; exclude US persons
+SRC11	IND8	AT ministries/EU/PRC policy portals	Web/PDF	Free	Doctrine corpus
+SRC12	IND9	Ports/rail/air registries; customs	Web	Free	Exposure checks

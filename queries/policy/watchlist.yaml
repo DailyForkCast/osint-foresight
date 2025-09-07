@@ -25,6 +25,42 @@
   country: NO
   notes: AI/HPC/critical-tech reports
   url: ""
+# Austria-specific entries
+- name: IETF IPPM Working Group
+  cadence: monthly
+  country: AT
+  notes: Performance metrics; TU Wien participation
+  url: https://datatracker.ietf.org/wg/ippm/
+- name: IETF NTP Working Group
+  cadence: monthly
+  country: AT
+  notes: Time protocol; TU Wien participation
+  url: https://datatracker.ietf.org/wg/ntp/
+- name: Akkreditierung Austria
+  cadence: quarterly
+  country: AT
+  notes: ISO/IEC 17025/17020/17065 accredited labs
+  url: https://www.bmaw.gv.at/Themen/Technik-und-Vermessung/Akkreditierung.html
+- name: CORDIS AT participants
+  cadence: monthly
+  country: AT
+  notes: EU project participation 2015-2025
+  url: https://cordis.europa.eu/
+- name: EuroHPC/VSC notices
+  cadence: monthly
+  country: AT
+  notes: HPC facility updates and allocations
+  url: https://www.vsc.ac.at/
+- name: EU Consolidated Sanctions (non-US)
+  cadence: weekly
+  country: EU
+  notes: Signals only; exclude US persons
+  url: https://data.europa.eu/data/datasets/consolidated-list-of-persons-groups-and-entities-subject-to-eu-financial-sanctions
+- name: GLEIF Austria
+  cadence: monthly
+  country: AT
+  notes: Legal Entity Identifiers
+  url: https://www.gleif.org/
 - name: Standards bodies (IETF / ISO / IEC / ITU) — liaison updates
   cadence: quarterly
   country: multi

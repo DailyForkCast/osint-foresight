@@ -1,0 +1,10 @@
+indicator_id	theme	description	why_it_matters	related_phases	collection_mode
+IND1	Research output & links	Co-publications, conference co-authorships, grant co-participation	Reveals collaboration edges and maturity	P2,P5	OpenAIRE,Crossref (API)+manual conf pages
+IND2	Standards roles	Named authors/co-chairs/editors in IETF/ETSI/ISO/IEC	Standards leverage, influence channels	P2,P5,P6	IETF Datatracker scrape; ETSI rosters
+IND3	Accredited capabilities	ISO/IEC 17025/17020 scopes; 17065 product cert	Real test/measure capacity; dual-use footprints	P3,P6	National registry (portal scrape/manual)
+IND4	Funding & programs	National calls; CORDIS/Horizon projects	Drives co-project links and sector maturity	P4,P5	National portals + CORDIS API/CSV
+IND5	Facilities & compute	HPC/testbeds/EO ground segment; EuroHPC/VSC	Enable development and scale	P2,P8	Facility pages; EuroHPC, VSC news
+IND6	Corporate/institutional registry	Legal entities, BO/LEI, JV/equity	Ownership/control vectors; JV watch	P2S,P5,P7C	OpenCorporates + GLEIF (LEI)
+IND7	Sanctions/legal signals (non‑US only)	EU/UK/CA/AU/NZ/UN listings; legal cases	Risk posture signals, not proof	P6,P7C,P7R	Official lists; case repositories
+IND8	Policy & doctrine corpus	PRC + AT + EU tech/standards/export/FDI docs	Align signals with doctrine; foresee posture	P7C,P8	Official portals; think‑tanks (free)
+IND9	Supply chain & logistics	Ports/FTZ/rail/air, customs, trade corridors	Exposure and alternative routes	P2S,P8	Govt & industry registries (free)

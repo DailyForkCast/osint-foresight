@@ -1,0 +1,6 @@
+theme	core_keywords	de_synonyms
+EMC/RED	emc; red; cispr; etsi; radio; conformity; anechoic	emv; funk; konformität; schirmkammer
+Time/Frequency	time synchronization; ntp; ptp; disciplining; gnss	zeit; frequenz; zeitprotokoll; gnss
+HPC/Compute	slurm; mpi; infiniband; queue; allocation	clusterverwaltung; warteschlange
+AM/NDT	additive manufacturing; ndt; iso 9712; ultrasonic; radiography	additive fertigung; zfp; zerstörungsfrei
+EO/Space	ground segment; ccsds; payload; downlink	bodenstation; nützlast
