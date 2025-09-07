@@ -19,16 +19,6 @@ from src.utils.reporting import ensure_template  # belt-and-suspenders
 def _read_csv(path: Path, **kw) -> pd.DataFrame:
     if not path.exists():
         return pd.DataFrame()
-    
-    # Check file extension for TSV hint
-    if path.suffix.lower() == '.tsv':
-        try:
-            return pd.read_csv(path, sep="\t", **kw)
-        except Exception as e:
-            print(f"WARN: failed to read TSV {path}: {e}")
-            return pd.DataFrame()
-    
-    # Try CSV first
     try:
         return pd.read_csv(path, **kw)
     except Exception:
@@ -195,30 +185,10 @@ def main(argv: List[str] | None = None) -> int:
     # Standards table (up to 10 rows)
     std_rows: List[List[str]] = []
     if not std.empty:
-        # Select only the columns we want for display
-        display_cols = ["wg", "role", "person_name", "org_name", "sector_hint"]
-        cols = [c for c in display_cols if c in std.columns]
-        if len(cols) >= 3:  # Need at least WG, role, person/org
-            # Build table with available columns
-            table_cols = []
-            if "wg" in std.columns:
-                table_cols.append("wg")
-            if "role" in std.columns:
-                table_cols.append("role")
-            if "person_name" in std.columns:
-                table_cols.append("person_name")
-            elif "org_name" in std.columns:
-                table_cols.append("org_name")
-            if "org_name" in std.columns and "person_name" in std.columns:
-                # If both exist, include org_name as 4th column
-                if "org_name" not in table_cols:
-                    table_cols.append("org_name")
-            if "sector_hint" in std.columns and len(table_cols) < 4:
-                table_cols.append("sector_hint")
-            
-            if len(table_cols) >= 3:
-                s10 = std[table_cols].head(10).fillna("–")
-                std_rows = s10.values.tolist()
+        cols = [c for c in ["wg", "role", "person_name", "org_name", "sector_hint"] if c in std.columns]
+        if cols:
+            s10 = std[cols].head(10).fillna("–")
+            std_rows = s10.values.tolist()
     sig_rows: List[List[str]] = []
     if not sig.empty:
         for _, r in sig.head(5).iterrows():
@@ -256,7 +226,7 @@ def main(argv: List[str] | None = None) -> int:
 
     md.append("## Standards Posture")
     if std_rows:
-        md.append("| WG / SDO | Role | Person | Organization |")
+        md.append("| WG / SDO | Role | Person/Org | Sector hint |")
         md.append("|---|---|---|---|")
         md.append(_md_table(std_rows))
     else:

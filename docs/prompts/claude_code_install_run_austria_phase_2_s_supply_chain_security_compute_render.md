@@ -1,3 +1,18 @@
+Below is a single, copy‑paste canvas for Claude Code. It **installs** the Phase‑2S compute script, **runs** it for Austria, and prints tight logs. Deterministic writes; no pushes.
+
+---
+
+# Claude Code — Install & Run Phase 2S (Austria, AT)
+
+## Guardrails
+- Deterministic writes only; **do not** `git push`.
+- If the script below differs from local files, **overwrite** it.
+- After install, **run** it for `AT` and print the `WRITE …` confirmation line.
+
+## Step A — Create/overwrite `src/analysis/phase2s_supply_chain.py`
+Write this file **verbatim**:
+
+```python
 # src/analysis/phase2s_supply_chain.py
 from __future__ import annotations
 import argparse
@@ -210,3 +225,27 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
+
+## Step B — Run 2S for Austria
+Execute:
+```bash
+python -m src.analysis.phase2s_supply_chain --country AT
+```
+Expected output:
+```
+WRITE reports/country=AT/phase-2s_supply_chain.md
+```
+
+## Step C — (Optional) commit locally (no push)
+```bash
+git add src/analysis/phase2s_supply_chain.py reports/country=AT/phase-2s_supply_chain.md
+git commit -m "feat(AT/phase-2s): compute Supply Chain Security snapshot from processed tables"
+```
+
+## Final log
+Print:
+```
+OK: Phase 2S computed & written for AT
+```
+

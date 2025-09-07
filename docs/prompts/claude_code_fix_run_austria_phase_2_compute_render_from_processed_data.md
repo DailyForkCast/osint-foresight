@@ -1,38 +1,39 @@
+Below is a single copy‑paste canvas for Claude Code. It **ensures** the compute script is installed, **runs** it for Austria, and prints tight logs. No pushes.
+
+---
+
+# Claude Code — Fix & Run Phase 2 (Austria, AT)
+
+## Guardrails
+- Deterministic writes only. No `git push`.
+- If the compute script below differs from your local `src/analysis/phase2_landscape.py`, **overwrite** it.
+- Then run it for `AT` and print a single `WRITE …` line.
+
+## Step A — Install/overwrite compute script
+Create/overwrite **`src/analysis/phase2_landscape.py`** with the content below.
+
+```python
 # src/analysis/phase2_landscape.py
 from __future__ import annotations
 import argparse
 from pathlib import Path
-import os
-import sys
-import csv
 from typing import List, Tuple
 
 try:
     import pandas as pd
-except Exception as e:
+except Exception:
     print("ERROR: pandas is required. Try `pip install -r requirements.txt`.")
     raise
 
-from src.utils.reporting import ensure_template  # belt-and-suspenders
+from src.utils.reporting import ensure_template
 
 
 def _read_csv(path: Path, **kw) -> pd.DataFrame:
     if not path.exists():
         return pd.DataFrame()
-    
-    # Check file extension for TSV hint
-    if path.suffix.lower() == '.tsv':
-        try:
-            return pd.read_csv(path, sep="\t", **kw)
-        except Exception as e:
-            print(f"WARN: failed to read TSV {path}: {e}")
-            return pd.DataFrame()
-    
-    # Try CSV first
     try:
         return pd.read_csv(path, **kw)
     except Exception:
-        # Try TSV fallback
         try:
             return pd.read_csv(path, sep="\t", **kw)
         except Exception:
@@ -41,11 +42,10 @@ def _read_csv(path: Path, **kw) -> pd.DataFrame:
 
 
 def _present(df: pd.DataFrame) -> str:
-    return "yes (rows={})".format(len(df)) if not df.empty else "no"
+    return f"yes (rows={len(df)})" if not df.empty else "no"
 
 
 def _intensity_bucket(counts: pd.Series) -> pd.Series:
-    # counts is per-sector edge_count. 0 => 0, otherwise quartiles 1..3
     if counts.empty:
         return counts
     nz = counts[counts > 0]
@@ -55,9 +55,9 @@ def _intensity_bucket(counts: pd.Series) -> pd.Series:
     q2 = nz.quantile(0.50)
     buckets = pd.Series(0, index=counts.index, dtype=int)
     buckets.loc[nz.index] = 1
-    buckets.loc[nz.index & (counts <= q2)] = 2
-    buckets.loc[nz.index & (counts <= q1)] = 1
-    buckets.loc[nz.index & (counts > q2)] = 3
+    buckets.loc[(counts <= q1) & (counts > 0)] = 1
+    buckets.loc[(counts > q1) & (counts <= q2)] = 2
+    buckets.loc[counts > q2] = 3
     return buckets
 
 
@@ -78,7 +78,6 @@ def main(argv: List[str] | None = None) -> int:
     args = ap.parse_args(argv)
 
     ccode = args.country.upper()
-    # Ensure a template exists, but we will overwrite with computed content
     ensure_template(ccode, "phase-2_landscape.md")
 
     proc = Path("data/processed") / f"country={ccode}"
@@ -92,145 +91,95 @@ def main(argv: List[str] | None = None) -> int:
     std = _read_csv(std_path)
     cer = _read_csv(cer_path)
 
-    # Normalize column names
-    def normcols(df):
+    # normalize columns
+    def norm(df):
         if df.empty:
             return df
         df.columns = [c.strip().lower() for c in df.columns]
         return df
 
-    rel = normcols(rel)
-    sig = normcols(sig)
-    std = normcols(std)
-    cer = normcols(cer)
+    rel, sig, std, cer = map(norm, [rel, sig, std, cer])
 
-    # Filter years to 2015–2025
+    # year filter
     if not rel.empty and "year" in rel.columns:
-        try:
-            rel["year"] = pd.to_numeric(rel["year"], errors="coerce")
-            rel = rel[(rel["year"] >= 2015) & (rel["year"] <= 2025)]
-        except Exception:
-            pass
+        rel["year"] = pd.to_numeric(rel["year"], errors="coerce")
+        rel = rel[(rel["year"] >= 2015) & (rel["year"] <= 2025)]
 
-    # CER-lite join (prefer canon_name if available)
-    if not rel.empty and "counterpart_name" in rel.columns and not cer.empty:
-        left = rel.copy()
-        # Try simple exact join on raw_name==counterpart_name & country==counterpart_country
-        if {"raw_name", "canon_name", "country"}.issubset(set(cer.columns)) and "counterpart_country" in left.columns:
-            cer_small = cer[["raw_name", "canon_name", "country"]].dropna()
-            rel = left.merge(
-                cer_small,
+    # partner display (CER-lite if present)
+    if not rel.empty and "counterpart_name" in rel.columns:
+        rel["partner_display"] = rel["counterpart_name"]
+        if not cer.empty and {"raw_name", "canon_name", "country"}.issubset(cer.columns) and "counterpart_country" in rel.columns:
+            rel = rel.merge(
+                cer[["raw_name", "canon_name", "country"]].dropna(),
                 how="left",
                 left_on=["counterpart_name", "counterpart_country"],
                 right_on=["raw_name", "country"],
             )
-            rel["partner_display"] = rel["canon_name"].fillna(rel["counterpart_name"])
-        else:
-            rel["partner_display"] = rel["counterpart_name"]
-    elif not rel.empty and "counterpart_name" in rel.columns:
-        rel["partner_display"] = rel["counterpart_name"]
+            rel["partner_display"] = rel["canon_name"].fillna(rel["partner_display"])
 
-    # Compute sector counts & momentum
+    # compute tables
     sector_rows: List[List[str]] = []
-    bullet_lines: List[str] = []
-    rel_present = _present(rel)
-    sig_present = _present(sig)
-    std_present = _present(std)
-    cer_present = _present(cer)
+    bullets: List[str] = []
+    rel_present, sig_present, std_present, cer_present = map(_present, [rel, sig, std, cer])
 
     if not rel.empty and {"sector", "year"}.issubset(rel.columns):
         counts = rel.groupby("sector").size().rename("edge_count")
         buckets = _intensity_bucket(counts)
-        # Momentum buckets
         rel["b15_18"] = ((rel["year"] >= 2015) & (rel["year"] <= 2018)).astype(int)
         rel["b19_22"] = ((rel["year"] >= 2019) & (rel["year"] <= 2022)).astype(int)
         rel["b23_25"] = ((rel["year"] >= 2023) & (rel["year"] <= 2025)).astype(int)
         mom = rel.groupby("sector").agg({"b15_18": "sum", "b19_22": "sum", "b23_25": "sum"})
 
-        # Top counterpart per sector + consortium skew
+        # top counterparts and skew
         top_rows: List[Tuple[str, str, float]] = []
-        if {"partner_display", "sector"}.issubset(rel.columns):
-            grp = rel.groupby(["sector", "partner_display"]).size().rename("n").reset_index()
-            for sector, g in grp.groupby("sector"):
-                g2 = g.sort_values("n", ascending=False)
-                top = g2.iloc[0]
-                share = top["n"] / g2["n"].sum() if g2["n"].sum() > 0 else 0.0
-                names = [top["partner_display"]]
-                if len(g2) > 1:
-                    names.append(g2.iloc[1]["partner_display"])
-                top_rows.append((sector, ", ".join(names[:2]), share))
-        top_df = pd.DataFrame(top_rows, columns=["sector", "tops", "share"]) if top_rows else pd.DataFrame(columns=["sector", "tops", "share"]) 
+        grp = rel.groupby(["sector", "partner_display"]).size().rename("n").reset_index()
+        for sector, g in grp.groupby("sector"):
+            g2 = g.sort_values("n", ascending=False)
+            top = g2.iloc[0]
+            share = float(top["n"]) / float(g2["n"].sum()) if g2["n"].sum() else 0.0
+            names = [top["partner_display"]]
+            if len(g2) > 1:
+                names.append(g2.iloc[1]["partner_display"])
+            top_rows.append((sector, ", ".join(names[:2]), share))
+        top_df = pd.DataFrame(top_rows, columns=["sector", "tops", "share"]).set_index("sector")
 
-        df = (
-            counts.to_frame()
-            .join(buckets.rename("intensity"))
-            .join(mom)
-            .join(top_df.set_index("sector"), how="left")
-            .fillna({"tops": "–", "share": 0.0})
-            .reset_index()
-        )
+        df = counts.to_frame().join([buckets.rename("intensity"), mom, top_df], how="left").fillna({"tops": "–", "share": 0.0}).reset_index()
         df = df.sort_values(["intensity", "edge_count"], ascending=[False, False])
 
         for _, r in df.iterrows():
             sector = str(r["sector"]) if pd.notna(r["sector"]) else "–"
             intensity = str(int(r["intensity"])) if pd.notna(r["intensity"]) else "0"
-            momentum = _format_momentum(r)
+            mom_s = _format_momentum(r)
             tops = r["tops"] if isinstance(r["tops"], str) else "–"
             skew = "Yes (>50%)" if float(r["share"]) > 0.5 else "No"
-            sector_rows.append([sector, intensity, momentum, tops, skew])
+            sector_rows.append([sector, intensity, mom_s, tops, skew])
 
-        # Narrative bullets (up to 5)
         head = df.head(3)
         for _, r in head.iterrows():
-            bullet_lines.append(
-                f"**{r['sector']}** shows intensity {int(r['intensity'])} with momentum {int(r['b15_18'])}/{int(r['b19_22'])}/{int(r['b23_25'])}. Top counterpart: {r['tops']}."
-            )
+            bullets.append(f"**{r['sector']}** shows intensity {int(r['intensity'])} with momentum {int(r['b15_18'])}/{int(r['b19_22'])}/{int(r['b23_25'])}. Top counterpart: {r['tops']}.")
         if (df["share"] > 0.5).any():
             dom = df.loc[df["share"] > 0.5, "sector"].tolist()
-            bullet_lines.append(f"Consortium skew detected in: {', '.join(map(str, dom))} (top-1 > 50%).")
+            bullets.append("Consortium skew detected in: " + ", ".join(map(str, dom)) + " (top-1 > 50%).")
     else:
-        sector_rows = []
-        bullet_lines.append("No relationships.csv yet — add CORDIS/standards/project edges to improve intensity and momentum.")
+        bullets.append("No relationships.csv yet — add CORDIS/standards/project edges to improve intensity and momentum.")
 
-    # Standards table (up to 10 rows)
+    # standards
     std_rows: List[List[str]] = []
     if not std.empty:
-        # Select only the columns we want for display
-        display_cols = ["wg", "role", "person_name", "org_name", "sector_hint"]
-        cols = [c for c in display_cols if c in std.columns]
-        if len(cols) >= 3:  # Need at least WG, role, person/org
-            # Build table with available columns
-            table_cols = []
-            if "wg" in std.columns:
-                table_cols.append("wg")
-            if "role" in std.columns:
-                table_cols.append("role")
-            if "person_name" in std.columns:
-                table_cols.append("person_name")
-            elif "org_name" in std.columns:
-                table_cols.append("org_name")
-            if "org_name" in std.columns and "person_name" in std.columns:
-                # If both exist, include org_name as 4th column
-                if "org_name" not in table_cols:
-                    table_cols.append("org_name")
-            if "sector_hint" in std.columns and len(table_cols) < 4:
-                table_cols.append("sector_hint")
-            
-            if len(table_cols) >= 3:
-                s10 = std[table_cols].head(10).fillna("–")
-                std_rows = s10.values.tolist()
+        cols = [c for c in ["wg", "role", "person_name", "org_name", "sector_hint"] if c in std.columns]
+        if cols:
+            s10 = std[cols].head(10).fillna("–")
+            std_rows = s10.values.tolist()
+
+    # signals
     sig_rows: List[List[str]] = []
     if not sig.empty:
         for _, r in sig.head(5).iterrows():
-            window = r.get("window", "–")
-            summ = r.get("signal_summary", "–")
-            driver = r.get("likely_driver", "–")
-            sig_rows.append([str(window), str(summ), str(driver)])
+            sig_rows.append([str(r.get("window", "–")), str(r.get("signal_summary", "–")), str(r.get("likely_driver", "–"))])
 
     out_path = Path(args.out) if args.out else Path("reports") / f"country={ccode}" / "phase-2_landscape.md"
     out_path.parent.mkdir(parents=True, exist_ok=True)
 
-    # Build markdown
     md = []
     md.append("---")
     md.append("title: \"Phase 2 — Technology Landscape & Maturity (Austria)\"")
@@ -256,7 +205,7 @@ def main(argv: List[str] | None = None) -> int:
 
     md.append("## Standards Posture")
     if std_rows:
-        md.append("| WG / SDO | Role | Person | Organization |")
+        md.append("| WG / SDO | Role | Person/Org | Sector hint |")
         md.append("|---|---|---|---|")
         md.append(_md_table(std_rows))
     else:
@@ -273,9 +222,9 @@ def main(argv: List[str] | None = None) -> int:
 
     md.append("---\n")
     md.append("## Narrative Snapshot")
-    for b in bullet_lines[:5]:
+    for b in bullets[:5]:
         md.append(f"- {b}")
-    if not bullet_lines:
+    if not bullets:
         md.append("- (Stub narrative)")
 
     md.append("\n## Caveats")
@@ -292,3 +241,27 @@ def main(argv: List[str] | None = None) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+```
+
+## Step B — Run the compute script for Austria
+Execute:
+```bash
+python -m src.analysis.phase2_landscape --country AT
+```
+Expected output:
+```
+WRITE reports/country=AT/phase-2_landscape.md
+```
+
+## Step C — (Optional) commit locally (no push)
+```bash
+git add src/analysis/phase2_landscape.py reports/country=AT/phase-2_landscape.md
+git commit -m "feat(AT/phase-2): compute & render from processed data"
+```
+
+## Final log
+Print:
+```
+OK: Phase 2 computed & written for AT
+```
+

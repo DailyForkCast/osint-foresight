@@ -1,3 +1,18 @@
+Below is a single, copy‑paste canvas for Claude Code. It **installs** the Phase‑3 compute script, **runs** it for Austria, and prints tight logs. Deterministic writes; no pushes.
+
+---
+
+# Claude Code — Install & Run Phase 3 (Austria, AT)
+
+## Guardrails
+- Deterministic writes only; **do not** `git push`.
+- If the script below differs from local files, **overwrite** it.
+- After install, **run** it for `AT` and print the `WRITE …` confirmation line.
+
+## Step A — Create/overwrite `src/analysis/phase3_institutions.py`
+Write this file **verbatim**:
+
+```python
 # src/analysis/phase3_institutions.py
 from __future__ import annotations
 import argparse
@@ -191,3 +206,27 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
+
+## Step B — Run Phase 3 for Austria
+Execute:
+```bash
+python -m src.analysis.phase3_institutions --country AT
+```
+Expected output:
+```
+WRITE reports/country=AT/phase-3_institutions.md
+```
+
+## Step C — (Optional) commit locally (no push)
+```bash
+git add src/analysis/phase3_institutions.py reports/country=AT/phase-3_institutions.md
+git commit -m "feat(AT/phase-3): compute Institutions & Accredited Labs snapshot"
+```
+
+## Final log
+Print:
+```
+OK: Phase 3 computed & written for AT
+```
+
