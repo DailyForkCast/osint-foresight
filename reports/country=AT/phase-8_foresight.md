@@ -168,6 +168,92 @@ year_or_quarter	milestone	sector	why_relevant	related_threat_ids
 
 **Why this matters and how to falsify.** If queue times stabilize and alternates assume SDO roles, near‑term risks diminish; conversely, a credible sensitive JV/equity filing would raise long‑horizon concern. Each claim lists a concrete falsification path.
 
+## Sector Playbooks (≤3) — dynamic selection
+Pick up to **three** sectors **dynamically** using:
+
+**Ranking score:** `score = capability_heat_0_3 (Phase 2) + max_risk_1_3 (Phase 6)` per cluster. If `capability_heat.tsv` or `risk_register.tsv` are missing, use narrative judgment and mark `notes=heuristic`.
+
+**For each of the top‑K sectors (K≤3), include:**
+- **Rationale (5–7 sentences):** why this sector matters now (evidence anchors).
+- **Leverage moves:** 2–3 realistic actions that improve safety/benefit.
+- **Controls & guardrails:** export‑control interfaces, governance, and research integrity checks.
+- **Allies & counterparties:** local institutions and safe international partners.
+- **Success criteria:** 3 measurable outcomes (EWIs) for 12–24 months.
+
+> The playbooks are templates for optional capacity‑building, not directives. They update when heat/risk scores change.
+
+### Playbook 1: High-Performance Computing (C2)
+**Score:** 5 (capability_heat=3 + risk=2)
+
+**Rationale:** Austria's HPC infrastructure through VSC and EuroHPC access represents the highest combined capability and risk profile. The VSCrunchy upgrade (June 2024) and LEONARDO access demonstrate sustained investment but also dependency. This compute backbone enables AI/ML research across multiple sectors. The dual-use nature emerges from the same infrastructure supporting legitimate research and potentially sensitive model development. EU governance provides transparency but downstream use monitoring remains challenging.
+
+**Leverage moves:**
+1. Establish compute allocation transparency dashboard showing project types and resource consumption patterns
+2. Create HPC skills transfer program linking VSC expertise to broader Austrian research community
+3. Develop sovereign cloud burst capability for overflow capacity independent of EuroHPC
+
+**Controls & guardrails:**
+- EU export control regulations (ECCN 4A/4D) for HPC systems
+- EuroHPC governance framework and allocation policies
+- Facility access logging and project review processes
+
+**Allies & counterparties:**
+- Local: VSC consortium universities, TU Wien, University of Vienna
+- International: EuroCC Slovenia (SLING), EuroHPC partners, PRACE network
+
+**Success criteria:**
+1. Maintain ≥80% domestic allocation availability (measured quarterly)
+2. Train 50+ researchers in HPC optimization techniques (12 months)
+3. Establish backup compute agreements with 2+ alternative providers (24 months)
+
+### Playbook 2: AI/ML & Autonomy (C1)
+**Score:** 5 (capability_heat=3 + risk=2)
+
+**Rationale:** Austria's AI ecosystem shows strong international connectivity through ISTA and TU Wien collaborations. The ICLR 2024 Vienna hosting and dense publication network with US/German institutions create knowledge transfer corridors. AI Mission Austria funding coordination signals strategic prioritization. Risk emerges from compute dependency and potential dual-use applications. The talent concentration in few labs creates both opportunity and vulnerability for capability shifts.
+
+**Leverage moves:**
+1. Establish AI safety evaluation lab aligned with EU AI Act requirements
+2. Create structured talent retention program for critical AI subdomain expertise
+3. Develop reproducibility infrastructure for model verification and validation
+
+**Controls & guardrails:**
+- EU AI Act compliance framework
+- Research integrity guidelines for dual-use AI applications
+- Export control awareness for AI software (ECCN 3D/4D)
+
+**Allies & counterparties:**
+- Local: ISTA, TU Wien AI groups, AI Mission Austria consortium
+- International: CMU, UT Austin, University of Tübingen, Max Planck Institute
+
+**Success criteria:**
+1. Launch operational AI safety lab with 3+ evaluation frameworks (12 months)
+2. Retain 90% of senior AI researchers in critical subdomains (24 months)
+3. Publish 10+ reproducible benchmarks with Austrian institutional lead (24 months)
+
+### Playbook 3: Communications/Networking & Timing (C3)
+**Score:** 4 (capability_heat=2 + risk=2)
+
+**Rationale:** TU Wien's IETF participation in IPPM and NTP working groups provides standards influence in critical infrastructure protocols. Time synchronization underpins GNSS, financial systems, and 5G networks. The concentration in single contributor creates succession risk. Austria's position enables both constructive standards contributions and potential protocol influence. The technical depth in timing protocols has dual-use implications for navigation and critical infrastructure.
+
+**Leverage moves:**
+1. Expand IETF participation beyond single contributor through mentorship program
+2. Establish timing/sync testbed for protocol validation and interoperability testing
+3. Create standards skills clinic linking academia to industry implementation
+
+**Controls & guardrails:**
+- IETF open process and multi-stakeholder review requirements
+- Export control awareness for timing/crypto implementations (ECCN 5A/5D)
+- Transparent documentation of standards contributions
+
+**Allies & counterparties:**
+- Local: TU Wien networking groups, telecom operators
+- International: IETF community, ETSI members, regional NRENs
+
+**Success criteria:**
+1. Add 2+ co-authors to IETF drafts from Austrian institutions (12 months)
+2. Establish operational timing testbed with 5+ test scenarios (18 months)
+3. Document 10+ industry implementations of Austrian-influenced standards (24 months)
+
 ## 3–5 Bullet Executive Summary
 
 - **Near‑term (2y):** Compute allocation is the pacing factor for AI model work; standards depth mitigates risk.

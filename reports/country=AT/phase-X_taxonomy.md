@@ -7,24 +7,42 @@ date: 2025-09-07
 ## Purpose
 This chapter establishes a **country‑aware dual‑use taxonomy** for Austria (AT): 6–10 clusters, their subdomains, keyword sets (EN/DE), standards links, and light export‑control hooks. It is designed to be **evidence‑guided but runnable without external data**. Where helpful, we note optional manual data boosts.
 
-## Selection Criteria (how clusters are chosen)
-- **Relevance to dual‑use & MCF‑consistent mechanisms** (label‑independent, function‑over‑label).
-- **Observable footprint** in AT via labs, standards roles, facilities, or partnerships (from Phases 2/3/5).
-- **Standards/Accreditation traction** (IETF/ETSI/ISO/IEC; ISO/IEC 17025/17020).
-- **Export‑control sensitivity** (Annex I/ECCN, ML categories; high level only).
-- **Feasibility for a solo analyst** (keywords and sources yield signals without paid tools).
+## Cluster & Subdomain Selection (Flexible, Evidence‑Driven)
+We do **not** hard‑code technology clusters. Instead, we select clusters and subdomains based on country‑specific evidence and our Phase‑X keyword taxonomy.
 
-## Austria Cluster Shortlist (8)
-1. **AI/ML & Autonomy** — model development, safety, deployment; signals via VSC/EuroHPC access and AI initiatives.
-2. **High‑Performance Computing (HPC)** — compute/testbeds (VSC; EuroHPC ties); software stacks.
-3. **Communications, Networking & Timing** — IP networking, performance measurement, NTP/PTP time sync (IETF roles in IPPM/NTP at TU Wien).
-4. **Sensing, PNT & Navigation** — GNSS/time & frequency, radar/LiDAR, photonics sensing; metrology.
-5. **Advanced Manufacturing & Materials** — additive mfg, NDT/inspection, specialty steels/alloys, surface treatments.
-6. **Semiconductors & Electronics** — power electronics, packaging/test, instrumentation; EMC/RED conformity.
-7. **Space, EO & Remote Sensing Interfaces** — smallsat supply, ground segment links, data processing.
-8. **Cybersecurity, Cryptography & Safety‑Critical SW** — secure modules, functional safety, software assurance, 27001 posture.
+**Selection signals (any two → include):**
+- ≥ 2 recent edges in `relationships.csv` within a subdomain (last 36 months)
+- ≥ 1 accredited scope in `AccreditedLabs.tsv` (or equivalent) mapping to the subdomain
+- ≥ 1 standards role (`standards_roles.tsv`) relevant to the subdomain
+- ≥ 1 funded program/call in `programs.csv` / `calls.tsv` tagged to the subdomain
+- Narrative confirmation in official portals / policy docs (with source ID in Evidence Register)
 
-> Optional watchlist: **Energy storage & batteries** (interfaces), **Biotech (methods)** if scope expands.
+**Suppression signals (both → exclude for now):**
+- Zero structured signals above **and** no credible narrative source within the last 5 years
+
+**Minimum/maximum:**
+- Pick **4–10 clusters** total (country‑dependent) and 1–4 subdomains per cluster. If fewer than 4 meet the threshold, include the best evidence‑supported ones and mark others as **"latent"** with `notes=low_evidence`.
+
+**Mapping method:**
+- Use `queries/keywords/taxonomy.csv` (or the current taxonomy file) to map terms → clusters → subdomains. Allow multi‑tagging across clusters; don't force uniqueness.
+
+**Outputs:**
+- `domain_maturity.tsv` with `cluster_id,subdomain,selection_reason,signals_count,notes`.
+- Narrative definitions and country examples for **only** the selected clusters/subdomains.
+
+## Austria Selected Clusters (Evidence‑Based)
+Based on current evidence, the following clusters meet selection criteria:
+
+1. **AI/ML & Autonomy (C1)** — Strong evidence: multiple NeurIPS co-authorships, ICLR 2024 hosting, AI Mission Austria funding
+2. **High‑Performance Computing (C2)** — Strong evidence: VSC infrastructure, EuroHPC access, ASHPC24 event
+3. **Communications, Networking & Timing (C3)** — Medium evidence: IETF IPPM/NTP standards roles (TU Wien)
+4. **Sensing, PNT & Navigation (C4)** — Latent: Expected GNSS/time capabilities but scopes unconfirmed
+5. **Advanced Manufacturing & Materials (C5)** — Latent: Industrial base signals but limited direct evidence
+6. **Semiconductors & Electronics (C6)** — Latent: EMC/RED labs anticipated but not documented
+7. **Space, EO & Remote Sensing Interfaces (C7)** — Minimal evidence: EU/ESA ties but no specific projects
+8. **Cybersecurity & Safety‑Critical SW (C8)** — Minimal evidence: Expected 27001 bodies but not captured
+
+> Clusters 4-8 marked as **latent** pending accreditation scope capture and CORDIS data enrichment.
 
 ---
 

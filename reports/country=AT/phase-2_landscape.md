@@ -93,6 +93,40 @@ AI,University of Chicago,US,co-publication,2024
 - **AI** intensity is broad‑based across academic collaborations (ISTA, TU Wien) with strong 2023–2024 co‑authorships into **DE/BE/GB/US** institutions (Tübingen, Max Planck, VIB‑NERF/imec, Oxford, UT Austin/CMU/UChicago). citeturn1search6turn1search4
 - **Standards posture**: TU Wien authorship in **IPPM** and **NTP** lines of work provides concrete, citable evidence of Austrian participation in IETF transport/performance topics. citeturn0search0turn0search1
 
+## P2-D: Dynamic Domain Narratives (selected by evidence)
+We render domains only if they meet Phase‑X selection rules (see Phase X: *Cluster & Subdomain Selection*). For each selected domain, include:
+
+**Template per selected domain/subdomain**
+- **Why it matters here (120–150 words):** role in national capability; concrete country examples.
+- **Evidence anchors:** which selection signals were triggered (edges, scopes, standards, programs, narrative).
+- **IP/Patent posture:** any visible patent spikes, disputes, or licensing asymmetries (if none, note `no_signal`).
+- **Standards‑shift signals:** venue activity (e.g., IETF/ETSI/3GPP) and role deltas to watch.
+- **MCF label‑independent cues:** function‑over‑label (timing/GNSS/EMC, testbeds, compute access) as applicable.
+
+> If a domain is noteworthy but under‑evidenced, include it as **latent** (short paragraph, `notes=low_evidence`).
+
+### High-Performance Computing (C2)
+- **Why it matters here:** Austria's HPC infrastructure through VSC and EuroHPC access positions it as a regional compute hub. The VSCrunchy supercomputer inauguration (June 2024) and LEONARDO access demonstrate sustained investment in computational capability. This enables AI/ML research, climate modeling, and materials simulation. The Austria-Slovenia HPC collaboration (ASHPC24) shows regional leadership in compute resource sharing and expertise transfer.
+- **Evidence anchors:** Infrastructure signals (VSCrunchy), EuroHPC LEONARDO access, ASHPC24 event, EuroCC Slovenia partnership.
+- **IP/Patent posture:** `no_signal` - No visible patent activity in HPC-specific technologies.
+- **Standards‑shift signals:** No direct HPC standards participation detected; monitor for emerging OpenHPC or EuroHPC technical specifications.
+- **MCF label‑independent cues:** Compute access through EuroHPC; testbed capability via VSC infrastructure.
+
+### AI/ML & Autonomy (C1)
+- **Why it matters here:** Austria's AI ecosystem centers on ISTA and TU Wien with dense international collaboration networks. The ICLR 2024 Vienna hosting elevated global visibility. Strong ties to US elite institutions (CMU, UT Austin, UChicago) and German AI centers (Tübingen, Max Planck) create knowledge transfer corridors. The AI Mission Austria funding coordination (aws+FFG+FWF) signals strategic national prioritization of AI capability development across research and commercialization pathways.
+- **Evidence anchors:** NeurIPS 2024/2023/2022 co-authorships, ICLR 2024 Vienna, AI Mission Austria funding, international collaboration edges.
+- **IP/Patent posture:** `no_signal` - Patent landscape analysis pending; monitor for AI method patents from ISTA/TU Wien.
+- **Standards‑shift signals:** No AI-specific standards roles detected; watch for participation in IEEE/ISO AI standards development.
+- **MCF label‑independent cues:** Compute dependency on EuroHPC/VSC for model training; international talent flows via conferences.
+
+### Networking/Timing (C3) - Latent
+- **Why it matters here:** TU Wien's IETF participation in IPPM and NTP working groups provides standards influence in critical infrastructure protocols. Time synchronization underpins GNSS, financial systems, and 5G networks. The authorship roles suggest capability in protocol design and testing, though broader ecosystem evidence remains thin.
+- **Evidence anchors:** RFC 9198 (IPPM), RFC 8877 lineage (NTP), Joachim Fabini authorship.
+- **IP/Patent posture:** `no_signal`
+- **Standards‑shift signals:** Monitor for elevation to editor/chair roles in IETF; expansion beyond single-person participation.
+- **MCF label‑independent cues:** Time/frequency functions relevant to GNSS and critical infrastructure.
+- **Notes:** `low_evidence` - Standards participation confirmed but limited to single contributor; industrial base unclear.
+
 ## Caveats
 - Conference‑based edges can overweight a few labs; apply CER‑lite before ranking partners (Phase 5) to reduce duplicate names and verify org identities.
 - The relationships above are a minimal **evidence seed**; add CORDIS participants or additional conference slices to improve coverage.
