@@ -1,0 +1,5 @@
+vector_id	vector_type	description	likely_goods_or_knowledge	detection_anchor	related_phases	severity_1to3	likelihood_LMH	confidence_LMH	notes
+V1	supplier_relationship	Sensitive components entering via DE/IT/SI logistics	RF modules, timing parts, optics	forwarder routes, customs procedures	P2,P3,P2S	2	M	L	Monitor EU-internal flows
+V2	data_or_compute_access	Off-prem compute/testbeds crossing borders	EuroHPC/VSC access patterns	allocations/agreements	P2,P8	2	M	M	Track allocations
+V3	standards_influence	International SDO work tilting conformance	test methods, profiles	roster roles; doc contributions	P2,P5,P6	2	L	M	IETF/ETSI activity
+V4	JV/equity/control	Ownership/control affecting key suppliers	equity ties, BO changes	registries (LEI, OpenCorporates)	P2S,P5,P7C	3	L	L	Needs LEI merge

@@ -1,0 +1,9 @@
+vector_id	name	definition	exemplar_observables	related_phases	notes
+RV1	Standards leverage	Ability to tilt specs/test profiles via roles	IETF/ETSI roles; editor credits; recurring contributions	P2;P5	Track authorship patterns
+RV2	HPC/Compute access	Externalized compute enabling model/dev cycles	EuroHPC/VSC allocations; MoUs	P2;P8	Monitor allocation shifts
+RV3	RF/EMC/RED capability	Accredited test benches for radio/EMC	17025 scopes; 17065 product cert bodies	P3	Pending scope capture
+RV4	Time/Frequency & GNSS	Metrology benches and calibration services	17025 scopes (time/freq); GNSS labs	P3	Critical infrastructure link
+RV5	Advanced Mfg/NDT	Inspection/cert of critical parts	17020 scopes; ISO 9712 signals	P3	Industrial base indicator
+RV6	JV/Equity/Control	Ownership/control over key suppliers	GLEIF LEI relations; OpenCorporates	P2S;P5	Needs LEI pull
+RV7	PRC Doctrine Alignment	Overlap with PRC policy/roadmaps (signals)	PRC white papers, plans; cross-ref with AT links	P7C	None detected yet
+RV8	Sanctions/Legal	Entity appears on EU/UK/CA/AU/NZ/UN lists	Official lists (signals-only)	P5;P6;P7C	Exclude US persons

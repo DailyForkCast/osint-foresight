@@ -1,0 +1,5 @@
+institution_id,name,alt_names,org_type,city,country,website,accreditation_flags,clusters,key_subdomains,source_refs,last_check,notes
+I001,TU Wien (Vienna University of Technology),TU Wien,university,Vienna,AT,www.tuwien.at,,C3,SD4,standards_roles.tsv,2025-09-07,IETF participant
+I002,ISTA,Institute of Science and Technology Austria,university,Klosterneuburg,AT,ist.ac.at,,C1,SD1,relationships.csv,2025-09-07,AI research collaborations
+I003,Vienna Scientific Cluster (VSC),VSC,infrastructure,Vienna,AT,vsc.ac.at,,C2,SD3,relationships.csv,2025-09-07,National HPC facility
+I004,Akkreditierung Austria,,accreditation,Vienna,AT,akkreditierung-austria.gv.at,,,,national_registry,2025-09-07,National accreditation body

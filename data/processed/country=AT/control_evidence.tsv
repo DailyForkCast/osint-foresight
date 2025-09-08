@@ -1,0 +1,9 @@
+control_id	control_name	where_observed	applies_to_vector	strength_0_3	evidence_refs	notes
+C1	Export screening (EU)	University/Institute policy pages	RV2;RV3;RV4	1	Uni_policy_URL	Policy text only; need implementation proof
+C2	InfoSec certifications (ISO 27001)	Cert body/registry	RV2;RV8	1	27001_registry	Signals cyber maturity in scope
+C3	Conformity accreditation	National registry scopes	RV3;RV4;RV5	2	Scope_PDF_hash	Bench capability documented
+C4	EU allocation governance	EuroHPC framework	RV2	3	EuroHPC_governance	Transparent allocation process
+C5	IETF open process	IETF procedures	RV1	2	RFC_process	Multi-stakeholder review
+C6	National accreditation	Akkreditierung Austria	RV3;RV4;RV5	2	Akkreditierung_AT	Established system
+C7	EU data protection	GDPR implementation	RV2;RV6	2	GDPR_AT	Privacy safeguards
+C8	Academic freedom	University statutes	RV1;RV2	1	Uni_statutes	Open research principle

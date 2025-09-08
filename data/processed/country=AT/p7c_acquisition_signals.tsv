@@ -1,0 +1,7 @@
+date_or_window	mechanism	counterparty	country	what_happened	source_ref	evidence_strength_0_3	notes
+2024-05	MO6: conference channel	ICLR Vienna participants	non-AT	High-signal AI venue hosted locally	ICLR_2024_Vienna	1	Follow-on collabs to watch
+2024-06	MO3: compute access	EuroHPC/VSC edges	EU	Access/allocations referenced	VSCrunchy_2024;EuroHPC_node	2	Governed by EU policy
+2023-12	MO1: standards influence	IETF IPPM/NTP	Global	Continued authorship roles	standards_roles.tsv	1	Open process mitigates
+2024-12	MO2: talent flow	NeurIPS collaborations	US/DE	Academic exchanges visible	relationships.csv	1	Western partnerships dominate
+2023-11	MO8: dataset access	AI research outputs	Global	Published models and datasets	publications	1	Open research norm
+2022-11	MO6: conference channel	AI Mission Austria launch	AT/EU	National coordination event	signals.csv	1	Domestic focus

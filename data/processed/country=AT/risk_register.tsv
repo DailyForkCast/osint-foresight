@@ -1,0 +1,10 @@
+risk_id	vector_id	cluster_id	context	severity_1to3	likelihood_LMH	confidence_LMH	evidence_refs	notes
+R1	RV2	C1	EuroHPC/VSC access enabling AI/ML scale	2	M	M	VSCrunchy_2024;EuroHPC_node	Routine EU governance; watch allocation shifts
+R2	RV1	C3	IETF IPPM/NTP authorship recurring	2	L	M	IPPM_role;NTP_role	Influence signal; balanced by open process
+R3	RV3	C6	EMC/RED labs expected; evidence pending	2	M	L	Accreditation_scrape_todo	Confirm scopes; inspect client base
+R4	RV4	C4	Time/freq & GNSS calibration likely	2	L	L	Accreditation_scrape_todo	Look for GNSS simulators; disciplined oscillators
+R5	RV6	C2	Ownership/control in key suppliers (TBD)	3	L	L	LEI/OpenCorporates_todo	Pull LEI; cross-check parents
+R6	RV2	C2	VSC infrastructure national anchor	1	H	H	VSC_upgrade;relationships.csv	Domestic capability; EU framework
+R7	RV5	C5	NDT/AM inspection capability expected	2	M	L	17020_scrape_todo	Industrial base signals
+R8	RV7	ALL	PRC doctrine alignment not detected	1	L	H	prc_screen.tsv	No PRC nexus found in Phase 5
+R9	RV8	ALL	No sanctions hits detected	1	L	H	sanctions_hits.csv	Clean screen to date

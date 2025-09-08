@@ -10,17 +10,9 @@ date: 2025-09-07
 - **Flex rule:** Narrative and examples scale with reality — a landlocked or small economy may have **0–N** ports/air hubs/nodes; capture what truly exists (no forced counts).
 - **Primary files (if present):** `institutions.csv`, `cer_master.csv`, `relationships.csv`, `programs.csv`, optional `sanctions_hits.csv` (signals only; **exclude US persons**).
 
-## Data presence
-- relationships.csv: yes (rows=12)
-- mechanism_incidents.tsv: no
-- sanctions_hits.csv: yes (placeholder)
-- cer_master.csv: no
-- institutions.csv: no
-- programs.csv: no
-
 ---
 
-## A) Critical Nodes & Corridors (today's view)
+## A) Critical Nodes & Corridors (today’s view)
 
 | node_id | node_type | name | location | role | relevance_note |
 |---|---|---|---|---|---|
@@ -61,7 +53,14 @@ V4	JV/equity/control	Ownership/control affecting key suppliers	equity ties, BO c
 ---
 
 ## C) Nodes → Exposure Narrative (flex length)
-Austria's exposure concentrates in **rail/road intermodal hubs** and **Vienna International Airport (VIE)** for high‑value electronics and precision instruments. Seaport legs are typically fulfilled via **Hamburg** and **Koper**, with rail connections through Germany and Slovenia. For dual‑use subdomains (RF/EMC instrumentation, GNSS/time parts, photonics), the highest‑signal pathways involve EU‑internal customs procedures with trusted forwarders; risk is less about tariff evasion and more about **control/ownership** of critical suppliers upstream and **screening sufficiency** at transshipment points.
+Write **what actually exists**:
+- If **0** seaports: explain the **indirect** corridors (e.g., Hamburg/Koper ↔ rail to AT), carriers, and typical goods classes.
+- If multiple nodes (e.g., many inspection sites/air hubs): list all material ones with 1–3 lines each.
+- Include **one or more examples** when available (not forced to “one only”).
+- Call out **bottlenecks/chokepoints** and any **alternative routes**.
+
+**Example narrative (AT, placeholder):**
+Austria’s exposure concentrates in **rail/road intermodal hubs** and **Vienna International Airport (VIE)** for high‑value electronics and precision instruments. Seaport legs are typically fulfilled via **Hamburg** and **Koper**, with rail connections through Germany and Slovenia. For dual‑use subdomains (RF/EMC instrumentation, GNSS/time parts, photonics), the highest‑signal pathways involve EU‑internal customs procedures with trusted forwarders; risk is less about tariff evasion and more about **control/ownership** of critical suppliers upstream and **screening sufficiency** at transshipment points.
 
 ---
 
@@ -76,39 +75,18 @@ Austria's exposure concentrates in **rail/road intermodal hubs** and **Vienna In
 # excel-tsv
 route_id	origin	via	destination	mode	goods_class	notes
 R1	Hamburg (DE)	DE rail	Vienna	sea+rail	electronics/instruments	indirect seaport corridor
-R2	Koper (SI)	SI rail	Graz/Vienna	sea+rail	optics/components	alternative southern corridor
+R2	Koper (SI)	SI rail	Graz/Vienna	sea+rail	optiques/components	alternative southern corridor
 ```
 
 ---
 
-## E) Sector Exposure Summary (5 Pillars)
-| Sector | K | T | M | F | L | PRC edges | PRC share | Top PRC counterpart(s) |
-|---|---:|---:|---:|---:|---:|---:|---:|---|
-| AI | 9 | 0 | 0 | 0 | 0 | 0 | 0.00 | – |
-| High-Performance Computing | 1 | 3 | 0 | 0 | 2 | 0 | 0.00 | – |
-
-**Pillars:** K=Knowledge, T=Technology, M=Materials, F=Finance, L=Logistics. Collab→pillar mapping is heuristic and conservative by default.
-
----
-
-## F) Sanctions/Legal Overlay (signals‑only; **non‑US persons**)
+## E) Sanctions/Legal Overlay (signals‑only; **non‑US persons**)
 If any logistics operators, forwarders, or shell entities appear on EU/UK/CA/AU/NZ/UN lists, record them in `sanctions_hits.csv` with **source link** and **date**. Treat as **signals only**, not determinations.
 
-| Sector | Sanctioned counterpart hits |
-|---|---:|
-| – | – |
-
 ---
 
-## G) Mechanism Signals (if available)
-| Sector | Mechanism family | Count |
-|---|---|---:|
-| – | – | – |
-
----
-
-## H) Lay Summary (why it matters)
-Austria's supply‑chain exposure for dual‑use tech is primarily **inbound via EU partners** and **air cargo through VIE**. The most credible near‑term vectors are **supplier relationships** and **off‑prem compute/testbed access**, rather than direct maritime flows. Monitoring **rail/air nodes**, **ownership changes (LEI/OpenCorporates)**, and **allocation policies** provides early detection. Where evidence is thin, gather targeted forwarder/rail operator documentation to validate corridors.
+## F) Lay Summary (why it matters)
+Austria’s supply‑chain exposure for dual‑use tech is primarily **inbound via EU partners** and **air cargo through VIE**. The most credible near‑term vectors are **supplier relationships** and **off‑prem compute/testbed access**, rather than direct maritime flows. Monitoring **rail/air nodes**, **ownership changes (LEI/OpenCorporates)**, and **allocation policies** provides early detection. Where evidence is thin, gather targeted forwarder/rail operator documentation to validate corridors.
 
 ---
 
@@ -117,9 +95,9 @@ Austria's supply‑chain exposure for dual‑use tech is primarily **inbound via
 - **Vectors to watch:** Supplier relationships and **off‑prem compute/testbed** exposure dominate near‑term risk.
 - **Evidence next:** Forwarder/rail operator docs; LEI/OpenCorporates merges for ownership control; customs/FTZ procedures if applicable.
 - **Policy hooks:** Light‑touch FDI/screening checks for sensitive subdomains; align with EU frameworks.
-- **HPC exposure:** T+L activity via infrastructure edges (VSC/EuroHPC); validate with procurement or facility logistics where possible.
 
 ---
 
 ## Next Data Boost (1 step)
-Pull **GLEIF (AT)** and **OpenCorporates (AT)** to create `cer_master.csv` and map top suppliers/forwarders; confirm at least **two** corridors with public operator docs (URLs in EvidenceRegister). Additionally, add a **procurement/tenders** CSV (2019–2025) with columns `buyer, supplier, item, date, value, sector_hint` to `data/raw/source=procurement/country=AT/date=<YYYY-MM-DD>/tenders.csv`, then run `make normalize-all COUNTRY=AT` and rebuild.
+Pull **GLEIF (AT)** and **OpenCorporates (AT)** to create `cer_master.csv` and map top suppliers/forwarders; confirm at least **two** corridors with public operator docs (URLs in EvidenceRegister).
+

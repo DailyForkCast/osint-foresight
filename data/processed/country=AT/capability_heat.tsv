@@ -1,0 +1,9 @@
+cluster_id	name	capability_0_3	rationale	supporting_refs
+C1	AI/ML & Autonomy	2	VSC/EuroHPC access; national AI initiative; conf links	VSCrunchy_2024,ICLR_2024_Vienna
+C2	High-Performance Computing	3	VSC established; EuroHPC links	VSC_upgrade,EuroHPC_node
+C3	Comms/Networking & Timing	2	IETF authorship; likely test labs	IPPM_role,NTP_role
+C4	Sensing & PNT	1	Expect time&freq/GNSS scopes; need evidence	Accreditation_scrape_todo
+C5	Advanced Manufacturing & Materials	1	Expect NDT/AM inspection scopes	17020_scrape_todo
+C6	Semiconductors & Electronics	1	Expect EMC/RED labs	EMC_scope_todo
+C7	Space/EO Interfaces	1	Likely research interfaces; need evidence	EO_links_todo
+C8	Cybersecurity & Safety-Critical SW	1	27001 signals; safety SW pockets	27001_bodies

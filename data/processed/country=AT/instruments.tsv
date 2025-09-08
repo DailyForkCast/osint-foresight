@@ -1,0 +1,6 @@
+instrument_id	name	type	typical_ticket	maturity	cofunding?	why_it_matters	notes
+I1	Thematic R&D Calls (FFG)	grant	€0.1–5M	TRL 3–7	often	Drives collaborations; early signal of sector push	Main R&D instrument
+I2	Basic Research Grants (FWF)	grant	€0.1–2M	TRL 1–3	rare	Seeds methods/teams that later enter dual-use domains	Early stage research
+I3	SME/Innovation (aws)	grant/loan/guarantee	up to €1–3M	TRL 4–8	often	Company-level adoption; capex; scale-up	Commercial readiness
+I4	Horizon Europe Actions	EU grant	€0.5–10M	TRL 3–8	always (consortia)	Cross-border edges; tech roadmaps	EU collaboration required
+I5	EuroHPC R&I	EU grant	varies	TRL 3–7	consortia	HPC software/hardware/centers; compute access	HPC-specific

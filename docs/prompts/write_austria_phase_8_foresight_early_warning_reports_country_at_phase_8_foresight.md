@@ -4,177 +4,110 @@ author: OSINT Foresight (solo analyst)
 date: 2025-09-07
 ---
 
-## Scenario Set (2y/5y/10y)
+## Scope & Inputs
+- **Country / ISO2:** Austria (AT) · **Horizons:** 2y / 5y / 10y · **Years considered:** 2015–2025 evidence base  
+- **Inputs (if present):** `capability_heat.tsv`, `risk_register.tsv`, `p7c_mo_map.tsv`, `p7c_early_indicators.tsv`, `international_links.tsv`, `programs.csv`, `AccreditedLabs.tsv`, `institutions.csv`, `domain_maturity.tsv`, `funders.tsv`, `instruments.tsv`, `sanctions_hits.csv` (signals‑only; **exclude US persons**).  
+- **Method:** Label‑independent dual‑use reasoning (function‑over‑label), cone‑of‑plausibility, explicit uncertainty; evidence‑weighted signals (recency × multiplicity × source quality).
 
-**Axes used:** {Access to advanced compute/testbeds ↔ Domestic capacity}, {Standards influence ↔ Standards follower}, {International exposure low ↔ high}.
+---
 
-### Scenarios (2y/5y/10y)
-
-| scenario_id | horizon | title | axis_1 | axis_2 | drivers | likelihood_LMH | payoff_note | assumptions_ids |
-|---|---:|---|---|---|---|:---:|---|---|
-| S1 | 2y | Compute‑tight but standards‑savvy | Constrained access to frontier compute | Selective standards leadership | EuroHPC scheduling; VSC upgrades cadence; active IETF/ETSI roles | M | Skills deepen even if GPU access lags; standards posture mitigates dependency | A1,A2 |
-| S2 | 5y | Standards‑led competitiveness | Improved domestic/EuroHPC access | Co‑lead in select WGs | EuroHPC nodes; university/RTO capacity; EU programs | M | Dual‑use sectors (AI/HPC/sensing) gain leverage via testbeds & WGs | A1,A2,A3 |
-| S3 | 10y | Fragmented exposure via supply chains | Patchy compute/testbeds | Follower in critical WGs | External JV/equity vectors; talent pull; logistics/finance channels | L | If governance weakens, leakage risks rise in sensitive subdomains | A1,A3 |
+## A) Baseline Trajectory (evidence‑weighted)
+Summarize the **most likely** trajectory given current evidence. Use cluster IDs from Phase X.
 
 ```text
-# excel-tsv
-scenario_id	horizon	title	axis_1	axis_2	drivers	likelihood_LMH	payoff_note	assumptions_ids
-S1	2y	Compute‑tight but standards‑savvy	Constrained access to frontier compute	Selective standards leadership	EuroHPC scheduling; VSC upgrades cadence; active IETF/ETSI roles	M	Skills deepen even if GPU access lags; standards posture mitigates dependency	A1,A2
-S2	5y	Standards‑led competitiveness	Improved domestic/EuroHPC access	Co‑lead in select WGs	EuroHPC nodes; university/RTO capacity; EU programs	M	Dual‑use sectors (AI/HPC/sensing) gain leverage via testbeds & WGs	A1,A2,A3
-S3	10y	Fragmented exposure via supply chains	Patchy compute/testbeds	Follower in critical WGs	External JV/equity vectors; talent pull; logistics/finance channels	L	If governance weakens, leakage risks rise in sensitive subdomains	A1,A3
+# excel-tsv — data/processed/country=AT/p8_baseline.tsv
+cluster_id	cluster_name	2027_outlook_0_3	2030_outlook_0_3	2035_outlook_0_3	drivers	drags	confidence_LMH
+C2	High-Performance Computing	3	3	2	EuroHPC/VSC access; EU programs	Capex cycles; governance tightening	M
+C1	AI/ML & Autonomy	2	2	2	Compute + events + consortia	Talent competition; small scale	L
+C3	Networking/Timing	2	2	2	IETF roles; metrology culture	Niche size; irregular funding	M
+C4	Sensing & PNT	1	2	2	Potential GNSS/time benches	Unconfirmed scopes; small market	L
+C6	Semiconductors & Electronics	1	1	2	EMC/RED labs anticipated	Evidence thin; OEM presence limited	L
 ```
 
-## Threats & Opportunities by Sector
+> 0 = none/declining; 1 = emerging; 2 = established niche; 3 = strong capability.
 
-**Sectors considered:** AI/ML & Autonomy; High‑Performance Computing; Communications/Networking & Timing; Sensing/PNT; Advanced Materials/Manufacturing (select); Space/EO interfaces (watchlist).
+---
 
-### Threats (evidence‑backed snapshot)
-
-| threat_id | sector | horizon | mechanism | vector_type | related_phases | severity_1to3 | likelihood_LMH | confidence_LMH | evidence_ids | key_sources | why_it_matters | mitigation_refs |
-|---|---|---:|---|---|---|:---:|:---:|:---:|---|---|---|---|
-| T1 | AI/ML | 2y | Dependency on shared EuroHPC/VSC slots for model training | data_or_compute_access | P2,P5 | 2 | M | M | E1,E2 | VSC upgrade & EU nodes; national AI initiative | Bottlenecks can slow capability growth and redirect collaborations abroad | M1,M2 |
-| T2 | Comms/Timing | 5y | Standards influence concentrated in few individuals | standards_influence | P2,P5 | 2 | M | M | E3 | IETF WG roles (IPPM/NTP) | Succession risk; if roles lapse, national leverage dips | M3 |
-| T3 | AI/ML | 5y | Talent siphoning via partnerships & conferences | education_talent | P5,P7C | 2 | M | L | E4 | International events & lab ties | Can tilt collaboration terms & IP paths if not balanced | M4 |
-| T4 | HPC | 5y | Joint facility reliance across borders | testbed_access | P2,P5 | 2 | L | L | E1 | EuroHPC/VSC interplay | Cross‑border outages/policy changes can disrupt | M2 |
-| T5 | Dual‑use cross‑cutting | 10y | PRC MCF‑consistent vectors (label‑independent) | JV_equity_control, standards_influence | P5,P6,P7C | 3 | L | L | E5 | Doctrine signals; general EU posture | Low likelihood now; high impact scenario if vectors grow | M5,M6 |
+## B) Alternative Futures (2y/5y/10y)
+Develop **three** scenario families: **Upside**, **Baseline**, **Downside**.
 
 ```text
-# excel-tsv
-threat_id	sector	horizon	mechanism	vector_type	related_phases	severity_1to3	likelihood_LMH	confidence_LMH	evidence_ids	key_sources	why_it_matters	mitigation_refs
-T1	AI/ML	2y	Dependency on shared EuroHPC/VSC slots for model training	data_or_compute_access	P2,P5	2	M	M	E1,E2	VSC upgrade & EU nodes; national AI initiative	Bottlenecks can slow capability growth and redirect collaborations abroad	M1,M2
-T2	Comms/Timing	5y	Standards influence concentrated in few individuals	standards_influence	P2,P5	2	M	M	E3	IETF WG roles (IPPM/NTP)	Succession risk; if roles lapse, national leverage dips	M3
-T3	AI/ML	5y	Talent siphoning via partnerships & conferences	education_talent	P5,P7C	2	M	L	E4	International events & lab ties	Can tilt collaboration terms & IP paths if not balanced	M4
-T4	HPC	5y	Joint facility reliance across borders	testbed_access	P2,P5	2	L	L	E1	EuroHPC/VSC interplay	Cross‑border outages/policy changes can disrupt	M2
-T5	Dual‑use cross‑cutting	10y	PRC MCF‑consistent vectors (label‑independent)	JV_equity_control, standards_influence	P5,P6,P7C	3	L	L	E5	Doctrine signals; general EU posture	Low likelihood now; high impact scenario if vectors grow	M5,M6
+# excel-tsv — data/processed/country=AT/p8_scenarios.tsv
+scenario_id	horizon	scenario_family	title	short_path	implications	confidence_LMH
+S_U2	2y	Upside	"VSC as Regional AI Magnet"	EuroHPC + national push concentrates methods dev in Vienna	More AI co-pubs; software/tooling spillovers	L
+S_B5	5y	Baseline	"Measured Growth, EU‑governed"	EU programs sustain HPC/networking niches	Stable standards influence; moderate bench build‑out	M
+S_D10	10y	Downside	"Bench Stagnation"	Scopes not realized; funding flat	Dual‑use benches remain thin; less leverage	L
 ```
 
-## Indicators & Early Warnings
-
-| indicator_id | threat_id | observable | collection_method | threshold | check_cadence | owner | where_to_check |
-|---|---|---|---|---|---|---|---|
-| I1 | T1 | Queue times / denied allocations at VSC/EuroHPC | portal/log scrape or manual monthly check | >30% increase over 6 months | monthly | analyst | VSC/EuroHPC portals |
-| I2 | T2 | Loss/rotation of standards co‑chair/editor roles | watch IETF/ETSI rosters | any loss without backfill in 6 months | monthly | analyst | SDO rosters |
-| I3 | T3 | Net talent outflow to specific partners | monitor PhD/PI moves & lab announcements | >3 notable departures/yr in same subdomain | quarterly | analyst | lab sites, LinkedIn, conf programs |
-| I4 | T4 | Cross‑border facility outage or policy change | RSS/news & EuroHPC notices | outage >2 weeks or policy limiting access | ad‑hoc | analyst | EuroHPC/VSC notices |
-| I5 | T5 | Surge in JV/equity/control filings related to sensitive subdomains | registry/newswatch | ≥1 credible filing/yr with sensitive vector | quarterly | analyst | company registries |
+Add one **wildcard/black‑swan** if relevant:
 
 ```text
-# excel-tsv
-indicator_id	threat_id	observable	collection_method	threshold	check_cadence	owner	where_to_check
-I1	T1	Queue times / denied allocations at VSC/EuroHPC	portal/log scrape or manual monthly check	>30% increase over 6 months	monthly	analyst	VSC/EuroHPC portals
-I2	T2	Loss/rotation of standards co‑chair/editor roles	watch IETF/ETSI rosters	any loss without backfill in 6 months	monthly	analyst	SDO rosters
-I3	T3	Net talent outflow to specific partners	monitor PhD/PI moves & lab announcements	>3 notable departures/yr in same subdomain	quarterly	analyst	lab sites, LinkedIn, conf programs
-I4	T4	Cross‑border facility outage or policy change	RSS/news & EuroHPC notices	outage >2 weeks or policy limiting access	ad‑hoc	analyst	EuroHPC/VSC notices
-I5	T5	Surge in JV/equity/control filings related to sensitive subdomains	registry/newswatch	≥1 credible filing/yr with sensitive vector	quarterly	analyst	company registries
+# excel-tsv — data/processed/country=AT/p8_wildcards.tsv
+wildcard_id	horizon	title	trigger	first_order_effect	second_order_effect
+W1	5–10y	"Sudden EU Compute Tightening"	Policy shock at EuroHPC	Reduced external MoUs	Rerouting to private clouds; data locality push
 ```
 
-## Early Warnings (Tripwires)
+---
 
-| tripwire_id | indicator_id | description | trigger_condition | confidence_impact | action_on_trigger |
-|---|---|---|---|---|---|
-| W1 | I1 | Compute scarcity worsens | I1 threshold breached two consecutive months | ↑ likelihood(T1) | Re‑prioritize standards/testbed diplomacy; seek alt nodes |
-| W2 | I2 | Standards role attrition | I2 event without backfill | ↑ severity(T2) | Identify/train alternates; push for co‑chairing |
-| W3 | I3 | Talent drain cluster | I3 threshold met in any AI subdomain | ↑ likelihood(T3) | Counter‑offers, joint labs with retention clauses |
-| W4 | I4 | Cross‑border facility disruption | I4 trigger | ↑ severity(T1,T4) | Shift workloads; diversify access |
-| W5 | I5 | Sensitive JV/equity surge | I5 trigger | ↑ likelihood/impact(T5) | Legal review; export/FDI screen; standards posture check |
+## C) Early‑Warning Indicators (EWIs) & Thresholds
+Operationalize **signposts** that shift probability mass among scenarios. Use **measurable thresholds**.
 
 ```text
-# excel-tsv
-tripwire_id	indicator_id	description	trigger_condition	confidence_impact	action_on_trigger
-W1	I1	Compute scarcity worsens	I1 threshold breached two consecutive months	↑ likelihood(T1)	Re‑prioritize standards/testbed diplomacy; seek alt nodes
-W2	I2	Standards role attrition	I2 event without backfill	↑ severity(T2)	Identify/train alternates; push for co‑chairing
-W3	I3	Talent drain cluster	I3 threshold met in any AI subdomain	↑ likelihood(T3)	Counter‑offers, joint labs with retention clauses
-W4	I4	Cross‑border facility disruption	I4 trigger	↑ severity(T1,T4)	Shift workloads; diversify access
-W5	I5	Sensitive JV/equity surge	I5 trigger	↑ likelihood/impact(T5)	Legal review; export/FDI screen; standards posture check
+# excel-tsv — data/processed/country=AT/p8_ewi.tsv
+indicator_id	indicator	threshold	favours_scenario	collection_plan	source_hint
+E1	EuroHPC/VSC allocation to AT teams	≥ +20% YoY	Upside (2y/5y)	Track annual allocation reports	EuroHPC minutes; center PR
+E2	New 17025 scopes in EMC/GNSS	≥ 6 labs with relevant scopes	Upside/Baseline (5y)	Quarterly registry scrape	Akkreditierung Austria
+E3	IETF role elevation (IPPM/NTP)	Editor/Chair roles recurring	Upside/Baseline (2y/5y)	Roster diff every release	Datatracker acks
+E4	CORDIS AT‑participant wins	≥ +25 projects in Cluster 4/5	Upside (5y)	Annual export + delta	CORDIS API/export
+E5	Ownership/JV in suppliers	≥ 2 material BO changes	Downside (control risk)	LEI/OC merge quarterly	GLEIF / OpenCorporates
 ```
 
-## Mitigation & Levers
+---
 
-| mitigation_id | name | description | policy_hook | owner | cost_hours | skill_level_1to3 | dependencies | applies_to_threat_ids | status |
-|---|---|---|---|---:|---:|:---:|---|---|---|
-| M1 | Standards depth | Maintain/expand co‑chair/editor roles in priority WGs | standards strategy | university/RTO depts | 20 | 2 | travel/time | T1,T2 | planned |
-| M2 | Compute diversification | Pre‑arrange alt access (EuroHPC nodes; cloud credits) | procurement/program | labs/centers | 30 | 2 | budget/agreements | T1,T4 | planned |
-| M3 | Succession planning | Identify/train alternates for key SDO roles | HR/standards | depts | 10 | 1 | mentor time | T2 | open |
-| M4 | Talent retention | Targeted retention in AI subdomains with outbound risk | HR/program | labs | 15 | 2 | funding | T3 | open |
-| M5 | JV/equity watch | Light‑touch registry monitoring for sensitive vectors | FDI/sanctions | legal/policy | 8 | 2 | watchlists | T5 | open |
-| M6 | Doctrine alignment check | Map PRC doctrine vs domestic links quarterly | policy/standards | analyst | 6 | 2 | corpus | T5 | open |
+## D) Targeting/Attraction Model (PRC‑Relevant) — Signals‑Only
+Assess **attraction** of Austrian capabilities to PRC mechanisms from Phase 7C, by horizon.
 
 ```text
-# excel-tsv
-mitigation_id	name	description	policy_hook	owner	cost_hours	skill_level_1to3	dependencies	applies_to_threat_ids	status
-M1	Standards depth	Maintain/expand co‑chair/editor roles in priority WGs	standards strategy	university/RTO depts	20	2	travel/time	T1,T2	planned
-M2	Compute diversification	Pre‑arrange alt access (EuroHPC nodes; cloud credits)	procurement/program	labs/centers	30	2	budget/agreements	T1,T4	planned
-M3	Succession planning	Identify/train alternates for key SDO roles	HR/standards	depts	10	1	mentor time	T2	open
-M4	Talent retention	Targeted retention in AI subdomains with outbound risk	HR/program	labs	15	2	funding	T3	open
-M5	JV/equity watch	Light‑touch registry monitoring for sensitive vectors	FDI/sanctions	legal/policy	8	2	watchlists	T5	open
-M6	Doctrine alignment check	Map PRC doctrine vs domestic links quarterly	policy/standards	analyst	6	2	corpus	T5	open
+# excel-tsv — data/processed/country=AT/p8_targeting.tsv
+cluster_id	mechanism	2y_attraction_0_3	5y_attraction_0_3	10y_attraction_0_3	rationale
+C2	Compute/testbed access	2	2	1	EuroHPC/VSC draw now; governance may tighten later
+C3	Standards venue influence	1	2	2	Roles could compound; slow build
+C4	Measurement tech procurement	1	2	2	If EMC/GNSS benches grow, tooling becomes valuable
 ```
 
-## Assumptions (traceability for scenario math)
+> Treat as **signals‑only**; do not infer intent. **Exclude US persons** in any legal overlays.
 
-| assumption_id | statement | rationale | primary_data_refs | narrative_source_refs | confidence_prior_LMH | stress_test | result | confidence_posterior_LMH |
-|---|---|---|---|---|:---:|---|---|:---:|
-| A1 | Austria will maintain access to EuroHPC/VSC capacity ~current trend | recent upgrades + EU commitments | P2 signals (VSC upgrade), P5 links | national AI initiative docs | M | watch queue times, policy | pending | M |
-| A2 | Standards participation will remain at least stable | current named roles at IETF; active departments | IETF WG rosters | dept pages; conf programs | M | monitor roster churn | pending | M |
-| A3 | JV/equity sensitive vectors remain rare | no strong evidence yet | P5 heat‑map (low intensity in risky mechanisms) | EU/AT screening frameworks | L | registry watch; legal vignettes | pending | L |
+---
+
+## E) Intervention Menu (evidence‑linked; optional)
+List **light‑weight, realistic** actions a solo analyst can recommend if asked later (not executing now).
 
 ```text
-# excel-tsv
-assumption_id	statement	rationale	primary_data_refs	narrative_source_refs	confidence_prior_LMH	stress_test	result	confidence_posterior_LMH
-A1	Austria will maintain access to EuroHPC/VSC capacity ~current trend	recent upgrades + EU commitments	P2 signals (VSC upgrade), P5 links	national AI initiative docs	M	watch queue times, policy	pending	M
-A2	Standards participation will remain at least stable	current named roles at IETF; active departments	IETF WG rosters	dept pages; conf programs	M	monitor roster churn	pending	M
-A3	JV/equity sensitive vectors remain rare	no strong evidence yet	P5 heat‑map (low intensity in risky mechanisms)	EU/AT screening frameworks	L	registry watch; legal vignettes	pending	L
+# excel-tsv — data/processed/country=AT/p8_interventions.tsv
+intervention_id	class	what	why_linked_to_evidence	effort_1to3	owner_hint
+I1	Monitoring	Quarterly registry scrape (EMC/GNSS)	Closes Phase‑3/6 evidence gaps	1	Analyst + Claude Code
+I2	Governance	Publish allocation transparency request	Tests A1 assumption about compute impact	1	Research org / civil society
+I3	Capacity	Standards skills clinic (IPPM/NTP)	Builds benign influence; documents roles	2	University/RTO + SDO mentors
+I4	Data hygiene	LEI/OC quarterly merge → CER-lite	Detects BO/control vectors	1	Analyst + scripts
 ```
 
-## Confidence (why we believe what we say)
+---
 
-| claim_id | claim_text | evidence_mix_data_vs_narrative | confounding_factors | bias_checks_done | confidence_LMH | falsification_path |
-|---|---|---|---|---|:---:|---|
-| C1 | Compute bottlenecks will be the near‑term constraint for AI model work | Data‑led (queues/upgrades) with light narrative | Cloud bursts could offset; private credits | Checked selection bias; non‑EN portals | M | Two months of normal queues or new domestic GPU cluster |
-| C2 | Standards succession is a medium risk | Data (named roles) + narrative (dept depth) | Hidden alternates may exist | Checked anchoring on known names | M | Confirm trained alternates or added co‑chairs |
-| C3 | PRC MCF‑consistent vectors are low‑likelihood, high‑impact | Narrative‑led (doctrine) with sparse local data | False positives in label‑independent detection | Marked as signals, not proof | L | Credible JV/equity/control filing in sensitive subdomain |
+## F) Narrative — Outlook & Rationale
+**Most plausible arc:** Over **2–5 years**, Austria maintains a **stable niche** in **HPC/networking**, with **AI** enabled by shared compute and cross‑border projects. The decisive swing factor is **evidence of real benches** (EMC/GNSS/photonics). If accreditation scopes materialize in volume, the capability map shifts upward and the attraction model tilts toward **measurement technology**. Standards roles likely **compound slowly**, which favors the baseline in 5–10 years absent shocks.
 
-```text
-# excel-tsv
-claim_id	claim_text	evidence_mix_data_vs_narrative	confounding_factors	bias_checks_done	confidence_LMH	falsification_path
-C1	Compute bottlenecks will be the near‑term constraint for AI model work	Data‑led (queues/upgrades) with light narrative	Cloud bursts could offset; private credits	Checked selection bias; non‑EN portals	M	Two months of normal queues or new domestic GPU cluster
-C2	Standards succession is a medium risk	Data (named roles) + narrative (dept depth)	Hidden alternates may exist	Checked anchoring on known names	M	Confirm trained alternates or added co‑chairs
-C3	PRC MCF‑consistent vectors are low‑likelihood, high‑impact	Narrative‑led (doctrine) with sparse local data	False positives in label‑independent detection	Marked as signals, not proof	L	Credible JV/equity/control filing in sensitive subdomain
-```
+**Risks & uncertainty:** Allocation opacity and missing bench evidence keep **confidence moderate‑to‑low** in AI and measurement clusters. Ownership/control vectors remain a **low‑likelihood but high‑impact** tail and should be watched via LEI/OC deltas. All sanctions/legal flags remain **signals only** and **exclude US persons**.
 
-## Timeline (major milestones)
+---
 
-| year_or_quarter | milestone | sector | why_relevant | related_threat_ids |
-|---|---|---|---|---|
-| 2024‑Q2 | VSC “VSCrunchy” upgrade noted at ASHPC24 | HPC/AI | signals improved domestic capacity | T1 |
-| 2024‑Q2 | ICLR 2024 hosted in Vienna | AI | international presence; talent links | T3 |
-| 2023‑Q4 | AI Mission Austria initiative | AI | national coordination across funders | T1 |
+## G) Executive Summary (3–5 bullets)
+- **Baseline:** Stable niche in HPC/networking; AI benefits depend on sustained compute allocations and staffing.
+- **Upside triggers:** 6+ new EMC/GNSS scopes; sustained IETF role elevation; CORDIS project growth.
+- **Downside triggers:** EU compute tightening; ownership/control shifts in key suppliers; bench stagnation.
+- **Next step:** Instrument 5 EWIs with simple scrapers/hand‑checks and revisit every 6 months.
 
-```text
-# excel-tsv
-year_or_quarter	milestone	sector	why_relevant	related_threat_ids
-2024‑Q2	VSC “VSCrunchy” upgrade noted at ASHPC24	HPC/AI	signals improved domestic capacity	T1
-2024‑Q2	ICLR 2024 hosted in Vienna	AI	international presence; talent links	T3
-2023‑Q4	AI Mission Austria initiative	AI	national coordination across funders	T1
-```
+---
 
-## Comprehensive Narrative
-
-**How we built the scenarios.** We combined Phase 2/2S signals (e.g., VSC/Vienna Scientific Cluster upgrade; EuroHPC ties), Phase 5 links (ICLR 2024 Vienna, international research co‑authorships), and Phase 2 standards roles (IETF IPPM/NTP authorship) to set axes around compute access and standards posture. The 2‑year horizon stresses compute availability; the 5‑year considers standards‑led competitiveness; the 10‑year explores a low‑likelihood but high‑impact divergence via sensitive JV/equity vectors.
-
-**Sector outlooks.** In **AI/ML**, capacity is paced by shared EuroHPC/VSC access; without additional domestic GPU clusters or guaranteed allocations, timelines for large‑scale model work may stretch. In **Comms/Timing**, a small number of named experts anchor standards leverage; succession planning protects continuity. **HPC** remains a lever and a dependency; cross‑border governance or outages could ripple into AI timelines. **Sensing/PNT** and **advanced manufacturing/materials** stay on the watchlist pending stronger evidence from labs/accreditations or standards deliverables.
-
-**Signals‑to‑doctrine.** Austrian signals generally align with EU‑centric strategies prioritizing responsible AI, compute sharing, and standards participation. We find **no strong evidence** of active, concerning PRC MCF‑consistent vectors in Austria; given regional posture, we treat this as **low likelihood** but keep doctrine‑to‑signal mapping on watch (Phase 7C).
-
-**Why this matters and how to falsify.** If queue times stabilize and alternates assume SDO roles, near‑term risks diminish; conversely, a credible sensitive JV/equity filing would raise long‑horizon concern. Each claim lists a concrete falsification path.
-
-## 3–5 Bullet Executive Summary
-
-- **Near‑term (2y):** Compute allocation is the pacing factor for AI model work; standards depth mitigates risk.
-- **Medium‑term (5y):** With stable SDO roles and EuroHPC ties, Austria can be **standards‑competitive** in AI/comms even without frontier GPUs on‑prem.
-- **Long‑term (10y):** Low‑likelihood but high‑impact risk from sensitive JV/equity vectors; maintain light registry/watchlist monitoring.
-- **Actionable:** Diversify compute access; train SDO alternates; maintain doctrine alignment checks; monitor talent flow.
-
-## Next Data Boost
-Seed **PolicyCorpus.tsv** with 5 short, authoritative docs (AT/EU compute & AI standards strategies + one PRC doctrine item for mapping), then wire **I1–I5** into a monthly VS Code check.
+## Next Data Boost (1 step)
+Implement **five EWIs** as lightweight checks (Datatracker diff, EuroHPC allocation note, accreditation scrape, CORDIS delta, LEI/OC merge) and record results in `p8_ewi.tsv` on a **quarterly** cadence.
 

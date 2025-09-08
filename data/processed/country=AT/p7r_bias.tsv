@@ -1,0 +1,9 @@
+bias_id	bias_type	description	mitigation	notes
+B1	Attribution bias	Assuming intent from capability	Use signals-only; require multi-anchor evidence	
+B2	Availability bias	Overweighting conference signals	Balance with allocations, scopes, rosters	
+B3	National/ethnic essentialism	Inferring risk from identity	Center analysis on functions & governance	
+B4	Western-centric framing	Assuming EU/US partnerships are inherently safe	Apply same scrutiny to all partnerships	
+B5	Small country bias	Underestimating AT capability due to size	Focus on quality metrics not quantity	
+B6	Language bias	Missing German-language sources	Include DE sources systematically	
+B7	Recency bias	Overweighting 2024 signals	Balance historical patterns	
+B8	Clean baseline bias	Assuming no flags means no risk	Consider indirect/emerging vectors	
