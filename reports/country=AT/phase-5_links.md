@@ -12,6 +12,27 @@ date: 2025-09-07
 
 ---
 
+## Method & Scoring (how we read the edges)
+**Source classes:**
+- *Primary structured:* relationships.csv, standards_roles.tsv, programs.csv, grant_partners.tsv
+- *Primary narrative:* official portals, SDO rosters/acks, facility MoUs, conference programs
+- *Secondary narrative:* press, institutional blogs, reputable trade media
+
+**Collaboration intensity (0–3):** 0=none/dated, 1=single weak edge, 2=recent multi‑edge or strong single, 3=recent multi‑edge + diverse types.
+
+**Risk read (L/M/H):**
+- **Low:** transparent governance, symmetric benefits, no sensitive subdomain
+- **Medium:** some asymmetry, sensitive subdomain, or elevated access path (compute/testbeds)
+- **High:** persistent asymmetry **and** sensitive mechanisms (timing/GNSS/EMC) with weak controls
+
+**Heuristics used:** diversity of link types; recency; partner posture; standards roles; bench confirmation via accreditation scopes.
+
+**Early‑warning signals (checklist):**
+- Role elevation in IETF/ETSI (authors → editors/chairs)
+- New MoUs for compute/testbed access (EuroHPC/VSC)
+- Ownership/beneficial‑owner changes (LEI/OpenCorporates)
+- Rapid growth in AT‑participant CORDIS wins in sensitive topics
+
 ## A) Link Types Tracked (how edges form)
 
 | link_type | definition | examples of observables |
