@@ -1,0 +1,62 @@
+{
+  "web_browsing": {
+    "available": true,
+    "method": "builtin",
+    "test": "WebFetch to example.com and httpbin.org",
+    "result": "Successfully fetched web content using WebFetch tool"
+  },
+  "http_download": {
+    "available": true,
+    "max_bytes": "unknown (not explicitly limited)",
+    "allowed_mime": ["html", "json", "text", "likely all common formats"],
+    "test": "Fetched JSON from httpbin.org/json",
+    "result": "Successfully downloaded and parsed JSON content"
+  },
+  "code_execution": {
+    "languages": ["python", "bash", "node/javascript", "java", "c/c++ (via clang)"],
+    "packages": ["pandas", "numpy", "matplotlib", "requests", "networkx", "scipy", "sklearn"],
+    "limits": {
+      "cpu": "not explicitly limited",
+      "mem": "not explicitly limited",
+      "timeout": "600000ms (10 minutes) max, 120000ms (2 minutes) default"
+    },
+    "test": "Executed Python with pandas, math operations, and package imports",
+    "result": "Python 3.10.6 with full data science stack available"
+  },
+  "filesystem": {
+    "read_user_uploads": true,
+    "write_files": true,
+    "persist_between_turns": true,
+    "paths": ["C:\\Projects\\OSINT - Foresight", "C:\\Users\\mrear\\Downloads"],
+    "test": "Created, read, and deleted test_temp.txt",
+    "result": "Full read/write access to working directory"
+  },
+  "data_analysis": {
+    "max_rows": "limited by available memory",
+    "max_cols": "limited by available memory",
+    "formats_in": ["csv", "xlsx", "json", "pdf", "ipynb", "png", "jpg"],
+    "formats_out": ["csv", "xlsx", "json", "graphml", "png"]
+  },
+  "graphs_charts": {
+    "available": true,
+    "libs": ["matplotlib"],
+    "image_export": ["png", "svg", "pdf (with backend)"]
+  },
+  "network_calls": {
+    "available": true,
+    "domains_allowed": "WebFetch tool with any domain, requests library for Python",
+    "rate_limits": "15-minute cache for WebFetch"
+  },
+  "zip_unzip": {
+    "available": true,
+    "max_size": "limited by available memory/disk"
+  },
+  "memory_context": {
+    "tokens_context": "large (specific limit unknown)",
+    "long_outputs_handling": "truncate at 30000 characters for Bash output"
+  },
+  "privacy_safety": {
+    "egress_restrictions": "No credential harvesting, no malicious code assistance",
+    "sandbox_notes": "Windows environment (MINGW64), git repo context, defensive security tasks only"
+  }
+}

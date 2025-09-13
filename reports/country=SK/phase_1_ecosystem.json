@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "collection_timestamp": "2025-09-10T22:00:00Z",
+    "sources_queried": [
+      "Slovak Academy of Sciences",
+      "CVTI SR",
+      "University websites",
+      "CEIAS China research",
+      "EU regulatory databases",
+      "Company databases"
+    ],
+    "languages_used": ["en", "sk", "zh"],
+    "parallel_time_saved_seconds": 75,
+    "confidence_score": 0.82,
+    "validation_level": "double"
+  },
+  "national_layer": {
+    "ministries": [
+      {
+        "name_en": "Ministry of Education, Research, Development and Youth",
+        "name_local": "Ministerstvo školstva, výskumu, vývoja a mládeže SR",
+        "responsibilities": ["R&D strategy", "Education policy", "Youth programs"],
+        "key_programs": ["DigiEDU", "AI in Education", "International cooperation"],
+        "china_engagement": true
+      },
+      {
+        "name_en": "Ministry of Economy",
+        "name_local": "Ministerstvo hospodárstva SR",
+        "responsibilities": ["Innovation policy", "Industry support", "Trade"],
+        "key_programs": ["Innovation vouchers", "Startup visa", "Digital economy"],
+        "china_engagement": true
+      },
+      {
+        "name_en": "Ministry of Investment, Regional Development and Informatization",
+        "name_local": "Ministerstvo investícií, regionálneho rozvoja a informatizácie SR",
+        "responsibilities": ["Digital transformation", "EU funds", "Regional development"],
+        "key_programs": ["2030 Digital Strategy", "PERUN supercomputer", "Quantum cloud"],
+        "china_engagement": false
+      }
+    ],
+    "funding_agencies": [
+      {
+        "name": "Slovak Research and Development Agency (SRDA/APVV)",
+        "type": "National grant agency",
+        "budget": null,
+        "international_agreements": ["China", "US", "Germany", "France", "Israel", "South Korea"],
+        "risk_level": "MODERATE"
+      },
+      {
+        "name": "Science Grant Agency (VEGA)",
+        "type": "Academic research funding",
+        "budget": null,
+        "focus": "University and SAS research",
+        "risk_level": "LOW"
+      }
+    ],
+    "regulators": {
+      "export_control": {
+        "agency": "Ministry of Economy",
+        "framework": "EU Dual-Use Regulation",
+        "enforcement": "WEAK",
+        "gaps": ["Limited screening capacity", "No research security framework"]
+      },
+      "fdi_screening": {
+        "agency": "Ministry of Economy",
+        "framework": "EU FDI Screening Regulation",
+        "enforcement": "MODERATE",
+        "gaps": ["Limited technical expertise", "Political override risks"]
+      },
+      "data_protection": {
+        "agency": "Office for Personal Data Protection",
+        "framework": "GDPR",
+        "enforcement": "MODERATE"
+      },
+      "cybersecurity": {
+        "agency": "National Security Authority (NBÚ)",
+        "framework": "NIS2 Directive (Act 366/2024)",
+        "implementation": "January 1, 2025",
+        "scope": "10,000+ entities"
+      }
+    }
+  },
+  "institutional_layer": {
+    "universities": {
+      "total": 14,
+      "public": 13,
+      "key_institutions": [
+        {
+          "name": "Slovak University of Technology (STU)",
+          "location": "Bratislava",
+          "students": 19000,
+          "research_staff": 300,
+          "china_partnerships": true,
+          "confucius_institute": true,
+          "risk_assessment": "HIGH"
+        },
+        {
+          "name": "Comenius University",
+          "location": "Bratislava",
+          "faculties": 13,
+          "china_partnerships": true,
+          "confucius_institute": true,
+          "risk_assessment": "HIGH"
+        },
+        {
+          "name": "Technical University of Košice",
+          "location": "Košice",
+          "specialization": "Engineering, IT",
+          "china_partnerships": true,
+          "pla_linked_partner": "Beijing Institute of Technology",
+          "risk_assessment": "VERY HIGH"
+        }
+      ]
+    },
+    "research_institutes": {
+      "slovak_academy_sciences": {
+        "institutes": 73,
+        "science_groups": 3,
+        "employees": null,
+        "china_partnerships": 25,
+        "pla_linked": true,
+        "joint_centers": ["Northwestern Polytechnical University"]
+      },
+      "other_institutes": [
+        "CVTI SR",
+        "QUTE.sk (quantum)",
+        "Institute of Physics SAS"
+      ]
+    },
+    "rtos": {
+      "identified": ["QUTE.sk", "Institute of Physics SAS"],
+      "classification": {
+        "fundamental": ["Institute of Physics SAS", "SAS institutes"],
+        "applied": [],
+        "sectoral": ["QUTE.sk (quantum)"],
+        "defense": []
+      },
+      "gaps": ["No Fraunhofer-type applied RTOs", "Limited industry collaboration"]
+    },
+    "private_sector": {
+      "multinationals": ["ESET", "Sygic"],
+      "unicorns": [],
+      "startups": ["Brightpick", "Fuergy", "Blockmate", "Airvolute"],
+      "defense_contractors": ["KONŠTRUKTA Defence", "ZVS Holding", "LOTN"],
+      "r&d_centers": {
+        "foreign": "Limited presence",
+        "domestic": ["ESET R&D", "Sygic development"]
+      }
+    }
+  },
+  "china_engagement_analysis": {
+    "total_academic_ties": 113,
+    "pla_linked_partnerships": 25,
+    "high_risk_percentage": 60,
+    "confucius_institutes": 3,
+    "key_risks": [
+      "25 partnerships with PLA-linked institutions",
+      "60% partnerships rated 'high risk' or 'very high risk'",
+      "Joint research center with Northwestern Polytechnical (Seven Sons)",
+      "No systematic risk assessment framework",
+      "Low sensitivity to China risks"
+    ],
+    "specific_partnerships": [
+      {
+        "slovak_institution": "Slovak Academy of Sciences",
+        "chinese_partner": "Northwestern Polytechnical University",
+        "type": "Joint research center",
+        "risk": "VERY HIGH (Seven Sons of National Defense)"
+      },
+      {
+        "slovak_institution": "Technical University Zvolen",
+        "chinese_partner": "Nanjing University of Science and Technology",
+        "risk": "HIGH (PLA-linked)"
+      },
+      {
+        "slovak_institution": "University of Žilina",
+        "chinese_partner": "Beijing Institute of Technology",
+        "risk": "VERY HIGH (Seven Sons of National Defense)"
+      },
+      {
+        "slovak_institution": "Technical University Košice",
+        "chinese_partner": "Beijing Institute of Technology",
+        "risk": "VERY HIGH (Seven Sons of National Defense)"
+      }
+    ]
+  },
+  "legal_regulatory_assessment": {
+    "export_controls": {
+      "framework": "EU Dual-Use Regulation 2021/821",
+      "implementation": "WEAK",
+      "gaps": ["No dedicated enforcement unit", "Limited awareness in academia", "No research security screening"]
+    },
+    "fdi_screening": {
+      "framework": "EU Regulation 2019/452",
+      "implementation": "MODERATE",
+      "recent_cases": "Gotion battery investment interest"
+    },
+    "research_security": {
+      "policy": "NONE",
+      "framework": "ABSENT",
+      "risk_assessment": "Not systematic",
+      "gaps": ["No national research security policy", "No vetting of foreign partnerships", "No technology transfer controls"]
+    },
+    "data_protection": {
+      "gdpr": "Implemented",
+      "nis2": "Act 366/2024 effective Jan 1, 2025",
+      "cyber_resilience_act": "Pending EU implementation"
+    },
+    "ip_protection": {
+      "framework": "EU standards",
+      "enforcement": "WEAK",
+      "technology_transfer": "Uncontrolled"
+    },
+    "red_flag_conditions": [
+      "Partnerships with PLA-linked universities",
+      "Joint research centers with Chinese military institutions",
+      "Absence of research security framework",
+      "Political pressure for China cooperation",
+      "Limited export control enforcement",
+      "No systematic partnership vetting"
+    ]
+  },
+  "data_gaps": [
+    "R&D budget allocations by institution",
+    "Detailed mapping of Chinese funding in Slovak research",
+    "Complete inventory of dual-use research projects",
+    "Technology transfer statistics",
+    "Foreign researcher numbers and origins",
+    "Industry R&D investment data",
+    "Classified research partnerships"
+  ],
+  "risk_summary": {
+    "overall_risk": "HIGH",
+    "key_vulnerabilities": [
+      "Extensive PLA-linked academic partnerships",
+      "No research security framework",
+      "Political push for China cooperation under current government",
+      "Weak export control enforcement",
+      "Limited awareness of technology transfer risks"
+    ],
+    "recommendations": [
+      "Implement research security screening",
+      "Review all China academic partnerships",
+      "Strengthen export control enforcement",
+      "Develop technology transfer guidelines",
+      "Create foreign partnership risk assessment framework"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+============================================================
+PROJECT STRUCTURE ANALYSIS REPORT
+============================================================
+Generated: 2025-09-13T09:15:06.650657
+
+ROOT DIRECTORY STATUS
+------------------------------
+[WARNING] Files that should be organized (15):
+  - .env.example
+  - .env.local
+  - DATA_COLLECTION_COMPLETE_SETUP.md
+  - DATA_COLLECTION_STATUS.md
+  - DATA_SOURCES_ANALYSIS.md
+  - DATA_SOURCES_COMPLETE_INVENTORY.md
+  - demo_commoncrawl_simple.py
+  - EXPANSION_ROADMAP.md
+  - initialize_f_drive.py
+  - Ireland_OSINT_Foresight_Analysis.docx
+  - project_structure_analysis.json
+  - REORGANIZATION_SUMMARY.md
+  - scheduled_backup_task.xml
+  - setup_automated_backup.bat
+  - test_apis.py
+
+MISSING DIRECTORIES
+------------------------------
+  - scripts/demos
+  - docs/planning
+  - docs/analysis
+
+FILES TO REORGANIZE
+------------------------------
+  demo_commoncrawl_simple.py
+    -> scripts\demos\demo_commoncrawl_simple.py
+  initialize_f_drive.py
+    -> scripts\setup\initialize_f_drive.py
+  test_apis.py
+    -> tests\integration\test_apis.py
+  DATA_COLLECTION_COMPLETE_SETUP.md
+    -> docs\guides\DATA_COLLECTION_COMPLETE_SETUP.md
+  DATA_COLLECTION_STATUS.md
+    -> docs\reports\DATA_COLLECTION_STATUS.md
+  DATA_SOURCES_ANALYSIS.md
+    -> docs\analysis\DATA_SOURCES_ANALYSIS.md
+  DATA_SOURCES_COMPLETE_INVENTORY.md
+    -> docs\references\DATA_SOURCES_COMPLETE_INVENTORY.md
+  EXPANSION_ROADMAP.md
+    -> docs\planning\EXPANSION_ROADMAP.md
+  REORGANIZATION_SUMMARY.md
+    -> docs\reports\REORGANIZATION_SUMMARY.md
+  Ireland_OSINT_Foresight_Analysis.docx
+    -> out\exports\country=IE\Ireland_OSINT_Foresight_Analysis.docx
+  project_structure_analysis.json
+    -> data\processed\project_structure_analysis.json
+
+RECOMMENDATIONS
+------------------------------
+  * Found 15 files in root that should be organized
+  * Missing 3 required directories
+  * Found 11 files that should be moved
+
+SUMMARY
+------------------------------
+[WARNING] Found 29 issues to address
+  Run with --execute to automatically fix
+
+============================================================

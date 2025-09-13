@@ -1,0 +1,21 @@
+src_node_id	dst_node_id	vector_type	description	risk	mitigation_cost
+SN008	SN001	materials	Rare earths for semiconductor production	H	High
+SN009	SN004	energy	Natural gas for research facilities heating	H	Medium
+SN005	SN014	funding	EU funds to universities	M	Low
+SN006	SN004	funding	Recovery funds to SAS institutes	M	Low
+SN011	SN014	funding	Chinese funding to universities	H	Low
+SN010	SN014	technology	Telecom equipment in universities	M	Medium
+SN001	SN007	components	Chips for automotive production	H	High
+SN016	SN007	materials	Battery materials for EV production	H	High
+SN002	SN004	equipment	Lab equipment supply to SAS	M	Medium
+SN012	SN014	technology	Software licenses for research	M	Low
+SN015	SN004	funding	National budget to SAS	M	Low
+SN013	SN004	materials	Chemical supplies to labs	M	Low
+SN003	SN014	data	Access to EU research databases	L	Low
+SN017	SN014	technology	Quantum computing access	M	High
+SN018	SN014	data	Chinese research data access	L	Low
+SN019	SN007	logistics	Transport for automotive supplies	L	Low
+SN020	SN014	funding	Private R&D investment	L	Medium
+SN008	SN010	materials	Rare earths for telecom equipment	H	High
+SN011	SN010	ownership	Chinese investment in telecom	H	Medium
+SN009	SN007	energy	Gas for industrial production	H	Medium

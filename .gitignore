@@ -1,10 +1,51 @@
+# Temporary files
+~$*
+*.tmp
+*.bak
+Thumbs.db
+
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
 .venv/
 
-# Environment variables (NEVER commit!)
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+!.vscode/tasks.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Output files in root (should be in out/)
+/*.docx
+/*.xlsx
+/*.pptx
+
+# Local config
+.env
 .env.local
+*.local
+
+# BigQuery credentials
+*credentials*.json
+*service-account*.json
+
+# Large data files
+*.csv
+!metric_catalog.csv
+!procurement_signals.csv
+!forecast_registry.csv
+!evidence_master.csv
 
 # Data (raw and screenshots not versioned)
 /data/raw/
@@ -12,6 +53,7 @@ __pycache__/
 
 # OS/IDE
 .DS_Store
-.vscode/
-!.vscode/tasks.json
-!.vscode/settings.json
+
+# Analysis outputs
+project_structure_analysis.json
+reorganization_report_*.txt

@@ -1,8 +1,45 @@
+# Pre-commit hooks for OSINT Foresight project
+# Ensures code quality and project structure compliance
+
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.6.0
     hooks:
       - id: trailing-whitespace
+        exclude: '^(data|archive)/'
       - id: end-of-file-fixer
+        exclude: '^(data|archive)/'
       - id: check-yaml
+      - id: check-json
+      - id: check-merge-conflict
       - id: mixed-line-ending
+        args: ['--fix=lf']
+      - id: check-added-large-files
+        args: ['--maxkb=1000']
+        exclude: '^(data|out|archive)/'
+      - id: detect-private-key
+
+  # Custom hooks for project structure
+  - repo: local
+    hooks:
+      # Check project structure compliance
+      - id: check-structure
+        name: Check project structure
+        entry: python scripts/utils/auto_organize.py --report
+        language: python
+        pass_filenames: false
+        always_run: true
+
+      # Ensure no Python files in root (except allowed)
+      - id: no-root-python
+        name: No Python files in root (except allowed)
+        entry: python scripts/utils/check_root_files.py
+        language: python
+        pass_filenames: false
+
+      # Ensure no Word docs in root
+      - id: no-root-docs
+        name: No Word/Excel documents in root
+        entry: python scripts/utils/check_root_files.py --docs
+        language: python
+        pass_filenames: false

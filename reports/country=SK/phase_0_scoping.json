@@ -1,0 +1,283 @@
+{
+  "meta": {
+    "collection_timestamp": "2025-09-10T21:45:00Z",
+    "sources_queried": [
+      "Slovak Research and Development Agency (SRDA/APVV)",
+      "Science Grant Agency (VEGA)",
+      "Research and Innovation Portal (VAIA)",
+      "Ministry of Investment, Regional Development and Informatization (MIRRI)",
+      "Ministry of Education, Research, Development and Youth",
+      "SlovakiaTech Conference",
+      "EU Horizon Europe",
+      "NATO Defense Reports"
+    ],
+    "languages_used": ["en", "sk", "zh"],
+    "parallel_time_saved_seconds": 60,
+    "confidence_score": 0.8,
+    "regional_comparators_analyzed": ["Poland", "Czechia", "Hungary"]
+  },
+  "country_position": {
+    "global_innovation_ranking": 46,
+    "eu_innovation_status": "Emerging Innovator",
+    "innovation_scoreboard_position": 28,
+    "eu_average_percentage": 65,
+    "regional_v4_ranking": 4,
+    "key_strengths": [
+      "Growing defense industry (1.1% GDP arms exports)",
+      "NATO integration (2.2% GDP defense spending)",
+      "Strong technical university (STU)",
+      "Emerging blockchain/crypto hub (550+ VASPs)",
+      "Manufacturing heritage and capabilities"
+    ],
+    "key_vulnerabilities": [
+      "Lowest VC funding in V4 region",
+      "Brain drain to Western Europe",
+      "Limited R&D investment vs EU average",
+      "Dependency on EU funding",
+      "New strategic partnership with China creating dependencies"
+    ]
+  },
+  "priority_tech_areas": [
+    {
+      "area": "Artificial Intelligence",
+      "maturity": "developing",
+      "key_initiatives": [
+        "Slovak AI Digital Innovation Hub",
+        "AI in Education Plan",
+        "Network of European Digital Innovation Hubs"
+      ],
+      "foreign_interest": "HIGH",
+      "prc_engagement": true
+    },
+    {
+      "area": "Quantum Computing",
+      "maturity": "emerging",
+      "key_initiatives": [
+        "PERUN supercomputer (50 PFLOP/s planned)",
+        "EUR 5M quantum cloud investment",
+        "Quantum simulator at Technical University Kosice",
+        "QUTE.sk coordination entity"
+      ],
+      "foreign_interest": "MODERATE",
+      "prc_engagement": false
+    },
+    {
+      "area": "Robotics & Automation",
+      "maturity": "developing",
+      "key_initiatives": [
+        "STU National Center of Robotics",
+        "Brightpick ($19M funding)",
+        "Warehouse automation focus"
+      ],
+      "foreign_interest": "HIGH",
+      "prc_engagement": true
+    },
+    {
+      "area": "Defense Technology",
+      "maturity": "mature",
+      "key_initiatives": [
+        "Zuzana 2 howitzer production",
+        "155mm ammunition hub",
+        "F-16V fighter modernization",
+        "Patriot missile systems"
+      ],
+      "foreign_interest": "CRITICAL",
+      "prc_engagement": false
+    },
+    {
+      "area": "Blockchain/Fintech",
+      "maturity": "developing",
+      "key_initiatives": [
+        "550+ Virtual Asset Service Providers",
+        "Blockchain Slovakia association",
+        "Blockmate fintech platform"
+      ],
+      "foreign_interest": "MODERATE",
+      "prc_engagement": false
+    },
+    {
+      "area": "IoT/Smart Cities",
+      "maturity": "emerging",
+      "key_initiatives": [
+        "USD 1.2B IoT market 2024",
+        "Automotive IoT focus (USD 323M)",
+        "Smart Cities Action Plan 2023-2026"
+      ],
+      "foreign_interest": "HIGH",
+      "prc_engagement": true
+    },
+    {
+      "area": "Advanced Materials/Nanotech",
+      "maturity": "emerging",
+      "key_initiatives": [
+        "SLOVAKION Centre",
+        "STU materials research",
+        "V4-Japan Advanced Materials program"
+      ],
+      "foreign_interest": "MODERATE",
+      "prc_engagement": true
+    },
+    {
+      "area": "Space Technology",
+      "maturity": "nascent",
+      "key_initiatives": [
+        "Airvolute autonomous flight",
+        "Emerging SpaceTech startups",
+        "EU space program participation"
+      ],
+      "foreign_interest": "LOW",
+      "prc_engagement": false
+    }
+  ],
+  "rd_governance": {
+    "key_ministries": [
+      {
+        "name": "Ministry of Education, Research, Development and Youth",
+        "role": "Primary R&D strategy and funding",
+        "budget_allocation": null
+      },
+      {
+        "name": "Ministry of Economy",
+        "role": "Innovation policy and business support",
+        "programs": ["Innovation vouchers", "Startup visa"]
+      },
+      {
+        "name": "Ministry of Investment, Regional Development and Informatization",
+        "role": "Digital transformation and EU funds",
+        "budget_2024": "EUR 2.3B digital transformation"
+      }
+    ],
+    "funding_agencies": [
+      {
+        "name": "Slovak Research and Development Agency (SRDA/APVV)",
+        "type": "National grant agency",
+        "focus": "All R&D fields"
+      },
+      {
+        "name": "Science Grant Agency (VEGA)",
+        "type": "Academic research",
+        "focus": "University and SAS research"
+      }
+    ],
+    "national_strategies": [
+      {
+        "name": "RIS3 SK - Smart Specialisation Strategy",
+        "period": "2021-2027",
+        "status": "Active"
+      },
+      {
+        "name": "2030 Strategy for Digital Transformation",
+        "period": "2021-2030",
+        "focus": "AI, IoT, 5G, blockchain"
+      },
+      {
+        "name": "Recovery and Resilience Plan",
+        "funding": "EUR 575.2M for R&D",
+        "period": "2021-2026"
+      }
+    ]
+  },
+  "international_posture": {
+    "eu_integration": {
+      "status": "Full member since 2004",
+      "horizon_participation": "Active in Horizon Europe",
+      "digital_decade_alignment": true,
+      "innovation_ranking": "Emerging Innovator"
+    },
+    "us_relationship": {
+      "defense_cooperation": "NATO ally, F-16 program",
+      "research_cooperation": "Bilateral S&T agreement",
+      "concerns": "Growing China ties"
+    },
+    "prc_relationship": {
+      "status": "STRATEGIC PARTNERSHIP (Nov 2024)",
+      "trade_volume": "EUR 10.5B (top Asian partner)",
+      "cooperation_areas": [
+        "New energy",
+        "Transportation/logistics",
+        "Infrastructure",
+        "Scientific research",
+        "Education"
+      ],
+      "risk_level": "ELEVATED"
+    },
+    "regional_blocs": {
+      "visegrad_group": "Active member, weakest innovation performer",
+      "china_ceec": "Hosting 6th Innovation Conference",
+      "nato": "2.2% GDP defense spending"
+    }
+  },
+  "strategic_assessment": {
+    "strengths": [
+      "Strong defense industry with NATO integration",
+      "Manufacturing heritage and skilled workforce",
+      "EU membership providing funding and market access",
+      "Emerging fintech/blockchain ecosystem",
+      "Strategic location in Central Europe"
+    ],
+    "vulnerabilities": [
+      "Rapid pivot to China creating dependencies",
+      "Limited domestic R&D investment",
+      "Smallest startup ecosystem in V4",
+      "Brain drain to Western markets",
+      "Over-reliance on EU structural funds"
+    ],
+    "foreign_interest_vectors": [
+      "Chinese infrastructure and energy investments",
+      "Defense technology transfer risks",
+      "Dual-use research in robotics and AI",
+      "Supply chain dependencies in semiconductors",
+      "Financial exposure through trade imbalance"
+    ]
+  },
+  "us_natsec_framework": {
+    "dimensions": [
+      {
+        "category": "Technology Transfer",
+        "rating": "HIGH",
+        "justification": "New China strategic partnership explicitly includes tech cooperation; limited safeguards"
+      },
+      {
+        "category": "Research Security",
+        "rating": "MODERATE",
+        "justification": "Weak research security framework; increasing Chinese academic engagement"
+      },
+      {
+        "category": "Supply Chain",
+        "rating": "MODERATE",
+        "justification": "EU integration provides some resilience but growing China dependencies"
+      },
+      {
+        "category": "Critical Infrastructure",
+        "rating": "MODERATE-HIGH",
+        "justification": "Chinese interest in energy and transport infrastructure investments"
+      },
+      {
+        "category": "Defense Industrial Base",
+        "rating": "MODERATE",
+        "justification": "Strong NATO integration but potential for technology leakage"
+      },
+      {
+        "category": "Dual-Use Research",
+        "rating": "MODERATE-HIGH",
+        "justification": "Robotics, AI, quantum programs with limited export controls"
+      },
+      {
+        "category": "Economic Coercion",
+        "rating": "HIGH",
+        "justification": "EUR 10.5B trade dependency; largest-ever business delegation to China"
+      },
+      {
+        "category": "Alliance Cohesion",
+        "rating": "MODERATE",
+        "justification": "NATO/EU member pursuing independent China policy under Fico government"
+      }
+    ]
+  },
+  "data_quality_metrics": {
+    "completeness": 0.85,
+    "source_diversity": 15,
+    "recency_days": 0,
+    "verification_level": "double"
+  }
+}

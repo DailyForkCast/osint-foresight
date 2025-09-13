@@ -1,0 +1,76 @@
+2025-09-09 21:14:18,477 - INFO - Loaded config: Archive after 72 hours
+2025-09-09 21:14:18,477 - INFO - Exclusions: 16 files
+2025-09-09 21:14:18,478 - INFO - Starting archive run (dry_run=True)
+2025-09-09 21:14:18,479 - INFO - File 01_crossref_event_data_collectors.md is 96.4 hours old - will archive
+2025-09-09 21:14:18,479 - INFO - [DRY RUN] Would archive: 01_crossref_event_data_collectors.md
+2025-09-09 21:14:18,480 - INFO - File 02_cordis_eu_projects.md is 96.4 hours old - will archive
+2025-09-09 21:14:18,480 - INFO - [DRY RUN] Would archive: 02_cordis_eu_projects.md
+2025-09-09 21:14:18,481 - INFO - File 03_open_corporates.md is 96.4 hours old - will archive
+2025-09-09 21:14:18,481 - INFO - [DRY RUN] Would archive: 03_open_corporates.md
+2025-09-09 21:14:18,482 - INFO - File 04_gleif_lei.md is 96.4 hours old - will archive
+2025-09-09 21:14:18,482 - INFO - [DRY RUN] Would archive: 04_gleif_lei.md
+2025-09-09 21:14:18,482 - INFO - File 05_ietf_datatracker.md is 96.3 hours old - will archive
+2025-09-09 21:14:18,482 - INFO - [DRY RUN] Would archive: 05_ietf_datatracker.md
+2025-09-09 21:14:18,483 - INFO - File 06_vscode_tasks_patch.md is 96.3 hours old - will archive
+2025-09-09 21:14:18,483 - INFO - [DRY RUN] Would archive: 06_vscode_tasks_patch.md
+2025-09-09 21:14:18,483 - INFO - File analyst_prompt_pack_narrative_sources_policy_white_papers.md is 83.7 hours old - will archive
+2025-09-09 21:14:18,483 - INFO - [DRY RUN] Would archive: analyst_prompt_pack_narrative_sources_policy_white_papers.md
+2025-09-09 21:14:18,484 - INFO - File claude_code_append_austria_watchlist_entries_queries_policy_watchlist.md is 83.6 hours old - will archive
+2025-09-09 21:14:18,484 - INFO - [DRY RUN] Would archive: claude_code_append_austria_watchlist_entries_queries_policy_watchlist.md
+2025-09-09 21:14:18,484 - INFO - File claude_code_austria_phase_2_ai_conference_edges_signals_relationships_csv_signals.md is 80.0 hours old - will archive
+2025-09-09 21:14:18,484 - INFO - [DRY RUN] Would archive: claude_code_austria_phase_2_ai_conference_edges_signals_relationships_csv_signals.md
+2025-09-09 21:14:18,485 - INFO - File claude_code_austria_phase_2_quick_enrichment_standards_roles_tsv_signals_csv_relationships.md is 80.0 hours old - will archive
+2025-09-09 21:14:18,485 - INFO - [DRY RUN] Would archive: claude_code_austria_phase_2_quick_enrichment_standards_roles_tsv_signals_csv_relationships.md
+2025-09-09 21:14:18,486 - INFO - File claude_code_austria_preflight_write_phase_1_reports_country_at_phase_1_indicators.md is 83.4 hours old - will archive
+2025-09-09 21:14:18,486 - INFO - [DRY RUN] Would archive: claude_code_austria_preflight_write_phase_1_reports_country_at_phase_1_indicators.md
+2025-09-09 21:14:18,486 - INFO - File claude_code_compute_write_austria_phase_2_from_processed_data_reports_country_at_phase_2_landscape.md is 83.0 hours old - will archive
+2025-09-09 21:14:18,486 - INFO - [DRY RUN] Would archive: claude_code_compute_write_austria_phase_2_from_processed_data_reports_country_at_phase_2_landscape.md
+2025-09-09 21:14:18,487 - INFO - File claude_code_fix_canonicalize_austria_portals_file_enforce_deterministic_writes.md is 83.3 hours old - will archive
+2025-09-09 21:14:18,487 - INFO - [DRY RUN] Would archive: claude_code_fix_canonicalize_austria_portals_file_enforce_deterministic_writes.md
+2025-09-09 21:14:18,489 - INFO - File claude_code_patch_add_ensure_template_helper_wire_into_analysis_scripts.md is 84.3 hours old - will archive
+2025-09-09 21:14:18,489 - INFO - [DRY RUN] Would archive: claude_code_patch_add_ensure_template_helper_wire_into_analysis_scripts.md
+2025-09-09 21:14:18,499 - INFO - File claude_code_upsert_at_neur_ips_2024_ista_co_authorship_edges_relationships.md is 72.1 hours old - will archive
+2025-09-09 21:14:18,499 - INFO - [DRY RUN] Would archive: claude_code_upsert_at_neur_ips_2024_ista_co_authorship_edges_relationships.md
+2025-09-09 21:14:18,508 - INFO - File osint_foresight_master_prompt_phases_0_8_scs_narrative_sources_v_3.md is 84.1 hours old - will archive
+2025-09-09 21:14:18,508 - INFO - [DRY RUN] Would archive: osint_foresight_master_prompt_phases_0_8_scs_narrative_sources_v_3.md
+2025-09-09 21:14:18,517 - INFO - File write_austria_references_portals_docs_references_at_portals.md is 83.7 hours old - will archive
+2025-09-09 21:14:18,517 - INFO - [DRY RUN] Would archive: write_austria_references_portals_docs_references_at_portals.md
+2025-09-09 21:14:18,518 - INFO - Archive run complete: 0 files archived, 73 skipped
+2025-09-09 21:14:25,936 - INFO - Loaded config: Archive after 72 hours
+2025-09-09 21:14:25,936 - INFO - Exclusions: 16 files
+2025-09-09 21:14:25,936 - INFO - Starting archive run (dry_run=False)
+2025-09-09 21:14:25,937 - INFO - File 01_crossref_event_data_collectors.md is 96.4 hours old - will archive
+2025-09-09 21:14:25,940 - INFO - Archived: 01_crossref_event_data_collectors.md -> 20250905_01_crossref_event_data_collectors.md
+2025-09-09 21:14:25,941 - INFO - File 02_cordis_eu_projects.md is 96.4 hours old - will archive
+2025-09-09 21:14:25,944 - INFO - Archived: 02_cordis_eu_projects.md -> 20250905_02_cordis_eu_projects.md
+2025-09-09 21:14:25,945 - INFO - File 03_open_corporates.md is 96.4 hours old - will archive
+2025-09-09 21:14:25,947 - INFO - Archived: 03_open_corporates.md -> 20250905_03_open_corporates.md
+2025-09-09 21:14:25,948 - INFO - File 04_gleif_lei.md is 96.4 hours old - will archive
+2025-09-09 21:14:25,950 - INFO - Archived: 04_gleif_lei.md -> 20250905_04_gleif_lei.md
+2025-09-09 21:14:25,950 - INFO - File 05_ietf_datatracker.md is 96.3 hours old - will archive
+2025-09-09 21:14:25,952 - INFO - Archived: 05_ietf_datatracker.md -> 20250905_05_ietf_datatracker.md
+2025-09-09 21:14:25,952 - INFO - File 06_vscode_tasks_patch.md is 96.3 hours old - will archive
+2025-09-09 21:14:25,954 - INFO - Archived: 06_vscode_tasks_patch.md -> 20250905_06_vscode_tasks_patch.md
+2025-09-09 21:14:25,955 - INFO - File analyst_prompt_pack_narrative_sources_policy_white_papers.md is 83.7 hours old - will archive
+2025-09-09 21:14:25,956 - INFO - Archived: analyst_prompt_pack_narrative_sources_policy_white_papers.md -> 20250906_analyst_prompt_pack_narrative_sources_policy_white_papers.md
+2025-09-09 21:14:25,957 - INFO - File claude_code_append_austria_watchlist_entries_queries_policy_watchlist.md is 83.6 hours old - will archive
+2025-09-09 21:14:25,959 - INFO - Archived: claude_code_append_austria_watchlist_entries_queries_policy_watchlist.md -> 20250906_claude_code_append_austria_watchlist_entries_queries_policy_watchlist.md
+2025-09-09 21:14:25,960 - INFO - File claude_code_austria_phase_2_ai_conference_edges_signals_relationships_csv_signals.md is 80.0 hours old - will archive
+2025-09-09 21:14:25,963 - INFO - Archived: claude_code_austria_phase_2_ai_conference_edges_signals_relationships_csv_signals.md -> 20250906_claude_code_austria_phase_2_ai_conference_edges_signals_relationships_csv_signals.md
+2025-09-09 21:14:25,964 - INFO - File claude_code_austria_phase_2_quick_enrichment_standards_roles_tsv_signals_csv_relationships.md is 80.0 hours old - will archive
+2025-09-09 21:14:25,966 - INFO - Archived: claude_code_austria_phase_2_quick_enrichment_standards_roles_tsv_signals_csv_relationships.md -> 20250906_claude_code_austria_phase_2_quick_enrichment_standards_roles_tsv_signals_csv_relationships.md
+2025-09-09 21:14:25,966 - INFO - File claude_code_austria_preflight_write_phase_1_reports_country_at_phase_1_indicators.md is 83.4 hours old - will archive
+2025-09-09 21:14:25,968 - INFO - Archived: claude_code_austria_preflight_write_phase_1_reports_country_at_phase_1_indicators.md -> 20250906_claude_code_austria_preflight_write_phase_1_reports_country_at_phase_1_indicators.md
+2025-09-09 21:14:25,968 - INFO - File claude_code_compute_write_austria_phase_2_from_processed_data_reports_country_at_phase_2_landscape.md is 83.0 hours old - will archive
+2025-09-09 21:14:25,970 - INFO - Archived: claude_code_compute_write_austria_phase_2_from_processed_data_reports_country_at_phase_2_landscape.md -> 20250906_claude_code_compute_write_austria_phase_2_from_processed_data_reports_country_at_phase_2_landscape.md
+2025-09-09 21:14:25,971 - INFO - File claude_code_fix_canonicalize_austria_portals_file_enforce_deterministic_writes.md is 83.3 hours old - will archive
+2025-09-09 21:14:25,974 - INFO - Archived: claude_code_fix_canonicalize_austria_portals_file_enforce_deterministic_writes.md -> 20250906_claude_code_fix_canonicalize_austria_portals_file_enforce_deterministic_writes.md
+2025-09-09 21:14:25,975 - INFO - File claude_code_patch_add_ensure_template_helper_wire_into_analysis_scripts.md is 84.3 hours old - will archive
+2025-09-09 21:14:25,980 - INFO - Archived: claude_code_patch_add_ensure_template_helper_wire_into_analysis_scripts.md -> 20250906_claude_code_patch_add_ensure_template_helper_wire_into_analysis_scripts.md
+2025-09-09 21:14:25,983 - INFO - File claude_code_upsert_at_neur_ips_2024_ista_co_authorship_edges_relationships.md is 72.1 hours old - will archive
+2025-09-09 21:14:25,985 - INFO - Archived: claude_code_upsert_at_neur_ips_2024_ista_co_authorship_edges_relationships.md -> 20250906_claude_code_upsert_at_neur_ips_2024_ista_co_authorship_edges_relationships.md
+2025-09-09 21:14:25,988 - INFO - File osint_foresight_master_prompt_phases_0_8_scs_narrative_sources_v_3.md is 84.1 hours old - will archive
+2025-09-09 21:14:25,991 - INFO - Archived: osint_foresight_master_prompt_phases_0_8_scs_narrative_sources_v_3.md -> 20250906_osint_foresight_master_prompt_phases_0_8_scs_narrative_sources_v_3.md
+2025-09-09 21:14:25,994 - INFO - File write_austria_references_portals_docs_references_at_portals.md is 83.7 hours old - will archive
+2025-09-09 21:14:25,997 - INFO - Archived: write_austria_references_portals_docs_references_at_portals.md -> 20250906_write_austria_references_portals_docs_references_at_portals.md
+2025-09-09 21:14:25,998 - INFO - Archive run complete: 17 files archived, 73 skipped

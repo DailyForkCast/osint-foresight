@@ -1,0 +1,31 @@
+============================================================
+PROJECT STRUCTURE ANALYSIS REPORT
+============================================================
+Generated: 2025-09-13T10:56:07.430837
+
+ROOT DIRECTORY STATUS
+------------------------------
+[WARNING] Files that should be organized (4):
+  - .env.example
+  - .env.local
+  - Ireland_OSINT_Foresight_Analysis.docx
+  - SETUP.md
+
+FILES TO REORGANIZE
+------------------------------
+  SETUP.md
+    -> docs\guides\SETUP.md
+  Ireland_OSINT_Foresight_Analysis.docx
+    -> out\exports\country=IE\Ireland_OSINT_Foresight_Analysis.docx
+
+RECOMMENDATIONS
+------------------------------
+  * Found 4 files in root that should be organized
+  * Found 2 files that should be moved
+
+SUMMARY
+------------------------------
+[WARNING] Found 6 issues to address
+  Run with --execute to automatically fix
+
+============================================================

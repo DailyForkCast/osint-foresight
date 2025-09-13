@@ -1,0 +1,128 @@
+{
+  "triple_helix_analysis": {
+    "integration_patterns": [
+      {
+        "sector_pair": "academia-industry",
+        "integration_score": 0.45,
+        "key_bridges": ["STU-Volkswagen", "TUKE-Kia", "Spinoffs (Brightpick, Powerful Medical)"],
+        "foreign_nodes": ["Huawei Technologies"],
+        "weaknesses": ["Limited domestic industry R&D", "Weak VC ecosystem"],
+        "risk_level": "Medium"
+      },
+      {
+        "sector_pair": "academia-government",
+        "integration_score": 0.75,
+        "key_bridges": ["APVV funding", "Ministry oversight", "EU coordination"],
+        "foreign_nodes": ["European Commission", "Confucius Institute HQ"],
+        "weaknesses": ["Over-dependence on government funding"],
+        "risk_level": "Low"
+      },
+      {
+        "sector_pair": "industry-government",
+        "integration_score": 0.35,
+        "key_bridges": ["FDI incentives", "EU structural funds", "Automotive policy"],
+        "foreign_nodes": ["Foreign MNCs", "EU institutions"],
+        "weaknesses": ["Limited domestic champions", "Foreign dominance"],
+        "risk_level": "Medium"
+      }
+    ],
+    "overall_metrics": {
+      "integration_index": 0.52,
+      "balance_score": 0.38,
+      "foreign_penetration": 0.65,
+      "domestic_autonomy": 0.35
+    },
+    "foreign_influence_assessment": {
+      "china": {
+        "penetration_level": 0.45,
+        "sectors_affected": ["academia", "telecom"],
+        "mechanisms": ["Confucius Institutes", "Research partnerships", "Equipment supply"],
+        "institutions_compromised": 5,
+        "risk_trend": "increasing"
+      },
+      "eu": {
+        "penetration_level": 0.85,
+        "sectors_affected": ["all"],
+        "mechanisms": ["Funding", "Regulation", "Standards"],
+        "institutions_dependent": 15,
+        "risk_trend": "stable"
+      },
+      "other": {
+        "penetration_level": 0.25,
+        "sectors_affected": ["industry", "defense"],
+        "mechanisms": ["FDI", "NATO cooperation"],
+        "institutions_involved": 5,
+        "risk_trend": "stable"
+      }
+    },
+    "key_vulnerabilities": [
+      "Weak industry-academia linkage (0.45)",
+      "High foreign penetration (0.65)",
+      "Low domestic autonomy (0.35)",
+      "Unbalanced triple helix (0.38)",
+      "China presence in critical nodes"
+    ],
+    "recommendations": [
+      "Strengthen domestic industry R&D capabilities",
+      "Reduce foreign funding dependence",
+      "Enhance academia-industry collaboration",
+      "Monitor foreign influence in research",
+      "Build domestic innovation champions"
+    ]
+  },
+  "network_communities": [
+    {
+      "id": 1,
+      "label": "Core Slovak Academic",
+      "members": ["STU", "Comenius", "SAS"],
+      "coherence_score": 0.85,
+      "risk_indicators": ["China partnerships", "Equipment dependency"]
+    },
+    {
+      "id": 2,
+      "label": "Regional Technical",
+      "members": ["TUKE", "UNIZA"],
+      "coherence_score": 0.75,
+      "risk_indicators": ["Beijing Tech links"]
+    },
+    {
+      "id": 3,
+      "label": "Automotive Cluster",
+      "members": ["VW", "Kia", "Stellantis"],
+      "coherence_score": 0.80,
+      "risk_indicators": ["Supply chain vulnerability"]
+    },
+    {
+      "id": 4,
+      "label": "Government Funding",
+      "members": ["Ministry", "APVV"],
+      "coherence_score": 0.90,
+      "risk_indicators": ["Limited resources"]
+    },
+    {
+      "id": 5,
+      "label": "China Network",
+      "members": ["Huawei", "Confucius", "PLA universities"],
+      "coherence_score": 0.85,
+      "risk_indicators": ["Dual-use research", "IP theft", "Influence ops"]
+    }
+  ],
+  "temporal_evolution": {
+    "2018-2020": {
+      "china_nodes": 3,
+      "integration_index": 0.45,
+      "risk_level": "Medium"
+    },
+    "2021-2023": {
+      "china_nodes": 5,
+      "integration_index": 0.50,
+      "risk_level": "Medium-High"
+    },
+    "2024-2025": {
+      "china_nodes": 5,
+      "integration_index": 0.52,
+      "risk_level": "High",
+      "notes": "Strategic Partnership established"
+    }
+  }
+}

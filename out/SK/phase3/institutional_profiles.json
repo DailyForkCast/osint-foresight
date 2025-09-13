@@ -1,0 +1,229 @@
+{
+  "top_20_institutions": [
+    {
+      "rank": 1,
+      "name": "Slovak Academy of Sciences",
+      "type": "Research Academy",
+      "capabilities": ["Basic research", "Applied research", "56 institutes"],
+      "facilities": ["Research labs", "Computing centers", "Libraries"],
+      "key_partners": ["EU institutions", "Northwestern Polytechnical (China)"],
+      "funding_sources": ["Government (~€60M)", "EU grants", "International"],
+      "prc_engagement_indicators": {
+        "joint_center": true,
+        "chinese_researchers": "unknown",
+        "funding_received": "unknown",
+        "equipment_from_china": "possible",
+        "risk_score": 0.55
+      },
+      "risk_assessment": {
+        "rating": "AMBER",
+        "narrative": "Leading research institution with concerning China joint center but strong EU integration"
+      }
+    },
+    {
+      "rank": 2,
+      "name": "Slovak University of Technology Bratislava",
+      "type": "Technical University",
+      "capabilities": ["Engineering", "IT", "Nanotechnology", "Biotechnology"],
+      "facilities": ["Engineering labs", "Nanotech center", "Computing facilities"],
+      "key_partners": ["EU universities", "Huawei", "Confucius Institute"],
+      "funding_sources": ["Ministry", "EU", "Corporate (including Huawei)"],
+      "prc_engagement_indicators": {
+        "confucius_institute": true,
+        "huawei_partnership": true,
+        "chinese_students": "significant",
+        "joint_programs": true,
+        "risk_score": 0.70
+      },
+      "risk_assessment": {
+        "rating": "AMBER-RED",
+        "narrative": "Major technical university with multiple China touchpoints including Huawei and Confucius Institute"
+      }
+    },
+    {
+      "rank": 3,
+      "name": "Comenius University Bratislava",
+      "type": "Comprehensive University",
+      "capabilities": ["Medicine", "Sciences", "Mathematics", "Physics"],
+      "facilities": ["Medical facilities", "Science labs", "Research centers"],
+      "key_partners": ["EU universities", "Confucius Institute"],
+      "funding_sources": ["Ministry", "EU", "International"],
+      "prc_engagement_indicators": {
+        "confucius_institute": true,
+        "medical_cooperation": "possible",
+        "chinese_students": "moderate",
+        "risk_score": 0.65
+      },
+      "risk_assessment": {
+        "rating": "AMBER",
+        "narrative": "Largest university with Confucius Institute presence, medical cooperation concerns"
+      }
+    },
+    {
+      "rank": 4,
+      "name": "Technical University Kosice",
+      "type": "Technical University",
+      "capabilities": ["Mechanical engineering", "Electrical engineering", "ICT"],
+      "facilities": ["Engineering labs", "Testing facilities"],
+      "key_partners": ["Beijing Institute of Technology", "EU partners"],
+      "funding_sources": ["Ministry", "EU", "Industry"],
+      "prc_engagement_indicators": {
+        "pla_university_link": true,
+        "defense_relevant": true,
+        "risk_score": 0.60
+      },
+      "risk_assessment": {
+        "rating": "AMBER",
+        "narrative": "Technical university with concerning Beijing Institute of Technology partnership"
+      }
+    },
+    {
+      "rank": 5,
+      "name": "University of Zilina",
+      "type": "Technical University",
+      "capabilities": ["Transport", "Logistics", "Engineering"],
+      "facilities": ["Transport research center", "Engineering labs"],
+      "key_partners": ["Beijing Institute of Technology", "EU partners"],
+      "funding_sources": ["Ministry", "EU", "Industry"],
+      "prc_engagement_indicators": {
+        "pla_university_link": true,
+        "transport_research": true,
+        "risk_score": 0.65
+      },
+      "risk_assessment": {
+        "rating": "AMBER",
+        "narrative": "Transport specialist with Beijing Tech links, dual-use concerns"
+      }
+    },
+    {
+      "rank": 6,
+      "name": "QUTE.sk",
+      "type": "National Center",
+      "capabilities": ["Quantum computing", "Quantum communication", "Quantum sensing"],
+      "facilities": ["Quantum labs", "Computing infrastructure"],
+      "key_partners": ["EU quantum network", "International consortia"],
+      "funding_sources": ["Government", "EU"],
+      "prc_engagement_indicators": {
+        "quantum_sensitivity": true,
+        "monitoring_required": true,
+        "risk_score": 0.40
+      },
+      "risk_assessment": {
+        "rating": "AMBER",
+        "narrative": "Critical quantum infrastructure requiring protection from foreign influence"
+      }
+    },
+    {
+      "rank": 7,
+      "name": "Volkswagen Slovakia",
+      "type": "Industry",
+      "capabilities": ["Automotive manufacturing", "R&D", "Testing"],
+      "facilities": ["Production plants", "R&D center"],
+      "key_partners": ["VW Group", "Local suppliers", "Universities"],
+      "funding_sources": ["Corporate", "EU subsidies"],
+      "prc_engagement_indicators": {
+        "china_supply_chain": true,
+        "vw_china_operations": true,
+        "risk_score": 0.40
+      },
+      "risk_assessment": {
+        "rating": "GREEN-AMBER",
+        "narrative": "Major employer with China exposure through parent company"
+      }
+    },
+    {
+      "rank": 8,
+      "name": "Huawei Technologies Slovakia",
+      "type": "Industry",
+      "capabilities": ["Telecom equipment", "5G", "ICT services"],
+      "facilities": ["Offices", "Service centers"],
+      "key_partners": ["Slovak universities", "Telecom operators"],
+      "funding_sources": ["Corporate (China)"],
+      "prc_engagement_indicators": {
+        "chinese_soe_linked": true,
+        "security_concerns": true,
+        "university_partnerships": true,
+        "risk_score": 0.85
+      },
+      "risk_assessment": {
+        "rating": "RED",
+        "narrative": "Chinese tech company with extensive university partnerships and security concerns"
+      }
+    },
+    {
+      "rank": 9,
+      "name": "Institute of Informatics SAS",
+      "type": "Research Institute",
+      "capabilities": ["AI", "Cybersecurity", "Data science"],
+      "facilities": ["Computing infrastructure", "AI labs"],
+      "key_partners": ["EU networks", "Universities"],
+      "funding_sources": ["SAS", "EU", "Grants"],
+      "prc_engagement_indicators": {
+        "ai_sensitivity": true,
+        "cyber_concerns": true,
+        "risk_score": 0.45
+      },
+      "risk_assessment": {
+        "rating": "AMBER",
+        "narrative": "Sensitive AI/cyber research requiring monitoring"
+      }
+    },
+    {
+      "rank": 10,
+      "name": "Institute of Physics SAS",
+      "type": "Research Institute",
+      "capabilities": ["Quantum physics", "Materials", "Photonics"],
+      "facilities": ["Physics labs", "Clean rooms"],
+      "key_partners": ["CERN", "EU physics networks"],
+      "funding_sources": ["SAS", "EU", "International"],
+      "prc_engagement_indicators": {
+        "quantum_research": true,
+        "dual_use_potential": true,
+        "risk_score": 0.45
+      },
+      "risk_assessment": {
+        "rating": "AMBER",
+        "narrative": "Quantum and materials research with dual-use implications"
+      }
+    }
+  ],
+  "accredited_labs": [
+    {
+      "name": "National Reference Laboratory",
+      "iso_scope": "ISO/IEC 17025:2017",
+      "accreditor": "SNAS",
+      "last_audit": "2023",
+      "red_flags": []
+    },
+    {
+      "name": "Automotive Testing Center",
+      "iso_scope": "ISO/IEC 17025:2017",
+      "accreditor": "SNAS",
+      "last_audit": "2024",
+      "red_flags": ["Foreign equipment dependency"]
+    },
+    {
+      "name": "Materials Testing Laboratory",
+      "iso_scope": "ISO/IEC 17025:2017",
+      "accreditor": "SNAS",
+      "last_audit": "2023",
+      "red_flags": ["Chinese equipment identified"]
+    }
+  ],
+  "watchlist_entities": [
+    "Northwestern Polytechnical University - PLA Seven Sons",
+    "Beijing Institute of Technology - PLA Seven Sons",
+    "Nanjing University of Science and Technology - PLA affiliated",
+    "Confucius Institute Headquarters - Influence operations",
+    "Huawei Technologies - Security concerns"
+  ],
+  "summary_statistics": {
+    "total_institutions_analyzed": 20,
+    "red_rated": 1,
+    "amber_rated": 8,
+    "green_rated": 1,
+    "china_partnerships": 9,
+    "pla_links": 3,
+    "confucius_institutes": 3
+  }
+}

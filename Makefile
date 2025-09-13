@@ -103,27 +103,27 @@ normalize-cordis: guard-country
 
 # Your original build (phases 2,5,7C)
 build: guard-country normalize
-	python -m src.analysis.phase2_landscape --country $(COUNTRY)
-	python -m src.analysis.phase5_links --country $(COUNTRY)
-	python -m src.analysis.phase7c_posture --country $(COUNTRY)
+	python -m src.analysis.phase3_landscape --country $(COUNTRY)
+	python -m src.analysis.phase7_links --country $(COUNTRY)
+	python -m src.analysis.phase9_posture --country $(COUNTRY)
 
 # Full build across 2–8
 build-all: guard-country normalize-all
-	python -m src.analysis.phase2_landscape --country $(COUNTRY) && \
-	python -m src.analysis.phase3_institutions --country $(COUNTRY) && \
-	python -m src.analysis.phase4_funders --country $(COUNTRY) && \
-	python -m src.analysis.phase5_links --country $(COUNTRY) && \
-	python -m src.analysis.phase6_risk --country $(COUNTRY) && \
-	python -m src.analysis.phase7c_posture --country $(COUNTRY) && \
-	python -m src.analysis.phase8_foresight --country $(COUNTRY)
+	python -m src.analysis.phase3_landscape --country $(COUNTRY) && \
+	python -m src.analysis.phase5_institutions --country $(COUNTRY) && \
+	python -m src.analysis.phase6_funders --country $(COUNTRY) && \
+	python -m src.analysis.phase7_links --country $(COUNTRY) && \
+	python -m src.analysis.phase8_risk --country $(COUNTRY) && \
+	python -m src.analysis.phase9_posture --country $(COUNTRY) && \
+	python -m src.analysis.phase11_foresight --country $(COUNTRY)
 
 reports: build
 	@echo "Reports generated under reports/country=$(COUNTRY)/"
 
-# ---- Phase 2S (CLI parity) ----
-.PHONY: build-phase-2s
-build-phase-2s: guard-country
-	python -m src.analysis.phase2s_supply_chain --country $(COUNTRY)
+# ---- Phase 4 (Supply Chain, CLI parity) ----
+.PHONY: build-phase-4
+build-phase-4: guard-country
+	python -m src.analysis.phase4_supply_chain --country $(COUNTRY)
 
 # ---- CER-lite normalization ----
 .PHONY: normalize-cerlite

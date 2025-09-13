@@ -1,0 +1,203 @@
+# OSINT Foresight - Master Country List
+# Total: 44 countries across Europe and neighboring regions
+# This is the definitive list for all analysis phases
+
+countries:
+  # EU Member States (27)
+  - code: AT
+    name: Austria
+    region: EU
+    status: active
+  - code: BE
+    name: Belgium
+    region: EU
+    status: planned
+  - code: BG
+    name: Bulgaria
+    region: EU
+    status: planned
+  - code: HR
+    name: Croatia
+    region: EU
+    status: planned
+  - code: CY
+    name: Cyprus
+    region: EU
+    status: planned
+  - code: CZ
+    name: Czechia
+    region: EU
+    status: planned
+  - code: DK
+    name: Denmark
+    region: EU
+    status: planned
+  - code: EE
+    name: Estonia
+    region: EU
+    status: planned
+  - code: FI
+    name: Finland
+    region: EU
+    status: planned
+  - code: FR
+    name: France
+    region: EU
+    status: planned
+  - code: DE
+    name: Germany
+    region: EU
+    status: planned
+  - code: GR
+    name: Greece
+    region: EU
+    status: planned
+  - code: HU
+    name: Hungary
+    region: EU
+    status: planned
+  - code: IE
+    name: Ireland
+    region: EU
+    status: active
+  - code: IT
+    name: Italy
+    region: EU
+    status: planned
+  - code: LV
+    name: Latvia
+    region: EU
+    status: planned
+  - code: LT
+    name: Lithuania
+    region: EU
+    status: planned
+  - code: LU
+    name: Luxembourg
+    region: EU
+    status: planned
+  - code: MT
+    name: Malta
+    region: EU
+    status: planned
+  - code: NL
+    name: Netherlands
+    region: EU
+    status: planned
+  - code: PL
+    name: Poland
+    region: EU
+    status: planned
+  - code: PT
+    name: Portugal
+    region: EU
+    status: active
+  - code: RO
+    name: Romania
+    region: EU
+    status: planned
+  - code: SK
+    name: Slovakia
+    region: EU
+    status: active
+  - code: SI
+    name: Slovenia
+    region: EU
+    status: planned
+  - code: ES
+    name: Spain
+    region: EU
+    status: planned
+  - code: SE
+    name: Sweden
+    region: EU
+    status: planned
+
+  # EEA/EFTA Countries (3)
+  - code: IS
+    name: Iceland
+    region: EEA
+    status: planned
+  - code: NO
+    name: Norway
+    region: EEA
+    status: planned
+  - code: CH
+    name: Switzerland
+    region: EFTA
+    status: planned
+
+  # EU Candidates & Potential Candidates (9)
+  - code: AL
+    name: Albania
+    region: Candidate
+    status: planned
+  - code: BA
+    name: Bosnia and Herzegovina
+    region: Potential_Candidate
+    status: planned
+  - code: XK
+    name: Kosovo
+    region: Potential_Candidate
+    status: planned
+  - code: ME
+    name: Montenegro
+    region: Candidate
+    status: planned
+  - code: MK
+    name: North Macedonia
+    region: Candidate
+    status: planned
+  - code: RS
+    name: Serbia
+    region: Candidate
+    status: planned
+  - code: TR
+    name: Turkiye
+    region: Candidate
+    status: planned
+  - code: MD
+    name: Moldova
+    region: Candidate
+    status: planned
+  - code: UA
+    name: Ukraine
+    region: Candidate
+    status: planned
+
+  # Other European & Neighboring (5)
+  - code: GB
+    name: United Kingdom
+    region: Other_Europe
+    status: planned
+  - code: AM
+    name: Armenia
+    region: Eastern_Partnership
+    status: planned
+  - code: AZ
+    name: Azerbaijan
+    region: Eastern_Partnership
+    status: planned
+  - code: GE
+    name: Georgia
+    region: Eastern_Partnership
+    status: planned
+
+# Summary Statistics
+summary:
+  total_countries: 44
+  by_region:
+    EU: 27
+    EEA: 2
+    EFTA: 1
+    Candidate: 7
+    Potential_Candidate: 2
+    Other_Europe: 1
+    Eastern_Partnership: 3
+  by_status:
+    active: 4  # AT, IE, PT, SK
+    planned: 40
+
+# ISO Country Codes Reference
+# Using ISO 3166-1 alpha-2 codes
+# XK is user-assigned code for Kosovo (not ISO official)

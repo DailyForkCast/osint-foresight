@@ -1,0 +1,138 @@
+{
+  "early_warning_indicators": {
+    "china_expansion": {
+      "indicators": [
+        "New Confucius Institute proposals",
+        "Increased bilateral research calls",
+        "Equipment donations to universities",
+        "Scholarship program expansions",
+        "Joint degree programs"
+      ],
+      "current_status": "ACTIVE",
+      "trend": "INCREASING",
+      "threshold": "Any 2 indicators within 6 months",
+      "risk_level": "HIGH"
+    },
+    "talent_drain": {
+      "indicators": [
+        "PhD graduation emigration >30%",
+        "Senior researcher departures",
+        "Startup relocations",
+        "Foreign recruitment campaigns",
+        "Salary gap widening >20%"
+      ],
+      "current_status": "WARNING",
+      "trend": "STABLE",
+      "threshold": "15% annual researcher loss",
+      "risk_level": "MEDIUM"
+    },
+    "funding_crisis": {
+      "indicators": [
+        "EU funding cuts announced",
+        "National budget reduction",
+        "Private investment decline",
+        "Grant success rate <10%",
+        "Infrastructure maintenance deferred"
+      ],
+      "current_status": "MONITORING",
+      "trend": "STABLE",
+      "threshold": "20% reduction any source",
+      "risk_level": "MEDIUM"
+    },
+    "technology_lockout": {
+      "indicators": [
+        "Export control additions",
+        "License denials",
+        "Equipment embargo",
+        "Standards exclusion",
+        "Partnership terminations"
+      ],
+      "current_status": "MONITORING",
+      "trend": "INCREASING",
+      "threshold": "Any critical technology affected",
+      "risk_level": "MEDIUM"
+    },
+    "cyber_escalation": {
+      "indicators": [
+        "APT group activity",
+        "Critical infrastructure probes",
+        "Data exfiltration attempts",
+        "Ransomware targeting",
+        "Supply chain compromises"
+      ],
+      "current_status": "WARNING",
+      "trend": "INCREASING",
+      "threshold": "3+ incidents per quarter",
+      "risk_level": "HIGH"
+    },
+    "supply_chain_disruption": {
+      "indicators": [
+        "Critical material shortages",
+        "Logistics bottlenecks",
+        "Price spikes >30%",
+        "Single supplier failures",
+        "Geopolitical tensions"
+      ],
+      "current_status": "ACTIVE",
+      "trend": "VOLATILE",
+      "threshold": "Any critical shortage >30 days",
+      "risk_level": "HIGH"
+    },
+    "research_compromise": {
+      "indicators": [
+        "Unauthorized data access",
+        "IP theft confirmed",
+        "Insider threat detected",
+        "Foreign agent approach",
+        "Sensitive tech transfer"
+      ],
+      "current_status": "WARNING",
+      "trend": "STABLE",
+      "threshold": "Any confirmed incident",
+      "risk_level": "HIGH"
+    },
+    "regulatory_shock": {
+      "indicators": [
+        "New EU directives",
+        "Sanctions expansion",
+        "Export control changes",
+        "FDI screening tightening",
+        "Research security mandates"
+      ],
+      "current_status": "MONITORING",
+      "trend": "INCREASING",
+      "threshold": "Major policy shift",
+      "risk_level": "MEDIUM"
+    }
+  },
+  "dashboard_summary": {
+    "indicators_total": 8,
+    "status_active": 2,
+    "status_warning": 3,
+    "status_monitoring": 3,
+    "high_risk_count": 4,
+    "medium_risk_count": 4,
+    "overall_threat_level": "ELEVATED",
+    "recommended_posture": "HEIGHTENED VIGILANCE"
+  },
+  "response_protocols": {
+    "active_status": [
+      "Daily monitoring",
+      "Leadership briefing",
+      "Mitigation activation",
+      "Partner notification"
+    ],
+    "warning_status": [
+      "Weekly monitoring",
+      "Preparedness check",
+      "Contingency review",
+      "Stakeholder alert"
+    ],
+    "monitoring_status": [
+      "Monthly review",
+      "Trend analysis",
+      "Baseline update",
+      "Report filing"
+    ]
+  }
+}

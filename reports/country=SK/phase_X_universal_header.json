@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "country": "Slovakia",
+    "collection_timestamp": "2025-09-10T21:30:00Z",
+    "sources_queried": [
+      "Slovak Ministry of Education, Research, Development and Youth",
+      "Slovak Ministry of Economy",
+      "Slovak University of Technology in Bratislava (STU)",
+      "IT Association of Slovakia (ITAS)",
+      "Digitalna Koalicia",
+      "CORDIS/Horizon Europe",
+      "China-Slovakia Strategic Partnership documents"
+    ],
+    "languages_used": ["en", "sk", "zh"],
+    "parallel_time_saved_seconds": 45,
+    "confidence_score": 0.75,
+    "regional_comparators_analyzed": ["Poland", "Czechia", "Hungary"]
+  },
+  "sectors": [
+    {
+      "name": "Information Technology",
+      "maturity_level": "developing",
+      "global_ranking": 67,
+      "regional_ranking": 4,
+      "key_players": ["ITAS", "Digitalna Koalicia", "93 member organizations"],
+      "foreign_interest_score": 85,
+      "data_confidence": "high"
+    },
+    {
+      "name": "Robotics & Automation",
+      "maturity_level": "developing",
+      "global_ranking": 45,
+      "regional_ranking": 2,
+      "key_players": ["STU National Center of Robotics", "Brightpick"],
+      "foreign_interest_score": 70,
+      "data_confidence": "high"
+    },
+    {
+      "name": "Energy Technology",
+      "maturity_level": "emerging",
+      "global_ranking": 52,
+      "regional_ranking": 3,
+      "key_players": ["Fuergy", "Ministry of Economy"],
+      "foreign_interest_score": 75,
+      "data_confidence": "medium"
+    },
+    {
+      "name": "5G & Telecommunications",
+      "maturity_level": "developing",
+      "global_ranking": 48,
+      "regional_ranking": 3,
+      "key_players": ["STU Centre of Excellence for SMART Technologies"],
+      "foreign_interest_score": 80,
+      "data_confidence": "medium"
+    },
+    {
+      "name": "Nanotechnology",
+      "maturity_level": "emerging",
+      "global_ranking": 55,
+      "regional_ranking": 3,
+      "key_players": ["SLOVAKION Centre", "STU"],
+      "foreign_interest_score": 65,
+      "data_confidence": "medium"
+    }
+  ],
+  "gov_actors": [
+    {
+      "name_en": "Ministry of Education, Research, Development and Youth",
+      "name_local": "Ministerstvo školstva, výskumu, vývoja a mládeže SR",
+      "name_zh": "斯洛伐克教育、研究、发展和青年部",
+      "type": "ministry",
+      "budget_annual_usd": null,
+      "key_programs": ["DigiEDU", "AI in Education", "Research Agency support"],
+      "intl_partnerships": ["OECD", "EU Horizon Europe", "China Strategic Partnership"],
+      "red_flags": ["New strategic partnership with China (2024)"],
+      "confidence": 0.8
+    },
+    {
+      "name_en": "Ministry of Economy",
+      "name_local": "Ministerstvo hospodárstva SR",
+      "name_zh": "斯洛伐克经济部",
+      "type": "ministry",
+      "budget_annual_usd": null,
+      "key_programs": ["Innovation vouchers", "Startup visa", "Digital transformation"],
+      "intl_partnerships": ["EU", "China (trade)", "V4 cooperation"],
+      "red_flags": ["China is top Asian trade partner"],
+      "confidence": 0.75
+    },
+    {
+      "name_en": "Council for Science, Technology and Innovation",
+      "name_local": "Rada vlády SR pre vedu, techniku a inovácie",
+      "name_zh": "斯洛伐克科学技术创新委员会",
+      "type": "agency",
+      "budget_annual_usd": null,
+      "key_programs": ["RDI coordination", "2030 Digital Strategy"],
+      "intl_partnerships": ["EU framework programs"],
+      "red_flags": [],
+      "confidence": 0.7
+    },
+    {
+      "name_en": "Research Agency",
+      "name_local": "Výskumná agentúra",
+      "name_zh": "斯洛伐克研究署",
+      "type": "agency",
+      "budget_annual_usd": null,
+      "key_programs": ["National research grants", "International cooperation"],
+      "intl_partnerships": ["EU", "Bilateral agreements"],
+      "red_flags": [],
+      "confidence": 0.65
+    }
+  ],
+  "technological_sovereignty_index": {
+    "score": 42,
+    "strengths": [
+      "Growing startup ecosystem",
+      "Strong technical universities (STU)",
+      "EU membership and funding access",
+      "Skilled workforce in IT"
+    ],
+    "dependencies": [
+      "Foreign technology imports",
+      "Limited domestic R&D investment",
+      "Brain drain to Western Europe",
+      "Reliance on EU funding"
+    ],
+    "trajectory": "improving"
+  },
+  "prc_engagement": {
+    "status": "ELEVATED",
+    "key_developments": [
+      "Strategic Partnership established November 2024",
+      "China is Slovakia's top Asian trade partner (EUR 10.5B)",
+      "Hosting 6th China-CEEC Innovation Conference",
+      "Largest-ever business delegation to China (80 companies)"
+    ],
+    "cooperation_areas": [
+      "New energy",
+      "Transportation and logistics",
+      "Infrastructure construction",
+      "Scientific research",
+      "Education and academia"
+    ],
+    "risk_indicators": [
+      "Rapid elevation of relations in 2024",
+      "Significant economic dependency developing",
+      "Innovation cooperation framework expanding"
+    ]
+  },
+  "regional_comparison": {
+    "visegrad_ranking": 4,
+    "innovation_status": "moderate innovator",
+    "strengths_vs_peers": [
+      "Hosting China-CEEC Innovation Conference",
+      "Strong robotics research (STU)"
+    ],
+    "weaknesses_vs_peers": [
+      "Lowest VC funding in V4",
+      "Smallest startup ecosystem",
+      "Lower ICT specialist percentage (4.2% vs EU 4.8%)"
+    ],
+    "poland_gap": {
+      "startup_funding_ratio": "1:95",
+      "market_size_difference": "1:8"
+    }
+  },
+  "data_quality_metrics": {
+    "completeness": 0.7,
+    "source_diversity": 12,
+    "recency_days": 0,
+    "verification_level": "double"
+  },
+  "us_natsec_ratings": [
+    {
+      "dimension": "Technology Transfer Risk",
+      "rating": "MODERATE-HIGH",
+      "rationale": "New China strategic partnership with explicit tech cooperation"
+    },
+    {
+      "dimension": "Research Security",
+      "rating": "MODERATE",
+      "rationale": "Limited safeguards, increasing Chinese engagement"
+    },
+    {
+      "dimension": "Supply Chain",
+      "rating": "MODERATE",
+      "rationale": "EU member but increasing China dependency"
+    },
+    {
+      "dimension": "Talent Pipeline",
+      "rating": "LOW-MODERATE",
+      "rationale": "Brain drain limiting but Chinese academic exchanges growing"
+    },
+    {
+      "dimension": "Dual-Use Research",
+      "rating": "MODERATE",
+      "rationale": "Robotics and 5G capabilities with limited controls"
+    },
+    {
+      "dimension": "Critical Infrastructure",
+      "rating": "MODERATE",
+      "rationale": "Chinese infrastructure investment interests"
+    },
+    {
+      "dimension": "Economic Coercion",
+      "rating": "MODERATE-HIGH",
+      "rationale": "EUR 10.5B trade dependency on China"
+    },
+    {
+      "dimension": "Alliance Cohesion",
+      "rating": "MODERATE",
+      "rationale": "EU/NATO member but pursuing independent China policy"
+    }
+  ]
+}

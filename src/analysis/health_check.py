@@ -56,16 +56,21 @@ def main():
         base / "sanctions_hits.csv",
         base / "cer_master.csv",
         # Reports
-        reports / "phase-0_setup.md",
-        reports / "phase-1_indicators.md",
-        reports / "phase-2_landscape.md",
-        reports / "phase-2s_supply_chain.md",
-        reports / "phase-3_institutions.md",
-        reports / "phase-8_foresight.md",
-        reports / "phase-X_taxonomy.md",
+        reports / "phase-0_taxonomy.md",
+        reports / "phase-1_setup.md",
+        reports / "phase-2_indicators.md",
+        reports / "phase-3_landscape.md",
+        reports / "phase-4_supply_chain.md",
+        reports / "phase-5_institutions.md",
+        reports / "phase-6_funders.md",
+        reports / "phase-7_links.md",
+        reports / "phase-8_risk.md",
+        reports / "phase-9_posture.md",
+        reports / "phase-10_redteam.md",
+        reports / "phase-11_foresight.md",
         # Outputs
-        outputs / "phase-2" / "sector_maturity.tsv",
-        outputs / "phase-2" / "top_institutions.tsv",
+        outputs / "phase-3" / "sector_maturity.tsv",
+        outputs / "phase-3" / "top_institutions.tsv",
     ]
     
     print(f"\nHEALTH CHECK: {country}")
