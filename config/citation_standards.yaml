@@ -1,0 +1,254 @@
+# OSINT Foresight Citation Standards
+# CRITICAL: All citations MUST link to exact documents, not homepage URLs
+# Version: 1.0
+# Last Updated: 2025-09-13
+
+citation_requirements:
+  mandatory_fields:
+    - exact_url         # Full URL to specific article/document/page
+    - title            # Exact title of the document
+    - author           # Author(s) if available
+    - publication_date # Date of publication
+    - accessed_date    # Date we accessed the source (CRITICAL)
+    - archive_url      # Wayback Machine or archive.today link if available
+
+  url_standards:
+    CORRECT:
+      - "https://www.nytimes.com/2025/09/13/us/politics/probationary-employees-firing-illegal.html"
+      - "https://www.gazzettaufficiale.it/eli/id/2020/10/21/20G00150/sg"
+      - "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022R0868"
+      - "https://www.nato.int/cps/en/natohq/official_texts_217320.htm"
+
+    INCORRECT:
+      - "www.nytimes.com"  # ❌ No protocol, homepage only
+      - "https://www.nytimes.com"  # ❌ Homepage, not specific article
+      - "See New York Times website"  # ❌ Vague reference
+      - "Available at EU website"  # ❌ No specific URL
+
+  accessed_date_format:
+    standard: "YYYY-MM-DD"
+    examples:
+      - "2025-09-13"
+      - "2025-01-01"
+    storage_location: "Must be stored with EVERY citation"
+
+# Standard citation format for all phases
+citation_template:
+  full_citation: |
+    {author}. ({publication_date}). {title}. {publication}.
+    Retrieved {accessed_date}, from {exact_url}
+    [Archived at: {archive_url}]
+
+  json_format:
+    - field: "citation"
+      structure:
+        title: "string"
+        author: "string or array"
+        publication: "string"
+        publication_date: "YYYY-MM-DD"
+        exact_url: "string (MUST be full URL to specific document)"
+        accessed_date: "YYYY-MM-DD (REQUIRED)"
+        archive_url: "string (optional but recommended)"
+        doi: "string (if available)"
+        document_type: "article|report|legislation|patent|standard|dataset"
+
+# Examples for different source types
+citation_examples:
+  news_article:
+    title: "Mass Firing of Probationary Federal Employees Was Illegal, Judge Rules"
+    author: "Charlie Savage"
+    publication: "The New York Times"
+    publication_date: "2025-09-13"
+    exact_url: "https://www.nytimes.com/2025/09/13/us/politics/probationary-employees-firing-illegal.html"
+    accessed_date: "2025-09-13"
+    archive_url: "https://web.archive.org/web/20250913120000/https://www.nytimes.com/2025/09/13/us/politics/probationary-employees-firing-illegal.html"
+    document_type: "article"
+
+  government_document:
+    title: "DPCM n.131 del 18 settembre 2020"
+    author: "Presidenza del Consiglio dei Ministri"
+    publication: "Gazzetta Ufficiale della Repubblica Italiana"
+    publication_date: "2020-10-21"
+    exact_url: "https://www.gazzettaufficiale.it/eli/id/2020/10/21/20G00150/sg"
+    accessed_date: "2025-09-13"
+    gu_series: "Serie Generale n.261 del 21-10-2020"
+    document_type: "legislation"
+
+  research_paper:
+    title: "Quantum Computing Applications in Defense Systems"
+    author: ["Smith, J.", "Zhang, L.", "Mueller, K."]
+    publication: "Nature Communications"
+    publication_date: "2024-06-15"
+    exact_url: "https://www.nature.com/articles/s41467-024-12345-6"
+    accessed_date: "2025-09-13"
+    doi: "10.1038/s41467-024-12345-6"
+    document_type: "article"
+
+  eu_legislation:
+    title: "Regulation (EU) 2022/868 on European High Performance Computing"
+    author: "European Parliament and Council"
+    publication: "Official Journal of the European Union"
+    publication_date: "2022-05-30"
+    exact_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022R0868"
+    accessed_date: "2025-09-13"
+    celex_number: "32022R0868"
+    oj_reference: "L 151/1"
+    document_type: "legislation"
+
+  patent:
+    title: "Method and System for Quantum Error Correction"
+    author: "IBM Corporation"
+    publication: "European Patent Office"
+    publication_date: "2024-03-20"
+    exact_url: "https://worldwide.espacenet.com/patent/search/family/123456789/publication/EP1234567B1"
+    accessed_date: "2025-09-13"
+    patent_number: "EP1234567B1"
+    document_type: "patent"
+
+# Data collection system requirements
+data_collection_fields:
+  mandatory_columns:
+    - source_url        # EXACT URL, not homepage
+    - source_title      # Document title
+    - accessed_date     # When we retrieved it
+    - extraction_date   # When we processed it
+    - verification_date # When we verified it
+
+  tracking_fields:
+    - last_checked      # For monitoring link rot
+    - archive_status    # archived|pending|failed
+    - confidence_score  # 0-1 based on source reliability
+
+# Validation rules
+validation_rules:
+  url_validation:
+    - must_start_with: ["http://", "https://"]
+    - must_not_be_homepage:
+      - pattern: "^https?://[^/]+/?$"
+      - reject_if_matches: true
+    - must_contain_path: true
+
+  date_validation:
+    accessed_date:
+      - format: "YYYY-MM-DD"
+      - must_not_be_future: true
+      - must_not_be_empty: true
+
+  archive_recommendation:
+    - if_domain_in: ["nytimes.com", "wsj.com", "ft.com"]
+      then: "archive_required"
+    - if_document_type: ["legislation", "government_document"]
+      then: "archive_recommended"
+
+# Error messages for validation failures
+error_messages:
+  missing_exact_url: |
+    ERROR: Citation must include EXACT URL to specific document.
+    Provided: {url}
+    Required format: Full URL including path to specific article/document
+    Example: https://www.nytimes.com/2025/09/13/section/article-title.html
+
+  missing_accessed_date: |
+    ERROR: Citation must include accessed_date field.
+    This field tracks when we retrieved the information.
+    Format: YYYY-MM-DD
+
+  homepage_url: |
+    ERROR: URL points to homepage, not specific document.
+    Provided: {url}
+    Fix: Navigate to the specific article/document and use that URL
+
+  invalid_date_format: |
+    ERROR: Date format must be YYYY-MM-DD
+    Provided: {date}
+    Correct format: 2025-09-13
+
+# Integration with existing systems
+system_integration:
+  phase_updates_required:
+    - phase03_landscape: "Add accessed_date to all policy citations"
+    - phase06_funders: "Update funding source URLs to exact documents"
+    - phase07_links: "Include accessed_date in collaboration evidence"
+    - phase09_posture: "Ensure all PRC policy anchors have exact URLs"
+
+  database_schema_updates:
+    evidence_master_csv:
+      new_columns:
+        - accessed_date: "DATE NOT NULL"
+        - exact_url: "TEXT NOT NULL"
+        - archive_url: "TEXT"
+        - url_status: "ENUM('active', 'dead', 'redirected')"
+
+  api_collection_updates:
+    all_apis:
+      - "Store accessed_date with every API response"
+      - "Include full request URL in metadata"
+      - "Track API version used"
+
+# Automation helpers
+automation:
+  archive_tools:
+    - name: "Wayback Machine API"
+      endpoint: "https://web.archive.org/save/"
+      usage: "POST with url parameter"
+
+    - name: "Archive.today"
+      endpoint: "https://archive.today/submit/"
+      usage: "POST with url parameter"
+
+  citation_extractors:
+    - name: "Zotero Translator"
+      formats: ["RIS", "BibTeX", "JSON"]
+
+    - name: "DOI Resolution"
+      endpoint: "https://doi.org/{doi}"
+      metadata: "https://api.crossref.org/works/{doi}"
+
+# Quality assurance checklist
+qa_checklist:
+  before_submission:
+    - [ ] All URLs are complete and specific to documents
+    - [ ] All citations include accessed_date
+    - [ ] Archive links created for important sources
+    - [ ] No homepage-only URLs
+    - [ ] Dates in YYYY-MM-DD format
+    - [ ] Author information included where available
+    - [ ] Document titles are exact, not paraphrased
+
+  periodic_review:
+    - [ ] Check for dead links monthly
+    - [ ] Update archive links quarterly
+    - [ ] Verify government URLs after site redesigns
+    - [ ] Cross-check DOIs for persistence
+
+# Prompt injection for ChatGPT/Claude
+prompt_requirements: |
+  CRITICAL CITATION REQUIREMENTS:
+
+  1. EVERY citation MUST include the EXACT URL to the specific document, article, or page.
+     ❌ WRONG: "www.nytimes.com" or "https://www.nytimes.com"
+     ✅ RIGHT: "https://www.nytimes.com/2025/09/13/us/politics/probationary-employees-firing-illegal.html"
+
+  2. EVERY citation MUST include accessed_date in YYYY-MM-DD format
+     Example: "Accessed: 2025-09-13"
+
+  3. NEVER cite just a homepage or domain
+
+  4. For government documents, include the specific document URL, not the ministry homepage
+
+  5. When citing news articles, the URL must point to the individual article, not the news section
+
+  6. Archive important sources using Wayback Machine or archive.today
+
+  7. Store these fields for EVERY source:
+     - exact_url (full URL to specific document)
+     - title (exact document title)
+     - author (if available)
+     - publication_date
+     - accessed_date (WHEN you retrieved it)
+     - archive_url (if created)
+
+  Example citation format:
+  Savage, C. (2025, September 13). Mass Firing of Probationary Federal Employees Was Illegal, Judge Rules.
+  The New York Times. Retrieved September 13, 2025, from
+  https://www.nytimes.com/2025/09/13/us/politics/probationary-employees-firing-illegal.html

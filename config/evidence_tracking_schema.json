@@ -1,0 +1,404 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Evidence and Citation Tracking Schema",
+  "description": "Ensures all evidence includes exact URLs and accessed dates",
+  "version": "1.0.0",
+
+  "definitions": {
+    "citation": {
+      "type": "object",
+      "required": ["exact_url", "title", "accessed_date"],
+      "properties": {
+        "exact_url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https?://.*/.+",
+          "description": "MUST be full URL to specific document, not homepage"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Exact title of the document"
+        },
+        "accessed_date": {
+          "type": "string",
+          "format": "date",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "description": "Date when source was accessed (YYYY-MM-DD)"
+        },
+        "author": {
+          "oneOf": [
+            {"type": "string"},
+            {"type": "array", "items": {"type": "string"}}
+          ]
+        },
+        "publication": {
+          "type": "string"
+        },
+        "publication_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "archive_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Wayback Machine or archive.today URL"
+        },
+        "doi": {
+          "type": "string",
+          "pattern": "^10\\.\\d{4,}/[-._;()/:a-zA-Z0-9]+$"
+        },
+        "document_type": {
+          "type": "string",
+          "enum": ["article", "report", "legislation", "patent", "standard", "dataset", "webpage", "press_release", "academic_paper"]
+        },
+        "extraction_date": {
+          "type": "string",
+          "format": "date",
+          "description": "Date when data was extracted from source"
+        },
+        "verification_date": {
+          "type": "string",
+          "format": "date",
+          "description": "Date when information was verified"
+        },
+        "confidence_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "notes": {
+          "type": "string",
+          "maxLength": 500
+        }
+      }
+    },
+
+    "evidence_entry": {
+      "type": "object",
+      "required": ["claim", "evidence_url", "accessed_date"],
+      "properties": {
+        "claim_id": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}-\\d{4}-\\d{4}$"
+        },
+        "claim": {
+          "type": "string",
+          "minLength": 10
+        },
+        "evidence_url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https?://.*/.+",
+          "description": "EXACT URL to supporting document"
+        },
+        "accessed_date": {
+          "type": "string",
+          "format": "date",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "evidence_type": {
+          "type": "string",
+          "enum": ["primary", "secondary", "corroborating", "contradicting"]
+        },
+        "source_quality": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5,
+          "description": "1=rumor, 2=single weak, 3=mixed, 4=multi independent, 5=primary/official"
+        },
+        "archive_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "extraction_method": {
+          "type": "string",
+          "enum": ["manual", "api", "scraper", "ocr", "llm_assisted"]
+        },
+        "verification_status": {
+          "type": "string",
+          "enum": ["verified", "pending", "contested", "retracted"]
+        }
+      }
+    }
+  },
+
+  "schemas": {
+    "evidence_master": {
+      "type": "object",
+      "properties": {
+        "metadata": {
+          "type": "object",
+          "properties": {
+            "generated_date": {"type": "string", "format": "date"},
+            "country": {"type": "string"},
+            "phase": {"type": "string"},
+            "total_claims": {"type": "integer"},
+            "total_sources": {"type": "integer"}
+          }
+        },
+        "evidence": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/evidence_entry"}
+        },
+        "citations": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/citation"}
+        }
+      }
+    },
+
+    "policy_citation": {
+      "type": "object",
+      "required": ["policy_id", "title", "authority", "effective_date", "official_url", "accessed_date"],
+      "properties": {
+        "policy_id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "title_translated": {
+          "type": "string"
+        },
+        "authority": {
+          "type": "string"
+        },
+        "effective_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "official_url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https?://.*/.+",
+          "description": "Direct link to official policy document"
+        },
+        "accessed_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "gazette_reference": {
+          "type": "string",
+          "description": "Official gazette or registry reference"
+        },
+        "archive_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "amendments": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "date": {"type": "string", "format": "date"},
+              "reference": {"type": "string"},
+              "url": {"type": "string", "format": "uri"},
+              "accessed_date": {"type": "string", "format": "date"}
+            }
+          }
+        }
+      }
+    },
+
+    "news_citation": {
+      "type": "object",
+      "required": ["headline", "publication", "article_url", "publication_date", "accessed_date"],
+      "properties": {
+        "headline": {
+          "type": "string",
+          "description": "Exact headline as published"
+        },
+        "publication": {
+          "type": "string"
+        },
+        "author": {
+          "oneOf": [
+            {"type": "string"},
+            {"type": "array", "items": {"type": "string"}}
+          ]
+        },
+        "article_url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https?://.*/.+",
+          "description": "Direct link to article, NOT publication homepage"
+        },
+        "publication_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "accessed_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "paywall": {
+          "type": "boolean"
+        },
+        "archive_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "relevant_quotes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "quote": {"type": "string"},
+              "context": {"type": "string"},
+              "paragraph": {"type": "integer"}
+            }
+          }
+        }
+      }
+    },
+
+    "academic_citation": {
+      "type": "object",
+      "required": ["title", "authors", "publication_venue", "year", "accessed_date"],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "authors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {"type": "string"},
+              "orcid": {"type": "string", "pattern": "^\\d{4}-\\d{4}-\\d{4}-\\d{3}[0-9X]$"},
+              "affiliation": {"type": "string"}
+            }
+          }
+        },
+        "publication_venue": {
+          "type": "string"
+        },
+        "year": {
+          "type": "integer"
+        },
+        "doi": {
+          "type": "string",
+          "pattern": "^10\\.\\d{4,}/[-._;()/:a-zA-Z0-9]+$"
+        },
+        "arxiv_id": {
+          "type": "string",
+          "pattern": "^\\d{4}\\.\\d{4,5}(v\\d+)?$"
+        },
+        "direct_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Direct link to paper or preprint"
+        },
+        "accessed_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "open_access": {
+          "type": "boolean"
+        },
+        "repository_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "citations_count": {
+          "type": "integer"
+        },
+        "extracted_date": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    }
+  },
+
+  "tracking_tables": {
+    "url_status": {
+      "description": "Track URL availability over time",
+      "columns": {
+        "url": "TEXT PRIMARY KEY",
+        "first_accessed": "DATE NOT NULL",
+        "last_accessed": "DATE NOT NULL",
+        "last_checked": "DATE NOT NULL",
+        "status": "ENUM('active', 'dead', 'redirected', 'paywalled')",
+        "redirect_url": "TEXT",
+        "archive_url": "TEXT",
+        "check_count": "INTEGER DEFAULT 1",
+        "failure_count": "INTEGER DEFAULT 0"
+      }
+    },
+
+    "source_reliability": {
+      "description": "Track source reliability scores",
+      "columns": {
+        "domain": "TEXT PRIMARY KEY",
+        "publication_name": "TEXT",
+        "reliability_score": "REAL CHECK(reliability_score >= 0 AND reliability_score <= 1)",
+        "total_citations": "INTEGER DEFAULT 0",
+        "verified_citations": "INTEGER DEFAULT 0",
+        "retracted_citations": "INTEGER DEFAULT 0",
+        "last_updated": "DATE",
+        "notes": "TEXT"
+      }
+    }
+  },
+
+  "validation_rules": {
+    "url_patterns": {
+      "reject_patterns": [
+        "^https?://[^/]+/?$",
+        "^https?://www\\.[^/]+/?$",
+        "^https?://[^/]+/index\\.(html?|php|asp)$"
+      ],
+      "description": "Reject homepage URLs"
+    },
+
+    "date_validation": {
+      "accessed_date": {
+        "required": true,
+        "format": "YYYY-MM-DD",
+        "must_not_be_future": true
+      }
+    },
+
+    "archive_requirements": {
+      "required_for_domains": [
+        "nytimes.com",
+        "wsj.com",
+        "ft.com",
+        "washingtonpost.com",
+        "economist.com"
+      ],
+      "recommended_for_types": [
+        "news_article",
+        "government_document",
+        "press_release"
+      ]
+    }
+  },
+
+  "csv_export_format": {
+    "evidence_master.csv": {
+      "columns": [
+        "claim_id",
+        "claim",
+        "evidence_url",
+        "accessed_date",
+        "evidence_type",
+        "source_quality",
+        "publication",
+        "publication_date",
+        "author",
+        "archive_url",
+        "extraction_date",
+        "verification_date",
+        "verification_status",
+        "confidence_score",
+        "notes"
+      ],
+      "date_format": "YYYY-MM-DD",
+      "encoding": "UTF-8",
+      "delimiter": ","
+    }
+  }
+}

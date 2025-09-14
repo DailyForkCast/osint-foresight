@@ -1,0 +1,173 @@
+{
+  "diana_italy_participation": {
+    "program": "DIANA - Defence Innovation Accelerator for the North Atlantic",
+    "italy_status": "participating_nation",
+    "data_collection_method": "MANUAL_CURATION",
+    "compliance_note": "⚠️ Web scraping not implemented - potential TOS violation. This template provides structure for manual data collection from public sources.",
+
+    "recommended_data_sources": [
+      {
+        "source": "Official DIANA press releases",
+        "url": "https://www.nato.int/cps/en/natohq/topics_216785.htm",
+        "method": "manual_review",
+        "frequency": "monthly"
+      },
+      {
+        "source": "Italian Ministry of Defence announcements",
+        "url": "https://www.difesa.it",
+        "method": "manual_review",
+        "frequency": "monthly"
+      },
+      {
+        "source": "European Defence Agency reports",
+        "url": "https://eda.europa.eu",
+        "method": "API_if_available",
+        "frequency": "quarterly"
+      },
+      {
+        "source": "Company press releases and news",
+        "method": "news_aggregation_APIs",
+        "frequency": "weekly"
+      }
+    ],
+
+    "italian_accelerator_sites": [
+      {
+        "location": "Turin",
+        "status": "candidate",
+        "focus_areas": ["space", "AI", "materials"],
+        "partner_institutions": ["Politecnico di Torino", "Leonardo SpA"],
+        "announcement_date": "2023-06-15"
+      }
+    ],
+
+    "italian_companies_template": {
+      "description": "Template for tracking Italian companies in DIANA programs",
+      "fields": {
+        "company_name": "string",
+        "company_id": "LEI or tax_id",
+        "cohort": "string (e.g., 'Cohort 2024-1')",
+        "technology_domain": ["AI", "quantum", "biotech", "space", "materials", "energy"],
+        "dual_use_classification": {
+          "is_dual_use": "boolean",
+          "military_applications": ["string"],
+          "civilian_applications": ["string"]
+        },
+        "entry_date": "YYYY-MM-DD",
+        "status": ["active", "graduated", "discontinued"],
+        "funding_received_eur": "number",
+        "partners": ["string"],
+        "location": {
+          "city": "string",
+          "region": "string",
+          "country": "IT"
+        },
+        "verification": {
+          "source": "string",
+          "source_url": "string",
+          "verification_date": "YYYY-MM-DD",
+          "confidence": "low|medium|high"
+        }
+      },
+      "example_entries": [
+        {
+          "company_name": "Example Defense Tech Srl",
+          "company_id": "IT12345678901",
+          "cohort": "DIANA Cohort 2024-1",
+          "technology_domain": ["AI", "autonomous_systems"],
+          "dual_use_classification": {
+            "is_dual_use": true,
+            "military_applications": ["drone swarm coordination", "target recognition"],
+            "civilian_applications": ["disaster response", "agricultural monitoring"]
+          },
+          "entry_date": "2024-03-01",
+          "status": "active",
+          "funding_received_eur": null,
+          "partners": ["University of Rome Tor Vergata"],
+          "location": {
+            "city": "Rome",
+            "region": "Lazio",
+            "country": "IT"
+          },
+          "verification": {
+            "source": "Company press release",
+            "source_url": "https://example.com/press",
+            "verification_date": "2024-03-15",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+
+    "phase05_sub7_diana_sites_schema": {
+      "description": "Schema for phase05_sub7_diana_sites.json",
+      "sites": [
+        {
+          "site_id": "string",
+          "country": "IT",
+          "location": "string",
+          "type": "accelerator|test_center|both",
+          "operational_status": "planned|operational|candidate",
+          "capabilities": ["string"],
+          "affiliated_companies": ["company_id"],
+          "partnerships": ["org_id"]
+        }
+      ]
+    },
+
+    "phase07_links_diana_schema": {
+      "description": "Schema for DIANA-related entries in phase07_links.json",
+      "collaborations": [
+        {
+          "id": "DIANA-IT-XXX",
+          "entities": ["org_id1", "org_id2"],
+          "type": "diana_partnership",
+          "program": "DIANA",
+          "start_date": "YYYY-MM-DD",
+          "technology_domains": ["string"],
+          "dual_use_flag": "boolean",
+          "funding_eur": "number",
+          "verification_source": "string"
+        }
+      ]
+    },
+
+    "data_collection_guidelines": {
+      "ethical_collection": [
+        "Use only publicly available information",
+        "Respect website terms of service",
+        "Use official APIs where available",
+        "Cite all sources with dates",
+        "Verify information from multiple sources"
+      ],
+      "update_frequency": "monthly",
+      "validation_required": true,
+      "manual_review": "required_for_dual_use_classification"
+    },
+
+    "alternative_collection_methods": {
+      "news_monitoring": {
+        "tools": ["Google Alerts", "NewsAPI", "GDELT"],
+        "keywords": ["DIANA accelerator Italy", "NATO innovation Italy", "defense tech Italy"],
+        "languages": ["en", "it"]
+      },
+      "api_sources": {
+        "cordis": "For EU-funded defense research",
+        "opencorporates": "For company registration data",
+        "crossref": "For research publications"
+      },
+      "manual_sources": {
+        "conference_proceedings": ["NATO Industry Forum", "European Defence Matters"],
+        "government_reports": ["Italian MoD annual reports", "Parliamentary hearings"]
+      }
+    },
+
+    "metadata": {
+      "created": "2025-09-13",
+      "last_updated": "2025-09-13",
+      "data_quality": "template_only",
+      "compliance_status": "compliant",
+      "notes": "This template provides structure for ethical data collection without web scraping. Actual data should be collected through approved methods only."
+    }
+  }
+}

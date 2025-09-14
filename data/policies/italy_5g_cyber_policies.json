@@ -1,0 +1,137 @@
+{
+  "policies": [
+    {
+      "id": "IT-DPCM-131-2020",
+      "title": "DPCM n.131 del 18 settembre 2020 - Regolamento in materia di perimetro di sicurezza nazionale cibernetica",
+      "title_en": "Prime Minister's Decree n.131 of September 18, 2020 - Regulation on national cybersecurity perimeter",
+      "authority": "Presidenza del Consiglio dei Ministri",
+      "date": "2020-09-18",
+      "effective_date": "2020-11-05",
+      "bindingness": "mandatory",
+      "scope": "national",
+      "jurisdiction": "IT",
+      "policy_type": "regulation",
+      "domains": ["cybersecurity", "5G", "critical_infrastructure", "telecommunications"],
+      "key_provisions": [
+        "Establishes the national cybersecurity perimeter",
+        "Defines criteria for identifying critical ICT assets",
+        "Sets notification requirements for procurement of ICT goods and services",
+        "Mandates security assessments for 5G network components",
+        "Creates framework for golden power intervention"
+      ],
+      "enforcement_notes": "Mandatory for all entities operating critical infrastructure and 5G networks. Violations subject to administrative sanctions up to €1.8M",
+      "amendments": [
+        {
+          "date": "2021-06-11",
+          "reference": "DL 82/2021",
+          "description": "Extended scope to cloud services and data centers"
+        }
+      ],
+      "references": {
+        "gazzetta_ufficiale": "https://www.gazzettaufficiale.it/eli/id/2020/10/21/20G00150/sg",
+        "gu_series": "Serie Generale n.261 del 21-10-2020",
+        "text_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.presidente.consiglio.ministri:2020-09-18;131"
+      },
+      "related_policies": ["IT-DL-105-2019", "IT-ART-28-2022"],
+      "metadata": {
+        "last_updated": "2025-09-13",
+        "verification_status": "official_source",
+        "data_quality": 5
+      }
+    },
+    {
+      "id": "IT-ART-28-2022",
+      "title": "Articolo 28 del DL 21 marzo 2022, n. 21 - Poteri speciali in materia di comunicazioni elettroniche a banda larga basate sulla tecnologia 5G",
+      "title_en": "Article 28 of Law Decree March 21, 2022, n. 21 - Special powers on 5G broadband electronic communications",
+      "authority": "Governo Italiano",
+      "date": "2022-03-21",
+      "effective_date": "2022-03-22",
+      "bindingness": "mandatory",
+      "scope": "national",
+      "jurisdiction": "IT",
+      "policy_type": "decree_law",
+      "domains": ["5G", "telecommunications", "national_security", "golden_power"],
+      "key_provisions": [
+        "Extends golden power review to 5G network agreements",
+        "Requires notification for contracts with non-EU suppliers",
+        "Establishes 30-60 day review periods for 5G procurement",
+        "Mandates security testing for high-risk vendors",
+        "Allows government veto or conditional approval"
+      ],
+      "enforcement_notes": "Immediate application. Non-compliance results in contract nullification and potential criminal sanctions",
+      "amendments": [
+        {
+          "date": "2022-05-17",
+          "reference": "Legge 51/2022",
+          "description": "Conversion into law with modifications"
+        },
+        {
+          "date": "2023-04-19",
+          "reference": "DL 34/2023",
+          "description": "Extended review timelines for complex cases"
+        }
+      ],
+      "references": {
+        "gazzetta_ufficiale": "https://www.gazzettaufficiale.it/eli/id/2022/03/21/22G00032/sg",
+        "gu_series": "Serie Generale n.67 del 21-03-2022",
+        "text_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2022-03-21;21~art28",
+        "conversion_law": "https://www.gazzettaufficiale.it/eli/id/2022/05/17/22G00059/sg"
+      },
+      "related_policies": ["IT-DPCM-131-2020", "IT-DL-105-2019", "EU-5G-TOOLBOX"],
+      "vendor_implications": {
+        "high_risk_vendors": ["subject to enhanced scrutiny"],
+        "notification_threshold": "All 5G core network components",
+        "review_timeline": "30 days standard, 60 days for complex cases"
+      },
+      "metadata": {
+        "last_updated": "2025-09-13",
+        "verification_status": "official_source",
+        "data_quality": 5
+      }
+    },
+    {
+      "id": "IT-DL-105-2019",
+      "title": "Decreto-legge 21 settembre 2019, n. 105 - Disposizioni urgenti in materia di perimetro di sicurezza nazionale cibernetica",
+      "title_en": "Law Decree September 21, 2019, n. 105 - Urgent provisions on national cybersecurity perimeter",
+      "authority": "Governo Italiano",
+      "date": "2019-09-21",
+      "effective_date": "2019-09-22",
+      "bindingness": "mandatory",
+      "scope": "national",
+      "jurisdiction": "IT",
+      "policy_type": "decree_law",
+      "domains": ["cybersecurity", "critical_infrastructure", "national_security"],
+      "key_provisions": [
+        "Establishes national cybersecurity perimeter framework",
+        "Creates notification obligations for critical operators",
+        "Defines incident reporting requirements",
+        "Sets procurement review mechanisms",
+        "Establishes National Cybersecurity Agency role"
+      ],
+      "enforcement_notes": "Foundation law for cybersecurity perimeter, implemented through DPCM 131/2020",
+      "references": {
+        "gazzetta_ufficiale": "https://www.gazzettaufficiale.it/eli/id/2019/09/21/19G00111/sg",
+        "gu_series": "Serie Generale n.222 del 21-09-2019",
+        "text_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2019-09-21;105"
+      },
+      "related_policies": ["IT-DPCM-131-2020", "IT-ART-28-2022"],
+      "metadata": {
+        "last_updated": "2025-09-13",
+        "verification_status": "official_source",
+        "data_quality": 5
+      }
+    }
+  ],
+  "summary": {
+    "total_policies": 3,
+    "domains_covered": ["5G", "cybersecurity", "critical_infrastructure", "telecommunications", "national_security"],
+    "regulatory_framework": "Italy's 5G and cybersecurity perimeter regulations establish comprehensive controls over critical infrastructure procurement, with special focus on 5G networks and non-EU suppliers",
+    "key_dates": {
+      "framework_established": "2019-09-21",
+      "implementation_rules": "2020-09-18",
+      "5g_specific_powers": "2022-03-21"
+    },
+    "enforcement_status": "Active and enforced",
+    "recent_updates": "Extended to cloud services and data centers (2021), enhanced 5G review powers (2022-2023)"
+  }
+}

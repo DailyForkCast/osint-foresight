@@ -57,3 +57,5 @@ venv/
 # Analysis outputs
 project_structure_analysis.json
 reorganization_report_*.txt
+out/SK/cordis_data/projectPublications.json
+out/SK/cordis_data/organization.json

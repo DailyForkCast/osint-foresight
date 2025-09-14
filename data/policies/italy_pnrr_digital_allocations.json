@@ -1,0 +1,323 @@
+{
+  "pnrr_digital_transition": {
+    "total_allocation_eur": 48100000000,
+    "plan_period": "2021-2026",
+    "last_updated": "2025-09-13",
+    "source": "Italia Domani - Piano Nazionale di Ripresa e Resilienza",
+    "missions": [
+      {
+        "mission": "M1",
+        "mission_name": "Digitalizzazione, innovazione, competitività, cultura e turismo",
+        "total_allocation_eur": 40320000000,
+        "digital_components": [
+          {
+            "component": "M1C1",
+            "component_name": "Digitalizzazione, innovazione e sicurezza nella PA",
+            "amount_eur": 9720000000,
+            "investments": [
+              {
+                "code": "M1C1-I1.1",
+                "title": "Infrastrutture digitali",
+                "amount_eur": 900000000,
+                "years": {"2021": 100000000, "2022": 200000000, "2023": 300000000, "2024": 200000000, "2025": 100000000}
+              },
+              {
+                "code": "M1C1-I1.2",
+                "title": "Abilitazione e facilitazione migrazione al cloud",
+                "amount_eur": 1000000000,
+                "years": {"2021": 100000000, "2022": 300000000, "2023": 300000000, "2024": 200000000, "2025": 100000000}
+              },
+              {
+                "code": "M1C1-I1.3",
+                "title": "Dati e interoperabilità",
+                "amount_eur": 646000000,
+                "years": {"2021": 50000000, "2022": 150000000, "2023": 200000000, "2024": 150000000, "2025": 96000000}
+              },
+              {
+                "code": "M1C1-I1.4",
+                "title": "Servizi digitali e cittadinanza digitale",
+                "amount_eur": 2013000000,
+                "subsections": [
+                  {"item": "Esperienza dei cittadini", "amount_eur": 613000000},
+                  {"item": "Identità digitale", "amount_eur": 285000000},
+                  {"item": "PagoPA e app IO", "amount_eur": 750000000},
+                  {"item": "Piattaforma notifiche digitali", "amount_eur": 245000000},
+                  {"item": "Mobility as a Service", "amount_eur": 40000000},
+                  {"item": "Altri servizi", "amount_eur": 80000000}
+                ]
+              },
+              {
+                "code": "M1C1-I1.5",
+                "title": "Cybersecurity",
+                "amount_eur": 623000000,
+                "years": {"2021": 50000000, "2022": 150000000, "2023": 200000000, "2024": 150000000, "2025": 73000000}
+              },
+              {
+                "code": "M1C1-I1.6",
+                "title": "Digitalizzazione delle grandi amministrazioni centrali",
+                "amount_eur": 611000000,
+                "years": {"2022": 150000000, "2023": 200000000, "2024": 161000000, "2025": 100000000}
+              },
+              {
+                "code": "M1C1-I1.7",
+                "title": "Competenze digitali di base",
+                "amount_eur": 195000000,
+                "years": {"2022": 50000000, "2023": 75000000, "2024": 50000000, "2025": 20000000}
+              }
+            ],
+            "reforms": [
+              {
+                "code": "M1C1-R1.1",
+                "title": "Riforma del processo di acquisto ICT",
+                "implementation_year": 2022
+              },
+              {
+                "code": "M1C1-R1.2",
+                "title": "Riforma del supporto alla trasformazione digitale della PA",
+                "implementation_year": 2022
+              },
+              {
+                "code": "M1C1-R1.3",
+                "title": "Riforma dell'introduzione di piattaforme cloud",
+                "implementation_year": 2022
+              }
+            ]
+          },
+          {
+            "component": "M1C2",
+            "component_name": "Digitalizzazione, innovazione e competitività nel sistema produttivo",
+            "amount_eur": 23890000000,
+            "investments": [
+              {
+                "code": "M1C2-I1",
+                "title": "Transizione 4.0",
+                "amount_eur": 13380000000,
+                "years": {"2021": 2000000000, "2022": 4000000000, "2023": 4000000000, "2024": 2380000000, "2025": 1000000000}
+              },
+              {
+                "code": "M1C2-I2",
+                "title": "Investimenti ad alto contenuto tecnologico",
+                "amount_eur": 340000000,
+                "years": {"2022": 100000000, "2023": 120000000, "2024": 120000000}
+              },
+              {
+                "code": "M1C2-I3",
+                "title": "Reti ultraveloci (banda ultra-larga e 5G)",
+                "amount_eur": 6710000000,
+                "subsections": [
+                  {"item": "Piano Italia a 1 Giga", "amount_eur": 3863000000},
+                  {"item": "Piano Italia 5G", "amount_eur": 2020000000},
+                  {"item": "Sanità connessa", "amount_eur": 501000000},
+                  {"item": "Isole minori", "amount_eur": 60000000},
+                  {"item": "Piano scuole connesse", "amount_eur": 261000000}
+                ]
+              },
+              {
+                "code": "M1C2-I4",
+                "title": "Tecnologie satellitari ed economia spaziale",
+                "amount_eur": 1490000000,
+                "years": {"2022": 300000000, "2023": 500000000, "2024": 400000000, "2025": 290000000}
+              },
+              {
+                "code": "M1C2-I5",
+                "title": "Politiche industriali di filiera e internazionalizzazione",
+                "amount_eur": 1950000000,
+                "years": {"2022": 500000000, "2023": 600000000, "2024": 500000000, "2025": 350000000}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mission": "M2",
+        "mission_name": "Rivoluzione verde e transizione ecologica",
+        "total_allocation_eur": 59470000000,
+        "digital_components": [
+          {
+            "component": "M2C1",
+            "component_name": "Economia circolare e agricoltura sostenibile",
+            "digital_investments": [
+              {
+                "code": "M2C1-I4.4",
+                "title": "Investimenti nella resilienza dell'agro-sistema irriguo (digitalizzazione)",
+                "amount_eur": 880000000,
+                "digital_portion": 0.2,
+                "digital_amount_eur": 176000000,
+                "years": {"2022": 40000000, "2023": 60000000, "2024": 50000000, "2025": 26000000}
+              }
+            ]
+          },
+          {
+            "component": "M2C2",
+            "component_name": "Energia rinnovabile, idrogeno, rete e mobilità sostenibile",
+            "digital_investments": [
+              {
+                "code": "M2C2-I2.1",
+                "title": "Rafforzamento smart grid",
+                "amount_eur": 3610000000,
+                "years": {"2022": 500000000, "2023": 1000000000, "2024": 1200000000, "2025": 910000000}
+              },
+              {
+                "code": "M2C2-I2.2",
+                "title": "Interventi per aumentare la resilienza della rete elettrica",
+                "amount_eur": 500000000,
+                "digital_portion": 0.3,
+                "digital_amount_eur": 150000000,
+                "years": {"2022": 30000000, "2023": 50000000, "2024": 50000000, "2025": 20000000}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mission": "M4",
+        "mission_name": "Istruzione e ricerca",
+        "total_allocation_eur": 30880000000,
+        "digital_components": [
+          {
+            "component": "M4C1",
+            "component_name": "Potenziamento dell'offerta dei servizi di istruzione",
+            "digital_investments": [
+              {
+                "code": "M4C1-I2.1",
+                "title": "Didattica digitale integrata e formazione del personale scolastico",
+                "amount_eur": 800000000,
+                "years": {"2021": 100000000, "2022": 300000000, "2023": 250000000, "2024": 150000000}
+              },
+              {
+                "code": "M4C1-I3.2",
+                "title": "Piano scuola 4.0",
+                "amount_eur": 2100000000,
+                "years": {"2022": 400000000, "2023": 800000000, "2024": 600000000, "2025": 300000000}
+              }
+            ]
+          },
+          {
+            "component": "M4C2",
+            "component_name": "Dalla ricerca all'impresa",
+            "digital_investments": [
+              {
+                "code": "M4C2-I1.1",
+                "title": "Fondo per il Programma Nazionale della Ricerca (PNR)",
+                "amount_eur": 1800000000,
+                "digital_portion": 0.4,
+                "digital_amount_eur": 720000000,
+                "focus_areas": ["AI", "quantum computing", "HPC", "cybersecurity"]
+              },
+              {
+                "code": "M4C2-I1.3",
+                "title": "Partenariati estesi",
+                "amount_eur": 1610000000,
+                "digital_portion": 0.5,
+                "digital_amount_eur": 805000000,
+                "focus_areas": ["digital technologies", "AI", "industry 4.0"]
+              },
+              {
+                "code": "M4C2-I1.4",
+                "title": "Centri Nazionali",
+                "amount_eur": 1600000000,
+                "digital_portion": 0.6,
+                "digital_amount_eur": 960000000,
+                "centers": [
+                  {"name": "HPC, Big Data e Quantum Computing", "amount_eur": 320000000},
+                  {"name": "Tecnologie dell'Agricoltura (Agritech)", "amount_eur": 320000000, "digital_portion": 0.3},
+                  {"name": "Mobilità sostenibile", "amount_eur": 320000000, "digital_portion": 0.4}
+                ]
+              },
+              {
+                "code": "M4C2-I3.1",
+                "title": "Fondo per la realizzazione di un sistema integrato di infrastrutture di ricerca",
+                "amount_eur": 1580000000,
+                "digital_portion": 0.3,
+                "digital_amount_eur": 474000000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mission": "M6",
+        "mission_name": "Salute",
+        "total_allocation_eur": 15630000000,
+        "digital_components": [
+          {
+            "component": "M6C2",
+            "component_name": "Innovazione, ricerca e digitalizzazione del SSN",
+            "amount_eur": 8630000000,
+            "digital_investments": [
+              {
+                "code": "M6C2-I1.1",
+                "title": "Ammodernamento del parco tecnologico e digitale ospedaliero",
+                "amount_eur": 4052000000,
+                "subsections": [
+                  {"item": "Digitalizzazione DEA I e II livello", "amount_eur": 1450000000},
+                  {"item": "Grandi apparecchiature sanitarie", "amount_eur": 1413000000},
+                  {"item": "Digitalizzazione 280 ospedali", "amount_eur": 1189000000}
+                ]
+              },
+              {
+                "code": "M6C2-I1.2",
+                "title": "Verso un ospedale sicuro e sostenibile",
+                "amount_eur": 1640000000,
+                "digital_portion": 0.2,
+                "digital_amount_eur": 328000000
+              },
+              {
+                "code": "M6C2-I1.3",
+                "title": "Rafforzamento dell'infrastruttura tecnologica per la raccolta ed analisi dati",
+                "amount_eur": 1670000000,
+                "subsections": [
+                  {"item": "Fascicolo Sanitario Elettronico", "amount_eur": 1380000000},
+                  {"item": "Piattaforma nazionale telemedicina", "amount_eur": 200000000},
+                  {"item": "Analisi dati e modelli predittivi", "amount_eur": 90000000}
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cross_mission_digital": {
+      "total_digital_investment_eur": 25400000000,
+      "breakdown_by_area": {
+        "connectivity_5g": 8730000000,
+        "cloud_data_centers": 1900000000,
+        "cybersecurity": 623000000,
+        "digital_pa": 9720000000,
+        "industry_4.0": 13380000000,
+        "digital_skills": 2995000000,
+        "digital_health": 6050000000,
+        "research_innovation": 3559000000
+      }
+    },
+    "monitoring": {
+      "reporting_frequency": "quarterly",
+      "monitoring_body": "Servizio centrale per il PNRR - MEF",
+      "dashboard_url": "https://italiadomani.gov.it/it/catalogo-open-data.html",
+      "last_progress_report": "2024-Q4",
+      "completion_rate": 0.42
+    },
+    "metadata": {
+      "sources": [
+        {
+          "name": "Italia Domani - Piano Nazionale di Ripresa e Resilienza",
+          "url": "https://italiadomani.gov.it",
+          "last_accessed": "2025-09-13"
+        },
+        {
+          "name": "MEF - Relazione sullo stato di attuazione del PNRR",
+          "url": "https://www.mef.gov.it/focus/Il-Piano-Nazionale-di-Ripresa-e-Resilienza-PNRR/",
+          "last_accessed": "2025-09-13"
+        },
+        {
+          "name": "OpenPNRR - Open Data",
+          "url": "https://openpnrr.it",
+          "last_accessed": "2025-09-13"
+        }
+      ],
+      "data_quality": 5,
+      "completeness": "high",
+      "notes": "Amounts reflect allocations as of latest remodulation (REPowerEU integration). Some investments have both digital and non-digital components; digital portions estimated based on investment descriptions."
+    }
+  }
+}
