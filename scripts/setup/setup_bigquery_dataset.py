@@ -10,7 +10,7 @@ def run_gcloud_command(cmd):
     """Run a gcloud command and return the output"""
     gcloud_path = r"C:\Users\mrear\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin\gcloud"
     full_cmd = f'"{gcloud_path}" {cmd}'
-    
+
     try:
         result = subprocess.run(full_cmd, shell=True, capture_output=True, text=True)
         if result.returncode != 0:
@@ -24,7 +24,7 @@ def run_gcloud_command(cmd):
 def create_dataset_with_gcloud():
     """Create BigQuery dataset using gcloud CLI"""
     project_id = "osint-foresight-2025"
-    
+
     # Create the datasets using bq command through gcloud
     datasets = [
         {
@@ -33,7 +33,7 @@ def create_dataset_with_gcloud():
             "location": "US"
         },
         {
-            "name": "patent_analysis", 
+            "name": "patent_analysis",
             "description": "Patent data analysis and results",
             "location": "US"
         },
@@ -43,22 +43,22 @@ def create_dataset_with_gcloud():
             "location": "US"
         }
     ]
-    
+
     print(f"Creating BigQuery datasets in project: {project_id}")
     print("-" * 60)
-    
+
     for dataset in datasets:
         dataset_id = f"{project_id}.{dataset['name']}"
-        
+
         # Use gcloud to run bq commands
         bq_cmd = f'alpha bq datasets create {dataset["name"]} --location={dataset["location"]} --description="{dataset["description"]}"'
-        
+
         print(f"\nCreating dataset: {dataset['name']}")
         print(f"  Description: {dataset['description']}")
         print(f"  Location: {dataset['location']}")
-        
+
         result = run_gcloud_command(bq_cmd)
-        
+
         if result is not None:
             print(f"  ✓ Dataset created successfully")
         else:
@@ -69,7 +69,7 @@ def create_dataset_with_gcloud():
                 print(f"  ✓ Dataset created via API")
             else:
                 print(f"  ✗ Failed to create dataset")
-    
+
     print("\n" + "-" * 60)
     print("Setup complete!")
     print(f"\nAccess your datasets at:")

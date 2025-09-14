@@ -14,37 +14,37 @@ Create the **Assumption Check & Red‑Team Review** artifacts for Austria. Captu
 ## 2) Scaffold TSVs (idempotent)
 Create these files with headers; include a `notes` column where appropriate. If empty, add one `no_data_yet=true` row.
 
-- `data/processed/country=AT/p7r_assumptions.tsv`  
+- `data/processed/country=AT/p7r_assumptions.tsv`
   Columns: `assumption_id,statement,phase_origin,basis,impact_if_wrong,confidence_LMH,notes`
 
-- `data/processed/country=AT/p7r_contradictions.tsv`  
+- `data/processed/country=AT/p7r_contradictions.tsv`
   Columns: `claim_id,claim_text,source_a,source_b,why_in_tension,status,notes`
 
-- `data/processed/country=AT/p7r_gaps.tsv`  
+- `data/processed/country=AT/p7r_gaps.tsv`
   Columns: `gap_id,domain,why_it_matters,how_to_close,effort_1to3,notes`
 
-- `data/processed/country=AT/p7r_weak_assertions.tsv`  
+- `data/processed/country=AT/p7r_weak_assertions.tsv`
   Columns: `assertion_id,text,current_evidence,needed_evidence,priority_1to3,notes`
 
-- `data/processed/country=AT/p7r_bias.tsv`  
+- `data/processed/country=AT/p7r_bias.tsv`
   Columns: `bias_id,bias_type,description,mitigation,notes`
 
-- `data/processed/country=AT/p7r_hypotheses.tsv`  
+- `data/processed/country=AT/p7r_hypotheses.tsv`
   Columns: `hid,hypothesis,plausibility_LMH,discriminator_test,data_needed,notes`
 
-- `data/processed/country=AT/p7r_stresstests.tsv`  
+- `data/processed/country=AT/p7r_stresstests.tsv`
   Columns: `sid,scenario,expected_observables,implications,trigger_to_watch,notes`
 
-- `data/processed/country=AT/p7r_actions.tsv`  
+- `data/processed/country=AT/p7r_actions.tsv`
   Columns: `aid,action,owner,due_by,status,notes`
 
 ## 3) Populate from prior phases
-- Pull assumptions from **executive summaries** and **narratives** in Phases 2/2S/3/4/5/6/7C.  
-- Log contradictions where event signals clash with capacity evidence.  
+- Pull assumptions from **executive summaries** and **narratives** in Phases 2/2S/3/4/5/6/7C.
+- Log contradictions where event signals clash with capacity evidence.
 - Convert Phase‑6 **risk deltas** and Phase‑7C **MO plausibility** into testable hypotheses and stress tests.
 
 ## 4) Evidence Register discipline
-Append any policy/portal/scope PDFs to `data/evidence_register.tsv` with:  
+Append any policy/portal/scope PDFs to `data/evidence_register.tsv` with:
 `id,country,type,title,issuer_or_site,url,retrieved_at,sha256,anchor_hash,notes`.
 
 ## 5) Health & report tasks
@@ -81,6 +81,5 @@ make reports-init COUNTRY=AT
 ```
 
 ### Notes
-- Keep all sanctions/legal references as **signals only** and **exclude US persons**.  
+- Keep all sanctions/legal references as **signals only** and **exclude US persons**.
 - Use short, testable phrasing for hypotheses and stress tests so they drive collection, not debate.
-

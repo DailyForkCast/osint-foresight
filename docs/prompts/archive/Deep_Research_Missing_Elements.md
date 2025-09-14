@@ -11,7 +11,7 @@ After analyzing the Deep Research country prompts (Austria, Germany, Sweden, Swi
 
 **Add to Phase X Variables:**
 ```python
-REGIONAL_COMPARATORS = {{regional_group}}  
+REGIONAL_COMPARATORS = {{regional_group}}
 # Examples:
 # DACH: Germany, Austria, Switzerland
 # Nordic: Sweden, Denmark, Norway, Finland, Iceland
@@ -282,7 +282,7 @@ ENHANCED_OUTPUT_FORMATS = {
 
 **Currently Present but Could Be Enhanced:**
 
-The Deep Research prompts specify eCORDA and have more granular evidence priority. 
+The Deep Research prompts specify eCORDA and have more granular evidence priority.
 
 **Enhance Evidence Order & Style:**
 ```python

@@ -13,7 +13,7 @@
 - BBG: https://www.bbg.gv.at/
 - data.gv.at: https://www.data.gv.at/
 
-#### Slovakia  
+#### Slovakia
 - UVO: https://www.uvo.gov.sk/
 - EVO: https://www.evo.gov.sk/
 
@@ -84,7 +84,7 @@ Sources -> Collection -> Storage -> Analysis -> Reports
 
 ### API Response Times
 - World Bank: <1 second
-- Crossref: <2 seconds  
+- Crossref: <2 seconds
 - OpenAlex: <3 seconds
 - CORDIS: ~5 seconds (large responses)
 

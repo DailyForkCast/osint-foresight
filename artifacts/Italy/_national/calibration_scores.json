@@ -1,0 +1,74 @@
+{
+  "calibration_assessment": {
+    "overall_score": 0.72,
+    "confidence_calibration": {
+      "high_confidence_accuracy": 0.78,
+      "medium_confidence_accuracy": 0.71,
+      "low_confidence_accuracy": 0.65,
+      "overconfidence_bias": 0.12
+    },
+    "forecast_accuracy": {
+      "resolved_forecasts": 23,
+      "correct_predictions": 17,
+      "accuracy_rate": 0.74,
+      "brier_score": 0.18
+    }
+  },
+  "historical_performance": [
+    {
+      "forecast": "BRI exit by 2024",
+      "prediction": 0.70,
+      "outcome": true,
+      "score": 0.91
+    },
+    {
+      "forecast": "Defense spending increase 2024",
+      "prediction": 0.60,
+      "outcome": true,
+      "score": 0.84
+    },
+    {
+      "forecast": "Major cyber incident 2023",
+      "prediction": 0.65,
+      "outcome": true,
+      "score": 0.87
+    },
+    {
+      "forecast": "Chinese 5G ban",
+      "prediction": 0.80,
+      "outcome": false,
+      "score": 0.36
+    },
+    {
+      "forecast": "DIANA accelerator launch",
+      "prediction": 0.75,
+      "outcome": true,
+      "score": 0.94
+    }
+  ],
+  "bias_analysis": {
+    "identified_biases": [
+      {
+        "type": "Optimism bias",
+        "area": "Innovation capacity",
+        "correction_factor": -0.15
+      },
+      {
+        "type": "Pessimism bias",
+        "area": "Political stability",
+        "correction_factor": 0.10
+      },
+      {
+        "type": "Recency bias",
+        "area": "China threat assessment",
+        "correction_factor": -0.08
+      }
+    ]
+  },
+  "improvement_recommendations": [
+    "Increase weight on fiscal constraints",
+    "Better account for EU dynamics",
+    "More granular political analysis",
+    "Enhanced technology assessment methods"
+  ]
+}

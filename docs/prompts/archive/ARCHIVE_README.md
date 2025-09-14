@@ -90,7 +90,7 @@ cat prompt_archive.log
 
 ## File Types Archived
 - `.md` - Markdown files
-- `.txt` - Text files  
+- `.txt` - Text files
 - `.docx` - Word documents
 
 All other file types are ignored.

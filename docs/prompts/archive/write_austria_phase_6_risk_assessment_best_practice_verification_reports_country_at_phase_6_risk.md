@@ -113,4 +113,3 @@ If any party in the register appears on **EU/UK/CA/AU/NZ/UN** lists, add to `san
 
 ## Next Data Boost (1 step)
 Capture **10–20 accreditation scopes** in **EMC/RED** and **time/frequency/GNSS**, compute **scope_text_hash**, and link labs to clusters. Then refresh **risk_register.tsv** and **phase6_vignettes.tsv** accordingly.
-

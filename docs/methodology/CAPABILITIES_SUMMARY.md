@@ -4,14 +4,14 @@
 
 - **Web Browsing**: Full access via WebFetch tool to any domain
 - **HTTP Downloads**: Can fetch JSON, HTML, and other web content
-- **Code Execution**: 
+- **Code Execution**:
   - Python 3.10.6 with pandas, numpy, matplotlib, scipy, sklearn, networkx, requests
   - Node.js v22.16.0
   - Java 1.8.0_461
   - C/C++ via clang 21.1.0
   - Bash scripting (MINGW64 on Windows)
 - **File System**: Full read/write access to working directory and Downloads
-- **Data Formats**: 
+- **Data Formats**:
   - Input: CSV, XLSX, JSON, PDF, IPYNB, PNG, JPG
   - Output: CSV, XLSX, JSON, GraphML, PNG
 - **Visualization**: Matplotlib with PNG/SVG export

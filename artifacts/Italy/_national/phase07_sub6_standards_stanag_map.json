@@ -1,0 +1,96 @@
+{
+  "stanag_to_civil_mapping": {
+    "STANAG_4586": {
+      "title": "UAV Control System",
+      "civil_equivalent": ["ISO 23629", "ASTM F38"],
+      "implementation": "Partial",
+      "gaps": "Autonomous operations"
+    },
+    "STANAG_5516": {
+      "title": "Tactical Data Link - Link 16",
+      "civil_equivalent": "None - Military specific",
+      "implementation": "Full",
+      "italian_systems": ["F-35", "Eurofighter", "Frigates"]
+    },
+    "STANAG_4671": {
+      "title": "UAV C2 Data Link",
+      "civil_equivalent": ["RTCA DO-362", "EUROCAE ED-265"],
+      "implementation": "Ongoing",
+      "timeline": "2025"
+    },
+    "STANAG_4607": {
+      "title": "Ground Moving Target Indicator",
+      "civil_equivalent": "Partial - Air traffic radar",
+      "implementation": "Full",
+      "platforms": ["NATO AGS", "National ISR"]
+    },
+    "STANAG_7074": {
+      "title": "Digital Geographic Information",
+      "civil_equivalent": ["ISO 19100 series", "OGC standards"],
+      "implementation": "Full",
+      "usage": "All C4ISR systems"
+    },
+    "STANAG_4559": {
+      "title": "NATO Standard ISR Library Interface",
+      "civil_equivalent": "None",
+      "implementation": "Partial",
+      "challenges": "Legacy system integration"
+    },
+    "STANAG_5066": {
+      "title": "HF Radio Data Communications",
+      "civil_equivalent": ["ITU-R recommendations"],
+      "implementation": "Full",
+      "naval_critical": true
+    },
+    "STANAG_4406": {
+      "title": "Military Message Handling System",
+      "civil_equivalent": ["X.400 series"],
+      "implementation": "Migrating",
+      "replacement": "Modern messaging systems"
+    }
+  },
+  "implementation_statistics": {
+    "total_applicable": 234,
+    "fully_implemented": 131,
+    "partially_implemented": 45,
+    "not_implemented": 58,
+    "implementation_rate": 0.56
+  },
+  "priority_gaps": [
+    {
+      "stanag": "STANAG 4586",
+      "gap": "UAV autonomy standards",
+      "impact": "Interoperability with allied UAVs",
+      "mitigation": "National implementation by 2025"
+    },
+    {
+      "stanag": "STANAG 5511",
+      "gap": "Cyber defense standards",
+      "impact": "Network vulnerability",
+      "mitigation": "ACN leading implementation"
+    },
+    {
+      "stanag": "STANAG 2596",
+      "gap": "Climate/environmental standards",
+      "impact": "Equipment certification",
+      "mitigation": "Harmonization with EU standards"
+    }
+  ],
+  "civil_to_military_adoption": {
+    "5g_standards": {
+      "civil_origin": "3GPP",
+      "military_adaptation": "Ongoing",
+      "challenges": "Security requirements"
+    },
+    "ai_standards": {
+      "civil_origin": "ISO/IEC 23053",
+      "military_adaptation": "Under study",
+      "timeline": "2026"
+    },
+    "quantum_standards": {
+      "civil_origin": "ETSI QKD",
+      "military_interest": "HIGH",
+      "pilot_projects": 2
+    }
+  }
+}

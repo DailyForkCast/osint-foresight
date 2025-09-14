@@ -13,7 +13,7 @@
 ```sql
 -- Example query for Slovak-Chinese co-inventions
 SELECT * FROM `patents-public-data.patents.publications`
-WHERE country_code = 'SK' 
+WHERE country_code = 'SK'
 AND inventor_harmonized LIKE '%China%'
 ```
 

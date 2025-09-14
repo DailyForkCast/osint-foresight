@@ -1,0 +1,66 @@
+{
+  "public_funding": {
+    "national": {
+      "defense_budget_2024": "29.8B EUR",
+      "r&d_allocation": "2.1B EUR",
+      "modernization": "8.4B EUR",
+      "key_programs": [
+        {
+          "program": "Tempest/GCAP",
+          "budget": "2B EUR (2024-2035)",
+          "partners": ["UK", "Japan"]
+        },
+        {
+          "program": "Navy Law",
+          "budget": "5.4B EUR (2024-2034)",
+          "focus": "New vessels and submarines"
+        }
+      ]
+    },
+    "pnrr_allocation": {
+      "total": "191.5B EUR",
+      "digital": "48B EUR",
+      "research": "11.4B EUR",
+      "defense_relevant": "3.2B EUR"
+    },
+    "eu_funding": {
+      "horizon_europe": "892M EUR received (2021-2023)",
+      "european_defence_fund": "234M EUR",
+      "digital_europe": "123M EUR",
+      "resceu": "45M EUR"
+    }
+  },
+  "private_investment": {
+    "vc_activity": {
+      "total_2023": "2.3B EUR",
+      "deeptech": "234M EUR",
+      "defense_relevant": "67M EUR",
+      "top_investors": ["CDP Venture Capital", "Primo Ventures", "United Ventures"]
+    },
+    "corporate_rd": {
+      "leonardo": "1.9B EUR",
+      "fincantieri": "234M EUR",
+      "stmicroelectronics": "892M EUR"
+    },
+    "foreign_investment": {
+      "us": "234M EUR",
+      "china": "12M EUR (down 78% from 2019)",
+      "screening": "Golden Power applied 23 times in 2023"
+    }
+  },
+  "controls": {
+    "export_controls": {
+      "framework": "EU Dual-Use Regulation",
+      "national_additions": "Military list",
+      "licenses_2023": 2341,
+      "denials": 23
+    },
+    "investment_screening": {
+      "mechanism": "Golden Power",
+      "sectors": ["Defense", "Energy", "Telecom", "5G", "Semiconductors"],
+      "cases_reviewed": 234,
+      "blocked": 3,
+      "conditional_approval": 45
+    }
+  }
+}

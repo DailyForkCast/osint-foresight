@@ -92,4 +92,3 @@ After saving the file, print:
 WRITE reports/country=AT/phase-1_indicators.md
 PREFLIGHT OK (reports-init, health, textint)
 ```
-

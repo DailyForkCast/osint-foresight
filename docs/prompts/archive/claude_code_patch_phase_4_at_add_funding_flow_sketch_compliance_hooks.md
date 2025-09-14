@@ -33,4 +33,3 @@ This flow determines **who** collaborates, **what** gets built, and **where** ca
 5) **Commit:** `chore(AT/P4): add Funding Flow Sketch + Compliance Hooks narrative`
 
 **Optional follow‑up:** If the anchor differs, place blocks after `## Scope & Inputs`. If absent, insert after front‑matter.
-

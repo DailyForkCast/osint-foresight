@@ -43,7 +43,7 @@
 - Obsolescence risks
 - Market dynamics
 
-## Economic Dimension  
+## Economic Dimension
 - Investment flows and returns
 - Employment impacts (direct/indirect)
 - Tax and GDP contributions

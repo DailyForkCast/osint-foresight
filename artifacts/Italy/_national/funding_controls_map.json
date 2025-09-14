@@ -1,0 +1,63 @@
+{
+  "export_controls": {
+    "dual_use_regulation": {
+      "framework": "EU Regulation 2021/821",
+      "national_authority": "UAMA (MFA)",
+      "licenses_2023": 1234,
+      "denials_2023": 45,
+      "china_related_denials": 12
+    },
+    "military_exports": {
+      "framework": "Law 185/1990",
+      "authority": "UAMA",
+      "value_2023_eur": 3450000000,
+      "main_destinations": ["Qatar", "Egypt", "UK", "US"],
+      "china_exports": "Prohibited"
+    },
+    "technology_transfer": {
+      "intangible_transfers": "Controlled",
+      "cloud_restrictions": true,
+      "ai_ml_controls": "Emerging",
+      "quantum_controls": "Under development"
+    }
+  },
+  "investment_screening": {
+    "golden_power": {
+      "sectors": ["Defense", "Energy", "Telecom", "High-tech", "Finance"],
+      "reviews_2023": 23,
+      "blocks_2023": 3,
+      "conditions_imposed": 8,
+      "chinese_blocks": 2
+    },
+    "fdi_monitoring": {
+      "eu_framework": "Regulation 2019/452",
+      "information_sharing": "Active",
+      "cross_border_coordination": true
+    }
+  },
+  "research_security": {
+    "trusted_research": {
+      "framework": "Under development",
+      "universities_participating": 12,
+      "awareness_programs": 5,
+      "incident_reporting": "Voluntary"
+    },
+    "talent_programs": {
+      "thousand_talents_monitoring": true,
+      "disclosure_requirements": "Partial",
+      "identified_cases": 34
+    }
+  },
+  "financial_controls": {
+    "aml_cft": {
+      "framework": "EU AML Directive",
+      "suspicious_transactions_2023": 456,
+      "china_related": 67
+    },
+    "sanctions": {
+      "eu_sanctions": "Implemented",
+      "us_secondary_sanctions": "Monitored",
+      "circumvention_cases": 12
+    }
+  }
+}

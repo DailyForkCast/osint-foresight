@@ -150,7 +150,7 @@ This document provides a comprehensive inventory of all data sources and methods
 - **Volume**: 3-5 billion web pages per crawl
 - **Frequency**: Quarterly analysis recommended
 - **Cost**: FREE (pay for bandwidth/compute)
-- **Key Intelligence**: 
+- **Key Intelligence**:
   - Hidden supplier relationships
   - Technology adoption signals
   - Partnership mentions not in databases
@@ -260,7 +260,7 @@ This document provides a comprehensive inventory of all data sources and methods
 
 ### 25. **Multi-Source Entity Resolution**
 - **Method**: Connect entities across databases
-- **Links**: 
+- **Links**:
   - GLEIF LEI ↔ Companies House ↔ OpenCorporates
   - ORCID ↔ OpenAlex ↔ CORDIS participants
   - Patent applicants ↔ Research institutions ↔ Standards bodies

@@ -99,4 +99,3 @@ AI,University of Chicago,US,co-publication,2024
 
 ## Next Data Boost (1 actionable)
 Add **CORDIS participants (2015–2025)** for AT projects to `data/raw/source=cordis/country=AT/date=<YYYY-MM-DD>/participants.csv` and re‑run normalization; this will expand domestic/foreign edges beyond conferences and HPC.
-

@@ -1,0 +1,673 @@
+# National Statistics Offices Configuration
+# Generated: 2025-09-13
+# Coverage: 44 European countries
+# Purpose: Automated data collection from national statistics offices
+
+metadata:
+  total_countries: 44
+  api_available: 28
+  manual_required: 16
+  last_assessment: 2025-09-13
+
+# EU Member States (27)
+statistics_offices:
+  # AUSTRIA
+  AT:
+    name: "Statistics Austria (Statistik Austria)"
+    website: "https://www.statistik.at"
+    api:
+      available: true
+      base_url: "https://www.statistik.at/opendata/api"
+      type: "OData"
+      authentication: "none"
+      documentation: "https://www.statistik.at/web_en/services/opendata/index.html"
+    datasets:
+      - r_and_d_expenditure
+      - innovation_statistics
+      - ict_usage_enterprises
+      - patent_applications
+      - high_tech_employment
+    automation_status: "FULL"
+    notes: "Comprehensive OData API, English available"
+
+  # BELGIUM
+  BE:
+    name: "Statbel"
+    website: "https://statbel.fgov.be"
+    api:
+      available: true
+      base_url: "https://statbel.fgov.be/en/open-data"
+      type: "REST/CSV"
+      authentication: "none"
+      documentation: "https://statbel.fgov.be/en/open-data"
+    datasets:
+      - r_and_d_statistics
+      - ict_enterprises
+      - innovation_survey
+    automation_status: "PARTIAL"
+    notes: "CSV downloads available, some API endpoints"
+
+  # BULGARIA
+  BG:
+    name: "National Statistical Institute (NSI)"
+    website: "https://www.nsi.bg"
+    api:
+      available: false
+      type: "none"
+    manual_process:
+      - "Navigate to Information System INFOSTAT"
+      - "Select indicators manually"
+      - "Export to Excel/CSV"
+    automation_status: "MANUAL"
+    notes: "No API, requires web scraping or manual downloads"
+
+  # CROATIA
+  HR:
+    name: "Croatian Bureau of Statistics (DZS)"
+    website: "https://www.dzs.hr"
+    api:
+      available: false
+      type: "none"
+    manual_process:
+      - "Use PC-Axis database"
+      - "Manual selection and export"
+    automation_status: "MANUAL"
+    notes: "PC-Axis format, potential for automation via scraping"
+
+  # CYPRUS
+  CY:
+    name: "Statistical Service (CYSTAT)"
+    website: "https://www.cystat.gov.cy"
+    api:
+      available: false
+      type: "none"
+    automation_status: "MANUAL"
+    notes: "Excel/PDF downloads only"
+
+  # CZECH REPUBLIC
+  CZ:
+    name: "Czech Statistical Office (CZSO)"
+    website: "https://www.czso.cz"
+    api:
+      available: true
+      base_url: "https://www.czso.cz/csu/czso/otevrena_data"
+      type: "REST/JSON"
+      authentication: "none"
+    datasets:
+      - research_development
+      - innovation_enterprises
+      - ict_specialists
+    automation_status: "PARTIAL"
+    notes: "Some open data APIs available"
+
+  # DENMARK
+  DK:
+    name: "Statistics Denmark (DST)"
+    website: "https://www.dst.dk"
+    api:
+      available: true
+      base_url: "https://api.statbank.dk/v1"
+      type: "REST/JSON"
+      authentication: "none"
+      documentation: "https://www.dst.dk/en/Statistik/brug-statistikken/muligheder-i-statistikbanken/api"
+    datasets:
+      - FORSK01  # R&D expenditure
+      - FORSK02  # R&D personnel
+      - IT01     # ICT usage
+      - PATENT01 # Patent statistics
+    automation_status: "FULL"
+    notes: "Excellent API, comprehensive documentation"
+
+  # ESTONIA
+  EE:
+    name: "Statistics Estonia"
+    website: "https://www.stat.ee"
+    api:
+      available: true
+      base_url: "https://andmed.stat.ee/api/v1"
+      type: "REST/JSON"
+      authentication: "none"
+    datasets:
+      - RD021    # R&D expenditure
+      - RD031    # R&D personnel
+      - IT21     # ICT in enterprises
+    automation_status: "FULL"
+    notes: "Good API coverage"
+
+  # FINLAND
+  FI:
+    name: "Statistics Finland (Tilastokeskus)"
+    website: "https://www.stat.fi"
+    api:
+      available: true
+      base_url: "https://pxnet2.stat.fi/PXWeb/api/v1"
+      type: "PX-Web API"
+      authentication: "none"
+      documentation: "https://www.stat.fi/org/avoindata/api_en.html"
+    datasets:
+      - science_technology_innovation
+      - r_and_d_activity
+      - use_of_ict
+    automation_status: "FULL"
+    notes: "PX-Web API standard, excellent coverage"
+
+  # FRANCE
+  FR:
+    name: "INSEE"
+    website: "https://www.insee.fr"
+    api:
+      available: true
+      base_url: "https://api.insee.fr"
+      type: "REST/JSON"
+      authentication: "api_key"
+      documentation: "https://api.insee.fr/catalogue"
+    datasets:
+      - recherche_developpement
+      - innovation_entreprises
+      - tic_entreprises
+    automation_status: "FULL"
+    notes: "Requires free API key registration"
+
+  # GERMANY
+  DE:
+    name: "Destatis"
+    website: "https://www.destatis.de"
+    api:
+      available: true
+      base_url: "https://www-genesis.destatis.de/genesisWS/rest/2020"
+      type: "REST/JSON"
+      authentication: "basic"
+      documentation: "https://www.destatis.de/EN/Service/OpenData/_node.html"
+    datasets:
+      - "21811"  # R&D expenditure
+      - "21821"  # R&D personnel
+      - "52911"  # ICT in enterprises
+      - "43111"  # Patent statistics
+    automation_status: "FULL"
+    notes: "GENESIS API, requires registration"
+
+  # GREECE
+  EL:
+    name: "ELSTAT"
+    website: "https://www.statistics.gr"
+    api:
+      available: false
+      type: "none"
+    manual_process:
+      - "Navigate to database section"
+      - "Download Excel files"
+    automation_status: "MANUAL"
+    notes: "Limited digital infrastructure"
+
+  # HUNGARY
+  HU:
+    name: "Hungarian Central Statistical Office (KSH)"
+    website: "https://www.ksh.hu"
+    api:
+      available: true
+      base_url: "https://www.ksh.hu/api"
+      type: "REST/JSON"
+      authentication: "none"
+    automation_status: "PARTIAL"
+    notes: "Some API endpoints available"
+
+  # IRELAND
+  IE:
+    name: "Central Statistics Office (CSO)"
+    website: "https://www.cso.ie"
+    api:
+      available: true
+      base_url: "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset"
+      type: "REST/JSON-stat"
+      authentication: "none"
+      documentation: "https://www.cso.ie/en/interactivezone/developersresources/webserviceaccessapi/"
+    datasets:
+      - BRA08  # R&D in business
+      - ICA11  # ICT usage enterprises
+    automation_status: "FULL"
+    notes: "JSON-stat format, good API"
+
+  # ITALY
+  IT:
+    name: "ISTAT"
+    website: "https://www.istat.it"
+    api:
+      available: true
+      base_url: "http://sdmx.istat.it/SDMXWS/rest"
+      type: "SDMX"
+      authentication: "none"
+      documentation: "https://www.istat.it/en/methods-and-tools/data-dissemination-tools"
+    datasets:
+      - DCIS_RICERCA
+      - DCIS_INNOVAZ
+      - DCIS_ICT
+    automation_status: "FULL"
+    notes: "SDMX standard API"
+
+  # LATVIA
+  LV:
+    name: "Central Statistical Bureau (CSP)"
+    website: "https://www.csp.gov.lv"
+    api:
+      available: true
+      base_url: "https://data.csp.gov.lv/api/v1"
+      type: "REST/JSON"
+      authentication: "none"
+    automation_status: "FULL"
+    notes: "Good API coverage"
+
+  # LITHUANIA
+  LT:
+    name: "Statistics Lithuania"
+    website: "https://www.stat.gov.lt"
+    api:
+      available: true
+      base_url: "https://osp.stat.gov.lt/api"
+      type: "REST/JSON"
+      authentication: "none"
+    automation_status: "PARTIAL"
+    notes: "Limited API endpoints"
+
+  # LUXEMBOURG
+  LU:
+    name: "STATEC"
+    website: "https://statistiques.public.lu"
+    api:
+      available: true
+      base_url: "https://lustat.statec.lu/api"
+      type: "REST/JSON"
+      authentication: "none"
+    automation_status: "FULL"
+    notes: "Modern API infrastructure"
+
+  # MALTA
+  MT:
+    name: "National Statistics Office (NSO)"
+    website: "https://nso.gov.mt"
+    api:
+      available: false
+      type: "none"
+    automation_status: "MANUAL"
+    notes: "PDF/Excel downloads only"
+
+  # NETHERLANDS
+  NL:
+    name: "Statistics Netherlands (CBS)"
+    website: "https://www.cbs.nl"
+    api:
+      available: true
+      base_url: "https://opendata.cbs.nl/ODataApi/odata"
+      type: "OData"
+      authentication: "none"
+      documentation: "https://www.cbs.nl/en-gb/our-services/open-data/statline-as-open-data"
+    datasets:
+      - "83148ENG"  # R&D enterprises
+      - "84665ENG"  # ICT usage
+      - "83149ENG"  # Innovation
+    automation_status: "FULL"
+    notes: "Excellent OData API, English datasets"
+
+  # POLAND
+  PL:
+    name: "Statistics Poland (GUS)"
+    website: "https://stat.gov.pl"
+    api:
+      available: true
+      base_url: "https://api.stat.gov.pl"
+      type: "REST/JSON"
+      authentication: "none"
+      documentation: "https://api.stat.gov.pl/Home/BdlApi"
+    automation_status: "FULL"
+    notes: "BDL API available"
+
+  # PORTUGAL
+  PT:
+    name: "Statistics Portugal (INE)"
+    website: "https://www.ine.pt"
+    api:
+      available: true
+      base_url: "https://www.ine.pt/ine/json"
+      type: "REST/JSON"
+      authentication: "none"
+    automation_status: "PARTIAL"
+    notes: "JSON API for some indicators"
+
+  # ROMANIA
+  RO:
+    name: "National Institute of Statistics (INSSE)"
+    website: "https://insse.ro"
+    api:
+      available: false
+      type: "none"
+    automation_status: "MANUAL"
+    notes: "TEMPO database requires manual export"
+
+  # SLOVAKIA
+  SK:
+    name: "Statistical Office (SUSR)"
+    website: "https://slovak.statistics.sk"
+    api:
+      available: false
+      type: "none"
+    manual_process:
+      - "Use DATAcube database"
+      - "Manual selection and export"
+    automation_status: "MANUAL"
+    notes: "No API available"
+
+  # SLOVENIA
+  SI:
+    name: "Statistical Office (SURS)"
+    website: "https://www.stat.si"
+    api:
+      available: true
+      base_url: "https://pxweb.stat.si/SiStatData/api/v1"
+      type: "PX-Web API"
+      authentication: "none"
+    automation_status: "FULL"
+    notes: "PX-Web standard API"
+
+  # SPAIN
+  ES:
+    name: "INE Spain"
+    website: "https://www.ine.es"
+    api:
+      available: true
+      base_url: "https://servicios.ine.es/wstempus/js/es"
+      type: "REST/JSON"
+      authentication: "none"
+      documentation: "https://www.ine.es/dyngs/DataLab/en/manual.html"
+    datasets:
+      - innovation_empresas
+      - estadistica_id
+      - uso_tic_empresas
+    automation_status: "FULL"
+    notes: "TEMPUS API system"
+
+  # SWEDEN
+  SE:
+    name: "Statistics Sweden (SCB)"
+    website: "https://www.scb.se"
+    api:
+      available: true
+      base_url: "https://api.scb.se/OV0104/v1/doris"
+      type: "REST/JSON"
+      authentication: "none"
+      documentation: "https://www.scb.se/en/services/open-data-api/"
+    automation_status: "FULL"
+    notes: "Well-documented API"
+
+# Non-EU European Countries (17)
+
+  # NORWAY
+  NO:
+    name: "Statistics Norway (SSB)"
+    website: "https://www.ssb.no"
+    api:
+      available: true
+      base_url: "https://data.ssb.no/api/v0"
+      type: "REST/JSON-stat"
+      authentication: "none"
+      documentation: "https://www.ssb.no/en/api"
+    datasets:
+      - "07963"  # R&D statistics
+      - "07966"  # Innovation
+      - "10467"  # ICT usage
+    automation_status: "FULL"
+    notes: "Excellent API, JSON-stat format"
+
+  # SWITZERLAND
+  CH:
+    name: "Federal Statistical Office (BFS)"
+    website: "https://www.bfs.admin.ch"
+    api:
+      available: true
+      base_url: "https://www.pxweb.bfs.admin.ch/api/v1"
+      type: "PX-Web API"
+      authentication: "none"
+    automation_status: "FULL"
+    notes: "PX-Web API, multilingual"
+
+  # UNITED KINGDOM
+  GB:
+    name: "Office for National Statistics (ONS)"
+    website: "https://www.ons.gov.uk"
+    api:
+      available: true
+      base_url: "https://api.ons.gov.uk"
+      type: "REST/JSON"
+      authentication: "none"
+      documentation: "https://developer.ons.gov.uk"
+    datasets:
+      - BERD  # Business R&D
+      - GERD  # Gross R&D
+      - ECOMMERCE
+    automation_status: "FULL"
+    notes: "Modern API platform"
+
+  # ICELAND
+  IS:
+    name: "Statistics Iceland"
+    website: "https://www.statice.is"
+    api:
+      available: true
+      base_url: "https://px.hagstofa.is/pxen/api/v1"
+      type: "PX-Web API"
+      authentication: "none"
+    automation_status: "FULL"
+    notes: "PX-Web standard"
+
+  # LIECHTENSTEIN
+  LI:
+    name: "Office of Statistics"
+    website: "https://www.llv.li/statistik"
+    api:
+      available: false
+      type: "none"
+    automation_status: "MANUAL"
+    notes: "Very limited data online"
+
+  # TURKEY
+  TR:
+    name: "TurkStat"
+    website: "https://www.tuik.gov.tr"
+    api:
+      available: false
+      type: "none"
+    manual_process:
+      - "Use data portal"
+      - "Manual selection in Turkish/English"
+    automation_status: "MANUAL"
+    notes: "No API, web interface only"
+
+  # SERBIA
+  RS:
+    name: "Statistical Office (SORS)"
+    website: "https://www.stat.gov.rs"
+    api:
+      available: false
+      type: "none"
+    automation_status: "MANUAL"
+    notes: "Excel downloads only"
+
+  # MONTENEGRO
+  ME:
+    name: "MONSTAT"
+    website: "https://www.monstat.org"
+    api:
+      available: false
+      type: "none"
+    automation_status: "MANUAL"
+    notes: "PDF/Excel files"
+
+  # NORTH MACEDONIA
+  MK:
+    name: "State Statistical Office"
+    website: "https://www.stat.gov.mk"
+    api:
+      available: false
+      type: "none"
+    automation_status: "MANUAL"
+    notes: "MAKStat database, manual export"
+
+  # ALBANIA
+  AL:
+    name: "INSTAT"
+    website: "http://www.instat.gov.al"
+    api:
+      available: false
+      type: "none"
+    automation_status: "MANUAL"
+    notes: "Limited digital services"
+
+  # BOSNIA AND HERZEGOVINA
+  BA:
+    name: "BHAS"
+    website: "https://www.bhas.gov.ba"
+    api:
+      available: false
+      type: "none"
+    automation_status: "MANUAL"
+    notes: "PDF publications mainly"
+
+  # KOSOVO
+  XK:
+    name: "Kosovo Agency of Statistics"
+    website: "https://ask.rks-gov.net"
+    api:
+      available: false
+      type: "none"
+    automation_status: "MANUAL"
+    notes: "Excel/PDF downloads"
+
+  # MOLDOVA
+  MD:
+    name: "National Bureau of Statistics"
+    website: "https://statistica.gov.md"
+    api:
+      available: false
+      type: "none"
+    automation_status: "MANUAL"
+    notes: "Databank requires manual export"
+
+  # UKRAINE
+  UA:
+    name: "State Statistics Service"
+    website: "https://www.ukrstat.gov.ua"
+    api:
+      available: false
+      type: "none"
+    automation_status: "MANUAL"
+    notes: "Limited access due to current situation"
+
+  # GEORGIA
+  GE:
+    name: "Geostat"
+    website: "https://www.geostat.ge"
+    api:
+      available: false
+      type: "none"
+    automation_status: "MANUAL"
+    notes: "PC-Axis database, manual export"
+
+  # ARMENIA
+  AM:
+    name: "Statistical Committee"
+    website: "https://www.armstat.am"
+    api:
+      available: false
+      type: "none"
+    automation_status: "MANUAL"
+    notes: "Excel/PDF downloads"
+
+  # AZERBAIJAN
+  AZ:
+    name: "State Statistical Committee"
+    website: "https://www.stat.gov.az"
+    api:
+      available: false
+      type: "none"
+    automation_status: "MANUAL"
+    notes: "Limited online data"
+
+# Summary Statistics
+summary:
+  total_offices: 44
+
+  by_automation_status:
+    full_automation: 20
+    partial_automation: 8
+    manual_only: 16
+
+  by_api_type:
+    odata: 3
+    rest_json: 15
+    px_web: 6
+    sdmx: 1
+    json_stat: 3
+    none: 16
+
+  priority_for_automation:
+    tier_1:  # Major economies with APIs
+      - DE  # Germany - GENESIS API
+      - FR  # France - INSEE API
+      - IT  # Italy - ISTAT SDMX
+      - ES  # Spain - INE API
+      - NL  # Netherlands - CBS OData
+      - SE  # Sweden - SCB API
+      - NO  # Norway - SSB API
+      - CH  # Switzerland - BFS API
+      - GB  # UK - ONS API
+
+    tier_2:  # Good APIs, smaller economies
+      - AT  # Austria
+      - DK  # Denmark
+      - FI  # Finland
+      - BE  # Belgium
+      - IE  # Ireland
+      - PL  # Poland
+      - PT  # Portugal
+
+    tier_3:  # Manual but important
+      - TR  # Turkey
+      - UA  # Ukraine
+      - RO  # Romania
+      - CZ  # Czech Republic
+      - HU  # Hungary
+
+# Key Indicators to Track
+standard_indicators:
+  r_and_d:
+    - gross_domestic_expenditure_rd  # GERD
+    - business_expenditure_rd        # BERD
+    - government_expenditure_rd      # GOVERD
+    - rd_personnel_fte
+    - rd_intensity_gdp_percentage
+
+  innovation:
+    - innovation_active_enterprises
+    - product_innovation_rate
+    - process_innovation_rate
+    - innovation_expenditure
+    - innovation_cooperation
+
+  digital_technology:
+    - ict_specialists_employment
+    - ict_sector_value_added
+    - enterprises_using_ai
+    - enterprises_using_big_data
+    - enterprises_using_cloud
+    - enterprises_using_iot
+    - digital_intensity_index
+
+  patents_ip:
+    - patent_applications_epo
+    - patent_grants
+    - high_tech_patent_applications
+    - trademark_applications
+
+  high_tech_trade:
+    - high_tech_exports
+    - high_tech_imports
+    - high_tech_services_exports
+    - knowledge_intensive_services

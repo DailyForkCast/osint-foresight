@@ -322,8 +322,8 @@ TOGGLES = {
 ---
 
 ## ANNEX C — JSON Field Reference (Quick)
-- **prob:** one of the probability bands (string).  
-- **confidence:** one of Low/Med/High.  
+- **prob:** one of the probability bands (string).
+- **confidence:** one of Low/Med/High.
 - **DataQuality:** integer 1–5.
 
 ---
@@ -334,7 +334,6 @@ TOGGLES = {
 ---
 
 ## FINAL PACKAGE (per run)
-- Phase outputs (JSON) concatenated.  
-- Evidence Table.  
+- Phase outputs (JSON) concatenated.
+- Evidence Table.
 - 1‑page executive summary (≤250 words) highlighting **top 3 risks**, **top 3 recommendations**, and **two biggest unknowns**.
-

@@ -91,7 +91,7 @@ def get_entity_list():
     url = "https://www.bis.doc.gov/index.php/documents/consolidated-entity-list/downloads"
     # Download and parse Excel file
     entity_list = pd.read_excel('entity_list.xlsx')
-    
+
     # Check if suppliers are restricted
     restricted = entity_list[entity_list['Country'] == 'China']
     return restricted
@@ -176,13 +176,13 @@ def get_sustainability_reports(company):
         f"https://{company}.com/investors/annual-reports",
         f"https://{company}.com/esg"
     ]
-    
+
     supply_chain_info = []
     for url in sources:
         # Parse PDFs for supplier lists
         # Look for: "key suppliers", "supply chain", "sourcing"
         pass
-    
+
     return supply_chain_info
 
 # CDP Supply Chain (some free data)
@@ -272,7 +272,7 @@ def analyze_patent_supply_chain(company):
         'applicant': company,
         'include': ['biblio', 'parties']
     }
-    
+
     # Look for:
     # - Joint patents with suppliers
     # - Licensed technology sources
@@ -304,7 +304,7 @@ def map_supplier_relationships():
     # "procurement manager" + company
     # "supply chain" + company
     # "vendor management" + company
-    
+
     # Reveals:
     # - Actual supplier relationships
     # - New partnerships forming
@@ -320,14 +320,14 @@ def analyze_supply_chain_jobs(company):
         'linkedin.com/jobs',
         'glassdoor.com'
     ]
-    
+
     keywords = [
         'supplier quality engineer',
         'vendor manager',
         'procurement specialist',
         'supply chain analyst'
     ]
-    
+
     # Job descriptions often mention:
     # - Specific suppliers
     # - Technologies used
@@ -345,7 +345,7 @@ def monitor_supply_chain_news():
         'https://news.google.com/rss/search?q=supply+agreement+battery',
         'https://news.google.com/rss/search?q=supplier+contract+slovakia'
     ]
-    
+
     for feed_url in feeds:
         feed = feedparser.parse(feed_url)
         for entry in feed.entries:
@@ -424,28 +424,28 @@ commodity_sources = {
 ```python
 def build_supply_chain_map(company):
     supply_chain = {}
-    
+
     # 1. Trade data - what's being imported
     trade_flows = get_un_comtrade_data(company_country)
-    
+
     # 2. Shipping - how it's moving
     port_calls = scrape_port_data()
-    
+
     # 3. Corporate - who's involved
     sustainability_reports = get_esg_reports(company)
-    
+
     # 4. Patents - technology dependencies
     patent_network = analyze_patent_relationships(company)
-    
+
     # 5. Personnel - LinkedIn connections
     employee_network = map_linkedin_relationships(company)
-    
+
     # 6. Financial - credit and risk
     credit_indicators = get_credit_assessments()
-    
+
     # 7. Satellite - physical verification
     facility_analysis = satellite_monitoring()
-    
+
     return integrate_all_sources(supply_chain)
 ```
 
@@ -502,20 +502,20 @@ name: Supply Chain Monitor
 on:
   schedule:
     - cron: '0 9 * * *'
-    
+
 jobs:
   monitor:
     runs-on: ubuntu-latest
     steps:
       - name: Check trade data
         run: python check_trade_updates.py
-      
-      - name: Scrape port calls  
+
+      - name: Scrape port calls
         run: python scrape_ports.py
-      
+
       - name: Monitor news
         run: python news_monitor.py
-      
+
       - name: Generate alert
         if: changes_detected
         run: python send_alert.py

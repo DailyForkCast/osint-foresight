@@ -8,7 +8,7 @@
 ```
 Espacenet/PATSTAT Query Examples:
 - Applicant country = SK AND Inventor country = CN
-- Applicant country = CN AND Inventor country = SK  
+- Applicant country = CN AND Inventor country = SK
 - Co-applicants: Slovak + Chinese entities
 ```
 **Why It Matters**: Direct evidence of technology transfer
@@ -56,7 +56,7 @@ Espacenet/PATSTAT Query Examples:
 - Patents NOT filed in EU/US but filed in China
 - Timing of Chinese filings vs. others
 
-**Why This Matters**: 
+**Why This Matters**:
 - Filing only in China = probable tech transfer
 - China-first filing = priority market or partner pressure
 

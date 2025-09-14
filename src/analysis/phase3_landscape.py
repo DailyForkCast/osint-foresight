@@ -19,7 +19,7 @@ from src.utils.reporting import ensure_template  # belt-and-suspenders
 def _read_csv(path: Path, **kw) -> pd.DataFrame:
     if not path.exists():
         return pd.DataFrame()
-    
+
     # Check file extension for TSV hint
     if path.suffix.lower() == '.tsv':
         try:
@@ -27,7 +27,7 @@ def _read_csv(path: Path, **kw) -> pd.DataFrame:
         except Exception as e:
             print(f"WARN: failed to read TSV {path}: {e}")
             return pd.DataFrame()
-    
+
     # Try CSV first
     try:
         return pd.read_csv(path, **kw)
@@ -159,7 +159,7 @@ def main(argv: List[str] | None = None) -> int:
                 if len(g2) > 1:
                     names.append(g2.iloc[1]["partner_display"])
                 top_rows.append((sector, ", ".join(names[:2]), share))
-        top_df = pd.DataFrame(top_rows, columns=["sector", "tops", "share"]) if top_rows else pd.DataFrame(columns=["sector", "tops", "share"]) 
+        top_df = pd.DataFrame(top_rows, columns=["sector", "tops", "share"]) if top_rows else pd.DataFrame(columns=["sector", "tops", "share"])
 
         df = (
             counts.to_frame()
@@ -215,7 +215,7 @@ def main(argv: List[str] | None = None) -> int:
                     table_cols.append("org_name")
             if "sector_hint" in std.columns and len(table_cols) < 4:
                 table_cols.append("sector_hint")
-            
+
             if len(table_cols) >= 3:
                 s10 = std[table_cols].head(10).fillna("–")
                 std_rows = s10.values.tolist()

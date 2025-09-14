@@ -6,9 +6,9 @@ Render the **Phase 2 Technology Landscape** for Austria, wiring data that alread
 ## 0) Paths & Inputs
 - Country: `AT`
 - Report to write: `reports/country=AT/phase-2_landscape.md` (from the companion canvas)
-- Inputs used if present:  
-  `data/processed/country=AT/relationships.csv`,  
-  `data/processed/country=AT/signals.csv`,  
+- Inputs used if present:
+  `data/processed/country=AT/relationships.csv`,
+  `data/processed/country=AT/signals.csv`,
   `data/processed/country=AT/standards_roles.tsv`
 
 ## 1) Save the report
@@ -76,4 +76,3 @@ feat(AT): phase‑2 landscape report + refreshed signals/roles; sector maturity 
 - [ ] Derived TSVs present under `outputs/country=AT/phase-2/`
 - [ ] Evidence register updated for any saved PDFs
 - [ ] Health check passes; report renders with tables populated (or clear no‑data notes)
-

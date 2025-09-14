@@ -106,4 +106,3 @@ After computing and writing the file, print exactly:
 ```
 WRITE reports/country=AT/phase-2_landscape.md
 ```
-

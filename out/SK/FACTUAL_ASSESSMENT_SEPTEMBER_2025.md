@@ -274,7 +274,7 @@
 
 ## 8. CONCLUSION WITHOUT ALARMISM
 
-Slovakia faces technology governance challenges common to many EU member states. The Gotion-InoBat investment represents both opportunity (jobs, technology, development) and risk (dependencies, dual-use, sovereignty). 
+Slovakia faces technology governance challenges common to many EU member states. The Gotion-InoBat investment represents both opportunity (jobs, technology, development) and risk (dependencies, dual-use, sovereignty).
 
 Current evidence suggests:
 - Risk levels: Elevated but not exceptional (compared to regional peers)

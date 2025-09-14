@@ -14,22 +14,22 @@ Produce the **Foresight & Early Warning (2y/5y/10y)** snapshot for Austria, incl
 ## 2) Scaffold TSVs (idempotent)
 Create these files with headers. If empty, insert one `notes=no_data_yet=true` row.
 
-- `data/processed/country=AT/p8_baseline.tsv`  
+- `data/processed/country=AT/p8_baseline.tsv`
   Columns: `cluster_id,cluster_name,2027_outlook_0_3,2030_outlook_0_3,2035_outlook_0_3,drivers,drags,confidence_LMH,notes`
 
-- `data/processed/country=AT/p8_scenarios.tsv`  
+- `data/processed/country=AT/p8_scenarios.tsv`
   Columns: `scenario_id,horizon,scenario_family,title,short_path,implications,confidence_LMH,notes`
 
-- `data/processed/country=AT/p8_wildcards.tsv`  
+- `data/processed/country=AT/p8_wildcards.tsv`
   Columns: `wildcard_id,horizon,title,trigger,first_order_effect,second_order_effect,notes`
 
-- `data/processed/country=AT/p8_ewi.tsv`  
+- `data/processed/country=AT/p8_ewi.tsv`
   Columns: `indicator_id,indicator,threshold,favours_scenario,collection_plan,source_hint,notes`
 
-- `data/processed/country=AT/p8_targeting.tsv`  
+- `data/processed/country=AT/p8_targeting.tsv`
   Columns: `cluster_id,mechanism,2y_attraction_0_3,5y_attraction_0_3,10y_attraction_0_3,rationale,notes`
 
-- `data/processed/country=AT/p8_interventions.tsv` (optional)  
+- `data/processed/country=AT/p8_interventions.tsv` (optional)
   Columns: `intervention_id,class,what,why_linked_to_evidence,effort_1to3,owner_hint,notes`
 
 ## 3) Populate from prior phases
@@ -37,7 +37,7 @@ Create these files with headers. If empty, insert one `notes=no_data_yet=true` r
 - Map **EWIs** to concrete collection plans (e.g., Datatracker diffs, accreditation scrape cadence, CORDIS export deltas, LEI/OC merges).
 
 ## 4) Evidence Register discipline
-Append any policy/portal/scope documents to `data/evidence_register.tsv` with:  
+Append any policy/portal/scope documents to `data/evidence_register.tsv` with:
 `id,country,type,title,issuer_or_site,url,retrieved_at,sha256,anchor_hash,notes`.
 
 ## 5) Health & reports
@@ -74,4 +74,3 @@ make reports-init COUNTRY=AT
 ### Notes
 - Treat **targeting** scores as **signals‑only** and integrate with Phase 7C narratives.
 - EWIs should be **few and measurable**; aim for 3–7 indicators you can realistically track quarterly.
-

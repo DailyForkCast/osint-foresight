@@ -125,4 +125,3 @@ If contradictions or gaps hinge on **sanctioned entities**, record **EU/UK/CA/AU
 
 ## Next Data Boost (1 step)
 Complete **10–20 accreditation scopes** (EMC/GNSS) with **scope_text_hash** and update Phase 3/6; parallel **CORDIS (AT)** export to enrich Phase 4/5 edge density.
-

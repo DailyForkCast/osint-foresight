@@ -144,4 +144,3 @@ UPDATED  src/analysis/phase8_foresight.py (ensure_template wired)
 ```
 
 Please perform the edits now and show the step‑by‑step log.
-

@@ -15,11 +15,11 @@ def demo_ted_search():
     print("Note: TED API requires proper authentication/format")
     print("Manual access: https://ted.europa.eu/en/")
     print("Search for: country:AT AND cpv:72* (IT services)")
-    
+
 def demo_national_procurement():
     """Demo: National procurement portals"""
     print("\n=== National Procurement Portals ===")
-    
+
     portals = {
         'Austria': {
             'BBG': 'https://www.bbg.gv.at/',
@@ -36,29 +36,29 @@ def demo_national_procurement():
             'BASE': 'https://www.base.gov.pt/'
         }
     }
-    
+
     for country, sites in portals.items():
         print(f"\n{country}:")
         for name, url in sites.items():
             print(f"  - {name}: {url}")
-    
+
     print("\nMost portals offer CSV export after manual search")
 
 def demo_worldbank_data():
     """Demo: Get economic indicators from World Bank"""
     print("\n=== World Bank Data API Demo ===")
-    
+
     # GDP for Austria
     indicator = "NY.GDP.MKTP.CD"  # GDP in current USD
     country = "AT"
-    
+
     url = f"https://api.worldbank.org/v2/country/{country}/indicator/{indicator}"
     params = {
         'format': 'json',
         'per_page': 5,
         'date': '2019:2023'
     }
-    
+
     try:
         response = requests.get(url, params=params)
         if response.ok:
@@ -80,16 +80,16 @@ def demo_worldbank_data():
 def demo_openalex_search():
     """Demo: Search OpenAlex for AI research from Austria"""
     print("\n=== OpenAlex API Demo ===")
-    
+
     # Search for AI papers from Austrian institutions
     params = {
         'filter': 'institutions.country_code:AT,concepts.id:C154945302',  # Austria + AI
         'per_page': 5,
         'sort': 'cited_by_count:desc'
     }
-    
+
     url = "https://api.openalex.org/works"
-    
+
     try:
         response = requests.get(url, params=params)
         if response.ok:
@@ -110,16 +110,16 @@ def demo_openalex_search():
 def demo_crossref_events():
     """Demo: Get Crossref Event Data"""
     print("\n=== Crossref Event Data Demo ===")
-    
+
     # Get recent events for a DOI
     doi = "10.1038/nature12373"  # Example high-impact paper
-    
+
     url = f"https://api.eventdata.crossref.org/v1/events"
     params = {
         'obj-id': doi,
         'rows': 5
     }
-    
+
     try:
         response = requests.get(url, params=params)
         if response.ok:
@@ -145,11 +145,11 @@ def demo_epo_patents():
     print("EPO OPS API requires registration for API key")
     print("Manual search: https://worldwide.espacenet.com/")
     print("Search example: applicant='Austrian' AND IPC='G06N' (AI patents)")
-    
+
 def demo_data_summary():
     """Summary of available data sources"""
     print("\n=== DATA SOURCES SUMMARY ===")
-    
+
     sources = {
         'Fully Automated (API)': [
             'OpenAlex - Research publications',
@@ -175,7 +175,7 @@ def demo_data_summary():
             'Google Patents - via BigQuery'
         ]
     }
-    
+
     for category, items in sources.items():
         print(f"\n{category}:")
         for item in items:
@@ -186,7 +186,7 @@ def main():
     print("=" * 60)
     print("OSINT FORESIGHT - Data Collection Demo")
     print("=" * 60)
-    
+
     # Run demos
     demo_worldbank_data()
     demo_openalex_search()
@@ -195,7 +195,7 @@ def main():
     demo_national_procurement()
     demo_epo_patents()
     demo_data_summary()
-    
+
     print("\n" + "=" * 60)
     print("Demo complete!")
     print("Next steps:")

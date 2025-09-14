@@ -5,7 +5,7 @@
 ### 1. Directory Structure Created
 - ✅ `scripts/` - Standalone scripts organized by function
   - `backup/` - Backup management tools
-  - `setup/` - Setup and configuration scripts  
+  - `setup/` - Setup and configuration scripts
   - `analysis/` - Analysis scripts
   - `utils/` - Utility scripts
 - ✅ `tools/` - Development tools
@@ -112,7 +112,7 @@
 
 1. **Clarity** - Clear separation of concerns
 2. **Scalability** - Easy to add new countries/phases
-3. **Maintainability** - Logical structure for team collaboration  
+3. **Maintainability** - Logical structure for team collaboration
 4. **Version Control** - Better git history with organized files
 5. **Import Management** - Proper Python package structure
 6. **Clean Root** - Only essential files in root directory
@@ -137,7 +137,7 @@ Review and update paths in Makefile for the new structure:
 # Old path
 python analyze_cordis.py
 
-# New path  
+# New path
 python scripts/analysis/analyze_cordis.py
 ```
 

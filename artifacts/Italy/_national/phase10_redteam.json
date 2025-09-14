@@ -1,0 +1,199 @@
+{
+  "assumption_challenges": {
+    "strategic_assumptions": [
+      {
+        "assumption": "Italy will maintain NATO alignment despite economic pressures",
+        "challenge": "Rising populist parties question NATO spending amid cost-of-living crisis",
+        "evidence_against": ["5-Star Movement NATO skepticism", "Lega historical Russia ties"],
+        "probability_wrong": "20-30%",
+        "impact_if_wrong": "HIGH - Could trigger alliance crisis"
+      },
+      {
+        "assumption": "Golden Power screening effectively blocks Chinese acquisition attempts",
+        "challenge": "Complex corporate structures and third-country routing circumvent controls",
+        "evidence_against": ["Pirelli precedent", "Port of Trieste indirect stakes"],
+        "probability_wrong": "30-40%",
+        "impact_if_wrong": "MEDIUM - Critical infrastructure exposure"
+      },
+      {
+        "assumption": "Leonardo and Fincantieri remain under Italian control",
+        "challenge": "Financial pressures could force stake sales or partnerships",
+        "evidence_against": ["STX precedent in shipbuilding", "Financial constraints"],
+        "probability_wrong": "15-20%",
+        "impact_if_wrong": "CRITICAL - Loss of defense industrial sovereignty"
+      }
+    ],
+    "analytical_biases": [
+      {
+        "bias": "Overestimating political stability",
+        "description": "Assuming Meloni government maintains consensus through 2027",
+        "correction": "Account for coalition fragility and economic headwinds"
+      },
+      {
+        "bias": "Underestimating brain drain impact",
+        "description": "8% researcher emigration treated as manageable",
+        "correction": "Compound effect over 5 years = 40% talent loss"
+      },
+      {
+        "bias": "NATO-centric view",
+        "description": "Assuming transatlantic orientation is permanent",
+        "correction": "Consider multi-alignment scenarios"
+      }
+    ]
+  },
+  "adversarial_perspectives": {
+    "prc_view": {
+      "opportunities": [
+        "Post-BRI relationship reset through commercial channels",
+        "Exploit Italy-EU tensions on fiscal rules",
+        "Target SMEs in dual-use supply chains",
+        "Leverage academic partnerships for technology access"
+      ],
+      "vulnerabilities_to_exploit": [
+        "North-South economic divide",
+        "SME financial distress",
+        "University funding gaps",
+        "Port infrastructure needs"
+      ],
+      "timeline": "2025-2030 window before full decoupling"
+    },
+    "russian_view": {
+      "leverage_points": [
+        "Energy dependency legacy relationships",
+        "Political party historical ties",
+        "Mediterranean instability",
+        "Anti-sanctions business lobby"
+      ],
+      "influence_operations": [
+        "Amplify NATO spending criticism",
+        "Exploit migration fears",
+        "Question US commitment to Europe"
+      ]
+    },
+    "competitor_view": {
+      "france": "Italy as junior partner in European defense",
+      "germany": "Manufacturing competition, fiscal rule tensions",
+      "us": "Reliable but capability-limited ally"
+    }
+  },
+  "blind_spots": [
+    {
+      "area": "Subsea cable vulnerabilities",
+      "gap": "No comprehensive mapping of critical dependencies",
+      "risk": "Single point of failure for digital economy",
+      "mitigation": "Urgent infrastructure assessment needed"
+    },
+    {
+      "area": "Space supply chain",
+      "gap": "Limited visibility into component origins",
+      "risk": "Hidden dependencies on adversarial suppliers",
+      "mitigation": "Deep-dive supply chain mapping"
+    },
+    {
+      "area": "AI/ML talent pipeline",
+      "gap": "No systematic tracking of expertise",
+      "risk": "Falling behind in critical capability",
+      "mitigation": "National AI talent census"
+    }
+  ],
+  "stress_tests": [
+    {
+      "scenario": "Simultaneous Mediterranean crisis + Economic shock",
+      "impacts": {
+        "defense_spending": "Cut to 1.2% GDP",
+        "nato_commitments": "Force generation failures",
+        "innovation": "R&D spending collapse",
+        "stability": "Government collapse probability 60%"
+      },
+      "resilience_score": 4.2,
+      "breaking_point": "Debt crisis + Security crisis"
+    },
+    {
+      "scenario": "US pivot to Pacific + EU defense fragmentation",
+      "impacts": {
+        "security_guarantee": "Questioned",
+        "defense_industrial": "Consolidation pressure",
+        "technology_access": "Restricted",
+        "strategic_autonomy": "Forced but unprepared"
+      },
+      "resilience_score": 5.8,
+      "adaptation_time": "5-7 years"
+    },
+    {
+      "scenario": "Successful PRC technology infiltration",
+      "impacts": {
+        "ip_loss": "€2-3B annually",
+        "competitive_position": "Eroded",
+        "alliance_trust": "Damaged",
+        "countermeasures": "Expensive and disruptive"
+      },
+      "detection_probability": "40%",
+      "current_defenses": "Insufficient"
+    }
+  ],
+  "alternative_futures": [
+    {
+      "scenario": "Mediterranean Power",
+      "probability": "15-20%",
+      "drivers": ["Regional instability", "EU-Africa partnership", "Energy transition hub"],
+      "requirements": ["2% defense spending", "Naval modernization", "Diplomatic leadership"],
+      "indicators": ["Libya stabilization role", "Algeria energy deals", "Migration management"]
+    },
+    {
+      "scenario": "Tech Backwater",
+      "probability": "25-35%",
+      "drivers": ["Continued brain drain", "Investment gaps", "Regulatory lag"],
+      "warning_signs": ["Startup exodus", "University rankings decline", "Patent collapse"],
+      "tipping_point": "2027-2028"
+    },
+    {
+      "scenario": "Multi-aligned Pragmatist",
+      "probability": "20-30%",
+      "drivers": ["Economic necessity", "Political shifts", "Global fragmentation"],
+      "characteristics": ["Selective NATO participation", "China commercial ties", "EU skepticism"],
+      "triggers": ["Debt crisis", "Alliance abandonment fears"]
+    }
+  ],
+  "recommendation_critique": {
+    "feasibility_assessment": [
+      {
+        "recommendation": "Achieve 2% defense spending by 2030",
+        "feasibility": "LOW",
+        "barriers": ["Fiscal constraints", "Political opposition", "Competing priorities"],
+        "realistic_alternative": "1.7% with efficiency gains"
+      },
+      {
+        "recommendation": "Establish €500M/year sovereign tech fund",
+        "feasibility": "VERY LOW",
+        "barriers": ["Budget limitations", "EU state aid rules", "Implementation capacity"],
+        "realistic_alternative": "€200M with EU co-funding"
+      }
+    ],
+    "unintended_consequences": [
+      {
+        "action": "Aggressive Golden Power use",
+        "consequence": "FDI collapse, innovation ecosystem damage",
+        "probability": "40%"
+      },
+      {
+        "action": "Rapid defense spending increase",
+        "consequence": "Social spending cuts, political backlash",
+        "probability": "70%"
+      }
+    ]
+  },
+  "validation_metrics": {
+    "prediction_confidence": {
+      "high_confidence": ["Continued fiscal constraints", "NATO participation"],
+      "medium_confidence": ["Technology sovereignty efforts", "China decoupling pace"],
+      "low_confidence": ["Political stability", "Innovation breakthrough"]
+    },
+    "key_uncertainties": [
+      "EU fiscal rule evolution",
+      "US commitment to Europe post-2028",
+      "Mediterranean stability",
+      "Energy transition pace",
+      "Government durability"
+    ]
+  }
+}

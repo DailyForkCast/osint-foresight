@@ -46,7 +46,7 @@ Capture from the national registry by **standard** and **technical field**. Prim
 org_name	alt_name_local	cab_code	accreditation_standard	program	cert_no	status	valid_to	scope_link	scope_text_hash	technical_fields	site_address	website	last_check	evidence_id	notes
 ```
 
-- **Minimum:** name, standard, status, scope_link, last_check.  
+- **Minimum:** name, standard, status, scope_link, last_check.
 - **Good:** add **scope_text_hash** (SHA‑256 of scope PDF/text) and **technical_fields** keywords.
 
 ### B2) Roster (people/roles where known)

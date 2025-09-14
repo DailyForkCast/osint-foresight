@@ -7,7 +7,7 @@
 ---
 
 ## Steps
-1) **Open** the Phase X taxonomy/glossary file for the active country, e.g.:  
+1) **Open** the Phase X taxonomy/glossary file for the active country, e.g.:
    `reports/country=AT/phase-x_taxonomy.md`
 
 2) **Find** any references to a fixed list like “Seven Core Domains …”.
@@ -43,4 +43,3 @@ We do **not** hard‑code technology clusters. Instead, we select clusters and s
 5) **Commit:** `chore(PhaseX): make cluster selection flexible & evidence‑driven`
 
 **Optional:** If the taxonomy keywords file doesn’t exist yet, create `queries/keywords/taxonomy.csv` with `term,cluster_id,subdomain` and keep it editable.
-

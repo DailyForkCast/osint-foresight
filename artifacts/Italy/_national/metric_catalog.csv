@@ -1,0 +1,21 @@
+metric_id,metric_name,category,unit,source,frequency,last_updated,baseline_2020,current_2024,target_2030
+M001,Defense spending GDP ratio,Defense,%,NATO,Annual,2024-09,1.41,1.46,2.00
+M002,R&D intensity,Innovation,%,ISTAT,Annual,2024-06,1.53,1.45,2.00
+M003,Patent applications,Innovation,Count,EPO,Annual,2024-03,4821,5234,8000
+M004,STANAG compliance rate,NATO,%,MoD,Quarterly,2024-09,48,56,80
+M005,Cyber incidents,Security,Count,ACN,Monthly,2024-09,156,234,<100
+M006,PRC joint papers,Technology Transfer,Count,OpenAlex,Annual,2024-01,2876,3421,<2000
+M007,Chinese FDI screening,Investment,Count,MIMIT,Monthly,2024-09,12,23,<10
+M008,Golden Power blocks,Security,Count,PCM,Quarterly,2024-09,1,3,<2
+M009,NATO exercise participation,Alliance,%,Joint Staff,Quarterly,2024-09,82,87,95
+M010,Brain drain rate,Talent,%,AIRE,Annual,2024-01,6.5,8.0,<5.0
+M011,Tech unicorns,Innovation,Count,Dealroom,Quarterly,2024-09,0,0,3
+M012,DIANA participation,NATO,Count,DIANA,Annual,2024-06,0,1,3
+M013,Space launches,Space,Count,ASI,Annual,2024-09,2,3,6
+M014,Naval exports,Defense,EUR B,Fincantieri,Annual,2024-03,1.8,2.1,3.5
+M015,Quantum investment,Emerging Tech,EUR M,MIMIT,Annual,2024-06,20,150,500
+M016,AI readiness index,Emerging Tech,Score,Oxford,Annual,2024-01,68.2,71.5,80.0
+M017,Supply chain risk,Resilience,Score,Custom,Quarterly,2024-09,6.2,7.1,<5.0
+M018,Energy dependency,Security,%,Eurostat,Annual,2024-03,73,68,50
+M019,5G coverage,Infrastructure,%,AGCOM,Quarterly,2024-09,72,89,99
+M020,Digital skills,Talent,%,DESI,Annual,2024-06,42,46,60

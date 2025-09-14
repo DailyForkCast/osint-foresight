@@ -15,7 +15,7 @@
 
 ## Tasks for ChatGPT
 1) **Phase X (taxonomy/glossary)**
-   - Using the flexible rules, select **4–10 clusters** and **1–4 subdomains** each; write a short **selection rationale** per cluster.  
+   - Using the flexible rules, select **4–10 clusters** and **1–4 subdomains** each; write a short **selection rationale** per cluster.
    - Generate/refresh `domain_maturity.tsv` with `cluster_id,subdomain,selection_reason,signals_count,notes` and update the Phase X narrative accordingly.
 
 2) **Phase 2 (landscape)**
@@ -23,11 +23,10 @@
    - If evidence is thin, mark the domain as **latent** with `notes=low_evidence` and still provide a short paragraph.
 
 3) **Phase 8 (foresight)**
-   - Compute the **top‑K (≤3)** clusters by `capability_heat + max_risk` (or narrative heuristic if tables are missing).  
-   - Draft **Sector Playbooks** for each: rationale, leverage moves, controls & guardrails, allies & counterparties, success criteria (3 EWIs).  
+   - Compute the **top‑K (≤3)** clusters by `capability_heat + max_risk` (or narrative heuristic if tables are missing).
+   - Draft **Sector Playbooks** for each: rationale, leverage moves, controls & guardrails, allies & counterparties, success criteria (3 EWIs).
    - Keep the **Monday Morning** checklist intact.
 
 **Citations:** Use free/open sources for narrative lifts; cite inline and add to Evidence Register when new.
 
 **Output:** Edit the three report files in place—no extra files. Keep existing TSV snippets and headings.
-

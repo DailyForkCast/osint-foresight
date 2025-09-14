@@ -164,7 +164,7 @@ Risk Score = (Technology Tier × 10) + (Volume Factor) + (Pattern Bonus)
 
 Where:
 - Tier 1 = 40 points base
-- Tier 2 = 30 points base  
+- Tier 2 = 30 points base
 - Tier 3 = 20 points base
 - Tier 4 = 10 points base
 
@@ -258,7 +258,7 @@ For Tier 1-2 technologies:
 - BUT: EUV lithography (most advanced chips)
 - Result: CRITICAL - National security review
 
-### Case 2: Australia Universities  
+### Case 2: Australia Universities
 - 100s of papers/patents with China
 - Included: Hypersonic materials, quantum
 - Result: Government intervention, new laws

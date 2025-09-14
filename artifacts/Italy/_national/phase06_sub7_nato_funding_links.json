@@ -1,0 +1,69 @@
+{
+  "nato_funding_flows": {
+    "common_funding": {
+      "nsip_projects": 5,
+      "nsip_value_eur": 234000000,
+      "infrastructure_upgrades": ["Sigonella", "Aviano", "Naples HQ"],
+      "italy_contribution_percent": 8.79
+    },
+    "capability_development": {
+      "cdp_participation": 12,
+      "high_priority_areas": ["Air defense", "Strategic airlift", "Cyber"],
+      "italian_lead_projects": 2,
+      "total_commitment": 567000000
+    },
+    "research_programs": {
+      "sto_projects": 34,
+      "italian_participation_rate": 0.73,
+      "funding_received": 45000000,
+      "coe_hosting": ["Modelling & Simulation", "Security Force Assistance"]
+    },
+    "innovation_funding": {
+      "diana_accelerator": {
+        "location": "Turin",
+        "annual_budget": 15000000,
+        "portfolio_companies": 3,
+        "italian_startups": 1
+      },
+      "nif_investments": {
+        "fund_size": 1000000000,
+        "italian_allocation": "Under negotiation",
+        "target_sectors": ["Quantum", "AI", "Space", "Biotech"]
+      }
+    }
+  },
+  "multinational_programs": {
+    "awacs_modernization": {
+      "italian_share": 0.087,
+      "value": 89000000,
+      "industrial_return": "Leonardo avionics"
+    },
+    "ags_system": {
+      "italian_share": 0.15,
+      "value": 234000000,
+      "industrial_participation": "Leonardo, Thales Alenia"
+    },
+    "nhq_contributions": {
+      "personnel": 450,
+      "financial": 34000000,
+      "hosting": "JFC Naples"
+    }
+  },
+  "funding_gaps": [
+    {
+      "capability": "Strategic airlift",
+      "shortfall": 450000000,
+      "mitigation": "SALIS participation"
+    },
+    {
+      "capability": "Missile defense",
+      "shortfall": 670000000,
+      "mitigation": "Phased acquisition"
+    },
+    {
+      "capability": "Cyber defense",
+      "shortfall": 120000000,
+      "mitigation": "EU co-funding sought"
+    }
+  ]
+}

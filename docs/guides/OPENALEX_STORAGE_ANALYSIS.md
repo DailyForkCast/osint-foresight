@@ -1,7 +1,7 @@
 # OpenAlex Data Storage Analysis
 
 ## OpenAlex Dataset Size
-- **Total Size Required**: ~300GB 
+- **Total Size Required**: ~300GB
 - **Format**: Compressed .gz files for each entity type (works, authors, institutions, sources, concepts)
 - **Download Method**: AWS CLI (no AWS account needed)
 
@@ -100,12 +100,12 @@ from pathlib import Path
 
 def filter_openalex_works(input_file, output_file, countries=['AT', 'PT', 'IE', 'SK']):
     """Extract works from specific countries"""
-    
+
     with gzip.open(input_file, 'rt') as infile:
         with gzip.open(output_file, 'wt') as outfile:
             for line in infile:
                 work = json.loads(line)
-                
+
                 # Check if any author is from target countries
                 for authorship in work.get('authorships', []):
                     institutions = authorship.get('institutions', [])

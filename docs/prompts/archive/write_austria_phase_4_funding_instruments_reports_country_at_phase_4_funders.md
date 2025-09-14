@@ -137,4 +137,3 @@ If any consortium partner or funding intermediary appears on EU/UK/CA/AU/NZ/UN l
 
 ## Next Data Boost (1 step)
 Run a **CORDIS pull** for 2015–2025 (AT participants; Cluster 4/5 topics + Phase‑X keywords) and generate `programs.csv` + `grant_partners.tsv`; then refresh the report and update the **Funding Signals** table.
-

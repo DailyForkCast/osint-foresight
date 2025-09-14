@@ -39,7 +39,7 @@ def setup_bigquery_client():
             # Option 3: Anonymous access for public datasets
             client = bigquery.Client.create_anonymous_client()
             print("Using anonymous access for public datasets")
-    
+
     return client
 
 def run_query(client, query, job_config=None):
@@ -54,7 +54,7 @@ def run_query(client, query, job_config=None):
 
 def analyze_slovak_chinese_coinventions(client):
     """Find patents with both Slovak and Chinese inventors"""
-    
+
     query = """
     WITH slovak_patents AS (
         SELECT DISTINCT
@@ -76,7 +76,7 @@ def analyze_slovak_chinese_coinventions(client):
         WHERE inventor.country_code = 'CN'
         GROUP BY publication_number
     )
-    SELECT 
+    SELECT
         sp.publication_number,
         sp.title,
         sp.application_date,
@@ -86,10 +86,10 @@ def analyze_slovak_chinese_coinventions(client):
     JOIN chinese_inventors ci ON sp.publication_number = ci.publication_number
     LIMIT 100
     """
-    
+
     print("\nAnalyzing Slovak-Chinese co-inventions...")
     results = run_query(client, query)
-    
+
     coinventions = []
     for row in results:
         coinventions.append({
@@ -98,24 +98,24 @@ def analyze_slovak_chinese_coinventions(client):
             'application_date': str(row.application_date),
             'chinese_inventors': row.chinese_inventors
         })
-    
+
     if coinventions:
         print(f"Found {len(coinventions)} Slovak-Chinese co-invented patents")
-        
+
         # Save to CSV
         with open('out/SK/slovak_chinese_coinventions.csv', 'w', newline='', encoding='utf-8') as f:
             writer = csv.DictWriter(f, fieldnames=coinventions[0].keys())
             writer.writeheader()
             writer.writerows(coinventions)
-    
+
     return coinventions
 
 def analyze_technology_domains(client):
     """Analyze Slovak patents by technology domain"""
-    
+
     query = """
-    SELECT 
-        CASE 
+    SELECT
+        CASE
             WHEN cpc.code LIKE 'G06N10/%' THEN 'Quantum Computing'
             WHEN cpc.code LIKE 'G06N3/%' OR cpc.code LIKE 'G06N20/%' THEN 'AI/ML'
             WHEN cpc.code LIKE 'C12N%' THEN 'Biotechnology'
@@ -135,10 +135,10 @@ def analyze_technology_domains(client):
     GROUP BY technology_domain
     ORDER BY patent_count DESC
     """
-    
+
     print("\nAnalyzing technology domains...")
     results = run_query(client, query)
-    
+
     domains = []
     for row in results:
         domains.append({
@@ -147,12 +147,12 @@ def analyze_technology_domains(client):
             'sample_assignees': row.sample_assignees
         })
         print(f"  {row.technology_domain}: {row.patent_count} patents")
-    
+
     return domains
 
 def analyze_chinese_citations(client):
     """Find Chinese patents citing Slovak research"""
-    
+
     query = """
     WITH slovak_patents AS (
         SELECT DISTINCT publication_number, family_id
@@ -160,7 +160,7 @@ def analyze_chinese_citations(client):
             UNNEST(inventor_localized) as inventor
         WHERE inventor.country_code = 'SK'
     )
-    SELECT 
+    SELECT
         COUNT(DISTINCT citing.publication_number) as chinese_citations,
         COUNT(DISTINCT cited.publication_number) as slovak_patents_cited
     FROM slovak_patents cited
@@ -169,25 +169,25 @@ def analyze_chinese_citations(client):
     WHERE citing.country_code = 'CN'
         AND CAST(citing.application_date AS STRING) >= '20180101'
     """
-    
+
     print("\nAnalyzing Chinese citations of Slovak patents...")
     results = run_query(client, query)
-    
+
     for row in results:
         print(f"  Chinese patents citing Slovak work: {row.chinese_citations}")
         print(f"  Slovak patents cited: {row.slovak_patents_cited}")
-    
+
     return results
 
 def analyze_slovak_universities(client):
     """Analyze patents from Slovak universities"""
-    
+
     query = """
-    SELECT 
+    SELECT
         assignee_harmonized.name as university,
         COUNT(DISTINCT publication_number) as patent_count,
-        STRING_AGG(DISTINCT 
-            CASE 
+        STRING_AGG(DISTINCT
+            CASE
                 WHEN inv.country_code = 'CN' THEN 'China'
                 WHEN inv.country_code = 'US' THEN 'USA'
                 WHEN inv.country_code = 'DE' THEN 'Germany'
@@ -207,10 +207,10 @@ def analyze_slovak_universities(client):
     ORDER BY patent_count DESC
     LIMIT 20
     """
-    
+
     print("\nAnalyzing Slovak university patents...")
     results = run_query(client, query)
-    
+
     universities = []
     for row in results:
         universities.append({
@@ -221,12 +221,12 @@ def analyze_slovak_universities(client):
         print(f"  {row.university}: {row.patent_count} patents")
         if 'China' in row.collaborating_countries:
             print(f"    WARNING: Collaborates with {row.collaborating_countries}")
-    
+
     return universities
 
 def generate_risk_report(coinventions, domains, universities):
     """Generate comprehensive risk assessment report"""
-    
+
     report = f"""
 # BigQuery Patent Analysis: Slovakia-China Technology Transfer Risk
 **Generated: {datetime.now().strftime('%Y-%m-%d')}**
@@ -244,21 +244,21 @@ Patent analysis reveals significant technology transfer risks through co-invento
 
 ### Technology Domain Distribution
 """
-    
+
     for domain in domains[:5]:
         report += f"- {domain['technology_domain']}: {domain['patent_count']} patents\n"
-    
+
     report += f"""
 ### University Patent Activity
 """
-    
+
     china_collaborators = [u for u in universities if 'China' in u.get('collaborating_countries', '')]
-    
+
     for uni in universities[:5]:
         report += f"- {uni['university']}: {uni['patent_count']} patents\n"
         if 'China' in uni.get('collaborating_countries', ''):
             report += f"  **WARNING: Collaborates with China**\n"
-    
+
     report += f"""
 ## Risk Assessment
 
@@ -300,12 +300,12 @@ Patent analysis reveals significant technology transfer risks through co-invento
 *Analysis based on Google Patents Public Dataset (patents-public-data)*
 *Query period: 2018-2025*
 """
-    
+
     with open('out/SK/bigquery_patent_risk_report.md', 'w', encoding='utf-8') as f:
         f.write(report)
-    
+
     print("\nRisk report generated: out/SK/bigquery_patent_risk_report.md")
-    
+
     return report
 
 def main():
@@ -313,23 +313,23 @@ def main():
     print("=" * 60)
     print("BigQuery Patent Analysis for Slovakia")
     print("=" * 60)
-    
+
     # Set up client
     client = setup_bigquery_client()
-    
+
     # Create output directory
     os.makedirs('out/SK', exist_ok=True)
-    
+
     try:
         # Run analyses
         coinventions = analyze_slovak_chinese_coinventions(client)
         domains = analyze_technology_domains(client)
         universities = analyze_slovak_universities(client)
         citations = analyze_chinese_citations(client)
-        
+
         # Generate report
         report = generate_risk_report(coinventions, domains, universities)
-        
+
         print("\n" + "=" * 60)
         print("ANALYSIS COMPLETE")
         print("=" * 60)
@@ -337,7 +337,7 @@ def main():
         print(f"Universities analyzed: {len(universities)}")
         print(f"Technology domains: {len(domains)}")
         print("\nRisk Level: HIGH" if len(coinventions) > 20 else "MEDIUM" if len(coinventions) > 5 else "MONITORING REQUIRED")
-        
+
     except Exception as e:
         print(f"Error during analysis: {e}")
         print("\nTo use this script, you need to:")

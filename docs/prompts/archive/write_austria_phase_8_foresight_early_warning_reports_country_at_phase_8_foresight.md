@@ -5,8 +5,8 @@ date: 2025-09-07
 ---
 
 ## Scope & Inputs
-- **Country / ISO2:** Austria (AT) · **Horizons:** 2y / 5y / 10y · **Years considered:** 2015–2025 evidence base  
-- **Inputs (if present):** `capability_heat.tsv`, `risk_register.tsv`, `p7c_mo_map.tsv`, `p7c_early_indicators.tsv`, `international_links.tsv`, `programs.csv`, `AccreditedLabs.tsv`, `institutions.csv`, `domain_maturity.tsv`, `funders.tsv`, `instruments.tsv`, `sanctions_hits.csv` (signals‑only; **exclude US persons**).  
+- **Country / ISO2:** Austria (AT) · **Horizons:** 2y / 5y / 10y · **Years considered:** 2015–2025 evidence base
+- **Inputs (if present):** `capability_heat.tsv`, `risk_register.tsv`, `p7c_mo_map.tsv`, `p7c_early_indicators.tsv`, `international_links.tsv`, `programs.csv`, `AccreditedLabs.tsv`, `institutions.csv`, `domain_maturity.tsv`, `funders.tsv`, `instruments.tsv`, `sanctions_hits.csv` (signals‑only; **exclude US persons**).
 - **Method:** Label‑independent dual‑use reasoning (function‑over‑label), cone‑of‑plausibility, explicit uncertainty; evidence‑weighted signals (recency × multiplicity × source quality).
 
 ---
@@ -110,4 +110,3 @@ I4	Data hygiene	LEI/OC quarterly merge → CER-lite	Detects BO/control vectors	1
 
 ## Next Data Boost (1 step)
 Implement **five EWIs** as lightweight checks (Datatracker diff, EuroHPC allocation note, accreditation scrape, CORDIS delta, LEI/OC merge) and record results in `p8_ewi.tsv` on a **quarterly** cadence.
-

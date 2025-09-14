@@ -1,0 +1,84 @@
+{
+  "scenarios": [
+    {
+      "name": "Baseline - Gradual Modernization",
+      "probability": "40-60%",
+      "narrative": "Italy maintains current trajectory with slow defense spending increases reaching 1.6% by 2028. PNRR funds drive some innovation but structural reforms lag. NATO commitments partially met through specialization in naval and space capabilities. Economic constraints limit full modernization. Technology sovereignty remains mixed with continued dependencies.",
+      "drivers": ["Fiscal constraints", "Political stability", "EU integration"],
+      "indicators": [
+        {"metric": "Defense spending", "2025": 1.48, "2028": 1.60, "2033": 1.70},
+        {"metric": "R&D intensity", "2025": 1.50, "2028": 1.65, "2033": 1.80}
+      ],
+      "implications": "Italy remains junior partner in major programs, struggles with readiness"
+    },
+    {
+      "name": "Accelerated - Strategic Awakening",
+      "probability": "20-30%",
+      "narrative": "Regional instability and alliance pressure drive political consensus for increased defense spending reaching 2% by 2030. PNRR successfully catalyzes innovation ecosystem. Italy emerges as Mediterranean framework nation leader. Strategic industries consolidate and modernize. Technology partnerships with US/UK/Japan deepen.",
+      "drivers": ["Mediterranean crisis", "Strong political leadership", "Economic recovery"],
+      "indicators": [
+        {"metric": "Defense spending", "2025": 1.55, "2028": 1.80, "2033": 2.00},
+        {"metric": "Innovation ranking", "2025": 25, "2028": 20, "2033": 15}
+      ],
+      "trigger_events": ["Major Mediterranean security crisis", "New Marshall Plan for defense"]
+    },
+    {
+      "name": "Disrupted - Economic Crisis",
+      "probability": "20-30%",
+      "narrative": "Debt crisis forces austerity measures cutting defense and R&D spending. NATO commitments deferred. Brain drain accelerates. Strategic industries struggle. Technology dependencies increase on both China and US. Italy becomes security consumer rather than provider. Innovation ecosystem atrophies.",
+      "drivers": ["Debt crisis", "Political instability", "EU fiscal pressure"],
+      "indicators": [
+        {"metric": "Defense spending", "2025": 1.40, "2028": 1.35, "2033": 1.30},
+        {"metric": "Talent retention", "2025": -0.10, "2028": -0.15, "2033": -0.20}
+      ],
+      "trigger_events": ["Sovereign debt crisis", "Government collapse", "EU sanctions"]
+    },
+    {
+      "name": "Wildcard - Tech Breakthrough",
+      "probability": "5-10%",
+      "narrative": "Italian research achieves breakthrough in quantum computing or fusion energy. Massive investment follows. Italy becomes European tech hub. Defense applications revolutionize capabilities. Strategic autonomy achieved in critical domains. Innovation ecosystem thrives attracting global talent.",
+      "drivers": ["Scientific breakthrough", "Massive investment", "Policy coordination"],
+      "indicators": [
+        {"metric": "Patent applications", "2025": 6000, "2028": 10000, "2033": 15000},
+        {"metric": "VC investment", "2025": 5000000000, "2028": 10000000000, "2033": 20000000000}
+      ],
+      "trigger_events": ["Major scientific breakthrough", "Successful PNRR implementation"]
+    }
+  ],
+  "early_warning_system": {
+    "key_metrics": [
+      {
+        "metric": "Defense budget approval",
+        "threshold": "<28B EUR",
+        "frequency": "Annual",
+        "owner": "MoD",
+        "current": "29.8B EUR",
+        "status": "Green"
+      },
+      {
+        "metric": "NATO exercise participation",
+        "threshold": "<75%",
+        "frequency": "Quarterly",
+        "owner": "Joint Staff",
+        "current": "87%",
+        "status": "Green"
+      },
+      {
+        "metric": "Technology investment screening",
+        "threshold": "<20 reviews/year",
+        "frequency": "Monthly",
+        "owner": "MIMIT",
+        "current": "23",
+        "status": "Yellow"
+      },
+      {
+        "metric": "Cyber incidents",
+        "threshold": ">300/year",
+        "frequency": "Monthly",
+        "owner": "ACN",
+        "current": "234",
+        "status": "Yellow"
+      }
+    ]
+  }
+}

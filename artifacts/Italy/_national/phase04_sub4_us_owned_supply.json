@@ -1,0 +1,123 @@
+{
+  "us_owned_facilities": [
+    {
+      "company": "Lockheed Martin",
+      "facility": "Cameri FACO",
+      "location": "Cameri, Novara",
+      "function": "F-35 Final Assembly",
+      "employees": 1200,
+      "critical_role": "Only F-35 assembly outside US",
+      "technology_transfer": "Restricted",
+      "italian_workshare": 0.35
+    },
+    {
+      "company": "Boeing",
+      "facility": "Boeing Italia",
+      "location": "Rome",
+      "function": "Engineering services, KC-767 support",
+      "employees": 150,
+      "critical_role": "Tanker support",
+      "technology_transfer": "Limited",
+      "italian_workshare": 0.20
+    },
+    {
+      "company": "General Dynamics",
+      "facility": "GD European Land Systems",
+      "location": "La Spezia",
+      "function": "Naval systems integration",
+      "employees": 85,
+      "critical_role": "Combat systems",
+      "technology_transfer": "ITAR controlled",
+      "italian_workshare": 0.45
+    },
+    {
+      "company": "Raytheon",
+      "facility": "Raytheon Italia",
+      "location": "Rome",
+      "function": "Missile systems support",
+      "employees": 120,
+      "critical_role": "Patriot, SM-3 support",
+      "technology_transfer": "Restricted",
+      "italian_workshare": 0.25
+    },
+    {
+      "company": "Northrop Grumman",
+      "facility": "NG Italia",
+      "location": "Rome",
+      "function": "ISR systems, Global Hawk support",
+      "employees": 75,
+      "critical_role": "NATO AGS support",
+      "technology_transfer": "Limited",
+      "italian_workshare": 0.30
+    }
+  ],
+  "critical_dependencies": [
+    {
+      "system": "F-35 Lightning II",
+      "dependency_type": "Platform",
+      "us_control_level": "HIGH",
+      "alternatives": "None",
+      "italian_sovereignty": "Limited",
+      "itar_restricted": true
+    },
+    {
+      "system": "Aegis Combat System",
+      "dependency_type": "Software",
+      "us_control_level": "COMPLETE",
+      "alternatives": "European CMS (partial)",
+      "italian_sovereignty": "None",
+      "itar_restricted": true
+    },
+    {
+      "system": "GPS/Military signals",
+      "dependency_type": "Service",
+      "us_control_level": "COMPLETE",
+      "alternatives": "Galileo (developing)",
+      "italian_sovereignty": "Partial via Galileo",
+      "itar_restricted": false
+    },
+    {
+      "system": "Apache helicopters",
+      "dependency_type": "Platform",
+      "us_control_level": "HIGH",
+      "alternatives": "Tiger (European)",
+      "italian_sovereignty": "Limited",
+      "itar_restricted": true
+    },
+    {
+      "system": "Intelligence sharing",
+      "dependency_type": "Information",
+      "us_control_level": "HIGH",
+      "alternatives": "Limited EU capabilities",
+      "italian_sovereignty": "Dependent",
+      "classified": true
+    }
+  ],
+  "technology_controls": {
+    "itar_licenses_2023": 234,
+    "ecc_licenses_2023": 567,
+    "denied_transfers": 12,
+    "pending_reviews": 45,
+    "average_processing_days": 120
+  },
+  "supply_vulnerabilities": [
+    {
+      "vulnerability": "F-35 spare parts",
+      "impact": "Fleet readiness",
+      "probability": "Medium",
+      "mitigation": "Local stockpiling"
+    },
+    {
+      "vulnerability": "Software updates",
+      "impact": "Capability degradation",
+      "probability": "Low",
+      "mitigation": "None available"
+    },
+    {
+      "vulnerability": "Munitions supply",
+      "impact": "Combat effectiveness",
+      "probability": "Medium",
+      "mitigation": "European alternatives"
+    }
+  ]
+}

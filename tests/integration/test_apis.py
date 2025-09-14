@@ -16,8 +16,8 @@ def test_apis():
             print(f'Success! Got {len(data[1])} records')
             if data[1]:
                 print(f'Sample: {data[1][0]["date"]}: ${data[1][0]["value"]:,.0f}')
-    
-    # Test Eurostat API  
+
+    # Test Eurostat API
     print('\nTesting Eurostat API...')
     url = 'https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_gdp'
     params = {'format': 'JSON', 'lang': 'en', 'filters': 'geo=AT&time=2020+2021+2022'}
@@ -25,7 +25,7 @@ def test_apis():
     print(f'Status: {r.status_code}')
     if r.ok:
         print('Success! Eurostat API working')
-    
+
     # Test OECD API
     print('\nTesting OECD API...')
     url = 'https://stats.oecd.org/SDMX-JSON/data/QNA/AUT.GDP.CUR.Q/all'
@@ -34,7 +34,7 @@ def test_apis():
     print(f'Status: {r.status_code}')
     if r.ok:
         print('Success! OECD API working')
-    
+
     # Test CrossRef
     print('\nTesting CrossRef API...')
     url = 'https://api.crossref.org/works'
@@ -45,7 +45,7 @@ def test_apis():
     if r.ok:
         data = r.json()
         print(f'Success! Found {data["message"]["total-results"]} results')
-    
+
     # Test CrossRef Event Data
     print('\nTesting CrossRef Event Data API...')
     url = 'https://api.eventdata.crossref.org/v1/events'
@@ -56,7 +56,7 @@ def test_apis():
         data = r.json()
         total = data.get('message', {}).get('total-results', 0)
         print(f'Success! Total events available: {total:,}')
-    
+
     print('\n=== All APIs tested! ===')
     print('✓ World Bank API - Working')
     print('✓ Eurostat API - Working')

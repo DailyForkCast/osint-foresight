@@ -13,7 +13,7 @@
 
 ### Query 1: Slovak Inventors in Chinese Patents
 ```sql
-SELECT 
+SELECT
   publication_number,
   application_date,
   title.text as patent_title,
@@ -45,7 +45,7 @@ WITH slovak_chinese_patents AS (
   WHERE inv.country_code = 'SK'
     AND PARSE_DATE('%Y%m%d', CAST(application_date AS STRING)) >= '2018-01-01'
 )
-SELECT 
+SELECT
   scp.publication_number,
   scp.application_date,
   scp.patent_title,
@@ -53,7 +53,7 @@ SELECT
   STRING_AGG(DISTINCT inv.country_code, '; ') as inventor_countries,
   STRING_AGG(DISTINCT assignee.name, '; ') as assignees
 FROM slovak_chinese_patents scp
-JOIN `patents-public-data.patents.publications` p 
+JOIN `patents-public-data.patents.publications` p
   ON scp.publication_number = p.publication_number,
   UNNEST(p.inventor_localized) as inv,
   UNNEST(p.assignee_harmonized) as assignee
@@ -65,7 +65,7 @@ HAVING inventor_countries LIKE '%CN%' AND inventor_countries LIKE '%SK%'
 ### Query 3: Technology Transfer Indicators
 ```sql
 -- Patents with Slovak inventors that were later assigned to Chinese entities
-SELECT 
+SELECT
   p1.publication_number as original_patent,
   p1.application_date,
   inv.name as slovak_inventor,
@@ -86,13 +86,13 @@ WHERE inv.country_code = 'SK'
 ### Query 4: Critical Technology Areas
 ```sql
 -- Slovak patents in quantum, AI, biotech
-SELECT 
+SELECT
   publication_number,
   application_date,
   title.text as patent_title,
   assignee_harmonized.name as assignee,
   cpc.code as cpc_code,
-  CASE 
+  CASE
     WHEN cpc.code LIKE 'G06N10/%' THEN 'Quantum Computing'
     WHEN cpc.code LIKE 'G06N3/%' OR cpc.code LIKE 'G06N20/%' THEN 'AI/ML'
     WHEN cpc.code LIKE 'C12N%' THEN 'Biotechnology'
@@ -108,9 +108,9 @@ FROM `patents-public-data.patents.publications`,
 WHERE inventor.country_code = 'SK'
   AND PARSE_DATE('%Y%m%d', CAST(application_date AS STRING)) >= '2018-01-01'
   AND (
-    cpc.code LIKE 'G06N%' OR 
-    cpc.code LIKE 'C12N%' OR 
-    cpc.code LIKE 'H01L%' OR 
+    cpc.code LIKE 'G06N%' OR
+    cpc.code LIKE 'C12N%' OR
+    cpc.code LIKE 'H01L%' OR
     cpc.code LIKE 'B82Y%'
   )
 ORDER BY application_date DESC
@@ -119,7 +119,7 @@ ORDER BY application_date DESC
 ### Query 5: Citation Analysis
 ```sql
 -- Chinese entities citing Slovak patents
-SELECT 
+SELECT
   cited.publication_number as slovak_patent,
   cited_title.text as slovak_patent_title,
   citing.publication_number as chinese_citing_patent,
@@ -140,7 +140,7 @@ WHERE cited_inv.country_code = 'SK'
 ### Query 6: Slovak University Patents
 ```sql
 -- Patents from Slovak universities
-SELECT 
+SELECT
   publication_number,
   application_date,
   title.text as patent_title,
@@ -174,9 +174,9 @@ ORDER BY application_date DESC
 
 ### Risk Scoring Formula:
 ```
-Risk Score = (Co-invention_Rate * 0.3) + 
-             (Transfer_Rate * 0.3) + 
-             (Critical_Tech_Share * 0.2) + 
+Risk Score = (Co-invention_Rate * 0.3) +
+             (Transfer_Rate * 0.3) +
+             (Critical_Tech_Share * 0.2) +
              (Citation_Dependency * 0.2)
 ```
 

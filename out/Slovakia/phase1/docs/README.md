@@ -6,7 +6,7 @@
 
 This Phase 1 OSINT data collection addresses six critical gaps in Slovakia's R&D landscape understanding:
 1. R&D budget allocations by institution
-2. Chinese funding in Slovak research  
+2. Chinese funding in Slovak research
 3. Dual-use research project proxies
 4. Technology transfer statistics
 5. Foreign researcher numbers and origins

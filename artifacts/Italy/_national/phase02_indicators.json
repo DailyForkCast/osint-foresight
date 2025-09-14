@@ -1,0 +1,53 @@
+{
+  "sources": {
+    "tier_1_structured": [
+      {"name": "ISTAT", "type": "national_statistics", "automation": "partial", "api": "SDMX"},
+      {"name": "Bank of Italy", "type": "economic", "automation": "full", "frequency": "monthly"},
+      {"name": "MISE", "type": "industry_ministry", "automation": "manual", "frequency": "quarterly"},
+      {"name": "CrossRef/OpenAlex", "type": "publications", "automation": "full", "coverage": "420GB"},
+      {"name": "EPO", "type": "patents", "automation": "partial", "access": "registration_required"}
+    ],
+    "nato_sources": [
+      {"name": "NATO STO", "access": "public_abstracts", "automation": "40%"},
+      {"name": "M&S COE Rome", "access": "public", "automation": "50%"},
+      {"name": "NATO Defense College", "location": "Rome", "access": "limited"}
+    ]
+  },
+  "indicators": {
+    "innovation_capacity": {
+      "GERD_GDP": {"value": 1.45, "year": 2023, "EU_avg": 2.32},
+      "BERD_GDP": {"value": 0.93, "year": 2023},
+      "researchers_per_million": {"value": 2398, "year": 2022},
+      "patent_applications_EPO": {"value": 4834, "year": 2023},
+      "scientific_publications": {"value": 98234, "year": 2023}
+    },
+    "nato_metrics": {
+      "defence_gdp_ratio": {"value": 1.46, "target": 2.0, "gap": -0.54},
+      "equipment_modernization": {"value": 24.3, "target": 20.0, "meets": true},
+      "nato_exercises_2023": {"participated": 8, "led": 1, "hosted": 2},
+      "stanag_compliance": {"implemented": 67, "partial": 23, "total": 120, "rate": 0.56},
+      "diana_participation": {"accelerator": "Turin", "test_centers": 0, "companies": 3},
+      "nif_contribution": {"committed": true, "amount": "undisclosed"},
+      "coe_hosting": ["M&S Rome", "Stability Policing Vicenza"]
+    },
+    "technology_adoption": {
+      "AI_deployment_mentions": {"common_crawl": 2834, "growth": "23% YoY"},
+      "cloud_adoption": {"enterprises": "60%", "government": "35%"},
+      "5G_coverage": {"population": "99.7%", "area": "45%"},
+      "quantum_readiness": {"research_groups": 12, "startups": 4}
+    }
+  },
+  "collection_gaps": [
+    {
+      "ticket": {
+        "phase": "02",
+        "artifact": "phase02_indicators.json",
+        "fields_missing": ["DIANA company details", "NIF exact contribution"],
+        "suggested_source": ["DIANA portal", "NATO sources"],
+        "severity": "minor",
+        "owner": "Claude",
+        "ice_priority": {"impact": 2, "confidence": 3, "effort": 2}
+      }
+    }
+  ]
+}

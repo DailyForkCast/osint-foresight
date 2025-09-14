@@ -57,4 +57,3 @@ Below is a copy‑paste prompt for Claude Code. It will **append or create** Aus
 2. If present, parse as YAML list; for each entry above, find any list item with the same `name` and replace it; if not found, append.
 3. Keep YAML formatting neat (list at root). Do **not** remove unrelated items.
 4. Save the file and print the one‑line confirmation.
-

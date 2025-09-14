@@ -9,7 +9,7 @@
 
 ### 2. **All 44 Countries Configured**
 ```
-EU (27): AT, BE, BG, HR, CY, CZ, DK, EE, FI, FR, DE, GR, HU, IE, IT, 
+EU (27): AT, BE, BG, HR, CY, CZ, DK, EE, FI, FR, DE, GR, HU, IE, IT,
          LV, LT, LU, MT, NL, PL, PT, RO, SK, SI, ES, SE
 
 EEA/EFTA (3): IS, NO, CH
@@ -176,7 +176,7 @@ python src/pulls/master_pull_orchestrator.py --mode status
 ## 🔄 Data Flow
 
 ```
-APIs/Web → Pull Scripts → F:/OSINT_Data/raw/ → Processing → 
+APIs/Web → Pull Scripts → F:/OSINT_Data/raw/ → Processing →
 → F:/OSINT_Data/processed/ → Analysis (Phase 0-13) → Reports
 ```
 

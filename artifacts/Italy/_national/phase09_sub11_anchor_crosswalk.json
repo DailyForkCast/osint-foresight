@@ -1,0 +1,93 @@
+{
+  "policy_technology_crosswalk": [
+    {
+      "claim_id": "C001",
+      "claim": "PNRR prohibits Chinese 5G equipment",
+      "policy_ref": "POL-001",
+      "actual_text": "Preference for trusted vendors",
+      "match_status": "PARTIAL",
+      "discrepancy": "No explicit ban, only preference"
+    },
+    {
+      "claim_id": "C002",
+      "claim": "Golden Power blocks all Chinese tech investments",
+      "policy_ref": "POL-002",
+      "actual_text": "Case-by-case review with conditions",
+      "match_status": "PARTIAL",
+      "discrepancy": "Blocks selective, not blanket"
+    },
+    {
+      "claim_id": "C003",
+      "claim": "AI Strategy mandates sovereign AI",
+      "policy_ref": "POL-007",
+      "actual_text": "Promotes European AI ecosystem",
+      "match_status": "WEAK",
+      "discrepancy": "No sovereignty requirement"
+    },
+    {
+      "claim_id": "C004",
+      "claim": "Space policy excludes China cooperation",
+      "policy_ref": "POL-003",
+      "actual_text": "Focus on ESA and NASA partnerships",
+      "match_status": "IMPLIED",
+      "discrepancy": "China not mentioned explicitly"
+    },
+    {
+      "claim_id": "C005",
+      "claim": "Cybersecurity strategy bans Chinese software",
+      "policy_ref": "POL-004",
+      "actual_text": "Risk-based approach to procurement",
+      "match_status": "NONE",
+      "discrepancy": "No specific vendor bans"
+    }
+  ],
+  "evidence_gaps": [
+    {
+      "area": "Quantum technology policy",
+      "gap": "No explicit quantum strategy",
+      "impact": "Unclear technology sovereignty approach"
+    },
+    {
+      "area": "Biotech security",
+      "gap": "No genomic data protection framework",
+      "impact": "Vulnerable to data exploitation"
+    },
+    {
+      "area": "Academic security",
+      "gap": "No systematic research security program",
+      "impact": "Uncontrolled knowledge transfer"
+    }
+  ],
+  "policy_contradictions": [
+    {
+      "policies": ["POL-001", "POL-006"],
+      "contradiction": "PNRR promotes digitalization while BRI exit limits tech options",
+      "resolution": "Seeking EU and US alternatives"
+    },
+    {
+      "policies": ["POL-002", "POL-007"],
+      "contradiction": "Golden Power restricts investment while AI strategy needs capital",
+      "resolution": "Selective screening approach"
+    }
+  ],
+  "implementation_gaps": [
+    {
+      "policy": "Golden Power",
+      "written": "All critical sectors covered",
+      "practice": "Enforcement varies by political climate",
+      "gap_severity": "MEDIUM"
+    },
+    {
+      "policy": "Export controls",
+      "written": "Comprehensive dual-use controls",
+      "practice": "Limited resources for enforcement",
+      "gap_severity": "HIGH"
+    },
+    {
+      "policy": "Research security",
+      "written": "Awareness recommended",
+      "practice": "No systematic implementation",
+      "gap_severity": "CRITICAL"
+    }
+  ]
+}

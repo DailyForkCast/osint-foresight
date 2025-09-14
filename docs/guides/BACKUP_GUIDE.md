@@ -27,7 +27,7 @@ F:\OSINT_Backups\
 - **Usage**: Double-click to run backup immediately
 
 ### 3. Automated Backup: Task Scheduler
-- **Schedule**: 
+- **Schedule**:
   - Daily at 9:00 PM
   - On system logon (5 min delay)
 - **Setup**: Run `setup_automated_backup.bat` as Administrator
@@ -129,7 +129,7 @@ for archive in archive_dir.glob("backup_*.zip"):
     # Parse timestamp from filename
     timestamp_str = archive.stem.replace("backup_", "")
     file_date = datetime.strptime(timestamp_str, "%Y%m%d_%H%M%S")
-    
+
     if file_date < cutoff_date:
         print(f"Removing old archive: {archive.name}")
         archive.unlink()

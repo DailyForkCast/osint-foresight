@@ -9,7 +9,7 @@
   - API available for bulk downloads
   - Search: Slovak participants in H2020/Horizon Europe
   - Extract: Project partners, amounts, topics, dates
-  
+
 - **EU Open Data Portal** (https://data.europa.eu)
   - Structural funds allocations by country
   - Research infrastructure investments

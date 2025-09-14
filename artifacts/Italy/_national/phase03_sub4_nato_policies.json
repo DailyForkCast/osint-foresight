@@ -1,0 +1,98 @@
+{
+  "nato_posture": {
+    "membership": {
+      "status": "Founding member",
+      "joined": 1949,
+      "framework_nation": true,
+      "framework_region": "Mediterranean/Southern Europe"
+    },
+    "commands_hosted": [
+      {
+        "name": "JFC Naples",
+        "type": "Joint Force Command",
+        "aor": "Southern Europe, Africa, Middle East"
+      },
+      {
+        "name": "NATO Defense College",
+        "location": "Rome",
+        "role": "Senior officer education"
+      },
+      {
+        "name": "NRDC-ITA",
+        "location": "Solbiate Olona",
+        "type": "Rapid Deployable Corps"
+      }
+    ],
+    "coes_hosted": [
+      {
+        "name": "NATO M&S COE",
+        "location": "Rome",
+        "focus": "Modelling & Simulation",
+        "established": 2012
+      },
+      {
+        "name": "Stability Policing COE",
+        "location": "Vicenza",
+        "focus": "Police operations",
+        "established": 2015
+      }
+    ],
+    "ndpp_alignment": {
+      "capability_targets": {
+        "assigned": 43,
+        "met": 28,
+        "in_progress": 12,
+        "delayed": 3
+      },
+      "priority_shortfalls": [
+        "Air defense systems",
+        "Strategic airlift",
+        "Cyber defense capabilities"
+      ]
+    }
+  },
+  "stanag_adoption": {
+    "total_applicable": 120,
+    "status": {
+      "implemented": 67,
+      "partial": 23,
+      "planned": 18,
+      "not_applicable": 12
+    },
+    "compliance_rate": 0.56,
+    "critical_gaps": [
+      "STANAG 4586 (UAV interoperability)",
+      "STANAG 4671 (UAV control)",
+      "STANAG 6001 (Language proficiency)"
+    ],
+    "recent_implementations": [
+      {
+        "stanag": "STANAG 5066",
+        "title": "HF radio data",
+        "date": "2023-03",
+        "impact": "Maritime operations"
+      }
+    ]
+  },
+  "national_transposition": {
+    "defense_planning": {
+      "aligned_with_ndpp": true,
+      "planning_cycle": "2023-2025",
+      "next_review": 2025
+    },
+    "capability_development": {
+      "priority_programs": [
+        "New fighter aircraft (Tempest/GCAP)",
+        "Next-gen naval vessels",
+        "Space-based ISR",
+        "Cyber resilience"
+      ]
+    },
+    "burden_sharing": {
+      "defense_gdp_current": 1.46,
+      "trajectory": "Gradual increase",
+      "projected_2028": 1.6,
+      "constraints": ["Fiscal rules", "Political consensus"]
+    }
+  }
+}

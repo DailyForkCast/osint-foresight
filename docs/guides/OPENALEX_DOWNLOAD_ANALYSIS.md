@@ -47,7 +47,7 @@ This is normal AWS S3 sync behavior:
    ```bash
    # Count downloaded files
    find F:\OSINT_Backups\openalex\data\works\updated_date=2025-08-14\ -name "*.gz" | wc -l
-   
+
    # Check total size
    du -sh F:\OSINT_Backups\openalex\data\works\updated_date=2025-08-14\
    ```

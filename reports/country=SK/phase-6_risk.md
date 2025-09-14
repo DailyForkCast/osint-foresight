@@ -95,7 +95,7 @@ Comprehensive risk assessment reveals Slovakia at CRITICAL risk level with syste
 
 Risk Distribution:
 - CRITICAL (0-2): 3 dimensions
-- SEVERE (3-4): 4 dimensions  
+- SEVERE (3-4): 4 dimensions
 - HIGH (5-6): 1 dimension
 - MEDIUM (7-8): 0 dimensions
 - LOW (9-10): 0 dimensions
@@ -138,7 +138,7 @@ Risk Distribution:
 **Methods**: Multiple vectors active
 **Success Rate**: High (limited resistance)
 
-### Russia - SECONDARY THREAT  
+### Russia - SECONDARY THREAT
 **Capability**: Medium (focused on energy/cyber)
 **Intent**: Opportunistic
 **Presence**: Energy sector only

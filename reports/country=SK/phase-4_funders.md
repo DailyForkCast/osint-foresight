@@ -32,7 +32,7 @@ Comprehensive risk assessment identifies 12 critical vulnerabilities with 5 rate
 ## Vulnerability Deep Dive
 
 ### 1. IP Leakage (Score: 4/5)
-**Evidence**: 
+**Evidence**:
 - 113 China partnerships identified
 - Huawei contracts with universities
 - No systematic IP protection training

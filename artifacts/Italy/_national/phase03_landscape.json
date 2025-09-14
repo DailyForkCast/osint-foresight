@@ -1,0 +1,136 @@
+{
+  "actors": {
+    "government": [
+      {
+        "name": "Ministry of Defense",
+        "aka": ["Ministero della Difesa", "MoD"],
+        "role": "Defense policy and procurement",
+        "key_programs": ["Navy Law", "F-35 program", "Tempest participation"]
+      },
+      {
+        "name": "MIMIT",
+        "aka": ["Ministry of Enterprises and Made in Italy"],
+        "role": "Industrial policy, dual-use tech",
+        "key_programs": ["Transizione 4.0", "IPCEI participation"]
+      },
+      {
+        "name": "ACN",
+        "aka": ["Agenzia per la Cybersicurezza Nazionale"],
+        "established": 2021,
+        "role": "National cybersecurity authority"
+      }
+    ],
+    "defense_primes": [
+      {
+        "name": "Leonardo S.p.A.",
+        "lei": "549300RYRRNDMB5GCF59",
+        "revenue": "15.3B EUR",
+        "employees": 53000,
+        "domains": ["Aerospace", "Defense electronics", "Helicopters", "Space"],
+        "nato_programs": ["Eurofighter", "NH90", "GCAP/Tempest"]
+      },
+      {
+        "name": "Fincantieri",
+        "lei": "549300X7FFNWKQ2PUU96",
+        "revenue": "7.9B EUR",
+        "domains": ["Naval vessels", "Submarines"],
+        "nato_relevance": "FREMM frigates, U212 submarines"
+      }
+    ],
+    "research_institutions": [
+      {
+        "name": "CNR",
+        "ror": "00brf2d87",
+        "type": "National Research Council",
+        "focus": ["Quantum", "AI", "Materials", "Photonics"],
+        "institutes": 88
+      },
+      {
+        "name": "IIT",
+        "aka": ["Istituto Italiano di Tecnologia"],
+        "location": "Genoa",
+        "focus": ["Robotics", "AI", "Nanomaterials", "Life sciences"]
+      }
+    ],
+    "universities": [
+      {
+        "name": "Politecnico di Milano",
+        "ror": "01nffqt88",
+        "strengths": ["Engineering", "Space", "AI"],
+        "defense_relevant": true
+      },
+      {
+        "name": "Sapienza University Rome",
+        "ror": "02be6w209",
+        "strengths": ["Aerospace", "Cyber", "Physics"]
+      }
+    ]
+  },
+  "policies": {
+    "defense": [
+      {
+        "title": "Defense Multi-Year Planning Document 2023-2025",
+        "year": 2023,
+        "authority": "law",
+        "bindingness": "binding",
+        "budget": "28B EUR/year",
+        "priorities": ["Modernization", "NATO commitments", "Innovation"]
+      }
+    ],
+    "innovation": [
+      {
+        "title": "National Recovery and Resilience Plan (PNRR)",
+        "year": 2021,
+        "budget": "191.5B EUR",
+        "tech_allocation": "48B EUR",
+        "focus": ["Digital transition", "Green tech", "Research"]
+      },
+      {
+        "title": "National Research Programme 2021-2027",
+        "year": 2021,
+        "budget": "14.8B EUR",
+        "priorities": ["AI", "Quantum", "HPC", "Space"]
+      }
+    ],
+    "security": [
+      {
+        "title": "National Cybersecurity Strategy 2022-2026",
+        "year": 2022,
+        "authority": "strategy",
+        "lead": "ACN",
+        "measures": 82
+      }
+    ]
+  },
+  "infrastructure": {
+    "research_facilities": [
+      {
+        "name": "CINECA",
+        "type": "Supercomputing center",
+        "location": "Bologna",
+        "asset": "Leonardo HPC (4th in world)",
+        "criticality": "High"
+      },
+      {
+        "name": "ENEA Frascati",
+        "type": "Fusion research",
+        "asset": "DTT - Divertor Tokamak Test",
+        "nato_relevance": "Energy security research"
+      }
+    ],
+    "production": [
+      {
+        "name": "Leonardo Helicopters",
+        "location": "Vergiate",
+        "capability": "Rotorcraft production",
+        "nato_programs": ["NH90", "AW101"]
+      },
+      {
+        "name": "Fincantieri Muggiano",
+        "location": "La Spezia",
+        "capability": "Submarine construction",
+        "criticality": "High"
+      }
+    ]
+  }
+}

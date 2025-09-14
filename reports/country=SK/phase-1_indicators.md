@@ -16,7 +16,7 @@ Slovakia's research ecosystem operates as a mid-sized EU member state with strat
   - Primary R&D policy maker
   - Oversees higher education system
   - Manages Science Grant Agency (VEGA) and Cultural Education Grant Agency (KEGA)
-  
+
 - **Slovak Research and Development Agency (SRDA/APVV)**
   - Main competitive funding distributor
   - Annual budget: ~€50 million
@@ -81,7 +81,7 @@ Slovakia's research ecosystem operates as a mid-sized EU member state with strat
 - **Employees**: ~3,000 researchers
 - **Research Areas**:
   - Physical, chemical, earth sciences (11 institutes)
-  - Life and medical sciences (9 institutes)  
+  - Life and medical sciences (9 institutes)
   - Engineering, technology, materials (8 institutes)
   - Agriculture, biology, environment (10 institutes)
   - Social and behavioral sciences (10 institutes)

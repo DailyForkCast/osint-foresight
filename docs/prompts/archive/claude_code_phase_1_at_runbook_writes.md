@@ -14,19 +14,19 @@ Populate **Phase 1** artifacts for Austria so downstream phases can run. Prefer 
 ## 2) Create indicator catalog TSVs
 Create these files (with header rows). If content is empty, include one row with `no_data_yet=true` in a `notes` column.
 
-- `config/indicators/country=AT/indicator_catalog.tsv`  
+- `config/indicators/country=AT/indicator_catalog.tsv`
   Columns: `indicator_id,theme,description,why_it_matters,related_phases,collection_mode`
 
-- `config/indicators/country=AT/source_map.tsv`  
+- `config/indicators/country=AT/source_map.tsv`
   Columns: `source_id,indicator_id,name,type,access,notes`
 
-- `queries/keywords/country=AT/phasewide_keywords.tsv`  
+- `queries/keywords/country=AT/phasewide_keywords.tsv`
   Columns: `theme,core_keywords,de_synonyms`
 
 > Use the corresponding tables from the Phase‑1 report as initial content.
 
 ## 3) Seed watchlists (text‑intelligence)
-- Ensure file exists: `queries/policy/watchlist.yaml`  
+- Ensure file exists: `queries/policy/watchlist.yaml`
   Add (idempotent) entries for: IETF (IPPM,NTP), Akkreditierung Austria, CORDIS AT participants, EuroHPC/VSC notices, EU sanctions CSV, GLEIF AT.
 
 ## 4) Optional automated pulls (if you want to wire now)
@@ -41,12 +41,12 @@ make normalize COUNTRY=AT
 ```
 
 ## 5) Evidence register hygiene
-- Append to `data/evidence_register.tsv` whenever you store a portal PDF or scope:  
+- Append to `data/evidence_register.tsv` whenever you store a portal PDF or scope:
   Columns: `id,country,type,title,issuer_or_site,url,retrieved_at,sha256,anchor_hash,notes`
 
 ## 6) Sanctions/legal (signals‑only; **exclude US persons**)
-- Create placeholder: `data/processed/country=AT/sanctions_hits.csv`  
-  Columns: `list_name,entity_name,country,link,last_check,notes`  
+- Create placeholder: `data/processed/country=AT/sanctions_hits.csv`
+  Columns: `list_name,entity_name,country,link,last_check,notes`
   Add one row with `no_data_yet=true` if empty.
 
 ## 7) Health & reports
@@ -56,7 +56,7 @@ make reports-init COUNTRY=AT
 ```
 
 ## 8) Commit
-- Commit all writes with a message like:  
+- Commit all writes with a message like:
   `feat(AT): phase‑1 indicators catalog, sources map, keyword seeds + report`
 
 ---
@@ -69,4 +69,3 @@ make reports-init COUNTRY=AT
 - [ ] Optional pulls & normalize completed without errors
 - [ ] Evidence register updated for any saved PDFs
 - [ ] Health check passes (or logs “no_data_yet” rows)
-

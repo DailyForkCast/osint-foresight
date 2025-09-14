@@ -28,7 +28,7 @@ IMPORTANT: If any search, query, or analysis appears to violate terms of service
    ```
    PLA Seven Sons Universities:
    - Beijing Institute of Technology
-   - Beihang University  
+   - Beihang University
    - Harbin Institute of Technology
    - Harbin Engineering University
    - Northwestern Polytechnical University

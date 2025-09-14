@@ -5,8 +5,8 @@ date: 2025-09-07
 ---
 
 ## Scope & Inputs
-- **Country / ISO2:** Austria (AT) · **Years:** 2015–2025 · **Languages:** en, de · **Looser matchers:** ON  
-- **Primary files (if present):** `data/processed/country=AT/international_links.tsv`, `relationships.csv`, `programs.csv`, `standards_roles.tsv`, `institutions.csv`, `cer_master.csv`, `prc_screen.tsv`, `sanctions_hits.csv` (non‑US only), `policy_AT.tsv`, `policy_PRC.tsv`, `policy_EU.tsv`.  
+- **Country / ISO2:** Austria (AT) · **Years:** 2015–2025 · **Languages:** en, de · **Looser matchers:** ON
+- **Primary files (if present):** `data/processed/country=AT/international_links.tsv`, `relationships.csv`, `programs.csv`, `standards_roles.tsv`, `institutions.csv`, `cer_master.csv`, `prc_screen.tsv`, `sanctions_hits.csv` (non‑US only), `policy_AT.tsv`, `policy_PRC.tsv`, `policy_EU.tsv`.
 - **Guardrails:** Neutral tone; *signals ≠ proof*. **Exclude US persons** from sanctions/legal references. **MCF detection is label‑independent**—assess **functions and mechanisms** even if the term *MCF* is absent from sources.
 
 ---

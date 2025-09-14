@@ -108,24 +108,24 @@ TABLE_SCHEMAS = {
 
 def create_tables(project_id: str = "osint-foresight-2025"):
     """Create BigQuery tables with appropriate schemas"""
-    
+
     client = bigquery.Client(project=project_id)
     created_tables = []
     existing_tables = []
-    
+
     print(f"Creating BigQuery tables in project: {project_id}")
     print("=" * 60)
-    
+
     for dataset_name, tables in TABLE_SCHEMAS.items():
         dataset_id = f"{project_id}.{dataset_name}"
-        
+
         print(f"\nDataset: {dataset_name}")
         print("-" * 40)
-        
+
         for table_name, schema in tables.items():
             table_id = f"{dataset_id}.{table_name}"
             table = bigquery.Table(table_id, schema=schema)
-            
+
             try:
                 table = client.create_table(table)
                 print(f"  [OK] Created table: {table_name}")
@@ -135,10 +135,10 @@ def create_tables(project_id: str = "osint-foresight-2025"):
                 existing_tables.append(table_id)
             except Exception as e:
                 print(f"  [ERROR] Failed to create {table_name}: {e}")
-    
+
     print("\n" + "=" * 60)
     print(f"Summary: Created {len(created_tables)} new tables, {len(existing_tables)} already existed")
-    
+
     return created_tables, existing_tables
 
 def load_data_from_csv(
@@ -148,33 +148,33 @@ def load_data_from_csv(
     skip_header: bool = True
 ) -> bool:
     """Load data from CSV file into BigQuery table"""
-    
+
     if not csv_path.exists():
         print(f"  [SKIP] File not found: {csv_path}")
         return False
-    
+
     # Check if file is empty or too small
     if csv_path.stat().st_size < 10:
         print(f"  [SKIP] File is empty: {csv_path}")
         return False
-    
+
     job_config = bigquery.LoadJobConfig(
         source_format=bigquery.SourceFormat.CSV,
         skip_leading_rows=1 if skip_header else 0,
         autodetect=False,  # Use predefined schema
         write_disposition="WRITE_TRUNCATE",  # Replace existing data
     )
-    
+
     # Handle TSV files
     if csv_path.suffix.lower() == '.tsv':
         job_config.field_delimiter = '\t'
-    
+
     try:
         with open(csv_path, "rb") as source_file:
             job = client.load_table_from_file(
                 source_file, table_id, job_config=job_config
             )
-        
+
         job.result()  # Wait for the job to complete
         print(f"  [LOADED] {csv_path.name} -> {table_id.split('.')[-1]}")
         return True
@@ -184,17 +184,17 @@ def load_data_from_csv(
 
 def load_country_data(country: str, project_id: str = "osint-foresight-2025"):
     """Load processed data for a specific country into BigQuery"""
-    
+
     client = bigquery.Client(project=project_id)
     base_path = Path("data/processed") / f"country={country}"
-    
+
     if not base_path.exists():
         print(f"No data found for country: {country}")
         return
-    
+
     print(f"\nLoading data for country: {country}")
     print("=" * 60)
-    
+
     # Map local files to BigQuery tables
     file_mappings = {
         "relationships.csv": f"{project_id}.processed_data.relationships_{country}",
@@ -206,43 +206,43 @@ def load_country_data(country: str, project_id: str = "osint-foresight-2025"):
         "cer_master.csv": f"{project_id}.processed_data.cer_master_{country}",
         "partners_cerlite.csv": f"{project_id}.processed_data.partners_cerlite_{country}",
     }
-    
+
     loaded_count = 0
     for file_name, table_id in file_mappings.items():
         file_path = base_path / file_name
-        
+
         # Create table with country suffix if it doesn't exist
         base_table_name = file_name.replace('.csv', '').replace('.tsv', '')
         if base_table_name in TABLE_SCHEMAS.get("processed_data", {}):
             schema = TABLE_SCHEMAS["processed_data"][base_table_name]
-            
+
             # Add country field to schema
             schema_with_country = [
                 bigquery.SchemaField("_country", "STRING", mode="REQUIRED", default_value_expression=f'"{country}"')
             ] + schema
-            
+
             table = bigquery.Table(table_id, schema=schema_with_country)
             try:
                 client.create_table(table)
                 print(f"  [OK] Created country table: {table_id.split('.')[-1]}")
             except Conflict:
                 pass  # Table exists
-            
+
             # Load data
             if file_path.exists():
                 if load_data_from_csv(client, table_id, file_path):
                     loaded_count += 1
-    
+
     print(f"\nLoaded {loaded_count} files for {country}")
 
 def main():
     """Main function to set up tables and optionally load data"""
-    
+
     project_id = "osint-foresight-2025"
-    
+
     # Create base tables
     created, existing = create_tables(project_id)
-    
+
     # Check for available country data
     data_dir = Path("data/processed")
     if data_dir.exists():
@@ -250,20 +250,20 @@ def main():
         for country_dir in data_dir.glob("country=*"):
             country_code = country_dir.name.split("=")[1]
             countries.append(country_code)
-        
+
         if countries:
             print(f"\nFound data for countries: {', '.join(countries)}")
-            
+
             response = input("\nLoad data for these countries? (y/n): ")
             if response.lower() == 'y':
                 for country in countries:
                     load_country_data(country, project_id)
-    
+
     print("\n" + "=" * 60)
     print("Setup complete!")
     print(f"\nAccess your data at:")
     print(f"https://console.cloud.google.com/bigquery?project={project_id}")
-    
+
     # Show sample queries
     print("\nSample BigQuery queries to get started:")
     print("-" * 40)
@@ -272,7 +272,7 @@ def main():
    SELECT * FROM `osint-foresight-2025.processed_data.relationships_AT` LIMIT 100
 
 2. Sector intensity analysis:
-   SELECT sector, COUNT(*) as edge_count, 
+   SELECT sector, COUNT(*) as edge_count,
           COUNTIF(year BETWEEN 2023 AND 2025) as recent_edges
    FROM `osint-foresight-2025.processed_data.relationships_AT`
    GROUP BY sector

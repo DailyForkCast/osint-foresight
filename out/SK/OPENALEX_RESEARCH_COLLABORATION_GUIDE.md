@@ -101,7 +101,7 @@ import matplotlib.pyplot as plt
 
 def build_collaboration_network():
     G = nx.Graph()
-    
+
     # Get all Slovak papers with international collaborations
     url = "https://api.openalex.org/works"
     params = {
@@ -110,11 +110,11 @@ def build_collaboration_network():
         'per_page': 200,
         'cursor': '*'  # For pagination
     }
-    
+
     # Process results to build network
     # Add edges between collaborating institutions
     # Weight by number of joint papers
-    
+
     return G
 
 # Analyze the network
@@ -193,12 +193,12 @@ def search_pubmed_collaborations():
     query = '(Slovakia[Affiliation]) AND (China[Affiliation])'
     handle = Entrez.esearch(db="pubmed", term=query, retmax=1000)
     results = Entrez.read(handle)
-    
+
     # Get full records
     id_list = results['IdList']
     handle = Entrez.efetch(db="pubmed", id=id_list, rettype="xml")
     records = Entrez.read(handle)
-    
+
     return records
 ```
 
@@ -214,7 +214,7 @@ def search_arxiv_collaborations():
         max_results=100,
         sort_by=arxiv.SortCriterion.SubmittedDate
     )
-    
+
     papers = []
     for paper in search.results():
         papers.append({
@@ -223,7 +223,7 @@ def search_arxiv_collaborations():
             'affiliations': paper.affiliations,  # If available
             'categories': paper.categories
         })
-    
+
     return papers
 ```
 
@@ -287,11 +287,11 @@ def download_lei_database():
     # Level 1 - Legal entities
     url1 = "https://goldencopy.gleif.org/api/v2/golden-copies/publishes/latest/lei2.csv"
     lei_data = pd.read_csv(url1)
-    
+
     # Level 2 - Ownership relationships
     url2 = "https://goldencopy.gleif.org/api/v2/golden-copies/publishes/latest/rr.csv"
     ownership_data = pd.read_csv(url2)
-    
+
     return lei_data, ownership_data
 
 # Find ownership chains
@@ -308,30 +308,30 @@ def trace_ownership(lei_code, ownership_data):
 ```python
 def build_complete_collaboration_map():
     collaborations = []
-    
+
     # 1. OpenAlex - most comprehensive
     openalex_data = get_openalex_collaborations()
     collaborations.extend(openalex_data)
-    
+
     # 2. Semantic Scholar - AI/CS focused
     semantic_data = get_semantic_scholar_collabs()
     collaborations.extend(semantic_data)
-    
+
     # 3. PubMed - biotech/chemistry
     pubmed_data = get_pubmed_collabs()
     collaborations.extend(pubmed_data)
-    
+
     # 4. arXiv - early indicators
     arxiv_data = get_arxiv_collabs()
     collaborations.extend(arxiv_data)
-    
+
     # 5. CrossRef - funding information
     crossref_data = get_crossref_collabs()
     collaborations.extend(crossref_data)
-    
+
     # Deduplicate by DOI
     unique_collabs = deduplicate_by_doi(collaborations)
-    
+
     return unique_collabs
 ```
 
@@ -343,7 +343,7 @@ import networkx as nx
 
 def visualize_collaboration_network(collaborations):
     G = nx.Graph()
-    
+
     # Build network from collaborations
     for collab in collaborations:
         for i, inst1 in enumerate(collab['institutions']):
@@ -352,19 +352,19 @@ def visualize_collaboration_network(collaborations):
                     G[inst1][inst2]['weight'] += 1
                 else:
                     G.add_edge(inst1, inst2, weight=1)
-    
+
     # Create interactive visualization
     pos = nx.spring_layout(G)
-    
+
     # Use plotly for interactive graph
     edge_trace = []
     node_trace = []
-    
+
     # ... build traces ...
-    
+
     fig = go.Figure(data=[edge_trace, node_trace])
     fig.show()
-    
+
     return G
 ```
 
@@ -473,22 +473,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      
+
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
           python-version: '3.9'
-      
+
       - name: Install dependencies
         run: |
           pip install requests pandas networkx
-      
+
       - name: Check OpenAlex for new collaborations
         run: python scripts/check_new_collabs.py
-      
+
       - name: Generate report
         run: python scripts/generate_report.py
-      
+
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"

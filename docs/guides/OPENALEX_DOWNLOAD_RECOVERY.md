@@ -130,7 +130,7 @@ def test_gz_files(directory):
         except Exception as e:
             print(f"✗ {gz_file.name}: {e}")
             failed.append(gz_file.name)
-    
+
     if failed:
         print(f"\nFailed files: {failed}")
         print("Re-download these files")
@@ -158,18 +158,18 @@ def download_with_retry(s3_path, local_path, max_retries=3):
                 '--max-concurrent-requests', '3',
                 '--cli-read-timeout', '300'
             ], check=True, timeout=3600)  # 1 hour timeout
-            
+
             if result.returncode == 0:
                 print("Download completed successfully!")
                 return True
-                
+
         except subprocess.TimeoutExpired:
             print(f"Timeout on attempt {attempt + 1}")
             time.sleep(60)  # Wait 1 minute before retry
         except Exception as e:
             print(f"Error on attempt {attempt + 1}: {e}")
             time.sleep(60)
-    
+
     return False
 
 # Use it

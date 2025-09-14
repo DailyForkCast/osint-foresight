@@ -1,0 +1,72 @@
+{
+  "institutions": {
+    "Leonardo S.p.A.": ["Leonardo", "Finmeccanica", "Leonardo-Finmeccanica", "LDO"],
+    "Fincantieri": ["Fincantieri S.p.A.", "FCT", "Cantieri Navali"],
+    "ASI": ["Agenzia Spaziale Italiana", "Italian Space Agency"],
+    "ACN": ["Agenzia per la Cybersicurezza Nazionale", "National Cybersecurity Agency"],
+    "CNR": ["Consiglio Nazionale delle Ricerche", "National Research Council"],
+    "ENEA": ["Agenzia nazionale per le nuove tecnologie", "Italian National Agency for New Technologies"],
+    "Politecnico di Milano": ["PoliMi", "Polytechnic University of Milan", "POLIMI"],
+    "Politecnico di Torino": ["PoliTo", "Polytechnic University of Turin", "POLITO"],
+    "Sapienza": ["Sapienza University of Rome", "Università La Sapienza", "Sapienza Roma"],
+    "INFN": ["Istituto Nazionale di Fisica Nucleare", "National Institute for Nuclear Physics"],
+    "IIT": ["Istituto Italiano di Tecnologia", "Italian Institute of Technology"],
+    "Thales Alenia Space Italia": ["TAS-I", "Thales Alenia Italia", "TASI"],
+    "Avio": ["Avio S.p.A.", "Avio Space"],
+    "MBDA Italia": ["MBDA Italy", "MBDA IT"],
+    "Iveco Defence Vehicles": ["IDV", "Iveco Defense", "Iveco DV"],
+    "OTO Melara": ["Oto Melara", "OTO", "Leonardo OTO Melara"],
+    "Elettronica": ["Elettronica S.p.A.", "ELT"],
+    "Telespazio": ["Telespazio S.p.A.", "Leonardo Telespazio"],
+    "e-GEOS": ["e-GEOS S.p.A.", "eGEOS"],
+    "Vitrociset": ["Vitrociset S.p.A.", "Leonardo Vitrociset"]
+  },
+  "programs": {
+    "GCAP": ["Global Combat Air Programme", "Tempest", "6th Gen Fighter"],
+    "FREMM": ["European multi-purpose frigate", "Fregata Europea Multi-Missione"],
+    "PPA": ["Pattugliatore Polivalente d'Altura", "Multipurpose Offshore Patrol Vessel"],
+    "COSMO-SkyMed": ["Constellation of Small Satellites for Mediterranean basin Observation"],
+    "IRIDE": ["Italian Earth observation constellation"],
+    "VEGA": ["Vettore Europeo di Generazione Avanzata", "VEGA launcher"],
+    "NH90": ["NATO Helicopter 90", "NH-90"],
+    "U212NFS": ["U212 Near Future Submarine", "Type 212 NFS"],
+    "SAMP/T": ["Surface-to-Air Missile Platform/Terrain", "Aster missile system"],
+    "Eurofighter": ["Eurofighter Typhoon", "EFA", "EF2000"]
+  },
+  "technologies": {
+    "AI": ["Artificial Intelligence", "Machine Learning", "ML", "Deep Learning", "IA"],
+    "QC": ["Quantum Computing", "Quantum Technologies", "Quantum"],
+    "5G": ["Fifth Generation", "5G Networks", "5G Technology"],
+    "IoT": ["Internet of Things", "Internet delle Cose", "Connected Devices"],
+    "Blockchain": ["Distributed Ledger", "DLT"],
+    "Cyber": ["Cybersecurity", "Cyber Defense", "Information Security"],
+    "Space": ["Space Technologies", "Space Systems", "Aerospace"],
+    "UAV": ["Unmanned Aerial Vehicle", "Drone", "UAS", "APR"],
+    "EW": ["Electronic Warfare", "Guerra Elettronica", "Electronic Attack"],
+    "C4ISR": ["Command Control Communications Computers ISR", "C4I"]
+  },
+  "chinese_entities": {
+    "COSCO": ["China COSCO Shipping", "COSCO Shipping", "中远海运"],
+    "Huawei": ["Huawei Technologies", "华为"],
+    "ZTE": ["Zhongxing Telecommunication Equipment", "中兴"],
+    "CRRC": ["China Railway Rolling Stock Corporation", "中国中车"],
+    "State Grid": ["State Grid Corporation of China", "SGCC", "国家电网"],
+    "Sinopec": ["China Petroleum & Chemical Corporation", "中国石化"],
+    "CNBM": ["China National Building Material", "中国建材"],
+    "AVIC": ["Aviation Industry Corporation of China", "中国航空工业"],
+    "CASIC": ["China Aerospace Science and Industry Corporation", "中国航天科工"],
+    "CASC": ["China Aerospace Science and Technology Corporation", "中国航天科技"]
+  },
+  "locations": {
+    "La Spezia": ["Spezia", "Naval Base La Spezia"],
+    "Taranto": ["Naval Base Taranto", "Taranto Arsenal"],
+    "Cameri": ["Cameri Air Base", "F-35 FACO"],
+    "Fucino": ["Fucino Space Centre", "Telespazio Fucino"],
+    "Matera": ["Matera Space Centre", "Centro Spaziale di Matera"],
+    "Tortona": ["DIANA Turin", "DIANA Accelerator"],
+    "Pratica di Mare": ["Pratica di Mare AFB", "Test Center"],
+    "Augusta": ["Naval Base Augusta", "Augusta Sicily"],
+    "Brindisi": ["Brindisi Port", "UNHAS Base"],
+    "Sigonella": ["NAS Sigonella", "Sigonella Air Base"]
+  }
+}

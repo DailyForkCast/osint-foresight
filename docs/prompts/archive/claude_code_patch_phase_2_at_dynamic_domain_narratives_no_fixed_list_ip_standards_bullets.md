@@ -29,4 +29,3 @@ We render domains only if they meet Phase‑X selection rules (see Phase X: *Clu
 5) **Commit:** `chore(AT/P2): switch to dynamic domain narratives + add IP/standards bullets`
 
 **Note:** Keep existing tables (e.g., `relationships.csv` excerpts). This patch only changes the narrative structure.
-

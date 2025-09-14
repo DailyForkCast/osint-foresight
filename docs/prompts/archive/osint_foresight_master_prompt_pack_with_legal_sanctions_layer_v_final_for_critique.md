@@ -252,4 +252,3 @@ For each sector: definition; maturity (Strong/Emerging/Nascent) with evidence; c
 - If templates/data are missing, still render a complete report with “No data yet — drop‑in CSV recipe below” notes.
 - Include inline citations for non‑obvious facts (URLs + access dates where possible).
 - Return TSVs in fenced blocks labeled `# excel-tsv` for copy/paste.
-

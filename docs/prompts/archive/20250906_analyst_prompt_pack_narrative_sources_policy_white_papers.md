@@ -50,14 +50,14 @@ Use these prompts with ChatGPT/Claude/Gemini to turn unstructured documents into
 ---
 
 ## Source Credibility Rubric (attach when using prompts)
-- **5**: Primary law/regulation or official enforcement notice.  
-- **4**: Official policy/strategy/ministerial circular.  
-- **3**: Para‑official/national think tank aligned with government.  
-- **2**: Independent think tank / academic.  
+- **5**: Primary law/regulation or official enforcement notice.
+- **4**: Official policy/strategy/ministerial circular.
+- **3**: Para‑official/national think tank aligned with government.
+- **2**: Independent think tank / academic.
 - **1**: Media/blog/advocacy.
 
 ## Notes for the solo analyst
-- Do **one pass** per document unless it's on your watchlist; attach the TSV rows and move on.  
-- Keep **confidence low** when you don't have strong cites.  
-- Prefer **short quotes** with page numbers over paraphrase.  
+- Do **one pass** per document unless it's on your watchlist; attach the TSV rows and move on.
+- Keep **confidence low** when you don't have strong cites.
+- Prefer **short quotes** with page numbers over paraphrase.
 - Use the watchlist to decide what to re‑check **quarterly/annually**.

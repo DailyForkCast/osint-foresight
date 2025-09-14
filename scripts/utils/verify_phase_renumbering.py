@@ -7,11 +7,11 @@ from pathlib import Path
 
 def check_files():
     """Check that all renamed files exist and old names don't"""
-    
+
     # Mapping of old to new phase numbers
     phase_map = {
         'X': '0',
-        '0': '1', 
+        '0': '1',
         '1': '2',
         '2': '3',
         '2S': '4',
@@ -25,9 +25,9 @@ def check_files():
         '9': '12',
         '10': '13'
     }
-    
+
     issues = []
-    
+
     # Check Python analysis scripts
     analysis_dir = Path('src/analysis')
     expected_scripts = {
@@ -40,7 +40,7 @@ def check_files():
         'phase9_posture.py': 'Phase 9 (was 7C)',
         'phase11_foresight.py': 'Phase 11 (was 8)',
     }
-    
+
     print("Checking Python analysis scripts...")
     for script, desc in expected_scripts.items():
         path = analysis_dir / script
@@ -49,12 +49,12 @@ def check_files():
         else:
             issues.append(f"Missing: {path}")
             print(f"  [X] {script} - MISSING")
-    
+
     # Check for old script names that shouldn't exist
     old_scripts = ['phase2_landscape.py', 'phase2s_supply_chain.py', 'phase3_institutions.py',
-                   'phase4_funders.py', 'phase5_links.py', 'phase6_risk.py', 
+                   'phase4_funders.py', 'phase5_links.py', 'phase6_risk.py',
                    'phase7c_posture.py', 'phase8_foresight.py']
-    
+
     print("\nChecking old script names are removed...")
     for old in old_scripts:
         path = analysis_dir / old
@@ -63,7 +63,7 @@ def check_files():
             print(f"  [X] {old} still exists!")
         else:
             print(f"  [OK] {old} removed")
-    
+
     # Check Makefile references
     print("\nChecking Makefile references...")
     makefile = Path('Makefile')
@@ -71,7 +71,7 @@ def check_files():
         content = makefile.read_text()
         new_refs = [
             'phase3_landscape',
-            'phase4_supply_chain', 
+            'phase4_supply_chain',
             'phase5_institutions',
             'phase6_funders',
             'phase7_links',
@@ -85,7 +85,7 @@ def check_files():
             else:
                 issues.append(f"Makefile missing: {ref}")
                 print(f"  [X] Missing {ref}")
-    
+
     # Check config files
     print("\nChecking config files...")
     models_yaml = Path('config/models.yaml')
@@ -96,7 +96,7 @@ def check_files():
         else:
             issues.append("models.yaml not updated")
             print("  [X] models.yaml still has old phase reference")
-    
+
     # Summary
     print("\n" + "="*60)
     if issues:

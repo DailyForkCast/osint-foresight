@@ -29,4 +29,3 @@ Pick up to **three** sectors **dynamically** using:
 
 4) **Save** the file.
 5) **Commit:** `chore(AT/P8): make sector playbooks dynamic (top‑K by heat×risk)`
-

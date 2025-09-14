@@ -107,7 +107,7 @@ This document details which data sources require registration, API keys, or paid
   - Limited downloads per month
   - Premium subscription for bulk data
 
-### Company Information  
+### Company Information
 - **OpenCorporates** - https://opencorporates.com/
   - **Status**: PAID ONLY for API
   - Free web search only

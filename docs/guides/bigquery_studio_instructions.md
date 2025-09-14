@@ -38,13 +38,13 @@ chinese_coinventors AS (
     WHERE inv.country_code = 'CN'
     GROUP BY publication_number
 )
-SELECT 
+SELECT
     sp.publication_number,
     sp.patent_title,
     sp.filing_year,
     cc.chinese_inventors
 FROM slovak_patents sp
-INNER JOIN chinese_coinventors cc 
+INNER JOIN chinese_coinventors cc
     ON sp.publication_number = cc.publication_number
 ORDER BY sp.filing_year DESC
 LIMIT 100
@@ -95,7 +95,7 @@ Try this very simple query to start:
 
 ```sql
 -- Simple: Count Slovak patents by year
-SELECT 
+SELECT
     SUBSTR(CAST(filing_date AS STRING), 1, 4) as year,
     COUNT(*) as slovak_patents
 FROM `patents-public-data.patents.publications`
@@ -116,7 +116,7 @@ ORDER BY year DESC
 Alternative approaches:
 1. Try **Google Patents** website directly: https://patents.google.com
    - Advanced search → Inventor country: Slovakia AND China
-   
+
 2. Try **The Lens** (free with registration): https://www.lens.org
    - Search: inventor.residence.country:"SK" AND inventor.residence.country:"CN"
 

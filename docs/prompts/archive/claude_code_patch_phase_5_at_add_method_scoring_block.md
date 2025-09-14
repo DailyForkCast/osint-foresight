@@ -38,4 +38,3 @@
 5) **Commit:** `chore(AT/P5): add Method & Scoring block to standardize edge reading`
 
 **Optional follow‑up:** If headings differ, place the block immediately after the line: `## Scope & Inputs`. If neither anchor is present, append to the top after front‑matter.
-

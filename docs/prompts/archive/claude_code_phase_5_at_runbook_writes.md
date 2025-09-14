@@ -19,22 +19,22 @@ Render Austria’s **International Links & Collaboration** layer, enforce the **
 ## 3) Create/update Phase‑5 TSVs (idempotent)
 Create these (with headers). If no rows yet, add a `notes` column with `no_data_yet=true`.
 
-- `data/processed/country=AT/international_links.tsv`  
+- `data/processed/country=AT/international_links.tsv`
   Columns: `sector,counterpart_name,counterpart_country,collab_type,year,why_relevant,notes`
 
-- `data/processed/country=AT/phase5_heat.tsv`  
+- `data/processed/country=AT/phase5_heat.tsv`
   Columns: `country,cluster_id,cluster_name,heat_0_3,last_signal,why,notes`
 
-- `data/processed/country=AT/prc_screen.tsv`  
-  Columns: `counterpart_name,counterpart_country,flag_type,evidence_ref,why_it_matters,notes`  
+- `data/processed/country=AT/prc_screen.tsv`
+  Columns: `counterpart_name,counterpart_country,flag_type,evidence_ref,why_it_matters,notes`
   **Mandatory** to run for every salient counterpart. Signals‑only. **Exclude US persons.**
 
-- `data/processed/country=AT/phase5_vignettes.tsv`  
+- `data/processed/country=AT/phase5_vignettes.tsv`
   Columns: `rank,counterpart_name,counterpart_country,vignette_type,vignette_120w,rationale,evidence_refs,notes`
 
 ## 4) Populate from existing data (if available)
 - Append edges from `relationships.csv` to `international_links.tsv` (dedupe on `sector+counterpart+year`).
-- Derive `phase5_heat.tsv` by grouping on `counterpart_country × cluster` with simple rule:  
+- Derive `phase5_heat.tsv` by grouping on `counterpart_country × cluster` with simple rule:
   `heat = min(3, 1 + recent_edge + diversity)` where `recent_edge` = 1 if last 24 months; `diversity` = 1 if ≥2 link types.
 
 ## 5) **Mandatory PRC entities screen**
@@ -44,7 +44,7 @@ For each **unique counterpart** (non‑AT) in `international_links.tsv`, screen 
 Draft short vignettes for the most **promising/concerning** relationships. If none are concerning, explicitly state that. Store in `phase5_vignettes.tsv`.
 
 ## 7) Evidence register
-For any page or PDF saved, append to `data/evidence_register.tsv`:  
+For any page or PDF saved, append to `data/evidence_register.tsv`:
 `id,country,type,title,issuer_or_site,url,retrieved_at,sha256,anchor_hash,notes`.
 
 ## 8) Health & report tasks
@@ -78,4 +78,3 @@ make reports-init COUNTRY=AT
 
 ### Note on sanctions/legal overlay
 If a counterpart (or parent) appears on **EU/UK/CA/AU/NZ/UN** lists, record it in `sanctions_hits.csv` with links and dates; **exclude US persons**. Treat as signals only.
-

@@ -28,21 +28,21 @@ Comprehensive supply chain analysis using multiple free data sources to replace 
 ### 3. National Statistics Agencies
 ```yaml
 priority_countries:
-  Germany: 
+  Germany:
     agency: Destatis
     url: https://www-genesis.destatis.de/
     api: GENESIS-Online API
-  
+
   France:
-    agency: INSEE  
+    agency: INSEE
     url: https://www.insee.fr/en/accueil
     api: Sirene API
-  
+
   Netherlands:
     agency: CBS
     url: https://opendata.cbs.nl/
     api: CBS Open Data API
-  
+
   Austria:
     agency: Statistik Austria
     url: https://www.statistik.at/
@@ -95,7 +95,7 @@ def track_supply_route(origin_port, destination_port):
    - Corporate hierarchy (limited)
    - API: https://www.gleif.org/lei-data/
 
-2. **EU Business Registers** 
+2. **EU Business Registers**
    - Basic company information
    - **Portal**: https://e-justice.europa.eu/
    - **EBRA Network**: https://ebra.be/
@@ -132,7 +132,7 @@ limited_free:
 ### National Procurement Portals
 ```yaml
 high_value_sources:
-  Germany: 
+  Germany:
     - vergabe24.de
     - evergabe-online.de
   France:
@@ -145,7 +145,7 @@ high_value_sources:
 
 ### Usage for Supply Chain Analysis
 - Map government suppliers by sector
-- Identify critical technology providers  
+- Identify critical technology providers
 - Track contract awards over time
 - Analyze supplier concentration
 
@@ -192,25 +192,25 @@ high_value_sources:
 ```python
 # Comprehensive supply chain intelligence
 class SupplyChainIntelligence:
-    
+
     def analyze_country_dependencies(self, country_code):
         """Multi-source supply chain analysis"""
-        
+
         # 1. Trade flows (WITS + Eurostat)
         trade_data = self.get_trade_flows(country_code)
-        
+
         # 2. Shipping routes (AIS data)
         shipping_data = self.get_shipping_routes(country_code)
-        
+
         # 3. Procurement contracts (TED + national)
         procurement_data = self.get_procurement_awards(country_code)
-        
+
         # 4. Research networks (OpenAlex, CORDIS)
         research_networks = self.get_research_collaboration(country_code)
-        
+
         # 5. Company networks (GLEIF, business registers)
         company_data = self.get_company_networks(country_code)
-        
+
         return self.synthesize_intelligence(
             trade_data, shipping_data, procurement_data,
             research_networks, company_data
@@ -267,7 +267,7 @@ class SupplyChainIntelligence:
 # WITS trade data
 python -m src.pulls.wits_pull --country AT --years 2020-2024
 
-# Eurostat detailed data  
+# Eurostat detailed data
 python -m src.pulls.eurostat_pull --country AT --monthly
 
 # National statistics

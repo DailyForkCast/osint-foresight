@@ -14,17 +14,17 @@ Produce the Phase 2S Supply‑Chain snapshot for Austria and create/update TSVs 
 ## 2) Create TSVs (idempotent)
 Create these with headers; include a `notes` column. If empty, either leave 0 rows or include one `no_data_yet=true` row.
 
-- `data/processed/country=AT/supply_nodes.tsv`  
+- `data/processed/country=AT/supply_nodes.tsv`
   Columns: `node_id,node_type,name,location,role,relevance_note,notes`
 
-- `data/processed/country=AT/exposure_vectors.tsv`  
+- `data/processed/country=AT/exposure_vectors.tsv`
   Columns: `vector_id,vector_type,description,likely_goods_or_knowledge,detection_anchor,related_phases,severity_1to3,likelihood_LMH,confidence_LMH,notes`
 
-- `data/processed/country=AT/logistics_routes.tsv`  
+- `data/processed/country=AT/logistics_routes.tsv`
   Columns: `route_id,origin,via,destination,mode,goods_class,notes`
 
-- (Optional overlay) `data/processed/country=AT/supplychain_sanctions.csv`  
-  Columns: `list_name,entity_name,country,link,last_check,notes`  
+- (Optional overlay) `data/processed/country=AT/supplychain_sanctions.csv`
+  Columns: `list_name,entity_name,country,link,last_check,notes`
   **Exclude US persons**; signals‑only.
 
 ## 3) Optional pulls to support this phase
@@ -62,4 +62,3 @@ Add a convenience task to run the TSV bootstrap for 2S:
 }
 ```
 (Replace hard‑coded `AT` with `${input:countryCode}` if you prefer.)
-

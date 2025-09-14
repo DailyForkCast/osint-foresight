@@ -1,0 +1,21 @@
+signal_id,date,source,entity,category,value_eur,description,china_link,risk_level
+PS001,2024-01-15,MEPA,MoD,UAV Systems,12500000,Medium altitude long endurance UAV tender,Possible component sourcing,MEDIUM
+PS002,2024-02-28,TED,Leonardo,Semiconductors,45000000,Radiation-hardened chip procurement,None identified,LOW
+PS003,2024-03-10,Company Filing,Fincantieri,Steel,89000000,Special steel for submarine hulls,Chinese suppliers bid,HIGH
+PS004,2024-03-22,CONSIP,ACN,Cybersecurity,23400000,National SOC equipment upgrade,Huawei explicitly excluded,LOW
+PS005,2024-04-05,ASI,Thales Alenia,Satellite Components,67000000,Solar panels and batteries for IRIDE,Chinese subcontractors possible,MEDIUM
+PS006,2024-04-18,Regional,Piedmont,5G Infrastructure,156000000,5G network rollout Phase 2,ZTE equipment assessment,HIGH
+PS007,2024-05-02,MEPA,Navy,Combat Systems,234000000,Frigate combat system modernization,None identified,LOW
+PS008,2024-05-20,TED,ENEA,Quantum Computing,12000000,Quantum computer components,Limited Chinese options,LOW
+PS009,2024-06-01,Company Filing,STMicroelectronics,Raw Materials,78000000,Rare earth elements for chip production,85% China sourced,CRITICAL
+PS010,2024-06-15,CONSIP,MIT,Smart Cities,345000000,National smart city platform,Chinese IoT devices risk,MEDIUM
+PS011,2024-07-03,ASI,Avio,Propulsion,56000000,Vega-E engine components,None identified,LOW
+PS012,2024-07-22,MEPA,Air Force,Training Systems,34000000,Flight simulator upgrade,Chinese display components,MEDIUM
+PS013,2024-08-05,TED,Leonardo DRS,Electronics,89000000,Military-grade electronics procurement,Supply chain screening required,MEDIUM
+PS014,2024-08-19,Regional,Sicily,Port Infrastructure,234000000,Port automation systems,COSCO involvement assessed,HIGH
+PS015,2024-09-02,Company Filing,Iveco Defence,Vehicles,167000000,Armored vehicle program,Battery systems from Asia,MEDIUM
+PS016,2024-09-10,MEPA,Carabinieri,Communications,45000000,Secure communications upgrade,No Chinese equipment allowed,LOW
+PS017,2024-09-15,ASI,e-GEOS,Earth Observation,23000000,Ground station equipment,None identified,LOW
+PS018,2024-09-20,TED,Elettronica,EW Systems,78000000,Electronic warfare components,Critical components screening,MEDIUM
+PS019,2024-09-25,CONSIP,Health Ministry,Medical Devices,456000000,National health digitalization,Chinese medical tech assessed,MEDIUM
+PS020,2024-09-28,Company Filing,Telespazio,Satellite Services,34000000,Satellite communication terminals,Component origin verification,MEDIUM

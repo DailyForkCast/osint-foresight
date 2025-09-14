@@ -70,7 +70,7 @@ WHERE sk.country = 'SK'
 
 ### Query 2: Technology Domain Analysis
 ```sql
-SELECT 
+SELECT
   topic_code,
   topic_description,
   COUNT(*) as project_count,
@@ -84,7 +84,7 @@ ORDER BY total_funding DESC
 
 ### Query 3: Institution Risk Profile
 ```sql
-SELECT 
+SELECT
   organization_name,
   COUNT(DISTINCT project_id) as total_projects,
   SUM(CASE WHEN has_chinese_partner THEN 1 ELSE 0 END) as china_projects,

@@ -11,13 +11,13 @@ from datetime import datetime
 
 def initialize_f_drive():
     """Set up F: drive for OSINT data collection"""
-    
+
     print("=" * 60)
     print("OSINT FORESIGHT - F: DRIVE INITIALIZATION")
     print("=" * 60)
-    
+
     base_dir = Path('F:/OSINT_Data')
-    
+
     # All 44 countries
     countries = [
         'AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR',
@@ -25,21 +25,21 @@ def initialize_f_drive():
         'SI', 'ES', 'SE', 'IS', 'NO', 'CH', 'AL', 'BA', 'XK', 'ME', 'MK', 'RS',
         'TR', 'MD', 'UA', 'GB', 'AM', 'AZ', 'GE'
     ]
-    
+
     # Data sources
     sources = [
         'crossref', 'crossref_events', 'worldbank', 'oecd', 'eurostat',
         'cordis', 'ted', 'gleif', 'ietf', 'patents', 'openaire',
         'commoncrawl', 'vessel_tracking', 'procurement', 'national_stats'
     ]
-    
+
     print(f"\nTarget directory: {base_dir}")
     print(f"Countries: {len(countries)}")
     print(f"Data sources: {len(sources)}")
-    
+
     # Create main structure
     print("\nCreating directory structure...")
-    
+
     directories = {
         'raw': 'Raw data from sources',
         'processed': 'Cleaned and normalized data',
@@ -52,34 +52,34 @@ def initialize_f_drive():
         'cache': 'Temporary cache',
         'config': 'Configuration files'
     }
-    
+
     for dir_name, description in directories.items():
         dir_path = base_dir / dir_name
         dir_path.mkdir(parents=True, exist_ok=True)
         print(f"  ✓ {dir_name:15} - {description}")
-    
+
     # Create country-specific directories
     print("\nCreating country directories...")
-    
+
     for country in countries:
         # Raw data directories
         for source in sources:
             path = base_dir / 'raw' / f'country={country}' / f'source={source}'
             path.mkdir(parents=True, exist_ok=True)
-        
+
         # Processed data directories
         proc_path = base_dir / 'processed' / f'country={country}'
         proc_path.mkdir(parents=True, exist_ok=True)
-        
+
         # Reports directory
         report_path = base_dir / 'reports' / f'country={country}'
         report_path.mkdir(parents=True, exist_ok=True)
-        
+
         print(f"  ✓ {country} directories created")
-    
+
     # Create configuration file
     print("\nCreating configuration...")
-    
+
     config = {
         'initialized': datetime.now().isoformat(),
         'version': '1.0',
@@ -98,12 +98,12 @@ def initialize_f_drive():
             'yearly': ['openalex']
         }
     }
-    
+
     config_file = base_dir / 'config' / 'master_config.json'
     with open(config_file, 'w') as f:
         json.dump(config, f, indent=2)
     print(f"  ✓ Configuration saved to {config_file}")
-    
+
     # Create initial state file
     state = {
         'last_pulls': {},
@@ -116,15 +116,15 @@ def initialize_f_drive():
             'total_data_gb': 0
         }
     }
-    
+
     state_file = base_dir / 'orchestrator_state.json'
     with open(state_file, 'w') as f:
         json.dump(state, f, indent=2)
     print(f"  ✓ State file created at {state_file}")
-    
+
     # Create README
     readme_content = f"""# OSINT Foresight Data Repository
-    
+
 ## Overview
 This directory contains all data collected for the OSINT Foresight project.
 
@@ -173,17 +173,17 @@ python src/pulls/master_pull_orchestrator.py --source worldbank --country AT
 Project: OSINT Foresight
 Updated: {datetime.now().strftime('%Y-%m-%d')}
 """
-    
+
     readme_file = base_dir / 'README.md'
     with open(readme_file, 'w') as f:
         f.write(readme_content)
     print(f"  ✓ README created at {readme_file}")
-    
+
     # Calculate storage requirements
     print("\n" + "=" * 60)
     print("STORAGE REQUIREMENTS ESTIMATE")
     print("=" * 60)
-    
+
     estimates = {
         'Per country per month': '2-5 GB',
         'All countries per month': '100-200 GB',
@@ -192,27 +192,27 @@ Updated: {datetime.now().strftime('%Y-%m-%d')}
         'First year estimate': '1.5-2 TB',
         'Recommended space': '2-3 TB'
     }
-    
+
     for item, size in estimates.items():
         print(f"  {item:25} : {size}")
-    
+
     # Check available space
     try:
         usage = shutil.disk_usage('F:/')
         total_gb = usage.total / (1024**3)
         free_gb = usage.free / (1024**3)
         used_pct = (usage.used / usage.total) * 100
-        
+
         print(f"\nF: Drive Status:")
         print(f"  Total: {total_gb:.1f} GB")
         print(f"  Free:  {free_gb:.1f} GB")
         print(f"  Used:  {used_pct:.1f}%")
-        
+
         if free_gb < 2000:
             print(f"\n⚠ Warning: Only {free_gb:.1f} GB free. Recommended: 2000+ GB")
     except:
         print("\n⚠ Could not check F: drive space")
-    
+
     print("\n" + "=" * 60)
     print("INITIALIZATION COMPLETE!")
     print("=" * 60)

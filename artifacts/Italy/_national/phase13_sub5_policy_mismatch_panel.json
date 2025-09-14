@@ -1,0 +1,96 @@
+{
+  "policy_implementation_gaps": [
+    {
+      "policy": "National AI Strategy",
+      "stated_goal": "AI sovereignty and leadership",
+      "actual_implementation": "Heavy reliance on foreign AI models",
+      "gap_severity": "CRITICAL",
+      "recommendations": ["Develop national LLM", "Increase compute investment", "Talent retention program"]
+    },
+    {
+      "policy": "Golden Power",
+      "stated_goal": "Protect strategic assets from foreign control",
+      "actual_implementation": "Selective enforcement, complex workarounds exist",
+      "gap_severity": "HIGH",
+      "recommendations": ["Strengthen enforcement", "Close loopholes", "Enhance monitoring"]
+    },
+    {
+      "policy": "Defense spending commitment",
+      "stated_goal": "2% GDP by 2028",
+      "actual_implementation": "Trajectory reaches only 1.6%",
+      "gap_severity": "HIGH",
+      "recommendations": ["Multi-year budget commitment", "Efficiency gains", "NATO burden sharing"]
+    },
+    {
+      "policy": "Research security",
+      "stated_goal": "Protect sensitive research",
+      "actual_implementation": "No systematic program",
+      "gap_severity": "CRITICAL",
+      "recommendations": ["Mandatory awareness training", "Disclosure requirements", "Monitoring system"]
+    },
+    {
+      "policy": "Digital sovereignty",
+      "stated_goal": "Reduce foreign tech dependence",
+      "actual_implementation": "Increasing cloud dependencies",
+      "gap_severity": "HIGH",
+      "recommendations": ["Accelerate sovereign cloud", "Open source adoption", "European cooperation"]
+    }
+  ],
+  "cross_phase_contradictions": [
+    {
+      "phases": ["Phase 3", "Phase 9"],
+      "issue": "Technology autonomy claims vs actual dependencies",
+      "resolution": "Acknowledge reality, set realistic targets"
+    },
+    {
+      "phases": ["Phase 6", "Phase 8"],
+      "issue": "Funding availability vs risk mitigation needs",
+      "resolution": "Prioritize critical capabilities"
+    },
+    {
+      "phases": ["Phase 5", "Phase 7"],
+      "issue": "Institution capabilities vs international commitments",
+      "resolution": "Capacity building program"
+    }
+  ],
+  "systemic_issues": [
+    {
+      "issue": "Policy fragmentation",
+      "description": "Multiple strategies without coordination",
+      "impact": "Inefficient resource use",
+      "solution": "National Security Technology Council"
+    },
+    {
+      "issue": "Implementation capacity",
+      "description": "Ambitious goals with limited execution capability",
+      "impact": "Chronic underdelivery",
+      "solution": "Implementation task forces"
+    },
+    {
+      "issue": "Political discontinuity",
+      "description": "Policy changes with governments",
+      "impact": "Long-term planning impossible",
+      "solution": "Bipartisan security consensus"
+    }
+  ],
+  "priority_alignments_needed": [
+    {
+      "area": "China policy",
+      "current": "Fragmented approach",
+      "needed": "Comprehensive strategy",
+      "timeline": "2024-2025"
+    },
+    {
+      "area": "Technology sovereignty",
+      "current": "Aspirational",
+      "needed": "Realistic roadmap",
+      "timeline": "2025-2030"
+    },
+    {
+      "area": "NATO commitments",
+      "current": "Partial compliance",
+      "needed": "Full integration",
+      "timeline": "2025-2028"
+    }
+  ]
+}

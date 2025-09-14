@@ -16,7 +16,7 @@
 - **Assessment**: Limited exposure, targeted intervention possible
 - **Solution**: Selective security measures for specific institutions
 
-#### Scenario B: If Slovakia has 250 total partnerships  
+#### Scenario B: If Slovakia has 250 total partnerships
 - China = 45.2% (113/250)
 - **Assessment**: CRITICAL penetration, systemic compromise
 - **Solution**: Emergency nationwide intervention required
@@ -178,7 +178,7 @@ Instead of:
 Use:
 "70 patents with China out of [TOTAL] = [X%]
 - If X > 20%: CRITICAL
-- If X > 10%: HIGH  
+- If X > 10%: HIGH
 - If X > 5%: MODERATE
 - If X < 5%: MONITOR"
 ```

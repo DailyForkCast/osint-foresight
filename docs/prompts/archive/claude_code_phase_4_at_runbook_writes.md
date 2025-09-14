@@ -14,22 +14,22 @@ Create the **Funding & Instruments** layer for Austria. Prefer free sources; deg
 ## 2) Create TSV/CSV scaffolds (idempotent)
 Create these files with headers (append if exist). If empty, add one row with `notes=no_data_yet=true`.
 
-- `data/processed/country=AT/funders.tsv`  
+- `data/processed/country=AT/funders.tsv`
   Columns: `funder_id,name,org_type,level,website,mandate_summary,notes`
 
-- `data/processed/country=AT/instruments.tsv`  
+- `data/processed/country=AT/instruments.tsv`
   Columns: `instrument_id,name,type,typical_ticket,maturity,cofunding?,why_it_matters,notes`
 
-- `data/processed/country=AT/programs.csv`  
+- `data/processed/country=AT/programs.csv`
   Columns: `program_id,funder_id,title,year,topic_tags,url,at_participation,notes`
 
-- `data/processed/country=AT/calls.tsv`  
+- `data/processed/country=AT/calls.tsv`
   Columns: `call_id,funder_id,title,open_date,close_date,topics,url,notes`
 
-- `data/processed/country=AT/grant_partners.tsv`  
+- `data/processed/country=AT/grant_partners.tsv`
   Columns: `edge_id,program_id,partner_name,partner_country,role,why_relevant,notes`
 
-- `data/processed/country=AT/funding_signals.tsv`  
+- `data/processed/country=AT/funding_signals.tsv`
   Columns: `window,signal_summary,likely_driver,notes`
 
 ## 3) Optional: CORDIS pull (free) — if the pull module exists
@@ -47,7 +47,7 @@ If you don’t have a puller for national funders yet, do a **manual pass**:
 Record URLs and dates, and append the sources to `data/evidence_register.tsv`.
 
 ## 5) Evidence register
-For each portal page saved, append to `data/evidence_register.tsv`:  
+For each portal page saved, append to `data/evidence_register.tsv`:
 `id,country,type,title,issuer_or_site,url,retrieved_at,sha256,anchor_hash,notes`.
 
 ## 6) Health & report tasks
@@ -83,4 +83,3 @@ make reports-init COUNTRY=AT
 
 ### Sanctions/legal overlay (signals‑only; **non‑US persons**)
 If any consortium partner or intermediary appears on EU/UK/CA/AU/NZ/UN lists, record as **signals** in `sanctions_hits.csv` with explicit source links and dates. **Exclude US persons** entirely.
-

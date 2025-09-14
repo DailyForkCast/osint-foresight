@@ -42,4 +42,3 @@ Use 1–5 **Impact** and 1–5 **Likelihood**; compute cell score = Impact × Li
 5) **Commit:** `chore(AT/P6): add risk taxonomy + L×I heat snapshot`
 
 **Optional follow‑up:** If the rubric heading differs, search for `## Scoring Rubric` and place the block immediately after it.
-

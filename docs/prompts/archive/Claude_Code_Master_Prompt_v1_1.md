@@ -1,6 +1,6 @@
 
 # Claude Code Master Prompt — v1.1 (Patched)
-**Updated:** 2025-09-12 01:00:27  
+**Updated:** 2025-09-12 01:00:27
 **Purpose:** Execute the data-heavy lifting that feeds the ChatGPT Master Prompt v3.1 (MCF-enabled). Produce validated JSON/CSV artifacts with strict schemas, enforced evidence rules, and alignment to the analysis phases.
 
 ---

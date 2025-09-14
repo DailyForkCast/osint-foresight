@@ -134,12 +134,12 @@ S6	Brain drain to higher-paying markets	Researcher departures; project delays	Ca
 ---
 
 ## H) Red‑Team Verdict (snapshot)
-- **Most fragile assumptions:** 
+- **Most fragile assumptions:**
   - A1 (allocation effect on AI): Infrastructure exists but usage unclear
   - A2 (unconfirmed EMC/GNSS scopes): Critical capability unverified
   - A6 (conference → strength): One-time events vs sustained capability
-  
-- **Highest‑value discriminators:** 
+
+- **Highest‑value discriminators:**
   - CORDIS export for partnership density
   - Accreditation capture for real capabilities
   - Allocation data for actual compute usage

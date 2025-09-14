@@ -11,7 +11,7 @@ Network analysis of Slovakia's top 20 research institutions reveals concerning f
 
 ### Risk Distribution
 - **RED (1)**: Huawei Technologies Slovakia
-- **AMBER-RED (1)**: Slovak University of Technology Bratislava  
+- **AMBER-RED (1)**: Slovak University of Technology Bratislava
 - **AMBER (7)**: SAS, Comenius, TUKE, UNIZA, QUTE.sk, Inst. Informatics, Inst. Physics
 - **GREEN-AMBER (1)**: Volkswagen Slovakia
 - **Unrated (10)**: Other institutions
@@ -123,7 +123,7 @@ Network analysis of Slovakia's top 20 research institutions reveals concerning f
 - Integration index: 0.45
 - Risk level: Medium
 
-### 2021-2023: Expansion Phase  
+### 2021-2023: Expansion Phase
 - China nodes: 5
 - Integration index: 0.50
 - Risk level: Medium-High

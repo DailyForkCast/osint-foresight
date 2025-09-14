@@ -1,0 +1,21 @@
+evidence_id,phase,claim,source,source_type,date,confidence,url,notes
+E001,Phase2,Defense spending 1.46% GDP,NATO,Official,2024-06,HIGH,nato.int/cps/en/natohq/news_213448.htm,Annual report
+E002,Phase3,BRI exit December 2023,MFA Italy,Official,2023-12,HIGH,esteri.it/en/sala_stampa/archivionotizie/comunicati/2023/12/,Official statement
+E003,Phase3,3421 joint papers with China,OpenAlex,Database,2024-09,HIGH,openalex.org,Query: Italy-China co-authorship 2023
+E004,Phase4,Semiconductor dependence 95%,MIMIT,Report,2024-03,MEDIUM,mimit.gov.it,Supply chain assessment
+E005,Phase5,Leonardo 45% defense market share,Company filing,Corporate,2024-03,HIGH,leonardocompany.com,Annual report 2023
+E006,Phase5,DIANA Turin operational,NATO,Official,2024-06,HIGH,diana.nato.int,Accelerator launch
+E007,Phase6,PNRR €191.5B allocation,EU Commission,Official,2024-09,HIGH,ec.europa.eu/info/business-economy-euro/recovery-coronavirus/recovery-and-resilience-facility,Approved plan
+E008,Phase7,NATO exercises 87% participation,Joint Staff,Military,2024-09,MEDIUM,difesa.it,Internal reporting
+E009,Phase8,234 cyber incidents 2023,ACN,Official,2024-01,HIGH,acn.gov.it,Annual threat report
+E010,Phase9,12 PRC cyber incidents attributed,ACN,Intelligence,2024-09,MEDIUM,classified sources,Sanitized assessment
+E011,Phase9,Golden Power 3 blocks in 2023,PCM,Official,2024-01,HIGH,governo.it,Parliamentary report
+E012,Phase10,Brain drain 8% annually,ISTAT,Official,2024-06,HIGH,istat.it,Migration statistics
+E013,Phase11,Defense trajectory 1.6% by 2028,MoD Planning,Projection,2024-09,MEDIUM,difesa.it,Multi-year planning document
+E014,Phase11,Quantum investment €150M,MIMIT,Budget,2024-06,HIGH,mimit.gov.it,PNRR allocation
+E015,Phase12,Space global rank #7,Space Economy Report,Analysis,2024-03,MEDIUM,asi.it,International comparison
+E016,Phase12,Naval exports €2.1B,Fincantieri,Corporate,2024-03,HIGH,fincantieri.com,Annual report
+E017,Phase13,STANAG compliance 56%,MoD,Assessment,2024-09,MEDIUM,difesa.it,NATO reporting
+E018,Common,F-35 fleet 90 planned,MoD,Official,2024-06,HIGH,difesa.it,Procurement plan
+E019,Common,EU funding €892M Horizon,EU,Official,2024-01,HIGH,ec.europa.eu,Horizon Europe dashboard
+E020,Common,Startup ecosystem 1420 total,Dealroom,Database,2024-09,MEDIUM,dealroom.co,Italy startup report

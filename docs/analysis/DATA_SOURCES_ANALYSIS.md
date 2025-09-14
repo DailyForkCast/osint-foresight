@@ -4,7 +4,7 @@
 
 ### ✅ Already Implemented (Have Pull Scripts)
 1. **OpenAIRE** - Research publications & projects
-2. **CrossRef** - Publications metadata & Event Data  
+2. **CrossRef** - Publications metadata & Event Data
 3. **IETF Datatracker** - Standards participation
 4. **GLEIF** - Legal Entity Identifiers
 5. **CORDIS** - EU research projects
@@ -17,7 +17,7 @@
 
 ## Detailed Analysis of Remaining Sources
 
-### 1. **OpenAlex** 
+### 1. **OpenAlex**
 - **Cost**: FREE
 - **Size**: ~300GB compressed
 - **CLI**: AWS CLI (no account needed)
@@ -79,7 +79,7 @@ pip install wbgapi
 - **Data**: Trademarks, designs
 - **Priority**: LOW - Manual process
 
-### 7. **EPO PATSTAT** 
+### 7. **EPO PATSTAT**
 - **Cost**: FREE for online queries
 - **API**: OPS API (limited)
 - **CLI**: Can build with epo-ops Python package
@@ -147,8 +147,8 @@ pip install python-epo-ops-client
 # 1. TED API - EU Procurement
 python -m src.pulls.ted_pull --country AT --years 2020-2025
 
-# 2. UN Comtrade - Trade flows  
-python -m src.pulls.comtrade_pull --country AT --products "84,85,90" 
+# 2. UN Comtrade - Trade flows
+python -m src.pulls.comtrade_pull --country AT --products "84,85,90"
 
 # 3. World Bank - Economic indicators
 python -m src.pulls.worldbank_pull --country AT --indicators "NY.GDP.MKTP.CD"
@@ -188,10 +188,10 @@ aws s3 sync "s3://openalex" "F:/OSINT_Backups/openalex" --no-sign-request
 ## Cost Summary
 
 **Total cost for all sources**: $0 (all free)
-**Storage needed**: 
+**Storage needed**:
 - OpenAlex: 300GB
 - Other sources: <10GB total
-**Rate limits**: 
+**Rate limits**:
 - UN Comtrade: 100/hour
 - TED: Reasonable use
 - World Bank: 120 requests/minute

@@ -1,0 +1,254 @@
+# Regional Data Source Configuration
+# Region-agnostic ordering with appropriate fallbacks
+# Version: 1.0
+# Last Updated: 2025-09-13
+
+# Procurement data sources by region
+procurement_sources:
+  default:
+    priority_order:
+      - national_procurement_portal
+      - regional_procurement_system
+      - international_tenders
+    description: "Default procurement source hierarchy"
+
+  EU:
+    priority_order:
+      - national_procurement_portal  # Each EU country's national system
+      - TED  # Tenders Electronic Daily (EU-wide)
+      - regional_portals  # Regional/municipal systems
+    endpoints:
+      TED: https://ted.europa.eu/api/v2.0
+      national_mapping:
+        DE: https://www.service.bund.de
+        FR: https://www.boamp.fr
+        IT: https://www.acquistinretepa.it
+        ES: https://contrataciondelestado.es
+        PL: https://ezamowienia.gov.pl
+
+  US:
+    priority_order:
+      - SAM.gov  # System for Award Management
+      - USASpending.gov
+      - state_procurement_portals
+      - FedBizOpps_archive
+    endpoints:
+      SAM: https://api.sam.gov
+      USASpending: https://api.usaspending.gov
+
+  UK:
+    priority_order:
+      - Contracts_Finder
+      - Find_a_Tender  # Post-Brexit replacement for TED
+      - Scotland_Public_Contracts
+      - Wales_Sell2Wales
+    endpoints:
+      Contracts_Finder: https://www.contractsfinder.service.gov.uk
+      Find_a_Tender: https://www.find-tender.service.gov.uk
+
+  Canada:
+    priority_order:
+      - MERX
+      - BuyAndSell.gc.ca
+      - provincial_systems
+    endpoints:
+      MERX: https://www.merx.com
+      BuyAndSell: https://buyandsell.gc.ca
+
+  Australia:
+    priority_order:
+      - AusTender
+      - state_territory_portals
+    endpoints:
+      AusTender: https://www.tenders.gov.au
+
+  Asia_Pacific:
+    priority_order:
+      - national_procurement_portal
+      - APEC_procurement_network
+      - regional_systems
+    country_specific:
+      JP: https://www.p-portal.go.jp
+      KR: https://www.g2b.go.kr
+      SG: https://www.gebiz.gov.sg
+      IN: https://eprocure.gov.in
+
+# Research funding sources by region
+funding_sources:
+  default:
+    priority_order:
+      - national_research_council
+      - national_science_foundation
+      - ministry_of_science
+      - university_grants
+      - industrial_funding
+
+  EU:
+    priority_order:
+      - national_funders  # DFG, CNRS, etc. come first
+      - CORDIS  # EU Framework programmes
+      - ERC  # European Research Council
+      - regional_funds
+    national_funders:
+      DE: [DFG, BMBF, MPG, Fraunhofer]
+      FR: [ANR, CNRS, INRIA, CEA]
+      UK: [UKRI, Wellcome, Royal_Society]  # UK still relevant for collaboration
+      NL: [NWO, TNO, KNAW]
+      CH: [SNSF, Innosuisse]  # Switzerland (associated country)
+      AT: [FWF, FFG, WWTF]
+
+  US:
+    priority_order:
+      - NSF  # National Science Foundation
+      - NIH  # National Institutes of Health
+      - DOE  # Department of Energy
+      - DOD  # Department of Defense (DARPA, ONR, AFOSR, ARO)
+      - NASA
+      - private_foundations
+    endpoints:
+      NSF: https://api.nsf.gov
+      NIH: https://api.reporter.nih.gov
+      Grants.gov: https://www.grants.gov
+
+  Asia_Pacific:
+    priority_order:
+      - national_agencies
+      - bilateral_programs
+      - regional_networks
+    country_specific:
+      JP: [JSPS, JST, NEDO, AMED]
+      CN: [NSFC, CAS, MOST]
+      KR: [NRF, KIST, ETRI]
+      AU: [ARC, NHMRC, CSIRO]
+      SG: [A*STAR, NRF]
+
+# Patent data sources (global)
+patent_sources:
+  global:
+    priority_order:
+      - Google_Patents_BigQuery  # Most comprehensive, free
+      - EPO_OPS  # European Patent Office (covers global)
+      - USPTO  # US Patent and Trademark Office
+      - WIPO_Global  # World Intellectual Property Organization
+      - national_offices
+    endpoints:
+      Google_BQ: "bigquery://patents-public-data"
+      EPO_OPS: https://ops.epo.org/3.2/rest-services
+      USPTO: https://developer.uspto.gov/api-catalog
+      WIPO: https://www.wipo.int/patentscope
+
+# Standards organizations (global)
+standards_sources:
+  global:
+    priority_order:
+      - ISO  # International Organization for Standardization
+      - IEC  # International Electrotechnical Commission
+      - ITU  # International Telecommunication Union
+      - IEEE  # Institute of Electrical and Electronics Engineers
+      - IETF  # Internet Engineering Task Force
+      - regional_bodies
+    regional_bodies:
+      EU: [CEN, CENELEC, ETSI]
+      US: [ANSI, NIST]
+      Asia: [JIS, GB, KS]
+
+# Academic/Research data sources (global)
+academic_sources:
+  global:
+    priority_order:
+      - OpenAlex  # Most comprehensive, free
+      - Crossref  # DOI registration agency
+      - arXiv  # Preprints
+      - PubMed  # Biomedical
+      - regional_aggregators
+    regional_aggregators:
+      EU: [OpenAIRE, CORE_UK]
+      US: [PubMed_Central, DTIC]
+      Asia: [J-STAGE, CNKI, KISS]
+
+# Corporate/Organization data sources
+organization_sources:
+  global:
+    priority_order:
+      - GLEIF  # Legal Entity Identifiers (global)
+      - national_registries
+      - commercial_databases
+    national_registries:
+      default: national_companies_registry
+      UK: Companies_House
+      US: SEC_EDGAR
+      DE: Unternehmensregister
+      FR: INSEE
+
+# Trade data sources
+trade_sources:
+  global:
+    priority_order:
+      - UN_Comtrade  # United Nations
+      - World_Bank_WITS
+      - WTO_Stats
+      - regional_databases
+    regional_databases:
+      EU: Eurostat_COMEXT
+      US: USA_Trade_Online
+      Asia: Asia_Regional_Integration_Center
+
+# Configuration usage rules
+usage_rules:
+  - description: "Always check national sources before regional/global"
+  - description: "Use region-appropriate terminology in outputs"
+  - description: "Maintain source diversity (min 2 sources per claim)"
+  - description: "Document when regional source unavailable"
+  - description: "Apply standardized date/ID formats regardless of source"
+
+# Source reliability tiers
+reliability_tiers:
+  tier_1:  # Official government/UN sources
+    - national_statistics_offices
+    - UN_databases
+    - official_patent_offices
+    - government_procurement_portals
+
+  tier_2:  # Established academic/industry sources
+    - OpenAlex
+    - Crossref
+    - IEEE
+    - ISO
+
+  tier_3:  # Commercial/aggregated sources
+    - commercial_databases
+    - news_aggregators
+    - industry_reports
+
+# Neutral terminology mappings
+terminology_map:
+  # Replace region-specific terms with neutral ones
+  "EU funding": "regional funding programmes"
+  "Horizon Europe": "research framework programme"
+  "TED tender": "public procurement notice"
+  "CORDIS project": "research project"
+  "FP7/H2020/HE": "framework programme"
+  "Marie Curie": "researcher mobility programme"
+  "ERC grant": "research excellence grant"
+  "Structural funds": "regional development funds"
+
+# API rate limit summary (for quick reference)
+rate_limits_summary:
+  free_unlimited:
+    - OpenAlex (with polite email)
+    - Crossref (with polite email)
+    - arXiv
+
+  free_limited:
+    - EPO_OPS: 2.5M records/week
+    - GLEIF: 50k/day
+    - USPTO: 1000/hour
+
+  authentication_required:
+    - CORDIS: API key
+    - TED: API key
+    - Most national portals
+
+  paid_only:
+    - Commercial databases
+    - Premium aggregators

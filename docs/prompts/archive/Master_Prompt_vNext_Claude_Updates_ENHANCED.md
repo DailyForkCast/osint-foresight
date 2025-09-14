@@ -82,19 +82,19 @@ No PII or non-public sensitive details.
 ```python
 CLAUDE_RUNTIME_ENHANCED = {
   "mode": "TOOL_AUGMENTED+ONLINE_QUERY",
-  "web": { 
+  "web": {
     "method": "WebFetch+WebSearch",  # Use both tools
     "cache_ttl_min": 15,
     "websearch_for_recent": true  # Use WebSearch for <30 day content
   },
-  "io": { 
-    "fs_rw": true, 
+  "io": {
+    "fs_rw": true,
     "http_downloads": true,
     "checkpoint_saves": true  # Save progress between phases
   },
   "exec": {
     "python": true, "node": true, "bash": true, "java": true, "c_cpp": true,
-    "cmd_timeout_sec_default": 120, 
+    "cmd_timeout_sec_default": 120,
     "cmd_timeout_sec_max": 600,
     "bash_trunc_chars": 30000
   },
@@ -199,7 +199,7 @@ QA_AUTOMATION = {
   },
   "confidence_scoring": {
     "entity_confidence": "0-1",
-    "relationship_confidence": "0-1", 
+    "relationship_confidence": "0-1",
     "claim_confidence": "0-1"
   }
 }

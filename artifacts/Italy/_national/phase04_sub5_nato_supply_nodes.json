@@ -1,0 +1,70 @@
+{
+  "nspa_procurement": {
+    "total_contracts_2023": "234M EUR",
+    "italy_share": "8.3%",
+    "key_programs": [
+      {
+        "program": "NH90 sustainment",
+        "value": "45M EUR",
+        "italian_workshare": "35%"
+      },
+      {
+        "program": "MALE RPAS",
+        "value": "28M EUR",
+        "leonardo_role": "Prime contractor"
+      }
+    ]
+  },
+  "stanag_requirements": {
+    "defense_products": [
+      {
+        "product": "Military radios",
+        "required_stanags": ["STANAG 4204", "STANAG 4285", "STANAG 5066"],
+        "compliance": "Full",
+        "supplier": "Leonardo"
+      },
+      {
+        "product": "UAV systems",
+        "required_stanags": ["STANAG 4586", "STANAG 4671"],
+        "compliance": "Partial",
+        "gap": "Control interface standardization"
+      }
+    ],
+    "certification_status": {
+      "certified_facilities": 12,
+      "pending_certification": 3,
+      "bottlenecks": ["Testing capacity", "Documentation translation"]
+    }
+  },
+  "multinational_logistics": {
+    "shared_capabilities": [
+      {
+        "capability": "Strategic airlift",
+        "program": "SALIS",
+        "italian_contribution": "12 flight hours/month"
+      },
+      {
+        "capability": "Air-to-air refueling",
+        "program": "MMF",
+        "aircraft": "A330 MRTT",
+        "italian_share": "Not participating"
+      }
+    ],
+    "dependencies": [
+      {
+        "area": "Munitions supply",
+        "dependency": "NATO stock sharing",
+        "risk": "Medium",
+        "mitigation": "National stockpile increase"
+      }
+    ]
+  },
+  "framework_nation_supply": {
+    "mediterranean_framework": {
+      "lead": "Italy",
+      "participants": ["Spain", "Greece", "Turkey"],
+      "focus": ["Maritime security", "Migration", "Counter-terrorism"],
+      "supply_coordination": "Regional logistics hub planned"
+    }
+  }
+}

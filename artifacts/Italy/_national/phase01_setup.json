@@ -1,0 +1,37 @@
+{
+  "scope": {
+    "country": "Italy",
+    "geographic_focus": "national",
+    "priority_regions": [
+      "Lombardia-Milan (economic hub)",
+      "Lazio-Rome (government/defense)",
+      "Piemonte-Turin (aerospace/automotive)",
+      "Campania-Naples (naval/cyber)",
+      "Emilia-Romagna-Bologna (HPC/data)"
+    ],
+    "technology_priorities": [
+      "Space systems & Earth observation",
+      "Cybersecurity & quantum",
+      "Naval & maritime systems",
+      "Advanced manufacturing",
+      "Green energy transition"
+    ],
+    "key_questions": [
+      "How does Italy balance national defense industry with EU/NATO integration?",
+      "What is Italy's role in European space and quantum initiatives?",
+      "How vulnerable is Italy to PRC technology acquisition?",
+      "Can Italy maintain strategic autonomy in critical technologies?"
+    ]
+  },
+  "assumptions": {
+    "data_availability": "Public sources with some Italian language requirements",
+    "analytical_limits": "Limited access to defense procurement details",
+    "corroboration_rule": "≥2 sources for moderate+ claims",
+    "language_coverage": "Italian primary, English secondary, Chinese for MCF"
+  },
+  "constraints": {
+    "classification": "No classified Italian MoD documents",
+    "timeframe": "Focus on 2019-2025 policy window",
+    "regional_variations": "North-South economic disparities affect tech adoption"
+  }
+}

@@ -1,0 +1,955 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "OSINT Foresight Artifact Schemas",
+  "version": "1.0.0",
+  "definitions": {
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "ISO 8601 date format YYYY-MM-DD"
+    },
+    "yearMonth": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}$",
+      "description": "Year-month format YYYY-MM"
+    },
+    "confidence": {
+      "type": "object",
+      "properties": {
+        "score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "label": {
+          "type": "string",
+          "enum": ["Low", "Medium", "High"]
+        }
+      },
+      "required": ["score", "label"]
+    },
+    "orgId": {
+      "type": "string",
+      "pattern": "^(ROR|LEI|GRID):[A-Za-z0-9]+$"
+    },
+    "personId": {
+      "type": "string",
+      "pattern": "^ORCID:\\d{4}-\\d{4}-\\d{4}-\\d{4}$"
+    },
+    "evidenceItem": {
+      "type": "object",
+      "properties": {
+        "url": {"type": "string", "format": "uri"},
+        "date": {"$ref": "#/definitions/date"},
+        "note": {"type": "string", "maxLength": 200}
+      },
+      "required": ["url"]
+    }
+  },
+  "schemas": {
+    "phase00_taxonomy": {
+      "type": "object",
+      "properties": {
+        "taxonomy": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["AI", "semiconductors", "quantum", "biotech", "space", "materials", "autonomy", "sensing", "maritime", "smart_city"]
+          }
+        },
+        "id_policies": {
+          "type": "object",
+          "properties": {
+            "org": {"type": "string"},
+            "person": {"type": "string"},
+            "company": {"type": "string"}
+          }
+        },
+        "definitions": {
+          "type": "object",
+          "additionalProperties": {"type": "string"}
+        }
+      },
+      "required": ["taxonomy", "id_policies"]
+    },
+    "phase01_setup": {
+      "type": "object",
+      "properties": {
+        "country": {"type": "string"},
+        "region": {"type": "string"},
+        "level": {"type": "string", "enum": ["national", "subnational"]},
+        "hub": {"type": "string"},
+        "timeframe": {"type": "string"},
+        "horizons": {
+          "type": "array",
+          "items": {"type": "string", "enum": ["2y", "5y", "10y"]}
+        },
+        "priorities": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "assumptions": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "constraints": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "toggles": {
+          "type": "object",
+          "properties": {
+            "INCLUDE_MCF": {"type": "boolean"},
+            "INCLUDE_EXPORT_CONTROLS": {"type": "boolean"},
+            "INCLUDE_FINANCE_VECTORS": {"type": "boolean"},
+            "INCLUDE_SUPPLY_CHAIN": {"type": "boolean"},
+            "INCLUDE_ADVERSARY_SIM": {"type": "boolean"},
+            "INCLUDE_US_INVOLVEMENT": {"type": "boolean"}
+          }
+        }
+      },
+      "required": ["country", "level", "timeframe", "priorities"]
+    },
+    "phase01_sub5_narratives": {
+      "type": "object",
+      "properties": {
+        "narratives": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "claim": {"type": "string"},
+              "country": {"type": "string"},
+              "level": {"type": "string", "enum": ["national", "hub", "sector"]},
+              "prevalence": {
+                "type": "object",
+                "properties": {
+                  "media_index": {"type": "number", "minimum": 0, "maximum": 1},
+                  "policy_refs": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "doc": {"type": "string"},
+                        "year": {"type": "integer"}
+                      }
+                    }
+                  }
+                }
+              },
+              "policy_reactions": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "type": {"type": "string", "enum": ["legislation", "export_control", "funding", "visa", "regulation", "guidance"]},
+                    "title": {"type": "string"},
+                    "year": {"type": "integer"}
+                  }
+                }
+              },
+              "fact_check": {
+                "type": "object",
+                "properties": {
+                  "evidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "metric": {"type": "string"},
+                        "value": {"type": "string"},
+                        "period": {"type": "string"}
+                      }
+                    }
+                  },
+                  "assessment": {"type": "string", "enum": ["partly_true", "unsupported", "context_dependent", "verified", "false"]}
+                }
+              },
+              "implications": {"type": "string", "maxLength": 400},
+              "sources": {
+                "type": "array",
+                "items": {"type": "string", "format": "uri"}
+              }
+            },
+            "required": ["claim", "country", "level", "prevalence", "fact_check"]
+          }
+        }
+      }
+    },
+    "phase02_indicators": {
+      "type": "object",
+      "properties": {
+        "indicators": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {"type": "string"},
+              "name": {"type": "string"},
+              "type": {"type": "string", "enum": ["leading", "coincident", "lagging"]},
+              "source": {"type": "string"},
+              "frequency": {"type": "string", "enum": ["daily", "weekly", "monthly", "quarterly", "annual"]},
+              "latency_days": {"type": "integer"},
+              "units": {"type": "string"},
+              "baseline_value": {"type": "number"},
+              "baseline_date": {"$ref": "#/definitions/date"},
+              "thresholds": {
+                "type": "object",
+                "properties": {
+                  "low": {"type": "number"},
+                  "medium": {"type": "number"},
+                  "high": {"type": "number"}
+                }
+              }
+            },
+            "required": ["id", "name", "type", "source", "frequency"]
+          }
+        }
+      }
+    },
+    "phase03_landscape": {
+      "type": "object",
+      "properties": {
+        "actors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {"$ref": "#/definitions/orgId"},
+              "name": {"type": "string"},
+              "type": {"type": "string", "enum": ["ministry", "SOE", "university", "company", "research_institute", "lab"]},
+              "aka": {
+                "type": "array",
+                "items": {"type": "string"}
+              },
+              "chinese_name": {"type": "string"},
+              "capabilities": {
+                "type": "array",
+                "items": {"type": "string"}
+              },
+              "criticality": {"type": "string", "enum": ["low", "medium", "high", "critical"]}
+            },
+            "required": ["id", "name", "type"]
+          }
+        },
+        "policies": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {"type": "string"},
+              "title": {"type": "string"},
+              "authority": {"type": "string"},
+              "date": {"$ref": "#/definitions/date"},
+              "bindingness": {"type": "string", "enum": ["mandatory", "recommended", "voluntary", "pilot"]},
+              "enforcement_notes": {"type": "string"},
+              "url": {"type": "string", "format": "uri"}
+            },
+            "required": ["id", "title", "authority", "date", "bindingness"]
+          }
+        },
+        "infrastructure": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "asset_uid": {"type": "string"},
+              "name": {"type": "string"},
+              "type": {"type": "string"},
+              "location": {"type": "string"},
+              "criticality": {"type": "string", "enum": ["low", "medium", "high", "critical"]},
+              "export_sensitive_parts": {
+                "type": "array",
+                "items": {"type": "string"}
+              }
+            },
+            "required": ["asset_uid", "name", "type", "criticality"]
+          }
+        }
+      }
+    },
+    "phase04_supply_chain": {
+      "type": "object",
+      "properties": {
+        "critical_components": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "component": {"type": "string"},
+              "hs_codes": {
+                "type": "array",
+                "items": {"type": "string", "pattern": "^\\d{4,10}$"}
+              },
+              "cn_codes": {
+                "type": "array",
+                "items": {"type": "string"}
+              },
+              "criticality": {"type": "string", "enum": ["low", "medium", "high", "critical"]},
+              "suppliers": {
+                "type": "array",
+                "items": {"$ref": "#/definitions/orgId"}
+              }
+            },
+            "required": ["component", "criticality"]
+          }
+        },
+        "vendor_analysis": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "vendor_id": {"$ref": "#/definitions/orgId"},
+              "repeat_frequency": {"type": "string", "enum": ["one_time", "quarterly", "monthly", "weekly"]},
+              "dependency_score": {"type": "number", "minimum": 0, "maximum": 1},
+              "alternative_suppliers": {"type": "integer"}
+            }
+          }
+        }
+      }
+    },
+    "phase04_sub4_us_owned_supply": {
+      "type": "object",
+      "properties": {
+        "nodes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "company_parent_us": {"$ref": "#/definitions/orgId"},
+              "subsidiary_local": {"$ref": "#/definitions/orgId"},
+              "site": {"type": "string"},
+              "component": {"type": "string"},
+              "hs_code_hint": {"type": "string"},
+              "criticality": {"type": "string", "enum": ["Low", "Medium", "High", "Critical"]},
+              "repeat_vendor": {"type": "boolean"},
+              "order_freq_band": {"type": "string"},
+              "notes": {"type": "string", "maxLength": 200},
+              "evidence_url": {"type": "string", "format": "uri"}
+            },
+            "required": ["company_parent_us", "subsidiary_local", "component", "criticality"]
+          }
+        }
+      }
+    },
+    "phase05_institutions": {
+      "type": "object",
+      "properties": {
+        "institutions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {"$ref": "#/definitions/orgId"},
+              "name": {"type": "string"},
+              "type": {"type": "string"},
+              "location": {"type": "string"},
+              "collaboration_score": {"type": "number"},
+              "centrality_metrics": {
+                "type": "object",
+                "properties": {
+                  "degree": {"type": "number"},
+                  "betweenness": {"type": "number"},
+                  "eigenvector": {"type": "number"}
+                }
+              },
+              "capabilities": {
+                "type": "array",
+                "items": {"type": "string"}
+              },
+              "standards_roles": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "body": {"type": "string"},
+                    "role": {"type": "string", "enum": ["member", "editor", "rapporteur", "chair", "secretary"]}
+                  }
+                }
+              }
+            },
+            "required": ["id", "name", "type"]
+          }
+        }
+      }
+    },
+    "phase05_sub5_outlier_centers": {
+      "type": "object",
+      "properties": {
+        "outliers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "region": {"type": "string"},
+              "name": {"type": "string"},
+              "ror": {"type": "string"},
+              "lei": {"type": "string"},
+              "coords": {
+                "type": "array",
+                "items": {"type": "number"},
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "domains": {
+                "type": "array",
+                "items": {"type": "string"}
+              },
+              "scores": {
+                "type": "object",
+                "properties": {
+                  "pub_z": {"type": "number"},
+                  "pat_z": {"type": "number"},
+                  "standards": {"type": "number"},
+                  "procure_z": {"type": "number"}
+                }
+              },
+              "evidence": {
+                "type": "array",
+                "items": {"$ref": "#/definitions/evidenceItem"}
+              },
+              "notes": {"type": "string", "maxLength": 400}
+            },
+            "required": ["region", "name", "domains", "scores"]
+          }
+        }
+      }
+    },
+    "phase05_sub6_auto_hubs": {
+      "type": "object",
+      "properties": {
+        "proposals": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {"type": "string"},
+              "basis_outlier": {"type": "string"},
+              "domains": {
+                "type": "array",
+                "items": {"type": "string"}
+              },
+              "scores": {
+                "type": "object",
+                "properties": {
+                  "pub_z": {"type": "number"},
+                  "pat_z": {"type": "number"},
+                  "procure_z": {"type": "number"}
+                }
+              },
+              "evidence_sources": {"type": "integer"},
+              "qa": {
+                "type": "object",
+                "properties": {
+                  "alias_clean": {"type": "boolean"},
+                  "standards_role": {"type": "boolean"},
+                  "governance_risk": {"type": "string", "enum": ["Low", "Medium", "High"]}
+                }
+              },
+              "recommendation": {"type": "string", "enum": ["promote", "hold", "reject"]},
+              "owner": {"type": "string", "format": "email"},
+              "reviewer": {"type": "string", "format": "email"},
+              "decision": {"type": "string", "enum": ["approved", "rejected", "pending"]},
+              "notes": {"type": "string", "maxLength": 600}
+            },
+            "required": ["name", "domains", "scores", "recommendation"]
+          }
+        }
+      }
+    },
+    "phase06_funders": {
+      "type": "object",
+      "properties": {
+        "funders": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {"type": "string"},
+              "name": {"type": "string"},
+              "type": {"type": "string", "enum": ["public", "vc", "pe", "corporate", "military", "hybrid"]},
+              "total_funding": {"type": "number"},
+              "currency": {"type": "string"},
+              "programs": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "name": {"type": "string"},
+                    "budget": {"type": "number"},
+                    "start_year": {"type": "integer"},
+                    "end_year": {"type": "integer"},
+                    "domains": {
+                      "type": "array",
+                      "items": {"type": "string"}
+                    }
+                  }
+                }
+              },
+              "controls": {
+                "type": "array",
+                "items": {"type": "string"}
+              }
+            },
+            "required": ["id", "name", "type"]
+          }
+        }
+      }
+    },
+    "phase06_sub6_us_funding_links": {
+      "type": "object",
+      "properties": {
+        "links": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "us_funder": {"type": "string"},
+              "program": {"type": "string"},
+              "award_id": {"type": "string"},
+              "prime_recipient": {"$ref": "#/definitions/orgId"},
+              "partner_org": {"$ref": "#/definitions/orgId"},
+              "partner_country": {"type": "string"},
+              "amount": {"type": "number"},
+              "year": {"type": "integer"},
+              "domain": {"type": "string"},
+              "export_flags": {
+                "type": "array",
+                "items": {"type": "string"}
+              },
+              "disclosure_hooks": {
+                "type": "array",
+                "items": {"type": "string"}
+              },
+              "docs": {
+                "type": "array",
+                "items": {"type": "string", "format": "uri"}
+              }
+            },
+            "required": ["us_funder", "partner_org", "partner_country", "amount", "year"]
+          }
+        }
+      }
+    },
+    "phase07_links": {
+      "type": "object",
+      "properties": {
+        "collaborations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {"type": "string"},
+              "entities": {
+                "type": "array",
+                "items": {"$ref": "#/definitions/orgId"},
+                "minItems": 2
+              },
+              "type": {"type": "string", "enum": ["coauthorship", "project", "patent", "standards", "conference"]},
+              "start_date": {"$ref": "#/definitions/date"},
+              "end_date": {"$ref": "#/definitions/date"},
+              "intensity": {"type": "number", "minimum": 0, "maximum": 1},
+              "domains": {
+                "type": "array",
+                "items": {"type": "string"}
+              },
+              "risk_flags": {
+                "type": "array",
+                "items": {"type": "string"}
+              }
+            },
+            "required": ["id", "entities", "type"]
+          }
+        }
+      }
+    },
+    "phase08_risk": {
+      "type": "object",
+      "properties": {
+        "risks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {"type": "string"},
+              "mechanism": {"type": "string", "maxLength": 200},
+              "probability": {"type": "number", "minimum": 0, "maximum": 1},
+              "impact": {"type": "string", "enum": ["low", "medium", "high", "critical"]},
+              "horizon": {"type": "string", "enum": ["2y", "5y", "10y"]},
+              "indicators": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "metric": {"type": "string"},
+                    "threshold": {"type": "number"},
+                    "current_value": {"type": "number"}
+                  }
+                }
+              },
+              "voi_hint": {"type": "number"},
+              "dag": {"type": "string"}
+            },
+            "required": ["id", "mechanism", "probability", "impact", "horizon"]
+          }
+        }
+      }
+    },
+    "phase09_posture": {
+      "type": "object",
+      "properties": {
+        "motivations": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "doctrine": {"type": "string"},
+        "governance": {
+          "type": "object",
+          "properties": {
+            "lead_org": {"type": "string"},
+            "coordinating_bodies": {
+              "type": "array",
+              "items": {"type": "string"}
+            }
+          }
+        },
+        "actors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {"$ref": "#/definitions/orgId"},
+              "name": {"type": "string"},
+              "chinese_name": {"type": "string"},
+              "role": {"type": "string"},
+              "tier": {"type": "integer", "minimum": 1, "maximum": 3}
+            }
+          }
+        },
+        "mechanisms": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {"type": "string"},
+              "type": {"type": "string", "enum": ["licit", "gray", "illicit"]},
+              "description": {"type": "string"},
+              "policy_anchor": {
+                "type": "object",
+                "properties": {
+                  "type": {"type": "string"},
+                  "title_zh": {"type": "string"},
+                  "title_en": {"type": "string"},
+                  "date": {"$ref": "#/definitions/date"},
+                  "url": {"type": "string", "format": "uri"}
+                }
+              },
+              "enforcement_example": {"type": "string"},
+              "non_enforcement_example": {"type": "string"}
+            },
+            "required": ["id", "type", "description"]
+          }
+        },
+        "target_taxonomy": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "progress": {
+          "type": "object",
+          "additionalProperties": {"type": "string"}
+        },
+        "early_warning": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "indicator": {"type": "string"},
+              "threshold": {"type": "string"},
+              "current": {"type": "string"}
+            }
+          }
+        },
+        "predictions": {
+          "type": "object",
+          "properties": {
+            "2y": {"type": "string"},
+            "5y": {"type": "string"},
+            "10y": {"type": "string"}
+          }
+        }
+      }
+    },
+    "phase09_sub11_anchor_crosswalk": {
+      "type": "object",
+      "properties": {
+        "claims": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "claim_id": {"type": "string"},
+              "claimant_country": {"type": "string"},
+              "claimant_doc": {
+                "type": "object",
+                "properties": {
+                  "title": {"type": "string"},
+                  "date": {"$ref": "#/definitions/date"},
+                  "url": {"type": "string", "format": "uri"}
+                }
+              },
+              "claimed_policy_label": {"type": "string"},
+              "claimed_summary": {"type": "string", "maxLength": 600},
+              "anchor_lookup": {
+                "type": "object",
+                "properties": {
+                  "status": {"type": "string", "enum": ["found", "not_found", "partial", "ambiguous", "outdated"]},
+                  "anchors": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {"type": "string"},
+                        "title_zh": {"type": "string"},
+                        "title_en": {"type": "string"},
+                        "date": {"$ref": "#/definitions/date"},
+                        "link": {"type": "string", "format": "uri"},
+                        "summary_en": {"type": "string", "maxLength": 600}
+                      }
+                    }
+                  },
+                  "similarity_score": {"type": "number", "minimum": 0, "maximum": 1},
+                  "translation_notes": {"type": "string", "maxLength": 250},
+                  "translation_confidence": {"$ref": "#/definitions/confidence"},
+                  "enforcement_examples": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "case": {"type": "string"},
+                        "date": {"$ref": "#/definitions/yearMonth"},
+                        "evidence_url": {"type": "string", "format": "uri"}
+                      }
+                    }
+                  },
+                  "non_enforcement_examples": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "case": {"type": "string"},
+                        "date": {"$ref": "#/definitions/yearMonth"},
+                        "evidence_url": {"type": "string", "format": "uri"}
+                      }
+                    }
+                  }
+                }
+              },
+              "misalignment": {
+                "type": "object",
+                "properties": {
+                  "category": {"type": "string", "enum": ["no_anchor", "mismatch_scope", "mismatch_timeline", "mismatch_domain", "overstated", "understated"]},
+                  "explanation": {"type": "string", "maxLength": 800}
+                }
+              },
+              "implications": {"type": "string", "maxLength": 600},
+              "confidence": {"$ref": "#/definitions/confidence"}
+            },
+            "required": ["claim_id", "claimant_country", "anchor_lookup"]
+          }
+        }
+      }
+    },
+    "phase10_redteam": {
+      "type": "object",
+      "properties": {
+        "falsification_tests": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "hypothesis": {"type": "string"},
+              "test": {"type": "string"},
+              "expected_if_false": {"type": "string"},
+              "observed": {"type": "string"},
+              "conclusion": {"type": "string"}
+            }
+          }
+        },
+        "war_games": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "scenario": {"type": "string"},
+              "inject": {"type": "string"},
+              "response": {"type": "string"},
+              "vulnerabilities": {
+                "type": "array",
+                "items": {"type": "string"}
+              }
+            }
+          }
+        },
+        "stress_tests": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "stressor": {"type": "string"},
+              "breaking_point": {"type": "string"},
+              "mitigation": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+    "phase11_foresight": {
+      "type": "object",
+      "properties": {
+        "scenarios": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {"type": "string"},
+              "title": {"type": "string"},
+              "narrative": {"type": "string", "maxLength": 1800},
+              "probability": {"type": "number", "minimum": 0, "maximum": 1},
+              "indicators": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "metric": {"type": "string"},
+                    "threshold": {"type": "number"},
+                    "direction": {"type": "string", "enum": ["increase", "decrease", "stable"]}
+                  }
+                }
+              },
+              "horizon": {"type": "string", "enum": ["2y", "5y", "10y"]}
+            },
+            "required": ["id", "title", "narrative", "probability", "horizon"]
+          }
+        },
+        "early_warning_system": {
+          "type": "object",
+          "properties": {
+            "metrics": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {"type": "string"},
+                  "name": {"type": "string"},
+                  "current_value": {"type": "number"},
+                  "threshold": {"type": "number"},
+                  "cadence": {"type": "string", "enum": ["daily", "weekly", "monthly", "quarterly"]},
+                  "owner": {"type": "string", "format": "email"},
+                  "suppression_rules": {
+                    "type": "object",
+                    "properties": {
+                      "min_change": {"type": "number"},
+                      "min_volume": {"type": "number"},
+                      "min_sources": {"type": "integer"}
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "phase11_sub5_compute_data_exposure": {
+      "type": "object",
+      "properties": {
+        "exposures": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "provider": {"type": "string"},
+              "region": {"type": "string"},
+              "project": {"type": "string"},
+              "access_mode": {"type": "string", "enum": ["credits", "grant", "contract", "consortium", "open"]},
+              "gpu_type": {"type": "string"},
+              "quota": {"type": "string", "enum": ["low", "medium", "high"]},
+              "lead_time_days": {"type": "integer"},
+              "data_residency": {"type": "string"},
+              "xborder_flows": {"type": "boolean"},
+              "controls": {
+                "type": "array",
+                "items": {"type": "string"}
+              },
+              "evidence_url": {"type": "string", "format": "uri"}
+            },
+            "required": ["provider", "region", "access_mode"]
+          }
+        }
+      }
+    },
+    "phase13_closeout": {
+      "type": "object",
+      "properties": {
+        "implementation": {
+          "type": "object",
+          "properties": {
+            "timeline": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "phase": {"type": "string"},
+                  "start_date": {"$ref": "#/definitions/date"},
+                  "end_date": {"$ref": "#/definitions/date"},
+                  "milestone": {"type": "string"}
+                }
+              }
+            },
+            "raci": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "task": {"type": "string"},
+                  "responsible": {"type": "string"},
+                  "accountable": {"type": "string"},
+                  "consulted": {
+                    "type": "array",
+                    "items": {"type": "string"}
+                  },
+                  "informed": {
+                    "type": "array",
+                    "items": {"type": "string"}
+                  }
+                }
+              }
+            }
+          }
+        },
+        "success_metrics": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "metric": {"type": "string"},
+              "target": {"type": "string"},
+              "measurement_method": {"type": "string"}
+            }
+          }
+        },
+        "monitoring": {
+          "type": "object",
+          "properties": {
+            "owner": {"type": "string", "format": "email"},
+            "review_frequency": {"type": "string"},
+            "escalation_path": {
+              "type": "array",
+              "items": {"type": "string"}
+            }
+          }
+        }
+      }
+    }
+  }
+}

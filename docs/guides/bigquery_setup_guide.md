@@ -58,7 +58,7 @@ chinese_inventors AS (
     WHERE inventor.country_code = 'CN'
     GROUP BY publication_number
 )
-SELECT 
+SELECT
     sp.publication_number,
     sp.title,
     sp.application_date,
@@ -70,7 +70,7 @@ LIMIT 100
 
 ### Query 2: Slovak University Patents
 ```sql
-SELECT 
+SELECT
     assignee_harmonized.name as university,
     COUNT(DISTINCT publication_number) as patent_count,
     STRING_AGG(DISTINCT inventor.country_code, ', ') as countries
@@ -89,8 +89,8 @@ ORDER BY patent_count DESC
 
 ### Query 3: Critical Technology Areas
 ```sql
-SELECT 
-    CASE 
+SELECT
+    CASE
         WHEN cpc.code LIKE 'G06N10/%' THEN 'Quantum Computing'
         WHEN cpc.code LIKE 'G06N3/%' THEN 'AI/ML'
         WHEN cpc.code LIKE 'C12N%' THEN 'Biotechnology'

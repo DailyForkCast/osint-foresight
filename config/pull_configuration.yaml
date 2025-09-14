@@ -17,17 +17,17 @@ frequencies:
   real_time:
     - vessel_tracking
     - news_monitoring
-  
+
   daily:
     - patent_filings
     - regulatory_updates
-  
+
   weekly:
     - crossref_publications
     - crossref_events
     - github_activity
     - standards_updates
-  
+
   monthly:
     - cordis_projects
     - ted_procurement
@@ -38,12 +38,12 @@ frequencies:
     - ietf_participation
     - openaire_research
     - national_procurement
-  
+
   quarterly:
     - commoncrawl_intelligence
     - supply_chain_mapping
     - technology_landscape
-  
+
   yearly:
     - openalex_snapshot
     - patent_landscape
@@ -62,7 +62,7 @@ countries:
     procurement_portals:
       - evergabe-online.de
       - vergabe24.de
-    
+
   FR:
     priority: 1
     languages: [fr, en]
@@ -72,7 +72,7 @@ countries:
     procurement_portals:
       - marches-publics.gouv.fr
       - boamp.fr
-  
+
   IT:
     priority: 1
     languages: [it, en]
@@ -80,7 +80,7 @@ countries:
       - istat  # Italian statistics
     procurement_portals:
       - acquistinretepa.it
-  
+
   ES:
     priority: 1
     languages: [es, en]
@@ -88,7 +88,7 @@ countries:
       - ine  # Spanish statistics
     procurement_portals:
       - contrataciondelestado.es
-  
+
   NL:
     priority: 1
     languages: [nl, en]
@@ -96,7 +96,7 @@ countries:
       - cbs  # Dutch statistics
     procurement_portals:
       - tenderned.nl
-  
+
   PL:
     priority: 1
     languages: [pl, en]
@@ -104,7 +104,7 @@ countries:
       - stat.gov.pl
     procurement_portals:
       - uzp.gov.pl
-  
+
   # Priority 2: Smaller EU & strategic partners
   AT:
     priority: 2
@@ -113,13 +113,13 @@ countries:
       - statistik.at
     procurement_portals:
       - bbg.gv.at
-  
+
   BE:
     priority: 2
     languages: [nl, fr, en]
     procurement_portals:
       - publicprocurement.be
-  
+
   SE:
     priority: 2
     languages: [sv, en]
@@ -127,19 +127,19 @@ countries:
       - scb.se  # Swedish statistics
     procurement_portals:
       - tendsign.se
-  
+
   DK:
     priority: 2
     languages: [da, en]
     procurement_portals:
       - udbud.dk
-  
+
   FI:
     priority: 2
     languages: [fi, en]
     procurement_portals:
       - hankintailmoitukset.fi
-  
+
   NO:
     priority: 2
     languages: [no, en]
@@ -147,7 +147,7 @@ countries:
       - ssb.no  # Norwegian statistics
     procurement_portals:
       - doffin.no
-  
+
   CH:
     priority: 2
     languages: [de, fr, it, en]
@@ -155,7 +155,7 @@ countries:
       - bfs.admin.ch  # Swiss statistics
     procurement_portals:
       - simap.ch
-  
+
   # Priority 3: EU candidates & others
   TR:
     priority: 3
@@ -164,7 +164,7 @@ countries:
       - tuik.gov.tr
     procurement_portals:
       - ekap.kik.gov.tr
-  
+
   UA:
     priority: 3
     languages: [uk, en]
@@ -172,7 +172,7 @@ countries:
       - ukrstat.gov.ua
     procurement_portals:
       - prozorro.gov.ua
-  
+
   GB:
     priority: 3
     languages: [en]
@@ -182,7 +182,7 @@ countries:
     procurement_portals:
       - find-tender.service.gov.uk
       - contractsfinder.service.gov.uk
-  
+
   # Continue for all 44 countries...
   # (Abbreviated for space - full list includes all 44)
 
@@ -204,7 +204,7 @@ technology_areas:
       - Keras
       - JAX
       - Hugging Face
-  
+
   quantum_computing:
     keywords:
       - quantum computing
@@ -219,7 +219,7 @@ technology_areas:
       - Rigetti
       - D-Wave
       - PsiQuantum
-  
+
   biotechnology:
     keywords:
       - CRISPR
@@ -228,7 +228,7 @@ technology_areas:
       - mRNA
       - proteomics
       - bioinformatics
-  
+
   semiconductors:
     keywords:
       - semiconductor
@@ -238,7 +238,7 @@ technology_areas:
       - TSMC
       - foundry
       - fab
-  
+
   clean_energy:
     keywords:
       - renewable energy
@@ -247,7 +247,7 @@ technology_areas:
       - hydrogen fuel
       - battery storage
       - grid storage
-  
+
   cybersecurity:
     keywords:
       - zero trust
@@ -256,7 +256,7 @@ technology_areas:
       - SOC
       - ransomware
       - supply chain security
-  
+
   blockchain:
     keywords:
       - blockchain
@@ -271,19 +271,19 @@ api_limits:
   crossref:
     requests_per_second: 10
     daily_limit: 100000
-    
+
   worldbank:
     requests_per_minute: 120
-    
+
   eurostat:
     requests_per_second: 5
-    
+
   oecd:
     requests_per_minute: 60
-    
+
   ted:
     requests_per_hour: 1000
-    
+
   commoncrawl:
     concurrent_downloads: 5
     bandwidth_mbps: 100
@@ -292,13 +292,13 @@ api_limits:
 monitoring:
   slack_webhook: ${SLACK_WEBHOOK_URL}
   email_alerts: osint-alerts@example.com
-  
+
   alert_conditions:
     - pull_failure_count > 10
     - storage_usage > 90%
     - api_rate_limit_exceeded
     - new_critical_technology_detected
-    
+
   report_schedule:
     daily_summary: "06:00"
     weekly_report: "Monday 09:00"
@@ -314,10 +314,10 @@ processing:
     - relationship_mapping
     - risk_scoring
     - report_generation
-  
+
   parallel_workers: 4
   batch_size: 1000
-  
+
 # Backup strategy
 backup:
   frequency: daily
@@ -325,23 +325,23 @@ backup:
     daily: 7
     weekly: 4
     monthly: 12
-  
+
   destinations:
     - F:/OSINT_Backups
     - Google Cloud Storage (optional)
-    
+
 # Data quality checks
 quality_checks:
   completeness:
     min_coverage: 0.8  # 80% of expected data
-    
+
   freshness:
     max_age_days:
       real_time: 1
       daily: 2
       weekly: 10
       monthly: 35
-      
+
   accuracy:
     validation_rules:
       - country_codes_valid

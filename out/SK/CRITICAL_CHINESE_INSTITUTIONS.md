@@ -1,6 +1,6 @@
 # CRITICAL ALERT: PLA-Affiliated Universities in Slovak EU Projects
 
-**Generated: 2025-01-10**  
+**Generated: 2025-01-10**
 **SECURITY CLASSIFICATION: CRITICAL**
 
 ## CONFIRMED: PLA "Seven Sons" Universities Collaborating with Slovakia
@@ -11,7 +11,7 @@ The following **PLA-affiliated universities** are confirmed participants in EU-f
 
 ## 1. BEIJING INSTITUTE OF TECHNOLOGY (北京理工大学)
 - **PLA Status**: Seven Sons of National Defense - Weapons & Defense Systems
-- **Projects**: 
+- **Projects**:
   - EU-CHINA-BRIDGE
   - PANTHEON
 - **Risk**: Direct military technology university specializing in weapons systems
@@ -153,7 +153,7 @@ These Chinese institutions are working on **76 joint projects** with Slovak inst
 
 This represents a CRITICAL threat to:
 - NATO technology security
-- EU research integrity  
+- EU research integrity
 - Slovak national security
 - Allied trust relationships
 

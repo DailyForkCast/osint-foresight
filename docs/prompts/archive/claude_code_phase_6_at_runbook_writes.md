@@ -14,16 +14,16 @@ Render the **Risk Assessment & Best‑Practice Verification** layer for Austria,
 ## 2) Scaffold TSVs (idempotent)
 Create these files with headers; include a `notes` column where useful. If no rows, add one `no_data_yet=true` row.
 
-- `data/processed/country=AT/risk_vectors.tsv`  
+- `data/processed/country=AT/risk_vectors.tsv`
   Columns: `vector_id,name,definition,exemplar_observables,related_phases,notes`
 
-- `data/processed/country=AT/risk_register.tsv`  
+- `data/processed/country=AT/risk_register.tsv`
   Columns: `risk_id,vector_id,cluster_id,context,severity_1to3,likelihood_LMH,confidence_LMH,evidence_refs,notes`
 
-- `data/processed/country=AT/control_evidence.tsv`  
+- `data/processed/country=AT/control_evidence.tsv`
   Columns: `control_id,control_name,where_observed,applies_to_vector,strength_0_3,evidence_refs,notes`
 
-- `data/processed/country=AT/phase6_vignettes.tsv`  
+- `data/processed/country=AT/phase6_vignettes.tsv`
   Columns: `rank,risk_id,vignette_120w,rationale,evidence_refs,notes`
 
 - (Already present in earlier phases) `sanctions_hits.csv` (signals‑only; **exclude US persons**)
@@ -33,7 +33,7 @@ Create these files with headers; include a `notes` column where useful. If no ro
 - Bring over **PRC screen** hints from `prc_screen.tsv` only as **context**; keep signals separate from determinations.
 
 ## 4) Evidence discipline
-- For every policy page, scope PDF, or portal saved, append to `data/evidence_register.tsv`:  
+- For every policy page, scope PDF, or portal saved, append to `data/evidence_register.tsv`:
   `id,country,type,title,issuer_or_site,url,retrieved_at,sha256,anchor_hash,notes`.
 
 ## 5) Health & reports
@@ -67,4 +67,3 @@ make reports-init COUNTRY=AT
 
 ### Sanctions/legal overlay
 If any party appears on **EU/UK/CA/AU/NZ/UN** lists, record in `sanctions_hits.csv` with URLs and dates; **exclude US persons**. Treat as **signals only**.
-

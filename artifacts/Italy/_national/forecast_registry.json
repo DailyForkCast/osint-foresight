@@ -1,0 +1,82 @@
+{
+  "forecasts": [
+    {
+      "id": "F001",
+      "question": "Italy reaches 2% NATO defense spending target",
+      "timeframe": "By 2030",
+      "probability": 0.35,
+      "confidence": "MEDIUM",
+      "last_updated": "2024-09-28",
+      "key_drivers": ["Fiscal constraints", "Political consensus", "External threats"]
+    },
+    {
+      "id": "F002",
+      "question": "Major Chinese technology acquisition blocked",
+      "timeframe": "2024-2025",
+      "probability": 0.75,
+      "confidence": "HIGH",
+      "last_updated": "2024-09-28",
+      "key_drivers": ["Golden Power", "EU pressure", "Security concerns"]
+    },
+    {
+      "id": "F003",
+      "question": "Italy develops sovereign quantum computer",
+      "timeframe": "By 2030",
+      "probability": 0.25,
+      "confidence": "MEDIUM",
+      "last_updated": "2024-09-28",
+      "key_drivers": ["Funding", "Talent retention", "EU cooperation"]
+    },
+    {
+      "id": "F004",
+      "question": "Mediterranean security crisis requiring Italian leadership",
+      "timeframe": "2024-2027",
+      "probability": 0.60,
+      "confidence": "MEDIUM",
+      "last_updated": "2024-09-28",
+      "key_drivers": ["Libya instability", "Migration", "Energy security"]
+    },
+    {
+      "id": "F005",
+      "question": "DIANA Turin produces unicorn startup",
+      "timeframe": "By 2027",
+      "probability": 0.40,
+      "confidence": "LOW",
+      "last_updated": "2024-09-28",
+      "key_drivers": ["Ecosystem maturity", "Capital availability", "Talent"]
+    },
+    {
+      "id": "F006",
+      "question": "Cyber attack on critical infrastructure",
+      "timeframe": "2024-2025",
+      "probability": 0.70,
+      "confidence": "HIGH",
+      "last_updated": "2024-09-28",
+      "key_drivers": ["Threat landscape", "Vulnerabilities", "Geopolitical tensions"]
+    },
+    {
+      "id": "F007",
+      "question": "Government coalition collapse",
+      "timeframe": "Before 2027",
+      "probability": 0.45,
+      "confidence": "MEDIUM",
+      "last_updated": "2024-09-28",
+      "key_drivers": ["Economic pressure", "Political divisions", "External shocks"]
+    },
+    {
+      "id": "F008",
+      "question": "EU-China investment agreement affects Italy",
+      "timeframe": "2025-2026",
+      "probability": 0.55,
+      "confidence": "LOW",
+      "last_updated": "2024-09-28",
+      "key_drivers": ["EU unity", "US pressure", "Economic needs"]
+    }
+  ],
+  "meta_forecasts": {
+    "average_confidence": 0.62,
+    "high_impact_high_probability": ["F002", "F004", "F006"],
+    "black_swans": ["Debt crisis", "Major conflict", "Tech breakthrough"],
+    "last_review": "2024-09-28"
+  }
+}

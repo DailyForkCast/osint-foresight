@@ -1,0 +1,77 @@
+{
+  "critical_components": [
+    {
+      "component": "Semiconductors (advanced logic)",
+      "dependency": "High",
+      "sources": ["Taiwan (40%)", "South Korea (25%)", "China (15%)"],
+      "hs_codes": ["8541", "8542"],
+      "vulnerability": "No domestic fab capability <28nm",
+      "mitigation": "EU Chips Act participation"
+    },
+    {
+      "component": "Rare earth materials",
+      "dependency": "Critical",
+      "sources": ["China (85%)", "Others (15%)"],
+      "applications": ["Defense electronics", "Magnets", "Batteries"],
+      "mitigation": "ERMA membership, recycling initiatives"
+    },
+    {
+      "component": "Titanium (aerospace grade)",
+      "dependency": "Moderate",
+      "sources": ["Russia (30%)", "Kazakhstan (20%)", "Japan (20%)"],
+      "risk": "Sanctions impact on Russian supply",
+      "alternatives": "Diversifying to US, Japan sources"
+    }
+  ],
+  "vendor_patterns": {
+    "defense_procurement": {
+      "domestic_content": "65%",
+      "eu_content": "20%",
+      "nato_allied": "10%",
+      "other": "5%"
+    },
+    "concentration_analysis": {
+      "top_3_suppliers": ["Leonardo (45%)", "Fincantieri (18%)", "MBDA Italia (8%)"],
+      "hhi_index": 2341,
+      "assessment": "Moderate concentration"
+    },
+    "repeat_vendors": [
+      {"vendor": "Leonardo", "frequency": "quarterly", "criticality": "High"},
+      {"vendor": "Thales Italia", "frequency": "bi-annual", "criticality": "Medium"},
+      {"vendor": "Rheinmetall Italia", "frequency": "annual", "criticality": "Medium"}
+    ]
+  },
+  "supply_map": {
+    "tier_1_suppliers": {
+      "domestic": ["Leonardo", "Fincantieri", "Iveco Defence"],
+      "european": ["MBDA", "Thales", "Airbus", "Rheinmetall"],
+      "us": ["Lockheed Martin", "Boeing", "Raytheon"]
+    },
+    "critical_nodes": [
+      {
+        "node": "STMicroelectronics",
+        "location": "Agrate, Catania",
+        "capability": "Power semiconductors, MEMS",
+        "vulnerability": "Fab capacity constraints"
+      },
+      {
+        "node": "Avio Aero (GE)",
+        "location": "Turin",
+        "capability": "Aero engines, additive manufacturing",
+        "criticality": "High"
+      }
+    ]
+  },
+  "procurement_signals": [
+    {
+      "pattern": "Increased dual-use procurement",
+      "evidence": "40% increase in cyber/AI tenders 2022-2024",
+      "source": "CONSIP data"
+    },
+    {
+      "pattern": "Supply chain localization",
+      "evidence": "New requirements for 30% domestic content",
+      "date": "2023-06"
+    }
+  ]
+}

@@ -24,7 +24,7 @@ Window for Action: **3-6 months maximum**
 - **MILITARY DRONE BATTERY** (E10) announced May 2025
 - Explicit dual-use technology transfer occurring
 
-**Why This Matters**: 
+**Why This Matters**:
 - Largest Chinese industrial investment in Slovakia
 - Direct military application (drone batteries)
 - Chinese state-owned enterprise involvement
@@ -215,7 +215,7 @@ The integrated analysis reveals Slovakia as the **most vulnerable EU/NATO member
 
 Creates a PERFECT STORM requiring immediate intervention. The Gotion-InoBat military drone battery represents the clearest dual-use technology transfer risk. The window for action is 3-6 months before dependencies become irreversible.
 
-**FINAL ASSESSMENT**: 
+**FINAL ASSESSMENT**:
 - Risk Level: 90/100 CRITICAL
 - Confidence: VERY HIGH (multi-source confirmation)
 - Action Required: EMERGENCY INTERVENTION

@@ -1,0 +1,400 @@
+# API Specifications for OSINT Foresight Data Collection
+# Version: 1.0
+# Last Updated: 2025-09-13
+
+apis:
+  openalex:
+    base_url: https://api.openalex.org
+    endpoints:
+      works: /works
+      authors: /authors
+      institutions: /institutions
+      concepts: /concepts
+    auth:
+      method: mailto
+      header: User-Agent
+      value: "mailto:your-email@example.com"
+    rate_limits:
+      calls_per_second: 10
+      daily_limit: 100000
+      polite_pool: true  # Faster rate with mailto header
+    pagination:
+      type: cursor
+      page_size: 200
+      max_pages: 10000
+    retry:
+      strategy: exponential_backoff
+      base_delay_ms: 1000
+      max_delay_ms: 32000
+      max_attempts: 3
+    timeout_ms: 30000
+
+  crossref:
+    base_url: https://api.crossref.org
+    endpoints:
+      works: /works
+      members: /members
+      funders: /funders
+    auth:
+      method: none
+      optional_mailto: true  # Polite pool access
+    rate_limits:
+      calls_per_second: 50
+      burst_limit: 150
+    pagination:
+      type: offset
+      page_size: 1000
+      param_name: rows
+      offset_param: offset
+    retry:
+      strategy: exponential_backoff
+      base_delay_ms: 500
+      max_delay_ms: 16000
+      max_attempts: 5
+    timeout_ms: 60000
+
+  openaire:
+    base_url: https://api.openaire.eu/search
+    endpoints:
+      publications: /publications
+      datasets: /datasets
+      projects: /projects
+    auth:
+      method: none
+    rate_limits:
+      calls_per_second: 10
+      hourly_limit: 5000
+    pagination:
+      type: page
+      page_size: 100
+      param_name: size
+      page_param: page
+    retry:
+      strategy: linear_backoff
+      delay_ms: 2000
+      max_attempts: 3
+    timeout_ms: 45000
+
+  epo_ops:
+    base_url: https://ops.epo.org/3.2/rest-services
+    endpoints:
+      search: /published-data/search
+      biblio: /published-data/publication/epodoc/{patent_id}/biblio
+      family: /family/publication/docdb/{patent_id}
+    auth:
+      method: oauth2
+      token_url: https://ops.epo.org/3.2/auth/accesstoken
+      client_id: "${EPO_CLIENT_ID}"
+      client_secret: "${EPO_CLIENT_SECRET}"
+    rate_limits:
+      calls_per_second: 4
+      weekly_volume: 2500000  # Data volume limit
+      service_limits:
+        search: 200  # Results per query
+        retrieval: 100  # Documents per request
+    pagination:
+      type: range
+      range_size: 100
+      max_range: 2000
+    retry:
+      strategy: exponential_backoff
+      base_delay_ms: 2000
+      max_delay_ms: 60000
+      max_attempts: 3
+    timeout_ms: 120000
+
+  google_patents_bq:
+    service: bigquery
+    project: patents-public-data
+    datasets:
+      patents: patents
+      google_patents_research: google_patents_research
+    auth:
+      method: service_account
+      key_file: "${GOOGLE_APPLICATION_CREDENTIALS}"
+    rate_limits:
+      queries_per_second: 100
+      bytes_per_day: 1TB
+      slot_hours_per_day: 100
+    query_limits:
+      max_bytes_billed: 10GB
+      timeout_ms: 300000
+      max_results: 100000
+    retry:
+      strategy: exponential_backoff
+      base_delay_ms: 1000
+      max_delay_ms: 32000
+      max_attempts: 3
+
+  eurostat:
+    base_url: https://ec.europa.eu/eurostat/api/dissemination
+    endpoints:
+      data: /statistics/1.0/data/{dataset}
+      metadata: /statistics/1.0/metadata/{dataset}
+    auth:
+      method: none
+    rate_limits:
+      calls_per_second: 10
+      response_size_mb: 50
+    pagination:
+      type: none  # Full dataset download
+    retry:
+      strategy: linear_backoff
+      delay_ms: 5000
+      max_attempts: 3
+    timeout_ms: 180000
+
+  cordis:
+    base_url: https://cordis.europa.eu/api
+    endpoints:
+      projects: /projects
+      organizations: /organizations
+      results: /results
+    auth:
+      method: api_key
+      header: X-API-Key
+      key: "${CORDIS_API_KEY}"
+    rate_limits:
+      calls_per_second: 5
+      daily_limit: 10000
+    pagination:
+      type: offset
+      page_size: 100
+      offset_param: offset
+      max_offset: 10000
+    retry:
+      strategy: exponential_backoff
+      base_delay_ms: 1000
+      max_delay_ms: 16000
+      max_attempts: 3
+    timeout_ms: 60000
+
+  ted_europa:
+    base_url: https://ted.europa.eu/api/v2.0
+    endpoints:
+      notices: /notices
+      search: /search
+    auth:
+      method: api_key
+      header: Authorization
+      key: "Bearer ${TED_API_KEY}"
+    rate_limits:
+      calls_per_second: 2
+      daily_limit: 5000
+    pagination:
+      type: page
+      page_size: 100
+      page_param: page
+    retry:
+      strategy: exponential_backoff
+      base_delay_ms: 2000
+      max_delay_ms: 30000
+      max_attempts: 4
+    timeout_ms: 90000
+
+  oecd_stats:
+    base_url: https://stats.oecd.org/restsdmx/sdmx.ashx
+    endpoints:
+      data: /data/{dataset}/{filter}
+      metadata: /GetDataStructure/{dataset}
+    auth:
+      method: none
+    rate_limits:
+      calls_per_second: 1
+      concurrent_requests: 3
+    pagination:
+      type: none  # Filter-based queries
+    retry:
+      strategy: linear_backoff
+      delay_ms: 10000
+      max_attempts: 2
+    timeout_ms: 300000
+
+  worldbank:
+    base_url: https://api.worldbank.org/v2
+    endpoints:
+      countries: /countries
+      indicators: /countries/{country}/indicators/{indicator}
+    auth:
+      method: none
+    rate_limits:
+      calls_per_second: 5
+      requests_per_hour: 1000
+    pagination:
+      type: page
+      page_size: 1000
+      page_param: page
+      per_page_param: per_page
+    retry:
+      strategy: exponential_backoff
+      base_delay_ms: 1000
+      max_delay_ms: 16000
+      max_attempts: 3
+    timeout_ms: 60000
+
+  gleif_lei:
+    base_url: https://api.gleif.org/api/v1
+    endpoints:
+      lei_records: /lei-records
+      relationships: /relationship-records
+    auth:
+      method: none
+    rate_limits:
+      calls_per_second: 10
+      daily_limit: 50000
+    pagination:
+      type: page
+      page_size: 200
+      page_param: page[number]
+      size_param: page[size]
+    retry:
+      strategy: exponential_backoff
+      base_delay_ms: 500
+      max_delay_ms: 8000
+      max_attempts: 3
+    timeout_ms: 45000
+
+  ror_registry:
+    base_url: https://api.ror.org
+    endpoints:
+      organizations: /organizations
+      search: /organizations
+    auth:
+      method: none
+    rate_limits:
+      calls_per_second: 5
+      burst_limit: 20
+    pagination:
+      type: page
+      page_size: 100
+      page_param: page
+    retry:
+      strategy: exponential_backoff
+      base_delay_ms: 1000
+      max_delay_ms: 16000
+      max_attempts: 3
+    timeout_ms: 30000
+
+  orcid:
+    base_url: https://pub.orcid.org/v3.0
+    endpoints:
+      person: /{orcid}/person
+      works: /{orcid}/works
+      employments: /{orcid}/employments
+    auth:
+      method: none  # Public API
+      optional_oauth: true  # For member API access
+    rate_limits:
+      calls_per_second: 8
+      burst_limit: 40
+    pagination:
+      type: none  # Full record retrieval
+    retry:
+      strategy: exponential_backoff
+      base_delay_ms: 500
+      max_delay_ms: 8000
+      max_attempts: 3
+    timeout_ms: 30000
+
+  commoncrawl:
+    base_url: https://index.commoncrawl.org
+    endpoints:
+      cdx_search: /CC-MAIN-{snapshot}/cdx-search
+    auth:
+      method: none
+    rate_limits:
+      calls_per_second: 1
+      response_size_mb: 100
+    pagination:
+      type: page
+      page_size: 5000
+      page_param: page
+    retry:
+      strategy: exponential_backoff
+      base_delay_ms: 5000
+      max_delay_ms: 60000
+      max_attempts: 2
+    timeout_ms: 300000
+
+  usa_spending:
+    base_url: https://api.usaspending.gov/api/v2
+    endpoints:
+      awards: /awards/
+      search: /search/spending_by_award/
+    auth:
+      method: none
+    rate_limits:
+      calls_per_second: 30
+      results_per_request: 5000
+    pagination:
+      type: page
+      page_size: 100
+      page_param: page
+      limit_param: limit
+    retry:
+      strategy: exponential_backoff
+      base_delay_ms: 1000
+      max_delay_ms: 16000
+      max_attempts: 3
+    timeout_ms: 120000
+
+# Rate limiter implementation
+rate_limiter:
+  implementation: |
+    import asyncio
+    import time
+    from collections import deque
+    from typing import Dict, Optional
+
+    class RateLimiter:
+        def __init__(self, calls_per_second: float, burst_limit: Optional[int] = None):
+            self.calls_per_second = calls_per_second
+            self.min_interval = 1.0 / calls_per_second
+            self.burst_limit = burst_limit or int(calls_per_second * 2)
+            self.call_times = deque(maxlen=self.burst_limit)
+            self.lock = asyncio.Lock()
+
+        async def acquire(self):
+            async with self.lock:
+                now = time.time()
+
+                # Remove old timestamps outside window
+                while self.call_times and self.call_times[0] < now - 1.0:
+                    self.call_times.popleft()
+
+                # Check burst limit
+                if len(self.call_times) >= self.burst_limit:
+                    sleep_time = 1.0 - (now - self.call_times[0])
+                    if sleep_time > 0:
+                        await asyncio.sleep(sleep_time)
+                        now = time.time()
+
+                # Check rate limit
+                if self.call_times:
+                    elapsed = now - self.call_times[-1]
+                    if elapsed < self.min_interval:
+                        await asyncio.sleep(self.min_interval - elapsed)
+                        now = time.time()
+
+                self.call_times.append(now)
+
+# Error handling
+error_handling:
+  codes:
+    429:  # Rate limit exceeded
+      action: exponential_backoff
+      parse_retry_after: true
+    503:  # Service unavailable
+      action: exponential_backoff
+      max_attempts: 5
+    401:  # Unauthorized
+      action: refresh_token
+      then: retry_once
+    400:  # Bad request
+      action: log_and_skip
+      alert: true
+    404:  # Not found
+      action: log_and_continue
+    500:  # Internal server error
+      action: exponential_backoff
+      max_attempts: 3

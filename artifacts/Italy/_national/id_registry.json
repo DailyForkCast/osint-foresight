@@ -1,0 +1,92 @@
+{
+  "identifiers": {
+    "institutions": {
+      "Leonardo": {
+        "LEI": "549300IVUNDWT194OT81",
+        "ROR": "https://ror.org/03hp1af20",
+        "ticker": "LDO.MI"
+      },
+      "Fincantieri": {
+        "LEI": "5493000IBR9XOI5WWR36",
+        "ROR": "https://ror.org/00v5n0k53",
+        "ticker": "FCT.MI"
+      },
+      "CNR": {
+        "ROR": "https://ror.org/00z9nrs30",
+        "GRID": "grid.5326.2",
+        "ISNI": "0000 0001 1940 4177"
+      },
+      "Politecnico Milano": {
+        "ROR": "https://ror.org/01nffqt88",
+        "GRID": "grid.4643.5",
+        "ORCID_affiliated": 3456
+      },
+      "Sapienza": {
+        "ROR": "https://ror.org/02be6w209",
+        "GRID": "grid.7841.a",
+        "ORCID_affiliated": 5678
+      },
+      "ASI": {
+        "ROR": "https://ror.org/01n2r4t49",
+        "GRID": "grid.466528.8"
+      },
+      "INFN": {
+        "ROR": "https://ror.org/01zz9wh30",
+        "GRID": "grid.463190.9"
+      }
+    },
+    "nato_facilities": {
+      "JFC_Naples": {
+        "NATO_CODE": "JFC-NP",
+        "location": "40.8518° N, 14.2681° E"
+      },
+      "NAS_Sigonella": {
+        "NATO_CODE": "SIGN",
+        "ICAO": "LICZ"
+      },
+      "Aviano_AB": {
+        "NATO_CODE": "AVNB",
+        "ICAO": "LIPA"
+      }
+    },
+    "coes": {
+      "MS_COE": {
+        "full_name": "NATO Modelling and Simulation Centre of Excellence",
+        "location": "Rome",
+        "established": 2008
+      },
+      "SFA_COE": {
+        "full_name": "NATO Security Force Assistance Centre of Excellence",
+        "location": "Rome",
+        "established": 2017
+      }
+    },
+    "programs": {
+      "GCAP": {
+        "partners": ["UK", "Japan", "Italy"],
+        "industrial_leads": ["BAE", "Mitsubishi", "Leonardo"]
+      },
+      "IRIDE": {
+        "satellites": 30,
+        "launch_window": "2024-2029",
+        "budget_eur": 1100000000
+      }
+    }
+  },
+  "crosswalk": {
+    "LEI_to_ROR": {
+      "549300IVUNDWT194OT81": "https://ror.org/03hp1af20",
+      "5493000IBR9XOI5WWR36": "https://ror.org/00v5n0k53"
+    },
+    "GRID_to_ROR": {
+      "grid.5326.2": "https://ror.org/00z9nrs30",
+      "grid.4643.5": "https://ror.org/01nffqt88",
+      "grid.7841.a": "https://ror.org/02be6w209"
+    }
+  },
+  "metadata": {
+    "last_updated": "2024-09-28",
+    "sources": ["ROR", "GRID", "LEI", "NATO", "National registries"],
+    "validation_status": "Partial - pending full verification"
+  }
+}

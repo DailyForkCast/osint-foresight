@@ -5,7 +5,7 @@ Build the **Institutional Map** for Austria with emphasis on **accreditation‑b
 
 ## 0) Paths
 - Country: `AT`
-- Report: `reports/country=AT/phase-3_institutions.md`  
+- Report: `reports/country=AT/phase-3_institutions.md`
   (Use the companion canvas titled **“Write Austria Phase 3 — Institutional Map & Accredited Labs (reports/country=AT/phase-3_institutions.md)”**.)
 - Data dir: `data/processed/country=AT/`
 
@@ -15,16 +15,16 @@ Build the **Institutional Map** for Austria with emphasis on **accreditation‑b
 ## 2) Bootstrap TSVs (idempotent)
 Create these files with headers. If nothing to add yet, include one `notes` column row with `no_data_yet=true`.
 
-- `data/processed/country=AT/AccreditedLabs.tsv`  
+- `data/processed/country=AT/AccreditedLabs.tsv`
   Columns: `org_name,alt_name_local,cab_code,accreditation_standard,program,cert_no,status,valid_to,scope_link,scope_text_hash,technical_fields,site_address,website,last_check,evidence_id,notes`
 
-- `data/processed/country=AT/roster.tsv`  
+- `data/processed/country=AT/roster.tsv`
   Columns: `person_name,role,org_name,country,standard_or_wg,contact_link,last_check,evidence_id`
 
-- `data/processed/country=AT/institutions.csv`  
+- `data/processed/country=AT/institutions.csv`
   Columns: `institution_id,name,alt_names,org_type,city,country,website,accreditation_flags,clusters,key_subdomains,source_refs,last_check,notes`
 
-- `data/processed/country=AT/capability_heat.tsv`  
+- `data/processed/country=AT/capability_heat.tsv`
   Columns: `cluster_id,name,capability_0_3,rationale,supporting_refs`
 
 > If `standards_roles.tsv` exists, you **don’t** need to rewrite it; just read and summarize for the report.
@@ -34,7 +34,7 @@ Create these files with headers. If nothing to add yet, include one `notes` colu
 - If/when you want automation, create `src/pulls/accreditation_pull.py` (Playwright) to iterate queries and download scope PDFs; compute SHA‑256 and write `scope_text_hash`. (Not required to complete Phase 3.)
 
 ## 4) Evidence register discipline
-- For any scope PDFs or portal pages saved, append to `data/evidence_register.tsv` with:  
+- For any scope PDFs or portal pages saved, append to `data/evidence_register.tsv` with:
   `id,country,type,title,issuer_or_site,url,retrieved_at,sha256,anchor_hash,notes`.
 
 ## 5) Integrations (optional but helpful)
@@ -81,4 +81,3 @@ Add a small task to create the TSVs above if missing.
 - [ ] Evidence register updated for any saved scopes
 - [ ] Health/report tasks run cleanly
 - [ ] Commit created with clear message
-

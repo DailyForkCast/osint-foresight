@@ -21,7 +21,7 @@ Common Crawl is a **massive dataset of web crawl data** - essentially a copy of 
 # Example: Find all mentions of suppliers on company websites
 def find_supplier_mentions(company_domain):
     """
-    Search Common Crawl for pages mentioning "supplier", "vendor", 
+    Search Common Crawl for pages mentioning "supplier", "vendor",
     "partner" on a company's website
     """
     # This reveals supply chain relationships not in databases
@@ -71,7 +71,7 @@ def find_research_partnerships():
 # Example: Track regulatory compliance statements
 def track_compliance():
     """
-    Find GDPR notices, export control statements, 
+    Find GDPR notices, export control statements,
     sanctions compliance mentions across websites
     """
 ```
@@ -154,9 +154,9 @@ def query_on_aws():
 ### 1. Austrian Supply Chain Discovery
 ```sql
 -- Find all mentions of Austrian companies as suppliers
-SELECT url, content_snippet 
+SELECT url, content_snippet
 FROM common_crawl
-WHERE content LIKE '%supplier%' 
+WHERE content LIKE '%supplier%'
   AND (content LIKE '%.at%' OR content LIKE '%Austria%')
   AND crawl_date > '2023-01-01'
 ```
@@ -167,7 +167,7 @@ WHERE content LIKE '%supplier%'
 def track_quantum_adoption():
     crawls_2020 = search_cc("quantum computing", year=2020)
     crawls_2024 = search_cc("quantum computing", year=2024)
-    
+
     # Identify new entrants, measure growth
     return growth_analysis(crawls_2020, crawls_2024)
 ```
@@ -178,7 +178,7 @@ def track_quantum_adoption():
 def detect_relationship_changes():
     pre_2022 = search_cc(domain="company.com", "Russia", before="2022-02")
     post_2022 = search_cc(domain="company.com", "Russia", after="2022-03")
-    
+
     # Flag companies that scrubbed Russia references
 ```
 
@@ -208,7 +208,7 @@ import warc
 s3 = boto3.client('s3', config=Config(signature_version=UNSIGNED))
 
 # Download specific WARC segment
-s3.download_file('commoncrawl', 
+s3.download_file('commoncrawl',
                  'crawl-data/CC-MAIN-2024-10/segments/1234/warc/file.warc.gz',
                  'local_file.warc.gz')
 ```
@@ -258,7 +258,7 @@ with gzip.open('local_file.warc.gz', 'rb') as f:
 - **Cost**: Cheaper than crawling yourself
 - **Speed**: Data already collected
 
-### Disadvantages  
+### Disadvantages
 - **Not real-time**: 1-2 month delay
 - **Not complete**: Doesn't crawl everything
 - **Large files**: Even filtered data can be big

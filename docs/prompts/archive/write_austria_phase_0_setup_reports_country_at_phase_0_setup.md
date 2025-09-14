@@ -69,4 +69,3 @@ See **docs/references/AT-portals.md** for the operational portal list (governmen
 
 ## Next Data Boost (1 step)
 Import **national accreditation (17025) registry** into `AccreditedLabs.tsv` and re‑rank top labs/facilities by **last_check** recency; this will strengthen Phase 3 and downstream confidence.
-

@@ -7,7 +7,7 @@ Slovakia faces an active research security crisis with 3-4 months remaining to p
 
 **Key Numbers:**
 - **113** Chinese partnerships identified
-- **76** EU-funded projects with Chinese participation  
+- **76** EU-funded projects with Chinese participation
 - **70** co-invented patents with Chinese entities
 - **25** partnerships with PLA-affiliated universities
 - **4** confirmed PLA "Seven Sons" universities engaged
@@ -30,7 +30,7 @@ Slovakia faces an active research security crisis with 3-4 months remaining to p
 
 ### 3. Technology Hemorrhage (ONGOING)
 - Photoneo (3D vision) → Zebra Technologies (US)
-- SPINEA (precision reducers) → Timken (US)  
+- SPINEA (precision reducers) → Timken (US)
 - 70 patents co-invented with Chinese entities
 - Critical sectors: AI/robotics, quantum optics, batteries
 
@@ -70,7 +70,7 @@ Slovakia faces an active research security crisis with 3-4 months remaining to p
 ### Government
 "Investment welcome, but supply chain transparency and security controls are non-negotiable for critical technologies."
 
-### Industry  
+### Industry
 "Compliance with security measures protects your IP and ensures continued EU funding access."
 
 ### Academia

@@ -1,0 +1,559 @@
+# OSINT Foresight Multilingual Search Terms
+# Advanced & Emerging Technologies for Dual-Use/MCF Assessment
+# Languages: EN, DE, FR, IT, ES, NL, PL, SV, NO, DA, FI, PT, RO, CZ, HU, SK, BG, HR, SL, ET, LV, LT, EL, TR, ZH, RU, UK, JA, KO
+
+# Search configuration for Common Crawl and other sources
+# Format: technology -> phrases -> languages
+
+metadata:
+  generated: 2025-09-13
+  purpose: "Comprehensive multilingual search terms for dual-use technology tracking"
+  languages_covered:
+    eu_official: ["DE", "FR", "IT", "ES", "NL", "PL", "SV", "DA", "FI", "PT", "RO", "CZ", "HU", "SK", "BG", "HR", "SL", "ET", "LV", "LT", "EL"]
+    eea_additional: ["NO", "IS"]
+    strategic: ["GB", "CH", "TR", "UK", "RS", "AL", "ME", "MK", "BA"]
+    global_tech: ["ZH", "JA", "KO", "RU"]
+
+# 1. AI, AUTONOMY & SOFTWARE
+ai_autonomy_software:
+  foundation_models:
+    search_terms:
+      EN: ["foundation model", "large language model", "multimodal AI", "vision-language model", "code generation AI", "agentic AI", "autonomous agents", "AI agents"]
+      DE: ["Grundlagenmodell", "großes Sprachmodell", "multimodale KI", "Vision-Sprache-Modell", "Code-Generierung KI", "agentische KI", "autonome Agenten"]
+      FR: ["modèle de fondation", "grand modèle de langage", "IA multimodale", "modèle vision-langage", "IA génération de code", "IA agentique", "agents autonomes"]
+      IT: ["modello di fondazione", "grande modello linguistico", "IA multimodale", "modello visione-linguaggio", "IA generazione codice", "IA agentica", "agenti autonomi"]
+      ES: ["modelo fundacional", "gran modelo de lenguaje", "IA multimodal", "modelo visión-lenguaje", "IA generación de código", "IA agéntica", "agentes autónomos"]
+      NL: ["funderingsmodel", "groot taalmodel", "multimodale AI", "visie-taalmodel", "code generatie AI", "agentische AI", "autonome agenten"]
+      PL: ["model fundamentalny", "duży model językowy", "multimodalna AI", "model wizyjno-językowy", "AI generująca kod", "AI agentowa", "autonomiczne agenty"]
+      ZH: ["基础模型", "大语言模型", "多模态AI", "视觉语言模型", "代码生成AI", "智能体AI", "自主代理"]
+      JA: ["基盤モデル", "大規模言語モデル", "マルチモーダルAI", "ビジョン言語モデル", "コード生成AI", "エージェントAI", "自律エージェント"]
+
+    adoption_indicators:
+      EN: ["deploying foundation models", "implementing LLM", "adopted multimodal", "production AI system", "enterprise AI deployment"]
+      DE: ["Einsatz von Grundlagenmodellen", "LLM-Implementierung", "multimodal übernommen", "KI-System in Produktion"]
+      FR: ["déploiement de modèles de fondation", "implémentation LLM", "adopté multimodal", "système IA en production"]
+
+  edge_ai:
+    search_terms:
+      EN: ["on-device AI", "edge AI", "tinyML", "edge inference", "embedded AI", "neural processing unit", "AI accelerator"]
+      DE: ["On-Device-KI", "Edge-KI", "tinyML", "Edge-Inferenz", "eingebettete KI", "neuronale Verarbeitungseinheit", "KI-Beschleuniger"]
+      FR: ["IA sur appareil", "IA périphérique", "tinyML", "inférence edge", "IA embarquée", "unité de traitement neuronal", "accélérateur IA"]
+      IT: ["IA su dispositivo", "IA edge", "tinyML", "inferenza edge", "IA incorporata", "unità di elaborazione neurale", "acceleratore IA"]
+      ES: ["IA en dispositivo", "IA edge", "tinyML", "inferencia edge", "IA embebida", "unidad de procesamiento neuronal", "acelerador IA"]
+      ZH: ["端侧AI", "边缘AI", "微型机器学习", "边缘推理", "嵌入式AI", "神经处理单元", "AI加速器"]
+
+  reinforcement_learning:
+    search_terms:
+      EN: ["reinforcement learning", "RLHF", "RLAIF", "self-play", "simulation learning", "reward modeling", "PPO algorithm", "deep RL"]
+      DE: ["verstärkendes Lernen", "RLHF", "RLAIF", "Selbstspiel", "Simulationslernen", "Belohnungsmodellierung", "PPO-Algorithmus"]
+      FR: ["apprentissage par renforcement", "RLHF", "RLAIF", "auto-jeu", "apprentissage par simulation", "modélisation de récompense"]
+      ZH: ["强化学习", "RLHF", "RLAIF", "自我对弈", "模拟学习", "奖励建模", "PPO算法", "深度强化学习"]
+
+  autonomous_systems:
+    search_terms:
+      EN: ["unmanned aerial vehicle", "UAV", "drone swarm", "autonomous ground vehicle", "UGV", "unmanned surface vessel", "USV", "unmanned underwater vehicle", "UUV", "counter-UAS", "counter-drone", "swarm intelligence", "multi-agent system"]
+      DE: ["unbemanntes Luftfahrzeug", "UAV", "Drohnenschwarm", "autonomes Bodenfahrzeug", "UGV", "unbemanntes Oberflächenfahrzeug", "USV", "unbemanntes Unterwasserfahrzeug", "UUV", "Anti-Drohne", "Schwarm-Intelligenz"]
+      FR: ["véhicule aérien sans pilote", "UAV", "essaim de drones", "véhicule terrestre autonome", "UGV", "navire de surface sans équipage", "USV", "véhicule sous-marin sans équipage", "UUV", "anti-drone", "intelligence en essaim"]
+      IT: ["veicolo aereo senza pilota", "UAV", "sciame di droni", "veicolo terrestre autonomo", "UGV", "nave di superficie senza equipaggio", "USV", "veicolo sottomarino senza equipaggio", "UUV", "anti-drone", "intelligenza dello sciame"]
+      ES: ["vehículo aéreo no tripulado", "UAV", "enjambre de drones", "vehículo terrestre autónomo", "UGV", "buque de superficie no tripulado", "USV", "vehículo submarino no tripulado", "UUV", "anti-dron", "inteligencia de enjambre"]
+      PL: ["bezzałogowy statek powietrzny", "UAV", "rój dronów", "autonomiczny pojazd lądowy", "UGV", "bezzałogowy statek nawodny", "USV", "bezzałogowy pojazd podwodny", "UUV", "przeciwdronowy", "inteligencja roju"]
+      ZH: ["无人机", "无人机群", "自主地面车辆", "无人水面舰艇", "无人潜航器", "反无人机", "群体智能", "多智能体系统"]
+      RU: ["беспилотный летательный аппарат", "БПЛА", "рой дронов", "автономное наземное транспортное средство", "безэкипажное надводное судно", "безэкипажный подводный аппарат", "противодронный", "роевой интеллект"]
+
+  ai_safety:
+    search_terms:
+      EN: ["AI alignment", "AI safety", "red teaming", "model evaluation", "guardrails", "synthetic data", "watermarking", "model provenance", "adversarial robustness", "model theft protection"]
+      DE: ["KI-Ausrichtung", "KI-Sicherheit", "Red Teaming", "Modellbewertung", "Leitplanken", "synthetische Daten", "Wasserzeichen", "Modellherkunft", "adversariale Robustheit"]
+      FR: ["alignement IA", "sécurité IA", "red teaming", "évaluation de modèle", "garde-fous", "données synthétiques", "filigrane", "provenance du modèle", "robustesse adversariale"]
+      ZH: ["AI对齐", "AI安全", "红队测试", "模型评估", "护栏", "合成数据", "水印", "模型溯源", "对抗鲁棒性", "模型防盗"]
+
+# 2. ADVANCED COMPUTING & SEMICONDUCTORS
+advanced_computing:
+  logic_technologies:
+    search_terms:
+      EN: ["GAAFET", "gate-all-around", "nanosheet transistor", "CFET", "complementary FET", "backside power delivery", "3D monolithic integration", "3nm process", "2nm process"]
+      DE: ["GAAFET", "Gate-All-Around", "Nanosheet-Transistor", "CFET", "komplementärer FET", "rückseitige Stromversorgung", "3D-monolithische Integration"]
+      FR: ["GAAFET", "transistor à grille enrobante", "transistor nanofeuille", "CFET", "FET complémentaire", "alimentation arrière", "intégration monolithique 3D"]
+      ZH: ["环绕栅极晶体管", "纳米片晶体管", "CFET", "互补FET", "背面供电", "3D单片集成", "3纳米工艺", "2纳米工艺"]
+      JA: ["GAAFET", "ゲートオールアラウンド", "ナノシートトランジスタ", "CFET", "相補型FET", "バックサイド電源供給", "3Dモノリシック統合"]
+      KO: ["GAAFET", "게이트올어라운드", "나노시트 트랜지스터", "CFET", "상보형 FET", "백사이드 전원 공급", "3D 모놀리식 통합"]
+
+  memory_technologies:
+    search_terms:
+      EN: ["HBM3E", "HBM4", "high bandwidth memory", "MRAM", "ReRAM", "PCM", "phase change memory", "CXL memory pooling", "processing in memory", "PIM", "compute express link"]
+      DE: ["HBM3E", "HBM4", "Hochbandbreiten-Speicher", "MRAM", "ReRAM", "PCM", "Phasenänderungsspeicher", "CXL-Speicherpooling", "Verarbeitung im Speicher"]
+      FR: ["HBM3E", "HBM4", "mémoire haute bande passante", "MRAM", "ReRAM", "PCM", "mémoire à changement de phase", "pooling mémoire CXL", "traitement en mémoire"]
+      ZH: ["HBM3E", "HBM4", "高带宽内存", "MRAM", "ReRAM", "相变存储器", "CXL内存池化", "存内计算", "PIM"]
+
+  advanced_packaging:
+    search_terms:
+      EN: ["2.5D packaging", "3D packaging", "CoWoS", "chip on wafer on substrate", "Foveros", "chiplet", "UCIe", "universal chiplet interconnect", "advanced packaging", "heterogeneous integration"]
+      DE: ["2.5D-Verpackung", "3D-Verpackung", "CoWoS", "Chip-auf-Wafer-auf-Substrat", "Foveros", "Chiplet", "UCIe", "fortschrittliche Verpackung"]
+      FR: ["packaging 2.5D", "packaging 3D", "CoWoS", "puce sur tranche sur substrat", "Foveros", "chiplet", "UCIe", "packaging avancé"]
+      ZH: ["2.5D封装", "3D封装", "CoWoS", "晶圆级芯片封装", "Foveros", "小芯片", "UCIe", "通用小芯片互连", "先进封装"]
+      JA: ["2.5Dパッケージング", "3Dパッケージング", "CoWoS", "チップオンウェハオンサブストレート", "Foveros", "チップレット", "UCIe"]
+
+  lithography:
+    search_terms:
+      EN: ["EUV lithography", "extreme ultraviolet", "high-NA EUV", "advanced photoresist", "maskless lithography", "nanoimprint lithography", "directed self-assembly"]
+      DE: ["EUV-Lithografie", "extrem ultraviolett", "High-NA EUV", "fortschrittlicher Fotolack", "maskenlose Lithografie"]
+      FR: ["lithographie EUV", "ultraviolet extrême", "EUV haute NA", "photorésist avancé", "lithographie sans masque"]
+      NL: ["EUV-lithografie", "extreem ultraviolet", "hoge-NA EUV", "geavanceerde fotoresist", "maskerloze lithografie"]
+      ZH: ["极紫外光刻", "EUV光刻", "高数值孔径EUV", "先进光刻胶", "无掩模光刻", "纳米压印光刻"]
+
+  power_electronics:
+    search_terms:
+      EN: ["silicon carbide", "SiC", "gallium nitride", "GaN", "wide bandgap semiconductor", "power MOSFET", "IGBT", "EV inverter", "traction inverter"]
+      DE: ["Siliziumkarbid", "SiC", "Galliumnitrid", "GaN", "Halbleiter mit breiter Bandlücke", "Leistungs-MOSFET", "IGBT", "EV-Wechselrichter"]
+      FR: ["carbure de silicium", "SiC", "nitrure de gallium", "GaN", "semi-conducteur à large bande interdite", "MOSFET de puissance", "onduleur VE"]
+      ZH: ["碳化硅", "氮化镓", "宽禁带半导体", "功率MOSFET", "IGBT", "电动汽车逆变器", "牵引逆变器"]
+      JA: ["炭化ケイ素", "SiC", "窒化ガリウム", "GaN", "ワイドバンドギャップ半導体", "パワーMOSFET", "EVインバータ"]
+
+# 3. QUANTUM TECHNOLOGIES
+quantum_technologies:
+  quantum_computing:
+    search_terms:
+      EN: ["quantum computer", "quantum computing", "superconducting qubit", "trapped ion", "neutral atom", "topological qubit", "quantum annealing", "quantum supremacy", "quantum advantage", "NISQ"]
+      DE: ["Quantencomputer", "Quantencomputing", "supraleitende Qubits", "gefangene Ionen", "neutrale Atome", "topologische Qubits", "Quantenglühen", "Quantenüberlegenheit"]
+      FR: ["ordinateur quantique", "informatique quantique", "qubit supraconducteur", "ion piégé", "atome neutre", "qubit topologique", "recuit quantique", "suprématie quantique"]
+      IT: ["computer quantistico", "calcolo quantistico", "qubit superconduttore", "ione intrappolato", "atomo neutro", "qubit topologico", "ricottura quantistica"]
+      ES: ["computadora cuántica", "computación cuántica", "qubit superconductor", "ion atrapado", "átomo neutro", "qubit topológico", "recocido cuántico"]
+      ZH: ["量子计算机", "量子计算", "超导量子比特", "离子阱", "中性原子", "拓扑量子比特", "量子退火", "量子优势", "NISQ"]
+
+  quantum_networking:
+    search_terms:
+      EN: ["quantum network", "quantum internet", "quantum repeater", "quantum key distribution", "QKD", "quantum entanglement", "quantum teleportation", "post-quantum cryptography"]
+      DE: ["Quantennetzwerk", "Quanteninternet", "Quantenrepeater", "Quantenschlüsselverteilung", "QKD", "Quantenverschränkung", "Post-Quanten-Kryptographie"]
+      FR: ["réseau quantique", "internet quantique", "répéteur quantique", "distribution quantique de clés", "QKD", "intrication quantique", "cryptographie post-quantique"]
+      ZH: ["量子网络", "量子互联网", "量子中继器", "量子密钥分发", "QKD", "量子纠缠", "量子隐形传态", "后量子密码学"]
+
+  quantum_sensing:
+    search_terms:
+      EN: ["quantum sensor", "quantum gravimeter", "quantum magnetometer", "optical clock", "atomic clock", "quantum imaging", "quantum radar", "quantum compass"]
+      DE: ["Quantensensor", "Quantengravimeter", "Quantenmagnetometer", "optische Uhr", "Atomuhr", "Quantenbildgebung", "Quantenradar", "Quantenkompass"]
+      FR: ["capteur quantique", "gravimètre quantique", "magnétomètre quantique", "horloge optique", "horloge atomique", "imagerie quantique", "radar quantique"]
+      ZH: ["量子传感器", "量子重力仪", "量子磁力计", "光钟", "原子钟", "量子成像", "量子雷达", "量子罗盘"]
+
+# 4. COMMUNICATIONS & NETWORKING
+communications_networking:
+  next_gen_mobile:
+    search_terms:
+      EN: ["5G Advanced", "5G-A", "6G", "terahertz communication", "sub-THz", "reconfigurable intelligent surface", "RIS", "non-terrestrial network", "NTN", "integrated sensing and communication", "ISAC"]
+      DE: ["5G Advanced", "5G-A", "6G", "Terahertz-Kommunikation", "Sub-THz", "rekonfigurierbare intelligente Oberfläche", "nicht-terrestrisches Netzwerk"]
+      FR: ["5G Advanced", "5G-A", "6G", "communication térahertz", "sub-THz", "surface intelligente reconfigurable", "réseau non terrestre"]
+      ZH: ["5G Advanced", "5G-A", "6G", "太赫兹通信", "亚太赫兹", "可重构智能表面", "RIS", "非地面网络", "NTN", "通感一体化"]
+      JA: ["5Gアドバンスト", "5G-A", "6G", "テラヘルツ通信", "サブTHz", "再構成可能インテリジェントサーフェス", "非地上ネットワーク"]
+      KO: ["5G 어드밴스드", "5G-A", "6G", "테라헤르츠 통신", "서브THz", "재구성 가능 지능형 표면", "비지상 네트워크"]
+
+  optical_communications:
+    search_terms:
+      EN: ["coherent optics", "silicon photonics", "photonic integrated circuit", "PIC", "optical interconnect", "LEO satellite terminal", "MEO satellite", "GEO satellite", "laser communication", "free space optics"]
+      DE: ["kohärente Optik", "Silizium-Photonik", "photonischer integrierter Schaltkreis", "optische Verbindung", "LEO-Satellitenterminal", "Laserkommunikation"]
+      FR: ["optique cohérente", "photonique silicium", "circuit intégré photonique", "interconnexion optique", "terminal satellite LEO", "communication laser"]
+      ZH: ["相干光学", "硅光子学", "光子集成电路", "PIC", "光互连", "低轨卫星终端", "中轨卫星", "地球同步卫星", "激光通信"]
+
+  pnt_resilience:
+    search_terms:
+      EN: ["GNSS resilience", "multi-constellation GNSS", "GPS", "Galileo", "BeiDou", "GLONASS", "alternative PNT", "celestial navigation", "signals of opportunity", "SOOP", "quantum positioning"]
+      DE: ["GNSS-Resilienz", "Multi-Konstellation GNSS", "GPS", "Galileo", "BeiDou", "GLONASS", "alternative PNT", "Himmelsnavigation"]
+      FR: ["résilience GNSS", "GNSS multi-constellation", "GPS", "Galileo", "BeiDou", "GLONASS", "PNT alternatif", "navigation céleste"]
+      ZH: ["GNSS弹性", "多星座GNSS", "GPS", "伽利略", "北斗", "格洛纳斯", "替代PNT", "天文导航", "机会信号"]
+
+# 5. PHOTONICS, SENSING & ELECTRONIC WARFARE
+photonics_sensing_ew:
+  integrated_photonics:
+    search_terms:
+      EN: ["integrated photonics", "silicon photonics", "silicon nitride photonics", "III-V photonics", "LiDAR", "FMCW LiDAR", "SWIR imaging", "MWIR imaging", "LWIR imaging", "infrared detector"]
+      DE: ["integrierte Photonik", "Silizium-Photonik", "Siliziumnitrid-Photonik", "III-V-Photonik", "LiDAR", "FMCW-LiDAR", "SWIR-Bildgebung", "MWIR-Bildgebung"]
+      FR: ["photonique intégrée", "photonique silicium", "photonique nitrure de silicium", "photonique III-V", "LiDAR", "imagerie SWIR", "imagerie MWIR"]
+      ZH: ["集成光子学", "硅光子学", "氮化硅光子学", "III-V族光子学", "激光雷达", "FMCW激光雷达", "短波红外成像", "中波红外成像", "长波红外成像"]
+
+  radar_ew:
+    search_terms:
+      EN: ["AESA radar", "active electronically scanned array", "passive RF sensing", "cognitive electronic warfare", "cognitive EW", "electronic support measures", "ESM", "DRFM", "digital radio frequency memory", "spectrum warfare"]
+      DE: ["AESA-Radar", "aktiv elektronisch gesteuertes Array", "passive HF-Erfassung", "kognitive elektronische Kriegsführung", "elektronische Unterstützungsmaßnahmen", "DRFM"]
+      FR: ["radar AESA", "antenne réseau à balayage électronique actif", "détection RF passive", "guerre électronique cognitive", "mesures de soutien électronique", "DRFM"]
+      ZH: ["有源相控阵雷达", "AESA雷达", "无源射频感知", "认知电子战", "电子支援措施", "ESM", "数字射频存储", "DRFM", "频谱战"]
+
+  hyperspectral_sar:
+    search_terms:
+      EN: ["hyperspectral imaging", "synthetic aperture radar", "SAR", "SAR processing", "edge sensor fusion", "multi-sensor fusion", "change detection", "target recognition"]
+      DE: ["Hyperspektralbildgebung", "Radar mit synthetischer Apertur", "SAR", "SAR-Verarbeitung", "Edge-Sensorfusion", "Multisensorfusion"]
+      FR: ["imagerie hyperspectrale", "radar à synthèse d'ouverture", "SAR", "traitement SAR", "fusion de capteurs périphériques", "fusion multi-capteurs"]
+      ZH: ["高光谱成像", "合成孔径雷达", "SAR", "SAR处理", "边缘传感器融合", "多传感器融合", "变化检测", "目标识别"]
+
+# 6. SPACE SYSTEMS & GEOINT
+space_systems:
+  small_satellites:
+    search_terms:
+      EN: ["small satellite", "smallsat", "CubeSat", "nanosatellite", "microsatellite", "rideshare launch", "electric propulsion", "hall thruster", "ion thruster", "space debris tracking"]
+      DE: ["Kleinsatellit", "CubeSat", "Nanosatellit", "Mikrosatellit", "Rideshare-Start", "elektrischer Antrieb", "Hall-Triebwerk", "Weltraumschrott-Tracking"]
+      FR: ["petit satellite", "CubeSat", "nanosatellite", "microsatellite", "lancement partagé", "propulsion électrique", "propulseur Hall", "suivi des débris spatiaux"]
+      ZH: ["小卫星", "立方体卫星", "纳米卫星", "微型卫星", "拼车发射", "电推进", "霍尔推进器", "离子推进器", "空间碎片跟踪"]
+
+  satellite_communications:
+    search_terms:
+      EN: ["optical inter-satellite link", "OISL", "RF payload", "software-defined radio", "SDR", "synthetic aperture", "edge processing", "on-orbit processing", "direct-to-cell"]
+      DE: ["optische Intersatellitenverbindung", "HF-Nutzlast", "softwaredefiniertes Radio", "synthetische Apertur", "Edge-Verarbeitung", "On-Orbit-Verarbeitung"]
+      FR: ["liaison inter-satellite optique", "charge utile RF", "radio logicielle", "ouverture synthétique", "traitement en périphérie", "traitement en orbite"]
+      ZH: ["星间光通信", "射频载荷", "软件定义无线电", "SDR", "合成孔径", "边缘处理", "在轨处理", "直连手机"]
+
+  geoint_systems:
+    search_terms:
+      EN: ["tasking collection orchestration", "TCO", "TIP format", "TTP format", "tactical downlink", "ground station", "earth observation", "remote sensing", "geospatial intelligence"]
+      DE: ["Aufgabensammlung-Orchestrierung", "TIP-Format", "TTP-Format", "taktischer Downlink", "Bodenstation", "Erdbeobachtung", "Fernerkundung"]
+      FR: ["orchestration de collecte de tâches", "format TIP", "format TTP", "liaison descendante tactique", "station au sol", "observation de la Terre", "télédétection"]
+      ZH: ["任务收集编排", "TIP格式", "TTP格式", "战术下行链路", "地面站", "对地观测", "遥感", "地理空间情报"]
+
+# 7. MATERIALS & MANUFACTURING
+materials_manufacturing:
+  advanced_materials:
+    search_terms:
+      EN: ["graphene", "2D materials", "MoS2", "molybdenum disulfide", "topological material", "high-entropy alloy", "metamaterial", "photonic crystal", "negative index material"]
+      DE: ["Graphen", "2D-Materialien", "MoS2", "Molybdändisulfid", "topologisches Material", "Hochentropielegierung", "Metamaterial", "photonischer Kristall"]
+      FR: ["graphène", "matériaux 2D", "MoS2", "disulfure de molybdène", "matériau topologique", "alliage haute entropie", "métamatériau", "cristal photonique"]
+      ZH: ["石墨烯", "二维材料", "二硫化钼", "拓扑材料", "高熵合金", "超材料", "光子晶体", "负折射率材料"]
+      JA: ["グラフェン", "2D材料", "二硫化モリブデン", "トポロジカル材料", "ハイエントロピー合金", "メタマテリアル", "フォトニック結晶"]
+
+  additive_manufacturing:
+    search_terms:
+      EN: ["additive manufacturing", "3D printing", "metal 3D printing", "powder bed fusion", "directed energy deposition", "functionally graded material", "nano-fabrication", "micro-fabrication"]
+      DE: ["additive Fertigung", "3D-Druck", "Metall-3D-Druck", "Pulverbettfusion", "gerichtete Energieabscheidung", "funktional gradiertes Material", "Nanofabrikation"]
+      FR: ["fabrication additive", "impression 3D", "impression 3D métal", "fusion sur lit de poudre", "dépôt d'énergie dirigée", "matériau à gradient fonctionnel"]
+      ZH: ["增材制造", "3D打印", "金属3D打印", "粉末床熔融", "定向能量沉积", "功能梯度材料", "纳米制造", "微制造"]
+
+  smart_materials:
+    search_terms:
+      EN: ["smart material", "shape memory alloy", "shape memory polymer", "self-healing material", "bio-derived polymer", "advanced composite", "carbon fiber composite", "ceramic matrix composite"]
+      DE: ["intelligentes Material", "Formgedächtnislegierung", "Formgedächtnispolymer", "selbstheilendes Material", "biobasiertes Polymer", "fortschrittliches Verbundmaterial"]
+      FR: ["matériau intelligent", "alliage à mémoire de forme", "polymère à mémoire de forme", "matériau auto-cicatrisant", "polymère biosourcé", "composite avancé"]
+      ZH: ["智能材料", "形状记忆合金", "形状记忆聚合物", "自修复材料", "生物基聚合物", "先进复合材料", "碳纤维复合材料"]
+
+# 8. ENERGY & POWER
+energy_power:
+  fusion_energy:
+    search_terms:
+      EN: ["fusion energy", "tokamak", "stellarator", "inertial confinement fusion", "ICF", "HTS magnet", "high temperature superconductor", "ITER", "compact fusion", "fusion reactor"]
+      DE: ["Fusionsenergie", "Tokamak", "Stellarator", "Trägheitsfusion", "HTS-Magnet", "Hochtemperatur-Supraleiter", "ITER", "kompakte Fusion"]
+      FR: ["énergie de fusion", "tokamak", "stellarateur", "fusion par confinement inertiel", "aimant HTS", "supraconducteur haute température", "ITER"]
+      ZH: ["聚变能", "托卡马克", "仿星器", "惯性约束聚变", "高温超导磁体", "ITER", "紧凑型聚变", "聚变反应堆"]
+      JA: ["核融合エネルギー", "トカマク", "ステラレータ", "慣性閉じ込め核融合", "HTS磁石", "高温超伝導体", "ITER"]
+
+  advanced_nuclear:
+    search_terms:
+      EN: ["small modular reactor", "SMR", "advanced modular reactor", "AMR", "molten salt reactor", "MSR", "thorium reactor", "microreactor", "nuclear battery"]
+      DE: ["kleiner modularer Reaktor", "SMR", "fortschrittlicher modularer Reaktor", "AMR", "Salzschmelzereaktor", "MSR", "Thoriumreaktor", "Mikroreaktor"]
+      FR: ["petit réacteur modulaire", "SMR", "réacteur modulaire avancé", "AMR", "réacteur à sels fondus", "MSR", "réacteur au thorium", "microréacteur"]
+      ZH: ["小型模块化反应堆", "SMR", "先进模块化反应堆", "AMR", "熔盐反应堆", "MSR", "钍反应堆", "微型反应堆", "核电池"]
+
+  advanced_batteries:
+    search_terms:
+      EN: ["solid-state battery", "lithium-sulfur battery", "Li-S", "sodium-ion battery", "Na-ion", "lithium-metal battery", "silicon anode", "ultra-capacitor", "supercapacitor"]
+      DE: ["Festkörperbatterie", "Lithium-Schwefel-Batterie", "Li-S", "Natrium-Ionen-Batterie", "Na-Ion", "Lithium-Metall-Batterie", "Siliziumanode", "Ultrakondensator"]
+      FR: ["batterie solide", "batterie lithium-soufre", "Li-S", "batterie sodium-ion", "Na-ion", "batterie lithium-métal", "anode silicium", "ultracondensateur"]
+      ZH: ["固态电池", "锂硫电池", "钠离子电池", "锂金属电池", "硅负极", "超级电容器"]
+      JA: ["全固体電池", "リチウム硫黄電池", "ナトリウムイオン電池", "リチウム金属電池", "シリコンアノード", "ウルトラキャパシタ"]
+      KO: ["전고체 배터리", "리튬황 배터리", "나트륨이온 배터리", "리튬금속 배터리", "실리콘 음극", "울트라커패시터"]
+
+  hydrogen_economy:
+    search_terms:
+      EN: ["green hydrogen", "PEM electrolyzer", "SOEC", "solid oxide electrolyzer", "ammonia carrier", "hydrogen fuel cell", "power-to-X", "P2X", "hydrogen storage"]
+      DE: ["grüner Wasserstoff", "PEM-Elektrolyseur", "SOEC", "Festoxid-Elektrolyseur", "Ammoniak-Träger", "Wasserstoff-Brennstoffzelle", "Power-to-X"]
+      FR: ["hydrogène vert", "électrolyseur PEM", "SOEC", "électrolyseur oxyde solide", "vecteur ammoniac", "pile à combustible hydrogène", "power-to-X"]
+      ZH: ["绿氢", "PEM电解槽", "固体氧化物电解池", "SOEC", "氨载体", "氢燃料电池", "电转X", "P2X", "氢储存"]
+
+  renewable_energy:
+    search_terms:
+      EN: ["perovskite solar cell", "tandem solar cell", "organic photovoltaic", "OPV", "concentrated solar power", "CSP", "floating wind turbine", "grid-scale storage", "thermoelectric generator"]
+      DE: ["Perowskit-Solarzelle", "Tandem-Solarzelle", "organische Photovoltaik", "OPV", "konzentrierte Solarenergie", "CSP", "schwimmende Windturbine", "Netzspeicher"]
+      FR: ["cellule solaire pérovskite", "cellule solaire tandem", "photovoltaïque organique", "OPV", "énergie solaire concentrée", "CSP", "éolienne flottante", "stockage réseau"]
+      ZH: ["钙钛矿太阳能电池", "叠层太阳能电池", "有机光伏", "OPV", "聚光太阳能", "CSP", "浮式风力涡轮机", "电网级储能", "热电发电机"]
+
+# 9. TRANSPORTATION, PROPULSION & HYPERSONICS
+transportation_propulsion:
+  hypersonics:
+    search_terms:
+      EN: ["hypersonic", "scramjet", "ramjet", "combined cycle engine", "thermal protection system", "TPS", "hypersonic glide vehicle", "HGV", "boost-glide", "mach 5+"]
+      DE: ["Hyperschall", "Scramjet", "Ramjet", "Kombinationstriebwerk", "Wärmeschutzsystem", "Hyperschall-Gleitflugkörper", "HGV", "Mach 5+"]
+      FR: ["hypersonique", "scramjet", "statoréacteur", "moteur à cycle combiné", "système de protection thermique", "véhicule planeur hypersonique", "HGV"]
+      ZH: ["高超音速", "超燃冲压发动机", "冲压发动机", "组合循环发动机", "热防护系统", "TPS", "高超音速滑翔飞行器", "HGV", "助推滑翔"]
+      RU: ["гиперзвуковой", "ГПВРД", "прямоточный", "комбинированный двигатель", "теплозащита", "гиперзвуковой планирующий", "ГЗО"]
+
+  electric_aviation:
+    search_terms:
+      EN: ["electric aircraft", "eVTOL", "electric vertical takeoff", "distributed propulsion", "hydrogen aircraft", "sustainable aviation fuel", "SAF", "urban air mobility", "UAM"]
+      DE: ["Elektroflugzeug", "eVTOL", "elektrischer Senkrechtstart", "verteilter Antrieb", "Wasserstoffflugzeug", "nachhaltiger Flugkraftstoff", "SAF"]
+      FR: ["avion électrique", "eVTOL", "décollage vertical électrique", "propulsion distribuée", "avion hydrogène", "carburant aviation durable", "SAF"]
+      ZH: ["电动飞机", "eVTOL", "电动垂直起降", "分布式推进", "氢能飞机", "可持续航空燃料", "SAF", "城市空中交通", "UAM"]
+
+  maritime_autonomy:
+    search_terms:
+      EN: ["autonomous ship", "maritime autonomy", "UUV endurance", "AUV", "autonomous underwater vehicle", "submarine drone", "quieting technology", "acoustic stealth", "blue economy tech"]
+      DE: ["autonomes Schiff", "maritime Autonomie", "UUV-Ausdauer", "AUV", "autonomes Unterwasserfahrzeug", "U-Boot-Drohne", "Geräuschdämpfung", "akustische Tarnung"]
+      FR: ["navire autonome", "autonomie maritime", "endurance UUV", "AUV", "véhicule sous-marin autonome", "drone sous-marin", "technologie de réduction du bruit"]
+      ZH: ["自主船舶", "海事自主", "UUV续航", "AUV", "自主水下航行器", "潜艇无人机", "静音技术", "声学隐身", "蓝色经济技术"]
+
+# 10. BIOTECHNOLOGY & HEALTH
+biotechnology_health:
+  synthetic_biology:
+    search_terms:
+      EN: ["synthetic biology", "gene circuit", "chassis organism", "cell-free system", "metabolic engineering", "biosynthesis", "biofoundry", "DNA synthesis", "gene synthesis"]
+      DE: ["synthetische Biologie", "Genschaltkreis", "Chassis-Organismus", "zellfreies System", "metabolische Ingenieurwissenschaft", "Biosynthese", "Biofabrik", "DNA-Synthese"]
+      FR: ["biologie synthétique", "circuit génétique", "organisme châssis", "système acellulaire", "ingénierie métabolique", "biosynthèse", "biofonderie", "synthèse ADN"]
+      ZH: ["合成生物学", "基因线路", "底盘生物", "无细胞系统", "代谢工程", "生物合成", "生物铸造厂", "DNA合成", "基因合成"]
+
+  gene_editing:
+    search_terms:
+      EN: ["CRISPR", "gene editing", "base editing", "prime editing", "gene therapy", "viral vector", "AAV", "lentivirus", "CAR-T", "cell therapy"]
+      DE: ["CRISPR", "Genbearbeitung", "Base-Editing", "Prime-Editing", "Gentherapie", "viraler Vektor", "AAV", "Lentivirus", "CAR-T", "Zelltherapie"]
+      FR: ["CRISPR", "édition génétique", "édition de base", "édition prime", "thérapie génique", "vecteur viral", "AAV", "lentivirus", "CAR-T", "thérapie cellulaire"]
+      ZH: ["CRISPR", "基因编辑", "碱基编辑", "引导编辑", "基因治疗", "病毒载体", "AAV", "慢病毒", "CAR-T", "细胞治疗"]
+      JA: ["CRISPR", "遺伝子編集", "塩基編集", "プライム編集", "遺伝子治療", "ウイルスベクター", "AAV", "レンチウイルス", "CAR-T"]
+
+  lab_on_chip:
+    search_terms:
+      EN: ["lab-on-chip", "microfluidics", "organ-on-chip", "organoid", "3D cell culture", "high-throughput screening", "HTS", "bioprinting", "tissue engineering"]
+      DE: ["Lab-on-Chip", "Mikrofluidik", "Organ-on-Chip", "Organoid", "3D-Zellkultur", "Hochdurchsatz-Screening", "HTS", "Bioprinting", "Gewebezüchtung"]
+      FR: ["laboratoire sur puce", "microfluidique", "organe sur puce", "organoïde", "culture cellulaire 3D", "criblage haut débit", "bio-impression", "ingénierie tissulaire"]
+      ZH: ["芯片实验室", "微流控", "器官芯片", "类器官", "3D细胞培养", "高通量筛选", "HTS", "生物打印", "组织工程"]
+
+  neurotech:
+    search_terms:
+      EN: ["brain-computer interface", "BCI", "neural implant", "neuromodulation", "optogenetics", "deep brain stimulation", "DBS", "neuroprosthetics", "brain organoid"]
+      DE: ["Gehirn-Computer-Schnittstelle", "BCI", "Neuralimplantat", "Neuromodulation", "Optogenetik", "tiefe Hirnstimulation", "DBS", "Neuroprothetik"]
+      FR: ["interface cerveau-ordinateur", "BCI", "implant neural", "neuromodulation", "optogénétique", "stimulation cérébrale profonde", "neuroprothèse"]
+      ZH: ["脑机接口", "BCI", "神经植入物", "神经调控", "光遗传学", "深部脑刺激", "DBS", "神经假体", "脑类器官"]
+
+  computational_biology:
+    search_terms:
+      EN: ["protein folding", "AlphaFold", "molecular dynamics", "drug discovery AI", "generative biology", "systems biology", "bioinformatics", "structural biology", "cryo-EM"]
+      DE: ["Proteinfaltung", "AlphaFold", "Molekulardynamik", "KI-Wirkstoffforschung", "generative Biologie", "Systembiologie", "Bioinformatik", "Strukturbiologie", "Kryo-EM"]
+      FR: ["repliement des protéines", "AlphaFold", "dynamique moléculaire", "découverte de médicaments IA", "biologie générative", "biologie des systèmes", "bioinformatique"]
+      ZH: ["蛋白质折叠", "AlphaFold", "分子动力学", "AI药物发现", "生成生物学", "系统生物学", "生物信息学", "结构生物学", "冷冻电镜"]
+
+# 11. ROBOTICS & HUMAN-MACHINE SYSTEMS
+robotics_hmi:
+  advanced_robotics:
+    search_terms:
+      EN: ["dexterous manipulation", "soft robotics", "exoskeleton", "humanoid robot", "collaborative robot", "cobot", "swarm robotics", "bio-inspired robotics"]
+      DE: ["geschickte Manipulation", "Soft-Robotik", "Exoskelett", "humanoider Roboter", "kollaborativer Roboter", "Cobot", "Schwarmrobotik", "bio-inspirierte Robotik"]
+      FR: ["manipulation dextre", "robotique souple", "exosquelette", "robot humanoïde", "robot collaboratif", "cobot", "robotique en essaim", "robotique bio-inspirée"]
+      ZH: ["灵巧操作", "软体机器人", "外骨骼", "人形机器人", "协作机器人", "群体机器人", "仿生机器人"]
+      JA: ["器用な操作", "ソフトロボティクス", "エクソスケルトン", "ヒューマノイドロボット", "協働ロボット", "コボット", "群ロボティクス"]
+
+  autonomous_navigation:
+    search_terms:
+      EN: ["SLAM", "simultaneous localization and mapping", "GPS-denied navigation", "visual odometry", "resilient autonomy", "sensor fusion", "path planning", "obstacle avoidance"]
+      DE: ["SLAM", "simultane Lokalisierung und Kartierung", "GPS-freie Navigation", "visuelle Odometrie", "resiliente Autonomie", "Sensorfusion", "Pfadplanung"]
+      FR: ["SLAM", "localisation et cartographie simultanées", "navigation sans GPS", "odométrie visuelle", "autonomie résiliente", "fusion de capteurs"]
+      ZH: ["SLAM", "同时定位与地图构建", "无GPS导航", "视觉里程计", "弹性自主", "传感器融合", "路径规划", "避障"]
+
+  human_machine_interface:
+    search_terms:
+      EN: ["human-robot interaction", "HRI", "teleoperation", "haptic feedback", "augmented reality", "AR", "virtual reality", "VR", "extended reality", "XR", "digital twin"]
+      DE: ["Mensch-Roboter-Interaktion", "HRI", "Teleoperation", "haptisches Feedback", "erweiterte Realität", "AR", "virtuelle Realität", "VR", "digitaler Zwilling"]
+      FR: ["interaction homme-robot", "IHR", "téléopération", "retour haptique", "réalité augmentée", "RA", "réalité virtuelle", "RV", "jumeau numérique"]
+      ZH: ["人机交互", "HRI", "远程操作", "触觉反馈", "增强现实", "AR", "虚拟现实", "VR", "扩展现实", "XR", "数字孪生"]
+
+# 12. SECURITY, CYBER & SOFTWARE SUPPLY CHAIN
+security_cyber:
+  zero_trust:
+    search_terms:
+      EN: ["zero trust", "zero trust architecture", "ZTA", "microsegmentation", "identity-based security", "continuous verification", "principle of least privilege", "SASE"]
+      DE: ["Zero Trust", "Zero-Trust-Architektur", "ZTA", "Mikrosegmentierung", "identitätsbasierte Sicherheit", "kontinuierliche Verifizierung", "Prinzip der geringsten Rechte"]
+      FR: ["zéro confiance", "architecture zéro confiance", "ZTA", "micro-segmentation", "sécurité basée sur l'identité", "vérification continue"]
+      ZH: ["零信任", "零信任架构", "ZTA", "微隔离", "基于身份的安全", "持续验证", "最小权限原则", "SASE"]
+
+  confidential_computing:
+    search_terms:
+      EN: ["confidential computing", "trusted execution environment", "TEE", "secure enclave", "SGX", "SEV", "TDX", "homomorphic encryption", "secure multi-party computation"]
+      DE: ["vertrauliches Computing", "vertrauenswürdige Ausführungsumgebung", "TEE", "sichere Enklave", "SGX", "SEV", "TDX", "homomorphe Verschlüsselung"]
+      FR: ["informatique confidentielle", "environnement d'exécution de confiance", "TEE", "enclave sécurisée", "SGX", "SEV", "TDX", "chiffrement homomorphe"]
+      ZH: ["机密计算", "可信执行环境", "TEE", "安全飞地", "SGX", "SEV", "TDX", "同态加密", "安全多方计算"]
+
+  supply_chain_security:
+    search_terms:
+      EN: ["SBOM", "software bill of materials", "reproducible build", "SLSA", "supply chain levels", "secure boot", "attestation", "code signing", "vulnerability scanning"]
+      DE: ["SBOM", "Software-Stückliste", "reproduzierbare Builds", "SLSA", "Lieferkettenstufen", "sicherer Start", "Attestierung", "Code-Signierung"]
+      FR: ["SBOM", "nomenclature logicielle", "build reproductible", "SLSA", "niveaux de chaîne d'approvisionnement", "démarrage sécurisé", "attestation"]
+      ZH: ["SBOM", "软件物料清单", "可重现构建", "SLSA", "供应链级别", "安全启动", "证明", "代码签名", "漏洞扫描"]
+
+  ics_ot_security:
+    search_terms:
+      EN: ["ICS security", "OT security", "operational technology", "SCADA", "industrial control system", "critical infrastructure protection", "automotive security", "avionics security"]
+      DE: ["ICS-Sicherheit", "OT-Sicherheit", "Betriebstechnik", "SCADA", "industrielles Steuerungssystem", "kritische Infrastrukturschutz", "Automobilsicherheit"]
+      FR: ["sécurité ICS", "sécurité OT", "technologie opérationnelle", "SCADA", "système de contrôle industriel", "protection infrastructure critique"]
+      ZH: ["ICS安全", "OT安全", "运营技术", "SCADA", "工业控制系统", "关键基础设施保护", "汽车安全", "航电安全"]
+
+  information_integrity:
+    search_terms:
+      EN: ["deepfake detection", "synthetic media detection", "steganography", "steganalysis", "watermarking", "blockchain verification", "content authenticity", "C2PA"]
+      DE: ["Deepfake-Erkennung", "synthetische Medienerkennung", "Steganografie", "Steganalyse", "Wasserzeichen", "Blockchain-Verifizierung", "Inhaltsauthentizität"]
+      FR: ["détection deepfake", "détection média synthétique", "stéganographie", "stéganalyse", "filigrane", "vérification blockchain", "authenticité du contenu"]
+      ZH: ["深度伪造检测", "合成媒体检测", "隐写术", "隐写分析", "水印", "区块链验证", "内容真实性", "C2PA"]
+
+# Technology Adoption Detection Patterns
+adoption_patterns:
+  deployment_indicators:
+    EN:
+      - "deployed in production"
+      - "operational deployment"
+      - "commercial deployment"
+      - "pilot program"
+      - "proof of concept"
+      - "technology demonstrator"
+      - "field testing"
+      - "beta testing"
+      - "early adopter"
+      - "technology transfer"
+      - "spin-off company"
+      - "licensing agreement"
+      - "joint venture"
+      - "strategic partnership"
+      - "acquisition of"
+      - "invested in"
+      - "scaled up"
+      - "mass production"
+      - "contract awarded"
+      - "tender won"
+
+    DE:
+      - "in Produktion eingesetzt"
+      - "operative Bereitstellung"
+      - "kommerzielle Bereitstellung"
+      - "Pilotprogramm"
+      - "Machbarkeitsnachweis"
+      - "Technologiedemonstrator"
+      - "Feldtest"
+      - "Beta-Test"
+      - "Frühanwender"
+      - "Technologietransfer"
+      - "Ausgründung"
+      - "Lizenzvereinbarung"
+      - "Joint Venture"
+      - "strategische Partnerschaft"
+      - "Übernahme von"
+      - "investiert in"
+      - "hochskaliert"
+      - "Massenproduktion"
+      - "Auftrag vergeben"
+      - "Ausschreibung gewonnen"
+
+    FR:
+      - "déployé en production"
+      - "déploiement opérationnel"
+      - "déploiement commercial"
+      - "programme pilote"
+      - "preuve de concept"
+      - "démonstrateur technologique"
+      - "test sur le terrain"
+      - "test bêta"
+      - "adopteur précoce"
+      - "transfert de technologie"
+      - "entreprise dérivée"
+      - "accord de licence"
+      - "coentreprise"
+      - "partenariat stratégique"
+      - "acquisition de"
+      - "investi dans"
+      - "mis à l'échelle"
+      - "production de masse"
+      - "contrat attribué"
+      - "appel d'offres remporté"
+
+    ZH:
+      - "生产部署"
+      - "运营部署"
+      - "商业部署"
+      - "试点项目"
+      - "概念验证"
+      - "技术演示"
+      - "现场测试"
+      - "测试版"
+      - "早期采用者"
+      - "技术转移"
+      - "衍生公司"
+      - "许可协议"
+      - "合资企业"
+      - "战略合作"
+      - "收购"
+      - "投资于"
+      - "扩大规模"
+      - "批量生产"
+      - "合同授予"
+      - "中标"
+
+  capability_indicators:
+    EN:
+      - "achieved breakthrough"
+      - "demonstrated capability"
+      - "reached milestone"
+      - "surpassed benchmark"
+      - "world record"
+      - "first in Europe"
+      - "leading position"
+      - "competitive advantage"
+      - "technology leadership"
+      - "patent granted"
+      - "certification received"
+      - "standard adopted"
+      - "regulation approved"
+
+    DE:
+      - "Durchbruch erzielt"
+      - "Fähigkeit demonstriert"
+      - "Meilenstein erreicht"
+      - "Benchmark übertroffen"
+      - "Weltrekord"
+      - "Erster in Europa"
+      - "führende Position"
+      - "Wettbewerbsvorteil"
+      - "Technologieführerschaft"
+      - "Patent erteilt"
+      - "Zertifizierung erhalten"
+      - "Standard übernommen"
+      - "Verordnung genehmigt"
+
+    FR:
+      - "percée réalisée"
+      - "capacité démontrée"
+      - "jalon atteint"
+      - "référence dépassée"
+      - "record mondial"
+      - "premier en Europe"
+      - "position de leader"
+      - "avantage concurrentiel"
+      - "leadership technologique"
+      - "brevet accordé"
+      - "certification reçue"
+      - "norme adoptée"
+      - "réglementation approuvée"
+
+# Common Crawl Search Configuration
+common_crawl_config:
+  search_strategy:
+    - combine_terms: true  # Combine technology terms with adoption indicators
+    - language_coverage: ["EN", "DE", "FR", "IT", "ES", "NL", "PL", "ZH"]
+    - proximity_search: 50  # Words between technology term and indicator
+    - date_filtering: true
+    - domain_filtering:
+      include:
+        - "*.edu"
+        - "*.gov"
+        - "*.mil"
+        - "*.ac.*"
+        - "*.research.*"
+        - "*.science.*"
+      exclude:
+        - "*.ru"
+        - "*.cn"  # Unless specifically searching Chinese sources
+
+  scoring_factors:
+    - academic_publication: 3
+    - government_document: 5
+    - industry_report: 4
+    - news_article: 2
+    - patent_filing: 5
+    - standard_document: 4
+    - procurement_notice: 5
+    - conference_paper: 3

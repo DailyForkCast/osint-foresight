@@ -1,0 +1,54 @@
+{
+  "us_funding_flows": {
+    "defense_contracts": {
+      "fms_2023": 1230000000,
+      "direct_commercial_2023": 890000000,
+      "major_programs": ["F-35", "MQ-9", "Apache", "C-130J"],
+      "offset_obligations": 0.35
+    },
+    "research_grants": {
+      "nsf_collaboration": 23000000,
+      "darpa_participation": "Limited",
+      "doe_partnerships": 12000000,
+      "nih_joint_programs": 45000000
+    },
+    "venture_capital": {
+      "us_vc_in_italy_2023": 234000000,
+      "sectors": ["Biotech", "Deeptech", "Enterprise software"],
+      "major_investors": ["Sequoia", "Andreessen Horowitz", "General Catalyst"],
+      "italian_startups_in_us": 12
+    },
+    "industrial_partnerships": {
+      "jv_agreements": 23,
+      "technology_licenses": 156,
+      "manufacturing_contracts": 67,
+      "total_value": 4560000000
+    }
+  },
+  "funding_dependencies": [
+    {
+      "program": "F-35 sustainment",
+      "annual_value": 450000000,
+      "criticality": "HIGH",
+      "alternatives": "None"
+    },
+    {
+      "program": "Space cooperation",
+      "annual_value": 120000000,
+      "criticality": "MEDIUM",
+      "alternatives": "ESA programs"
+    },
+    {
+      "program": "Missile defense",
+      "annual_value": 230000000,
+      "criticality": "HIGH",
+      "alternatives": "European solutions limited"
+    }
+  ],
+  "technology_access": {
+    "itar_controlled": 234,
+    "ear_controlled": 567,
+    "deemed_exports": 89,
+    "technology_transfer_agreements": 45
+  }
+}

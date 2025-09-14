@@ -13,7 +13,7 @@
 - Best practice examples (Finland? Denmark?)
 
 **Why It Matters**: Cannot claim "worst" or "most vulnerable" without comparison
-**How to Obtain**: 
+**How to Obtain**:
 - Run parallel Phase 1-8 for 2-3 peer countries
 - Create standardized scoring matrix
 - Benchmark against EU/NATO averages
@@ -98,7 +98,7 @@
 **Current Claim**: Treating all Chinese engagement as coordinated threat
 **Nuance Needed**:
 - Commercial vs strategic interests
-- Provincial vs national priorities  
+- Provincial vs national priorities
 - Competition between Chinese firms
 - Pragmatic business relationships
 
@@ -141,7 +141,7 @@
 ### 3. SLOVAK AGENCY OVERLOOKED
 
 **Current Frame**: Slovakia as passive victim
-**Alternative**: 
+**Alternative**:
 - Strategic choice to balance East/West
 - Leveraging position between blocks
 - Conscious risk-taking for development
@@ -283,7 +283,7 @@ Stage 7: Final synthesis with confidence bands
 
 ### Phase 1 Enhancement
 ```markdown
-ADD: 
+ADD:
 - Comparative metrics with peer countries
 - Historical baseline (10-year trends)
 - Confidence intervals for all statistics

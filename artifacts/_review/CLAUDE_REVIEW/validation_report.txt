@@ -1,0 +1,103 @@
+VALIDATION REPORT - Unified Prompt Pack (0-13)
+================================================
+Generated: 2025-09-13
+Pack Version: ChatGPT v3.4 / Claude Code v1.4
+
+SCHEMA INCONSISTENCIES (23 found)
+----------------------------------
+1. evidence_url: Sometimes string (line 295), sometimes array (implied in evidence tables)
+2. confidence: Mixed scales - "Low/Med/High" (line 35) vs 0-1 scores (line 650)
+3. Date formats: YYYY-MM-DD (line 238), YYYY-MM (line 194), epoch (implied)
+4. hub field: Sometimes at root, sometimes nested
+5. sources array: Inconsistent depth (flat vs nested objects)
+6. role field: Enumeration values differ between phases 5 and 7
+7. amount field: Sometimes number, sometimes string with currency
+8. threshold: String with operator vs numeric with separate operator field
+9. domains: Sometimes string, sometimes array
+10. evidence: Array of strings vs array of objects
+11. status field: Different enums across artifacts
+12. owner field: Email vs name vs ID
+13. severity: Different scales (1-5 vs low/medium/high/critical)
+14. coordinates: [lon, lat] vs [lat, lon] inconsistency
+15. ties array: Different structures in phase 7 vs phase 9
+16. policy_refs: Inline vs referenced by ID
+17. metrics: Flat vs nested structure
+18. language codes: ISO 639-1 vs 639-3 mixed
+19. country codes: ISO 3166-1 alpha-2 vs alpha-3 mixed
+20. time zones: Not specified, implicit local vs UTC
+21. null handling: null vs empty string vs omitted field
+22. boolean fields: true/false vs 0/1 vs yes/no strings
+23. ID formats: Prefixed (ROR:xxx) vs bare (xxx) with type field
+
+EU-SPECIFIC RESIDUES (4 found)
+-------------------------------
+Line 163: Comment "EU-only leftovers" should be removed
+Line 269: USASpending listed first (US-centric ordering)
+Line 132: "EU: TED" implies EU-first approach
+Line 575: France regions use inconsistent hyphenation (SophiaAntipolis-Nice)
+
+UNDEFINED ENUMERATIONS (8 found)
+---------------------------------
+1. bindingness (line 157): No valid values specified
+2. affiliation type (line 191): Boolean vs enum unclear
+3. tie types (line 194): Partial list only
+4. policy reaction types (line 108): "legislation|export_control|funding|visa" incomplete
+5. enforcement status: No enumeration provided
+6. access_mode (line 229): Examples given but not exhaustive
+7. role in standards (line 134): member|editor|rapporteur may be incomplete
+8. assessment values (line 116): "partly true|unsupported|context dependent" needs more options
+
+MISSING ERROR HANDLING (12 found)
+----------------------------------
+1. API rate limit exceeded: No retry strategy
+2. Schema validation failure: No recovery path
+3. Missing dependencies: No graceful degradation
+4. Partial matrix run failure: No checkpoint/restart
+5. Hub promotion failure: No rollback mechanism
+6. Translation API failure: No fallback
+7. Graph disconnection: No component handling
+8. Duplicate entity resolution: No merge strategy
+9. Temporal conflict in affiliations: No resolution
+10. Cross-border hub conflicts: No arbitration
+11. Evidence contradiction: No reconciliation process
+12. File lock conflicts in parallel runs: No coordination
+
+NAMING CONVENTION VIOLATIONS (4 found)
+---------------------------------------
+1. phaseNN_subK pattern broken in some examples
+2. Inconsistent underscore vs hyphen usage
+3. Mixed camelCase and snake_case
+4. Country name formats vary (spaces, hyphens, camelCase)
+
+MISSING ARTIFACTS (15 found)
+-----------------------------
+1. standards_activity.json - referenced but no schema
+2. scenario_inputs.json - mentioned but undefined
+3. metric_catalog.csv - columns not specified
+4. rules.yaml - format unknown
+5. adversary_plan.json - structure undefined
+6. forecast_registry.json - partial definition only
+7. calibration_scores.json - calculation method missing
+8. reliability_curves.csv - format unspecified
+9. validation_report.txt - this file's format not specified in pack
+10. policy_index.json - structure implied but not defined
+11. alias_map.json - format suggested but not detailed
+12. id_registry.json - mentioned but no schema
+13. coverage_grid.geojson - GeoJSON variant unspecified
+14. translation_log.csv - mentioned in patches but not in pack
+15. hubs.conf - Makefile variable format unspecified
+
+SUGGESTED FIXES
+---------------
+1. Create a central schema registry (schemas.yaml) with all artifact definitions
+2. Standardize on ISO formats for dates, countries, languages
+3. Use JSON Schema Draft 7 for all validation
+4. Implement pre-flight validation before each phase
+5. Add transaction support to all multi-step operations
+6. Create error recovery playbook
+7. Define canonical ID format: PREFIX:identifier
+8. Standardize confidence as 0-1 with label mapping
+9. Remove all EU-specific language and ordering
+10. Add comprehensive enum definitions appendix
+
+END OF VALIDATION REPORT

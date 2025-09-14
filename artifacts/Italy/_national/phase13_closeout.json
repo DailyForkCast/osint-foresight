@@ -1,0 +1,127 @@
+{
+  "implementation_plan": {
+    "timeline": [
+      {
+        "milestone": "ACN cyber capabilities enhancement",
+        "date": "2024 Q4",
+        "owner": "ACN",
+        "dependencies": ["Budget approval", "Personnel recruitment"],
+        "status": "On track"
+      },
+      {
+        "milestone": "DIANA Turin accelerator full operation",
+        "date": "2024 Q2",
+        "owner": "MoD/MIMIT",
+        "dependencies": ["NATO coordination"],
+        "status": "Completed"
+      },
+      {
+        "milestone": "Golden Power mechanism review",
+        "date": "2025 Q1",
+        "owner": "Council of Ministers",
+        "dependencies": ["EU coordination"],
+        "status": "Planned"
+      },
+      {
+        "milestone": "Defense spending increase proposal",
+        "date": "2025 Q3",
+        "owner": "MoD/MEF",
+        "dependencies": ["Political consensus", "Fiscal space"],
+        "status": "At risk"
+      }
+    ],
+    "raci_matrix": {
+      "nato_compliance": {
+        "responsible": "MoD",
+        "accountable": "Prime Minister",
+        "consulted": ["MEF", "Parliament Defense Committee"],
+        "informed": ["NATO", "EU partners"]
+      },
+      "innovation_ecosystem": {
+        "responsible": "MIMIT",
+        "accountable": "Council of Ministers",
+        "consulted": ["MUR", "ACN", "Industry"],
+        "informed": ["EU Commission", "Regions"]
+      }
+    }
+  },
+  "success_metrics": [
+    {
+      "objective": "Increase defense spending",
+      "kpi": "Defense/GDP ratio",
+      "current": 1.46,
+      "target_2025": 1.55,
+      "target_2030": 1.80,
+      "measurement": "Annual budget"
+    },
+    {
+      "objective": "Enhance innovation capacity",
+      "kpi": "R&D/GDP ratio",
+      "current": 1.45,
+      "target_2025": 1.60,
+      "target_2030": 2.00,
+      "measurement": "ISTAT data"
+    },
+    {
+      "objective": "Improve NATO interoperability",
+      "kpi": "STANAG compliance rate",
+      "current": 0.56,
+      "target_2025": 0.65,
+      "target_2030": 0.80,
+      "measurement": "Annual assessment"
+    }
+  ],
+  "monitoring_handoff": {
+    "procedures": [
+      {
+        "activity": "NATO metrics tracking",
+        "frequency": "Monthly",
+        "responsible": "MoD Planning",
+        "reporting": "Quarterly to Parliament"
+      },
+      {
+        "activity": "Technology investment screening",
+        "frequency": "Continuous",
+        "responsible": "Golden Power unit",
+        "reporting": "Annual to EU"
+      },
+      {
+        "activity": "Innovation ecosystem health",
+        "frequency": "Quarterly",
+        "responsible": "MIMIT",
+        "reporting": "Semi-annual to Cabinet"
+      }
+    ],
+    "dashboard_config": {
+      "real_time_metrics": ["Cyber incidents", "Investment reviews"],
+      "monthly_updates": ["Defense spending", "R&D investment"],
+      "quarterly_reviews": ["NATO compliance", "Innovation indicators"]
+    }
+  },
+  "critical_recommendations": [
+    {
+      "priority": 1,
+      "recommendation": "Establish bipartisan consensus on defense spending increase",
+      "rationale": "Current trajectory insufficient for NATO commitments",
+      "actions": ["Political dialogue", "Public communication campaign"],
+      "timeline": "2024-2025",
+      "owner": "Prime Minister"
+    },
+    {
+      "priority": 2,
+      "recommendation": "Accelerate STANAG implementation for critical systems",
+      "rationale": "Interoperability gaps affecting NATO integration",
+      "actions": ["Fast-track certification", "Industry incentives"],
+      "timeline": "2024-2026",
+      "owner": "MoD"
+    },
+    {
+      "priority": 3,
+      "recommendation": "Strengthen technology sovereignty initiatives",
+      "rationale": "Over-dependence on foreign suppliers in critical areas",
+      "actions": ["IPCEI participation", "Sovereign tech fund"],
+      "timeline": "2024-2030",
+      "owner": "MIMIT"
+    }
+  ]
+}

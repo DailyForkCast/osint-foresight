@@ -1,0 +1,192 @@
+# Hub Management Makefile Extension
+# Provides transaction-safe hub promotion and discovery workflows
+
+# ---- Variables ----
+COUNTRY ?=
+LEVEL ?= national
+HUB ?= _national
+HUBS ?=
+POLICY_WINDOW ?= 2019-2025
+OUT := artifacts/$(COUNTRY)/$(HUB)
+OUTLIER_Z ?= 2.0
+PROMOTE_POLICY ?= {"min_evidence":2,"min_z":2.0,"require_reviewer":true}
+
+# Load persisted hub config if present
+-include artifacts/$(COUNTRY)/hubs.conf
+
+# Auto-hub files
+HUBS_AUTO_FILE ?= artifacts/$(COUNTRY)/auto_hubs.txt
+AUTO_HUBS ?=
+
+# ---- Hub Discovery and Promotion (Transaction-Safe) ----
+.PHONY: discover suggest_hubs review_hubs promote_hubs promote_hubs_safe rollback_promotion validate_promotion
+
+# Phase 5.5: Discover outlier centers
+discover: $(OUT)/phase05_sub5_outlier_centers.json
+
+$(OUT)/phase05_sub5_outlier_centers.json:
+	@mkdir -p $(OUT)
+	python scripts/phase05_outliers.py \
+		--country "$(COUNTRY)" \
+		--out "$(OUT)" \
+		--z $(OUTLIER_Z) \
+		--grid artifacts/$(COUNTRY)/coverage_grid.geojson || true
+
+# Phase 5.6: Generate auto-hub proposals
+suggest_hubs: $(OUT)/phase05_sub6_auto_hubs.json
+
+$(OUT)/phase05_sub6_auto_hubs.json: $(OUT)/phase05_sub5_outlier_centers.json
+	python scripts/phase05_auto_hubs.py \
+		--country "$(COUNTRY)" \
+		--in "$<" \
+		--policy '$(PROMOTE_POLICY)' \
+		--out "$(OUT)"
+	@jq -r '.proposals[].name' $@ > $(HUBS_AUTO_FILE) 2>/dev/null || true
+	@echo "Generated hub proposals:"
+	@cat $(HUBS_AUTO_FILE) 2>/dev/null || echo "No proposals"
+
+# Review auto-hub proposals
+review_hubs: $(OUT)/phase05_sub6_auto_hubs.json
+	python scripts/review_auto_hubs.py \
+		--in $< \
+		--out artifacts/$(COUNTRY)/auto_hubs_review.csv
+	@echo "Review file created: artifacts/$(COUNTRY)/auto_hubs_review.csv"
+
+# Validate promotion without making changes
+validate_promotion: $(OUT)/phase05_sub6_auto_hubs.json
+	python scripts/promote_hubs.py \
+		--country "$(COUNTRY)" \
+		--auto $< \
+		--conf artifacts/$(COUNTRY)/hubs.conf \
+		--policy '$(PROMOTE_POLICY)' \
+		--validate
+
+# TRANSACTION-SAFE hub promotion with automatic rollback on failure
+promote_hubs_safe: $(OUT)/phase05_sub6_auto_hubs.json
+	@echo "Starting transaction-safe hub promotion..."
+	@# Create temporary backup
+	@if [ -f artifacts/$(COUNTRY)/hubs.conf ]; then \
+		cp artifacts/$(COUNTRY)/hubs.conf artifacts/$(COUNTRY)/hubs.conf.tmp.bak; \
+	fi
+	@# Run promotion with transaction support
+	@if python scripts/promote_hubs.py \
+		--country "$(COUNTRY)" \
+		--auto $< \
+		--conf artifacts/$(COUNTRY)/hubs.conf \
+		--policy '$(PROMOTE_POLICY)'; then \
+		echo "✓ Hub promotion successful"; \
+		rm -f artifacts/$(COUNTRY)/hubs.conf.tmp.bak; \
+	else \
+		echo "✗ Hub promotion failed - transaction rolled back"; \
+		if [ -f artifacts/$(COUNTRY)/hubs.conf.tmp.bak ]; then \
+			mv artifacts/$(COUNTRY)/hubs.conf.tmp.bak artifacts/$(COUNTRY)/hubs.conf; \
+		fi; \
+		exit 1; \
+	fi
+	@# Display promoted hubs
+	@echo "Current AUTO_HUBS:"
+	@grep "^AUTO_HUBS" artifacts/$(COUNTRY)/hubs.conf 2>/dev/null || echo "None"
+
+# Legacy promotion (kept for compatibility)
+promote_hubs: promote_hubs_safe
+
+# Manual rollback to latest backup
+rollback_promotion:
+	@latest_backup=$$(ls -t artifacts/$(COUNTRY)/hubs.conf.bak.* 2>/dev/null | head -1); \
+	if [ -n "$$latest_backup" ]; then \
+		echo "Rolling back to $$latest_backup"; \
+		cp "$$latest_backup" artifacts/$(COUNTRY)/hubs.conf; \
+		echo "✓ Rollback complete"; \
+	else \
+		echo "No backup found to rollback to"; \
+		exit 1; \
+	fi
+
+# ---- Hub Matrix Operations ----
+.PHONY: matrix matrix_auto matrix_all rollup cleanup_failed
+
+# Run analysis for all manually defined hubs
+matrix: guard-hubs
+	@for hub in $(HUBS); do \
+		echo "Processing hub: $$hub"; \
+		$(MAKE) HUB=$$hub LEVEL=subnational all || \
+		echo "Warning: Hub $$hub failed (continuing)"; \
+	done
+
+# Run analysis for auto-promoted hubs
+matrix_auto: guard-auto-hubs
+	@for hub in $(AUTO_HUBS); do \
+		echo "Processing auto-hub: $$hub"; \
+		$(MAKE) HUB=$$hub LEVEL=subnational all || \
+		echo "Warning: Auto-hub $$hub failed (continuing)"; \
+	done
+
+# Run all hubs (manual + auto)
+matrix_all: matrix matrix_auto
+
+# Aggregate hub results to national level
+rollup:
+	@echo "Rolling up hub results for $(COUNTRY)..."
+	python scripts/aggregate.py \
+		--country "$(COUNTRY)" \
+		--hubs $(HUBS) $(AUTO_HUBS) \
+		--out artifacts/$(COUNTRY)/_national
+	@echo "✓ Rollup complete: artifacts/$(COUNTRY)/_national"
+
+# Clean up failed partial runs
+cleanup_failed:
+	@echo "Cleaning up incomplete artifacts..."
+	@find artifacts/$(COUNTRY) -name "*.tmp" -delete
+	@find artifacts/$(COUNTRY) -name "*.partial" -delete
+	@find artifacts/$(COUNTRY) -size 0 -delete
+	@echo "✓ Cleanup complete"
+
+# ---- Guards ----
+.PHONY: guard-hubs guard-auto-hubs
+
+guard-hubs:
+	@if [ -z "$(HUBS)" ]; then \
+		echo "No HUBS defined. Set HUBS or run 'make suggest_hubs' first"; \
+		exit 1; \
+	fi
+
+guard-auto-hubs:
+	@if [ -z "$(AUTO_HUBS)" ]; then \
+		echo "No AUTO_HUBS defined. Run 'make promote_hubs_safe' first"; \
+		exit 1; \
+	fi
+
+# ---- Hub Discovery Pipeline ----
+.PHONY: hub_pipeline
+
+# Complete hub discovery and promotion pipeline
+hub_pipeline: discover suggest_hubs review_hubs
+	@echo "Hub discovery pipeline complete. Review proposals at:"
+	@echo "  artifacts/$(COUNTRY)/auto_hubs_review.csv"
+	@echo ""
+	@echo "To promote approved hubs, run:"
+	@echo "  make promote_hubs_safe COUNTRY=$(COUNTRY)"
+	@echo ""
+	@echo "To validate without changes:"
+	@echo "  make validate_promotion COUNTRY=$(COUNTRY)"
+
+# ---- Help ----
+.PHONY: help-hubs
+
+help-hubs:
+	@echo "Hub Management Commands:"
+	@echo "  make discover           - Find outlier centers of excellence"
+	@echo "  make suggest_hubs       - Generate hub promotion proposals"
+	@echo "  make review_hubs        - Export proposals for review"
+	@echo "  make validate_promotion - Test promotion without changes"
+	@echo "  make promote_hubs_safe  - Promote hubs with transaction support"
+	@echo "  make rollback_promotion - Rollback to previous hub config"
+	@echo "  make matrix            - Run all manual hubs"
+	@echo "  make matrix_auto       - Run all auto-promoted hubs"
+	@echo "  make rollup            - Aggregate hub results"
+	@echo "  make hub_pipeline      - Complete discovery pipeline"
+	@echo ""
+	@echo "Required variables:"
+	@echo "  COUNTRY  - Target country code"
+	@echo "  OUTLIER_Z - Z-score threshold (default: 2.0)"
+	@echo "  PROMOTE_POLICY - JSON promotion criteria"

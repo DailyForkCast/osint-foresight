@@ -67,7 +67,7 @@ Where:
 
 ### Case 1: Small Country Semiconductor Trap
 ```
-Country X: 
+Country X:
 - Total semiconductor projects: 2
 - With China: 2
 - Concentration: 100%
@@ -130,7 +130,7 @@ CONCENTRATION CHECK:
 ```
 For each technology domain:
 - Total Slovak semiconductor projects: [?]
-- With China: [?] 
+- With China: [?]
 - If ANY: CRITICAL
 
 - Total Slovak AI/ML projects: [?]
@@ -147,7 +147,7 @@ For each technology domain:
 
 **If Slovakia has:**
 - 3 total semiconductor projects, 2 with China = 67% = CRITICAL
-- 10 total AI projects, 3 with China = 30% = HIGH  
+- 10 total AI projects, 3 with China = 30% = HIGH
 - 100 total materials projects, 30 with China = 30% = HIGH
 - 1 quantum project with China = 100% = CRITICAL
 
