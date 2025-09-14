@@ -97,18 +97,18 @@ Italy faces a strategic inflection point balancing NATO commitments, technology 
 
 ## Recommendations
 
-### Near-term (2026-2027)
+### Immediate (2024-2025)
 1. **Secure bipartisan defense spending consensus**
-   - Target: 1.55% GDP by 2027
+   - Target: 1.55% GDP by 2025
    - Focus on capability gaps vs across-board increases
    - Leverage Mediterranean instability for political support
 
 2. **Accelerate STANAG implementation**
    - Priority: UAV systems, cyber standards
-   - Target: 65% compliance by Q3 2026
+   - Target: 65% compliance by 2025
    - Industry incentives for rapid adoption
 
-### Medium-term (2028-2030)
+### Medium-term (2025-2030)
 3. **Strengthen technology sovereignty**
    - Join EU IPCEI initiatives (semiconductors, quantum)
    - Establish sovereign tech fund (€500M/year)
@@ -141,7 +141,7 @@ Italy faces a strategic inflection point balancing NATO commitments, technology 
 
 ---
 
-## Scenario Outlook (2026-2033)
+## Scenario Outlook (2025-2033)
 
 **Most Likely: Gradual Modernization (40-60%)**
 - Slow defense increase to 1.6-1.7% GDP
@@ -164,8 +164,4 @@ Italy faces a strategic inflection point balancing NATO commitments, technology 
 
 Italy possesses strong defense industrial foundations and critical geographic position but faces structural challenges meeting NATO commitments while maintaining fiscal stability. Success requires political consensus on defense priorities, strategic specialization within NATO, and accelerated innovation investment. The window for action narrows as capability gaps widen and technology dependencies deepen.
 
-**Next Review**: Q2 2026
-
----
-
-*Analysis date: September 13, 2025. All recommendations assume 8-12 month minimum implementation delays. Budget impacts begin FY2027. Major capabilities require 18-24 month development.*
+**Next Review**: Q4 2025

@@ -57,5 +57,33 @@ venv/
 # Analysis outputs
 project_structure_analysis.json
 reorganization_report_*.txt
-out/SK/cordis_data/projectPublications.json
-out/SK/cordis_data/organization.json
+structure_analysis_*.txt
+
+# Large external data sources (store on external drive only)
+# CORDIS data
+out/*/cordis_data/*.json
+out/*/cordis_data/*.csv
+/cordis_data/
+
+# OpenAlex data
+out/*/openalex_data/
+/openalex_data/
+*.openalex.json
+*_openalex_*.json
+
+# Patent databases
+out/*/patents_data/
+/patents_data/
+*_patents_*.json
+*_patents_*.csv
+
+# Other large datasets
+out/*/large_datasets/
+/large_datasets/
+*.bigquery.json
+*_export_*.json
+*_export_*.csv
+
+# Any file over 50MB
+*.json.large
+*.csv.large

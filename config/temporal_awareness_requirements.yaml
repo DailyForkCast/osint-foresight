@@ -1,0 +1,277 @@
+# Temporal Awareness Requirements for OSINT Foresight
+# CRITICAL: All analysis must check current date and adjust recommendations accordingly
+# Version: 1.0
+# Last Updated: 2025-09-13
+
+temporal_requirements:
+  critical_rules:
+    - "ALWAYS check current date at start of analysis"
+    - "NEVER recommend actions in the past"
+    - "ASSUME 8-12 month implementation delay minimum"
+    - "CHECK date again before writing final recommendations"
+    - "ADJUST all timelines based on current date"
+
+  current_context:
+    today: "2025-09-13"  # September 13, 2025
+    calendar_year: 2025
+    fiscal_year: "FY2025/2026"  # Depends on country
+    quarter: "Q3 2025"
+
+  implementation_delays:
+    minimum_delay_months: 8
+    typical_delay_months: 12
+    complex_project_months: 18-24
+    legislative_process_months: 12-18
+    procurement_cycle_months: 9-15
+
+  realistic_timelines:
+    immediate_actions:
+      definition: "Actions that can START now but won't show results for 8-12 months"
+      earliest_results: "2026-Q2"
+      typical_completion: "2026-Q3"
+
+    short_term:
+      definition: "12-24 months from now"
+      period: "2026-Q3 through 2027-Q3"
+
+    medium_term:
+      definition: "2-4 years from now"
+      period: "2027-2029"
+
+    long_term:
+      definition: "5+ years from now"
+      period: "2030 and beyond"
+
+# Phase-specific date checking requirements
+phase_date_checks:
+  phase_0_setup:
+    check_at_start: |
+      ```
+      CRITICAL: Today is {current_date}
+      - Cannot recommend actions for dates before today
+      - Minimum 8-12 month delay for any new initiatives
+      - Earliest realistic implementation: {current_date + 8 months}
+      ```
+    check_before_output: |
+      ```
+      FINAL CHECK: Verify all dates are future-oriented
+      - No recommendations for 2024 or early 2025
+      - All "immediate" actions start in late 2025/early 2026
+      - Results expected 2026-Q2 at earliest
+      ```
+
+  phase_1_indicators:
+    baseline_date_check: |
+      ```
+      DATA CURRENCY CHECK:
+      - Current date: {current_date}
+      - Latest available data likely from: {current_date - 3 months}
+      - Projections must account for data lag
+      - Cannot use "2024 data" as if complete (we're in 2025)
+      ```
+
+  phase_2_landscape:
+    policy_timeline_check: |
+      ```
+      POLICY TIMELINE VALIDATION:
+      - Today: {current_date}
+      - Policies enacted 2019-2024: Historical context
+      - Policies in progress 2025: May not be implemented yet
+      - Future policies: 2026+ planning horizon
+      ```
+
+  phase_3_supply_chain:
+    procurement_reality_check: |
+      ```
+      PROCUREMENT TIMELINE CHECK:
+      - Current date: {current_date}
+      - New procurement cycles: 9-15 months minimum
+      - Contract modifications: 3-6 months
+      - Full implementation: 18-24 months
+      - Earliest new capability deployment: 2026-Q3
+      ```
+
+  phase_8_risk:
+    risk_horizon_validation: |
+      ```
+      RISK TIMELINE CALIBRATION:
+      - Assessment date: {current_date}
+      - Near-term risks: 2026-2027
+      - Medium-term risks: 2028-2030
+      - Long-term risks: 2031+
+      - Cannot mitigate "2024 risks" - they've already materialized
+      ```
+
+  phase_11_foresight:
+    scenario_timeline_check: |
+      ```
+      SCENARIO PLANNING VALIDATION:
+      - Baseline: {current_date}
+      - 2-year scenario: 2027
+      - 5-year scenario: 2030
+      - 10-year scenario: 2035
+      - Ensure all scenarios start from current state, not past
+      ```
+
+# Corrected timeline examples
+timeline_corrections:
+  original_wrong:
+    example: |
+      "Immediate (2024-2025):
+      1. Secure bipartisan defense spending consensus
+         - Target: 1.55% GDP by 2025"
+    problem: "It's September 2025 - cannot act in 2024 or early 2025"
+
+  corrected_right:
+    example: |
+      "Near-term Implementation (2026-2027):
+      1. Build bipartisan defense spending consensus
+         - Process start: Q4 2025
+         - Legislative passage: Q2 2026
+         - Budget implementation: FY2027
+         - Target: 1.55% GDP by 2027
+         - Note: 12-18 month legislative cycle expected"
+
+# Standard timeline templates
+timeline_templates:
+  executive_brief:
+    immediate_actions_header: "Foundation Building (Q4 2025 - Q2 2026)"
+    description: "Actions that can begin now but require 8-12 months for results"
+
+    short_term_header: "Implementation Phase (2026-2027)"
+    short_term_description: "Concrete deliverables achievable within 12-24 months"
+
+    medium_term_header: "Capability Development (2028-2029)"
+    medium_term_description: "Major programs requiring 2-4 year development cycles"
+
+    long_term_header: "Strategic Transformation (2030+)"
+    long_term_description: "Fundamental shifts requiring 5+ years"
+
+  policy_recommendations:
+    legislative_timeline:
+      draft_legislation: "+3 months from today"
+      committee_review: "+6 months"
+      floor_vote: "+9 months"
+      implementation: "+12-15 months"
+      first_results: "+18-24 months"
+
+    procurement_timeline:
+      requirements_definition: "+2 months"
+      RFP_release: "+4 months"
+      proposal_evaluation: "+7 months"
+      contract_award: "+9 months"
+      initial_delivery: "+15 months"
+      full_deployment: "+24 months"
+
+# Validation prompts to inject
+validation_prompts:
+  start_of_analysis: |
+    ```
+    ⏰ TEMPORAL AWARENESS CHECK ⏰
+
+    Today's Date: {current_date}
+    Analysis Period: Looking forward from {current_date}
+
+    CRITICAL REMINDERS:
+    - We are in {current_quarter} - nearly {fraction_of_year_complete} through 2025
+    - Cannot recommend actions for past dates (nothing before today)
+    - Minimum 8-12 month implementation delay for ANY new initiative
+    - "Immediate" means "can start now, results in 2026"
+    - FY2026 budget cycles are already largely set
+    - Real change happens in FY2027 and beyond
+
+    Adjust ALL recommendations accordingly!
+    ```
+
+  before_writing_output: |
+    ```
+    ⏰ FINAL TIMELINE VALIDATION ⏰
+
+    Before submitting, verify:
+    □ No recommendations for 2024 or early 2025 (it's {current_date})
+    □ "Immediate" actions start Q4 2025 at earliest
+    □ Short-term goals target 2026-2027
+    □ Budget impacts begin FY2027
+    □ Major procurements complete 2027-2028
+    □ Transformation goals set for 2030+
+
+    If any dates are unrealistic, REVISE NOW!
+    ```
+
+# Common temporal errors to avoid
+common_errors:
+  past_tense_recommendations:
+    wrong: "Should have implemented in 2024"
+    right: "Begin implementation in Q4 2025 for 2026 deployment"
+
+  unrealistic_immediate:
+    wrong: "Achieve 65% compliance by end of 2025"
+    right: "Achieve 65% compliance by Q3 2026 (12-month implementation)"
+
+  budget_cycle_ignorance:
+    wrong: "Increase FY2025 budget"
+    right: "Prepare FY2027 budget increase (FY2026 already committed)"
+
+  procurement_fantasy:
+    wrong: "Deploy new systems by Q1 2026"
+    right: "Deploy new systems by Q3 2027 (18-month procurement cycle)"
+
+  legislative_naivety:
+    wrong: "Pass legislation this month"
+    right: "Introduce legislation Q4 2025, passage expected Q2 2026"
+
+# Adjusted timeline horizons for different contexts
+context_specific_timelines:
+  italy_defense:
+    current_situation: "September 2025 - Post-election government forming"
+    realistic_timelines:
+      government_formation: "Q4 2025"
+      first_budget_influence: "FY2027"
+      defense_spending_increase: "2027-2028"
+      capability_improvements: "2028-2030"
+
+  nato_planning:
+    current_cycle: "2025 - Mid-cycle review"
+    next_major_decision: "2026 Summit"
+    capability_targets: "2030 baseline"
+    force_structure_changes: "2027-2032"
+
+  technology_adoption:
+    pilot_programs: "Q1 2026 start"
+    initial_deployment: "Q3 2026"
+    scaled_adoption: "2027"
+    full_integration: "2028-2029"
+
+# Prompt injection template
+prompt_injection: |
+  [MANDATORY - Insert at beginning and end of EVERY analysis]
+
+  ===== TEMPORAL AWARENESS CHECK =====
+  CURRENT DATE: September 13, 2025
+
+  START CHECK:
+  - Verify current date: {datetime.now()}
+  - We are 75% through 2025
+  - Cannot change the past (no 2024 actions)
+  - Minimum 8-12 month delay for new initiatives
+
+  END CHECK (before output):
+  - All dates must be ≥ September 2025
+  - "Immediate" = Q4 2025 start, Q2 2026 results
+  - Realistic implementation timelines applied
+  - No magical thinking about speed
+  ===================================
+
+# Implementation tracking
+implementation_tracking:
+  fields_to_add:
+    - analysis_date: "Date when analysis was performed"
+    - projection_baseline: "Date from which projections are made"
+    - earliest_implementation: "Realistic earliest start date"
+    - expected_completion: "Realistic completion date"
+    - confidence_in_timeline: "Low/Medium/High"
+
+  validation_rules:
+    - "earliest_implementation >= analysis_date + 30 days"
+    - "expected_completion >= earliest_implementation + 240 days"
+    - "no recommendations before analysis_date"
