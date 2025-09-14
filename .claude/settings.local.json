@@ -79,7 +79,8 @@
       "Bash(pre-commit:*)",
       "Bash(awk:*)",
       "Read(//f//**)",
-      "Bash(robocopy:*)"
+      "Bash(robocopy:*)",
+      "Read(//f/2025-09-14 Horizons//**)"
     ],
     "deny": [],
     "ask": []

@@ -1,0 +1,42 @@
+[
+  {
+    "italy_entity": "Leonardo S.p.A.",
+    "italy_entity_lei": "549300VQRWKZQSUH8W78",
+    "italy_entity_ror": "https://ror.org/03j7cqb76",
+    "us_subsidiary": "Leonardo DRS, Inc.",
+    "ultimate_parent_country": "IT",
+    "ownership_pct": 100.0,
+    "control_rights": [
+      "full_control"
+    ],
+    "funding_round_or_deal": "Acquisition",
+    "program": "Multiple DoD contracts",
+    "year": 2008,
+    "notes": "Leonardo owns US defense contractor with $3B+ revenue",
+    "evidence_urls": [
+      "https://www.leonardodrs.com/about-us/",
+      "https://www.sec.gov/Archives/edgar/data/1698027/000169802723000018/ldrs-20230630.htm"
+    ],
+    "last_checked": "2025-09-14"
+  },
+  {
+    "italy_entity": "Fincantieri S.p.A.",
+    "italy_entity_lei": "549300UW7M07J0MULU60",
+    "italy_entity_ror": "https://ror.org/00njpfj33",
+    "us_subsidiary": "Fincantieri Marine Group",
+    "ultimate_parent_country": "IT",
+    "ownership_pct": 100.0,
+    "control_rights": [
+      "full_control"
+    ],
+    "funding_round_or_deal": "Acquisition",
+    "program": "US Navy shipbuilding",
+    "year": 2009,
+    "notes": "Operates 3 US shipyards for US Navy",
+    "evidence_urls": [
+      "https://fincantierimarine.com/about/",
+      "https://www.fincantieri.com/en/group/worldwide/north-america/"
+    ],
+    "last_checked": "2025-09-14"
+  }
+]

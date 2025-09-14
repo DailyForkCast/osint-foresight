@@ -1,0 +1,65 @@
+[
+  {
+    "country_a": "IT",
+    "org_a": "Politecnico di Milano",
+    "org_a_ror": "https://ror.org/01nffqt88",
+    "dept_a_id": "polimi:deib:quantum",
+    "dept_a_name": "Dipartimento di Elettronica, Informazione e Bioingegneria",
+    "country_b": "US",
+    "org_b": "MIT",
+    "org_b_ror": "https://ror.org/042nb2s44",
+    "dept_b_id": "mit:rle:quantum",
+    "dept_b_name": "Research Laboratory of Electronics",
+    "domain": "Quantum Computing",
+    "outputs": {
+      "pubs": 12,
+      "reports": 3,
+      "projects": 2,
+      "yrs": [
+        2022,
+        2023,
+        2024
+      ]
+    },
+    "evidence": [
+      {
+        "type": "paper",
+        "title": "Quantum error correction in silicon photonics",
+        "doi": "10.1038/s41567-023-02226-w",
+        "year": 2023
+      }
+    ],
+    "last_checked": "2025-09-14"
+  },
+  {
+    "country_a": "IT",
+    "org_a": "Sapienza University of Rome",
+    "org_a_ror": "https://ror.org/032t0t429",
+    "dept_a_id": "sapienza:diag",
+    "dept_a_name": "Department of Computer, Control and Management Engineering",
+    "country_b": "US",
+    "org_b": "Stanford University",
+    "org_b_ror": "https://ror.org/00f54p054",
+    "dept_b_id": "stanford:cs:ai",
+    "dept_b_name": "Computer Science - AI Lab",
+    "domain": "Artificial Intelligence",
+    "outputs": {
+      "pubs": 8,
+      "reports": 2,
+      "projects": 1,
+      "yrs": [
+        2023,
+        2024
+      ]
+    },
+    "evidence": [
+      {
+        "type": "project",
+        "title": "Human-AI Collaboration in Complex Systems",
+        "url": "https://ai.stanford.edu/research/",
+        "year": 2024
+      }
+    ],
+    "last_checked": "2025-09-14"
+  }
+]

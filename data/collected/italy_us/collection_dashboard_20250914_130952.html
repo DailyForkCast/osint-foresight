@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Italy-US Intelligence Collection Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }
+        h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+        .task-card { background: white; border-radius: 8px; padding: 15px; margin: 10px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .priority-1 { border-left: 5px solid #e74c3c; }
+        .priority-2 { border-left: 5px solid #f39c12; }
+        .priority-3 { border-left: 5px solid #3498db; }
+        .task-header { display: flex; justify-content: space-between; align-items: center; }
+        .task-id { background: #34495e; color: white; padding: 3px 8px; border-radius: 3px; font-size: 12px; }
+        .task-time { color: #7f8c8d; font-size: 14px; }
+        .task-value { color: #27ae60; font-weight: bold; margin-top: 5px; }
+        .task-url { color: #3498db; text-decoration: none; }
+        .task-url:hover { text-decoration: underline; }
+        .checkbox { width: 20px; height: 20px; margin-right: 10px; }
+        .query-box { background: #ecf0f1; padding: 8px; border-radius: 4px; margin: 5px 0; font-family: monospace; font-size: 13px; }
+        .status { margin-top: 20px; padding: 15px; background: #fff; border-radius: 8px; }
+        .timestamp { color: #95a5a6; font-size: 12px; }
+    </style>
+</head>
+<body>
+    <h1>🎯 Italy-US Intelligence Collection Dashboard</h1>
+    <div class="timestamp">Generated: 2025-09-14 13:09:52</div>
+
+    <div class="status">
+        <h2>📊 Collection Status</h2>
+        <p>Total Tasks: <strong>12</strong></p>
+        <p>Estimated Total Time: <strong>7-8 hours</strong></p>
+        <p>High Value Targets: <strong>3</strong></p>
+    </div>
+
+    <h2>🔴 Priority 1: Immediate (Next 2 Hours)</h2>
+    
+            <div class="task-card priority-1">
+                <div class="task-header">
+                    <div>
+                        <input type="checkbox" class="checkbox" onclick="updateProgress()">
+                        <span class="task-id">FPDS_001</span>
+                        <strong>Extract Leonardo DRS federal contracts</strong>
+                    </div>
+                    <span class="task-time">⏱️ 30 min</span>
+                </div>
+                <p>Platform: FPDS.gov</p>
+                <a href="https://www.fpds.gov/ezsearch/fpdsportal" target="_blank" class="task-url">https://www.fpds.gov/ezsearch/fpdsportal</a>
+                <div class="query-box">VENDOR_NAME:"Leonardo DRS"</div>
+                <div class="task-value">HIGH - Direct US government revenue data</div>
+            </div>
+
+            <div class="task-card priority-1">
+                <div class="task-header">
+                    <div>
+                        <input type="checkbox" class="checkbox" onclick="updateProgress()">
+                        <span class="task-id">SEC_001</span>
+                        <strong>Leonardo DRS 10-K analysis</strong>
+                    </div>
+                    <span class="task-time">⏱️ 20 min</span>
+                </div>
+                <p>Platform: SEC EDGAR</p>
+                <a href="https://www.sec.gov/ix?doc=/Archives/edgar/data/1698027/000169802724000004/drs-20231231.htm" target="_blank" class="task-url">https://www.sec.gov/ix?doc=/Archives/edgar/data/1698027/000169802724000004/drs-20231231.htm</a>
+                
+                <div class="task-value">HIGH - Financial and program details</div>
+            </div>
+
+            <div class="task-card priority-1">
+                <div class="task-header">
+                    <div>
+                        <input type="checkbox" class="checkbox" onclick="updateProgress()">
+                        <span class="task-id">SCOPUS_001</span>
+                        <strong>MIT-Politecnico quantum research</strong>
+                    </div>
+                    <span class="task-time">⏱️ 45 min</span>
+                </div>
+                <p>Platform: Scopus</p>
+                <a href="https://www.scopus.com/search/form.uri" target="_blank" class="task-url">https://www.scopus.com/search/form.uri</a>
+                <div class="query-box">AFFIL(MIT) AND AFFIL("Politecnico di Milano") AND KEY(quantum)</div>
+                <div class="task-value">HIGH - Technical collaboration mapping</div>
+            </div>
+
+    <h2>🟡 Priority 2: Today</h2>
+    
+            <div class="task-card priority-2">
+                <div class="task-header">
+                    <div>
+                        <input type="checkbox" class="checkbox" onclick="updateProgress()">
+                        <span class="task-id">SAM_001</span>
+                        <strong>Leonardo facility clearances</strong>
+                    </div>
+                    <span class="task-time">⏱️ 15 min</span>
+                </div>
+                <p>Platform: SAM.gov</p>
+                <a href="https://sam.gov/content/entity-information" target="_blank" class="task-url">https://sam.gov/content/entity-information</a>
+                
+                <div class="task-value"></div>
+            </div>
+
+            <div class="task-card priority-2">
+                <div class="task-header">
+                    <div>
+                        <input type="checkbox" class="checkbox" onclick="updateProgress()">
+                        <span class="task-id">PATENTS_001</span>
+                        <strong>Leonardo-Boeing joint patents</strong>
+                    </div>
+                    <span class="task-time">⏱️ 30 min</span>
+                </div>
+                <p>Platform: Google Patents</p>
+                <a href="https://patents.google.com" target="_blank" class="task-url">https://patents.google.com</a>
+                <div class="query-box">assignee:Leonardo AND assignee:Boeing</div>
+                <div class="task-value"></div>
+            </div>
+
+            <div class="task-card priority-2">
+                <div class="task-header">
+                    <div>
+                        <input type="checkbox" class="checkbox" onclick="updateProgress()">
+                        <span class="task-id">LINKEDIN_001</span>
+                        <strong>Italian researchers at US labs</strong>
+                    </div>
+                    <span class="task-time">⏱️ 45 min</span>
+                </div>
+                <p>Platform: LinkedIn</p>
+                
+                
+                <div class="task-value"></div>
+            </div>
+
+    <h2>🔵 Priority 3: This Week</h2>
+    
+            <div class="task-card priority-3">
+                <div class="task-header">
+                    <div>
+                        <input type="checkbox" class="checkbox" onclick="updateProgress()">
+                        <span class="task-id">ORCID_001</span>
+                        <strong>Researcher movement tracking</strong>
+                    </div>
+                    <span class="task-time">⏱️ 1 hour</span>
+                </div>
+                <p>Platform: ORCID</p>
+                
+                <div class="query-box">past:"Politecnico di Milano" current:"MIT"</div>
+                <div class="task-value"></div>
+            </div>
+
+            <div class="task-card priority-3">
+                <div class="task-header">
+                    <div>
+                        <input type="checkbox" class="checkbox" onclick="updateProgress()">
+                        <span class="task-id">CORDIS_001</span>
+                        <strong>US participation in EU projects</strong>
+                    </div>
+                    <span class="task-time">⏱️ 2 hours</span>
+                </div>
+                <p>Platform: CORDIS</p>
+                
+                
+                <div class="task-value"></div>
+            </div>
+
+            <div class="task-card priority-3">
+                <div class="task-header">
+                    <div>
+                        <input type="checkbox" class="checkbox" onclick="updateProgress()">
+                        <span class="task-id">GITHUB_001</span>
+                        <strong>Leonardo open source contributions</strong>
+                    </div>
+                    <span class="task-time">⏱️ 30 min</span>
+                </div>
+                <p>Platform: GitHub</p>
+                
+                <div class="query-box">org:leonardo user:location:Italy</div>
+                <div class="task-value"></div>
+            </div>
+
+    <div class="status">
+        <h3>Quick Links</h3>
+        <ul>
+            <li><a href="https://www.fpds.gov/ezsearch/fpdsportal" target="_blank">FPDS.gov</a></li>
+            <li><a href="https://www.sec.gov/edgar/search/" target="_blank">SEC EDGAR</a></li>
+            <li><a href="https://www.scopus.com" target="_blank">Scopus</a></li>
+            <li><a href="https://sam.gov" target="_blank">SAM.gov</a></li>
+            <li><a href="https://patents.google.com" target="_blank">Google Patents</a></li>
+        </ul>
+    </div>
+
+    <script>
+        function updateProgress() {
+            const checkboxes = document.querySelectorAll('.checkbox');
+            const completed = Array.from(checkboxes).filter(cb => cb.checked).length;
+            const total = checkboxes.length;
+            console.log(`Progress: ${completed}/${total} tasks completed`);
+        }
+    </script>
+</body>
+</html>
