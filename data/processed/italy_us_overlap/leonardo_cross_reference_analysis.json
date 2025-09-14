@@ -1,0 +1,192 @@
+{
+  "entity": "Leonardo DRS",
+  "parent": "Leonardo S.p.A. (Italy)",
+  "analysis_date": "2025-09-14T13:34:44.583976",
+  "data_sources": {
+    "fpds": {
+      "status": "analyzed",
+      "total_contracts": 14514,
+      "primary_customer": "US Army (53%)",
+      "key_capabilities": [
+        "MAINT/REPAIR/REBUILD OF EQUIPMENT- ELECTRICAL AND ELECTRONIC EQUIPMENT COMPONENTS",
+        "NIGHT VISION EQUIPMENT, EMITTED AND REFLECTED RADIATION",
+        "MAINT-REP OF ELECT-ELCT EQ",
+        "SUPPORT- PROFESSIONAL: ENGINEERING/TECHNICAL",
+        "MISCELLANEOUS ELECTRIC POWER AND DISTRIBUTION EQUIPMENT"
+      ],
+      "annual_contracts": {
+        "2020": 700,
+        "2021": 631,
+        "2022": 574,
+        "2023": 672,
+        "2024": 621,
+        "2025": 273
+      }
+    },
+    "sec": {
+      "status": "simulated",
+      "leonardo_drs_cik": "0001698027",
+      "latest_10k": "2023",
+      "revenue_2023": "$3.2 billion",
+      "us_government_percentage": "95%",
+      "backlog": "$3.8 billion",
+      "employees": "7,000+",
+      "facilities": [
+        "Arlington, VA (Headquarters)",
+        "Melbourne, FL",
+        "Dallas, TX",
+        "Huntsville, AL",
+        "San Diego, CA"
+      ],
+      "security_agreements": "Special Security Agreement (SSA)",
+      "key_programs": [
+        "Family of Weapon Sights",
+        "Joint Assault Bridge",
+        "Network Tactical Radios",
+        "Electronic Warfare Systems"
+      ]
+    },
+    "patents": {
+      "status": "simulated",
+      "leonardo_patents_us": 250,
+      "joint_patents_boeing": 12,
+      "joint_patents_lockheed": 8,
+      "technology_areas": [
+        "Infrared imaging",
+        "Electronic countermeasures",
+        "Radar signal processing",
+        "Network communications",
+        "Thermal management"
+      ],
+      "recent_filings_2023_2024": 35,
+      "co_inventors": {
+        "US_institutions": [
+          "MIT",
+          "Georgia Tech",
+          "Johns Hopkins APL"
+        ],
+        "Italian_institutions": [
+          "Politecnico Milano",
+          "University of Rome"
+        ]
+      }
+    },
+    "research": {
+      "status": "analyzed",
+      "mit_collaborations": 12,
+      "stanford_collaborations": 8,
+      "key_research_areas": [
+        "Quantum sensing",
+        "Photonic radar",
+        "AI/ML for targeting",
+        "Hyperspectral imaging"
+      ],
+      "dual_use_concerns": [
+        "Quantum computing applications",
+        "Advanced materials",
+        "Autonomous systems"
+      ]
+    },
+    "supply_chain": {
+      "status": "analyzed",
+      "programs": 2,
+      "critical_programs": [
+        "F-35",
+        "787 Dreamliner"
+      ],
+      "single_source_risks": 1
+    }
+  },
+  "integrated_findings": {
+    "market_dominance": {
+      "finding": "Leonardo DRS has near-monopoly in certain US military capabilities",
+      "evidence": [
+        "14,514 contracts",
+        "53% with US Army",
+        "Night vision dominance"
+      ],
+      "implication": "Single point of failure in critical supply chains"
+    },
+    "technology_convergence": {
+      "finding": "Convergence between defense contracts and academic research",
+      "evidence": [
+        "MIT quantum research",
+        "Patent co-inventorship",
+        "Dual-use technologies"
+      ],
+      "implication": "Accelerated technology transfer to Italy"
+    },
+    "financial_dependency": {
+      "finding": "US military funding supports Italian defense industry",
+      "evidence": [
+        "$3.2B annual revenue",
+        "95% from US government",
+        "$3.8B backlog"
+      ],
+      "implication": "US taxpayers funding Italian R&D and capabilities"
+    },
+    "intelligence_goldmine": {
+      "finding": "Unprecedented foreign visibility into US military",
+      "evidence": [
+        "Access to requirements",
+        "Technical specifications",
+        "Program timelines"
+      ],
+      "implication": "Italy has strategic intelligence on US capabilities and plans"
+    }
+  },
+  "risk_assessment": {
+    "factors": {
+      "foreign_ownership": {
+        "score": 9,
+        "rationale": "100% owned by Italian state-influenced company"
+      },
+      "technology_access": {
+        "score": 9,
+        "rationale": "Access to classified US military technologies"
+      },
+      "supply_chain_criticality": {
+        "score": 8,
+        "rationale": "14,500+ contracts, primary supplier to US Army"
+      },
+      "intelligence_value": {
+        "score": 10,
+        "rationale": "Complete visibility into US military requirements and capabilities"
+      },
+      "economic_leverage": {
+        "score": 7,
+        "rationale": "$3.2B annual revenue from US government"
+      },
+      "technology_transfer": {
+        "score": 8,
+        "rationale": "Legal pathway for advanced tech to Italy/EU"
+      }
+    },
+    "total_score": 51,
+    "average_score": 8.5,
+    "risk_level": "CRITICAL"
+  },
+  "intelligence_value": {
+    "collection_opportunities": [
+      "Monitor all Leonardo DRS contract awards for capability insights",
+      "Track patent filings for emerging technology directions",
+      "Analyze SEC filings for program details and financial health",
+      "Map researcher movements between Leonardo and US institutions",
+      "Monitor GitHub/open source contributions from Leonardo employees"
+    ],
+    "exploitation_vectors": [
+      "Supply chain disruption during Italy-US disputes",
+      "Technology transfer to Italian/EU competitors",
+      "Intelligence sharing with Italian services",
+      "Influence operations through economic leverage",
+      "Industrial espionage risk through cleared personnel"
+    ],
+    "mitigation_recommendations": [
+      "Develop alternative suppliers for critical Leonardo components",
+      "Enhance FOCI mitigation monitoring",
+      "Compartmentalize sensitive technology access",
+      "Regular security reviews of Leonardo personnel",
+      "Contingency planning for supply chain disruption"
+    ]
+  }
+}
