@@ -1,2 +1,2 @@
 evidence_id,source_name,source_url,captured_at_iso,filter_params,language,source_tier(A/B/C),reliability_note,stale_flag(>18m|>36m),screenshot_path,country
-EV-20250906-002905,OpenAIRE Graph,https://api.openaire.eu/search,2025-09-06T00:29:05Z,"relOrganizationCountryCode=PT,CN&fromDate=2015-01-01&toDate=2025-12-31&title=<kw>",EN,A,,,,PT
+EV-20250906-002905,OpenAIRE Graph,https://api.openaire.eu/search,2025-09-06T00:29:05Z,"relOrganizationCountryCode=PT,CN&fromDate=2015-01-01&toDate=2025-12-31&title=<kw>",EN,A,,,,PTEV-20250918-221753,GLEIF API,https://api.gleif.org/api/v1,2025-09-18T22:17:53Z,country=CN&pagesize=50,EN,A,,,,CN

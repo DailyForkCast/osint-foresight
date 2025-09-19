@@ -1,0 +1,98 @@
+{
+  "analysis_date": "2025-09-17T15:41:13.487581",
+  "italy_collaborations": {
+    "USA": {
+      "country": "USA",
+      "total_papers": 142903,
+      "collaboration_rate": 0.95,
+      "sample_verified": 0,
+      "avg_citations": 3.35
+    },
+    "UK": {
+      "country": "UK",
+      "total_papers": 204282,
+      "collaboration_rate": 1.35,
+      "sample_verified": 0,
+      "avg_citations": 0.35
+    },
+    "Germany": {
+      "country": "Germany",
+      "total_papers": 144168,
+      "collaboration_rate": 0.96,
+      "sample_verified": 0,
+      "avg_citations": 0.25
+    },
+    "France": {
+      "country": "France",
+      "total_papers": 162896,
+      "collaboration_rate": 1.08,
+      "sample_verified": 0,
+      "avg_citations": 0.0
+    },
+    "Japan": {
+      "country": "Japan",
+      "total_papers": 392103,
+      "collaboration_rate": 2.6,
+      "sample_verified": 0,
+      "avg_citations": 0.0
+    },
+    "China": {
+      "country": "China",
+      "total_papers": 2814586,
+      "collaboration_rate": 18.65,
+      "sample_verified": 0,
+      "avg_citations": 0.1
+    }
+  },
+  "benchmark_rates": {
+    "typical_international_collaboration": 25.0,
+    "eu_internal_average": 12.0,
+    "eu_china_average": 3.5,
+    "eu_usa_average": 8.0,
+    "assessment_thresholds": {
+      "china_normal_range": "2-5%",
+      "china_elevated": "5-10%",
+      "china_high": ">10%"
+    }
+  },
+  "anomaly_assessment": {
+    "china_rate": 18.65,
+    "comparison_rates": {
+      "USA": 0.95,
+      "Germany": 0.96
+    },
+    "indicators": [
+      "Italy-China rate (18.6%) is >2x EU average (3.5%)",
+      "Italy-China rate (18.6%) exceeds 10% threshold for 'high' collaboration",
+      "Italy-China (18.6%) exceeds Italy-Germany (1.0%)"
+    ],
+    "overall_assessment": "POTENTIALLY ANOMALOUS - Multiple indicators above normal"
+  },
+  "quality_metrics": {},
+  "arxiv_validation": {
+    "United States": {
+      "arxiv_papers": 50,
+      "recent_activity": 21
+    },
+    "UK": {
+      "arxiv_papers": 32,
+      "recent_activity": 8
+    },
+    "Germany": {
+      "arxiv_papers": 23,
+      "recent_activity": 11
+    },
+    "France": {
+      "arxiv_papers": 29,
+      "recent_activity": 7
+    },
+    "Japan": {
+      "arxiv_papers": 4,
+      "recent_activity": 2
+    },
+    "China": {
+      "arxiv_papers": 4,
+      "recent_activity": 2
+    }
+  }
+}

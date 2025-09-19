@@ -1,0 +1,82 @@
+{
+  "risks": [
+    {
+      "name": "Defense spending shortfall",
+      "mechanism": "Italy fails to meet NATO 2% target → capability gaps worsen → alliance burden-sharing tensions increase → strategic autonomy compromised",
+      "probability": "60-90%",
+      "impact": "High",
+      "time_horizon": "2-5y",
+      "indicators": [
+        {"metric": "Defense/GDP ratio", "current": 1.46, "threshold": "<1.5", "trend": "stable"},
+        {"metric": "Capability gaps", "current": 15, "threshold": ">20", "trend": "worsening"}
+      ],
+      "voi_hint": "Monitor coalition government stability",
+      "text_dag": "Fiscal_constraints>Political_resistance>Budget_cuts>Capability_gaps>Alliance_tensions"
+    },
+    {
+      "name": "Technology sovereignty erosion",
+      "mechanism": "Lack of investment in emerging tech → increased dependence on foreign suppliers → loss of industrial competitiveness → strategic vulnerability",
+      "probability": "30-60%",
+      "impact": "High",
+      "time_horizon": "5-10y",
+      "indicators": [
+        {"metric": "R&D/GDP", "current": 1.45, "threshold": "<1.5", "trend": "slight increase"},
+        {"metric": "Patent applications", "current": 4834, "threshold": "<4000", "trend": "stable"}
+      ],
+      "voi_hint": "Track PNRR implementation progress"
+    },
+    {
+      "name": "Supply chain disruption",
+      "mechanism": "Geopolitical tensions → semiconductor/materials shortage → defense production delays → operational readiness impact",
+      "probability": "30-60%",
+      "impact": "Medium",
+      "time_horizon": "2y",
+      "indicators": [
+        {"metric": "Import dependency", "current": "85% rare earths", "threshold": ">90%"},
+        {"metric": "Supplier diversity", "current": "3.2 HHI", "threshold": ">4.0"}
+      ]
+    },
+    {
+      "name": "Cyber vulnerability",
+      "mechanism": "Insufficient cyber investment → critical infrastructure exposed → successful attacks → economic/security impact",
+      "probability": "30-60%",
+      "impact": "High",
+      "time_horizon": "2y",
+      "indicators": [
+        {"metric": "Cyber incidents", "current": 234, "threshold": ">300/year"},
+        {"metric": "ACN budget", "current": "45M EUR", "threshold": "<40M"}
+      ]
+    },
+    {
+      "name": "Brain drain acceleration",
+      "mechanism": "Limited R&D opportunities → talent emigration → innovation capacity decline → competitiveness loss",
+      "probability": "30-60%",
+      "impact": "Medium",
+      "time_horizon": "5y",
+      "indicators": [
+        {"metric": "Researcher emigration", "current": "8%/year", "threshold": ">10%"},
+        {"metric": "PhD placements abroad", "current": "35%", "threshold": ">40%"}
+      ]
+    },
+    {
+      "name": "PRC technology acquisition",
+      "mechanism": "Economic pressure → relaxed screening → dual-use tech transfer → military capability enhancement for adversary",
+      "probability": "10-30%",
+      "impact": "Medium",
+      "time_horizon": "2-5y",
+      "indicators": [
+        {"metric": "Chinese investment reviews", "current": 23, "threshold": "<20/year"},
+        {"metric": "Joint research sensitive domains", "current": 45, "threshold": ">60"}
+      ]
+    }
+  ],
+  "nato_specific_risks": [
+    {
+      "name": "Mediterranean instability spillover",
+      "mechanism": "Regional conflicts → migration pressure → resource diversion from defense → NATO southern flank weakening",
+      "probability": "30-60%",
+      "impact": "High",
+      "framework_nation_impact": "Critical"
+    }
+  ]
+}

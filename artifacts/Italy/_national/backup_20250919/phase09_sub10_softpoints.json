@@ -1,0 +1,96 @@
+{
+  "technology_softpoints": [
+    {
+      "id": "SP001",
+      "technology": "Quantum computing",
+      "vulnerability": "Lack of domestic quantum computer",
+      "exploitation_vector": "Dependence on foreign cloud access",
+      "prc_interest": "HIGH",
+      "mitigation": "EU quantum initiative participation"
+    },
+    {
+      "id": "SP002",
+      "technology": "AI/ML models",
+      "vulnerability": "Limited training compute",
+      "exploitation_vector": "Use of Chinese/foreign models",
+      "prc_interest": "HIGH",
+      "mitigation": "National AI compute center planned"
+    },
+    {
+      "id": "SP003",
+      "technology": "5G infrastructure",
+      "vulnerability": "Component dependencies",
+      "exploitation_vector": "Supply chain infiltration",
+      "prc_interest": "CRITICAL",
+      "mitigation": "Vendor diversification"
+    },
+    {
+      "id": "SP004",
+      "technology": "Satellite communications",
+      "vulnerability": "Ground station access",
+      "exploitation_vector": "Third-party service providers",
+      "prc_interest": "MEDIUM",
+      "mitigation": "Sovereign capabilities development"
+    },
+    {
+      "id": "SP005",
+      "technology": "Biotechnology",
+      "vulnerability": "Genomic data sharing",
+      "exploitation_vector": "Research collaboration",
+      "prc_interest": "HIGH",
+      "mitigation": "Data localization requirements"
+    }
+  ],
+  "institutional_softpoints": [
+    {
+      "id": "ISP001",
+      "institution_type": "Universities",
+      "vulnerability": "Funding pressures",
+      "exploitation_vector": "Sponsored research",
+      "current_exposure": 45,
+      "trend": "Increasing"
+    },
+    {
+      "id": "ISP002",
+      "institution_type": "SMEs",
+      "vulnerability": "Limited security awareness",
+      "exploitation_vector": "Joint ventures",
+      "current_exposure": 67,
+      "trend": "Stable"
+    },
+    {
+      "id": "ISP003",
+      "institution_type": "Startups",
+      "vulnerability": "Capital needs",
+      "exploitation_vector": "Foreign investment",
+      "current_exposure": 23,
+      "trend": "Increasing"
+    }
+  ],
+  "systemic_vulnerabilities": [
+    {
+      "vulnerability": "Researcher mobility",
+      "description": "Brain drain and knowledge transfer",
+      "quantification": "8% annual emigration",
+      "prc_exploitation": "Talent programs"
+    },
+    {
+      "vulnerability": "Open science culture",
+      "description": "Publication of sensitive research",
+      "quantification": "3,421 joint papers with China",
+      "prc_exploitation": "Systematic harvesting"
+    },
+    {
+      "vulnerability": "Regional disparities",
+      "description": "North-South development gap",
+      "quantification": "3x productivity difference",
+      "prc_exploitation": "Targeted investment in weak regions"
+    }
+  ],
+  "risk_matrix": {
+    "critical": ["5G infrastructure", "AI/ML dependencies"],
+    "high": ["Quantum access", "Biotech data", "Talent programs"],
+    "medium": ["Satellite services", "SME exposure"],
+    "low": ["Legacy systems", "Non-critical research"]
+  }
+}

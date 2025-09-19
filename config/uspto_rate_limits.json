@@ -1,0 +1,42 @@
+{
+  "uspto_open_data_portal": {
+    "limits": {
+      "patent_file_wrapper_documents": {
+        "limit": 1200000,
+        "period": "weekly",
+        "reset_day": "Sunday",
+        "description": "Patent File Wrapper Documents API calls"
+      },
+      "meta_data_retrievals": {
+        "limit": 5000000,
+        "period": "weekly",
+        "reset_day": "Sunday",
+        "description": "Metadata retrieval API calls"
+      }
+    },
+    "usage_tracking": {
+      "patent_file_wrapper_documents": {
+        "used": 0,
+        "remaining": 1200000,
+        "last_updated": "2025-09-18T00:00:00Z"
+      },
+      "meta_data_retrievals": {
+        "used": 0,
+        "remaining": 5000000,
+        "last_updated": "2025-09-18T00:00:00Z"
+      }
+    },
+    "safety_thresholds": {
+      "warning_percent": 80,
+      "critical_percent": 95,
+      "daily_max_percent": 14
+    },
+    "notes": [
+      "Weekly limits reset on Sundays",
+      "1.2M Patent File Wrapper calls = ~171,428 per day average",
+      "5M Metadata calls = ~714,285 per day average",
+      "Consumption details may take time to refresh on USPTO portal",
+      "Conservative daily target: 14% of weekly limit (1/7)"
+    ]
+  }
+}

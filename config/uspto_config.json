@@ -1,0 +1,46 @@
+{
+  "api_base": "https://data.uspto.gov",
+  "endpoints": {
+    "patent_file_wrapper": "https://data.uspto.gov/apis/patent-file-wrapper/search",
+    "bulk_data": "https://data.uspto.gov/api/bulk-data",
+    "patent_examination": "https://data.uspto.gov/api/patent-examination",
+    "patent_assignment": "https://data.uspto.gov/api/patent-assignment"
+  },
+  "datasets": {
+    "patents": {
+      "description": "Patent grant and application data",
+      "formats": [
+        "XML",
+        "JSON",
+        "CSV"
+      ],
+      "bulk_download": true
+    },
+    "patent_file_wrapper": {
+      "description": "Patent prosecution history and documents",
+      "api": "https://data.uspto.gov/apis/patent-file-wrapper/search",
+      "searchable": true
+    },
+    "patent_assignment": {
+      "description": "Patent ownership and transfer records",
+      "searchable": true
+    },
+    "patent_examination": {
+      "description": "Patent examination research dataset (PEDS)",
+      "formats": [
+        "CSV",
+        "JSON"
+      ],
+      "bulk_download": true
+    },
+    "trademarks": {
+      "description": "Trademark registration data",
+      "formats": [
+        "XML",
+        "JSON"
+      ],
+      "bulk_download": true
+    }
+  },
+  "last_tested": "2025-09-18T17:18:08.069900"
+}

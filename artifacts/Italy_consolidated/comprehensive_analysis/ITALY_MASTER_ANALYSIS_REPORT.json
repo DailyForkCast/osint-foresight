@@ -1,0 +1,156 @@
+{
+  "generated_at": "2025-09-16T16:26:22.306276",
+  "country": "Italy",
+  "executive_summary": {
+    "china_owned_companies": [],
+    "high_risk_researchers": 0,
+    "critical_supply_dependencies": 15,
+    "overall_risk_level": "MEDIUM-HIGH"
+  },
+  "ownership_analysis": {
+    "companies_analyzed": 2,
+    "china_owned": [],
+    "complex_structures": [],
+    "critical_findings": []
+  },
+  "research_network_analysis": {
+    "institutions_analyzed": 4,
+    "total_china_collaborations": 0,
+    "high_risk_researchers": []
+  },
+  "supply_chain_analysis": {
+    "critical_dependencies": [
+      {
+        "category": "semiconductors",
+        "hs_code": "8541",
+        "description": "Semiconductor devices",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "semiconductors",
+        "hs_code": "8542",
+        "description": "Electronic integrated circuits",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "semiconductors",
+        "hs_code": "854231",
+        "description": "Electronic integrated circuits: Processors and controllers",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "critical_materials",
+        "hs_code": "2805",
+        "description": "Alkali or alkaline-earth metals; rare-earth metals",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "critical_materials",
+        "hs_code": "280530",
+        "description": "Rare-earth metals, scandium and yttrium",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "critical_materials",
+        "hs_code": "2846",
+        "description": "Compounds of rare-earth metals",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "aerospace",
+        "hs_code": "8802",
+        "description": "Aircraft, spacecraft, and parts thereof",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "aerospace",
+        "hs_code": "8803",
+        "description": "Parts of aircraft and spacecraft",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "aerospace",
+        "hs_code": "880330",
+        "description": "Parts of aeroplanes or helicopters",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "advanced_tech",
+        "hs_code": "9013",
+        "description": "Optical devices, lasers",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "advanced_tech",
+        "hs_code": "901320",
+        "description": "Lasers, other than laser diodes",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "advanced_tech",
+        "hs_code": "9027",
+        "description": "Instruments for physical or chemical analysis",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "energy",
+        "hs_code": "8506",
+        "description": "Primary cells and primary batteries",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "energy",
+        "hs_code": "8507",
+        "description": "Electric accumulators (batteries)",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "energy",
+        "hs_code": "850710",
+        "description": "Lead-acid accumulators",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      }
+    ],
+    "semiconductor_risk": {
+      "average_china_dependence": 45.0,
+      "high_risk_components": 3
+    },
+    "aerospace_risk": {
+      "average_china_dependence": 45.0,
+      "high_risk_components": 3
+    },
+    "recommendations": [
+      "URGENT: 15 components with >40% China dependence require supply chain diversification",
+      "Semiconductor supply chain vulnerability: 45.0% average China dependence",
+      "WARNING: China dependence increasing for 8542 (Electronic integrated circuits)",
+      "WARNING: China dependence increasing for 8541 (Semiconductor devices)",
+      "WARNING: China dependence increasing for 854231 (Electronic integrated circuits: Processors and controllers)"
+    ]
+  },
+  "critical_intelligence_gaps": [
+    "No central MoU registry - unable to track research agreements",
+    "Conference side meetings not monitored",
+    "Joint lab agreements lack transparency",
+    "Talent program participation unknown",
+    "Dual-use technology transfers untracked"
+  ],
+  "immediate_actions_required": [
+    "Implement supply chain diversification for critical components",
+    "Establish central MoU registry within 30 days"
+  ]
+}

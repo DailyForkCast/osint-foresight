@@ -1,0 +1,82 @@
+{
+  "pipeline_id": "pipeline_1758228802",
+  "started": "2025-09-18T16:53:22.953067",
+  "input_size": 4300,
+  "stages": {
+    "extraction": {
+      "gate": {
+        "stage": "ValidationStage.EXTRACTION",
+        "status": "ValidationStatus.PASSED",
+        "confidence": 1.0,
+        "issues": [],
+        "warnings": [],
+        "recommendations": [],
+        "timestamp": "2025-09-18T16:53:23.216456",
+        "metrics": {
+          "documents_processed": 4300,
+          "total_raw_matches": 0,
+          "entities_found": [],
+          "processing_errors": 0
+        },
+        "confidence_uncertainty": 0.1,
+        "confidence_range": [
+          0.9,
+          1
+        ],
+        "confidence_category": "High"
+      },
+      "statistics": {
+        "documents_processed": 4300,
+        "total_raw_matches": 0,
+        "entities_found": [],
+        "processing_errors": 0
+      },
+      "duration": 0.26248
+    },
+    "entity_validation": {
+      "gate": {
+        "stage": "ValidationStage.ENTITY_VALIDATION",
+        "status": "ValidationStatus.FAILED",
+        "confidence": 0.0,
+        "issues": [
+          "Low validation rate: 0.0%"
+        ],
+        "warnings": [],
+        "recommendations": [],
+        "timestamp": "2025-09-18T16:53:23.216770",
+        "metrics": {
+          "total_matches": 0,
+          "valid_matches": 0,
+          "invalid_matches": 0,
+          "low_confidence_matches": 0,
+          "false_positives_caught": 0
+        },
+        "confidence_uncertainty": 0.05,
+        "confidence_range": [
+          0,
+          0.05
+        ],
+        "confidence_category": "Low"
+      },
+      "statistics": {
+        "total_matches": 0,
+        "valid_matches": 0,
+        "invalid_matches": 0,
+        "low_confidence_matches": 0,
+        "false_positives_caught": 0
+      },
+      "duration": 0.0
+    }
+  },
+  "overall_status": "failed",
+  "final_results": {},
+  "quality_metrics": {
+    "overall_confidence": 0.5,
+    "min_stage_confidence": 0.0,
+    "gates_passed": 1,
+    "total_gates": 2
+  },
+  "recommendations": [],
+  "completed": "2025-09-18T16:53:23.216770",
+  "message": "Stage 2 entity validation failed"
+}

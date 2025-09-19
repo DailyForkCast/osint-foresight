@@ -1,0 +1,327 @@
+{
+  "analysis_date": "2025-09-18T17:58:23.411075",
+  "events": [
+    {
+      "date": "2023-01-01",
+      "event_type": "research_collaboration",
+      "description": "Max_Planck_Society - China risk level: HIGH",
+      "german_entity": "Max_Planck_Society",
+      "chinese_entity": "Multiple",
+      "technology_area": "artificial_intelligence",
+      "risk_level": "HIGH",
+      "funding": "\u00e2\u201a\u00ac1.19B",
+      "source": "Germany Technology Landscape"
+    },
+    {
+      "date": "2023-01-01",
+      "event_type": "research_collaboration",
+      "description": "Fraunhofer_Society - China risk level: HIGH",
+      "german_entity": "Fraunhofer_Society",
+      "chinese_entity": "Multiple",
+      "technology_area": "semiconductors",
+      "risk_level": "HIGH",
+      "funding": "\u00e2\u201a\u00ac1.15B",
+      "source": "Germany Technology Landscape"
+    },
+    {
+      "date": "2023-01-01",
+      "event_type": "research_collaboration",
+      "description": "DLR - China risk level: MEDIUM",
+      "german_entity": "DLR",
+      "chinese_entity": "Multiple",
+      "technology_area": "aerospace",
+      "risk_level": "MEDIUM",
+      "funding": "\u00e2\u201a\u00ac569M",
+      "source": "Germany Technology Landscape"
+    },
+    {
+      "date": "2023-01-01",
+      "event_type": "research_collaboration",
+      "description": "TU_Munich - China risk level: HIGH",
+      "german_entity": "TU_Munich",
+      "chinese_entity": "Multiple",
+      "technology_area": "artificial_intelligence",
+      "risk_level": "HIGH",
+      "funding": "\u00e2\u201a\u00ac472M",
+      "source": "Germany Technology Landscape"
+    },
+    {
+      "date": "2023-01-01",
+      "event_type": "research_collaboration",
+      "description": "KIT_Karlsruhe - China risk level: MEDIUM",
+      "german_entity": "KIT_Karlsruhe",
+      "chinese_entity": "Multiple",
+      "technology_area": "general",
+      "risk_level": "MEDIUM",
+      "funding": "\u00e2\u201a\u00ac368M",
+      "source": "Germany Technology Landscape"
+    },
+    {
+      "date": "2023-06-01",
+      "event_type": "research_collaboration",
+      "description": "quantum_computing sector - 2 active collaborations",
+      "german_entity": "Multiple",
+      "chinese_entity": "Multiple",
+      "technology_area": "quantum_computing",
+      "risk_level": "CRITICAL",
+      "collaboration_count": 2,
+      "source": "Sector Analysis"
+    },
+    {
+      "date": "2023-06-01",
+      "event_type": "research_collaboration",
+      "description": "artificial_intelligence sector - 3 active collaborations",
+      "german_entity": "Multiple",
+      "chinese_entity": "Multiple",
+      "technology_area": "artificial_intelligence",
+      "risk_level": "CRITICAL",
+      "collaboration_count": 3,
+      "source": "Sector Analysis"
+    },
+    {
+      "date": "2023-06-01",
+      "event_type": "research_collaboration",
+      "description": "semiconductors sector - 1 active collaborations",
+      "german_entity": "Multiple",
+      "chinese_entity": "Multiple",
+      "technology_area": "semiconductors",
+      "risk_level": "CRITICAL",
+      "collaboration_count": 1,
+      "source": "Sector Analysis"
+    },
+    {
+      "date": "2023-06-01",
+      "event_type": "research_collaboration",
+      "description": "automotive sector - 12 active collaborations",
+      "german_entity": "Multiple",
+      "chinese_entity": "Multiple",
+      "technology_area": "automotive",
+      "risk_level": "HIGH",
+      "collaboration_count": 12,
+      "source": "Sector Analysis"
+    },
+    {
+      "date": "2023-06-01",
+      "event_type": "research_collaboration",
+      "description": "aerospace sector - 4 active collaborations",
+      "german_entity": "Multiple",
+      "chinese_entity": "Multiple",
+      "technology_area": "aerospace",
+      "risk_level": "HIGH",
+      "collaboration_count": 4,
+      "source": "Sector Analysis"
+    },
+    {
+      "date": "2023-06-01",
+      "event_type": "research_collaboration",
+      "description": "biotechnology sector - 7 active collaborations",
+      "german_entity": "Multiple",
+      "chinese_entity": "Multiple",
+      "technology_area": "biotechnology",
+      "risk_level": "MEDIUM",
+      "collaboration_count": 7,
+      "source": "Sector Analysis"
+    },
+    {
+      "date": "2023-06-01",
+      "event_type": "research_collaboration",
+      "description": "telecommunications sector - 3 active collaborations",
+      "german_entity": "Multiple",
+      "chinese_entity": "Multiple",
+      "technology_area": "telecommunications",
+      "risk_level": "CRITICAL",
+      "collaboration_count": 3,
+      "source": "Sector Analysis"
+    },
+    {
+      "date": "2019-03-15",
+      "event_type": "research_collaboration",
+      "description": "Max Planck Society establishes China office",
+      "german_entity": "Max Planck Society",
+      "chinese_entity": "Chinese Academy of Sciences",
+      "technology_area": "artificial_intelligence",
+      "risk_level": "HIGH",
+      "source": "Public Announcements"
+    },
+    {
+      "date": "2020-06-10",
+      "event_type": "joint_venture",
+      "description": "BMW-Brilliance automotive partnership expansion",
+      "german_entity": "BMW",
+      "chinese_entity": "Brilliance Automotive",
+      "technology_area": "automotive",
+      "risk_level": "MEDIUM",
+      "source": "Industry Reports"
+    },
+    {
+      "date": "2021-01-20",
+      "event_type": "policy_change",
+      "description": "Germany reviews foreign investment screening",
+      "german_entity": "German Government",
+      "chinese_entity": "Chinese Investors",
+      "technology_area": "general",
+      "risk_level": "HIGH",
+      "source": "Policy Documents"
+    },
+    {
+      "date": "2021-09-08",
+      "event_type": "investment",
+      "description": "Chinese investment in German robotics company",
+      "german_entity": "KUKA",
+      "chinese_entity": "Midea Group",
+      "technology_area": "artificial_intelligence",
+      "risk_level": "CRITICAL",
+      "source": "Financial News"
+    },
+    {
+      "date": "2022-02-24",
+      "event_type": "sanctions_event",
+      "description": "Ukraine conflict affects China-Germany tech cooperation",
+      "german_entity": "German Companies",
+      "chinese_entity": "Chinese Partners",
+      "technology_area": "general",
+      "risk_level": "HIGH",
+      "source": "Geopolitical Events"
+    },
+    {
+      "date": "2022-11-15",
+      "event_type": "policy_change",
+      "description": "Germany tightens semiconductor export controls",
+      "german_entity": "German Government",
+      "chinese_entity": "Chinese Semiconductor Companies",
+      "technology_area": "semiconductors",
+      "risk_level": "CRITICAL",
+      "source": "Regulatory Changes"
+    },
+    {
+      "date": "2023-05-30",
+      "event_type": "research_collaboration",
+      "description": "TU Munich restricts research partnerships",
+      "german_entity": "TU Munich",
+      "chinese_entity": "Chinese Universities",
+      "technology_area": "quantum_computing",
+      "risk_level": "CRITICAL",
+      "source": "Academic Policies"
+    },
+    {
+      "date": "2023-10-12",
+      "event_type": "sanctions_event",
+      "description": "New EU restrictions on critical technology exports",
+      "german_entity": "German Exporters",
+      "chinese_entity": "Chinese Companies",
+      "technology_area": "semiconductors",
+      "risk_level": "CRITICAL",
+      "source": "EU Regulations"
+    },
+    {
+      "date": "2024-01-18",
+      "event_type": "investment",
+      "description": "Volkswagen reduces China dependency strategy",
+      "german_entity": "Volkswagen",
+      "chinese_entity": "Chinese Suppliers",
+      "technology_area": "automotive",
+      "risk_level": "MEDIUM",
+      "source": "Corporate Strategy"
+    },
+    {
+      "date": "2024-07-09",
+      "event_type": "policy_change",
+      "description": "Germany launches China strategy update",
+      "german_entity": "German Government",
+      "chinese_entity": "China",
+      "technology_area": "general",
+      "risk_level": "HIGH",
+      "source": "Government Policy"
+    }
+  ],
+  "patterns": {
+    "temporal_trends": {
+      "yearly_events": {
+        "2019": 1,
+        "2020": 1,
+        "2021": 2,
+        "2022": 2,
+        "2023": 14,
+        "2024": 2
+      },
+      "peak_year": 2023,
+      "trend_direction": "increasing"
+    },
+    "technology_focus": {
+      "top_areas": {
+        "artificial_intelligence": 5,
+        "semiconductors": 4,
+        "general": 4,
+        "automotive": 3,
+        "aerospace": 2
+      },
+      "critical_areas": {
+        "semiconductors": 3,
+        "quantum_computing": 2,
+        "artificial_intelligence": 2,
+        "telecommunications": 1
+      }
+    },
+    "entity_analysis": {
+      "most_active_german": {
+        "Multiple": 7,
+        "German Government": 3,
+        "Fraunhofer_Society": 1,
+        "DLR": 1,
+        "TU_Munich": 1
+      },
+      "entity_diversity": 14
+    },
+    "risk_evolution": {
+      "risk_by_year": {
+        "CRITICAL": {
+          "2019": 0,
+          "2020": 0,
+          "2021": 1,
+          "2022": 1,
+          "2023": 6,
+          "2024": 0
+        },
+        "HIGH": {
+          "2019": 1,
+          "2020": 0,
+          "2021": 1,
+          "2022": 1,
+          "2023": 5,
+          "2024": 1
+        },
+        "MEDIUM": {
+          "2019": 0,
+          "2020": 1,
+          "2021": 0,
+          "2022": 0,
+          "2023": 3,
+          "2024": 1
+        }
+      },
+      "critical_events_trend": {
+        "2019": 0,
+        "2020": 0,
+        "2021": 1,
+        "2022": 1,
+        "2023": 6,
+        "2024": 0
+      }
+    },
+    "event_types": {
+      "distribution": {
+        "research_collaboration": 14,
+        "policy_change": 3,
+        "investment": 2,
+        "sanctions_event": 2,
+        "joint_venture": 1
+      },
+      "most_common": "research_collaboration"
+    }
+  },
+  "event_count": 22,
+  "time_span": {
+    "start": "2019-03-15",
+    "end": "2024-07-09"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "diana_footprint": {
+    "accelerator_sites": [
+      {
+        "location": "Turin",
+        "name": "DIANA Accelerator Turin",
+        "focus": ["Deep tech", "Space technologies", "Advanced materials"],
+        "host": "I3P - Polytechnic of Turin incubator",
+        "status": "Operational",
+        "established": 2023
+      }
+    ],
+    "test_centers": [],
+    "portfolio_companies": [
+      {
+        "company": "D-Orbit",
+        "location": "Como",
+        "technology": "Space logistics and transportation",
+        "diana_cohort": 2024,
+        "funding_stage": "Series B"
+      },
+      {
+        "company": "Cybaze",
+        "location": "Milan",
+        "technology": "Quantum-safe cryptography",
+        "diana_cohort": 2024
+      },
+      {
+        "company": "Revolv Space",
+        "location": "Turin",
+        "technology": "Satellite propulsion",
+        "diana_cohort": 2024
+      }
+    ]
+  },
+  "coe_participation": {
+    "hosted": [
+      {
+        "name": "NATO M&S COE",
+        "location": "Rome",
+        "italian_staff": 45,
+        "director": "Italian (rotating)"
+      },
+      {
+        "name": "Stability Policing COE",
+        "location": "Vicenza",
+        "italian_staff": 28
+      }
+    ],
+    "member_of": [
+      "Cyber Defence COE (Estonia)",
+      "CBRN COE (Czech Republic)",
+      "C2 COE (Netherlands)",
+      "Maritime Security COE (Turkey)",
+      "Strategic Communications COE (Latvia)"
+    ],
+    "contributions": {
+      "personnel": 23,
+      "annual_budget": "3.4M EUR",
+      "research_projects": 12
+    }
+  },
+  "innovation_ecosystem_integration": {
+    "linkages": [
+      {
+        "entity": "Leonardo Labs",
+        "connection": "Technology scouting for DIANA",
+        "projects": 3
+      },
+      {
+        "entity": "Mind the Bridge",
+        "role": "Innovation advisory",
+        "location": "Milan"
+      }
+    ],
+    "gaps": [
+      "No DIANA test centers in Italy",
+      "Limited biotech participation",
+      "Weak quantum startup ecosystem"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+# USPTO API Configuration
+# Documentation: https://developer.uspto.gov/
+
+uspto_api:
+  # New PatentSearch API (Requires API key for better rate limits)
+  patentsearch:
+    base_url: "https://search.patentsview.org"
+    endpoints:
+      patents: "/api/v1/patent/"
+      patent_query: "/api/patents/query"
+      inventors: "/api/v1/inventor/"
+      assignees: "/api/v1/assignee/"
+      cpc: "/api/v1/cpc_current/"
+    rate_limit: 45  # requests per minute with API key, 10 without
+
+  # Legacy API (Discontinued May 2025)
+  legacy:
+    base_url: "https://api.patentsview.org"
+    status: "DISCONTINUED"
+
+  # USPTO Open Data Portal
+  open_data:
+    base_url: "https://developer.uspto.gov/api-catalog"
+
+  # USPTO Bulk Data (requires registration)
+  bulk_data:
+    base_url: "https://bulkdata.uspto.gov"
+
+  # Patent Examination Data System (PEDS)
+  peds:
+    base_url: "https://ped.uspto.gov/api"
+
+# Search parameters for Italy technology assessment
+search_config:
+  # Italian assignees to track
+  italy_companies:
+    - "Leonardo"
+    - "Leonardo S.p.A"
+    - "Finmeccanica"
+    - "Fincantieri"
+    - "STMicroelectronics"
+    - "Thales Alenia Space Italia"
+    - "Telespazio"
+    - "Ansaldo"
+    - "Iveco"
+    - "Pirelli"
+
+  # Technology areas (CPC codes)
+  technology_areas:
+    aerospace: ["B64", "B64C", "B64D", "B64F", "B64G"]
+    defense: ["F41", "F42", "C06"]
+    semiconductors: ["H01L", "H03K", "G06F"]
+    quantum: ["G06N10", "H04L9"]
+    cybersecurity: ["H04L29", "H04L9", "G06F21"]
+    ai_ml: ["G06N", "G06K9", "G10L"]
+    robotics: ["B25J", "B62D57"]
+    space: ["B64G", "H04B7"]
+
+  # Countries for comparison
+  countries:
+    italy: "IT"
+    china: "CN"
+    usa: "US"
+    germany: "DE"
+    france: "FR"
+
+# API credentials (to be filled by user)
+credentials:
+  api_key: "YOUR_API_KEY_HERE"  # Replace with actual key
+  client_id: ""  # If required
+  client_secret: ""  # If required

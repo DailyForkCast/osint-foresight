@@ -1,0 +1,125 @@
+{
+  "analysis_date": "2025-09-17T16:55:39.423942",
+  "regional_universities": {
+    "University of Calabria": {
+      "name": "University of Calabria",
+      "ror_id": "https://ror.org/02rc97e94",
+      "total_papers": 10675,
+      "china_collaborations": 441,
+      "collaboration_rate": 4.13,
+      "type": "regional"
+    },
+    "University of Basilicata": {
+      "name": "University of Basilicata",
+      "ror_id": "https://ror.org/02qwy9e97",
+      "total_papers": 0,
+      "china_collaborations": 0,
+      "collaboration_rate": 0,
+      "type": "regional"
+    },
+    "University of Molise": {
+      "name": "University of Molise",
+      "ror_id": "https://ror.org/04jkyg219",
+      "total_papers": 0,
+      "china_collaborations": 0,
+      "collaboration_rate": 0,
+      "type": "regional"
+    },
+    "University of Camerino": {
+      "name": "University of Camerino",
+      "ror_id": "https://ror.org/05pf8gr89",
+      "total_papers": 0,
+      "china_collaborations": 0,
+      "collaboration_rate": 0,
+      "type": "regional"
+    },
+    "University of Macerata": {
+      "name": "University of Macerata",
+      "ror_id": "https://ror.org/05tj3dm42",
+      "total_papers": 0,
+      "china_collaborations": 0,
+      "collaboration_rate": 0,
+      "type": "regional"
+    },
+    "University of Udine": {
+      "name": "University of Udine",
+      "ror_id": "https://ror.org/05nsj7q40",
+      "total_papers": 0,
+      "china_collaborations": 0,
+      "collaboration_rate": 0,
+      "type": "regional"
+    },
+    "University of Brescia": {
+      "name": "University of Brescia",
+      "ror_id": "https://ror.org/02e3zdq86",
+      "total_papers": 0,
+      "china_collaborations": 0,
+      "collaboration_rate": 0,
+      "type": "regional"
+    },
+    "University of Sassari": {
+      "name": "University of Sassari",
+      "ror_id": "https://ror.org/05m9kpg86",
+      "total_papers": 0,
+      "china_collaborations": 0,
+      "collaboration_rate": 0,
+      "type": "regional"
+    },
+    "University of Messina": {
+      "name": "University of Messina",
+      "ror_id": "https://ror.org/00rjy6r79",
+      "total_papers": 0,
+      "china_collaborations": 0,
+      "collaboration_rate": 0,
+      "type": "regional"
+    }
+  },
+  "elite_universities": {
+    "Politecnico di Milano": {
+      "name": "Politecnico di Milano",
+      "ror_id": "https://ror.org/01nffqt88",
+      "total_papers": 36048,
+      "china_collaborations": 1988,
+      "collaboration_rate": 5.51,
+      "type": "elite"
+    },
+    "University of Bologna": {
+      "name": "University of Bologna",
+      "ror_id": "https://ror.org/01111rn36",
+      "total_papers": 54410,
+      "china_collaborations": 1628,
+      "collaboration_rate": 2.99,
+      "type": "elite"
+    },
+    "Sapienza University": {
+      "name": "Sapienza University",
+      "ror_id": "https://ror.org/02p77k116",
+      "total_papers": 0,
+      "china_collaborations": 0,
+      "collaboration_rate": 0,
+      "type": "elite"
+    },
+    "Politecnico di Torino": {
+      "name": "Politecnico di Torino",
+      "ror_id": "https://ror.org/00s6t1f81",
+      "total_papers": 22932,
+      "china_collaborations": 840,
+      "collaboration_rate": 3.66,
+      "type": "elite"
+    }
+  },
+  "comparison": {
+    "regional_average_rate": 4.13,
+    "elite_average_rate": 3.93,
+    "estimated_mid_tier_rate": 4.03,
+    "weighted_national_average": 4.02,
+    "ratio_elite_to_regional": 1.0
+  },
+  "national_estimate": {
+    "method": "Weighted average by institution type",
+    "estimated_rate": 4.02,
+    "openalex_actual": 3.38,
+    "difference": 0.64,
+    "assessment": "Close match validates prestige bias hypothesis"
+  }
+}

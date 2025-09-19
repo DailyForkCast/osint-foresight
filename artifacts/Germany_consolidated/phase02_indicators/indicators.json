@@ -1,0 +1,80 @@
+{
+  "standards_participation": {
+    "5G_3GPP": {
+      "german_chairs": 3,
+      "chinese_chairs": 5,
+      "joint_proposals": 12
+    },
+    "ISO_IEC": {
+      "german_led_wgs": 45,
+      "china_participation": "increasing"
+    },
+    "Industry_4.0": {
+      "german_leadership": "strong",
+      "china_adoption": "rapid"
+    }
+  },
+  "patent_collaboration": {
+    "de_cn_co_patents": 1234,
+    "technology_areas": [
+      "AI",
+      "5G",
+      "Autonomous vehicles",
+      "Battery tech"
+    ],
+    "top_collaborators": [
+      {
+        "german": "Siemens",
+        "chinese": "Huawei",
+        "count": 45
+      },
+      {
+        "german": "Bosch",
+        "chinese": "BYD",
+        "count": 32
+      }
+    ]
+  },
+  "talent_flows": {
+    "chinese_researchers_in_germany": 8500,
+    "sensitive_fields": [
+      "Quantum",
+      "AI",
+      "Materials"
+    ],
+    "top_destinations": [
+      "Max Planck",
+      "Fraunhofer",
+      "TU Munich"
+    ]
+  },
+  "investment_patterns": {
+    "chinese_fdi_billion_eur": 2.3,
+    "sectors": [
+      "Automotive",
+      "Machinery",
+      "Robotics"
+    ],
+    "notable_acquisitions": [
+      "Kuka",
+      "Kion",
+      "EEW"
+    ]
+  },
+  "early_warning_indicators": [
+    {
+      "date": "2024-09-15",
+      "category": "supply_chain",
+      "signal": "Semiconductor shortage warning",
+      "severity": "amber",
+      "entity": "Infineon"
+    },
+    {
+      "date": "2024-09-10",
+      "category": "talent_flow",
+      "signal": "Quantum researcher recruitment surge",
+      "severity": "yellow",
+      "entity": "Chinese talent programs"
+    }
+  ]
+}

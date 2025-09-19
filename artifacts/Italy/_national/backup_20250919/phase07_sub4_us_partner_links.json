@@ -1,0 +1,58 @@
+{
+  "bilateral_cooperation": {
+    "defense_agreements": {
+      "mutual_defense": "NATO Article 5",
+      "bilateral_defense": "1954 Mutual Defense Assistance Agreement",
+      "recent_updates": "2022 Enhanced Defense Cooperation Agreement",
+      "focus_areas": ["Space", "Cyber", "Mediterranean security"]
+    },
+    "technology_partnerships": {
+      "artemis_accords": {
+        "signed": "2024-06",
+        "italian_contribution": "Lunar habitat modules",
+        "industrial_partners": ["Thales Alenia", "ASI"]
+      },
+      "quantum_cooperation": {
+        "agreement": "2023 Quantum Information Science MoU",
+        "joint_research": 5,
+        "funding": 23000000
+      },
+      "ai_partnership": {
+        "gpai_membership": true,
+        "joint_initiatives": 3,
+        "focus": "Trustworthy AI"
+      }
+    },
+    "industrial_collaboration": {
+      "joint_ventures": 12,
+      "major_programs": ["F-35", "Space exploration", "Missile defense"],
+      "technology_transfer": "ITAR controlled",
+      "offset_agreements": 0.35
+    }
+  },
+  "military_presence": {
+    "us_bases": {
+      "total": 5,
+      "personnel": 12000,
+      "key_facilities": ["Aviano AB", "NAS Sigonella", "Camp Darby", "Vicenza", "Naples NSA"],
+      "strategic_importance": "Mediterranean hub"
+    },
+    "joint_operations": {
+      "exercises_2023": 23,
+      "permanent_deployments": 3,
+      "rotation_forces": "Regular"
+    }
+  },
+  "intelligence_sharing": {
+    "five_eyes_plus": "Observer status",
+    "bilateral_intelligence": "Extensive",
+    "counter_terrorism": "Active",
+    "cyber_threat_intel": "Real-time sharing"
+  },
+  "economic_ties": {
+    "trade_volume_2023": 78900000000,
+    "us_fdi_stock": 34500000000,
+    "italian_fdi_in_us": 32100000000,
+    "critical_sectors": ["Aerospace", "Defense", "Pharma", "Energy"]
+  }
+}

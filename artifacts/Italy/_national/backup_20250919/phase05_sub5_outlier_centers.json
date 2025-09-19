@@ -1,0 +1,68 @@
+{
+  "outlier_centers": [
+    {
+      "id": "OUT001",
+      "name": "Gran Sasso Science Institute",
+      "type": "Unexpected excellence",
+      "field": "Astroparticle physics",
+      "global_rank": 3,
+      "unexpected_factor": "World-leading despite small size",
+      "chinese_collaboration": 12,
+      "us_collaboration": 34,
+      "nato_relevance": "Quantum sensing applications"
+    },
+    {
+      "id": "OUT002",
+      "name": "Human Technopole",
+      "type": "Emerging hub",
+      "field": "Genomics and biocomputing",
+      "founded": 2018,
+      "unexpected_factor": "Rapid rise to European prominence",
+      "chinese_collaboration": 8,
+      "dual_use_potential": "Biosecurity applications",
+      "funding_sources": ["PNRR", "Private foundations"]
+    },
+    {
+      "id": "OUT003",
+      "name": "CMCC",
+      "type": "Climate modeling center",
+      "field": "Climate supercomputing",
+      "unexpected_factor": "Mediterranean climate leadership",
+      "compute_power_pflops": 1.2,
+      "military_applications": "Environmental security",
+      "international_role": "IPCC contributor"
+    },
+    {
+      "id": "OUT004",
+      "name": "GARR",
+      "type": "Research network",
+      "field": "Quantum internet research",
+      "unexpected_factor": "Quantum communication testbed",
+      "european_projects": 5,
+      "security_implications": "Quantum-safe communications",
+      "nato_interest": "HIGH"
+    },
+    {
+      "id": "OUT005",
+      "name": "Nanotech Center Lecce",
+      "type": "Materials research",
+      "field": "2D materials",
+      "unexpected_factor": "Graphene production breakthrough",
+      "patent_applications": 23,
+      "chinese_interest": "Confirmed",
+      "defense_applications": "Armor, sensors"
+    }
+  ],
+  "detection_criteria": {
+    "publication_impact": "Top 1% globally in narrow field",
+    "funding_efficiency": "Output/Euro > 3x national average",
+    "international_visibility": "Foreign collaboration > 60%",
+    "growth_rate": "Citations growing > 50% annually"
+  },
+  "risks": [
+    "Brain drain from outlier centers",
+    "Insufficient protection of IP",
+    "Foreign acquisition attempts",
+    "Dual-use technology leakage"
+  ]
+}

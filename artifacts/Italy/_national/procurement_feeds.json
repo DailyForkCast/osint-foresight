@@ -1,0 +1,165 @@
+{
+  "generated": "2025-09-14T14:40:00Z",
+  "country": "Italy",
+  "procurement_sources": {
+    "national": [
+      {
+        "platform": "CONSIP",
+        "url": "https://www.consip.it",
+        "description": "Central purchasing body",
+        "china_suppliers": "CHECK_REQUIRED",
+        "sensitive_categories": ["IT", "telecommunications", "security systems"]
+      },
+      {
+        "platform": "MEPA",
+        "url": "https://www.acquistinretepa.it",
+        "description": "Electronic marketplace for public administration",
+        "china_exposure": "UNKNOWN",
+        "monitoring_priority": "HIGH"
+      }
+    ],
+    "defense": [
+      {
+        "platform": "Segredifesa",
+        "url": "https://www.difesa.it",
+        "description": "Defense procurement",
+        "china_exclusions": "PRESUMED",
+        "dual_use_concerns": "CHECK_REQUIRED"
+      }
+    ],
+    "regional": [
+      {
+        "region": "Lombardy",
+        "platform": "ARIA",
+        "china_suppliers": "POSSIBLE",
+        "sectors": ["healthcare", "IT", "infrastructure"]
+      },
+      {
+        "region": "Lazio",
+        "platform": "Centrale Acquisti",
+        "china_suppliers": "POSSIBLE",
+        "sectors": ["services", "supplies", "works"]
+      }
+    ],
+    "eu_level": [
+      {
+        "platform": "TED",
+        "url": "https://ted.europa.eu",
+        "italian_tenders": "YES",
+        "china_bidders": "ALLOWED_WITH_CONDITIONS"
+      }
+    ]
+  },
+  "china_specific_concerns": {
+    "telecommunications": {
+      "5g_infrastructure": {
+        "huawei_participation": "RESTRICTED",
+        "zte_participation": "RESTRICTED",
+        "golden_power_applied": true,
+        "alternative_suppliers": ["Ericsson", "Nokia", "Samsung"]
+      },
+      "network_equipment": {
+        "chinese_suppliers": "UNDER_REVIEW",
+        "security_assessments": "REQUIRED"
+      }
+    },
+    "surveillance_technology": {
+      "chinese_suppliers": ["Hikvision", "Dahua"],
+      "status": "UNDER_SCRUTINY",
+      "alternatives_required": true
+    },
+    "critical_infrastructure": {
+      "energy": {
+        "chinese_involvement": "LIMITED",
+        "monitoring": "ENHANCED"
+      },
+      "transportation": {
+        "chinese_involvement": "CHECK_REQUIRED",
+        "port_technology": "SENSITIVE"
+      },
+      "water": {
+        "chinese_involvement": "MINIMAL",
+        "monitoring": "STANDARD"
+      }
+    }
+  },
+  "recent_tenders_of_interest": [
+    {
+      "tender_id": "EXAMPLE_001",
+      "title": "Smart City Infrastructure",
+      "value": "€50M",
+      "china_risk": "HIGH",
+      "reason": "IoT and surveillance components",
+      "status": "MONITORING"
+    },
+    {
+      "tender_id": "EXAMPLE_002",
+      "title": "Port Automation System",
+      "value": "€30M",
+      "location": "Genoa",
+      "china_risk": "HIGH",
+      "reason": "Critical infrastructure, dual-use technology"
+    },
+    {
+      "tender_id": "EXAMPLE_003",
+      "title": "Research Computing Infrastructure",
+      "institution": "CNR",
+      "value": "€15M",
+      "china_risk": "MEDIUM",
+      "reason": "Potential for Chinese hardware"
+    }
+  ],
+  "monitoring_requirements": {
+    "daily": [
+      "Defense and security tenders",
+      "Telecommunications infrastructure",
+      "Critical infrastructure projects"
+    ],
+    "weekly": [
+      "Research institution procurement",
+      "Healthcare technology",
+      "Energy sector contracts"
+    ],
+    "monthly": [
+      "Regional procurement patterns",
+      "SME participation rates",
+      "Foreign supplier trends"
+    ]
+  },
+  "red_flags": [
+    {
+      "indicator": "Unusually low Chinese bids",
+      "risk": "Market distortion, dumping",
+      "action": "Flag for review"
+    },
+    {
+      "indicator": "Chinese suppliers in sensitive sectors",
+      "risk": "Security vulnerabilities",
+      "action": "Enhanced scrutiny"
+    },
+    {
+      "indicator": "Bundled technology offerings",
+      "risk": "Lock-in, dependency creation",
+      "action": "Require unbundling"
+    },
+    {
+      "indicator": "Financing tied to Chinese suppliers",
+      "risk": "Debt trap, influence",
+      "action": "Alternative financing required"
+    }
+  ],
+  "policy_recommendations": [
+    "Exclude Chinese suppliers from critical infrastructure",
+    "Require security assessments for Chinese technology",
+    "Enhance transparency in procurement decisions",
+    "Develop European alternatives for critical supplies",
+    "Strengthen golden power application to procurement"
+  ],
+  "intelligence_gaps": [
+    "Complete mapping of Chinese suppliers in Italian procurement",
+    "Assessment of Chinese technology in existing infrastructure",
+    "Hidden Chinese involvement through third parties",
+    "Long-term contracts with Chinese entities",
+    "Dependency levels on Chinese supplies"
+  ]
+}

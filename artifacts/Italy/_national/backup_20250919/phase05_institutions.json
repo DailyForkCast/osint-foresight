@@ -1,0 +1,103 @@
+{
+  "entities": {
+    "total_mapped": 287,
+    "by_type": {
+      "universities": 68,
+      "research_institutes": 45,
+      "companies": 134,
+      "government": 40
+    },
+    "key_entities": [
+      {
+        "name": "Leonardo S.p.A.",
+        "lei": "549300RYRRNDMB5GCF59",
+        "ror": null,
+        "type": "company",
+        "employees": 53000,
+        "r&d_intensity": "13% of revenue",
+        "patent_families": 892,
+        "capabilities": ["Aerospace", "Defense electronics", "Cyber", "Space"]
+      },
+      {
+        "name": "CNR",
+        "ror": "00brf2d87",
+        "type": "research_council",
+        "researchers": 8500,
+        "institutes": 88,
+        "publications_2023": 12453,
+        "h_index": 187
+      },
+      {
+        "name": "Politecnico di Milano",
+        "ror": "01nffqt88",
+        "type": "university",
+        "students": 47000,
+        "defense_relevant": true,
+        "strengths": ["Aerospace", "AI/ML", "Materials"]
+      }
+    ]
+  },
+  "collaboration_networks": {
+    "co_authorship": {
+      "top_partners": [
+        {"country": "US", "papers": 8234, "growth": "+12% YoY"},
+        {"country": "Germany", "papers": 6123, "growth": "+8% YoY"},
+        {"country": "France", "papers": 5892, "growth": "+15% YoY"},
+        {"country": "UK", "papers": 5234, "growth": "+5% YoY"},
+        {"country": "China", "papers": 3421, "growth": "-3% YoY"}
+      ]
+    },
+    "joint_patents": {
+      "total_2023": 234,
+      "top_partners": [
+        {"country": "Germany", "patents": 67},
+        {"country": "France", "patents": 45},
+        {"country": "US", "patents": 38}
+      ]
+    },
+    "eu_projects": {
+      "horizon_europe": {
+        "participations": 1823,
+        "coordinator_role": 234,
+        "funding_received": "892M EUR"
+      },
+      "defense_fund": {
+        "projects": 23,
+        "leonardo_led": 8,
+        "total_value": "234M EUR"
+      }
+    }
+  },
+  "capability_profiles": {
+    "technology_strengths": [
+      {
+        "domain": "Space systems",
+        "evidence": "COSMO-SkyMed, Galileo contributions",
+        "global_rank": 7
+      },
+      {
+        "domain": "Naval systems",
+        "evidence": "FREMM frigates, U212 submarines",
+        "global_rank": 5
+      },
+      {
+        "domain": "Helicopters",
+        "evidence": "AW series, NH90",
+        "global_rank": 3
+      }
+    ],
+    "emerging_capabilities": [
+      {
+        "domain": "Quantum computing",
+        "maturity": "TRL 3-4",
+        "key_players": ["CNR", "University of Padua", "Leonardo Labs"]
+      },
+      {
+        "domain": "Hypersonics",
+        "maturity": "TRL 2-3",
+        "investment": "Limited",
+        "gap": "Lack of test facilities"
+      }
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "generated": "2025-09-14T15:15:00Z",
+  "phase": "03_landscape",
+  "country": "Italy",
+  "validation_report": {
+    "schema_compliance": {
+      "status": "COMPLIANT",
+      "required_fields_present": true,
+      "china_fields_complete": true,
+      "evidence_format_correct": true
+    },
+    "evidence_quality": {
+      "total_claims": 47,
+      "with_evidence": 12,
+      "evidence_coverage": "26%",
+      "tier_breakdown": {
+        "tier_1_direct": 5,
+        "tier_2_credible": 4,
+        "tier_3_secondary": 3,
+        "tier_4_speculative": 0
+      },
+      "missing_evidence": 35
+    },
+    "china_analysis_completeness": {
+      "entities_assessed": 7,
+      "china_connections_mapped": 7,
+      "triangle_risks_assessed": 5,
+      "evidence_supported": 3,
+      "completeness_score": "71%"
+    },
+    "critical_findings": [
+      {
+        "entity": "Leonardo S.p.A.",
+        "finding": "Beijing representative office for helicopter sales",
+        "risk_level": "CRITICAL",
+        "evidence_quality": "GOOD",
+        "validation_status": "CONFIRMED"
+      },
+      {
+        "entity": "Politecnico di Milano",
+        "finding": "Chinese partnerships + MIT collaboration",
+        "risk_level": "CRITICAL",
+        "evidence_quality": "MODERATE",
+        "validation_status": "NEEDS_VERIFICATION"
+      },
+      {
+        "entity": "Sapienza University",
+        "finding": "Active Confucius Institute since 2007",
+        "risk_level": "HIGH",
+        "evidence_quality": "GOOD",
+        "validation_status": "CONFIRMED"
+      }
+    ],
+    "validation_gaps": [
+      {
+        "category": "Personnel Exchanges",
+        "entities_affected": 5,
+        "status": "UNKNOWN",
+        "priority": "HIGH",
+        "collection_needed": "Chinese researcher counts, visiting scholar programs"
+      },
+      {
+        "category": "Joint Ventures",
+        "entities_affected": 6,
+        "status": "UNCONFIRMED",
+        "priority": "MEDIUM",
+        "collection_needed": "Corporate structure analysis, ownership verification"
+      },
+      {
+        "category": "Technology Transfer",
+        "entities_affected": 4,
+        "status": "SUSPECTED",
+        "priority": "CRITICAL",
+        "collection_needed": "Export records, contract analysis, capability tracking"
+      }
+    ],
+    "recommendations": [
+      {
+        "priority": "IMMEDIATE",
+        "action": "Verify Leonardo Beijing office operations scope",
+        "method": "Corporate filings, annual reports, press releases"
+      },
+      {
+        "priority": "HIGH",
+        "action": "Map complete Chinese student/faculty numbers at key universities",
+        "method": "University enrollment data, visa records analysis"
+      },
+      {
+        "priority": "HIGH",
+        "action": "Trace CNR-Chinese Academy of Sciences collaboration details",
+        "method": "Publication analysis, joint project documentation"
+      },
+      {
+        "priority": "MEDIUM",
+        "action": "Assess Fincantieri Chinese business relationships scope",
+        "method": "Contract analysis, shipyard cooperation agreements"
+      }
+    ],
+    "intelligence_collection_priorities": [
+      "Leonardo Beijing office: staff count, Chinese clients, technology exposure",
+      "Italian university Chinese partnerships: funding sources, research access",
+      "CNR joint publications: technology areas, data sharing agreements",
+      "Defense contractor supply chains: Chinese component dependencies",
+      "Confucius Institute activities: beyond language/cultural programming"
+    ]
+  },
+  "data_quality_scores": {
+    "government_actors": {
+      "completeness": 85,
+      "accuracy": 90,
+      "china_analysis": 60
+    },
+    "defense_primes": {
+      "completeness": 90,
+      "accuracy": 85,
+      "china_analysis": 80
+    },
+    "research_institutions": {
+      "completeness": 75,
+      "accuracy": 80,
+      "china_analysis": 70
+    },
+    "universities": {
+      "completeness": 80,
+      "accuracy": 75,
+      "china_analysis": 75
+    }
+  },
+  "next_updates": [
+    "Add missing evidence URLs for 35 claims",
+    "Verify Politecnico Milano Chinese partnership details",
+    "Quantify Chinese researcher presence at key institutions",
+    "Map IIT Chinese collaboration beyond Beijing Institute of Technology",
+    "Investigate Fincantieri commercial vessel Chinese customers"
+  ]
+}

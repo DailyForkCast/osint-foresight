@@ -1,0 +1,165 @@
+{
+  "generated": "2025-09-14T15:30:00Z",
+  "investigation": "Leonardo China Operations 2020-2025",
+  "timeframe": "2020-2025",
+  "summary": "Comprehensive analysis of Leonardo S.p.A.'s China operations and partnerships during 2020-2025 period",
+
+  "beijing_office_operations": {
+    "legal_entity": {
+      "name": "Leonardo (China) Co., Ltd",
+      "type": "Fully owned subsidiary",
+      "address": "Unit 16A1 Hanwei Plaza n.7 Guanghua Road, Chaoyang Dist. 100022 Beijing (PRC), China",
+      "contact": {
+        "phone": "+86 10 85679168",
+        "email": "angelo.cecchini@leonardo.com"
+      }
+    },
+    "staffing": "UNKNOWN - Investigation Required",
+    "operational_scope": "Helicopter sales and support services",
+    "established": "Pre-2020 (exact date TBD)"
+  },
+
+  "major_contracts_2020_2025": [
+    {
+      "year": 2024,
+      "contract": "30 EMS helicopters",
+      "customer": "Sino-US Intercontinental Helicopter Investment",
+      "value": "UNDISCLOSED",
+      "significance": "Largest EMS programme in China",
+      "models": "Not specified",
+      "evidence": {
+        "source": "Leonardo press release",
+        "url": "https://www.leonardocompany.com/en/press-release-detail/-/detail/sino-us",
+        "date": "2024-12",
+        "quote": "Leonardo and Chinese company Sino-US Intercontinental Helicopter Investment announced the signature of a contract for 30 helicopters in EMS configuration"
+      }
+    },
+    {
+      "year": 2023,
+      "contract": "Beijing Police AW189",
+      "customer": "Beijing Municipal Police",
+      "quantity": 2,
+      "purpose": "Law enforcement, search and rescue, firefighting",
+      "delivery_status": "Completed within 2023",
+      "evidence": {
+        "source": "China International Import Expo",
+        "date": "2023-11",
+        "quote": "The fifth CIIE witnessed the delivery of the first AW189 to Beijing police for firefighting and rescue purposes"
+      }
+    },
+    {
+      "year": 2023,
+      "contract": "Ministry of Transport AW189",
+      "customer": "Rescue and salvage bureau of the Ministry of Transport",
+      "quantity": 6,
+      "purpose": "Search and rescue operations",
+      "delivery_status": "Delivered within 2023"
+    },
+    {
+      "year": 2022,
+      "contract": "AW139 orders and future agreement",
+      "customer": "Various Chinese operators",
+      "current_order": 15,
+      "future_agreement": "160 additional helicopters",
+      "evidence": {
+        "source": "Leonardo press release",
+        "url": "https://www.leonardo.com/en/press-release-detail/-/detail/leonardo-boosts-helicopter-leadership-in-china-with-orders-for-15-aw139s",
+        "quote": "Leonardo boosts helicopter leadership in China with orders for 15 AW139s and the signing of a Heads of Agreement for a mix of an additional 160 helicopters"
+      }
+    }
+  ],
+
+  "market_position": {
+    "total_helicopters_in_china": "Over 130",
+    "market_shares": {
+      "HEMS": "70%",
+      "law_enforcement": "40%",
+      "VIP": "30%"
+    },
+    "helicopter_models": ["AW119", "AW109", "AW139", "AW169", "AW189", "SW-4"],
+    "key_sectors": ["Law Enforcement", "Medical Emergency Service", "Search & Rescue", "Oil & Gas"]
+  },
+
+  "triangle_risk_assessment": {
+    "risk_level": "CRITICAL",
+    "pathways": [
+      {
+        "pathway": "US tech → Leonardo DRS → Leonardo SpA → China helicopter systems",
+        "risk": "US defense technology in Chinese systems",
+        "evidence": "14,514 Leonardo DRS contracts including space systems"
+      },
+      {
+        "pathway": "Leonardo Beijing office → Chinese customer relationships → Technology transfer",
+        "risk": "Direct Italian helicopter technology access",
+        "evidence": "Beijing office with Chinese customer base"
+      },
+      {
+        "pathway": "Chinese operators → Training/maintenance → Technical knowledge transfer",
+        "risk": "Operational intelligence and technical specifications",
+        "evidence": "Over 130 helicopters requiring support services"
+      }
+    ],
+    "us_technology_at_risk": [
+      "Night vision systems (via Leonardo DRS)",
+      "Electronic warfare technology",
+      "Space systems technology",
+      "Avionics integration"
+    ],
+    "italian_technology_at_risk": [
+      "Helicopter design specifications",
+      "Rotorcraft manufacturing processes",
+      "Avionics systems",
+      "Maintenance procedures"
+    ]
+  },
+
+  "intelligence_gaps": [
+    {
+      "category": "Personnel",
+      "question": "How many Chinese nationals work at Leonardo Beijing office?",
+      "priority": "HIGH",
+      "collection_method": "Corporate filings, LinkedIn analysis"
+    },
+    {
+      "category": "Technology Transfer",
+      "question": "What maintenance/training occurs in China vs Italy?",
+      "priority": "CRITICAL",
+      "collection_method": "Service agreements analysis"
+    },
+    {
+      "category": "Supply Chain",
+      "question": "Does Leonardo source components from China for helicopters?",
+      "priority": "HIGH",
+      "collection_method": "Supply chain mapping"
+    },
+    {
+      "category": "Joint Ventures",
+      "question": "Any Chinese partners in helicopter production/modification?",
+      "priority": "CRITICAL",
+      "collection_method": "Corporate structure analysis"
+    }
+  ],
+
+  "recommendations": [
+    {
+      "priority": "IMMEDIATE",
+      "action": "Map all Leonardo Beijing office personnel and their access levels",
+      "rationale": "Understanding who has access to sensitive information"
+    },
+    {
+      "priority": "IMMEDIATE",
+      "action": "Audit technology transfer in training/maintenance agreements",
+      "rationale": "Identifying potential unauthorized technology sharing"
+    },
+    {
+      "priority": "HIGH",
+      "action": "Review Special Security Agreement compliance",
+      "rationale": "Ensuring US technology protection measures are effective"
+    },
+    {
+      "priority": "HIGH",
+      "action": "Track Chinese helicopter operators and their capabilities growth",
+      "rationale": "Monitoring potential military applications development"
+    }
+  ]
+}

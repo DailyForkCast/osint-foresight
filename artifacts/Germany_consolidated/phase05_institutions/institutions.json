@@ -1,0 +1,70 @@
+{
+  "research_institutions": [
+    {
+      "name": "Fraunhofer Society",
+      "institutes": 76,
+      "china_collaboration": "extensive",
+      "risk_level": "medium"
+    },
+    {
+      "name": "Max Planck Society",
+      "institutes": 86,
+      "china_collaboration": "significant",
+      "risk_level": "low-medium"
+    }
+  ],
+  "government_agencies": [
+    {
+      "name": "BAFA",
+      "role": "Export control",
+      "china_focus": "high"
+    },
+    {
+      "name": "BSI",
+      "role": "Cybersecurity",
+      "china_focus": "high"
+    },
+    {
+      "name": "BMWi",
+      "role": "Economic affairs",
+      "china_focus": "medium"
+    }
+  ],
+  "industry_associations": [
+    {
+      "name": "VDA",
+      "sector": "Automotive",
+      "china_engagement": "high"
+    },
+    {
+      "name": "VDMA",
+      "sector": "Machinery",
+      "china_engagement": "high"
+    },
+    {
+      "name": "ZVEI",
+      "sector": "Electronics",
+      "china_engagement": "medium"
+    }
+  ],
+  "china_partnerships": [
+    {
+      "german": "Fraunhofer",
+      "chinese": "CAS",
+      "type": "research",
+      "domains": [
+        "Materials",
+        "Manufacturing"
+      ]
+    },
+    {
+      "german": "TU Munich",
+      "chinese": "Tsinghua",
+      "type": "academic",
+      "domains": [
+        "AI",
+        "Engineering"
+      ]
+    }
+  ]
+}

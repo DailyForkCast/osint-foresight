@@ -1,0 +1,30 @@
+{
+  "analyzed_at": "2025-09-16T16:26:05.318344",
+  "institutions": {
+    "Politecnico di Milano": {
+      "china_linked_researchers": 0,
+      "high_collaboration_researchers": [],
+      "sensitive_research_overlaps": 0
+    },
+    "Politecnico di Torino": {
+      "china_linked_researchers": 0,
+      "high_collaboration_researchers": [],
+      "sensitive_research_overlaps": 0
+    },
+    "Sapienza University of Rome": {
+      "china_linked_researchers": 0,
+      "high_collaboration_researchers": [],
+      "sensitive_research_overlaps": 0
+    },
+    "University of Bologna": {
+      "china_linked_researchers": 0,
+      "high_collaboration_researchers": [],
+      "sensitive_research_overlaps": 0
+    }
+  },
+  "high_risk_researchers": [],
+  "china_collaborations": {
+    "total": 0,
+    "by_field": {}
+  }
+}

@@ -1,0 +1,2857 @@
+{
+  "companies_found": [
+    {
+      "cik": "35",
+      "ticker": "PM",
+      "name": "Philip Morris International Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "44",
+      "ticker": "IBM",
+      "name": "INTERNATIONAL BUSINESS MACHINES CORP",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "107",
+      "ticker": "HON",
+      "name": "HONEYWELL INTERNATIONAL INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "178",
+      "ticker": "RACE",
+      "name": "Ferrari N.V.",
+      "group": "ferrari",
+      "matched_variant": "ferrari"
+    },
+    {
+      "cik": "191",
+      "ticker": "MDLZ",
+      "name": "Mondelez International, Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "211",
+      "ticker": "HWM",
+      "name": "Howmet Aerospace Inc.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "218",
+      "ticker": "MAR",
+      "name": "MARRIOTT INTERNATIONAL INC /MD/",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "224",
+      "ticker": "JCI",
+      "name": "Johnson Controls International plc",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "295",
+      "ticker": "E",
+      "name": "ENI SPA",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "295",
+      "ticker": "E",
+      "name": "ENI SPA",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "298",
+      "ticker": "LNG",
+      "name": "Cheniere Energy, Inc.",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "344",
+      "ticker": "AIG",
+      "name": "AMERICAN INTERNATIONAL GROUP, INC.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "425",
+      "ticker": "EXR",
+      "name": "Extra Space Storage Inc.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "466",
+      "ticker": "QSR",
+      "name": "Restaurant Brands International Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "486",
+      "ticker": "STLA",
+      "name": "Stellantis N.V.",
+      "group": "stellantis",
+      "matched_variant": "stellantis"
+    },
+    {
+      "cik": "507",
+      "ticker": "MTD",
+      "name": "METTLER TOLEDO INTERNATIONAL INC/",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "515",
+      "ticker": "CQP",
+      "name": "Cheniere Energy Partners, L.P.",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "532",
+      "ticker": "DSFIY",
+      "name": "DSM-Firmenich AG/ADR",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "536",
+      "ticker": "IP",
+      "name": "INTERNATIONAL PAPER CO /NEW/",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "554",
+      "ticker": "STM",
+      "name": "STMicroelectronics N.V.",
+      "group": "stmicroelectronics",
+      "matched_variant": "stmicroelectronics"
+    },
+    {
+      "cik": "582",
+      "ticker": "EIX",
+      "name": "EDISON INTERNATIONAL",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "626",
+      "ticker": "LII",
+      "name": "LENNOX INTERNATIONAL INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "661",
+      "ticker": "SGI",
+      "name": "SOMNIGROUP INTERNATIONAL INC.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "680",
+      "ticker": "IFF",
+      "name": "INTERNATIONAL FLAVORS & FRAGRANCES INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "684",
+      "ticker": "EXPD",
+      "name": "EXPEDITORS INTERNATIONAL OF WASHINGTON INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "705",
+      "ticker": "RPM",
+      "name": "RPM INTERNATIONAL INC/DE/",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "716",
+      "ticker": "LOGI",
+      "name": "LOGITECH INTERNATIONAL S.A.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "749",
+      "ticker": "FMS",
+      "name": "Fresenius Medical Care AG",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "775",
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile, Inc.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "784",
+      "ticker": "CNH",
+      "name": "CNH Industrial N.V.",
+      "group": "cnh",
+      "matched_variant": "cnh industrial"
+    },
+    {
+      "cik": "804",
+      "ticker": "MGA",
+      "name": "MAGNA INTERNATIONAL INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "835",
+      "ticker": "BAX",
+      "name": "BAXTER INTERNATIONAL INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "880",
+      "ticker": "SCI",
+      "name": "SERVICE CORP INTERNATIONAL",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "882",
+      "ticker": "DRS",
+      "name": "Leonardo DRS, Inc.",
+      "group": "leonardo",
+      "matched_variant": "leonardo"
+    },
+    {
+      "cik": "896",
+      "ticker": "CACI",
+      "name": "CACI INTERNATIONAL INC /DE/",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "914",
+      "ticker": "WCC",
+      "name": "WESCO INTERNATIONAL INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "946",
+      "ticker": "ORI",
+      "name": "OLD REPUBLIC INTERNATIONAL CORP",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "988",
+      "ticker": "MGM",
+      "name": "MGM Resorts International",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "1058",
+      "ticker": "CIGI",
+      "name": "Colliers International Group Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "1076",
+      "ticker": "TIGO",
+      "name": "MILLICOM INTERNATIONAL CELLULAR SA",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "1103",
+      "ticker": "TFII",
+      "name": "TFI International Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "1132",
+      "ticker": "CRL",
+      "name": "CHARLES RIVER LABORATORIES INTERNATIONAL, INC.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "1183",
+      "ticker": "EAT",
+      "name": "BRINKER INTERNATIONAL, INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "1200",
+      "ticker": "LOTMY",
+      "name": "Lottomatica Group S.p.A./ADR",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "1231",
+      "ticker": "FLY",
+      "name": "Firefly Aerospace Inc.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "1256",
+      "ticker": "STVN",
+      "name": "Stevanato Group S.p.A.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "1354",
+      "ticker": "CHH",
+      "name": "CHOICE HOTELS INTERNATIONAL INC /DE",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "1357",
+      "ticker": "ENIC",
+      "name": "Enel Chile S.A.",
+      "group": "enel",
+      "matched_variant": "enel"
+    },
+    {
+      "cik": "1399",
+      "ticker": "SAIC",
+      "name": "Science Applications International Corp",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "1454",
+      "ticker": "WFRD",
+      "name": "Weatherford International plc",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "1485",
+      "ticker": "IBOC",
+      "name": "INTERNATIONAL BANCSHARES CORP",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "1583",
+      "ticker": "AAPG",
+      "name": "ASCENTAGE PHARMA GROUP INTERNATIONAL",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "1748",
+      "ticker": "MIAX",
+      "name": "MIAMI INTERNATIONAL HOLDINGS, INC.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "1758",
+      "ticker": "SMSEY",
+      "name": "Samsonite International SA/ADR",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "1773",
+      "ticker": "GENI",
+      "name": "Genius Sports Ltd",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "1785",
+      "ticker": "CLSK",
+      "name": "CLEANSPARK, INC.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "1794",
+      "ticker": "ENVA",
+      "name": "Enova International, Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "1835",
+      "ticker": "KNSA",
+      "name": "Kiniksa Pharmaceuticals International, plc",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "1908",
+      "ticker": "SXI",
+      "name": "STANDEX INTERNATIONAL CORP/DE/",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "1921",
+      "ticker": "OII",
+      "name": "OCEANEERING INTERNATIONAL INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "1931",
+      "ticker": "SPNS",
+      "name": "SAPIENS INTERNATIONAL CORP N V",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "1950",
+      "ticker": "INSW",
+      "name": "International Seaways, Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "1981",
+      "ticker": "OSW",
+      "name": "ONESPAWORLD HOLDINGS Ltd",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "1997",
+      "ticker": "PSIX",
+      "name": "POWER SOLUTIONS INTERNATIONAL, INC.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "2009",
+      "ticker": "DNN",
+      "name": "DENISON MINES CORP.",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "2127",
+      "ticker": "CSGS",
+      "name": "CSG SYSTEMS INTERNATIONAL INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "2138",
+      "ticker": "ICFI",
+      "name": "ICF International, Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "2162",
+      "ticker": "BKD",
+      "name": "Brookdale Senior Living Inc.",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "2213",
+      "ticker": "AIN",
+      "name": "ALBANY INTERNATIONAL CORP /DE/",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "2247",
+      "ticker": "PZZA",
+      "name": "PAPA JOHNS INTERNATIONAL INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "2339",
+      "ticker": "CYD",
+      "name": "CHINA YUCHAI INTERNATIONAL LTD",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "2356",
+      "ticker": "JBI",
+      "name": "Janus International Group, Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "2363",
+      "ticker": "XHR",
+      "name": "Xenia Hotels & Resorts, Inc.",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "2388",
+      "ticker": "GEMI",
+      "name": "Gemini Space Station, Inc.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "2413",
+      "ticker": "SSII",
+      "name": "SS Innovations International, Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "2424",
+      "ticker": "DGII",
+      "name": "DIGI INTERNATIONAL INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "2431",
+      "ticker": "CRAI",
+      "name": "CRA INTERNATIONAL, INC.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "2451",
+      "ticker": "CAZGF",
+      "name": "Catapult Group International Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "2469",
+      "ticker": "TIXT",
+      "name": "TELUS International (Cda) Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "2531",
+      "ticker": "INVX",
+      "name": "Innovex International, Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "2541",
+      "ticker": "HDL",
+      "name": "SUPER HI INTERNATIONAL HOLDING LTD.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "2606",
+      "ticker": "IGIC",
+      "name": "International General Insurance Holdings Ltd.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "2616",
+      "ticker": "CSR",
+      "name": "CENTERSPACE",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "2619",
+      "ticker": "HSII",
+      "name": "HEIDRICK & STRUGGLES INTERNATIONAL INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "2721",
+      "ticker": "SPTN",
+      "name": "SpartanNash Co",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "2744",
+      "ticker": "NPKI",
+      "name": "NPK International Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "2751",
+      "ticker": "FVRR",
+      "name": "Fiverr International Ltd.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "2776",
+      "ticker": "MSC",
+      "name": "STUDIO CITY INTERNATIONAL HOLDINGS Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "2864",
+      "ticker": "MATW",
+      "name": "MATTHEWS INTERNATIONAL CORP",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "2875",
+      "ticker": "CMP",
+      "name": "COMPASS MINERALS INTERNATIONAL INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "3014",
+      "ticker": "SEPN",
+      "name": "Septerna, Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "3069",
+      "ticker": "NEXN",
+      "name": "Nexxen International Ltd.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "3117",
+      "ticker": "OSPN",
+      "name": "OneSpan Inc.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "3161",
+      "ticker": "TWI",
+      "name": "TITAN INTERNATIONAL INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "3165",
+      "ticker": "VVR",
+      "name": "Invesco Senior Income Trust",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "3215",
+      "ticker": "BGY",
+      "name": "BlackRock Enhanced International Dividend Trust",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "3227",
+      "ticker": "EVTL",
+      "name": "Vertical Aerospace Ltd.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "3250",
+      "ticker": "ANPA",
+      "name": "Rich Sparkle Holdings Ltd",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "3297",
+      "ticker": "SNDA",
+      "name": "SONIDA SENIOR LIVING, INC.",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "3361",
+      "ticker": "QDMI",
+      "name": "QDM International Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "3376",
+      "ticker": "TALK",
+      "name": "Talkspace, Inc.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "3409",
+      "ticker": "IMXI",
+      "name": "International Money Express, Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "3425",
+      "ticker": "XFLT",
+      "name": "XAI Octagon Floating Rate & Alternative Income Trust",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "3468",
+      "ticker": "GNE",
+      "name": "Genie Energy Ltd.",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "3503",
+      "ticker": "AMBR",
+      "name": "Amber International Holding Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "3537",
+      "ticker": "SY",
+      "name": "So-Young International Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "3544",
+      "ticker": "PKE",
+      "name": "PARK AEROSPACE CORP",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "3569",
+      "ticker": "BNTC",
+      "name": "Benitec Biopharma Inc.",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "3619",
+      "ticker": "RXT",
+      "name": "Rackspace Technology, Inc.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "3631",
+      "ticker": "EFR",
+      "name": "Eaton Vance Senior Floating-Rate Trust",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "3651",
+      "ticker": "OIS",
+      "name": "OIL STATES INTERNATIONAL, INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "3657",
+      "ticker": "VFF",
+      "name": "Village Farms International, Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "3666",
+      "ticker": "THM",
+      "name": "INTERNATIONAL TOWER HILL MINES LTD",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "3718",
+      "ticker": "WW",
+      "name": "WW INTERNATIONAL, INC.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "3768",
+      "ticker": "ATII",
+      "name": "Archimedes Tech SPAC Partners II Co.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "3849",
+      "ticker": "CIX",
+      "name": "COMPX INTERNATIONAL INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "3901",
+      "ticker": "WILC",
+      "name": "G WILLI FOOD INTERNATIONAL LTD",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "3946",
+      "ticker": "EAF",
+      "name": "GRAFTECH INTERNATIONAL LTD",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "3954",
+      "ticker": "FCT",
+      "name": "FIRST TRUST SENIOR FLOATING RATE INCOME FUND II",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "4000",
+      "ticker": "PPIH",
+      "name": "Perma-Pipe International Holdings, Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "4049",
+      "ticker": "ATNI",
+      "name": "ATN International, Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "4071",
+      "ticker": "DOYU",
+      "name": "DouYu International Holdings Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "4073",
+      "ticker": "ATLN",
+      "name": "ATLANTIC INTERNATIONAL CORP.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "4166",
+      "ticker": "GEOS",
+      "name": "GEOSPACE TECHNOLOGIES CORP",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "4177",
+      "ticker": "MERC",
+      "name": "MERCER INTERNATIONAL INC.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "4206",
+      "ticker": "ELMD",
+      "name": "Electromed, Inc.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "4261",
+      "ticker": "DOGZ",
+      "name": "Dogness (International) Corp",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "4270",
+      "ticker": "BSL",
+      "name": "Blackstone Senior Floating Rate 2027 Term Fund",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "4307",
+      "ticker": "PHOE",
+      "name": "Phoenix Asia Holdings Ltd",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "4335",
+      "ticker": "HUHU",
+      "name": "HUHUTECH International Group Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "4382",
+      "ticker": "EGG",
+      "name": "ENIGMATIG LTD",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "4383",
+      "ticker": "PXPC",
+      "name": "Phoenix Plus Corp.",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "4447",
+      "ticker": "GNLX",
+      "name": "GENELUX Corp",
+      "group": "enel",
+      "matched_variant": "enel"
+    },
+    {
+      "cik": "4466",
+      "ticker": "ICTSF",
+      "name": "ICTS INTERNATIONAL N V",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "4597",
+      "ticker": "FSI",
+      "name": "FLEXIBLE SOLUTIONS INTERNATIONAL INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "4645",
+      "ticker": "GRUSF",
+      "name": "Grown Rogue International Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "4714",
+      "ticker": "LHSW",
+      "name": "Lianhe Sowell International Group Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "4746",
+      "ticker": "BAER",
+      "name": "Bridger Aerospace Group Holdings, Inc.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "4773",
+      "ticker": "ZJYL",
+      "name": "Jin Medical International Ltd.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "4786",
+      "ticker": "MGNX",
+      "name": "MACROGENICS INC",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "4790",
+      "ticker": "EVF",
+      "name": "Eaton Vance Senior Income Trust",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "4807",
+      "ticker": "SSGC",
+      "name": "SafeSpace Global Corp",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "4815",
+      "ticker": "PFX",
+      "name": "PhenixFIN Corp",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "4822",
+      "ticker": "SPKL",
+      "name": "Spark I Acquisition Corp",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "4824",
+      "ticker": "GNS",
+      "name": "Genius Group Ltd",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "4830",
+      "ticker": "HSPT",
+      "name": "Horizon Space Acquisition II Corp.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "4851",
+      "ticker": "PYYX",
+      "name": "PYXUS INTERNATIONAL, INC.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "4928",
+      "ticker": "ASPC",
+      "name": "ASPAC III Acquisition Corp.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "4941",
+      "ticker": "MTEN",
+      "name": "Mingteng International Corp Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "4944",
+      "ticker": "THCH",
+      "name": "TH International Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "4972",
+      "ticker": "DTI",
+      "name": "Drilling Tools International Corp",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "4980",
+      "ticker": "DMA",
+      "name": "Destra Multi-Alternative Fund",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5027",
+      "ticker": "NTIC",
+      "name": "NORTHERN TECHNOLOGIES INTERNATIONAL CORP",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5033",
+      "ticker": "MFI",
+      "name": "mF International Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5044",
+      "ticker": "IMAQ",
+      "name": "International Media Acquisition Corp.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5088",
+      "ticker": "YIBO",
+      "name": "Planet Image International Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5112",
+      "ticker": "RTGN",
+      "name": "RetinalGenix Technologies Inc.",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "5135",
+      "ticker": "WKEY",
+      "name": "Wisekey International Holding S.A.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5171",
+      "ticker": "BSAA",
+      "name": "BEST SPAC I Acquisition Corp.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "5241",
+      "ticker": "GNTA",
+      "name": "Genenta Science S.p.A.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "5277",
+      "ticker": "WETO",
+      "name": "Webus International Ltd.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5284",
+      "ticker": "USPCY",
+      "name": "USPACE Technology Group Limited/ADR",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "5290",
+      "ticker": "HSPO",
+      "name": "Horizon Space Acquisition I Corp.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "5292",
+      "ticker": "RDI",
+      "name": "READING INTERNATIONAL INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5312",
+      "ticker": "MAGH",
+      "name": "Magnitude International Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5346",
+      "ticker": "ZSPC",
+      "name": "zSpace, Inc.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "5347",
+      "ticker": "VVPR",
+      "name": "VivoPower International PLC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5375",
+      "ticker": "SPAUF",
+      "name": "SPANISH MOUNTAIN GOLD LTD.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "5396",
+      "ticker": "IBATF",
+      "name": "INTERNATIONAL BATTERY METALS LTD.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5420",
+      "ticker": "HTCO",
+      "name": "High-Trend International Group",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5433",
+      "ticker": "SELX",
+      "name": "Semilux International Ltd.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5455",
+      "ticker": "XTIA",
+      "name": "XTI Aerospace, Inc.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "5478",
+      "ticker": "PEVM",
+      "name": "PHOENIX MOTOR INC.",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "5501",
+      "ticker": "CCEL",
+      "name": "CRYO CELL INTERNATIONAL INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5521",
+      "ticker": "DYAI",
+      "name": "DYADIC INTERNATIONAL INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5542",
+      "ticker": "HNOI",
+      "name": "HNO International, Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5568",
+      "ticker": "KPEA",
+      "name": "Kun Peng International Ltd.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5583",
+      "ticker": "MGIH",
+      "name": "Millennium Group International Holdings Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5591",
+      "ticker": "SIDU",
+      "name": "Sidus Space Inc.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "5595",
+      "ticker": "FENG",
+      "name": "Phoenix New Media Ltd",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "5622",
+      "ticker": "INIS",
+      "name": "INTERNATIONAL ISOTOPES INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5627",
+      "ticker": "ELOG",
+      "name": "Eastern International Ltd.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5646",
+      "ticker": "EBON",
+      "name": "Ebang International Holdings Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5657",
+      "ticker": "SGRP",
+      "name": "SPAR Group, Inc.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "5671",
+      "ticker": "LBGJ",
+      "name": "Li Bang International Corp Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5677",
+      "ticker": "MMTIF",
+      "name": "MICROMEM TECHNOLOGIES INC",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "5762",
+      "ticker": "GREE",
+      "name": "Greenidge Generation Holdings Inc.",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "5781",
+      "ticker": "TRT",
+      "name": "TRIO-TECH INTERNATIONAL",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5799",
+      "ticker": "HUDI",
+      "name": "Huadi International Group Co., Ltd.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5815",
+      "ticker": "LIQT",
+      "name": "LIQTECH INTERNATIONAL INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5821",
+      "ticker": "NAII",
+      "name": "NATURAL ALTERNATIVES INTERNATIONAL INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5855",
+      "ticker": "HWH",
+      "name": "HWH International Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5862",
+      "ticker": "BANL",
+      "name": "CBL International Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5874",
+      "ticker": "WXM",
+      "name": "WF International Ltd.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5924",
+      "ticker": "ILAL",
+      "name": "International Land Alliance Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5931",
+      "ticker": "CCTG",
+      "name": "CCSC Technology International Holdings Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5943",
+      "ticker": "NISN",
+      "name": "Nisun International Enterprise Development Group Co., Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5954",
+      "ticker": "TLIH",
+      "name": "Ten-League International Holdings Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "5998",
+      "ticker": "MHUA",
+      "name": "Meihua International Medical Technologies Co., Ltd.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6056",
+      "ticker": "CIIT",
+      "name": "Tianci International, Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6082",
+      "ticker": "SNGX",
+      "name": "SOLIGENIX, INC.",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "6100",
+      "ticker": "PSIG",
+      "name": "PS International Group Ltd.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6134",
+      "ticker": "EEIQ",
+      "name": "EpicQuest Education Group International Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6230",
+      "ticker": "ZKIN",
+      "name": "ZK International Group Co., Ltd.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6253",
+      "ticker": "PAIYY",
+      "name": "Aesthetic Medical International Holdings Group Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6270",
+      "ticker": "BNZI",
+      "name": "Banzai International, Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6314",
+      "ticker": "NCI",
+      "name": "Neo-Concept International Group Holdings Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6329",
+      "ticker": "CHSN",
+      "name": "Chanson International Holding",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6345",
+      "ticker": "BIYA",
+      "name": "Baiya International Group Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6486",
+      "ticker": "CBIH",
+      "name": "Cannabis Bioscience International Holdings, Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6496",
+      "ticker": "BKYI",
+      "name": "BIO KEY INTERNATIONAL INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6524",
+      "ticker": "OGEN",
+      "name": "ORAGENICS INC",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "6525",
+      "ticker": "CIGL",
+      "name": "Concorde International Group Ltd.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6579",
+      "ticker": "TRLEF",
+      "name": "Trillion Energy International Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6603",
+      "ticker": "SRCO",
+      "name": "SPARTA COMMERCIAL SERVICES, INC.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "6634",
+      "ticker": "LICN",
+      "name": "Lichen International Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6641",
+      "ticker": "AIXN",
+      "name": "AiXin Life International, Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6653",
+      "ticker": "NIVF",
+      "name": "NewGenIvf Group Ltd",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "6671",
+      "ticker": "SSUP",
+      "name": "SUPERIOR INDUSTRIES INTERNATIONAL INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6692",
+      "ticker": "TOBAF",
+      "name": "TAAT Global Alternatives Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6702",
+      "ticker": "PTIX",
+      "name": "Protagenic Therapeutics, Inc.new",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "6721",
+      "ticker": "YBGJ",
+      "name": "Yubo International Biotech Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6747",
+      "ticker": "UK",
+      "name": "Ucommune International Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6794",
+      "ticker": "ABQQ",
+      "name": "AB INTERNATIONAL GROUP CORP.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6796",
+      "ticker": "IDVV",
+      "name": "International Endeavors Corp",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6804",
+      "ticker": "ILUS",
+      "name": "Ilustrato Pictures International Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6812",
+      "ticker": "SPRC",
+      "name": "SciSparc Ltd.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "6831",
+      "ticker": "ISCO",
+      "name": "International Stem Cell CORP",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6838",
+      "ticker": "DTII",
+      "name": "DEFENSE TECHNOLOGIES INTERNATIONAL CORP.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6842",
+      "ticker": "NSTM",
+      "name": "NovelStem International Corp.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6866",
+      "ticker": "EVLLF",
+      "name": "EnviroMetal Technologies Inc.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "6871",
+      "ticker": "ILST",
+      "name": "INTERNATIONAL STAR INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6892",
+      "ticker": "JFIL",
+      "name": "Jubilant Flame International, Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "6938",
+      "ticker": "NOVAQ",
+      "name": "Sunnova Energy International Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "7004",
+      "ticker": "ATHNY",
+      "name": "Athens International Airport SA/ADR",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "7066",
+      "ticker": "SQEI",
+      "name": "Squirrel Enlivened International Co., Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "7067",
+      "ticker": "SSRLY",
+      "name": "Sienna Senior Living Inc./ADR",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "7096",
+      "ticker": "IAUM",
+      "name": "iShares Gold Trust Micro",
+      "group": "stmicroelectronics",
+      "matched_variant": "st micro"
+    },
+    {
+      "cik": "7141",
+      "ticker": "ZLME",
+      "name": "Zhanling International Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "7152",
+      "ticker": "FTW",
+      "name": "Prometheus PubCo Inc.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "7278",
+      "ticker": "GINT",
+      "name": "Gifts International Holdings Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "7280",
+      "ticker": "FNIGY",
+      "name": "Finning International Inc./ADR",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "7283",
+      "ticker": "OMNI",
+      "name": "OmnigenicsAI Corp",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "7339",
+      "ticker": "CHOW",
+      "name": "ChowChow Cloud International Holdings Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "7343",
+      "ticker": "LHI",
+      "name": "Living Homeopathy International Ltd.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "7365",
+      "ticker": "DSRNY",
+      "name": "DiaSorin SpA/ADR",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "7367",
+      "ticker": "AVVSY",
+      "name": "Avio S.p.A./ADR",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "7459",
+      "ticker": "EIPAF",
+      "name": "ENI SPA",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "7459",
+      "ticker": "EIPAF",
+      "name": "ENI SPA",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "7526",
+      "ticker": "STMEF",
+      "name": "STMicroelectronics N.V.",
+      "group": "stmicroelectronics",
+      "matched_variant": "stmicroelectronics"
+    },
+    {
+      "cik": "7534",
+      "ticker": "RSTRF",
+      "name": "Restaurant Brands International Limited Partnership",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "7547",
+      "ticker": "WLMIF",
+      "name": "Wilmar International Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "7591",
+      "ticker": "FMCQF",
+      "name": "Fresenius Medical Care AG",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "7668",
+      "ticker": "BCUCF",
+      "name": "Brunello Cucinelli S.p.A./ADR",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "7753",
+      "ticker": "TRTN-PA",
+      "name": "Triton International Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "7757",
+      "ticker": "PTGIF",
+      "name": "Medco Energi Internasional Tbk PT/ADR/",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "7952",
+      "ticker": "MEHCQ",
+      "name": "Chrome Holding Co.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "7955",
+      "ticker": "RDIB",
+      "name": "READING INTERNATIONAL INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "7959",
+      "ticker": "HCIL",
+      "name": "Hongchang International Co., Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8015",
+      "ticker": "WSKEF",
+      "name": "Wisekey International Holding S.A.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8043",
+      "ticker": "WHLM",
+      "name": "Wilhelmina International, Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8062",
+      "ticker": "BNSOF",
+      "name": "BONSO ELECTRONICS INTERNATIONAL INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8063",
+      "ticker": "SCYYF",
+      "name": "SCANDIUM INTERNATIONAL MINING CORP.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8075",
+      "ticker": "SHVLF",
+      "name": "STARCORE INTERNATIONAL MINES LTD.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8078",
+      "ticker": "SITS",
+      "name": "SOUTHERN ITS INTERNATIONAL, INC.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8094",
+      "ticker": "SIPN",
+      "name": "SIPP International Industries, Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8095",
+      "ticker": "JETR",
+      "name": "Star Jets International Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8111",
+      "ticker": "AMMX",
+      "name": "Ameramex International Inc",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8113",
+      "ticker": "ACRL",
+      "name": "Atacama Resources International, Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8133",
+      "ticker": "PWDY",
+      "name": "POWERDYNE INTERNATIONAL, INC.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8136",
+      "ticker": "SYIN",
+      "name": "Synbio International, Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8182",
+      "ticker": "SHGI",
+      "name": "Sparx Holdings Group, Inc.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "8184",
+      "ticker": "CDSG",
+      "name": "China Dongsheng International, Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8189",
+      "ticker": "KITL",
+      "name": "Kisses From Italy Inc.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "8193",
+      "ticker": "EMED",
+      "name": "Electromedical Technologies, Inc",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "8197",
+      "ticker": "BISA",
+      "name": "BALTIC INTERNATIONAL USA INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8283",
+      "ticker": "HWM-P",
+      "name": "Howmet Aerospace Inc.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "8368",
+      "ticker": "IMAQR",
+      "name": "International Media Acquisition Corp.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8369",
+      "ticker": "IMAQU",
+      "name": "International Media Acquisition Corp.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8370",
+      "ticker": "IMAQW",
+      "name": "International Media Acquisition Corp.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8403",
+      "ticker": "SQLLW",
+      "name": "ATLANTIC INTERNATIONAL CORP.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8442",
+      "ticker": "EVTWF",
+      "name": "Vertical Aerospace Ltd.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "8446",
+      "ticker": "HSPOR",
+      "name": "Horizon Space Acquisition I Corp.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "8447",
+      "ticker": "HSPOU",
+      "name": "Horizon Space Acquisition I Corp.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "8448",
+      "ticker": "HSPOW",
+      "name": "Horizon Space Acquisition I Corp.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "8504",
+      "ticker": "ARGD",
+      "name": "Argo Group International Holdings, Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8505",
+      "ticker": "ARGO-PA",
+      "name": "Argo Group International Holdings, Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8568",
+      "ticker": "INPAP",
+      "name": "INTERNATIONAL PAPER CO /NEW/",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8580",
+      "ticker": "TALKW",
+      "name": "Talkspace, Inc.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "8625",
+      "ticker": "TRTN-PB",
+      "name": "Triton International Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8626",
+      "ticker": "TRTN-PC",
+      "name": "Triton International Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8627",
+      "ticker": "TRTN-PD",
+      "name": "Triton International Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8628",
+      "ticker": "TRTN-PE",
+      "name": "Triton International Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8629",
+      "ticker": "TRTN-PF",
+      "name": "Triton International Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8653",
+      "ticker": "ATHNF",
+      "name": "Athens International Airport SA/ADR",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8679",
+      "ticker": "SPKLU",
+      "name": "Spark I Acquisition Corp",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "8680",
+      "ticker": "SPKLW",
+      "name": "Spark I Acquisition Corp",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "8681",
+      "ticker": "SPHIF",
+      "name": "SUPER HI INTERNATIONAL HOLDING LTD.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8695",
+      "ticker": "DSMFF",
+      "name": "DSM-Firmenich AG/ADR",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "8696",
+      "ticker": "LWSCF",
+      "name": "Sienna Senior Living Inc./ADR",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "8816",
+      "ticker": "SMSOF",
+      "name": "Samsonite International SA/ADR",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8865",
+      "ticker": "BNZIW",
+      "name": "Banzai International, Inc.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8892",
+      "ticker": "WYTC",
+      "name": "WYTEC INTERNATIONAL INC",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "8897",
+      "ticker": "CLSKW",
+      "name": "CLEANSPARK, INC.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "9049",
+      "ticker": "STSR",
+      "name": "Strategic Student & Senior Housing Trust, Inc.",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "9062",
+      "ticker": "GREEL",
+      "name": "Greenidge Generation Holdings Inc.",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "9071",
+      "ticker": "UKOMW",
+      "name": "Ucommune International Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "9140",
+      "ticker": "ITOR",
+      "name": "Redox International Group, Corp.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "9171",
+      "ticker": "LTAFX",
+      "name": "Alternative Strategies Income Fund",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "9172",
+      "ticker": "LTCFX",
+      "name": "Alternative Strategies Income Fund",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "9176",
+      "ticker": "PTIXW",
+      "name": "Protagenic Therapeutics, Inc.new",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "9178",
+      "ticker": "BAERW",
+      "name": "Bridger Aerospace Group Holdings, Inc.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "9202",
+      "ticker": "XFLT-PA",
+      "name": "XAI Octagon Floating Rate & Alternative Income Trust",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "9260",
+      "ticker": "ASPCU",
+      "name": "ASPAC III Acquisition Corp.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "9261",
+      "ticker": "ASPCR",
+      "name": "ASPAC III Acquisition Corp.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "9356",
+      "ticker": "HSPTR",
+      "name": "Horizon Space Acquisition II Corp.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "9357",
+      "ticker": "HSPTU",
+      "name": "Horizon Space Acquisition II Corp.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "9633",
+      "ticker": "MLCMF",
+      "name": "MILLICOM INTERNATIONAL CELLULAR SA",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "9727",
+      "ticker": "BSAAR",
+      "name": "BEST SPAC I Acquisition Corp.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "9728",
+      "ticker": "BSAAU",
+      "name": "BEST SPAC I Acquisition Corp.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "9764",
+      "ticker": "ATIIU",
+      "name": "Archimedes Tech SPAC Partners II Co.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "9765",
+      "ticker": "ATIIW",
+      "name": "Archimedes Tech SPAC Partners II Co.",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "9811",
+      "ticker": "GCGJ",
+      "name": "GUOCHUN INTERNATIONAL INC.",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "9831",
+      "ticker": "NIVFW",
+      "name": "NewGenIvf Group Ltd",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "9917",
+      "ticker": "NICHX",
+      "name": "Variant Alternative Income Fund",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "9974",
+      "ticker": "MONRF",
+      "name": "Moncler S.p.A./ADR",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "9977",
+      "ticker": "BYDIF",
+      "name": "BYD Electronic (International) Co Ltd",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "9993",
+      "ticker": "AVVOF",
+      "name": "Avio S.p.A./ADR",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "10016",
+      "ticker": "PFXNZ",
+      "name": "PhenixFIN Corp",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "10044",
+      "ticker": "LTMGF",
+      "name": "Lottomatica Group S.p.A./ADR",
+      "group": "other_italian",
+      "matched_variant": "italian_indicator"
+    },
+    {
+      "cik": "10048",
+      "ticker": "FINGF",
+      "name": "Finning International Inc./ADR",
+      "group": "terna",
+      "matched_variant": "terna"
+    },
+    {
+      "cik": "10077",
+      "ticker": "SNIRF",
+      "name": "SENIOR PLC",
+      "group": "eni",
+      "matched_variant": "eni"
+    },
+    {
+      "cik": "10106",
+      "ticker": "BCKIF",
+      "name": "Babcock International Group PLC/ADR",
+      "group": "terna",
+      "matched_variant": "terna"
+    }
+  ],
+  "china_relationships": [
+    {
+      "company": "GENELUX Corp",
+      "ticker": "GNLX",
+      "filing_type": "10-Q",
+      "filing_date": "2025-05-08",
+      "china_mentions": [
+        "china",
+        "cnooc"
+      ],
+      "context": [
+        {
+          "mention": "china",
+          "context": "ing to the applicability of a right of first refusal (the stabroek rofr) contained in the operating agreement (the stabroek joa) among hgel and affiliates of exxon mobil corporation (exxon mobil) and china national offshore oil corporation (cnooc).  the arbitration merits hearing about the applicability of the stabroek rofr to the merger has been scheduled for may 2025, with a decision expected in"
+        },
+        {
+          "mention": "china",
+          "context": "ing to the applicability of a right of first refusal (the stabroek rofr) contained in the operating agreement (the stabroek joa) among hgel and affiliates of exxon mobil corporation (exxon mobil) and china national offshore oil corporation (cnooc).  the arbitration merits hearing about the applicability of the stabroek rofr to the merger has been scheduled for may 2025, with a decision expected in"
+        },
+        {
+          "mention": "cnooc",
+          "context": "rst refusal (the stabroek rofr) contained in the operating agreement (the stabroek joa) among hgel and affiliates of exxon mobil corporation (exxon mobil) and china national offshore oil corporation (cnooc).  the arbitration merits hearing about the applicability of the stabroek rofr to the merger has been scheduled for may 2025, with a decision expected in the third quarter.  we cannot predict th"
+        },
+        {
+          "mention": "cnooc",
+          "context": "rst refusal (the stabroek rofr) contained in the operating agreement (the stabroek joa) among hgel and affiliates of exxon mobil corporation (exxon mobil) and china national offshore oil corporation (cnooc).  the arbitration merits hearing about the applicability of the stabroek rofr to the merger has been scheduled for may 2025, with a decision expected in the third quarter.  we cannot predict th"
+        },
+        {
+          "mention": "cnooc",
+          "context": "the stabroek rofr to the merger pursuant to the dispute resolution requirements of the stabroek operating agreement (the stabroek joa).  on march 11, 2024 and march 15, 2024, hgel and an affiliate of cnooc, respectively, commenced parallel arbitration proceedings regarding the applicability of the stabroek rofr to the merger pursuant to the dispute resolution requirements of the stabroek joa.  on "
+        }
+      ],
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/4447/000162828025023790/hes-20250331.htm"
+    },
+    {
+      "company": "GENELUX Corp",
+      "ticker": "GNLX",
+      "filing_type": "10-K",
+      "filing_date": "2025-02-27",
+      "china_mentions": [
+        "china",
+        "cnooc"
+      ],
+      "context": [
+        {
+          "mention": "china",
+          "context": "ing to the applicability of a right of first refusal (the stabroek rofr) contained in the operating agreement (the stabroek joa) among hgel and affiliates of exxon mobil corporation (exxon mobil) and china national offshore oil corporation (cnooc).  the arbitration merits hearing about the applicability of the stabroek rofr to the merger has been scheduled for may 2025, with a decision expected in"
+        },
+        {
+          "mention": "china",
+          "context": "ing to the applicability of a right of first refusal (the stabroek rofr) contained in the operating agreement (the stabroek joa) among hgel and affiliates of exxon mobil corporation (exxon mobil) and china national offshore oil corporation (cnooc).  the arbitration merits hearing about the applicability of the stabroek rofr to the merger has been scheduled for may 2025, with a decision expected in"
+        },
+        {
+          "mention": "china",
+          "context": "ing to the applicability of a right of first refusal (the stabroek rofr) contained in the operating agreement (the stabroek joa) among hgel and affiliates of exxon mobil corporation (exxon mobil) and china national offshore oil corporation (cnooc).  the arbitration merits hearing about the applicability of the stabroek rofr to the merger has been scheduled for may 2025, with a decision expected in"
+        },
+        {
+          "mention": "cnooc",
+          "context": "rst refusal (the stabroek rofr) contained in the operating agreement (the stabroek joa) among hgel and affiliates of exxon mobil corporation (exxon mobil) and china national offshore oil corporation (cnooc).  the arbitration merits hearing about the applicability of the stabroek rofr to the merger has been scheduled for may 2025, with a decision expected in the third quarter.  we cannot predict th"
+        },
+        {
+          "mention": "cnooc",
+          "context": "25, with a decision expected in the third quarter.  if the arbitration does not result in a confirmation that the stabroek rofr is inapplicable to the merger, and if chevron, hess, exxon mobil and/or cnooc do not otherwise agree upon an acceptable resolution, then there would be a failure of a closing condition under the merger agreement, in which case the merger would not close.   </span></div><d"
+        },
+        {
+          "mention": "cnooc",
+          "context": "the stabroek rofr to the merger pursuant to the dispute resolution requirements of the stabroek operating agreement (the stabroek joa).  on march 11, 2024 and march 15, 2024, hgel and an affiliate of cnooc, respectively, commenced parallel arbitration proceedings regarding the applicability of the stabroek rofr to the merger pursuant to the dispute resolution requirements of the stabroek joa.  on "
+        }
+      ],
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/4447/000162828025008716/hes-20241231.htm"
+    },
+    {
+      "company": "GENELUX Corp",
+      "ticker": "GNLX",
+      "filing_type": "10-Q",
+      "filing_date": "2024-11-06",
+      "china_mentions": [
+        "china",
+        "cnooc"
+      ],
+      "context": [
+        {
+          "mention": "china",
+          "context": "ing to the applicability of a right of first refusal (the stabroek rofr) contained in the operating agreement (the stabroek joa) among hgel and affiliates of exxon mobil corporation (exxon mobil) and china national offshore oil corporation (cnooc).  the arbitration merits hearing about the applicability of the stabroek rofr to the merger has been scheduled for may 2025, with a decision expected in"
+        },
+        {
+          "mention": "china",
+          "context": "ing to the applicability of a right of first refusal (the stabroek rofr) contained in the operating agreement (the stabroek joa) among hgel and affiliates of exxon mobil corporation (exxon mobil) and china national offshore oil corporation (cnooc).  the arbitration merits hearing about the applicability of the stabroek rofr to the merger has been scheduled for may 2025, with a decision expected in"
+        },
+        {
+          "mention": "china",
+          "context": "rsuant to the dispute resolution requirements of the stabroek operating agreement (the stabroek joa).  on march 11, 2024 and march 15, 2024, hess guyana exploration limited (hgel) and an affiliate of china national offshore oil corporation (cnooc), respectively, commenced parallel arbitration proceedings regarding the applicability of the stabroek rofr to the merger pursuant to the dispute resolut"
+        },
+        {
+          "mention": "cnooc",
+          "context": "rst refusal (the stabroek rofr) contained in the operating agreement (the stabroek joa) among hgel and affiliates of exxon mobil corporation (exxon mobil) and china national offshore oil corporation (cnooc).  the arbitration merits hearing about the applicability of the stabroek rofr to the merger has been scheduled for may 2025, with a decision expected in the following three months.  we cannot p"
+        },
+        {
+          "mention": "cnooc",
+          "context": "rst refusal (the stabroek rofr) contained in the operating agreement (the stabroek joa) among hgel and affiliates of exxon mobil corporation (exxon mobil) and china national offshore oil corporation (cnooc).  the arbitration merits hearing about the applicability of the stabroek rofr to the merger has been scheduled for may 2025, with a decision expected in the following three months.  we cannot p"
+        },
+        {
+          "mention": "cnooc",
+          "context": "ents of the stabroek operating agreement (the stabroek joa).  on march 11, 2024 and march 15, 2024, hess guyana exploration limited (hgel) and an affiliate of china national offshore oil corporation (cnooc), respectively, commenced parallel arbitration proceedings regarding the applicability of the stabroek rofr to the merger pursuant to the dispute resolution requirements of the stabroek joa.  on"
+        }
+      ],
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/4447/000162828024045716/hes-20240930.htm"
+    },
+    {
+      "company": "GENELUX Corp",
+      "ticker": "GNLX",
+      "filing_type": "10-Q",
+      "filing_date": "2024-08-08",
+      "china_mentions": [
+        "china",
+        "cnooc"
+      ],
+      "context": [
+        {
+          "mention": "china",
+          "context": "ing to the applicability of a right of first refusal (the stabroek rofr) contained in the operating agreement (the stabroek joa) among hgel and affiliates of exxon mobil corporation (exxon mobil) and china national offshore oil corporation (cnooc).  the arbitration merits hearing about the applicability of the stabroek rofr to the merger has been scheduled for may 2025, with a decision expected in"
+        },
+        {
+          "mention": "china",
+          "context": "ing to the applicability of a right of first refusal (the stabroek rofr) contained in the operating agreement (the stabroek joa) among hgel and affiliates of exxon mobil corporation (exxon mobil) and china national offshore oil corporation (cnooc).  the arbitration merits hearing about the applicability of the stabroek rofr to the merger has been scheduled for may 2025, with a decision expected in"
+        },
+        {
+          "mention": "china",
+          "context": "rsuant to the dispute resolution requirements of the stabroek operating agreement (the stabroek joa).  on march 11, 2024 and march 15, 2024, hess guyana exploration limited (hgel) and an affiliate of china national offshore oil corporation (cnooc), respectively, commenced parallel arbitration proceedings regarding the applicability of the stabroek rofr to the merger pursuant to the dispute resolut"
+        },
+        {
+          "mention": "cnooc",
+          "context": "rst refusal (the stabroek rofr) contained in the operating agreement (the stabroek joa) among hgel and affiliates of exxon mobil corporation (exxon mobil) and china national offshore oil corporation (cnooc).  the arbitration merits hearing about the applicability of the stabroek rofr to the merger has been scheduled for may 2025, with a decision expected in the following three months.  neither che"
+        },
+        {
+          "mention": "cnooc",
+          "context": "rst refusal (the stabroek rofr) contained in the operating agreement (the stabroek joa) among hgel and affiliates of exxon mobil corporation (exxon mobil) and china national offshore oil corporation (cnooc).  the arbitration merits hearing about the applicability of the stabroek rofr to the merger has been scheduled for may 2025, with a decision expected in the following three months.  neither che"
+        },
+        {
+          "mention": "cnooc",
+          "context": "ents of the stabroek operating agreement (the stabroek joa).  on march 11, 2024 and march 15, 2024, hess guyana exploration limited (hgel) and an affiliate of china national offshore oil corporation (cnooc), respectively, commenced parallel arbitration proceedings regarding the applicability of the stabroek rofr to the merger pursuant to the dispute resolution requirements of the stabroek joa.  on"
+        }
+      ],
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/4447/000162828024036142/hes-20240630.htm"
+    },
+    {
+      "company": "GENELUX Corp",
+      "ticker": "GNLX",
+      "filing_type": "8-K",
+      "filing_date": "2024-07-31",
+      "china_mentions": [
+        "china",
+        "cnooc"
+      ],
+      "context": [
+        {
+          "mention": "china",
+          "context": "derline\">stabroek rofr</span>&#8221;) contained in an operating agreement among hgel and affiliates of exxon mobil corporation (&#8220;<span style=\"text-decoration:underline\">exxon</span>&#8221;) and china national offshore oil corporation (&#8220;<span style=\"text-decoration:underline\">cnooc</span>&#8221;) regarding the stabroek block offshore guyana. </p> <p style=\"margin-top:12pt; margin-bottom"
+        },
+        {
+          "mention": "cnooc",
+          "context": "affiliates of exxon mobil corporation (&#8220;<span style=\"text-decoration:underline\">exxon</span>&#8221;) and china national offshore oil corporation (&#8220;<span style=\"text-decoration:underline\">cnooc</span>&#8221;) regarding the stabroek block offshore guyana. </p> <p style=\"margin-top:12pt; margin-bottom:0pt; text-indent:4%; font-size:10pt; font-family:times new roman\">the arbitration merits"
+        },
+        {
+          "mention": "cnooc",
+          "context": "this possible. </p> <p style=\"margin-top:12pt; margin-bottom:0pt; text-indent:4%; font-size:10pt; font-family:times new roman\">the views of hess and chevron on the merits remain unchanged. exxon and cnooc continue to ignore the plain language of the operating agreement, and hess and chevron remain confident that the arbitration will confirm that the stabroek rofr does not apply to the merger. </p>"
+        }
+      ],
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/4447/000119312524190045/d875345d8k.htm"
+    },
+    {
+      "company": "GENELUX Corp",
+      "ticker": "GNLX",
+      "filing_type": "10-Q",
+      "filing_date": "2024-05-07",
+      "china_mentions": [
+        "china",
+        "cnooc"
+      ],
+      "context": [
+        {
+          "mention": "china",
+          "context": "t of first refusal (the stabroek rofr) contained in the operating agreement (the stabroek joa) among hess guyana exploration limited (hgel) and affiliates of exxon mobil corporation (exxon mobil) and china national offshore oil corporation (cnooc), however, may cause the transaction to be completed at a later time or to fail to be completed.  hess is seeking to have the merits of the arbitration h"
+        },
+        {
+          "mention": "china",
+          "context": "rsuant to the dispute resolution requirements of the stabroek operating agreement (the stabroek joa).  on march 11, 2024 and march 15, 2024, hess guyana exploration limited (hgel) and an affiliate of china national offshore oil corporation (cnooc), respectively, commenced parallel arbitration proceedings regarding the applicability of the stabroek rofr to the merger pursuant to the dispute resolut"
+        },
+        {
+          "mention": "cnooc",
+          "context": "ntained in the operating agreement (the stabroek joa) among hess guyana exploration limited (hgel) and affiliates of exxon mobil corporation (exxon mobil) and china national offshore oil corporation (cnooc), however, may cause the transaction to be completed at a later time or to fail to be completed.  hess is seeking to have the merits of the arbitration heard by the third quarter of 2024 and to "
+        },
+        {
+          "mention": "cnooc",
+          "context": "ents of the stabroek operating agreement (the stabroek joa).  on march 11, 2024 and march 15, 2024, hess guyana exploration limited (hgel) and an affiliate of china national offshore oil corporation (cnooc), respectively, commenced parallel arbitration proceedings regarding the applicability of the stabroek rofr to the merger pursuant to the dispute resolution requirements of the stabroek joa.  on"
+        },
+        {
+          "mention": "cnooc",
+          "context": "ese arbitration proceedings that the stabroek rofr does not apply to the merger due to the structure of the merger and the language of the stabroek rofr provisions.  the exxon mobil affiliate and the cnooc affiliate have asserted in these arbitration proceedings that the stabroek rofr applies to the merger.  chevron and hess believe that exxon mobil&#8217;s and cnooc&#8217;s asserted claims are wi"
+        }
+      ],
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/4447/000162828024021077/hes-20240331.htm"
+    },
+    {
+      "company": "SCANDIUM INTERNATIONAL MINING CORP.",
+      "ticker": "SCYYF",
+      "filing_type": "10-Q",
+      "filing_date": "2025-08-07",
+      "china_mentions": [
+        "china"
+      ],
+      "context": [
+        {
+          "mention": "china",
+          "context": "ply chain, and aerospace industry, on our business remain uncertain. as we cannot predict what actions may ultimately be taken with respect to tariffs or trade relations between the united states and china, malaysia or other countries, what products may be subject to such actions, what actions may be taken by the other countries in retaliation, and what actions we may be able to take to address an"
+        },
+        {
+          "mention": "china",
+          "context": "arly electrical components common in the semiconductor industry. there is continued uncertainty about the future relationship between the united states and various other countries, most significantly china, with respect to trade policies, treaties, tariffs, and taxes. </span></div><div style=\"margin-bottom:9pt;margin-top:9pt;text-align:justify\"><span style=\"color:#000000;font-family:'times new rom"
+        },
+        {
+          "mention": "china",
+          "context": "ficant changes in u.s. trade policy and has taken certain actions that could negatively impact u.s. trade, including imposing tariffs on certain goods imported into the united states. in retaliation, china has implemented, and continues to evaluate imposing, additional tariffs on a wide range of american products, and other countries, including canada and mexico, have done the same. there is also "
+        }
+      ],
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/8063/000000806325000059/atro-20250628.htm"
+    },
+    {
+      "company": "SCANDIUM INTERNATIONAL MINING CORP.",
+      "ticker": "SCYYF",
+      "filing_type": "10-Q",
+      "filing_date": "2025-05-07",
+      "china_mentions": [
+        "china"
+      ],
+      "context": [
+        {
+          "mention": "china",
+          "context": "ply chain, and aerospace industry, on our business remain uncertain. as we cannot predict what actions may ultimately be taken with respect to tariffs or trade relations between the united states and china or other countries, what products may be subject to such actions, or what actions may be taken by the other countries in retaliation, the ultimate financial impact on our results cannot be reaso"
+        },
+        {
+          "mention": "china",
+          "context": "arly electrical components common in the semiconductor industry. there is continued uncertainty about the future relationship between the united states and various other countries, most significantly china, with respect to trade policies, treaties, tariffs, and taxes. </span></div><div style=\"margin-bottom:9pt;margin-top:9pt;text-align:justify\"><span style=\"color:#000000;font-family:'times new rom"
+        },
+        {
+          "mention": "china",
+          "context": "ficant changes in u.s. trade policy and has taken certain actions that could negatively impact u.s. trade, including imposing tariffs on certain goods imported into the united states. in retaliation, china has implemented, and continues to evaluate imposing, additional tariffs on a wide range of american products, and other countries, including canada and mexico, have done the same. there is also "
+        }
+      ],
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/8063/000000806325000035/atro-20250329.htm"
+    },
+    {
+      "company": "SCANDIUM INTERNATIONAL MINING CORP.",
+      "ticker": "SCYYF",
+      "filing_type": "10-K",
+      "filing_date": "2025-03-05",
+      "china_mentions": [
+        "china",
+        "byd"
+      ],
+      "context": [
+        {
+          "mention": "china",
+          "context": "div style=\"margin-bottom:9pt;margin-top:9pt;text-align:justify\"><span style=\"color:#000000;font-family:'times new roman',sans-serif;font-size:10pt;font-weight:400;line-height:120%\">most significantly china, with respect to trade policies, treaties, tariffs, and taxes. changes in u.s. administrative policy could lead to changes in existing trade agreements, greater restrictions on free trade genera"
+        },
+        {
+          "mention": "china",
+          "context": "and significant increases in tariffs on goods imported into the united states, particularly tariffs on products manufactured in canada, china and mexico, among other possible changes. for example, in february 2025, the new u.s. presidential administration announced tariffs on imports from canada, mexico and china, and then subsequently pau"
+        },
+        {
+          "mention": "china",
+          "context": "des: (i) the possibility of altering the existing tariffs or penalties on products manufactured outside the united states, including the u.s. government&#8217;s 25% tariff on a range of products from china; (ii) the effects stemming from the removal of such previously imposed tariffs; (iii) subsequent tariffs imposed by the united states on any other countries; and (iv) potential tariffs imposed b"
+        },
+        {
+          "mention": "byd",
+          "context": "xbrli:entity><xbrli:identifier scheme=\"http://www.sec.gov/cik\">0000008063</xbrli:identifier><xbrli:segment><xbrldi:explicitmember dimension=\"us-gaap:incomestatementbalancesheetandadditionaldisclosuresbydisposalgroupsincludingdiscontinuedoperationsaxis\">atro:firstearnoutmember</xbrldi:explicitmember><xbrldi:explicitmember dimension=\"us-gaap:disposalgroupclassificationaxis\">us-gaap:discontinuedopera"
+        },
+        {
+          "mention": "byd",
+          "context": "xbrli:entity><xbrli:identifier scheme=\"http://www.sec.gov/cik\">0000008063</xbrli:identifier><xbrli:segment><xbrldi:explicitmember dimension=\"us-gaap:incomestatementbalancesheetandadditionaldisclosuresbydisposalgroupsincludingdiscontinuedoperationsaxis\">atro:secondearnoutmember</xbrldi:explicitmember><xbrldi:explicitmember dimension=\"us-gaap:disposalgroupclassificationaxis\">us-gaap:discontinuedoper"
+        }
+      ],
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/8063/000000806325000017/atro-20241231.htm"
+    },
+    {
+      "company": "SCANDIUM INTERNATIONAL MINING CORP.",
+      "ticker": "SCYYF",
+      "filing_type": "10-Q",
+      "filing_date": "2024-11-07",
+      "china_mentions": [
+        "byd"
+      ],
+      "context": [
+        {
+          "mention": "byd",
+          "context": "xbrli:entity><xbrli:identifier scheme=\"http://www.sec.gov/cik\">0000008063</xbrli:identifier><xbrli:segment><xbrldi:explicitmember dimension=\"us-gaap:incomestatementbalancesheetandadditionaldisclosuresbydisposalgroupsincludingdiscontinuedoperationsaxis\">atro:semiconductortestbusinessmember</xbrldi:explicitmember><xbrldi:explicitmember dimension=\"us-gaap:disposalgroupclassificationaxis\">us-gaap:disc"
+        },
+        {
+          "mention": "byd",
+          "context": "xbrli:entity><xbrli:identifier scheme=\"http://www.sec.gov/cik\">0000008063</xbrli:identifier><xbrli:segment><xbrldi:explicitmember dimension=\"us-gaap:incomestatementbalancesheetandadditionaldisclosuresbydisposalgroupsincludingdiscontinuedoperationsaxis\">atro:semiconductortestbusinessmember</xbrldi:explicitmember><xbrldi:explicitmember dimension=\"us-gaap:disposalgroupclassificationaxis\">us-gaap:disc"
+        }
+      ],
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/8063/000000806324000059/atro-20240928.htm"
+    },
+    {
+      "company": "SCANDIUM INTERNATIONAL MINING CORP.",
+      "ticker": "SCYYF",
+      "filing_type": "10-Q",
+      "filing_date": "2024-08-05",
+      "china_mentions": [
+        "byd"
+      ],
+      "context": [
+        {
+          "mention": "byd",
+          "context": "ber dimension=\"us-gaap:statementbusinesssegmentsaxis\">atro:testsystemssegmentmember</xbrldi:explicitmember><xbrldi:explicitmember dimension=\"us-gaap:incomestatementbalancesheetandadditionaldisclosuresbydisposalgroupsincludingdiscontinuedoperationsaxis\">atro:semiconductortestbusinessmember</xbrldi:explicitmember><xbrldi:explicitmember dimension=\"us-gaap:disposalgroupclassificationaxis\">us-gaap:disc"
+        },
+        {
+          "mention": "byd",
+          "context": "ber dimension=\"us-gaap:statementbusinesssegmentsaxis\">atro:testsystemssegmentmember</xbrldi:explicitmember><xbrldi:explicitmember dimension=\"us-gaap:incomestatementbalancesheetandadditionaldisclosuresbydisposalgroupsincludingdiscontinuedoperationsaxis\">atro:semiconductortestbusinessmember</xbrldi:explicitmember><xbrldi:explicitmember dimension=\"us-gaap:disposalgroupclassificationaxis\">us-gaap:disc"
+        }
+      ],
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/8063/000000806324000048/atro-20240629.htm"
+    },
+    {
+      "company": "Argo Group International Holdings, Inc.",
+      "ticker": "ARGD",
+      "filing_type": "10-Q",
+      "filing_date": "2025-05-15",
+      "china_mentions": [
+        "zte",
+        "byd"
+      ],
+      "context": [
+        {
+          "mention": "zte",
+          "context": "<tr id=\"xdx_400_ecustom--interestexpenseforreductioninconvertiblenoteconversionprice_i02_mancpbuzbza_zteld55gnqai\" style=\"vertical-align: bottom; background-color: white\">"
+        },
+        {
+          "mention": "zte",
+          "context": "<tr id=\"xdx_401_ecustom--deemeddividendonseriesfpreferredstockandwarrant_i01_pp0p0_zteoqzsysw3\" style=\"vertical-align: bottom; background-color: white\">"
+        },
+        {
+          "mention": "byd",
+          "context": "black 2.5pt double; text-align: left\">$</td><td id=\"xdx_98d_eus-gaap--sharebasedcompensationarrangementbysharebasedpaymentawardoptionsoutstandingweightedaverageexerciseprice_ie_c20240101__20240331_zaibydsvp524\" title=\"weighted average exercise price, ending\" style=\"border-bottom: black 2.5pt double; text-align: right\"><ix:nonfraction name=\"us-gaap:sharebasedcompensationarrangementbysharebasedpayme"
+        }
+      ],
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/8504/000164117225010884/form10-q.htm"
+    },
+    {
+      "company": "Argo Group International Holdings, Inc.",
+      "ticker": "ARGD",
+      "filing_type": "DEF 14A",
+      "filing_date": "2025-04-30",
+      "china_mentions": [
+        "zte",
+        "byd"
+      ],
+      "context": [
+        {
+          "mention": "zte",
+          "context": "<tr id=\"xdx_414_20230101__20231231_zxztepzzcz81\" style=\"vertical-align: bottom; background-color: white\">"
+        },
+        {
+          "mention": "byd",
+          "context": "<ix:nonnumeric contextref=\"from2024-01-01to2024-12-31\" escape=\"true\" id=\"fact000141\" name=\"ecd:adjtopeocompfntextblock\"><p id=\"xdx_897_eecd--adjtopeocompfntextblock_du_zmdco5bydxx4\" style=\"font: 10pt times new roman, times, serif; margin: 0pt 0; text-align: justify\"><span style=\"font-family: times new roman, times, serif; font-size: 10pt\">&#160;</span></p>"
+        }
+      ],
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/8504/000164117225007890/formdef14a.htm"
+    },
+    {
+      "company": "Argo Group International Holdings, Inc.",
+      "ticker": "ARGD",
+      "filing_type": "8-K",
+      "filing_date": "2025-04-16",
+      "china_mentions": [
+        "zte"
+      ],
+      "context": [
+        {
+          "mention": "zte",
+          "context": "e. 34th cir n</ix:nonnumeric></span>, <span id=\"xdx_90c_edei--entityaddressaddressline2_c20250414__20250414_ztewswg88dkj\"><ix:nonnumeric contextref=\"asof2025-04-14\" id=\"fact000016\" name=\"dei:entityaddressaddressline2\">suite 1307</ix:nonnumeric></span>, <span id=\"xdx_900_edei--entityaddresscityortown_c20250414_"
+        }
+      ],
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/8504/000164117225005089/form8-k.htm"
+    },
+    {
+      "company": "Argo Group International Holdings, Inc.",
+      "ticker": "ARGD",
+      "filing_type": "10-K",
+      "filing_date": "2025-03-31",
+      "china_mentions": [
+        "china",
+        "chinese"
+      ],
+      "context": [
+        {
+          "mention": "china",
+          "context": "manufactured drones that are made by companies not subject to influence or control from certain foreign entities, including china and"
+        },
+        {
+          "mention": "china",
+          "context": "believes that these measures to ban china-manufactured drones and components not only protects our nation, but has fueled and will continue"
+        },
+        {
+          "mention": "china",
+          "context": "<td style=\"font: 10pt times new roman, times, serif; text-align: center\"><span style=\"font-family: times new roman, times, serif; font-size: 10pt\">china</span></td>"
+        },
+        {
+          "mention": "chinese",
+          "context": "concerns about drones from chinese manufacturers. in 2020, for example, the u.s. department of interior grounded its entire fleet of"
+        },
+        {
+          "mention": "chinese",
+          "context": "drones over concerns &#8220;that chinese parts in them might be used for spying, making exceptions only for emergency missions like fighting"
+        }
+      ],
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/8504/000164117225001563/form10-k.htm"
+    },
+    {
+      "company": "Argo Group International Holdings, Inc.",
+      "ticker": "ARGD",
+      "filing_type": "8-K",
+      "filing_date": "2024-12-20",
+      "china_mentions": [
+        "zte"
+      ],
+      "context": [
+        {
+          "mention": "zte",
+          "context": "zi9bbbrq0qihvpbrxo9gog+2kzeztj+qtjs1iccth//ej1ertag1rzdgvixxkbnrabiqcr8joliiobltlqwabn+sdgxeg8wdmjawkk0x1ykqyre/rsuphrmc6numflolcw3gvoq+ekbvacl2wpgbjkjgytwwxgo7hhnj05kjph1cnzg/jsdw0huu36hiu4ubp8yk+e8jztewtosk1yxq04lp1ad2xhfwnjbzzi/3v6amep0qj -->"
+        }
+      ],
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/8504/000149315224051106/form8-k.htm"
+    },
+    {
+      "company": "Finning International Inc./ADR",
+      "ticker": "FINGF",
+      "filing_type": "10-Q",
+      "filing_date": "2025-08-13",
+      "china_mentions": [
+        "byd"
+      ],
+      "context": [
+        {
+          "mention": "byd",
+          "context": "sposalgroupclassificationaxis\">us-gaap:discontinuedoperationsdisposedofbysalemember</xbrldi:explicitmember><xbrldi:explicitmember dimension=\"us-gaap:incomestatementbalancesheetandadditionaldisclosuresbydisposalgroupsincludingdiscontinuedoperationsaxis\">brn:waterresourcesmember</xbrldi:explicitmember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:instant>2025-03-14</xbrli:instant></xbrli:perio"
+        },
+        {
+          "mention": "byd",
+          "context": "sposalgroupclassificationaxis\">us-gaap:discontinuedoperationsdisposedofbysalemember</xbrldi:explicitmember><xbrldi:explicitmember dimension=\"us-gaap:incomestatementbalancesheetandadditionaldisclosuresbydisposalgroupsincludingdiscontinuedoperationsaxis\">brn:waterresourcesmember</xbrldi:explicitmember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startdate>2025-03-14</xbrli:startdate><xbrli:en"
+        },
+        {
+          "mention": "byd",
+          "context": "xbrli:entity><xbrli:identifier scheme=\"http://www.sec.gov/cik\">0000010048</xbrli:identifier><xbrli:segment><xbrldi:explicitmember dimension=\"us-gaap:incomestatementbalancesheetandadditionaldisclosuresbydisposalgroupsincludingdiscontinuedoperationsaxis\">brn:waterresourcesmember</xbrldi:explicitmember><xbrldi:explicitmember dimension=\"brn:triggeringeventaxis\">brn:triggeringeventduemay152025member</x"
+        }
+      ],
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/10048/000001004825000025/brn-20250630.htm"
+    },
+    {
+      "company": "Finning International Inc./ADR",
+      "ticker": "FINGF",
+      "filing_type": "10-Q",
+      "filing_date": "2025-05-15",
+      "china_mentions": [
+        "byd"
+      ],
+      "context": [
+        {
+          "mention": "byd",
+          "context": "sposalgroupclassificationaxis\">us-gaap:discontinuedoperationsdisposedofbysalemember</xbrldi:explicitmember><xbrldi:explicitmember dimension=\"us-gaap:incomestatementbalancesheetandadditionaldisclosuresbydisposalgroupsincludingdiscontinuedoperationsaxis\">brn:waterresourcesmember</xbrldi:explicitmember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:instant>2025-03-14</xbrli:instant></xbrli:perio"
+        },
+        {
+          "mention": "byd",
+          "context": "sposalgroupclassificationaxis\">us-gaap:discontinuedoperationsdisposedofbysalemember</xbrldi:explicitmember><xbrldi:explicitmember dimension=\"us-gaap:incomestatementbalancesheetandadditionaldisclosuresbydisposalgroupsincludingdiscontinuedoperationsaxis\">brn:waterresourcesmember</xbrldi:explicitmember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startdate>2025-03-14</xbrli:startdate><xbrli:en"
+        },
+        {
+          "mention": "byd",
+          "context": "sposalgroupclassificationaxis\">us-gaap:discontinuedoperationsdisposedofbysalemember</xbrldi:explicitmember><xbrldi:explicitmember dimension=\"us-gaap:incomestatementbalancesheetandadditionaldisclosuresbydisposalgroupsincludingdiscontinuedoperationsaxis\">brn:waterresourcesmember</xbrldi:explicitmember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:instant>2025-03-31</xbrli:instant></xbrli:perio"
+        }
+      ],
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/10048/000001004825000019/brn-20250331.htm"
+    }
+  ],
+  "subsidiary_networks": {
+    "china_subs": [
+      {
+        "company": "GENELUX Corp",
+        "relationship_type": "subsidiary/affiliate",
+        "description": "affiliates of exxon mobil corporation (exxon mobil) and china",
+        "filing_date": "2025-05-08"
+      }
+    ]
+  },
+  "financial_flows": [],
+  "supply_chain_links": [
+    {
+      "company": "SCANDIUM INTERNATIONAL MINING CORP.",
+      "china_supply_links": 2,
+      "critical_contexts": [
+        {
+          "mention": "china",
+          "context": "arly electrical components common in the semiconductor industry. there is continued uncertainty about the future relationship between the united states and various other countries, most significantly china, with respect to trade policies, treaties, tariffs, and taxes. </span></div><div style=\"margin-bottom:9pt;margin-top:9pt;text-align:justify\"><span style=\"color:#000000;font-family:'times new rom"
+        },
+        {
+          "mention": "china",
+          "context": "arly electrical components common in the semiconductor industry. there is continued uncertainty about the future relationship between the united states and various other countries, most significantly china, with respect to trade policies, treaties, tariffs, and taxes. </span></div><div style=\"margin-bottom:9pt;margin-top:9pt;text-align:justify\"><span style=\"color:#000000;font-family:'times new rom"
+        }
+      ]
+    },
+    {
+      "company": "Argo Group International Holdings, Inc.",
+      "china_supply_links": 1,
+      "critical_contexts": [
+        {
+          "mention": "china",
+          "context": "believes that these measures to ban china-manufactured drones and components not only protects our nation, but has fueled and will continue"
+        }
+      ]
+    }
+  ],
+  "board_connections": []
+}

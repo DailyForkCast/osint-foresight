@@ -1,0 +1,253 @@
+{
+  "deep_dive_sectors": {
+    "space_systems": {
+      "current_position": {
+        "global_rank": 7,
+        "eu_rank": 3,
+        "key_assets": ["COSMO-SkyMed", "VEGA launcher", "Galileo contributions"],
+        "market_share": "2.3% global, 18% European"
+      },
+      "competitive_analysis": {
+        "strengths": ["SAR expertise", "Small satellite capabilities", "Launch services"],
+        "weaknesses": ["Limited constellation size", "Dependence on ESA", "Funding gaps"],
+        "opportunities": ["Earth observation demand", "Space logistics", "Lunar economy"],
+        "threats": ["SpaceX dominance", "Chinese competition", "Debris risks"]
+      },
+      "technology_roadmap": {
+        "2025_targets": ["COSMO third generation", "IRIDE constellation start"],
+        "2030_vision": ["Sovereign PNT capability", "In-orbit servicing", "Lunar participation"],
+        "investment_required": "€3.5B",
+        "gaps": ["Propulsion systems", "Quantum communications", "AI integration"]
+      },
+      "collaboration_map": {
+        "strategic_partners": ["ESA", "NASA", "JAXA"],
+        "industrial_partners": ["Thales Alenia Space", "Avio", "Leonardo"],
+        "emerging_risks": ["Technology transfer to China via joint ventures"],
+        "opportunities": ["Artemis Accords participation", "EU space program leadership"]
+      }
+    },
+    "naval_systems": {
+      "current_position": {
+        "global_rank": 5,
+        "specialized_capabilities": ["Submarine design", "Frigate systems", "Naval guns"],
+        "export_success": "€2.1B annually"
+      },
+      "fremm_successor": {
+        "program": "European Patrol Corvette",
+        "italian_role": "Co-lead with France",
+        "technology_edge": ["Integrated combat systems", "Signature reduction"],
+        "export_potential": "High - Mediterranean, Gulf markets"
+      },
+      "submarine_capabilities": {
+        "current": "U212A with Germany",
+        "future": "U212NFS program",
+        "critical_tech": ["AIP systems", "Lithium batteries", "Combat systems"],
+        "vulnerability": "German dependence for key subsystems"
+      }
+    },
+    "cyber_defense": {
+      "maturity_level": "DEVELOPING",
+      "national_architecture": {
+        "lead_agency": "ACN",
+        "budget": "€45M (insufficient by factor of 5)",
+        "personnel": "420 (need 1,200)",
+        "capabilities": ["Incident response", "Threat intelligence", "Limited offensive"]
+      },
+      "critical_gaps": [
+        "Quantum-resistant cryptography",
+        "AI-powered defense",
+        "Supply chain security",
+        "OT/ICS protection"
+      ],
+      "international_cooperation": {
+        "nato": "Cooperative Cyber Defence COE participant",
+        "eu": "NIS2 implementation ongoing",
+        "bilateral": "US, UK, Israel partnerships"
+      }
+    }
+  },
+  "emerging_technology_assessment": {
+    "quantum": {
+      "current_state": "LAGGING",
+      "research_centers": ["CNR", "INFN", "Universities"],
+      "investment": "€150M (2024-2027)",
+      "gap_vs_leaders": "7-10 years",
+      "catch_up_feasibility": "Low without massive investment"
+    },
+    "ai_ml": {
+      "current_state": "MODERATE",
+      "strengths": ["Computer vision", "Robotics", "NLP"],
+      "weaknesses": ["Compute infrastructure", "Talent retention", "Dataset access"],
+      "military_applications": ["ISR enhancement", "Predictive maintenance", "Decision support"],
+      "sovereignty_risk": "HIGH - Dependent on foreign models"
+    },
+    "hypersonics": {
+      "current_state": "MINIMAL",
+      "participation": "Limited to EU programs",
+      "industrial_capability": "Components only",
+      "strategic_impact": "Declining relevance in missile defense"
+    },
+    "biotech_defense": {
+      "current_state": "UNDERDEVELOPED",
+      "capabilities": ["Limited detection", "Basic research"],
+      "pandemic_lessons": "Insufficient industrial base",
+      "investment_priority": "Should be HIGH, currently LOW"
+    }
+  },
+  "supply_chain_deep_dive": {
+    "critical_dependencies": [
+      {
+        "component": "Semiconductors",
+        "foreign_dependence": "95%",
+        "sources": ["Taiwan 40%", "China 25%", "US 20%"],
+        "mitigation": "EU Chips Act participation",
+        "timeline": "10+ years to reduce to 70%"
+      },
+      {
+        "component": "Rare earth elements",
+        "foreign_dependence": "85%",
+        "sources": ["China 85%", "Others 15%"],
+        "mitigation": "Recycling, substitution research",
+        "timeline": "5-7 years for 30% reduction"
+      },
+      {
+        "component": "Advanced materials",
+        "foreign_dependence": "60%",
+        "sources": ["Japan 30%", "US 20%", "Germany 10%"],
+        "mitigation": "Domestic R&D investment",
+        "timeline": "3-5 years for improvement"
+      }
+    ],
+    "vulnerability_assessment": {
+      "single_points_of_failure": [
+        "TSMC for advanced processors",
+        "Chinese rare earth processing",
+        "US software platforms"
+      ],
+      "geopolitical_risks": [
+        "Taiwan contingency",
+        "China economic coercion",
+        "US technology restrictions"
+      ],
+      "resilience_score": 4.8,
+      "improvement_path": "Diversification + Stockpiling + Substitution"
+    }
+  },
+  "innovation_ecosystem_analysis": {
+    "startup_landscape": {
+      "total": 1420,
+      "deep_tech": 89,
+      "defense_relevant": 34,
+      "unicorns": 0,
+      "growth_rate": "12% annually"
+    },
+    "venture_capital": {
+      "total_deployed": "€1.2B (2023)",
+      "defense_tech": "€45M (3.75%)",
+      "foreign_investment": "65%",
+      "gap_vs_needs": "€3B annually"
+    },
+    "university_research": {
+      "top_institutions": ["Politecnico Milano", "Politecnico Torino", "Sapienza", "Bologna"],
+      "defense_relevant_programs": 67,
+      "industry_collaboration": "Weak - 23% vs 45% EU average",
+      "talent_pipeline": "Producing 3,400 STEM PhDs/year, losing 40% to emigration"
+    },
+    "innovation_barriers": [
+      "Bureaucracy and slow procurement",
+      "Risk-averse investment culture",
+      "Limited defense-civilian spillover",
+      "Weak IP protection enforcement"
+    ]
+  },
+  "geopolitical_positioning": {
+    "mediterranean_strategy": {
+      "objectives": ["Stability", "Migration management", "Energy security"],
+      "tools": ["Naval presence", "Diplomatic engagement", "Development aid"],
+      "effectiveness": "MODERATE - Limited by resources",
+      "competitors": ["Turkey", "France", "Russia", "China"]
+    },
+    "european_integration": {
+      "defense_initiatives": ["PESCO projects (26)", "EDF participation", "Strategic Compass"],
+      "industrial_consolidation": "Resisting in naval, supporting in land systems",
+      "sovereignty_vs_integration": "Balancing act, tilting toward sovereignty"
+    },
+    "transatlantic_relationship": {
+      "us_presence": "12,000 troops, 5 major bases",
+      "industrial_ties": "F-35 program, missile defense",
+      "technology_access": "Restricted in some areas",
+      "future_trajectory": "Dependent on US strategic priorities"
+    },
+    "indo_pacific": {
+      "engagement": "LIMITED but growing",
+      "drivers": ["Trade diversification", "Technology partnerships", "Alliance coordination"],
+      "constraints": ["Geographic distance", "Limited capabilities", "Resource priorities"]
+    }
+  },
+  "long_term_trajectories": {
+    "demographic_impact": {
+      "population_2050": "54M (from 59M)",
+      "working_age_decline": "-23%",
+      "defense_implications": ["Recruitment crisis", "Tax base erosion", "Innovation decline"],
+      "mitigation_options": ["Automation", "Immigration", "Productivity gains"]
+    },
+    "climate_security": {
+      "direct_impacts": ["Coastal infrastructure", "Southern desertification", "Alpine changes"],
+      "indirect_impacts": ["Migration pressure", "Resource conflicts", "Supply disruptions"],
+      "adaptation_costs": "€8-10B annually",
+      "opportunity": "Green tech leadership potential"
+    },
+    "technology_convergence": {
+      "ai_plus_quantum": "Revolutionary ISR capabilities by 2035",
+      "bio_plus_nano": "New material science breakthroughs",
+      "space_plus_cyber": "Contested domain dominance",
+      "italy_position": "Risk of missing convergence benefits"
+    }
+  },
+  "strategic_recommendations_extended": {
+    "immediate_imperatives": [
+      {
+        "action": "Create National Security Technology Strategy",
+        "timeline": "6 months",
+        "owner": "Prime Minister's Office",
+        "resources": "€10M setup, €2M annual",
+        "success_metrics": ["Published strategy", "Implementation roadmap", "Budget allocation"]
+      },
+      {
+        "action": "Establish Defense Innovation Fund",
+        "timeline": "12 months",
+        "owner": "MoD/MIMIT",
+        "resources": "€200M/year minimum",
+        "success_metrics": ["Fund operational", "First investments", "Pipeline development"]
+      }
+    ],
+    "structural_reforms": [
+      {
+        "reform": "Procurement modernization",
+        "impact": "2x speed, 30% cost reduction",
+        "resistance": "HIGH from bureaucracy",
+        "implementation": "3-5 years"
+      },
+      {
+        "reform": "University-defense integration",
+        "impact": "Triple research output",
+        "resistance": "MEDIUM from academia",
+        "implementation": "2-3 years"
+      }
+    ],
+    "moonshot_initiatives": [
+      {
+        "initiative": "Sovereign AI for defense",
+        "investment": "€1B over 5 years",
+        "success_probability": "30%",
+        "strategic_value": "TRANSFORMATIVE if successful"
+      },
+      {
+        "initiative": "Mediterranean tech hub",
+        "investment": "€500M catalyst funding",
+        "success_probability": "45%",
+        "strategic_value": "Regional leadership"
+      }
+    ]
+  }
+}

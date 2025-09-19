@@ -1,0 +1,60 @@
+{
+  "Leonardo DRS": {
+    "cik": "0001833756",
+    "ticker": "DRS",
+    "parent": "Leonardo S.p.A",
+    "name": "Leonardo DRS, Inc.",
+    "sic_description": "Search, Detection, Navigation, Guidance, Aeronautical Sys",
+    "exchanges": [
+      "Nasdaq"
+    ],
+    "fiscal_year_end": "1231",
+    "recent_filings_count": 326,
+    "latest_10k": {
+      "date": "2025-03-03",
+      "accession": "0001628280-25-009248"
+    },
+    "latest_10q": {
+      "date": "2025-07-30",
+      "accession": "0001628280-25-036706"
+    }
+  },
+  "STMicroelectronics": {
+    "cik": "0000932787",
+    "ticker": "STM",
+    "parent": "STMicroelectronics N.V.",
+    "name": "STMicroelectronics N.V.",
+    "sic_description": "Semiconductors & Related Devices",
+    "exchanges": [
+      "NYSE",
+      "OTC"
+    ],
+    "fiscal_year_end": "1231",
+    "recent_filings_count": 922,
+    "latest_10k": null,
+    "latest_10q": {
+      "date": "2025-02-27",
+      "accession": "0000932787-25-000006"
+    }
+  },
+  "CNH Industrial": {
+    "error": "404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0001565153.json"
+  },
+  "Stellantis": {
+    "cik": "0001605484",
+    "ticker": "STLA",
+    "parent": null,
+    "name": "Stellantis N.V.",
+    "sic_description": "Motor Vehicles & Passenger Car Bodies",
+    "exchanges": [
+      "NYSE"
+    ],
+    "fiscal_year_end": "1231",
+    "recent_filings_count": 637,
+    "latest_10k": null,
+    "latest_10q": {
+      "date": "2025-02-27",
+      "accession": "0001605484-25-000013"
+    }
+  }
+}

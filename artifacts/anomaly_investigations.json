@@ -1,0 +1,331 @@
+[
+  {
+    "id": "2efe95f1",
+    "anomaly": {
+      "type": "extreme_high",
+      "severity": "critical",
+      "metric": "collaboration_rate",
+      "value": 1.0,
+      "threshold": 0.95,
+      "message": "100% collaboration detected - highly suspicious",
+      "action": "Verify data completeness and search methodology",
+      "timestamp": "2025-09-17T20:36:31.468857",
+      "context": {
+        "country": "Test"
+      }
+    },
+    "timestamp": "2025-09-17T20:36:31.468857",
+    "status": "initiated",
+    "steps": [
+      "Verify source data completeness",
+      "Check for data duplication",
+      "Validate search query parameters",
+      "Cross-reference with alternative sources",
+      "Calculate confidence interval"
+    ]
+  },
+  {
+    "id": "66bc98a5",
+    "anomaly": {
+      "type": "extreme_low",
+      "severity": "critical",
+      "metric": "collaboration_rate",
+      "value": 0.0,
+      "threshold": 0.001,
+      "message": "Zero collaboration_rate despite 350GB dataset",
+      "action": "Verify query, expand search parameters, check data completeness",
+      "timestamp": "2025-09-17T20:36:31.479864",
+      "context": {
+        "data_size_gb": 350
+      }
+    },
+    "timestamp": "2025-09-17T20:36:31.479864",
+    "status": "initiated",
+    "steps": [
+      "Expand search parameters",
+      "Check alternative spellings/names",
+      "Verify time period coverage",
+      "Test with known positive example",
+      "Document as negative evidence if confirmed"
+    ]
+  },
+  {
+    "id": "351195a7",
+    "anomaly": {
+      "type": "extreme_high",
+      "severity": "critical",
+      "metric": "collaboration_rate",
+      "value": 1.0,
+      "threshold": 0.95,
+      "message": "100% collaboration detected - highly suspicious",
+      "action": "Verify data completeness and search methodology",
+      "timestamp": "2025-09-17T22:39:30.053367",
+      "context": {
+        "country": "Test"
+      }
+    },
+    "timestamp": "2025-09-17T22:39:30.054368",
+    "status": "initiated",
+    "steps": [
+      "Verify source data completeness",
+      "Check for data duplication",
+      "Validate search query parameters",
+      "Cross-reference with alternative sources",
+      "Calculate confidence interval"
+    ]
+  },
+  {
+    "id": "5c74ca68",
+    "anomaly": {
+      "type": "extreme_high",
+      "severity": "critical",
+      "metric": "collaboration_rate",
+      "value": 1.0,
+      "threshold": 0.95,
+      "message": "100% collaboration detected - highly suspicious",
+      "action": "Verify data completeness and search methodology",
+      "timestamp": "2025-09-17T22:39:30.067753",
+      "context": {
+        "country": "Germany",
+        "sample_size": 500
+      }
+    },
+    "timestamp": "2025-09-17T22:39:30.068792",
+    "status": "initiated",
+    "steps": [
+      "Verify source data completeness",
+      "Check for data duplication",
+      "Validate search query parameters",
+      "Cross-reference with alternative sources",
+      "Calculate confidence interval"
+    ]
+  },
+  {
+    "id": "a8748544",
+    "anomaly": {
+      "type": "extreme_high",
+      "severity": "critical",
+      "metric": "collaboration_rate",
+      "value": 1.0,
+      "threshold": 0.95,
+      "message": "100% collaboration detected - highly suspicious",
+      "action": "Verify data completeness and search methodology",
+      "timestamp": "2025-09-17T22:41:26.528981",
+      "context": {
+        "country": "Test"
+      }
+    },
+    "timestamp": "2025-09-17T22:41:26.528981",
+    "status": "initiated",
+    "steps": [
+      "Verify source data completeness",
+      "Check for data duplication",
+      "Validate search query parameters",
+      "Cross-reference with alternative sources",
+      "Calculate confidence interval"
+    ]
+  },
+  {
+    "id": "a1f3967d",
+    "anomaly": {
+      "type": "extreme_low",
+      "severity": "critical",
+      "metric": "collaboration_rate",
+      "value": 0.0,
+      "threshold": 0.001,
+      "message": "Zero collaboration_rate despite 350GB dataset",
+      "action": "Verify query, expand search parameters, check data completeness",
+      "timestamp": "2025-09-17T22:41:26.541046",
+      "context": {
+        "data_size_gb": 350
+      }
+    },
+    "timestamp": "2025-09-17T22:41:26.541046",
+    "status": "initiated",
+    "steps": [
+      "Expand search parameters",
+      "Check alternative spellings/names",
+      "Verify time period coverage",
+      "Test with known positive example",
+      "Document as negative evidence if confirmed"
+    ]
+  },
+  {
+    "id": "924af8ac",
+    "anomaly": {
+      "type": "extreme_high",
+      "severity": "critical",
+      "metric": "collaboration_rate",
+      "value": 1.0,
+      "threshold": 0.95,
+      "message": "100% collaboration detected - highly suspicious",
+      "action": "Verify data completeness and search methodology",
+      "timestamp": "2025-09-17T22:41:26.544461",
+      "context": {
+        "country": "Germany",
+        "sample_size": 500
+      }
+    },
+    "timestamp": "2025-09-17T22:41:26.544461",
+    "status": "initiated",
+    "steps": [
+      "Verify source data completeness",
+      "Check for data duplication",
+      "Validate search query parameters",
+      "Cross-reference with alternative sources",
+      "Calculate confidence interval"
+    ]
+  },
+  {
+    "id": "cde63a9a",
+    "anomaly": {
+      "type": "extreme_high",
+      "severity": "critical",
+      "metric": "collaboration_rate",
+      "value": 1.0,
+      "threshold": 0.95,
+      "message": "100% collaboration detected - highly suspicious",
+      "action": "Verify data completeness and search methodology",
+      "timestamp": "2025-09-17T22:50:37.707363",
+      "context": {
+        "country": "Test"
+      }
+    },
+    "timestamp": "2025-09-17T22:50:37.713070",
+    "status": "initiated",
+    "steps": [
+      "Verify source data completeness",
+      "Check for data duplication",
+      "Validate search query parameters",
+      "Cross-reference with alternative sources",
+      "Calculate confidence interval"
+    ]
+  },
+  {
+    "id": "e1a9ef72",
+    "anomaly": {
+      "type": "extreme_low",
+      "severity": "critical",
+      "metric": "collaboration_rate",
+      "value": 0.0,
+      "threshold": 0.001,
+      "message": "Zero collaboration_rate despite 350GB dataset",
+      "action": "Verify query, expand search parameters, check data completeness",
+      "timestamp": "2025-09-17T22:50:37.736046",
+      "context": {
+        "data_size_gb": 350
+      }
+    },
+    "timestamp": "2025-09-17T22:50:37.737066",
+    "status": "initiated",
+    "steps": [
+      "Expand search parameters",
+      "Check alternative spellings/names",
+      "Verify time period coverage",
+      "Test with known positive example",
+      "Document as negative evidence if confirmed"
+    ]
+  },
+  {
+    "id": "b9533f45",
+    "anomaly": {
+      "type": "extreme_high",
+      "severity": "critical",
+      "metric": "collaboration_rate",
+      "value": 1.0,
+      "threshold": 0.95,
+      "message": "100% collaboration detected - highly suspicious",
+      "action": "Verify data completeness and search methodology",
+      "timestamp": "2025-09-17T22:50:37.765059",
+      "context": {
+        "country": "Germany",
+        "sample_size": 500
+      }
+    },
+    "timestamp": "2025-09-17T22:50:37.765059",
+    "status": "initiated",
+    "steps": [
+      "Verify source data completeness",
+      "Check for data duplication",
+      "Validate search query parameters",
+      "Cross-reference with alternative sources",
+      "Calculate confidence interval"
+    ]
+  },
+  {
+    "id": "9052d8d2",
+    "anomaly": {
+      "type": "extreme_high",
+      "severity": "critical",
+      "metric": "collaboration_rate",
+      "value": 1.0,
+      "threshold": 0.95,
+      "message": "100% collaboration detected - highly suspicious",
+      "action": "Verify data completeness and search methodology",
+      "timestamp": "2025-09-17T22:50:48.873623",
+      "context": {
+        "country": "Test"
+      }
+    },
+    "timestamp": "2025-09-17T22:50:48.873623",
+    "status": "initiated",
+    "steps": [
+      "Verify source data completeness",
+      "Check for data duplication",
+      "Validate search query parameters",
+      "Cross-reference with alternative sources",
+      "Calculate confidence interval"
+    ]
+  },
+  {
+    "id": "eb0add09",
+    "anomaly": {
+      "type": "extreme_low",
+      "severity": "critical",
+      "metric": "collaboration_rate",
+      "value": 0.0,
+      "threshold": 0.001,
+      "message": "Zero collaboration_rate despite 350GB dataset",
+      "action": "Verify query, expand search parameters, check data completeness",
+      "timestamp": "2025-09-17T22:50:48.891459",
+      "context": {
+        "data_size_gb": 350
+      }
+    },
+    "timestamp": "2025-09-17T22:50:48.891459",
+    "status": "initiated",
+    "steps": [
+      "Expand search parameters",
+      "Check alternative spellings/names",
+      "Verify time period coverage",
+      "Test with known positive example",
+      "Document as negative evidence if confirmed"
+    ]
+  },
+  {
+    "id": "cbf4d8c6",
+    "anomaly": {
+      "type": "extreme_high",
+      "severity": "critical",
+      "metric": "collaboration_rate",
+      "value": 1.0,
+      "threshold": 0.95,
+      "message": "100% collaboration detected - highly suspicious",
+      "action": "Verify data completeness and search methodology",
+      "timestamp": "2025-09-17T22:50:48.908857",
+      "context": {
+        "country": "Germany",
+        "sample_size": 500
+      }
+    },
+    "timestamp": "2025-09-17T22:50:48.909860",
+    "status": "initiated",
+    "steps": [
+      "Verify source data completeness",
+      "Check for data duplication",
+      "Validate search query parameters",
+      "Cross-reference with alternative sources",
+      "Calculate confidence interval"
+    ]
+  }
+]

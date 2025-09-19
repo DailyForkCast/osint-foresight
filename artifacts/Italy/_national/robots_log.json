@@ -1,0 +1,71 @@
+{
+  "generated": "2025-09-14T14:20:00Z",
+  "user_agent": "OSINT-Foresight-Bot/1.0",
+  "domains_checked": {
+    "https://www.leonardo.com": {
+      "checked_at": "2025-09-14T14:20:00Z",
+      "allowed": true,
+      "robots_txt_present": true,
+      "disallowed_paths": [
+        "/admin",
+        "/private",
+        "/api"
+      ],
+      "crawl_delay": null,
+      "sitemap": "https://www.leonardo.com/sitemap.xml"
+    },
+    "https://www.fincantieri.com": {
+      "checked_at": "2025-09-14T14:20:00Z",
+      "allowed": true,
+      "robots_txt_present": true,
+      "disallowed_paths": [
+        "/wp-admin",
+        "/wp-includes"
+      ],
+      "crawl_delay": null
+    },
+    "https://www.governo.it": {
+      "checked_at": "2025-09-14T14:20:00Z",
+      "allowed": true,
+      "robots_txt_present": true,
+      "disallowed_paths": [
+        "/admin",
+        "/user"
+      ],
+      "crawl_delay": 1
+    },
+    "https://www.polimi.it": {
+      "checked_at": "2025-09-14T14:20:00Z",
+      "allowed": true,
+      "robots_txt_present": true,
+      "disallowed_paths": [
+        "/intranet",
+        "/servizionline"
+      ]
+    },
+    "https://www.mise.gov.it": {
+      "checked_at": "2025-09-14T14:20:00Z",
+      "allowed": true,
+      "robots_txt_present": true,
+      "note": "Ministry site - Golden Power decisions public"
+    }
+  },
+  "china_specific_checks": {
+    "https://www.yidaiyilu.gov.cn": {
+      "checked_at": "2025-09-14T14:20:00Z",
+      "allowed": true,
+      "note": "BRI official site - Italy content available"
+    },
+    "https://www.aei.org": {
+      "checked_at": "2025-09-14T14:20:00Z",
+      "allowed": true,
+      "note": "China Global Investment Tracker accessible"
+    }
+  },
+  "blocked_domains": [],
+  "rate_limits": {
+    "default_delay": 1,
+    "respectful_crawling": true,
+    "max_concurrent": 2
+  }
+}

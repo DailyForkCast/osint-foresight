@@ -1,0 +1,71 @@
+{
+  "research_collaboration": {
+    "co_authorship_2023": {
+      "total_international": 42341,
+      "top_partners": [
+        {"country": "US", "papers": 8234, "domains": ["Physics", "Medicine", "Space"]},
+        {"country": "Germany", "papers": 6123, "domains": ["Engineering", "Materials"]},
+        {"country": "France", "papers": 5892, "domains": ["Space", "Physics", "Energy"]},
+        {"country": "UK", "papers": 5234, "domains": ["Medicine", "AI", "Physics"]},
+        {"country": "China", "papers": 3421, "domains": ["Materials", "Chemistry"], "trend": "declining"}
+      ],
+      "sensitive_collaborations": [
+        {
+          "partner": "Chinese Academy of Sciences",
+          "papers": 234,
+          "domains": ["Quantum", "Materials"],
+          "risk": "Dual-use concern"
+        }
+      ]
+    },
+    "citation_patterns": {
+      "field_weighted_citation_impact": 1.23,
+      "highly_cited_papers": 892,
+      "top_fields": ["Physics", "Medicine", "Engineering"]
+    }
+  },
+  "technology_transfer": {
+    "joint_patents": {
+      "total_2023": 234,
+      "with_eu": 156,
+      "with_us": 38,
+      "with_china": 3,
+      "key_technologies": ["Aerospace", "Automotive", "Pharma"]
+    },
+    "licensing": {
+      "outbound": 123,
+      "inbound": 234,
+      "balance": "Net importer",
+      "key_partners": ["US", "Germany", "France"]
+    },
+    "standards_participation": {
+      "iso_committees": 234,
+      "leadership_roles": 23,
+      "key_areas": ["Manufacturing", "Aerospace", "ICT"]
+    }
+  },
+  "risk_patterns": {
+    "dual_use_concerns": [
+      {
+        "technology": "Quantum computing",
+        "partners": ["China", "Russia"],
+        "publications": 45,
+        "risk_level": "Medium"
+      },
+      {
+        "technology": "Advanced materials",
+        "partners": ["China"],
+        "publications": 123,
+        "risk_level": "Medium"
+      }
+    ],
+    "sensitive_entity_ties": [
+      {
+        "entity": "National University of Defense Technology (China)",
+        "collaborations": 12,
+        "last_known": 2022,
+        "status": "Under review"
+      }
+    ]
+  }
+}

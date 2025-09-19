@@ -1,0 +1,51 @@
+{
+  "taxonomy": {
+    "civilian_dual_use": [
+      "AI & Autonomy",
+      "Advanced Computing & Semiconductors",
+      "Quantum Technologies",
+      "Communications & Networking",
+      "Photonics, Sensing & EW",
+      "Space Systems & GEOINT",
+      "Materials & Manufacturing",
+      "Energy & Power",
+      "Transportation & Hypersonics",
+      "Biotechnology & Health",
+      "Robotics & HMI",
+      "Security & Cyber",
+      "Data Infrastructure",
+      "Smart Cities & Critical Infrastructure",
+      "Agri-/Climate Tech"
+    ],
+    "nato_capabilities": {
+      "joint_enablers": ["ISR", "strategic_airlift", "AAR", "SATCOM"],
+      "high_end_warfare": ["A2/AD", "precision_strike", "EW", "cyber"],
+      "readiness": ["NRF", "VJTF", "EFP", "air_policing"],
+      "emerging": ["AI", "quantum", "hypersonics", "space", "biotech"]
+    },
+    "italy_specializations": [
+      "Space systems (COSMO-SkyMed)",
+      "Naval systems & shipbuilding",
+      "Helicopters & rotorcraft",
+      "Cybersecurity",
+      "Satellite communications"
+    ]
+  },
+  "key_terms": {
+    "dual_use": "Technologies with both civilian and military applications",
+    "MCF": "Military-Civil Fusion (军民融合)",
+    "STANAG": "NATO Standardization Agreement",
+    "DIANA": "Defence Innovation Accelerator for the North Atlantic",
+    "NIF": "NATO Innovation Fund",
+    "PNRR": "Piano Nazionale di Ripresa e Resilienza (Italy's Recovery Plan)"
+  },
+  "entity_resolution": {
+    "key_italian_entities": {
+      "Leonardo": {"LEI": "549300RYRRNDMB5GCF59", "type": "defense_prime"},
+      "Fincantieri": {"LEI": "549300X7FFNWKQ2PUU96", "type": "shipbuilder"},
+      "Telespazio": {"type": "space_JV", "parents": ["Leonardo", "Thales"]},
+      "CNR": {"ROR": "00brf2d87", "type": "research_council"},
+      "ENEA": {"ROR": "00xfd0g83", "type": "energy_research"}
+    }
+  }
+}

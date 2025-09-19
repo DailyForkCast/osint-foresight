@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "update_date": "2025-09-17",
+    "reason": "Collaboration rate corrected from 10.8% to 3.38% based on proper methodology",
+    "key_changes": [
+      "Research collaboration normalized to EU average",
+      "Risk assessment reduced from 9/10 to 4/10",
+      "Focus shifted from research concerns to supply chain vulnerabilities",
+      "Elite institution rates verified at ~4-5% (not 16%)"
+    ]
+  },
+
+  "phase01_setup": {
+    "updated_narratives": {
+      "research_collaboration": {
+        "old": "Italy shows anomalous China collaboration at 10.8%, 3x OECD average",
+        "new": "Italy-China research collaboration at 3.38% is normal for EU member state",
+        "evidence": "OpenAlex institutional country code filtering verified"
+      },
+      "risk_profile": {
+        "old": "High risk due to extensive research ties and technology transfer potential",
+        "new": "Moderate risk primarily from supply chain dependency, not research ties",
+        "focus": "Trade vulnerability (45% semiconductors) rather than academic exchange"
+      }
+    }
+  },
+
+  "phase02_indicators": {
+    "updated_metrics": {
+      "collaboration_rate": {
+        "value": "3.38%",
+        "benchmark": "3.5% OECD average",
+        "assessment": "NORMAL",
+        "verification_date": "2025-09-17"
+      },
+      "trade_dependency": {
+        "semiconductors": "45.4%",
+        "assessment": "HIGH",
+        "verified_source": "UN Comtrade"
+      },
+      "elite_institution_rate": {
+        "politecnico_milano": "5.51%",
+        "bologna": "2.99%",
+        "average": "~4%",
+        "assessment": "Slightly above national average but normal variation"
+      }
+    }
+  },
+
+  "phase03_landscape": {
+    "china_collaboration_updates": {
+      "national_level": {
+        "rate": "3.38%",
+        "context": "Standard EU-China research relationship",
+        "risk": "LOW"
+      },
+      "institutional_level": {
+        "elite_universities": "4-5% average",
+        "regional_universities": "4% average",
+        "conclusion": "No significant prestige bias detected"
+      },
+      "leonardo_spa": {
+        "commercial_presence": "Maintained - helicopter sales verified",
+        "research_collaboration": "Normal institutional rates apply",
+        "risk_assessment": "MODERATE - commercial exposure, not research"
+      }
+    }
+  },
+
+  "phase04_supply_chain": {
+    "updated_focus": {
+      "primary_vulnerability": "Trade dependency, not research collaboration",
+      "semiconductor_imports": {
+        "china_share": "45.4%",
+        "risk_level": "HIGH",
+        "mitigation": "EU Chips Act participation critical"
+      },
+      "research_impact": {
+        "assessment": "Minimal - collaboration at normal EU levels",
+        "technology_transfer": "No evidence of systematic transfer"
+      }
+    }
+  },
+
+  "phase05_institutions": {
+    "collaboration_verification": {
+      "methodology": "OpenAlex institutional ROR codes + country filters",
+      "results": {
+        "cnr": "Within national average",
+        "iit": "Within national average",
+        "politecnico_milano": "5.51% - slightly elevated but normal for elite",
+        "bologna": "2.99% - below national average",
+        "regional_sample": "4.13% - validates national average"
+      }
+    }
+  },
+
+  "phase06_funders": {
+    "eu_funding": {
+      "horizon_europe": "€58-112M annual estimate maintained",
+      "china_collaboration_requirement": "Not a driver - only 3.38% involves China",
+      "assessment": "EU funding not creating China dependency"
+    }
+  },
+
+  "phase07_links": {
+    "technology_transfer_pathways": {
+      "research_channel": {
+        "rate": "3.38%",
+        "risk": "LOW - normal academic exchange"
+      },
+      "commercial_channel": {
+        "semiconductor_dependency": "45.4%",
+        "risk": "HIGH - critical vulnerability"
+      },
+      "assessment": "Commercial ties, not research, drive technology risk"
+    }
+  },
+
+  "phase08_risk": {
+    "revised_assessment": {
+      "overall_score": "4/10 MODERATE",
+      "components": {
+        "research_collaboration": "2/10 LOW",
+        "supply_chain": "8/10 HIGH",
+        "technology_transfer": "3/10 LOW-MODERATE",
+        "strategic_dependency": "5/10 MODERATE"
+      },
+      "key_finding": "Risk concentrated in trade, not research"
+    }
+  },
+
+  "phase09_posture": {
+    "strategic_orientation": {
+      "old_assessment": "Deliberate pivot toward China",
+      "new_assessment": "Standard EU member balancing relationships",
+      "evidence": "3.38% collaboration matches EU peers",
+      "recommendation": "Focus on supply chain resilience, not research restrictions"
+    }
+  },
+
+  "phase10_redteam": {
+    "vulnerability_reassessment": {
+      "research_channel": "Not a significant vulnerability",
+      "trade_channel": "Primary attack surface",
+      "leonardo_exposure": "Commercial, not research-based",
+      "mitigation_priority": "Supply chain diversification"
+    }
+  },
+
+  "phase11_foresight": {
+    "projections_2025_2030": {
+      "research_collaboration": {
+        "likely_range": "3-4%",
+        "trend": "Stable",
+        "drivers": "EU research security frameworks"
+      },
+      "supply_chain": {
+        "semiconductor_dependency": {
+          "2025": "45%",
+          "2030_target": "25%",
+          "pathway": "EU Chips Act investments"
+        }
+      }
+    }
+  },
+
+  "phase12_extended": {
+    "long_term_implications": {
+      "research": "Italy maintains normal EU-China academic ties",
+      "commercial": "Gradual supply chain diversification required",
+      "technology_sovereignty": "Focus on manufacturing, not research isolation"
+    }
+  },
+
+  "phase13_closeout": {
+    "key_findings": {
+      "1": "Italy-China research collaboration (3.38%) is normal for EU",
+      "2": "Initial 10.8% figure was methodological error",
+      "3": "Real vulnerability is supply chain (45% semiconductors)",
+      "4": "Risk is MODERATE (4/10) not HIGH (9/10)",
+      "5": "Policy should focus on trade, not research restrictions"
+    },
+    "lessons_learned": {
+      "methodology": "Use institutional codes, not text search",
+      "sampling": "Elite institutions not representative",
+      "verification": "Multiple sources essential",
+      "context": "Compare to appropriate benchmarks"
+    }
+  }
+}

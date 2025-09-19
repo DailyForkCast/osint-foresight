@@ -1,0 +1,98 @@
+{
+  "summary": {
+    "total_projects_analyzed": 0,
+    "italian_coordinated": 0,
+    "total_italian_funding": 0,
+    "chinese_partnerships": 0,
+    "high_value_projects": 0,
+    "technology_areas_analyzed": 8
+  },
+  "italian_coordinators": [],
+  "italian_participants": [],
+  "by_program": {},
+  "by_technology": {
+    "artificial intelligence": {
+      "area": "artificial intelligence",
+      "total_projects": 0,
+      "total_funding": 0,
+      "italian_funding": 0,
+      "as_coordinator": 0,
+      "with_china": 0,
+      "top_italian_organizations": {}
+    },
+    "quantum": {
+      "area": "quantum",
+      "total_projects": 0,
+      "total_funding": 0,
+      "italian_funding": 0,
+      "as_coordinator": 0,
+      "with_china": 0,
+      "top_italian_organizations": {}
+    },
+    "semiconductors": {
+      "area": "semiconductors",
+      "total_projects": 0,
+      "total_funding": 0,
+      "italian_funding": 0,
+      "as_coordinator": 0,
+      "with_china": 0,
+      "top_italian_organizations": {}
+    },
+    "aerospace": {
+      "area": "aerospace",
+      "total_projects": 0,
+      "total_funding": 0,
+      "italian_funding": 0,
+      "as_coordinator": 0,
+      "with_china": 0,
+      "top_italian_organizations": {}
+    },
+    "cybersecurity": {
+      "area": "cybersecurity",
+      "total_projects": 0,
+      "total_funding": 0,
+      "italian_funding": 0,
+      "as_coordinator": 0,
+      "with_china": 0,
+      "top_italian_organizations": {}
+    },
+    "robotics": {
+      "area": "robotics",
+      "total_projects": 0,
+      "total_funding": 0,
+      "italian_funding": 0,
+      "as_coordinator": 0,
+      "with_china": 0,
+      "top_italian_organizations": {}
+    },
+    "advanced materials": {
+      "area": "advanced materials",
+      "total_projects": 0,
+      "total_funding": 0,
+      "italian_funding": 0,
+      "as_coordinator": 0,
+      "with_china": 0,
+      "top_italian_organizations": {}
+    },
+    "biotechnology": {
+      "area": "biotechnology",
+      "total_projects": 0,
+      "total_funding": 0,
+      "italian_funding": 0,
+      "as_coordinator": 0,
+      "with_china": 0,
+      "top_italian_organizations": {}
+    }
+  },
+  "funding_analysis": {
+    "total_italian_participation": 0,
+    "projects_as_coordinator": 0,
+    "total_italian_funding": 0,
+    "coordinator_funding": 0,
+    "average_funding_per_project": 0,
+    "top_funded_organizations": {},
+    "chinese_partnership_projects": 0
+  },
+  "chinese_partnerships": [],
+  "high_value_projects": []
+}

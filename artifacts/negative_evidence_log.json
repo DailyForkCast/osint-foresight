@@ -1,0 +1,158 @@
+[
+  {
+    "timestamp": "2025-09-17T20:35:28.679311",
+    "source": "OpenAlex",
+    "data_size": "350GB",
+    "query": {
+      "query": "test",
+      "country": "Germany"
+    },
+    "actions_taken": [
+      "Log to negative evidence registry",
+      "Expand search parameters",
+      "Verify data completeness",
+      "Check query syntax",
+      "Document absence with confidence score"
+    ],
+    "confidence": "high",
+    "recommendation": "Verify with alternative sources"
+  },
+  {
+    "timestamp": "2025-09-17T20:35:58.330602",
+    "source": "OpenAlex",
+    "data_size": "350GB",
+    "query": {
+      "query": "test",
+      "country": "Germany"
+    },
+    "actions_taken": [
+      "Log to negative evidence registry",
+      "Expand search parameters",
+      "Verify data completeness",
+      "Check query syntax",
+      "Document absence with confidence score"
+    ],
+    "confidence": "high",
+    "recommendation": "Verify with alternative sources"
+  },
+  {
+    "timestamp": "2025-09-17T20:36:16.659014",
+    "source": "OpenAlex",
+    "data_size": "350GB",
+    "query": {
+      "query": "test",
+      "country": "Germany"
+    },
+    "actions_taken": [
+      "Log to negative evidence registry",
+      "Expand search parameters",
+      "Verify data completeness",
+      "Check query syntax",
+      "Document absence with confidence score"
+    ],
+    "confidence": "high",
+    "recommendation": "Verify with alternative sources"
+  },
+  {
+    "timestamp": "2025-09-17T22:41:26.518578",
+    "source": "TestSource",
+    "data_size": "100GB",
+    "query": {
+      "query": "impossible_search_term_xyz123"
+    },
+    "actions_taken": [
+      "Log to negative evidence registry",
+      "Expand search parameters",
+      "Verify data completeness",
+      "Check query syntax",
+      "Document absence with confidence score"
+    ],
+    "confidence": "high",
+    "recommendation": "Verify with alternative sources"
+  },
+  {
+    "timestamp": "2025-09-17T22:41:26.565359",
+    "source": "OpenAlex",
+    "data_size": "350GB",
+    "query": {
+      "query": "Slovakia nanotechnology China"
+    },
+    "actions_taken": [
+      "Log to negative evidence registry",
+      "Expand search parameters",
+      "Verify data completeness",
+      "Check query syntax",
+      "Document absence with confidence score"
+    ],
+    "confidence": "high",
+    "recommendation": "Verify with alternative sources"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:37.686187",
+    "source": "TestSource",
+    "data_size": "100GB",
+    "query": {
+      "query": "impossible_search_term_xyz123"
+    },
+    "actions_taken": [
+      "Log to negative evidence registry",
+      "Expand search parameters",
+      "Verify data completeness",
+      "Check query syntax",
+      "Document absence with confidence score"
+    ],
+    "confidence": "high",
+    "recommendation": "Verify with alternative sources"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:37.792775",
+    "source": "OpenAlex",
+    "data_size": "350GB",
+    "query": {
+      "query": "Slovakia nanotechnology China"
+    },
+    "actions_taken": [
+      "Log to negative evidence registry",
+      "Expand search parameters",
+      "Verify data completeness",
+      "Check query syntax",
+      "Document absence with confidence score"
+    ],
+    "confidence": "high",
+    "recommendation": "Verify with alternative sources"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:48.860651",
+    "source": "TestSource",
+    "data_size": "100GB",
+    "query": {
+      "query": "impossible_search_term_xyz123"
+    },
+    "actions_taken": [
+      "Log to negative evidence registry",
+      "Expand search parameters",
+      "Verify data completeness",
+      "Check query syntax",
+      "Document absence with confidence score"
+    ],
+    "confidence": "high",
+    "recommendation": "Verify with alternative sources"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:48.927366",
+    "source": "OpenAlex",
+    "data_size": "350GB",
+    "query": {
+      "query": "Slovakia nanotechnology China"
+    },
+    "actions_taken": [
+      "Log to negative evidence registry",
+      "Expand search parameters",
+      "Verify data completeness",
+      "Check query syntax",
+      "Document absence with confidence score"
+    ],
+    "confidence": "high",
+    "recommendation": "Verify with alternative sources"
+  }
+]

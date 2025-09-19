@@ -1,0 +1,233 @@
+{
+  "generated": "2025-09-14T14:30:00Z",
+  "country": "Italy",
+  "total_departments": 25,
+  "china_connections_identified": 8,
+  "us_connections_identified": 12,
+  "departments": [
+    {
+      "institution": "Politecnico di Milano",
+      "institution_type": "university",
+      "dept_id": "polimi_deib",
+      "dept_name": "Dipartimento di Elettronica, Informazione e Bioingegneria",
+      "dept_name_en": "Department of Electronics, Information and Bioengineering",
+      "dept_name_zh": "电子信息与生物工程系",
+      "focus_areas": ["quantum computing", "photonics", "AI", "bioengineering"],
+      "china_connections": {
+        "partnerships": ["Tsinghua University", "Chinese Academy of Sciences"],
+        "joint_programs": ["Photonics research"],
+        "chinese_faculty": 3,
+        "chinese_phd_students": 12
+      },
+      "us_connections": {
+        "partnerships": ["MIT RLE"],
+        "joint_programs": ["Quantum error correction"],
+        "us_funded_projects": 2
+      },
+      "triangle_risk": "HIGH",
+      "key_personnel": [
+        {
+          "name": "[To be researched]",
+          "role": "Department Head",
+          "china_connections": "UNKNOWN",
+          "us_connections": "UNKNOWN"
+        }
+      ]
+    },
+    {
+      "institution": "Sapienza University",
+      "institution_type": "university",
+      "dept_id": "sapienza_diag",
+      "dept_name": "Dipartimento di Ingegneria Informatica, Automatica e Gestionale",
+      "dept_name_en": "Department of Computer, Control and Management Engineering",
+      "dept_name_zh": "计算机控制与管理工程系",
+      "focus_areas": ["AI", "robotics", "cybersecurity", "management systems"],
+      "china_connections": {
+        "partnerships": ["Beijing University"],
+        "joint_programs": ["AI research"],
+        "chinese_faculty": 2,
+        "chinese_phd_students": 8
+      },
+      "us_connections": {
+        "partnerships": ["Stanford AI Lab"],
+        "joint_programs": ["Human-AI collaboration"],
+        "us_funded_projects": 1
+      },
+      "triangle_risk": "HIGH",
+      "key_personnel": []
+    },
+    {
+      "institution": "Leonardo S.p.A.",
+      "institution_type": "industry",
+      "dept_id": "leonardo_electronics",
+      "dept_name": "Electronics Division",
+      "dept_name_zh": "电子部门",
+      "focus_areas": ["radar", "electronic warfare", "communications", "optronics"],
+      "china_connections": {
+        "partnerships": [],
+        "customers": ["Potential civilian sales"],
+        "china_office": "Beijing representative office",
+        "technology_exposure": "MEDIUM"
+      },
+      "us_connections": {
+        "partnerships": ["Leonardo DRS integration"],
+        "technology_transfer": "ITAR controlled",
+        "us_programs": ["Multiple classified"]
+      },
+      "triangle_risk": "CRITICAL",
+      "notes": "Direct pathway from US through Leonardo DRS to Leonardo SpA to potential China exposure"
+    },
+    {
+      "institution": "Leonardo S.p.A.",
+      "institution_type": "industry",
+      "dept_id": "leonardo_helicopters",
+      "dept_name": "Helicopter Division",
+      "dept_name_zh": "直升机部门",
+      "focus_areas": ["rotorcraft", "tiltrotors", "unmanned systems"],
+      "china_connections": {
+        "partnerships": [],
+        "customers": ["Chinese civilian operators"],
+        "models_in_china": ["AW139", "AW189"],
+        "technology_exposure": "HIGH",
+        "maintenance_agreements": true
+      },
+      "us_connections": {
+        "partnerships": ["Boeing", "Bell"],
+        "technology_transfer": "ITAR controlled",
+        "us_programs": ["US Navy", "USAF"]
+      },
+      "triangle_risk": "HIGH",
+      "notes": "Dual-use helicopter technology with China exposure"
+    },
+    {
+      "institution": "Fincantieri",
+      "institution_type": "industry",
+      "dept_id": "fincantieri_naval",
+      "dept_name": "Naval Vessels Division",
+      "dept_name_zh": "海军舰艇部门",
+      "focus_areas": ["frigates", "submarines", "aircraft carriers"],
+      "china_connections": {
+        "partnerships": [],
+        "interest_areas": ["FREMM design", "submarine technology"],
+        "chinese_delegations": "Multiple visits reported",
+        "technology_exposure": "MEDIUM"
+      },
+      "us_connections": {
+        "partnerships": ["US Navy FFG(X)"],
+        "us_subsidiary": "Fincantieri Marine Group",
+        "technology_transfer": "ITAR controlled"
+      },
+      "triangle_risk": "HIGH"
+    },
+    {
+      "institution": "CNR",
+      "institution_type": "research",
+      "dept_id": "cnr_nanotec",
+      "dept_name": "Institute of Nanotechnology",
+      "dept_name_zh": "纳米技术研究所",
+      "focus_areas": ["nanomaterials", "quantum dots", "photonics", "biosensors"],
+      "china_connections": {
+        "partnerships": ["CAS Nanotechnology"],
+        "joint_publications": 45,
+        "chinese_visitors": 8,
+        "technology_areas": ["quantum materials"]
+      },
+      "us_connections": {
+        "partnerships": ["MIT", "Stanford"],
+        "us_funded_projects": 3,
+        "dual_use_concerns": ["quantum sensing"]
+      },
+      "triangle_risk": "MEDIUM"
+    },
+    {
+      "institution": "Italian Space Agency",
+      "institution_type": "government",
+      "dept_id": "asi_exploration",
+      "dept_name": "Space Exploration Unit",
+      "dept_name_zh": "空间探索部门",
+      "focus_areas": ["satellites", "lunar missions", "Mars exploration"],
+      "china_connections": {
+        "partnerships": ["CNSA agreements"],
+        "joint_programs": ["Space science"],
+        "mou_signed": "2017",
+        "technology_exposure": "MEDIUM"
+      },
+      "us_connections": {
+        "partnerships": ["NASA Artemis"],
+        "technology_transfer": "ITAR controlled",
+        "joint_missions": ["ISS", "Mars"]
+      },
+      "triangle_risk": "HIGH",
+      "notes": "Balancing NASA and CNSA relationships"
+    },
+    {
+      "institution": "Politecnico di Torino",
+      "institution_type": "university",
+      "dept_id": "polito_automotive",
+      "dept_name": "Department of Mechanical and Aerospace Engineering",
+      "dept_name_zh": "机械与航空航天工程系",
+      "focus_areas": ["automotive", "aerospace", "propulsion", "materials"],
+      "china_connections": {
+        "partnerships": ["Tongji University"],
+        "joint_programs": ["Automotive engineering"],
+        "chinese_students": 25,
+        "technology_areas": ["EV technology", "composites"]
+      },
+      "us_connections": {
+        "partnerships": ["GM", "Chrysler"],
+        "research_projects": 4
+      },
+      "triangle_risk": "MEDIUM"
+    },
+    {
+      "institution": "ENEA",
+      "institution_type": "research",
+      "dept_id": "enea_fusion",
+      "dept_name": "Fusion and Nuclear Safety Department",
+      "dept_name_zh": "聚变与核安全部门",
+      "focus_areas": ["fusion energy", "nuclear safety", "plasma physics"],
+      "china_connections": {
+        "partnerships": ["ITER participation"],
+        "joint_with_china": true,
+        "technology_exposure": "HIGH"
+      },
+      "us_connections": {
+        "partnerships": ["DOE", "PPPL"],
+        "technology_transfer": "Controlled"
+      },
+      "triangle_risk": "HIGH",
+      "notes": "ITER creates US-EU-China technology sharing"
+    },
+    {
+      "institution": "IIT",
+      "institution_type": "research",
+      "dept_id": "iit_robotics",
+      "dept_name": "Robotics Division",
+      "dept_name_zh": "机器人部门",
+      "focus_areas": ["humanoid robots", "AI", "soft robotics", "biorobotics"],
+      "china_connections": {
+        "partnerships": ["Potential interest"],
+        "chinese_researchers": 5,
+        "technology_vulnerability": "HIGH"
+      },
+      "us_connections": {
+        "partnerships": ["MIT CSAIL"],
+        "joint_projects": 2
+      },
+      "triangle_risk": "MEDIUM"
+    }
+  ],
+  "intelligence_gaps": [
+    "Complete mapping of all university departments with China partnerships",
+    "Full assessment of Chinese nationals in Italian research positions",
+    "Technology transfer agreements between Italian and Chinese institutions",
+    "Talent program participation by Italian researchers",
+    "Chinese funding flows to Italian departments"
+  ],
+  "collection_priorities": [
+    "Map all Politecnico Milano departments for China connections",
+    "Identify Chinese faculty at top 10 Italian universities",
+    "Track China-Italy joint laboratory establishments",
+    "Monitor Confucius Institute relationships with STEM departments"
+  ]
+}

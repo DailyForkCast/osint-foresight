@@ -1,0 +1,351 @@
+{
+  "country": "Italy",
+  "timestamp": "2025-09-19T07:25:00.428502",
+  "phase_results": {
+    "phase00": {
+      "phase": 0,
+      "status": "FAIL",
+      "artifacts_found": 1,
+      "tests_run": [
+        "threat_specificity",
+        "mcf_sources_initialized",
+        "conference_baseline",
+        "ror_configured"
+      ],
+      "passed_tests": [
+        "mcf_sources_initialized"
+      ],
+      "failed_tests": [
+        "threat_specificity",
+        "conference_baseline",
+        "ror_configured"
+      ],
+      "warnings": []
+    },
+    "phase01": {
+      "phase": 1,
+      "status": "FAIL",
+      "artifacts_found": 2,
+      "tests_run": [
+        "confidence_scale_0_1",
+        "uncertainty_present",
+        "multiple_sources",
+        "statistical_baseline",
+        "counterfactual_baseline"
+      ],
+      "passed_tests": [],
+      "failed_tests": [
+        "confidence_scale_0_1",
+        "uncertainty_present",
+        "multiple_sources",
+        "statistical_baseline",
+        "counterfactual_baseline"
+      ],
+      "warnings": []
+    },
+    "phase02": {
+      "phase": 2,
+      "status": "FAIL",
+      "artifacts_found": 2,
+      "tests_run": [
+        "confidence_scale_0_1",
+        "uncertainty_present",
+        "multiple_sources",
+        "statistical_baseline",
+        "counterfactual_baseline"
+      ],
+      "passed_tests": [
+        "confidence_scale_0_1",
+        "uncertainty_present",
+        "statistical_baseline"
+      ],
+      "failed_tests": [
+        "multiple_sources",
+        "counterfactual_baseline"
+      ],
+      "warnings": []
+    },
+    "phase03": {
+      "phase": 3,
+      "status": "FAIL",
+      "artifacts_found": 3,
+      "tests_run": [
+        "technology_specificity",
+        "ror_normalization",
+        "counterfactual_analysis",
+        "china_overlap_specific",
+        "leonardo_standard"
+      ],
+      "passed_tests": [
+        "technology_specificity",
+        "ror_normalization",
+        "china_overlap_specific",
+        "leonardo_standard"
+      ],
+      "failed_tests": [
+        "counterfactual_analysis"
+      ],
+      "warnings": []
+    },
+    "phase04": {
+      "phase": 4,
+      "status": "FAIL",
+      "artifacts_found": 5,
+      "tests_run": [
+        "component_specificity",
+        "china_dependency_quantified",
+        "code_dependencies",
+        "baseline_comparison",
+        "alternatives_assessed"
+      ],
+      "passed_tests": [
+        "component_specificity",
+        "china_dependency_quantified",
+        "alternatives_assessed"
+      ],
+      "failed_tests": [
+        "code_dependencies",
+        "baseline_comparison"
+      ],
+      "warnings": []
+    },
+    "phase05": {
+      "phase": 5,
+      "status": "FAIL",
+      "artifacts_found": 4,
+      "tests_run": [
+        "institution_normalization",
+        "funding_transparency",
+        "conference_connections",
+        "standards_participation",
+        "counterfactual_partnerships"
+      ],
+      "passed_tests": [
+        "institution_normalization",
+        "funding_transparency"
+      ],
+      "failed_tests": [
+        "conference_connections",
+        "standards_participation",
+        "counterfactual_partnerships"
+      ],
+      "warnings": []
+    },
+    "phase06": {
+      "phase": 6,
+      "status": "FAIL",
+      "artifacts_found": 3,
+      "tests_run": [
+        "institution_normalization",
+        "funding_transparency",
+        "conference_connections",
+        "standards_participation",
+        "counterfactual_partnerships"
+      ],
+      "passed_tests": [],
+      "failed_tests": [
+        "institution_normalization",
+        "funding_transparency",
+        "conference_connections",
+        "standards_participation",
+        "counterfactual_partnerships"
+      ],
+      "warnings": []
+    },
+    "phase07": {
+      "phase": 7,
+      "status": "FAIL",
+      "artifacts_found": 4,
+      "tests_run": [
+        "institution_normalization",
+        "funding_transparency",
+        "conference_connections",
+        "standards_participation",
+        "counterfactual_partnerships"
+      ],
+      "passed_tests": [
+        "institution_normalization",
+        "standards_participation"
+      ],
+      "failed_tests": [
+        "funding_transparency",
+        "conference_connections",
+        "counterfactual_partnerships"
+      ],
+      "warnings": []
+    },
+    "phase08": {
+      "phase": 8,
+      "status": "FAIL",
+      "artifacts_found": 3,
+      "tests_run": [
+        "risk_specificity",
+        "counterfactual_validation",
+        "confidence_calibration",
+        "alternative_hypotheses",
+        "bombshell_validation",
+        "oversight_gaps"
+      ],
+      "passed_tests": [
+        "risk_specificity",
+        "alternative_hypotheses",
+        "oversight_gaps"
+      ],
+      "failed_tests": [
+        "counterfactual_validation",
+        "confidence_calibration",
+        "bombshell_validation"
+      ],
+      "warnings": [
+        "CRITICAL: Phase 8 validation failures require immediate attention"
+      ]
+    },
+    "phase09": {
+      "phase": 9,
+      "status": "FAIL",
+      "artifacts_found": 4,
+      "tests_run": [
+        "negative_evidence",
+        "forecast_uncertainty",
+        "deception_indicators",
+        "policy_validation"
+      ],
+      "passed_tests": [
+        "negative_evidence",
+        "deception_indicators",
+        "policy_validation"
+      ],
+      "failed_tests": [
+        "forecast_uncertainty"
+      ],
+      "warnings": []
+    },
+    "phase10": {
+      "phase": 10,
+      "status": "FAIL",
+      "artifacts_found": 1,
+      "tests_run": [
+        "negative_evidence",
+        "forecast_uncertainty",
+        "deception_indicators",
+        "policy_validation"
+      ],
+      "passed_tests": [],
+      "failed_tests": [
+        "negative_evidence",
+        "forecast_uncertainty",
+        "deception_indicators",
+        "policy_validation"
+      ],
+      "warnings": []
+    },
+    "phase11": {
+      "phase": 11,
+      "status": "FAIL",
+      "artifacts_found": 3,
+      "tests_run": [
+        "negative_evidence",
+        "forecast_uncertainty",
+        "deception_indicators",
+        "policy_validation"
+      ],
+      "passed_tests": [],
+      "failed_tests": [
+        "negative_evidence",
+        "forecast_uncertainty",
+        "deception_indicators",
+        "policy_validation"
+      ],
+      "warnings": []
+    },
+    "phase12": {
+      "phase": 12,
+      "status": "FAIL",
+      "artifacts_found": 1,
+      "tests_run": [
+        "negative_evidence",
+        "forecast_uncertainty",
+        "deception_indicators",
+        "policy_validation"
+      ],
+      "passed_tests": [
+        "negative_evidence"
+      ],
+      "failed_tests": [
+        "forecast_uncertainty",
+        "deception_indicators",
+        "policy_validation"
+      ],
+      "warnings": []
+    },
+    "phase13": {
+      "phase": 13,
+      "status": "FAIL",
+      "artifacts_found": 2,
+      "tests_run": [
+        "negative_evidence",
+        "forecast_uncertainty",
+        "deception_indicators",
+        "policy_validation"
+      ],
+      "passed_tests": [
+        "negative_evidence"
+      ],
+      "failed_tests": [
+        "forecast_uncertainty",
+        "deception_indicators",
+        "policy_validation"
+      ],
+      "warnings": []
+    }
+  },
+  "critical_failures": [
+    {
+      "phase": 8,
+      "failures": [
+        "counterfactual_validation",
+        "confidence_calibration",
+        "bombshell_validation"
+      ],
+      "severity": "CRITICAL"
+    }
+  ],
+  "re_analysis_required": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "compliance_score": 35.4,
+  "priority_score": 520,
+  "recommendations": [
+    {
+      "priority": "CRITICAL",
+      "phase": 8,
+      "action": "Complete Phase 8 risk assessment with counterfactual validation",
+      "reason": "Risk assessment is critical for decision-making"
+    },
+    {
+      "priority": "HIGH",
+      "phase": 8,
+      "action": "Fix counterfactual_validation in Phase 8",
+      "reason": "Critical validation requirement"
+    },
+    {
+      "priority": "HIGH",
+      "phase": 8,
+      "action": "Fix confidence_calibration in Phase 8",
+      "reason": "Critical validation requirement"
+    }
+  ]
+}

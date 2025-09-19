@@ -1,0 +1,46 @@
+{
+  "narratives": [
+    {
+      "claim": "Italy is too dependent on Chinese investment and technology",
+      "country": "Italy",
+      "level": "national",
+      "prevalence": {
+        "media_index": 0.68,
+        "policy_refs": [
+          {"doc": "Golden Power Decree", "year": 2022},
+          {"doc": "5G Security Guidelines", "year": 2020}
+        ]
+      },
+      "policy_reactions": [
+        {"type": "legislation", "title": "Enhanced Golden Power screening", "year": 2022},
+        {"type": "export_control", "title": "5G vendor restrictions", "year": 2020}
+      ],
+      "fact_check": {
+        "evidence": [
+          {"metric": "Chinese FDI share", "value": "2.3%", "period": "2019-2024"},
+          {"metric": "Belt and Road exit", "value": "December 2023", "period": "2023"}
+        ],
+        "assessment": "partly true - concerns legitimate but scale overstated"
+      },
+      "implications": "Tighter investment screening may slow innovation funding"
+    },
+    {
+      "claim": "Italy cannot meet NATO 2% defense spending target",
+      "country": "Italy",
+      "level": "national",
+      "prevalence": {
+        "media_index": 0.45,
+        "policy_refs": [
+          {"doc": "Defense Multi-Year Planning Document", "year": 2023}
+        ]
+      },
+      "fact_check": {
+        "evidence": [
+          {"metric": "Defense GDP ratio", "value": "1.46%", "period": "2023"},
+          {"metric": "Projected 2028", "value": "1.6%", "period": "2024-2028"}
+        ],
+        "assessment": "true - structural challenges to reaching 2%"
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "exercise_participation": {
+    "2023_exercises": [
+      {
+        "name": "Steadfast Defender 2023",
+        "role": "Full participant",
+        "forces": "3500 personnel",
+        "capabilities_demonstrated": ["C2", "Logistics", "Air defense"]
+      },
+      {
+        "name": "Neptune Strike 23",
+        "role": "Host nation",
+        "location": "Mediterranean",
+        "naval_assets": ["Carrier Cavour", "3 frigates", "2 submarines"]
+      },
+      {
+        "name": "Defender Europe 23",
+        "role": "Participant",
+        "focus": "Rapid deployment"
+      }
+    ],
+    "leadership_roles": [
+      {
+        "exercise": "Mare Aperto 2023",
+        "role": "Lead nation",
+        "participants": 12,
+        "focus": "Naval operations Mediterranean"
+      }
+    ],
+    "participation_rate": "87%",
+    "missed_exercises": ["Cold Response 2024 (budget constraints)"]
+  },
+  "minilateral_formats": {
+    "active_participation": [
+      {
+        "format": "Med5",
+        "members": ["Italy", "France", "Spain", "Greece", "Cyprus"],
+        "focus": "Mediterranean security",
+        "italian_role": "Co-lead with France"
+      },
+      {
+        "format": "Quad (European)",
+        "members": ["Italy", "France", "Germany", "Spain"],
+        "focus": "Defense industry cooperation"
+      }
+    ],
+    "framework_nation": {
+      "status": true,
+      "framework": "Mediterranean Regional Framework",
+      "followers": ["Albania", "Slovenia", "Croatia"],
+      "capabilities": ["Maritime security", "Crisis management"]
+    }
+  },
+  "sto_collaboration": {
+    "active_projects": 23,
+    "leadership_roles": 4,
+    "key_areas": ["Autonomous systems", "Space", "C4ISR", "Human factors"],
+    "budget_contribution": "4.5M EUR",
+    "personnel": 34
+  },
+  "bilateral_within_nato": {
+    "special_relationships": [
+      {
+        "partner": "France",
+        "agreements": ["Quirinal Treaty 2021"],
+        "defense_cooperation": "Enhanced",
+        "joint_programs": ["SAMP/T", "Horizon frigates"]
+      },
+      {
+        "partner": "UK",
+        "agreements": ["Tempest/GCAP"],
+        "focus": "6th gen fighter"
+      },
+      {
+        "partner": "US",
+        "bases_hosted": 5,
+        "us_forces": 12000,
+        "key_assets": ["Aviano AFB", "NAS Sigonella"]
+      }
+    ]
+  }
+}

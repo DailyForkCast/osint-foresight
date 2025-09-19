@@ -1,0 +1,406 @@
+# Fusion Pipeline Configuration
+# Central configuration for all four fusion pipelines
+
+fusion_pipelines:
+  global_settings:
+    data_root: "F:/fusion_data"
+    confidence_threshold: 0.75
+    temporal_validation: true
+    china_focus: true
+    rate_limit_global: 1.0  # seconds between requests
+
+  pipeline_weights:
+    conference_patent_procurement: 0.3
+    github_dependencies_supply: 0.25
+    standards_adoption_market: 0.25
+    funding_spinout_transfer: 0.2
+
+# Conference→Patent→Procurement Pipeline
+conference_patent_procurement:
+  temporal_windows:
+    conference_to_patent_min_months: 6
+    conference_to_patent_max_months: 24
+    patent_to_procurement_min_months: 12
+    patent_to_procurement_max_months: 36
+
+  confidence_thresholds:
+    technology_matching: 0.75
+    temporal_correlation: 0.70
+    entity_resolution: 0.80
+
+  technology_keywords:
+    ai_ml:
+      - "artificial intelligence"
+      - "machine learning"
+      - "neural network"
+      - "deep learning"
+      - "computer vision"
+      - "natural language processing"
+    quantum:
+      - "quantum computing"
+      - "quantum cryptography"
+      - "quantum sensor"
+      - "quantum communication"
+      - "quantum key distribution"
+    aerospace:
+      - "aircraft"
+      - "helicopter"
+      - "drone"
+      - "aviation"
+      - "aerospace"
+      - "flight control"
+      - "avionics"
+    defense:
+      - "defense"
+      - "military"
+      - "combat"
+      - "weapon"
+      - "missile"
+      - "radar"
+      - "surveillance"
+    cyber:
+      - "cybersecurity"
+      - "cyber defense"
+      - "intrusion detection"
+      - "encryption"
+      - "firewall"
+      - "penetration testing"
+    semiconductors:
+      - "semiconductor"
+      - "microprocessor"
+      - "chip"
+      - "silicon"
+      - "wafer"
+      - "integrated circuit"
+
+# GitHub→Dependencies→Supply Chain Pipeline
+github_dependencies_supply:
+  github_search_terms:
+    - "artificial intelligence"
+    - "machine learning"
+    - "defense"
+    - "aerospace"
+    - "quantum"
+    - "cybersecurity"
+    - "semiconductor"
+    - "surveillance"
+
+  critical_dependencies:
+    - "tensorflow"
+    - "pytorch"
+    - "opencv"
+    - "numpy"
+    - "kubernetes"
+    - "docker"
+    - "openssl"
+    - "nginx"
+    - "apache"
+    - "postgresql"
+    - "mysql"
+    - "redis"
+
+  china_indicators:
+    maintainer_patterns:
+      - "@baidu.com"
+      - "@alibaba.com"
+      - "@tencent.com"
+      - "@bytedance.com"
+      - "@huawei.com"
+      - "@xiaomi.com"
+      - "@qq.com"
+      - "@163.com"
+      - "@sina.com"
+    location_patterns:
+      - "beijing"
+      - "shanghai"
+      - "shenzhen"
+      - "guangzhou"
+      - "hangzhou"
+      - "china"
+      - "prc"
+      - "peoples republic"
+    org_patterns:
+      - "tsinghua"
+      - "peking university"
+      - "chinese academy"
+
+  risk_thresholds:
+    high_dependency_count: 1000
+    china_maintained_threshold: 0.1  # 10%
+    critical_path_threshold: 0.05    # 5%
+    security_advisory_threshold: 5
+
+# Standards→Adoption→Market Position Pipeline
+standards_adoption_market:
+  target_standards_bodies:
+    - "ETSI"
+    - "IETF"
+    - "IEEE"
+    - "ISO"
+    - "IEC"
+    - "3GPP"
+    - "ITU"
+    - "W3C"
+
+  technology_domains:
+    telecommunications:
+      - "5G"
+      - "6G"
+      - "LTE"
+      - "cellular"
+      - "mobile"
+    cybersecurity:
+      - "security"
+      - "crypto"
+      - "authentication"
+      - "privacy"
+    ai_ml:
+      - "artificial intelligence"
+      - "machine learning"
+      - "neural"
+    iot:
+      - "internet of things"
+      - "IoT"
+      - "smart"
+      - "connected"
+    quantum:
+      - "quantum"
+      - "qkd"
+      - "quantum communication"
+    automotive:
+      - "automotive"
+      - "connected vehicle"
+      - "V2X"
+    aerospace:
+      - "aerospace"
+      - "aviation"
+      - "satellite"
+      - "space"
+
+  china_indicators:
+    organizations:
+      - "Huawei"
+      - "ZTE"
+      - "China Mobile"
+      - "China Telecom"
+      - "China Unicom"
+      - "Tencent"
+      - "Alibaba"
+      - "Baidu"
+      - "CAICT"
+      - "CCSA"
+      - "Lenovo"
+      - "Xiaomi"
+      - "OPPO"
+      - "Vivo"
+      - "DJI"
+      - "BYD"
+    countries:
+      - "CN"
+      - "China"
+      - "People's Republic of China"
+    research_institutes:
+      - "Tsinghua University"
+      - "Peking University"
+      - "CAS"
+      - "Chinese Academy of Sciences"
+      - "BUPT"
+      - "CAICT"
+
+# Funding→Spinout→Technology Transfer Pipeline
+funding_spinout_transfer:
+  funding_agencies:
+    eu:
+      - "European Commission"
+      - "ERC"
+      - "Horizon 2020"
+      - "Horizon Europe"
+    us:
+      - "NSF"
+      - "NIH"
+      - "DOD"
+      - "DOE"
+      - "DARPA"
+      - "IARPA"
+    uk:
+      - "UKRI"
+      - "EPSRC"
+      - "BBSRC"
+      - "NERC"
+      - "Innovate UK"
+    germany:
+      - "DFG"
+      - "BMBF"
+      - "BMWi"
+    france:
+      - "ANR"
+      - "CNRS"
+      - "CEA"
+    italy:
+      - "MIUR"
+      - "CNR"
+      - "ENEA"
+
+  spinout_indicators:
+    - "spin-off"
+    - "spinoff"
+    - "spin-out"
+    - "spinout"
+    - "startup"
+    - "start-up"
+    - "technology transfer"
+    - "commercialization"
+    - "licence"
+    - "license"
+    - "intellectual property"
+    - "patent licensing"
+
+  transfer_mechanisms:
+    - "acquisition"
+    - "merger"
+    - "joint venture"
+    - "licensing agreement"
+    - "technology partnership"
+    - "strategic alliance"
+    - "investment"
+    - "research collaboration"
+    - "consulting agreement"
+
+  china_entities:
+    companies:
+      - "Huawei"
+      - "ZTE"
+      - "Tencent"
+      - "Alibaba"
+      - "Baidu"
+      - "ByteDance"
+      - "Xiaomi"
+      - "DJI"
+      - "BYD"
+      - "CATL"
+      - "SMIC"
+      - "Lenovo"
+    investment_funds:
+      - "China Investment Corporation"
+      - "SAFE Investment"
+      - "China Development Bank"
+      - "Tsinghua Holdings"
+      - "Legend Capital"
+      - "IDG Capital"
+      - "Qiming Venture"
+    research_institutes:
+      - "Chinese Academy of Sciences"
+      - "Tsinghua University"
+      - "Peking University"
+      - "CAICT"
+      - "CAS"
+      - "BUPT"
+      - "HKUST"
+
+  risk_indicators:
+    technology_areas:
+      - "artificial intelligence"
+      - "quantum"
+      - "semiconductor"
+      - "aerospace"
+      - "defense"
+      - "cybersecurity"
+      - "biotechnology"
+      - "advanced materials"
+    dual_use_keywords:
+      - "dual-use"
+      - "military application"
+      - "defense application"
+      - "surveillance"
+      - "reconnaissance"
+      - "encryption"
+      - "cryptography"
+
+# Cross-Pipeline Integration Settings
+cross_pipeline_integration:
+  entity_resolution:
+    confidence_threshold: 0.85
+    matching_fields:
+      - "org_ror"
+      - "lei"
+      - "organization_name"
+      - "website_domain"
+
+  temporal_correlation:
+    max_time_gap_months: 48
+    correlation_confidence: 0.70
+
+  china_exposure_calculation:
+    weights:
+      conference_presence: 0.3
+      patent_collaboration: 0.4
+      supply_dependency: 0.2
+      standards_cooperation: 0.1
+
+  alert_thresholds:
+    low_risk: 0.3
+    medium_risk: 0.6
+    high_risk: 0.8
+    critical_risk: 0.9
+
+# Data Source Integration
+data_sources:
+  f_drive_integration:
+    leonardo_drs_data: "F:/data/processed/italy_us_overlap/"
+    sec_filings: "F:/data/collected/sec_edgar/"
+    epo_patents: "F:/data/collected/epo_ops/"
+    uspto_patents: "F:/data/collected/uspto/"
+    procurement_data: "F:/data/collected/ted_europe/"
+    conference_data: "F:/data/collected/conferences/"
+    github_data: "F:/data/collected/github/"
+    standards_data: "F:/data/collected/standards/"
+    funding_data: "F:/data/collected/funding/"
+
+  api_endpoints:
+    ted_europe: "https://ted.europa.eu/api"
+    epo_ops: "https://ops.epo.org/3.2"
+    uspto: "https://search.patentsview.org/api/v1"
+    cordis: "https://cordis.europa.eu/api"
+    github: "https://api.github.com"
+    ietf: "https://datatracker.ietf.org/api/v1"
+    openAlex: "https://api.openalex.org"
+
+# Validation and Quality Control
+validation:
+  required_fields:
+    conference_events: ["event_uid", "date", "participants", "technologies"]
+    patents: ["patent_number", "title", "filing_date", "assignee"]
+    procurement: ["contract_id", "buyer", "supplier", "amount"]
+    dependencies: ["name", "ecosystem", "maintainers"]
+    standards: ["standard_identifier", "standards_body", "organization"]
+    spinouts: ["company_name", "incorporation_date", "founders"]
+
+  quality_gates:
+    minimum_sources_per_claim: 3
+    maximum_data_age_months: 36
+    confidence_score_threshold: 0.75
+
+  negative_evidence_tracking:
+    track_not_found: true
+    document_contradictions: true
+    confidence_adjustment: true
+
+# Output and Reporting
+output:
+  formats:
+    - "json"
+    - "csv"
+    - "xlsx"
+
+  report_templates:
+    executive_summary: true
+    technical_details: true
+    china_exposure_matrix: true
+    risk_assessment: true
+    recommendations: true
+
+  visualization:
+    network_graphs: true
+    timeline_charts: true
+    risk_matrices: true
+    geographic_maps: true

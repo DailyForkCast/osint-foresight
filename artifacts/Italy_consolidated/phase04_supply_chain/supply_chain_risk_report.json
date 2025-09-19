@@ -1,0 +1,848 @@
+{
+  "generated_at": "2025-09-16T16:26:22.291015",
+  "country": "IT",
+  "component_analysis": {
+    "generated_at": "2025-09-16T16:26:22.291015",
+    "country": "IT",
+    "categories": {
+      "semiconductors": {
+        "components": [
+          {
+            "hs_code": "8541",
+            "description": "Semiconductor devices",
+            "year": 2024,
+            "total_imports": 100000000,
+            "china_imports": 45000000,
+            "china_dependence": 45.0,
+            "top_suppliers": [
+              {
+                "country": "CN",
+                "value": 45000000,
+                "share": 45.0
+              },
+              {
+                "country": "US",
+                "value": 20000000,
+                "share": 20.0
+              },
+              {
+                "country": "DE",
+                "value": 15000000,
+                "share": 15.0
+              },
+              {
+                "country": "JP",
+                "value": 10000000,
+                "share": 10.0
+              },
+              {
+                "country": "KR",
+                "value": 5000000,
+                "share": 5.0
+              }
+            ],
+            "concern_country_share": 45.0,
+            "risk_level": "HIGH"
+          },
+          {
+            "hs_code": "8542",
+            "description": "Electronic integrated circuits",
+            "year": 2024,
+            "total_imports": 100000000,
+            "china_imports": 45000000,
+            "china_dependence": 45.0,
+            "top_suppliers": [
+              {
+                "country": "CN",
+                "value": 45000000,
+                "share": 45.0
+              },
+              {
+                "country": "US",
+                "value": 20000000,
+                "share": 20.0
+              },
+              {
+                "country": "DE",
+                "value": 15000000,
+                "share": 15.0
+              },
+              {
+                "country": "JP",
+                "value": 10000000,
+                "share": 10.0
+              },
+              {
+                "country": "KR",
+                "value": 5000000,
+                "share": 5.0
+              }
+            ],
+            "concern_country_share": 45.0,
+            "risk_level": "HIGH"
+          },
+          {
+            "hs_code": "854231",
+            "description": "Electronic integrated circuits: Processors and controllers",
+            "year": 2024,
+            "total_imports": 100000000,
+            "china_imports": 45000000,
+            "china_dependence": 45.0,
+            "top_suppliers": [
+              {
+                "country": "CN",
+                "value": 45000000,
+                "share": 45.0
+              },
+              {
+                "country": "US",
+                "value": 20000000,
+                "share": 20.0
+              },
+              {
+                "country": "DE",
+                "value": 15000000,
+                "share": 15.0
+              },
+              {
+                "country": "JP",
+                "value": 10000000,
+                "share": 10.0
+              },
+              {
+                "country": "KR",
+                "value": 5000000,
+                "share": 5.0
+              }
+            ],
+            "concern_country_share": 45.0,
+            "risk_level": "HIGH"
+          }
+        ],
+        "average_china_dependence": 45.0,
+        "high_risk_count": 3
+      },
+      "critical_materials": {
+        "components": [
+          {
+            "hs_code": "2805",
+            "description": "Unknown",
+            "year": 2024,
+            "total_imports": 100000000,
+            "china_imports": 45000000,
+            "china_dependence": 45.0,
+            "top_suppliers": [
+              {
+                "country": "CN",
+                "value": 45000000,
+                "share": 45.0
+              },
+              {
+                "country": "US",
+                "value": 20000000,
+                "share": 20.0
+              },
+              {
+                "country": "DE",
+                "value": 15000000,
+                "share": 15.0
+              },
+              {
+                "country": "JP",
+                "value": 10000000,
+                "share": 10.0
+              },
+              {
+                "country": "KR",
+                "value": 5000000,
+                "share": 5.0
+              }
+            ],
+            "concern_country_share": 45.0,
+            "risk_level": "HIGH"
+          },
+          {
+            "hs_code": "280530",
+            "description": "Unknown",
+            "year": 2024,
+            "total_imports": 100000000,
+            "china_imports": 45000000,
+            "china_dependence": 45.0,
+            "top_suppliers": [
+              {
+                "country": "CN",
+                "value": 45000000,
+                "share": 45.0
+              },
+              {
+                "country": "US",
+                "value": 20000000,
+                "share": 20.0
+              },
+              {
+                "country": "DE",
+                "value": 15000000,
+                "share": 15.0
+              },
+              {
+                "country": "JP",
+                "value": 10000000,
+                "share": 10.0
+              },
+              {
+                "country": "KR",
+                "value": 5000000,
+                "share": 5.0
+              }
+            ],
+            "concern_country_share": 45.0,
+            "risk_level": "HIGH"
+          },
+          {
+            "hs_code": "2846",
+            "description": "Unknown",
+            "year": 2024,
+            "total_imports": 100000000,
+            "china_imports": 45000000,
+            "china_dependence": 45.0,
+            "top_suppliers": [
+              {
+                "country": "CN",
+                "value": 45000000,
+                "share": 45.0
+              },
+              {
+                "country": "US",
+                "value": 20000000,
+                "share": 20.0
+              },
+              {
+                "country": "DE",
+                "value": 15000000,
+                "share": 15.0
+              },
+              {
+                "country": "JP",
+                "value": 10000000,
+                "share": 10.0
+              },
+              {
+                "country": "KR",
+                "value": 5000000,
+                "share": 5.0
+              }
+            ],
+            "concern_country_share": 45.0,
+            "risk_level": "HIGH"
+          }
+        ],
+        "average_china_dependence": 45.0,
+        "high_risk_count": 3
+      },
+      "aerospace": {
+        "components": [
+          {
+            "hs_code": "8802",
+            "description": "Unknown",
+            "year": 2024,
+            "total_imports": 100000000,
+            "china_imports": 45000000,
+            "china_dependence": 45.0,
+            "top_suppliers": [
+              {
+                "country": "CN",
+                "value": 45000000,
+                "share": 45.0
+              },
+              {
+                "country": "US",
+                "value": 20000000,
+                "share": 20.0
+              },
+              {
+                "country": "DE",
+                "value": 15000000,
+                "share": 15.0
+              },
+              {
+                "country": "JP",
+                "value": 10000000,
+                "share": 10.0
+              },
+              {
+                "country": "KR",
+                "value": 5000000,
+                "share": 5.0
+              }
+            ],
+            "concern_country_share": 45.0,
+            "risk_level": "HIGH"
+          },
+          {
+            "hs_code": "8803",
+            "description": "Unknown",
+            "year": 2024,
+            "total_imports": 100000000,
+            "china_imports": 45000000,
+            "china_dependence": 45.0,
+            "top_suppliers": [
+              {
+                "country": "CN",
+                "value": 45000000,
+                "share": 45.0
+              },
+              {
+                "country": "US",
+                "value": 20000000,
+                "share": 20.0
+              },
+              {
+                "country": "DE",
+                "value": 15000000,
+                "share": 15.0
+              },
+              {
+                "country": "JP",
+                "value": 10000000,
+                "share": 10.0
+              },
+              {
+                "country": "KR",
+                "value": 5000000,
+                "share": 5.0
+              }
+            ],
+            "concern_country_share": 45.0,
+            "risk_level": "HIGH"
+          },
+          {
+            "hs_code": "880330",
+            "description": "Unknown",
+            "year": 2024,
+            "total_imports": 100000000,
+            "china_imports": 45000000,
+            "china_dependence": 45.0,
+            "top_suppliers": [
+              {
+                "country": "CN",
+                "value": 45000000,
+                "share": 45.0
+              },
+              {
+                "country": "US",
+                "value": 20000000,
+                "share": 20.0
+              },
+              {
+                "country": "DE",
+                "value": 15000000,
+                "share": 15.0
+              },
+              {
+                "country": "JP",
+                "value": 10000000,
+                "share": 10.0
+              },
+              {
+                "country": "KR",
+                "value": 5000000,
+                "share": 5.0
+              }
+            ],
+            "concern_country_share": 45.0,
+            "risk_level": "HIGH"
+          }
+        ],
+        "average_china_dependence": 45.0,
+        "high_risk_count": 3
+      },
+      "advanced_tech": {
+        "components": [
+          {
+            "hs_code": "9013",
+            "description": "Unknown",
+            "year": 2024,
+            "total_imports": 100000000,
+            "china_imports": 45000000,
+            "china_dependence": 45.0,
+            "top_suppliers": [
+              {
+                "country": "CN",
+                "value": 45000000,
+                "share": 45.0
+              },
+              {
+                "country": "US",
+                "value": 20000000,
+                "share": 20.0
+              },
+              {
+                "country": "DE",
+                "value": 15000000,
+                "share": 15.0
+              },
+              {
+                "country": "JP",
+                "value": 10000000,
+                "share": 10.0
+              },
+              {
+                "country": "KR",
+                "value": 5000000,
+                "share": 5.0
+              }
+            ],
+            "concern_country_share": 45.0,
+            "risk_level": "HIGH"
+          },
+          {
+            "hs_code": "901320",
+            "description": "Unknown",
+            "year": 2024,
+            "total_imports": 100000000,
+            "china_imports": 45000000,
+            "china_dependence": 45.0,
+            "top_suppliers": [
+              {
+                "country": "CN",
+                "value": 45000000,
+                "share": 45.0
+              },
+              {
+                "country": "US",
+                "value": 20000000,
+                "share": 20.0
+              },
+              {
+                "country": "DE",
+                "value": 15000000,
+                "share": 15.0
+              },
+              {
+                "country": "JP",
+                "value": 10000000,
+                "share": 10.0
+              },
+              {
+                "country": "KR",
+                "value": 5000000,
+                "share": 5.0
+              }
+            ],
+            "concern_country_share": 45.0,
+            "risk_level": "HIGH"
+          },
+          {
+            "hs_code": "9027",
+            "description": "Unknown",
+            "year": 2024,
+            "total_imports": 100000000,
+            "china_imports": 45000000,
+            "china_dependence": 45.0,
+            "top_suppliers": [
+              {
+                "country": "CN",
+                "value": 45000000,
+                "share": 45.0
+              },
+              {
+                "country": "US",
+                "value": 20000000,
+                "share": 20.0
+              },
+              {
+                "country": "DE",
+                "value": 15000000,
+                "share": 15.0
+              },
+              {
+                "country": "JP",
+                "value": 10000000,
+                "share": 10.0
+              },
+              {
+                "country": "KR",
+                "value": 5000000,
+                "share": 5.0
+              }
+            ],
+            "concern_country_share": 45.0,
+            "risk_level": "HIGH"
+          }
+        ],
+        "average_china_dependence": 45.0,
+        "high_risk_count": 3
+      },
+      "energy": {
+        "components": [
+          {
+            "hs_code": "8506",
+            "description": "Unknown",
+            "year": 2024,
+            "total_imports": 100000000,
+            "china_imports": 45000000,
+            "china_dependence": 45.0,
+            "top_suppliers": [
+              {
+                "country": "CN",
+                "value": 45000000,
+                "share": 45.0
+              },
+              {
+                "country": "US",
+                "value": 20000000,
+                "share": 20.0
+              },
+              {
+                "country": "DE",
+                "value": 15000000,
+                "share": 15.0
+              },
+              {
+                "country": "JP",
+                "value": 10000000,
+                "share": 10.0
+              },
+              {
+                "country": "KR",
+                "value": 5000000,
+                "share": 5.0
+              }
+            ],
+            "concern_country_share": 45.0,
+            "risk_level": "HIGH"
+          },
+          {
+            "hs_code": "8507",
+            "description": "Unknown",
+            "year": 2024,
+            "total_imports": 100000000,
+            "china_imports": 45000000,
+            "china_dependence": 45.0,
+            "top_suppliers": [
+              {
+                "country": "CN",
+                "value": 45000000,
+                "share": 45.0
+              },
+              {
+                "country": "US",
+                "value": 20000000,
+                "share": 20.0
+              },
+              {
+                "country": "DE",
+                "value": 15000000,
+                "share": 15.0
+              },
+              {
+                "country": "JP",
+                "value": 10000000,
+                "share": 10.0
+              },
+              {
+                "country": "KR",
+                "value": 5000000,
+                "share": 5.0
+              }
+            ],
+            "concern_country_share": 45.0,
+            "risk_level": "HIGH"
+          },
+          {
+            "hs_code": "850710",
+            "description": "Unknown",
+            "year": 2024,
+            "total_imports": 100000000,
+            "china_imports": 45000000,
+            "china_dependence": 45.0,
+            "top_suppliers": [
+              {
+                "country": "CN",
+                "value": 45000000,
+                "share": 45.0
+              },
+              {
+                "country": "US",
+                "value": 20000000,
+                "share": 20.0
+              },
+              {
+                "country": "DE",
+                "value": 15000000,
+                "share": 15.0
+              },
+              {
+                "country": "JP",
+                "value": 10000000,
+                "share": 10.0
+              },
+              {
+                "country": "KR",
+                "value": 5000000,
+                "share": 5.0
+              }
+            ],
+            "concern_country_share": 45.0,
+            "risk_level": "HIGH"
+          }
+        ],
+        "average_china_dependence": 45.0,
+        "high_risk_count": 3
+      }
+    },
+    "critical_dependencies": [
+      {
+        "category": "semiconductors",
+        "hs_code": "8541",
+        "description": "Semiconductor devices",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "semiconductors",
+        "hs_code": "8542",
+        "description": "Electronic integrated circuits",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "semiconductors",
+        "hs_code": "854231",
+        "description": "Electronic integrated circuits: Processors and controllers",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "critical_materials",
+        "hs_code": "2805",
+        "description": "Alkali or alkaline-earth metals; rare-earth metals",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "critical_materials",
+        "hs_code": "280530",
+        "description": "Rare-earth metals, scandium and yttrium",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "critical_materials",
+        "hs_code": "2846",
+        "description": "Compounds of rare-earth metals",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "aerospace",
+        "hs_code": "8802",
+        "description": "Aircraft, spacecraft, and parts thereof",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "aerospace",
+        "hs_code": "8803",
+        "description": "Parts of aircraft and spacecraft",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "aerospace",
+        "hs_code": "880330",
+        "description": "Parts of aeroplanes or helicopters",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "advanced_tech",
+        "hs_code": "9013",
+        "description": "Optical devices, lasers",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "advanced_tech",
+        "hs_code": "901320",
+        "description": "Lasers, other than laser diodes",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "advanced_tech",
+        "hs_code": "9027",
+        "description": "Instruments for physical or chemical analysis",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "energy",
+        "hs_code": "8506",
+        "description": "Primary cells and primary batteries",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "energy",
+        "hs_code": "8507",
+        "description": "Electric accumulators (batteries)",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      },
+      {
+        "category": "energy",
+        "hs_code": "850710",
+        "description": "Lead-acid accumulators",
+        "china_dependence": 45.0,
+        "risk_level": "HIGH"
+      }
+    ],
+    "recommendations": [
+      "URGENT: 15 components with >40% China dependence require supply chain diversification",
+      "Semiconductor supply chain vulnerability: 45.0% average China dependence",
+      "WARNING: China dependence increasing for 8542 (Electronic integrated circuits)",
+      "WARNING: China dependence increasing for 8541 (Semiconductor devices)",
+      "WARNING: China dependence increasing for 854231 (Electronic integrated circuits: Processors and controllers)"
+    ]
+  },
+  "trend_analysis": {
+    "period": "2022-2025",
+    "components": {
+      "8542": {
+        "description": "Electronic integrated circuits",
+        "yearly_data": [
+          {
+            "year": 2022,
+            "china_dependence": 45.0,
+            "total_imports": 100000000
+          },
+          {
+            "year": 2023,
+            "china_dependence": 45.0,
+            "total_imports": 100000000
+          },
+          {
+            "year": 2024,
+            "china_dependence": 45.0,
+            "total_imports": 100000000
+          },
+          {
+            "year": 2025,
+            "china_dependence": 45.0,
+            "total_imports": 100000000
+          }
+        ],
+        "china_share_trend": [
+          45.0,
+          45.0,
+          45.0,
+          45.0
+        ],
+        "trend_direction": "INCREASING"
+      },
+      "8541": {
+        "description": "Semiconductor devices",
+        "yearly_data": [
+          {
+            "year": 2022,
+            "china_dependence": 45.0,
+            "total_imports": 100000000
+          },
+          {
+            "year": 2023,
+            "china_dependence": 45.0,
+            "total_imports": 100000000
+          },
+          {
+            "year": 2024,
+            "china_dependence": 45.0,
+            "total_imports": 100000000
+          },
+          {
+            "year": 2025,
+            "china_dependence": 45.0,
+            "total_imports": 100000000
+          }
+        ],
+        "china_share_trend": [
+          45.0,
+          45.0,
+          45.0,
+          45.0
+        ],
+        "trend_direction": "INCREASING"
+      },
+      "854231": {
+        "description": "Electronic integrated circuits: Processors and controllers",
+        "yearly_data": [
+          {
+            "year": 2022,
+            "china_dependence": 45.0,
+            "total_imports": 100000000
+          },
+          {
+            "year": 2023,
+            "china_dependence": 45.0,
+            "total_imports": 100000000
+          },
+          {
+            "year": 2024,
+            "china_dependence": 45.0,
+            "total_imports": 100000000
+          },
+          {
+            "year": 2025,
+            "china_dependence": 45.0,
+            "total_imports": 100000000
+          }
+        ],
+        "china_share_trend": [
+          45.0,
+          45.0,
+          45.0,
+          45.0
+        ],
+        "trend_direction": "INCREASING"
+      }
+    }
+  },
+  "risk_summary": {
+    "critical_dependencies": 15,
+    "categories_at_risk": [
+      {
+        "category": "semiconductors",
+        "china_dependence": 45.0,
+        "high_risk_components": 3
+      },
+      {
+        "category": "critical_materials",
+        "china_dependence": 45.0,
+        "high_risk_components": 3
+      },
+      {
+        "category": "aerospace",
+        "china_dependence": 45.0,
+        "high_risk_components": 3
+      },
+      {
+        "category": "advanced_tech",
+        "china_dependence": 45.0,
+        "high_risk_components": 3
+      },
+      {
+        "category": "energy",
+        "china_dependence": 45.0,
+        "high_risk_components": 3
+      }
+    ],
+    "overall_china_dependence": 45.0
+  },
+  "recommendations": [
+    "URGENT: 15 components with >40% China dependence require supply chain diversification",
+    "Semiconductor supply chain vulnerability: 45.0% average China dependence",
+    "WARNING: China dependence increasing for 8542 (Electronic integrated circuits)",
+    "WARNING: China dependence increasing for 8541 (Semiconductor devices)",
+    "WARNING: China dependence increasing for 854231 (Electronic integrated circuits: Processors and controllers)"
+  ]
+}

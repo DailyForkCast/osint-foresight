@@ -1,0 +1,107 @@
+{
+  "policies": [
+    {
+      "id": "POL-001",
+      "name": "National Recovery and Resilience Plan (PNRR)",
+      "type": "Economic Recovery",
+      "status": "Active",
+      "start_date": "2021-07",
+      "end_date": "2026-06",
+      "budget_eur": 191500000000,
+      "tech_components": ["Digital transition", "Green transition", "Infrastructure"],
+      "bindingness": "Legally binding",
+      "monitoring": "EU Commission",
+      "milestones_completed": 171,
+      "milestones_total": 527
+    },
+    {
+      "id": "POL-002",
+      "name": "Golden Power Decree",
+      "type": "Investment Screening",
+      "status": "Active",
+      "start_date": "2012-03",
+      "last_updated": "2023-12",
+      "scope": ["Defense", "Energy", "Communications", "High-tech", "Critical infrastructure"],
+      "bindingness": "Legally binding",
+      "enforcement_actions_2023": 23,
+      "blocks_2023": 3
+    },
+    {
+      "id": "POL-003",
+      "name": "National Strategic Plan for Space Economy",
+      "type": "Sectoral Strategy",
+      "status": "Active",
+      "start_date": "2023-01",
+      "end_date": "2027-12",
+      "budget_eur": 4700000000,
+      "key_programs": ["IRIDE", "Space Factory", "Moon exploration"],
+      "bindingness": "Strategic guidance",
+      "lead_agency": "ASI"
+    },
+    {
+      "id": "POL-004",
+      "name": "National Cybersecurity Strategy",
+      "type": "Security",
+      "status": "Active",
+      "start_date": "2022-05",
+      "end_date": "2026-12",
+      "budget_eur": 623000000,
+      "priorities": ["Critical infrastructure", "Public administration", "Supply chain"],
+      "bindingness": "Partially binding",
+      "lead_agency": "ACN"
+    },
+    {
+      "id": "POL-005",
+      "name": "Defense Multi-Year Planning Document (DPP)",
+      "type": "Defense",
+      "status": "Active",
+      "start_date": "2023-01",
+      "end_date": "2025-12",
+      "budget_eur": 89400000000,
+      "nato_aligned": true,
+      "key_programs": ["Tempest", "U212NFS", "New helicopters"],
+      "bindingness": "Budget authorization",
+      "lead_agency": "MoD"
+    },
+    {
+      "id": "POL-006",
+      "name": "Belt and Road Initiative MoU",
+      "type": "International Agreement",
+      "status": "Terminated",
+      "start_date": "2019-03",
+      "end_date": "2023-12",
+      "reason_terminated": "Limited benefits, security concerns",
+      "bindingness": "Non-binding MoU",
+      "replacement": "Strategic Partnership with China (under negotiation)"
+    },
+    {
+      "id": "POL-007",
+      "name": "National AI Strategy",
+      "type": "Technology",
+      "status": "Active",
+      "start_date": "2024-01",
+      "end_date": "2027-12",
+      "budget_eur": 850000000,
+      "priorities": ["Public sector AI", "Industrial AI", "AI skills"],
+      "bindingness": "Strategic guidance",
+      "lead_agency": "MIMIT"
+    },
+    {
+      "id": "POL-008",
+      "name": "Chips Act National Implementation",
+      "type": "Industrial",
+      "status": "Planning",
+      "expected_start": "2024-Q4",
+      "budget_eur": 2000000000,
+      "focus": ["Power semiconductors", "Packaging", "R&D"],
+      "bindingness": "Will be legally binding",
+      "lead_agency": "MIMIT"
+    }
+  ],
+  "cross_references": {
+    "POL-001": ["POL-003", "POL-004", "POL-007"],
+    "POL-002": ["POL-006"],
+    "POL-004": ["POL-005"],
+    "POL-005": ["POL-003"]
+  }
+}

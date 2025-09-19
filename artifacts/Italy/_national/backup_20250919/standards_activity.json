@@ -1,0 +1,49 @@
+{
+  "standards_participation": {
+    "iso": {
+      "technical_committees": 45,
+      "leadership_positions": 8,
+      "active_standards": 234,
+      "ai_standards": 5,
+      "quantum_standards": 2
+    },
+    "iec": {
+      "technical_committees": 23,
+      "leadership_positions": 3,
+      "focus_areas": ["Electrotechnical", "Semiconductors", "Renewable energy"]
+    },
+    "itu": {
+      "study_groups": 12,
+      "contributions_2023": 67,
+      "5g_6g_involvement": "HIGH"
+    },
+    "etsi": {
+      "working_groups": 34,
+      "specifications_led": 12,
+      "quantum_safe_crypto": "Active participant"
+    },
+    "cen_cenelec": {
+      "committees": 89,
+      "italian_secretariats": 15,
+      "defense_standards": 23
+    }
+  },
+  "nato_standardization": {
+    "stanag_participation": 156,
+    "italian_custodian": 12,
+    "implementation_rate": 0.56,
+    "priority_stanags": ["4586 (UAV)", "4671 (UAV C2)", "5516 (Link 16)"]
+  },
+  "china_standards_interaction": {
+    "joint_committees": 8,
+    "areas_of_concern": ["5G", "AI ethics", "Smart cities"],
+    "influence_operations": "Monitored",
+    "counter_efforts": "EU coordination"
+  },
+  "emerging_standards": {
+    "ai_governance": "Contributing to EU AI Act standards",
+    "quantum_communications": "EuroQCI participant",
+    "hydrogen_economy": "Leading Mediterranean initiatives",
+    "space_traffic": "Active in UN COPUOS"
+  }
+}

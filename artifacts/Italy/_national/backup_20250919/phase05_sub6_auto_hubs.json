@@ -1,0 +1,83 @@
+{
+  "detected_hubs": [
+    {
+      "hub_id": "HUB001",
+      "name": "Milan Innovation District",
+      "type": "Tech cluster",
+      "anchor_institutions": ["Politecnico Milano", "Bocconi", "Human Technopole"],
+      "companies": 1250,
+      "startups": 340,
+      "vc_funding_2023": 890000000,
+      "specializations": ["Fintech", "Biotech", "AI"],
+      "nato_relevance": "DIANA location candidate",
+      "chinese_presence": 23
+    },
+    {
+      "hub_id": "HUB002",
+      "name": "Turin Aerospace Valley",
+      "type": "Industrial cluster",
+      "anchor_institutions": ["Politecnico Torino", "Thales Alenia", "Leonardo"],
+      "companies": 450,
+      "employment": 35000,
+      "specializations": ["Space", "Aviation", "Advanced materials"],
+      "nato_programs": ["DIANA accelerator", "Space COE planning"],
+      "chinese_interest": "HIGH"
+    },
+    {
+      "hub_id": "HUB003",
+      "name": "Trieste Science System",
+      "type": "Research cluster",
+      "anchor_institutions": ["SISSA", "ICTP", "Elettra Sincrotrone"],
+      "research_output": 2340,
+      "international_scientists": 0.45,
+      "specializations": ["Physics", "Materials", "Computational science"],
+      "eu_funding": 234000000,
+      "security_concerns": "Open science vs security balance"
+    },
+    {
+      "hub_id": "HUB004",
+      "name": "Naples Defense Triangle",
+      "type": "Defense cluster",
+      "anchor_institutions": ["NATO JFC Naples", "US Naval Forces Europe", "Leonardo"],
+      "military_presence": 15000,
+      "defense_contractors": 120,
+      "specializations": ["Naval systems", "C4ISR", "Cybersecurity"],
+      "nato_critical": true,
+      "supply_chain_role": "Mediterranean hub"
+    },
+    {
+      "hub_id": "HUB005",
+      "name": "Rome Quantum Valley",
+      "type": "Emerging cluster",
+      "anchor_institutions": ["Sapienza", "CNR", "INFN"],
+      "formation_year": 2023,
+      "initial_funding": 150000000,
+      "specializations": ["Quantum computing", "Quantum sensing", "Quantum communications"],
+      "international_partnerships": 12,
+      "strategic_importance": "CRITICAL"
+    }
+  ],
+  "detection_method": {
+    "algorithms": ["Network analysis", "Patent clustering", "Publication mapping"],
+    "data_sources": ["OpenAlex", "Patents", "Company registrations", "EU funding"],
+    "confidence_threshold": 0.75,
+    "validation": "Manual expert review"
+  },
+  "hub_interactions": {
+    "milan_turin": {
+      "type": "Complementary",
+      "strength": "HIGH",
+      "joint_projects": 45
+    },
+    "turin_rome": {
+      "type": "Space cooperation",
+      "strength": "MEDIUM",
+      "joint_projects": 23
+    },
+    "naples_rome": {
+      "type": "Defense coordination",
+      "strength": "HIGH",
+      "joint_projects": 67
+    }
+  }
+}

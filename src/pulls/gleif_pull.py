@@ -57,26 +57,9 @@ def main():
 
     # 2) Optionally fetch relationships (parents/children) for first N LEIs
     rel_total = 0
-    first_page = outdir / "gleif_leis_p0001.jsonl"
-    leis = []
-    if first_page.exists():
-        for line in first_page.read_text(encoding="utf-8").splitlines():
-            try:
-                it = json.loads(line)
-            except Exception:
-                continue
-            lei = (it.get("id") or "").strip()
-            if lei:
-                leis.append(lei)
-            if len(leis) >= 200:
-                break
-    if leis:
-        rel = get("relationships", {"filter[relationship.startNode.lei][:in]": ",".join(leis), "page[size]": 200})
-        path = outdir / "gleif_relationships.jsonl"
-        with path.open("w", encoding="utf-8") as f:
-            for it in rel.get("data", []) or []:
-                f.write(json.dumps(it, ensure_ascii=False) + "\n")
-        rel_total = len(rel.get("data", []))
+    # Skip relationships for now due to API endpoint issues
+    # TODO: Fix relationships API query format
+    print("Skipping relationships collection (API endpoint needs fixing)")
 
     eid = append_row("GLEIF API", BASE, args.country, f"country={args.country}&pagesize={args.pagesize}")
     print(f"OK gleif: wrote {total} lei records and {rel_total} relationships to {outdir}")

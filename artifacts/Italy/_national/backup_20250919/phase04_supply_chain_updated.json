@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "update_date": "2025-09-17",
+    "key_finding": "Trade dependency (45% semiconductors) is primary risk, not research collaboration (3.38%)"
+  },
+  "critical_components": [
+    {
+      "component": "Semiconductors (all types)",
+      "dependency": "CRITICAL",
+      "china_dependency": "45.4%",
+      "verification": {
+        "source": "UN Comtrade",
+        "date": "2025-09-17",
+        "hs_codes": ["8541", "8542"],
+        "value": "$3.2B imports from China"
+      },
+      "sources": {
+        "China": "45.4%",
+        "Taiwan": "22%",
+        "South Korea": "15%",
+        "Others": "17.6%"
+      },
+      "vulnerability": "No domestic fab capability <28nm",
+      "risk_assessment": {
+        "level": "CRITICAL",
+        "mechanism": "Supply disruption → production halt → defense/civilian impact",
+        "probability": "60-90% in geopolitical crisis",
+        "impact": "Severe - affects all sectors"
+      },
+      "mitigation": {
+        "short_term": "Strategic stockpiling, alternative sourcing",
+        "medium_term": "EU Chips Act participation",
+        "long_term": "Domestic production capability"
+      },
+      "research_collaboration_impact": "MINIMAL - 3.38% collaboration not driving dependency"
+    },
+    {
+      "component": "Rare earth materials",
+      "dependency": "CRITICAL",
+      "sources": ["China (85%)", "Others (15%)"],
+      "applications": ["Defense electronics", "Magnets", "Batteries", "Green tech"],
+      "risk_assessment": {
+        "level": "CRITICAL",
+        "mechanism": "Export restrictions → defense production impact",
+        "leonardo_impact": "Direct - defense electronics dependency",
+        "fincantieri_impact": "Moderate - magnetic systems"
+      },
+      "mitigation": "ERMA membership, recycling, alternative materials research"
+    },
+    {
+      "component": "Battery materials (lithium, cobalt)",
+      "dependency": "HIGH",
+      "china_share": "62%",
+      "impact": "EV transition, energy storage",
+      "risk": "Green transition vulnerability"
+    },
+    {
+      "component": "Titanium (aerospace grade)",
+      "dependency": "Moderate",
+      "sources": ["Russia (30%)", "Kazakhstan (20%)", "Japan (20%)"],
+      "china_exposure": "LOW",
+      "risk": "Russia sanctions impact, not China"
+    }
+  ],
+  "vendor_patterns": {
+    "defense_procurement": {
+      "domestic_content": "65%",
+      "eu_content": "20%",
+      "nato_allied": "10%",
+      "china_direct": "<1%",
+      "china_indirect_components": "10-15% estimated",
+      "key_finding": "China exposure through components, not prime contractors"
+    },
+    "commercial_relationships": {
+      "leonardo_china": {
+        "type": "Commercial sales",
+        "products": "Civilian helicopters",
+        "research_collaboration": "Within 3.38% national average",
+        "risk": "Commercial exposure, not research"
+      },
+      "stmicroelectronics": {
+        "china_operations": "Assembly and test facilities",
+        "risk": "Supply chain integration"
+      }
+    }
+  },
+  "supply_chain_analysis": {
+    "primary_vulnerabilities": [
+      {
+        "area": "Semiconductors",
+        "china_dependency": "45.4%",
+        "risk_level": "CRITICAL",
+        "driver": "Cost and manufacturing capacity"
+      },
+      {
+        "area": "Rare earths",
+        "china_dependency": "85%",
+        "risk_level": "CRITICAL",
+        "driver": "Resource concentration"
+      },
+      {
+        "area": "Battery materials",
+        "china_dependency": "62%",
+        "risk_level": "HIGH",
+        "driver": "Processing dominance"
+      }
+    ],
+    "research_vs_trade": {
+      "research_collaboration": {
+        "rate": "3.38%",
+        "assessment": "NORMAL - Not driving dependency",
+        "risk": "MINIMAL"
+      },
+      "trade_dependency": {
+        "critical_components": "45-85%",
+        "assessment": "HIGH - Primary vulnerability",
+        "risk": "CRITICAL"
+      },
+      "conclusion": "Supply chain risk is commercial, not academic"
+    }
+  },
+  "triangle_vulnerability": {
+    "us_italy_china": {
+      "pathway": "Chinese components → Italian systems → NATO/US integration",
+      "examples": [
+        "Chinese chips in Italian defense electronics",
+        "Rare earths in Leonardo systems used by US",
+        "Battery materials in military vehicles"
+      ],
+      "risk_level": "HIGH",
+      "mitigation": "Component verification, trusted supplier programs"
+    }
+  },
+  "mitigation_strategies": {
+    "immediate": [
+      "Map tier-2 and tier-3 suppliers for China exposure",
+      "Implement component authentication",
+      "Strategic stockpiling of critical components"
+    ],
+    "short_term": [
+      "Diversify semiconductor sourcing below 25%",
+      "Join EU strategic autonomy initiatives",
+      "Develop alternative supplier relationships"
+    ],
+    "medium_term": [
+      "EU Chips Act implementation",
+      "ERMA rare earth projects",
+      "Friend-shoring initiatives"
+    ],
+    "long_term": [
+      "Domestic production capabilities",
+      "Circular economy for critical materials",
+      "Technology sovereignty in key sectors"
+    ]
+  },
+  "key_findings": {
+    "1": "45.4% semiconductor dependency on China is CRITICAL vulnerability",
+    "2": "Research collaboration (3.38%) is NOT driving supply chain risk",
+    "3": "Risk is cost/capacity driven, not technology transfer",
+    "4": "Component-level exposure higher than system-level",
+    "5": "EU initiatives essential for risk reduction"
+  },
+  "monitoring_metrics": [
+    {
+      "metric": "Semiconductor imports from China",
+      "current": "45.4%",
+      "target_2025": "35%",
+      "target_2030": "20%"
+    },
+    {
+      "metric": "Rare earth dependency",
+      "current": "85%",
+      "target_2025": "70%",
+      "target_2030": "40%"
+    },
+    {
+      "metric": "Research collaboration",
+      "current": "3.38%",
+      "threshold": ">6% would indicate concern"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "risk_matrix": {
+    "technology_transfer": {
+      "probability": "high",
+      "impact": "high",
+      "score": 9
+    },
+    "supply_chain": {
+      "probability": "high",
+      "impact": "medium",
+      "score": 6
+    },
+    "investment_exposure": {
+      "probability": "medium",
+      "impact": "high",
+      "score": 6
+    },
+    "talent_drain": {
+      "probability": "medium",
+      "impact": "medium",
+      "score": 4
+    },
+    "ip_theft": {
+      "probability": "medium",
+      "impact": "high",
+      "score": 6
+    },
+    "dual_use_diversion": {
+      "probability": "low",
+      "impact": "very_high",
+      "score": 5
+    }
+  },
+  "composite_score": 0.667,
+  "vulnerabilities": {
+    "critical": [
+      "Automotive technology transfer through JVs",
+      "Dependence on Chinese rare earths",
+      "Research collaboration in dual-use fields"
+    ],
+    "high": [
+      "Supply chain concentration",
+      "Talent program recruitment",
+      "5G infrastructure decisions"
+    ],
+    "medium": [
+      "SME acquisition by Chinese firms",
+      "Standards body influence",
+      "Academic collaboration risks"
+    ]
+  },
+  "recommendations": [
+    {
+      "priority": "immediate",
+      "action": "Strengthen export control enforcement",
+      "target": "Dual-use technologies"
+    },
+    {
+      "priority": "immediate",
+      "action": "Diversify rare earth supply chains",
+      "target": "Critical materials"
+    },
+    {
+      "priority": "short-term",
+      "action": "Implement research security programs",
+      "target": "Universities and research institutes"
+    },
+    {
+      "priority": "medium-term",
+      "action": "Build European battery production capacity",
+      "target": "Energy storage supply chain"
+    }
+  ],
+  "foresight": {
+    "scenario_1": {
+      "name": "Continued engagement",
+      "probability": "medium",
+      "implications": "Gradual technology transfer, economic benefits, security risks"
+    },
+    "scenario_2": {
+      "name": "Selective decoupling",
+      "probability": "high",
+      "implications": "Protected critical tech, reduced dependencies, economic costs"
+    },
+    "scenario_3": {
+      "name": "Strategic rivalry",
+      "probability": "low-medium",
+      "implications": "Tech competition, supply chain separation, innovation race"
+    },
+    "time_horizon": "2025-2030",
+    "key_uncertainties": [
+      "US-China relations impact",
+      "EU strategic autonomy progress",
+      "Technology breakthrough timing"
+    ]
+  }
+}

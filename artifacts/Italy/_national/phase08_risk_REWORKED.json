@@ -1,0 +1,1157 @@
+{
+  "phase": 8,
+  "country": "Italy",
+  "rework_timestamp": "2025-09-19T07:32:57.747218",
+  "validation_protocol": "v6.1_complete",
+  "risks": [
+    {
+      "id": "RISK-IT-001",
+      "original_description": "",
+      "enhanced_description": "",
+      "technology_specifics": {},
+      "china_relevance": "No explicit China angle - requires investigation",
+      "confidence_analysis": {
+        "original_confidence": 0.5,
+        "counterfactual_adjusted": 0.1,
+        "final_confidence": 0.1,
+        "uncertainty": 0.1,
+        "confidence_range": [
+          0,
+          0.2
+        ],
+        "category": "Low"
+      },
+      "counterfactual_validation": {
+        "queries_executed": 6,
+        "confirmatory_evidence": 0,
+        "contradictory_evidence": 15,
+        "balance_ratio": 0.0,
+        "assessment": "HEAVILY_BIASED_CONTRADICTORY",
+        "recommendation": "RECONSIDER: Substantial contradictory evidence found. Re-evaluate finding."
+      },
+      "alternative_hypotheses": [
+        {
+          "hypothesis": "Commercial technology sale with standard licensing",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "High",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Academic collaboration without sensitive content",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Public domain or obsolete technology",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk partially mitigated"
+        },
+        {
+          "hypothesis": "Normal industry practice globally",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Technology already available to China through other sources",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk partially mitigated"
+        }
+      ],
+      "bombshell_assessment": null,
+      "oversight_gap": null,
+      "evidence_quality": {
+        "tier": 3,
+        "quality": "insufficient",
+        "sources": 0
+      },
+      "mitigation_options": [
+        "General risk mitigation required"
+      ],
+      "monitoring_requirements": {
+        "frequency": "Quarterly",
+        "indicators": [
+          "Technology transfer patterns",
+          "Partnership announcements",
+          "Patent filings",
+          "Conference participation"
+        ],
+        "data_sources": [
+          "OpenAlex publications",
+          "USPTO/EPO patents",
+          "TED procurement",
+          "Conference proceedings"
+        ]
+      }
+    },
+    {
+      "id": "RISK-IT-002",
+      "original_description": "",
+      "enhanced_description": "",
+      "technology_specifics": {},
+      "china_relevance": "No explicit China angle - requires investigation",
+      "confidence_analysis": {
+        "original_confidence": 0.5,
+        "counterfactual_adjusted": 0.1,
+        "final_confidence": 0.1,
+        "uncertainty": 0.1,
+        "confidence_range": [
+          0,
+          0.2
+        ],
+        "category": "Low"
+      },
+      "counterfactual_validation": {
+        "queries_executed": 6,
+        "confirmatory_evidence": 0,
+        "contradictory_evidence": 24,
+        "balance_ratio": 0.0,
+        "assessment": "HEAVILY_BIASED_CONTRADICTORY",
+        "recommendation": "RECONSIDER: Substantial contradictory evidence found. Re-evaluate finding."
+      },
+      "alternative_hypotheses": [
+        {
+          "hypothesis": "Commercial technology sale with standard licensing",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "High",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Academic collaboration without sensitive content",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Public domain or obsolete technology",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk partially mitigated"
+        },
+        {
+          "hypothesis": "Normal industry practice globally",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Technology already available to China through other sources",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk partially mitigated"
+        }
+      ],
+      "bombshell_assessment": null,
+      "oversight_gap": null,
+      "evidence_quality": {
+        "tier": 3,
+        "quality": "insufficient",
+        "sources": 0
+      },
+      "mitigation_options": [
+        "General risk mitigation required"
+      ],
+      "monitoring_requirements": {
+        "frequency": "Quarterly",
+        "indicators": [
+          "Technology transfer patterns",
+          "Partnership announcements",
+          "Patent filings",
+          "Conference participation"
+        ],
+        "data_sources": [
+          "OpenAlex publications",
+          "USPTO/EPO patents",
+          "TED procurement",
+          "Conference proceedings"
+        ]
+      }
+    },
+    {
+      "id": "RISK-IT-003",
+      "original_description": "",
+      "enhanced_description": "",
+      "technology_specifics": {},
+      "china_relevance": "No explicit China angle - requires investigation",
+      "confidence_analysis": {
+        "original_confidence": 0.5,
+        "counterfactual_adjusted": 0.1,
+        "final_confidence": 0.1,
+        "uncertainty": 0.1,
+        "confidence_range": [
+          0,
+          0.2
+        ],
+        "category": "Low"
+      },
+      "counterfactual_validation": {
+        "queries_executed": 6,
+        "confirmatory_evidence": 0,
+        "contradictory_evidence": 10,
+        "balance_ratio": 0.0,
+        "assessment": "HEAVILY_BIASED_CONTRADICTORY",
+        "recommendation": "RECONSIDER: Substantial contradictory evidence found. Re-evaluate finding."
+      },
+      "alternative_hypotheses": [
+        {
+          "hypothesis": "Commercial technology sale with standard licensing",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "High",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Academic collaboration without sensitive content",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Public domain or obsolete technology",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk partially mitigated"
+        },
+        {
+          "hypothesis": "Normal industry practice globally",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Technology already available to China through other sources",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk partially mitigated"
+        }
+      ],
+      "bombshell_assessment": null,
+      "oversight_gap": null,
+      "evidence_quality": {
+        "tier": 3,
+        "quality": "insufficient",
+        "sources": 0
+      },
+      "mitigation_options": [
+        "General risk mitigation required"
+      ],
+      "monitoring_requirements": {
+        "frequency": "Quarterly",
+        "indicators": [
+          "Technology transfer patterns",
+          "Partnership announcements",
+          "Patent filings",
+          "Conference participation"
+        ],
+        "data_sources": [
+          "OpenAlex publications",
+          "USPTO/EPO patents",
+          "TED procurement",
+          "Conference proceedings"
+        ]
+      }
+    },
+    {
+      "id": "RISK-IT-004",
+      "original_description": "",
+      "enhanced_description": "",
+      "technology_specifics": {},
+      "china_relevance": "No explicit China angle - requires investigation",
+      "confidence_analysis": {
+        "original_confidence": 0.5,
+        "counterfactual_adjusted": 0.1,
+        "final_confidence": 0.1,
+        "uncertainty": 0.1,
+        "confidence_range": [
+          0,
+          0.2
+        ],
+        "category": "Low"
+      },
+      "counterfactual_validation": {
+        "queries_executed": 6,
+        "confirmatory_evidence": 0,
+        "contradictory_evidence": 11,
+        "balance_ratio": 0.0,
+        "assessment": "HEAVILY_BIASED_CONTRADICTORY",
+        "recommendation": "RECONSIDER: Substantial contradictory evidence found. Re-evaluate finding."
+      },
+      "alternative_hypotheses": [
+        {
+          "hypothesis": "Commercial technology sale with standard licensing",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "High",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Academic collaboration without sensitive content",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Public domain or obsolete technology",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk partially mitigated"
+        },
+        {
+          "hypothesis": "Normal industry practice globally",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Technology already available to China through other sources",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk partially mitigated"
+        }
+      ],
+      "bombshell_assessment": null,
+      "oversight_gap": null,
+      "evidence_quality": {
+        "tier": 3,
+        "quality": "insufficient",
+        "sources": 0
+      },
+      "mitigation_options": [
+        "General risk mitigation required"
+      ],
+      "monitoring_requirements": {
+        "frequency": "Monthly",
+        "indicators": [
+          "Technology transfer patterns",
+          "Partnership announcements",
+          "Patent filings",
+          "Conference participation"
+        ],
+        "data_sources": [
+          "OpenAlex publications",
+          "USPTO/EPO patents",
+          "TED procurement",
+          "Conference proceedings"
+        ]
+      }
+    },
+    {
+      "id": "RISK-IT-005",
+      "original_description": "",
+      "enhanced_description": "",
+      "technology_specifics": {},
+      "china_relevance": "No explicit China angle - requires investigation",
+      "confidence_analysis": {
+        "original_confidence": 0.5,
+        "counterfactual_adjusted": 0.1,
+        "final_confidence": 0.1,
+        "uncertainty": 0.1,
+        "confidence_range": [
+          0,
+          0.2
+        ],
+        "category": "Low"
+      },
+      "counterfactual_validation": {
+        "queries_executed": 6,
+        "confirmatory_evidence": 0,
+        "contradictory_evidence": 3,
+        "balance_ratio": 0.0,
+        "assessment": "HEAVILY_BIASED_CONTRADICTORY",
+        "recommendation": "RECONSIDER: Substantial contradictory evidence found. Re-evaluate finding."
+      },
+      "alternative_hypotheses": [
+        {
+          "hypothesis": "Commercial technology sale with standard licensing",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "High",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Academic collaboration without sensitive content",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Public domain or obsolete technology",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk partially mitigated"
+        },
+        {
+          "hypothesis": "Normal industry practice globally",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Technology already available to China through other sources",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk partially mitigated"
+        }
+      ],
+      "bombshell_assessment": null,
+      "oversight_gap": null,
+      "evidence_quality": {
+        "tier": 3,
+        "quality": "insufficient",
+        "sources": 0
+      },
+      "mitigation_options": [
+        "General risk mitigation required"
+      ],
+      "monitoring_requirements": {
+        "frequency": "Quarterly",
+        "indicators": [
+          "Technology transfer patterns",
+          "Partnership announcements",
+          "Patent filings",
+          "Conference participation"
+        ],
+        "data_sources": [
+          "OpenAlex publications",
+          "USPTO/EPO patents",
+          "TED procurement",
+          "Conference proceedings"
+        ]
+      }
+    },
+    {
+      "id": "RISK-IT-006",
+      "original_description": "",
+      "enhanced_description": "",
+      "technology_specifics": {},
+      "china_relevance": "No explicit China angle - requires investigation",
+      "confidence_analysis": {
+        "original_confidence": 0.5,
+        "counterfactual_adjusted": 0.1,
+        "final_confidence": 0.1,
+        "uncertainty": 0.1,
+        "confidence_range": [
+          0,
+          0.2
+        ],
+        "category": "Low"
+      },
+      "counterfactual_validation": {
+        "queries_executed": 6,
+        "confirmatory_evidence": 0,
+        "contradictory_evidence": 9,
+        "balance_ratio": 0.0,
+        "assessment": "HEAVILY_BIASED_CONTRADICTORY",
+        "recommendation": "RECONSIDER: Substantial contradictory evidence found. Re-evaluate finding."
+      },
+      "alternative_hypotheses": [
+        {
+          "hypothesis": "Commercial technology sale with standard licensing",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "High",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Academic collaboration without sensitive content",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Public domain or obsolete technology",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk partially mitigated"
+        },
+        {
+          "hypothesis": "Normal industry practice globally",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Technology already available to China through other sources",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk partially mitigated"
+        }
+      ],
+      "bombshell_assessment": null,
+      "oversight_gap": null,
+      "evidence_quality": {
+        "tier": 3,
+        "quality": "insufficient",
+        "sources": 0
+      },
+      "mitigation_options": [
+        "General risk mitigation required"
+      ],
+      "monitoring_requirements": {
+        "frequency": "Quarterly",
+        "indicators": [
+          "Technology transfer patterns",
+          "Partnership announcements",
+          "Patent filings",
+          "Conference participation"
+        ],
+        "data_sources": [
+          "OpenAlex publications",
+          "USPTO/EPO patents",
+          "TED procurement",
+          "Conference proceedings"
+        ]
+      }
+    },
+    {
+      "id": "RISK-IT-007",
+      "original_description": "",
+      "enhanced_description": "",
+      "technology_specifics": {},
+      "china_relevance": "No explicit China angle - requires investigation",
+      "confidence_analysis": {
+        "original_confidence": 0.5,
+        "counterfactual_adjusted": 0.1,
+        "final_confidence": 0.1,
+        "uncertainty": 0.1,
+        "confidence_range": [
+          0,
+          0.2
+        ],
+        "category": "Low"
+      },
+      "counterfactual_validation": {
+        "queries_executed": 6,
+        "confirmatory_evidence": 0,
+        "contradictory_evidence": 17,
+        "balance_ratio": 0.0,
+        "assessment": "HEAVILY_BIASED_CONTRADICTORY",
+        "recommendation": "RECONSIDER: Substantial contradictory evidence found. Re-evaluate finding."
+      },
+      "alternative_hypotheses": [
+        {
+          "hypothesis": "Commercial technology sale with standard licensing",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "High",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Academic collaboration without sensitive content",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Public domain or obsolete technology",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk partially mitigated"
+        },
+        {
+          "hypothesis": "Normal industry practice globally",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Technology already available to China through other sources",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk partially mitigated"
+        }
+      ],
+      "bombshell_assessment": null,
+      "oversight_gap": null,
+      "evidence_quality": {
+        "tier": 3,
+        "quality": "insufficient",
+        "sources": 0
+      },
+      "mitigation_options": [
+        "General risk mitigation required"
+      ],
+      "monitoring_requirements": {
+        "frequency": "Monthly",
+        "indicators": [
+          "Technology transfer patterns",
+          "Partnership announcements",
+          "Patent filings",
+          "Conference participation"
+        ],
+        "data_sources": [
+          "OpenAlex publications",
+          "USPTO/EPO patents",
+          "TED procurement",
+          "Conference proceedings"
+        ]
+      }
+    },
+    {
+      "id": "RISK-IT-008",
+      "original_description": "",
+      "enhanced_description": "",
+      "technology_specifics": {},
+      "china_relevance": "No explicit China angle - requires investigation",
+      "confidence_analysis": {
+        "original_confidence": 0.5,
+        "counterfactual_adjusted": 0.1,
+        "final_confidence": 0.1,
+        "uncertainty": 0.1,
+        "confidence_range": [
+          0,
+          0.2
+        ],
+        "category": "Low"
+      },
+      "counterfactual_validation": {
+        "queries_executed": 6,
+        "confirmatory_evidence": 0,
+        "contradictory_evidence": 19,
+        "balance_ratio": 0.0,
+        "assessment": "HEAVILY_BIASED_CONTRADICTORY",
+        "recommendation": "RECONSIDER: Substantial contradictory evidence found. Re-evaluate finding."
+      },
+      "alternative_hypotheses": [
+        {
+          "hypothesis": "Commercial technology sale with standard licensing",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "High",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Academic collaboration without sensitive content",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Public domain or obsolete technology",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk partially mitigated"
+        },
+        {
+          "hypothesis": "Normal industry practice globally",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Technology already available to China through other sources",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk partially mitigated"
+        }
+      ],
+      "bombshell_assessment": null,
+      "oversight_gap": null,
+      "evidence_quality": {
+        "tier": 3,
+        "quality": "insufficient",
+        "sources": 0
+      },
+      "mitigation_options": [
+        "General risk mitigation required"
+      ],
+      "monitoring_requirements": {
+        "frequency": "Quarterly",
+        "indicators": [
+          "Technology transfer patterns",
+          "Partnership announcements",
+          "Patent filings",
+          "Conference participation"
+        ],
+        "data_sources": [
+          "OpenAlex publications",
+          "USPTO/EPO patents",
+          "TED procurement",
+          "Conference proceedings"
+        ]
+      }
+    },
+    {
+      "id": "RISK-IT-009",
+      "original_description": "",
+      "enhanced_description": "",
+      "technology_specifics": {},
+      "china_relevance": "No explicit China angle - requires investigation",
+      "confidence_analysis": {
+        "original_confidence": 0.5,
+        "counterfactual_adjusted": 0.1,
+        "final_confidence": 0.1,
+        "uncertainty": 0.1,
+        "confidence_range": [
+          0,
+          0.2
+        ],
+        "category": "Low"
+      },
+      "counterfactual_validation": {
+        "queries_executed": 6,
+        "confirmatory_evidence": 0,
+        "contradictory_evidence": 10,
+        "balance_ratio": 0.0,
+        "assessment": "HEAVILY_BIASED_CONTRADICTORY",
+        "recommendation": "RECONSIDER: Substantial contradictory evidence found. Re-evaluate finding."
+      },
+      "alternative_hypotheses": [
+        {
+          "hypothesis": "Commercial technology sale with standard licensing",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "High",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Academic collaboration without sensitive content",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Public domain or obsolete technology",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk partially mitigated"
+        },
+        {
+          "hypothesis": "Normal industry practice globally",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Technology already available to China through other sources",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk partially mitigated"
+        }
+      ],
+      "bombshell_assessment": null,
+      "oversight_gap": null,
+      "evidence_quality": {
+        "tier": 3,
+        "quality": "insufficient",
+        "sources": 0
+      },
+      "mitigation_options": [
+        "General risk mitigation required"
+      ],
+      "monitoring_requirements": {
+        "frequency": "Quarterly",
+        "indicators": [
+          "Technology transfer patterns",
+          "Partnership announcements",
+          "Patent filings",
+          "Conference participation"
+        ],
+        "data_sources": [
+          "OpenAlex publications",
+          "USPTO/EPO patents",
+          "TED procurement",
+          "Conference proceedings"
+        ]
+      }
+    },
+    {
+      "id": "RISK-IT-010",
+      "original_description": "",
+      "enhanced_description": "",
+      "technology_specifics": {},
+      "china_relevance": "No explicit China angle - requires investigation",
+      "confidence_analysis": {
+        "original_confidence": 0.5,
+        "counterfactual_adjusted": 0.5,
+        "final_confidence": 0.5,
+        "uncertainty": 0.1,
+        "confidence_range": [
+          0.4,
+          0.6
+        ],
+        "category": "Medium"
+      },
+      "counterfactual_validation": {
+        "queries_executed": 6,
+        "confirmatory_evidence": 0,
+        "contradictory_evidence": 0,
+        "balance_ratio": 0.5,
+        "assessment": "BALANCED",
+        "recommendation": "PROCEED_WITH_CAUTION: Some contradictory evidence exists. Document caveats."
+      },
+      "alternative_hypotheses": [
+        {
+          "hypothesis": "Commercial technology sale with standard licensing",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "High",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Academic collaboration without sensitive content",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Public domain or obsolete technology",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk partially mitigated"
+        },
+        {
+          "hypothesis": "Normal industry practice globally",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Technology already available to China through other sources",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk partially mitigated"
+        }
+      ],
+      "bombshell_assessment": null,
+      "oversight_gap": null,
+      "evidence_quality": {
+        "tier": 3,
+        "quality": "insufficient",
+        "sources": 0
+      },
+      "mitigation_options": [
+        "General risk mitigation required"
+      ],
+      "monitoring_requirements": {
+        "frequency": "Quarterly",
+        "indicators": [
+          "Technology transfer patterns",
+          "Partnership announcements",
+          "Patent filings",
+          "Conference participation"
+        ],
+        "data_sources": [
+          "OpenAlex publications",
+          "USPTO/EPO patents",
+          "TED procurement",
+          "Conference proceedings"
+        ]
+      }
+    },
+    {
+      "id": "RISK-IT-011",
+      "original_description": "",
+      "enhanced_description": "",
+      "technology_specifics": {},
+      "china_relevance": "No explicit China angle - requires investigation",
+      "confidence_analysis": {
+        "original_confidence": 0.5,
+        "counterfactual_adjusted": 0.1,
+        "final_confidence": 0.1,
+        "uncertainty": 0.1,
+        "confidence_range": [
+          0,
+          0.2
+        ],
+        "category": "Low"
+      },
+      "counterfactual_validation": {
+        "queries_executed": 6,
+        "confirmatory_evidence": 0,
+        "contradictory_evidence": 19,
+        "balance_ratio": 0.0,
+        "assessment": "HEAVILY_BIASED_CONTRADICTORY",
+        "recommendation": "RECONSIDER: Substantial contradictory evidence found. Re-evaluate finding."
+      },
+      "alternative_hypotheses": [
+        {
+          "hypothesis": "Commercial technology sale with standard licensing",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "High",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Academic collaboration without sensitive content",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Public domain or obsolete technology",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk partially mitigated"
+        },
+        {
+          "hypothesis": "Normal industry practice globally",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Technology already available to China through other sources",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk partially mitigated"
+        }
+      ],
+      "bombshell_assessment": null,
+      "oversight_gap": null,
+      "evidence_quality": {
+        "tier": 3,
+        "quality": "insufficient",
+        "sources": 0
+      },
+      "mitigation_options": [
+        "General risk mitigation required"
+      ],
+      "monitoring_requirements": {
+        "frequency": "Quarterly",
+        "indicators": [
+          "Technology transfer patterns",
+          "Partnership announcements",
+          "Patent filings",
+          "Conference participation"
+        ],
+        "data_sources": [
+          "OpenAlex publications",
+          "USPTO/EPO patents",
+          "TED procurement",
+          "Conference proceedings"
+        ]
+      }
+    },
+    {
+      "id": "RISK-IT-012",
+      "original_description": "",
+      "enhanced_description": "",
+      "technology_specifics": {},
+      "china_relevance": "No explicit China angle - requires investigation",
+      "confidence_analysis": {
+        "original_confidence": 0.5,
+        "counterfactual_adjusted": 0.1,
+        "final_confidence": 0.1,
+        "uncertainty": 0.1,
+        "confidence_range": [
+          0,
+          0.2
+        ],
+        "category": "Low"
+      },
+      "counterfactual_validation": {
+        "queries_executed": 6,
+        "confirmatory_evidence": 0,
+        "contradictory_evidence": 16,
+        "balance_ratio": 0.0,
+        "assessment": "HEAVILY_BIASED_CONTRADICTORY",
+        "recommendation": "RECONSIDER: Substantial contradictory evidence found. Re-evaluate finding."
+      },
+      "alternative_hypotheses": [
+        {
+          "hypothesis": "Commercial technology sale with standard licensing",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "High",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Academic collaboration without sensitive content",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Public domain or obsolete technology",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk partially mitigated"
+        },
+        {
+          "hypothesis": "Normal industry practice globally",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Technology already available to China through other sources",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk partially mitigated"
+        }
+      ],
+      "bombshell_assessment": null,
+      "oversight_gap": null,
+      "evidence_quality": {
+        "tier": 3,
+        "quality": "insufficient",
+        "sources": 0
+      },
+      "mitigation_options": [
+        "General risk mitigation required"
+      ],
+      "monitoring_requirements": {
+        "frequency": "Quarterly",
+        "indicators": [
+          "Technology transfer patterns",
+          "Partnership announcements",
+          "Patent filings",
+          "Conference participation"
+        ],
+        "data_sources": [
+          "OpenAlex publications",
+          "USPTO/EPO patents",
+          "TED procurement",
+          "Conference proceedings"
+        ]
+      }
+    },
+    {
+      "id": "RISK-IT-013",
+      "original_description": "",
+      "enhanced_description": "",
+      "technology_specifics": {},
+      "china_relevance": "No explicit China angle - requires investigation",
+      "confidence_analysis": {
+        "original_confidence": 0.5,
+        "counterfactual_adjusted": 0.1,
+        "final_confidence": 0.1,
+        "uncertainty": 0.1,
+        "confidence_range": [
+          0,
+          0.2
+        ],
+        "category": "Low"
+      },
+      "counterfactual_validation": {
+        "queries_executed": 6,
+        "confirmatory_evidence": 0,
+        "contradictory_evidence": 7,
+        "balance_ratio": 0.0,
+        "assessment": "HEAVILY_BIASED_CONTRADICTORY",
+        "recommendation": "RECONSIDER: Substantial contradictory evidence found. Re-evaluate finding."
+      },
+      "alternative_hypotheses": [
+        {
+          "hypothesis": "Commercial technology sale with standard licensing",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "High",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Academic collaboration without sensitive content",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Public domain or obsolete technology",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk partially mitigated"
+        },
+        {
+          "hypothesis": "Normal industry practice globally",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk significantly reduced"
+        },
+        {
+          "hypothesis": "Technology already available to China through other sources",
+          "evidence_supporting": 2,
+          "evidence_contradicting": 1,
+          "plausibility": "Medium",
+          "impact_if_true": "Risk partially mitigated"
+        }
+      ],
+      "bombshell_assessment": null,
+      "oversight_gap": null,
+      "evidence_quality": {
+        "tier": 3,
+        "quality": "insufficient",
+        "sources": 0
+      },
+      "mitigation_options": [
+        "General risk mitigation required"
+      ],
+      "monitoring_requirements": {
+        "frequency": "Quarterly",
+        "indicators": [
+          "Technology transfer patterns",
+          "Partnership announcements",
+          "Patent filings",
+          "Conference participation"
+        ],
+        "data_sources": [
+          "OpenAlex publications",
+          "USPTO/EPO patents",
+          "TED procurement",
+          "Conference proceedings"
+        ]
+      }
+    }
+  ],
+  "counterfactual_analysis": {},
+  "confidence_calibration": {},
+  "alternative_hypotheses": {},
+  "bombshell_assessments": [],
+  "oversight_gaps": []
+}

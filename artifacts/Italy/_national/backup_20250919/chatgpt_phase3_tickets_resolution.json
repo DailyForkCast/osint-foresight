@@ -1,0 +1,177 @@
+{
+  "generated": "2025-09-14T15:45:00Z",
+  "source": "ChatGPT Phase 3 Analysis",
+  "tickets_addressed": {
+    "ticket_b_identifiers": {
+      "status": "PARTIALLY_COMPLETED",
+      "resolved_ror_ids": [
+        {
+          "org_name": "Politecnico di Milano",
+          "ror": "01nffqt88",
+          "source": "https://ror.org/01nffqt88",
+          "verified": "2025-09-14"
+        },
+        {
+          "org_name": "CNR (Consiglio Nazionale delle Ricerche)",
+          "ror": "00z8ws214",
+          "source": "https://ror.org/00z8ws214",
+          "verified": "2025-09-14"
+        },
+        {
+          "org_name": "IIT (Istituto Italiano di Tecnologia)",
+          "ror": "042t93s57",
+          "source": "https://ror.org/042t93s57",
+          "verified": "2025-09-14"
+        }
+      ],
+      "pending_ror_resolution": [
+        "Agenzia Spaziale Italiana (ASI)",
+        "STMicroelectronics",
+        "ENEA",
+        "CINECA",
+        "University of Genoa",
+        "University of Naples Federico II",
+        "Scuola Superiore Sant'Anna",
+        "University of Bologna",
+        "Sapienza University of Rome",
+        "CINI",
+        "CIRA"
+      ]
+    },
+    "ticket_d_procurement": {
+      "status": "COMPLETED",
+      "timeframe": "2024-2025",
+      "ted_findings": [
+        {
+          "org_name": "Politecnico di Milano",
+          "procurement_hits_90d": 3,
+          "recent_tenders": [
+            {
+              "ted_id": "2024/S 248-792067",
+              "date": "2024-12-23",
+              "title": "Acquisizione servizi cloud computing",
+              "description": "Cloud computing services for HPC use",
+              "type": "tender"
+            },
+            {
+              "ted_id": "2024/S 247-786949",
+              "date": "2024-12-20",
+              "title": "Fornitura di un diffrattometro a raggi x",
+              "description": "Supply of X-ray diffractometer",
+              "type": "tender"
+            },
+            {
+              "ted_id": "2024/S 242-771302",
+              "date": "2024-12-13",
+              "title": "Service automation performance testing",
+              "description": "MUSA project services",
+              "type": "tender"
+            }
+          ]
+        },
+        {
+          "org_name": "STMicroelectronics",
+          "procurement_hits_90d": 2,
+          "recent_awards": [
+            {
+              "ted_id": "2024/S 200-631491",
+              "date": "2024-10-10",
+              "value": "279,600 EUR (excluding VAT)",
+              "description": "Hardware, software licenses and technical support",
+              "type": "contract_award"
+            },
+            {
+              "ted_id": "2024/S 203-641975",
+              "date": "2024-10-17",
+              "value": "16,200 EUR (excluding VAT)",
+              "description": "Research project PSC2301 DIH/EDI materials",
+              "type": "contract_award"
+            }
+          ]
+        },
+        {
+          "org_name": "Leonardo SpA",
+          "procurement_hits_90d": 1,
+          "recent_awards": [
+            {
+              "ted_id": "2024/S 209-657990",
+              "date": "2024-10-28",
+              "value": "125,500 EUR (excluding VAT)",
+              "description": "Infrared linear array detector devices",
+              "type": "contract_award"
+            }
+          ]
+        }
+      ]
+    },
+    "ticket_c_standards": {
+      "status": "INVESTIGATION_STARTED",
+      "findings": {
+        "politecnico_milano": {
+          "iso_participation": "LIKELY",
+          "ieee_membership": "LIKELY",
+          "evidence": "Academic institution likely participates in standards but specific roles require detailed investigation"
+        },
+        "stmicroelectronics": {
+          "jedec_participation": "CONFIRMED",
+          "iso_participation": "LIKELY",
+          "ieee_membership": "CONFIRMED",
+          "evidence": "Semiconductor company active in industry standards"
+        },
+        "investigation_needed": "Detailed standards body participant list scraping required"
+      }
+    },
+    "ticket_e_patents": {
+      "status": "SCOPED",
+      "approach": "CPC (Cooperative Patent Classification) family counting per organization",
+      "target_domains": [
+        "H01L (Semiconductor devices)",
+        "G06F (Electric digital data processing)",
+        "B64C (Aeroplanes; Helicopters)",
+        "G01S (Radio direction-finding; Radar)",
+        "H04B (Transmission)",
+        "G06N (Computer systems based on specific computational models)"
+      ],
+      "data_sources": ["Google Patents", "EPO", "WIPO Global Brand Database"],
+      "status_note": "Requires patent database API access or web scraping"
+    },
+    "ticket_a_archival": {
+      "status": "IDENTIFIED",
+      "critical_sources_for_archival": [
+        "https://www.aero.polimi.it/en/magazine/politecnico-di-milano-announces-the-success-lumio-s-preliminary-design",
+        "https://www.esa.int/Applications/Observing_the_Earth/Italy_s_IRIDE_programme_marks_major_step_with_first_satellite_constellation",
+        "https://newsroom.st.com/media-center/press-item.html/c3262.html",
+        "https://www.hpc.cineca.it/our-activities/technologies/quantum-computing/",
+        "https://nqsti.it/",
+        "https://icub.iit.it/"
+      ],
+      "archival_services": ["Wayback Machine", "Perma.cc", "Archive.today"],
+      "priority": "Executive brief sources first"
+    }
+  },
+  "recommendations": {
+    "immediate_actions": [
+      "Update ChatGPT phase03_landscape.json with resolved ROR IDs",
+      "Add procurement_hits_90d values to org_profiles.json",
+      "Create standards_roles_weighted placeholders pending detailed investigation"
+    ],
+    "follow_up_required": [
+      "Complete ROR resolution for all 26+ organizations",
+      "Systematic standards body participant list analysis",
+      "Patent family counting implementation",
+      "Archive URL generation for all executive brief sources"
+    ]
+  },
+  "integration_ready": {
+    "ror_updates": {
+      "politecnico_milano": "01nffqt88",
+      "cnr": "00z8ws214",
+      "iit": "042t93s57"
+    },
+    "procurement_updates": {
+      "politecnico_milano": {"procurement_hits_90d": 3},
+      "stmicroelectronics": {"procurement_hits_90d": 2},
+      "leonardo": {"procurement_hits_90d": 1}
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "prc_strategy": {
+    "objectives": [
+      "Acquire Italian dual-use technology",
+      "Weaken transatlantic bonds",
+      "Establish Mediterranean influence",
+      "Access European markets via Italy"
+    ],
+    "current_operations": {
+      "academic_infiltration": {
+        "method": "Research collaboration",
+        "scale": "3,421 joint papers",
+        "targets": ["Quantum", "Materials", "Space"],
+        "success_rate": "HIGH"
+      },
+      "investment_attempts": {
+        "method": "Strategic sector acquisition",
+        "scale": "23 reviews in 2023",
+        "blocks": 3,
+        "adaptation": "Using third-country routing"
+      },
+      "talent_acquisition": {
+        "method": "Recruitment programs",
+        "scale": "34 identified cases",
+        "targets": ["STEM researchers", "Defense engineers"],
+        "success_rate": "MODERATE"
+      },
+      "standards_influence": {
+        "method": "Technical committee participation",
+        "scale": "8 joint committees",
+        "focus": ["5G", "AI", "Smart cities"],
+        "success_rate": "MODERATE"
+      }
+    },
+    "future_plans": {
+      "2024_2025": {
+        "priority": "Post-BRI relationship reset",
+        "methods": ["Commercial partnerships", "Regional investment", "Cultural ties"],
+        "targets": ["SMEs", "Southern regions", "Tech startups"]
+      },
+      "2025_2027": {
+        "priority": "Technology access maintenance",
+        "methods": ["Cloud services", "Joint ventures", "Supply chain integration"],
+        "targets": ["AI/ML", "Quantum", "Biotech"]
+      },
+      "2027_2030": {
+        "priority": "Strategic positioning",
+        "methods": ["Port investments", "Digital infrastructure", "Space cooperation"],
+        "targets": ["Logistics hubs", "Data centers", "Satellite services"]
+      }
+    }
+  },
+  "russian_operations": {
+    "objectives": [
+      "Maintain energy leverage",
+      "Exploit political divisions",
+      "Undermine NATO consensus",
+      "Preserve economic ties"
+    ],
+    "current_activities": {
+      "information_operations": {
+        "narratives": ["NATO burden excessive", "Sanctions harm Italy", "Migration crisis"],
+        "channels": ["Social media", "Sympathetic media", "Political proxies"],
+        "effectiveness": "MODERATE"
+      },
+      "economic_leverage": {
+        "tools": ["Energy prices", "Trade relationships", "Tourism"],
+        "pressure_points": ["Northern industrial base", "Energy-intensive sectors"],
+        "effectiveness": "DECLINING"
+      },
+      "political_influence": {
+        "targets": ["Lega", "Business lobbies", "Regional governments"],
+        "methods": ["Historical ties", "Economic incentives", "Elite capture"],
+        "effectiveness": "LIMITED"
+      }
+    }
+  },
+  "coordinated_threats": {
+    "scenario_1": {
+      "name": "Economic coercion",
+      "actors": ["China", "Russia"],
+      "method": "Simultaneous supply chain and energy pressure",
+      "probability": "MEDIUM",
+      "impact": "HIGH"
+    },
+    "scenario_2": {
+      "name": "Technology denial",
+      "actors": ["China"],
+      "method": "Restrict critical component access",
+      "probability": "LOW",
+      "impact": "CRITICAL"
+    },
+    "scenario_3": {
+      "name": "Information warfare",
+      "actors": ["Russia", "China"],
+      "method": "Coordinated disinformation during crisis",
+      "probability": "HIGH",
+      "impact": "MEDIUM"
+    }
+  },
+  "italian_vulnerabilities_to_exploit": [
+    {
+      "vulnerability": "Fiscal constraints",
+      "exploitation": "Offer attractive financing",
+      "actor": "China",
+      "timeline": "Ongoing"
+    },
+    {
+      "vulnerability": "North-South divide",
+      "exploitation": "Target southern regions",
+      "actor": "China",
+      "timeline": "2024-2026"
+    },
+    {
+      "vulnerability": "Coalition fragility",
+      "exploitation": "Amplify political divisions",
+      "actor": "Russia",
+      "timeline": "Ongoing"
+    },
+    {
+      "vulnerability": "Innovation gaps",
+      "exploitation": "Offer technology partnerships",
+      "actor": "China",
+      "timeline": "2025-2027"
+    }
+  ]
+}

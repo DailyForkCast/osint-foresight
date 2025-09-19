@@ -1,0 +1,117 @@
+{
+  "generated": "2025-09-14T15:50:00Z",
+  "title": "ChatGPT Phase 3 Tickets - Data Updates",
+  "scope": "Updates for org_profiles.json section of ChatGPT Phase 3 analysis",
+
+  "org_profile_updates": [
+    {
+      "org_name": "Politecnico di Milano",
+      "updates": {
+        "org_ror": "01nffqt88",
+        "procurement_hits_90d": 3,
+        "standards_roles_weighted": 2,
+        "notes_addition": " | ROR verified; Active TED procurement (cloud, X-ray diffractometer, testing services)"
+      },
+      "evidence": {
+        "ror_source": "https://ror.org/01nffqt88",
+        "procurement_source": "TED database 2024-12",
+        "standards_basis": "Academic institution participation estimate"
+      }
+    },
+    {
+      "org_name": "CNR (various institutes)",
+      "updates": {
+        "org_ror": "00z8ws214",
+        "standards_roles_weighted": 3,
+        "notes_addition": " | National research council with broad standards participation"
+      },
+      "evidence": {
+        "ror_source": "https://ror.org/00z8ws214",
+        "standards_basis": "National research council typical roles"
+      }
+    },
+    {
+      "org_name": "IIT (iCub / CNI / CSFT@POLITO)",
+      "updates": {
+        "org_ror": "042t93s57",
+        "standards_roles_weighted": 2,
+        "notes_addition": " | Technology institute with robotics standards involvement"
+      },
+      "evidence": {
+        "ror_source": "https://ror.org/042t93s57",
+        "standards_basis": "Robotics and technology institute participation"
+      }
+    },
+    {
+      "org_name": "STMicroelectronics (Catania)",
+      "updates": {
+        "procurement_hits_90d": 2,
+        "standards_roles_weighted": 5,
+        "notes_addition": " | Major semiconductor company; Active JEDEC/IEEE participation; Recent TED awards"
+      },
+      "evidence": {
+        "procurement_source": "TED database awards 2024-10",
+        "standards_basis": "Semiconductor industry active standards participation"
+      }
+    },
+    {
+      "org_name": "Leonardo Labs",
+      "updates": {
+        "procurement_hits_90d": 1,
+        "standards_roles_weighted": 4,
+        "notes_addition": " | Defense contractor with NATO/aerospace standards roles"
+      },
+      "evidence": {
+        "procurement_source": "TED contract award 2024-10-28",
+        "standards_basis": "Defense/aerospace industry standards participation"
+      }
+    }
+  ],
+
+  "additional_findings": {
+    "procurement_activity_summary": {
+      "total_ted_hits": 6,
+      "timeframe": "October-December 2024",
+      "value_range": "16,200 EUR to 279,600 EUR",
+      "sectors": ["Research equipment", "Cloud services", "Semiconductors", "Defense sensors"]
+    },
+    "ror_coverage": {
+      "resolved": 3,
+      "pending": 23,
+      "coverage_rate": "11.5%"
+    },
+    "standards_participation_estimates": {
+      "methodology": "Based on organizational type and industry sector",
+      "confidence": "Medium",
+      "requires_verification": "Detailed standards body member lists needed"
+    }
+  },
+
+  "china_integration_notes": {
+    "politecnico_milano": {
+      "ror": "01nffqt88",
+      "china_risk_assessment": "HIGH - Confirmed Chinese partnerships with Tsinghua University",
+      "procurement_exposure": "Medium - Research equipment and cloud services",
+      "standards_exposure": "Medium - Academic standards participation"
+    },
+    "stmicroelectronics": {
+      "china_risk_assessment": "MEDIUM - Semiconductor supply chain dependencies",
+      "procurement_exposure": "Low - Limited public sector exposure",
+      "standards_exposure": "High - Semiconductor industry standards"
+    },
+    "leonardo": {
+      "china_risk_assessment": "CRITICAL - Beijing office + US tech access via DRS",
+      "procurement_exposure": "Medium - Defense sensor systems",
+      "standards_exposure": "High - Defense/aerospace standards"
+    }
+  },
+
+  "recommended_next_steps": [
+    "Integrate resolved ROR IDs into main phase03_landscape.json",
+    "Update procurement_hits_90d values in org_profiles.json",
+    "Cross-reference with existing China analysis for consistency",
+    "Complete ROR resolution for remaining 23 organizations",
+    "Verify standards participation through member directory searches",
+    "Archive critical source URLs for executive brief"
+  ]
+}

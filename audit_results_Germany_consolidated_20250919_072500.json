@@ -1,0 +1,263 @@
+{
+  "country": "Germany_consolidated",
+  "timestamp": "2025-09-19T07:25:00.456543",
+  "phase_results": {
+    "phase00": {
+      "phase": 0,
+      "status": "MISSING",
+      "artifacts_found": 0,
+      "tests_run": [],
+      "passed_tests": [],
+      "failed_tests": [
+        "No artifacts found"
+      ],
+      "warnings": []
+    },
+    "phase01": {
+      "phase": 1,
+      "status": "MISSING",
+      "artifacts_found": 0,
+      "tests_run": [],
+      "passed_tests": [],
+      "failed_tests": [
+        "No artifacts found"
+      ],
+      "warnings": []
+    },
+    "phase02": {
+      "phase": 2,
+      "status": "MISSING",
+      "artifacts_found": 0,
+      "tests_run": [],
+      "passed_tests": [],
+      "failed_tests": [
+        "No artifacts found"
+      ],
+      "warnings": []
+    },
+    "phase03": {
+      "phase": 3,
+      "status": "FAIL",
+      "artifacts_found": 1,
+      "tests_run": [
+        "technology_specificity",
+        "ror_normalization",
+        "counterfactual_analysis",
+        "china_overlap_specific",
+        "leonardo_standard"
+      ],
+      "passed_tests": [
+        "counterfactual_analysis"
+      ],
+      "failed_tests": [
+        "technology_specificity",
+        "ror_normalization",
+        "china_overlap_specific",
+        "leonardo_standard"
+      ],
+      "warnings": []
+    },
+    "phase04": {
+      "phase": 4,
+      "status": "MISSING",
+      "artifacts_found": 0,
+      "tests_run": [],
+      "passed_tests": [],
+      "failed_tests": [
+        "No artifacts found"
+      ],
+      "warnings": []
+    },
+    "phase05": {
+      "phase": 5,
+      "status": "MISSING",
+      "artifacts_found": 0,
+      "tests_run": [],
+      "passed_tests": [],
+      "failed_tests": [
+        "No artifacts found"
+      ],
+      "warnings": []
+    },
+    "phase06": {
+      "phase": 6,
+      "status": "MISSING",
+      "artifacts_found": 0,
+      "tests_run": [],
+      "passed_tests": [],
+      "failed_tests": [
+        "No artifacts found"
+      ],
+      "warnings": []
+    },
+    "phase07": {
+      "phase": 7,
+      "status": "MISSING",
+      "artifacts_found": 0,
+      "tests_run": [],
+      "passed_tests": [],
+      "failed_tests": [
+        "No artifacts found"
+      ],
+      "warnings": []
+    },
+    "phase08": {
+      "phase": 8,
+      "status": "MISSING",
+      "artifacts_found": 0,
+      "tests_run": [],
+      "passed_tests": [],
+      "failed_tests": [
+        "No artifacts found"
+      ],
+      "warnings": []
+    },
+    "phase09": {
+      "phase": 9,
+      "status": "MISSING",
+      "artifacts_found": 0,
+      "tests_run": [],
+      "passed_tests": [],
+      "failed_tests": [
+        "No artifacts found"
+      ],
+      "warnings": []
+    },
+    "phase10": {
+      "phase": 10,
+      "status": "MISSING",
+      "artifacts_found": 0,
+      "tests_run": [],
+      "passed_tests": [],
+      "failed_tests": [
+        "No artifacts found"
+      ],
+      "warnings": []
+    },
+    "phase11": {
+      "phase": 11,
+      "status": "MISSING",
+      "artifacts_found": 0,
+      "tests_run": [],
+      "passed_tests": [],
+      "failed_tests": [
+        "No artifacts found"
+      ],
+      "warnings": []
+    },
+    "phase12": {
+      "phase": 12,
+      "status": "MISSING",
+      "artifacts_found": 0,
+      "tests_run": [],
+      "passed_tests": [],
+      "failed_tests": [
+        "No artifacts found"
+      ],
+      "warnings": []
+    },
+    "phase13": {
+      "phase": 13,
+      "status": "MISSING",
+      "artifacts_found": 0,
+      "tests_run": [],
+      "passed_tests": [],
+      "failed_tests": [
+        "No artifacts found"
+      ],
+      "warnings": []
+    }
+  },
+  "critical_failures": [],
+  "re_analysis_required": [
+    3
+  ],
+  "compliance_score": 20.0,
+  "priority_score": 300,
+  "recommendations": [
+    {
+      "priority": "CRITICAL",
+      "phase": 8,
+      "action": "Complete Phase 8 risk assessment with counterfactual validation",
+      "reason": "Risk assessment is critical for decision-making"
+    },
+    {
+      "priority": "HIGH",
+      "phase": 2,
+      "action": "Complete Phase 2",
+      "reason": "Missing phase data"
+    },
+    {
+      "priority": "HIGH",
+      "phase": 4,
+      "action": "Complete Phase 4",
+      "reason": "Missing phase data"
+    },
+    {
+      "priority": "HIGH",
+      "phase": 3,
+      "action": "Fix ror_normalization in Phase 3",
+      "reason": "Critical validation requirement"
+    },
+    {
+      "priority": "MEDIUM",
+      "phase": 0,
+      "action": "Complete Phase 0",
+      "reason": "Missing phase data"
+    },
+    {
+      "priority": "MEDIUM",
+      "phase": 1,
+      "action": "Complete Phase 1",
+      "reason": "Missing phase data"
+    },
+    {
+      "priority": "MEDIUM",
+      "phase": 5,
+      "action": "Complete Phase 5",
+      "reason": "Missing phase data"
+    },
+    {
+      "priority": "MEDIUM",
+      "phase": 6,
+      "action": "Complete Phase 6",
+      "reason": "Missing phase data"
+    },
+    {
+      "priority": "MEDIUM",
+      "phase": 7,
+      "action": "Complete Phase 7",
+      "reason": "Missing phase data"
+    },
+    {
+      "priority": "MEDIUM",
+      "phase": 9,
+      "action": "Complete Phase 9",
+      "reason": "Missing phase data"
+    },
+    {
+      "priority": "MEDIUM",
+      "phase": 10,
+      "action": "Complete Phase 10",
+      "reason": "Missing phase data"
+    },
+    {
+      "priority": "MEDIUM",
+      "phase": 11,
+      "action": "Complete Phase 11",
+      "reason": "Missing phase data"
+    },
+    {
+      "priority": "MEDIUM",
+      "phase": 12,
+      "action": "Complete Phase 12",
+      "reason": "Missing phase data"
+    },
+    {
+      "priority": "MEDIUM",
+      "phase": 13,
+      "action": "Complete Phase 13",
+      "reason": "Missing phase data"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "nato_early_warning": {
+    "defence_spending_trajectory": {
+      "current": 1.46,
+      "projected": {
+        "2025": 1.48,
+        "2028": 1.60,
+        "2030": 1.65
+      },
+      "target_gap": -0.54,
+      "trend": "Insufficient to meet 2% by 2030",
+      "political_feasibility": "Low without external shock"
+    },
+    "capability_gaps": {
+      "critical_shortfalls": [
+        {
+          "capability": "Air defense systems",
+          "gap": "40% of requirement",
+          "mitigation": "SAMP/T procurement",
+          "timeline": "2025-2028"
+        },
+        {
+          "capability": "Strategic airlift",
+          "gap": "60% of requirement",
+          "mitigation": "Reliance on SALIS",
+          "timeline": "Ongoing"
+        },
+        {
+          "capability": "Cyber defense",
+          "gap": "35% of personnel",
+          "mitigation": "ACN expansion",
+          "timeline": "2024-2026"
+        }
+      ],
+      "ndpp_compliance": "65%",
+      "improvement_rate": "3% annually"
+    },
+    "interoperability_risks": {
+      "stanag_gaps": [
+        "UAV control systems (STANAG 4586)",
+        "Tactical data links (STANAG 5516)",
+        "Cyber defense standards"
+      ],
+      "exercise_performance": {
+        "interoperability_score": 7.2,
+        "trend": "Improving",
+        "main_issues": ["Language proficiency", "Legacy systems"]
+      }
+    },
+    "innovation_lag": {
+      "edt_adoption": {
+        "ai_ml": "Moderate",
+        "quantum": "Limited",
+        "hypersonics": "Minimal",
+        "space": "Advanced",
+        "biotech": "Limited"
+      },
+      "diana_participation": "Active but limited",
+      "nif_exposure": "Participant but amount unknown",
+      "gap_vs_allies": "12-18 months behind leaders"
+    },
+    "alliance_cohesion": {
+      "solidarity_index": 72,
+      "burden_sharing_score": 65,
+      "political_support": "Stable but questioned",
+      "public_opinion": "58% NATO favorable",
+      "risks": ["Populist parties", "Economic pressure"]
+    }
+  },
+  "thresholds": {
+    "red_lines": [
+      {
+        "metric": "Defense spending",
+        "threshold": "<1.4% GDP",
+        "impact": "Capability crisis",
+        "probability": "10-20%"
+      },
+      {
+        "metric": "Exercise participation",
+        "threshold": "<60%",
+        "impact": "Interoperability failure",
+        "probability": "5-10%"
+      },
+      {
+        "metric": "STANAG compliance",
+        "threshold": "<50%",
+        "impact": "Integration problems",
+        "probability": "20-30%"
+      }
+    ]
+  }
+}

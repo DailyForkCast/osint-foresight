@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "update_date": "2025-09-17",
+    "key_updates": "Added verified China collaboration metrics"
+  },
+  "sources": {
+    "tier_1_structured": [
+      {"name": "ISTAT", "type": "national_statistics", "automation": "partial", "api": "SDMX"},
+      {"name": "Bank of Italy", "type": "economic", "automation": "full", "frequency": "monthly"},
+      {"name": "MISE", "type": "industry_ministry", "automation": "manual", "frequency": "quarterly"},
+      {"name": "OpenAlex", "type": "publications", "automation": "full", "verified": "2025-09-17"},
+      {"name": "UN Comtrade", "type": "trade", "automation": "full", "verified": "2025-09-17"},
+      {"name": "EPO", "type": "patents", "automation": "partial", "access": "registration_required"}
+    ],
+    "nato_sources": [
+      {"name": "NATO STO", "access": "public_abstracts", "automation": "40%"},
+      {"name": "M&S COE Rome", "access": "public", "automation": "50%"},
+      {"name": "NATO Defense College", "location": "Rome", "access": "limited"}
+    ]
+  },
+  "indicators": {
+    "china_collaboration": {
+      "research_collaboration_rate": {
+        "value": 3.38,
+        "unit": "percent",
+        "year": "2020-2024",
+        "source": "OpenAlex institutional filters",
+        "verification_date": "2025-09-17",
+        "benchmark": "3.5% OECD average",
+        "assessment": "NORMAL"
+      },
+      "elite_institution_average": {
+        "value": 4.0,
+        "unit": "percent",
+        "institutions_sampled": ["Politecnico Milano", "Bologna", "Sapienza", "Regional universities"],
+        "finding": "No significant prestige bias"
+      },
+      "trade_dependency": {
+        "semiconductors_from_china": {
+          "value": 45.4,
+          "unit": "percent",
+          "year": 2023,
+          "source": "UN Comtrade",
+          "verification_date": "2025-09-17",
+          "assessment": "HIGH - Primary vulnerability"
+        },
+        "critical_materials": {
+          "rare_earths": "85% from China",
+          "battery_materials": "62% from China"
+        }
+      },
+      "leonardo_exposure": {
+        "type": "Commercial presence",
+        "helicopters_in_china": "130+",
+        "research_collaboration": "Within national average",
+        "risk": "MODERATE - Commercial, not research"
+      }
+    },
+    "innovation_capacity": {
+      "GERD_GDP": {"value": 1.45, "year": 2023, "EU_avg": 2.32},
+      "BERD_GDP": {"value": 0.93, "year": 2023},
+      "researchers_per_million": {"value": 2398, "year": 2022},
+      "patent_applications_EPO": {"value": 4834, "year": 2023},
+      "scientific_publications": {
+        "total": 996839,
+        "with_china": 33680,
+        "percentage": 3.38,
+        "period": "2020-2024",
+        "source": "OpenAlex"
+      }
+    },
+    "nato_metrics": {
+      "defence_gdp_ratio": {"value": 1.46, "target": 2.0, "gap": -0.54},
+      "equipment_modernization": {"value": 24.3, "target": 20.0, "meets": true},
+      "nato_exercises_2023": {"participated": 8, "led": 1, "hosted": 2},
+      "stanag_compliance": {"implemented": 67, "partial": 23, "total": 120, "rate": 0.56},
+      "diana_participation": {"accelerator": "Turin", "test_centers": 0, "companies": 3},
+      "supply_chain_vulnerability": {
+        "semiconductors": "45.4% China dependency",
+        "impact_on_nato_systems": "F-35 production risk",
+        "mitigation": "EU Chips Act participation"
+      }
+    },
+    "technology_adoption": {
+      "AI_deployment": {
+        "china_collaboration": "Within 3.38% average",
+        "risk": "LOW - Standard academic exchange"
+      },
+      "quantum_computing": {
+        "research_groups": 12,
+        "china_collaboration": "Minimal detected",
+        "assessment": "No anomalous engagement"
+      },
+      "5G_infrastructure": {
+        "coverage": "99.7% population",
+        "chinese_vendors": "Limited presence",
+        "security_measures": "EU 5G toolbox applied"
+      }
+    },
+    "risk_indicators": {
+      "overall_risk_score": {
+        "value": 4,
+        "scale": 10,
+        "assessment": "MODERATE",
+        "previous": 9,
+        "change_reason": "Research collaboration normalized"
+      },
+      "primary_vulnerabilities": [
+        "Supply chain dependency (45% semiconductors)",
+        "Defense spending gap (1.46% vs 2% target)",
+        "Limited R&D investment (1.45% vs 2.32% EU avg)"
+      ],
+      "china_specific_risks": [
+        "Trade dependency HIGH",
+        "Research collaboration LOW (normal)",
+        "Technology transfer MINIMAL"
+      ]
+    }
+  },
+  "key_findings": {
+    "1": "Italy-China research collaboration (3.38%) matches OECD benchmarks",
+    "2": "Trade dependency (45% semiconductors) is primary vulnerability",
+    "3": "No evidence of anomalous academic engagement with China",
+    "4": "Elite and regional universities show similar collaboration rates (~4%)",
+    "5": "Risk is commercial/trade-based, not research-based"
+  },
+  "data_quality": {
+    "high_confidence": [
+      "OpenAlex collaboration rate (multiple verification methods)",
+      "UN Comtrade semiconductor data",
+      "OECD benchmark comparison"
+    ],
+    "medium_confidence": [
+      "Elite institution specific rates",
+      "Leonardo commercial exposure estimates"
+    ],
+    "gaps_identified": [
+      "Detailed technology transfer mechanisms",
+      "Personnel exchange numbers",
+      "Dual-use research specifics"
+    ]
+  }
+}

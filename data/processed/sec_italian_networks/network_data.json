@@ -1,0 +1,2200 @@
+{
+  "nodes": [
+    {
+      "id": "Philip Morris International Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "PM"
+    },
+    {
+      "id": "INTERNATIONAL BUSINESS MACHINES CORP",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "IBM"
+    },
+    {
+      "id": "HONEYWELL INTERNATIONAL INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "HON"
+    },
+    {
+      "id": "Ferrari N.V.",
+      "type": "italian_company",
+      "group": "ferrari",
+      "ticker": "RACE"
+    },
+    {
+      "id": "Mondelez International, Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "MDLZ"
+    },
+    {
+      "id": "Howmet Aerospace Inc.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "HWM"
+    },
+    {
+      "id": "MARRIOTT INTERNATIONAL INC /MD/",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "MAR"
+    },
+    {
+      "id": "Johnson Controls International plc",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "JCI"
+    },
+    {
+      "id": "ENI SPA",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "E"
+    },
+    {
+      "id": "ENI SPA",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "E"
+    },
+    {
+      "id": "Cheniere Energy, Inc.",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "LNG"
+    },
+    {
+      "id": "AMERICAN INTERNATIONAL GROUP, INC.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "AIG"
+    },
+    {
+      "id": "Extra Space Storage Inc.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "EXR"
+    },
+    {
+      "id": "Restaurant Brands International Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "QSR"
+    },
+    {
+      "id": "Stellantis N.V.",
+      "type": "italian_company",
+      "group": "stellantis",
+      "ticker": "STLA"
+    },
+    {
+      "id": "METTLER TOLEDO INTERNATIONAL INC/",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "MTD"
+    },
+    {
+      "id": "Cheniere Energy Partners, L.P.",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "CQP"
+    },
+    {
+      "id": "DSM-Firmenich AG/ADR",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "DSFIY"
+    },
+    {
+      "id": "INTERNATIONAL PAPER CO /NEW/",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "IP"
+    },
+    {
+      "id": "STMicroelectronics N.V.",
+      "type": "italian_company",
+      "group": "stmicroelectronics",
+      "ticker": "STM"
+    },
+    {
+      "id": "EDISON INTERNATIONAL",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "EIX"
+    },
+    {
+      "id": "LENNOX INTERNATIONAL INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "LII"
+    },
+    {
+      "id": "SOMNIGROUP INTERNATIONAL INC.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "SGI"
+    },
+    {
+      "id": "INTERNATIONAL FLAVORS & FRAGRANCES INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "IFF"
+    },
+    {
+      "id": "EXPEDITORS INTERNATIONAL OF WASHINGTON INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "EXPD"
+    },
+    {
+      "id": "RPM INTERNATIONAL INC/DE/",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "RPM"
+    },
+    {
+      "id": "LOGITECH INTERNATIONAL S.A.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "LOGI"
+    },
+    {
+      "id": "Fresenius Medical Care AG",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "FMS"
+    },
+    {
+      "id": "AST SpaceMobile, Inc.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "ASTS"
+    },
+    {
+      "id": "CNH Industrial N.V.",
+      "type": "italian_company",
+      "group": "cnh",
+      "ticker": "CNH"
+    },
+    {
+      "id": "MAGNA INTERNATIONAL INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "MGA"
+    },
+    {
+      "id": "BAXTER INTERNATIONAL INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "BAX"
+    },
+    {
+      "id": "SERVICE CORP INTERNATIONAL",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "SCI"
+    },
+    {
+      "id": "Leonardo DRS, Inc.",
+      "type": "italian_company",
+      "group": "leonardo",
+      "ticker": "DRS"
+    },
+    {
+      "id": "CACI INTERNATIONAL INC /DE/",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "CACI"
+    },
+    {
+      "id": "WESCO INTERNATIONAL INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "WCC"
+    },
+    {
+      "id": "OLD REPUBLIC INTERNATIONAL CORP",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "ORI"
+    },
+    {
+      "id": "MGM Resorts International",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "MGM"
+    },
+    {
+      "id": "Colliers International Group Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "CIGI"
+    },
+    {
+      "id": "MILLICOM INTERNATIONAL CELLULAR SA",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "TIGO"
+    },
+    {
+      "id": "TFI International Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "TFII"
+    },
+    {
+      "id": "CHARLES RIVER LABORATORIES INTERNATIONAL, INC.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "CRL"
+    },
+    {
+      "id": "BRINKER INTERNATIONAL, INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "EAT"
+    },
+    {
+      "id": "Lottomatica Group S.p.A./ADR",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "LOTMY"
+    },
+    {
+      "id": "Firefly Aerospace Inc.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "FLY"
+    },
+    {
+      "id": "Stevanato Group S.p.A.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "STVN"
+    },
+    {
+      "id": "CHOICE HOTELS INTERNATIONAL INC /DE",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "CHH"
+    },
+    {
+      "id": "Enel Chile S.A.",
+      "type": "italian_company",
+      "group": "enel",
+      "ticker": "ENIC"
+    },
+    {
+      "id": "Science Applications International Corp",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "SAIC"
+    },
+    {
+      "id": "Weatherford International plc",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "WFRD"
+    },
+    {
+      "id": "INTERNATIONAL BANCSHARES CORP",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "IBOC"
+    },
+    {
+      "id": "ASCENTAGE PHARMA GROUP INTERNATIONAL",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "AAPG"
+    },
+    {
+      "id": "MIAMI INTERNATIONAL HOLDINGS, INC.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "MIAX"
+    },
+    {
+      "id": "Samsonite International SA/ADR",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "SMSEY"
+    },
+    {
+      "id": "Genius Sports Ltd",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "GENI"
+    },
+    {
+      "id": "CLEANSPARK, INC.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "CLSK"
+    },
+    {
+      "id": "Enova International, Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "ENVA"
+    },
+    {
+      "id": "Kiniksa Pharmaceuticals International, plc",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "KNSA"
+    },
+    {
+      "id": "STANDEX INTERNATIONAL CORP/DE/",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "SXI"
+    },
+    {
+      "id": "OCEANEERING INTERNATIONAL INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "OII"
+    },
+    {
+      "id": "SAPIENS INTERNATIONAL CORP N V",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "SPNS"
+    },
+    {
+      "id": "International Seaways, Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "INSW"
+    },
+    {
+      "id": "ONESPAWORLD HOLDINGS Ltd",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "OSW"
+    },
+    {
+      "id": "POWER SOLUTIONS INTERNATIONAL, INC.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "PSIX"
+    },
+    {
+      "id": "DENISON MINES CORP.",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "DNN"
+    },
+    {
+      "id": "CSG SYSTEMS INTERNATIONAL INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "CSGS"
+    },
+    {
+      "id": "ICF International, Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "ICFI"
+    },
+    {
+      "id": "Brookdale Senior Living Inc.",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "BKD"
+    },
+    {
+      "id": "ALBANY INTERNATIONAL CORP /DE/",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "AIN"
+    },
+    {
+      "id": "PAPA JOHNS INTERNATIONAL INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "PZZA"
+    },
+    {
+      "id": "CHINA YUCHAI INTERNATIONAL LTD",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "CYD"
+    },
+    {
+      "id": "Janus International Group, Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "JBI"
+    },
+    {
+      "id": "Xenia Hotels & Resorts, Inc.",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "XHR"
+    },
+    {
+      "id": "Gemini Space Station, Inc.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "GEMI"
+    },
+    {
+      "id": "SS Innovations International, Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "SSII"
+    },
+    {
+      "id": "DIGI INTERNATIONAL INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "DGII"
+    },
+    {
+      "id": "CRA INTERNATIONAL, INC.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "CRAI"
+    },
+    {
+      "id": "Catapult Group International Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "CAZGF"
+    },
+    {
+      "id": "TELUS International (Cda) Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "TIXT"
+    },
+    {
+      "id": "Innovex International, Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "INVX"
+    },
+    {
+      "id": "SUPER HI INTERNATIONAL HOLDING LTD.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "HDL"
+    },
+    {
+      "id": "International General Insurance Holdings Ltd.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "IGIC"
+    },
+    {
+      "id": "CENTERSPACE",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "CSR"
+    },
+    {
+      "id": "HEIDRICK & STRUGGLES INTERNATIONAL INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "HSII"
+    },
+    {
+      "id": "SpartanNash Co",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "SPTN"
+    },
+    {
+      "id": "NPK International Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "NPKI"
+    },
+    {
+      "id": "Fiverr International Ltd.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "FVRR"
+    },
+    {
+      "id": "STUDIO CITY INTERNATIONAL HOLDINGS Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "MSC"
+    },
+    {
+      "id": "MATTHEWS INTERNATIONAL CORP",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "MATW"
+    },
+    {
+      "id": "COMPASS MINERALS INTERNATIONAL INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "CMP"
+    },
+    {
+      "id": "Septerna, Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "SEPN"
+    },
+    {
+      "id": "Nexxen International Ltd.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "NEXN"
+    },
+    {
+      "id": "OneSpan Inc.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "OSPN"
+    },
+    {
+      "id": "TITAN INTERNATIONAL INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "TWI"
+    },
+    {
+      "id": "Invesco Senior Income Trust",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "VVR"
+    },
+    {
+      "id": "BlackRock Enhanced International Dividend Trust",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "BGY"
+    },
+    {
+      "id": "Vertical Aerospace Ltd.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "EVTL"
+    },
+    {
+      "id": "Rich Sparkle Holdings Ltd",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "ANPA"
+    },
+    {
+      "id": "SONIDA SENIOR LIVING, INC.",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "SNDA"
+    },
+    {
+      "id": "QDM International Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "QDMI"
+    },
+    {
+      "id": "Talkspace, Inc.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "TALK"
+    },
+    {
+      "id": "International Money Express, Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "IMXI"
+    },
+    {
+      "id": "XAI Octagon Floating Rate & Alternative Income Trust",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "XFLT"
+    },
+    {
+      "id": "Genie Energy Ltd.",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "GNE"
+    },
+    {
+      "id": "Amber International Holding Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "AMBR"
+    },
+    {
+      "id": "So-Young International Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "SY"
+    },
+    {
+      "id": "PARK AEROSPACE CORP",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "PKE"
+    },
+    {
+      "id": "Benitec Biopharma Inc.",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "BNTC"
+    },
+    {
+      "id": "Rackspace Technology, Inc.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "RXT"
+    },
+    {
+      "id": "Eaton Vance Senior Floating-Rate Trust",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "EFR"
+    },
+    {
+      "id": "OIL STATES INTERNATIONAL, INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "OIS"
+    },
+    {
+      "id": "Village Farms International, Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "VFF"
+    },
+    {
+      "id": "INTERNATIONAL TOWER HILL MINES LTD",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "THM"
+    },
+    {
+      "id": "WW INTERNATIONAL, INC.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "WW"
+    },
+    {
+      "id": "Archimedes Tech SPAC Partners II Co.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "ATII"
+    },
+    {
+      "id": "COMPX INTERNATIONAL INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "CIX"
+    },
+    {
+      "id": "G WILLI FOOD INTERNATIONAL LTD",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "WILC"
+    },
+    {
+      "id": "GRAFTECH INTERNATIONAL LTD",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "EAF"
+    },
+    {
+      "id": "FIRST TRUST SENIOR FLOATING RATE INCOME FUND II",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "FCT"
+    },
+    {
+      "id": "Perma-Pipe International Holdings, Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "PPIH"
+    },
+    {
+      "id": "ATN International, Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "ATNI"
+    },
+    {
+      "id": "DouYu International Holdings Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "DOYU"
+    },
+    {
+      "id": "ATLANTIC INTERNATIONAL CORP.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "ATLN"
+    },
+    {
+      "id": "GEOSPACE TECHNOLOGIES CORP",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "GEOS"
+    },
+    {
+      "id": "MERCER INTERNATIONAL INC.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "MERC"
+    },
+    {
+      "id": "Electromed, Inc.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "ELMD"
+    },
+    {
+      "id": "Dogness (International) Corp",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "DOGZ"
+    },
+    {
+      "id": "Blackstone Senior Floating Rate 2027 Term Fund",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "BSL"
+    },
+    {
+      "id": "Phoenix Asia Holdings Ltd",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "PHOE"
+    },
+    {
+      "id": "HUHUTECH International Group Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "HUHU"
+    },
+    {
+      "id": "ENIGMATIG LTD",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "EGG"
+    },
+    {
+      "id": "Phoenix Plus Corp.",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "PXPC"
+    },
+    {
+      "id": "GENELUX Corp",
+      "type": "italian_company",
+      "group": "enel",
+      "ticker": "GNLX"
+    },
+    {
+      "id": "ICTS INTERNATIONAL N V",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "ICTSF"
+    },
+    {
+      "id": "FLEXIBLE SOLUTIONS INTERNATIONAL INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "FSI"
+    },
+    {
+      "id": "Grown Rogue International Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "GRUSF"
+    },
+    {
+      "id": "Lianhe Sowell International Group Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "LHSW"
+    },
+    {
+      "id": "Bridger Aerospace Group Holdings, Inc.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "BAER"
+    },
+    {
+      "id": "Jin Medical International Ltd.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "ZJYL"
+    },
+    {
+      "id": "MACROGENICS INC",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "MGNX"
+    },
+    {
+      "id": "Eaton Vance Senior Income Trust",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "EVF"
+    },
+    {
+      "id": "SafeSpace Global Corp",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "SSGC"
+    },
+    {
+      "id": "PhenixFIN Corp",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "PFX"
+    },
+    {
+      "id": "Spark I Acquisition Corp",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "SPKL"
+    },
+    {
+      "id": "Genius Group Ltd",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "GNS"
+    },
+    {
+      "id": "Horizon Space Acquisition II Corp.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "HSPT"
+    },
+    {
+      "id": "PYXUS INTERNATIONAL, INC.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "PYYX"
+    },
+    {
+      "id": "ASPAC III Acquisition Corp.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "ASPC"
+    },
+    {
+      "id": "Mingteng International Corp Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "MTEN"
+    },
+    {
+      "id": "TH International Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "THCH"
+    },
+    {
+      "id": "Drilling Tools International Corp",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "DTI"
+    },
+    {
+      "id": "Destra Multi-Alternative Fund",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "DMA"
+    },
+    {
+      "id": "NORTHERN TECHNOLOGIES INTERNATIONAL CORP",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "NTIC"
+    },
+    {
+      "id": "mF International Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "MFI"
+    },
+    {
+      "id": "International Media Acquisition Corp.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "IMAQ"
+    },
+    {
+      "id": "Planet Image International Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "YIBO"
+    },
+    {
+      "id": "RetinalGenix Technologies Inc.",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "RTGN"
+    },
+    {
+      "id": "Wisekey International Holding S.A.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "WKEY"
+    },
+    {
+      "id": "BEST SPAC I Acquisition Corp.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "BSAA"
+    },
+    {
+      "id": "Genenta Science S.p.A.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "GNTA"
+    },
+    {
+      "id": "Webus International Ltd.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "WETO"
+    },
+    {
+      "id": "USPACE Technology Group Limited/ADR",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "USPCY"
+    },
+    {
+      "id": "Horizon Space Acquisition I Corp.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "HSPO"
+    },
+    {
+      "id": "READING INTERNATIONAL INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "RDI"
+    },
+    {
+      "id": "Magnitude International Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "MAGH"
+    },
+    {
+      "id": "zSpace, Inc.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "ZSPC"
+    },
+    {
+      "id": "VivoPower International PLC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "VVPR"
+    },
+    {
+      "id": "SPANISH MOUNTAIN GOLD LTD.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "SPAUF"
+    },
+    {
+      "id": "INTERNATIONAL BATTERY METALS LTD.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "IBATF"
+    },
+    {
+      "id": "High-Trend International Group",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "HTCO"
+    },
+    {
+      "id": "Semilux International Ltd.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "SELX"
+    },
+    {
+      "id": "XTI Aerospace, Inc.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "XTIA"
+    },
+    {
+      "id": "PHOENIX MOTOR INC.",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "PEVM"
+    },
+    {
+      "id": "CRYO CELL INTERNATIONAL INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "CCEL"
+    },
+    {
+      "id": "DYADIC INTERNATIONAL INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "DYAI"
+    },
+    {
+      "id": "HNO International, Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "HNOI"
+    },
+    {
+      "id": "Kun Peng International Ltd.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "KPEA"
+    },
+    {
+      "id": "Millennium Group International Holdings Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "MGIH"
+    },
+    {
+      "id": "Sidus Space Inc.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "SIDU"
+    },
+    {
+      "id": "Phoenix New Media Ltd",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "FENG"
+    },
+    {
+      "id": "INTERNATIONAL ISOTOPES INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "INIS"
+    },
+    {
+      "id": "Eastern International Ltd.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "ELOG"
+    },
+    {
+      "id": "Ebang International Holdings Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "EBON"
+    },
+    {
+      "id": "SPAR Group, Inc.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "SGRP"
+    },
+    {
+      "id": "Li Bang International Corp Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "LBGJ"
+    },
+    {
+      "id": "MICROMEM TECHNOLOGIES INC",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "MMTIF"
+    },
+    {
+      "id": "Greenidge Generation Holdings Inc.",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "GREE"
+    },
+    {
+      "id": "TRIO-TECH INTERNATIONAL",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "TRT"
+    },
+    {
+      "id": "Huadi International Group Co., Ltd.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "HUDI"
+    },
+    {
+      "id": "LIQTECH INTERNATIONAL INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "LIQT"
+    },
+    {
+      "id": "NATURAL ALTERNATIVES INTERNATIONAL INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "NAII"
+    },
+    {
+      "id": "HWH International Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "HWH"
+    },
+    {
+      "id": "CBL International Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "BANL"
+    },
+    {
+      "id": "WF International Ltd.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "WXM"
+    },
+    {
+      "id": "International Land Alliance Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "ILAL"
+    },
+    {
+      "id": "CCSC Technology International Holdings Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "CCTG"
+    },
+    {
+      "id": "Nisun International Enterprise Development Group Co., Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "NISN"
+    },
+    {
+      "id": "Ten-League International Holdings Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "TLIH"
+    },
+    {
+      "id": "Meihua International Medical Technologies Co., Ltd.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "MHUA"
+    },
+    {
+      "id": "Tianci International, Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "CIIT"
+    },
+    {
+      "id": "SOLIGENIX, INC.",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "SNGX"
+    },
+    {
+      "id": "PS International Group Ltd.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "PSIG"
+    },
+    {
+      "id": "EpicQuest Education Group International Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "EEIQ"
+    },
+    {
+      "id": "ZK International Group Co., Ltd.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "ZKIN"
+    },
+    {
+      "id": "Aesthetic Medical International Holdings Group Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "PAIYY"
+    },
+    {
+      "id": "Banzai International, Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "BNZI"
+    },
+    {
+      "id": "Neo-Concept International Group Holdings Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "NCI"
+    },
+    {
+      "id": "Chanson International Holding",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "CHSN"
+    },
+    {
+      "id": "Baiya International Group Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "BIYA"
+    },
+    {
+      "id": "Cannabis Bioscience International Holdings, Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "CBIH"
+    },
+    {
+      "id": "BIO KEY INTERNATIONAL INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "BKYI"
+    },
+    {
+      "id": "ORAGENICS INC",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "OGEN"
+    },
+    {
+      "id": "Concorde International Group Ltd.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "CIGL"
+    },
+    {
+      "id": "Trillion Energy International Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "TRLEF"
+    },
+    {
+      "id": "SPARTA COMMERCIAL SERVICES, INC.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "SRCO"
+    },
+    {
+      "id": "Lichen International Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "LICN"
+    },
+    {
+      "id": "AiXin Life International, Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "AIXN"
+    },
+    {
+      "id": "NewGenIvf Group Ltd",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "NIVF"
+    },
+    {
+      "id": "SUPERIOR INDUSTRIES INTERNATIONAL INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "SSUP"
+    },
+    {
+      "id": "TAAT Global Alternatives Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "TOBAF"
+    },
+    {
+      "id": "Protagenic Therapeutics, Inc.new",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "PTIX"
+    },
+    {
+      "id": "Yubo International Biotech Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "YBGJ"
+    },
+    {
+      "id": "Ucommune International Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "UK"
+    },
+    {
+      "id": "AB INTERNATIONAL GROUP CORP.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "ABQQ"
+    },
+    {
+      "id": "International Endeavors Corp",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "IDVV"
+    },
+    {
+      "id": "Ilustrato Pictures International Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "ILUS"
+    },
+    {
+      "id": "SciSparc Ltd.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "SPRC"
+    },
+    {
+      "id": "International Stem Cell CORP",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "ISCO"
+    },
+    {
+      "id": "DEFENSE TECHNOLOGIES INTERNATIONAL CORP.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "DTII"
+    },
+    {
+      "id": "NovelStem International Corp.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "NSTM"
+    },
+    {
+      "id": "EnviroMetal Technologies Inc.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "EVLLF"
+    },
+    {
+      "id": "INTERNATIONAL STAR INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "ILST"
+    },
+    {
+      "id": "Jubilant Flame International, Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "JFIL"
+    },
+    {
+      "id": "Sunnova Energy International Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "NOVAQ"
+    },
+    {
+      "id": "Athens International Airport SA/ADR",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "ATHNY"
+    },
+    {
+      "id": "Squirrel Enlivened International Co., Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "SQEI"
+    },
+    {
+      "id": "Sienna Senior Living Inc./ADR",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "SSRLY"
+    },
+    {
+      "id": "iShares Gold Trust Micro",
+      "type": "italian_company",
+      "group": "stmicroelectronics",
+      "ticker": "IAUM"
+    },
+    {
+      "id": "Zhanling International Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "ZLME"
+    },
+    {
+      "id": "Prometheus PubCo Inc.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "FTW"
+    },
+    {
+      "id": "Gifts International Holdings Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "GINT"
+    },
+    {
+      "id": "Finning International Inc./ADR",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "FNIGY"
+    },
+    {
+      "id": "OmnigenicsAI Corp",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "OMNI"
+    },
+    {
+      "id": "ChowChow Cloud International Holdings Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "CHOW"
+    },
+    {
+      "id": "Living Homeopathy International Ltd.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "LHI"
+    },
+    {
+      "id": "DiaSorin SpA/ADR",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "DSRNY"
+    },
+    {
+      "id": "Avio S.p.A./ADR",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "AVVSY"
+    },
+    {
+      "id": "ENI SPA",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "EIPAF"
+    },
+    {
+      "id": "ENI SPA",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "EIPAF"
+    },
+    {
+      "id": "STMicroelectronics N.V.",
+      "type": "italian_company",
+      "group": "stmicroelectronics",
+      "ticker": "STMEF"
+    },
+    {
+      "id": "Restaurant Brands International Limited Partnership",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "RSTRF"
+    },
+    {
+      "id": "Wilmar International Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "WLMIF"
+    },
+    {
+      "id": "Fresenius Medical Care AG",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "FMCQF"
+    },
+    {
+      "id": "Brunello Cucinelli S.p.A./ADR",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "BCUCF"
+    },
+    {
+      "id": "Triton International Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "TRTN-PA"
+    },
+    {
+      "id": "Medco Energi Internasional Tbk PT/ADR/",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "PTGIF"
+    },
+    {
+      "id": "Chrome Holding Co.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "MEHCQ"
+    },
+    {
+      "id": "READING INTERNATIONAL INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "RDIB"
+    },
+    {
+      "id": "Hongchang International Co., Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "HCIL"
+    },
+    {
+      "id": "Wisekey International Holding S.A.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "WSKEF"
+    },
+    {
+      "id": "Wilhelmina International, Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "WHLM"
+    },
+    {
+      "id": "BONSO ELECTRONICS INTERNATIONAL INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "BNSOF"
+    },
+    {
+      "id": "SCANDIUM INTERNATIONAL MINING CORP.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "SCYYF"
+    },
+    {
+      "id": "STARCORE INTERNATIONAL MINES LTD.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "SHVLF"
+    },
+    {
+      "id": "SOUTHERN ITS INTERNATIONAL, INC.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "SITS"
+    },
+    {
+      "id": "SIPP International Industries, Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "SIPN"
+    },
+    {
+      "id": "Star Jets International Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "JETR"
+    },
+    {
+      "id": "Ameramex International Inc",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "AMMX"
+    },
+    {
+      "id": "Atacama Resources International, Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "ACRL"
+    },
+    {
+      "id": "POWERDYNE INTERNATIONAL, INC.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "PWDY"
+    },
+    {
+      "id": "Synbio International, Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "SYIN"
+    },
+    {
+      "id": "Sparx Holdings Group, Inc.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "SHGI"
+    },
+    {
+      "id": "China Dongsheng International, Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "CDSG"
+    },
+    {
+      "id": "Kisses From Italy Inc.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "KITL"
+    },
+    {
+      "id": "Electromedical Technologies, Inc",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "EMED"
+    },
+    {
+      "id": "BALTIC INTERNATIONAL USA INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "BISA"
+    },
+    {
+      "id": "Howmet Aerospace Inc.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "HWM-P"
+    },
+    {
+      "id": "International Media Acquisition Corp.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "IMAQR"
+    },
+    {
+      "id": "International Media Acquisition Corp.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "IMAQU"
+    },
+    {
+      "id": "International Media Acquisition Corp.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "IMAQW"
+    },
+    {
+      "id": "ATLANTIC INTERNATIONAL CORP.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "SQLLW"
+    },
+    {
+      "id": "Vertical Aerospace Ltd.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "EVTWF"
+    },
+    {
+      "id": "Horizon Space Acquisition I Corp.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "HSPOR"
+    },
+    {
+      "id": "Horizon Space Acquisition I Corp.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "HSPOU"
+    },
+    {
+      "id": "Horizon Space Acquisition I Corp.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "HSPOW"
+    },
+    {
+      "id": "Argo Group International Holdings, Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "ARGD"
+    },
+    {
+      "id": "Argo Group International Holdings, Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "ARGO-PA"
+    },
+    {
+      "id": "INTERNATIONAL PAPER CO /NEW/",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "INPAP"
+    },
+    {
+      "id": "Talkspace, Inc.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "TALKW"
+    },
+    {
+      "id": "Triton International Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "TRTN-PB"
+    },
+    {
+      "id": "Triton International Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "TRTN-PC"
+    },
+    {
+      "id": "Triton International Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "TRTN-PD"
+    },
+    {
+      "id": "Triton International Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "TRTN-PE"
+    },
+    {
+      "id": "Triton International Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "TRTN-PF"
+    },
+    {
+      "id": "Athens International Airport SA/ADR",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "ATHNF"
+    },
+    {
+      "id": "Spark I Acquisition Corp",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "SPKLU"
+    },
+    {
+      "id": "Spark I Acquisition Corp",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "SPKLW"
+    },
+    {
+      "id": "SUPER HI INTERNATIONAL HOLDING LTD.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "SPHIF"
+    },
+    {
+      "id": "DSM-Firmenich AG/ADR",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "DSMFF"
+    },
+    {
+      "id": "Sienna Senior Living Inc./ADR",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "LWSCF"
+    },
+    {
+      "id": "Samsonite International SA/ADR",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "SMSOF"
+    },
+    {
+      "id": "Banzai International, Inc.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "BNZIW"
+    },
+    {
+      "id": "WYTEC INTERNATIONAL INC",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "WYTC"
+    },
+    {
+      "id": "CLEANSPARK, INC.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "CLSKW"
+    },
+    {
+      "id": "Strategic Student & Senior Housing Trust, Inc.",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "STSR"
+    },
+    {
+      "id": "Greenidge Generation Holdings Inc.",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "GREEL"
+    },
+    {
+      "id": "Ucommune International Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "UKOMW"
+    },
+    {
+      "id": "Redox International Group, Corp.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "ITOR"
+    },
+    {
+      "id": "Alternative Strategies Income Fund",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "LTAFX"
+    },
+    {
+      "id": "Alternative Strategies Income Fund",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "LTCFX"
+    },
+    {
+      "id": "Protagenic Therapeutics, Inc.new",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "PTIXW"
+    },
+    {
+      "id": "Bridger Aerospace Group Holdings, Inc.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "BAERW"
+    },
+    {
+      "id": "XAI Octagon Floating Rate & Alternative Income Trust",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "XFLT-PA"
+    },
+    {
+      "id": "ASPAC III Acquisition Corp.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "ASPCU"
+    },
+    {
+      "id": "ASPAC III Acquisition Corp.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "ASPCR"
+    },
+    {
+      "id": "Horizon Space Acquisition II Corp.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "HSPTR"
+    },
+    {
+      "id": "Horizon Space Acquisition II Corp.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "HSPTU"
+    },
+    {
+      "id": "MILLICOM INTERNATIONAL CELLULAR SA",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "MLCMF"
+    },
+    {
+      "id": "BEST SPAC I Acquisition Corp.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "BSAAR"
+    },
+    {
+      "id": "BEST SPAC I Acquisition Corp.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "BSAAU"
+    },
+    {
+      "id": "Archimedes Tech SPAC Partners II Co.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "ATIIU"
+    },
+    {
+      "id": "Archimedes Tech SPAC Partners II Co.",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "ATIIW"
+    },
+    {
+      "id": "GUOCHUN INTERNATIONAL INC.",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "GCGJ"
+    },
+    {
+      "id": "NewGenIvf Group Ltd",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "NIVFW"
+    },
+    {
+      "id": "Variant Alternative Income Fund",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "NICHX"
+    },
+    {
+      "id": "Moncler S.p.A./ADR",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "MONRF"
+    },
+    {
+      "id": "BYD Electronic (International) Co Ltd",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "BYDIF"
+    },
+    {
+      "id": "Avio S.p.A./ADR",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "AVVOF"
+    },
+    {
+      "id": "PhenixFIN Corp",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "PFXNZ"
+    },
+    {
+      "id": "Lottomatica Group S.p.A./ADR",
+      "type": "italian_company",
+      "group": "other_italian",
+      "ticker": "LTMGF"
+    },
+    {
+      "id": "Finning International Inc./ADR",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "FINGF"
+    },
+    {
+      "id": "SENIOR PLC",
+      "type": "italian_company",
+      "group": "eni",
+      "ticker": "SNIRF"
+    },
+    {
+      "id": "Babcock International Group PLC/ADR",
+      "type": "italian_company",
+      "group": "terna",
+      "ticker": "BCKIF"
+    }
+  ],
+  "edges": [
+    {
+      "source": "GENELUX Corp",
+      "target": "china",
+      "type": "china_mention",
+      "filing_date": "2025-05-08",
+      "filing_type": "10-Q"
+    },
+    {
+      "source": "GENELUX Corp",
+      "target": "cnooc",
+      "type": "china_mention",
+      "filing_date": "2025-05-08",
+      "filing_type": "10-Q"
+    },
+    {
+      "source": "GENELUX Corp",
+      "target": "china",
+      "type": "china_mention",
+      "filing_date": "2025-02-27",
+      "filing_type": "10-K"
+    },
+    {
+      "source": "GENELUX Corp",
+      "target": "cnooc",
+      "type": "china_mention",
+      "filing_date": "2025-02-27",
+      "filing_type": "10-K"
+    },
+    {
+      "source": "GENELUX Corp",
+      "target": "china",
+      "type": "china_mention",
+      "filing_date": "2024-11-06",
+      "filing_type": "10-Q"
+    },
+    {
+      "source": "GENELUX Corp",
+      "target": "cnooc",
+      "type": "china_mention",
+      "filing_date": "2024-11-06",
+      "filing_type": "10-Q"
+    },
+    {
+      "source": "GENELUX Corp",
+      "target": "china",
+      "type": "china_mention",
+      "filing_date": "2024-08-08",
+      "filing_type": "10-Q"
+    },
+    {
+      "source": "GENELUX Corp",
+      "target": "cnooc",
+      "type": "china_mention",
+      "filing_date": "2024-08-08",
+      "filing_type": "10-Q"
+    },
+    {
+      "source": "GENELUX Corp",
+      "target": "china",
+      "type": "china_mention",
+      "filing_date": "2024-07-31",
+      "filing_type": "8-K"
+    },
+    {
+      "source": "GENELUX Corp",
+      "target": "cnooc",
+      "type": "china_mention",
+      "filing_date": "2024-07-31",
+      "filing_type": "8-K"
+    },
+    {
+      "source": "GENELUX Corp",
+      "target": "china",
+      "type": "china_mention",
+      "filing_date": "2024-05-07",
+      "filing_type": "10-Q"
+    },
+    {
+      "source": "GENELUX Corp",
+      "target": "cnooc",
+      "type": "china_mention",
+      "filing_date": "2024-05-07",
+      "filing_type": "10-Q"
+    },
+    {
+      "source": "SCANDIUM INTERNATIONAL MINING CORP.",
+      "target": "china",
+      "type": "china_mention",
+      "filing_date": "2025-08-07",
+      "filing_type": "10-Q"
+    },
+    {
+      "source": "SCANDIUM INTERNATIONAL MINING CORP.",
+      "target": "china",
+      "type": "china_mention",
+      "filing_date": "2025-05-07",
+      "filing_type": "10-Q"
+    },
+    {
+      "source": "SCANDIUM INTERNATIONAL MINING CORP.",
+      "target": "china",
+      "type": "china_mention",
+      "filing_date": "2025-03-05",
+      "filing_type": "10-K"
+    },
+    {
+      "source": "SCANDIUM INTERNATIONAL MINING CORP.",
+      "target": "byd",
+      "type": "china_mention",
+      "filing_date": "2025-03-05",
+      "filing_type": "10-K"
+    },
+    {
+      "source": "SCANDIUM INTERNATIONAL MINING CORP.",
+      "target": "byd",
+      "type": "china_mention",
+      "filing_date": "2024-11-07",
+      "filing_type": "10-Q"
+    },
+    {
+      "source": "SCANDIUM INTERNATIONAL MINING CORP.",
+      "target": "byd",
+      "type": "china_mention",
+      "filing_date": "2024-08-05",
+      "filing_type": "10-Q"
+    },
+    {
+      "source": "Argo Group International Holdings, Inc.",
+      "target": "zte",
+      "type": "china_mention",
+      "filing_date": "2025-05-15",
+      "filing_type": "10-Q"
+    },
+    {
+      "source": "Argo Group International Holdings, Inc.",
+      "target": "byd",
+      "type": "china_mention",
+      "filing_date": "2025-05-15",
+      "filing_type": "10-Q"
+    },
+    {
+      "source": "Argo Group International Holdings, Inc.",
+      "target": "zte",
+      "type": "china_mention",
+      "filing_date": "2025-04-30",
+      "filing_type": "DEF 14A"
+    },
+    {
+      "source": "Argo Group International Holdings, Inc.",
+      "target": "byd",
+      "type": "china_mention",
+      "filing_date": "2025-04-30",
+      "filing_type": "DEF 14A"
+    },
+    {
+      "source": "Argo Group International Holdings, Inc.",
+      "target": "zte",
+      "type": "china_mention",
+      "filing_date": "2025-04-16",
+      "filing_type": "8-K"
+    },
+    {
+      "source": "Argo Group International Holdings, Inc.",
+      "target": "china",
+      "type": "china_mention",
+      "filing_date": "2025-03-31",
+      "filing_type": "10-K"
+    },
+    {
+      "source": "Argo Group International Holdings, Inc.",
+      "target": "chinese",
+      "type": "china_mention",
+      "filing_date": "2025-03-31",
+      "filing_type": "10-K"
+    },
+    {
+      "source": "Argo Group International Holdings, Inc.",
+      "target": "zte",
+      "type": "china_mention",
+      "filing_date": "2024-12-20",
+      "filing_type": "8-K"
+    },
+    {
+      "source": "Finning International Inc./ADR",
+      "target": "byd",
+      "type": "china_mention",
+      "filing_date": "2025-08-13",
+      "filing_type": "10-Q"
+    },
+    {
+      "source": "Finning International Inc./ADR",
+      "target": "byd",
+      "type": "china_mention",
+      "filing_date": "2025-05-15",
+      "filing_type": "10-Q"
+    }
+  ]
+}

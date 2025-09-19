@@ -1,0 +1,105 @@
+{
+  "critical_nodes": [
+    {
+      "node_id": "SC001",
+      "name": "Advanced semiconductors",
+      "criticality": "CRITICAL",
+      "foreign_dependence": 0.95,
+      "primary_sources": ["Taiwan", "South Korea", "China"],
+      "alternatives": "Limited",
+      "lead_time_months": 12,
+      "stockpile_days": 45,
+      "vulnerability_score": 9.2
+    },
+    {
+      "node_id": "SC002",
+      "name": "Rare earth elements",
+      "criticality": "CRITICAL",
+      "foreign_dependence": 0.85,
+      "primary_sources": ["China"],
+      "alternatives": "Very limited",
+      "lead_time_months": 6,
+      "stockpile_days": 90,
+      "vulnerability_score": 8.7
+    },
+    {
+      "node_id": "SC003",
+      "name": "Titanium alloys",
+      "criticality": "HIGH",
+      "foreign_dependence": 0.70,
+      "primary_sources": ["Russia", "China", "Japan"],
+      "alternatives": "US, UK",
+      "lead_time_months": 4,
+      "stockpile_days": 180,
+      "vulnerability_score": 6.5
+    },
+    {
+      "node_id": "SC004",
+      "name": "Carbon fiber composites",
+      "criticality": "HIGH",
+      "foreign_dependence": 0.60,
+      "primary_sources": ["Japan", "US", "Germany"],
+      "alternatives": "France",
+      "lead_time_months": 3,
+      "stockpile_days": 120,
+      "vulnerability_score": 5.8
+    },
+    {
+      "node_id": "SC005",
+      "name": "Lithium batteries",
+      "criticality": "HIGH",
+      "foreign_dependence": 0.80,
+      "primary_sources": ["China", "South Korea", "Japan"],
+      "alternatives": "Limited EU production",
+      "lead_time_months": 3,
+      "stockpile_days": 60,
+      "vulnerability_score": 7.3
+    }
+  ],
+  "supply_chains": {
+    "aerospace": {
+      "tier1_suppliers": ["Thales Alenia Space", "Avio", "Leonardo"],
+      "tier2_suppliers": ["OHB Italia", "Sitael", "D-Orbit"],
+      "critical_imports": ["Radiation-hardened chips", "Solar panels", "Propulsion systems"],
+      "domestic_content": 0.65,
+      "certification_requirements": ["ESA", "NASA", "ASI"]
+    },
+    "naval": {
+      "tier1_suppliers": ["Fincantieri", "Leonardo Naval", "MBDA Italia"],
+      "tier2_suppliers": ["Calzoni", "Whitehead Sistemi Subacquei", "Elettronica"],
+      "critical_imports": ["Gas turbines", "Combat systems", "Special steels"],
+      "domestic_content": 0.70,
+      "certification_requirements": ["RINA", "NATO AQAP", "Lloyd's"]
+    },
+    "electronics": {
+      "tier1_suppliers": ["STMicroelectronics", "Leonardo DRS", "Elettronica"],
+      "tier2_suppliers": ["LFoundry", "Menarini Silicon Biosystems"],
+      "critical_imports": ["Advanced processors", "FPGA", "Memory chips"],
+      "domestic_content": 0.35,
+      "certification_requirements": ["MIL-STD", "DO-254", "IEC"]
+    }
+  },
+  "chokepoints": [
+    {
+      "type": "Geographic",
+      "location": "Taiwan Strait",
+      "impact": "Semiconductor supply",
+      "probability": "Medium",
+      "mitigation": "Diversification, stockpiling"
+    },
+    {
+      "type": "Political",
+      "location": "China export controls",
+      "impact": "Rare earths, batteries",
+      "probability": "High",
+      "mitigation": "EU Critical Raw Materials Act"
+    },
+    {
+      "type": "Technical",
+      "location": "EUV lithography",
+      "impact": "Advanced chip production",
+      "probability": "Low",
+      "mitigation": "None available"
+    }
+  ]
+}

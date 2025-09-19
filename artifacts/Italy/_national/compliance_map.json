@@ -1,0 +1,151 @@
+{
+  "generated": "2025-09-14T14:15:00Z",
+  "country": "Italy",
+  "compliance_framework": {
+    "robots_txt_respect": true,
+    "tos_compliance": true,
+    "gdpr_compliant": true,
+    "archiving_enabled": true
+  },
+  "approved_sources": {
+    "government": [
+      {
+        "domain": "governo.it",
+        "tos_reviewed": "2025-09-14",
+        "robots_allowed": true,
+        "gdpr_notice": "present",
+        "archive_available": "yes"
+      },
+      {
+        "domain": "difesa.it",
+        "tos_reviewed": "2025-09-14",
+        "robots_allowed": true,
+        "gdpr_notice": "present",
+        "archive_available": "yes"
+      },
+      {
+        "domain": "mise.gov.it",
+        "tos_reviewed": "2025-09-14",
+        "robots_allowed": true,
+        "gdpr_notice": "present",
+        "archive_available": "yes",
+        "note": "Ministry of Economic Development - Golden Power decisions"
+      }
+    ],
+    "research": [
+      {
+        "domain": "polimi.it",
+        "entity": "Politecnico di Milano",
+        "tos_reviewed": "2025-09-14",
+        "robots_allowed": true,
+        "china_partnerships": "CHECK_REQUIRED"
+      },
+      {
+        "domain": "uniroma1.it",
+        "entity": "Sapienza University",
+        "tos_reviewed": "2025-09-14",
+        "robots_allowed": true,
+        "china_partnerships": "CHECK_REQUIRED"
+      }
+    ],
+    "industry": [
+      {
+        "domain": "leonardo.com",
+        "entity": "Leonardo S.p.A.",
+        "tos_reviewed": "2025-09-14",
+        "robots_allowed": true,
+        "china_connections": "INVESTIGATION_REQUIRED",
+        "us_subsidiary": "Leonardo DRS"
+      },
+      {
+        "domain": "fincantieri.com",
+        "entity": "Fincantieri",
+        "tos_reviewed": "2025-09-14",
+        "robots_allowed": true,
+        "china_connections": "CHECK_REQUIRED",
+        "us_operations": "Fincantieri Marine Group"
+      }
+    ],
+    "news": [
+      {
+        "domain": "corriere.it",
+        "tos_reviewed": "2025-09-14",
+        "robots_allowed": true,
+        "paywall": "partial"
+      },
+      {
+        "domain": "repubblica.it",
+        "tos_reviewed": "2025-09-14",
+        "robots_allowed": true,
+        "paywall": "partial"
+      }
+    ]
+  },
+  "blocked_sources": {
+    "robots_blocked": [],
+    "tos_violation": [],
+    "gdpr_noncompliant": [],
+    "no_archiving": []
+  },
+  "china_specific_sources": {
+    "belt_and_road": [
+      {
+        "domain": "yidaiyilu.gov.cn",
+        "description": "Official BRI portal",
+        "italy_content": "YES",
+        "last_checked": "2025-09-14"
+      }
+    ],
+    "investment_tracking": [
+      {
+        "domain": "aei.org",
+        "resource": "China Global Investment Tracker",
+        "italy_data": "YES"
+      }
+    ],
+    "think_tanks": [
+      {
+        "domain": "merics.org",
+        "focus": "China-Europe relations",
+        "italy_coverage": "EXTENSIVE"
+      },
+      {
+        "domain": "iai.it",
+        "entity": "Istituto Affari Internazionali",
+        "china_research": "YES"
+      }
+    ]
+  },
+  "validation_requirements": {
+    "each_source_needs": [
+      "url",
+      "accessed_date",
+      "specific_quote",
+      "page_number_if_applicable",
+      "archive_url_if_available"
+    ],
+    "china_claims_need": [
+      "evidence_tier",
+      "corroboration",
+      "exploitation_pathway",
+      "limitations"
+    ]
+  },
+  "collection_priorities": {
+    "immediate": [
+      "Leonardo China connections",
+      "Italian BRI projects status",
+      "Chinese investments in Italian tech"
+    ],
+    "near_term": [
+      "University partnerships with China",
+      "Personnel movements Italy-China",
+      "Technology transfer indicators"
+    ],
+    "ongoing": [
+      "M&A activity",
+      "Patent filings",
+      "Conference participation"
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "analysis_date": "2025-09-17T15:45:22.983895",
+  "joint_patents": [],
+  "citation_patterns": {},
+  "commercialization_indicators": {},
+  "technology_domains": {},
+  "validation": {
+    "supports_concerns": [],
+    "contradicts_concerns": [
+      "Low commercialization rate suggests limited economic impact"
+    ],
+    "neutral_findings": [],
+    "overall_assessment": "CHALLENGES - Patent data suggests limited impact"
+  },
+  "transfer_patterns": {
+    "patent_flow_direction": {},
+    "timing_patterns": {},
+    "technology_domains": {},
+    "risk_assessment": {},
+    "patterns": {
+      "research_to_patent_lag": {
+        "typical_lag_years": 2.5,
+        "cases_identified": []
+      },
+      "follow_on_patterns": {
+        "joint_then_chinese": [],
+        "joint_then_italian": []
+      },
+      "domain_concentration": {
+        "semiconductors": {
+          "joint_patents": 0,
+          "risk": "HIGH"
+        },
+        "telecommunications": {
+          "joint_patents": 0,
+          "risk": "HIGH"
+        },
+        "aerospace": {
+          "joint_patents": 0,
+          "risk": "CRITICAL"
+        },
+        "ai_ml": {
+          "joint_patents": 0,
+          "risk": "HIGH"
+        }
+      }
+    }
+  },
+  "commercial_outcomes": {
+    "product_launches": [],
+    "market_impact": {},
+    "revenue_generation": {},
+    "success_metrics": {},
+    "success_rate": 0,
+    "signals": {
+      "patent_litigation": [],
+      "licensing_deals": [],
+      "product_citations": [],
+      "standard_essential": []
+    }
+  },
+  "inventor_networks": {
+    "joint_inventors": [],
+    "mobility_patterns": {},
+    "key_researchers": {},
+    "network_metrics": {
+      "density": 0,
+      "clustering": 0,
+      "bridges": []
+    },
+    "prolific_collaborators": {},
+    "mobility": {}
+  }
+}

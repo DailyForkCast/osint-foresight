@@ -1,0 +1,84 @@
+{
+  "prc_interest": {
+    "strategic_objectives": [
+      "Access to European technology and markets",
+      "Influence in Mediterranean region",
+      "Weaken transatlantic bonds",
+      "Acquire dual-use technologies"
+    ],
+    "historical_context": {
+      "bri_participation": {
+        "joined": 2019,
+        "exited": "December 2023",
+        "reason": "Limited benefits, security concerns"
+      },
+      "peak_engagement": "2019-2020",
+      "current_status": "Cautious engagement"
+    }
+  },
+  "acquisition_mechanisms": [
+    {
+      "type": "licit",
+      "method": "Academic collaboration",
+      "examples": ["Joint research in materials science", "Student exchanges"],
+      "volume": "3,421 co-authored papers (2023)",
+      "trend": "Declining"
+    },
+    {
+      "type": "gray",
+      "method": "Investment in strategic sectors",
+      "examples": ["Attempted port acquisitions", "Tech company stakes"],
+      "controls": "Golden Power screening",
+      "blocked_cases": 3
+    },
+    {
+      "type": "illicit",
+      "method": "Cyber espionage",
+      "targets": ["Defense contractors", "Research institutions"],
+      "incidents": "12 attributed (2023)",
+      "response": "ACN monitoring enhanced"
+    }
+  ],
+  "target_technologies": {
+    "priority_areas": [
+      {
+        "technology": "Space systems",
+        "italian_assets": ["COSMO-SkyMed", "Galileo expertise"],
+        "vulnerability": "Medium",
+        "protection": "Export controls, clearance requirements"
+      },
+      {
+        "technology": "Naval systems",
+        "italian_assets": ["Submarine tech", "Frigate design"],
+        "vulnerability": "Low",
+        "protection": "Strong classification"
+      },
+      {
+        "technology": "Advanced materials",
+        "italian_assets": ["Composites", "Metamaterials research"],
+        "vulnerability": "Medium",
+        "protection": "University awareness programs"
+      }
+    ]
+  },
+  "early_warning_indicators": [
+    {
+      "indicator": "Joint research in sensitive domains",
+      "current": 45,
+      "threshold": 60,
+      "status": "Within limits"
+    },
+    {
+      "indicator": "Investment attempts in critical infrastructure",
+      "current": 2,
+      "threshold": 5,
+      "status": "Monitored"
+    },
+    {
+      "indicator": "Cyber incidents attributed to PRC",
+      "current": 12,
+      "threshold": 20,
+      "status": "Increasing"
+    }
+  ]
+}

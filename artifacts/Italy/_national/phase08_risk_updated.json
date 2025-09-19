@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "update_date": "2025-09-17",
+    "overall_risk_score": "4/10 MODERATE",
+    "previous_score": "9/10 HIGH",
+    "key_change": "Research collaboration normalized from 10.8% to 3.38%"
+  },
+  "risks": [
+    {
+      "name": "Supply chain vulnerability",
+      "mechanism": "45% semiconductor dependency on China → geopolitical tensions → critical component shortage → production/defense impact",
+      "probability": "60-90%",
+      "impact": "High",
+      "time_horizon": "1-2y",
+      "indicators": [
+        {"metric": "Semiconductor imports from China", "current": "45.4%", "threshold": ">40%", "trend": "stable", "verified": "UN Comtrade 2025-09-17"},
+        {"metric": "Critical materials dependency", "current": "85% rare earths", "threshold": ">80%", "trend": "slight increase"},
+        {"metric": "EU Chips Act progress", "current": "Initial phase", "target": "20% domestic by 2030"}
+      ],
+      "mitigation": "EU Chips Act participation, supplier diversification, strategic stockpiling",
+      "voi_hint": "Monitor Taiwan Strait tensions, EU-China relations"
+    },
+    {
+      "name": "Defense spending shortfall",
+      "mechanism": "Italy fails to meet NATO 2% target → capability gaps worsen → alliance burden-sharing tensions",
+      "probability": "60-90%",
+      "impact": "High",
+      "time_horizon": "2-5y",
+      "indicators": [
+        {"metric": "Defense/GDP ratio", "current": 1.46, "threshold": "<1.5", "trend": "stable"},
+        {"metric": "Capability gaps", "current": 15, "threshold": ">20", "trend": "worsening"}
+      ],
+      "voi_hint": "Monitor coalition government stability"
+    },
+    {
+      "name": "Technology sovereignty erosion",
+      "mechanism": "Insufficient R&D investment → foreign supplier dependence → competitiveness loss",
+      "probability": "30-60%",
+      "impact": "Medium-High",
+      "time_horizon": "5-10y",
+      "indicators": [
+        {"metric": "R&D/GDP", "current": 1.45, "threshold": "<1.5", "trend": "slight increase"},
+        {"metric": "PNRR tech allocation", "current": "48B EUR", "status": "On track"}
+      ],
+      "note": "Research collaboration (3.38%) not a driver - funding/investment is"
+    },
+    {
+      "name": "China research collaboration risk",
+      "mechanism": "Normal academic exchange (3.38%) → standard knowledge sharing → minimal technology transfer",
+      "probability": "<10%",
+      "impact": "Low",
+      "time_horizon": "Ongoing",
+      "indicators": [
+        {"metric": "National collaboration rate", "current": "3.38%", "threshold": ">6%", "verified": "OpenAlex 2025-09-17"},
+        {"metric": "Elite institution average", "current": "4-5%", "threshold": ">10%", "verified": "Regional analysis 2025-09-17"},
+        {"metric": "vs OECD benchmark", "current": "0.97x", "threshold": ">2x", "status": "NORMAL"}
+      ],
+      "assessment": "NOT A SIGNIFICANT RISK - Standard EU-China academic exchange",
+      "mitigation": "Existing EU research security frameworks sufficient"
+    },
+    {
+      "name": "Leonardo commercial exposure",
+      "mechanism": "Helicopter sales to China → commercial presence → potential technology exposure",
+      "probability": "10-30%",
+      "impact": "Medium",
+      "time_horizon": "2-5y",
+      "indicators": [
+        {"metric": "China revenue share", "current": "~5% estimated", "threshold": ">15%"},
+        {"metric": "Helicopter fleet in China", "current": "130+ units", "trend": "Growing"},
+        {"metric": "Technology separation", "current": "Civilian models only", "status": "Maintained"}
+      ],
+      "note": "Commercial relationship, not research collaboration",
+      "mitigation": "Maintain civilian/military technology separation"
+    },
+    {
+      "name": "Cyber vulnerability",
+      "mechanism": "Insufficient cyber investment → infrastructure exposure → successful attacks",
+      "probability": "30-60%",
+      "impact": "High",
+      "time_horizon": "1-2y",
+      "indicators": [
+        {"metric": "Cyber incidents", "current": 234, "threshold": ">300/year"},
+        {"metric": "ACN budget", "current": "45M EUR", "threshold": "<40M"}
+      ]
+    },
+    {
+      "name": "Brain drain",
+      "mechanism": "Limited opportunities → talent emigration → innovation decline",
+      "probability": "30-60%",
+      "impact": "Medium",
+      "time_horizon": "5y",
+      "indicators": [
+        {"metric": "Researcher emigration", "current": "8%/year", "threshold": ">10%"},
+        {"metric": "PhD placements abroad", "current": "35%", "threshold": ">40%"}
+      ],
+      "note": "Not related to China collaboration which is at normal levels"
+    }
+  ],
+  "risk_matrix": {
+    "high_probability_high_impact": [
+      "Supply chain vulnerability (PRIMARY CONCERN)",
+      "Defense spending shortfall"
+    ],
+    "high_probability_low_impact": [],
+    "low_probability_high_impact": [
+      "Cyber attack"
+    ],
+    "low_probability_low_impact": [
+      "China research collaboration (MINIMAL RISK)"
+    ]
+  },
+  "key_findings": {
+    "1": "Primary risk is SUPPLY CHAIN (45% semiconductors), not research",
+    "2": "Research collaboration at 3.38% is NORMAL for EU",
+    "3": "No evidence of systematic technology transfer through academia",
+    "4": "Leonardo exposure is commercial (helicopters), not research-based",
+    "5": "Overall risk MODERATE (4/10), not HIGH (9/10)"
+  },
+  "recommendations": {
+    "immediate": [
+      "Map critical supply chain dependencies",
+      "Accelerate EU Chips Act participation",
+      "Maintain current research frameworks (no restrictions needed)"
+    ],
+    "medium_term": [
+      "Diversify semiconductor sourcing below 25%",
+      "Strengthen cyber defenses",
+      "Support domestic tech manufacturing"
+    ],
+    "long_term": [
+      "Build strategic autonomy in critical sectors",
+      "Develop EU-wide supply chain resilience",
+      "Maintain open research with standard safeguards"
+    ]
+  },
+  "nato_specific_risks": [
+    {
+      "name": "Mediterranean instability spillover",
+      "mechanism": "Regional conflicts → migration pressure → resource diversion → NATO southern flank impact",
+      "probability": "30-60%",
+      "impact": "High",
+      "framework_nation_impact": "Critical"
+    },
+    {
+      "name": "Supply chain impact on NATO systems",
+      "mechanism": "Semiconductor shortage → F-35/other system production delays → capability gaps",
+      "probability": "30-60%",
+      "impact": "Medium-High",
+      "note": "Affects all NATO allies, not Italy-specific"
+    }
+  ]
+}

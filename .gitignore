@@ -59,6 +59,17 @@ project_structure_analysis.json
 reorganization_report_*.txt
 structure_analysis_*.txt
 
+# Temporary organization directories
+/temp/
+/archive/
+
+# Log files
+*.log
+
+# QA runs and analysis temp files
+qa_run_*
+comprehensive_qa_*
+
 # Large external data sources (store on external drive only)
 # CORDIS data
 out/*/cordis_data/*.json
@@ -87,3 +98,34 @@ out/*/large_datasets/
 # Any file over 50MB
 *.json.large
 *.csv.large
+
+# OSINT Data Collection - External Drive Only
+# Country analysis results
+/data/country_analysis/
+data/country_analysis/
+*/country_analysis/
+
+# Fusion pipeline results
+/data/fusion_results/
+data/fusion_results/
+*/fusion_results/
+
+# USPTO monitoring data
+/data/uspto_monitoring/
+data/uspto_monitoring/
+*/uspto_monitoring/
+
+# GitHub dependency scan results
+/data/github_dependencies/
+data/github_dependencies/
+*/github_dependencies/
+
+# Conference data from CrossRef
+/data/conferences/
+data/conferences/
+*/conferences/
+
+# All F: drive mirror data (external drive only)
+F:/*
+/F/
+F/

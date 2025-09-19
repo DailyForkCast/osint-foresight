@@ -1,0 +1,101 @@
+{
+  "compute_infrastructure_exposure": {
+    "cloud_dependencies": {
+      "aws": {
+        "usage_percent": 0.35,
+        "critical_workloads": ["Government cloud", "Research compute"],
+        "data_residency": "EU regions",
+        "sovereignty_risk": "MEDIUM"
+      },
+      "azure": {
+        "usage_percent": 0.28,
+        "critical_workloads": ["Enterprise", "Public sector"],
+        "data_residency": "EU regions",
+        "sovereignty_risk": "MEDIUM"
+      },
+      "google_cloud": {
+        "usage_percent": 0.15,
+        "critical_workloads": ["AI/ML", "Analytics"],
+        "data_residency": "Mixed",
+        "sovereignty_risk": "MEDIUM"
+      },
+      "chinese_cloud": {
+        "usage_percent": 0.02,
+        "critical_workloads": "None identified",
+        "monitoring": "Active",
+        "sovereignty_risk": "HIGH"
+      }
+    },
+    "ai_compute_access": {
+      "domestic_capacity": {
+        "hpc_centers": 5,
+        "peak_performance_pflops": 51.7,
+        "ai_optimized": "Limited",
+        "availability": "Oversubscribed"
+      },
+      "foreign_dependencies": {
+        "us_platforms": ["OpenAI API", "Google AI", "AWS SageMaker"],
+        "usage_level": "HIGH",
+        "data_exposure": "Significant",
+        "alternatives": "European AI platforms emerging"
+      }
+    },
+    "data_flows": {
+      "transatlantic": {
+        "volume_tbps": 450,
+        "critical_services": ["Cloud", "Financial", "Research"],
+        "legal_framework": "EU-US Data Privacy Framework",
+        "vulnerabilities": ["Undersea cables", "Legal challenges"]
+      },
+      "intra_european": {
+        "volume_tbps": 780,
+        "critical_services": ["GAIA-X", "EU cloud", "Research networks"],
+        "resilience": "HIGH",
+        "sovereignty": "Improving"
+      }
+    }
+  },
+  "software_dependencies": {
+    "operating_systems": {
+      "microsoft": 0.65,
+      "linux": 0.30,
+      "other": 0.05,
+      "sovereignty_risk": "MEDIUM"
+    },
+    "productivity_software": {
+      "microsoft_365": 0.55,
+      "google_workspace": 0.25,
+      "open_source": 0.20,
+      "sovereignty_risk": "MEDIUM"
+    },
+    "specialized_software": {
+      "cad_cam": "US dominated",
+      "eda": "US/UK dominated",
+      "simulation": "Mixed US/EU",
+      "sovereignty_risk": "HIGH"
+    }
+  },
+  "mitigation_strategies": {
+    "short_term": [
+      "Data localization enforcement",
+      "Sovereign cloud development",
+      "Open source adoption"
+    ],
+    "medium_term": [
+      "European HPC expansion",
+      "GAIA-X implementation",
+      "AI compute sovereignty"
+    ],
+    "long_term": [
+      "Full stack sovereignty",
+      "Quantum advantage",
+      "Autonomous capabilities"
+    ]
+  },
+  "risk_assessment": {
+    "overall_exposure": "HIGH",
+    "trend": "Slowly improving",
+    "critical_gaps": ["AI compute", "Specialized software", "Advanced semiconductors"],
+    "timeline_to_sovereignty": "10-15 years"
+  }
+}
