@@ -1,0 +1,51 @@
+{
+  "cik": "0002013649",
+  "ticker": "CHA",
+  "name": "Chagee Holdings Ltd.",
+  "detection_reasons": [
+    "location:china",
+    "location:chengdu",
+    "location:sichuan",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "5810",
+  "sicDescription": "Retail-Eating & Drinking Places",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "86 028 6900 7666",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "15/F, IFS BUILDING 2, HONGXING ROAD,",
+      "street2": "JINJIANG DISTRICT, CHENGDU,",
+      "city": "SICHUAN",
+      "stateOrCountry": "F4",
+      "zipCode": "610000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "15/F, IFS BUILDING 2, HONGXING ROAD,",
+      "street2": "JINJIANG DISTRICT, CHENGDU,",
+      "city": "SICHUAN",
+      "stateOrCountry": "F4",
+      "zipCode": "610000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-29"
+  },
+  "filings_count": 50
+}

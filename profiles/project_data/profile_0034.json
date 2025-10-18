@@ -1,0 +1,477 @@
+{
+  "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openaire_verified\\CZ_china_collaborations_20250922_202533.json",
+  "size": 18215,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 1,
+  "field_count": 6,
+  "parse_status": "success",
+  "schema": {
+    "country": "string",
+    "total_found": "number",
+    "method": "string",
+    "keywords_used": "array",
+    "collection_date": "string",
+    "results": "array"
+  },
+  "sample_records": [
+    {
+      "country": "CZ",
+      "total_found": 1,
+      "method": "keyword_search",
+      "keywords_used": [
+        "China",
+        "Chinese",
+        "Beijing",
+        "Shanghai",
+        "Shenzhen",
+        "Guangzhou",
+        "Wuhan",
+        "Chengdu",
+        "Nanjing",
+        "Tianjin"
+      ],
+      "collection_date": "2025-09-22T20:25:33.301713",
+      "results": [
+        {
+          "header": {
+            "dri:objIdentifier": {
+              "$": "doi_dedup___::2ee414ccfd78835b7b5ba92a32944900"
+            },
+            "dri:dateOfCollection": {
+              "$": "2025-08-08T10:12:07.295"
+            },
+            "dri:dateOfTransformation": null
+          },
+          "metadata": {
+            "oaf:entity": {
+              "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+              "oaf:result": {
+                "collectedfrom": [
+                  {
+                    "@name": "Crossref",
+                    "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                  },
+                  {
+                    "@name": "Microsoft Academic Graph",
+                    "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                  }
+                ],
+                "originalId": [
+                  {
+                    "$": "10.1504/ijmef.2021.116543"
+                  },
+                  {
+                    "$": "50|doiboost____|2ee414ccfd78835b7b5ba92a32944900"
+                  },
+                  {
+                    "$": "3136937436"
+                  }
+                ],
+                "pid": [
+                  {
+                    "@classid": "doi",
+                    "@classname": "Digital Object Identifier",
+                    "@schemeid": "dnet:pid_types",
+                    "@schemename": "dnet:pid_types",
+                    "$": "10.1504/ijmef.2021.116543"
+                  },
+                  {
+                    "@classid": "mag_id",
+                    "@classname": "Microsoft Academic Graph Identifier",
+                    "@schemeid": "dnet:pid_types",
+                    "@schemename": "dnet:pid_types",
+                    "$": 3136937436
+                  },
+                  {
+                    "@classid": "doi",
+                    "@classname": "Digital Object Identifier",
+                    "@schemeid": "dnet:pid_types",
+                    "@schemename": "dnet:pid_types",
+                    "$": "10.1504/ijmef.2021.10036572"
+                  }
+                ],
+                "measure": [
+                  {
+                    "@id": "influence",
+                    "@score": "2.6877693E-9",
+                    "@class": "C5"
+                  },
+                  {
+                    "@id": "popularity",
+                    "@score": "2.8643639E-9",
+                    "@class": "C5"
+                  },
+                  {
+                    "@id": "influence_alt",
+                    "@score": "1",
+                    "@class": "C5"
+                  },
+                  {
+                    "@id": "popularity_alt",
+                    "@score": "0.36",
+                    "@class": "C5"
+                  },
+                  {
+                    "@id": "impulse",
+                    "@score": "1",
+                    "@class": "C5"
+                  }
+                ],
+                "title": [
+                  {
+                    "@classid": "main title",
+                    "@classname": "main title",
+                    "@schemeid": "dnet:dataCite_title",
+                    "@schemename": "dnet:dataCite_title",
+                    "$": "Data envelopment analysis of the impact and performance of China stock market's global integration: empirical analysis of MSCI China"
+                  },
+                  {
+                    "@classid": "main title",
+                    "@classname": "main title",
+                    "@schemeid": "dnet:dataCite_title",
+                    "@schemename": "dnet:dataCite_title",
+                    "$": "data envelopment analysis of the impact and performance of china stock market s global integration empirical analysis of msci china"
+                  }
+                ],
+                "bestaccessright": {
+                  "@classid": "UNKNOWN",
+                  "@classname": "unspecified",
+                  "@schemeid": "dnet:access_modes",
+                  "@schemename": "dnet:access_modes"
+                },
+                "creator": {
+                  "@rank": "1",
+                  "$": "Haochen Guo"
+                },
+                "dateofacceptance": {
+                  "$": "2021-01-01"
+                },
+                "description": {
+                  "$": "This paper contributes to analysing the impact of China stock market global integration, based on the data envelopment analysis (DEA) method to measure the performance of Morgan Stanley Capital International (MSCI) China as empirical analysis. The motivation of this paper that MSCI China grows by 20.6% in 2019, which is greater than the 2.7% increase in MSCI USA, and MSCI China's valuation is also low. China is dominated by domestic demand, and domestic demand accounts for 88% of the MSCI China Index. It is expected that with the development of the MSCI China Index, more funds will flow into China, while mainland China will relax the proportion of foreign investors holding A-shares. With a higher probability, the proportion of foreign capital will gradually increase. Considering this issue, this paper discusses the evolution, reasons and global integration of the China stock market."
+                },
+                "subject": [
+                  {
+                    "@classid": "SDG",
+                    "@classname": "Sustainable Development Goals",
+                    "@schemeid": "dnet:subject_classification_typologies",
+                    "@schemename": "dnet:subject_classification_typologies",
+                    "@inferred": true,
+                    "@inferenceprovenance": "update",
+                    "@provenanceaction": "subject:sdg",
+                    "$": "8. Economic growth"
+                  },
+                  {
+                    "@classid": "FOS",
+                    "@classname": "Fields of Science and Technology classification",
+                    "@schemeid": "dnet:subject_classification_typologies",
+                    "@schemename": "dnet:subject_classification_typologies",
+                    "@inferred": true,
+                    "@inferenceprovenance": "update",
+                    "@provenanceaction": "subject:fos",
+                    "$": "0202 electrical engineering, electronic engineering, information engineering"
+                  },
+                  {
+                    "@classid": "FOS",
+                    "@classname": "Fields of Science and Technology classification",
+                    "@schemeid": "dnet:subject_classification_typologies",
+                    "@schemename": "dnet:subject_classification_typologies",
+                    "@inferred": true,
+                    "@inferenceprovenance": "update",
+                    "@provenanceaction": "subject:fos",
+                    "$": "02 engineering and technology"
+                  }
+                ],
+                "language": {
+                  "@classid": "und",
+                  "@classname": "Undetermined",
+                  "@schemeid": "dnet:languages",
+                  "@schemename": "dnet:languages"
+                },
+                "relevantdate": [
+                  {
+                    "@classid": "created",
+                    "@classname": "created",
+                    "@schemeid": "dnet:dataCite_date",
+                    "@schemename": "dnet:dataCite_date",
+                    "$": "2021-07-28"
+                  },
+                  {
+                    "@classid": "published-print",
+                    "@classname": "published-print",
+                    "@schemeid": "dnet:dataCite_date",
+                    "@schemename": "dnet:dataCite_date",
+                    "$": "2021-01-01"
+                  }
+                ],
+                "publisher": {
+                  "$": "Inderscience Publishers"
+                },
+                "source": {
+                  "$": "Crossref"
+                },
+                "resulttype": {
+                  "@classid": "publication",
+                  "@classname": "publication",
+                  "@schemeid": "dnet:result_typologies",
+                  "@schemename": "dnet:result_typologies"
+                },
+                "resourcetype": {
+                  "@classid": "publication",
+                  "@classname": "publication",
+                  "@schemeid": "dnet:result_typologies",
+                  "@schemename": "dnet:result_typologies"
+                },
+                "isgreen": {
+                  "$": false
+                },
+                "isindiamondjournal": {
+                  "$": false
+                },
+                "publiclyfunded": {
+                  "$": false
+                },
+                "journal": {
+                  "@issn": "1752-0479",
+                  "@eissn": "1752-0487",
+                  "@sp": "212",
+                  "@vol": "14",
+                  "$": "International Journal of Monetary Economics and Finance"
+                },
+                "context": {
+                  "@id": "knowmad",
+                  "@label": "Knowmad Institut",
+                  "@type": "community"
+                },
+                "datainfo": {
+                  "inferred": {
+                    "$": true
+                  },
+                  "deletedbyinference": {
+                    "$": false
+                  },
+                  "trust": {
+                    "$": "0.8"
+                  },
+                  "inferenceprovenance": {
+                    "$": "dedup-result-decisiontree-v4"
+                  },
+                  "provenanceaction": {
+                    "@classid": "sysimport:dedup",
+                    "@classname": "Inferred by OpenAIRE",
+                    "@schemeid": "dnet:provenanceActions",
+                    "@schemename": "dnet:provenanceActions"
+                  }
+                },
+                "rels": {
+                  "rel": {
+                    "@inferred": true,
+                    "@trust": "1.0",
+                    "@inferenceprovenance": "openaire:affiliation:rawaff",
+                    "@provenanceaction": "result:organization:openaireinference",
+                    "to": {
+                      "@class": "hasAuthorInstitution",
+                      "@scheme": "dnet:result_organization_relations",
+                      "@type": "organization",
+                      "$": "openorgs____::27e8bcb8ebb3d939e8483f7533eabbf0"
+                    },
+                    "websiteurl": {
+                      "$": "https://www.vsb.cz/en"
+                    },
+                    "legalname": {
+                      "$": "Technical University of Ostrava"
+                    },
+                    "legalshortname": {
+                      "$": "Technical University of Ostrava"
+                    },
+                    "country": {
+                      "@classid": "CZ",
+                      "@classname": "Czech Republic",
+                      "@schemeid": "dnet:countries",
+                      "@schemename": "dnet:countries"
+                    }
+                  }
+                },
+                "children": {
+                  "result": [
+                    {
+                      "@objidentifier": "doi_________::2ee414ccfd78835b7b5ba92a32944900",
+                      "instance": {
+                        "accessright": {
+                          "@classid": "UNKNOWN",
+                          "@classname": "unspecified",
+                          "@schemeid": "dnet:access_modes",
+                          "@schemename": "dnet:access_modes"
+                        },
+                        "hostedby": {
+                          "@name": "International Journal of Monetary Economics and Finance",
+                          "@id": "issn___print::e7881e3467ffe8755f12df5713a92221"
+                        },
+                        "dateofacceptance": {
+                          "$": "2021-01-01"
+                        },
+                        "instancetype": {
+                          "@classid": "0001",
+                          "@classname": "Article",
+                          "@schemeid": "dnet:publication_resource",
+                          "@schemename": "dnet:publication_resource"
+                        },
+                        "refereed": {
+                          "@classid": "0001",
+                          "@classname": "peerReviewed",
+                          "@schemeid": "dnet:review_levels",
+                          "@schemename": "dnet:review_levels"
+                        },
+                        "url": {
+                          "$": "https://doi.org/10.1504/ijmef.2021.116543"
+                        },
+                        "webresource": {
+                          "url": {
+                            "$": "https://doi.org/10.1504/ijmef.2021.116543"
+                          }
+                        }
+                      },
+                      "dateofacceptance": {
+                        "$": "2021-01-01"
+                      },
+                      "creator": {
+                        "$": "Haochen Guo"
+                      },
+                      "pid": {
+                        "@classid": "doi",
+                        "@classname": "Digital Object Identifier",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "$": "10.1504/ijmef.2021.116543"
+                      },
+                      "title": {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "$": "Data envelopment analysis of the impact and performance of China stock market's global integration: empirical analysis of MSCI China"
+                      },
+                      "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                      },
+                      "collectedfrom": {
+                        "@name": "Crossref",
+                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                      },
+                      "publisher": {
+                        "$": "Inderscience Publishers"
+                      }
+                    }
+                  ],
+                  "instance": [
+                    {
+                      "accessright": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "unspecified",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                      },
+                      "collectedfrom": {
+                        "@name": "Crossref",
+                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                      },
+                      "hostedby": {
+                        "@name": "International Journal of Monetary Economics and Finance",
+                        "@id": "issn___print::e7881e3467ffe8755f12df5713a92221"
+                      },
+                      "dateofacceptance": {
+                        "$": "2021-01-01"
+                      },
+                      "instancetype": {
+                        "@classid": "0001",
+                        "@classname": "Article",
+                        "@schemeid": "dnet:publication_resource",
+                        "@schemename": "dnet:publication_resource"
+                      },
+                      "pid": {
+                        "@classid": "doi",
+                        "@classname": "Digital Object Identifier",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "$": "10.1504/ijmef.2021.116543"
+                      },
+                      "refereed": {
+                        "@classid": "0001",
+                        "@classname": "peerReviewed",
+                        "@schemeid": "dnet:review_levels",
+                        "@schemename": "dnet:review_levels"
+                      },
+                      "webresource": {
+                        "url": {
+                          "$": "https://doi.org/10.1504/ijmef.2021.116543"
+                        }
+                      }
+                    },
+                    {
+                      "accessright": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "unspecified",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                      },
+                      "collectedfrom": {
+                        "@name": "Microsoft Academic Graph",
+                        "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                      },
+                      "hostedby": {
+                        "@name": "International Journal of Monetary Economics and Finance",
+                        "@id": "issn___print::e7881e3467ffe8755f12df5713a92221"
+                      },
+                      "instancetype": {
+                        "@classid": "0001",
+                        "@classname": "Article",
+                        "@schemeid": "dnet:publication_resource",
+                        "@schemename": "dnet:publication_resource"
+                      },
+                      "pid": [
+                        {
+                          "@classid": "mag_id",
+                          "@classname": "Microsoft Academic Graph Identifier",
+                          "@schemeid": "dnet:pid_types",
+                          "@schemename": "dnet:pid_types",
+                          "$": 3136937436
+                        },
+                        {
+                          "@classid": "doi",
+                          "@classname": "Digital Object Identifier",
+                          "@schemeid": "dnet:pid_types",
+                          "@schemename": "dnet:pid_types",
+                          "$": "10.1504/ijmef.2021.10036572"
+                        }
+                      ],
+                      "refereed": {
+                        "@classid": "0002",
+                        "@classname": "nonPeerReviewed",
+                        "@schemeid": "dnet:review_levels",
+                        "@schemename": "dnet:review_levels"
+                      },
+                      "webresource": {
+                        "url": {
+                          "$": "https://www.inderscienceonline.com/doi/abs/10.1504/IJMEF.2021.116543"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "verified_china": true,
+          "detection_method": "targeted_keyword_search",
+          "keyword_used": "China",
+          "country": "CZ",
+          "collection_date": "2025-09-22T20:24:59.889596"
+        }
+      ]
+    }
+  ],
+  "modified": "2025-09-22T20:25:33.304209"
+}

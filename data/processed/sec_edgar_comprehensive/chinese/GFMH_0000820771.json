@@ -1,0 +1,47 @@
+{
+  "cik": "0000820771",
+  "ticker": "GFMH",
+  "name": "Goliath Film & Media Holdings",
+  "detection_reasons": [
+    "location:china"
+  ],
+  "sic": "7822",
+  "sicDescription": "Services-Motion Picture & Video Tape Distribution",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "272895668",
+  "phone": "2135375730",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "640 S SAN VICENTE BOULEVARD",
+      "street2": "FIFTH FLOOR",
+      "city": "LOS ANGELES",
+      "stateOrCountry": "CA",
+      "zipCode": "90048",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "640 S SAN VICENTE BOULEVARD",
+      "street2": "FIFTH FLOOR",
+      "city": "LOS ANGELES",
+      "stateOrCountry": "CA",
+      "zipCode": "90048",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-09-11"
+  },
+  "filings_count": 228
+}

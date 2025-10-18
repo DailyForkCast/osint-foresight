@@ -1,0 +1,52 @@
+[
+  {
+    "paper_id": "https://openalex.org/W2954496974",
+    "doi": null,
+    "title": "The Belt and Road Initiative and Globalization: The Perspective of Globalization-Constituting Theory",
+    "publication_year": 2019,
+    "countries_collaborating": [
+      "CN",
+      "CZ"
+    ],
+    "institutions": {
+      "CZ": [
+        "Czech Academy of Sciences, Institute of Sociology"
+      ],
+      "CN": [
+        "Chinese Academy of Social Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "CZ": [
+        "Fayin Xu (Czech Academy of Sciences, Institute of Sociology)"
+      ],
+      "CN": [
+        "Fayin Xu (Chinese Academy of Social Sciences)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [
+      "strategic_partnerships"
+    ],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2019,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_020.gz",
+      "line_number": 62,
+      "extraction_command": "sed -n '62p' part_020.gz | jq '.title'",
+      "paper_hash": "6e99a8a47557f21f"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "HIGH",
+      "overall_risk": "HIGH",
+      "strategic_concerns": [
+        "Strategic partnership indicators"
+      ]
+    }
+  }
+]

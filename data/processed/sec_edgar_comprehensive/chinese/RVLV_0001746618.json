@@ -1,0 +1,47 @@
+{
+  "cik": "0001746618",
+  "ticker": "RVLV",
+  "name": "Revolve Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5961",
+  "sicDescription": "Retail-Catalog & Mail-Order Houses",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "(562) 677-9480",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "12889 MOORE ST.",
+      "street2": null,
+      "city": "CERRITOS",
+      "stateOrCountry": "CA",
+      "zipCode": "90703",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "12889 MOORE ST.",
+      "street2": null,
+      "city": "CERRITOS",
+      "stateOrCountry": "CA",
+      "zipCode": "90703",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-05"
+  },
+  "filings_count": 389
+}

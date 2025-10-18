@@ -1,0 +1,47 @@
+{
+  "cik": "0001860871",
+  "ticker": "TVGNW",
+  "name": "Tevogen Bio Holdings Inc.",
+  "detection_reasons": [
+    "offshore:vg"
+  ],
+  "sic": "2836",
+  "sicDescription": "Biological Products, (No Diagnostic Substances)",
+  "category": "Non-accelerated filer<br>Smaller reporting company<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "981597194",
+  "phone": "646-807-8832",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "15 INDEPENDENCE BOULEVARD, SUITE #210",
+      "street2": null,
+      "city": "WARREN",
+      "stateOrCountry": "NJ",
+      "zipCode": "07059",
+      "stateOrCountryDescription": "NJ",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "15 INDEPENDENCE BOULEVARD, SUITE #210",
+      "street2": null,
+      "city": "WARREN",
+      "stateOrCountry": "NJ",
+      "zipCode": "07059",
+      "stateOrCountryDescription": "NJ",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-14"
+  },
+  "filings_count": 251
+}

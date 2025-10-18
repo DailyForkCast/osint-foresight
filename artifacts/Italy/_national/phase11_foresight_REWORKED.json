@@ -1,0 +1,73 @@
+{
+  "phase": 11,
+  "country": "Italy",
+  "generated": "2025-09-19T07:40:42.675612",
+  "trend_projections": {
+    "china_engagement_2030": {
+      "scenarios": [
+        {
+          "name": "Continued de-risking",
+          "probability": 0.5,
+          "uncertainty": 0.15,
+          "indicators": [
+            "Policy continuity",
+            "EU alignment",
+            "US pressure"
+          ]
+        },
+        {
+          "name": "Selective re-engagement",
+          "probability": 0.35,
+          "uncertainty": 0.15,
+          "indicators": [
+            "Economic pressure",
+            "Energy needs",
+            "China incentives"
+          ]
+        },
+        {
+          "name": "Hard decoupling",
+          "probability": 0.15,
+          "uncertainty": 0.1,
+          "indicators": [
+            "Security incident",
+            "NATO requirement",
+            "Tech theft"
+          ]
+        }
+      ]
+    }
+  },
+  "technology_vulnerabilities_2030": {
+    "quantum_computing": {
+      "risk_level": "High",
+      "timeline": "2027-2030",
+      "specific_concern": "Algorithm and error correction knowledge transfer",
+      "confidence": 0.7,
+      "uncertainty": 0.2
+    },
+    "autonomous_systems": {
+      "risk_level": "Medium-High",
+      "timeline": "2025-2028",
+      "specific_concern": "Dual-use robotics and AI",
+      "confidence": 0.65,
+      "uncertainty": 0.2
+    }
+  },
+  "weak_signals": [
+    "Increased Chinese graduate students in specific fields",
+    "New partnership announcements in green tech",
+    "Standards body coordination patterns",
+    "Conference side meeting frequency"
+  ],
+  "forecast_uncertainty": {
+    "acknowledged_unknowns": [
+      "China's economic trajectory",
+      "EU-China relations evolution",
+      "Technology breakthrough timing",
+      "Geopolitical black swans"
+    ],
+    "confidence_degradation": "10% per year forward",
+    "review_requirement": "Quarterly update"
+  }
+}

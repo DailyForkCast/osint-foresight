@@ -1,0 +1,49 @@
+{
+  "cik": "0001089113",
+  "ticker": "HSBC",
+  "name": "HSBC HOLDINGS PLC",
+  "detection_reasons": [
+    "offshore:bm",
+    "offshore:hong kong",
+    "vie_structure"
+  ],
+  "sic": "6035",
+  "sicDescription": "Savings Institution, Federally Chartered",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "442079913048",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "8 CANADA SQUARE",
+      "street2": null,
+      "city": "LONDON",
+      "stateOrCountry": "X0",
+      "zipCode": "E14 5HQ",
+      "stateOrCountryDescription": "United Kingdom",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "8 CANADA SQUARE",
+      "street2": null,
+      "city": "LONDON",
+      "stateOrCountry": "X0",
+      "zipCode": "E145HQ",
+      "stateOrCountryDescription": "United Kingdom",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-25"
+  },
+  "filings_count": 1006
+}

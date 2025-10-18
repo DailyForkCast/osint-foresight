@@ -1,0 +1,44 @@
+{
+  "cik": "0001370450",
+  "ticker": "WLDN",
+  "name": "Willdan Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "8711",
+  "sicDescription": "Services-Engineering Services",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "141951112",
+  "phone": "800-424-9144",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2401 EAST KATELLA AVENUE, SUITE 300",
+      "street2": null,
+      "city": "ANAHEIM",
+      "stateOrCountry": "CA",
+      "zipCode": "92806",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2401 EAST KATELLA AVENUE, SUITE 300",
+      "street2": null,
+      "city": "ANAHEIM",
+      "stateOrCountry": "CA",
+      "zipCode": "92806",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1003
+}

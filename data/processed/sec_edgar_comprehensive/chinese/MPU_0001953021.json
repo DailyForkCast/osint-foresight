@@ -1,0 +1,49 @@
+{
+  "cik": "0001953021",
+  "ticker": "MPU",
+  "name": "Mega Matrix Inc",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:ky"
+  ],
+  "sic": "7812",
+  "sicDescription": "Services-Motion Picture & Video Tape Production",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "929-841-4670",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "89 NEXUS WAY, CAMANA BAY",
+      "street2": null,
+      "city": "GRAND CAYMAN",
+      "stateOrCountry": "E9",
+      "zipCode": "KY1-9009",
+      "stateOrCountryDescription": "Cayman Islands",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "89 NEXUS WAY, CAMANA BAY",
+      "street2": null,
+      "city": "GRAND CAYMAN",
+      "stateOrCountry": "E9",
+      "zipCode": "KY1-9009",
+      "stateOrCountryDescription": "Cayman Islands",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-24"
+  },
+  "filings_count": 70
+}

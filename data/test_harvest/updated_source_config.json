@@ -1,0 +1,56 @@
+{
+  "CEIAS": {
+    "base_url": "https://ceias.eu",
+    "paths": [
+      "/en/publications",
+      "/sk/publications",
+      "/en/asia",
+      "/sk/asia"
+    ],
+    "extraction_method": "custom_ceias",
+    "language": "en_sk",
+    "notes": "Requires custom extraction method for article content"
+  },
+  "IFRI": {
+    "base_url": "https://www.ifri.org",
+    "paths": [
+      "/fr/regions/asie-et-indo-pacifique",
+      "/fr/publications",
+      "/fr/actualites",
+      "/fr/centre-russieeurasie",
+      "/en/regions/asia-and-indo-pacific"
+    ],
+    "extraction_method": "standard_with_french",
+    "language": "fr_en",
+    "notes": "Primarily French language, strong Asia-Pacific research"
+  },
+  "Arctic Institute": {
+    "base_url": "https://www.thearcticinstitute.org",
+    "paths": [
+      "/china",
+      "/chinese",
+      "/tags/china",
+      "/tags/chinese",
+      "/?s=china",
+      "/publications",
+      "/geopolitics",
+      "/tag/defense-and-security/"
+    ],
+    "extraction_method": "standard",
+    "language": "en",
+    "notes": "Specialized in Arctic geopolitics, excellent China Arctic content"
+  },
+  "Jamestown Foundation": {
+    "base_url": "https://jamestown.org",
+    "paths": [
+      "/programs/china-brief",
+      "/programs/eurasia-daily-monitor",
+      "/brief",
+      "/china",
+      "/publications"
+    ],
+    "extraction_method": "standard",
+    "language": "en",
+    "notes": "Already working well from previous tests"
+  }
+}

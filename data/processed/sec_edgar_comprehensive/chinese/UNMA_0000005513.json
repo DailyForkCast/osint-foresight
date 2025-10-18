@@ -1,0 +1,47 @@
+{
+  "cik": "0000005513",
+  "ticker": "UNMA",
+  "name": "Unum Group",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6321",
+  "sicDescription": "Accident & Health Insurance",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "621598430",
+  "phone": "423-294-1011",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1 FOUNTAIN SQUARE",
+      "street2": null,
+      "city": "CHATTANOOGA",
+      "stateOrCountry": "TN",
+      "zipCode": "37402",
+      "stateOrCountryDescription": "TN",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1 FOUNTAIN SQUARE",
+      "street2": null,
+      "city": "CHATTANOOGA",
+      "stateOrCountry": "TN",
+      "zipCode": "37402",
+      "stateOrCountryDescription": "TN",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-07-30"
+  },
+  "filings_count": 1008
+}

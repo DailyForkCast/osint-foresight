@@ -1,0 +1,47 @@
+{
+  "cik": "0001320414",
+  "ticker": "SEM",
+  "name": "SELECT MEDICAL HOLDINGS CORP",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "8060",
+  "sicDescription": "Services-Hospitals",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "717-972-1100",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "C/O SELECT MEDICAL CORP",
+      "street2": "4714 GETTYSBURG RD",
+      "city": "MECHANICSBURG",
+      "stateOrCountry": "PA",
+      "zipCode": "17055",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "C/O SELECT MEDICAL CORP",
+      "street2": "4714 GETTYSBURG RD",
+      "city": "MECHANICSBURG",
+      "stateOrCountry": "PA",
+      "zipCode": "17055",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-02"
+  },
+  "filings_count": 1001
+}

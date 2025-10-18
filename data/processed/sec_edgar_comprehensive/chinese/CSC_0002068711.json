@@ -1,0 +1,46 @@
+{
+  "cik": "0002068711",
+  "ticker": "CSC",
+  "name": "CSC Collective Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong"
+  ],
+  "sic": "5810",
+  "sicDescription": "Retail-Eating & Drinking Places",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000414497",
+  "phone": "852-27797328",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "21ST FLOOR, CATIC PLAZA,",
+      "street2": "8 CAUSEWAY ROAD, CAUSEWAY BAY",
+      "city": "HONG KONG",
+      "stateOrCountry": null,
+      "zipCode": "00000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    },
+    "business": {
+      "street1": "21ST FLOOR, CATIC PLAZA,",
+      "street2": "8 CAUSEWAY ROAD, CAUSEWAY BAY",
+      "city": "HONG KONG",
+      "stateOrCountry": null,
+      "zipCode": "00000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 2
+}

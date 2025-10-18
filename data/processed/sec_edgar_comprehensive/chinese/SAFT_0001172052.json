@@ -1,0 +1,47 @@
+{
+  "cik": "0001172052",
+  "ticker": "SAFT",
+  "name": "SAFETY INSURANCE GROUP INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6331",
+  "sicDescription": "Fire, Marine & Casualty Insurance",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "134181699",
+  "phone": "617-951-0600",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "20 CUSTOM HOUSE STREET",
+      "street2": null,
+      "city": "BOSTON",
+      "stateOrCountry": "MA",
+      "zipCode": "02110",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "20 CUSTOM HOUSE STREET",
+      "street2": null,
+      "city": "BOSTON",
+      "stateOrCountry": "MA",
+      "zipCode": "02110",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-08"
+  },
+  "filings_count": 1001
+}

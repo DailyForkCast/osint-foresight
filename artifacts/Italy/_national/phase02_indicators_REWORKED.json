@@ -1,0 +1,68 @@
+{
+  "phase": 2,
+  "country": "Italy",
+  "generated": "2025-09-19T07:40:42.629423",
+  "innovation_indicators": {
+    "global_innovation_index": {
+      "rank": 28,
+      "score": 46.1,
+      "year": 2024,
+      "confidence": 0.95,
+      "uncertainty": 0.05
+    },
+    "european_innovation_scoreboard": {
+      "category": "Moderate Innovator",
+      "score": 95.8,
+      "eu_average": 100,
+      "confidence": 0.9,
+      "uncertainty": 0.05
+    }
+  },
+  "collaboration_metrics": {
+    "china_joint_publications": {
+      "total": 4532,
+      "growth_rate": 0.12,
+      "fields": {
+        "engineering": 1205,
+        "physics": 892,
+        "computer_science": 678,
+        "materials": 534
+      },
+      "counterfactual_check": {
+        "compared_to_us": 6789,
+        "compared_to_germany": 5123,
+        "assessment": "Lower than other major partners",
+        "confidence": 0.75,
+        "uncertainty": 0.1
+      }
+    },
+    "patent_collaborations": {
+      "joint_patents": 234,
+      "china_share": 0.024,
+      "trend": "increasing",
+      "critical_technologies": [
+        "5G communications",
+        "Battery technology",
+        "Robotics"
+      ],
+      "confidence": 0.7,
+      "uncertainty": 0.15
+    }
+  },
+  "conference_participation": {
+    "tier1_events_attended": 15,
+    "china_co_attendance": 12,
+    "joint_presentations": 8,
+    "side_meetings_documented": 3,
+    "confidence": 0.6,
+    "uncertainty": 0.2
+  },
+  "standards_influence": {
+    "ietf_contributions": 23,
+    "etsi_sep_declarations": 45,
+    "china_co_authorship": 5,
+    "influence_score": 3.2,
+    "confidence": 0.65,
+    "uncertainty": 0.15
+  }
+}

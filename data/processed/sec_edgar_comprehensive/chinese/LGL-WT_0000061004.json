@@ -1,0 +1,48 @@
+{
+  "cik": "0000061004",
+  "ticker": "LGL-WT",
+  "name": "LGL GROUP INC",
+  "detection_reasons": [
+    "offshore:bm",
+    "offshore:hk"
+  ],
+  "sic": "3679",
+  "sicDescription": "Electronic Components, NEC",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "381799862",
+  "phone": "(407) 298-2000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2525 SHADER ROAD",
+      "street2": null,
+      "city": "ORLANDO",
+      "stateOrCountry": "FL",
+      "zipCode": "32804",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2525 SHADER ROAD",
+      "street2": null,
+      "city": "ORLANDO",
+      "stateOrCountry": "FL",
+      "zipCode": "32804",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-22"
+  },
+  "filings_count": 1000
+}

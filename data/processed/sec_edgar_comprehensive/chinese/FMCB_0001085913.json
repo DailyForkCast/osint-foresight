@@ -1,0 +1,47 @@
+{
+  "cik": "0001085913",
+  "ticker": "FMCB",
+  "name": "FARMERS & MERCHANTS BANCORP",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6021",
+  "sicDescription": "National Commercial Banks",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "943327828",
+  "phone": "2093672411",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "FARMERS AND MERCHANTS BANCORP",
+      "street2": "121 WEST PINE ST",
+      "city": "LODI",
+      "stateOrCountry": "CA",
+      "zipCode": "95240-2184",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "FARMERS AND MERCHANTS BANCORP",
+      "street2": "121 WEST PINE ST",
+      "city": "LODI",
+      "stateOrCountry": "CA",
+      "zipCode": "95240-2184",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-14"
+  },
+  "filings_count": 1000
+}

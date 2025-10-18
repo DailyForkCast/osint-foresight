@@ -1,0 +1,12 @@
+{
+  "generated_at": "2025-09-28T13:52:47.782492+00:00",
+  "database": "F:/OSINT_WAREHOUSE/ted_procurement.db",
+  "zero_fabrication_compliance": true,
+  "data_sources": "TED Europa Public Procurement Database",
+  "total_contracts_processed": 0,
+  "contracts_with_chinese_entities": 0,
+  "technology_contracts": 0,
+  "dual_use_contracts": 0,
+  "top_chinese_patterns": [],
+  "identified_chinese_contractors": []
+}

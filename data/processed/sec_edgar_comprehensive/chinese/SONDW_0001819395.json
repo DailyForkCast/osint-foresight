@@ -1,0 +1,47 @@
+{
+  "cik": "0001819395",
+  "ticker": "SONDW",
+  "name": "Sonder Holdings Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7000",
+  "sicDescription": "Hotels, Rooming Houses, Camps & Other Lodging Places",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "852097088",
+  "phone": "617-300-0956",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "447 SUTTER ST. SUITE 405, #542",
+      "street2": null,
+      "city": "SAN FRANCISCO",
+      "stateOrCountry": "CA",
+      "zipCode": "94108",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "447 SUTTER ST. SUITE 405, #542",
+      "street2": null,
+      "city": "SAN FRANCISCO",
+      "stateOrCountry": "CA",
+      "zipCode": "94108",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-24"
+  },
+  "filings_count": 407
+}

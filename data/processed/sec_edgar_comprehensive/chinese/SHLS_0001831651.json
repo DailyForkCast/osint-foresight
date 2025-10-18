@@ -1,0 +1,47 @@
+{
+  "cik": "0001831651",
+  "ticker": "SHLS",
+  "name": "Shoals Technologies Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3674",
+  "sicDescription": "Semiconductors & Related Devices",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "615-451-1400",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1400 SHOALS WAY",
+      "street2": null,
+      "city": "PORTLAND",
+      "stateOrCountry": "TN",
+      "zipCode": "37148",
+      "stateOrCountryDescription": "TN",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1400 SHOALS WAY",
+      "street2": null,
+      "city": "PORTLAND",
+      "stateOrCountry": "TN",
+      "zipCode": "37148",
+      "stateOrCountryDescription": "TN",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-05"
+  },
+  "filings_count": 383
+}

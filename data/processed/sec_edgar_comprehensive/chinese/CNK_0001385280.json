@@ -1,0 +1,47 @@
+{
+  "cik": "0001385280",
+  "ticker": "CNK",
+  "name": "Cinemark Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7830",
+  "sicDescription": "Services-Motion Picture Theaters",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "205490327",
+  "phone": "(972) 665-1000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3900 DALLAS PARKWAY",
+      "street2": null,
+      "city": "PLANO",
+      "stateOrCountry": "TX",
+      "zipCode": "75093",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3900 DALLAS PARKWAY",
+      "street2": null,
+      "city": "PLANO",
+      "stateOrCountry": "TX",
+      "zipCode": "75093",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-05"
+  },
+  "filings_count": 1000
+}

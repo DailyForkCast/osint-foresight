@@ -1,0 +1,22 @@
+{
+  "timestamp": "20250925_185229",
+  "stats": {
+    "total_patterns": 1799,
+    "us_patterns": 10,
+    "eu_patterns": 95,
+    "critical_contracts": 52,
+    "total_value": 23832.969999999998,
+    "agencies_affected": [],
+    "chinese_companies": [
+      "EU_companies"
+    ],
+    "risk_distribution": {
+      "CHINESE_MANUFACTURED": 5
+    }
+  },
+  "findings_summary": {
+    "us_patterns": 10,
+    "eu_patterns": 95,
+    "total": 1799
+  }
+}

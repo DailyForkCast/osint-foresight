@@ -1,0 +1,47 @@
+{
+  "cik": "0001757073",
+  "ticker": "NVST",
+  "name": "Envista Holdings Corp",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3843",
+  "sicDescription": "Dental Equipment & Supplies",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "832206728",
+  "phone": "714-817-5418",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "200 S. KRAEMER BLVD., BLDG. E",
+      "street2": null,
+      "city": "BREA",
+      "stateOrCountry": "CA",
+      "zipCode": "92821",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "200 S. KRAEMER BLVD., BLDG. E",
+      "street2": null,
+      "city": "BREA",
+      "stateOrCountry": "CA",
+      "zipCode": "92821",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-17"
+  },
+  "filings_count": 493
+}

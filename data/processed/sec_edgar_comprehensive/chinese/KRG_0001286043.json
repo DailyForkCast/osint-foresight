@@ -1,0 +1,47 @@
+{
+  "cik": "0001286043",
+  "ticker": "KRG",
+  "name": "KITE REALTY GROUP TRUST",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6798",
+  "sicDescription": "Real Estate Investment Trusts",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "MD",
+  "ein": "113715772",
+  "phone": "3175775600",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "30 S MERIDIAN STREET",
+      "street2": "SUITE 1100",
+      "city": "INDIANAPOLIS",
+      "stateOrCountry": "IN",
+      "zipCode": "46204",
+      "stateOrCountryDescription": "IN",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "30 S MERIDIAN STREET",
+      "street2": "SUITE 1100",
+      "city": "INDIANAPOLIS",
+      "stateOrCountry": "IN",
+      "zipCode": "46204",
+      "stateOrCountryDescription": "IN",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-07-31"
+  },
+  "filings_count": 1004
+}

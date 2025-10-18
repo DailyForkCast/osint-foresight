@@ -1,0 +1,48 @@
+{
+  "cik": "0001640251",
+  "ticker": "WINSF",
+  "name": "Wins Finance Holdings Inc.",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "6199",
+  "sicDescription": "Finance Services",
+  "category": "Non-accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86 (10) 8225-5118",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1177 AVENUE OF THE AMERICAS",
+      "street2": "5TH FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10036",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1177 AVENUE OF THE AMERICAS",
+      "street2": "5TH FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10036",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-06-11"
+  },
+  "filings_count": 143
+}

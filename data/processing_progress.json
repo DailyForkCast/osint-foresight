@@ -1,0 +1,214 @@
+{
+  "uspto": {
+    "processed": [
+      "csv.zip",
+      "ai_model_predictions.dta.zip",
+      "assignee.csv.zip",
+      "20011225.ZIP",
+      "pg011225.zip",
+      "transactions.dta.zip",
+      "Cancer Data12A.zip",
+      "case_file.csv.zip"
+    ],
+    "failed": [],
+    "stats": {
+      "csv.zip": {
+        "size": 285643189,
+        "extracted_files": 10,
+        "message": "Extracted 10 files",
+        "timestamp": "2025-09-26T19:33:31.550164"
+      },
+      "ai_model_predictions.dta.zip": {
+        "size": 680119785,
+        "extracted_files": 1,
+        "message": "Extracted 1 files",
+        "timestamp": "2025-09-26T19:34:07.161186"
+      },
+      "assignee.csv.zip": {
+        "size": 292786542,
+        "extracted_files": 1,
+        "message": "Extracted 1 files",
+        "timestamp": "2025-09-26T19:34:38.377929"
+      },
+      "20011225.ZIP": {
+        "size": 615388458,
+        "extracted_files": 2265,
+        "message": "Extracted 2265 files",
+        "timestamp": "2025-09-26T19:36:52.776351"
+      },
+      "pg011225.zip": {
+        "size": 29426406,
+        "extracted_files": 1,
+        "message": "Extracted 1 files",
+        "timestamp": "2025-09-26T19:36:58.108321"
+      },
+      "transactions.dta.zip": {
+        "size": 2274509558,
+        "extracted_files": 1,
+        "message": "Extracted 1 files",
+        "timestamp": "2025-09-26T19:41:43.526873"
+      },
+      "Cancer Data12A.zip": {
+        "size": 19715235,
+        "extracted_files": 1,
+        "message": "Extracted 1 files",
+        "timestamp": "2025-09-26T19:41:47.238693"
+      },
+      "case_file.csv.zip": {
+        "size": 434260216,
+        "extracted_files": 1,
+        "message": "Extracted 1 files",
+        "timestamp": "2025-09-26T19:43:08.097292"
+      }
+    }
+  },
+  "estat": {
+    "processed": [
+      "estat_naida_10_gdp.tsv.gz",
+      "estat_naida_10_a10.tsv.gz",
+      "estat_mar_tf_qm.tsv.gz",
+      "estat_mar_go_qmc.tsv.gz",
+      "estat_mar_go_qm_ie.tsv.gz",
+      "estat_mar_go_qm_c2026.tsv.gz",
+      "estat_mar_go_qm.tsv.gz",
+      "estat_tipsen10.tsv.gz",
+      "estat_tet00004.tsv.gz",
+      "estat_tet00003.tsv.gz",
+      "estat_tec00110.tsv.gz",
+      "estat_bop_euins6_m.tsv.gz",
+      "estat_nama_10_gdp.tsv.gz",
+      "estat_nama_10_exi.tsv.gz",
+      "estat_tipsfs32.tsv.gz",
+      "estat_tipsfs31.tsv.gz",
+      "estat_naidq_10_gdp.tsv.gz",
+      "estat_naidq_10_a10.tsv.gz",
+      "estat_nrg_cb_em.tsv.gz",
+      "estat_namq_10_an6.tsv.gz",
+      "ALL_DATAFLOWS (1).xml"
+    ],
+    "failed": [],
+    "stats": {
+      "estat_naida_10_gdp.tsv.gz": {
+        "size": 1104808,
+        "extracted_files": 1,
+        "message": "Successfully decompressed",
+        "timestamp": "2025-09-26T19:43:43.977992"
+      },
+      "estat_naida_10_a10.tsv.gz": {
+        "size": 425289,
+        "extracted_files": 1,
+        "message": "Successfully decompressed",
+        "timestamp": "2025-09-26T19:43:44.620115"
+      },
+      "estat_mar_tf_qm.tsv.gz": {
+        "size": 8349844,
+        "extracted_files": 1,
+        "message": "Successfully decompressed",
+        "timestamp": "2025-09-26T19:43:46.380773"
+      },
+      "estat_mar_go_qmc.tsv.gz": {
+        "size": 1247414,
+        "extracted_files": 1,
+        "message": "Successfully decompressed",
+        "timestamp": "2025-09-26T19:43:47.430968"
+      },
+      "estat_mar_go_qm_ie.tsv.gz": {
+        "size": 639419,
+        "extracted_files": 1,
+        "message": "Successfully decompressed",
+        "timestamp": "2025-09-26T19:43:47.912803"
+      },
+      "estat_mar_go_qm_c2026.tsv.gz": {
+        "size": 775212,
+        "extracted_files": 1,
+        "message": "Successfully decompressed",
+        "timestamp": "2025-09-26T19:43:48.437106"
+      },
+      "estat_mar_go_qm.tsv.gz": {
+        "size": 2724177,
+        "extracted_files": 1,
+        "message": "Successfully decompressed",
+        "timestamp": "2025-09-26T19:43:48.972655"
+      },
+      "estat_tipsen10.tsv.gz": {
+        "size": 1251,
+        "extracted_files": 1,
+        "message": "Successfully decompressed",
+        "timestamp": "2025-09-26T19:43:49.319771"
+      },
+      "estat_tet00004.tsv.gz": {
+        "size": 3575,
+        "extracted_files": 1,
+        "message": "Successfully decompressed",
+        "timestamp": "2025-09-26T19:43:49.498933"
+      },
+      "estat_tet00003.tsv.gz": {
+        "size": 3600,
+        "extracted_files": 1,
+        "message": "Successfully decompressed",
+        "timestamp": "2025-09-26T19:43:49.645570"
+      },
+      "estat_tec00110.tsv.gz": {
+        "size": 4742,
+        "extracted_files": 1,
+        "message": "Successfully decompressed",
+        "timestamp": "2025-09-26T19:43:49.827820"
+      },
+      "estat_bop_euins6_m.tsv.gz": {
+        "size": 48287042,
+        "extracted_files": 1,
+        "message": "Successfully decompressed",
+        "timestamp": "2025-09-26T19:43:55.427468"
+      },
+      "estat_nama_10_gdp.tsv.gz": {
+        "size": 3330651,
+        "extracted_files": 1,
+        "message": "Successfully decompressed",
+        "timestamp": "2025-09-26T19:43:57.573052"
+      },
+      "estat_nama_10_exi.tsv.gz": {
+        "size": 344770,
+        "extracted_files": 1,
+        "message": "Successfully decompressed",
+        "timestamp": "2025-09-26T19:43:57.864056"
+      },
+      "estat_tipsfs32.tsv.gz": {
+        "size": 22887,
+        "extracted_files": 1,
+        "message": "Successfully decompressed",
+        "timestamp": "2025-09-26T19:43:58.124096"
+      },
+      "estat_tipsfs31.tsv.gz": {
+        "size": 12942,
+        "extracted_files": 1,
+        "message": "Successfully decompressed",
+        "timestamp": "2025-09-26T19:43:58.320604"
+      },
+      "estat_naidq_10_gdp.tsv.gz": {
+        "size": 2788932,
+        "extracted_files": 1,
+        "message": "Successfully decompressed",
+        "timestamp": "2025-09-26T19:43:58.784381"
+      },
+      "estat_naidq_10_a10.tsv.gz": {
+        "size": 1405581,
+        "extracted_files": 1,
+        "message": "Successfully decompressed",
+        "timestamp": "2025-09-26T19:43:59.286557"
+      },
+      "estat_nrg_cb_em.tsv.gz": {
+        "size": 122366,
+        "extracted_files": 1,
+        "message": "Successfully decompressed",
+        "timestamp": "2025-09-26T19:43:59.609788"
+      },
+      "estat_namq_10_an6.tsv.gz": {
+        "size": 7395798,
+        "extracted_files": 1,
+        "message": "Successfully decompressed",
+        "timestamp": "2025-09-26T19:44:00.672094"
+      }
+    }
+  },
+  "last_update": "2025-09-26T19:44:01.383197"
+}

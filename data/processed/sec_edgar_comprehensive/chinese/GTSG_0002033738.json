@@ -1,0 +1,44 @@
+{
+  "cik": "0002033738",
+  "ticker": "GTSG",
+  "name": "GATES GROUP Inc.",
+  "detection_reasons": [
+    "offshore:ky"
+  ],
+  "sic": "6500",
+  "sicDescription": "Real Estate",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "M0",
+  "ein": "000000000",
+  "phone": "81-3-5937-0846",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "34FSUMITOMO FUDOSAN SHINJUKU GRAND TOWER",
+      "street2": "8-17-1 NISISHINJUKU, SHINJUKU-KU",
+      "city": "TOKYO",
+      "stateOrCountry": "M0",
+      "zipCode": "160-6134",
+      "stateOrCountryDescription": "Japan",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "34FSUMITOMO FUDOSAN SHINJUKU GRAND TOWER",
+      "street2": "8-17-1 NISISHINJUKU, SHINJUKU-KU",
+      "city": "TOKYO",
+      "stateOrCountry": "M0",
+      "zipCode": "160-6134",
+      "stateOrCountryDescription": "Japan",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 10
+}

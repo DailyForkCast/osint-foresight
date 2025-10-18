@@ -1,0 +1,70 @@
+{
+  "phase": 0,
+  "country": "Italy",
+  "generated": "2025-09-19T07:40:42.616951",
+  "validation_protocol": "v6.1_complete",
+  "threat_vectors": {
+    "china_specific": [
+      {
+        "vector": "Leonardo aerospace technology acquisition",
+        "specificity": "AW139/MH-139 helicopter platform reverse engineering",
+        "evidence": "40+ AW139 helicopters operated in China",
+        "confidence": 0.85,
+        "uncertainty": 0.1
+      },
+      {
+        "vector": "Quantum computing research infiltration",
+        "specificity": "CNR-SPIN quantum research collaboration",
+        "evidence": "Joint publications with Chinese Academy of Sciences",
+        "confidence": 0.7,
+        "uncertainty": 0.15
+      },
+      {
+        "vector": "Supply chain penetration",
+        "specificity": "Semiconductor and rare earth dependencies",
+        "evidence": "45% dependency on Chinese rare earth elements",
+        "confidence": 0.9,
+        "uncertainty": 0.05
+      }
+    ]
+  },
+  "conference_intelligence_setup": {
+    "priority_events": [
+      "Farnborough Airshow",
+      "Paris Air Show",
+      "European Defence Agency conferences",
+      "NATO Industry Forum",
+      "Italian Aerospace Summit"
+    ],
+    "tracking_period": "2020-2030",
+    "china_monitoring": true
+  },
+  "mcf_sources_initialized": {
+    "ror": {
+      "status": "initialized",
+      "endpoint": "https://api.ror.org"
+    },
+    "orcid": {
+      "status": "initialized",
+      "endpoint": "https://pub.orcid.org"
+    },
+    "openaire": {
+      "status": "initialized",
+      "endpoint": "https://api.openaire.eu"
+    },
+    "ietf": {
+      "status": "initialized",
+      "endpoint": "https://datatracker.ietf.org/api/v1"
+    },
+    "companies_house": {
+      "status": "planned",
+      "endpoint": "https://api.company-information.service.gov.uk"
+    }
+  },
+  "success_metrics": {
+    "confidence_standardization": "All scores 0-1 with \u00b10.1 uncertainty",
+    "counterfactual_completion": "100% of findings tested",
+    "mcf_utilization": ">70% of available sources",
+    "evidence_tier_compliance": "Tier 3 excluded unless corroborated"
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "contract_id": "2022/S 213-612542",
+    "authority_country": "PL",
+    "chinese_entity": "generic",
+    "chinese_entity_type": "subsidiary",
+    "value": 0.0,
+    "currency": "EUR",
+    "date": "20221104",
+    "sector": "unknown",
+    "technology_categories": [],
+    "risk_level": "LOW",
+    "evidence": [],
+    "source_file": "F:\\TED_Data\\monthly\\2022\\TED_monthly_2022_11.tar.gz",
+    "verification_command": "tar -xzf 'F:\\TED_Data\\monthly\\2022\\TED_monthly_2022_11.tar.gz' -O '11/20221104_2022213.tar.gz/20221104_213/00612542_2022.xml' | grep -n 'China'"
+  }
+]

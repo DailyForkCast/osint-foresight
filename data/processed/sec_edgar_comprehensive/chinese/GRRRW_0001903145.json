@@ -1,0 +1,50 @@
+{
+  "cik": "0001903145",
+  "ticker": "GRRRW",
+  "name": "Gorilla Technology Group Inc.",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:ky",
+    "sic:7372"
+  ],
+  "sic": "7372",
+  "sicDescription": "Services-Prepackaged Software",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "981685516",
+  "phone": "886-2-2627-7996",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "GRAND PAVILION, HIBISCUS WAY",
+      "street2": "802 WEST BAY ROAD",
+      "city": "GRAND CAYMAN",
+      "stateOrCountry": null,
+      "zipCode": "KY1-1205",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "GRAND CAYMAN",
+      "country": "Cayman Islands",
+      "countryCode": "E9"
+    },
+    "business": {
+      "street1": "GRAND PAVILION, HIBISCUS WAY",
+      "street2": "802 WEST BAY ROAD",
+      "city": "GRAND CAYMAN",
+      "stateOrCountry": null,
+      "zipCode": "KY1-1205",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "GRAND CAYMAN",
+      "country": "Cayman Islands",
+      "countryCode": "E9"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-14"
+  },
+  "filings_count": 131
+}

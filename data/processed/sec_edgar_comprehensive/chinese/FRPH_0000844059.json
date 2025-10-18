@@ -1,0 +1,47 @@
+{
+  "cik": "0000844059",
+  "ticker": "FRPH",
+  "name": "FRP HOLDINGS, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6500",
+  "sicDescription": "Real Estate",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "FL",
+  "ein": "472449198",
+  "phone": "9043965733",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "200 W. FORSYTH ST.",
+      "street2": "7TH FLOOR",
+      "city": "JACKSONVILLE",
+      "stateOrCountry": "FL",
+      "zipCode": "32202",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "200 W. FORSYTH ST.",
+      "street2": "7TH FLOOR",
+      "city": "JACKSONVILLE",
+      "stateOrCountry": "FL",
+      "zipCode": "32202",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-08"
+  },
+  "filings_count": 1000
+}

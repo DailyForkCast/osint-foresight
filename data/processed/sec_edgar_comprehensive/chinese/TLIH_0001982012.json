@@ -1,0 +1,48 @@
+{
+  "cik": "0001982012",
+  "ticker": "TLIH",
+  "name": "Ten-League International Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "5080",
+  "sicDescription": "Wholesale-Machinery, Equipment & Supplies",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "(65) 6862 0769",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "C/O 7 TUAS AVENUE 2,",
+      "street2": null,
+      "city": "SINGAPORE",
+      "stateOrCountry": "U0",
+      "zipCode": "639447",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "C/O 7 TUAS AVENUE 2,",
+      "street2": null,
+      "city": "SINGAPORE",
+      "stateOrCountry": "U0",
+      "zipCode": "639447",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-12"
+  },
+  "filings_count": 47
+}

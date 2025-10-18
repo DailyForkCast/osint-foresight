@@ -1,0 +1,50 @@
+{
+  "cik": "0000006201",
+  "ticker": "AAL",
+  "name": "American Airlines Group Inc.",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:vg",
+    "offshore:bm",
+    "vie_structure"
+  ],
+  "sic": "4512",
+  "sicDescription": "Air Transportation, Scheduled",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "751825172",
+  "phone": "6822789000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1 SKYVIEW DRIVE",
+      "street2": null,
+      "city": "FORT WORTH",
+      "stateOrCountry": "TX",
+      "zipCode": "76155",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1 SKYVIEW DRIVE",
+      "street2": null,
+      "city": "FORT WORTH",
+      "stateOrCountry": "TX",
+      "zipCode": "76155",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-07"
+  },
+  "filings_count": 1001
+}

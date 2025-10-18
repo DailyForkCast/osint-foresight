@@ -1,0 +1,44 @@
+{
+  "cik": "0001144980",
+  "ticker": "ABG",
+  "name": "ASBURY AUTOMOTIVE GROUP INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5500",
+  "sicDescription": "Retail-Auto Dealers & Gasoline Stations",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "010609375",
+  "phone": "770-418-8200",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2905 PREMIERE PARKWAY NW",
+      "street2": "SUITE 300",
+      "city": "DULUTH",
+      "stateOrCountry": "GA",
+      "zipCode": "30097",
+      "stateOrCountryDescription": "GA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2905 PREMIERE PARKWAY NW",
+      "street2": "SUITE 300",
+      "city": "DULUTH",
+      "stateOrCountry": "GA",
+      "zipCode": "30097",
+      "stateOrCountryDescription": "GA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1000
+}

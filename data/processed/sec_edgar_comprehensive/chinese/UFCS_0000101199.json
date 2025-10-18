@@ -1,0 +1,47 @@
+{
+  "cik": "0000101199",
+  "ticker": "UFCS",
+  "name": "UNITED FIRE GROUP INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6331",
+  "sicDescription": "Fire, Marine & Casualty Insurance",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "452302834",
+  "phone": "3193995700",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "P O BOX 73909",
+      "street2": null,
+      "city": "CEDAR RAPIDS",
+      "stateOrCountry": "IA",
+      "zipCode": "52407",
+      "stateOrCountryDescription": "IA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "118 SECOND AVE SE",
+      "street2": null,
+      "city": "CEDAR RAPIDS",
+      "stateOrCountry": "IA",
+      "zipCode": "52401",
+      "stateOrCountryDescription": "IA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-29"
+  },
+  "filings_count": 1001
+}

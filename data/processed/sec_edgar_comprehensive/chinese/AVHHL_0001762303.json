@@ -1,0 +1,47 @@
+{
+  "cik": "0001762303",
+  "ticker": "AVHHL",
+  "name": "AVITA Medical, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3841",
+  "sicDescription": "Surgical & Medical Instruments & Apparatus",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "202578762",
+  "phone": "661-568-1317",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "28159 AVENUE STANFORD",
+      "street2": "SUITE 220",
+      "city": "VALENCIA",
+      "stateOrCountry": "CA",
+      "zipCode": "91355",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "28159 AVENUE STANFORD",
+      "street2": "SUITE 220",
+      "city": "VALENCIA",
+      "stateOrCountry": "CA",
+      "zipCode": "91355",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-18"
+  },
+  "filings_count": 328
+}

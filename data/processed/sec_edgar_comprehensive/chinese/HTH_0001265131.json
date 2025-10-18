@@ -1,0 +1,47 @@
+{
+  "cik": "0001265131",
+  "ticker": "HTH",
+  "name": "Hilltop Holdings Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6022",
+  "sicDescription": "State Commercial Banks",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "MD",
+  "ein": "841477939",
+  "phone": "214.855.2177",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "6565 HILLCREST AVE.",
+      "street2": null,
+      "city": "DALLAS",
+      "stateOrCountry": "TX",
+      "zipCode": "75205",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "6565 HILLCREST AVE.",
+      "street2": null,
+      "city": "DALLAS",
+      "stateOrCountry": "TX",
+      "zipCode": "75205",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-29"
+  },
+  "filings_count": 1001
+}

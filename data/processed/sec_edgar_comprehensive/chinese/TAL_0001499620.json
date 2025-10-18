@@ -1,0 +1,53 @@
+{
+  "cik": "0001499620",
+  "ticker": "TAL",
+  "name": "TAL Education Group",
+  "detection_reasons": [
+    "location:china",
+    "location:beijing",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:ky",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "8200",
+  "sicDescription": "Services-Educational Services",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86 (10) 5292-6669",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "4/F, TAL BUILDING NO.1, COURTYARD NO. 9",
+      "street2": "QIXIN MIDDLE STREET, CHANGPING DISTRICT",
+      "city": "Beijing",
+      "stateOrCountry": "F4",
+      "zipCode": "102206",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "4/F, TAL BUILDING NO.1, COURTYARD NO. 9",
+      "street2": "QIXIN MIDDLE STREET, CHANGPING DISTRICT",
+      "city": "Beijing",
+      "stateOrCountry": "F4",
+      "zipCode": "102206",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-07-31"
+  },
+  "filings_count": 308
+}

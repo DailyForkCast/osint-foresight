@@ -1,0 +1,49 @@
+{
+  "cik": "0001267395",
+  "ticker": "AHL-PF",
+  "name": "ASPEN INSURANCE HOLDINGS LTD",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:bermuda",
+    "offshore:bm"
+  ],
+  "sic": "6331",
+  "sicDescription": "Fire, Marine & Casualty Insurance",
+  "category": "Non-accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "D0",
+  "ein": "000000000",
+  "phone": "1 441 297 9301",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "141 FRONT STREET",
+      "street2": null,
+      "city": "HAMILTON",
+      "stateOrCountry": "D0",
+      "zipCode": "HM 19",
+      "stateOrCountryDescription": "Bermuda",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "141 FRONT STREET",
+      "street2": null,
+      "city": "HAMILTON",
+      "stateOrCountry": "D0",
+      "zipCode": "HM 19",
+      "stateOrCountryDescription": "Bermuda",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-12"
+  },
+  "filings_count": 1000
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0001789940",
+  "ticker": "FWRG",
+  "name": "First Watch Restaurant Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5812",
+  "sicDescription": "Retail-Eating  Places",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "824271369",
+  "phone": "941-907-9800",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "8725 PENDERY PLACE, SUITE 201",
+      "street2": null,
+      "city": "BRADENTON",
+      "stateOrCountry": "FL",
+      "zipCode": "34201",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "8725 PENDERY PLACE, SUITE 201",
+      "street2": null,
+      "city": "BRADENTON",
+      "stateOrCountry": "FL",
+      "zipCode": "34201",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-08"
+  },
+  "filings_count": 301
+}

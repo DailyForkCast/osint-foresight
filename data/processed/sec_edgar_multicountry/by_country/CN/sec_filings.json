@@ -1,0 +1,72 @@
+[
+  {
+    "form": "20-F",
+    "date": "2025-04-28",
+    "accession": "0001410578-25-000951",
+    "primary_doc": "pdd-20241231x20f.htm",
+    "company": "PDD Holdings Inc.",
+    "country": "CN",
+    "cik": "0001737806",
+    "risks": {
+      "china_exposure": true,
+      "technology_transfer": false,
+      "supply_chain": true,
+      "regulatory_risk": true,
+      "vie_structure": true,
+      "risk_score": 60,
+      "high_china_exposure": true
+    }
+  },
+  {
+    "form": "20-F",
+    "date": "2025-03-27",
+    "accession": "0000950170-25-045691",
+    "primary_doc": "iq-20241231.htm",
+    "company": "iQIYI, Inc.",
+    "country": "CN",
+    "cik": "0001722608",
+    "risks": {
+      "china_exposure": true,
+      "technology_transfer": false,
+      "supply_chain": false,
+      "regulatory_risk": true,
+      "vie_structure": true,
+      "risk_score": 50,
+      "high_china_exposure": true
+    }
+  },
+  {
+    "form": "6-K",
+    "date": "2025-08-12",
+    "accession": "0000950103-25-010164",
+    "primary_doc": "dp232902_6k.htm",
+    "company": "Tencent Music Entertainment Group",
+    "country": "CN",
+    "cik": "0001744676",
+    "risks": {
+      "china_exposure": false,
+      "technology_transfer": false,
+      "supply_chain": true,
+      "regulatory_risk": false,
+      "vie_structure": false,
+      "risk_score": 10
+    }
+  },
+  {
+    "form": "6-K",
+    "date": "2025-07-15",
+    "accession": "0000950103-25-008790",
+    "primary_doc": "dp231479_6k.htm",
+    "company": "Tencent Music Entertainment Group",
+    "country": "CN",
+    "cik": "0001744676",
+    "risks": {
+      "china_exposure": false,
+      "technology_transfer": false,
+      "supply_chain": true,
+      "regulatory_risk": false,
+      "vie_structure": false,
+      "risk_score": 10
+    }
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "cik": "0001668397",
+  "ticker": "MEDP",
+  "name": "Medpace Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "8731",
+  "sicDescription": "Services-Commercial Physical & Biological Research",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "320434904",
+  "phone": "(513) 579-9911",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "5375 MEDPACE WAY",
+      "street2": null,
+      "city": "CINCINNATI",
+      "stateOrCountry": "OH",
+      "zipCode": "45227",
+      "stateOrCountryDescription": "OH",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "5375 MEDPACE WAY",
+      "street2": null,
+      "city": "CINCINNATI",
+      "stateOrCountry": "OH",
+      "zipCode": "45227",
+      "stateOrCountryDescription": "OH",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 801
+}

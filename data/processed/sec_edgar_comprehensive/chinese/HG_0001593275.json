@@ -1,0 +1,45 @@
+{
+  "cik": "0001593275",
+  "ticker": "HG",
+  "name": "Hamilton Insurance Group, Ltd.",
+  "detection_reasons": [
+    "offshore:bermuda",
+    "offshore:bm"
+  ],
+  "sic": "6331",
+  "sicDescription": "Fire, Marine & Casualty Insurance",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "D0",
+  "ein": "000000000",
+  "phone": "(441) 405-5200",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "WELLESLEY HOUSE NORTH, 1ST FLOOR",
+      "street2": "90 PITTS BAY ROAD",
+      "city": "PEMBROKE",
+      "stateOrCountry": "D0",
+      "zipCode": "HM08",
+      "stateOrCountryDescription": "Bermuda",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "WELLESLEY HOUSE NORTH, 1ST FLOOR",
+      "street2": "90 PITTS BAY ROAD",
+      "city": "PEMBROKE",
+      "stateOrCountry": "D0",
+      "zipCode": "HM08",
+      "stateOrCountryDescription": "Bermuda",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 272
+}

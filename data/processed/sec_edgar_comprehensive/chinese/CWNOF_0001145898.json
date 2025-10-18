@@ -1,0 +1,50 @@
+{
+  "cik": "0001145898",
+  "ticker": "CWNOF",
+  "name": "CHINESEWORLDNET COM INC",
+  "detection_reasons": [
+    "location:chinese",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:ky"
+  ],
+  "sic": "7389",
+  "sicDescription": "Services-Business Services, NEC",
+  "category": "Non-accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "345 949 4900",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "APPLEBY, CLIFTON HOUSE",
+      "street2": "75 FORT STREET, PO BOX 190",
+      "city": "GRAND CAYMAN",
+      "stateOrCountry": "E9",
+      "zipCode": "KY1-1104",
+      "stateOrCountryDescription": "Cayman Islands",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "APPLEBY, CLIFTON HOUSE",
+      "street2": "75 FORT STREET, PO BOX 190",
+      "city": "GRAND CAYMAN",
+      "stateOrCountry": "E9",
+      "zipCode": "KY1-1104",
+      "stateOrCountryDescription": "Cayman Islands",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "20-F",
+    "date": "2025-04-30"
+  },
+  "filings_count": 60
+}

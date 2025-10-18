@@ -1,0 +1,49 @@
+[
+  {
+    "paper_id": "https://openalex.org/W2488207930",
+    "doi": null,
+    "title": "The Nott review",
+    "publication_year": 2002,
+    "countries_collaborating": [
+      "CN",
+      "SI"
+    ],
+    "institutions": {
+      "SI": [
+        "Institute of Contemporary History"
+      ],
+      "CN": [
+        "International College of Defence Studies"
+      ]
+    },
+    "authors_by_country": {
+      "SI": [
+        "Michael Kandiah (Institute of Contemporary History)"
+      ],
+      "CN": [
+        "Andrew Dorman (International College of Defence Studies)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2002,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 86123,
+      "extraction_command": "sed -n '86123p' part_000.gz | jq '.title'",
+      "paper_hash": "b7175c1049f64e15"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "SI"
+  }
+]

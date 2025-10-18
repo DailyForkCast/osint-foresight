@@ -1,0 +1,47 @@
+{
+  "cik": "0001639300",
+  "ticker": "OLLI",
+  "name": "Ollie's Bargain Outlet Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5331",
+  "sicDescription": "Retail-Variety Stores",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "800848819",
+  "phone": "717 657-2300",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "6295 ALLENTOWN BOULEVARD, SUITE 1",
+      "street2": null,
+      "city": "HARRISBURG",
+      "stateOrCountry": "PA",
+      "zipCode": "17112",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "6295 ALLENTOWN BOULEVARD, SUITE 1",
+      "street2": null,
+      "city": "HARRISBURG",
+      "stateOrCountry": "PA",
+      "zipCode": "17112",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-09-03"
+  },
+  "filings_count": 844
+}

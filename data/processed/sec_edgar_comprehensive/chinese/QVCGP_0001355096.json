@@ -1,0 +1,47 @@
+{
+  "cik": "0001355096",
+  "ticker": "QVCGP",
+  "name": "QVC Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5961",
+  "sicDescription": "Retail-Catalog & Mail-Order Houses",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "841288730",
+  "phone": "4847011000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1200 WILSON DRIVE",
+      "street2": null,
+      "city": "WEST CHESTER",
+      "stateOrCountry": "PA",
+      "zipCode": "19380",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1200 WILSON DRIVE",
+      "street2": null,
+      "city": "WEST CHESTER",
+      "stateOrCountry": "PA",
+      "zipCode": "19380",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-15"
+  },
+  "filings_count": 1000
+}

@@ -1,0 +1,48 @@
+{
+  "cik": "0001333986",
+  "ticker": "EQH-PA",
+  "name": "Equitable Holdings, Inc.",
+  "detection_reasons": [
+    "location:prc",
+    "offshore:bm"
+  ],
+  "sic": "6411",
+  "sicDescription": "Insurance Agents, Brokers & Service",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "585512450",
+  "phone": "(212) 554-1234",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1345 AVENUE OF THE AMERICAS",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10105",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1345 AVENUE OF THE AMERICAS",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10105",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-09"
+  },
+  "filings_count": 968
+}

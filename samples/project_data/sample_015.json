@@ -1,0 +1,46 @@
+{
+  "original_path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\ted_historical_2010_2022\\by_sector\\unknown\\analysis.json",
+  "profile": {
+    "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\ted_historical_2010_2022\\by_sector\\unknown\\analysis.json",
+    "size": 165,
+    "extension": ".json",
+    "encoding": "utf-8",
+    "line_count": 1,
+    "field_count": 5,
+    "parse_status": "success",
+    "schema": {
+      "sector": "string",
+      "total_contracts": "number",
+      "countries_affected": "array",
+      "chinese_companies": "array",
+      "total_value": "number"
+    },
+    "sample_records": [
+      {
+        "sector": "unknown",
+        "total_contracts": 1,
+        "countries_affected": [
+          "PL"
+        ],
+        "chinese_companies": [
+          "generic"
+        ],
+        "total_value": 0.0
+      }
+    ],
+    "modified": "2025-09-21T18:06:59.076569"
+  },
+  "sample_data": [
+    {
+      "sector": "unknown",
+      "total_contracts": 1,
+      "countries_affected": [
+        "PL"
+      ],
+      "chinese_companies": [
+        "generic"
+      ],
+      "total_value": 0.0
+    }
+  ]
+}

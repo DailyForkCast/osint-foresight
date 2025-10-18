@@ -1,0 +1,47 @@
+{
+  "cik": "0002046216",
+  "ticker": "BTFT",
+  "name": "Beta FinTech Holdings Ltd",
+  "detection_reasons": [
+    "location:china",
+    "offshore:hong kong",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "6199",
+  "sicDescription": "Finance Services",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "852 3590 9488",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "RM3326, EAST BLOCK,CHINA MERCHANTS TOWER",
+      "street2": "168-200 CONNAUGHT ROAD CENTRAL",
+      "city": "SHEUNG WAN",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "RM3326, EAST BLOCK,CHINA MERCHANTS TOWER",
+      "street2": "168-200 CONNAUGHT ROAD CENTRAL",
+      "city": "SHEUNG WAN",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 11
+}

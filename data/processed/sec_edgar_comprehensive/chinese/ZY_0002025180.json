@@ -1,0 +1,45 @@
+{
+  "cik": "0002025180",
+  "ticker": "ZY",
+  "name": "China Tobacco & Alcohol Group Ltd",
+  "detection_reasons": [
+    "location:china",
+    "offshore:hong kong"
+  ],
+  "sic": "",
+  "sicDescription": "",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "K3",
+  "ein": "000000000",
+  "phone": "85251626310",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "RM 18, 15F, MAI WO IND BLDG",
+      "street2": "90-98 KWAI CHEONG RD",
+      "city": "NT",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "RM 18, 15F, MAI WO IND BLDG",
+      "street2": "90-98 KWAI CHEONG RD",
+      "city": "NT",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0001905920",
+  "ticker": "GLXG",
+  "name": "Galaxy Payroll Group Ltd",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "8700",
+  "sicDescription": "Services-Engineering, Accounting, Research, Management",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "D8",
+  "ein": "000000000",
+  "phone": "85231052622",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "25/F, OVEST, 77 WING LOK STREET",
+      "street2": "SHEUNG WAN",
+      "city": "HONG KONG",
+      "stateOrCountry": null,
+      "zipCode": "00000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "HONG KONG",
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    },
+    "business": {
+      "street1": "25/F, OVEST, 77 WING LOK STREET",
+      "street2": "SHEUNG WAN",
+      "city": "HONG KONG",
+      "stateOrCountry": null,
+      "zipCode": "00000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "HONG KONG",
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-23"
+  },
+  "filings_count": 69
+}

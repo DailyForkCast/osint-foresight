@@ -1,0 +1,44 @@
+{
+  "cik": "0001995085",
+  "ticker": "AVGPF",
+  "name": "Avingtrans PLC",
+  "detection_reasons": [
+    "offshore:vg"
+  ],
+  "sic": "",
+  "sicDescription": "",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "X0",
+  "ein": "000000000",
+  "phone": "01354 692 391",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "CHATTERIS BUSINESS PARK",
+      "street2": "HONEYSOME ROAD, CHATTERIS",
+      "city": "CAMBRIDGESHIRE, ENGLAND",
+      "stateOrCountry": "X0",
+      "zipCode": "PE16 6SA",
+      "stateOrCountryDescription": "United Kingdom",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "CHATTERIS BUSINESS PARK",
+      "street2": "HONEYSOME ROAD, CHATTERIS",
+      "city": "CAMBRIDGESHIRE, ENGLAND",
+      "stateOrCountry": "X0",
+      "zipCode": "PE16 6SA",
+      "stateOrCountryDescription": "United Kingdom",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1
+}

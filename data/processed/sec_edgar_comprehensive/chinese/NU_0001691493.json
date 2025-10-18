@@ -1,0 +1,49 @@
+{
+  "cik": "0001691493",
+  "ticker": "NU",
+  "name": "Nu Holdings Ltd.",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:ky"
+  ],
+  "sic": "6199",
+  "sicDescription": "Finance Services",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "981302320",
+  "phone": "888-888-8888",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "RUA CAPOTE VALENTE, 39",
+      "street2": "PINHEIROS",
+      "city": "SAO PAULO, SP",
+      "stateOrCountry": "D5",
+      "zipCode": "05409-000",
+      "stateOrCountryDescription": "Brazil",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "RUA CAPOTE VALENTE, 39",
+      "street2": "PINHEIROS",
+      "city": "SAO PAULO, SP",
+      "stateOrCountry": "D5",
+      "zipCode": "05409-000",
+      "stateOrCountryDescription": "Brazil",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-11"
+  },
+  "filings_count": 289
+}

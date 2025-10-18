@@ -1,0 +1,47 @@
+{
+  "cik": "0000883569",
+  "ticker": "FOSL",
+  "name": "Fossil Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3873",
+  "sicDescription": "Watches, Clocks, Clockwork Operated Devices/Parts",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "752018505",
+  "phone": "9722342525",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "901 S CENTRAL EXPRESSWAY",
+      "street2": null,
+      "city": "RICHARDSON",
+      "stateOrCountry": "TX",
+      "zipCode": "75080",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "901 S CENTRAL EXPRESSWAY",
+      "street2": null,
+      "city": "RICHARDSON",
+      "stateOrCountry": "TX",
+      "zipCode": "75080",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-25"
+  },
+  "filings_count": 1007
+}

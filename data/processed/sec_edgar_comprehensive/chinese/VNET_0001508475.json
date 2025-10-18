@@ -1,0 +1,50 @@
+{
+  "cik": "0001508475",
+  "ticker": "VNET",
+  "name": "VNET Group, Inc.",
+  "detection_reasons": [
+    "location:china",
+    "location:beijing",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "7370",
+  "sicDescription": "Services-Computer Programming, Data Processing, Etc.",
+  "category": "Accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "(86 10) 8456-2121",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "GUANJIE BUILDING, SOUTHEAST 1ST FLOOR",
+      "street2": "10# JIUXIANQIAO EAST ROAD",
+      "city": "Beijing",
+      "stateOrCountry": "F4",
+      "zipCode": "100016",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "GUANJIE BUILDING, SOUTHEAST 1ST FLOOR",
+      "street2": "10# JIUXIANQIAO EAST ROAD",
+      "city": "Beijing",
+      "stateOrCountry": "F4",
+      "zipCode": "100016",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-21"
+  },
+  "filings_count": 385
+}

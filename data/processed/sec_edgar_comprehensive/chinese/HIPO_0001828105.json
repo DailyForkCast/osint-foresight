@@ -1,0 +1,48 @@
+{
+  "cik": "0001828105",
+  "ticker": "HIPO",
+  "name": "Hippo Holdings Inc.",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:bm"
+  ],
+  "sic": "6331",
+  "sicDescription": "Fire, Marine & Casualty Insurance",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "981562010",
+  "phone": "(650) 294-8463",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ONE ALMADEN BLVD",
+      "street2": "SUITE 400",
+      "city": "SAN JOSE",
+      "stateOrCountry": "CA",
+      "zipCode": "95113",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "ONE ALMADEN BLVD",
+      "street2": "SUITE 400",
+      "city": "SAN JOSE",
+      "stateOrCountry": "CA",
+      "zipCode": "95113",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-16"
+  },
+  "filings_count": 547
+}

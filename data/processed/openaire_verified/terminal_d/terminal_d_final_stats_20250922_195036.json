@@ -1,0 +1,26 @@
+{
+  "terminal": "D",
+  "countries_assigned": [
+    "BE",
+    "LU",
+    "MT",
+    "CY",
+    "SI",
+    "HR"
+  ],
+  "total_queries": 72,
+  "total_results": 0,
+  "verified_china": 0,
+  "imported_to_warehouse": 0,
+  "api_errors": 72,
+  "start_time": "2025-09-22T19:43:37.456475",
+  "end_time": "2025-09-22T19:50:36.155773",
+  "country_results": {
+    "BE": 0,
+    "LU": 0,
+    "MT": 0,
+    "CY": 0,
+    "SI": 0,
+    "HR": 0
+  }
+}

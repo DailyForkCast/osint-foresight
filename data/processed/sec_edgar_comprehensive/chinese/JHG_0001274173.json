@@ -1,0 +1,49 @@
+{
+  "cik": "0001274173",
+  "ticker": "JHG",
+  "name": "JANUS HENDERSON GROUP PLC",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:vg",
+    "offshore:bm"
+  ],
+  "sic": "6282",
+  "sicDescription": "Investment Advice",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "Y9",
+  "ein": "000000000",
+  "phone": "442078181818",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "201 BISHOPSGATE",
+      "street2": null,
+      "city": "LONDON",
+      "stateOrCountry": "X0",
+      "zipCode": "EC2M 3AE",
+      "stateOrCountryDescription": "United Kingdom",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "201 BISHOPSGATE",
+      "street2": null,
+      "city": "LONDON",
+      "stateOrCountry": "X0",
+      "zipCode": "EC2M 3AE",
+      "stateOrCountryDescription": "United Kingdom",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-18"
+  },
+  "filings_count": 1006
+}

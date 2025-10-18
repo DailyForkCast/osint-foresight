@@ -1,0 +1,231 @@
+[
+  {
+    "paper_id": "https://openalex.org/W2421767",
+    "doi": null,
+    "title": "UTJECAJ IZAZVANOG MITARENJA NA HORMONSKI STATUS STARIH KOKOŠI NESILICA",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "BG",
+      "CN"
+    ],
+    "institutions": {
+      "BG": [
+        "Institute of Biology and Immunology of Reproduction"
+      ],
+      "CN": [
+        "Institute of Animal Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "BG": [
+        "Rossitza Konakchieva (Institute of Biology and Immunology of Reproduction)"
+      ],
+      "CN": [
+        "Natasha Gjorgovska (Institute of Animal Sciences)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 285122,
+      "extraction_command": "sed -n '285122p' part_000.gz | jq '.title'",
+      "paper_hash": "7c9fd648c9cd12cc"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "BG"
+  },
+  {
+    "paper_id": "https://openalex.org/W158649862",
+    "doi": "https://doi.org/10.1007/bfb0086445",
+    "title": "Braids and periodic solutions",
+    "publication_year": 1989,
+    "countries_collaborating": [
+      "BG",
+      "CN",
+      "CZ"
+    ],
+    "institutions": {
+      "BG": [
+        "Institute of Mathematics and Informatics"
+      ],
+      "CZ": [
+        "Czech Academy of Sciences, Institute of Mathematics"
+      ],
+      "CN": [
+        "Zhongshan Hospital"
+      ]
+    },
+    "authors_by_country": {
+      "BG": [
+        "Hai-Hua Huang (Institute of Mathematics and Informatics)",
+        "Boju Jiang (Institute of Mathematics and Informatics)"
+      ],
+      "CZ": [
+        "Boju Jiang (Czech Academy of Sciences, Institute of Mathematics)",
+        "Hai-Hua Huang (Czech Academy of Sciences, Institute of Mathematics)"
+      ],
+      "CN": [
+        "Boju Jiang (Zhongshan Hospital)",
+        "Hai-Hua Huang (Zhongshan Hospital)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1989,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 16424,
+      "extraction_command": "sed -n '16424p' part_000.gz | jq '.title'",
+      "paper_hash": "9ad86e840f79ca12"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "BG"
+  },
+  {
+    "paper_id": "https://openalex.org/W2407761133",
+    "doi": null,
+    "title": "[Exploration of the application of harmonic analysis in the study of genetics].",
+    "publication_year": 1991,
+    "countries_collaborating": [
+      "BG",
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Rice Institute"
+      ],
+      "BG": [
+        "Agricultural Academy"
+      ],
+      "CN": [
+        "Rice Research Institute"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Li Xf (Rice Institute)"
+      ],
+      "BG": [
+        "Li Xf (Agricultural Academy)"
+      ],
+      "CN": [
+        "Li Xf (Rice Research Institute)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1991,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_002.gz",
+      "line_number": 7480,
+      "extraction_command": "sed -n '7480p' part_002.gz | jq '.title'",
+      "paper_hash": "51f9b005817a2b60"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "BG"
+  },
+  {
+    "paper_id": "https://openalex.org/W2154175550",
+    "doi": "https://doi.org/10.1143/ptp.96.449",
+    "title": "Coupled Integrable Systems Associated with a Polynomial Spectral Problem and Their Virasoro Symmetry Algebras",
+    "publication_year": 1996,
+    "countries_collaborating": [
+      "BG",
+      "CN",
+      "CZ",
+      "DE",
+      "US"
+    ],
+    "institutions": {
+      "BG": [
+        "Institute of Mathematics and Informatics"
+      ],
+      "CZ": [
+        "Czech Academy of Sciences, Institute of Mathematics"
+      ],
+      "DE": [
+        "Paderborn University"
+      ],
+      "US": [
+        "University of Pennsylvania"
+      ],
+      "CN": [
+        "Fudan University"
+      ]
+    },
+    "authors_by_country": {
+      "BG": [
+        "Wen-Xiu Ma (Institute of Mathematics and Informatics)",
+        "ZIQING zhou (Institute of Mathematics and Informatics)"
+      ],
+      "CZ": [
+        "Wen-Xiu Ma (Czech Academy of Sciences, Institute of Mathematics)",
+        "ZIQING zhou (Czech Academy of Sciences, Institute of Mathematics)"
+      ],
+      "DE": [
+        "Wen-Xiu Ma (Paderborn University)"
+      ],
+      "US": [
+        "ZIQING zhou (University of Pennsylvania)"
+      ],
+      "CN": [
+        "ZIQING zhou (Fudan University)",
+        "Wen-Xiu Ma (Fudan University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1996,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_007.gz",
+      "line_number": 75,
+      "extraction_command": "sed -n '75p' part_007.gz | jq '.title'",
+      "paper_hash": "259e96a1efcacfda"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "BG"
+  }
+]

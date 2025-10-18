@@ -1,0 +1,48 @@
+{
+  "cik": "0001071321",
+  "ticker": "TKC",
+  "name": "TURKCELL ILETISIM HIZMETLERI A S",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:bm"
+  ],
+  "sic": "4813",
+  "sicDescription": "Telephone Communications (No Radiotelephone)",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "W8",
+  "ein": "000000000",
+  "phone": "902123131244",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "AYDINEVLER MAHALLESI INONU CADDESI NO 20",
+      "street2": "KUCUKYALI OFISPARK, MALTEPE",
+      "city": "ISTANBUL",
+      "stateOrCountry": null,
+      "zipCode": "34854",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Turkey",
+      "countryCode": "W8"
+    },
+    "business": {
+      "street1": "AYDINEVLER MAHALLESI INONU CADDESI NO 20",
+      "street2": "KUCUKYALI OFISPARK, MALTEPE",
+      "city": "ISTANBUL",
+      "stateOrCountry": null,
+      "zipCode": "34854",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Turkey",
+      "countryCode": "W8"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-24"
+  },
+  "filings_count": 1000
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0001527166",
+  "ticker": "CGABL",
+  "name": "Carlyle Group Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6282",
+  "sicDescription": "Investment Advice",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "452832612",
+  "phone": "202 729 5626",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "C/O THE CARLYLE GROUP",
+      "street2": "1001 PENNSYLVANIA AVENUE, N.W.",
+      "city": "WASHINGTON",
+      "stateOrCountry": "DC",
+      "zipCode": "20004",
+      "stateOrCountryDescription": "DC",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "C/O THE CARLYLE GROUP",
+      "street2": "1001 PENNSYLVANIA AVENUE, N.W.",
+      "city": "WASHINGTON",
+      "stateOrCountry": "DC",
+      "zipCode": "20004",
+      "stateOrCountryDescription": "DC",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-19"
+  },
+  "filings_count": 1000
+}

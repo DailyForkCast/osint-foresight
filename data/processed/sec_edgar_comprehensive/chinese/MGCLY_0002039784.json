@@ -1,0 +1,47 @@
+{
+  "cik": "0002039784",
+  "ticker": "MGCLY",
+  "name": "Midea Group Co., Ltd./ADR",
+  "detection_reasons": [
+    "location:china",
+    "location:foshan",
+    "location:guangdong",
+    "address:business"
+  ],
+  "sic": "",
+  "sicDescription": "",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "F4",
+  "ein": "000000000",
+  "phone": "212-816-6638",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "C/O CITIBANK, N.A.",
+      "street2": "388 GREENWICH ST",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10013",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "MIDEA NEW HEADQUARTER BUILDING, NO. 6",
+      "street2": "MIDEA AVENUE, BEIJIAO TOWN, SHUNDE DIST",
+      "city": "FOSHAN, GUANGDONG",
+      "stateOrCountry": "F4",
+      "zipCode": "528311",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 3
+}

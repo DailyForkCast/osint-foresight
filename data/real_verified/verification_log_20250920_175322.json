@@ -1,0 +1,13 @@
+{
+  "processed": "20250920_175322",
+  "sources_checked": 5,
+  "sources_available": 5,
+  "total_findings": 0,
+  "verification_hashes": {
+    "openalex": "ae0a6b38deb023b3",
+    "ted": "9833f7acb4b6dabf",
+    "cordis": "2865e10fc2c6aad1",
+    "sec_edgar": "24bf2b74fdaa1616",
+    "epo_patents": "e3b0c44298fc1c14"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "cik": "0002000208",
+  "ticker": "KPL",
+  "name": "Kepler Group Ltd",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "6411",
+  "sicDescription": "Insurance Agents, Brokers & Service",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "K3",
+  "ein": "000000000",
+  "phone": "(852) 2155 2889",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "SUITE 3902-03, 39/F",
+      "street2": "TOWER 6, THE GATEWAY",
+      "city": "HARBOUR CITY, TSIM SHA TSUI",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "SUITE 3902-03, 39/F",
+      "street2": "TOWER 6, THE GATEWAY",
+      "city": "HARBOUR CITY, TSIM SHA TSUI",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 6
+}

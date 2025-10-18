@@ -1,0 +1,50 @@
+{
+  "cik": "0001367993",
+  "ticker": "HAFG",
+  "name": "Holistic Asset Finance Group Co., Ltd.",
+  "detection_reasons": [
+    "location:china",
+    "location:beijing",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "7380",
+  "sicDescription": "Services-Miscellaneous Business Services",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "NV",
+  "ein": "870602435",
+  "phone": "(86-10) 8418 6112",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ROOM 624 , GEHUA TOWER A",
+      "street2": "QINGLONG HUTONG BUILDING NO. 1",
+      "city": "BEIJING,",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "ROOM 624 , GEHUA TOWER A",
+      "street2": "QINGLONG HUTONG BUILDING NO. 1",
+      "city": "BEIJING,",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-11"
+  },
+  "filings_count": 81
+}

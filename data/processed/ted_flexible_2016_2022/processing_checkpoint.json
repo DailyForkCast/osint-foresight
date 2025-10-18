@@ -1,0 +1,31 @@
+{
+  "status": "PAUSED",
+  "pause_time": "2025-09-22T15:25:00",
+  "last_completed_archive": "TED_monthly_2018_03.tar.gz",
+  "next_archive_to_process": "TED_monthly_2018_04.tar.gz",
+  "progress": {
+    "archives_processed": 30,
+    "total_archives_2016_2022": 84,
+    "xml_files_processed": 1280023,
+    "contracts_found": 2761,
+    "years_completed": ["2016", "2017"],
+    "years_partial": ["2018"],
+    "years_pending": ["2019", "2020", "2021", "2022"]
+  },
+  "resume_instructions": {
+    "command": "python scripts/process_ted_flexible_format.py",
+    "note": "Script will automatically continue from where it left off",
+    "data_location": "F:/TED_Data/monthly/",
+    "output_location": "C:/Projects/OSINT - Foresight/data/processed/ted_flexible_2016_2022/"
+  },
+  "findings_summary": {
+    "2016_contracts": 985,
+    "2017_contracts": 1114,
+    "2018_partial_contracts": 353,
+    "entities_found": [
+      "Huawei", "ZTE", "Lenovo", "DJI", "BYD", "CATL",
+      "Hikvision", "NIO", "Alibaba", "Baidu", "COMAC",
+      "China Construction", "Hisense", "SMIC", "Vivo"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "cik": "0001855557",
+  "ticker": "HLP",
+  "name": "Hongli Group Inc.",
+  "detection_reasons": [
+    "location:china",
+    "location:shandong",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "3569",
+  "sicDescription": "General Industrial Machinery & Equipment, NEC",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "86 0536-2185222",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "NO. 777, DAIYI ROAD,",
+      "street2": "CHANGLE COUNTY, WEIFANG CITY,",
+      "city": "SHANDONG PROVINCE,",
+      "stateOrCountry": "F4",
+      "zipCode": "262400",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "NO. 777, DAIYI ROAD,",
+      "street2": "CHANGLE COUNTY, WEIFANG CITY,",
+      "city": "SHANDONG PROVINCE,",
+      "stateOrCountry": "F4",
+      "zipCode": "262400",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-07-29"
+  },
+  "filings_count": 92
+}

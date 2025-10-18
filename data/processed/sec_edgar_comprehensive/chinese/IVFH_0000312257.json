@@ -1,0 +1,47 @@
+{
+  "cik": "0000312257",
+  "ticker": "IVFH",
+  "name": "INNOVATIVE FOOD HOLDINGS INC",
+  "detection_reasons": [
+    "vie_structure"
+  ],
+  "sic": "5141",
+  "sicDescription": "Wholesale-Groceries, General Line",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "FL",
+  "ein": "201167761",
+  "phone": "239-596-0204",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2528 S 27TH AVE",
+      "street2": null,
+      "city": "BROADVIEW",
+      "stateOrCountry": "IL",
+      "zipCode": "60155",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2528 S 27TH AVE",
+      "street2": null,
+      "city": "BROADVIEW",
+      "stateOrCountry": "IL",
+      "zipCode": "60155",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-23"
+  },
+  "filings_count": 422
+}

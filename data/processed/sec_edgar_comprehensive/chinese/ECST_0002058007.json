@@ -1,0 +1,44 @@
+{
+  "cik": "0002058007",
+  "ticker": "ECST",
+  "name": "ECST Holdings Ltd",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "7372",
+  "sicDescription": "Services-Prepackaged Software",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "852-3596-2046",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "FLAT B5, 25/F, TML TOWER",
+      "street2": "NO. 3 HOI SHING ROAD, TSUEN WAN",
+      "city": "NEW TERRITORIES",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    },
+    "business": {
+      "street1": "FLAT B5, 25/F, TML TOWER",
+      "street2": "NO. 3 HOI SHING ROAD, TSUEN WAN",
+      "city": "NEW TERRITORIES",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 9
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0001094831",
+  "ticker": "BGC",
+  "name": "BGC Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6200",
+  "sicDescription": "Security & Commodity Brokers, Dealers, Exchanges & Services",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "863748217",
+  "phone": "212-610-2200",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "499 PARK AVENUE",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10022",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "499 PARK AVENUE",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10022",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-25"
+  },
+  "filings_count": 1004
+}

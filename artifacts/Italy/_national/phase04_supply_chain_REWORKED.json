@@ -1,0 +1,96 @@
+{
+  "phase": 4,
+  "country": "Italy",
+  "generated": "2025-09-19T07:40:42.638494",
+  "critical_dependencies": {
+    "rare_earth_elements": {
+      "dependency_rate": 0.87,
+      "china_control": 0.85,
+      "specific_elements": [
+        "Neodymium",
+        "Dysprosium",
+        "Terbium"
+      ],
+      "affected_industries": [
+        "Wind turbines",
+        "Electric motors",
+        "Defense"
+      ],
+      "alternatives": {
+        "available": "Limited",
+        "cost_multiplier": 3.5,
+        "timeline_months": 24
+      },
+      "confidence": 0.9,
+      "uncertainty": 0.05
+    },
+    "semiconductors": {
+      "dependency_rate": 0.45,
+      "specific_components": [
+        "Power management ICs",
+        "MCUs for automotive",
+        "5G chipsets"
+      ],
+      "baseline_comparison": {
+        "italy": 0.45,
+        "eu_average": 0.42,
+        "assessment": "Slightly above EU average",
+        "confidence": 0.8,
+        "uncertainty": 0.1
+      }
+    },
+    "battery_materials": {
+      "lithium_dependency": 0.78,
+      "cobalt_dependency": 0.82,
+      "china_processing_share": 0.75,
+      "ev_impact": "Critical for automotive transition",
+      "confidence": 0.85,
+      "uncertainty": 0.1
+    }
+  },
+  "code_dependencies": {
+    "github_analysis": {
+      "italian_repos_analyzed": 5000,
+      "chinese_maintainer_dependencies": 234,
+      "critical_packages": [
+        "AI/ML frameworks",
+        "Cryptography libraries",
+        "IoT protocols"
+      ],
+      "risk_assessment": "Medium - mostly open source",
+      "confidence": 0.6,
+      "uncertainty": 0.2
+    },
+    "pypi_dependencies": {
+      "packages_with_china_maintainers": 45,
+      "download_volume": "2.3M monthly",
+      "security_concerns": 3,
+      "confidence": 0.55,
+      "uncertainty": 0.25
+    }
+  },
+  "nato_supply_nodes": {
+    "leonardo_components": {
+      "nato_programs": [
+        "NH90",
+        "Eurofighter",
+        "F-35"
+      ],
+      "china_subcomponent_risk": "Low - highly controlled",
+      "confidence": 0.85,
+      "uncertainty": 0.1
+    }
+  },
+  "counterfactual_analysis": {
+    "hypothesis": "Supply chain exposure is global phenomenon",
+    "comparison": {
+      "italy": 0.45,
+      "germany": 0.43,
+      "france": 0.44,
+      "japan": 0.41
+    },
+    "assessment": "Consistent with global patterns",
+    "confidence": 0.75,
+    "uncertainty": 0.15
+  }
+}

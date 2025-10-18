@@ -1,0 +1,51 @@
+{
+  "cik": "0001030475",
+  "ticker": "CHEAF",
+  "name": "CHINA EASTERN AIRLINES CORP LTD",
+  "detection_reasons": [
+    "location:china",
+    "location:shanghai",
+    "offshore:bm",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "4512",
+  "sicDescription": "Air Transportation, Scheduled",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "(8621) 6268-6268",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "BOARD SECRETARIAT'S OFFICE",
+      "street2": "KONG GANG SAN LU, NUMBER 88,",
+      "city": "SHANGHAI,",
+      "stateOrCountry": "F4",
+      "zipCode": "200335",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "BOARD SECRETARIAT'S OFFICE",
+      "street2": "KONG GANG SAN LU, NUMBER 88,",
+      "city": "SHANGHAI,",
+      "stateOrCountry": "F4",
+      "zipCode": "200335",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2023-02-02"
+  },
+  "filings_count": 1000
+}

@@ -1,0 +1,50 @@
+{
+  "cik": "0001900720",
+  "ticker": "EPWK",
+  "name": "EPWK Holdings Ltd.",
+  "detection_reasons": [
+    "location:china",
+    "location:xiamen",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "7389",
+  "sicDescription": "Services-Business Services, NEC",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "VA",
+  "ein": "000000000",
+  "phone": "86 400-1286688",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "NO. 359 CHENGYI ROAD",
+      "street2": "DISTRICT A, BUILDING #2",
+      "city": "XIAMEN",
+      "stateOrCountry": null,
+      "zipCode": "0000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "NO. 359 CHENGYI ROAD",
+      "street2": "DISTRICT A, BUILDING #2",
+      "city": "XIAMEN",
+      "stateOrCountry": null,
+      "zipCode": "0000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-15"
+  },
+  "filings_count": 57
+}

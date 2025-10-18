@@ -1,0 +1,48 @@
+{
+  "cik": "0000914122",
+  "ticker": "PPIH",
+  "name": "Perma-Pipe International Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm",
+    "vie_structure"
+  ],
+  "sic": "3564",
+  "sicDescription": "Industrial & Commercial Fans & Blowers & Air Purifing Equip",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "363922969",
+  "phone": "2815986222",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "25025 I-45",
+      "street2": "SUITE 200",
+      "city": "THE WOODLANDS",
+      "stateOrCountry": "TX",
+      "zipCode": "77380",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "25025 I-45",
+      "street2": "SUITE 200",
+      "city": "THE WOODLANDS",
+      "stateOrCountry": "TX",
+      "zipCode": "77380",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-15"
+  },
+  "filings_count": 1000
+}

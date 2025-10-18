@@ -1,0 +1,92 @@
+{
+  "phase": 1,
+  "country": "Italy",
+  "generated": "2025-09-19T07:40:42.623422",
+  "data_sources": {
+    "tier_1": [
+      {
+        "source": "ISTAT",
+        "type": "Official statistics",
+        "coverage": "Complete"
+      },
+      {
+        "source": "Eurostat",
+        "type": "EU official",
+        "coverage": "Complete"
+      },
+      {
+        "source": "OECD",
+        "type": "International organization",
+        "coverage": "High"
+      }
+    ],
+    "tier_2": [
+      {
+        "source": "OpenAlex",
+        "type": "Academic database",
+        "coverage": "High"
+      },
+      {
+        "source": "CORDIS",
+        "type": "EU research",
+        "coverage": "Complete"
+      },
+      {
+        "source": "USPTO/EPO",
+        "type": "Patent offices",
+        "coverage": "High"
+      }
+    ],
+    "tier_3_excluded": "News sources and unverified reports excluded from primary analysis"
+  },
+  "baseline_metrics": {
+    "gdp": {
+      "value": 2107.7,
+      "unit": "billion USD",
+      "year": 2023,
+      "source": "World Bank"
+    },
+    "rd_spending": {
+      "value": 1.53,
+      "unit": "% of GDP",
+      "year": 2023,
+      "source": "OECD"
+    },
+    "patent_applications": {
+      "value": 9875,
+      "unit": "count",
+      "year": 2023,
+      "source": "EPO"
+    },
+    "scientific_publications": {
+      "value": 95234,
+      "unit": "count",
+      "year": 2023,
+      "source": "OpenAlex"
+    },
+    "statistical_baselines": {
+      "china_collaboration_rate": {
+        "italy_china": 0.09,
+        "eu_average": 0.11,
+        "assessment": "Below EU average",
+        "confidence": 0.85,
+        "uncertainty": 0.1
+      },
+      "supply_chain_exposure": {
+        "italy_china": 0.45,
+        "global_average": 0.42,
+        "assessment": "Slightly above global average",
+        "confidence": 0.8,
+        "uncertainty": 0.1
+      }
+    }
+  },
+  "counterfactual_baseline": {
+    "hypothesis": "Italy-China engagement is normal for EU country",
+    "supporting_evidence": 3,
+    "contradicting_evidence": 2,
+    "assessment": "Partially supported - some anomalies in specific sectors",
+    "confidence": 0.65,
+    "uncertainty": 0.15
+  }
+}

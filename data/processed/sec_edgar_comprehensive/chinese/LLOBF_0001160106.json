@@ -1,0 +1,48 @@
+{
+  "cik": "0001160106",
+  "ticker": "LLOBF",
+  "name": "Lloyds Banking Group plc",
+  "detection_reasons": [
+    "offshore:bm",
+    "vie_structure"
+  ],
+  "sic": "6029",
+  "sicDescription": "Commercial Banks, NEC",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "X0",
+  "ein": "000000000",
+  "phone": "44 0 20 7626 1500",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "25 GRESHAM STREET",
+      "street2": null,
+      "city": "LONDON",
+      "stateOrCountry": "X0",
+      "zipCode": "EC2V 7HN",
+      "stateOrCountryDescription": "United Kingdom",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "25 GRESHAM STREET",
+      "street2": null,
+      "city": "LONDON",
+      "stateOrCountry": "X0",
+      "zipCode": "EC2V 7HN",
+      "stateOrCountryDescription": "United Kingdom",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-25"
+  },
+  "filings_count": 1001
+}

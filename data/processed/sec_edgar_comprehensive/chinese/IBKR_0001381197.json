@@ -1,0 +1,44 @@
+{
+  "cik": "0001381197",
+  "ticker": "IBKR",
+  "name": "Interactive Brokers Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6211",
+  "sicDescription": "Security Brokers, Dealers & Flotation Companies",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "300390693",
+  "phone": "203-618-5800",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ONE PICKWICK PLAZA",
+      "street2": null,
+      "city": "GREENWICH",
+      "stateOrCountry": "CT",
+      "zipCode": "06830",
+      "stateOrCountryDescription": "CT",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "ONE PICKWICK PLAZA",
+      "street2": null,
+      "city": "GREENWICH",
+      "stateOrCountry": "CT",
+      "zipCode": "06830",
+      "stateOrCountryDescription": "CT",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1001
+}

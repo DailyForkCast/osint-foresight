@@ -1,0 +1,37 @@
+{
+  "path": "F:\\OSINT_DATA\\Italy\\USASPENDING\\italy_federal_spending_20250916.json",
+  "size": 791,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 1,
+  "field_count": 5,
+  "parse_status": "success",
+  "schema": {
+    "scope": "string",
+    "geo_layer": "string",
+    "spending_level": "string",
+    "results": "array",
+    "messages": "array"
+  },
+  "sample_records": [
+    {
+      "scope": "place_of_performance",
+      "geo_layer": "country",
+      "spending_level": "transactions",
+      "results": [
+        {
+          "shape_code": "ITA",
+          "display_name": "Italy",
+          "aggregated_amount": 6152335456.78,
+          "population": 58940425,
+          "per_capita": 104.38
+        }
+      ],
+      "messages": [
+        "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. ",
+        "The 'subawards' field will be deprecated in the future. Set 'spending_level' to 'subawards' instead. See documentation for more information."
+      ]
+    }
+  ],
+  "modified": "2025-09-16T20:24:14"
+}

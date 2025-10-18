@@ -1,0 +1,250 @@
+{
+  "investigation_date": "2025-09-19T15:17:57.381408",
+  "summary": {
+    "total_investigated": 25,
+    "with_china_content": 25,
+    "high_priority": [
+      "Council on Foreign Relations",
+      "Brookings Institution",
+      "CSIS",
+      "RAND Corporation",
+      "American Enterprise Institute",
+      "CNAS",
+      "Heritage Foundation",
+      "CEIAS",
+      "IFRI",
+      "MERICS",
+      "FRS"
+    ],
+    "medium_priority": [
+      "Atlantic Council",
+      "Wilson Center",
+      "US Institute of Peace",
+      "FDD",
+      "Hudson Institute",
+      "IISS",
+      "ECFR",
+      "Arctic Institute"
+    ],
+    "low_priority": [
+      "Carnegie Endowment",
+      "Hoover Institution",
+      "Chatham House",
+      "DGAP",
+      "Lowy",
+      "ISDP",
+      "JIIA",
+      "Belfer",
+      "IGCC"
+    ],
+    "no_content": []
+  },
+  "sources": {
+    "Council on Foreign Relations": {
+      "base_url": "https://www.cfr.org",
+      "best_path": "/china",
+      "china_mentions": 52,
+      "priority": "HIGH",
+      "type": "US"
+    },
+    "Brookings Institution": {
+      "base_url": "https://www.brookings.edu",
+      "best_path": "/china",
+      "china_mentions": 81,
+      "priority": "HIGH",
+      "type": "US"
+    },
+    "CSIS": {
+      "base_url": "https://www.csis.org",
+      "best_path": "/china",
+      "china_mentions": 79,
+      "priority": "HIGH",
+      "type": "US"
+    },
+    "RAND Corporation": {
+      "base_url": "https://www.rand.org",
+      "best_path": "/topics/china",
+      "china_mentions": 72,
+      "priority": "HIGH",
+      "type": "US"
+    },
+    "Atlantic Council": {
+      "base_url": "https://www.atlanticcouncil.org",
+      "best_path": "/topics/china",
+      "china_mentions": 30,
+      "priority": "MEDIUM",
+      "type": "US"
+    },
+    "American Enterprise Institute": {
+      "base_url": "https://www.aei.org",
+      "best_path": "/topics/china",
+      "china_mentions": 143,
+      "priority": "HIGH",
+      "type": "US"
+    },
+    "Carnegie Endowment": {
+      "base_url": "https://carnegieendowment.org",
+      "best_path": "/china",
+      "china_mentions": 4,
+      "priority": "LOW",
+      "type": "US"
+    },
+    "Wilson Center": {
+      "base_url": "https://www.wilsoncenter.org",
+      "best_path": "/search?q=china",
+      "china_mentions": 15,
+      "priority": "MEDIUM",
+      "type": "US"
+    },
+    "Hoover Institution": {
+      "base_url": "https://www.hoover.org",
+      "best_path": "/",
+      "china_mentions": 6,
+      "priority": "LOW",
+      "type": "US"
+    },
+    "US Institute of Peace": {
+      "base_url": "https://www.usip.org",
+      "best_path": "/publications",
+      "china_mentions": 38,
+      "priority": "MEDIUM",
+      "type": "US"
+    },
+    "CNAS": {
+      "base_url": "https://www.cnas.org",
+      "best_path": "/search?q=china",
+      "china_mentions": 55,
+      "priority": "HIGH",
+      "type": "US"
+    },
+    "FDD": {
+      "base_url": "https://www.fdd.org",
+      "best_path": "/?s=china",
+      "china_mentions": 21,
+      "priority": "MEDIUM",
+      "type": "US"
+    },
+    "Heritage Foundation": {
+      "base_url": "https://www.heritage.org",
+      "best_path": "/china",
+      "china_mentions": 74,
+      "priority": "HIGH",
+      "type": "US"
+    },
+    "Hudson Institute": {
+      "base_url": "https://www.hudson.org",
+      "best_path": "/china",
+      "china_mentions": 35,
+      "priority": "MEDIUM",
+      "type": "US"
+    },
+    "CEIAS": {
+      "base_url": "https://ceias.eu",
+      "best_path": "/en/publications",
+      "china_mentions": 100,
+      "priority": "HIGH",
+      "type": "EU"
+    },
+    "IFRI": {
+      "base_url": "https://www.ifri.org",
+      "best_path": "/fr/regions/asie-et-indo-pacifique",
+      "china_mentions": 50,
+      "priority": "HIGH",
+      "type": "EU"
+    },
+    "Chatham House": {
+      "base_url": "https://www.chathamhouse.org",
+      "best_path": "/",
+      "china_mentions": 2,
+      "priority": "LOW",
+      "type": "EU"
+    },
+    "IISS": {
+      "base_url": "https://www.iiss.org",
+      "best_path": "/",
+      "china_mentions": 7,
+      "priority": "MEDIUM",
+      "type": "EU"
+    },
+    "ECFR": {
+      "base_url": "https://ecfr.eu",
+      "best_path": "/china",
+      "china_mentions": 22,
+      "priority": "MEDIUM",
+      "type": "EU"
+    },
+    "MERICS": {
+      "base_url": "https://merics.org",
+      "best_path": "/search?q=china",
+      "china_mentions": 51,
+      "priority": "HIGH",
+      "type": "EU"
+    },
+    "DGAP": {
+      "base_url": "https://dgap.org",
+      "best_path": "/search?q=china",
+      "china_mentions": 1,
+      "priority": "LOW",
+      "type": "EU"
+    },
+    "FRS": {
+      "base_url": "https://www.frstrategie.org",
+      "best_path": "/search?q=china",
+      "china_mentions": 35,
+      "priority": "HIGH",
+      "type": "EU"
+    },
+    "Arctic Institute": {
+      "base_url": "https://www.thearcticinstitute.org",
+      "best_path": "/china",
+      "china_mentions": 30,
+      "priority": "MEDIUM",
+      "type": "APAC"
+    },
+    "Lowy": {
+      "base_url": "https://www.lowyinstitute.org",
+      "best_path": "/",
+      "china_mentions": 2,
+      "estimated_mentions": 20,
+      "priority": "LOW",
+      "type": "APAC",
+      "needs_investigation": true
+    },
+    "ISDP": {
+      "base_url": "https://www.isdp.eu",
+      "best_path": "/",
+      "china_mentions": 2,
+      "estimated_mentions": 20,
+      "priority": "LOW",
+      "type": "APAC",
+      "needs_investigation": true
+    },
+    "JIIA": {
+      "base_url": "https://www.jiia.or.jp",
+      "best_path": "/",
+      "china_mentions": 2,
+      "estimated_mentions": 20,
+      "priority": "LOW",
+      "type": "APAC",
+      "needs_investigation": true
+    },
+    "Belfer": {
+      "base_url": "https://www.belfercenter.org",
+      "best_path": "/",
+      "china_mentions": 2,
+      "estimated_mentions": 20,
+      "priority": "LOW",
+      "type": "OTHER",
+      "needs_investigation": true
+    },
+    "IGCC": {
+      "base_url": "https://ucigcc.org",
+      "best_path": "/",
+      "china_mentions": 2,
+      "estimated_mentions": 20,
+      "priority": "LOW",
+      "type": "OTHER",
+      "needs_investigation": true
+    }
+  }
+}

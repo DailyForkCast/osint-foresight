@@ -1,0 +1,48 @@
+{
+  "cik": "0001737806",
+  "ticker": "PDD",
+  "name": "PDD Holdings Inc.",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "7389",
+  "sicDescription": "Services-Business Services, NEC",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "353 1 5397938",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "FIRST FLOOR, 25 ST STEPHEN'S GREEN",
+      "street2": null,
+      "city": "DUBLIN 2",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Ireland",
+      "countryCode": "L2"
+    },
+    "business": {
+      "street1": "FIRST FLOOR, 25 ST STEPHEN'S GREEN",
+      "street2": null,
+      "city": "DUBLIN 2",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Ireland",
+      "countryCode": "L2"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-25"
+  },
+  "filings_count": 190
+}

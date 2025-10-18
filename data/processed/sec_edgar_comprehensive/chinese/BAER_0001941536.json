@@ -1,0 +1,47 @@
+{
+  "cik": "0001941536",
+  "ticker": "BAER",
+  "name": "Bridger Aerospace Group Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7389",
+  "sicDescription": "Services-Business Services, NEC",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "(406) 813-0079",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "90 AVIATION LANE",
+      "street2": null,
+      "city": "BELGRADE",
+      "stateOrCountry": "MT",
+      "zipCode": "59714",
+      "stateOrCountryDescription": "MT",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "90 AVIATION LANE",
+      "street2": null,
+      "city": "BELGRADE",
+      "stateOrCountry": "MT",
+      "zipCode": "59714",
+      "stateOrCountryDescription": "MT",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-11"
+  },
+  "filings_count": 217
+}

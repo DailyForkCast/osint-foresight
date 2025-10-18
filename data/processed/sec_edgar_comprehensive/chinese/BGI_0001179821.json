@@ -1,0 +1,47 @@
+{
+  "cik": "0001179821",
+  "ticker": "BGI",
+  "name": "BIRKS GROUP INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5944",
+  "sicDescription": "Retail-Jewelry Stores",
+  "category": "Non-accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "514-397-2592",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2020 ROBERT BOURASSA",
+      "street2": "SUITE 200",
+      "city": "MONTREAL",
+      "stateOrCountry": "A8",
+      "zipCode": "H3A 2A5",
+      "stateOrCountryDescription": "Quebec, Canada",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2020 ROBERT BOURASSA",
+      "street2": "SUITE 200",
+      "city": "MONTREAL",
+      "stateOrCountry": "A8",
+      "zipCode": "H3A 2A5",
+      "stateOrCountryDescription": "Quebec, Canada",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-24"
+  },
+  "filings_count": 344
+}

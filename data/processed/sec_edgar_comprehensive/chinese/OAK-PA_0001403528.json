@@ -1,0 +1,47 @@
+{
+  "cik": "0001403528",
+  "ticker": "OAK-PA",
+  "name": "Brookfield Oaktree Holdings, LLC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6282",
+  "sicDescription": "Investment Advice",
+  "category": "Non-accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "(213) 830-6300",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "333 SOUTH GRAND AVENUE",
+      "street2": "28TH FLOOR",
+      "city": "LOS ANGELES",
+      "stateOrCountry": "CA",
+      "zipCode": "90071",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "333 SOUTH GRAND AVENUE",
+      "street2": "28TH FLOOR",
+      "city": "LOS ANGELES",
+      "stateOrCountry": "CA",
+      "zipCode": "90071",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-13"
+  },
+  "filings_count": 981
+}

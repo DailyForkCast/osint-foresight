@@ -1,0 +1,47 @@
+{
+  "cik": "0000935419",
+  "ticker": "RICK",
+  "name": "RCI HOSPITALITY HOLDINGS, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5812",
+  "sicDescription": "Retail-Eating  Places",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "TX",
+  "ein": "760458229",
+  "phone": "2813976730",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "10737 CUTTEN ROAD",
+      "street2": null,
+      "city": "HOUSTON",
+      "stateOrCountry": "TX",
+      "zipCode": "77066",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "10737 CUTTEN ROAD",
+      "street2": null,
+      "city": "HOUSTON",
+      "stateOrCountry": "TX",
+      "zipCode": "77066",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-19"
+  },
+  "filings_count": 918
+}

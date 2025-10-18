@@ -1,0 +1,47 @@
+{
+  "cik": "0001377936",
+  "ticker": "SAZ",
+  "name": "SARATOGA INVESTMENT CORP.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "",
+  "sicDescription": "",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "MD",
+  "ein": "204876925",
+  "phone": "212 750-3343",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "535 MADISON AVENUE",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10022",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "535 MADISON AVENUE",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10022",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-07-08"
+  },
+  "filings_count": 703
+}

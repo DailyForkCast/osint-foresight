@@ -1,0 +1,52 @@
+{
+  "cik": "0001853717",
+  "ticker": "ATAT",
+  "name": "Atour Lifestyle Holdings Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:shanghai",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "7011",
+  "sicDescription": "Hotels & Motels",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "(86) 021-64059928",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1ST FLOOR, WUZHONG BUILDING",
+      "street2": "618 WUZHONG ROAD, MINHANG DISTRICT",
+      "city": "SHANGHAI",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "1ST FLOOR, WUZHONG BUILDING",
+      "street2": "618 WUZHONG ROAD, MINHANG DISTRICT",
+      "city": "SHANGHAI",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-26"
+  },
+  "filings_count": 132
+}

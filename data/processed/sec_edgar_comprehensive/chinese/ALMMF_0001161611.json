@@ -1,0 +1,51 @@
+{
+  "cik": "0001161611",
+  "ticker": "ALMMF",
+  "name": "ALUMINUM CORP OF CHINA LTD",
+  "detection_reasons": [
+    "location:china",
+    "location:beijing",
+    "offshore:bm",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "3334",
+  "sicDescription": "Primary Production of  Aluminum",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "861082298560",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "NO. 62 NORTH XIZHIMEN STREET",
+      "street2": null,
+      "city": "HAIDIAN DISTRICT, BEIJING",
+      "stateOrCountry": "F4",
+      "zipCode": "100082",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "NO. 62 NORTH XIZHIMEN STREET",
+      "street2": null,
+      "city": "HAIDIAN DISTRICT, BEIJING",
+      "stateOrCountry": "F4",
+      "zipCode": "100082",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2024-02-01"
+  },
+  "filings_count": 1000
+}

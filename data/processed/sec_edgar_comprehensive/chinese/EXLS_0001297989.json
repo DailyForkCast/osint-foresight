@@ -1,0 +1,47 @@
+{
+  "cik": "0001297989",
+  "ticker": "EXLS",
+  "name": "ExlService Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7389",
+  "sicDescription": "Services-Business Services, NEC",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "820572194",
+  "phone": "(212) 277-7100",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "320 PARK AVENUE",
+      "street2": "29TH FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10022",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "320 PARK AVENUE",
+      "street2": "29TH FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10022",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-07-29"
+  },
+  "filings_count": 1000
+}

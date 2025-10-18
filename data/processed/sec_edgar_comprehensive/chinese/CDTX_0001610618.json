@@ -1,0 +1,47 @@
+{
+  "cik": "0001610618",
+  "ticker": "CDTX",
+  "name": "Cidara Therapeutics, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2836",
+  "sicDescription": "Biological Products, (No Diagnostic Substances)",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "461537286",
+  "phone": "858-752-6170",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "6310 NANCY RIDGE DRIVE",
+      "street2": "SUITE 101",
+      "city": "SAN DIEGO",
+      "stateOrCountry": "CA",
+      "zipCode": "92121",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "6310 NANCY RIDGE DRIVE",
+      "street2": "SUITE 101",
+      "city": "SAN DIEGO",
+      "stateOrCountry": "CA",
+      "zipCode": "92121",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-24"
+  },
+  "filings_count": 718
+}

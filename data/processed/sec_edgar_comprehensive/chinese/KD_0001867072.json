@@ -1,0 +1,48 @@
+{
+  "cik": "0001867072",
+  "ticker": "KD",
+  "name": "Kyndryl Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:bm"
+  ],
+  "sic": "7373",
+  "sicDescription": "Services-Computer Integrated Systems Design",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "861185492",
+  "phone": "(855) 596-3795",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ONE VANDERBILT AVENUE",
+      "street2": "15TH FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10017",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "ONE VANDERBILT AVENUE",
+      "street2": "15TH FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10017",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-05"
+  },
+  "filings_count": 331
+}

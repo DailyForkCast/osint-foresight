@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-09-25T18:32:58.207227",
+  "status": "PASS",
+  "checks": {
+    "non_empty_output": true,
+    "zero_byte_guard": true,
+    "noop_detected": false
+  },
+  "metrics": {
+    "created_dirs": 91,
+    "created_files": 190,
+    "deleted_files": 0,
+    "bytes_added": 168559514,
+    "zero_byte_files": 0,
+    "new_zero_byte_files": 0
+  },
+  "failures": []
+}

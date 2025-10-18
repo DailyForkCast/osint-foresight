@@ -1,0 +1,48 @@
+{
+  "cik": "0002027815",
+  "ticker": "BMHL",
+  "name": "Bluemount Holdings Ltd",
+  "detection_reasons": [
+    "offshore:bm",
+    "offshore:hong kong"
+  ],
+  "sic": "6199",
+  "sicDescription": "Finance Services",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "(852)97172429",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ROOM 1007, CAPITAL CENTRE",
+      "street2": "151 GLOUCESTER ROAD",
+      "city": "WANCHAI",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "ROOM 1007, CAPITAL CENTRE",
+      "street2": "151 GLOUCESTER ROAD",
+      "city": "WANCHAI",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "20-F",
+    "date": "2025-08-15"
+  },
+  "filings_count": 37
+}

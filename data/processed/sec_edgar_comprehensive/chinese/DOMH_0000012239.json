@@ -1,0 +1,47 @@
+{
+  "cik": "0000012239",
+  "ticker": "DOMH",
+  "name": "Dominari Holdings Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6211",
+  "sicDescription": "Security Brokers, Dealers & Flotation Companies",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "520849320",
+  "phone": "(212) 393-4540",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "725 FIFTH AVENUE",
+      "street2": "22ND FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10022",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "725 FIFTH AVENUE",
+      "street2": "22ND FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10022",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-22"
+  },
+  "filings_count": 1001
+}

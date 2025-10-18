@@ -1,0 +1,47 @@
+{
+  "cik": "0002057757",
+  "ticker": "DBIM",
+  "name": "Dbim Holdings Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:chongqing",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "7370",
+  "sicDescription": "Services-Computer Programming, Data Processing, Etc.",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "8615823922960",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "BUILDING B, NO. 156,",
+      "street2": "RUITIAN ROAD, YUZHONG DISTRICT",
+      "city": "CHONGQING",
+      "stateOrCountry": "F4",
+      "zipCode": "400010",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "BUILDING B, NO. 156,",
+      "street2": "RUITIAN ROAD, YUZHONG DISTRICT",
+      "city": "CHONGQING",
+      "stateOrCountry": "F4",
+      "zipCode": "400010",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 5
+}

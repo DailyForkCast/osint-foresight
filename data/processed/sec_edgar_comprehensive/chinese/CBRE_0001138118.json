@@ -1,0 +1,47 @@
+{
+  "cik": "0001138118",
+  "ticker": "CBRE",
+  "name": "CBRE GROUP, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6500",
+  "sicDescription": "Real Estate",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "943391143",
+  "phone": "214-979-6100",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2121 NORTH PEARL STREET",
+      "street2": "SUITE 300",
+      "city": "DALLAS",
+      "stateOrCountry": "TX",
+      "zipCode": "75201",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2121 NORTH PEARL STREET",
+      "street2": "SUITE 300",
+      "city": "DALLAS",
+      "stateOrCountry": "TX",
+      "zipCode": "75201",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-12"
+  },
+  "filings_count": 1001
+}

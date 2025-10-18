@@ -1,0 +1,35 @@
+{
+  "original_path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\by_country\\TW_china\\metadata.json",
+  "profile": {
+    "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\by_country\\TW_china\\metadata.json",
+    "size": 163,
+    "extension": ".json",
+    "encoding": "utf-8",
+    "line_count": 1,
+    "field_count": 4,
+    "parse_status": "success",
+    "schema": {
+      "country_code": "string",
+      "country_name": "string",
+      "analysis_target": "string",
+      "created": "string"
+    },
+    "sample_records": [
+      {
+        "country_code": "TW",
+        "country_name": "Taiwan",
+        "analysis_target": "Taiwan-China research collaborations",
+        "created": "2025-09-20T22:05:27.042552"
+      }
+    ],
+    "modified": "2025-09-20T22:05:27.043558"
+  },
+  "sample_data": [
+    {
+      "country_code": "TW",
+      "country_name": "Taiwan",
+      "analysis_target": "Taiwan-China research collaborations",
+      "created": "2025-09-20T22:05:27.042552"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "years_processed": [
+    2023,
+    2022,
+    2021
+  ],
+  "total_contracts": 150,
+  "chinese_contracts": 0,
+  "by_year": {
+    "2023": {
+      "total_contracts": 150,
+      "chinese_contracts": 0,
+      "chinese_companies": []
+    },
+    "2022": {
+      "total_contracts": 0,
+      "chinese_contracts": 0,
+      "chinese_companies": []
+    },
+    "2021": {
+      "total_contracts": 0,
+      "chinese_contracts": 0,
+      "chinese_companies": []
+    }
+  },
+  "by_country": {},
+  "chinese_companies": {},
+  "processing_errors": []
+}

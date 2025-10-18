@@ -1,0 +1,47 @@
+{
+  "cik": "0000813298",
+  "ticker": "DXLG",
+  "name": "DESTINATION XL GROUP, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5651",
+  "sicDescription": "Retail-Family Clothing Stores",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "042623104",
+  "phone": "7818289300",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "555 TURNPIKE STREET",
+      "street2": null,
+      "city": "CANTON",
+      "stateOrCountry": "MA",
+      "zipCode": "02021",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "555 TURNPIKE STREET",
+      "street2": null,
+      "city": "CANTON",
+      "stateOrCountry": "MA",
+      "zipCode": "02021",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-27"
+  },
+  "filings_count": 1000
+}

@@ -1,0 +1,109 @@
+{
+  "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\national_procurement\\CZ_procurement_searches_20250923_160932.json",
+  "size": 2774,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 1,
+  "field_count": 4,
+  "parse_status": "success",
+  "schema": {
+    "country": "string",
+    "search_date": "string",
+    "results": "array",
+    "statistics": "object"
+  },
+  "sample_records": [
+    {
+      "country": "CZ",
+      "search_date": "2025-09-23T16:09:32.870304",
+      "results": [
+        {
+          "search_term": "Huawei",
+          "country": "CZ",
+          "portal": "nen.nipez.cz",
+          "timestamp": "2025-09-23T16:09:12.833185",
+          "status": "framework_only",
+          "note": "Czech portal has English interface - more accessible"
+        },
+        {
+          "search_term": "ZTE",
+          "country": "CZ",
+          "portal": "nen.nipez.cz",
+          "timestamp": "2025-09-23T16:09:14.835355",
+          "status": "framework_only",
+          "note": "Czech portal has English interface - more accessible"
+        },
+        {
+          "search_term": "Lenovo",
+          "country": "CZ",
+          "portal": "nen.nipez.cz",
+          "timestamp": "2025-09-23T16:09:16.836584",
+          "status": "framework_only",
+          "note": "Czech portal has English interface - more accessible"
+        },
+        {
+          "search_term": "Hikvision",
+          "country": "CZ",
+          "portal": "nen.nipez.cz",
+          "timestamp": "2025-09-23T16:09:18.849461",
+          "status": "framework_only",
+          "note": "Czech portal has English interface - more accessible"
+        },
+        {
+          "search_term": "DJI",
+          "country": "CZ",
+          "portal": "nen.nipez.cz",
+          "timestamp": "2025-09-23T16:09:20.851891",
+          "status": "framework_only",
+          "note": "Czech portal has English interface - more accessible"
+        },
+        {
+          "search_term": "Dahua",
+          "country": "CZ",
+          "portal": "nen.nipez.cz",
+          "timestamp": "2025-09-23T16:09:22.852857",
+          "status": "framework_only",
+          "note": "Czech portal has English interface - more accessible"
+        },
+        {
+          "search_term": "Xiaomi",
+          "country": "CZ",
+          "portal": "nen.nipez.cz",
+          "timestamp": "2025-09-23T16:09:24.862994",
+          "status": "framework_only",
+          "note": "Czech portal has English interface - more accessible"
+        },
+        {
+          "search_term": "Alibaba",
+          "country": "CZ",
+          "portal": "nen.nipez.cz",
+          "timestamp": "2025-09-23T16:09:26.863999",
+          "status": "framework_only",
+          "note": "Czech portal has English interface - more accessible"
+        },
+        {
+          "search_term": "BYD",
+          "country": "CZ",
+          "portal": "nen.nipez.cz",
+          "timestamp": "2025-09-23T16:09:28.865048",
+          "status": "framework_only",
+          "note": "Czech portal has English interface - more accessible"
+        },
+        {
+          "search_term": "CRRC",
+          "country": "CZ",
+          "portal": "nen.nipez.cz",
+          "timestamp": "2025-09-23T16:09:30.866195",
+          "status": "framework_only",
+          "note": "Czech portal has English interface - more accessible"
+        }
+      ],
+      "statistics": {
+        "searches_performed": 23,
+        "contracts_found": 0,
+        "errors": 0
+      }
+    }
+  ],
+  "modified": "2025-09-23T16:09:32.871280"
+}

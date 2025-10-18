@@ -1,0 +1,47 @@
+{
+  "cik": "0001809519",
+  "ticker": "GDRX",
+  "name": "GoodRx Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7374",
+  "sicDescription": "Services-Computer Processing & Data Preparation",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "475104396",
+  "phone": "(855) 268-2822",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2701 OLYMPIC BOULEVARD",
+      "street2": null,
+      "city": "SANTA MONICA",
+      "stateOrCountry": "CA",
+      "zipCode": "90404",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2701 OLYMPIC BOULEVARD",
+      "street2": null,
+      "city": "SANTA MONICA",
+      "stateOrCountry": "CA",
+      "zipCode": "90404",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-06"
+  },
+  "filings_count": 498
+}

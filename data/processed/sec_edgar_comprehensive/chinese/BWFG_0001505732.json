@@ -1,0 +1,44 @@
+{
+  "cik": "0001505732",
+  "ticker": "BWFG",
+  "name": "Bankwell Financial Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6022",
+  "sicDescription": "State Commercial Banks",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "CT",
+  "ein": "208251355",
+  "phone": "(203) 972-3838",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "208 ELM STREET",
+      "street2": null,
+      "city": "NEW CANAAN",
+      "stateOrCountry": "CT",
+      "zipCode": "06840",
+      "stateOrCountryDescription": "CT",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "208 ELM STREET",
+      "street2": null,
+      "city": "NEW CANAAN",
+      "stateOrCountry": "CT",
+      "zipCode": "06840",
+      "stateOrCountryDescription": "CT",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1005
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0001811530",
+  "ticker": "NXMH",
+  "name": "Next Meats Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:ky"
+  ],
+  "sic": "2000",
+  "sicDescription": "Food and Kindred Products",
+  "category": "Non-accelerated filer<br>Smaller reporting company<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "854008709",
+  "phone": "819060024978",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3F 1-16-13 EBISU MINAMI",
+      "street2": "SHIBUYA-KU",
+      "city": "TOKYO",
+      "stateOrCountry": "M0",
+      "zipCode": "150-0022",
+      "stateOrCountryDescription": "Japan",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3F 1-16-13 EBISU MINAMI",
+      "street2": "SHIBUYA-KU",
+      "city": "TOKYO",
+      "stateOrCountry": "M0",
+      "zipCode": "150-0022",
+      "stateOrCountryDescription": "Japan",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2024-06-27"
+  },
+  "filings_count": 108
+}

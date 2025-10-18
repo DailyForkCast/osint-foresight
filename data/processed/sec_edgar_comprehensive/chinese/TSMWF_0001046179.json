@@ -1,0 +1,51 @@
+{
+  "cik": "0001046179",
+  "ticker": "TSMWF",
+  "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+  "detection_reasons": [
+    "location:china",
+    "offshore:bm",
+    "address:mailing",
+    "address:business",
+    "sic:3674"
+  ],
+  "sic": "3674",
+  "sicDescription": "Semiconductors & Related Devices",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "F5",
+  "ein": "000000000",
+  "phone": "886-3-5636688",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "NO. 8, LI-HSIN ROAD 6",
+      "street2": "HSINCHU SCIENCE PARK",
+      "city": "HSINCHU",
+      "stateOrCountry": "F5",
+      "zipCode": "300-096",
+      "stateOrCountryDescription": "Taiwan, Province of China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "NO. 8, LI-HSIN ROAD 6",
+      "street2": "HSINCHU SCIENCE PARK",
+      "city": "HSINCHU",
+      "stateOrCountry": "F5",
+      "zipCode": "300-096",
+      "stateOrCountryDescription": "Taiwan, Province of China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-25"
+  },
+  "filings_count": 1001
+}

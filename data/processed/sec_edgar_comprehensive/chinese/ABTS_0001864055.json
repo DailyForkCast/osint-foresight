@@ -1,0 +1,51 @@
+{
+  "cik": "0001864055",
+  "ticker": "ABTS",
+  "name": "Abits Group Inc",
+  "detection_reasons": [
+    "location:china",
+    "offshore:bvi",
+    "offshore:hong kong",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "6199",
+  "sicDescription": "Finance Services",
+  "category": "Non-accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "D8",
+  "ein": "000000000",
+  "phone": "852 2961 4888",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT 911, TOWER 2, SILVERCORD,",
+      "street2": "30 CANTON ROAD, TSIMSHATSUI",
+      "city": "HONG KONG SAR",
+      "stateOrCountry": "F4",
+      "zipCode": "2299 1110",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "UNIT 911, TOWER 2, SILVERCORD,",
+      "street2": "30 CANTON ROAD, TSIMSHATSUI",
+      "city": "HONG KONG SAR",
+      "stateOrCountry": "F4",
+      "zipCode": "2299 1110",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-13"
+  },
+  "filings_count": 75
+}

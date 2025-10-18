@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-09-24T18:08:05.407267",
+  "normalizations_performed": [
+    {
+      "original": "華為",
+      "normalized": "华为",
+      "type": "traditional_to_simplified"
+    },
+    {
+      "original": "HuaWei",
+      "normalized": "huawei",
+      "type": "case_normalization"
+    },
+    {
+      "original": "zhong guo",
+      "normalized": "中国",
+      "type": "pinyin_to_chinese"
+    },
+    {
+      "original": "COSCO SHIPPING",
+      "normalized": "COSCO",
+      "type": "name_standardization"
+    }
+  ]
+}

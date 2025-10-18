@@ -1,0 +1,85 @@
+{
+  "id": [
+    "id",
+    "ID",
+    "_id",
+    "identifier",
+    "uuid",
+    "guid"
+  ],
+  "name": [
+    "name",
+    "title",
+    "label",
+    "description",
+    "project_name"
+  ],
+  "date": [
+    "date",
+    "created",
+    "modified",
+    "timestamp",
+    "datetime"
+  ],
+  "organization": [
+    "organization",
+    "org",
+    "company",
+    "institution",
+    "entity"
+  ],
+  "organization_id": [
+    "org_id",
+    "organization_id",
+    "company_id",
+    "entity_id"
+  ],
+  "country": [
+    "country",
+    "country_code",
+    "nation",
+    "location"
+  ],
+  "amount": [
+    "amount",
+    "value",
+    "cost",
+    "price",
+    "budget"
+  ],
+  "currency": [
+    "currency",
+    "currency_code",
+    "curr"
+  ],
+  "technology": [
+    "technology",
+    "tech",
+    "field",
+    "domain",
+    "area"
+  ],
+  "keywords": [
+    "keywords",
+    "tags",
+    "topics",
+    "subjects"
+  ],
+  "parent_id": [
+    "parent_id",
+    "parent",
+    "related_id"
+  ],
+  "source": [
+    "source",
+    "origin",
+    "from",
+    "provider"
+  ],
+  "target": [
+    "target",
+    "destination",
+    "to",
+    "recipient"
+  ]
+}

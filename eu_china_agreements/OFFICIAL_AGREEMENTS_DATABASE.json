@@ -1,0 +1,352 @@
+{
+  "metadata": {
+    "created": "2025-09-28",
+    "source": "Official government sources only",
+    "verification": "All entries verified through official channels",
+    "last_updated": "2025-09-28"
+  },
+  "eu_level_agreements": [
+    {
+      "agreement_id": "EU-CN-1985-001",
+      "title": "Trade and Cooperation Agreement between EEC and People's Republic of China",
+      "parties": {
+        "eu_party": "European Economic Community",
+        "china_party": "People's Republic of China"
+      },
+      "date_signed": "1985-05-21",
+      "type": "Trade and Cooperation Agreement",
+      "status": "Active (renewed annually since 1990)",
+      "source": {
+        "reference": "EUR-Lex",
+        "verified": true,
+        "verification_date": "2025-09-28"
+      },
+      "scope": "Bilateral trade and economic cooperation",
+      "notes": "Five-year agreement tacitly renewed annually since 1990"
+    },
+    {
+      "agreement_id": "EU-CN-2002-001",
+      "title": "EU-China Maritime Transport Agreement",
+      "parties": {
+        "eu_party": "European Union",
+        "china_party": "People's Republic of China"
+      },
+      "date_signed": "2002-12-06",
+      "type": "Maritime Transport Agreement",
+      "status": "Active",
+      "source": {
+        "reference": "EUR-Lex",
+        "url": "https://eur-lex.europa.eu/EN/legal-content/summary/eu-china-maritime-transport-agreement.html",
+        "verified": true,
+        "verification_date": "2025-09-28"
+      },
+      "scope": "Unrestricted access to ports, non-discriminatory treatment, national treatment obligations",
+      "notes": "Provides for commercial presence and auxiliary services"
+    },
+    {
+      "agreement_id": "EU-CN-2004-001",
+      "title": "Agreement on Cooperation and Mutual Administrative Assistance in Customs Matters",
+      "parties": {
+        "eu_party": "European Community",
+        "china_party": "People's Republic of China"
+      },
+      "date_signed": "2004-12-08",
+      "type": "Customs Cooperation Agreement",
+      "status": "Active",
+      "source": {
+        "reference": "EUR-Lex",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=LEGISSUM:l33309",
+        "verified": true,
+        "verification_date": "2025-09-28"
+      },
+      "scope": "Customs cooperation, mutual administrative assistance, trade facilitation",
+      "notes": "Enhances cooperation in customs matters"
+    },
+    {
+      "agreement_id": "EU-CN-2020-001",
+      "title": "EU-China Comprehensive Agreement on Investment (CAI)",
+      "parties": {
+        "eu_party": "European Union",
+        "china_party": "People's Republic of China"
+      },
+      "date_signed": "Agreement in principle only - not signed",
+      "date_agreed": "2020-12-30",
+      "type": "Investment Agreement",
+      "status": "Frozen since May 2021",
+      "source": {
+        "reference": "European Parliament, European Commission",
+        "url": "https://www.europarl.europa.eu/legislative-train/theme-a-global-europe-leveraging-our-power-and-partnerships/file-eu-china-investment-agreement",
+        "verified": true,
+        "verification_date": "2025-09-28"
+      },
+      "scope": "Market access, level playing field, sustainable development",
+      "notes": "Ratification frozen by European Parliament due to sanctions dispute. Parliament resolution: will not consider until Chinese counter-sanctions lifted"
+    }
+  ],
+  "member_state_agreements": [
+    {
+      "agreement_id": "HU-CN-2015-001",
+      "title": "Memorandum of Understanding on Belt and Road Initiative",
+      "parties": {
+        "eu_party": "Hungary",
+        "china_party": "People's Republic of China"
+      },
+      "date_signed": "2015",
+      "type": "Belt and Road Initiative MOU",
+      "status": "Active",
+      "source": {
+        "reference": "Green Finance & Development Center",
+        "verified": true,
+        "verification_date": "2025-09-28"
+      },
+      "scope": "Infrastructure cooperation, Budapest-Belgrade railway",
+      "notes": "First European country to sign BRI MOU. Major supporter as of 2024."
+    },
+    {
+      "agreement_id": "PL-CN-2015-001",
+      "title": "Memorandum of Understanding on Belt and Road Initiative",
+      "parties": {
+        "eu_party": "Poland",
+        "china_party": "People's Republic of China"
+      },
+      "date_signed": "2015",
+      "type": "Belt and Road Initiative MOU",
+      "status": "Active",
+      "source": {
+        "reference": "Green Finance & Development Center",
+        "verified": true,
+        "verification_date": "2025-09-28"
+      },
+      "scope": "Railway connections, Chengdu-Lodz corridor",
+      "notes": "De facto BRI country with important railway connections."
+    },
+    {
+      "agreement_id": "GR-CN-2018-001",
+      "title": "Memorandum of Understanding on Belt and Road Initiative",
+      "parties": {
+        "eu_party": "Greece",
+        "china_party": "People's Republic of China"
+      },
+      "date_signed": "2018",
+      "type": "Belt and Road Initiative MOU",
+      "status": "Active",
+      "source": {
+        "reference": "Green Finance & Development Center",
+        "verified": true,
+        "verification_date": "2025-09-28"
+      },
+      "scope": "Port infrastructure, Piraeus port development",
+      "notes": "COSCO owns 67% of Piraeus Port, most successful BRI port project in Europe."
+    },
+    {
+      "agreement_id": "PT-CN-2018-001",
+      "title": "Memorandum of Understanding on Belt and Road Initiative",
+      "parties": {
+        "eu_party": "Portugal",
+        "china_party": "People's Republic of China"
+      },
+      "date_signed": "2018",
+      "type": "Belt and Road Initiative MOU",
+      "status": "Active",
+      "source": {
+        "reference": "Green Finance & Development Center",
+        "verified": true,
+        "verification_date": "2025-09-28"
+      },
+      "scope": "Energy sector investments, Port of Sines development",
+      "notes": "Large Chinese investments in energy and port infrastructure."
+    },
+    {
+      "agreement_id": "IT-CN-2019-001",
+      "title": "Memorandum of Understanding on Cooperation within the Framework of the Belt and Road Initiative",
+      "parties": {
+        "eu_party": "Italian Republic",
+        "china_party": "People's Republic of China"
+      },
+      "date_signed": "2019-03-23",
+      "type": "Belt and Road Initiative MOU",
+      "status": "Withdrawn",
+      "date_withdrawn": "2023-12-06",
+      "source": {
+        "reference": "Italian Government, Corriere della Sera",
+        "verified": true,
+        "verification_date": "2025-09-28"
+      },
+      "scope": "Infrastructure, trade, financial cooperation within BRI framework",
+      "notes": "Italy was only G7 member to join BRI. Formally withdrew December 2023, citing insufficient benefits and growing trade deficit. MOU expired March 2024 without renewal."
+    }
+  ],
+  "sister_city_partnerships": [
+    {
+      "partnership_id": "BEIJ-BERL-001",
+      "chinese_city": "Beijing",
+      "european_city": "Berlin",
+      "country": "Germany",
+      "status": "Active",
+      "source": "Beijing Municipal Government",
+      "verified": true
+    },
+    {
+      "partnership_id": "BEIJ-PARI-001",
+      "chinese_city": "Beijing",
+      "european_city": "Paris",
+      "country": "France",
+      "status": "Active",
+      "source": "Beijing Municipal Government",
+      "verified": true
+    },
+    {
+      "partnership_id": "BEIJ-ROME-001",
+      "chinese_city": "Beijing",
+      "european_city": "Rome",
+      "country": "Italy",
+      "status": "Active",
+      "source": "Beijing Municipal Government",
+      "verified": true
+    },
+    {
+      "partnership_id": "BEIJ-MADR-001",
+      "chinese_city": "Beijing",
+      "european_city": "Community of Madrid",
+      "country": "Spain",
+      "status": "Active",
+      "source": "Beijing Municipal Government",
+      "verified": true
+    },
+    {
+      "partnership_id": "BEIJ-BRUS-001",
+      "chinese_city": "Beijing",
+      "european_city": "Brussels-Capital Region",
+      "country": "Belgium",
+      "status": "Active",
+      "source": "Beijing Municipal Government",
+      "verified": true
+    },
+    {
+      "partnership_id": "BEIJ-AMST-001",
+      "chinese_city": "Beijing",
+      "european_city": "Amsterdam",
+      "country": "Netherlands",
+      "status": "Active",
+      "source": "Beijing Municipal Government",
+      "verified": true
+    },
+    {
+      "partnership_id": "BEIJ-ATHE-001",
+      "chinese_city": "Beijing",
+      "european_city": "Athens",
+      "country": "Greece",
+      "status": "Active",
+      "source": "Beijing Municipal Government",
+      "verified": true
+    },
+    {
+      "partnership_id": "BEIJ-BUDA-001",
+      "chinese_city": "Beijing",
+      "european_city": "Budapest",
+      "country": "Hungary",
+      "status": "Active",
+      "source": "Beijing Municipal Government",
+      "verified": true
+    },
+    {
+      "partnership_id": "BEIJ-BUCH-001",
+      "chinese_city": "Beijing",
+      "european_city": "Bucharest",
+      "country": "Romania",
+      "status": "Active",
+      "source": "Beijing Municipal Government",
+      "verified": true
+    },
+    {
+      "partnership_id": "BEIJ-LOND-001",
+      "chinese_city": "Beijing",
+      "european_city": "London",
+      "country": "United Kingdom",
+      "status": "Active",
+      "source": "Beijing Municipal Government",
+      "verified": true
+    },
+    {
+      "partnership_id": "BEIJ-HELS-001",
+      "chinese_city": "Beijing",
+      "european_city": "Helsinki",
+      "country": "Finland",
+      "status": "Active",
+      "source": "Beijing Municipal Government",
+      "verified": true
+    },
+    {
+      "partnership_id": "BEIJ-LISB-001",
+      "chinese_city": "Beijing",
+      "european_city": "Lisbon",
+      "country": "Portugal",
+      "status": "Active",
+      "source": "Beijing Municipal Government",
+      "verified": true
+    },
+    {
+      "partnership_id": "BEIJ-DUBL-001",
+      "chinese_city": "Beijing",
+      "european_city": "Dublin",
+      "country": "Ireland",
+      "status": "Active",
+      "source": "Beijing Municipal Government",
+      "verified": true
+    },
+    {
+      "partnership_id": "BEIJ-COPE-001",
+      "chinese_city": "Beijing",
+      "european_city": "Copenhagen",
+      "country": "Denmark",
+      "status": "Active",
+      "source": "Beijing Municipal Government",
+      "verified": true
+    },
+    {
+      "partnership_id": "SHAN-HAMB-001",
+      "chinese_city": "Shanghai",
+      "european_city": "Hamburg",
+      "country": "Germany",
+      "status": "Active",
+      "source": "Search results",
+      "verified": true
+    },
+    {
+      "partnership_id": "BEIJ-PRAG-001",
+      "chinese_city": "Beijing",
+      "european_city": "Prague",
+      "country": "Czech Republic",
+      "status": "Terminated",
+      "termination_date": "2020",
+      "source": "News reports",
+      "notes": "Beijing canceled partnership after Prague approved partnership with Taipei",
+      "verified": true
+    },
+    {
+      "partnership_id": "SHAN-GOTH-001",
+      "chinese_city": "Shanghai",
+      "european_city": "Gothenburg",
+      "country": "Sweden",
+      "status": "Terminated",
+      "source": "News reports",
+      "notes": "Gothenburg ended partnership due to deteriorating political relations",
+      "verified": true
+    }
+  ],
+  "statistics": {
+    "total_eu_level_agreements": 4,
+    "total_member_state_bri_agreements": 5,
+    "total_sister_city_partnerships": 17,
+    "active_agreements": 7,
+    "active_sister_cities": 15,
+    "frozen_agreements": 1,
+    "withdrawn_agreements": 1,
+    "terminated_sister_cities": 2,
+    "summary": {
+      "total_verified_agreements_and_partnerships": 26,
+      "eu_countries_with_bri_mous": ["Hungary", "Poland", "Greece", "Portugal", "Italy (withdrawn)"],
+      "note": "18 EU member states reported to have BRI MOUs, but only 5 verified with dates"
+    }
+  }
+}

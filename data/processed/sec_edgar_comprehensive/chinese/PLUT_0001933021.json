@@ -1,0 +1,52 @@
+{
+  "cik": "0001933021",
+  "ticker": "PLUT",
+  "name": "Plutus Financial Group Ltd",
+  "detection_reasons": [
+    "location:china",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "6200",
+  "sicDescription": "Security & Commodity Brokers, Dealers, Exchanges & Services",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "(852) 2968 1192",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "8/F., 80 GLOUCESTER ROAD, WANCHAI",
+      "street2": null,
+      "city": "HONG KONG",
+      "stateOrCountry": "F4",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "8/F., 80 GLOUCESTER ROAD, WANCHAI",
+      "street2": null,
+      "city": "HONG KONG",
+      "stateOrCountry": "F4",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-08"
+  },
+  "filings_count": 63
+}

@@ -1,0 +1,39 @@
+{
+  "timestamp": "2025-09-25T19:26:49.634857",
+  "config": "tests.yaml",
+  "tests_run": 5,
+  "tests_passed": 3,
+  "tests_failed": 2,
+  "test_results": [
+    {
+      "id": "SEC_EDGAR_X1",
+      "name": "SEC EDGAR FS Delta Check",
+      "passed": true,
+      "output": "FS Delta OK: +33 files, +1 dirs, +2.52 MB (fs_delta.json)\n"
+    },
+    {
+      "id": "SEC_EDGAR_X3",
+      "name": "SEC EDGAR Ext/MIME Sanity",
+      "passed": true,
+      "output": "Ext/MIME hist OK (sec_edgar_ext.json, sec_edgar_mime.json)\n"
+    },
+    {
+      "id": "SEC_EDGAR_X4",
+      "name": "SEC EDGAR Schema Probe",
+      "passed": false,
+      "output": "FAIL_SCHEMA_PROBE: none of the sampled files expose required fields\n"
+    },
+    {
+      "id": "SEC_EDGAR_X5",
+      "name": "SEC EDGAR Coverage Delta",
+      "passed": false,
+      "output": "\nSTDERR: Traceback (most recent call last):\n  File \"C:\\Projects\\OSINT - Foresight\\_verification_tests\\verify_v22_universal_extract\\tools\\verification_tools_starter_pack.py\", line 738, in <module>\n    sys.exit(main())\n  File \"C:\\Projects\\OSINT - Foresight\\_verification_tests\\verify_v22_universal_extract\\tools\\verification_tools_starter_pack.py\", line 723, in main\n    return cmd_coverage_delta(args)\n  File \"C:\\Projects\\OSINT - Foresight\\_verification_tests\\verify_v22_universal_extract\\tools\\verification_tools_starter_pack.py\", line 451, in cmd_coverage_delta\n    min_bytes = parse_size(args.min)\n  File \"C:\\Projects\\OSINT - Foresight\\_verification_tests\\verify_v22_universal_extract\\tools\\verification_tools_starter_pack.py\", line 487, in parse_size\n    return int(float(s[:-len(k)].strip())*v)\nValueError: could not convert string to float: '1M'\n"
+    },
+    {
+      "id": "SEC_EDGAR_X6",
+      "name": "SEC EDGAR Chinese Companies Validation",
+      "passed": true,
+      "output": "Openability OK: 10 files opened (openability.json)\n"
+    }
+  ]
+}

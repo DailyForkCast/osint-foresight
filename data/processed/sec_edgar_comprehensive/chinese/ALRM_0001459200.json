@@ -1,0 +1,47 @@
+{
+  "cik": "0001459200",
+  "ticker": "ALRM",
+  "name": "Alarm.com Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7372",
+  "sicDescription": "Services-Prepackaged Software",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "264247032",
+  "phone": "877-389-4033",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "8281 GREENSBORO DRIVE",
+      "street2": "SUITE 100",
+      "city": "TYSONS",
+      "stateOrCountry": "VA",
+      "zipCode": "22102",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "8281 GREENSBORO DRIVE",
+      "street2": "SUITE 100",
+      "city": "TYSONS",
+      "stateOrCountry": "VA",
+      "zipCode": "22102",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-07"
+  },
+  "filings_count": 749
+}

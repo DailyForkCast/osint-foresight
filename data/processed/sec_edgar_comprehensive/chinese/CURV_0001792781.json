@@ -1,0 +1,47 @@
+{
+  "cik": "0001792781",
+  "ticker": "CURV",
+  "name": "Torrid Holdings Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5600",
+  "sicDescription": "Retail-Apparel & Accessory Stores",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "626-667-1002",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "18501 E. SAN JOSE AVENUE",
+      "street2": null,
+      "city": "CITY OF INDUSTRY",
+      "stateOrCountry": "CA",
+      "zipCode": "91748",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "18501 E. SAN JOSE AVENUE",
+      "street2": null,
+      "city": "CITY OF INDUSTRY",
+      "stateOrCountry": "CA",
+      "zipCode": "91748",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-09-11"
+  },
+  "filings_count": 277
+}

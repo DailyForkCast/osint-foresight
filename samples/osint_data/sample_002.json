@@ -1,0 +1,418 @@
+{
+  "original_path": "F:\\OSINT_DATA\\osint_master.db",
+  "profile": {
+    "path": "F:\\OSINT_DATA\\osint_master.db",
+    "size": 233472,
+    "extension": ".db",
+    "encoding": "unknown",
+    "line_count": 415,
+    "field_count": 14,
+    "parse_status": "success",
+    "schema": {
+      "entities": {
+        "row_count": 238,
+        "columns": [
+          "entity_id",
+          "entity_name",
+          "entity_type",
+          "country_origin",
+          "country_operation",
+          "is_chinese",
+          "is_european",
+          "is_sanctioned",
+          "risk_level",
+          "first_seen",
+          "last_updated",
+          "confidence_score",
+          "notes",
+          "metadata"
+        ]
+      },
+      "entity_aliases": {
+        "row_count": 0,
+        "columns": [
+          "alias_id",
+          "entity_id",
+          "alias_name",
+          "alias_type",
+          "source"
+        ]
+      },
+      "sqlite_sequence": {
+        "row_count": 1,
+        "columns": [
+          "name",
+          "seq"
+        ]
+      },
+      "collaborations": {
+        "row_count": 0,
+        "columns": [
+          "collab_id",
+          "entity1_id",
+          "entity2_id",
+          "collaboration_type",
+          "start_date",
+          "end_date",
+          "status",
+          "evidence_source",
+          "evidence_id",
+          "confidence_score",
+          "is_china_related",
+          "technology_area",
+          "risk_assessment"
+        ]
+      },
+      "technologies": {
+        "row_count": 10,
+        "columns": [
+          "tech_id",
+          "technology_name",
+          "technology_category",
+          "ipc_codes",
+          "cpc_codes",
+          "keywords",
+          "is_critical",
+          "is_dual_use",
+          "china_activity_level",
+          "eu_activity_level",
+          "us_restrictions",
+          "export_control_status"
+        ]
+      },
+      "publications": {
+        "row_count": 0,
+        "columns": [
+          "publication_id",
+          "doi",
+          "title",
+          "abstract",
+          "publication_date",
+          "journal",
+          "authors",
+          "affiliations",
+          "keywords",
+          "citation_count",
+          "has_chinese_author",
+          "has_eu_author",
+          "technology_areas",
+          "data_source",
+          "collection_date"
+        ]
+      },
+      "patents": {
+        "row_count": 10,
+        "columns": [
+          "patent_id",
+          "patent_number",
+          "title",
+          "abstract",
+          "filing_date",
+          "publication_date",
+          "grant_date",
+          "applicants",
+          "inventors",
+          "ipc_codes",
+          "cpc_codes",
+          "claims_count",
+          "citations_made",
+          "citations_received",
+          "legal_status",
+          "technology_category",
+          "has_chinese_entity",
+          "has_eu_entity",
+          "data_source"
+        ]
+      },
+      "funding": {
+        "row_count": 0,
+        "columns": [
+          "funding_id",
+          "program_name",
+          "funding_source",
+          "funding_type",
+          "amount",
+          "currency",
+          "start_date",
+          "end_date",
+          "recipient_id",
+          "topic",
+          "objectives",
+          "deliverables",
+          "has_chinese_participation",
+          "risk_indicators"
+        ]
+      },
+      "procurement": {
+        "row_count": 0,
+        "columns": [
+          "contract_id",
+          "contract_number",
+          "title",
+          "description",
+          "buyer_entity",
+          "supplier_entity",
+          "contract_value",
+          "currency",
+          "award_date",
+          "start_date",
+          "end_date",
+          "cpv_codes",
+          "has_chinese_supplier",
+          "security_clearance_required",
+          "technology_transfer_risk",
+          "data_source"
+        ]
+      },
+      "risk_indicators": {
+        "row_count": 0,
+        "columns": [
+          "indicator_id",
+          "entity_id",
+          "indicator_type",
+          "indicator_name",
+          "severity",
+          "description",
+          "evidence",
+          "detection_date",
+          "mitigation_status",
+          "mitigation_actions"
+        ]
+      },
+      "intelligence_events": {
+        "row_count": 5,
+        "columns": [
+          "event_id",
+          "event_type",
+          "event_date",
+          "entities_involved",
+          "description",
+          "significance",
+          "source",
+          "verified",
+          "analyst_notes",
+          "action_required",
+          "action_taken"
+        ]
+      },
+      "data_provenance": {
+        "row_count": 0,
+        "columns": [
+          "provenance_id",
+          "data_type",
+          "source_api",
+          "source_url",
+          "collection_timestamp",
+          "collection_method",
+          "query_used",
+          "records_collected",
+          "sha256_hash",
+          "raw_file_path",
+          "processing_status",
+          "error_log"
+        ]
+      },
+      "cross_references": {
+        "row_count": 0,
+        "columns": [
+          "ref_id",
+          "source1_type",
+          "source1_id",
+          "source2_type",
+          "source2_id",
+          "match_confidence",
+          "match_method",
+          "verified",
+          "notes"
+        ]
+      },
+      "china_entities": {
+        "row_count": 151,
+        "columns": [
+          "entity_id",
+          "entity_name_chinese",
+          "entity_name_english",
+          "entity_type",
+          "parent_organization",
+          "location_province",
+          "location_city",
+          "established_date",
+          "key_personnel",
+          "research_areas",
+          "international_partnerships",
+          "us_entity_list",
+          "eu_sanctions",
+          "military_civil_fusion",
+          "belt_and_road",
+          "thousand_talents",
+          "made_in_china_2025"
+        ]
+      }
+    },
+    "sample_records": [
+      [
+        "a85c06a1bbb4646d",
+        "Tsinghua University",
+        "university",
+        "CN",
+        null,
+        1,
+        0,
+        0,
+        "MEDIUM",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "8e1609b174ce4e31",
+        "Peking University",
+        "university",
+        "CN",
+        null,
+        1,
+        0,
+        0,
+        "MEDIUM",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "f35de6a3c10353f4",
+        "Fudan University",
+        "university",
+        "CN",
+        null,
+        1,
+        0,
+        0,
+        "MEDIUM",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "11f9dc057c4fa593",
+        "Shanghai Jiao Tong University",
+        "university",
+        "CN",
+        null,
+        1,
+        0,
+        0,
+        "MEDIUM",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "454b72a572e514d3",
+        "Zhejiang University",
+        "university",
+        "CN",
+        null,
+        1,
+        0,
+        0,
+        "MEDIUM",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "modified": "2025-09-22T16:14:14"
+  },
+  "sample_data": [
+    [
+      "a85c06a1bbb4646d",
+      "Tsinghua University",
+      "university",
+      "CN",
+      null,
+      1,
+      0,
+      0,
+      "MEDIUM",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "8e1609b174ce4e31",
+      "Peking University",
+      "university",
+      "CN",
+      null,
+      1,
+      0,
+      0,
+      "MEDIUM",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "f35de6a3c10353f4",
+      "Fudan University",
+      "university",
+      "CN",
+      null,
+      1,
+      0,
+      0,
+      "MEDIUM",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "11f9dc057c4fa593",
+      "Shanghai Jiao Tong University",
+      "university",
+      "CN",
+      null,
+      1,
+      0,
+      0,
+      "MEDIUM",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "454b72a572e514d3",
+      "Zhejiang University",
+      "university",
+      "CN",
+      null,
+      1,
+      0,
+      0,
+      "MEDIUM",
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ]
+}

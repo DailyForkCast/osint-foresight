@@ -1,0 +1,47 @@
+{
+  "cik": "0001057379",
+  "ticker": "HCKT",
+  "name": "HACKETT GROUP, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "8742",
+  "sicDescription": "Services-Management Consulting Services",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "FL",
+  "ein": "650750100",
+  "phone": "3053758005",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1001 BRICKELL BAY DRIVE",
+      "street2": "SUITE 3000",
+      "city": "MIAMI",
+      "stateOrCountry": "FL",
+      "zipCode": "33131",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1001 BRICKELL BAY DRIVE",
+      "street2": "SUITE 3000",
+      "city": "MIAMI",
+      "stateOrCountry": "FL",
+      "zipCode": "33131",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-06"
+  },
+  "filings_count": 870
+}

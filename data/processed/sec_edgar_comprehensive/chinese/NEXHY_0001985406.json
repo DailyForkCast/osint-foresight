@@ -1,0 +1,44 @@
+{
+  "cik": "0001985406",
+  "ticker": "NEXHY",
+  "name": "Nippon Express Holdings, Inc./ADR",
+  "detection_reasons": [
+    "offshore:ky"
+  ],
+  "sic": "",
+  "sicDescription": "",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "M0",
+  "ein": "000000000",
+  "phone": "212-816-6638",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "C/O CITIBANK, N.A.",
+      "street2": "388 GREENWICH STREET",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10013",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "KANDA-IZUMICHO 2",
+      "street2": "CHIYODA-KU",
+      "city": "TOKYO",
+      "stateOrCountry": "M0",
+      "zipCode": "101-0024",
+      "stateOrCountryDescription": "Japan",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 2
+}

@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-09-25T19:07:20.090530",
+  "config": "tests.yaml",
+  "tests_run": 1,
+  "tests_passed": 0,
+  "tests_failed": 1,
+  "test_results": [
+    {
+      "id": "TED_X1",
+      "name": "TED FS Delta Check",
+      "passed": false,
+      "output": "\nSTDERR: Traceback (most recent call last):\n  File \"C:\\Projects\\OSINT - Foresight\\_verification_tests\\verify_v22_universal_extract\\tools\\verification_tools_starter_pack.py\", line 738, in <module>\n    sys.exit(main())\n  File \"C:\\Projects\\OSINT - Foresight\\_verification_tests\\verify_v22_universal_extract\\tools\\verification_tools_starter_pack.py\", line 713, in main\n    return cmd_fs_delta_check(args)\n  File \"C:\\Projects\\OSINT - Foresight\\_verification_tests\\verify_v22_universal_extract\\tools\\verification_tools_starter_pack.py\", line 247, in cmd_fs_delta_check\n    print(f\"FS \\u0394 OK: +{report['created_files']} files, +{report['created_dirs']} dirs, +{human_bytes(report['bytes_added'])} ({out})\")\n  File \"C:\\Users\\mrear\\AppData\\Local\\Programs\\Python\\Python310\\lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u0394' in position 3: character maps to <undefined>\n"
+    }
+  ]
+}

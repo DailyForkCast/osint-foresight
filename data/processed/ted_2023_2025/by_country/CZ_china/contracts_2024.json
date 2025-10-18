@@ -1,0 +1,17 @@
+[
+  {
+    "contract_id": "2024/S 001-001373",
+    "authority_country": "CZ",
+    "chinese_entity": "generic",
+    "chinese_entity_type": "subsidiary",
+    "value": 0.0,
+    "currency": "EUR",
+    "date": "20240102",
+    "sector": "unknown",
+    "technology_categories": [],
+    "risk_level": "LOW",
+    "evidence": [],
+    "source_file": "F:\\TED_Data\\monthly\\2024\\TED_monthly_2024_01.tar.gz",
+    "verification_command": "tar -xzf 'F:\\TED_Data\\monthly\\2024\\TED_monthly_2024_01.tar.gz' -O '01/20240102_2024001.tar.gz/20240102_1/00001373_2024.xml' | grep -n 'China'"
+  }
+]

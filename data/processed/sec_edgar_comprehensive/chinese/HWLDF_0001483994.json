@@ -1,0 +1,52 @@
+{
+  "cik": "0001483994",
+  "ticker": "HWLDF",
+  "name": "H World Group Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:shanghai",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "7011",
+  "sicDescription": "Hotels & Motels",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86 21 6195-2011",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "NO. 1299 FENGHUA ROAD",
+      "street2": "JIADING DISTRICT",
+      "city": "SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "NO. 1299 FENGHUA ROAD",
+      "street2": "JIADING DISTRICT",
+      "city": "SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-12"
+  },
+  "filings_count": 384
+}

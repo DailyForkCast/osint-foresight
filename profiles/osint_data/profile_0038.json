@@ -1,0 +1,30 @@
+{
+  "path": "F:\\OSINT_DATA\\github_dependencies\\Croatia_github_20250917_052648.json",
+  "size": 263,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 1,
+  "field_count": 4,
+  "parse_status": "success",
+  "schema": {
+    "country": "string",
+    "organizations_scanned": "array",
+    "total_vulnerabilities": "number",
+    "collection_timestamp": "string"
+  },
+  "sample_records": [
+    {
+      "country": "Croatia",
+      "organizations_scanned": [
+        {
+          "organization": "croatia",
+          "status": "not_found",
+          "repositories_scanned": 0
+        }
+      ],
+      "total_vulnerabilities": 0,
+      "collection_timestamp": "2025-09-17T05:26:48.375113"
+    }
+  ],
+  "modified": "2025-09-17T05:26:50"
+}

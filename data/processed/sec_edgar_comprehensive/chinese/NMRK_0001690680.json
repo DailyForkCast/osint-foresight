@@ -1,0 +1,47 @@
+{
+  "cik": "0001690680",
+  "ticker": "NMRK",
+  "name": "NEWMARK GROUP, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "8888",
+  "sicDescription": "Foreign Governments",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "814467492",
+  "phone": "2128294775",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "125 PARK AVENUE",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10017",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "125 PARK AVENUE",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10017",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-08"
+  },
+  "filings_count": 390
+}

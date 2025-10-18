@@ -1,0 +1,47 @@
+{
+  "cik": "0001416697",
+  "ticker": "BLPG",
+  "name": "Blue Line Protection Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5900",
+  "sicDescription": "Retail-Miscellaneous Retail",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "NV",
+  "ein": "205543728",
+  "phone": "800-844-5576",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "5765 LOGAN STREET",
+      "street2": null,
+      "city": "DENVER",
+      "stateOrCountry": "CO",
+      "zipCode": "80216",
+      "stateOrCountryDescription": "CO",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "5765 LOGAN STREET",
+      "street2": null,
+      "city": "DENVER",
+      "stateOrCountry": "CO",
+      "zipCode": "80216",
+      "stateOrCountryDescription": "CO",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-05-06"
+  },
+  "filings_count": 172
+}

@@ -1,0 +1,868 @@
+{
+  "timestamp": "2025-09-21T12:47:07.048542",
+  "total_countries_analyzed": 68,
+  "risk_distribution": {
+    "HIGH": 9,
+    "MEDIUM": 35,
+    "LOW": 24
+  },
+  "detailed_risk_matrix": {
+    "HIGH": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "total_collaborations": 12722,
+        "risk_level": "HIGH",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "JP",
+        "country_name": "Japan",
+        "total_collaborations": 3054,
+        "risk_level": "HIGH",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "total_collaborations": 3020,
+        "risk_level": "HIGH",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "AU",
+        "country_name": "Australia",
+        "total_collaborations": 2227,
+        "risk_level": "HIGH",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "TW",
+        "country_name": "Taiwan",
+        "total_collaborations": 2049,
+        "risk_level": "HIGH",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "FR",
+        "country_name": "France",
+        "total_collaborations": 1642,
+        "risk_level": "HIGH",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "total_collaborations": 1632,
+        "risk_level": "HIGH",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "CA",
+        "country_name": "Canada",
+        "total_collaborations": 1580,
+        "risk_level": "HIGH",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "CZ",
+        "country_name": "Czech Republic",
+        "total_collaborations": 1034,
+        "risk_level": "HIGH",
+        "collaboration_rate": 0.0
+      }
+    ],
+    "MEDIUM": [
+      {
+        "country_code": "IN",
+        "country_name": "India",
+        "total_collaborations": 1000,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "SG",
+        "country_name": "Singapore",
+        "total_collaborations": 908,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "total_collaborations": 895,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "RU",
+        "country_name": "Russia",
+        "total_collaborations": 819,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "NL",
+        "country_name": "Netherlands",
+        "total_collaborations": 758,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "IT",
+        "country_name": "Italy",
+        "total_collaborations": 610,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "BR",
+        "country_name": "Brazil",
+        "total_collaborations": 547,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "PL",
+        "country_name": "Poland",
+        "total_collaborations": 486,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "ES",
+        "country_name": "Spain",
+        "total_collaborations": 472,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "total_collaborations": 445,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "total_collaborations": 404,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "VN",
+        "country_name": "Vietnam",
+        "total_collaborations": 359,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "BG",
+        "country_name": "Bulgaria",
+        "total_collaborations": 333,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "IL",
+        "country_name": "Israel",
+        "total_collaborations": 330,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "BE",
+        "country_name": "Belgium",
+        "total_collaborations": 330,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "NO",
+        "country_name": "Norway",
+        "total_collaborations": 280,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "AT",
+        "country_name": "Austria",
+        "total_collaborations": 272,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "TR",
+        "country_name": "Turkey",
+        "total_collaborations": 258,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "MY",
+        "country_name": "Malaysia",
+        "total_collaborations": 248,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "NZ",
+        "country_name": "New Zealand",
+        "total_collaborations": 246,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "MX",
+        "country_name": "Mexico",
+        "total_collaborations": 218,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "RS",
+        "country_name": "Serbia",
+        "total_collaborations": 208,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "TH",
+        "country_name": "Thailand",
+        "total_collaborations": 185,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "AL",
+        "country_name": "Albania",
+        "total_collaborations": 184,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "HU",
+        "country_name": "Hungary",
+        "total_collaborations": 183,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "DK",
+        "country_name": "Denmark",
+        "total_collaborations": 179,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "FI",
+        "country_name": "Finland",
+        "total_collaborations": 177,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "LV",
+        "country_name": "Latvia",
+        "total_collaborations": 163,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "UA",
+        "country_name": "Ukraine",
+        "total_collaborations": 158,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "IE",
+        "country_name": "Ireland",
+        "total_collaborations": 150,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "GR",
+        "country_name": "Greece",
+        "total_collaborations": 131,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "SK",
+        "country_name": "Slovakia",
+        "total_collaborations": 128,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "EG",
+        "country_name": "Egypt",
+        "total_collaborations": 118,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "SI",
+        "country_name": "Slovenia",
+        "total_collaborations": 111,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "SA",
+        "country_name": "Saudi Arabia",
+        "total_collaborations": 105,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      }
+    ],
+    "LOW": [
+      {
+        "country_code": "RO",
+        "country_name": "Romania",
+        "total_collaborations": 99,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "ZA",
+        "country_name": "South Africa",
+        "total_collaborations": 93,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "PT",
+        "country_name": "Portugal",
+        "total_collaborations": 87,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "HR",
+        "country_name": "Croatia",
+        "total_collaborations": 81,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "NG",
+        "country_name": "Nigeria",
+        "total_collaborations": 81,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "KE",
+        "country_name": "Kenya",
+        "total_collaborations": 64,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "LT",
+        "country_name": "Lithuania",
+        "total_collaborations": 58,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "CL",
+        "country_name": "Chile",
+        "total_collaborations": 54,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "AR",
+        "country_name": "Argentina",
+        "total_collaborations": 46,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "BY",
+        "country_name": "Belarus",
+        "total_collaborations": 34,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "KZ",
+        "country_name": "Kazakhstan",
+        "total_collaborations": 24,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "AE",
+        "country_name": "United Arab Emirates",
+        "total_collaborations": 22,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "EE",
+        "country_name": "Estonia",
+        "total_collaborations": 21,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "MK",
+        "country_name": "North Macedonia",
+        "total_collaborations": 20,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "LU",
+        "country_name": "Luxembourg",
+        "total_collaborations": 17,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "CY",
+        "country_name": "Cyprus",
+        "total_collaborations": 16,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "GE",
+        "country_name": "Georgia",
+        "total_collaborations": 15,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "AM",
+        "country_name": "Armenia",
+        "total_collaborations": 10,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "IS",
+        "country_name": "Iceland",
+        "total_collaborations": 10,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "ME",
+        "country_name": "Montenegro",
+        "total_collaborations": 7,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "BA",
+        "country_name": "Bosnia and Herzegovina",
+        "total_collaborations": 6,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "MT",
+        "country_name": "Malta",
+        "total_collaborations": 3,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "XK",
+        "country_name": "Kosovo",
+        "total_collaborations": 1,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "GL",
+        "country_name": "Greenland",
+        "total_collaborations": 1,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      }
+    ]
+  },
+  "regional_analysis": {
+    "EU_Core": [
+      {
+        "country_code": "FR",
+        "country_name": "France",
+        "total_collaborations": 1642,
+        "risk_level": "HIGH",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "total_collaborations": 1632,
+        "risk_level": "HIGH",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "NL",
+        "country_name": "Netherlands",
+        "total_collaborations": 758,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "IT",
+        "country_name": "Italy",
+        "total_collaborations": 610,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "ES",
+        "country_name": "Spain",
+        "total_collaborations": 472,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "BE",
+        "country_name": "Belgium",
+        "total_collaborations": 330,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "LU",
+        "country_name": "Luxembourg",
+        "total_collaborations": 17,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      }
+    ],
+    "EU_Nordic": [
+      {
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "total_collaborations": 404,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "NO",
+        "country_name": "Norway",
+        "total_collaborations": 280,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "DK",
+        "country_name": "Denmark",
+        "total_collaborations": 179,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "FI",
+        "country_name": "Finland",
+        "total_collaborations": 177,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "IS",
+        "country_name": "Iceland",
+        "total_collaborations": 10,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      }
+    ],
+    "EU_Central_Eastern": [
+      {
+        "country_code": "CZ",
+        "country_name": "Czech Republic",
+        "total_collaborations": 1034,
+        "risk_level": "HIGH",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "PL",
+        "country_name": "Poland",
+        "total_collaborations": 486,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "BG",
+        "country_name": "Bulgaria",
+        "total_collaborations": 333,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "HU",
+        "country_name": "Hungary",
+        "total_collaborations": 183,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "LV",
+        "country_name": "Latvia",
+        "total_collaborations": 163,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "SK",
+        "country_name": "Slovakia",
+        "total_collaborations": 128,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "SI",
+        "country_name": "Slovenia",
+        "total_collaborations": 111,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "RO",
+        "country_name": "Romania",
+        "total_collaborations": 99,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "HR",
+        "country_name": "Croatia",
+        "total_collaborations": 81,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "LT",
+        "country_name": "Lithuania",
+        "total_collaborations": 58,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "EE",
+        "country_name": "Estonia",
+        "total_collaborations": 21,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      }
+    ],
+    "Five_Eyes": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "total_collaborations": 12722,
+        "risk_level": "HIGH",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "total_collaborations": 3020,
+        "risk_level": "HIGH",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "AU",
+        "country_name": "Australia",
+        "total_collaborations": 2227,
+        "risk_level": "HIGH",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "CA",
+        "country_name": "Canada",
+        "total_collaborations": 1580,
+        "risk_level": "HIGH",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "NZ",
+        "country_name": "New Zealand",
+        "total_collaborations": 246,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      }
+    ],
+    "Asia_Pacific": [
+      {
+        "country_code": "JP",
+        "country_name": "Japan",
+        "total_collaborations": 3054,
+        "risk_level": "HIGH",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "TW",
+        "country_name": "Taiwan",
+        "total_collaborations": 2049,
+        "risk_level": "HIGH",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "IN",
+        "country_name": "India",
+        "total_collaborations": 1000,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "SG",
+        "country_name": "Singapore",
+        "total_collaborations": 908,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "total_collaborations": 895,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "VN",
+        "country_name": "Vietnam",
+        "total_collaborations": 359,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "MY",
+        "country_name": "Malaysia",
+        "total_collaborations": 248,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "TH",
+        "country_name": "Thailand",
+        "total_collaborations": 185,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      }
+    ],
+    "Middle_East": [
+      {
+        "country_code": "IL",
+        "country_name": "Israel",
+        "total_collaborations": 330,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "SA",
+        "country_name": "Saudi Arabia",
+        "total_collaborations": 105,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "AE",
+        "country_name": "United Arab Emirates",
+        "total_collaborations": 22,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      }
+    ],
+    "Latin_America": [
+      {
+        "country_code": "BR",
+        "country_name": "Brazil",
+        "total_collaborations": 547,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "MX",
+        "country_name": "Mexico",
+        "total_collaborations": 218,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "CL",
+        "country_name": "Chile",
+        "total_collaborations": 54,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "AR",
+        "country_name": "Argentina",
+        "total_collaborations": 46,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      }
+    ],
+    "Africa": [
+      {
+        "country_code": "EG",
+        "country_name": "Egypt",
+        "total_collaborations": 118,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "ZA",
+        "country_name": "South Africa",
+        "total_collaborations": 93,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "NG",
+        "country_name": "Nigeria",
+        "total_collaborations": 81,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "KE",
+        "country_name": "Kenya",
+        "total_collaborations": 64,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      }
+    ],
+    "Russia_Strategic": [
+      {
+        "country_code": "RU",
+        "country_name": "Russia",
+        "total_collaborations": 819,
+        "risk_level": "MEDIUM",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "BY",
+        "country_name": "Belarus",
+        "total_collaborations": 34,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      },
+      {
+        "country_code": "KZ",
+        "country_name": "Kazakhstan",
+        "total_collaborations": 24,
+        "risk_level": "LOW",
+        "collaboration_rate": 0.0
+      }
+    ]
+  },
+  "key_findings": [
+    "9 countries identified as HIGH risk for China collaboration",
+    "Five Eyes alliance: 5 countries, 19795 total collaborations",
+    "European Union: 23 countries with China research collaborations"
+  ]
+}

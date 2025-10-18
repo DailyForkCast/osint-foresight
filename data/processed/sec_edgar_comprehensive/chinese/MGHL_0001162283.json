@@ -1,0 +1,47 @@
+{
+  "cik": "0001162283",
+  "ticker": "MGHL",
+  "name": "MORGAN GROUP HOLDING CO",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6200",
+  "sicDescription": "Security & Commodity Brokers, Dealers, Exchanges & Services",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "134196940",
+  "phone": "9149218821",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "401 THEODORE FREMD AVENUE",
+      "street2": null,
+      "city": "RYE",
+      "stateOrCountry": "NY",
+      "zipCode": "10580",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "401 THEODORE FREMD AVENUE",
+      "street2": null,
+      "city": "RYE",
+      "stateOrCountry": "NY",
+      "zipCode": "10580",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2023-11-27"
+  },
+  "filings_count": 184
+}

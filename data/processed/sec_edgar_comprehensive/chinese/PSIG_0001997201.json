@@ -1,0 +1,52 @@
+{
+  "cik": "0001997201",
+  "ticker": "PSIG",
+  "name": "PS International Group Ltd.",
+  "detection_reasons": [
+    "location:china",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "4731",
+  "sicDescription": "Arrangement of  Transportation of  Freight & Cargo",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "85236106828",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UN. 1002, 10/F, JOIN-IN HANG SING CTR.,",
+      "street2": "#2-16 KWAI FUNG CRESCENT, KWAI CHUNG, NT",
+      "city": "HONG KONG",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "UN. 1002, 10/F, JOIN-IN HANG SING CTR.,",
+      "street2": "#2-16 KWAI FUNG CRESCENT, KWAI CHUNG, NT",
+      "city": "HONG KONG",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-18"
+  },
+  "filings_count": 40
+}

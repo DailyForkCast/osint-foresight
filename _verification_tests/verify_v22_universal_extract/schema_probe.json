@@ -1,0 +1,11 @@
+{
+  "root": "C:\\Projects\\OSINT - Foresight\\data\\processed\\sec_edgar_comprehensive",
+  "samples": 10,
+  "hits": 0,
+  "required_fields": [
+    "cik",
+    "ticker",
+    "name",
+    "stateOfIncorporation"
+  ]
+}

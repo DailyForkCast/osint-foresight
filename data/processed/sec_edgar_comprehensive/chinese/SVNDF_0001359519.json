@@ -1,0 +1,44 @@
+{
+  "cik": "0001359519",
+  "ticker": "SVNDF",
+  "name": "SEVEN & I HOLDINGS CO LTD",
+  "detection_reasons": [
+    "offshore:ky"
+  ],
+  "sic": "",
+  "sicDescription": "",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "011-81-3-6238-3000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "8-8 NIBANCHO CHIYODA-KU",
+      "street2": "TADAHIKO UJIIE",
+      "city": "TOKYO 102-8452 JAPAN",
+      "stateOrCountry": "M0",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Japan",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "8-8 NIBANCHO CHIYODA-KU",
+      "street2": "TADAHIKO UJIIE",
+      "city": "TOKYO 102-8452 JAPAN",
+      "stateOrCountry": "M0",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Japan",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 22
+}

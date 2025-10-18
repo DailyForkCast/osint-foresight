@@ -1,0 +1,47 @@
+{
+  "cik": "0001392972",
+  "ticker": "PRO",
+  "name": "PROS Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7371",
+  "sicDescription": "Services-Computer Programming Services",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "760168604",
+  "phone": "713-335-5151",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3200 KIRBY DR.",
+      "street2": "SUITE 600",
+      "city": "HOUSTON",
+      "stateOrCountry": "TX",
+      "zipCode": "77098",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3200 KIRBY DR.",
+      "street2": "SUITE 600",
+      "city": "HOUSTON",
+      "stateOrCountry": "TX",
+      "zipCode": "77098",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-22"
+  },
+  "filings_count": 1004
+}

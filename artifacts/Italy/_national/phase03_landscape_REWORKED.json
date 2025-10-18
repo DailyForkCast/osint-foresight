@@ -1,0 +1,98 @@
+{
+  "phase": 3,
+  "country": "Italy",
+  "generated": "2025-09-19T07:40:42.633421",
+  "key_organizations": [
+    {
+      "name": "Leonardo S.p.A.",
+      "ror_id": "02b26xh41",
+      "sector": "Aerospace & Defense",
+      "technologies": {
+        "helicopters": {
+          "specific_platform": "AW139/AW189",
+          "trl": 9,
+          "china_exposure": "40+ AW139 in China",
+          "us_overlap": "MH-139 Grey Wolf for USAF",
+          "exploitation_risk": "High - reverse engineering possible",
+          "confidence": 0.9,
+          "uncertainty": 0.05
+        },
+        "radar_systems": {
+          "specific_platform": "KRONOS series",
+          "trl": 8,
+          "china_exposure": "Limited - export controlled",
+          "exploitation_risk": "Medium",
+          "confidence": 0.75,
+          "uncertainty": 0.1
+        }
+      },
+      "counterfactual_analysis": {
+        "alternative_explanation": "Standard commercial aviation sales",
+        "evidence_for": 2,
+        "evidence_against": 4,
+        "assessment": "Commercial sales but dual-use concerns valid",
+        "confidence": 0.7,
+        "uncertainty": 0.15
+      }
+    },
+    {
+      "name": "CNR - National Research Council",
+      "ror_id": "05ctqgz52",
+      "sector": "Research",
+      "quantum_research": {
+        "institute": "CNR-SPIN",
+        "capability": "Superconducting quantum processors",
+        "specificity": "5-qubit transmon design",
+        "china_collaboration": "3 joint papers with CAS",
+        "risk": "Knowledge transfer in quantum algorithms",
+        "confidence": 0.65,
+        "uncertainty": 0.2
+      }
+    },
+    {
+      "name": "STMicroelectronics",
+      "ror_id": "02yrq0923",
+      "sector": "Semiconductors",
+      "critical_components": {
+        "silicon_carbide": {
+          "production": "Catania fab",
+          "capacity": "200mm wafers",
+          "china_customers": "EV manufacturers",
+          "dual_use_concern": "Power electronics for military",
+          "confidence": 0.8,
+          "uncertainty": 0.1
+        }
+      }
+    }
+  ],
+  "technology_clusters": {
+    "aerospace_valley": {
+      "location": "Turin-Milan corridor",
+      "companies": 250,
+      "employment": 50000,
+      "china_partnerships": 5,
+      "risk_assessment": "Medium - mostly commercial",
+      "confidence": 0.75,
+      "uncertainty": 0.1
+    },
+    "etna_valley": {
+      "location": "Catania",
+      "focus": "Semiconductors",
+      "anchor": "STMicroelectronics",
+      "china_interest": "High - silicon carbide",
+      "confidence": 0.7,
+      "uncertainty": 0.15
+    }
+  },
+  "conference_exposure": {
+    "organizations_at_tier1_events": 8,
+    "china_meetings_documented": 12,
+    "technology_disclosed": [
+      "Helicopter avionics (non-classified)",
+      "SiC semiconductor processes",
+      "Quantum error correction methods"
+    ],
+    "confidence": 0.6,
+    "uncertainty": 0.2
+  }
+}

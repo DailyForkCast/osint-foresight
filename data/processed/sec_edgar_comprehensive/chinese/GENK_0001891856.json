@@ -1,0 +1,47 @@
+{
+  "cik": "0001891856",
+  "ticker": "GENK",
+  "name": "GEN Restaurant Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5812",
+  "sicDescription": "Retail-Eating  Places",
+  "category": "Non-accelerated filer<br>Smaller reporting company<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "(562) 356-9929",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "11480 SOUTH ST.",
+      "street2": "SUITE 205",
+      "city": "CERRITOS",
+      "stateOrCountry": "CA",
+      "zipCode": "90703",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "11480 SOUTH ST.",
+      "street2": "SUITE 205",
+      "city": "CERRITOS",
+      "stateOrCountry": "CA",
+      "zipCode": "90703",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-06"
+  },
+  "filings_count": 162
+}

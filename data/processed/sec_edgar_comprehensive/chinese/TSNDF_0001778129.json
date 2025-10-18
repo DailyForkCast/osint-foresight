@@ -1,0 +1,47 @@
+{
+  "cik": "0001778129",
+  "ticker": "TSNDF",
+  "name": "TerrAscend Corp.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "0100",
+  "sicDescription": "Agricultural Production-Crops",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "A6",
+  "ein": "000000000",
+  "phone": "855 837-7295",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3610 MAVIS ROAD",
+      "street2": null,
+      "city": "MISSISSAUGA",
+      "stateOrCountry": "A6",
+      "zipCode": "L5B 4A7",
+      "stateOrCountryDescription": "Ontario, Canada",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3610 MAVIS ROAD",
+      "street2": null,
+      "city": "MISSISSAUGA",
+      "stateOrCountry": "A6",
+      "zipCode": "L5B 4A7",
+      "stateOrCountryDescription": "Ontario, Canada",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-07"
+  },
+  "filings_count": 243
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0000896622",
+  "ticker": "ATR",
+  "name": "APTARGROUP, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3089",
+  "sicDescription": "Plastics Products, NEC",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "363853103",
+  "phone": "8154770424",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "265 EXCHANGE DRIVE",
+      "street2": "SUITE 301",
+      "city": "CRYSTAL LAKE",
+      "stateOrCountry": "IL",
+      "zipCode": "60014",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "265 EXCHANGE DRIVE",
+      "street2": "SUITE 301",
+      "city": "CRYSTAL LAKE",
+      "stateOrCountry": "IL",
+      "zipCode": "60014",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-01"
+  },
+  "filings_count": 1000
+}

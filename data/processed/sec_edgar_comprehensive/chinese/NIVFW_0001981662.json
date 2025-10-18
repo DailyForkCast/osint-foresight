@@ -1,0 +1,47 @@
+{
+  "cik": "0001981662",
+  "ticker": "NIVFW",
+  "name": "NewGenIvf Group Ltd",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "8090",
+  "sicDescription": "Services-Misc Health & Allied Services, NEC",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "D8",
+  "ein": "000000000",
+  "phone": "852-2861-1666",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1/F, PIER 2, CENTRAL",
+      "street2": null,
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "13/F, PS TOWER, SUKHUMVIT 21 RD (ASOKE)",
+      "street2": null,
+      "city": "BANGKOK",
+      "stateOrCountry": "W1",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Thailand",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-07-28"
+  },
+  "filings_count": 108
+}

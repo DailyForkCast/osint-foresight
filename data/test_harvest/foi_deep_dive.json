@@ -1,0 +1,104 @@
+{
+  "investigation_date": "2025-09-19T15:52:58.318887",
+  "base_url": "https://www.foi.se",
+  "total_paths_tested": 34,
+  "successful_paths": 13,
+  "failed_paths": 21,
+  "blocking_patterns": {
+    "HTTP_404": [
+      "/en",
+      "/en/",
+      "/en/reports",
+      "/search",
+      "/en/search",
+      "/sok",
+      "/en/search?q=china",
+      "/en/foi/search.html?q=china",
+      "/news",
+      "/en/news",
+      "/nyheter",
+      "/en/foi/news-and-pressroom/news",
+      "/research",
+      "/en/research",
+      "/china",
+      "/kina",
+      "/en/china",
+      "/en/topics/china",
+      "/en/research/china",
+      "/api/search?q=china",
+      "/data/publications"
+    ]
+  },
+  "working_paths": [
+    {
+      "path": "/",
+      "description": "Homepage",
+      "china_mentions": 0
+    },
+    {
+      "path": "/rapporter",
+      "description": "Swedish reports",
+      "china_mentions": 0
+    },
+    {
+      "path": "/reports",
+      "description": "English reports simple",
+      "china_mentions": 0
+    },
+    {
+      "path": "/en/foi/reports",
+      "description": "Full English reports path",
+      "china_mentions": 0
+    },
+    {
+      "path": "/en/foi/reports.html",
+      "description": "Reports with .html",
+      "china_mentions": 0
+    },
+    {
+      "path": "/en/foi/reports/",
+      "description": "Reports with trailing slash",
+      "china_mentions": 0
+    },
+    {
+      "path": "/en/foi/news-and-pressroom",
+      "description": "News without .html",
+      "china_mentions": 0
+    },
+    {
+      "path": "/en/foi/news-and-pressroom/",
+      "description": "News with slash",
+      "china_mentions": 0
+    },
+    {
+      "path": "/forskning",
+      "description": "Swedish research",
+      "china_mentions": 0
+    },
+    {
+      "path": "/en/foi/research",
+      "description": "Full research path",
+      "china_mentions": 0
+    },
+    {
+      "path": "/en/foi/research/security-policy",
+      "description": "Security policy",
+      "china_mentions": 0
+    },
+    {
+      "path": "/en/foi/news-and-pressroom/news/2025-09-17-developing-an-analytical-framework-and-methods-for-studying-chinas-military-power.html",
+      "description": "Known China article",
+      "china_mentions": 47
+    },
+    {
+      "path": "/en/foi/reports/report-summary.html",
+      "description": "Report summary base",
+      "china_mentions": 0
+    }
+  ],
+  "recommendations": [
+    "Site is accessible but requires exact paths",
+    "Use known article URLs directly",
+    "Consider scraping from news listing pages"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "cik": "0002072188",
+  "ticker": "BIOT",
+  "name": "Relativity Holdings Inc.",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "6770",
+  "sicDescription": "Blank Checks",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "888-710-4420",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3753 HOWARD HUGHES PKWY, SUITE 200",
+      "street2": null,
+      "city": "LAS VEGAS",
+      "stateOrCountry": "NV",
+      "zipCode": "89169",
+      "stateOrCountryDescription": "NV",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3753 HOWARD HUGHES PKWY, SUITE 200",
+      "street2": null,
+      "city": "LAS VEGAS",
+      "stateOrCountry": "NV",
+      "zipCode": "89169",
+      "stateOrCountryDescription": "NV",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 4
+}

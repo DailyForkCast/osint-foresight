@@ -1,0 +1,44 @@
+{
+  "cik": "0001137789",
+  "ticker": "STX",
+  "name": "Seagate Technology Holdings plc",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3572",
+  "sicDescription": "Computer Storage Devices",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "981597419",
+  "phone": "65 6412 5172",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "121 WOODLANDS AVENUE 5",
+      "street2": null,
+      "city": "SINGAPORE",
+      "stateOrCountry": "U0",
+      "zipCode": "739009",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "121 WOODLANDS AVENUE 5",
+      "street2": null,
+      "city": "SINGAPORE",
+      "stateOrCountry": "U0",
+      "zipCode": "739009",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1001
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0000924717",
+  "ticker": "SRDX",
+  "name": "SURMODICS INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3841",
+  "sicDescription": "Surgical & Medical Instruments & Apparatus",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "MN",
+  "ein": "411356149",
+  "phone": "9525007000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "9924 WEST 74TH ST",
+      "street2": null,
+      "city": "EDEN PRAIRIE",
+      "stateOrCountry": "MN",
+      "zipCode": "55344",
+      "stateOrCountryDescription": "MN",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "9924 W 74TH ST",
+      "street2": null,
+      "city": "EDEN PRAIRIE",
+      "stateOrCountry": "MN",
+      "zipCode": "55344",
+      "stateOrCountryDescription": "MN",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-08"
+  },
+  "filings_count": 1001
+}

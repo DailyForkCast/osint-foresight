@@ -1,0 +1,24 @@
+{
+  "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openaire_verified\\collection_stats_20250922_175524.json",
+  "size": 95,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 1,
+  "field_count": 4,
+  "parse_status": "success",
+  "schema": {
+    "total_queries": "number",
+    "total_results": "number",
+    "verified_china": "number",
+    "api_errors": "number"
+  },
+  "sample_records": [
+    {
+      "total_queries": 50,
+      "total_results": 0,
+      "verified_china": 0,
+      "api_errors": 50
+    }
+  ],
+  "modified": "2025-09-22T17:55:24.692063"
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0001899658",
+  "ticker": "WLGSF",
+  "name": "WANG & LEE GROUP, Inc.",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "1700",
+  "sicDescription": "Construction - Special Trade Contractors",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "D8",
+  "ein": "002063700",
+  "phone": "852 2889 1313",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "5/F WING TAI FACTORY BUILDING,",
+      "street2": "3 TAI YIP STREET, KWUN TONG, KOWLOON",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "5/F WING TAI FACTORY BUILDING,",
+      "street2": "3 TAI YIP STREET, KWUN TONG, KOWLOON",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-26"
+  },
+  "filings_count": 97
+}

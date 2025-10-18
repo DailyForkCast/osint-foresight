@@ -1,0 +1,47 @@
+{
+  "cik": "0001334325",
+  "ticker": "CODA",
+  "name": "Coda Octopus Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3812",
+  "sicDescription": "Search, Detection, Navigation, Guidance, Aeronautical Sys",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "342008348",
+  "phone": "801-973-9136",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3300 S HIAWASSEE RD.,",
+      "street2": "SUITE 104-105",
+      "city": "ORLANDO",
+      "stateOrCountry": "FL",
+      "zipCode": "32835",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3300 S HIAWASSEE RD.,",
+      "street2": "SUITE 104-105",
+      "city": "ORLANDO",
+      "stateOrCountry": "FL",
+      "zipCode": "32835",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-16"
+  },
+  "filings_count": 376
+}

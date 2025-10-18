@@ -1,0 +1,78 @@
+{
+  "phase": 7,
+  "country": "Italy",
+  "generated": "2025-09-19T07:40:42.658782",
+  "alliance_participation": {
+    "nato": {
+      "status": "Founding member",
+      "defense_spending": 1.54,
+      "gdp_percentage": true,
+      "china_concerns_raised": 3,
+      "confidence": 0.95,
+      "uncertainty": 0.05
+    },
+    "eu": {
+      "status": "Founding member",
+      "china_strategy_alignment": "Moderate",
+      "strategic_autonomy_position": "Supportive",
+      "confidence": 0.9,
+      "uncertainty": 0.05
+    }
+  },
+  "bilateral_relationships": {
+    "china": {
+      "bri_participant": "Former (2019-2024)",
+      "trade_volume": 73.4,
+      "unit": "billion EUR",
+      "trade_balance": -31.2,
+      "mous_active": 23,
+      "sister_cities": 12,
+      "confidence": 0.85,
+      "uncertainty": 0.1
+    },
+    "us": {
+      "trade_volume": 89.2,
+      "defense_cooperation": "Strong",
+      "f35_program": true,
+      "china_discussions": "Regular",
+      "confidence": 0.9,
+      "uncertainty": 0.05
+    }
+  },
+  "standards_participation": {
+    "ietf": {
+      "active_contributors": 34,
+      "draft_authors": 12,
+      "china_co_authorship": 3,
+      "influence_score": 2.3,
+      "confidence": 0.7,
+      "uncertainty": 0.15
+    },
+    "etsi": {
+      "sep_declarations": 67,
+      "5g_patents": 23,
+      "china_overlap": 8,
+      "confidence": 0.75,
+      "uncertainty": 0.15
+    },
+    "iso": {
+      "committee_participation": 45,
+      "leadership_roles": 5,
+      "china_joint_positions": 2,
+      "confidence": 0.8,
+      "uncertainty": 0.1
+    }
+  },
+  "conference_relationships": {
+    "partnerships_initiated": 15,
+    "at_conferences": [
+      "Munich Security Conference",
+      "Shangri-La Dialogue",
+      "NATO Industry Forum"
+    ],
+    "china_side_meetings": 8,
+    "documented_outcomes": 3,
+    "confidence": 0.55,
+    "uncertainty": 0.25
+  }
+}

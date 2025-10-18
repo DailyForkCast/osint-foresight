@@ -1,0 +1,47 @@
+{
+  "cik": "0001993097",
+  "ticker": "MASK",
+  "name": "3 E Network Technology Group Ltd",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "7371",
+  "sicDescription": "Services-Computer Programming Services",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "D8",
+  "ein": "000000000",
+  "phone": "85236203187",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT 1005, 10/F, TOWER A",
+      "street2": "NEW MANDARIN PLAZA, 14 SCIENCE MUSEUM RO",
+      "city": "TIM SHA TSUI",
+      "stateOrCountry": "K3",
+      "zipCode": "NA",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "UNIT 1005, 10/F, TOWER A",
+      "street2": "NEW MANDARIN PLAZA, 14 SCIENCE MUSEUM RO",
+      "city": "TIM SHA TSUI",
+      "stateOrCountry": "K3",
+      "zipCode": "NA",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-06-20"
+  },
+  "filings_count": 42
+}

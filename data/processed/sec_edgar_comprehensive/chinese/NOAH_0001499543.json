@@ -1,0 +1,50 @@
+{
+  "cik": "0001499543",
+  "ticker": "NOAH",
+  "name": "NOAH HOLDINGS LTD",
+  "detection_reasons": [
+    "location:china",
+    "location:shanghai",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "6282",
+  "sicDescription": "Investment Advice",
+  "category": "Accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "(86) 21 8035 8292",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "NOAH WEALTH CENTER",
+      "street2": "1226 SHENBIN SOUTH ROAD MINHANG DISTRICT",
+      "city": "SHANGHAI",
+      "stateOrCountry": null,
+      "zipCode": "201107",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "NOAH WEALTH CENTER",
+      "street2": "1226 SHENBIN SOUTH ROAD MINHANG DISTRICT",
+      "city": "SHANGHAI",
+      "stateOrCountry": null,
+      "zipCode": "201107",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-17"
+  },
+  "filings_count": 431
+}

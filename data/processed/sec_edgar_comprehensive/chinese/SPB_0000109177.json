@@ -1,0 +1,49 @@
+{
+  "cik": "0000109177",
+  "ticker": "SPB",
+  "name": "Spectrum Brands Holdings, Inc.",
+  "detection_reasons": [
+    "location:prc",
+    "offshore:bm",
+    "vie_structure"
+  ],
+  "sic": "3690",
+  "sicDescription": "Miscellaneous Electrical Machinery, Equipment & Supplies",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "741339132",
+  "phone": "608-275-3340",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3001 DEMING WAY",
+      "street2": null,
+      "city": "MIDDLETON",
+      "stateOrCountry": "WI",
+      "zipCode": "53562",
+      "stateOrCountryDescription": "WI",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3001 DEMING WAY",
+      "street2": null,
+      "city": "MIDDLETON",
+      "stateOrCountry": "WI",
+      "zipCode": "53562",
+      "stateOrCountryDescription": "WI",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-03"
+  },
+  "filings_count": 1000
+}

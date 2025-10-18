@@ -1,0 +1,47 @@
+{
+  "cik": "0001396536",
+  "ticker": "DUOT",
+  "name": "DUOS TECHNOLOGIES GROUP, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7372",
+  "sicDescription": "Services-Prepackaged Software",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "FL",
+  "ein": "650493217",
+  "phone": "904-296-2807",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "7660 CENTURION PARKWAY",
+      "street2": "SUITE 100",
+      "city": "JACKSONVILLE",
+      "stateOrCountry": "FL",
+      "zipCode": "32256",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "7660 CENTURION PARKWAY",
+      "street2": "SUITE 100",
+      "city": "JACKSONVILLE",
+      "stateOrCountry": "FL",
+      "zipCode": "32256",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-16"
+  },
+  "filings_count": 638
+}

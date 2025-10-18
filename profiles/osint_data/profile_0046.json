@@ -1,0 +1,29 @@
+{
+  "path": "F:\\OSINT_DATA\\uspto_monitoring\\Germany_uspto_20250917_053010.json",
+  "size": 193,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 1,
+  "field_count": 4,
+  "parse_status": "success",
+  "schema": {
+    "country": "string",
+    "entities_searched": "array",
+    "patents_found": "number",
+    "collection_timestamp": "string"
+  },
+  "sample_records": [
+    {
+      "country": "Germany",
+      "entities_searched": [
+        "SAP",
+        "Siemens",
+        "BMW",
+        "Bosch"
+      ],
+      "patents_found": 0,
+      "collection_timestamp": "2025-09-17T05:30:10.513849"
+    }
+  ],
+  "modified": "2025-09-17T05:30:12"
+}

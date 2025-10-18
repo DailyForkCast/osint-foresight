@@ -1,0 +1,45 @@
+{
+  "cik": "0000884380",
+  "ticker": "KEGS",
+  "name": "1812 Brewing Company, Inc.",
+  "detection_reasons": [
+    "offshore:bm",
+    "vie_structure"
+  ],
+  "sic": "7389",
+  "sicDescription": "Services-Business Services, NEC",
+  "category": "",
+  "entityType": "operating",
+  "stateOfIncorporation": "FL",
+  "ein": "205996486",
+  "phone": "315-788-1812",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "PO BOX 6192",
+      "street2": "981 WATERMAN DRIVE",
+      "city": "WATERTOWN",
+      "stateOrCountry": "NY",
+      "zipCode": "13601",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "PO BOX 6192",
+      "street2": "981 WATERMAN DRIVE",
+      "city": "WATERTOWN",
+      "stateOrCountry": "NY",
+      "zipCode": "13601",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 190
+}

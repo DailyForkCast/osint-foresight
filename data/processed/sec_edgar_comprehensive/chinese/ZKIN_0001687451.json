@@ -1,0 +1,49 @@
+{
+  "cik": "0001687451",
+  "ticker": "ZKIN",
+  "name": "ZK International Group Co., Ltd.",
+  "detection_reasons": [
+    "location:china",
+    "offshore:vg",
+    "address:business"
+  ],
+  "sic": "3490",
+  "sicDescription": "Miscellaneous Fabricated Metal Products",
+  "category": "Non-accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "D8",
+  "ein": "000000000",
+  "phone": "8657786852999",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "NOVASAGE CHAMBERS, PO BOX 4389",
+      "street2": "ROAD TOWN",
+      "city": "TORTOLA",
+      "stateOrCountry": "D8",
+      "zipCode": "VG1110",
+      "stateOrCountryDescription": "Virgin Islands, British",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "NO. 678 DINGXIANG ROAD",
+      "street2": "BINHAI INDUSTRIAL PARK",
+      "city": "WENZHOU",
+      "stateOrCountry": "F4",
+      "zipCode": "325025",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-21"
+  },
+  "filings_count": 169
+}

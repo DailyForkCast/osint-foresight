@@ -1,0 +1,48 @@
+{
+  "cik": "0002014955",
+  "ticker": "SDM",
+  "name": "Smart Digital Group Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "7380",
+  "sicDescription": "Services-Miscellaneous Business Services",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "00 85368853687",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "150 BEACH ROAD #2805/06 GATEWAY",
+      "street2": "WEST SINGAPORE",
+      "city": "SINGAPORE",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Singapore",
+      "countryCode": "U0"
+    },
+    "business": {
+      "street1": "150 BEACH ROAD #2805/06 GATEWAY",
+      "street2": "WEST SINGAPORE",
+      "city": "SINGAPORE",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Singapore",
+      "countryCode": "U0"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-23"
+  },
+  "filings_count": 31
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0001973266",
+  "ticker": "TKO",
+  "name": "TKO Group Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7900",
+  "sicDescription": "Services-Amusement & Recreation Services",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "646-558-8333",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "200 FIFTH AVE",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10010",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "200 FIFTH AVE",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10010",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-15"
+  },
+  "filings_count": 281
+}

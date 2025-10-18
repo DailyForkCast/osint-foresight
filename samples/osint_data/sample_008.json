@@ -1,0 +1,209 @@
+{
+  "original_path": "F:\\OSINT_DATA\\fusion_results\\Sweden_fusion_20250917_053737.json",
+  "profile": {
+    "path": "F:\\OSINT_DATA\\fusion_results\\Sweden_fusion_20250917_053737.json",
+    "size": 2138,
+    "extension": ".json",
+    "encoding": "utf-8",
+    "line_count": 1,
+    "field_count": 10,
+    "parse_status": "success",
+    "schema": {
+      "country": "string",
+      "analysis_timestamp": "string",
+      "priority_level": "string",
+      "risk_tier": "string",
+      "categories": "array",
+      "entities_analyzed": "object",
+      "fusion_results": "object",
+      "china_exposure_summary": "object",
+      "execution_time": "number",
+      "status": "string"
+    },
+    "sample_records": [
+      {
+        "country": "Sweden",
+        "analysis_timestamp": "2025-09-17T05:37:37.216119",
+        "priority_level": "PRIORITY",
+        "risk_tier": "TIER_2_HIGH",
+        "categories": [
+          "NATO_MEMBERS",
+          "EU_MEMBERS",
+          "PRIMARY_ARCTIC_STATES"
+        ],
+        "entities_analyzed": {
+          "defense_companies": [
+            "Saab AB",
+            "BAE Systems H\u00e4gglunds"
+          ],
+          "tech_companies": [
+            "Ericsson",
+            "Spotify",
+            "Skype"
+          ],
+          "research_institutes": [
+            "KTH",
+            "FOI",
+            "RISE"
+          ],
+          "universities": [
+            "KTH Royal Institute",
+            "Chalmers",
+            "Lund University"
+          ],
+          "keywords": [
+            "Saab",
+            "Ericsson",
+            "Volvo",
+            "KTH",
+            "FOI"
+          ]
+        },
+        "fusion_results": {
+          "github_dependencies": {
+            "pipeline": "github_dependencies",
+            "timestamp": "2025-09-17T05:37:37.223114",
+            "vulnerabilities": []
+          },
+          "standards_adoption": {
+            "pipeline": "standards_adoption",
+            "timestamp": "2025-09-17T05:37:37.655284",
+            "influence_map": [
+              {
+                "entity": "Leonardo S.p.A",
+                "body": "ETSI",
+                "committee": "TC CYBER",
+                "role": "voting_member",
+                "influence_score": 0.7,
+                "china_collaboration": 1
+              },
+              {
+                "entity": "Huawei",
+                "body": "ETSI",
+                "committee": "TC CYBER",
+                "role": "voting_member",
+                "influence_score": 0.7,
+                "china_collaboration": 1
+              },
+              {
+                "entity": "Nokia",
+                "body": "ETSI",
+                "committee": "TC CYBER",
+                "role": "voting_member",
+                "influence_score": 0.7,
+                "china_collaboration": 1
+              }
+            ]
+          }
+        },
+        "china_exposure_summary": {
+          "overall_risk_score": 0.5,
+          "risk_level": "HIGH",
+          "exposure_vectors": {
+            "github_dependencies": 0.0,
+            "standards_adoption": 1.0
+          },
+          "critical_findings": [
+            "NATO member Sweden shows concerning China exposure"
+          ],
+          "recommendations": []
+        },
+        "execution_time": 0.475637,
+        "status": "completed"
+      }
+    ],
+    "modified": "2025-09-17T05:37:38"
+  },
+  "sample_data": [
+    {
+      "country": "Sweden",
+      "analysis_timestamp": "2025-09-17T05:37:37.216119",
+      "priority_level": "PRIORITY",
+      "risk_tier": "TIER_2_HIGH",
+      "categories": [
+        "NATO_MEMBERS",
+        "EU_MEMBERS",
+        "PRIMARY_ARCTIC_STATES"
+      ],
+      "entities_analyzed": {
+        "defense_companies": [
+          "Saab AB",
+          "BAE Systems H\u00e4gglunds"
+        ],
+        "tech_companies": [
+          "Ericsson",
+          "Spotify",
+          "Skype"
+        ],
+        "research_institutes": [
+          "KTH",
+          "FOI",
+          "RISE"
+        ],
+        "universities": [
+          "KTH Royal Institute",
+          "Chalmers",
+          "Lund University"
+        ],
+        "keywords": [
+          "Saab",
+          "Ericsson",
+          "Volvo",
+          "KTH",
+          "FOI"
+        ]
+      },
+      "fusion_results": {
+        "github_dependencies": {
+          "pipeline": "github_dependencies",
+          "timestamp": "2025-09-17T05:37:37.223114",
+          "vulnerabilities": []
+        },
+        "standards_adoption": {
+          "pipeline": "standards_adoption",
+          "timestamp": "2025-09-17T05:37:37.655284",
+          "influence_map": [
+            {
+              "entity": "Leonardo S.p.A",
+              "body": "ETSI",
+              "committee": "TC CYBER",
+              "role": "voting_member",
+              "influence_score": 0.7,
+              "china_collaboration": 1
+            },
+            {
+              "entity": "Huawei",
+              "body": "ETSI",
+              "committee": "TC CYBER",
+              "role": "voting_member",
+              "influence_score": 0.7,
+              "china_collaboration": 1
+            },
+            {
+              "entity": "Nokia",
+              "body": "ETSI",
+              "committee": "TC CYBER",
+              "role": "voting_member",
+              "influence_score": 0.7,
+              "china_collaboration": 1
+            }
+          ]
+        }
+      },
+      "china_exposure_summary": {
+        "overall_risk_score": 0.5,
+        "risk_level": "HIGH",
+        "exposure_vectors": {
+          "github_dependencies": 0.0,
+          "standards_adoption": 1.0
+        },
+        "critical_findings": [
+          "NATO member Sweden shows concerning China exposure"
+        ],
+        "recommendations": []
+      },
+      "execution_time": 0.475637,
+      "status": "completed"
+    }
+  ]
+}

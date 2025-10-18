@@ -1,0 +1,47 @@
+{
+  "cik": "0001320461",
+  "ticker": "CPS",
+  "name": "Cooper-Standard Holdings Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3714",
+  "sicDescription": "Motor Vehicle Parts & Accessories",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "201945088",
+  "phone": "248-596-5900",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "40300 TRADITIONS DRIVE",
+      "street2": null,
+      "city": "NORTHVILLE",
+      "stateOrCountry": "MI",
+      "zipCode": "48168",
+      "stateOrCountryDescription": "MI",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "40300 TRADITIONS DRIVE",
+      "street2": null,
+      "city": "NORTHVILLE",
+      "stateOrCountry": "MI",
+      "zipCode": "48168",
+      "stateOrCountryDescription": "MI",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-12"
+  },
+  "filings_count": 1000
+}

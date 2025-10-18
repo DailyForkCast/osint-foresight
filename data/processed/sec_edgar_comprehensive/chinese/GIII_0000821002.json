@@ -1,0 +1,47 @@
+{
+  "cik": "0000821002",
+  "ticker": "GIII",
+  "name": "G III APPAREL GROUP LTD /DE/",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2300",
+  "sicDescription": "Apparel & Other Finishd Prods of  Fabrics & Similar Matl",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "411590959",
+  "phone": "2126298830",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "512 SEVENTH AVENUE",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10018",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "512 SEVENTH AVE",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10018",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-09-05"
+  },
+  "filings_count": 1000
+}

@@ -1,0 +1,52 @@
+{
+  "cik": "0001826376",
+  "ticker": "GSUN",
+  "name": "Golden Sun Health Technology Group Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:shanghai",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "8200",
+  "sicDescription": "Services-Educational Services",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86057756765303",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ROOM 503, BUILDING C2, NO. 1599",
+      "street2": "XINJINQIAO ROAD, PUDONG NEW AREA",
+      "city": "SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "200030",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "ROOM 503, BUILDING C2, NO. 1599",
+      "street2": "XINJINQIAO ROAD, PUDONG NEW AREA",
+      "city": "SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "200030",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-24"
+  },
+  "filings_count": 82
+}

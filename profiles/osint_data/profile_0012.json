@@ -1,0 +1,28 @@
+{
+  "path": "F:\\OSINT_DATA\\manifests\\country=AT\\crossref_manifest.json",
+  "size": 163,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 1,
+  "field_count": 5,
+  "parse_status": "success",
+  "schema": {
+    "source": "string",
+    "country": "string",
+    "last_update": "string",
+    "files": "object",
+    "statistics": "object"
+  },
+  "sample_records": [
+    {
+      "source": "crossref",
+      "country": "AT",
+      "last_update": "2025-09-13T15:27:24.947450",
+      "files": {},
+      "statistics": {
+        "last_pull_count": 1
+      }
+    }
+  ],
+  "modified": "2025-09-13T15:27:26"
+}

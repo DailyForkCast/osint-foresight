@@ -1,0 +1,732 @@
+{
+  "regions": {
+    "western_europe": ["BE", "FR", "DE", "IT", "LU", "NL", "PT", "ES"],
+    "eastern_europe": ["AM", "AZ", "GE", "AT", "BG", "CZ", "HU", "LI", "PL", "RO", "SK", "SI", "CH"],
+    "nordic_baltic": ["DK", "EE", "FI", "IS", "IE", "LV", "LT", "NO", "SE", "GB"],
+    "balkans": ["AL", "BA", "HR", "XK", "MK", "ME", "RS"],
+    "mediterranean": ["CY", "GR", "MT", "TR"]
+  },
+  "countries": {
+    "AM": {
+      "name": "Armenia",
+      "native_name": "Հայաստան",
+      "iso2": "AM",
+      "iso3": "ARM",
+      "languages": ["hy", "en", "zh"],
+      "primary_language": "hy",
+      "official_domains": ["gov.am", "mfa.am", "president.am"],
+      "mfa_domain": "mfa.am",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "hy": ["համաձայնագիր", "համագործակցություն", "կապ"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "亚美尼亚"
+    },
+    "AZ": {
+      "name": "Azerbaijan",
+      "native_name": "Azərbaycan",
+      "iso2": "AZ",
+      "iso3": "AZE",
+      "languages": ["az", "en", "zh"],
+      "primary_language": "az",
+      "official_domains": ["gov.az", "mfa.gov.az", "president.az"],
+      "mfa_domain": "mfa.gov.az",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "az": ["müqavilə", "razılaşma", "əməkdaşlıq"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "阿塞拜疆"
+    },
+    "GE": {
+      "name": "Georgia",
+      "native_name": "საქართველო",
+      "iso2": "GE",
+      "iso3": "GEO",
+      "languages": ["ka", "en", "zh"],
+      "primary_language": "ka",
+      "official_domains": ["gov.ge", "mfa.gov.ge", "president.gov.ge"],
+      "mfa_domain": "mfa.gov.ge",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "ka": ["შეთანხმება", "თანამშრომლობა", "პარტნიორობა"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "格鲁吉亚"
+    },
+    "AT": {
+      "name": "Austria",
+      "native_name": "Österreich",
+      "iso2": "AT",
+      "iso3": "AUT",
+      "languages": ["de", "en", "zh"],
+      "primary_language": "de",
+      "official_domains": ["bundeskanzleramt.gv.at", "bmeia.gv.at", "parlament.gv.at"],
+      "mfa_domain": "bmeia.gv.at",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "de": ["Abkommen", "Vereinbarung", "Kooperation", "Partnerschaft"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "奥地利"
+    },
+    "BG": {
+      "name": "Bulgaria",
+      "native_name": "България",
+      "iso2": "BG",
+      "iso3": "BGR",
+      "languages": ["bg", "en", "zh"],
+      "primary_language": "bg",
+      "official_domains": ["government.bg", "mfa.bg", "president.bg"],
+      "mfa_domain": "mfa.bg",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "bg": ["споразумение", "договор", "сътрудничество"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "保加利亚"
+    },
+    "CZ": {
+      "name": "Czechia",
+      "native_name": "Česko",
+      "iso2": "CZ",
+      "iso3": "CZE",
+      "languages": ["cs", "en", "zh"],
+      "primary_language": "cs",
+      "official_domains": ["vlada.cz", "mzv.cz", "hrad.cz"],
+      "mfa_domain": "mzv.cz",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "cs": ["dohoda", "smlouva", "spolupráce", "partnerství"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "捷克"
+    },
+    "HU": {
+      "name": "Hungary",
+      "native_name": "Magyarország",
+      "iso2": "HU",
+      "iso3": "HUN",
+      "languages": ["hu", "en", "zh"],
+      "primary_language": "hu",
+      "official_domains": ["kormany.hu", "mfa.gov.hu", "keh.hu"],
+      "mfa_domain": "mfa.gov.hu",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "hu": ["megállapodás", "szerződés", "együttműködés"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "匈牙利"
+    },
+    "LI": {
+      "name": "Liechtenstein",
+      "native_name": "Liechtenstein",
+      "iso2": "LI",
+      "iso3": "LIE",
+      "languages": ["de", "en", "zh"],
+      "primary_language": "de",
+      "official_domains": ["regierung.li", "aussenpolitik.li"],
+      "mfa_domain": "aussenpolitik.li",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "de": ["Abkommen", "Vereinbarung", "Kooperation"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "列支敦士登"
+    },
+    "PL": {
+      "name": "Poland",
+      "native_name": "Polska",
+      "iso2": "PL",
+      "iso3": "POL",
+      "languages": ["pl", "en", "zh"],
+      "primary_language": "pl",
+      "official_domains": ["gov.pl", "prezydent.pl", "sejm.gov.pl"],
+      "mfa_domain": "gov.pl/web/dyplomacja",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "pl": ["umowa", "porozumienie", "współpraca", "partnerstwo"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "波兰"
+    },
+    "RO": {
+      "name": "Romania",
+      "native_name": "România",
+      "iso2": "RO",
+      "iso3": "ROU",
+      "languages": ["ro", "en", "zh"],
+      "primary_language": "ro",
+      "official_domains": ["gov.ro", "mae.ro", "presidency.ro"],
+      "mfa_domain": "mae.ro",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "ro": ["acord", "înțelegere", "cooperare", "parteneriat"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "罗马尼亚"
+    },
+    "SK": {
+      "name": "Slovakia",
+      "native_name": "Slovensko",
+      "iso2": "SK",
+      "iso3": "SVK",
+      "languages": ["sk", "en", "zh"],
+      "primary_language": "sk",
+      "official_domains": ["vlada.gov.sk", "mzv.sk", "prezident.sk"],
+      "mfa_domain": "mzv.sk",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "sk": ["dohoda", "zmluva", "spolupráca", "partnerstvo"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "斯洛伐克"
+    },
+    "SI": {
+      "name": "Slovenia",
+      "native_name": "Slovenija",
+      "iso2": "SI",
+      "iso3": "SVN",
+      "languages": ["sl", "en", "zh"],
+      "primary_language": "sl",
+      "official_domains": ["gov.si", "mzz.gov.si", "up-rs.si"],
+      "mfa_domain": "mzz.gov.si",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "sl": ["sporazum", "dogovor", "sodelovanje"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "斯洛文尼亚"
+    },
+    "CH": {
+      "name": "Switzerland",
+      "native_name": "Schweiz",
+      "iso2": "CH",
+      "iso3": "CHE",
+      "languages": ["de", "fr", "it", "en", "zh"],
+      "primary_language": "de",
+      "official_domains": ["admin.ch", "eda.admin.ch", "parlament.ch"],
+      "mfa_domain": "eda.admin.ch",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "de": ["Abkommen", "Vereinbarung", "Kooperation"],
+        "fr": ["accord", "mémorandum", "coopération"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "瑞士"
+    },
+    "DK": {
+      "name": "Denmark",
+      "native_name": "Danmark",
+      "iso2": "DK",
+      "iso3": "DNK",
+      "languages": ["da", "en", "zh"],
+      "primary_language": "da",
+      "official_domains": ["regeringen.dk", "um.dk", "kongehuset.dk"],
+      "mfa_domain": "um.dk",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "da": ["aftale", "samarbejde", "partnerskab"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "丹麦"
+    },
+    "EE": {
+      "name": "Estonia",
+      "native_name": "Eesti",
+      "iso2": "EE",
+      "iso3": "EST",
+      "languages": ["et", "en", "zh"],
+      "primary_language": "et",
+      "official_domains": ["valitsus.ee", "vm.ee", "president.ee"],
+      "mfa_domain": "vm.ee",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "et": ["leping", "koostöö", "partnerlus"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "爱沙尼亚"
+    },
+    "FI": {
+      "name": "Finland",
+      "native_name": "Suomi",
+      "iso2": "FI",
+      "iso3": "FIN",
+      "languages": ["fi", "sv", "en", "zh"],
+      "primary_language": "fi",
+      "official_domains": ["valtioneuvosto.fi", "formin.fi", "tpk.fi"],
+      "mfa_domain": "formin.fi",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "fi": ["sopimus", "yhteistyö", "kumppanuus"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "芬兰"
+    },
+    "IS": {
+      "name": "Iceland",
+      "native_name": "Ísland",
+      "iso2": "IS",
+      "iso3": "ISL",
+      "languages": ["is", "en", "zh"],
+      "primary_language": "is",
+      "official_domains": ["government.is", "mfa.is", "president.is"],
+      "mfa_domain": "mfa.is",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "is": ["samningur", "samstarf", "samvinna"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "冰岛"
+    },
+    "IE": {
+      "name": "Ireland",
+      "native_name": "Éire",
+      "iso2": "IE",
+      "iso3": "IRL",
+      "languages": ["en", "ga", "zh"],
+      "primary_language": "en",
+      "official_domains": ["gov.ie", "dfa.ie", "president.ie"],
+      "mfa_domain": "dfa.ie",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "ga": ["comhaontú", "comhar"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "爱尔兰"
+    },
+    "LV": {
+      "name": "Latvia",
+      "native_name": "Latvija",
+      "iso2": "LV",
+      "iso3": "LVA",
+      "languages": ["lv", "en", "zh"],
+      "primary_language": "lv",
+      "official_domains": ["mk.gov.lv", "mfa.gov.lv", "president.lv"],
+      "mfa_domain": "mfa.gov.lv",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "lv": ["līgums", "sadarbība", "partnerība"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "拉脱维亚"
+    },
+    "LT": {
+      "name": "Lithuania",
+      "native_name": "Lietuva",
+      "iso2": "LT",
+      "iso3": "LTU",
+      "languages": ["lt", "en", "zh"],
+      "primary_language": "lt",
+      "official_domains": ["lrv.lt", "urm.lt", "lrp.lt"],
+      "mfa_domain": "urm.lt",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "lt": ["susitarimas", "bendradarbiavimas", "partnerystė"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "立陶宛"
+    },
+    "NO": {
+      "name": "Norway",
+      "native_name": "Norge",
+      "iso2": "NO",
+      "iso3": "NOR",
+      "languages": ["no", "nn", "en", "zh"],
+      "primary_language": "no",
+      "official_domains": ["regjeringen.no", "regjeringen.no/ud", "kongehuset.no"],
+      "mfa_domain": "regjeringen.no/ud",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "no": ["avtale", "samarbeid", "partnerskap"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "挪威"
+    },
+    "SE": {
+      "name": "Sweden",
+      "native_name": "Sverige",
+      "iso2": "SE",
+      "iso3": "SWE",
+      "languages": ["sv", "en", "zh"],
+      "primary_language": "sv",
+      "official_domains": ["government.se", "ud.se", "kungahuset.se"],
+      "mfa_domain": "ud.se",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "sv": ["avtal", "samarbete", "partnerskap"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "瑞典"
+    },
+    "GB": {
+      "name": "United Kingdom",
+      "native_name": "United Kingdom",
+      "iso2": "GB",
+      "iso3": "GBR",
+      "languages": ["en", "zh"],
+      "primary_language": "en",
+      "official_domains": ["gov.uk", "fcdo.gov.uk", "royal.uk"],
+      "mfa_domain": "fcdo.gov.uk",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation", "treaty"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "英国"
+    },
+    "AL": {
+      "name": "Albania",
+      "native_name": "Shqipëria",
+      "iso2": "AL",
+      "iso3": "ALB",
+      "languages": ["sq", "en", "zh"],
+      "primary_language": "sq",
+      "official_domains": ["kryeministria.al", "punetejashtme.gov.al", "president.al"],
+      "mfa_domain": "punetejashtme.gov.al",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "sq": ["marrëveshje", "bashkëpunim"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "阿尔巴尼亚"
+    },
+    "BA": {
+      "name": "Bosnia and Herzegovina",
+      "native_name": "Bosna i Hercegovina",
+      "iso2": "BA",
+      "iso3": "BIH",
+      "languages": ["bs", "hr", "sr", "en", "zh"],
+      "primary_language": "bs",
+      "official_domains": ["vijeceministara.gov.ba", "mfa.gov.ba"],
+      "mfa_domain": "mfa.gov.ba",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "bs": ["sporazum", "saradnja"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "波黑"
+    },
+    "HR": {
+      "name": "Croatia",
+      "native_name": "Hrvatska",
+      "iso2": "HR",
+      "iso3": "HRV",
+      "languages": ["hr", "en", "zh"],
+      "primary_language": "hr",
+      "official_domains": ["vlada.hr", "mvep.hr", "predsjednik.hr"],
+      "mfa_domain": "mvep.hr",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "hr": ["sporazum", "suradnja", "partnerstvo"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "克罗地亚"
+    },
+    "XK": {
+      "name": "Kosovo",
+      "native_name": "Kosova",
+      "iso2": "XK",
+      "iso3": "XKX",
+      "languages": ["sq", "sr", "en", "zh"],
+      "primary_language": "sq",
+      "official_domains": ["kryeministri-ks.net", "mfa-ks.net"],
+      "mfa_domain": "mfa-ks.net",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "sq": ["marrëveshje", "bashkëpunim"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "科索沃"
+    },
+    "MK": {
+      "name": "North Macedonia",
+      "native_name": "Северна Македонија",
+      "iso2": "MK",
+      "iso3": "MKD",
+      "languages": ["mk", "en", "zh"],
+      "primary_language": "mk",
+      "official_domains": ["vlada.mk", "mfa.gov.mk", "president.mk"],
+      "mfa_domain": "mfa.gov.mk",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "mk": ["договор", "соработка"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "北马其顿"
+    },
+    "ME": {
+      "name": "Montenegro",
+      "native_name": "Crna Gora",
+      "iso2": "ME",
+      "iso3": "MNE",
+      "languages": ["me", "en", "zh"],
+      "primary_language": "me",
+      "official_domains": ["gov.me", "mfa.gov.me", "predsjednik.me"],
+      "mfa_domain": "mfa.gov.me",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "me": ["sporazum", "saradnja"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "黑山"
+    },
+    "RS": {
+      "name": "Serbia",
+      "native_name": "Србија",
+      "iso2": "RS",
+      "iso3": "SRB",
+      "languages": ["sr", "en", "zh"],
+      "primary_language": "sr",
+      "official_domains": ["gov.rs", "mfa.rs", "predsednik.rs"],
+      "mfa_domain": "mfa.rs",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "sr": ["споразум", "сарадња"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "塞尔维亚"
+    },
+    "CY": {
+      "name": "Cyprus",
+      "native_name": "Κύπρος",
+      "iso2": "CY",
+      "iso3": "CYP",
+      "languages": ["el", "tr", "en", "zh"],
+      "primary_language": "el",
+      "official_domains": ["presidency.gov.cy", "mfa.gov.cy"],
+      "mfa_domain": "mfa.gov.cy",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "el": ["συμφωνία", "συνεργασία"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "塞浦路斯"
+    },
+    "GR": {
+      "name": "Greece",
+      "native_name": "Ελλάδα",
+      "iso2": "GR",
+      "iso3": "GRC",
+      "languages": ["el", "en", "zh"],
+      "primary_language": "el",
+      "official_domains": ["primeminister.gr", "mfa.gr", "presidency.gr"],
+      "mfa_domain": "mfa.gr",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "el": ["συμφωνία", "συνεργασία", "εταιρική σχέση"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "希腊"
+    },
+    "MT": {
+      "name": "Malta",
+      "native_name": "Malta",
+      "iso2": "MT",
+      "iso3": "MLT",
+      "languages": ["mt", "en", "zh"],
+      "primary_language": "en",
+      "official_domains": ["gov.mt", "foreignaffairs.gov.mt", "president.mt"],
+      "mfa_domain": "foreignaffairs.gov.mt",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "mt": ["ftehim", "kooperazzjoni"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "马耳他"
+    },
+    "TR": {
+      "name": "Turkey",
+      "native_name": "Türkiye",
+      "iso2": "TR",
+      "iso3": "TUR",
+      "languages": ["tr", "en", "zh"],
+      "primary_language": "tr",
+      "official_domains": ["tccb.gov.tr", "mfa.gov.tr", "tbmm.gov.tr"],
+      "mfa_domain": "mfa.gov.tr",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "tr": ["anlaşma", "işbirliği", "ortaklık"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "土耳其"
+    },
+    "BE": {
+      "name": "Belgium",
+      "native_name": "België",
+      "iso2": "BE",
+      "iso3": "BEL",
+      "languages": ["nl", "fr", "de", "en", "zh"],
+      "primary_language": "nl",
+      "official_domains": ["belgium.be", "diplomatie.belgium.be", "monarchie.be"],
+      "mfa_domain": "diplomatie.belgium.be",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "nl": ["overeenkomst", "samenwerking", "partnerschap"],
+        "fr": ["accord", "coopération", "partenariat"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "比利时"
+    },
+    "FR": {
+      "name": "France",
+      "native_name": "France",
+      "iso2": "FR",
+      "iso3": "FRA",
+      "languages": ["fr", "en", "zh"],
+      "primary_language": "fr",
+      "official_domains": ["diplomatie.gouv.fr", "gouvernement.fr", "elysee.fr"],
+      "mfa_domain": "diplomatie.gouv.fr",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "fr": ["accord", "mémorandum", "coopération", "partenariat"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "法国"
+    },
+    "DE": {
+      "name": "Germany",
+      "native_name": "Deutschland",
+      "iso2": "DE",
+      "iso3": "DEU",
+      "languages": ["de", "en", "zh"],
+      "primary_language": "de",
+      "official_domains": ["auswaertiges-amt.de", "bundesregierung.de", "bundestag.de"],
+      "mfa_domain": "auswaertiges-amt.de",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "de": ["Abkommen", "Vereinbarung", "Kooperation", "Partnerschaft"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "德国"
+    },
+    "IT": {
+      "name": "Italy",
+      "native_name": "Italia",
+      "iso2": "IT",
+      "iso3": "ITA",
+      "languages": ["it", "en", "zh"],
+      "primary_language": "it",
+      "official_domains": ["esteri.it", "governo.it", "quirinale.it"],
+      "mfa_domain": "esteri.it",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "it": ["accordo", "memorandum", "cooperazione", "partenariato"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "意大利"
+    },
+    "LU": {
+      "name": "Luxembourg",
+      "native_name": "Luxembourg",
+      "iso2": "LU",
+      "iso3": "LUX",
+      "languages": ["lb", "fr", "de", "en", "zh"],
+      "primary_language": "fr",
+      "official_domains": ["gouvernement.lu", "mae.lu", "monarchie.lu"],
+      "mfa_domain": "mae.lu",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "fr": ["accord", "coopération", "partenariat"],
+        "de": ["Abkommen", "Kooperation"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "卢森堡"
+    },
+    "NL": {
+      "name": "Netherlands",
+      "native_name": "Nederland",
+      "iso2": "NL",
+      "iso3": "NLD",
+      "languages": ["nl", "en", "zh"],
+      "primary_language": "nl",
+      "official_domains": ["rijksoverheid.nl", "government.nl", "koninklijkhuis.nl"],
+      "mfa_domain": "government.nl",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "nl": ["overeenkomst", "samenwerking", "partnerschap"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "荷兰"
+    },
+    "PT": {
+      "name": "Portugal",
+      "native_name": "Portugal",
+      "iso2": "PT",
+      "iso3": "PRT",
+      "languages": ["pt", "en", "zh"],
+      "primary_language": "pt",
+      "official_domains": ["presidencia.pt", "portaldiplomatico.mne.gov.pt", "parlamento.pt"],
+      "mfa_domain": "portaldiplomatico.mne.gov.pt",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "pt": ["acordo", "memorando", "cooperação", "parceria"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "葡萄牙"
+    },
+    "ES": {
+      "name": "Spain",
+      "native_name": "España",
+      "iso2": "ES",
+      "iso3": "ESP",
+      "languages": ["es", "en", "zh"],
+      "primary_language": "es",
+      "official_domains": ["exteriores.gob.es", "lamoncloa.gob.es", "casareal.es"],
+      "mfa_domain": "exteriores.gob.es",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "cooperation"],
+        "es": ["acuerdo", "memorando", "cooperación", "asociación"],
+        "zh": ["协议", "合作", "伙伴关系"]
+      },
+      "chinese_name": "西班牙"
+    }
+  },
+  "chinese_sources": {
+    "mfa": "fmprc.gov.cn",
+    "ccpit": "ccpit.org",
+    "embassies": {
+      "AM": "am.china-embassy.gov.cn",
+      "AZ": "az.china-embassy.gov.cn",
+      "GE": "ge.china-embassy.gov.cn",
+      "AT": "at.china-embassy.gov.cn",
+      "BG": "bg.china-embassy.gov.cn",
+      "CZ": "cz.china-embassy.gov.cn",
+      "HU": "hu.china-embassy.gov.cn",
+      "LI": "ch.china-embassy.gov.cn",
+      "PL": "pl.china-embassy.gov.cn",
+      "RO": "ro.china-embassy.gov.cn",
+      "SK": "sk.china-embassy.gov.cn",
+      "SI": "si.china-embassy.gov.cn",
+      "CH": "ch.china-embassy.gov.cn",
+      "DK": "dk.china-embassy.gov.cn",
+      "EE": "ee.china-embassy.gov.cn",
+      "FI": "fi.china-embassy.gov.cn",
+      "IS": "is.china-embassy.gov.cn",
+      "IE": "ie.china-embassy.gov.cn",
+      "LV": "lv.china-embassy.gov.cn",
+      "LT": "lt.china-embassy.gov.cn",
+      "NO": "no.china-embassy.gov.cn",
+      "SE": "se.china-embassy.gov.cn",
+      "GB": "gb.china-embassy.gov.cn",
+      "AL": "al.china-embassy.gov.cn",
+      "BA": "ba.china-embassy.gov.cn",
+      "HR": "hr.china-embassy.gov.cn",
+      "MK": "mk.china-embassy.gov.cn",
+      "ME": "me.china-embassy.gov.cn",
+      "RS": "rs.china-embassy.gov.cn",
+      "CY": "cy.china-embassy.gov.cn",
+      "GR": "gr.china-embassy.gov.cn",
+      "MT": "mt.china-embassy.gov.cn",
+      "TR": "tr.china-embassy.gov.cn",
+      "BE": "be.china-embassy.gov.cn",
+      "FR": "fr.china-embassy.gov.cn",
+      "DE": "de.china-embassy.gov.cn",
+      "IT": "it.china-embassy.gov.cn",
+      "LU": "lu.china-embassy.gov.cn",
+      "NL": "nl.china-embassy.gov.cn",
+      "PT": "pt.china-embassy.gov.cn",
+      "ES": "es.china-embassy.gov.cn"
+    }
+  }
+}

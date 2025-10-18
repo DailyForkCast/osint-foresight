@@ -1,0 +1,506 @@
+{
+  "original_path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\by_country\\NL_china\\collaborations_20250921_124455.json",
+  "profile": {
+    "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\by_country\\NL_china\\collaborations_20250921_124455.json",
+    "size": 2297435,
+    "extension": ".json",
+    "encoding": "utf-8",
+    "line_count": 758,
+    "field_count": 13,
+    "parse_status": "success",
+    "schema": {
+      "paper_id": "string",
+      "doi": "unknown",
+      "title": "string",
+      "publication_year": "number",
+      "countries_collaborating": "array",
+      "institutions": "object",
+      "authors_by_country": "object",
+      "technology_categories": "array",
+      "collaboration_patterns": "array",
+      "temporal_context": "object",
+      "verification": "object",
+      "risk_assessment": "object",
+      "partner_country": "string"
+    },
+    "sample_records": [
+      {
+        "paper_id": "https://openalex.org/W2353884828",
+        "doi": null,
+        "title": "Exploration and Research on New Technology of Synthesizing Feed Additive-ZnCl_2\u00b74Zn(OH)_2\u00b7H_2O",
+        "publication_year": 2011,
+        "countries_collaborating": [
+          "CN",
+          "NL"
+        ],
+        "institutions": {
+          "NL": [
+            "Waste"
+          ],
+          "CN": [
+            "Shenzhen Entry-Exit Inspection and Quarantine Bureau"
+          ]
+        },
+        "authors_by_country": {
+          "NL": [
+            "Tang Yu-zhong (Waste)"
+          ],
+          "CN": [
+            "Tang Yu-zhong (Shenzhen Entry-Exit Inspection and Quarantine Bureau)"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "pre_bri_baseline_2000_2012",
+          "year": 2011,
+          "pre_bri_baseline": true,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_000.gz",
+          "line_number": 188136,
+          "extraction_command": "sed -n '188136p' part_000.gz | jq '.title'",
+          "paper_hash": "80ac73a805b9d463"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "NL"
+      },
+      {
+        "paper_id": "https://openalex.org/W2389887721",
+        "doi": null,
+        "title": "Labeling of myoblasts with superparamagnetic iron oxide nanoparticle",
+        "publication_year": 2007,
+        "countries_collaborating": [
+          "CN",
+          "NL"
+        ],
+        "institutions": {
+          "NL": [
+            "Erasmus MC"
+          ],
+          "CN": [
+            "Bethune International Peace Hospital"
+          ]
+        },
+        "authors_by_country": {
+          "NL": [
+            "Jun Li (Erasmus MC)"
+          ],
+          "CN": [
+            "Jun Li (Bethune International Peace Hospital)"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "pre_bri_baseline_2000_2012",
+          "year": 2007,
+          "pre_bri_baseline": true,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_000.gz",
+          "line_number": 228949,
+          "extraction_command": "sed -n '228949p' part_000.gz | jq '.title'",
+          "paper_hash": "8d73936c6ba708aa"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "NL"
+      },
+      {
+        "paper_id": "https://openalex.org/W2574725464",
+        "doi": null,
+        "title": "Religie en vrijwilligerswerk",
+        "publication_year": 2015,
+        "countries_collaborating": [
+          "CN",
+          "NL"
+        ],
+        "institutions": {
+          "NL": [
+            "Protestant Theological University"
+          ],
+          "CN": [
+            "Institute of Sociology"
+          ]
+        },
+        "authors_by_country": {
+          "NL": [
+            "J. de Hart (Protestant Theological University)"
+          ],
+          "CN": [
+            "Paul Dekker (Institute of Sociology)"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "bri_launch_2013_2016",
+          "year": 2015,
+          "pre_bri_baseline": false,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_000.gz",
+          "line_number": 292483,
+          "extraction_command": "sed -n '292483p' part_000.gz | jq '.title'",
+          "paper_hash": "4ee40a7cac50356f"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "NL"
+      },
+      {
+        "paper_id": "https://openalex.org/W2978449166",
+        "doi": "https://doi.org/10.1109/hpcc/smartcity/dss.2019.00135",
+        "title": "Exploring the Potential of Elastic Computing Clusters in Geo-Distributed Data Centers with Fast Fabric Interconnection",
+        "publication_year": 2019,
+        "countries_collaborating": [
+          "CN",
+          "NL"
+        ],
+        "institutions": {
+          "NL": [
+            "Rutgers Sexual and Reproductive Health and Rights"
+          ],
+          "CN": [
+            "Jingdong (China)"
+          ]
+        },
+        "authors_by_country": {
+          "NL": [
+            "Shouwei Chen (Rutgers Sexual and Reproductive Health and Rights)"
+          ],
+          "CN": [
+            "Iv\u00e1n Rodero (Jingdong (China))",
+            "Wensheng Wang (Jingdong (China))"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "expansion_2017_2019",
+          "year": 2019,
+          "pre_bri_baseline": false,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_000.gz",
+          "line_number": 553522,
+          "extraction_command": "sed -n '553522p' part_000.gz | jq '.title'",
+          "paper_hash": "c2a986953116557a"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "NL"
+      },
+      {
+        "paper_id": "https://openalex.org/W2588042397",
+        "doi": null,
+        "title": "De Nederlandse arbeidsmarkt in Europees perspectief : Jongeren mobiel, ouderen honkvast",
+        "publication_year": 2015,
+        "countries_collaborating": [
+          "CN",
+          "NL"
+        ],
+        "institutions": {
+          "NL": [
+            "GGz centraal"
+          ],
+          "CN": [
+            "Institute of Sociology"
+          ]
+        },
+        "authors_by_country": {
+          "NL": [
+            "Rob Euwals Euwals (GGz centraal)",
+            "Anja Deelen (GGz centraal)"
+          ],
+          "CN": [
+            "Ruud Muffels (Institute of Sociology)"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "bri_launch_2013_2016",
+          "year": 2015,
+          "pre_bri_baseline": false,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_001.gz",
+          "line_number": 65108,
+          "extraction_command": "sed -n '65108p' part_001.gz | jq '.title'",
+          "paper_hash": "25476958e63c4c27"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "NL"
+      }
+    ],
+    "modified": "2025-09-21T12:46:04.428326"
+  },
+  "sample_data": [
+    {
+      "paper_id": "https://openalex.org/W2353884828",
+      "doi": null,
+      "title": "Exploration and Research on New Technology of Synthesizing Feed Additive-ZnCl_2\u00b74Zn(OH)_2\u00b7H_2O",
+      "publication_year": 2011,
+      "countries_collaborating": [
+        "CN",
+        "NL"
+      ],
+      "institutions": {
+        "NL": [
+          "Waste"
+        ],
+        "CN": [
+          "Shenzhen Entry-Exit Inspection and Quarantine Bureau"
+        ]
+      },
+      "authors_by_country": {
+        "NL": [
+          "Tang Yu-zhong (Waste)"
+        ],
+        "CN": [
+          "Tang Yu-zhong (Shenzhen Entry-Exit Inspection and Quarantine Bureau)"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "pre_bri_baseline_2000_2012",
+        "year": 2011,
+        "pre_bri_baseline": true,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_000.gz",
+        "line_number": 188136,
+        "extraction_command": "sed -n '188136p' part_000.gz | jq '.title'",
+        "paper_hash": "80ac73a805b9d463"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "NL"
+    },
+    {
+      "paper_id": "https://openalex.org/W2389887721",
+      "doi": null,
+      "title": "Labeling of myoblasts with superparamagnetic iron oxide nanoparticle",
+      "publication_year": 2007,
+      "countries_collaborating": [
+        "CN",
+        "NL"
+      ],
+      "institutions": {
+        "NL": [
+          "Erasmus MC"
+        ],
+        "CN": [
+          "Bethune International Peace Hospital"
+        ]
+      },
+      "authors_by_country": {
+        "NL": [
+          "Jun Li (Erasmus MC)"
+        ],
+        "CN": [
+          "Jun Li (Bethune International Peace Hospital)"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "pre_bri_baseline_2000_2012",
+        "year": 2007,
+        "pre_bri_baseline": true,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_000.gz",
+        "line_number": 228949,
+        "extraction_command": "sed -n '228949p' part_000.gz | jq '.title'",
+        "paper_hash": "8d73936c6ba708aa"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "NL"
+    },
+    {
+      "paper_id": "https://openalex.org/W2574725464",
+      "doi": null,
+      "title": "Religie en vrijwilligerswerk",
+      "publication_year": 2015,
+      "countries_collaborating": [
+        "CN",
+        "NL"
+      ],
+      "institutions": {
+        "NL": [
+          "Protestant Theological University"
+        ],
+        "CN": [
+          "Institute of Sociology"
+        ]
+      },
+      "authors_by_country": {
+        "NL": [
+          "J. de Hart (Protestant Theological University)"
+        ],
+        "CN": [
+          "Paul Dekker (Institute of Sociology)"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "bri_launch_2013_2016",
+        "year": 2015,
+        "pre_bri_baseline": false,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_000.gz",
+        "line_number": 292483,
+        "extraction_command": "sed -n '292483p' part_000.gz | jq '.title'",
+        "paper_hash": "4ee40a7cac50356f"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "NL"
+    },
+    {
+      "paper_id": "https://openalex.org/W2978449166",
+      "doi": "https://doi.org/10.1109/hpcc/smartcity/dss.2019.00135",
+      "title": "Exploring the Potential of Elastic Computing Clusters in Geo-Distributed Data Centers with Fast Fabric Interconnection",
+      "publication_year": 2019,
+      "countries_collaborating": [
+        "CN",
+        "NL"
+      ],
+      "institutions": {
+        "NL": [
+          "Rutgers Sexual and Reproductive Health and Rights"
+        ],
+        "CN": [
+          "Jingdong (China)"
+        ]
+      },
+      "authors_by_country": {
+        "NL": [
+          "Shouwei Chen (Rutgers Sexual and Reproductive Health and Rights)"
+        ],
+        "CN": [
+          "Iv\u00e1n Rodero (Jingdong (China))",
+          "Wensheng Wang (Jingdong (China))"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "expansion_2017_2019",
+        "year": 2019,
+        "pre_bri_baseline": false,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_000.gz",
+        "line_number": 553522,
+        "extraction_command": "sed -n '553522p' part_000.gz | jq '.title'",
+        "paper_hash": "c2a986953116557a"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "NL"
+    },
+    {
+      "paper_id": "https://openalex.org/W2588042397",
+      "doi": null,
+      "title": "De Nederlandse arbeidsmarkt in Europees perspectief : Jongeren mobiel, ouderen honkvast",
+      "publication_year": 2015,
+      "countries_collaborating": [
+        "CN",
+        "NL"
+      ],
+      "institutions": {
+        "NL": [
+          "GGz centraal"
+        ],
+        "CN": [
+          "Institute of Sociology"
+        ]
+      },
+      "authors_by_country": {
+        "NL": [
+          "Rob Euwals Euwals (GGz centraal)",
+          "Anja Deelen (GGz centraal)"
+        ],
+        "CN": [
+          "Ruud Muffels (Institute of Sociology)"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "bri_launch_2013_2016",
+        "year": 2015,
+        "pre_bri_baseline": false,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_001.gz",
+        "line_number": 65108,
+        "extraction_command": "sed -n '65108p' part_001.gz | jq '.title'",
+        "paper_hash": "25476958e63c4c27"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "NL"
+    }
+  ]
+}

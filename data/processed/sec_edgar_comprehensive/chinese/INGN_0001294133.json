@@ -1,0 +1,47 @@
+{
+  "cik": "0001294133",
+  "ticker": "INGN",
+  "name": "Inogen Inc",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3842",
+  "sicDescription": "Orthopedic, Prosthetic & Surgical Appliances & Supplies",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "805-562-0500",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "859 WARD DRIVE",
+      "street2": null,
+      "city": "GOLETA",
+      "stateOrCountry": "CA",
+      "zipCode": "93111",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "859 WARD DRIVE",
+      "street2": null,
+      "city": "GOLETA",
+      "stateOrCountry": "CA",
+      "zipCode": "93111",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-08"
+  },
+  "filings_count": 956
+}

@@ -1,0 +1,44 @@
+{
+  "cik": "0001759631",
+  "ticker": "HYLN",
+  "name": "Hyliion Holdings Corp.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3713",
+  "sicDescription": "Truck & Bus Bodies",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "(833) 495-4466",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1202 BMC DRIVE, SUITE 100",
+      "street2": null,
+      "city": "CEDAR PARK",
+      "stateOrCountry": "TX",
+      "zipCode": "78613",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1202 BMC DRIVE, SUITE 100",
+      "street2": null,
+      "city": "CEDAR PARK",
+      "stateOrCountry": "TX",
+      "zipCode": "78613",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 557
+}

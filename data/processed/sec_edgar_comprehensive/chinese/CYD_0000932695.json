@@ -1,0 +1,47 @@
+{
+  "cik": "0000932695",
+  "ticker": "CYD",
+  "name": "CHINA YUCHAI INTERNATIONAL LTD",
+  "detection_reasons": [
+    "location:china"
+  ],
+  "sic": "3510",
+  "sicDescription": "Engines & Turbines",
+  "category": "Accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "0116563226237",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "16 RAFFLES QUAY #26-00",
+      "street2": "HONG LEONG BUILDING",
+      "city": "SINGAPORE",
+      "stateOrCountry": "U0",
+      "zipCode": "048581",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "16 RAFFLES QUAY #26-00",
+      "street2": "HONG LEONG BUILDING",
+      "city": "SINGAPORE",
+      "stateOrCountry": "U0",
+      "zipCode": "048581",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-25"
+  },
+  "filings_count": 549
+}

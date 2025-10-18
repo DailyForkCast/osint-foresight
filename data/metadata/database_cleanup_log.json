@@ -1,0 +1,32 @@
+{
+  "timestamp": "2025-09-29T18:37:43.767359",
+  "operations": {
+    "archived": [
+      "openalex_china_analysis.db",
+      "google_patents_china.db",
+      "rss_intelligence.db",
+      "entity_graph.db",
+      "validation_results.db",
+      "leonardo_scores.db",
+      "leonardo_scoring.db",
+      "master_intelligence.db",
+      "predictive_indicators.db",
+      "mcf_dualuse_intelligence.db",
+      "arctic_intelligence.db",
+      "dualuse_taxonomy.db",
+      "alert_system.db",
+      "quantum_intelligence.db"
+    ],
+    "deleted": [
+      "chinese_patents.db",
+      "entity_relationships.db",
+      "intelligence_feeds.db"
+    ],
+    "errors": []
+  },
+  "summary": {
+    "archived": 14,
+    "deleted": 3,
+    "errors": 0
+  }
+}

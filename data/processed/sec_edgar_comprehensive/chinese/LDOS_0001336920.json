@@ -1,0 +1,44 @@
+{
+  "cik": "0001336920",
+  "ticker": "LDOS",
+  "name": "Leidos Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7373",
+  "sicDescription": "Services-Computer Integrated Systems Design",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "203562868",
+  "phone": "571-526-6000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1750 PRESIDENTS STREET",
+      "street2": null,
+      "city": "RESTON",
+      "stateOrCountry": "VA",
+      "zipCode": "20190",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1750 PRESIDENTS STREET",
+      "street2": null,
+      "city": "RESTON",
+      "stateOrCountry": "VA",
+      "zipCode": "20190",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1002
+}

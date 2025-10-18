@@ -1,0 +1,48 @@
+{
+  "cik": "0000776867",
+  "ticker": "WTM",
+  "name": "WHITE MOUNTAINS INSURANCE GROUP LTD",
+  "detection_reasons": [
+    "offshore:bermuda",
+    "offshore:bm"
+  ],
+  "sic": "6331",
+  "sicDescription": "Fire, Marine & Casualty Insurance",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "D0",
+  "ein": "942708455",
+  "phone": "603 640 2200",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "23 SOUTH MAIN STREET",
+      "street2": "SUITE 3B",
+      "city": "HANOVER",
+      "stateOrCountry": "NH",
+      "zipCode": "03755",
+      "stateOrCountryDescription": "NH",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "23 SOUTH MAIN STREET",
+      "street2": "SUITE 3B",
+      "city": "HANOVER",
+      "stateOrCountry": "NH",
+      "zipCode": "03755",
+      "stateOrCountryDescription": "NH",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-03"
+  },
+  "filings_count": 1000
+}

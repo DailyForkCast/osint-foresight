@@ -1,0 +1,52 @@
+{
+  "cik": "0001852440",
+  "ticker": "JZ",
+  "name": "Jianzhi Education Technology Group Co Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:beijing",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "8200",
+  "sicDescription": "Services-Educational Services",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86 10 58732560",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "YINGDU BUILDING",
+      "street2": "27/F ZHICHUN ROAD, TOWER A",
+      "city": "BEIJING",
+      "stateOrCountry": "F4",
+      "zipCode": "100086",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "YINGDU BUILDING",
+      "street2": "27/F ZHICHUN ROAD, TOWER A",
+      "city": "BEIJING",
+      "stateOrCountry": "F4",
+      "zipCode": "100086",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-07-18"
+  },
+  "filings_count": 91
+}

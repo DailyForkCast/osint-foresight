@@ -1,0 +1,519 @@
+{
+  "summary": {
+    "total_critical": 804,
+    "lines_checked": 5000000,
+    "extrapolated_total": 15832
+  },
+  "categories": {
+    "weapons": 136,
+    "military_systems": 24,
+    "naval": 532,
+    "aerospace": 18,
+    "cyber": 35,
+    "nuclear": 8,
+    "critical_infrastructure": 18,
+    "communications": 33
+  },
+  "samples": [
+    {
+      "line": 14501,
+      "category": "naval",
+      "text": "188086910\t9700_-none-_SPMYM221P2263_0_-none-_0\tN\tNO\t2021-08-30 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tDENSITOMETER\t0\t\\N\tB & H INTERNATIONAL LLC\t\\N\t097\tDepartment of Defense (DOD)\tSPMYM2\tDLA MARITIME - PUGET SOUND\t97AS\tDEFENSE LOGISTICS AGENCY\t13567.00\t13567.00\t{self_certified_small_disadvanted_business,minority_owned_business,subcontinent_asian_indian_american_owned_business,category_business,small_business,woman_owned_business,special_designations,us_owned_business,women_owned_small_bus"
+    },
+    {
+      "line": 34437,
+      "category": "naval",
+      "text": "192070531\t9700_9700_N0003921F2226_0_N0003918D0070_0\tN\tNO\t2021-09-08 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tHFRW-S OPTION, AN/PRC-160(V), FIELD UPGR\t0\t\\N\tL3HARRIS TECHNOLOGIES, INC.\t002204600\t097\tDepartment of Defense (DOD)\tN00039\tNAVAL INFORMATION WARFARE SYSTEMS\t1700\tDEPT OF THE NAVY\t64218.00\t64218.00\t{category_business,other_than_small_business,us_owned_business,special_designations,corporate_entity_not_tax_exempt,manufacturer_of_goods}\t14304\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDA"
+    },
+    {
+      "line": 50508,
+      "category": "naval",
+      "text": "193805958\t9700_9700_N6247320F5226_P00024_N6247019D8025_0\tN\tNO\t2021-09-27 00:00:00\tD\tCHANGE ORDER\tNONE: NONE OF THE ABOVE\t9700\t\\N\tSOUTH AIRFEILD MCON PROJECTS CHINA LAKE MODIFICATION FOR UPGRADE SERVER ROOM FIBER BACKBONE.\tP00024\t\\N\tENVIRONMENTAL CHEMICAL CORPORATION\t601293962\t097\tDepartment of Defense (DOD)\tN62742\tNAVAL FAC ENGINEEERING CMD PACIFIC\t1700\tDEPT OF THE NAVY\t94491.00\t94491.00\t{corporate_entity_not_tax_exempt,us_owned_business,special_designations,category_business,other_than_small_bu"
+    },
+    {
+      "line": 65620,
+      "category": "aerospace",
+      "text": "200764690\t1900_-none-_19CH5022P2050_P00001_-none-_0\tN\tNO\t2022-04-19 00:00:00\tB\tSUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE\tNONE: NONE OF THE ABOVE\t1900\t\\N\tINTERNET CONNECTION SERVICE\tP00001\t\\N\tCHINAUNICOM BEIJING BRANCH\t\\N\t019\tDepartment of State (DOS)\t19CH50\tU.S. EMBASSY BEIJING\t1900\tSTATE, DEPARTMENT OF\t-7750.80\t-7750.80\t{special_designations,other_than_small_business,manufacturer_of_goods,category_business,foreign_owned_and_located_business}\tSBTT9\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDAT"
+    },
+    {
+      "line": 95623,
+      "category": "weapons",
+      "text": "193837136\t9700_-none-_N0024420P0258_P00003_-none-_0\tN\tNO\t2021-09-28 00:00:00\tM\tOTHER ADMINISTRATIVE ACTION\tNONE: NONE OF THE ABOVE\t9700\t\\N\tCHINA LAKE MUSIC DIRECTOR\tP00003\t\\N\tHELMICK, SHIRLEY\t131391851\t097\tDepartment of Defense (DOD)\tN00244\tNAVSUP FLT LOG CTR  SAN DIEGO\t1700\tDEPT OF THE NAVY\t0.00\t0.00\t{category_business,women_owned_small_business,special_designations,small_business,us_owned_business,woman_owned_business,sole_proprietorship}\t0MUT5\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNO"
+    },
+    {
+      "line": 108347,
+      "category": "naval",
+      "text": "166109928\t9700_-none-_SPMYM221P0302_0_-none-_0\tN\tNO\t2020-11-30 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tRETIREMENT CLOCKS\t0\t\\N\tINTERNATIONAL PROMOTIONAL IDEAS INC\t842296782\t097\tDepartment of Defense (DOD)\tSPMYM2\tDLA MARITIME - PUGET SOUND\t97AS\tDEFENSE LOGISTICS AGENCY\t13190.00\t13190.00\t{manufacturer_of_goods,foreign_owned_and_us_located_business,category_business,special_designations,corporate_entity_not_tax_exempt,small_business}\t1G4L4\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNOT AP"
+    },
+    {
+      "line": 110689,
+      "category": "naval",
+      "text": "194611545\t9700_9700_N6247321F4264_P00006_N6247317D4635_0\tN\tNO\t2021-10-14 00:00:00\tB\tSUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE\tNONE: NONE OF THE ABOVE\t9700\t\\N\tP1924 - ACADEMIC TRAINING BUILDING - NAWS CHINA LAK\tP00006\t\\N\tBARNHART-REESE CONSTRUCTION, INC.\t008889570\t097\tDepartment of Defense (DOD)\tN62742\tNAVAL FAC ENGINEEERING CMD PACIFIC\t1700\tDEPT OF THE NAVY\t0.00\t0.00\t{subchapter_s_corporation,small_business,corporate_entity_not_tax_exempt,category_business,us_owned_business,special_designatio"
+    },
+    {
+      "line": 119275,
+      "category": "naval",
+      "text": "195102993\t9700_9700_N6247321F5402_P00001_N6247321D1214_0\tN\tNO\t2021-10-22 00:00:00\tG\tEXERCISE AN OPTION\tNONE: NONE OF THE ABOVE\t9700\t\\N\tLRP PROJECTS, NAWS CHINA LAKE, CA EXERCISE OPTION 0005 AND 0006\tP00001\t\\N\tWEBCOR CONSTRUCTION L.P.\t828894548\t097\tDepartment of Defense (DOD)\tN62742\tNAVAL FAC ENGINEEERING CMD PACIFIC\t1700\tDEPT OF THE NAVY\t236415.98\t236415.98\t{category_business,special_designations,us_owned_business,partnership_or_limited_liability_partnership,other_than_small_business}\t59MF7\tNO\tN"
+    },
+    {
+      "line": 175010,
+      "category": "naval",
+      "text": "195172324\t9700_9700_N6893621F0248_P00011_N6852021D0003_0\tN\tNO\t2021-10-25 00:00:00\tB\tSUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE\tNONE: NONE OF THE ABOVE\t9700\t\\N\tEO14042: COVID-19 TESTING AT CHINA LAKE AND PT. MUGU.\tP00011\t\\N\tADVANCIA AERONAUTICS, LLC\t792283272\t097\tDepartment of Defense (DOD)\tN68936\tNAVAL AIR WARFARE CENTER\t1700\tDEPT OF THE NAVY\t66203.80\t66203.80\t{us_owned_business,limited_liability_corporation,self_certified_small_disadvanted_business,minority_owned_business,small_business,speci"
+    },
+    {
+      "line": 179508,
+      "category": "weapons",
+      "text": "22488408\t9700_4730_N6893602F0253_0_GS35F5438H_0\tN\tNO\t2002-06-18 00:00:00\t\\N\t\\N\t\\N\t9700\t9835084\t200209!000116!1700!A8452 !NAVAL AIR WARFARE CENTER, WEAPON!GS35F5438H     !C!N! !N!N6893602F0253      !20020618!20020731!878831981!878831981!878831981!N!ORODAY INC                    !2393 TELLER ROAD, SUITE 10!NEWBURY PARK        !CA!91320!13154!029!06!CHINA LAKE NWC      !KERN                  !CALIFORNIA!+000000100271!N!N!000000000000!7025!ADP INPUT/OUTPUT AND STORAGE DEVICES              !C9E!ALL O"
+    },
+    {
+      "line": 182961,
+      "category": "weapons",
+      "text": "58689886\t9700_-none-_N6893601C0031_0_-none-_0\tN\tNO\t2001-03-28 00:00:00\t\\N\t\\N\t\\N\t9700\t0\t200108!000084!1700!A8452 !NAVAL AIR WARFARE CENTER, WEAPON!N6893601C0031  !A!N!*!N!                   !20010328!20010930!960103620!960103620!960103620!N!NEW DIRECTIONS TECHNOLOGIES, I!751 S RICHMOND RD STE D   !RIDGECREST          !CA!93555!13154!029!06!CHINA LAKE NWC      !KERN                  !CALIFORNIA!+000000364310!N!N!000000000000!D301!ADP FACILITY OPERATION & MAINTENANCE SERVICES     !S1 !SERVICES     "
+    },
+    {
+      "line": 184246,
+      "category": "weapons",
+      "text": "200798805\t9700_9700_N0001921F0373_P00002_N0001920D0106_0\tN\tNO\t2022-01-19 00:00:00\tM\tOTHER ADMINISTRATIVE ACTION\tNONE: NONE OF THE ABOVE\t9700\t\\N\tTHE PURPOSE OF THIS MODIFICATION IS TO CHANGE THE DELIVERY ADDRESS FOR CONTROL SECTION 0186 AND 0192 FROM CHINA LAKE TO SHIP IN PLACE.\tP00002\t\\N\tALLIANT TECHSYSTEMS OPERATIONS LLC\t\\N\t097\tDepartment of Defense (DOD)\tN00019\tNAVAL AIR SYSTEMS COMMAND\t1700\tDEPT OF THE NAVY\t0.00\t0.00\t{special_designations,us_owned_business,other_than_small_business,manufactur"
+    },
+    {
+      "line": 188579,
+      "category": "naval",
+      "text": "83115929\t9700_-none-_SPMYM218P1295_0_-none-_0\tN\tNO\t2018-02-21 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t78000\tGLOVES\t0\t\\N\tALLVET PACKAGING, LLC\t\\N\t097\tDepartment of Defense (DOD)\tSPMYM2\tDLA MARITIME - PUGET SOUND\t97AS\tDEFENSE LOGISTICS AGENCY\t13500.48\t13500.48\t{small_business,category_business,service_disabled_veteran_owned_business,sole_proprietorship,limited_liability_corporation,special_designations,veteran_owned_business,foreign_owned_and_us_located_business}\t7U8Y6\tNO\tN\tCOMMERCIAL ITEM\tA\tN"
+    },
+    {
+      "line": 188810,
+      "category": "naval",
+      "text": "93339745\t9700_-none-_SPMYM218P3177_0_-none-_0\tN\tNO\t2018-06-29 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t2150000\tFLAMELESS TORCH\t0\t\\N\tVES COMPANY, INC\t\\N\t097\tDepartment of Defense (DOD)\tSPMYM2\tDLA MARITIME - PUGET SOUND\t97AS\tDEFENSE LOGISTICS AGENCY\t720.00\t720.00\t{subchapter_s_corporation,us_owned_business,small_business,corporate_entity_not_tax_exempt,category_business,service_disabled_veteran_owned_business,special_designations,veteran_owned_business}\t3BSQ4\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT C"
+    },
+    {
+      "line": 188976,
+      "category": "naval",
+      "text": "95104923\t9700_-none-_SPMYM218P3530_0_-none-_0\tN\tNO\t2018-07-31 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tMAGNET,\t0\t\\N\tSTELLAR INDUSTRIAL SUPPLY, INC.\t\\N\t097\tDepartment of Defense (DOD)\tSPMYM2\tDLA MARITIME - PUGET SOUND\t97AS\tDEFENSE LOGISTICS AGENCY\t11000.00\t11000.00\t{self_certified_small_disadvanted_business,small_business,corporate_entity_not_tax_exempt,category_business,special_designations,foreign_owned_and_us_located_business}\t9H412\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNOT APPL"
+    },
+    {
+      "line": 189181,
+      "category": "naval",
+      "text": "99708290\t9700_-none-_SPMYM219P0311_0_-none-_0\tN\tNO\t2018-11-13 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tLIGHT STRING\t0\t\\N\tTATTERSALL SUPPLY, LLC\t\\N\t097\tDepartment of Defense (DOD)\tSPMYM2\tDLA MARITIME - PUGET SOUND\t97AS\tDEFENSE LOGISTICS AGENCY\t33600.00\t33600.00\t{self_certified_small_disadvanted_business,women_owned_small_business,us_owned_business,small_business,corporate_entity_not_tax_exempt,category_business,woman_owned_business,historically_underutilized_business_firm,limited_liability_"
+    },
+    {
+      "line": 189497,
+      "category": "naval",
+      "text": "112418042\t9700_-none-_SPMYM219P1606_0_-none-_0\tN\tNO\t2019-05-13 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tJACKET - SAFETY 2XL\t0\t\\N\tINTERNATIONAL PROMOTIONAL IDEAS INC\t\\N\t097\tDepartment of Defense (DOD)\tSPMYM2\tDLA MARITIME - PUGET SOUND\t97AS\tDEFENSE LOGISTICS AGENCY\t66027.50\t66027.50\t{us_owned_business,small_business,corporate_entity_not_tax_exempt,category_business,special_designations,manufacturer_of_goods}\t1G4L4\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNOT APPLICABLE\tX\tNOT APPLICABLE"
+    },
+    {
+      "line": 189557,
+      "category": "naval",
+      "text": "115946619\t9700_-none-_SPMYM219P1830_0_-none-_0\tN\tNO\t2019-06-04 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tGLOVE, C\t0\t\\N\tELCO LIMITED, INC.\t\\N\t097\tDepartment of Defense (DOD)\tSPMYM2\tDLA MARITIME - PUGET SOUND\t97AS\tDEFENSE LOGISTICS AGENCY\t40185.28\t40185.28\t{foreign_owned_and_located_business,small_business,corporate_entity_not_tax_exempt,category_business,special_designations,veteran_owned_business}\t7WAV7\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNOT APPLICABLE\tX\tNOT APPLICABLE\tX\tB\tPURCH"
+    },
+    {
+      "line": 189680,
+      "category": "naval",
+      "text": "128699858\t9700_-none-_SPMYM219P2493_0_-none-_0\tN\tNO\t2019-08-27 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tDESK, STUDENT\t0\t\\N\tNATIONAL OFFICE FURNITURE, INC.\t\\N\t097\tDepartment of Defense (DOD)\tSPMYM2\tDLA MARITIME - PUGET SOUND\t97AS\tDEFENSE LOGISTICS AGENCY\t3373.92\t3373.92\t{us_owned_business,category_business,corporate_entity_not_tax_exempt,other_than_small_business,special_designations,manufacturer_of_goods}\t633M8\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNOT APPLICABLE\tX\tNOT APPLICABLE\t"
+    },
+    {
+      "line": 189773,
+      "category": "naval",
+      "text": "131636862\t9700_-none-_SPMYM219P2786_0_-none-_0\tN\tNO\t2019-09-19 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tTOWELETT\t0\t\\N\tSOUND SAFETY PRODUCTS INC.\t\\N\t097\tDepartment of Defense (DOD)\tSPMYM2\tDLA MARITIME - PUGET SOUND\t97AS\tDEFENSE LOGISTICS AGENCY\t2792.00\t2792.00\t{women_owned_small_business,us_owned_business,small_business,corporate_entity_not_tax_exempt,category_business,minority_owned_business,woman_owned_business,american_indian_owned_business,special_designations,native_american_owned_busi"
+    },
+    {
+      "line": 189890,
+      "category": "naval",
+      "text": "134021370\t9700_-none-_SPMYM220P0031_0_-none-_0\tN\tNO\t2019-10-09 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tLENS, FILTER, WELDER\t0\t\\N\tPRAXAIR DISTRIBUTION, INC.\t\\N\t097\tDepartment of Defense (DOD)\tSPMYM2\tDLA MARITIME - PUGET SOUND\t97AS\tDEFENSE LOGISTICS AGENCY\t300.00\t300.00\t{foreign_owned_and_located_business,category_business,corporate_entity_not_tax_exempt,other_than_small_business,special_designations,manufacturer_of_goods}\t649M0\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNOT APPLICABLE\t"
+    },
+    {
+      "line": 189949,
+      "category": "naval",
+      "text": "135655651\t9700_-none-_SPMYM220P0227_0_-none-_0\tN\tNO\t2019-10-22 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\t15' SURGE PROTECTOR\t0\t\\N\tW.W. GRAINGER, INC.\t\\N\t097\tDepartment of Defense (DOD)\tSPMYM2\tDLA MARITIME - PUGET SOUND\t97AS\tDEFENSE LOGISTICS AGENCY\t62.65\t62.65\t{us_owned_business,category_business,corporate_entity_not_tax_exempt,other_than_small_business,special_designations}\t25795\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNOT APPLICABLE\tX\tNOT APPLICABLE\tX\tB\tPURCHASE ORDER\tH\tNOT BUNDLED"
+    },
+    {
+      "line": 190102,
+      "category": "naval",
+      "text": "140118238\t9700_-none-_SPMYM220P0676_0_-none-_0\tN\tNO\t2019-11-26 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tMAGNET, 95 LB PULL\t0\t\\N\tELITE TEXTILE TRADING LLC\t\\N\t097\tDepartment of Defense (DOD)\tSPMYM2\tDLA MARITIME - PUGET SOUND\t97AS\tDEFENSE LOGISTICS AGENCY\t16000.00\t16000.00\t{self_certified_small_disadvanted_business,foreign_owned_and_located_business,small_business,category_business,sole_proprietorship,special_designations}\t7B4D4\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNOT APPLICABLE\tX\t"
+    },
+    {
+      "line": 190328,
+      "category": "naval",
+      "text": "151805701\t9700_-none-_SPMYM220P1599_0_-none-_0\tN\tNO\t2020-04-01 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tPIPE\t0\t\\N\tPUGET SOUND PIPE AND SUPPLY COMPANY\t\\N\t097\tDepartment of Defense (DOD)\tSPMYM2\tDLA MARITIME - PUGET SOUND\t97AS\tDEFENSE LOGISTICS AGENCY\t1000.00\t1000.00\t{subchapter_s_corporation,small_business,corporate_entity_not_tax_exempt,category_business,special_designations,foreign_owned_and_us_located_business}\t6E416\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNOT APPLICABLE\tX\tNOT APPL"
+    },
+    {
+      "line": 190739,
+      "category": "naval",
+      "text": "158816646\t9700_-none-_SPMYM220P2410_0_-none-_0\tN\tNO\t2020-07-25 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tHIGH BACK CHAIR\t0\t\\N\tAUTOMATION AIDS, INC.\t\\N\t097\tDepartment of Defense (DOD)\tSPMYM2\tDLA MARITIME - PUGET SOUND\t97AS\tDEFENSE LOGISTICS AGENCY\t499.00\t499.00\t{small_business,corporate_entity_not_tax_exempt,category_business,special_designations,foreign_owned_and_us_located_business}\t01QM9\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNOT APPLICABLE\tX\tNOT APPLICABLE\tX\tB\tPURCHASE ORDER\tH\tNO"
+    },
+    {
+      "line": 190772,
+      "category": "naval",
+      "text": "160228561\t9700_-none-_SPMYM220P2555_0_-none-_0\tN\tNO\t2020-08-19 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tFORM 3 3D PRINTER\t0\t\\N\tENGITYPE, LLC\t\\N\t097\tDepartment of Defense (DOD)\tSPMYM2\tDLA MARITIME - PUGET SOUND\t97AS\tDEFENSE LOGISTICS AGENCY\t9943.00\t9943.00\t{subchapter_s_corporation,self_certified_small_disadvanted_business,us_owned_business,small_business,corporate_entity_not_tax_exempt,category_business,special_designations}\t6G7E7\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNOT APPLICAB"
+    },
+    {
+      "line": 191062,
+      "category": "naval",
+      "text": "21083610\t9700_-none-_SPMYM315M5002_0_-none-_0\tN\tNO\t2014-11-03 00:00:00\t\\N\t\\N\t\\N\t9700\t34000000\tELECTRODE, WELDING\t0\t\\N\tMAINE OXY-ACETYLENE SUPPLY COMPANY\t\\N\t097\tDepartment of Defense (DOD)\tSPMYM3\tDLA MARITIME - PORTSMOUTH\t97AS\tDEFENSE LOGISTICS AGENCY\t1960.00\t1960.00\t{us_owned_business,small_business,corporate_entity_not_tax_exempt,category_business,special_designations}\t\\N\tNO\tN\tCOMMERCIAL ITEM PROCEDURES NOT USED\tD\tNO\tN\tN\tNO\tNOT APPLICABLE\tX\tNOT APPLICABLE\tX\tB\tPURCHASE ORDER\tD\tNOT A BUNDLED REQU"
+    },
+    {
+      "line": 195473,
+      "category": "naval",
+      "text": "200800152\t9700_9700_N6247321F4264_P00010_N6247317D4635_0\tN\tNO\t2022-01-20 00:00:00\tB\tSUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE\tNONE: NONE OF THE ABOVE\t9700\t\\N\tP1924 - ACADEMIC TRAINING BUILDING - NAWS CHINA LAK\tP00010\t\\N\tBARNHART-REESE CONSTRUCTION, INC.\t\\N\t097\tDepartment of Defense (DOD)\tN62742\tNAVAL FAC ENGINEEERING CMD PACIFIC\t1700\tDEPT OF THE NAVY\t866394.00\t866394.00\t{subchapter_s_corporation,special_designations,us_owned_business,category_business,corporate_entity_not_tax_exempt,veteran_o"
+    },
+    {
+      "line": 207829,
+      "category": "naval",
+      "text": "143929251\t9700_0300_N0012420F0042_0_03310318DL19C0006_0\tN\tNO\t2019-12-31 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tCHINESE ACADEMIC DATABASES RENEWAL\t0\t\\N\tEAST VIEW INFORMATION SERVICES, INC\t\\N\t097\tDepartment of Defense (DOD)\tN00124\tNAVAL WAR COLLEGE\t1700\tDEPT OF THE NAVY\t98800.20\t98800.20\t{subchapter_s_corporation,us_owned_business,category_business,other_than_small_business,special_designations}\t0N427\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNO\tN\tNOT APPLICABLE\tX\tC\tDELIVERY ORDER\tH\tN"
+    },
+    {
+      "line": 223490,
+      "category": "naval",
+      "text": "195212754\t9700_9700_N6247320F5106_P00013_N6247316D1885_0\tN\tNO\t2021-10-26 00:00:00\tB\tSUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE\tNONE: NONE OF THE ABOVE\t9700\t\\N\t(CONSTR) RM19-1867 -- REPAIR WINGS 2-5 MICHELSON LAB, NAWS CHINA\tP00013\t\\N\tRQ CONSTRUCTION, LLC\t966254349\t097\tDepartment of Defense (DOD)\tN62742\tNAVAL FAC ENGINEEERING CMD PACIFIC\t1700\tDEPT OF THE NAVY\t8056.00\t8056.00\t{partnership_or_limited_liability_partnership,other_than_small_business,special_designations,us_owned_business,category_b"
+    },
+    {
+      "line": 260316,
+      "category": "naval",
+      "text": "172854600\t9700_-none-_H9224021P0023_0_-none-_0\tN\tNO\t2021-02-26 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tWETSUITS\t0\t\\N\tSOVAX CORP\t137020553\t097\tDepartment of Defense (DOD)\tH92240\tNAVAL SPECIAL WARFARE COMMAND\t97ZS\tU.S. SPECIAL OPERATIONS COMMAND (USSOCOM)\t80977.14\t60155.00\t{special_designations,corporate_entity_not_tax_exempt,self_certified_small_disadvanted_business,small_business,category_business,manufacturer_of_goods,us_owned_business,subchapter_s_corporation}\t7WPV0\tNO\tN\tCOMMERCIAL ITEM"
+    },
+    {
+      "line": 260963,
+      "category": "naval",
+      "text": "192494864\t9700_-none-_N0018921P0595_0_-none-_0\tN\tNO\t2021-09-11 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tHP COLOR LASERJET ENTERPRISE MFP M480F\t0\t\\N\tIMPRES TECHNOLOGY SOLUTIONS, INC.\t011182784\t097\tDepartment of Defense (DOD)\tN00189\tNAVSUP FLT LOG CTR NORFOLK\t1700\tDEPT OF THE NAVY\t16498.56\t16498.56\t{asian_pacific_american_owned_business,special_designations,corporate_entity_not_tax_exempt,small_business,category_business,historically_underutilized_business_firm,us_owned_business,minority_own"
+    },
+    {
+      "line": 265017,
+      "category": "naval",
+      "text": "161370676\t9700_9700_W52P1J20F0621_0_W52P1J20D0030_1\tN\tNO\t2020-09-10 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tREQUIRE A JMC-APPROVED BROKER TO TRAVEL TO NAVAL AIR WARFARE CENTER - WEAPONS DIVISION IN CHINA LAKE, CA TO INVESTIGATE, DOCUMENT, AND CHARACTERIZE THE CONTAMINATION OR RADIOLOGICAL IMPACT AT THE 11 (ELEVEN) LOCATIONS.\t0\t\\N\tC&C ENVIRONMENTAL, INC.\t\\N\t097\tDepartment of Defense (DOD)\tW52P1J\tW4MM USA JOINT MUNITIONS CMD\t2100\tDEPT OF THE ARMY\t19706.75\t19706.75\t{us_owned_business,america"
+    },
+    {
+      "line": 265296,
+      "category": "critical_infrastructure",
+      "text": "97251531\t9700_9700_W912DW18F5036_0_W52P1J16D0009_0\tN\tNO\t2018-09-18 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tMULTIFUNCTION DEVICE (MFD) PRINTER FOR USE AT CHIEF JOSEPH DAM.\t0\t\\N\tDYNAMIC SYSTEMS, INC.\t\\N\t097\tDepartment of Defense (DOD)\tW912DW\tUS ARMY ENGINEER DISTRICT SEATTLE\t2100\tDEPT OF THE ARMY\t4054.90\t4054.90\t{us_owned_business,corporate_entity_not_tax_exempt,small_business,special_designations,woman_owned_business,women_owned_small_business,category_business}\t0Z428\tYES\tY\tCOMMERCIAL ITEM"
+    },
+    {
+      "line": 279565,
+      "category": "weapons",
+      "text": "130505065\t9700_9700_N6247319F5010_P00001_N6247316D2415_0\tN\tNO\t2019-09-10 00:00:00\tB\tSUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE\tNONE: NONE OF THE ABOVE\t9700\t\\N\tFY19 TOWHEE HABITAT RESTORATION; ELIN BASED.\tP00001\t\\N\tPATRIOT JOINT VENTURE\t\\N\t097\tDepartment of Defense (DOD)\tN62473\tNAVFAC SOUTHWEST\t1700\tDEPT OF THE NAVY\t23607.10\t23607.10\t{us_owned_business,service_disabled_veteran_owned_business,veteran_owned_business,small_business,self_certified_small_disadvanted_business,special_designations,cat"
+    },
+    {
+      "line": 279574,
+      "category": "weapons",
+      "text": "161274700\t9700_9700_N6247319F5238_P00001_N6247316D2414_0\tN\tNO\t2020-09-09 00:00:00\tB\tSUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE\tNONE: NONE OF THE ABOVE\t9700\t\\N\tTUI CHUB HABITAT ENHANCEMENT AT CHINA LAKE - THIS MODIFICATION INCREASES OBLIGATIONS FOR ADDITIONAL SERVICES AND EXTEND THE POP THE SERVICES WERE INCLUDED IN AWARD FOR FUTURE FUNDING.\tP00001\t\\N\tIO ENVIRONMENTAL AND INFRASTRUCTURE INCORPORATED\t\\N\t097\tDepartment of Defense (DOD)\tN62473\tNAVFAC SOUTHWEST\t1700\tDEPT OF THE NAVY\t73365.57\t73365."
+    },
+    {
+      "line": 279575,
+      "category": "weapons",
+      "text": "185174238\t9700_9700_N6247319F5238_P00002_N6247316D2414_0\tN\tNO\t2021-08-03 00:00:00\tB\tSUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE\tNONE: NONE OF THE ABOVE\t9700\t\\N\tTUI CHUB HABITAT ENHANCEMENT AT CHINA LAKE\tP00002\t\\N\tIO ENVIRONMENTAL AND INFRASTRUCTURE INCORPORATED\t\\N\t097\tDepartment of Defense (DOD)\tN62473\tNAVFAC SOUTHWEST\t1700\tDEPT OF THE NAVY\t0.00\t0.00\t{us_owned_business,service_disabled_veteran_owned_business,veteran_owned_business,corporate_entity_not_tax_exempt,small_business,special_designati"
+    },
+    {
+      "line": 279576,
+      "category": "weapons",
+      "text": "200800100\t9700_9700_N6247319F5238_P00003_N6247316D2414_0\tN\tNO\t2022-01-19 00:00:00\tG\tEXERCISE AN OPTION\tNONE: NONE OF THE ABOVE\t9700\t\\N\tTUI CHUB HABITAT ENHANCEMENT AT CHINA LAKE\tP00003\t\\N\tIO ENVIRONMENTAL AND INFRASTRUCTURE INCORPORATED\t\\N\t097\tDepartment of Defense (DOD)\tN62473\tNAVFAC SOUTHWEST\t1700\tDEPT OF THE NAVY\t40545.59\t40545.59\t{us_owned_business,service_disabled_veteran_owned_business,veteran_owned_business,corporate_entity_not_tax_exempt,small_business,special_designations,category_busin"
+    },
+    {
+      "line": 279612,
+      "category": "weapons",
+      "text": "180022834\t9700_9700_N6247321F4592_0_N6247316D2414_0\tN\tNO\t2021-05-18 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tHABITAT ENHANCEMENT SERVICES\t0\t\\N\tIO ENVIRONMENTAL AND INFRASTRUCTURE INCORPORATED\t\\N\t097\tDepartment of Defense (DOD)\tN62473\tNAVFACSYSCOM SOUTHWEST\t1700\tDEPT OF THE NAVY\t68933.00\t68933.00\t{service_disabled_veteran_owned_business,veteran_owned_business,us_owned_business,corporate_entity_not_tax_exempt,category_business,special_designations,small_business}\t51H04\tNO\tN\tCOMMERCIAL ITEM P"
+    },
+    {
+      "line": 287876,
+      "category": "weapons",
+      "text": "200799017\t9700_9700_N0010422FD302_0_SPRMM118DD301_0\tN\tNO\t2022-01-21 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tSEALER,SURFACE\t0\t\\N\tPRC - DESOTO INTERNATIONAL, INC.\t\\N\t097\tDepartment of Defense (DOD)\tN00104\tNAVSUP WEAPON SYSTEMS SUPPORT MECH\t1700\tDEPT OF THE NAVY\t306720.00\t306720.00\t{special_designations,us_owned_business,category_business,other_than_small_business,corporate_entity_not_tax_exempt,manufacturer_of_goods}\t23354\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNOT APPLICABLE\tX\tNOT "
+    },
+    {
+      "line": 287952,
+      "category": "naval",
+      "text": "195277721\t9700_9700_N6247320F5226_P00027_N6247019D8025_0\tN\tNO\t2021-10-27 00:00:00\tG\tEXERCISE AN OPTION\tNONE: NONE OF THE ABOVE\t9700\t\\N\tSOUTH AIRFEILD MCON PROJECTS CHINA LAKE PLANNED MODIFICATION FOR FURNITURE, FIXTURES AND EQUIPMENT.\tP00027\t\\N\tENVIRONMENTAL CHEMICAL CORPORATION\t601293962\t097\tDepartment of Defense (DOD)\tN62742\tNAVAL FAC ENGINEEERING CMD PACIFIC\t1700\tDEPT OF THE NAVY\t16356160.80\t16356160.80\t{special_designations,corporate_entity_not_tax_exempt,category_business,us_owned_business,"
+    },
+    {
+      "line": 313249,
+      "category": "naval",
+      "text": "135731355\t9700_9700_SPMYM220F0016_0_SPMYM215D0002_0\tN\tNO\t2019-10-22 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tPOTTING AND MOLDING COMPOUND\t0\t\\N\tPRC - DESOTO INTERNATIONAL, INC.\t\\N\t097\tDepartment of Defense (DOD)\tSPMYM2\tDLA MARITIME - PUGET SOUND\t97AS\tDEFENSE LOGISTICS AGENCY\t4922.64\t4922.64\t{us_owned_business,category_business,corporate_entity_not_tax_exempt,other_than_small_business,special_designations}\t0WHH7\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNOT APPLICABLE\tX\tNOT APPLICABLE\tX"
+    },
+    {
+      "line": 315515,
+      "category": "naval",
+      "text": "192325473\t9700_-none-_N6883621P0277_0_-none-_0\tN\tNO\t2021-09-10 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tADVANCED ALL IN ONE HEADSETS.\t0\t\\N\tHERMEZ COMMUNICATIONS INC\t\\N\t097\tDepartment of Defense (DOD)\tN68836\tNAVSUP FLT LOG CTR JACKSONVILLE\t1700\tDEPT OF THE NAVY\t21857.18\t21857.18\t{self_certified_small_disadvanted_business,us_owned_business,subcontinent_asian_indian_american_owned_business,small_business,corporate_entity_not_tax_exempt,category_business,minority_owned_business,special_designa"
+    },
+    {
+      "line": 328853,
+      "category": "naval",
+      "text": "52088477\t9700_9700_0124_0_N6893602D0027_0\tN\tNO\t2005-10-03 00:00:00\t\\N\t\\N\t\\N\t9700\t500000000\t200601!097119!1700!N68936!NAVAL AIR WARFARE CENTER        !N6893602D0027  !A!N! !Y!0124         !      !20051003!20060930!041024415!041024415!878075373!N!WYLE LABORATORIES, INC        !7800 HIGHWAY 20 WEST      !HUNTSVILLE          !AL!35806!13154!029!06!CHINA LAKE NWC      !KERN                  !CALIFORNIA!+000000132400!N!N!000000000000!D399!OTHER ADP & TELECOMMUNICATION SERVICES            !S1 !SERVICES"
+    },
+    {
+      "line": 328855,
+      "category": "weapons",
+      "text": "22491346\t9700_9700_0127_0_N6893602D0027_0\tN\tNO\t2002-07-01 00:00:00\t\\N\t\\N\t\\N\t9700\t0\t200210!000127!1700!A8457 !NAVAL AIR WARFARE CENTER, WEAPON!N6893602D0027  !A!N! !N!                   !20020701!20070930!004482378!004482378!837980291!N!VERIDIAN ENGINEERING, INC     !4455 GENESEE STREET       !BUFFALO             !VA!14225!13154!029!06!CHINA LAKE NWC      !KERN                  !CALIFORNIA!+000001000000!N!N!000163429753!D399!OTHER ADP & TELECOMMUNICATION SERVICES            !S1 !SERVICES         "
+    },
+    {
+      "line": 328857,
+      "category": "naval",
+      "text": "60476873\t9700_9700_0127_0_N6893602D0027_1\tN\tNO\t2005-09-29 00:00:00\t\\N\t\\N\t\\N\t9700\t500000000\t200512!452809!1700!N68936!NAVAL AIR WARFARE CENTER        !N6893602D0027  !A!N! !Y!0127         !      !20050929!20060930!041024415!041024415!878075373!N!WYLE LABORATORIES, INC        !7800 HIGHWAY 20 WEST      !HUNTSVILLE          !AL!35806!13154!029!06!CHINA LAKE NWC      !KERN                  !CALIFORNIA!+000000010000!N!N!000000000000!D399!OTHER ADP & TELECOMMUNICATION SERVICES            !S1 !SERVICES"
+    },
+    {
+      "line": 328863,
+      "category": "naval",
+      "text": "60471089\t9700_9700_0130_0_N6893602D0027_0\tN\tNO\t2005-09-28 00:00:00\t\\N\t\\N\t\\N\t9700\t500000000\t200512!452807!1700!N68936!NAVAL AIR WARFARE CENTER        !N6893602D0027  !A!N! !Y!0130         !      !20050928!20080115!041024415!041024415!878075373!N!WYLE LABORATORIES, INC        !7800 HIGHWAY 20 WEST      !HUNTSVILLE          !AL!35806!13154!029!06!CHINA LAKE NWC      !KERN                  !CALIFORNIA!+000000024000!N!N!000000000000!D399!OTHER ADP & TELECOMMUNICATION SERVICES            !S1 !SERVICES"
+    },
+    {
+      "line": 328868,
+      "category": "naval",
+      "text": "60481484\t9700_9700_0135_0_N6893602D0027_0\tN\tNO\t2005-09-27 00:00:00\t\\N\t\\N\t\\N\t9700\t500000000\t200512!441488!1700!N68936!NAVAL AIR WARFARE CENTER        !N6893602D0027  !A!N! !Y!0135         !      !20050927!20060930!041024415!041024415!878075373!N!WYLE LABORATORIES, INC        !7800 HIGHWAY 20 WEST      !HUNTSVILLE          !AL!35806!13154!029!06!CHINA LAKE NWC      !KERN                  !CALIFORNIA!+000000050000!N!N!000000000000!D399!OTHER ADP & TELECOMMUNICATION SERVICES            !S1 !SERVICES"
+    },
+    {
+      "line": 328869,
+      "category": "naval",
+      "text": "60481796\t9700_9700_0137_0_N6893602D0027_0\tN\tNO\t2005-09-28 00:00:00\t\\N\t\\N\t\\N\t9700\t500000000\t200512!452805!1700!N68936!NAVAL AIR WARFARE CENTER        !N6893602D0027  !A!N! !Y!0137         !      !20050928!20060930!041024415!041024415!878075373!N!WYLE LABORATORIES, INC        !7800 HIGHWAY 20 WEST      !HUNTSVILLE          !AL!35806!13154!029!06!CHINA LAKE NWC      !KERN                  !CALIFORNIA!+000000024999!N!N!000000000000!D399!OTHER ADP & TELECOMMUNICATION SERVICES            !S1 !SERVICES"
+    },
+    {
+      "line": 328872,
+      "category": "naval",
+      "text": "51990662\t9700_9700_0138_0_N6893602D0027_0\tN\tNO\t2005-10-03 00:00:00\t\\N\t\\N\t\\N\t9700\t500000000\t200601!097137!1700!N68936!NAVAL AIR WARFARE CENTER        !N6893602D0027  !A!N! !Y!0138         !      !20051003!20080115!041024415!041024415!878075373!N!WYLE LABORATORIES, INC        !7800 HIGHWAY 20 WEST      !HUNTSVILLE          !AL!35806!13154!029!06!CHINA LAKE NWC      !KERN                  !CALIFORNIA!+000000024500!N!N!000000000000!D399!OTHER ADP & TELECOMMUNICATION SERVICES            !S1 !SERVICES"
+    },
+    {
+      "line": 328873,
+      "category": "naval",
+      "text": "52079405\t9700_9700_0139_0_N6893602D0027_0\tN\tNO\t2005-10-03 00:00:00\t\\N\t\\N\t\\N\t9700\t500000000\t200601!097135!1700!N68936!NAVAL AIR WARFARE CENTER        !N6893602D0027  !A!N! !Y!0139         !      !20051003!20060930!041024415!041024415!878075373!N!WYLE LABORATORIES, INC        !7800 HIGHWAY 20 WEST      !HUNTSVILLE          !AL!35806!13154!029!06!CHINA LAKE NWC      !KERN                  !CALIFORNIA!+000000024999!N!N!000000000000!D399!OTHER ADP & TELECOMMUNICATION SERVICES            !S1 !SERVICES"
+    },
+    {
+      "line": 328874,
+      "category": "naval",
+      "text": "52078702\t9700_9700_0140_0_N6893602D0027_0\tN\tNO\t2005-10-03 00:00:00\t\\N\t\\N\t\\N\t9700\t500000000\t200601!097117!1700!N68936!NAVAL AIR WARFARE CENTER        !N6893602D0027  !A!N! !Y!0140         !      !20051003!20060930!041024415!041024415!878075373!N!WYLE LABORATORIES, INC        !7800 HIGHWAY 20 WEST      !HUNTSVILLE          !AL!35806!13154!029!06!CHINA LAKE NWC      !KERN                  !CALIFORNIA!+000000174200!N!N!000000000000!D399!OTHER ADP & TELECOMMUNICATION SERVICES            !S1 !SERVICES"
+    },
+    {
+      "line": 328877,
+      "category": "naval",
+      "text": "52089768\t9700_9700_0143_0_N6893602D0027_0\tN\tNO\t2005-10-03 00:00:00\t\\N\t\\N\t\\N\t9700\t500000000\t200601!097115!1700!N68936!NAVAL AIR WARFARE CENTER        !N6893602D0027  !A!N! !Y!0143         !      !20051003!20060930!041024415!041024415!878075373!N!WYLE LABORATORIES, INC        !7800 HIGHWAY 20 WEST      !HUNTSVILLE          !AL!35806!13154!029!06!CHINA LAKE NWC      !KERN                  !CALIFORNIA!+000000148600!N!N!000000000000!D399!OTHER ADP & TELECOMMUNICATION SERVICES            !S1 !SERVICES"
+    },
+    {
+      "line": 328879,
+      "category": "naval",
+      "text": "52093172\t9700_9700_0144_0_N6893602D0027_0\tN\tNO\t2005-10-03 00:00:00\t\\N\t\\N\t\\N\t9700\t500000000\t200601!097131!1700!N68936!NAVAL AIR WARFARE CENTER        !N6893602D0027  !A!N! !Y!0144         !      !20051003!20060930!041024415!041024415!878075373!N!WYLE LABORATORIES, INC        !7800 HIGHWAY 20 WEST      !HUNTSVILLE          !AL!35806!13154!029!06!CHINA LAKE NWC      !KERN                  !CALIFORNIA!+000001553600!N!N!000000000000!D399!OTHER ADP & TELECOMMUNICATION SERVICES            !S1 !SERVICES"
+    },
+    {
+      "line": 328881,
+      "category": "naval",
+      "text": "51990387\t9700_9700_0148_0_N6893602D0027_0\tN\tNO\t2005-10-03 00:00:00\t\\N\t\\N\t\\N\t9700\t500000000\t200601!097127!1700!N68936!NAVAL AIR WARFARE CENTER        !N6893602D0027  !A!N! !Y!0148         !      !20051003!20060930!041024415!041024415!878075373!N!WYLE LABORATORIES, INC        !7800 HIGHWAY 20 WEST      !HUNTSVILLE          !AL!35806!13154!029!06!CHINA LAKE NWC      !KERN                  !CALIFORNIA!+000000692900!N!N!000000000000!D399!OTHER ADP & TELECOMMUNICATION SERVICES            !S1 !SERVICES"
+    },
+    {
+      "line": 328885,
+      "category": "naval",
+      "text": "60468091\t9700_9700_0151_0_N6893602D0027_0\tN\tNO\t2005-09-30 00:00:00\t\\N\t\\N\t\\N\t9700\t500000000\t200512!452801!1700!N68936!NAVAL AIR WARFARE CENTER        !N6893602D0027  !A!N! !Y!0151         !      !20050930!20060930!041024415!041024415!878075373!N!WYLE LABORATORIES, INC        !7800 HIGHWAY 20 WEST      !HUNTSVILLE          !AL!35806!13154!029!06!CHINA LAKE NWC      !KERN                  !CALIFORNIA!+000000012500!N!N!000000000000!D399!OTHER ADP & TELECOMMUNICATION SERVICES            !S1 !SERVICES"
+    },
+    {
+      "line": 329689,
+      "category": "naval",
+      "text": "195275731\t9700_9700_FA807520F0053_P00024_FA807518D0004_0\tN\tNO\t2021-10-27 00:00:00\tM\tOTHER ADMINISTRATIVE ACTION\tNONE: NONE OF THE ABOVE\t9700\t\\N\tTECHNOLOGY PROTECTION FOR NAVAL AIR WARFARE CENTER CHINA LAKE\tP00024\t\\N\tBOOZ ALLEN HAMILTON INC.\t006928857\t097\tDepartment of Defense (DOD)\tFA8075\tFA8075  774 ESS\t5700\tDEPT OF THE AIR FORCE\t0.00\t0.00\t{special_designations,corporate_entity_not_tax_exempt,category_business,us_owned_business,other_than_small_business}\t17038\tNO\tN\tCOMMERCIAL ITEM PROCEDURES NO"
+    },
+    {
+      "line": 331828,
+      "category": "naval",
+      "text": "172529294\t9700_-none-_SPMYM221P0756_0_-none-_0\tN\tNO\t2021-02-17 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tFRAMING\t0\t\\N\t\\N\t\\N\t097\tDepartment of Defense (DOD)\tSPMYM2\tDLA MARITIME - PUGET SOUND\t97AS\tDEFENSE LOGISTICS AGENCY\t40100.00\t40100.00\t{women_owned_small_business,minority_owned_business,woman_owned_business,self_certified_small_disadvanted_business,category_business,small_business,subcontinent_asian_indian_american_owned_business,us_owned_business,special_designations}\t768R4\tNO\tN\tCOMMERCI"
+    },
+    {
+      "line": 331833,
+      "category": "naval",
+      "text": "172529298\t9700_-none-_SPMYM221P0764_0_-none-_0\tN\tNO\t2021-02-18 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tGLOVES\t0\t\\N\t\\N\t\\N\t097\tDepartment of Defense (DOD)\tSPMYM2\tDLA MARITIME - PUGET SOUND\t97AS\tDEFENSE LOGISTICS AGENCY\t16912.80\t16912.80\t{special_designations,category_business,small_business,veteran_owned_business,us_owned_business,corporate_entity_not_tax_exempt}\t7WAV7\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNOT APPLICABLE\tX\tNOT APPLICABLE\tX\tB\tPURCHASE ORDER\tH\tNOT BUNDLED\tZ\tNOT APPLI"
+    },
+    {
+      "line": 331858,
+      "category": "naval",
+      "text": "173983424\t9700_-none-_SPMYM221P0978_0_-none-_0\tN\tNO\t2021-03-17 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tANTI-VIBE GLOVES\t0\t\\N\t\\N\t\\N\t097\tDepartment of Defense (DOD)\tSPMYM2\tDLA MARITIME - PUGET SOUND\t97AS\tDEFENSE LOGISTICS AGENCY\t20192.00\t20192.00\t{special_designations,self_certified_small_disadvanted_business,category_business,small_business,us_owned_business,corporate_entity_not_tax_exempt}\t0BPH2\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNOT APPLICABLE\tX\tNOT APPLICABLE\tX\tB\tPURCHASE OR"
+    },
+    {
+      "line": 332004,
+      "category": "naval",
+      "text": "195668777\t9700_-none-_SPMYM222P0173_0_-none-_0\tN\tNO\t2021-11-03 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tMAGNET,\t0\t\\N\t\\N\t\\N\t097\tDepartment of Defense (DOD)\tSPMYM2\tDLA MARITIME - PUGET SOUND\t97AS\tDEFENSE LOGISTICS AGENCY\t33880.00\t33880.00\t{foreign_owned_and_located_business,women_owned_small_business,minority_owned_business,woman_owned_business,self_certified_small_disadvanted_business,category_business,small_business,subcontinent_asian_indian_american_owned_business,special_designations}\t76"
+    },
+    {
+      "line": 332094,
+      "category": "naval",
+      "text": "122208692\t9700_-none-_SPMYM319P7058_0_-none-_0\tN\tNO\t2019-07-12 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tWELDING ROD\t0\t\\N\t\\N\t\\N\t097\tDepartment of Defense (DOD)\tSPMYM3\tDLA MARITIME - PORTSMOUTH\t97AS\tDEFENSE LOGISTICS AGENCY\t1791.00\t1791.00\t{subchapter_s_corporation,minority_owned_business,women_owned_small_business,woman_owned_business,category_business,hispanic_american_owned_business,small_business,corporate_entity_not_tax_exempt}\t1F1B2\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNOT AP"
+    },
+    {
+      "line": 333386,
+      "category": "communications",
+      "text": "160697172\t1900_-none-_19CH2521P6018_0_-none-_0\tN\tNO\t2020-11-24 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t1900\t\\N\tRENEW FCS' EXISTING ISP (VPN SERVICE)-VALID TILL 5/9/21\t0\t\\N\t\\N\t\\N\t019\tDepartment of State (DOS)\t19CH25\tAMERICAN CONSULATE GUANGZHOU\t1900\tSTATE, DEPARTMENT OF\t39614.75\t39614.75\t{foreign_owned_and_located_business,limited_liability_corporation,category_business,other_than_small_business,special_designations}\tSXB99\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNOT APPLICABLE\tX\tNOT APPLICA"
+    },
+    {
+      "line": 339313,
+      "category": "military_systems",
+      "text": "212564924\t7200_-none-_72066022P00052_0_-none-_0\tN\tNO\t2022-09-29 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t7200\t\\N\tHP PRINTERS ARE TO REPLACE THE MISSION KYOCERA PRINTERS AND THE DELL DOCK WD19S130W AND 180W ARE FOR THE LAPTOPS THAT ARE BEIN SHIPPED BY MCIO WAREHOUSE TO REPLACE MISSION LENOVO LAPTOPS AEGIS 60 GB SECURE DRIVE ARE TO REPLACE THE EXISTING FAULTY DRI\t0\t\\N\t\\N\t\\N\t072\tAgency for International Development (USAID)\t720660\tUSAID/DEMOCRATIC REPUBLIC OF CONGO\t7200\tAGENCY FOR INTERNATIONAL DEVELO"
+    },
+    {
+      "line": 343874,
+      "category": "naval",
+      "text": "49149607\t9700_9700_0010_0_N6247404G9409_0\tN\tNO\t2005-05-24 00:00:00\t\\N\t\\N\t\\N\t9700\t1000000\t200509!252281!1700!N68711!NAVFAC ENGINEERING FIELD DIVISII!N6247404G9409  !A!N! !N!0010         !      !20050524!20050930!149171691!149171691!149171691!N!DWG & ASSOC INC               !820 N H ST STE C          !LOMPOC              !CA!93436!13154!029!06!CHINA LAKE NWC      !KERN                  !CALIFORNIA!+000000439321!N!N!000000000000!Z249!MAINT/OTHER UTILITIES                             !C2 !CONSTRUCTI"
+    },
+    {
+      "line": 343881,
+      "category": "naval",
+      "text": "47613273\t9700_9700_0013_0_N6247404G9409_0\tN\tNO\t2005-08-05 00:00:00\t\\N\t\\N\t\\N\t9700\t1000000\t200511!342305!1700!N68711!NAVFAC ENGINEERING FIELD DIVISII!N6247404G9409  !A!N! !N!0013         !      !20050805!20050930!149171691!149171691!149171691!N!DWG & ASSOC INC               !820 N H ST STE C          !LOMPOC              !CA!93436!13154!029!06!CHINA LAKE NWC      !KERN                  !CALIFORNIA!+000000046177!N!N!000000000000!Z199!MAINT/OTHER MISCELLANEOUS BUILDINGS               !C2 !CONSTRUCTI"
+    },
+    {
+      "line": 343885,
+      "category": "naval",
+      "text": "48280352\t9700_9700_0015_0_N6247404G9409_0\tN\tNO\t2005-09-30 00:00:00\t\\N\t\\N\t\\N\t9700\t1000000\t200512!443847!1700!N68711!NAVFAC ENGINEERING FIELD DIVISII!N6247404G9409  !A!N! !N!0015         !      !20050930!20060614!149171691!149171691!149171691!N!DWG & ASSOC INC               !820 N H ST STE C          !LOMPOC              !CA!93436!13154!029!06!CHINA LAKE NWC      !KERN                  !CALIFORNIA!+000001274831!N!N!000000000000!Z249!MAINT/OTHER UTILITIES                             !C2 !CONSTRUCTI"
+    },
+    {
+      "line": 343886,
+      "category": "naval",
+      "text": "33114986\t9700_9700_0015_1_N6247404G9409_0\tNo\t\\N\t2006-06-14 00:00:00\tD\tCHANGE ORDER\t\\N\t9700\t1000000\tMETER CHINA LAKE FACILITIES\t1\t\\N\tDWG & ASSOC INC\t149171691\t097\tDepartment of Defense (DOD)\tN62473\tNAVFAC SOUTHWEST\t1700\tDEPT OF THE NAVY\t0.00\t0.00\t\\N\t\\N\t\\N\tN: No\t\\N\tD\tNo\tN\tN\tNo\tNOT APPLICABLE\tX\t\\N\t\\N\tC\tDO\tD\tNOT A BUNDLED REQUIREMENT\t\\N\t\\N\tSMALL BUSINESS\tS\tNOT APPLICABLE EXEMPT FROM CAS\tX\tN\tNo\t\\N\tUSA\t2017-08-28 08:21:39.432801\t\\N\t\\N\t\\N\tCONSTRUCTION\tC2\t\\N\t\\N\tNOT REQUIRED\tE\tNONE\tNO PREFERENCE USED\tFUL"
+    },
+    {
+      "line": 343887,
+      "category": "naval",
+      "text": "38178678\t9700_9700_0015_2_N6247404G9409_0\tNo\t\\N\t2007-03-16 00:00:00\tD\tCHANGE ORDER\t\\N\t9700\t1000000\tMETER CHINA LAKE FACILITIES\t2\t\\N\tDWG & ASSOC INC\t149171691\t097\tDepartment of Defense (DOD)\tN62473\tNAVFAC SOUTHWEST\t1700\tDEPT OF THE NAVY\t0.00\t0.00\t\\N\t\\N\t\\N\tN: No\t\\N\tD\tNo\tN\tN\tNo\tNOT APPLICABLE\tX\t\\N\t\\N\tC\tDO\tD\tNOT A BUNDLED REQUIREMENT\t\\N\t\\N\tSMALL BUSINESS\tS\tNOT APPLICABLE EXEMPT FROM CAS\tX\tN\tNo\t\\N\tUSA\t2017-08-28 09:22:42.891139\t\\N\t\\N\t\\N\tCONSTRUCTION\tC2\t\\N\t\\N\tNOT REQUIRED\tE\tNONE\tNO PREFERENCE USED\tFUL"
+    },
+    {
+      "line": 343888,
+      "category": "naval",
+      "text": "38177753\t9700_9700_0015_3_N6247404G9409_0\tNo\t\\N\t2007-04-25 00:00:00\tD\tCHANGE ORDER\t\\N\t9700\t1000000\tMETER CHINA LAKE FACILITIES\t3\t\\N\tDWG & ASSOC INC\t149171691\t097\tDepartment of Defense (DOD)\tN62473\tNAVFAC SOUTHWEST\t1700\tDEPT OF THE NAVY\t0.00\t0.00\t\\N\t\\N\t\\N\tN: No\t\\N\tD\tNo\tN\tN\tNo\tNOT APPLICABLE\tX\t\\N\t\\N\tC\tDO\tD\tNOT A BUNDLED REQUIREMENT\t\\N\t\\N\tSMALL BUSINESS\tS\tNOT APPLICABLE EXEMPT FROM CAS\tX\tN\tNo\t\\N\tUSA\t2017-08-28 09:22:42.891139\t\\N\t\\N\t\\N\tCONSTRUCTION\tC2\t\\N\t\\N\tNOT REQUIRED\tE\tNONE\tNO PREFERENCE USED\tFUL"
+    },
+    {
+      "line": 343889,
+      "category": "naval",
+      "text": "26735424\t9700_9700_0015_4_N6247404G9409_0\tNo\t\\N\t2007-07-05 00:00:00\tD\tCHANGE ORDER\t\\N\t9700\t1000000\tMETER CHINA LAKE FACILITIES\t4\t\\N\tDWG & ASSOC INC\t149171691\t097\tDepartment of Defense (DOD)\tN62473\tNAVFAC SOUTHWEST\t1700\tDEPT OF THE NAVY\t0.00\t0.00\t\\N\t\\N\t\\N\tN: No\t\\N\tD\tNo\tN\tN\tNo\tYES\tY\t\\N\t\\N\tC\tDO\tD\tNOT A BUNDLED REQUIREMENT\t\\N\t\\N\tSMALL BUSINESS\tS\tNOT APPLICABLE EXEMPT FROM CAS\tX\tN\tNo\t\\N\tUSA\t2017-08-28 07:06:00.451956\t\\N\t\\N\t\\N\tCONSTRUCTION\tC2\t\\N\t\\N\tNOT REQUIRED\tE\tNONE\tNO PREFERENCE USED\tFULL AND OPEN "
+    },
+    {
+      "line": 343890,
+      "category": "naval",
+      "text": "26978105\t9700_9700_0015_5_N6247404G9409_0\tNo\t\\N\t2008-06-02 00:00:00\tD\tCHANGE ORDER\t\\N\t9700\t1000000\tMETER CHINA LAKE FACILITIES\t5\t\\N\tDWG & ASSOC INC\t149171691\t097\tDepartment of Defense (DOD)\tN62473\tNAVFAC SOUTHWEST\t1700\tDEPT OF THE NAVY\t0.00\t0.00\t\\N\t\\N\t\\N\tN: No\t\\N\tD\tNo\tN\tN\tNo\tYES\tY\t\\N\t\\N\tC\tDO\tD\tNOT A BUNDLED REQUIREMENT\t\\N\t\\N\tSMALL BUSINESS\tS\tNOT APPLICABLE EXEMPT FROM CAS\tX\tN\tNo\t\\N\tUSA\t2017-08-28 07:08:34.437656\t\\N\t\\N\t\\N\tCONSTRUCTION\tC2\t\\N\t\\N\tNOT REQUIRED\tE\tNONE\tNO PREFERENCE USED\tFULL AND OPEN "
+    },
+    {
+      "line": 343904,
+      "category": "military_systems",
+      "text": "48370110\t9700_9700_0019_0_N6247404G9409_0\tN\tNO\t2005-09-28 00:00:00\t\\N\t\\N\t\\N\t9700\t1000000\t200512!439598!1700!N68711!NAVFAC ENGINEERING FIELD DIVISII!N6247404G9409  !A!N! !N!0019         !      !20050928!20060117!149171691!149171691!149171691!N!DWG & ASSOC INC               !820 N H ST STE C          !LOMPOC              !CA!93436!13154!029!06!CHINA LAKE NWC      !KERN                  !CALIFORNIA!+000000032246!N!N!000000000000!Z123!MAINT/RADAR & NAVIGATIONAL FACILITIES             !C2 !CONSTRUCTI"
+    },
+    {
+      "line": 350846,
+      "category": "naval",
+      "text": "30120647\t9700_9700_0011_0_N6871102D2527_0\tN\tNO\t2004-06-17 00:00:00\t\\N\t\\N\t\\N\t9700\t2000000\t200412!002751!1700!C8711 !NAVAL FACILITIES ENGINEERING COM!N6871102D2527  !A!N! !N!0011         !      !20040617!20040812!956658751!956658751!956658751!N!VORTEX                        !320 BUTTE STREET          !BAKERSFIELD         !CA!93305!13154!029!06!CHINA LAKE NWC      !KERN                  !CALIFORNIA!+000000009270!N!N!000000000000!Z199!MAINT/OTHER MISCELLANEOUS BUILDINGS               !C2 !CONSTRUCTI"
+    },
+    {
+      "line": 350908,
+      "category": "naval",
+      "text": "27978985\t9700_9700_0008_0_N6871102D2527_0\tN\tNO\t2004-01-22 00:00:00\t\\N\t\\N\t\\N\t9700\t2000000\t200412!002075!1700!C8711 !NAVAL FACILITIES ENGINEERING COM!N6871102D2527  !A!N! !N!0008         !      !20040122!20040322!956658751!956658751!956658751!N!VORTEX                        !320 BUTTE STREET          !BAKERSFIELD         !CA!93305!13154!029!06!CHINA LAKE NWC      !KERN                  !CALIFORNIA!+000000029845!N!N!000000000000!Z199!MAINT/OTHER MISCELLANEOUS BUILDINGS               !C2 !CONSTRUCTI"
+    },
+    {
+      "line": 351081,
+      "category": "naval",
+      "text": "25396751\t9700_9700_0001_0_N6871102D2527_0\tN\tNO\t2003-06-27 00:00:00\t\\N\t\\N\t\\N\t9700\t1000000\t200310!183455!1700!C8711 !NAVAL FACILITIES ENGINEERING COM!N6871102D2527  !A!N! !N!0001               !20030627!20030930!956658751!956658751!956658751!N!VORTEX                        !320 BUTTE STREET          !BAKERSFIELD         !CA!93305!13154!029!06!CHINA LAKE NWC      !KERN                  !CALIFORNIA!+000000018715!N!N!000000000000!Z199!MAINT/OTHER MISCELLANEOUS BUILDINGS               !C2 !CONSTRUCTIO"
+    },
+    {
+      "line": 351082,
+      "category": "naval",
+      "text": "25616328\t9700_9700_0003_0_N6871102D2527_0\tN\tNO\t2003-08-08 00:00:00\t\\N\t\\N\t\\N\t9700\t1000000\t200311!187520!1700!C8711 !NAVAL FACILITIES ENGINEERING COM!N6871102D2527  !A!N! !N!0003               !20030808!20030930!956658751!956658751!956658751!N!VORTEX                        !320 BUTTE STREET          !BAKERSFIELD         !CA!93305!13154!029!06!CHINA LAKE NWC      !KERN                  !CALIFORNIA!+000000008767!N!N!000000000000!Z199!MAINT/OTHER MISCELLANEOUS BUILDINGS               !C2 !CONSTRUCTIO"
+    },
+    {
+      "line": 351083,
+      "category": "naval",
+      "text": "25841685\t9700_9700_0005_0_N6871102D2527_0\tN\tNO\t2003-08-19 00:00:00\t\\N\t\\N\t\\N\t9700\t1000000\t200311!187522!1700!C8711 !NAVAL FACILITIES ENGINEERING COM!N6871102D2527  !A!N! !N!0005               !20030819!20031014!956658751!956658751!956658751!N!VORTEX                        !320 BUTTE STREET          !BAKERSFIELD         !CA!93305!13154!029!06!CHINA LAKE NWC      !KERN                  !CALIFORNIA!+000000012968!N!N!000000000000!Z199!MAINT/OTHER MISCELLANEOUS BUILDINGS               !C2 !CONSTRUCTIO"
+    },
+    {
+      "line": 352355,
+      "category": "weapons",
+      "text": "202416777\t9700_9700_N0010421FD109_P00002_SPRMM118DD101_0\tN\tNO\t2022-02-21 00:00:00\tM\tOTHER ADMINISTRATIVE ACTION\tNONE: NONE OF THE ABOVE\t9700\t\\N\tSEALING COMPOUND PART#: PRC-944F 60 GAL NSN: 1HM 8030 012799888 ST REQUIREMENT IS BUY.\tP00002\t\\N\tPRC - DESOTO INTERNATIONAL, INC.\t\\N\t097\tDepartment of Defense (DOD)\tN00104\tNAVSUP WEAPON SYSTEMS SUPPORT MECH\t1700\tDEPT OF THE NAVY\t0.00\t0.00\t{category_business,us_owned_business,special_designations,manufacturer_of_goods,corporate_entity_not_tax_exempt,other"
+    },
+    {
+      "line": 352403,
+      "category": "weapons",
+      "text": "202416780\t9700_9700_N0010422FD101_P00001_SPRMM118DD101_0\tN\tNO\t2022-02-21 00:00:00\tM\tOTHER ADMINISTRATIVE ACTION\tNONE: NONE OF THE ABOVE\t9700\t\\N\tSEALING COMPOUND PART# PRC-944F 60 GAL NSN: 1HM 8030 012799888 ST REQUIREMENT IS BUY.\tP00001\t\\N\tPRC - DESOTO INTERNATIONAL, INC.\t\\N\t097\tDepartment of Defense (DOD)\tN00104\tNAVSUP WEAPON SYSTEMS SUPPORT MECH\t1700\tDEPT OF THE NAVY\t0.00\t0.00\t{category_business,us_owned_business,special_designations,manufacturer_of_goods,corporate_entity_not_tax_exempt,other_"
+    },
+    {
+      "line": 363318,
+      "category": "critical_infrastructure",
+      "text": "37146686\t12C3_4732_AG8C30D150011_0_GS03F059BA_0\tNo\t\\N\t2015-06-29 00:00:00\t\\N\t\\N\t\\N\t12C3\t285000\tSNOW SURVEY EQUIPMENT\t0\t\\N\tPEAK, INC., THE\t363109096\t012\tDepartment of Agriculture (USDA)\t8C30\tNM STATE OFFICE (NRCS)\t12C3\tNATURAL RESOURCES CONSERVATION SERVICE\t4931.91\t4931.91\t\\N\t\\N\t\\N\tN: No\t\\N\tA\tNO\tN\tN\tNo\tNOT APPLICABLE\tX\tNOT APPLICABLE\tX\tC\tDO\tD\tNOT A BUNDLED REQUIREMENT\t\\N\t\\N\tSMALL BUSINESS\tS\tNAN\t\\N\t\\N\t\\N\t\\N\tCHN\t2017-08-28 09:10:14.527043\t\\N\t\\N\t\\N\t\\N\t\\N\tU.S. OWNED BUSINESS\tA\tMEETS REQUIREMENTS\tA\tNO"
+    },
+    {
+      "line": 376390,
+      "category": "naval",
+      "text": "158597399\t9700_9700_SPMYM220F0268_0_SPMYM220D0009_0\tN\tNO\t2020-07-20 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tFLASHLIGHT FOR BASE YEAR\t0\t\\N\t\\N\t\\N\t097\tDepartment of Defense (DOD)\tSPMYM2\tDLA MARITIME - PUGET SOUND\t97AS\tDEFENSE LOGISTICS AGENCY\t7980.00\t7980.00\t{category_business,sole_proprietorship,small_business,us_owned_business,special_designations}\t8FBX3\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNOT APPLICABLE\tX\tNOT APPLICABLE\tX\tC\tDELIVERY ORDER\tH\tNOT BUNDLED\tZ\tNOT APPLICABLE\tSMALL BU"
+    },
+    {
+      "line": 376431,
+      "category": "naval",
+      "text": "176287146\t9700_9700_SPMYM221F0245_0_SPMYM220D0009_0\tN\tNO\t2021-04-20 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tFLASHLIGHT FOR BASE YEAR\t0\t\\N\t\\N\t\\N\t097\tDepartment of Defense (DOD)\tSPMYM2\tDLA MARITIME - PUGET SOUND\t97AS\tDEFENSE LOGISTICS AGENCY\t27930.00\t27930.00\t{category_business,sole_proprietorship,small_business,us_owned_business,special_designations}\t8FBX3\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNOT APPLICABLE\tX\tNOT APPLICABLE\tX\tC\tDELIVERY ORDER\tH\tNOT BUNDLED\tZ\tNOT APPLICABLE\tSMALL "
+    },
+    {
+      "line": 377644,
+      "category": "communications",
+      "text": "193904489\t9700_4735_HC101319FG336_P00003_GS00T07NSD0041_0\tN\tNO\t2021-09-29 00:00:00\tC\tFUNDING ONLY ACTION\tNONE: NONE OF THE ABOVE\t9700\t\\N\tNXEA004490EBM NETWORK BASED IP-VPN SERVICE (NBIP-VPN)\tP00003\t\\N\tAT&T CORP.\t621599893\t097\tDepartment of Defense (DOD)\tHC1013\tTELECOMMUNICATIONS DIVISION- HC1013\t97AK\tDEFENSE INFORMATION SYSTEMS AGENCY (DISA)\t25185.65\t25185.65\t{special_designations,us_owned_business,category_business,other_than_small_business}\t0LUL1\tYES\tY\tCOMMERCIAL ITEM PROCEDURES NOT USED\tD\tNO\t"
+    },
+    {
+      "line": 382182,
+      "category": "naval",
+      "text": "193906410\t9700_9700_N6247321F4264_P00005_N6247317D4635_0\tN\tNO\t2021-09-29 00:00:00\tC\tFUNDING ONLY ACTION\tNONE: NONE OF THE ABOVE\t9700\t\\N\tP1924 - ACADEMIC TRAINING BUILDING - NAWS CHINA LAK\tP00005\t\\N\tBARNHART-REESE CONSTRUCTION, INC.\t008889570\t097\tDepartment of Defense (DOD)\tN62742\tNAVAL FAC ENGINEEERING CMD PACIFIC\t1700\tDEPT OF THE NAVY\t140681.00\t140681.00\t{us_owned_business,category_business,special_designations,small_business,veteran_owned_business,subchapter_s_corporation,corporate_entity_not_"
+    },
+    {
+      "line": 388286,
+      "category": "cyber",
+      "text": "67361841\t12C2_7009_AG7604D170095_0_HSSS0112D0028_0\tN\tNO\t2017-03-24 00:00:00\t\\N\t\\N\t\\N\t12C2\t22000000\tCIO DEPOT RELM RADIOS\t0\t\\N\t\\N\t\\N\t012\tDepartment of Agriculture (USDA)\t127604\tUSDA FS WO AQM IT SUPPORT BRANCH\t12C2\tFOREST SERVICE\t699987.40\t699987.40\t{special_designations,manufacturer_of_goods,category_business,small_business,us_owned_business,corporate_entity_not_tax_exempt}\t62720\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNOT APPLICABLE\tX\tNOT APPLICABLE\tX\tC\tDELIVERY ORDER\tH\tNOT BUNDLED\t\\N\t\\N"
+    },
+    {
+      "line": 395084,
+      "category": "weapons",
+      "text": "200919006\t9700_9700_N6247321F4462_P00001_N6247320D0009_0\tN\tNO\t2022-01-24 00:00:00\tB\tSUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE\tNONE: NONE OF THE ABOVE\t9700\t\\N\tX020 COLE FLAT POST-FIRE CULTURAL RESOURCES SURVEYS AND STUDIES\tP00001\t\\N\tFAR WESTERN ANTHROPOLOGICAL RESEARCH GROUP, INC.\t\\N\t097\tDepartment of Defense (DOD)\tN62473\tNAVFAC SOUTHWEST\t1700\tDEPT OF THE NAVY\t0.00\t0.00\t{category_business,small_business,corporate_entity_not_tax_exempt,us_owned_business,subchapter_s_corporation,self_certified_s"
+    },
+    {
+      "line": 395101,
+      "category": "naval",
+      "text": "200919007\t9700_9700_N6247321F4741_P00005_N6247321D1206_0\tN\tNO\t2022-01-24 00:00:00\tD\tCHANGE ORDER\tNONE: NONE OF THE ABOVE\t9700\t\\N\tP1919 - RADIOGRAPHIC BUILDING - NAWS CHINA LAKE, CA EXERCISE PANNED MOD FOR AV\tP00005\t\\N\tHARPER CONSTRUCTION COMPANY, INC.\t\\N\t097\tDepartment of Defense (DOD)\tN62742\tNAVAL FAC ENGINEEERING CMD PACIFIC\t1700\tDEPT OF THE NAVY\t251834.90\t251834.90\t{category_business,corporate_entity_not_tax_exempt,us_owned_business,subchapter_s_corporation,other_than_small_business,special_d"
+    },
+    {
+      "line": 409199,
+      "category": "naval",
+      "text": "212577398\t9700_9700_FA807520F0053_P00049_FA807518D0004_0\tN\tNO\t2022-07-29 00:00:00\tC\tFUNDING ONLY ACTION\tNONE: NONE OF THE ABOVE\t9700\t\\N\tTECHNOLOGY PROTECTION FOR NAVAL AIR WARFARE CENTER CHINA LAKE\tP00049\t\\N\t\\N\t\\N\t097\tDepartment of Defense (DOD)\tFA8075\tFA8075  774 ESS\t5700\tDEPT OF THE AIR FORCE\t0.00\t0.00\t{special_designations,category_business,other_than_small_business,us_owned_business,corporate_entity_not_tax_exempt}\t17038\tNO\tN\tCOMMERCIAL PRODUCTS/SERVICES PROCEDURES NOT USED\tD\tNO\tN\tD\tNOT CONS"
+    },
+    {
+      "line": 409939,
+      "category": "naval",
+      "text": "212579573\t9700_9700_N6247320F5226_P00074_N6247019D8025_0\tN\tNO\t2022-07-29 00:00:00\tD\tCHANGE ORDER\tNONE: NONE OF THE ABOVE\t9700\t\\N\tMODIFICATION P1900, P1902, & P1908 INCORPORATE 3RD PARTY RF SHIELDING BASIS OF DESIGN. SEE PAGE TWO SOUTH AIRFEILD MCON PROJECTS CHINA LAKE\tP00074\t\\N\t\\N\t\\N\t097\tDepartment of Defense (DOD)\tN62742\tNAVAL FAC ENGINEEERING CMD PACIFIC\t1700\tDEPT OF THE NAVY\t1033950.00\t1033950.00\t{special_designations,category_business,other_than_small_business,us_owned_business,corporate_ent"
+    },
+    {
+      "line": 409951,
+      "category": "weapons",
+      "text": "212579606\t9700_9700_N6247322F4837_0_N6247321D1220_0\tN\tNO\t2022-07-29 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tNAWS0504 RECONSTRUCT PAVEMENT, SUPPLY COMPOUND\t0\t\\N\tDE LA FUENTE CONSTRUCTION, INC.\t\\N\t097\tDepartment of Defense (DOD)\tN62473\tNAVFACSYSCOM SOUTHWEST\t1700\tDEPT OF THE NAVY\t997777.00\t997777.00\t{subchapter_s_corporation,dot_certified_disadvantaged_business_enterprise,minority_owned_business,corporate_entity_not_tax_exempt,category_business,us_owned_business,small_business,special_desig"
+    },
+    {
+      "line": 414157,
+      "category": "aerospace",
+      "text": "193951898\t9700_-none-_FA488721P0061_P00001_-none-_0\tN\tNO\t2021-09-30 00:00:00\tB\tSUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE\tNONE: NONE OF THE ABOVE\t9700\t\\N\t(40) 10.2-INCH IPAD WI-FI 256GB AND (1) 13-INCH MACBOOK AIR\tP00001\t\\N\tNEW TECH SOLUTIONS, INC.\t020149303\t097\tDepartment of Defense (DOD)\tFA4887\tFA4887  56 CONS CC\t5700\tDEPT OF THE AIR FORCE\t1660.00\t1660.00\t{special_designations,manufacturer_of_goods,us_owned_business,category_business,corporate_entity_not_tax_exempt,minority_owned_business,sm"
+    },
+    {
+      "line": 414457,
+      "category": "naval",
+      "text": "148346711\t8900_8000_89233020FNR400087_0_NNG15SC82B_0\tN\tNO\t2020-05-07 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t8900\t\\N\tCOVID19 REQUIREMENT $152,880.00 - TABLET AND TABLET ACCESSORIES\t0\t\\N\tNEW TECH SOLUTIONS, INC.\t020149303\t089\tDepartment of Energy (DOE)\t892330\tNNSA NAVAL REACTORS LAB FLD OFFICE\t8900\tENERGY, DEPARTMENT OF\t152880.00\t152880.00\t{subcontinent_asian_indian_american_owned_business,manufacturer_of_goods,corporate_entity_not_tax_exempt,minority_owned_business,8a_program_participant,category"
+    },
+    {
+      "line": 442393,
+      "category": "weapons",
+      "text": "164104551\t9700_9700_N0010421FD100_0_SPRMM118DD101_0\tN\tNO\t2020-11-04 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tSEALING COMPOUND NSN: 1HM 8030 012799888 ST PART#: PRC-944F 60 GAL REQUIREMENT  BUY.\t0\t\\N\tPRC - DESOTO INTERNATIONAL, INC.\t601051444\t097\tDepartment of Defense (DOD)\tN00104\tNAVSUP WEAPON SYSTEMS SUPPORT MECH\t1700\tDEPT OF THE NAVY\t10634.10\t10634.10\t{other_than_small_business,special_designations,category_business,manufacturer_of_goods,corporate_entity_not_tax_exempt,us_owned_business}"
+    },
+    {
+      "line": 461940,
+      "category": "naval",
+      "text": "195343114\t9700_9700_N6247320F5106_P00014_N6247316D1885_0\tN\tNO\t2021-10-28 00:00:00\tB\tSUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE\tNONE: NONE OF THE ABOVE\t9700\t\\N\t(CONSTR) RM19-1867 -- REPAIR WINGS 2-5 MICHELSON LAB, NAWS CHINA\tP00014\t\\N\tRQ CONSTRUCTION, LLC\t966254349\t097\tDepartment of Defense (DOD)\tN62742\tNAVAL FAC ENGINEEERING CMD PACIFIC\t1700\tDEPT OF THE NAVY\t711364.00\t711364.00\t{other_than_small_business,category_business,special_designations,us_owned_business,partnership_or_limited_liability_"
+    },
+    {
+      "line": 461943,
+      "category": "naval",
+      "text": "195343118\t9700_9700_N6247320F5226_P00028_N6247019D8025_0\tN\tNO\t2021-10-28 00:00:00\tM\tOTHER ADMINISTRATIVE ACTION\tNONE: NONE OF THE ABOVE\t9700\t\\N\tSOUTH AIRFEILD MCON PROJECTS CHINA LAKE NO COST ADMINISTRATIVE MODIFICATION.\tP00028\t\\N\tENVIRONMENTAL CHEMICAL CORPORATION\t601293962\t097\tDepartment of Defense (DOD)\tN62742\tNAVAL FAC ENGINEEERING CMD PACIFIC\t1700\tDEPT OF THE NAVY\t0.00\t0.00\t{other_than_small_business,category_business,corporate_entity_not_tax_exempt,special_designations,us_owned_business}\t0"
+    },
+    {
+      "line": 462789,
+      "category": "weapons",
+      "text": "163239064\t9700_-none-_SPE4A621P1561_0_-none-_0\tN\tNO\t2020-10-22 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\t8507745862!ANODE,CORROSION PRE\t0\t\\N\t\\N\t\\N\t097\tDepartment of Defense (DOD)\tSPE4A6\tDLA AVIATION\t97AS\tDEFENSE LOGISTICS AGENCY\t443.04\t443.04\t{small_business,partnership_or_limited_liability_partnership,category_business,us_owned_business,manufacturer_of_goods,subchapter_s_corporation,special_designations}\t19151\tNO\tN\tCOMMERCIAL ITEM PROCEDURES NOT USED\tD\tNO\tN\tD\tNOT CONSOLIDATED\tNOT APPLICABL"
+    },
+    {
+      "line": 473980,
+      "category": "naval",
+      "text": "153974851\t9700_9700_0020_33_W15P7T10DD417_1\tN\tNO\t2020-05-06 00:00:00\tC\tFUNDING ONLY ACTION\tNONE: NONE OF THE ABOVE\t9700\t\\N\tTHE PURPOSE OF THIS MODIFICATION 33 ON CONTRACT W15P7T10DD417 TO 0020 IS TO FUND THE OPTION PERIOD TWO IAW FAR 52.232-22 IN SUPPORT OF PROGRAM EXECUTIVE OFFICER FOR UNMANNED AVIATION AND STRIKE WEAPONS (PEO (U/W), AERIAL TARGETS AND DECOY SYSTEMS PROGRAM OFFICE (PMA-208) AND NAVAL AIR WARFARE CENTER WEAPONS DIVISION (NAWC-WD) POINT MUGU/CHINA LAKE SUPPORTING MULTI-SERVICE TA"
+    },
+    {
+      "line": 521688,
+      "category": "naval",
+      "text": "172529275\t9700_-none-_SPMYM221P0729_0_-none-_0\tN\tNO\t2021-02-16 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tMAGNET,\t0\t\\N\tELITE TEXTILE TRADING LLC\t079645258\t097\tDepartment of Defense (DOD)\tSPMYM2\tDLA MARITIME - PUGET SOUND\t97AS\tDEFENSE LOGISTICS AGENCY\t15840.00\t15840.00\t{category_business,self_certified_small_disadvanted_business,small_business,foreign_owned_and_us_located_business,special_designations,sole_proprietorship}\t7B4D4\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNOT APPLICABLE\tX\tN"
+    },
+    {
+      "line": 530777,
+      "category": "communications",
+      "text": "22316147\t1900_1900_DTSEC199812C4175SDTSPO96D2004_M019_SDTSPO96D2004_0\tNo\t\\N\t2003-09-15 00:00:00\tB\tSUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE\t\\N\t1900\t0\t\\N\tM019\t\\N\tMCI WORLDCOM COMMUNICATIONS, I\t804914059\t019\tDepartment of State (DOS)\tDTSEC\tDIPLOMATIC TELECOMMUNICATIONS SERVICE\t1900\tSTATE, DEPARTMENT OF\t0.00\t0.00\t\\N\t\\N\t\\N\tN: No\t\\N\tD\tNo\tN\tN\tNo\tNOT APPLICABLE\tX\t\\N\t\\N\tC\tDO\tD\tNOT A BUNDLED REQUIREMENT\t\\N\t\\N\tOTHER THAN SMALL BUSINESS\tO\tNOT APPLICABLE EXEMPT FROM CAS\tX\t\\N\t\\N\t\\N\tUSA\t2017-08-28 06:17:49"
+    }
+  ]
+}

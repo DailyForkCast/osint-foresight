@@ -1,0 +1,50 @@
+{
+  "cik": "0001970544",
+  "ticker": "PTHL",
+  "name": "Pheton Holdings Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:beijing",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "3845",
+  "sicDescription": "Electromedical & Electrotherapeutic Apparatus",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "010-84817665",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ROOM 306, NET BUILDING",
+      "street2": "HONGJUNYING SOUTH RD, CHAOYANG DISTRICT",
+      "city": "BEIJING",
+      "stateOrCountry": "F4",
+      "zipCode": "100012",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "ROOM 306, NET BUILDING",
+      "street2": "HONGJUNYING SOUTH RD, CHAOYANG DISTRICT",
+      "city": "BEIJING",
+      "stateOrCountry": "F4",
+      "zipCode": "100012",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-02"
+  },
+  "filings_count": 54
+}

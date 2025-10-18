@@ -1,0 +1,72 @@
+{
+  "Phase 0": {
+    "phase": "Phase 0",
+    "data_quality": 0.815951614587277,
+    "completeness": 0.8940304162247851,
+    "validation_pass_rate": 0.9167945539012478,
+    "dependency_check": 0.9316451816354924,
+    "overall_readiness": 0.8819400249642544,
+    "status": "CONDITIONAL",
+    "recommendation": "Review issues before proceeding"
+  },
+  "Phase 1": {
+    "phase": "Phase 1",
+    "data_quality": 0.8943614546218341,
+    "completeness": 0.8723786872694105,
+    "validation_pass_rate": 0.9100069805631222,
+    "dependency_check": 0.9837732375211469,
+    "overall_readiness": 0.905089773336326,
+    "status": "READY",
+    "recommendation": "Proceed to next phase"
+  },
+  "Phase 2": {
+    "phase": "Phase 2",
+    "data_quality": 0.9227838579080734,
+    "completeness": 0.9595702075412598,
+    "validation_pass_rate": 0.853616100579485,
+    "dependency_check": 0.9895020350557272,
+    "overall_readiness": 0.9265355500380301,
+    "status": "READY",
+    "recommendation": "Proceed to next phase"
+  },
+  "Phase 3": {
+    "phase": "Phase 3",
+    "data_quality": 0.7938200733510536,
+    "completeness": 0.8093190097235563,
+    "validation_pass_rate": 0.8710611154380087,
+    "dependency_check": 0.9053244936176753,
+    "overall_readiness": 0.8345056778245363,
+    "status": "CONDITIONAL",
+    "recommendation": "Review issues before proceeding"
+  },
+  "Phase 4": {
+    "phase": "Phase 4",
+    "data_quality": 0.7722004163396635,
+    "completeness": 0.8933109967484173,
+    "validation_pass_rate": 0.9056623925923648,
+    "dependency_check": 0.9206431964075626,
+    "overall_readiness": 0.8641655015356497,
+    "status": "CONDITIONAL",
+    "recommendation": "Review issues before proceeding"
+  },
+  "Phase 5": {
+    "phase": "Phase 5",
+    "data_quality": 0.8454305069709508,
+    "completeness": 0.9780924557874332,
+    "validation_pass_rate": 0.946947980535259,
+    "dependency_check": 0.9371893259332699,
+    "overall_readiness": 0.9243722828513203,
+    "status": "READY",
+    "recommendation": "Proceed to next phase"
+  },
+  "Phase 6": {
+    "phase": "Phase 6",
+    "data_quality": 0.786261066898018,
+    "completeness": 0.8575551981342161,
+    "validation_pass_rate": 0.9811556662336234,
+    "dependency_check": 0.9229899106304483,
+    "overall_readiness": 0.8768822826626432,
+    "status": "CONDITIONAL",
+    "recommendation": "Review issues before proceeding"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "cik": "0001648257",
+  "ticker": "HCM",
+  "name": "HUTCHMED (China) Ltd",
+  "detection_reasons": [
+    "location:china",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong"
+  ],
+  "sic": "2834",
+  "sicDescription": "Pharmaceutical Preparations",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "852-2121-3888",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "48TH FLOOR, CHEUNG KONG CENTER",
+      "street2": "2 QUEEN'S ROAD CENTRAL",
+      "city": "HONG KONG",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    },
+    "business": {
+      "street1": "48TH FLOOR, CHEUNG KONG CENTER",
+      "street2": "2 QUEEN'S ROAD CENTRAL",
+      "city": "HONG KONG",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-12"
+  },
+  "filings_count": 540
+}

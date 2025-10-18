@@ -1,0 +1,35 @@
+{
+  "total": 1132,
+  "successful": 837,
+  "failed": 295,
+  "by_type": {
+    ".json": {
+      "success": 729,
+      "fail": 38
+    },
+    ".csv": {
+      "success": 69,
+      "fail": 0
+    },
+    ".tsv": {
+      "success": 1,
+      "fail": 0
+    },
+    ".db": {
+      "success": 34,
+      "fail": 3
+    },
+    ".xml": {
+      "success": 4,
+      "fail": 3
+    },
+    ".gz": {
+      "success": 0,
+      "fail": 249
+    },
+    ".zip": {
+      "success": 0,
+      "fail": 2
+    }
+  }
+}

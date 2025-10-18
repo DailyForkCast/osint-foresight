@@ -1,0 +1,47 @@
+{
+  "cik": "0001026785",
+  "ticker": "HIHO",
+  "name": "HIGHWAY HOLDINGS LTD",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "3490",
+  "sicDescription": "Miscellaneous Fabricated Metal Products",
+  "category": "Non-accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "011-86-755-2813-6056",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "LEVEL 18 LANDMARK N 39 LUNG SUM AVE",
+      "street2": "STE 1801",
+      "city": "SHEUNG SHUI",
+      "stateOrCountry": "K3",
+      "zipCode": "999999999",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "LEVEL 18 LANDMARK N 39 LUNG SUM AVE",
+      "street2": "STE 1801",
+      "city": "SHEUNG SHUI",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-12"
+  },
+  "filings_count": 270
+}

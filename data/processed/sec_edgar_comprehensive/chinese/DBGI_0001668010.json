@@ -1,0 +1,47 @@
+{
+  "cik": "0001668010",
+  "ticker": "DBGI",
+  "name": "Digital Brands Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5600",
+  "sicDescription": "Retail-Apparel & Accessory Stores",
+  "category": "Non-accelerated filer<br>Smaller reporting company<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "461942864",
+  "phone": "(720)937-9286",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "4700 S. BOYLE AVE",
+      "street2": null,
+      "city": "VERNON",
+      "stateOrCountry": "CA",
+      "zipCode": "90058",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "4700 S. BOYLE AVE",
+      "street2": null,
+      "city": "VERNON",
+      "stateOrCountry": "CA",
+      "zipCode": "90058",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-13"
+  },
+  "filings_count": 367
+}

@@ -1,0 +1,529 @@
+# Think Tank Sources Configuration
+# Configuration for harvesting research from major think tanks focusing on
+# China's S&T policies, technology competition, and related strategic issues
+
+metadata:
+  version: "1.0"
+  last_updated: "2024-03-19"
+  description: "Configuration for harvesting think tank research on China S&T policies"
+  total_sources: 42
+
+# Global rate limiting settings
+global_settings:
+  default_delay: 1.0  # seconds between requests
+  max_retries: 3
+  timeout: 60
+  user_agent: "ThinkTankHarvester/1.0 (Research Bot)"
+  respect_robots_txt: true
+
+# Think tank sources organized by region/type
+think_tanks:
+
+  # === US THINK TANKS ===
+
+  csis:
+    name: "Center for Strategic and International Studies"
+    base_url: "https://www.csis.org"
+    country: "US"
+    focus_areas: ["china", "technology", "geopolitics", "defense"]
+    search_urls:
+      - "https://www.csis.org/programs/china-power"
+      - "https://www.csis.org/programs/strategic-technologies-program"
+      - "https://www.csis.org/analysis?field_topic_target_id=1086"  # China
+    publication_urls:
+      - "https://www.csis.org/analysis"
+      - "https://www.csis.org/commentary"
+    selectors:
+      title: [".hero-title", "h1.title", ".entry-title"]
+      content: [".field-body", ".entry-content", "article"]
+      authors: [".author-info", ".byline"]
+      date: [".publication-date", "time"]
+    extraction_strategy: "single_article"
+    headers:
+      Accept: "text/html,application/xhtml+xml"
+    max_content_size: 10485760  # 10MB
+
+  cfr:
+    name: "Council on Foreign Relations"
+    base_url: "https://www.cfr.org"
+    country: "US"
+    focus_areas: ["china", "technology", "international_relations"]
+    search_urls:
+      - "https://www.cfr.org/search?search_api_fulltext=china%20technology"
+      - "https://www.cfr.org/search?search_api_fulltext=artificial%20intelligence"
+    publication_urls:
+      - "https://www.cfr.org/report"
+      - "https://www.cfr.org/blog"
+    selectors:
+      title: ["h1", ".page-title"]
+      content: [".body-content", ".field-body"]
+      authors: [".author", ".byline"]
+      date: [".date", "time"]
+
+  brookings:
+    name: "Brookings Institution"
+    base_url: "https://www.brookings.edu"
+    country: "US"
+    focus_areas: ["china", "technology", "policy"]
+    search_urls:
+      - "https://www.brookings.edu/topic/china/"
+      - "https://www.brookings.edu/topic/technology-innovation/"
+    publication_urls:
+      - "https://www.brookings.edu/research/"
+    selectors:
+      title: [".post-title", "h1"]
+      content: [".post-content", ".wysiwyg"]
+      authors: [".authors", ".post-author"]
+      date: [".post-date", ".date"]
+
+  heritage:
+    name: "Heritage Foundation"
+    base_url: "https://www.heritage.org"
+    country: "US"
+    focus_areas: ["china", "defense", "technology"]
+    search_urls:
+      - "https://www.heritage.org/search?query=china+technology"
+      - "https://www.heritage.org/defense/heritage-explains/china-threat"
+    publication_urls:
+      - "https://www.heritage.org/research"
+    selectors:
+      title: ["h1.hero__headline", ".page-title"]
+      content: [".body-content", ".article-body"]
+
+  aei:
+    name: "American Enterprise Institute"
+    base_url: "https://www.aei.org"
+    country: "US"
+    focus_areas: ["china", "technology", "economics"]
+    search_urls:
+      - "https://www.aei.org/tag/china/"
+      - "https://www.aei.org/tag/technology/"
+    publication_urls:
+      - "https://www.aei.org/research/"
+
+  wilson_center:
+    name: "Wilson Center"
+    base_url: "https://www.wilsoncenter.org"
+    country: "US"
+    focus_areas: ["china", "technology", "international_affairs"]
+    search_urls:
+      - "https://www.wilsoncenter.org/program/kissinger-institute-china-united-states"
+      - "https://www.wilsoncenter.org/topic/technology"
+    publication_urls:
+      - "https://www.wilsoncenter.org/publications"
+
+  atlantic_council:
+    name: "Atlantic Council"
+    base_url: "https://www.atlanticcouncil.org"
+    country: "US"
+    focus_areas: ["china", "technology", "geopolitics"]
+    search_urls:
+      - "https://www.atlanticcouncil.org/programs/scowcroft-center/china/"
+      - "https://www.atlanticcouncil.org/programs/geotech-center/"
+    publication_urls:
+      - "https://www.atlanticcouncil.org/content-series/atlantic-council-strategy-papers/"
+
+  cnas:
+    name: "Center for a New American Security"
+    base_url: "https://www.cnas.org"
+    country: "US"
+    focus_areas: ["china", "defense_technology", "national_security"]
+    search_urls:
+      - "https://www.cnas.org/search?q=china"
+      - "https://www.cnas.org/search?q=artificial+intelligence"
+    publication_urls:
+      - "https://www.cnas.org/publications"
+
+  hoover:
+    name: "Hoover Institution"
+    base_url: "https://www.hoover.org"
+    country: "US"
+    focus_areas: ["china", "economics", "policy"]
+    search_urls:
+      - "https://www.hoover.org/research-teams/china"
+      - "https://www.hoover.org/topics/economics"
+    publication_urls:
+      - "https://www.hoover.org/research"
+
+  carnegie:
+    name: "Carnegie Endowment for International Peace"
+    base_url: "https://carnegieendowment.org"
+    country: "US"
+    focus_areas: ["china", "technology", "international_relations"]
+    search_urls:
+      - "https://carnegieendowment.org/china"
+      - "https://carnegieendowment.org/specialprojects/chinatech"
+
+  rand:
+    name: "RAND Corporation"
+    base_url: "https://www.rand.org"
+    country: "US"
+    focus_areas: ["china", "technology", "defense", "policy_analysis"]
+    search_urls:
+      - "https://www.rand.org/topics/china.html"
+      - "https://www.rand.org/topics/artificial-intelligence.html"
+    publication_urls:
+      - "https://www.rand.org/pubs.html"
+    selectors:
+      title: [".product-header h1", ".page-title"]
+      content: [".product-content", ".wysiwyg"]
+
+  # === EUROPEAN THINK TANKS ===
+
+  merics:
+    name: "Mercator Institute for China Studies"
+    base_url: "https://merics.org"
+    country: "DE"
+    focus_areas: ["china", "technology", "economics", "politics"]
+    search_urls:
+      - "https://merics.org/en/topics/technology"
+      - "https://merics.org/en/topics/digitalization"
+    publication_urls:
+      - "https://merics.org/en/publications"
+    language: "en"
+
+  chatham_house:
+    name: "Chatham House"
+    base_url: "https://www.chathamhouse.org"
+    country: "GB"
+    focus_areas: ["china", "technology", "international_affairs"]
+    search_urls:
+      - "https://www.chathamhouse.org/about-us/our-departments/asia-pacific-programme"
+      - "https://www.chathamhouse.org/about-us/our-departments/international-security-programme"
+    publication_urls:
+      - "https://www.chathamhouse.org/publications"
+
+  rusi:
+    name: "Royal United Services Institute"
+    base_url: "https://rusi.org"
+    country: "GB"
+    focus_areas: ["china", "defense", "technology", "security"]
+    search_urls:
+      - "https://rusi.org/explore-our-research/subjects/china"
+      - "https://rusi.org/explore-our-research/subjects/cyber-and-technology"
+
+  iiss:
+    name: "International Institute for Strategic Studies"
+    base_url: "https://www.iiss.org"
+    country: "GB"
+    focus_areas: ["china", "defense", "geopolitics"]
+    search_urls:
+      - "https://www.iiss.org/en/publications"
+    publication_urls:
+      - "https://www.iiss.org/en/publications/strategic-comments"
+
+  sipri:
+    name: "Stockholm International Peace Research Institute"
+    base_url: "https://www.sipri.org"
+    country: "SE"
+    focus_areas: ["china", "arms_control", "technology"]
+    search_urls:
+      - "https://www.sipri.org/search?search_api_fulltext=china"
+    publication_urls:
+      - "https://www.sipri.org/publications"
+
+  dgap:
+    name: "German Council on Foreign Relations"
+    base_url: "https://dgap.org"
+    country: "DE"
+    focus_areas: ["china", "technology", "geopolitics"]
+    search_urls:
+      - "https://dgap.org/en/research/programs/china"
+      - "https://dgap.org/en/research/programs/technology"
+
+  swp:
+    name: "German Institute for International and Security Affairs"
+    base_url: "https://www.swp-berlin.org"
+    country: "DE"
+    focus_areas: ["china", "technology", "security"]
+    search_urls:
+      - "https://www.swp-berlin.org/en/subjects/regions/china"
+    publication_urls:
+      - "https://www.swp-berlin.org/en/publications"
+
+  # === ASIA-PACIFIC THINK TANKS ===
+
+  aspi:
+    name: "Australian Strategic Policy Institute"
+    base_url: "https://www.aspi.org.au"
+    country: "AU"
+    focus_areas: ["china", "technology", "critical_technology", "defense"]
+    search_urls:
+      - "https://www.aspi.org.au/research/critical-technology"
+      - "https://www.aspi.org.au/search?q=china"
+    publication_urls:
+      - "https://www.aspi.org.au/publications"
+    selectors:
+      title: [".page-title", "h1"]
+      content: [".page-content", ".field-body"]
+
+  lowy:
+    name: "Lowy Institute"
+    base_url: "https://www.lowyinstitute.org"
+    country: "AU"
+    focus_areas: ["china", "technology", "geopolitics"]
+    search_urls:
+      - "https://www.lowyinstitute.org/topics/china"
+    publication_urls:
+      - "https://www.lowyinstitute.org/publications"
+
+  jfir:
+    name: "Japan Forum on International Relations"
+    base_url: "https://www.jfir.or.jp"
+    country: "JP"
+    focus_areas: ["china", "technology", "regional_security"]
+    search_urls:
+      - "https://www.jfir.or.jp/en/"
+    language: "en"
+
+  kiep:
+    name: "Korea Institute for International Economic Policy"
+    base_url: "https://www.kiep.go.kr"
+    country: "KR"
+    focus_areas: ["china", "economics", "technology"]
+    search_urls:
+      - "https://www.kiep.go.kr/eng"
+    language: "en"
+
+  obs:
+    name: "Observer Research Foundation"
+    base_url: "https://www.orfonline.org"
+    country: "IN"
+    focus_areas: ["china", "technology", "geopolitics"]
+    search_urls:
+      - "https://www.orfonline.org/research/china/"
+      - "https://www.orfonline.org/research/cyber-security-technology/"
+
+  # === CANADIAN THINK TANKS ===
+
+  cgai:
+    name: "Canadian Global Affairs Institute"
+    base_url: "https://www.cgai.ca"
+    country: "CA"
+    focus_areas: ["china", "technology", "international_affairs"]
+    search_urls:
+      - "https://www.cgai.ca/?s=china"
+    publication_urls:
+      - "https://www.cgai.ca/publications/"
+
+  cigi:
+    name: "Centre for International Governance Innovation"
+    base_url: "https://www.cigionline.org"
+    country: "CA"
+    focus_areas: ["china", "technology", "governance"]
+    search_urls:
+      - "https://www.cigionline.org/topics/china/"
+      - "https://www.cigionline.org/topics/technology/"
+
+  # === SPECIALIZED TECH/POLICY INSTITUTES ===
+
+  cset:
+    name: "Center for Security and Emerging Technology"
+    base_url: "https://cset.georgetown.edu"
+    country: "US"
+    focus_areas: ["emerging_technology", "ai", "china", "policy"]
+    search_urls:
+      - "https://cset.georgetown.edu/publications/"
+      - "https://cset.georgetown.edu/research/china-ai-and-technology/"
+    publication_urls:
+      - "https://cset.georgetown.edu/publications/"
+    selectors:
+      title: [".page-title", "h1.title"]
+      content: [".content", ".post-content"]
+
+  cnas_tech:
+    name: "CNAS Technology and National Security Program"
+    base_url: "https://www.cnas.org"
+    country: "US"
+    focus_areas: ["defense_technology", "ai", "china"]
+    search_urls:
+      - "https://www.cnas.org/research/technology-and-national-security"
+
+  itif:
+    name: "Information Technology and Innovation Foundation"
+    base_url: "https://itif.org"
+    country: "US"
+    focus_areas: ["technology_policy", "innovation", "china"]
+    search_urls:
+      - "https://itif.org/topics/china/"
+      - "https://itif.org/topics/artificial-intelligence/"
+
+  # === MULTILATERAL/INTERNATIONAL ===
+
+  iea:
+    name: "International Energy Agency"
+    base_url: "https://www.iea.org"
+    country: "INT"
+    focus_areas: ["energy_technology", "china", "clean_energy"]
+    search_urls:
+      - "https://www.iea.org/countries/china"
+      - "https://www.iea.org/topics/technology"
+
+  oecd:
+    name: "Organisation for Economic Co-operation and Development"
+    base_url: "https://www.oecd.org"
+    country: "INT"
+    focus_areas: ["technology_policy", "innovation", "china"]
+    search_urls:
+      - "https://www.oecd.org/china/"
+      - "https://www.oecd.org/science/"
+
+  # === NORDIC INSTITUTES ===
+
+  nupi:
+    name: "Norwegian Institute of International Affairs"
+    base_url: "https://www.nupi.no"
+    country: "NO"
+    focus_areas: ["china", "arctic", "technology"]
+    search_urls:
+      - "https://www.nupi.no/en/About-NUPI/Research-Groups/Research-group-for-Asia"
+      - "https://www.nupi.no/en/About-NUPI/Research-Groups/Research-group-on-the-Arctic"
+    language: "en"
+
+  fiia:
+    name: "Finnish Institute of International Affairs"
+    base_url: "https://www.fiia.fi"
+    country: "FI"
+    focus_areas: ["china", "arctic", "technology"]
+    search_urls:
+      - "https://www.fiia.fi/en/search?search_api_fulltext=china"
+      - "https://www.fiia.fi/en/search?search_api_fulltext=arctic"
+    language: "en"
+
+  # === ADDITIONAL STRATEGIC INSTITUTES ===
+
+  hudson:
+    name: "Hudson Institute"
+    base_url: "https://www.hudson.org"
+    country: "US"
+    focus_areas: ["china", "technology", "defense"]
+    search_urls:
+      - "https://www.hudson.org/research?topic=China"
+
+  fdd:
+    name: "Foundation for Defense of Democracies"
+    base_url: "https://www.fdd.org"
+    country: "US"
+    focus_areas: ["china", "technology", "national_security"]
+    search_urls:
+      - "https://www.fdd.org/analysis/?country=china"
+
+  newamerica:
+    name: "New America"
+    base_url: "https://www.newamerica.org"
+    country: "US"
+    focus_areas: ["technology", "china", "policy"]
+    search_urls:
+      - "https://www.newamerica.org/topics/china/"
+      - "https://www.newamerica.org/topics/technology/"
+
+  cep:
+    name: "Center for European Policy Analysis"
+    base_url: "https://cepa.org"
+    country: "US"
+    focus_areas: ["china", "technology", "transatlantic"]
+    search_urls:
+      - "https://cepa.org/comprehensive-archives/?_topics=china"
+
+  gmf:
+    name: "German Marshall Fund"
+    base_url: "https://www.gmfus.org"
+    country: "US"
+    focus_areas: ["china", "technology", "transatlantic"]
+    search_urls:
+      - "https://www.gmfus.org/search?search_api_fulltext=china"
+
+  nscai:
+    name: "National Security Commission on AI (Archive)"
+    base_url: "https://www.nscai.gov"
+    country: "US"
+    focus_areas: ["ai", "china", "national_security"]
+    search_urls:
+      - "https://www.nscai.gov/reports/"
+    note: "Archive of NSCAI reports and research"
+
+  uscc:
+    name: "US-China Economic and Security Review Commission"
+    base_url: "https://www.uscc.gov"
+    country: "US"
+    focus_areas: ["china", "economics", "security", "technology"]
+    search_urls:
+      - "https://www.uscc.gov/research"
+    publication_urls:
+      - "https://www.uscc.gov/annual-report"
+
+# Arctic-specific sources (subset for Arctic technology focus)
+arctic_specialized:
+  arctic_council:
+    name: "Arctic Council"
+    base_url: "https://arctic-council.org"
+    country: "INT"
+    focus_areas: ["arctic", "technology", "climate"]
+    search_urls:
+      - "https://arctic-council.org/about/documents/"
+
+  ui_arctic:
+    name: "University of the Arctic"
+    base_url: "https://www.uarctic.org"
+    country: "INT"
+    focus_areas: ["arctic", "research", "technology"]
+
+# Discovery patterns for automated URL finding
+discovery_patterns:
+  common_paths:
+    - "/publications"
+    - "/research"
+    - "/analysis"
+    - "/reports"
+    - "/commentary"
+    - "/blog"
+    - "/insights"
+
+  china_keywords:
+    - "china"
+    - "chinese"
+    - "beijing"
+    - "xi-jinping"
+    - "prc"
+
+  tech_keywords:
+    - "artificial-intelligence"
+    - "ai"
+    - "technology"
+    - "semiconductor"
+    - "quantum"
+    - "5g"
+    - "biotechnology"
+
+  arctic_keywords:
+    - "arctic"
+    - "polar"
+    - "climate"
+    - "ice"
+
+# Content filtering rules
+content_filters:
+  min_word_count: 200
+  max_word_count: 50000
+  exclude_patterns:
+    - "event"
+    - "calendar"
+    - "job"
+    - "career"
+    - "donate"
+    - "contact"
+
+  include_patterns:
+    - "report"
+    - "analysis"
+    - "policy"
+    - "brief"
+    - "paper"
+    - "study"
+
+# Export settings
+export_settings:
+  formats: ["xlsx", "csv", "jsonl"]
+  include_metadata: true
+  include_raw_content: false
+  max_records_per_file: 10000

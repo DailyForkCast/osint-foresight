@@ -1,0 +1,47 @@
+{
+  "cik": "0001397016",
+  "ticker": "OPXS",
+  "name": "Optex Systems Holdings Inc",
+  "detection_reasons": [
+    "vie_structure"
+  ],
+  "sic": "3827",
+  "sicDescription": "Optical Instruments & Lenses",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "972-764-5700",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1420 PRESIDENTIAL DRIVE",
+      "street2": null,
+      "city": "RICHARDSON",
+      "stateOrCountry": "TX",
+      "zipCode": "75081",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1420 PRESIDENTIAL DRIVE",
+      "street2": null,
+      "city": "RICHARDSON",
+      "stateOrCountry": "TX",
+      "zipCode": "75081",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-20"
+  },
+  "filings_count": 431
+}

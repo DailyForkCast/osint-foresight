@@ -1,0 +1,47 @@
+{
+  "cik": "0001114483",
+  "ticker": "ITGR",
+  "name": "Integer Holdings Corp",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3845",
+  "sicDescription": "Electromedical & Electrotherapeutic Apparatus",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "161531026",
+  "phone": "(214) 618-5243",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "5830 GRANITE PARKWAY., SUITE 1150",
+      "street2": null,
+      "city": "PLANO",
+      "stateOrCountry": "TX",
+      "zipCode": "75024",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "5830 GRANITE PARKWAY., SUITE 1150",
+      "street2": null,
+      "city": "PLANO",
+      "stateOrCountry": "TX",
+      "zipCode": "75024",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-07-24"
+  },
+  "filings_count": 1000
+}

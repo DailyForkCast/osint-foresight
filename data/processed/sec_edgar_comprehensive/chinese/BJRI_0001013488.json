@@ -1,0 +1,44 @@
+{
+  "cik": "0001013488",
+  "ticker": "BJRI",
+  "name": "BJs RESTAURANTS INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5812",
+  "sicDescription": "Retail-Eating  Places",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "CA",
+  "ein": "330485615",
+  "phone": "(714) 500-2440",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "7755 CENTER AVENUE",
+      "street2": "SUITE 300",
+      "city": "HUNTINGTON BEACH",
+      "stateOrCountry": "CA",
+      "zipCode": "92647",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "7755 CENTER AVENUE",
+      "street2": "SUITE 300",
+      "city": "HUNTINGTON BEACH",
+      "stateOrCountry": "CA",
+      "zipCode": "92647",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1002
+}

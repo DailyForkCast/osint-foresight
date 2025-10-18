@@ -1,0 +1,47 @@
+{
+  "cik": "0000104889",
+  "ticker": "GHC",
+  "name": "Graham Holdings Co",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "8200",
+  "sicDescription": "Services-Educational Services",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "530182885",
+  "phone": "7033456300",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1812 NORTH MOORE STREET",
+      "street2": "SUITE 2100",
+      "city": "ARLINGTON",
+      "stateOrCountry": "VA",
+      "zipCode": "22209",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1812 NORTH MOORE STREET",
+      "street2": "SUITE 2100",
+      "city": "ARLINGTON",
+      "stateOrCountry": "VA",
+      "zipCode": "22209",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-07-30"
+  },
+  "filings_count": 1002
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0001912582",
+  "ticker": "AIEV",
+  "name": "Thunder Power Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "3711",
+  "sicDescription": "Motor Vehicles & Passenger Car Bodies",
+  "category": "Non-accelerated filer<br>Smaller reporting company<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "874620515",
+  "phone": "909-214-2482",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT 5, 21/F., WESTLEY SQUARE",
+      "street2": "48 HOI YUEN ROAD, KWUN TONG",
+      "city": "KOWLOON",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "HONG KONG",
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    },
+    "business": {
+      "street1": "UNIT 5, 21/F., WESTLEY SQUARE",
+      "street2": "48 HOI YUEN ROAD, KWUN TONG",
+      "city": "KOWLOON",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "HONG KONG",
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-13"
+  },
+  "filings_count": 213
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "paper_id": "https://openalex.org/W2913304760",
+    "doi": "https://doi.org/10.33107/ubt-ic.2017.158",
+    "title": "Determination of Some Chemical Elements at Milk, at Three City in Macedonia (Kumanovo, Tetovo, Gostivar)",
+    "publication_year": 2017,
+    "countries_collaborating": [
+      "CN",
+      "MK",
+      "SK",
+      "XK"
+    ],
+    "institutions": {
+      "MK": [
+        "University \"St. Kliment Ohridski\" - Bitola"
+      ],
+      "SK": [
+        "University of Ss. Cyril and Methodius in Trnava"
+      ],
+      "XK": [
+        "University of Prishtina"
+      ],
+      "CN": [
+        "Institute of Animal Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "MK": [
+        "J. Tomovska (University \"St. Kliment Ohridski\" - Bitola)"
+      ],
+      "SK": [
+        "Trajče Stafilov (University of Ss. Cyril and Methodius in Trnava)"
+      ],
+      "XK": [
+        "Kemajl Kurteshi (University of Prishtina)"
+      ],
+      "CN": [
+        "Mirjana Menkovska (Institute of Animal Sciences)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2017,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_006.gz",
+      "line_number": 66508,
+      "extraction_command": "sed -n '66508p' part_006.gz | jq '.title'",
+      "paper_hash": "3cf7659db7c7e470"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "XK"
+  }
+]

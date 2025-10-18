@@ -1,0 +1,47 @@
+{
+  "cik": "0001888846",
+  "ticker": "UHGI",
+  "name": "Ultimate Holdings Group, Inc.",
+  "detection_reasons": [
+    "offshore:ky"
+  ],
+  "sic": "6770",
+  "sicDescription": "Blank Checks",
+  "category": "Non-accelerated filer<br>Smaller reporting company<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "NV",
+  "ein": "000000000",
+  "phone": "81366701692",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2-18-23, NISHIWASEDA SHINJUKU",
+      "street2": null,
+      "city": "TOKYO",
+      "stateOrCountry": "M0",
+      "zipCode": "162-0051",
+      "stateOrCountryDescription": "Japan",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2-18-23, NISHIWASEDA SHINJUKU",
+      "street2": null,
+      "city": "TOKYO",
+      "stateOrCountry": "M0",
+      "zipCode": "162-0051",
+      "stateOrCountryDescription": "Japan",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-06-03"
+  },
+  "filings_count": 42
+}

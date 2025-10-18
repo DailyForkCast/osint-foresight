@@ -1,0 +1,47 @@
+{
+  "cik": "0001745201",
+  "ticker": "VIK",
+  "name": "Viking Holdings Ltd",
+  "detection_reasons": [
+    "offshore:bermuda"
+  ],
+  "sic": "4400",
+  "sicDescription": "Water Transportation",
+  "category": "Non-accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "D0",
+  "ein": "000000000",
+  "phone": "818-227-1234",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "5700 CANOGA AVENUE",
+      "street2": "SUITE 200",
+      "city": "WOODLAND HILLS",
+      "stateOrCountry": "CA",
+      "zipCode": "91367",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "5700 CANOGA AVENUE",
+      "street2": "SUITE 200",
+      "city": "WOODLAND HILLS",
+      "stateOrCountry": "CA",
+      "zipCode": "91367",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-19"
+  },
+  "filings_count": 99
+}

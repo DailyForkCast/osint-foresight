@@ -1,0 +1,94 @@
+{
+  "country": "FR",
+  "harvest_session": {
+    "start_time": "2025-09-27T21:37:45.794403",
+    "end_time": "2025-09-27T21:37:51.889902",
+    "total_operations": 9
+  },
+  "operations_log": [
+    {
+      "timestamp": "2025-09-27T21:37:45.794403",
+      "operation": "HARVEST_SESSION_START",
+      "details": {
+        "country": "FR"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T21:37:45.796400",
+      "operation": "FETCH_INITIATED",
+      "details": {
+        "url": "https://www.diplomatie.gouv.fr/fr/dossiers-pays/chine/",
+        "country": "FR"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T21:37:46.969962",
+      "operation": "FETCH_COMPLETED",
+      "details": {
+        "url": "https://www.diplomatie.gouv.fr/fr/dossiers-pays/chine/",
+        "status_code": 200,
+        "content_length": 110684,
+        "content_hash": "50f16ce6a6158caa2b2a50071ccdccf724aa6df3d395806511cda061085e19c3",
+        "raw_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_comprehensive_master\\raw_verified\\FR_www_diplomatie_gouv_fr_20250927_213746_50f16ce6.html"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T21:37:46.972119",
+      "operation": "EXTRACTION_INITIATED",
+      "details": {
+        "url": "https://www.diplomatie.gouv.fr/fr/dossiers-pays/chine/",
+        "country": "FR"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T21:37:46.997054",
+      "operation": "EXTRACTION_COMPLETED",
+      "details": {
+        "url": "https://www.diplomatie.gouv.fr/fr/dossiers-pays/chine/",
+        "title_found": true,
+        "confidence": "low",
+        "agreement_indicators": 1
+      }
+    },
+    {
+      "timestamp": "2025-09-27T21:37:49.006482",
+      "operation": "FETCH_INITIATED",
+      "details": {
+        "url": "https://www.gouvernement.fr",
+        "country": "FR"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T21:37:49.759652",
+      "operation": "FETCH_COMPLETED",
+      "details": {
+        "url": "https://www.gouvernement.fr",
+        "status_code": 403,
+        "content_length": 7067,
+        "content_hash": "1f3278f02fb071d3b6f360dd8030a1a2d321ddd4ec0aeccb82f45ac0f93bc6da",
+        "raw_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_comprehensive_master\\raw_verified\\FR_www_gouvernement_fr_20250927_213749_1f3278f0.html"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T21:37:49.761637",
+      "operation": "EXTRACTION_INITIATED",
+      "details": {
+        "url": "https://www.gouvernement.fr",
+        "country": "FR"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T21:37:49.762638",
+      "operation": "EXTRACTION_COMPLETED",
+      "details": {
+        "url": "https://www.gouvernement.fr",
+        "title_found": true,
+        "confidence": "low",
+        "agreement_indicators": 0
+      }
+    }
+  ],
+  "verification_status": "ALL_DATA_REQUIRES_MANUAL_VERIFICATION",
+  "fabrication_risk": "ZERO_FABRICATION_PROTOCOL_ENFORCED",
+  "usage_warning": "DO NOT USE WITHOUT MANUAL VERIFICATION OF SOURCE DOCUMENTS"
+}

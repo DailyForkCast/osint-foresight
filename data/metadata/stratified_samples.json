@@ -1,0 +1,328 @@
+{
+  "project_data": [
+    {
+      "file": "C:\\Projects\\OSINT - Foresight\\data\\processed\\ted_2023_2025\\by_company\\catl\\all_contracts.json",
+      "type": ".json",
+      "size": 42539,
+      "parse_status": "success",
+      "line_count": 1,
+      "field_count": 13
+    },
+    {
+      "file": "C:\\Projects\\OSINT - Foresight\\data\\processed\\ted_2023_2025\\by_country\\HU_china\\contracts_2023.json",
+      "type": ".json",
+      "size": 167968,
+      "parse_status": "success",
+      "line_count": 3,
+      "field_count": 13
+    },
+    {
+      "file": "C:\\Projects\\OSINT - Foresight\\data\\processed\\ted_2023_2025\\by_company\\generic\\all_contracts.json",
+      "type": ".json",
+      "size": 55688,
+      "parse_status": "success",
+      "line_count": 71,
+      "field_count": 13
+    },
+    {
+      "file": "C:\\Projects\\OSINT - Foresight\\data\\processed\\mcf_enhanced\\phase1_results_20250923_134709.json",
+      "type": ".json",
+      "size": 919,
+      "parse_status": "success",
+      "line_count": 1,
+      "field_count": 7
+    },
+    {
+      "file": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\by_technology\\quantum_computing\\collaborations_20250921_124455.json",
+      "type": ".json",
+      "size": 4587,
+      "parse_status": "success",
+      "line_count": 3,
+      "field_count": 12
+    },
+    {
+      "file": "C:\\Projects\\OSINT - Foresight\\data\\processed\\patents_multicountry\\by_technology\\artificial_intelligence\\patents.json",
+      "type": ".json",
+      "size": 10500,
+      "parse_status": "success",
+      "line_count": 4,
+      "field_count": 2
+    },
+    {
+      "file": "C:\\Projects\\OSINT - Foresight\\data\\processed\\ted_2023_2025\\by_country\\SI_china\\summary.json",
+      "type": ".json",
+      "size": 235,
+      "parse_status": "success",
+      "line_count": 1,
+      "field_count": 6
+    },
+    {
+      "file": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\by_country\\HR_china\\collaborations_20250921_124455.json",
+      "type": ".json",
+      "size": 755112,
+      "parse_status": "success",
+      "line_count": 81,
+      "field_count": 13
+    },
+    {
+      "file": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\by_country\\NL_china\\collaborations_20250921_124455.json",
+      "type": ".json",
+      "size": 2297435,
+      "parse_status": "success",
+      "line_count": 758,
+      "field_count": 13
+    },
+    {
+      "file": "C:\\Projects\\OSINT - Foresight\\data\\processed\\ted_2023_2025\\by_country\\SE_china\\contracts_2023.json",
+      "type": ".json",
+      "size": 10217,
+      "parse_status": "success",
+      "line_count": 1,
+      "field_count": 13
+    },
+    {
+      "file": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openaire_comprehensive\\openaire_comprehensive.db",
+      "type": ".db",
+      "size": 49766400,
+      "parse_status": "success",
+      "line_count": 7717,
+      "field_count": 5
+    },
+    {
+      "file": "C:\\Projects\\OSINT - Foresight\\data\\processed\\cordis_unified\\cordis_china_projects.db",
+      "type": ".db",
+      "size": 1531904,
+      "parse_status": "success",
+      "line_count": 11424,
+      "field_count": 4
+    },
+    {
+      "file": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\by_country\\AE_china\\collaborations_20250921_124455.json",
+      "type": ".json",
+      "size": 343753,
+      "parse_status": "success",
+      "line_count": 22,
+      "field_count": 13
+    },
+    {
+      "file": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\by_country\\TW_china\\metadata.json",
+      "type": ".json",
+      "size": 163,
+      "parse_status": "success",
+      "line_count": 1,
+      "field_count": 4
+    },
+    {
+      "file": "C:\\Projects\\OSINT - Foresight\\data\\processed\\ted_historical_2010_2022\\by_sector\\unknown\\analysis.json",
+      "type": ".json",
+      "size": 165,
+      "parse_status": "success",
+      "line_count": 1,
+      "field_count": 5
+    },
+    {
+      "file": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\by_country\\CY_china\\metadata.json",
+      "type": ".json",
+      "size": 163,
+      "parse_status": "success",
+      "line_count": 1,
+      "field_count": 4
+    },
+    {
+      "file": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\by_country\\BG_china\\collaborations_20250921_124455.json",
+      "type": ".json",
+      "size": 1060669,
+      "parse_status": "success",
+      "line_count": 333,
+      "field_count": 13
+    },
+    {
+      "file": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\by_country\\SG_china\\collaborations_20250921_124455.json",
+      "type": ".json",
+      "size": 1620031,
+      "parse_status": "success",
+      "line_count": 908,
+      "field_count": 13
+    },
+    {
+      "file": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openaire_verified\\CZ_china_collaborations_20250922_202533.json",
+      "type": ".json",
+      "size": 18215,
+      "parse_status": "success",
+      "line_count": 1,
+      "field_count": 6
+    },
+    {
+      "file": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\by_country\\MX_china\\collaborations_20250921_124455.json",
+      "type": ".json",
+      "size": 1023442,
+      "parse_status": "success",
+      "line_count": 218,
+      "field_count": 13
+    }
+  ],
+  "ted_data": [],
+  "osint_data": [
+    {
+      "file": "F:\\OSINT_DATA\\usaspending_fixed_analysis.db",
+      "type": ".db",
+      "size": 48267264,
+      "parse_status": "success",
+      "line_count": 200002,
+      "field_count": 1
+    },
+    {
+      "file": "F:\\OSINT_DATA\\osint_master.db",
+      "type": ".db",
+      "size": 233472,
+      "parse_status": "success",
+      "line_count": 415,
+      "field_count": 14
+    },
+    {
+      "file": "F:\\OSINT_DATA\\Trade_Facilities\\uncomtrade\\uncomtrade_v2.db",
+      "type": ".db",
+      "size": 16384,
+      "parse_status": "success",
+      "line_count": 0,
+      "field_count": 3
+    },
+    {
+      "file": "F:\\OSINT_DATA\\openaire_production_comprehensive\\openaire_production.db",
+      "type": ".db",
+      "size": 2199068672,
+      "parse_status": "success",
+      "line_count": 307140,
+      "field_count": 5
+    },
+    {
+      "file": "F:\\OSINT_DATA\\OpenSanctions\\raw_data\\jp_mof_sanctions\\20250921_targets.nested.json",
+      "type": ".json",
+      "size": 8344861,
+      "parse_status": "parse_error",
+      "line_count": 0,
+      "field_count": 0
+    },
+    {
+      "file": "F:\\OSINT_DATA\\STANDARDS\\IEEE_standards_info_20250917.json",
+      "type": ".json",
+      "size": 424,
+      "parse_status": "success",
+      "line_count": 1,
+      "field_count": 4
+    },
+    {
+      "file": "F:\\OSINT_DATA\\country_analysis\\Slovakia_complete_analysis_20250917_053736.json",
+      "type": ".json",
+      "size": 947,
+      "parse_status": "success",
+      "line_count": 1,
+      "field_count": 9
+    },
+    {
+      "file": "F:\\OSINT_DATA\\fusion_results\\Sweden_fusion_20250917_053737.json",
+      "type": ".json",
+      "size": 2138,
+      "parse_status": "success",
+      "line_count": 1,
+      "field_count": 10
+    },
+    {
+      "file": "F:\\OSINT_DATA\\ACADEMIC\\arXiv_cs_AI_20250917.xml",
+      "type": ".xml",
+      "size": 153484,
+      "parse_status": "partial",
+      "line_count": 200,
+      "field_count": 0
+    },
+    {
+      "file": "F:\\OSINT_DATA\\GLEIF\\bulk_data\\relationships\\20250921-gleif-concatenated-file-repex.xml",
+      "type": ".xml",
+      "size": 1649659131,
+      "parse_status": "partial",
+      "line_count": 232,
+      "field_count": 0
+    },
+    {
+      "file": "F:\\OSINT_DATA\\GLEIF\\bulk_data\\relationships\\20250921-gleif-concatenated-file-rr.xml",
+      "type": ".xml",
+      "size": 995637468,
+      "parse_status": "partial",
+      "line_count": 239,
+      "field_count": 0
+    },
+    {
+      "file": "F:\\OSINT_DATA\\ACADEMIC\\arXiv_quant-ph_20250917.xml",
+      "type": ".xml",
+      "size": 154474,
+      "parse_status": "partial",
+      "line_count": 143,
+      "field_count": 0
+    },
+    {
+      "file": "F:\\OSINT_DATA\\Trade_Facilities\\eurostat_comext_v3\\DS-045409_full.csv",
+      "type": ".csv",
+      "size": 776163,
+      "parse_status": "success",
+      "line_count": 3080,
+      "field_count": 18
+    },
+    {
+      "file": "F:\\OSINT_DATA\\OpenSanctions\\raw_data\\us_ofac_sdn\\20250921_targets.simple.csv",
+      "type": ".csv",
+      "size": 7219080,
+      "parse_status": "success",
+      "line_count": 18544,
+      "field_count": 16
+    },
+    {
+      "file": "F:\\OSINT_DATA\\Trade_Facilities\\strategic_hs_codes\\aerospace_8526_20250922.csv.csv",
+      "type": ".csv",
+      "size": 15008,
+      "parse_status": "success",
+      "line_count": 38,
+      "field_count": 18
+    },
+    {
+      "file": "F:\\OSINT_DATA\\Trade_Facilities\\strategic_hs_codes\\semiconductors_8471_20250922.csv.csv",
+      "type": ".csv",
+      "size": 19036,
+      "parse_status": "success",
+      "line_count": 38,
+      "field_count": 18
+    },
+    {
+      "file": "F:\\OSINT_DATA\\epo_provenance_collection\\provenance_log.jsonl",
+      "type": ".jsonl",
+      "size": 38687,
+      "parse_status": "success",
+      "line_count": 54,
+      "field_count": 3
+    },
+    {
+      "file": "F:\\OSINT_DATA\\OpenSanctions\\raw_data\\au_dfat_sanctions\\20250921_targets.nested.json",
+      "type": ".json",
+      "size": 8360362,
+      "parse_status": "parse_error",
+      "line_count": 0,
+      "field_count": 0
+    },
+    {
+      "file": "F:\\OSINT_DATA\\country_analysis\\Turkey_complete_analysis_20250917_053938.json",
+      "type": ".json",
+      "size": 939,
+      "parse_status": "success",
+      "line_count": 1,
+      "field_count": 9
+    },
+    {
+      "file": "F:\\OSINT_DATA\\OpenSanctions\\raw_data\\us_trade_csl\\20250921_targets.nested.json",
+      "type": ".json",
+      "size": 19268353,
+      "parse_status": "parse_error",
+      "line_count": 0,
+      "field_count": 0
+    }
+  ],
+  "openalex_backup": []
+}

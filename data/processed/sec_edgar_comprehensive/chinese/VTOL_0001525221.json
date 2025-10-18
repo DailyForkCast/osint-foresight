@@ -1,0 +1,47 @@
+{
+  "cik": "0001525221",
+  "ticker": "VTOL",
+  "name": "Bristow Group Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "4522",
+  "sicDescription": "Air Transportation, Nonscheduled",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "721455213",
+  "phone": "713-369-4700",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3151 BRIARPARK DRIVE, SUITE 700",
+      "street2": null,
+      "city": "HOUSTON",
+      "stateOrCountry": "TX",
+      "zipCode": "77042",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3151 BRIARPARK DRIVE, SUITE 700",
+      "street2": null,
+      "city": "HOUSTON",
+      "stateOrCountry": "TX",
+      "zipCode": "77042",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-22"
+  },
+  "filings_count": 853
+}

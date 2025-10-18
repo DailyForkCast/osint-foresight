@@ -1,0 +1,53 @@
+{
+  "cik": "0001971542",
+  "ticker": "QMMM",
+  "name": "QMMM Holdings Ltd",
+  "detection_reasons": [
+    "location:china",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong",
+    "address:mailing",
+    "address:business",
+    "vie_structure"
+  ],
+  "sic": "7311",
+  "sicDescription": "Services-Advertising Agencies",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "(852)3549 6889",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT 1301, BLOCK C, SEA VIEW ESTATE,",
+      "street2": "8 WATSON ROAD TIN HAU,",
+      "city": "HONG KONG",
+      "stateOrCountry": "F4",
+      "zipCode": "0000000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "UNIT 1301, BLOCK C, SEA VIEW ESTATE,",
+      "street2": "8 WATSON ROAD TIN HAU,",
+      "city": "HONG KONG",
+      "stateOrCountry": "F4",
+      "zipCode": "0000000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-09"
+  },
+  "filings_count": 59
+}

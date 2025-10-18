@@ -1,0 +1,109 @@
+{
+  "analysis_date": "2025-09-28T14:13:32.178184",
+  "total_agreements": 1693,
+  "strategic_corridors": {
+    "middle_corridor": {
+      "total": 11,
+      "significance": "Alternative to Russian route for China-Europe trade"
+    },
+    "17_plus_1": {
+      "total": 101,
+      "significance": "China engagement mechanism with Central/Eastern Europe"
+    },
+    "polar_silk_road": {
+      "total": 99,
+      "significance": "Arctic shipping routes and resource extraction"
+    },
+    "financial_hubs": {
+      "total": 5,
+      "significance": "RMB internationalization and financial connectivity"
+    },
+    "digital_silk_road": {
+      "total": 85,
+      "significance": "Technology transfer and digital infrastructure"
+    }
+  },
+  "infrastructure_projects": {
+    "ports": 84,
+    "highways": 76,
+    "energy": 29,
+    "railways": 23,
+    "telecom": 5
+  },
+  "soe_involvement": {
+    "huawei": 46,
+    "sinohydro": 1
+  },
+  "country_profiles": {
+    "serbia": {
+      "total": 99,
+      "characteristics": {
+        "region": "balkans",
+        "eu_candidate": true,
+        "bri_member": true
+      },
+      "focus_areas": {
+        "investment": 26,
+        "trade": 13,
+        "education": 2
+      }
+    },
+    "turkey": {
+      "total": 198,
+      "characteristics": {
+        "region": "turkey",
+        "eu_candidate": true,
+        "nato_member": true
+      },
+      "focus_areas": {
+        "technology": 2,
+        "trade": 1
+      }
+    },
+    "uk": {
+      "total": 99,
+      "characteristics": {
+        "region": "western",
+        "g7_member": true,
+        "five_eyes": true
+      },
+      "focus_areas": {
+        "education": 2
+      }
+    },
+    "switzerland": {
+      "total": 99,
+      "characteristics": {
+        "region": "western",
+        "neutral": true,
+        "financial_center": true
+      },
+      "focus_areas": {
+        "education": 5
+      }
+    },
+    "norway": {
+      "total": 99,
+      "characteristics": {
+        "region": "nordic",
+        "nato_member": true,
+        "arctic_council": true
+      },
+      "focus_areas": {}
+    },
+    "georgia": {
+      "total": 99,
+      "characteristics": {
+        "region": "caucasus",
+        "eu_aspirant": true,
+        "strategic_location": true
+      },
+      "focus_areas": {
+        "education": 9,
+        "investment": 21,
+        "trade": 1,
+        "technology": 1
+      }
+    }
+  }
+}

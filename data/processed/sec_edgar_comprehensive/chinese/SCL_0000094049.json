@@ -1,0 +1,47 @@
+{
+  "cik": "0000094049",
+  "ticker": "SCL",
+  "name": "STEPAN CO",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2840",
+  "sicDescription": "Soap, Detergents, Cleang Preparations, Perfumes, Cosmetics",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "361823834",
+  "phone": "8474467500",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "EDENS & WINNETKA ROAD",
+      "street2": null,
+      "city": "NORTHFIELD",
+      "stateOrCountry": "IL",
+      "zipCode": "60093",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "EDENS & WINNETKA ROAD",
+      "street2": null,
+      "city": "NORTHFIELD",
+      "stateOrCountry": "IL",
+      "zipCode": "60093",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-06"
+  },
+  "filings_count": 1000
+}

@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-09-24T18:31:13.652349",
+  "previous_run": "Unknown",
+  "current_run": "2025-09-24T18:29:39.446514",
+  "changes": {
+    "files_analyzed": {
+      "previous": 50,
+      "current": 1132,
+      "delta": 1082,
+      "percent_change": 2164.0
+    },
+    "new_sources": [],
+    "removed_sources": [
+      "ted_data",
+      "osint_data",
+      "project_data",
+      "openalex_backup"
+    ],
+    "parse_rate_change": 0
+  }
+}

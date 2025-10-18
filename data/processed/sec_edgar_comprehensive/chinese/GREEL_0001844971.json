@@ -1,0 +1,47 @@
+{
+  "cik": "0001844971",
+  "ticker": "GREEL",
+  "name": "Greenidge Generation Holdings Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6199",
+  "sicDescription": "Finance Services",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "861746728",
+  "phone": "315-536-2359",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1159 PITTSFORD-VICTOR ROAD",
+      "street2": "SUITE 240",
+      "city": "PITTSFORD",
+      "stateOrCountry": "NY",
+      "zipCode": "14534",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1159 PITTSFORD-VICTOR ROAD",
+      "street2": "SUITE 240",
+      "city": "PITTSFORD",
+      "stateOrCountry": "NY",
+      "zipCode": "14534",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-12"
+  },
+  "filings_count": 365
+}

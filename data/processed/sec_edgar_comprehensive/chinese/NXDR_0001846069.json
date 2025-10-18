@@ -1,0 +1,45 @@
+{
+  "cik": "0001846069",
+  "ticker": "NXDR",
+  "name": "Nextdoor Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:bm"
+  ],
+  "sic": "7370",
+  "sicDescription": "Services-Computer Programming, Data Processing, Etc.",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "861776836",
+  "phone": "415-344-0333",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "420 TAYLOR STREET",
+      "street2": null,
+      "city": "SAN FRANCISCO",
+      "stateOrCountry": "CA",
+      "zipCode": "94012",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "420 TAYLOR STREET",
+      "street2": null,
+      "city": "SAN FRANCISCO",
+      "stateOrCountry": "CA",
+      "zipCode": "94012",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 573
+}

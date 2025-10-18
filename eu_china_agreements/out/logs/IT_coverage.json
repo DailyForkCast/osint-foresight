@@ -1,0 +1,43 @@
+{
+  "total_agreements": 34,
+  "validation_issues": [],
+  "coverage": {
+    "IT": {
+      "total": 34,
+      "national": 17,
+      "regional": 0,
+      "municipal": 15,
+      "institution": 2
+    }
+  },
+  "status_distribution": {
+    "unknown": 31,
+    "active": 3
+  },
+  "type_distribution": {
+    "unknown": 12,
+    "MoU": 4,
+    "treaty": 12,
+    "program": 3,
+    "protocol": 3
+  },
+  "confidence_distribution": {
+    "low": 34
+  },
+  "date_coverage": {
+    "2024": 5,
+    "2021": 1,
+    "2023": 2,
+    "2025": 1,
+    "1922": 1,
+    "1979": 1,
+    "2007": 1,
+    "1985": 1,
+    "2000": 1
+  },
+  "kpis": {
+    "precision_at_official": 0.0,
+    "status_clarity_rate": 0.08823529411764706,
+    "date_completeness": 0.4117647058823529
+  }
+}

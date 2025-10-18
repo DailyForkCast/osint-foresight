@@ -1,0 +1,218 @@
+[
+  {
+    "paper_id": "https://openalex.org/W4288318115",
+    "doi": null,
+    "title": "Two- and three-dimensional numerical simulations of an evaporating liquid layer on a heated substrate",
+    "publication_year": 2019,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Laboratoire de Mécanique, Modélisation & Procédés Propres"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Paul G. Chen (Laboratoire de Mécanique, Modélisation & Procédés Propres)"
+      ],
+      "CN": [
+        "Q.S. Liu (Chinese Academy of Sciences)",
+        "W.J. Liu (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2019,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 103,
+      "extraction_command": "sed -n '103p' part_000.gz | jq '.title'",
+      "paper_hash": "0d0dbf9dafd07959"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2984401232",
+    "doi": null,
+    "title": "Genetic determinism of abdominal fat tissue and relationships with body weight and egg quality in Rhode Island Red",
+    "publication_year": 2019,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Physiology, Environment, and Genetics for the Animal and Livestock Systems"
+      ],
+      "CN": [
+        "Novogene Bioinformatics Institute"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Sophie Allais (Physiology, Environment, and Genetics for the Animal and Livestock Systems)",
+        "Nicolas Bédère (Physiology, Environment, and Genetics for the Animal and Livestock Systems)",
+        "Florian Herry (Physiology, Environment, and Genetics for the Animal and Livestock Systems)",
+        "Frédéric Herault (Physiology, Environment, and Genetics for the Animal and Livestock Systems)",
+        "Pascale Le Roy (Physiology, Environment, and Genetics for the Animal and Livestock Systems)",
+        "David Picard Druet (Physiology, Environment, and Genetics for the Animal and Livestock Systems)"
+      ],
+      "CN": [
+        "Amandine Varenne (Novogene Bioinformatics Institute)",
+        "Thierry Burlot (Novogene Bioinformatics Institute)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2019,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 65,
+      "extraction_command": "sed -n '65p' part_000.gz | jq '.title'",
+      "paper_hash": "ce794d8e48a6b3ca"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4206879297",
+    "doi": null,
+    "title": "Adaptive stopping criterion of PGD for edge elements based on equilibrated error estimates in magnetostatic Problems",
+    "publication_year": 2019,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Institut de Microélectronique, Electromagnétisme et Photonique",
+        "Laboratoire d'Électrotechnique et d'Électronique de Puissance de Lille"
+      ],
+      "CN": [
+        "Institute of Software",
+        "Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Thomas Henneron (Laboratoire d'Électrotechnique et d'Électronique de Puissance de Lille)",
+        "Zhuoxiang Ren (Institut de Microélectronique, Electromagnétisme et Photonique)",
+        "Zuqi Tang (Laboratoire d'Électrotechnique et d'Électronique de Puissance de Lille)"
+      ],
+      "CN": [
+        "Shuai Yang (Chinese Academy of Sciences)",
+        "Shuai Yang (Institute of Software)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2019,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_004.gz",
+      "line_number": 10901,
+      "extraction_command": "sed -n '10901p' part_004.gz | jq '.title'",
+      "paper_hash": "f542895f4a7efda1"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2732565107",
+    "doi": "https://doi.org/10.1080/2162402x.2017.1341030",
+    "title": "Clinical relevance of tumor infiltrating lymphocytes, PD-L1 expression and correlation with HPV/p16 in head and neck cancer treated with bio- or chemo-radiotherapy",
+    "publication_year": 2017,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Inserm",
+        "Institut Gustave Roussy"
+      ],
+      "CN": [
+        "Shanghai Medical College of Fudan University",
+        "Fudan University Shanghai Cancer Center"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Ingrid Garberis (Institut Gustave Roussy)",
+        "Antonin Lévy (Institut Gustave Roussy)",
+        "Dan Ou (Institut Gustave Roussy)",
+        "Jean‐Yves Scoazec (Institut Gustave Roussy)",
+        "Julien Adam (Institut Gustave Roussy)",
+        "Dan Ou (Inserm)",
+        "Ingrid Breuskin (Institut Gustave Roussy)",
+        "Antonin Lévy (Inserm)",
+        "Stéphane Temam (Institut Gustave Roussy)",
+        "Philippe Gorphe (Institut Gustave Roussy)",
+        "Yungan Tao (Inserm)",
+        "Pierre Blanchard (Institut Gustave Roussy)",
+        "Odile Casiraghi (Institut Gustave Roussy)",
+        "Éric Deutsch (Inserm)",
+        "Éric Deutsch (Institut Gustave Roussy)",
+        "Yungan Tao (Institut Gustave Roussy)",
+        "France Nguyen (Institut Gustave Roussy)",
+        "François Janot (Institut Gustave Roussy)"
+      ],
+      "CN": [
+        "Dan Ou (Fudan University Shanghai Cancer Center)",
+        "Dan Ou (Shanghai Medical College of Fudan University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2017,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_004.gz",
+      "line_number": 2,
+      "extraction_command": "sed -n '2p' part_004.gz | jq '.title'",
+      "paper_hash": "b1a2cbff4e6a5576"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  }
+]

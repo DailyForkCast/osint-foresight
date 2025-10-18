@@ -1,0 +1,277 @@
+{
+  "created": "2025-09-28T09:47:40.519518",
+  "total_items": 10,
+  "instructions": "Complete each verification step and update fields",
+  "items": [
+    {
+      "partnership": "Hamburg-Shanghai",
+      "type": "sister_city",
+      "url_to_check": "https://www.hamburg.de/shanghai/",
+      "wayback_url": "http://web.archive.org/web/20240424030213/https://www.hamburg.de/shanghai/",
+      "verification_steps": [
+        "Visit the URL directly",
+        "Search for China/Chinese on the page",
+        "Look for partnership/agreement documentation",
+        "Take screenshot if found",
+        "Check Wayback Machine if current URL fails",
+        "Record exact text mentioning agreement",
+        "Note date of agreement if available"
+      ],
+      "verification_fields": {
+        "url_accessible": null,
+        "agreement_found": null,
+        "agreement_title": "",
+        "parties_confirmed": "",
+        "date_signed": "",
+        "current_status": "",
+        "screenshot_saved": "",
+        "verified_by": "",
+        "verification_date": "",
+        "notes": ""
+      }
+    },
+    {
+      "partnership": "Munich-Beijing",
+      "type": "sister_city",
+      "url_to_check": "https://www.muenchen.de/rathaus/Stadtpolitik/Partnerstaedte",
+      "wayback_url": null,
+      "verification_steps": [
+        "Visit the URL directly",
+        "Search for China/Chinese on the page",
+        "Look for partnership/agreement documentation",
+        "Take screenshot if found",
+        "Check Wayback Machine if current URL fails",
+        "Record exact text mentioning agreement",
+        "Note date of agreement if available"
+      ],
+      "verification_fields": {
+        "url_accessible": null,
+        "agreement_found": null,
+        "agreement_title": "",
+        "parties_confirmed": "",
+        "date_signed": "",
+        "current_status": "",
+        "screenshot_saved": "",
+        "verified_by": "",
+        "verification_date": "",
+        "notes": ""
+      }
+    },
+    {
+      "partnership": "Lyon-Guangzhou",
+      "type": "sister_city",
+      "url_to_check": "https://www.lyon.fr/vie-municipale/relations-internationales",
+      "wayback_url": null,
+      "verification_steps": [
+        "Visit the URL directly",
+        "Search for China/Chinese on the page",
+        "Look for partnership/agreement documentation",
+        "Take screenshot if found",
+        "Check Wayback Machine if current URL fails",
+        "Record exact text mentioning agreement",
+        "Note date of agreement if available"
+      ],
+      "verification_fields": {
+        "url_accessible": null,
+        "agreement_found": null,
+        "agreement_title": "",
+        "parties_confirmed": "",
+        "date_signed": "",
+        "current_status": "",
+        "screenshot_saved": "",
+        "verified_by": "",
+        "verification_date": "",
+        "notes": ""
+      }
+    },
+    {
+      "partnership": "Milan-Shanghai",
+      "type": "sister_city",
+      "url_to_check": "https://www.comune.milano.it/aree-tematiche/relazioni-internazionali",
+      "wayback_url": null,
+      "verification_steps": [
+        "Visit the URL directly",
+        "Search for China/Chinese on the page",
+        "Look for partnership/agreement documentation",
+        "Take screenshot if found",
+        "Check Wayback Machine if current URL fails",
+        "Record exact text mentioning agreement",
+        "Note date of agreement if available"
+      ],
+      "verification_fields": {
+        "url_accessible": null,
+        "agreement_found": null,
+        "agreement_title": "",
+        "parties_confirmed": "",
+        "date_signed": "",
+        "current_status": "",
+        "screenshot_saved": "",
+        "verified_by": "",
+        "verification_date": "",
+        "notes": ""
+      }
+    },
+    {
+      "partnership": "Birmingham-Guangzhou",
+      "type": "sister_city",
+      "url_to_check": "https://www.birmingham.gov.uk/info/50218/birmingham_s_sister_cities",
+      "wayback_url": null,
+      "verification_steps": [
+        "Visit the URL directly",
+        "Search for China/Chinese on the page",
+        "Look for partnership/agreement documentation",
+        "Take screenshot if found",
+        "Check Wayback Machine if current URL fails",
+        "Record exact text mentioning agreement",
+        "Note date of agreement if available"
+      ],
+      "verification_fields": {
+        "url_accessible": null,
+        "agreement_found": null,
+        "agreement_title": "",
+        "parties_confirmed": "",
+        "date_signed": "",
+        "current_status": "",
+        "screenshot_saved": "",
+        "verified_by": "",
+        "verification_date": "",
+        "notes": ""
+      }
+    },
+    {
+      "partnership": "Krakow-Nanjing",
+      "type": "sister_city",
+      "url_to_check": "https://www.krakow.pl/aktualnosci",
+      "wayback_url": null,
+      "verification_steps": [
+        "Visit the URL directly",
+        "Search for China/Chinese on the page",
+        "Look for partnership/agreement documentation",
+        "Take screenshot if found",
+        "Check Wayback Machine if current URL fails",
+        "Record exact text mentioning agreement",
+        "Note date of agreement if available"
+      ],
+      "verification_fields": {
+        "url_accessible": null,
+        "agreement_found": null,
+        "agreement_title": "",
+        "parties_confirmed": "",
+        "date_signed": "",
+        "current_status": "",
+        "screenshot_saved": "",
+        "verified_by": "",
+        "verification_date": "",
+        "notes": ""
+      }
+    },
+    {
+      "partnership": "Cambridge University - Tsinghua University",
+      "type": "academic_partnership",
+      "url_to_check": "https://www.cam.ac.uk/global-cambridge/east-asia",
+      "wayback_url": null,
+      "verification_steps": [
+        "Visit the URL directly",
+        "Search for China/Chinese on the page",
+        "Look for partnership/agreement documentation",
+        "Take screenshot if found",
+        "Check Wayback Machine if current URL fails",
+        "Record exact text mentioning agreement",
+        "Note date of agreement if available"
+      ],
+      "verification_fields": {
+        "url_accessible": null,
+        "agreement_found": null,
+        "agreement_title": "",
+        "parties_confirmed": "",
+        "date_signed": "",
+        "current_status": "",
+        "screenshot_saved": "",
+        "verified_by": "",
+        "verification_date": "",
+        "notes": ""
+      }
+    },
+    {
+      "partnership": "Oxford University - Chinese Universities",
+      "type": "academic_partnership",
+      "url_to_check": "https://www.ox.ac.uk/global/partnerships",
+      "wayback_url": null,
+      "verification_steps": [
+        "Visit the URL directly",
+        "Search for China/Chinese on the page",
+        "Look for partnership/agreement documentation",
+        "Take screenshot if found",
+        "Check Wayback Machine if current URL fails",
+        "Record exact text mentioning agreement",
+        "Note date of agreement if available"
+      ],
+      "verification_fields": {
+        "url_accessible": null,
+        "agreement_found": null,
+        "agreement_title": "",
+        "parties_confirmed": "",
+        "date_signed": "",
+        "current_status": "",
+        "screenshot_saved": "",
+        "verified_by": "",
+        "verification_date": "",
+        "notes": ""
+      }
+    },
+    {
+      "partnership": "Sorbonne - Chinese Universities",
+      "type": "academic_partnership",
+      "url_to_check": "https://www.sorbonne-universite.fr/international",
+      "wayback_url": null,
+      "verification_steps": [
+        "Visit the URL directly",
+        "Search for China/Chinese on the page",
+        "Look for partnership/agreement documentation",
+        "Take screenshot if found",
+        "Check Wayback Machine if current URL fails",
+        "Record exact text mentioning agreement",
+        "Note date of agreement if available"
+      ],
+      "verification_fields": {
+        "url_accessible": null,
+        "agreement_found": null,
+        "agreement_title": "",
+        "parties_confirmed": "",
+        "date_signed": "",
+        "current_status": "",
+        "screenshot_saved": "",
+        "verified_by": "",
+        "verification_date": "",
+        "notes": ""
+      }
+    },
+    {
+      "partnership": "TU Munich - Chinese Partners",
+      "type": "academic_partnership",
+      "url_to_check": "https://www.tum.de/en/global/partnerships",
+      "wayback_url": null,
+      "verification_steps": [
+        "Visit the URL directly",
+        "Search for China/Chinese on the page",
+        "Look for partnership/agreement documentation",
+        "Take screenshot if found",
+        "Check Wayback Machine if current URL fails",
+        "Record exact text mentioning agreement",
+        "Note date of agreement if available"
+      ],
+      "verification_fields": {
+        "url_accessible": null,
+        "agreement_found": null,
+        "agreement_title": "",
+        "parties_confirmed": "",
+        "date_signed": "",
+        "current_status": "",
+        "screenshot_saved": "",
+        "verified_by": "",
+        "verification_date": "",
+        "notes": ""
+      }
+    }
+  ]
+}

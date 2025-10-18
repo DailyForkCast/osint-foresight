@@ -1,0 +1,47 @@
+{
+  "cik": "0001091748",
+  "ticker": "ARGO-PA",
+  "name": "Argo Group International Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6361",
+  "sicDescription": "Title Insurance",
+  "category": "Non-accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "980214719",
+  "phone": "2103218400",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "501 7TH AVENUE, 7TH FLOOR",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10018",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "501 7TH AVENUE, 7TH FLOOR",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10018",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-15"
+  },
+  "filings_count": 1007
+}

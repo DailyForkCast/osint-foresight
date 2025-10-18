@@ -1,0 +1,44 @@
+{
+  "cik": "0001019849",
+  "ticker": "PAG",
+  "name": "PENSKE AUTOMOTIVE GROUP, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5500",
+  "sicDescription": "Retail-Auto Dealers & Gasoline Stations",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "223086739",
+  "phone": "248-648-2500",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2555 TELEGRAPH RD",
+      "street2": null,
+      "city": "BLOOMFIELD HILLS",
+      "stateOrCountry": "MI",
+      "zipCode": "48302-0954",
+      "stateOrCountryDescription": "MI",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2555 TELEGRAPH RD",
+      "street2": null,
+      "city": "BLOOMFIELD HILLS",
+      "stateOrCountry": "MI",
+      "zipCode": "48302-0954",
+      "stateOrCountryDescription": "MI",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1000
+}

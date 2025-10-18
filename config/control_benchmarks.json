@@ -1,0 +1,14 @@
+{
+  "control_entities": [
+    "Microsoft",
+    "Apple",
+    "Google",
+    "Amazon",
+    "Siemens",
+    "Samsung",
+    "Toyota",
+    "Volkswagen"
+  ],
+  "baseline_detection_rate": 0.0,
+  "false_positive_analysis": []
+}

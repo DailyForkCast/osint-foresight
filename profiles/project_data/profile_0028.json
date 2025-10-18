@@ -1,0 +1,32 @@
+{
+  "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openaire_comprehensive\\processing_checkpoint.json",
+  "size": 236,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 1,
+  "field_count": 7,
+  "parse_status": "success",
+  "schema": {
+    "completed_countries": "array",
+    "current_country": "string",
+    "current_batch": "number",
+    "total_processed": "number",
+    "total_collaborations": "number",
+    "china_collaborations": "number",
+    "start_time": "string"
+  },
+  "sample_records": [
+    {
+      "completed_countries": [
+        "IT"
+      ],
+      "current_country": "IT",
+      "current_batch": 5,
+      "total_processed": 5250,
+      "total_collaborations": 3854,
+      "china_collaborations": 0,
+      "start_time": "2025-09-21T17:14:26.434880"
+    }
+  ],
+  "modified": "2025-09-21T17:18:13.925087"
+}

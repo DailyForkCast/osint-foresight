@@ -1,0 +1,51 @@
+{
+  "cik": "0001610601",
+  "ticker": "MOMO",
+  "name": "Hello Group Inc.",
+  "detection_reasons": [
+    "location:china",
+    "location:beijing",
+    "address:mailing",
+    "address:business",
+    "sic:7372"
+  ],
+  "sic": "7372",
+  "sicDescription": "Services-Prepackaged Software",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "861057310567",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "20/F, BLOCK B, TOWER 2, WANGJING SOHO",
+      "street2": "NO.1 FUTONGDONG STREET,CHAOYANG DISTRICT",
+      "city": "BEIJING",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "20/F, BLOCK B, TOWER 2, WANGJING SOHO",
+      "street2": "NO.1 FUTONGDONG STREET,CHAOYANG DISTRICT",
+      "city": "BEIJING",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-09"
+  },
+  "filings_count": 200
+}

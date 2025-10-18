@@ -1,0 +1,47 @@
+{
+  "cik": "0001185348",
+  "ticker": "PRAA",
+  "name": "PRA GROUP INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6153",
+  "sicDescription": "Short-Term Business Credit Institutions",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "753078675",
+  "phone": "7575199300",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "120 CORPORATE BLVD STE 100",
+      "street2": null,
+      "city": "NORFOLK",
+      "stateOrCountry": "VA",
+      "zipCode": "23502",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "120 CORPORATE BLVD STE 100",
+      "street2": null,
+      "city": "NORFOLK",
+      "stateOrCountry": "VA",
+      "zipCode": "23502",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-24"
+  },
+  "filings_count": 1003
+}

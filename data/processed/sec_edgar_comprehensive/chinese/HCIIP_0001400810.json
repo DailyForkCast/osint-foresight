@@ -1,0 +1,47 @@
+{
+  "cik": "0001400810",
+  "ticker": "HCIIP",
+  "name": "HCI Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6331",
+  "sicDescription": "Fire, Marine & Casualty Insurance",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "FL",
+  "ein": "000000000",
+  "phone": "813 849-9500",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3802 COCONUT PALM DRIVE",
+      "street2": null,
+      "city": "TAMPA",
+      "stateOrCountry": "FL",
+      "zipCode": "33619",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3802 COCONUT PALM DRIVE",
+      "street2": null,
+      "city": "TAMPA",
+      "stateOrCountry": "FL",
+      "zipCode": "33619",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-25"
+  },
+  "filings_count": 943
+}

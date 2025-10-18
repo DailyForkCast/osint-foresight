@@ -1,0 +1,75 @@
+{
+  "path": "F:\\OSINT_DATA\\collection_tracking.db",
+  "size": 57344,
+  "extension": ".db",
+  "encoding": "unknown",
+  "line_count": 42,
+  "field_count": 4,
+  "parse_status": "success",
+  "schema": {
+    "collection_sessions": {
+      "row_count": 1,
+      "columns": [
+        "id",
+        "session_id",
+        "start_time",
+        "end_time",
+        "priority_level",
+        "countries_total",
+        "countries_completed",
+        "countries_failed",
+        "status"
+      ]
+    },
+    "sqlite_sequence": {
+      "row_count": 2,
+      "columns": [
+        "name",
+        "seq"
+      ]
+    },
+    "country_status": {
+      "row_count": 39,
+      "columns": [
+        "id",
+        "session_id",
+        "country_name",
+        "priority_level",
+        "collection_start",
+        "collection_end",
+        "status",
+        "data_collected",
+        "error_message",
+        "file_paths"
+      ]
+    },
+    "collection_metrics": {
+      "row_count": 0,
+      "columns": [
+        "id",
+        "session_id",
+        "country_name",
+        "collector_type",
+        "items_collected",
+        "data_size_mb",
+        "execution_time_seconds",
+        "api_calls_made",
+        "timestamp"
+      ]
+    }
+  },
+  "sample_records": [
+    [
+      1,
+      "priority_20250917_052237",
+      "2025-09-17 05:22:37.081473",
+      null,
+      "PRIORITY",
+      39,
+      null,
+      null,
+      "running"
+    ]
+  ],
+  "modified": "2025-09-17T05:41:48"
+}

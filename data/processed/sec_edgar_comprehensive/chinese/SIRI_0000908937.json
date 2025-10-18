@@ -1,0 +1,47 @@
+{
+  "cik": "0000908937",
+  "ticker": "SIRI",
+  "name": "SIRIUS XM HOLDINGS INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "4832",
+  "sicDescription": "Radio Broadcasting Stations",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "383916511",
+  "phone": "212-584-5100",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1290 AVENUE OF THE AMERICAS",
+      "street2": "11TH FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10104",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1290 AVENUE OF THE AMERICAS",
+      "street2": "11TH FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10104",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-08"
+  },
+  "filings_count": 1000
+}

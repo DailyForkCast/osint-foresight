@@ -1,0 +1,47 @@
+{
+  "cik": "0001158324",
+  "ticker": "CCOI",
+  "name": "COGENT COMMUNICATIONS HOLDINGS, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "4899",
+  "sicDescription": "Communications Services, NEC",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "522337274",
+  "phone": "2022954200",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2450 N STREET, NW",
+      "street2": null,
+      "city": "WASHINGTON",
+      "stateOrCountry": "DC",
+      "zipCode": "20037",
+      "stateOrCountryDescription": "DC",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2450 N STREET, NW",
+      "street2": null,
+      "city": "WASHINGTON",
+      "stateOrCountry": "DC",
+      "zipCode": "20037",
+      "stateOrCountryDescription": "DC",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-15"
+  },
+  "filings_count": 1007
+}

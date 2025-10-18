@@ -1,0 +1,130 @@
+{
+  "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\national_procurement\\PL_procurement_searches_20250923_160912.json",
+  "size": 3479,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 1,
+  "field_count": 4,
+  "parse_status": "success",
+  "schema": {
+    "country": "string",
+    "search_date": "string",
+    "results": "array",
+    "statistics": "object"
+  },
+  "sample_records": [
+    {
+      "country": "PL",
+      "search_date": "2025-09-23T16:09:12.820212",
+      "results": [
+        {
+          "search_term": "Huawei",
+          "country": "PL",
+          "portal": "ezamowienia.gov.pl",
+          "timestamp": "2025-09-23T16:08:46.732699",
+          "status": "framework_only",
+          "note": "Actual implementation requires portal-specific integration"
+        },
+        {
+          "search_term": "ZTE",
+          "country": "PL",
+          "portal": "ezamowienia.gov.pl",
+          "timestamp": "2025-09-23T16:08:48.738785",
+          "status": "framework_only",
+          "note": "Actual implementation requires portal-specific integration"
+        },
+        {
+          "search_term": "Lenovo",
+          "country": "PL",
+          "portal": "ezamowienia.gov.pl",
+          "timestamp": "2025-09-23T16:08:50.749509",
+          "status": "framework_only",
+          "note": "Actual implementation requires portal-specific integration"
+        },
+        {
+          "search_term": "Hikvision",
+          "country": "PL",
+          "portal": "ezamowienia.gov.pl",
+          "timestamp": "2025-09-23T16:08:52.750185",
+          "status": "framework_only",
+          "note": "Actual implementation requires portal-specific integration"
+        },
+        {
+          "search_term": "DJI",
+          "country": "PL",
+          "portal": "ezamowienia.gov.pl",
+          "timestamp": "2025-09-23T16:08:54.764452",
+          "status": "framework_only",
+          "note": "Actual implementation requires portal-specific integration"
+        },
+        {
+          "search_term": "Dahua",
+          "country": "PL",
+          "portal": "ezamowienia.gov.pl",
+          "timestamp": "2025-09-23T16:08:56.766499",
+          "status": "framework_only",
+          "note": "Actual implementation requires portal-specific integration"
+        },
+        {
+          "search_term": "Xiaomi",
+          "country": "PL",
+          "portal": "ezamowienia.gov.pl",
+          "timestamp": "2025-09-23T16:08:58.774371",
+          "status": "framework_only",
+          "note": "Actual implementation requires portal-specific integration"
+        },
+        {
+          "search_term": "Alibaba",
+          "country": "PL",
+          "portal": "ezamowienia.gov.pl",
+          "timestamp": "2025-09-23T16:09:00.776102",
+          "status": "framework_only",
+          "note": "Actual implementation requires portal-specific integration"
+        },
+        {
+          "search_term": "BYD",
+          "country": "PL",
+          "portal": "ezamowienia.gov.pl",
+          "timestamp": "2025-09-23T16:09:02.785203",
+          "status": "framework_only",
+          "note": "Actual implementation requires portal-specific integration"
+        },
+        {
+          "search_term": "CRRC",
+          "country": "PL",
+          "portal": "ezamowienia.gov.pl",
+          "timestamp": "2025-09-23T16:09:04.792530",
+          "status": "framework_only",
+          "note": "Actual implementation requires portal-specific integration"
+        },
+        {
+          "search_term": "Chiny",
+          "country": "PL",
+          "portal": "ezamowienia.gov.pl",
+          "timestamp": "2025-09-23T16:09:06.798600",
+          "status": "framework_only"
+        },
+        {
+          "search_term": "Chi\u0144ski",
+          "country": "PL",
+          "portal": "ezamowienia.gov.pl",
+          "timestamp": "2025-09-23T16:09:08.805708",
+          "status": "framework_only"
+        },
+        {
+          "search_term": "Chi\u0144ska",
+          "country": "PL",
+          "portal": "ezamowienia.gov.pl",
+          "timestamp": "2025-09-23T16:09:10.817182",
+          "status": "framework_only"
+        }
+      ],
+      "statistics": {
+        "searches_performed": 13,
+        "contracts_found": 0,
+        "errors": 0
+      }
+    }
+  ],
+  "modified": "2025-09-23T16:09:12.820213"
+}

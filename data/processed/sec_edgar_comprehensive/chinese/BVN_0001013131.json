@@ -1,0 +1,48 @@
+{
+  "cik": "0001013131",
+  "ticker": "BVN",
+  "name": "BUENAVENTURA MINING CO INC",
+  "detection_reasons": [
+    "location:prc",
+    "offshore:bm"
+  ],
+  "sic": "1000",
+  "sicDescription": "Metal Mining",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "5114192536",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "AV. CARLOS VILLARAN 790",
+      "street2": null,
+      "city": "LIMA",
+      "stateOrCountry": "R5",
+      "zipCode": "13",
+      "stateOrCountryDescription": "Peru",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "AVE CARLOS VILLARAN 790",
+      "street2": null,
+      "city": "LIMA",
+      "stateOrCountry": "R5",
+      "zipCode": "13",
+      "stateOrCountryDescription": "Peru",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-24"
+  },
+  "filings_count": 563
+}

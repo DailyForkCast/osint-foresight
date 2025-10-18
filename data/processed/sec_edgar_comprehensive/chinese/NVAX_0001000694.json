@@ -1,0 +1,47 @@
+{
+  "cik": "0001000694",
+  "ticker": "NVAX",
+  "name": "NOVAVAX INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2836",
+  "sicDescription": "Biological Products, (No Diagnostic Substances)",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "222816046",
+  "phone": "240-268-2000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "700 QUINCE ORCHARD ROAD",
+      "street2": null,
+      "city": "GAITHERSBURG",
+      "stateOrCountry": "MD",
+      "zipCode": "20878",
+      "stateOrCountryDescription": "MD",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "700 QUINCE ORCHARD ROAD",
+      "street2": null,
+      "city": "GAITHERSBURG",
+      "stateOrCountry": "MD",
+      "zipCode": "20878",
+      "stateOrCountryDescription": "MD",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-27"
+  },
+  "filings_count": 1000
+}

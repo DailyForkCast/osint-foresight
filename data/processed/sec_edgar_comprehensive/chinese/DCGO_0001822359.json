@@ -1,0 +1,47 @@
+{
+  "cik": "0001822359",
+  "ticker": "DCGO",
+  "name": "DocGo Inc.",
+  "detection_reasons": [
+    "offshore:ky"
+  ],
+  "sic": "8000",
+  "sicDescription": "Services-Health Services",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "852515483",
+  "phone": "(844) 443-6246",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "685 THIRD AVENUE",
+      "street2": "9TH FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10017",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "685 THIRD AVENUE",
+      "street2": "9TH FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10017",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-07"
+  },
+  "filings_count": 375
+}

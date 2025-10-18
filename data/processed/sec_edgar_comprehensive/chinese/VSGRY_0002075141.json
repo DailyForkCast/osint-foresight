@@ -1,0 +1,44 @@
+{
+  "cik": "0002075141",
+  "ticker": "VSGRY",
+  "name": "VusionGroup",
+  "detection_reasons": [
+    "offshore:vg"
+  ],
+  "sic": "",
+  "sicDescription": "",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "I0",
+  "ein": "000000000",
+  "phone": "212-816-6638",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "C/O CITIBANK, N.A.",
+      "street2": "388 GREENWICH STREET",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10013",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "55 PLACE NELSON MANDELA",
+      "street2": null,
+      "city": "NANTERRE",
+      "stateOrCountry": "",
+      "zipCode": "92024",
+      "stateOrCountryDescription": "",
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "France",
+      "countryCode": "I0"
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1
+}

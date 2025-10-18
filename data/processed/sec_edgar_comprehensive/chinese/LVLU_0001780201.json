@@ -1,0 +1,47 @@
+{
+  "cik": "0001780201",
+  "ticker": "LVLU",
+  "name": "Lulu's Fashion Lounge Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5961",
+  "sicDescription": "Retail-Catalog & Mail-Order Houses",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "208442468",
+  "phone": "530-343-3545",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "195 HUMBOLDT AVENUE",
+      "street2": null,
+      "city": "CHICO",
+      "stateOrCountry": "CA",
+      "zipCode": "95928",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "195 HUMBOLDT AVENUE",
+      "street2": null,
+      "city": "CHICO",
+      "stateOrCountry": "CA",
+      "zipCode": "95928",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-14"
+  },
+  "filings_count": 266
+}

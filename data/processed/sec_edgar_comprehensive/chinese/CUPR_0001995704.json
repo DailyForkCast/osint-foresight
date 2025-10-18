@@ -1,0 +1,48 @@
+{
+  "cik": "0001995704",
+  "ticker": "CUPR",
+  "name": "Cuprina Holdings (Cayman) LTD",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "3842",
+  "sicDescription": "Orthopedic, Prosthetic & Surgical Appliances & Supplies",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "(65) 8512 7275",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "BLOCK 1090",
+      "street2": "LOWER DELTA ROAD, #06-08",
+      "city": "SINGAPORE",
+      "stateOrCountry": "U0",
+      "zipCode": "169201",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "BLOCK 1090",
+      "street2": "LOWER DELTA ROAD, #06-08",
+      "city": "SINGAPORE",
+      "stateOrCountry": "U0",
+      "zipCode": "169201",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-09"
+  },
+  "filings_count": 72
+}

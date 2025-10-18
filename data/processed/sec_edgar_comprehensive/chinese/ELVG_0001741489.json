@@ -1,0 +1,47 @@
+{
+  "cik": "0001741489",
+  "ticker": "ELVG",
+  "name": "Elvictor Group, Inc.",
+  "detection_reasons": [
+    "offshore:vg"
+  ],
+  "sic": "8742",
+  "sicDescription": "Services-Management Consulting Services",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "NV",
+  "ein": "823296328",
+  "phone": "(877) 374-4196",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "VASSILEOS CONSTANTINOU 79",
+      "street2": "VARI",
+      "city": "ATTIKI",
+      "stateOrCountry": "J3",
+      "zipCode": "16672",
+      "stateOrCountryDescription": "Greece",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "VASSILEOS CONSTANTINOU 79",
+      "street2": "VARI",
+      "city": "ATTIKI",
+      "stateOrCountry": "J3",
+      "zipCode": "16672",
+      "stateOrCountryDescription": "Greece",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-08"
+  },
+  "filings_count": 111
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0001967621",
+  "ticker": "ATGL",
+  "name": "Alpha Technology Group Ltd",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "7371",
+  "sicDescription": "Services-Computer Programming Services",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "K3",
+  "ein": "000000000",
+  "phone": "65428807",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT B, 12/F, 52 HUNG TO ROAD KWUN TONG",
+      "street2": "KOWLOON, HONG KONG",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "UNIT B, 12/F, 52 HUNG TO ROAD KWUN TONG",
+      "street2": "KOWLOON, HONG KONG",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-03-27"
+  },
+  "filings_count": 44
+}

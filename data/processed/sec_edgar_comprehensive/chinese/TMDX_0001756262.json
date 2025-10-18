@@ -1,0 +1,47 @@
+{
+  "cik": "0001756262",
+  "ticker": "TMDX",
+  "name": "TransMedics Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3845",
+  "sicDescription": "Electromedical & Electrotherapeutic Apparatus",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "MA",
+  "ein": "000000000",
+  "phone": "9785520900",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "200 MINUTEMAN ROAD",
+      "street2": null,
+      "city": "ANDOVER",
+      "stateOrCountry": "MA",
+      "zipCode": "01810",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "200 MINUTEMAN ROAD",
+      "street2": null,
+      "city": "ANDOVER",
+      "stateOrCountry": "MA",
+      "zipCode": "01810",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-07-30"
+  },
+  "filings_count": 569
+}

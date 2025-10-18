@@ -1,0 +1,53 @@
+{
+  "cik": "0002004024",
+  "ticker": "LHSW",
+  "name": "Lianhe Sowell International Group Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:shenzhen",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business",
+    "sic:7372"
+  ],
+  "sic": "7372",
+  "sicDescription": "Services-Prepackaged Software",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86 4006169629",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "15TH FLOOR, SANNUO SMART BUILDING,",
+      "street2": "NO. 3388 BINHAI AVE, BINHAI COMMUNITY,",
+      "city": "NANSHAN DISTRICT, SHENZHEN",
+      "stateOrCountry": null,
+      "zipCode": "518000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "15TH FLOOR, SANNUO SMART BUILDING,",
+      "street2": "NO. 3388 BINHAI AVE, BINHAI COMMUNITY,",
+      "city": "NANSHAN DISTRICT, SHENZHEN",
+      "stateOrCountry": null,
+      "zipCode": "518000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-10"
+  },
+  "filings_count": 39
+}

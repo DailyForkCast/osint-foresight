@@ -1,0 +1,155 @@
+{
+  "timestamp": "2025-09-21T12:47:07.058444",
+  "critical_technologies": {
+    "artificial_intelligence": {
+      "technology": "artificial_intelligence",
+      "risk_level": "CRITICAL",
+      "total_collaborations": 265,
+      "countries_involved": 34,
+      "strategic_importance": "Foundational technology for military and surveillance",
+      "top_partners": {
+        "US": 88,
+        "GB": 31,
+        "JP": 27,
+        "AU": 20,
+        "SG": 16
+      },
+      "threat_level": "EXTREME"
+    },
+    "nuclear_technology": {
+      "technology": "nuclear_technology",
+      "risk_level": "CRITICAL",
+      "total_collaborations": 335,
+      "countries_involved": 40,
+      "strategic_importance": "Weapons and energy applications",
+      "top_partners": {
+        "US": 127,
+        "JP": 28,
+        "GB": 21,
+        "DE": 16,
+        "AU": 14
+      },
+      "threat_level": "EXTREME"
+    },
+    "semiconductors": {
+      "technology": "semiconductors",
+      "risk_level": "CRITICAL",
+      "total_collaborations": 104,
+      "countries_involved": 23,
+      "strategic_importance": "Foundation of all digital technology",
+      "top_partners": {
+        "US": 29,
+        "JP": 12,
+        "GB": 9,
+        "SG": 6,
+        "AU": 6
+      },
+      "threat_level": "EXTREME"
+    },
+    "quantum_computing": {
+      "technology": "quantum_computing",
+      "risk_level": "CRITICAL",
+      "total_collaborations": 3,
+      "countries_involved": 2,
+      "strategic_importance": "Next-generation encryption and computing",
+      "top_partners": {
+        "TW": 2,
+        "AU": 1
+      },
+      "threat_level": "MEDIUM"
+    }
+  },
+  "high_risk_technologies": {
+    "aerospace": {
+      "technology": "aerospace",
+      "risk_level": "HIGH",
+      "total_collaborations": 101,
+      "countries_involved": 28,
+      "strategic_importance": "Military and space applications",
+      "top_partners": {
+        "US": 30,
+        "GB": 12,
+        "DE": 10,
+        "JP": 5,
+        "FR": 4
+      },
+      "threat_level": "HIGH"
+    },
+    "cybersecurity": {
+      "technology": "cybersecurity",
+      "risk_level": "HIGH",
+      "total_collaborations": 26,
+      "countries_involved": 15,
+      "strategic_importance": "National security and defense",
+      "top_partners": {
+        "US": 6,
+        "AU": 3,
+        "CA": 3,
+        "FR": 2,
+        "TW": 2
+      },
+      "threat_level": "HIGH"
+    },
+    "biotechnology": {
+      "technology": "biotechnology",
+      "risk_level": "HIGH",
+      "total_collaborations": 26,
+      "countries_involved": 12,
+      "strategic_importance": "Dual-use medical and weapons applications",
+      "top_partners": {
+        "US": 12,
+        "GB": 3,
+        "IN": 2,
+        "BR": 1,
+        "BE": 1
+      },
+      "threat_level": "MEDIUM"
+    },
+    "telecommunications": {
+      "technology": "telecommunications",
+      "risk_level": "HIGH",
+      "total_collaborations": 31,
+      "countries_involved": 11,
+      "strategic_importance": "Critical infrastructure and surveillance",
+      "top_partners": {
+        "US": 8,
+        "GB": 6,
+        "JP": 4,
+        "CA": 4,
+        "SG": 2
+      },
+      "threat_level": "MEDIUM"
+    }
+  },
+  "emerging_threats": {},
+  "technology_trends": {},
+  "recommendations": [
+    {
+      "priority": "IMMEDIATE",
+      "action": "Enhanced monitoring of critical dual-use technology collaborations",
+      "technologies": [
+        "artificial_intelligence",
+        "nuclear_technology",
+        "semiconductors",
+        "quantum_computing"
+      ],
+      "rationale": "Critical technologies require immediate oversight due to national security implications"
+    },
+    {
+      "priority": "HIGH",
+      "action": "Review and assess high-risk technology partnerships",
+      "technologies": [
+        "aerospace",
+        "cybersecurity",
+        "biotechnology",
+        "telecommunications"
+      ],
+      "rationale": "High-risk technologies may lead to technology transfer vulnerabilities"
+    },
+    {
+      "priority": "ONGOING",
+      "action": "Implement systematic monitoring of research collaboration patterns",
+      "rationale": "Continuous surveillance needed to detect emerging threats"
+    }
+  ]
+}

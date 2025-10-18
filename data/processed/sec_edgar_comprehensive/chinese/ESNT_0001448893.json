@@ -1,0 +1,45 @@
+{
+  "cik": "0001448893",
+  "ticker": "ESNT",
+  "name": "Essent Group Ltd.",
+  "detection_reasons": [
+    "offshore:bermuda",
+    "offshore:bm"
+  ],
+  "sic": "6351",
+  "sicDescription": "Surety Insurance",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "D0",
+  "ein": "980673656",
+  "phone": "441-297-9901",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "CLARENDON HOUSE",
+      "street2": "2 CHURCH STREET",
+      "city": "HAMILTON",
+      "stateOrCountry": "D0",
+      "zipCode": "HM 11",
+      "stateOrCountryDescription": "Bermuda",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "CLARENDON HOUSE",
+      "street2": "2 CHURCH STREET",
+      "city": "HAMILTON",
+      "stateOrCountry": "D0",
+      "zipCode": "HM 11",
+      "stateOrCountryDescription": "Bermuda",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1000
+}

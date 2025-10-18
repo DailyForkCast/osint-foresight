@@ -1,0 +1,52 @@
+{
+  "cik": "0002001288",
+  "ticker": "PN",
+  "name": "Skycorp Solar Group Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:ningbo",
+    "location:zhejiang",
+    "offshore:ky",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "5045",
+  "sicDescription": "Wholesale-Computers & Peripheral Equipment & Software",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "86 0547 87966876",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ROOM 303, BLOCK B, NO.188 JINGHUA ROAD",
+      "street2": "YINZHOU DISTRICT, NINGBO CITY",
+      "city": "ZHEJIANG PROVINCE",
+      "stateOrCountry": "F4",
+      "zipCode": "315048",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "ROOM 303, BLOCK B, NO.188 JINGHUA ROAD",
+      "street2": "YINZHOU DISTRICT, NINGBO CITY",
+      "city": "ZHEJIANG PROVINCE",
+      "stateOrCountry": "F4",
+      "zipCode": "315048",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-17"
+  },
+  "filings_count": 33
+}

@@ -1,0 +1,50 @@
+{
+  "cik": "0001861974",
+  "ticker": "ECXWW",
+  "name": "ECARX Holdings Inc.",
+  "detection_reasons": [
+    "location:china",
+    "location:shanghai",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "7373",
+  "sicDescription": "Services-Computer Integrated Systems Design",
+  "category": "Accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "0571 85306757",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "16/F, TOWER 2",
+      "street2": "CHINA EASTERN AIRLINES BINJIANG CENTER",
+      "city": "SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "200030",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "16/F, TOWER 2",
+      "street2": "CHINA EASTERN AIRLINES BINJIANG CENTER",
+      "city": "SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "200030",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-26"
+  },
+  "filings_count": 149
+}

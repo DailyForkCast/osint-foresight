@@ -1,0 +1,47 @@
+{
+  "cik": "0001577552",
+  "ticker": "BBAAY",
+  "name": "Alibaba Group Holding Ltd",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "7389",
+  "sicDescription": "Services-Business Services, NEC",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "K3",
+  "ein": "000000000",
+  "phone": "852-2215-5100",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "26/F TOWER ONE",
+      "street2": "TIMES SQUARE, 1 MATHESON STREET",
+      "city": "CAUSEWAY BAY",
+      "stateOrCountry": null,
+      "zipCode": "00000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    },
+    "business": {
+      "street1": "26/F TOWER ONE",
+      "street2": "TIMES SQUARE, 1 MATHESON STREET",
+      "city": "CAUSEWAY BAY",
+      "stateOrCountry": null,
+      "zipCode": "00000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-25"
+  },
+  "filings_count": 560
+}

@@ -1,0 +1,49 @@
+{
+  "cik": "0002045907",
+  "ticker": "KOKO",
+  "name": "KOKOBOTS GROUP",
+  "detection_reasons": [
+    "location:china",
+    "location:shanghai",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "3590",
+  "sicDescription": "Misc Industrial & Commercial Machinery & Equipment",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "8615921731797",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "16F,BLDG.B,NO.15 CHANGYI RD",
+      "street2": null,
+      "city": "SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "200441",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "16F,BLDG.B,NO.15 CHANGYI RD",
+      "street2": null,
+      "city": "SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "200441",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 4
+}

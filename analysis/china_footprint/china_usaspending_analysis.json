@@ -1,0 +1,783 @@
+{
+  "generated": "2025-09-25T15:10:51.719782",
+  "total_records_analyzed": 9397541,
+  "china_related_findings": [],
+  "patterns_detected": {
+    "financial_records": 792
+  },
+  "temporal_analysis": {
+    "2018": 51,
+    "2020": 51,
+    "2021": 28,
+    "2017": 12,
+    "2019": 27,
+    "2024": 7,
+    "2025": 31,
+    "2016": 16,
+    "2007": 1,
+    "1990": 1,
+    "1987": 1,
+    "2023": 9,
+    "1979": 1,
+    "2011": 5,
+    "1980": 5,
+    "2008": 1,
+    "2015": 2,
+    "2014": 8
+  },
+  "entity_analysis": {
+    "vendor_tables": [
+      "rpt.recipient_lookup",
+      "rpt.recipient_profile"
+    ],
+    "contract_tables": [
+      "raw.source_procurement_transaction"
+    ],
+    "award_tables": [
+      "public.award_category",
+      "public.financial_accounts_by_awards",
+      "rpt.award_search",
+      "raw.source_assistance_transaction",
+      "raw.source_assistance_transaction_backup",
+      "rpt.parent_award",
+      "rpt.subaward_search"
+    ],
+    "geographic_columns": [
+      {
+        "table": "int.duns",
+        "column": "country_code",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.award_search",
+        "column": "recipient_location_country_code",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.award_search",
+        "column": "recipient_location_country_name",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.award_search",
+        "column": "pop_country_code",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.award_search",
+        "column": "pop_country_name",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.award_search",
+        "column": "recipient_location_foreign_postal_code",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.award_search",
+        "column": "recipient_location_foreign_province",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "public.ref_country_code",
+        "column": "country_code",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "public.ref_country_code",
+        "column": "country_name",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "public.references_cfda",
+        "column": "pre_application_coordination",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_assistance_transaction",
+        "column": "legal_entity_country_code",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_assistance_transaction",
+        "column": "legal_entity_country_name",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_assistance_transaction",
+        "column": "legal_entity_foreign_city",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_assistance_transaction",
+        "column": "legal_entity_foreign_descr",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_assistance_transaction",
+        "column": "legal_entity_foreign_posta",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_assistance_transaction",
+        "column": "legal_entity_foreign_provi",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_assistance_transaction",
+        "column": "place_of_perform_country_c",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_assistance_transaction",
+        "column": "place_of_perform_country_n",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_assistance_transaction_backup",
+        "column": "legal_entity_country_code",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_assistance_transaction_backup",
+        "column": "legal_entity_country_name",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_assistance_transaction_backup",
+        "column": "legal_entity_foreign_city",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_assistance_transaction_backup",
+        "column": "legal_entity_foreign_descr",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_assistance_transaction_backup",
+        "column": "legal_entity_foreign_posta",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_assistance_transaction_backup",
+        "column": "legal_entity_foreign_provi",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_assistance_transaction_backup",
+        "column": "place_of_perform_country_c",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_assistance_transaction_backup",
+        "column": "place_of_perform_country_n",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_procurement_transaction",
+        "column": "country_of_product_or_desc",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_procurement_transaction",
+        "column": "country_of_product_or_serv",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_procurement_transaction",
+        "column": "domestic_or_foreign_e_desc",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_procurement_transaction",
+        "column": "domestic_or_foreign_entity",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_procurement_transaction",
+        "column": "foreign_funding",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_procurement_transaction",
+        "column": "foreign_funding_desc",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_procurement_transaction",
+        "column": "legal_entity_country_code",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_procurement_transaction",
+        "column": "legal_entity_country_name",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_procurement_transaction",
+        "column": "national_interest_action",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_procurement_transaction",
+        "column": "national_interest_desc",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_procurement_transaction",
+        "column": "place_of_perf_country_desc",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_procurement_transaction",
+        "column": "place_of_perform_country_c",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_procurement_transaction",
+        "column": "place_of_perform_country_n",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_procurement_transaction",
+        "column": "foreign_government",
+        "type": "boolean",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_procurement_transaction",
+        "column": "international_organization",
+        "type": "boolean",
+        "relevance": "geographic"
+      },
+      {
+        "table": "raw.source_procurement_transaction",
+        "column": "foreign_owned_and_located",
+        "type": "boolean",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.recipient_lookup",
+        "column": "country_code",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.subaward_search",
+        "column": "legal_entity_country_code",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.subaward_search",
+        "column": "legal_entity_country_name",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.subaward_search",
+        "column": "legal_entity_foreign_posta",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.subaward_search",
+        "column": "place_of_perform_country_co",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.subaward_search",
+        "column": "place_of_perform_country_na",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.subaward_search",
+        "column": "sub_legal_entity_country_code_raw",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.subaward_search",
+        "column": "sub_legal_entity_country_name_raw",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.subaward_search",
+        "column": "sub_legal_entity_foreign_posta",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.subaward_search",
+        "column": "sub_place_of_perform_country_co_raw",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.subaward_search",
+        "column": "sub_place_of_perform_country_na",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.subaward_search",
+        "column": "sub_legal_entity_country_code",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.subaward_search",
+        "column": "sub_legal_entity_country_name",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.subaward_search",
+        "column": "sub_place_of_perform_country_co",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.subaward_search",
+        "column": "sub_place_of_perform_country_name",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.summary_state_view",
+        "column": "pop_country_code",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search",
+        "column": "pop_country_name",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search",
+        "column": "pop_country_code",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search",
+        "column": "recipient_location_country_code",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search",
+        "column": "recipient_location_country_name",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search",
+        "column": "country_of_product_or_desc",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search",
+        "column": "country_of_product_or_serv",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search",
+        "column": "domestic_or_foreign_e_desc",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search",
+        "column": "domestic_or_foreign_entity",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search",
+        "column": "foreign_funding",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search",
+        "column": "foreign_funding_desc",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search",
+        "column": "foreign_government",
+        "type": "boolean",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search",
+        "column": "foreign_owned_and_located",
+        "type": "boolean",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search",
+        "column": "international_organization",
+        "type": "boolean",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search",
+        "column": "legal_entity_foreign_city",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search",
+        "column": "legal_entity_foreign_descr",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search",
+        "column": "legal_entity_foreign_posta",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search",
+        "column": "legal_entity_foreign_provi",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search",
+        "column": "national_interest_action",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search",
+        "column": "national_interest_desc",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fabs",
+        "column": "pop_country_name",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fabs",
+        "column": "pop_country_code",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fabs",
+        "column": "recipient_location_country_code",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fabs",
+        "column": "recipient_location_country_name",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fabs",
+        "column": "country_of_product_or_desc",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fabs",
+        "column": "country_of_product_or_serv",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fabs",
+        "column": "domestic_or_foreign_e_desc",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fabs",
+        "column": "domestic_or_foreign_entity",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fabs",
+        "column": "foreign_funding",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fabs",
+        "column": "foreign_funding_desc",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fabs",
+        "column": "foreign_government",
+        "type": "boolean",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fabs",
+        "column": "foreign_owned_and_located",
+        "type": "boolean",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fabs",
+        "column": "international_organization",
+        "type": "boolean",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fabs",
+        "column": "legal_entity_foreign_city",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fabs",
+        "column": "legal_entity_foreign_descr",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fabs",
+        "column": "legal_entity_foreign_posta",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fabs",
+        "column": "legal_entity_foreign_provi",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fabs",
+        "column": "national_interest_action",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fabs",
+        "column": "national_interest_desc",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fpds",
+        "column": "pop_country_name",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fpds",
+        "column": "pop_country_code",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fpds",
+        "column": "recipient_location_country_code",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fpds",
+        "column": "recipient_location_country_name",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fpds",
+        "column": "country_of_product_or_desc",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fpds",
+        "column": "country_of_product_or_serv",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fpds",
+        "column": "domestic_or_foreign_e_desc",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fpds",
+        "column": "domestic_or_foreign_entity",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fpds",
+        "column": "foreign_funding",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fpds",
+        "column": "foreign_funding_desc",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fpds",
+        "column": "foreign_government",
+        "type": "boolean",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fpds",
+        "column": "foreign_owned_and_located",
+        "type": "boolean",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fpds",
+        "column": "international_organization",
+        "type": "boolean",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fpds",
+        "column": "legal_entity_foreign_city",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fpds",
+        "column": "legal_entity_foreign_descr",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fpds",
+        "column": "legal_entity_foreign_posta",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fpds",
+        "column": "legal_entity_foreign_provi",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fpds",
+        "column": "national_interest_action",
+        "type": "text",
+        "relevance": "geographic"
+      },
+      {
+        "table": "rpt.transaction_search_fpds",
+        "column": "national_interest_desc",
+        "type": "text",
+        "relevance": "geographic"
+      }
+    ]
+  },
+  "risk_indicators": [
+    {
+      "type": "recent_activity",
+      "severity": "low",
+      "description": "Activity detected in recent years: 2020, 2021, 2024, 2025, 2023",
+      "recommendation": "Analyze trend over time"
+    },
+    {
+      "type": "large_dataset",
+      "severity": "info",
+      "description": "Dataset contains 9,397,541 records",
+      "recommendation": "Consider sampling or distributed processing for detailed analysis"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "high",
+      "action": "Extract and analyze vendor tables",
+      "reason": "Vendor data can reveal foreign entity participation",
+      "tables": [
+        "rpt.recipient_lookup",
+        "rpt.recipient_profile"
+      ]
+    },
+    {
+      "priority": "high",
+      "action": "Analyze contract data for China-related terms",
+      "reason": "Contracts may reference Chinese entities or technology",
+      "tables": [
+        "raw.source_procurement_transaction"
+      ]
+    },
+    {
+      "priority": "medium",
+      "action": "Set up PostgreSQL and restore full database",
+      "reason": "Enable SQL queries for comprehensive analysis",
+      "benefit": "Access to all 9.4M records with full query capability"
+    },
+    {
+      "priority": "low",
+      "action": "Process large compressed files",
+      "reason": "May contain additional procurement or financial data",
+      "size": "229 GB compressed"
+    }
+  ]
+}

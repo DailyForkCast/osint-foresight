@@ -1,0 +1,33 @@
+{
+  "timestamp": "20250921_161957",
+  "total_countries": 69,
+  "countries_with_china": 66,
+  "total_unique_projects": 194,
+  "top_5_countries": [
+    {
+      "code": "UK",
+      "name": "United Kingdom",
+      "collaborations": 273
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "collaborations": 254
+    },
+    {
+      "code": "IT",
+      "name": "Italy",
+      "collaborations": 222
+    },
+    {
+      "code": "ES",
+      "name": "Spain",
+      "collaborations": 214
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "collaborations": 200
+    }
+  ]
+}

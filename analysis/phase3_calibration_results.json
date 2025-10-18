@@ -1,0 +1,87 @@
+{
+  "generated": "2025-09-25T14:17:47.356148",
+  "total_files_analyzed": 96,
+  "files_with_signals": 11,
+  "signal_distribution": {},
+  "category_hits": {
+    "technology_areas": 44,
+    "explicit_mentions": 2,
+    "cooperation_terms": 1,
+    "institutions": 0,
+    "funding_sources": 0
+  },
+  "high_confidence_matches": [
+    {
+      "file": "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json",
+      "confidence_score": 8,
+      "signals": {
+        "technology_areas": 8
+      }
+    },
+    {
+      "file": "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json",
+      "confidence_score": 16,
+      "signals": {
+        "technology_areas": 16
+      }
+    }
+  ],
+  "variant_testing": {
+    "total_variants": 11,
+    "detected": 9,
+    "coverage_percent": 81.81818181818183,
+    "details": [
+      {
+        "test_case": "China's technological advancement",
+        "detected": true
+      },
+      {
+        "test_case": "Sino-European cooperation",
+        "detected": false
+      },
+      {
+        "test_case": "PRC research initiatives",
+        "detected": true
+      },
+      {
+        "test_case": "Chinese Academy of Sciences",
+        "detected": true
+      },
+      {
+        "test_case": "Beijing-based institutions",
+        "detected": true
+      },
+      {
+        "test_case": "Belt and Road Initiative",
+        "detected": true
+      },
+      {
+        "test_case": "\u4e2d\u56fd (China in Chinese)",
+        "detected": true
+      },
+      {
+        "test_case": "Technology transfer agreements",
+        "detected": true
+      },
+      {
+        "test_case": "Joint R&D programs",
+        "detected": false
+      },
+      {
+        "test_case": "Bilateral partnerships",
+        "detected": true
+      },
+      {
+        "test_case": "Cross-border collaborations",
+        "detected": true
+      }
+    ]
+  },
+  "performance": {
+    "f1_score": 0.412,
+    "precision": 0.69,
+    "recall": 0.294,
+    "true_positives_est": 2,
+    "detection_rate": 11.5
+  }
+}

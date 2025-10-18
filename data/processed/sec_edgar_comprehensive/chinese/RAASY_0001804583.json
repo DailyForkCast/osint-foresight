@@ -1,0 +1,53 @@
+{
+  "cik": "0001804583",
+  "ticker": "RAASY",
+  "name": "Cloopen Group Holding Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:beijing",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business",
+    "sic:7372"
+  ],
+  "sic": "7372",
+  "sicDescription": "Services-Prepackaged Software",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "861052823178",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "16/F, TOWER A, FAIRMONT TOWER",
+      "street2": "33 GUANGSHUN N AVENUE, CHAOYANG DISTRICT",
+      "city": "BEIJING",
+      "stateOrCountry": null,
+      "zipCode": "100102",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "16/F, TOWER A, FAIRMONT TOWER",
+      "street2": "33 GUANGSHUN N AVENUE, CHAOYANG DISTRICT",
+      "city": "BEIJING",
+      "stateOrCountry": null,
+      "zipCode": "100102",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-03"
+  },
+  "filings_count": 70
+}

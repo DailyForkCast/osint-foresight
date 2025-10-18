@@ -1,0 +1,1220 @@
+[
+  {
+    "paper_id": "https://openalex.org/W2562359985",
+    "doi": "https://doi.org/10.5594/m00687",
+    "title": "Fiber Optical Interconnection in Television Cameras",
+    "publication_year": 1993,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Panasonic (Japan)"
+      ],
+      "CN": [
+        "Panasonic (China)"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Johann Safar (Panasonic (Japan))",
+        "Makoto Shimizu (Panasonic (Japan))",
+        "William Sturcke (Panasonic (Japan))"
+      ],
+      "CN": [
+        "Tetsuro Hanoaka (Panasonic (China))",
+        "Noriaki Wada (Panasonic (China))"
+      ]
+    },
+    "technology_categories": [
+      "telecommunications"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1993,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 755384,
+      "extraction_command": "sed -n '755384p' part_000.gz | jq '.title'",
+      "paper_hash": "097711eb2e184544"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2015503964",
+    "doi": "https://doi.org/10.1117/12.2037299",
+    "title": "An all-fiber partial discharge monitoring system based on both intrinsic fiber optic interferometry sensor and fluorescent fiber",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Electric Power Research Institute"
+      ],
+      "CN": [
+        "Beijing Jiaotong University",
+        "North China Electric Power University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Ruirui Zhang (Electric Power Research Institute)",
+        "Xi Chen (Electric Power Research Institute)",
+        "Jie Tong (Electric Power Research Institute)"
+      ],
+      "CN": [
+        "Zelin Yin (North China Electric Power University)",
+        "Zelin Yin (Beijing Jiaotong University)"
+      ]
+    },
+    "technology_categories": [
+      "telecommunications"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1209,
+      "extraction_command": "sed -n '1209p' part_000.gz | jq '.title'",
+      "paper_hash": "dd2d2d29add38383"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2348295165",
+    "doi": null,
+    "title": "Exploring the Application of Technical Standards Strategy in Telecommunications Businesses from TD-SCDMA",
+    "publication_year": 2005,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Marine Technical College"
+      ],
+      "CN": [
+        "Jiangsu Maritime Institute"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Liu Jin-song (Marine Technical College)"
+      ],
+      "CN": [
+        "Liu Jin-song (Jiangsu Maritime Institute)"
+      ]
+    },
+    "technology_categories": [
+      "telecommunications"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2005,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 144923,
+      "extraction_command": "sed -n '144923p' part_001.gz | jq '.title'",
+      "paper_hash": "adf15df5d37501a3"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2080376820",
+    "doi": "https://doi.org/10.1109/mcom.2010.5458367",
+    "title": "Topics in wireless communications [Series Editorial",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Intel (United Kingdom)"
+      ],
+      "CN": [
+        "Wuhan Engineering Science & Technology Institute"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Kamran Etemad (Intel (United Kingdom))"
+      ],
+      "CN": [
+        "Peter Yum (Wuhan Engineering Science & Technology Institute)"
+      ]
+    },
+    "technology_categories": [
+      "telecommunications"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 656734,
+      "extraction_command": "sed -n '656734p' part_000.gz | jq '.title'",
+      "paper_hash": "6107f453d12465ac"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2419749819",
+    "doi": "https://doi.org/10.1109/chinacom.2015.7497909",
+    "title": "Multiple CFO compensation for IFDMA in high-speed wireless communications",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Star Technology and Research (United States)"
+      ],
+      "CN": [
+        "University of Electronic Science and Technology of China"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Xiaojie Wen (Star Technology and Research (United States))"
+      ],
+      "CN": [
+        "Xianbing Zou (University of Electronic Science and Technology of China)",
+        "Gang Wang (University of Electronic Science and Technology of China)",
+        "Yue Xiao (University of Electronic Science and Technology of China)"
+      ]
+    },
+    "technology_categories": [
+      "telecommunications"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_007.gz",
+      "line_number": 358641,
+      "extraction_command": "sed -n '358641p' part_007.gz | jq '.title'",
+      "paper_hash": "d4c609fff200f0ae"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4236693971",
+    "doi": "https://doi.org/10.1007/978-3-319-78262-1_133",
+    "title": "Interference Mitigation in Wireless Communications-Based Train Control (CBTC), Cognitive Control Approach",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "CA",
+      "CN"
+    ],
+    "institutions": {
+      "CA": [
+        "Carleton University"
+      ],
+      "CN": [
+        "Beijing Jiaotong University"
+      ]
+    },
+    "authors_by_country": {
+      "CA": [
+        "Richard Fei Yu (Carleton University)"
+      ],
+      "CN": [
+        "Hongwei Wang (Beijing Jiaotong University)"
+      ]
+    },
+    "technology_categories": [
+      "telecommunications"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_013.gz",
+      "line_number": 210717,
+      "extraction_command": "sed -n '210717p' part_013.gz | jq '.title'",
+      "paper_hash": "88ea7143ee456f17"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2106451263",
+    "doi": "https://doi.org/10.1109/icecs.2008.4675020",
+    "title": "A DBOASTBC-OFDM system for wireless communications",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Kumamoto University"
+      ],
+      "CN": [
+        "Nanjing University of Posts and Telecommunications"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Tatsuki Fukuda (Kumamoto University)",
+        "Shingo Otsu (Kumamoto University)",
+        "Hua-An Zhao (Kumamoto University)",
+        "Yuta Tokunaga (Kumamoto University)"
+      ],
+      "CN": [
+        "Chen Liu (Nanjing University of Posts and Telecommunications)"
+      ]
+    },
+    "technology_categories": [
+      "telecommunications"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 28440,
+      "extraction_command": "sed -n '28440p' part_001.gz | jq '.title'",
+      "paper_hash": "71f2747a2ff9c605"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2118525719",
+    "doi": "https://doi.org/10.1109/vetecf.2004.1405057",
+    "title": "Space-time coding/decoding with adaptive transmit beamforming in semi-correlated MIMO wireless communication systems",
+    "publication_year": 2005,
+    "countries_collaborating": [
+      "CN",
+      "SG"
+    ],
+    "institutions": {
+      "SG": [
+        "Nanyang Technological University"
+      ],
+      "CN": [
+        "Institute of Information Engineering",
+        "Xi'an Jiaotong University"
+      ]
+    },
+    "authors_by_country": {
+      "SG": [
+        "Aigang Feng (Nanyang Technological University)",
+        "Boon Poh Ng (Nanyang Technological University)"
+      ],
+      "CN": [
+        "Qinye Yin (Institute of Information Engineering)",
+        "Qinye Yin (Xi'an Jiaotong University)"
+      ]
+    },
+    "technology_categories": [
+      "telecommunications"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2005,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 45597,
+      "extraction_command": "sed -n '45597p' part_001.gz | jq '.title'",
+      "paper_hash": "7c0263e4744724af"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4248438540",
+    "doi": "https://doi.org/10.1109/vtc.2001.957182",
+    "title": "Low rate space-time trellis codes in power limited wireless communication systems",
+    "publication_year": 2002,
+    "countries_collaborating": [
+      "CN",
+      "FI"
+    ],
+    "institutions": {
+      "FI": [
+        "Nokia (Finland)"
+      ],
+      "CN": [
+        "Southeast University"
+      ]
+    },
+    "authors_by_country": {
+      "FI": [
+        "Haifeng Wang (Nokia (Finland))"
+      ],
+      "CN": [
+        "Gang Wu (Southeast University)",
+        "Ming Chen (Southeast University)",
+        "Shixin Cheng (Southeast University)"
+      ]
+    },
+    "technology_categories": [
+      "telecommunications"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2002,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_004.gz",
+      "line_number": 198504,
+      "extraction_command": "sed -n '198504p' part_004.gz | jq '.title'",
+      "paper_hash": "de0a96de6bb8f119"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2544808553",
+    "doi": null,
+    "title": "Modelling of electromagnetic propagation characteristics in indoor wireless communication systems using the LOD-FDTD method",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CA",
+      "CN"
+    ],
+    "institutions": {
+      "CA": [
+        "Dalhousie University"
+      ],
+      "CN": [
+        "Shanghai Jiao Tong University"
+      ]
+    },
+    "authors_by_country": {
+      "CA": [
+        "Zhizhang Chen (Dalhousie University)"
+      ],
+      "CN": [
+        "Wen‐Yan Yin (Shanghai Jiao Tong University)",
+        "Menglin Zhai (Shanghai Jiao Tong University)"
+      ]
+    },
+    "technology_categories": [
+      "telecommunications"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 219403,
+      "extraction_command": "sed -n '219403p' part_001.gz | jq '.title'",
+      "paper_hash": "be0eac2da21f09ad"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1978670405",
+    "doi": "https://doi.org/10.1117/12.598708",
+    "title": "Fiber optic sensor protection system and its practical for structural integrity monitoring of concrete structures",
+    "publication_year": 2005,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Cranfield University"
+      ],
+      "CN": [
+        "Harbin Institute of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "J. Tetlow (Cranfield University)",
+        "Gerard F. Fernando (Cranfield University)",
+        "Amer Hameed (Cranfield University)",
+        "G. C. Mays (Cranfield University)",
+        "D. Winter (Cranfield University)",
+        "Richard Andrew Barnes (Cranfield University)"
+      ],
+      "CN": [
+        "Jinsong Leng (Harbin Institute of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "telecommunications"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2005,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 40134,
+      "extraction_command": "sed -n '40134p' part_000.gz | jq '.title'",
+      "paper_hash": "248f81df0ad6e814"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1148735056",
+    "doi": null,
+    "title": "Estimating network effects in China’s mobile telecommunications",
+    "publication_year": 2005,
+    "countries_collaborating": [
+      "CN",
+      "LV"
+    ],
+    "institutions": {
+      "LV": [
+        "College of Law"
+      ],
+      "CN": [
+        "Chongqing University"
+      ]
+    },
+    "authors_by_country": {
+      "LV": [
+        "Xiaoqiang Zhang (College of Law)"
+      ],
+      "CN": [
+        "Xiaoqiang Zhang (Chongqing University)"
+      ]
+    },
+    "technology_categories": [
+      "telecommunications"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2005,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 105465,
+      "extraction_command": "sed -n '105465p' part_000.gz | jq '.title'",
+      "paper_hash": "c136570d0a6b86ea"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W3092008316",
+    "doi": "https://doi.org/10.1504/ijef.2020.10032633",
+    "title": "Strategies and developments of Philippine telecommunications industry: revisiting the struggle, liberalisation and innovations",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "CN",
+      "KR"
+    ],
+    "institutions": {
+      "KR": [
+        "Keimyung University"
+      ],
+      "CN": [
+        "Wenzhou-Kean University"
+      ]
+    },
+    "authors_by_country": {
+      "KR": [
+        "Jason Lim Chiu (Keimyung University)"
+      ],
+      "CN": [
+        "Somkiat Mansumitrchai (Wenzhou-Kean University)",
+        "Candy Lim Chiu (Wenzhou-Kean University)",
+        "Han-Chiang Ho (Wenzhou-Kean University)"
+      ]
+    },
+    "technology_categories": [
+      "telecommunications"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 91032,
+      "extraction_command": "sed -n '91032p' part_000.gz | jq '.title'",
+      "paper_hash": "9ad7922da33228a8"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2090538740",
+    "doi": "https://doi.org/10.1007/s11434-014-0514-0",
+    "title": "Risks posed by obesity to body-surface narrowband wireless communication",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Queen Mary University of London"
+      ],
+      "CN": [
+        "Northwest Women's and Children's Hospital",
+        "Xidian University"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Yang Hao (Queen Mary University of London)"
+      ],
+      "CN": [
+        "Karen M. von Deneen (Xidian University)",
+        "Aifeng Ren (Xidian University)",
+        "Qing Zhang (Northwest Women's and Children's Hospital)",
+        "Shuyuan Yang (Xidian University)",
+        "Zhiya Zhang (Xidian University)",
+        "Xiaodong Yang (Xidian University)"
+      ]
+    },
+    "technology_categories": [
+      "telecommunications"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 81734,
+      "extraction_command": "sed -n '81734p' part_000.gz | jq '.title'",
+      "paper_hash": "e4c2f2fef027b9ac"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2559866662",
+    "doi": "https://doi.org/10.1364/fio.2016.ftu3i.1",
+    "title": "The Inviscid Burgers’ Equation in Nonlinear Fiber Optics",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CA",
+      "CN",
+      "FR",
+      "GB",
+      "IT",
+      "US"
+    ],
+    "institutions": {
+      "GB": [
+        "University of Sussex"
+      ],
+      "IT": [
+        "University of Ferrara",
+        "University of Brescia"
+      ],
+      "FR": [
+        "Université de franche-comté",
+        "Franche-Comté Électronique Mécanique Thermique et Optique - Sciences et Technologies",
+        "Centre National de la Recherche Scientifique"
+      ],
+      "CA": [
+        "Institut National de la Recherche Scientifique"
+      ],
+      "US": [
+        "San Francisco State University"
+      ],
+      "CN": [
+        "Nankai University"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Benjamin Wetzel (University of Sussex)"
+      ],
+      "IT": [
+        "S. Trillo (University of Ferrara)",
+        "S. Wabnitz (University of Brescia)"
+      ],
+      "FR": [
+        "John M. Dudley (Franche-Comté Électronique Mécanique Thermique et Optique - Sciences et Technologies)",
+        "John M. Dudley (Université de franche-comté)",
+        "John M. Dudley (Centre National de la Recherche Scientifique)"
+      ],
+      "CA": [
+        "Roberto Morandotti (Institut National de la Recherche Scientifique)",
+        "Michael Kues (Institut National de la Recherche Scientifique)",
+        "Domenico Bongiovanni (Institut National de la Recherche Scientifique)",
+        "Benjamin Wetzel (Institut National de la Recherche Scientifique)"
+      ],
+      "US": [
+        "Zhigang Chen (San Francisco State University)"
+      ],
+      "CN": [
+        "Zhigang Chen (Nankai University)",
+        "Yi Hu (Nankai University)"
+      ]
+    },
+    "technology_categories": [
+      "telecommunications"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 26072,
+      "extraction_command": "sed -n '26072p' part_000.gz | jq '.title'",
+      "paper_hash": "44afab3eea3872e9"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2070076546",
+    "doi": "https://doi.org/10.1587/transcom.e96.b.223",
+    "title": "Evaluation of Cascaded Multi-Keyhole Channels in Cooperative Diversity Wireless Communications",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "JP",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University of Michigan–Dearborn"
+      ],
+      "JP": [
+        "National Institute of Informatics",
+        "Research Organization of Information and Systems"
+      ],
+      "CN": [
+        "Tongji University",
+        "Henan University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Weidong Xiang (University of Michigan–Dearborn)"
+      ],
+      "JP": [
+        "Yusheng Ji (Research Organization of Information and Systems)",
+        "Yusheng Ji (National Institute of Informatics)"
+      ],
+      "CN": [
+        "Fuqiang Liu (Tongji University)",
+        "Aihuang Guo (Tongji University)",
+        "Yi Zhou (Henan University)"
+      ]
+    },
+    "technology_categories": [
+      "telecommunications"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 8737,
+      "extraction_command": "sed -n '8737p' part_000.gz | jq '.title'",
+      "paper_hash": "7407b19a67a1fd7d"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2610974334",
+    "doi": "https://doi.org/10.1109/jsac.2013.130501",
+    "title": "Guest Editorial Spectrum and Energy Efficient Design of Wireless Communication Networks: Part I",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CA",
+      "CN",
+      "FI",
+      "GB",
+      "US"
+    ],
+    "institutions": {
+      "GB": [
+        "Heriot-Watt University"
+      ],
+      "CA": [
+        "McGill University"
+      ],
+      "FI": [
+        "University of Oulu"
+      ],
+      "US": [
+        "University of California, Davis"
+      ],
+      "CN": [
+        "Shanghai Research Center for Wireless Communications",
+        "Southeast University"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Cheng‐Xiang Wang (Heriot-Watt University)"
+      ],
+      "CA": [
+        "H. Leib (McGill University)"
+      ],
+      "FI": [
+        "Markku Juntti (University of Oulu)"
+      ],
+      "US": [
+        "Zhi Ding (University of California, Davis)"
+      ],
+      "CN": [
+        "Xiaohu You (Southeast University)",
+        "Yang Yang (Shanghai Research Center for Wireless Communications)"
+      ]
+    },
+    "technology_categories": [
+      "telecommunications"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 27762,
+      "extraction_command": "sed -n '27762p' part_000.gz | jq '.title'",
+      "paper_hash": "a4d1def1706c5d47"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2345318612",
+    "doi": "https://doi.org/10.48550/arxiv.1411.4271",
+    "title": "Statistical Delay Tradeoffs in Buffer-Aided Two-Hop Wireless Communication Systems",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Syracuse University"
+      ],
+      "CN": [
+        "East China Normal University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "M. Cenk Gursoy (Syracuse University)"
+      ],
+      "CN": [
+        "Deli Qiao (East China Normal University)"
+      ]
+    },
+    "technology_categories": [
+      "telecommunications"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 31780,
+      "extraction_command": "sed -n '31780p' part_000.gz | jq '.title'",
+      "paper_hash": "733df51112458842"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1572856792",
+    "doi": "https://doi.org/10.1596/1813-9450-2718",
+    "title": "Liberalizing Basic Telecommunications: The Asian Experience",
+    "publication_year": 2001,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "World Bank Group"
+      ],
+      "CN": [
+        "China Classification Society"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Carsten Fink (World Bank Group)",
+        "Aaditya Mattoo (World Bank Group)",
+        "Randeep Rathindran (World Bank Group)"
+      ],
+      "CN": [
+        "Carsten Fink (China Classification Society)",
+        "Randeep Rathindran (China Classification Society)",
+        "Aaditya Mattoo (China Classification Society)"
+      ]
+    },
+    "technology_categories": [
+      "telecommunications"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2001,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 7447,
+      "extraction_command": "sed -n '7447p' part_000.gz | jq '.title'",
+      "paper_hash": "06a9fb401f0306ef"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W3093340913",
+    "doi": "https://doi.org/10.1364/cleopr.2020.c7h_2",
+    "title": "Development of low-loss lead-germanate glass for mid-infrared fiber optics",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "The University of Adelaide"
+      ],
+      "CN": [
+        "Xi'an Institute of Optics and Precision Mechanics"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Heike Ebendorff‐Heidepriem (The University of Adelaide)",
+        "Pengfei Wang (The University of Adelaide)"
+      ],
+      "CN": [
+        "Pengfei Wang (Xi'an Institute of Optics and Precision Mechanics)"
+      ]
+    },
+    "technology_categories": [
+      "telecommunications"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 2924,
+      "extraction_command": "sed -n '2924p' part_000.gz | jq '.title'",
+      "paper_hash": "52ffd6215e020bd8"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2011335980",
+    "doi": "https://doi.org/10.1117/12.255839",
+    "title": "&lt;title&gt;Hybrid fiber optic flow sensor system&lt;/title&gt;",
+    "publication_year": 1996,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "American Institute of Aeronautics and Astronautics"
+      ],
+      "CN": [
+        "Nanjing University of Aeronautics and Astronautics",
+        "Chongqing University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Fei Luo (American Institute of Aeronautics and Astronautics)"
+      ],
+      "CN": [
+        "Aidong Meng (Nanjing University of Aeronautics and Astronautics)",
+        "Shanglian Huang (Chongqing University)",
+        "Weimin Chen (Chongqing University)"
+      ]
+    },
+    "technology_categories": [
+      "telecommunications"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1996,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 12622,
+      "extraction_command": "sed -n '12622p' part_001.gz | jq '.title'",
+      "paper_hash": "7101ddb403f5cb6b"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2149138234",
+    "doi": "https://doi.org/10.1504/ijmc.2005.005898",
+    "title": "The evolution of China's mobile telecommunications industry: past, present and future",
+    "publication_year": 2005,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University of Cambridge"
+      ],
+      "CN": [
+        "Chinese Academy of Social Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Kim Hua Tan (University of Cambridge)",
+        "Jiang Yu (University of Cambridge)"
+      ],
+      "CN": [
+        "Jiang Yu (Chinese Academy of Social Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "telecommunications"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2005,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_006.gz",
+      "line_number": 925,
+      "extraction_command": "sed -n '925p' part_006.gz | jq '.title'",
+      "paper_hash": "d1eb41e396eaa3de"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2092543376",
+    "doi": "https://doi.org/10.1049/cp.2011.1323",
+    "title": "Polarization independent Raman-assisted fiber optical parametric amplifiers",
+    "publication_year": 2011,
+    "countries_collaborating": [
+      "CN",
+      "SG"
+    ],
+    "institutions": {
+      "SG": [
+        "Nanyang Technological University"
+      ],
+      "CN": [
+        "Fuzhou University"
+      ]
+    },
+    "authors_by_country": {
+      "SG": [
+        "Tee-Hiang Cheng (Nanyang Technological University)",
+        "Dawei Wang (Nanyang Technological University)"
+      ],
+      "CN": [
+        "Shao Hao Wang (Fuzhou University)"
+      ]
+    },
+    "technology_categories": [
+      "telecommunications"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2011,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_023.gz",
+      "line_number": 12636,
+      "extraction_command": "sed -n '12636p' part_023.gz | jq '.title'",
+      "paper_hash": "d97925b032cc4bd0"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  }
+]

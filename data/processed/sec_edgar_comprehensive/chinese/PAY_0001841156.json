@@ -1,0 +1,44 @@
+{
+  "cik": "0001841156",
+  "ticker": "PAY",
+  "name": "Paymentus Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7389",
+  "sicDescription": "Services-Business Services, NEC",
+  "category": "Accelerated filer<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "(888) 440-4826",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "11605 N. COMMUNITY HOUSE ROAD",
+      "street2": "SUITE 300",
+      "city": "CHARLOTTE",
+      "stateOrCountry": "NC",
+      "zipCode": "28277",
+      "stateOrCountryDescription": "NC",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "11605 N. COMMUNITY HOUSE ROAD",
+      "street2": "SUITE 300",
+      "city": "CHARLOTTE",
+      "stateOrCountry": "NC",
+      "zipCode": "28277",
+      "stateOrCountryDescription": "NC",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 332
+}

@@ -1,0 +1,16 @@
+{
+  "total_files": 3,
+  "format_distribution": {
+    "tsv": 2,
+    "json": 1
+  },
+  "postgres_dumps": [],
+  "json_files": [
+    "5879.dat.gz"
+  ],
+  "csv_tsv_files": [
+    "5877.dat.gz",
+    "5878.dat.gz"
+  ],
+  "unknown_format": []
+}

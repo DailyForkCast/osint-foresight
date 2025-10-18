@@ -1,0 +1,44 @@
+{
+  "cik": "0001969766",
+  "ticker": "SEPSF",
+  "name": "Asep Medical Holdings Inc.",
+  "detection_reasons": [
+    "vie_structure"
+  ],
+  "sic": "2835",
+  "sicDescription": "In Vitro & In Vivo Diagnostic Substances",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "A1",
+  "ein": "000000000",
+  "phone": "1-778-600-0509",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "420-730 VIEW STREET",
+      "street2": null,
+      "city": "VICTORIA",
+      "stateOrCountry": "A1",
+      "zipCode": "V8W 3Y7",
+      "stateOrCountryDescription": "British Columbia, Canada",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "420-730 VIEW STREET",
+      "street2": null,
+      "city": "VICTORIA",
+      "stateOrCountry": "A1",
+      "zipCode": "V8W 3Y7",
+      "stateOrCountryDescription": "British Columbia, Canada",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 8
+}

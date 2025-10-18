@@ -1,0 +1,440 @@
+{
+  "generated": "2025-09-24T17:37:07.333804",
+  "canonical_fields": {
+    "entity_id": [
+      "id",
+      "entity_id",
+      "org_id",
+      "company_id",
+      "institution_id"
+    ],
+    "org_name": [
+      "name",
+      "organization",
+      "org_name",
+      "company_name",
+      "institution",
+      "beneficiary_name"
+    ],
+    "country_iso": [
+      "country",
+      "country_code",
+      "country_iso",
+      "iso_code",
+      "nation"
+    ],
+    "year_month": [
+      "date",
+      "year",
+      "publication_date",
+      "start_date",
+      "award_date"
+    ],
+    "tech_keyword": [
+      "keywords",
+      "technology",
+      "field",
+      "topic",
+      "domain"
+    ],
+    "source": [
+      "source",
+      "data_source",
+      "origin"
+    ],
+    "doc_id": [
+      "document_id",
+      "project_id",
+      "grant_id",
+      "contract_id",
+      "paper_id"
+    ],
+    "china_related": [
+      "china",
+      "chinese",
+      "cn",
+      "prc",
+      "beijing",
+      "shanghai"
+    ],
+    "funding_amount": [
+      "amount",
+      "funding",
+      "grant_amount",
+      "contract_value",
+      "budget"
+    ],
+    "collaboration_type": [
+      "type",
+      "collaboration",
+      "partnership",
+      "relationship"
+    ]
+  },
+  "schema_mappings": {
+    "OpenAIRE": {
+      "country_overview": {
+        "columns": [
+          "country_code",
+          "country_name",
+          "total_research_products",
+          "recent_publications",
+          "processing_start",
+          "processing_end",
+          "processing_status",
+          "batches_completed",
+          "total_collaborations",
+          "china_collaborations",
+          "error_count"
+        ],
+        "canonical_mapping": {
+          "country_code": "country_iso",
+          "country_name": "org_name",
+          "total_collaborations": "collaboration_type",
+          "china_collaborations": "china_related"
+        },
+        "row_count": 38,
+        "quality_metrics": {
+          "country_iso": 100.0,
+          "org_name": 100.0,
+          "collaboration_type": 100.0,
+          "china_related": 100.0
+        }
+      },
+      "research_products": {
+        "columns": [
+          "id",
+          "country_code",
+          "title",
+          "date_accepted",
+          "result_type",
+          "doi",
+          "processing_batch",
+          "has_collaboration",
+          "raw_data"
+        ],
+        "canonical_mapping": {
+          "id": "entity_id",
+          "country_code": "country_iso",
+          "date_accepted": "year_month",
+          "result_type": "collaboration_type",
+          "has_collaboration": "collaboration_type"
+        },
+        "row_count": 156221,
+        "quality_metrics": {
+          "entity_id": 100.0,
+          "country_iso": 100.0,
+          "year_month": 98.79529640701314,
+          "collaboration_type": 100.0
+        }
+      },
+      "sqlite_sequence": {
+        "columns": [
+          "name",
+          "seq"
+        ],
+        "canonical_mapping": {
+          "name": "org_name"
+        },
+        "row_count": 3,
+        "quality_metrics": {
+          "org_name": 100.0
+        }
+      },
+      "collaborations": {
+        "columns": [
+          "id",
+          "primary_country",
+          "partner_countries",
+          "title",
+          "date_accepted",
+          "result_type",
+          "doi",
+          "num_countries",
+          "organizations",
+          "is_china_collaboration",
+          "processing_batch"
+        ],
+        "canonical_mapping": {
+          "id": "entity_id",
+          "primary_country": "country_iso",
+          "date_accepted": "year_month",
+          "result_type": "collaboration_type",
+          "organizations": "org_name",
+          "is_china_collaboration": "china_related"
+        },
+        "row_count": 150505,
+        "quality_metrics": {
+          "entity_id": 100.0,
+          "country_iso": 100.0,
+          "year_month": 99.36347629646856,
+          "collaboration_type": 100.0,
+          "org_name": 100.0,
+          "china_related": 100.0
+        }
+      },
+      "processing_log": {
+        "columns": [
+          "id",
+          "country_code",
+          "batch_number",
+          "start_time",
+          "end_time",
+          "records_processed",
+          "collaborations_found",
+          "china_collaborations",
+          "status",
+          "error_message",
+          "processing_time_seconds"
+        ],
+        "canonical_mapping": {
+          "id": "entity_id",
+          "country_code": "country_iso",
+          "collaborations_found": "collaboration_type",
+          "china_collaborations": "china_related"
+        },
+        "row_count": 373,
+        "quality_metrics": {
+          "entity_id": 100.0,
+          "country_iso": 100.0,
+          "collaboration_type": 100.0,
+          "china_related": 100.0
+        }
+      }
+    },
+    "CORDIS": {
+      "projects": {
+        "columns": [
+          "project_id",
+          "acronym",
+          "title",
+          "objective",
+          "programme",
+          "funding_scheme",
+          "status",
+          "start_date",
+          "end_date",
+          "start_year",
+          "end_year",
+          "duration_months",
+          "total_cost",
+          "ec_contribution",
+          "coordinator_country",
+          "num_countries",
+          "num_organizations",
+          "num_chinese_orgs",
+          "countries_list",
+          "eu_partners",
+          "non_eu_partners",
+          "chinese_organizations",
+          "topics",
+          "keywords",
+          "call",
+          "all_org_names"
+        ],
+        "canonical_mapping": {
+          "project_id": "entity_id",
+          "funding_scheme": "funding_amount",
+          "start_date": "year_month",
+          "end_date": "year_month",
+          "start_year": "year_month",
+          "end_year": "year_month",
+          "coordinator_country": "country_iso",
+          "num_organizations": "org_name",
+          "num_chinese_orgs": "china_related",
+          "chinese_organizations": "org_name",
+          "topics": "tech_keyword",
+          "keywords": "tech_keyword",
+          "all_org_names": "org_name"
+        },
+        "row_count": 383,
+        "quality_metrics": {
+          "entity_id": 100.0,
+          "funding_amount": 100.0,
+          "year_month": 100.0,
+          "country_iso": 0.0,
+          "org_name": 100.0,
+          "china_related": 100.0,
+          "tech_keyword": 79.11227154046998
+        }
+      },
+      "organizations": {
+        "columns": [
+          "id",
+          "project_id",
+          "org_name",
+          "country",
+          "city",
+          "org_type",
+          "ec_contribution",
+          "net_contribution",
+          "total_cost",
+          "is_chinese"
+        ],
+        "canonical_mapping": {
+          "id": "entity_id",
+          "project_id": "entity_id",
+          "org_name": "org_name",
+          "country": "country_iso",
+          "org_type": "collaboration_type",
+          "is_chinese": "china_related"
+        },
+        "row_count": 7259,
+        "quality_metrics": {
+          "entity_id": 100.0,
+          "org_name": 100.0,
+          "country_iso": 99.77958396473343,
+          "collaboration_type": 99.5453919272627,
+          "china_related": 100.0
+        }
+      },
+      "sqlite_sequence": {
+        "columns": [
+          "name",
+          "seq"
+        ],
+        "canonical_mapping": {
+          "name": "org_name"
+        },
+        "row_count": 1,
+        "quality_metrics": {
+          "org_name": 100.0
+        }
+      },
+      "project_countries": {
+        "columns": [
+          "project_id",
+          "country_code"
+        ],
+        "canonical_mapping": {
+          "project_id": "entity_id",
+          "country_code": "country_iso"
+        },
+        "row_count": 3781,
+        "quality_metrics": {
+          "entity_id": 100.0,
+          "country_iso": 100.0
+        }
+      }
+    },
+    "CORDIS_China_Projects": {
+      "data/processed/cordis_multicountry/china_project_list_20250921_105946.json": {
+        "columns": [
+          "id",
+          "acronym",
+          "title",
+          "chinese_orgs",
+          "countries"
+        ],
+        "canonical_mapping": {
+          "id": "entity_id",
+          "chinese_orgs": "china_related"
+        },
+        "record_count": 383,
+        "quality_metrics": {
+          "entity_id": 100.0,
+          "china_related": 100.0
+        }
+      }
+    },
+    "Poland_China_Collab": {
+      "data/processed/openaire_verified/PL_china_collaborations_20250922_202453.json": {
+        "columns": [
+          "country",
+          "total_found",
+          "method",
+          "keywords_used",
+          "collection_date",
+          "results"
+        ],
+        "canonical_mapping": {
+          "country": "country_iso",
+          "keywords_used": "tech_keyword",
+          "collection_date": "year_month"
+        },
+        "record_count": 1,
+        "quality_metrics": {}
+      }
+    }
+  },
+  "joinability_matrix": {
+    "OpenAIRE": {
+      "CORDIS": {
+        "score": 58.333333333333336,
+        "common_fields": [
+          "org_name",
+          "country_iso",
+          "china_related"
+        ],
+        "viable_join_fields": [
+          "org_name",
+          "china_related"
+        ]
+      },
+      "CORDIS_China_Projects": {
+        "score": 50.0,
+        "common_fields": [
+          "china_related"
+        ],
+        "viable_join_fields": [
+          "china_related"
+        ]
+      },
+      "Poland_China_Collab": {
+        "score": 25.0,
+        "common_fields": [
+          "country_iso"
+        ],
+        "viable_join_fields": []
+      }
+    },
+    "CORDIS": {
+      "CORDIS_China_Projects": {
+        "score": 75.0,
+        "common_fields": [
+          "entity_id",
+          "china_related"
+        ],
+        "viable_join_fields": [
+          "entity_id",
+          "china_related"
+        ]
+      },
+      "Poland_China_Collab": {
+        "score": 14.926022628372499,
+        "common_fields": [
+          "tech_keyword",
+          "country_iso",
+          "year_month"
+        ],
+        "viable_join_fields": []
+      }
+    },
+    "CORDIS_China_Projects": {
+      "Poland_China_Collab": 0
+    },
+    "Poland_China_Collab": {}
+  },
+  "quality_scores": {
+    "OpenAIRE": {
+      "completeness": 99.91854736356628,
+      "total_records": 307140,
+      "tables_analyzed": 5
+    },
+    "CORDIS": {
+      "completeness": 95.64882992104516,
+      "total_records": 11424,
+      "tables_analyzed": 4
+    },
+    "CORDIS_China_Projects": {
+      "completeness": 100.0,
+      "total_records": 383,
+      "tables_analyzed": 1
+    },
+    "Poland_China_Collab": {
+      "completeness": 0.0,
+      "total_records": 1,
+      "tables_analyzed": 1
+    }
+  }
+}

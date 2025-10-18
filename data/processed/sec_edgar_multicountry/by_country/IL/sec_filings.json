@@ -1,0 +1,53 @@
+[
+  {
+    "form": "6-K",
+    "date": "2025-09-15",
+    "accession": "0001178913-25-003327",
+    "primary_doc": "zk2533783.htm",
+    "company": "Fiverr International Ltd.",
+    "country": "IL",
+    "cik": "0001762301",
+    "risks": {
+      "china_exposure": false,
+      "technology_transfer": false,
+      "supply_chain": false,
+      "regulatory_risk": false,
+      "vie_structure": true,
+      "risk_score": 10
+    }
+  },
+  {
+    "form": "10-Q",
+    "date": "2025-08-13",
+    "accession": "0001410578-25-001749",
+    "primary_doc": "isrlu-20250630x10q.htm",
+    "company": "Israel Acquisitions Corp",
+    "country": "IL",
+    "cik": "0001915328",
+    "risks": {
+      "china_exposure": false,
+      "technology_transfer": false,
+      "supply_chain": true,
+      "regulatory_risk": true,
+      "vie_structure": true,
+      "risk_score": 30
+    }
+  },
+  {
+    "form": "8-K",
+    "date": "2025-07-03",
+    "accession": "0001104659-25-065825",
+    "primary_doc": "tm2519879d1_8k.htm",
+    "company": "Israel Acquisitions Corp",
+    "country": "IL",
+    "cik": "0001915328",
+    "risks": {
+      "china_exposure": false,
+      "technology_transfer": false,
+      "supply_chain": false,
+      "regulatory_risk": false,
+      "vie_structure": true,
+      "risk_score": 10
+    }
+  }
+]

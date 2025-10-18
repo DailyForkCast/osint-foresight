@@ -1,0 +1,48 @@
+{
+  "cik": "0001930179",
+  "ticker": "ARBB",
+  "name": "ARB IOT Group Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "7373",
+  "sicDescription": "Services-Computer Integrated Systems Design",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "6010-947 5998",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "LEVEL 39",
+      "street2": "MARINA BAY FINANCIAL CENTRE TOWER 2",
+      "city": "10 MARINA BOULEVARD",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Singapore",
+      "countryCode": "U0"
+    },
+    "business": {
+      "street1": "LEVEL 39",
+      "street2": "MARINA BAY FINANCIAL CENTRE TOWER 2",
+      "city": "10 MARINA BOULEVARD",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Singapore",
+      "countryCode": "U0"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-06-23"
+  },
+  "filings_count": 66
+}

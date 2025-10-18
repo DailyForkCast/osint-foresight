@@ -1,0 +1,47 @@
+{
+  "cik": "0001636639",
+  "ticker": "FIHL",
+  "name": "Fidelis Insurance Holdings Ltd",
+  "detection_reasons": [
+    "offshore:bermuda"
+  ],
+  "sic": "6331",
+  "sicDescription": "Fire, Marine & Casualty Insurance",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "D0",
+  "ein": "000000000",
+  "phone": "(441) 295 5950",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "CLARENDON HOUSE",
+      "street2": "2 CHURCH STREET",
+      "city": "HAMILTON",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Bermuda",
+      "countryCode": "D0"
+    },
+    "business": {
+      "street1": "CLARENDON HOUSE",
+      "street2": "2 CHURCH STREET",
+      "city": "HAMILTON",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Bermuda",
+      "countryCode": "D0"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-13"
+  },
+  "filings_count": 104
+}

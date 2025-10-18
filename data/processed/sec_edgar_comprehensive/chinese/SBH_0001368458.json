@@ -1,0 +1,47 @@
+{
+  "cik": "0001368458",
+  "ticker": "SBH",
+  "name": "Sally Beauty Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5990",
+  "sicDescription": "Retail-Retail Stores, NEC",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "362257936",
+  "phone": "(940) 898-7500",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3001 COLORADO BOULEVARD",
+      "street2": null,
+      "city": "DENTON",
+      "stateOrCountry": "TX",
+      "zipCode": "76210",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3001 COLORADO BOULEVARD",
+      "street2": null,
+      "city": "DENTON",
+      "stateOrCountry": "TX",
+      "zipCode": "76210",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-05"
+  },
+  "filings_count": 1001
+}

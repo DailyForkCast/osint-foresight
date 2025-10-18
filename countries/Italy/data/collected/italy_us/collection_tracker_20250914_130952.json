@@ -1,0 +1,113 @@
+{
+  "session_id": "20250914_130952",
+  "started": "2025-09-14T13:09:52.432441",
+  "tasks": {
+    "priority_1_immediate": [
+      {
+        "id": "FPDS_001",
+        "task": "Extract Leonardo DRS federal contracts",
+        "platform": "FPDS.gov",
+        "url": "https://www.fpds.gov/ezsearch/fpdsportal",
+        "query": "VENDOR_NAME:\"Leonardo DRS\"",
+        "output": "leonardo_drs_contracts.csv",
+        "estimated_time": "30 min",
+        "value": "HIGH - Direct US government revenue data"
+      },
+      {
+        "id": "SEC_001",
+        "task": "Leonardo DRS 10-K analysis",
+        "platform": "SEC EDGAR",
+        "url": "https://www.sec.gov/ix?doc=/Archives/edgar/data/1698027/000169802724000004/drs-20231231.htm",
+        "sections": [
+          "Revenue by Customer",
+          "Backlog",
+          "Risk Factors"
+        ],
+        "output": "leonardo_drs_10k_extract.json",
+        "estimated_time": "20 min",
+        "value": "HIGH - Financial and program details"
+      },
+      {
+        "id": "SCOPUS_001",
+        "task": "MIT-Politecnico quantum research",
+        "platform": "Scopus",
+        "url": "https://www.scopus.com/search/form.uri",
+        "query": "AFFIL(MIT) AND AFFIL(\"Politecnico di Milano\") AND KEY(quantum)",
+        "output": "mit_politecnico_quantum.csv",
+        "estimated_time": "45 min",
+        "value": "HIGH - Technical collaboration mapping"
+      }
+    ],
+    "priority_2_today": [
+      {
+        "id": "SAM_001",
+        "task": "Leonardo facility clearances",
+        "platform": "SAM.gov",
+        "url": "https://sam.gov/content/entity-information",
+        "entity": "Leonardo DRS, Inc.",
+        "cage_code": "0Z2Y6",
+        "extract": [
+          "Facility clearance level",
+          "NAICS codes",
+          "Active registrations"
+        ],
+        "estimated_time": "15 min"
+      },
+      {
+        "id": "PATENTS_001",
+        "task": "Leonardo-Boeing joint patents",
+        "platform": "Google Patents",
+        "url": "https://patents.google.com",
+        "query": "assignee:Leonardo AND assignee:Boeing",
+        "date_range": "2020-2025",
+        "estimated_time": "30 min"
+      },
+      {
+        "id": "LINKEDIN_001",
+        "task": "Italian researchers at US labs",
+        "platform": "LinkedIn",
+        "search": {
+          "current": "MIT OR Stanford OR Berkeley",
+          "past": "Politecnico di Milano OR Sapienza",
+          "keywords": "quantum OR photonics OR AI"
+        },
+        "estimated_time": "45 min"
+      }
+    ],
+    "priority_3_this_week": [
+      {
+        "id": "ORCID_001",
+        "task": "Researcher movement tracking",
+        "platform": "ORCID",
+        "query": "past:\"Politecnico di Milano\" current:\"MIT\"",
+        "estimated_time": "1 hour"
+      },
+      {
+        "id": "CORDIS_001",
+        "task": "US participation in EU projects",
+        "platform": "CORDIS",
+        "filter": "US organizations in Italian-led projects",
+        "estimated_time": "2 hours"
+      },
+      {
+        "id": "GITHUB_001",
+        "task": "Leonardo open source contributions",
+        "platform": "GitHub",
+        "query": "org:leonardo user:location:Italy",
+        "focus": "Defense-relevant repositories",
+        "estimated_time": "30 min"
+      }
+    ]
+  },
+  "completed": [],
+  "in_progress": [],
+  "blocked": [],
+  "notes": {},
+  "files_collected": [],
+  "next_actions": [
+    "Complete Priority 1 tasks",
+    "Run extraction scripts on collected data",
+    "Generate analysis report",
+    "Update micro-artifacts"
+  ]
+}

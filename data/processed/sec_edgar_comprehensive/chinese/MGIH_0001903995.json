@@ -1,0 +1,49 @@
+{
+  "cik": "0001903995",
+  "ticker": "MGIH",
+  "name": "Millennium Group International Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong"
+  ],
+  "sic": "2750",
+  "sicDescription": "Commercial Printing",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "85236195768",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "RM 2722, 27/F",
+      "street2": "NO. 1 HUNG TO ROAD,",
+      "city": "KWUN TONG, KOWLOON,",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "RM 2722, 27/F",
+      "street2": "NO. 1 HUNG TO ROAD,",
+      "city": "KWUN TONG, KOWLOON,",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-07-28"
+  },
+  "filings_count": 46
+}

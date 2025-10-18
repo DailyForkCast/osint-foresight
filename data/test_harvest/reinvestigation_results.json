@@ -1,0 +1,460 @@
+{
+  "summary": {
+    "investigation_date": "2025-09-19T15:38:45.110667",
+    "total_investigated": 12,
+    "with_china_content": 8,
+    "without_china_content": 4,
+    "success_rate": "66.7%"
+  },
+  "results": {
+    "SWP": {
+      "name": "SWP Berlin",
+      "base_url": "https://www.swp-berlin.org",
+      "china_found": true,
+      "working_paths": [
+        {
+          "path": "/en",
+          "mentions": 13,
+          "title": "Stiftung Wissenschaft und Politik",
+          "has_publications": true,
+          "has_research": true
+        }
+      ],
+      "best_path": "/en",
+      "max_mentions": 13,
+      "sample_content": []
+    },
+    "RUSI": {
+      "name": "Royal United Services Institute",
+      "base_url": "https://rusi.org",
+      "china_found": false,
+      "working_paths": [],
+      "best_path": null,
+      "max_mentions": 0,
+      "sample_content": []
+    },
+    "NUPI": {
+      "name": "Norwegian Institute",
+      "base_url": "https://www.nupi.no",
+      "china_found": false,
+      "working_paths": [],
+      "best_path": null,
+      "max_mentions": 0,
+      "sample_content": []
+    },
+    "FOI": {
+      "name": "Swedish Defence Research",
+      "base_url": "https://www.foi.se",
+      "china_found": false,
+      "working_paths": [],
+      "best_path": null,
+      "max_mentions": 0,
+      "sample_content": []
+    },
+    "IAI": {
+      "name": "Italian Institute",
+      "base_url": "https://www.iai.it",
+      "china_found": false,
+      "working_paths": [],
+      "best_path": null,
+      "max_mentions": 0,
+      "sample_content": []
+    },
+    "ASPI": {
+      "name": "Australian Strategic Policy Institute",
+      "base_url": "https://www.aspi.org.au",
+      "china_found": true,
+      "working_paths": [
+        {
+          "path": "/",
+          "mentions": 52,
+          "title": "Homepage - ASPI",
+          "has_publications": true,
+          "has_research": true
+        },
+        {
+          "path": "/search?keywords=china",
+          "mentions": 4,
+          "title": "Search and rescue: a growing responsibility - ASPI",
+          "has_publications": true,
+          "has_research": true
+        }
+      ],
+      "best_path": "/",
+      "max_mentions": 52,
+      "sample_content": []
+    },
+    "IDSA": {
+      "name": "Institute for Defence Studies",
+      "base_url": "https://www.idsa.in",
+      "china_found": true,
+      "working_paths": [
+        {
+          "path": "/",
+          "mentions": 44,
+          "title": "Home Page - MP-IDSA",
+          "has_publications": true,
+          "has_research": true,
+          "samples": [
+            "China Military Digest",
+            "China Science and Technology",
+            "Sylloge on China"
+          ]
+        },
+        {
+          "path": "/china",
+          "mentions": 22,
+          "title": "China - MP-IDSA",
+          "has_publications": true,
+          "has_research": false
+        },
+        {
+          "path": "/askstheexpert/china",
+          "mentions": 22,
+          "title": "China - MP-IDSA",
+          "has_publications": true,
+          "has_research": false
+        },
+        {
+          "path": "/search/node/china",
+          "mentions": 19,
+          "title": "You searched for node/china - MP-IDSA",
+          "has_publications": true,
+          "has_research": false,
+          "samples": [
+            "Search Results for: node/china"
+          ]
+        },
+        {
+          "path": "/specialfeature/china",
+          "mentions": 22,
+          "title": "China - MP-IDSA",
+          "has_publications": true,
+          "has_research": false
+        },
+        {
+          "path": "/backgrounder/china",
+          "mentions": 22,
+          "title": "China - MP-IDSA",
+          "has_publications": true,
+          "has_research": false
+        },
+        {
+          "path": "/issuebrief",
+          "mentions": 38,
+          "title": "Issue Brief - MP-IDSA",
+          "has_publications": true,
+          "has_research": true,
+          "samples": [
+            "China’s Space-Based Surveillance Capabilities",
+            "US–China Tech Rivalry: The Geopolitics of Semiconductors"
+          ]
+        },
+        {
+          "path": "/publication",
+          "mentions": 62,
+          "title": "Publication - MP-IDSA",
+          "has_publications": true,
+          "has_research": true,
+          "samples": [
+            "China’s Rising Foreign Ministry: Practices and Representations of Assertive Diplomacy",
+            "Can India and China Break Free from the Triangle of Conflict at the Border?",
+            "The Uncertain War: Decoding India’s Two-Front War with China and Pakistan"
+          ]
+        }
+      ],
+      "best_path": "/publication",
+      "max_mentions": 62,
+      "sample_content": [
+        "China’s Rising Foreign Ministry: Practices and Representations of Assertive Diplomacy",
+        "Can India and China Break Free from the Triangle of Conflict at the Border?",
+        "The Uncertain War: Decoding India’s Two-Front War with China and Pakistan"
+      ]
+    },
+    "ORF": {
+      "name": "Observer Research Foundation",
+      "base_url": "https://www.orfonline.org",
+      "china_found": true,
+      "working_paths": [
+        {
+          "path": "/",
+          "mentions": 11,
+          "title": "Observer Research Foundation | Ideas | Forums | Leadership | Impact",
+          "has_publications": true,
+          "has_research": true,
+          "samples": [
+            "China’s ‘Global Initiatives’ and the Quest to Rewrite the World Order",
+            "China’s ‘Global Initiatives’ and the Quest to Rewrite the World Order"
+          ]
+        },
+        {
+          "path": "/tags/china",
+          "mentions": 161,
+          "title": "China - Tags | ORF",
+          "has_publications": true,
+          "has_research": true
+        },
+        {
+          "path": "/search?q=china",
+          "mentions": 649,
+          "title": "Search | ORF",
+          "has_publications": true,
+          "has_research": true,
+          "samples": [
+            "Search:  \n\t\t\t For - china",
+            "China’s ‘Global Initiatives’ and the Quest to Rewrite the World Order",
+            "Beyond Lithium: China’s Battery Dominance and Lessons for the World"
+          ]
+        }
+      ],
+      "best_path": "/search?q=china",
+      "max_mentions": 649,
+      "sample_content": [
+        "Search:  \n\t\t\t For - china",
+        "China’s ‘Global Initiatives’ and the Quest to Rewrite the World Order",
+        "Beyond Lithium: China’s Battery Dominance and Lessons for the World"
+      ]
+    },
+    "ISEAS": {
+      "name": "ISEAS Yusof Ishak",
+      "base_url": "https://www.iseas.edu.sg",
+      "china_found": true,
+      "working_paths": [
+        {
+          "path": "/",
+          "mentions": 2,
+          "title": "ISEAS-Yusof Ishak Institute - The ISEAS–Yusof Ishak Institute is a leading research centre dedicated to the study of socio-political, security, and economic trends and developments in Southeast Asia and its wider geostrategic and economic environment.",
+          "has_publications": true,
+          "has_research": true
+        },
+        {
+          "path": "/articles-commentaries",
+          "mentions": 13,
+          "title": "2025/70 &quot;Türkiye’s Defence Diplomacy in Southeast Asia: The New Kid on the Block&quot; by Ian Storey - ISEAS-Yusof Ishak Institute",
+          "has_publications": true,
+          "has_research": true
+        },
+        {
+          "path": "/articles-commentaries/iseas-perspective",
+          "mentions": 2,
+          "title": "ISEAS-Yusof Ishak Institute - The ISEAS–Yusof Ishak Institute is a leading research centre dedicated to the study of socio-political, security, and economic trends and developments in Southeast Asia and its wider geostrategic and economic environment.",
+          "has_publications": true,
+          "has_research": true
+        },
+        {
+          "path": "/centres-and-programmes/regional-strategic-and-political-studies-programme",
+          "mentions": 2,
+          "title": "ISEAS-Yusof Ishak Institute - The ISEAS–Yusof Ishak Institute is a leading research centre dedicated to the study of socio-political, security, and economic trends and developments in Southeast Asia and its wider geostrategic and economic environment.",
+          "has_publications": true,
+          "has_research": true
+        },
+        {
+          "path": "/publications",
+          "mentions": 2,
+          "title": "ISEAS-Yusof Ishak Institute - The ISEAS–Yusof Ishak Institute is a leading research centre dedicated to the study of socio-political, security, and economic trends and developments in Southeast Asia and its wider geostrategic and economic environment.",
+          "has_publications": true,
+          "has_research": true
+        }
+      ],
+      "best_path": "/articles-commentaries",
+      "max_mentions": 13,
+      "sample_content": []
+    },
+    "RSIS": {
+      "name": "S. Rajaratnam School",
+      "base_url": "https://www.rsis.edu.sg",
+      "china_found": true,
+      "working_paths": [
+        {
+          "path": "/",
+          "mentions": 47,
+          "title": "S. Rajaratnam School of International Studies (RSIS)",
+          "has_publications": true,
+          "has_research": true
+        },
+        {
+          "path": "/research/china-programme",
+          "mentions": 43,
+          "title": "China Programme - RSIS",
+          "has_publications": true,
+          "has_research": true,
+          "samples": [
+            "China Programme"
+          ]
+        },
+        {
+          "path": "/publications/search?keyword=china",
+          "mentions": 6,
+          "title": "Search - RSIS",
+          "has_publications": true,
+          "has_research": true
+        }
+      ],
+      "best_path": "/",
+      "max_mentions": 47,
+      "sample_content": []
+    },
+    "NBR": {
+      "name": "National Bureau of Asian Research",
+      "base_url": "https://www.nbr.org",
+      "china_found": true,
+      "working_paths": [
+        {
+          "path": "/",
+          "mentions": 75,
+          "title": "The National Bureau of Asian Research (NBR) | The Asia Policy Think Tank",
+          "has_publications": true,
+          "has_research": true,
+          "samples": [
+            "China's Health Silk Road"
+          ]
+        },
+        {
+          "path": "/research/china",
+          "mentions": 186,
+          "title": "China | The National Bureau of Asian Research (NBR)",
+          "has_publications": true,
+          "has_research": true,
+          "samples": [
+            "East China Sea",
+            "South China Sea"
+          ]
+        },
+        {
+          "path": "/topics/china",
+          "mentions": 186,
+          "title": "China | The National Bureau of Asian Research (NBR)",
+          "has_publications": true,
+          "has_research": true,
+          "samples": [
+            "East China Sea",
+            "South China Sea"
+          ]
+        },
+        {
+          "path": "/publications",
+          "mentions": 32,
+          "title": "Publications | The National Bureau of Asian Research (NBR)",
+          "has_publications": true,
+          "has_research": true,
+          "samples": [
+            "China in Africa"
+          ]
+        },
+        {
+          "path": "/publications?topic=china",
+          "mentions": 33,
+          "title": "Publications | The National Bureau of Asian Research (NBR)",
+          "has_publications": true,
+          "has_research": true,
+          "samples": [
+            "China in Africa"
+          ]
+        },
+        {
+          "path": "/asia-policy",
+          "mentions": 7,
+          "title": "Asia Policy | The National Bureau of Asian Research (NBR)",
+          "has_publications": true,
+          "has_research": true
+        }
+      ],
+      "best_path": "/research/china",
+      "max_mentions": 186,
+      "sample_content": [
+        "East China Sea",
+        "South China Sea"
+      ]
+    },
+    "MITRE": {
+      "name": "MITRE Corporation",
+      "base_url": "https://www.mitre.org",
+      "china_found": true,
+      "working_paths": [
+        {
+          "path": "/search?search=china",
+          "mentions": 59,
+          "title": "Search | MITRE",
+          "has_publications": true,
+          "has_research": true
+        }
+      ],
+      "best_path": "/search?search=china",
+      "max_mentions": 59,
+      "sample_content": []
+    }
+  },
+  "confirmed_sources": {
+    "SWP": {
+      "name": "SWP Berlin",
+      "base_url": "https://www.swp-berlin.org",
+      "best_path": "/en",
+      "china_mentions": 13,
+      "sample_content": []
+    },
+    "ASPI": {
+      "name": "Australian Strategic Policy Institute",
+      "base_url": "https://www.aspi.org.au",
+      "best_path": "/",
+      "china_mentions": 52,
+      "sample_content": []
+    },
+    "IDSA": {
+      "name": "Institute for Defence Studies",
+      "base_url": "https://www.idsa.in",
+      "best_path": "/publication",
+      "china_mentions": 62,
+      "sample_content": [
+        "China’s Rising Foreign Ministry: Practices and Representations of Assertive Diplomacy",
+        "Can India and China Break Free from the Triangle of Conflict at the Border?"
+      ]
+    },
+    "ORF": {
+      "name": "Observer Research Foundation",
+      "base_url": "https://www.orfonline.org",
+      "best_path": "/search?q=china",
+      "china_mentions": 649,
+      "sample_content": [
+        "Search:  \n\t\t\t For - china",
+        "China’s ‘Global Initiatives’ and the Quest to Rewrite the World Order"
+      ]
+    },
+    "ISEAS": {
+      "name": "ISEAS Yusof Ishak",
+      "base_url": "https://www.iseas.edu.sg",
+      "best_path": "/articles-commentaries",
+      "china_mentions": 13,
+      "sample_content": []
+    },
+    "RSIS": {
+      "name": "S. Rajaratnam School",
+      "base_url": "https://www.rsis.edu.sg",
+      "best_path": "/",
+      "china_mentions": 47,
+      "sample_content": []
+    },
+    "NBR": {
+      "name": "National Bureau of Asian Research",
+      "base_url": "https://www.nbr.org",
+      "best_path": "/research/china",
+      "china_mentions": 186,
+      "sample_content": [
+        "East China Sea",
+        "South China Sea"
+      ]
+    },
+    "MITRE": {
+      "name": "MITRE Corporation",
+      "base_url": "https://www.mitre.org",
+      "best_path": "/search?search=china",
+      "china_mentions": 59,
+      "sample_content": []
+    }
+  },
+  "still_missing": [
+    "Royal United Services Institute",
+    "Norwegian Institute",
+    "Swedish Defence Research",
+    "Italian Institute"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "cik": "0000797465",
+  "ticker": "STLY",
+  "name": "HG Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:bm"
+  ],
+  "sic": "6798",
+  "sicDescription": "Real Estate Investment Trusts",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "541272589",
+  "phone": "850-201-9204",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "6265 OLD WATER OAK ROAD, UNIT 204",
+      "street2": null,
+      "city": "TALLAHASSEE",
+      "stateOrCountry": "FL",
+      "zipCode": "32312",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "6265 OLD WATER OAK ROAD, UNIT 204",
+      "street2": null,
+      "city": "TALLAHASSEE",
+      "stateOrCountry": "FL",
+      "zipCode": "32312",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-03"
+  },
+  "filings_count": 970
+}

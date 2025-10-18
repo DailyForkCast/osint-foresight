@@ -1,0 +1,48 @@
+{
+  "cik": "0001026662",
+  "ticker": "CLWT",
+  "name": "EURO TECH HOLDINGS CO LTD",
+  "detection_reasons": [
+    "offshore:british virgin islands",
+    "offshore:hong kong"
+  ],
+  "sic": "5040",
+  "sicDescription": "Wholesale-Professional & Commercial Equipment & Supplies",
+  "category": "Non-accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "D8",
+  "ein": "000000000",
+  "phone": "0118522814",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "BRITISH VIRGIN ISLANDS LTD",
+      "street2": "TRUSTNET CHAMBERS PO BOX 3444",
+      "city": "ROAD TOWN TORROLA BR",
+      "stateOrCountry": "D8",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Virgin Islands, British",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "C/O EURO TECH (FAR EAST) LTD 18 F GEE",
+      "street2": "CHANG HONG CENTRE 65 WONG CHUK HANG ROAD",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "20-F",
+    "date": "2025-04-30"
+  },
+  "filings_count": 213
+}

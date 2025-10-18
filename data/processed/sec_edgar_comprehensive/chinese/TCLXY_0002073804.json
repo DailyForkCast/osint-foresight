@@ -1,0 +1,46 @@
+{
+  "cik": "0002073804",
+  "ticker": "TCLXY",
+  "name": "TCL Electronics Holdings Limited/ADR",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong"
+  ],
+  "sic": "",
+  "sicDescription": "",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "212-816-6638",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "C/O CITIBANK, N.A.",
+      "street2": "388 GREENWICH STREET",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10013",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "22 SCIENCE PARK EAST AVENUE, 5TH FLOOR,",
+      "street2": "BUILDING 22E, HONG KONG SCIENCE PARK",
+      "city": "SHATIN",
+      "stateOrCountry": "",
+      "zipCode": "000001",
+      "stateOrCountryDescription": "",
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1
+}

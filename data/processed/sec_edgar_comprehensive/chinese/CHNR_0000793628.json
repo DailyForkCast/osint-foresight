@@ -1,0 +1,50 @@
+{
+  "cik": "0000793628",
+  "ticker": "CHNR",
+  "name": "CHINA NATURAL RESOURCES INC",
+  "detection_reasons": [
+    "location:china",
+    "offshore:hong kong",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "1040",
+  "sicDescription": "Gold and Silver Ores",
+  "category": "Non-accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "D8",
+  "ein": "000000000",
+  "phone": "01185228107205",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "RM 2205 22F WEST TOWER SHUN TAK CENTRE",
+      "street2": "168-200 CONNAUGHT ROAD C",
+      "city": "SHEUNG WAN, HONG KONG",
+      "stateOrCountry": "F4",
+      "zipCode": "-",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "RM 2205 22F WEST TOWER SHUN TAK CENTRE",
+      "street2": "168-200 CONNAUGHT ROAD C",
+      "city": "SHEUNG WAN, HONG KONG",
+      "stateOrCountry": "F4",
+      "zipCode": "-",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-06-10"
+  },
+  "filings_count": 405
+}

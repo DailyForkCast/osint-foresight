@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-09-28T13:05:33.806683",
+  "total_contracts": 34523,
+  "original_chinese_flagged": 33749,
+  "refined_chinese_confirmed": 2,
+  "false_positives_eliminated": 33747,
+  "false_positive_rate": 0.9999407389848588,
+  "confirmed_entities": [
+    {
+      "name": "Chongqing Taishan Cable Co., Ltd",
+      "country": "CN",
+      "confidence": 1.0,
+      "method": "country_code",
+      "contracting_authority": "REN - Rede El\u00e9ctrica Nacional, S.A.",
+      "contract_id": "2024/S 016-044315"
+    },
+    {
+      "name": "JiangFeng Pipeline Group Co., Ltd",
+      "country": "CN",
+      "confidence": 1.0,
+      "method": "country_code",
+      "contracting_authority": "Hohhot Gas Heating Co., Ltd.",
+      "contract_id": "2024/S 012-031648"
+    }
+  ]
+}

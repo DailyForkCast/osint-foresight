@@ -1,0 +1,49 @@
+{
+  "cik": "0001969863",
+  "ticker": "SUGP",
+  "name": "SU Group Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong"
+  ],
+  "sic": "7381",
+  "sicDescription": "Services-Detective, Guard & Armored Car Services",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "85223418183",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "31 HUNG TO ROAD, KWUN TONG",
+      "street2": null,
+      "city": "KOWLOON",
+      "stateOrCountry": "K3",
+      "zipCode": "000000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "31 HUNG TO ROAD, KWUN TONG",
+      "street2": null,
+      "city": "KOWLOON",
+      "stateOrCountry": "K3",
+      "zipCode": "000000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-19"
+  },
+  "filings_count": 47
+}

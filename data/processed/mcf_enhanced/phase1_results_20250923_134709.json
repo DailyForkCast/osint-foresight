@@ -1,0 +1,36 @@
+{
+  "phase": "phase1",
+  "name": "MCF Core Sources (Enhanced)",
+  "timestamp": "2025-09-23T13:14:04.694171",
+  "collectors": {
+    "state_dept": {
+      "source": "state_dept_enhanced",
+      "documents_collected": 0,
+      "documents_saved": 0,
+      "high_relevance": 0,
+      "timestamp": "2025-09-23T13:28:44.777489"
+    },
+    "aspi": {
+      "source": "aspi_selenium",
+      "documents_collected": 0,
+      "documents_saved": 0,
+      "high_relevance": 0,
+      "timestamp": "2025-09-23T13:47:07.013615"
+    },
+    "ndu_cscma": {
+      "documents_collected": 0,
+      "error": "No run_collection method"
+    },
+    "casi": {
+      "documents_collected": 0,
+      "error": "No run_collection method"
+    },
+    "uscc": {
+      "documents_collected": 0,
+      "error": "No run_collection method"
+    }
+  },
+  "documents_collected": 0,
+  "high_relevance_count": 0,
+  "errors": []
+}

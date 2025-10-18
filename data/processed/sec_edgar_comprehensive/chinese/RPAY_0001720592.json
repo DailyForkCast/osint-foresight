@@ -1,0 +1,47 @@
+{
+  "cik": "0001720592",
+  "ticker": "RPAY",
+  "name": "Repay Holdings Corp",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7389",
+  "sicDescription": "Services-Business Services, NEC",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "(404) 504-7472",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3060 PEACHTREE ROAD NW",
+      "street2": "SUITE 1100",
+      "city": "ATLANTA",
+      "stateOrCountry": "GA",
+      "zipCode": "30305",
+      "stateOrCountryDescription": "GA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3060 PEACHTREE ROAD NW",
+      "street2": "SUITE 1100",
+      "city": "ATLANTA",
+      "stateOrCountry": "GA",
+      "zipCode": "30305",
+      "stateOrCountryDescription": "GA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-11"
+  },
+  "filings_count": 915
+}

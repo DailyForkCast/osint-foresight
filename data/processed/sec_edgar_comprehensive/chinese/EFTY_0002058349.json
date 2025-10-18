@@ -1,0 +1,47 @@
+{
+  "cik": "0002058349",
+  "ticker": "EFTY",
+  "name": "ETOILES CAPITAL GROUP CO., LTD",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "8742",
+  "sicDescription": "Services-Management Consulting Services",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "852-2398-8699",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT 03-04, 25/F, COSCO TOWER",
+      "street2": "183 QUEEN'S ROAD CENTRAL",
+      "city": "SHEUNG WANG",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    },
+    "business": {
+      "street1": "UNIT 03-04, 25/F, COSCO TOWER",
+      "street2": "183 QUEEN'S ROAD CENTRAL",
+      "city": "SHEUNG WANG",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-22"
+  },
+  "filings_count": 18
+}

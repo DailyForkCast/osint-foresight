@@ -1,0 +1,231 @@
+{
+  "generated": "2025-09-24T17:39:53.775003",
+  "detection_stats": {
+    "cordis_china_projects": {
+      "total_tested": 100,
+      "china_detected": 53,
+      "detection_rate": 53.0
+    }
+  },
+  "control_group_results": {
+    "total_control_samples": 10,
+    "false_positives": 4,
+    "false_positive_rate": 40.0
+  },
+  "false_positives": [
+    {
+      "text": "Japan semiconductor manufacturing",
+      "signals": [
+        [
+          "technology_terms",
+          0.6
+        ]
+      ],
+      "confidence": 0.6
+    },
+    {
+      "text": "Taiwan integrated circuits",
+      "signals": [
+        [
+          "technology_terms",
+          0.6
+        ]
+      ],
+      "confidence": 0.6
+    },
+    {
+      "text": "United Kingdom artificial intelligence",
+      "signals": [
+        [
+          "technology_terms",
+          0.6
+        ]
+      ],
+      "confidence": 0.6
+    },
+    {
+      "text": "Canada quantum computing research",
+      "signals": [
+        [
+          "technology_terms",
+          0.6
+        ]
+      ],
+      "confidence": 0.6
+    }
+  ],
+  "false_negatives": [],
+  "edge_cases": {
+    "total_cases": 10,
+    "successful": 6,
+    "success_rate": 60.0,
+    "details": [
+      {
+        "text": "Sino-Japanese cooperation",
+        "expected": true,
+        "detected": true,
+        "success": true,
+        "note": "Should detect 'Sino'",
+        "signals": [
+          [
+            "english_exonyms",
+            0.7
+          ]
+        ]
+      },
+      {
+        "text": "Research with PRC institutions",
+        "expected": true,
+        "detected": true,
+        "success": true,
+        "note": "Should detect 'PRC'",
+        "signals": [
+          [
+            "english_exonyms",
+            0.7
+          ]
+        ]
+      },
+      {
+        "text": "Canton, Ohio manufacturing",
+        "expected": false,
+        "detected": true,
+        "success": false,
+        "note": "US city, not China",
+        "signals": [
+          [
+            "english_exonyms",
+            0.7
+          ],
+          [
+            "french_exonyms",
+            0.65
+          ]
+        ]
+      },
+      {
+        "text": "China cabinet furniture",
+        "expected": false,
+        "detected": true,
+        "success": false,
+        "note": "Furniture, not country",
+        "signals": [
+          [
+            "english_exonyms",
+            0.7
+          ],
+          [
+            "german_exonyms",
+            0.65
+          ]
+        ]
+      },
+      {
+        "text": "Fine china dinnerware",
+        "expected": false,
+        "detected": true,
+        "success": false,
+        "note": "Dinnerware, not country",
+        "signals": [
+          [
+            "english_exonyms",
+            0.7
+          ],
+          [
+            "german_exonyms",
+            0.65
+          ]
+        ]
+      },
+      {
+        "text": "Huawei Technologies Co., Ltd.",
+        "expected": true,
+        "detected": true,
+        "success": true,
+        "note": "Should detect company",
+        "signals": [
+          [
+            "pinyin",
+            0.75
+          ],
+          [
+            "english_exonyms",
+            0.7
+          ],
+          [
+            "subsidiaries",
+            0.85
+          ]
+        ]
+      },
+      {
+        "text": "Honor smartphone",
+        "expected": true,
+        "detected": true,
+        "success": true,
+        "note": "Should detect subsidiary",
+        "signals": [
+          [
+            "subsidiaries",
+            0.85
+          ]
+        ]
+      },
+      {
+        "text": "Chinese University of Hong Kong",
+        "expected": true,
+        "detected": true,
+        "success": true,
+        "note": "Should detect institution",
+        "signals": [
+          [
+            "english_exonyms",
+            0.7
+          ],
+          [
+            "french_exonyms",
+            0.65
+          ]
+        ]
+      },
+      {
+        "text": "Chinatown San Francisco",
+        "expected": false,
+        "detected": true,
+        "success": false,
+        "note": "US location reference",
+        "signals": [
+          [
+            "english_exonyms",
+            0.7
+          ],
+          [
+            "german_exonyms",
+            0.65
+          ]
+        ]
+      },
+      {
+        "text": "Shanghai-London Stock Connect",
+        "expected": true,
+        "detected": true,
+        "success": true,
+        "note": "Should detect Shanghai",
+        "signals": [
+          [
+            "pinyin",
+            0.75
+          ],
+          [
+            "english_exonyms",
+            0.7
+          ],
+          [
+            "french_exonyms",
+            0.65
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "dataset": "json_CZ_china_collaborations_20250922_202533",
+  "source_path": "data\\processed\\openaire_verified\\CZ_china_collaborations_20250922_202533.json",
+  "size_bytes": 18215,
+  "samples": {
+    "country": "CZ",
+    "total_found": 1,
+    "method": "keyword_search",
+    "keywords_used": [
+      "China",
+      "Chinese",
+      "Beijing",
+      "Shanghai",
+      "Shenzhen",
+      "Guangzhou",
+      "Wuhan",
+      "Chengdu",
+      "Nanjing",
+      "Tianjin"
+    ],
+    "collection_date": "2025-09-22T20:25:33.301713"
+  }
+}

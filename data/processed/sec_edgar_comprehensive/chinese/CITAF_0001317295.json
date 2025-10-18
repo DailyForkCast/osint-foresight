@@ -1,0 +1,47 @@
+{
+  "cik": "0001317295",
+  "ticker": "CITAF",
+  "name": "CHINA SHIPPING CONTAINER LINES CO LTD",
+  "detection_reasons": [
+    "location:china",
+    "location:shanghai",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "",
+  "sicDescription": "",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": null,
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "450 FU SHAN LU, ROOMS A TO D, 27TH FLOOR",
+      "street2": "PUDONG NEW DISTRICT",
+      "city": "PUDONG, SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "450 FU SHAN LU, ROOMS A TO D, 27TH FLOOR",
+      "street2": "PUDONG NEW DISTRICT",
+      "city": "PUDONG, SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 125
+}

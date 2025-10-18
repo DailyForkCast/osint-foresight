@@ -1,0 +1,94 @@
+{
+  "taxonomy": {
+    "AI_ML": [
+      "artificial intelligence",
+      "machine learning",
+      "deep learning",
+      "neural network"
+    ],
+    "Quantum": [
+      "quantum computing",
+      "quantum communication",
+      "quantum sensing"
+    ],
+    "Biotech": [
+      "biotechnology",
+      "genomics",
+      "synthetic biology",
+      "CRISPR"
+    ],
+    "Advanced_Manufacturing": [
+      "3D printing",
+      "additive manufacturing",
+      "robotics",
+      "automation"
+    ],
+    "Energy": [
+      "renewable energy",
+      "solar",
+      "wind",
+      "nuclear",
+      "fusion"
+    ],
+    "Semiconductors": [
+      "chips",
+      "semiconductors",
+      "microprocessors",
+      "integrated circuits"
+    ],
+    "Telecommunications": [
+      "5G",
+      "6G",
+      "telecommunications",
+      "wireless"
+    ],
+    "Space": [
+      "satellite",
+      "space technology",
+      "launch vehicle",
+      "spacecraft"
+    ]
+  },
+  "mapping_results": {
+    "AI_ML": {
+      "documents": 92,
+      "projects": 18,
+      "keywords_matched": 4
+    },
+    "Quantum": {
+      "documents": 98,
+      "projects": 19,
+      "keywords_matched": 3
+    },
+    "Biotech": {
+      "documents": 101,
+      "projects": 20,
+      "keywords_matched": 4
+    },
+    "Advanced_Manufacturing": {
+      "documents": 112,
+      "projects": 22,
+      "keywords_matched": 4
+    },
+    "Energy": {
+      "documents": 102,
+      "projects": 20,
+      "keywords_matched": 5
+    },
+    "Semiconductors": {
+      "documents": 93,
+      "projects": 18,
+      "keywords_matched": 4
+    },
+    "Telecommunications": {
+      "documents": 100,
+      "projects": 20,
+      "keywords_matched": 4
+    },
+    "Space": {
+      "documents": 87,
+      "projects": 17,
+      "keywords_matched": 4
+    }
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "generated_at": "2025-09-28T14:19:09.178099+00:00",
+  "zero_fabrication_compliance": true,
+  "systems_checked": {
+    "ted": {
+      "path": "F:/OSINT_WAREHOUSE/ted_procurement.db",
+      "available": true
+    },
+    "bis": {
+      "path": "F:/OSINT_WAREHOUSE/osint_master.db",
+      "available": true
+    },
+    "patents": {
+      "path": "F:/OSINT_Data/USPTO/uspto_patents_20250926.db",
+      "available": true
+    },
+    "trade": {
+      "path": "F:/OSINT_Data/Trade_Facilities/uncomtrade_v2.db",
+      "available": true
+    },
+    "research": {
+      "path": "F:/OSINT_WAREHOUSE/openalex_china_final.db",
+      "available": true
+    }
+  },
+  "priority_entities_validation": [
+    {
+      "entity": "Huawei Technologies Co., Ltd.",
+      "status": "NEEDS_INVESTIGATION",
+      "confidence": 0.0,
+      "systems_found": {
+        "ted": false,
+        "bis": false,
+        "patents": false,
+        "trade": false,
+        "research": false
+      },
+      "issues": []
+    },
+    {
+      "entity": "ZTE Corporation",
+      "status": "NEEDS_INVESTIGATION",
+      "confidence": 0.0,
+      "systems_found": {
+        "ted": false,
+        "bis": false,
+        "patents": false,
+        "trade": false,
+        "research": false
+      },
+      "issues": []
+    },
+    {
+      "entity": "Semiconductor Manufacturing International Corporation",
+      "status": "NEEDS_INVESTIGATION",
+      "confidence": 0.0,
+      "systems_found": {
+        "ted": false,
+        "bis": false,
+        "patents": false,
+        "trade": false,
+        "research": false
+      },
+      "issues": []
+    },
+    {
+      "entity": "Beijing University of Aeronautics and Astronautics",
+      "status": "NEEDS_INVESTIGATION",
+      "confidence": 0.0,
+      "systems_found": {
+        "ted": false,
+        "bis": false,
+        "patents": false,
+        "trade": false,
+        "research": false
+      },
+      "issues": []
+    },
+    {
+      "entity": "Tsinghua University",
+      "status": "NEEDS_INVESTIGATION",
+      "confidence": 0.0,
+      "systems_found": {
+        "ted": false,
+        "bis": false,
+        "patents": false,
+        "trade": false,
+        "research": false
+      },
+      "issues": []
+    },
+    {
+      "entity": "DJI Technology Co., Ltd.",
+      "status": "NEEDS_INVESTIGATION",
+      "confidence": 0.0,
+      "systems_found": {
+        "ted": false,
+        "bis": false,
+        "patents": false,
+        "trade": false,
+        "research": false
+      },
+      "issues": []
+    },
+    {
+      "entity": "Hikvision Digital Technology Co., Ltd.",
+      "status": "NEEDS_INVESTIGATION",
+      "confidence": 0.0,
+      "systems_found": {
+        "ted": false,
+        "bis": false,
+        "patents": false,
+        "trade": false,
+        "research": false
+      },
+      "issues": []
+    },
+    {
+      "entity": "Alibaba Group Holding Limited",
+      "status": "NEEDS_INVESTIGATION",
+      "confidence": 0.0,
+      "systems_found": {
+        "ted": false,
+        "bis": false,
+        "patents": false,
+        "trade": false,
+        "research": false
+      },
+      "issues": []
+    },
+    {
+      "entity": "Tencent Holdings Limited",
+      "status": "NEEDS_INVESTIGATION",
+      "confidence": 0.0,
+      "systems_found": {
+        "ted": false,
+        "bis": false,
+        "patents": false,
+        "trade": false,
+        "research": false
+      },
+      "issues": []
+    },
+    {
+      "entity": "China Electronics Corporation",
+      "status": "NEEDS_INVESTIGATION",
+      "confidence": 0.0,
+      "systems_found": {
+        "ted": false,
+        "bis": false,
+        "patents": false,
+        "trade": false,
+        "research": false
+      },
+      "issues": []
+    },
+    {
+      "entity": "China National Nuclear Corporation",
+      "status": "NEEDS_INVESTIGATION",
+      "confidence": 0.0,
+      "systems_found": {
+        "ted": false,
+        "bis": false,
+        "patents": false,
+        "trade": false,
+        "research": false
+      },
+      "issues": []
+    },
+    {
+      "entity": "Aviation Industry Corporation of China",
+      "status": "NEEDS_INVESTIGATION",
+      "confidence": 0.0,
+      "systems_found": {
+        "ted": false,
+        "bis": false,
+        "patents": false,
+        "trade": false,
+        "research": false
+      },
+      "issues": []
+    },
+    {
+      "entity": "China Aerospace Science and Technology Corporation",
+      "status": "NEEDS_INVESTIGATION",
+      "confidence": 0.0,
+      "systems_found": {
+        "ted": false,
+        "bis": false,
+        "patents": false,
+        "trade": false,
+        "research": false
+      },
+      "issues": []
+    },
+    {
+      "entity": "BYD Company Limited",
+      "status": "NEEDS_INVESTIGATION",
+      "confidence": 0.0,
+      "systems_found": {
+        "ted": false,
+        "bis": false,
+        "patents": false,
+        "trade": false,
+        "research": false
+      },
+      "issues": []
+    },
+    {
+      "entity": "Xiaomi Corporation",
+      "status": "NEEDS_INVESTIGATION",
+      "confidence": 0.0,
+      "systems_found": {
+        "ted": false,
+        "bis": false,
+        "patents": false,
+        "trade": false,
+        "research": false
+      },
+      "issues": []
+    }
+  ],
+  "ted_chinese_entities_validation": [
+    {
+      "entity_info": {
+        "name": "Chongqing Taishan Cable Co., Ltd",
+        "country": "CN",
+        "contracts": 1
+      },
+      "validation": {
+        "entity_name": "Chongqing Taishan Cable Co., Ltd",
+        "normalized_name": "CHONGQING TAISHAN CABLE",
+        "systems_found": {
+          "ted": true,
+          "bis": false,
+          "patents": false,
+          "trade": false,
+          "research": false
+        },
+        "confidence_score": 0.2,
+        "validation_status": "NEEDS_INVESTIGATION",
+        "inconsistencies": [
+          "Entity found in 1/5 systems",
+          "Missing from: bis, patents, trade, research"
+        ],
+        "recommendations": [
+          "Investigate why entity is missing from: bis, patents, trade, research"
+        ],
+        "timestamp": "2025-09-28T14:19:17.206082+00:00"
+      }
+    },
+    {
+      "entity_info": {
+        "name": "JiangFeng Pipeline Group Co., Ltd",
+        "country": "CN",
+        "contracts": 1
+      },
+      "validation": {
+        "entity_name": "JiangFeng Pipeline Group Co., Ltd",
+        "normalized_name": "JIANGFENG PIPELINE",
+        "systems_found": {
+          "ted": true,
+          "bis": false,
+          "patents": false,
+          "trade": false,
+          "research": false
+        },
+        "confidence_score": 0.2,
+        "validation_status": "NEEDS_INVESTIGATION",
+        "inconsistencies": [
+          "Entity found in 1/5 systems",
+          "Missing from: bis, patents, trade, research"
+        ],
+        "recommendations": [
+          "Investigate why entity is missing from: bis, patents, trade, research"
+        ],
+        "timestamp": "2025-09-28T14:19:17.238084+00:00"
+      }
+    }
+  ],
+  "summary": {
+    "total_validated": 15,
+    "high_confidence": 0,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "needs_investigation": 15
+  }
+}

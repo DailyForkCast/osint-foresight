@@ -1,0 +1,73 @@
+{
+  "country": "IT",
+  "harvest_session": {
+    "start_time": "2025-09-27T21:37:45.795407",
+    "end_time": "2025-09-27T21:37:51.087342",
+    "total_operations": 7
+  },
+  "operations_log": [
+    {
+      "timestamp": "2025-09-27T21:37:45.795407",
+      "operation": "HARVEST_SESSION_START",
+      "details": {
+        "country": "IT"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T21:37:45.797401",
+      "operation": "FETCH_INITIATED",
+      "details": {
+        "url": "https://www.esteri.it",
+        "country": "IT"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T21:37:48.317868",
+      "operation": "FETCH_COMPLETED",
+      "details": {
+        "url": "https://www.esteri.it",
+        "status_code": 200,
+        "content_length": 118033,
+        "content_hash": "b655742cba430f8ae754de8c62b98dd7a5a1e0f47d675fbaf8b52e9673435da6",
+        "raw_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_comprehensive_master\\raw_verified\\IT_www_esteri_it_20250927_213748_b655742c.html"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T21:37:48.319985",
+      "operation": "EXTRACTION_INITIATED",
+      "details": {
+        "url": "https://www.esteri.it",
+        "country": "IT"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T21:37:48.361495",
+      "operation": "EXTRACTION_COMPLETED",
+      "details": {
+        "url": "https://www.esteri.it",
+        "title_found": true,
+        "confidence": "low",
+        "agreement_indicators": 0
+      }
+    },
+    {
+      "timestamp": "2025-09-27T21:37:50.366131",
+      "operation": "FETCH_INITIATED",
+      "details": {
+        "url": "https://ambpechino.esteri.it",
+        "country": "IT"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T21:37:50.653526",
+      "operation": "FETCH_FAILED",
+      "details": {
+        "url": "https://ambpechino.esteri.it",
+        "error": "HTTPSConnectionPool(host='ambpechino.esteri.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))"
+      }
+    }
+  ],
+  "verification_status": "ALL_DATA_REQUIRES_MANUAL_VERIFICATION",
+  "fabrication_risk": "ZERO_FABRICATION_PROTOCOL_ENFORCED",
+  "usage_warning": "DO NOT USE WITHOUT MANUAL VERIFICATION OF SOURCE DOCUMENTS"
+}

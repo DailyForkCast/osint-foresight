@@ -1,0 +1,90 @@
+{
+  "name": "China Aerospace Studies Institute (CASI)",
+  "base_url": "https://www.airuniversity.af.edu/CASI/",
+  "type": "US Government/Military",
+  "specialization": "China aerospace, military, PLA research",
+  "investigation_date": "2025-09-19T19:52:28.055017",
+  "china_content_confirmed": true,
+  "working_paths": [
+    {
+      "path": "/CASI/",
+      "description": "CASI Homepage",
+      "china_mentions": 505,
+      "title": "China Aerospace Studies Institute"
+    },
+    {
+      "path": "/CASI/Publications/",
+      "description": "CASI Publications",
+      "china_mentions": 378,
+      "title": "CASI Publications"
+    },
+    {
+      "path": "/CASI/Research/",
+      "description": "CASI Research",
+      "china_mentions": 505,
+      "title": "China Aerospace Studies Institute"
+    },
+    {
+      "path": "/CASI/About/",
+      "description": "CASI About",
+      "china_mentions": 507,
+      "title": "China Aerospace Studies Institute"
+    },
+    {
+      "path": "/CASI/Display/Article/",
+      "description": "CASI Articles",
+      "china_mentions": 76,
+      "title": "China Aerospace Studies Institute"
+    },
+    {
+      "path": "/CASI/Books/",
+      "description": "CASI Books",
+      "china_mentions": 505,
+      "title": "China Aerospace Studies Institute"
+    },
+    {
+      "path": "/CASI/Reports/",
+      "description": "CASI Reports",
+      "china_mentions": 505,
+      "title": "China Aerospace Studies Institute"
+    },
+    {
+      "path": "/CASI/Translations/",
+      "description": "CASI Translations",
+      "china_mentions": 505,
+      "title": "China Aerospace Studies Institute"
+    },
+    {
+      "path": "/CASI/Analysis/",
+      "description": "CASI Analysis",
+      "china_mentions": 504,
+      "title": "China Aerospace Studies Institute"
+    },
+    {
+      "path": "/CASI/PLA/",
+      "description": "PLA Research",
+      "china_mentions": 505,
+      "title": "China Aerospace Studies Institute"
+    },
+    {
+      "path": "/CASI/China/",
+      "description": "China Focus",
+      "china_mentions": 506,
+      "title": "China Aerospace Studies Institute"
+    },
+    {
+      "path": "/CASI/Space/",
+      "description": "Space Research",
+      "china_mentions": 117,
+      "title": "China Aerospace Studies Institute Space Research"
+    },
+    {
+      "path": "/Wild-Blue-Yonder/CASI/",
+      "description": "Wild Blue Yonder CASI",
+      "china_mentions": 144,
+      "title": "Wild Blue Yonder"
+    }
+  ],
+  "priority": "HIGH",
+  "notes": "US Air Force dedicated China research institute"
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0001743745",
+  "ticker": "GNLN",
+  "name": "Greenlane Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5099",
+  "sicDescription": "Wholesale-Durable Goods, NEC",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "830806637",
+  "phone": "877-292-7660",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "4800 N FEDERAL HWY, SUITE B200",
+      "street2": null,
+      "city": "BOCA RATON",
+      "stateOrCountry": "FL",
+      "zipCode": "33431",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "4800 N FEDERAL HWY, SUITE B200",
+      "street2": null,
+      "city": "BOCA RATON",
+      "stateOrCountry": "FL",
+      "zipCode": "33431",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-05"
+  },
+  "filings_count": 492
+}

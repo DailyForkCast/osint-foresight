@@ -1,0 +1,11 @@
+{
+  "execution_time": 395.001292,
+  "completed_at": "2025-09-25T18:13:40.252677",
+  "results": {
+    "PostgreSQL": "Scripts ready - run install_postgresql.bat",
+    "Overnight": "Run START_OVERNIGHT_DECOMPRESSION.bat before bed",
+    "TSV_Stream": "Processed 20 chunks",
+    "JSON_Expand": "Processed 2M lines, 1799 China patterns",
+    "TED_Fix": "Extracted 12041 TED XML files"
+  }
+}

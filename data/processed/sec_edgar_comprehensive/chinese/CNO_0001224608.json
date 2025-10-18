@@ -1,0 +1,48 @@
+{
+  "cik": "0001224608",
+  "ticker": "CNO",
+  "name": "CNO Financial Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm",
+    "vie_structure"
+  ],
+  "sic": "6321",
+  "sicDescription": "Accident & Health Insurance",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "753108137",
+  "phone": "3178176100",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "11299 ILLINOIS STREET, SUITE 200",
+      "street2": null,
+      "city": "CARMEL",
+      "stateOrCountry": "IN",
+      "zipCode": "46032",
+      "stateOrCountryDescription": "IN",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "11299 ILLINOIS STREET, SUITE 200",
+      "street2": null,
+      "city": "CARMEL",
+      "stateOrCountry": "IN",
+      "zipCode": "46032",
+      "stateOrCountryDescription": "IN",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-10"
+  },
+  "filings_count": 1000
+}

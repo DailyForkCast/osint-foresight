@@ -1,0 +1,47 @@
+{
+  "cik": "0000811156",
+  "ticker": "CMSC",
+  "name": "CMS ENERGY CORP",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "4931",
+  "sicDescription": "Electric & Other Services Combined",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "MI",
+  "ein": "382726431",
+  "phone": "5177880550",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ONE ENERGY PLAZA",
+      "street2": null,
+      "city": "JACKSON",
+      "stateOrCountry": "MI",
+      "zipCode": "49201",
+      "stateOrCountryDescription": "MI",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "ONE ENERGY PLAZA",
+      "street2": null,
+      "city": "JACKSON",
+      "stateOrCountry": "MI",
+      "zipCode": "49201",
+      "stateOrCountryDescription": "MI",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-07-31"
+  },
+  "filings_count": 1000
+}

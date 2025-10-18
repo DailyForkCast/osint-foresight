@@ -1,0 +1,47 @@
+{
+  "cik": "0000913760",
+  "ticker": "SNEX",
+  "name": "StoneX Group Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6200",
+  "sicDescription": "Security & Commodity Brokers, Dealers, Exchanges & Services",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "592921318",
+  "phone": "212-485-3500",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "230 PARK AVE",
+      "street2": "10TH FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10169",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "230 PARK AVE",
+      "street2": "10TH FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10169",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-29"
+  },
+  "filings_count": 1000
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "country": "JP",
+    "patent": {
+      "publication_number": "WO-2018201470-A1",
+      "family_id": "64016353",
+      "title": "Time index indication method, timing acquisition method and device therefor, and communication system",
+      "abstract": "La pr\u00e9sente invention concerne un proc\u00e9d\u00e9 d&#39;indication d&#39;un indice temporel d&#39;un bloc de signal de synchronisation, un proc\u00e9d\u00e9 d&#39;acquisition de temporisation et un dispositif associ\u00e9, et un syst\u00e8me de communication. Le proc\u00e9d\u00e9 d&#39;indication d&#39;un indice temporel d&#39;un bloc de signal de synchronisation consiste : \u00e0 utiliser un nouveau signal de r\u00e9f\u00e9rence de d\u00e9modulation de canal de diffusion physique radio (NR-PBCH DMRS) dans une largeur de bande de signal de synchronisation afin d&#39;indiquer un indice temporel d&#39;un bloc de signal de synchronisation (bloc SS), le bloc de signal de synchronisation comprenant un signal de synchronisation primaire et un signal de synchronisation secondaire et un canal de diffusion physique. Au moyen du proc\u00e9d\u00e9 pour indiquer un indice temporel d&#39;un bloc de signal de synchronisation dans le mode de r\u00e9alisation, un dispositif terminal peut obtenir des informations de temporisation requises.",
+      "filing_date": "20170505",
+      "publication_date": "20181108",
+      "technology_categories": [
+        "nuclear"
+      ],
+      "risk_level": "CRITICAL",
+      "verification": {
+        "source": "Google BigQuery patents-public-data",
+        "query_timestamp": "2025-09-21T10:34:33.203932",
+        "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'JP'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+      }
+    }
+  }
+]

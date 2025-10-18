@@ -1,0 +1,44 @@
+{
+  "cik": "0001410384",
+  "ticker": "QTWO",
+  "name": "Q2 Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7372",
+  "sicDescription": "Services-Prepackaged Software",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "202706637",
+  "phone": "1-833-444-3469",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "10355 PECAN PARK BOULEVARD",
+      "street2": null,
+      "city": "Austin",
+      "stateOrCountry": "TX",
+      "zipCode": "78729",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "10355 PECAN PARK BOULEVARD",
+      "street2": null,
+      "city": "Austin",
+      "stateOrCountry": "TX",
+      "zipCode": "78729",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1000
+}

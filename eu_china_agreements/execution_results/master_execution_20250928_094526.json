@@ -1,0 +1,46 @@
+{
+  "execution_time": "2025-09-28T09:45:26.940056",
+  "search_method": "Common Crawl Index API Direct",
+  "crawls_searched": [
+    "CC-MAIN-2025-38"
+  ],
+  "statistics": {
+    "sister_cities_results": 0,
+    "university_results": 0,
+    "total_results": 0
+  },
+  "detailed_results": {
+    "sister_cities": {
+      "search_type": "targeted_sister_cities",
+      "timestamp": "2025-09-28T09:45:02.262160",
+      "partnerships_searched": [
+        "Hamburg-Shanghai",
+        "Milan-Shanghai",
+        "Lyon-Canton",
+        "Birmingham-Guangzhou"
+      ],
+      "total_results": 0,
+      "results": [],
+      "data_source": "Common Crawl Index API",
+      "fabrication_risk": "ZERO",
+      "all_results_require_verification": true
+    },
+    "universities": {
+      "search_type": "targeted_universities",
+      "timestamp": "2025-09-28T09:45:26.934052",
+      "partnerships_searched": [
+        "Cambridge-China",
+        "Sorbonne-China",
+        "TU-Munich-China"
+      ],
+      "total_results": 0,
+      "results": []
+    }
+  },
+  "data_attribution": {
+    "source": "Common Crawl Foundation",
+    "terms": "https://commoncrawl.org/terms-of-use/",
+    "citation_required": true
+  },
+  "verification_required": true
+}

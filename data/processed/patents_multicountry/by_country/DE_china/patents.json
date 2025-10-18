@@ -1,0 +1,852 @@
+[
+  {
+    "publication_number": "DE-202017103916-U1",
+    "family_id": "59885971",
+    "title": "Fahrzeug mit Unterfahrschutz",
+    "abstract": "Fahrzeug, insbesondere Nutzfahrzeug, mit einer Fahrgestellrahmenkonstruktion (10), welche eine Auflagefl\u00e4che (A) definiert und welche einen heckseitigen Abschlussquertr\u00e4ger (14) aufweist, und einem Unterfahrschutz (16) mit einem an dem heckseitigen Abschlussquertr\u00e4ger (14) der Fahrgestellrahmenkonstruktion (10) verschwenkbar gelagerten Schwenkarm (18), welcher um eine zumindest ann\u00e4hernd parallel zu dem Abschlussquertr\u00e4ger (14) ausgerichtete und innerhalb des Abschlussquertr\u00e4gers (14) verlaufende Schwenkachse (S) zwischen einer eingeschwenkten Stellung und einer ausgeschwenkten Stellung verschwenkbar ist und an welchem ein zumindest ann\u00e4hernd parallel zu dem Abschlussquertr\u00e4ger (14) verlaufender Prallbalken (32) angebracht ist.",
+    "filing_date": "20170630",
+    "publication_date": "20170828",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.603385",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2019219184-A1",
+    "family_id": "62235936",
+    "title": "Receiving device and transmitting device for tcp communication",
+    "abstract": "La pr\u00e9sente invention concerne d&#39;une mani\u00e8re g\u00e9n\u00e9rale un protocole de commande de transmission (TCP) et un moteur de d\u00e9lestage TCP (TOE). En particulier, l&#39;invention concerne un dispositif de r\u00e9ception et un dispositif de transmission pour des communications TCP. Le dispositif de transmission est configur\u00e9 pour ins\u00e9rer un identifiant dans un segment TCP qu&#39;il envoie au dispositif de r\u00e9ception. Le dispositif de r\u00e9ception est configur\u00e9 pour obtenir cet identifiant provenant du segment TCP. L&#39;identifiant comprend des informations qui permettent au dispositif de r\u00e9ception d&#39;acc\u00e9der directement \u00e0 un contexte de connexion au niveau du dispositif de r\u00e9ception, le contexte de connexion se rapportant \u00e0 une connexion entre le dispositif de transmission et le dispositif de r\u00e9ception. La pr\u00e9sente invention concerne \u00e9galement des proc\u00e9d\u00e9s correspondants, et en particulier un proc\u00e9d\u00e9 de gestion et de configuration automatiques de l&#39;identifiant entre le dispositif de transmission et le dispositif de r\u00e9ception par \u00e9change d&#39;informations de commande.",
+    "filing_date": "20180516",
+    "publication_date": "20191121",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.603385",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2025011758-A1",
+    "family_id": "87340639",
+    "title": "S\u00e9lection de composants de fourniture de service sur des r\u00e9seaux mobiles bas\u00e9e sur une politique",
+    "abstract": "Disclosed are a selection function (2) for service-providing components (3) of a mobile network (5), and method (1) of operating the same. The method (1) comprises receiving (11), from one or more service-providing components (3) of the mobile network (5), respective registration requests comprising matching criteria (A) of the respective service-providing component (3), and scoring criteria (B) of the respective service-providing component (3). The method (1) further comprises registering (12) the respective service-providing component (3) and its criteria (A, B). The method (1) further comprises sending (13), to the one or more service- providing components (3), respective registration responses. The method (1) further comprises obtaining (14) a selection policy (C) for the one or more service-providing components (3). The method (1) further comprises receiving (15), from a service-consuming component (4) of the mobile network (5), a discovery request comprising matching requirements (D) on one or more requested service-providing components (3). The method (1) further comprises selecting (16) the one or more requested service-providing components (3) in accordance with the matching requirements (D), the matching criteria (A), the scoring criteria (B), and the selection policy (C). The method (1) further comprises sending (17), to the service-consuming component (4), a discovery response being indicative of one or more selected service-providing components (3). This avoids the lack of centralized control in the selection of service-providing components (3).",
+    "filing_date": "20230711",
+    "publication_date": "20250116",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.603385",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2012175464-A1",
+    "family_id": "46507978",
+    "title": "Injection homog\u00e9n\u00e9is\u00e9e de poussi\u00e8res \u00e0 point d&#39;\u00e9tranglement fixe dans la conduite de transport des poussi\u00e8res",
+    "abstract": "The invention relates to a device for steadily feeding dusts at ambient pressure or elevated pressure, comprising a fixed throttling device in the dust conveying line connecting the fluidized bed of a metering vessel to a dust remover. Said throttling device equalizes and dampens pressure fluctuations that occur in the dust conveying line, in particular during metering vessel refilling procedures. Special embodiments relate to a further homogenization by feeding auxiliary gas into the dust conveying line.",
+    "filing_date": "20120619",
+    "publication_date": "20121227",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.604342",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2010043410-A3",
+    "family_id": "42106962",
+    "title": "Proc\u00e9d\u00e9 d&#39;interaction d&#39;informations et dispositif s\u00e9curis\u00e9",
+    "abstract": "L&#39;invention concerne un proc\u00e9d\u00e9 pour une interaction d&#39;informations et un dispositif s\u00e9curis\u00e9. Le proc\u00e9d\u00e9 comprend les \u00e9tapes consistant : \u00e0 recevoir une instruction d&#39;op\u00e9ration d&#39;un client et \u00e0 entrer les informations d&#39;op\u00e9ration selon ladite instruction d&#39;op\u00e9ration; \u00e0 d\u00e9terminer si l&#39;utilisateur client confirme les informations d&#39;op\u00e9ration, si une d\u00e9termination conduit \u00e0 un OUI, \u00e0\u00a0 crypter et \u00e0\u00a0 envoyer les informations d&#39;op\u00e9ration au client. Par l&#39;entr\u00e9e des informations d&#39;op\u00e9ration ou d&#39;un mot de passe d&#39;authentification et l&#39;envoi des informations crypt\u00e9es sur le r\u00e9seau, les informations d&#39;op\u00e9ration ou les donn\u00e9es sont maintenues s\u00e9curis\u00e9es et un pourriel ou virus ne peut en aucune fa\u00e7on attaquer les donn\u00e9es. Le dispositif s\u00e9curis\u00e9 de l&#39;invention comprend : une unit\u00e9 de r\u00e9ception, une unit\u00e9 de d\u00e9termination, une unit\u00e9 de cryptage et une unit\u00e9 d&#39;envoi. Ainsi le dispositif s\u00e9curis\u00e9 r\u00e9sout le probl\u00e8me de la n\u00e9gociation de transaction en ligne.",
+    "filing_date": "20091016",
+    "publication_date": "20101007",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.604342",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2013083675-A2",
+    "family_id": "46866171",
+    "title": "Base for a washing machine and washing machine",
+    "abstract": "L&#39;invention concerne une base (10) de lave-linge (100) qui comprend : une cuve (1) ; un tiroir (2) mont\u00e9 coulissant dans la cuve (1) et permettant de ranger le linge ; un dispositif de pesage (3) plac\u00e9 dans le tiroir (2) permettant de peser le linge et un \u00e9cran d&#39;affichage (4) mont\u00e9 sur un panneau avant (6) du tiroir (2) et connect\u00e9 \u00e9lectriquement au dispositif de pesage (3) de fa\u00e7on \u00e0 afficher le poids du linge. Une interaction entre un utilisateur et le linge a donc \u00e9t\u00e9 ainsi mise en place de sorte que l&#39;utilisateur puisse ma\u00eetriser le poids du linge \u00e0 tout moment et r\u00e9gler le temps de lavage. L&#39;invention concerne \u00e9galement un lave-linge (1200) comportant la base (10).",
+    "filing_date": "20121206",
+    "publication_date": "20130613",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.604968",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2011117849-A1",
+    "family_id": "44672503",
+    "title": "Compos\u00e9s semi-conducteurs et polym\u00e8res \u00e0 base de thi\u00e9nocoron\u00e8ne-imide",
+    "abstract": "Disclosed are new semiconductor materials prepared from thienocoronene-imide-based small molecule and/or polymeric compounds. Such compounds can exhibit high carrier mobility and/or good current modulation characteristics. In addition, the compounds of the present teachings can possess certain processing advantages such as solution-processability and/or good stability at ambient conditions.",
+    "filing_date": "20110418",
+    "publication_date": "20110929",
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "risk_level": "CRITICAL",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.606113",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2024044977-A1",
+    "family_id": "90100170",
+    "title": "Proc\u00e9d\u00e9 et appareil d&#39;adaptation pour une application d&#39;automatisation",
+    "abstract": "\u672c\u53d1\u660e\u63d0\u51fa\u4e86\u4e00\u79cd\u81ea\u52a8\u5316\u5e94\u7528\u7684\u9002\u914d\u65b9\u6cd5\uff0c\u6240\u8ff0\u65b9\u6cd5\u5305\u62ec\uff1a\u83b7\u53d6\u81ea\u52a8\u5316\u5e94\u7528\uff0c\u6240\u8ff0\u81ea\u52a8\u5316\u5e94\u7528\u5305\u62ec\u81ea\u52a8\u5316\u7cfb\u7edf\u6267\u884c\u7684\u5de5\u4f5c\u6d41\uff0c\u6240\u8ff0\u5de5\u4f5c\u6d41\u4e0d\u6d89\u53ca\u6240\u8ff0\u81ea\u52a8\u5316\u7cfb\u7edf\u4e2d\u7684\u786c\u4ef6\u8bbe\u5907\u7684\u5177\u4f53\u6a21\u578b\uff1b\u4ece\u73b0\u573a\u63a7\u5236\u5668\u4e2d\u83b7\u53d6\u6240\u8ff0\u81ea\u52a8\u5316\u7cfb\u7edf\u7684\u914d\u7f6e\u6587\u4ef6\uff0c\u5e76\u4ece\u6240\u8ff0\u914d\u7f6e\u6587\u4ef6\u4e2d\u89e3\u91ca\u51fa\u6240\u8ff0\u5de5\u4f5c\u6d41\u80fd\u591f\u8bc6\u522b\u7684\u6240\u8ff0\u81ea\u52a8\u5316\u7cfb\u7edf\u7684\u786c\u4ef6\u914d\u7f6e\u4fe1\u606f\uff1b\u6839\u636e\u786c\u4ef6\u914d\u7f6e\u4fe1\u606f\u5bf9\u6240\u8ff0\u5de5\u4f5c\u6d41\u8fdb\u884c\u5b9e\u4f8b\u5316\u3002",
+    "filing_date": "20220830",
+    "publication_date": "20240307",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.606719",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2018170614-A1",
+    "family_id": "59431502",
+    "title": "Nouvelle technique de clonage direct de grands fragments g\u00e9nomiques et ensemble multi-mol\u00e9culaire d&#39;adn",
+    "abstract": "\u4e00\u79cd\u540c\u6e90\u91cd\u7ec4\u7684\u65b9\u6cd5\uff0c\u6240\u8ff0\u65b9\u6cd5\u5305\u62ec\u4f7f\u7528\u7b2c\u4e00\u6838\u9178\u5916\u5207\u9176\u5904\u7406\u4e24\u4e2a\u6216\u4e24\u4e2a\u4ee5\u4e0a\u76ee\u6807\u6838\u9178\u5206\u5b50\uff0c\u7136\u540e\u4f7f\u5904\u7406\u540e\u7684\u76ee\u6807\u6838\u9178\u5206\u5b50\u5728\u7b2c\u4e8c\u6838\u9178\u5916\u5207\u9176\u548c\u9000\u706b\u86cb\u767d\u7684\u5b58\u5728\u4e0b\u8fdb\u884c\u540c\u6e90\u91cd\u7ec4\uff0c\u5176\u4e2d\u53d1\u751f\u540c\u6e90\u91cd\u7ec4\u7684\u76ee\u6807\u6838\u9178\u5206\u5b50\u4e4b\u95f4\u5171\u4eab\u81f3\u5c11\u4e00\u6bb5\u5e8f\u5217\u540c\u6e90\u533a\u57df\u3002\u8fd8\u63d0\u4f9b\u4e86\u7528\u4e8e\u4e0a\u8ff0\u65b9\u6cd5\u7684\u8bd5\u5242\u76d2\u3002",
+    "filing_date": "20170802",
+    "publication_date": "20180927",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.607479",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2016092451-A1",
+    "family_id": "56106803",
+    "title": "D\u00e9tecteur optique",
+    "abstract": "A method of controlling pixels (134) of at least one spatial light modulator (114) is disclosed. The spatial light modulator (114) has a matrix of pixels (132). Each pixel (134) is individually controllable. The method comprises the following steps: receiving at least one image (331),(342); defining at least one image segment (333) within the image (331),(344); assigning at least one gray scale value to each image segment (333),(348); assigning at least one pixel (134) of the matrix of pixels (132) to each image segment (333),(350); assigning a unique modulation frequency to each gray scale value assigned to the at least one image segment (333),(352); controlling the at least one pixel (134) of the matrix of pixels (132) assigned to the at least one image segment (333) with the unique modulation frequency assigned to the respective image segment (333),(354).",
+    "filing_date": "20151207",
+    "publication_date": "20160616",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.608153",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2021163935-A1",
+    "family_id": "77390364",
+    "title": "\u6784\u5efa\u77e5\u8bc6\u5e93\u7684\u65b9\u6cd5\u548c\u88c5\u7f6e\u3001\u5de5\u5382\u7cfb\u7edf\u53ca\u8ba1\u7b97\u8bbe\u5907",
+    "abstract": "\u672c\u516c\u5f00\u6d89\u53ca\u6784\u5efa\u77e5\u8bc6\u5e93\u7684\u65b9\u6cd5\u548c\u88c5\u7f6e\u3001\u5de5\u5382\u7cfb\u7edf\u53ca\u8ba1\u7b97\u8bbe\u5907\u3002\u6784\u5efa\u77e5\u8bc6\u5e93\u7684\u65b9\u6cd5\u5305\u62ec\uff1a\u57fa\u4e8e\u63a7\u5236\u5668\u4e0e\u8bbe\u5907\u4e4b\u95f4\u7684\u8fde\u63a5\u5173\u7cfb\u6784\u5efa\u7b2c\u4e00\u6a21\u578b\uff1b\u57fa\u4e8e\u63a7\u5236\u5668\u7684\u8f93\u5165\u8f93\u51fa\u7aef\u53e3\u4e0e\u63a7\u5236\u5668\u7684\u5185\u5b58\u4e4b\u95f4\u7684\u5bf9\u5e94\u5173\u7cfb\u6784\u5efa\u7b2c\u4e8c\u6a21\u578b\uff1b\u4ee5\u53ca\u57fa\u4e8e\u6240\u8ff0\u7b2c\u4e00\u6a21\u578b\u548c\u6240\u8ff0\u7b2c\u4e8c\u6a21\u578b\u6784\u5efa\u77e5\u8bc6\u5e93\uff0c\u6240\u8ff0\u77e5\u8bc6\u5e93\u5305\u62ec\u4e0e\u6240\u8ff0\u8bbe\u5907\u6709\u5173\u7684\u914d\u7f6e\u4fe1\u606f\u3002",
+    "filing_date": "20200219",
+    "publication_date": "20210826",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.608153",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2023222186-A1",
+    "family_id": "82021158",
+    "title": "Power control for wireless communication devices and methods",
+    "abstract": "Est divulgu\u00e9 un point d&#39;acc\u00e8s, AP, de partage (110) configur\u00e9 pour partager au moins une partie d&#39;une opportunit\u00e9 de transmission, TXOP, avec au moins un AP partag\u00e9 (130) dans un ensemble Multi-AP, M-AP, afin de participer \u00e0 une transmission coordonn\u00e9e, au moins une station OBSS non AP (140a-c) \u00e9tant associ\u00e9e \u00e0 l&#39;AP partag\u00e9 (130). L&#39;AP de partage (110) comprend un circuit de traitement (111) configur\u00e9 pour g\u00e9n\u00e9rer une trame de d\u00e9clenchement et une interface de communication (113) configur\u00e9e pour \u00e9mettre la trame de d\u00e9clenchement (501) vers l&#39;au moins une station OBSS non AP (140a-c) pour d\u00e9clencher une trame de compte-rendu de commande de puissance provenant de l&#39;au moins une station OBSS non AP (140a-c). L&#39;interface de communication (113) est en outre configur\u00e9e pour recevoir la trame de compte-rendu de commande de puissance provenant de l&#39;au moins une station OBSS non AP (140a-c), la trame de compte-rendu de commande de puissance comprenant des informations de commande de puissance associ\u00e9es \u00e0 l&#39;au moins une station OBSS non AP (140a-c) pour ajuster la puissance d&#39;\u00e9mission de l&#39;au moins une station OBSS non AP par l&#39;AP de partage (110).",
+    "filing_date": "20220516",
+    "publication_date": "20231123",
+    "technology_categories": [
+      "telecommunications"
+    ],
+    "risk_level": "HIGH",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.608740",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "US-2012277227-A1",
+    "family_id": "44999886",
+    "title": "Benzimidazole inhibitors of leukotriene production",
+    "abstract": "The present invention relates to compounds of formula (IA), (IB) and (IC): \n     \n       \n         \n         \n             \n             \n         \n       \n     \n     and pharmaceutically acceptable salts thereof, wherein R 1 -R 7  are as defined herein. The invention also relates to pharmaceutical compositions comprising these compounds, methods of using these compounds in the treatment of various diseases and disorders, processes for preparing these compounds and intermediates useful in these processes.",
+    "filing_date": "20111026",
+    "publication_date": "20121101",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.609452",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "DE-59605008-D1",
+    "family_id": "5102440",
+    "title": "Verfahren zum herstellen von bambus enthaltenden bauteilen, insbesondere von f\u00fcr m\u00f6bel und innenausbau verarbeitbaren bambusleimplatten, und bauteile aus bambus",
+    "abstract": "The invention relates to a method for manufacturing structural members containing bamboo, in particular bamboo bonded plates used for furniture and internal structures, and structural members made of bamboo which are produced from layer configuration, produced by this method, as per Form I and Form II and a combination thereof. In said method, relatively thin bamboo stem strips with a cross-section in the shape of circular segments and each having an outer and inner wall are sawn and/or planed, are arranged substantially parallel to each other and bonded to form at least one layer forming the structural member. The object of the invention is to develop the method so that relatively large plates which have jointless surfaces, no warp and are flat on both sides can be attained. Such plates are suitable for producing high-quality products such as furniture, ceiling panels and decorations for interior improvement and are also aesthetically attractive. The object is attained in that the individual bamboo strips are provided with tangential cut surfaces (3a, 5a) substantially in the plane of the outer and the inner wall, and bending stress occurs which forms in each bamboo strip oriented in each case towards the tangential cut surfaces thereof associated with the inner wall. The bamboo strips are each oriented alternately with respect to the bending stresses in each bamboo strip and bonded parallel to each other in such a manner that the bending stresses of adjacent bamboo strips respectively compensate for each other and at least one flat layer (2) is formed.",
+    "filing_date": "19961129",
+    "publication_date": "20000525",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.609452",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2020077526-A1",
+    "family_id": "70282916",
+    "title": "Method for cross-platform model transformation",
+    "abstract": "La pr\u00e9sente invention concerne un proc\u00e9d\u00e9 de transformation de mod\u00e8le. Le proc\u00e9d\u00e9 comprend l&#39;identification d&#39;un type de mod\u00e8le d&#39;un premier mod\u00e8le sur la base d&#39;un message de demande de connexion comprenant des informations de mod\u00e8le associ\u00e9es au premier mod\u00e8le; l&#39;analyse du message de demande de connexion sur la base d&#39;une structure de mod\u00e8le d&#39;un second mod\u00e8le pour d\u00e9terminer des informations d&#39;entit\u00e9 de mod\u00e8le du premier mod\u00e8le, l&#39;analyse \u00e9tant activ\u00e9e sur la base du type de mod\u00e8le du premier mod\u00e8le; et la g\u00e9n\u00e9ration d&#39;un fichier de mod\u00e8le transform\u00e9 du premier mod\u00e8le sur la base de la structure de mod\u00e8le du second mod\u00e8le. En appliquant la solution technique de la pr\u00e9sente invention, de multiples mod\u00e8les de plateforme peuvent \u00eatre transform\u00e9s en un mod\u00e8le unifi\u00e9.",
+    "filing_date": "20181016",
+    "publication_date": "20200423",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.610142",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "KR-20220024016-A",
+    "family_id": "70977524",
+    "title": "\ub808\uc774\uc800 \uc18c\uacb0\uc6a9 \ubd84\ub9d0 \ubc0f \uadf8\uc758 \uc6a9\ub3c4",
+    "abstract": "\ubcf8 \ubc1c\uba85\uc740 \ub808\uc774\uc800\uc758 \ubcf5\uc0ac \uc5d0\ub108\uc9c0\uc758 \uacb0\ud569\uc744 \ud5a5\uc0c1\uc2dc\ud0a4\ub294 \uac83\uc744 \uac00\ub2a5\ud558\uac8c \ud558\ub294 \ub808\uc774\uc800 \uc18c\uacb0\uc6a9 \ud45c\uba74 \uac1c\uc9c8 \ubd84\ub9d0\uc5d0 \uad00\ud55c \uac83\uc774\ub2e4. \ud2b9\ud788 \ub808\uc774\uc800 \ubcf5\uc0ac\uc5d0 \ub300\ud574 \ub0ae\uc740 \ud761\uc218\ub3c4\ub97c \uac16\ub294 \ubb3c\uc9c8\uc758 \ub808\uc774\uc800 \uc18c\uacb0\uc5d0\uc11c \ubb38\uc81c\uac00 \ubc1c\uc0dd\ud558\ub294 \uac83\uc744 \ubc29\uc9c0\ud560 \uc218 \uc788\ub294 \ubd84\ub9d0\uc744 \uc81c\uc548\ud55c\ub2e4. \uc0c1\uae30 \ud45c\uba74 \uac1c\uc9c8 \ubd84\ub9d0\uc740 \uc785\uc790 \ucf54\uc5b4 \ubc0f \uac01 \uc785\uc790 \ucf54\uc5b4\uc758 \ud45c\uba74\uc5d0 \uacb0\ud569\ub41c \ub808\uc774\uc800 \ud761\uc218\uccb4\ub97c \uac16\uace0, \uc0c1\uae30 \ub808\uc774\uc800 \ud761\uc218\uccb4\ub294 \uac01 \uc785\uc790 \ucf54\uc5b4\uc758 \ud45c\uba74\uc758 \ucd5c\uc18c 30%\ub97c \ucc28\uc9c0\ud558\uace0 \uadf8\ub9ac\uace0 \uc785\uc790 \ucf54\uc5b4\uc5d0 \ube44\ud574 \ub808\uc774\uc800 \uc18c\uacb0\uc744 \uc704\ud55c \ub808\uc774\uc800 \ubcf5\uc0ac\uc5d0 \ub300\ud574 \ub354 \ub192\uc740 \ud761\uc218\ub3c4\ub97c \uac16\ub294\ub2e4.",
+    "filing_date": "20200603",
+    "publication_date": "20220303",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.611205",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2016162058-A1",
+    "family_id": "52807819",
+    "title": "Appareil et proc\u00e9d\u00e9 permettant d&#39;attaquer un r\u00e9seau de haut-parleurs",
+    "abstract": "L&#39;invention concerne un appareil de synth\u00e8se de champ d&#39;onde locale (200) pour attaquer un r\u00e9seau de haut-parleurs avec des signaux d&#39;attaque afin de g\u00e9n\u00e9rer un ou plusieurs champs d&#39;onde locale au niveau d&#39;une ou de plusieurs zones audio. L&#39;appareil comprend un module de d\u00e9termination (40, 210) pour d\u00e9terminer des pressions sonores souhait\u00e9es et des vecteurs de vitesse de particule souhait\u00e9s au niveau d&#39;une pluralit\u00e9 de points de commande, un module de calcul (60, 212) pour calculer des pressions sonores et des vecteurs de vitesse de particule au niveau de la pluralit\u00e9 de points de commande sur la base d&#39;un ensemble de param\u00e8tres de filtre, un module d&#39;optimisation (220) pour calculer un ensemble optimal de param\u00e8tres de filtre par l&#39;optimisation conjointe des pressions sonores calcul\u00e9es vers les pressions sonores souhait\u00e9es et des vecteurs de vitesse de particule calcul\u00e9s vers les vecteurs de vitesse de particule souhait\u00e9s, et un module g\u00e9n\u00e9rateur (220) pour g\u00e9n\u00e9rer les signaux d&#39;attaque sur la base de l&#39;ensemble optimal de param\u00e8tres de filtre, la pluralit\u00e9 de points de commande \u00e9tant situ\u00e9e sur un ou plusieurs contours autour de la ou des zones audio.",
+    "filing_date": "20150408",
+    "publication_date": "20161013",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.611205",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2023165703-A1",
+    "family_id": "80953558",
+    "title": "Device and method for signal processing in digital multiband coherent optical system",
+    "abstract": "The present disclosure relates to optical transmission systems, and in particular to DMB transmission systems. The disclosure proposes a transmitting device for processing a sideband signal of a multiband signal in an optical transmission system, wherein the sideband signal comprises a plurality of samples, each sample comprising an I-component and a Q-component, the transmitting device being configured to: shape the sideband signal by pre-coding the sideband signal to obtain a shaped sideband signal, upsample the shaped sideband signal by using a pulse shaping filter to obtain an upsampled sideband signal, shift Q-components of samples of the upsampled sideband signal by a half UI time offset, and transmit the shifted sideband signal to a receiving device via a channel. The disclosure also proposes a receiving device being configured to receive an input sideband signal from a transmitting device over a channel.",
+    "filing_date": "20220303",
+    "publication_date": "20230907",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.611205",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2024032901-A1",
+    "family_id": "83229070",
+    "title": "Syst\u00e8me de cam\u00e9ra lidar",
+    "abstract": "It is provided a method of spatially calibrating a LIDAR device with respect to at least one camera device based on one or more simulated LIDAR point clouds. The method comprises the steps of capturing by the at least one camera device at least one image of an environmentof the at least one camera device and obtaining a point cloud for the environment by the LIDAR device. The method, furthermore, comprises inputting data based on the at least one captured image into a neural network, outputting by the neural network a neural network representation of the environment of the at least one camera based on the input data, obtaining a first simulated LIDAR point cloud based on the neural network representation and calibrating the LIDAR device by matching of the point cloud obtained by the LIDAR device and the first simulated LIDAR point cloud.",
+    "filing_date": "20220812",
+    "publication_date": "20240215",
+    "technology_categories": [
+      "artificial_intelligence"
+    ],
+    "risk_level": "CRITICAL",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.612204",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "DE-202020106713-U1",
+    "family_id": "72960540",
+    "title": "Gelenk eines modularen Roboters und zugeh\u00f6rige Drehmomentsensor-Befestigungsstruktur",
+    "abstract": "Gelenk f\u00fcr einen modularen Roboter, das einen Ausgangsabschnitt (A), einen Motorabschnitt (B), einen Bremsabschnitt (C) und eine Hohlwelle (18) umfasst, wobei der Ausgangsabschnitt (A) ein Ausgangsgeh\u00e4use (5), einen Ausgangsflansch (1) und ein harmonisches Untersetzungsgetriebe umfasst, wobei der Motorabschnitt (B) ein Motorgeh\u00e4use (7), einen Motor-Stator (8) einen Motor-Rotor (9) und eine Motorwelle (10) umfasst, wobei die Hohlwelle (18) am Ausgangsflansch (1) befestigt ist und die Motorwelle (10) \u00fcber das harmonische Untersetzungsgetriebe ein Drehmoment an den Ausgangsflansch (1) abgibt, und das Gelenk des modularen Roboters weiterhin einen Drehmomentsensor (6) umfasst, der dazu dient, das Ausgangsdrehmoment des Gelenks zu ermitteln, dadurch gekennzeichnet, dass\n der Drehmomentsensor (6) zwischen dem Ausgangsabschnitt (A) und dem Motorabschnitt (B) befestigt ist, wobei der Au\u00dfenring des Drehmomentsensors (6) zwischen dem Ausgangsgeh\u00e4use (5) und dem Motorgeh\u00e4use (7), und der Innenring des Drehmomentsensors (6) an dem flexiblen Rad (21) des harmonischen Untersetzungsgetriebes befestigt ist,\n ein Reibungs-Strukturelement (28) zwischen dem Drehmomentsensor (6) und einer Komponente vorgesehen ist, an welcher der Drehmomentsensor (6) befestigt ist, wobei das Reibungs-Strukturelement (28) dazu dient, einen Schlupf zwischen dem Drehmomentsensor (6) und der Komponente zu verhindern, an welcher der Drehmomentsensor (6) befestigt ist.",
+    "filing_date": "20201123",
+    "publication_date": "20201204",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.612204",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2021214597-A1",
+    "family_id": "78223046",
+    "title": "Deep packet analysis",
+    "abstract": "L&#39;invention concerne un proc\u00e9d\u00e9 mis en \u0153uvre par ordinateur pour prot\u00e9ger un environnement de traitement contre un trafic de r\u00e9seau entrant malveillant. Le proc\u00e9d\u00e9 consiste : en r\u00e9ponse \u00e0 la r\u00e9ception d&#39;un trafic de r\u00e9seau entrant comprenant un paquet de donn\u00e9es, \u00e0 r\u00e9aliser une analyse de paquets et de trafic du paquet de donn\u00e9es pour d\u00e9terminer si ledit paquet de donn\u00e9es est non malveillant et malveillant, et \u00e0 traiter le paquet de donn\u00e9es dans un environnement de bac \u00e0 sable. En outre, le proc\u00e9d\u00e9 consiste : en r\u00e9ponse \u00e0 la d\u00e9tection du fait que le paquet de donn\u00e9es est non malveillant sur la base de l&#39;analyse de paquets et de trafic, \u00e0 lib\u00e9rer le paquet de donn\u00e9es trait\u00e9 de l&#39;environnement de bac \u00e0 sable pour un traitement ult\u00e9rieur dans l&#39;environnement de traitement, et, en r\u00e9ponse \u00e0 la d\u00e9tection du fait que le paquet de donn\u00e9es est malveillant sur la base de l&#39;analyse de paquets et de trafic, \u00e0 \u00e9liminer le paquet de donn\u00e9es.",
+    "filing_date": "20210413",
+    "publication_date": "20211028",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.613203",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "US-2018003279-A1",
+    "family_id": "56615544",
+    "title": "Turbine piston",
+    "abstract": "A torque converter includes a cover assembly, an impeller assembly, a turbine assembly and a damper assembly. The impeller assembly includes an impeller shell drivingly connected with the cover assembly. The turbine assembly includes a shell with a clutch portion for selective driving engagement with the impeller shell. The damper assembly includes at least one cover plate, a flange for driving engagement with a transmission input shaft, and a first resilient element drivingly engaged with the at least one cover plate and the flange. The torque converter has a second resilient element for urging the turbine assembly away from the cover assembly.",
+    "filing_date": "20160114",
+    "publication_date": "20180104",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.613203",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2013127546-A1",
+    "family_id": "47553051",
+    "title": "Pompe \u00e0 haute pression",
+    "abstract": "L&#39;invention concerne une pompe \u00e0 haute pression pour un syst\u00e8me d&#39;injection de carburant, comprenant au moins un \u00e9l\u00e9ment de pompe (1) muni d&#39;un piston de pompe (2) pouvant effectuer un mouvement alternatif et d&#39;un arbre d&#39;entra\u00eenement (3) par le biais duquel le piston de pompe (2) peut \u00eatre entra\u00een\u00e9 selon un mouvement alternatif. Le piston de pompe (2) s&#39;appuie indirectement sur une came (7) de l&#39;arbre d&#39;entra\u00eenement (3) par le biais d&#39;un sous-ensemble coulisseau (4), comprenant un corps de coulisseau (5) dans lequel est log\u00e9 un galet de roulement (6) support\u00e9 en rotation. Conform\u00e9ment \u00e0 l&#39;invention, le galet de roulement (6) se trouve sur au moins 2/3 de sa longueur (a) en contact avec la came (7) et sur un maximum de 1/3 de sa longueur (a) en contact avec un palier lisse (8) destin\u00e9 \u00e0 supporter en rotation le galet de roulement (6).",
+    "filing_date": "20130107",
+    "publication_date": "20130906",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.614206",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2013054239-A2",
+    "family_id": "47192040",
+    "title": "Cooling appliance and operation method thereof",
+    "abstract": "La pr\u00e9sente invention porte sur un appareil de refroidissement et sur son proc\u00e9d\u00e9 de fonctionnement. L&#39;appareil de refroidissement comprend de multiples chambres de stockage thermiquement isol\u00e9es (2, 3, 4), un syst\u00e8me de refroidissement (5) pour refroidir ces chambres de stockage (2, 3, 4) et une unit\u00e9 d&#39;indication (20). Selon la proposition de la pr\u00e9sente invention, l&#39;unit\u00e9 d&#39;indication (20) est \u00e9tablie de fa\u00e7on \u00e0 \u00eatre apte \u00e0 afficher une information concernant celles des chambres de stockage (2, 3, 4) qui est/qui sont refroidies par le syst\u00e8me de refroidissement (5).",
+    "filing_date": "20121004",
+    "publication_date": "20130418",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.614206",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2015120603-A1",
+    "family_id": "53798310",
+    "title": "Database calculation using parallel-computation in directed acyclic graph",
+    "abstract": "Disclosed herein are technologies related to database calculation that utilizes parallel-computation of tasks in a directed acyclic graph. In accordance with one aspect, dependency of tasks is converted into a directed acyclic graph that topologically orders the tasks into layers of tasks. A database calculation may be performed, wherein the database calculation computes in parallel the tasks in each layer of the layers of tasks.",
+    "filing_date": "20140213",
+    "publication_date": "20150820",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.614206",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2023039756-A1",
+    "family_id": "85602237",
+    "title": "Dispositif d&#39;int\u00e9gration de donn\u00e9es industrielles, proc\u00e9d\u00e9 et support de stockage lisible par ordinateur",
+    "abstract": "An industrial data integration device, method and computer-readable storage medium are disclosed. The industrial data integration device includes: a first interaction module for interacting with a first industrial field device based on a non-standard protocol; a life cycle management module for managing the life cycle of the first interaction module; a service discovery module for discovering a first service provided by the first interaction module, wherein the first service is related to the interaction between the first interaction module and the first industrial field device. The device, method and computer-readable storage medium can provide services related to industrial field device using non-standardized interface protocols, have the advantages of high scalability, high security, cost-effective and high flexibility.",
+    "filing_date": "20210915",
+    "publication_date": "20230323",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.614206",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2023138776-A1",
+    "family_id": "80684114",
+    "title": "Appareil et proc\u00e9d\u00e9 d&#39;apprentissage distribu\u00e9 pour r\u00e9seaux de communication",
+    "abstract": "A node (201) for a communications network (200) configured to communicate with one or more other nodes (202, 203) in the network and to implement one or more policies for multiple devices (204, 205, 206) in the network which are associated with the node and being configured to: implement (401) a first policy for the multiple devices; determine (402) a local reward or cost for the multiple devices; receive (403) a respective message from each of the one or more other nodes (202, 203) in the network (200) indicating corresponding local rewards or costs of devices (207, 208, 209, 210) associated with each of the other nodes (202, 203); in dependence on the message(s), determine (404) a global reward or cost for the network (200); and update (405) the first policy in dependence on the global reward or cost. This may enable decentralized resource allocation or scheduling in networks.",
+    "filing_date": "20220121",
+    "publication_date": "20230727",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.614206",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2019201459-A1",
+    "family_id": "62028006",
+    "title": "Dispositif de transmission et dispositif de r\u00e9ception pour communications sans fil",
+    "abstract": "The present invention presents a transmitting device and receiving device for wireless communications, particularly for V2X or CITS communications. The transmitting device is configured to determine more than one transmission for transmitting a packet, and transmit the packet to a receiving device and/or a group of receiving devices using the determined transmissions. The receiving device is configured to receive a packet in more than one transmission from a transmitting device, and combine the transmissions to obtain the packet. The invention relates also to corresponding transmitting and receiving methods.",
+    "filing_date": "20180925",
+    "publication_date": "20191024",
+    "technology_categories": [
+      "telecommunications"
+    ],
+    "risk_level": "HIGH",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.615213",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2012011020-A3",
+    "family_id": "45497224",
+    "title": "Compositions aqueuses alcalines de nettoyage et leurs proc\u00e9d\u00e9s d&#39;utilisation",
+    "abstract": "Aqueous alkaline cleaning composition free from organic solvents and metal ion-free silicates, the said compositions comprising (A) a thioamino acid having at least one primary amino group and at least one mercapto group, (B) a quaternary ammonium hydroxide, (C) a chelating and/or corrosion inhibiting agent selected from the group consisting of aliphatic and cycloaliphatic amines having at least two primary amino groups, and aliphatic and cycloaliphatic amines having at least one hydroxy group, (D) a nonionic surfactant selected from the group of acetylenic alcohols, alkyloxylated acetylenic alcohols and alkyloxylated sorbitan monocarboxylic acid mono esters; the use of the alkaline cleaning composition for the processing of substrates useful for fabricating electrical and optical devices; and a method for processing substrates useful for fabricating electrical and optical devices making use of the said aqueous alkaline cleaning composition.",
+    "filing_date": "20110712",
+    "publication_date": "20120315",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.616200",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "US-2015294824-A1",
+    "family_id": "48667646",
+    "title": "Contactor",
+    "abstract": "A contactor includes a contact portion and an actuation portion. The contactor further includes a keeping portion. The keeping portion includes a capacitor structure and uses an electrostatic force between opposite plates of the capacitor structure to keep the contact portion in a contact state or a disconnection state. The electrostatic force generated by an electrostatic latch is used to keep the contactor in a switched-to static state. The contactor has reduced energy consumption in the static state, is convenient to manufacture, and has a low cost.",
+    "filing_date": "20111221",
+    "publication_date": "20151015",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.616200",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2011039189-A1",
+    "family_id": "43296941",
+    "title": "Syst\u00e8me de tomographie par ordinateur \u00e0 sources multiples",
+    "abstract": "In multi-source CT systems, the X-ray tubes used in different imaging procedures are often each operated at their technical limit. It is therefore proposed that different X-ray tubes (2, 4) optimized for different imaging procedures be used simultaneously in a multi-source CT system (1).",
+    "filing_date": "20100928",
+    "publication_date": "20110407",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.617250",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2018141358-A1",
+    "family_id": "57965915",
+    "title": "Processing device, communication device and methods thereof",
+    "abstract": "The invention relates to a processing device (100) comprising a buffer (102) coupled to a system bus (104), a ciphering device (106) coupled to the system bus (104), and a memory (108) coupled to the ciphering device (106). The processing device (100) is configured to operate in at least one of a deciphering mode and a ciphering mode. When the processing device (100) is configured to operate in the deciphering mode, the ciphering device (106) is configured to receive a ciphered data unit directly from the buffer (102) over the system bus (104), decipher the ciphered data unit so as to obtain a deciphered data unit, and transfer the deciphered data unit to the memory (108). When the processing device (100) is configured to operate in the ciphering mode, the ciphering device (106) is configured to receive a data unit from the memory (108), cipher the data unit so as to obtain a ciphered data unit, and transfer the ciphered data unit directly to the buffer (102) over the system bus (104). Furthermore, the invention also relates to corresponding methods, a computer program, and a computer program product.",
+    "filing_date": "20170131",
+    "publication_date": "20180809",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.617250",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2021204365-A1",
+    "family_id": "70228050",
+    "title": "Dispositif et proc\u00e9d\u00e9 permettant de surveiller des r\u00e9seaux de communication",
+    "abstract": "La pr\u00e9sente divulgation concerne un dispositif permettant la surveillance d&#39;un r\u00e9seau de communication. Le dispositif obtient un ensemble de donn\u00e9es issu d&#39;une pluralit\u00e9 de sources de donn\u00e9es dans le r\u00e9seau de communication. L&#39;ensemble de donn\u00e9es obtenu comprend une pluralit\u00e9 d&#39;entit\u00e9s, ainsi que des relations qui existent entre certaines ou l&#39;ensemble des entit\u00e9s parmi la pluralit\u00e9 d&#39;entit\u00e9s. En outre, le dispositif obtient un mod\u00e8le form\u00e9. Le mod\u00e8le form\u00e9 comprend des informations concernant la pluralit\u00e9 d&#39;entit\u00e9s et leurs relations. De plus, le dispositif transforme l&#39;ensemble de donn\u00e9es en fonction du mod\u00e8le form\u00e9 et obtient un ensemble de donn\u00e9es transform\u00e9. L&#39;ensemble de donn\u00e9es transform\u00e9 comprend une repr\u00e9sentation en espace vectoriel de chaque entit\u00e9 parmi la pluralit\u00e9 d&#39;entit\u00e9s. Dans l&#39;ensemble de donn\u00e9es transform\u00e9, les repr\u00e9sentations en espace vectoriel d&#39;entit\u00e9s associ\u00e9es les unes aux autres sont, dans l&#39;espace vectoriel, plus proches les unes des autres que les repr\u00e9sentations en espace vectoriel d&#39;entit\u00e9s qui ne sont pas associ\u00e9es les unes aux autres.",
+    "filing_date": "20200407",
+    "publication_date": "20211014",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.617250",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "US-2014054101-A1",
+    "family_id": "50147023",
+    "title": "Muffler assembly with siphon tube",
+    "abstract": "A muffler assembly for a vehicle includes a housing at least partially defining an internal cavity and having an inlet and an outlet. The muffler assembly includes an outlet pipe that has an inlet end open to the internal cavity and an outlet end open at the outlet of the housing. A siphon tube is in the internal cavity and has an inlet opening adjacent an inner surface of the housing and an outlet opening in fluid communication with the outlet pipe between the inlet end and the outlet end of the outlet pipe. The siphon tube is configured to remove condensate from the internal cavity when a predetermined pressure differential is established between the inlet opening and the outlet opening.",
+    "filing_date": "20120822",
+    "publication_date": "20140227",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.618249",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2016116143-A1",
+    "family_id": "52391971",
+    "title": "Acc\u00e8s multiclient efficace utilisant une fen\u00eatre de contention dynamique",
+    "abstract": "Selon certains modes de r\u00e9alisation de l&#39;invention l&#39;invention, un appareil est adapt\u00e9 pour mettre \u00e0 jour une fen\u00eatre de contention (CW). L&#39;appareil comprend un \u00e9metteur-r\u00e9cepteur de r\u00e9seau local sans fil (WLAN) adapt\u00e9 \u00e0 recevoir, durant une p\u00e9riode de surveillance, deux transmissions ou plus de deux dispositifs WLAN ou plus. L&#39;appareil comprend un processeur adapt\u00e9 \u00e0 ex\u00e9cuter les actions suivantes : identifier la synchronisation de transmission de deux trames de donn\u00e9es ou plus encod\u00e9es dans certaines des transmissions durant la p\u00e9riode de surveillance ; identifier une synchronisation d&#39;interlude de deux interludes de transmission ou plus entre les trames de donn\u00e9es ; calculer une mesure statistique de longueur des interludes de transmission ; et mettre \u00e0 jour une valeur CW des dispositifs WLAN d&#39;apr\u00e8s la mesure statistique.",
+    "filing_date": "20150121",
+    "publication_date": "20160728",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.618249",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "US-8935056-B2",
+    "family_id": "43448769",
+    "title": "Wiper controller",
+    "abstract": "A windshield wiper device comprises a controller, a drive unit and a gear that transmits the movement of the drive unit to a wiper shaft. The controller comprises a comparison unit for determining whether the torque output by the drive unit exceeds the predetermined torque, wherein the predetermined torque depends on the position of the wiper shaft. The wind shield wiper device further comprises a reversing unit for reversing the direction of rotation of the drive unit depending on the result of the comparison unit.",
+    "filing_date": "20101025",
+    "publication_date": "20150113",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.618249",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2023131416-A1",
+    "family_id": "80050697",
+    "title": "Architecture haute performance de syst\u00e8me pour une antenne intelligente",
+    "abstract": "A planar antenna topology comprising multiple connection ports and multiple radiators arranged in multiple columns and multiple rows. One or more of the multiple of radiators in one or more columns of the multiple columns and one or more of another of the multiple of radiators in an adjacent column of the multiple of columns are polarized to transmit electrical fields at common polarization angles. An extremity of radii of radiators centrally located in one or more of the multiple rows are separated from an extremity of radii of radiators centrally located in an adjacent row of the multiple rows by a predefined electrical distance. The predefined electrical distance is of substantially half a wavelength of an operating frequency of the planar antenna topology. An extremity of radii of radiators centrally located in the one or more columns are separated from an extremity of radii of radiators centrally located in the adjacent column by the predefined electrical distance.",
+    "filing_date": "20220107",
+    "publication_date": "20230713",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.618249",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "US-2013301617-A1",
+    "family_id": "46243984",
+    "title": "Method device and system for controlling handoff",
+    "abstract": "A handoff control method includes the following: Handoff status information of a first mobile host (MH) is collected. The handoff status information includes at least one parameter that is used for representing a status that happened during the first handoff from a source access point (AP) to a target AP. A handoff policy is generated based on the handoff status information, and used for optimizing a handoff process of an MH associated with the source AP. The handoff process occurs after the first MH is handed off from the source AP. The handoff policy is sent to the MH associated with the source AP, so the MH associated with the source AP can perform the handoff according to the handoff policy. A handoff control device and a system represent technical solutions that optimize the handoff process, reduce a total time delay of handoff, and increase a likelihood of successful handoff.",
+    "filing_date": "20101217",
+    "publication_date": "20131114",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.619251",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2009047174-A1",
+    "family_id": "40225163",
+    "title": "Circuit et proc\u00e9d\u00e9 pour une r\u00e9gulation de courant de cr\u00eate double",
+    "abstract": "La pr\u00e9sente invention concerne un circuit et un proc\u00e9d\u00e9 pour une r\u00e9gulation de courant de cr\u00eate double. Dans la pr\u00e9sente invention, les tubes interrupteurs S1 et S2 sont pilot\u00e9s par le circuit de commande int\u00e9gr\u00e9 (U1); le r\u00e9seau oscillant RC connect\u00e9 \u00e0 la borne d&#39;entr\u00e9e du circuit de commande int\u00e9gr\u00e9 (U1) commande la fr\u00e9quence de pilotage; la valeur r\u00e9sistive dans le r\u00e9seau oscillant RC est r\u00e9gul\u00e9e par le premier circuit de commutation (S4) et le second circuit de commutation (S3); le circuit diviseur pour d\u00e9tecter le courant de cr\u00eate circulant dans les tubes interrupteurs S1 et S2 fournit un signal de d\u00e9clenchement de fermeture au premier circuit de commutation (S4) et au second circuit de commutation (S3); et la fr\u00e9quence de pilotage est command\u00e9e par d\u00e9clenchement pour fermer le premier circuit de commutation (S4) et le second circuit de commutation (S3), de fa\u00e7on \u00e0 limiter le courant de cr\u00eate circulant dans les tubes interrupteurs S1 et S2. Le circuit de r\u00e9gulation de courant de cr\u00eate double selon la pr\u00e9sente invention est plus efficace que le circuit de r\u00e9gulation de courant de cr\u00eate simple, en particulier dans des applications r\u00e9elles o\u00f9 le circuit de puissance peut souffrir de non-lin\u00e9arit\u00e9s.",
+    "filing_date": "20080930",
+    "publication_date": "20090416",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.619251",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2022094874-A1",
+    "family_id": "81458396",
+    "title": "Dispositif de d\u00e9tection",
+    "abstract": "Dispositif de d\u00e9tection (10) pour un sectionneur haute tension (20). Le dispositif de d\u00e9tection (10) comprend : une premi\u00e8re fibre optique (110) con\u00e7ue pour recevoir de la lumi\u00e8re provenant d&#39;une source optique (100) et con\u00e7ue pour guider la lumi\u00e8re; un collimateur optique (120) coupl\u00e9 \u00e0 la premi\u00e8re fibre optique (110) pour recevoir la lumi\u00e8re guid\u00e9e dans la premi\u00e8re fibre optique (110) et con\u00e7u pour collimater la lumi\u00e8re en un faisceau lumineux collimat\u00e9; un composant optique pliable (130) coupl\u00e9 au collimateur optique (120) pour recevoir le faisceau lumineux collimat\u00e9 et con\u00e7u pour guider le faisceau lumineux collimat\u00e9, le composant optique pliable (130) \u00e9tant con\u00e7u et agenc\u00e9 pour se courber en fonction d&#39;un \u00e9tat de commutation du sectionneur haute tension (20), ce qui permet d&#39;influencer le faisceau lumineux collimat\u00e9; et une unit\u00e9 de d\u00e9rivation (160) con\u00e7ue pour d\u00e9river des informations concernant l&#39;\u00e9tat de commutation du sectionneur haute tension (20) sur la base du faisceau lumineux collimat\u00e9.",
+    "filing_date": "20201105",
+    "publication_date": "20220512",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.620192",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2021102838-A1",
+    "family_id": "76129845",
+    "title": "Proc\u00e9d\u00e9 et appareil de d\u00e9termination de fr\u00e9quence de collecte, dispositif informatique et support de stockage",
+    "abstract": "A method and an apparatus for determining a collection frequency, a computer device, and a storage medium. In the method for determining the collection frequency of data, the data are collected from a device and are provided for an application program for the application program to monitor the device. The method comprises: determining a collection frequency requirement of the application program regarding the data of the device; determining state information of the device; and determining, based on the determined collection frequency requirement of the application program regarding the data of the device and the determined state information of the device, the collection frequency of the data according to a preset rule.",
+    "filing_date": "20191128",
+    "publication_date": "20210603",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.620192",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2022184227-A1",
+    "family_id": "74856840",
+    "title": "Proc\u00e9d\u00e9 et appareil de positionnement de liaison lat\u00e9rale",
+    "abstract": "The present disclosure relates to a network entity (1730, 212) for managing user profile data of at least one first user device (1701a, 1701b, 111, 112, 113) in a mobile communication network (1700, 100), the network entity comprising: a communication interface (1735), configured to obtain location reference capability information of the first user device (1701a), wherein the location reference capability information indicates the first user device (1701a) is capable of assisting positioning for a second user device (120); and a processor (1733), configured to store the location reference capability information in the network entity.",
+    "filing_date": "20210301",
+    "publication_date": "20220909",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.620192",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2011032845-A2",
+    "family_id": "43759087",
+    "title": "Aqueous dispersions containing antimicrobials in a hybrid network",
+    "abstract": "L&#39;invention concerne un proc\u00e9d\u00e9 de pr\u00e9paration d&#39;une composition comprenant les \u00e9tapes consistant \u00e0 (a) faire r\u00e9agir un composant liant (B) comprenant au moins un alcoxysilane (B2) et une dispersion polym\u00e8re (PD), produisant ainsi un pr\u00e9polym\u00e8re et puis (b) m\u00e9langer ou hydrolyser et polycondenser le pr\u00e9polym\u00e8re en pr\u00e9sence d&#39;eau et au moins d&#39;un agent antimicrobien (Z) comprenant au moins une substance active antimicrobienne (Z1) et facultativement une substance support particulaire (Z2), le au moins un agent antimicrobien (Z) \u00e9tant non r\u00e9actif durant l&#39;\u00e9tape (b).",
+    "filing_date": "20100903",
+    "publication_date": "20110324",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.621198",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2007003366-A1",
+    "family_id": "35930292",
+    "title": "Method and device for storing or treating the covering of a table tennis bat",
+    "abstract": "Die Erf\u00candung betrifft ein Verfahren zum Aufbewahren bzw. Behandeln des Spielbelags eines Tischtennisschlagers (60), wobei der Spielbelag allein oder in einem auf das Schlagblatt eines Tischtennisschlagers (60) aufgebrachten Zustand in einen Aufbewahrungsk\u00ccrper (1; 20; 50) eingebracht und einem Gas, insbesondere CO2 oder einem Edelgas ausgesetzt wird.",
+    "filing_date": "20060630",
+    "publication_date": "20070111",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.621198",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2024235446-A1",
+    "family_id": "86425941",
+    "title": "Dispositifs et proc\u00e9d\u00e9s pour la g\u00e9n\u00e9ration d&#39;un plan d&#39;ex\u00e9cution de requ\u00eate bas\u00e9e sur une requ\u00eate",
+    "abstract": "A data processing apparatus (120) is disclosed for generating and executing a query execution plan for a database (125a). The data processing apparatus is configured to generate a query execution tree based on a query in a query language, for instance, a SQL query, and is configured to determine whether the query execution tree includes at least one conditional expression being always true or always false rendering the query execution tree always true or always false irrespective of query input data. In case the query execution tree does not include at least one conditional expression being always true or always false rendering the query execution tree always true or always false irrespective of the query input data, the data processing apparatus is configured to execute the query execution plan. Moreover, a corresponding data processing method is disclosed. The disclosed data processing apparatus and method allow detecting query tautology injections.",
+    "filing_date": "20230515",
+    "publication_date": "20241121",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.621198",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2021228404-A1",
+    "family_id": "70775363",
+    "title": "G\u00e9n\u00e9ration de donn\u00e9es synth\u00e9tiques de grande dimension et de grande utilit\u00e9",
+    "abstract": "In some examples, a computer-implemented method for generating high-dimensional, high utility synthetic data comprises generating a differentially privatised global model using a global model, the differentially privatised global model defining an autoencoder configured to map high-dimensional user data to a lower dimensional feature space, and iteratively refining the global model on the basis of multiple differentially privatised local models received from a network of user equipment defining a federated learning structure. The refinement process can proceed by broadcasting the differentially privatised global model to the network of user equipment as part of a refinement iteration, receiving updated versions of the multiple differentially privatised local models from the network of user equipment, and on the basis of a convergence threshold representing convergence of the differentially privatised global model to a selected measure of accuracy according to a loss function, using the differentially privatised global model to generate a set of synthetic data by selecting a set of random latent features using a predefined distribution as input to the differentially privatised global model whereby to generate a set of synthetic data as output of the differentially privatised global model. The generated synthetic data can be used for data mining and the building of machine learning models and so on.",
+    "filing_date": "20200515",
+    "publication_date": "20211118",
+    "technology_categories": [
+      "artificial_intelligence"
+    ],
+    "risk_level": "CRITICAL",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.622195",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2024125992-A1",
+    "family_id": "88965783",
+    "title": "Composition de rev\u00eatement de couche transparente 2k et son application",
+    "abstract": "The present invention provides a 2K clearcoat coating composition comprising Component (I) comprising (A) a first resin having at least one primary hydroxyl group selected from hydroxyl alkyl (meth)acrylate resins having C 1 -C 10  and preferably C 2 -C 6  alkyl groups, (B) a second resin having at least one secondary hydroxyl group selected from hydroxyl alkyl (meth)acrylate resins having C 2 -C 10 , and (C) at least one amino resin, and Component (II) comprising (D) a crosslinker comprising at least one polyisocyanate, wherein the first resin has a hydroxyl value in a range of from 100 to 250mgKOH/g and a weight average molecular weight in a range of from 3,000 to 15,000, and the second resin has a hydroxyl value in a range of from 150 to 500mgKOH/g and a weight average molecular weight in a range of from 500 to 2,500. The present invention also provides an article coated by the invented coating composition.",
+    "filing_date": "20231122",
+    "publication_date": "20240620",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.622195",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2015011639-A2",
+    "family_id": "48832834",
+    "title": "Pigments \u00e0 base de vanadate de bismuth",
+    "abstract": "A bismuth vanadate pigment is provided which pigment is doped with a combination of Mg, Al and P and optionally an element E, wherein the molar ratios of the Bi, V, Mg, Al, P and E correspond to a formula Bi Mg a  Al b  E c  V d  P e  O f  (I) wherein E is selected from the group consisting of Be, Ca, Sr, Ba, Zr, Mo, Ce and a combination thereof; 0.001 \u2264 a \u2264 0.2; 0.001 \u2264 b \u2264 0.2; 0 \u2264 c \u2264 1.7; 0.5 \u2264 d \u2264 2.3; 0.001 \u2264 e \u2264 0.5; and f denotes the number of oxygen atoms for satisfying the valence requirements of the cations. The pigment may be used as colorant in various applications, especially in coloring high molecular weight organic material, for example, coating compositions, paints, printing inks, liquid inks, plastics, films, fibers, or glazes for ceramics or glass.",
+    "filing_date": "20140722",
+    "publication_date": "20150129",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.622195",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2023041171-A1",
+    "family_id": "77951686",
+    "title": "Distributed feedback laser with integrated mpd",
+    "abstract": "A compound laser structure comprising: a substrate; an active waveguide structure comprising: a laser emitter (301) on the substrate, the laser emitter (301) comprising a Bragg grating (318) on a first area of the substrate; and a monitoring photodetector (317) integrated in the laser emitter (301) on a second area of the substrate different to the first area, the monitoring photodetector (317) being configured to measure the intensity of the laser emitter (301). In this way, the monitoring photodetector (317) may be integrated in the compound laser structure in such a way that minimizes the effect on the size and performance of the compound laser structure.",
+    "filing_date": "20210917",
+    "publication_date": "20230323",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.623196",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  },
+  {
+    "publication_number": "WO-2015042777-A1",
+    "family_id": "52741733",
+    "title": "Heart-shaped self-locking button",
+    "abstract": "Cette invention concerne un bouton-poussoir en forme de c\u0153ur \u00e0 blocage automatique (100) comprenant un bo\u00eetier (110) et une tige de pouss\u00e9e (120). Ladite tige de pouss\u00e9e (120) est agenc\u00e9e coulissante \u00e0 l&#39;int\u00e9rieur du bo\u00eetier (110). Une structure en forme de c\u0153ur (1231) est form\u00e9e sur la tige de pouss\u00e9e (120). Ledit bouton-poussoir comprend une broche (150) et un \u00e9l\u00e9ment flexible (160). Une extr\u00e9mit\u00e9 de la broche (150) est fix\u00e9e au bo\u00eetier (110) tandis que la structure en forme de c\u0153ur (1231) est adapt\u00e9e sur l&#39;autre extr\u00e9mit\u00e9. Ledit \u00e9l\u00e9ment flexible (160) est agenc\u00e9 entre le bo\u00eetier (110) et la tige de pouss\u00e9e (120) et il pousse la broche (150) vers la structure en forme de c\u0153ur (1231) afin de permettre \u00e0 la broche (150) d&#39;\u00eatre en contact constant avec la structure en forme de c\u0153ur (1231). Ladite structure en forme de c\u0153ur du bouton-poussoir en forme de c\u0153ur \u00e0 blocage automatique est dispos\u00e9e sur la tige de pouss\u00e9e de fa\u00e7on \u00e0 assurer un moulage simplifi\u00e9 et une r\u00e9duction des co\u00fbts de fabrication. De plus, l&#39;\u00e9l\u00e9ment flexible dispos\u00e9 entre le bo\u00eetier et la tige de pouss\u00e9e est utilis\u00e9 pour pousser la broche vers la structure en forme de c\u0153ur sur la tige de pouss\u00e9e afin de permettre \u00e0 la broche d&#39;\u00eatre en contact constant avec la structure en forme de c\u0153ur lors du d\u00e9placement, afin de mettre en \u0153uvre la fonction de blocage automatique et d&#39;assurer une dur\u00e9e de vie prolong\u00e9e.",
+    "filing_date": "20130924",
+    "publication_date": "20150402",
+    "technology_categories": [
+      "other"
+    ],
+    "risk_level": "MEDIUM",
+    "verification": {
+      "source": "Google BigQuery patents-public-data",
+      "query_timestamp": "2025-09-21T10:34:28.623196",
+      "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+    }
+  }
+]

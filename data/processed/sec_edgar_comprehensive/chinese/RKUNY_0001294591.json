@@ -1,0 +1,44 @@
+{
+  "cik": "0001294591",
+  "ticker": "RKUNY",
+  "name": "Rakuten Group, Inc.",
+  "detection_reasons": [
+    "offshore:ky"
+  ],
+  "sic": "",
+  "sicDescription": "",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "81-50-5581-6910",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1-14-1 TAMAGAWA",
+      "street2": null,
+      "city": "SETAGAYA-KU, TOKYO",
+      "stateOrCountry": "M0",
+      "zipCode": "158-0094",
+      "stateOrCountryDescription": "Japan",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1-14-1 TAMAGAWA",
+      "street2": null,
+      "city": "SETAGAYA-KU, TOKYO",
+      "stateOrCountry": "M0",
+      "zipCode": "158-0094",
+      "stateOrCountryDescription": "Japan",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 21
+}

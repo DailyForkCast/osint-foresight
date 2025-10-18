@@ -1,0 +1,150 @@
+{
+  "generated": "2025-09-25T14:23:01.937483",
+  "monitoring_active": true,
+  "data_locations": {
+    "project_data": {
+      "path": "C:/Projects/OSINT - Foresight/data",
+      "exists": true,
+      "monitored": true,
+      "last_checked": "2025-09-25T14:23:01.944330"
+    },
+    "osint_data": {
+      "path": "F:/OSINT_DATA",
+      "exists": true,
+      "monitored": true,
+      "last_checked": "2025-09-25T14:23:01.944330"
+    },
+    "ted_data": {
+      "path": "F:/TED_Data",
+      "exists": true,
+      "monitored": true,
+      "last_checked": "2025-09-25T14:23:01.944330"
+    },
+    "osint_backups": {
+      "path": "F:/OSINT_Backups",
+      "exists": true,
+      "monitored": true,
+      "last_checked": "2025-09-25T14:23:01.944330"
+    },
+    "horizons_data": {
+      "path": "F:/2025-09-14 Horizons",
+      "exists": true,
+      "monitored": true,
+      "last_checked": "2025-09-25T14:23:01.945323"
+    },
+    "decompressed_data": {
+      "path": "F:/DECOMPRESSED_DATA",
+      "exists": true,
+      "monitored": true,
+      "last_checked": "2025-09-25T14:23:01.945323"
+    }
+  },
+  "access_controls": {
+    "roles_defined": 4,
+    "roles": {
+      "admin": {
+        "permissions": [
+          "read",
+          "write",
+          "delete",
+          "execute",
+          "monitor"
+        ],
+        "description": "Full system access",
+        "data_access": "all"
+      },
+      "analyst": {
+        "permissions": [
+          "read",
+          "execute",
+          "monitor"
+        ],
+        "description": "Read and analyze data",
+        "data_access": "parsed_data"
+      },
+      "viewer": {
+        "permissions": [
+          "read"
+        ],
+        "description": "Read-only access to reports",
+        "data_access": "reports_only"
+      },
+      "monitor": {
+        "permissions": [
+          "monitor"
+        ],
+        "description": "System monitoring only",
+        "data_access": "logs_only"
+      }
+    },
+    "implementation": "policy-based",
+    "audit_logging": true
+  },
+  "governance_framework": {
+    "data_governance": {
+      "data_classification": [
+        "public",
+        "internal",
+        "confidential",
+        "restricted"
+      ],
+      "retention_policy": "5_years",
+      "backup_policy": "weekly",
+      "audit_frequency": "monthly"
+    },
+    "compliance": {
+      "gdpr_compliant": true,
+      "data_minimization": true,
+      "purpose_limitation": true,
+      "accuracy_requirement": true
+    },
+    "quality_assurance": {
+      "validation_checks": true,
+      "completeness_monitoring": true,
+      "accuracy_verification": true,
+      "timeliness_tracking": true
+    },
+    "risk_management": {
+      "risk_assessment_frequency": "quarterly",
+      "incident_response_plan": true,
+      "business_continuity": true,
+      "disaster_recovery": true
+    }
+  },
+  "run_tracking": "C:\\Projects\\OSINT - Foresight\\run.json",
+  "alerts": [
+    {
+      "type": "warning",
+      "component": "phase1",
+      "message": "Parse rate below threshold: 20.8% < 70%",
+      "timestamp": "2025-09-25T14:23:01.945323"
+    },
+    {
+      "type": "warning",
+      "component": "phase5",
+      "message": "NER recall below threshold: 16.7% < 70%",
+      "timestamp": "2025-09-25T14:23:01.946315"
+    }
+  ],
+  "last_health_check": {
+    "timestamp": "2025-09-25T14:23:01.945323",
+    "components": {
+      "data_availability": {
+        "status": "healthy",
+        "available": 6,
+        "total": 6
+      },
+      "phase_completion": {
+        "status": "healthy",
+        "completed": 6,
+        "total": 7
+      },
+      "monitoring": {
+        "status": "active",
+        "run_tracking": "enabled",
+        "alerts_enabled": true
+      }
+    },
+    "overall": "healthy"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0001840425",
+  "ticker": "OSRH",
+  "name": "OSR Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3841",
+  "sicDescription": "Surgical & Medical Instruments & Apparatus",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "845052822",
+  "phone": "425-635-7700",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "10900 NE 4TH STREET, SUITE 2300",
+      "street2": null,
+      "city": "BELLEVUE",
+      "stateOrCountry": "WA",
+      "zipCode": "98004",
+      "stateOrCountryDescription": "WA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "10900 NE 4TH STREET, SUITE 2300",
+      "street2": null,
+      "city": "BELLEVUE",
+      "stateOrCountry": "WA",
+      "zipCode": "98004",
+      "stateOrCountryDescription": "WA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-23"
+  },
+  "filings_count": 189
+}

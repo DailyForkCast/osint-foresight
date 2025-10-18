@@ -1,0 +1,349 @@
+{
+  "processing_timestamp": "2025-09-28T09:51:38.301506",
+  "total_items": 10,
+  "verification_results": [
+    {
+      "partnership": "Hamburg-Shanghai",
+      "type": "sister_city",
+      "original_url": "https://www.hamburg.de/shanghai/",
+      "verification_timestamp": "2025-09-28T09:51:38.301506",
+      "verification_id": "8b2f08d6ac2e",
+      "url_check": {
+        "accessible": true,
+        "status_code": 404,
+        "final_url": "https://www.hamburg.de/shanghai/",
+        "redirected": false,
+        "content_type": "text/html;charset=UTF-8",
+        "content_length": 217701,
+        "timestamp": "2025-09-28T09:51:39.346631",
+        "content_sample": null
+      },
+      "wayback_check": {
+        "available": true,
+        "archive_url": "http://web.archive.org/web/20240424030213/https://www.hamburg.de/shanghai/",
+        "timestamp": "20240424030213",
+        "status": "200"
+      },
+      "status": "WAYBACK_AVAILABLE",
+      "confidence": "LOW",
+      "citation": "Hamburg-Shanghai. URL: https://www.hamburg.de/shanghai/. Accessed: 2025-09-28T09:51:38.301506. Status: WAYBACK_AVAILABLE. Verification ID: 8b2f08d6ac2e",
+      "verification_report": {
+        "requires_manual_check": true,
+        "priority": "MEDIUM",
+        "next_steps": [
+          "Access Wayback archive: http://web.archive.org/web/20240424030213/https://www.hamburg.de/shanghai/",
+          "Review archived content for agreement details",
+          "Search for alternative current sources",
+          "Check municipal/university press archives"
+        ]
+      }
+    },
+    {
+      "partnership": "Munich-Beijing",
+      "type": "sister_city",
+      "original_url": "https://www.muenchen.de/rathaus/Stadtpolitik/Partnerstaedte",
+      "verification_timestamp": "2025-09-28T09:51:39.553614",
+      "verification_id": "e79c4bb605b9",
+      "url_check": {
+        "accessible": true,
+        "status_code": 404,
+        "final_url": "https://stadt.muenchen.de/Stadtpolitik/Partnerstaedte",
+        "redirected": true,
+        "content_type": "text/html;charset=UTF-8",
+        "content_length": 117400,
+        "timestamp": "2025-09-28T09:51:40.794136",
+        "content_sample": null
+      },
+      "wayback_check": {
+        "available": false
+      },
+      "status": "CANNOT_VERIFY",
+      "confidence": "NONE",
+      "citation": "Munich-Beijing. URL: https://www.muenchen.de/rathaus/Stadtpolitik/Partnerstaedte. Accessed: 2025-09-28T09:51:39.553614. Status: CANNOT_VERIFY. Verification ID: e79c4bb605b9",
+      "verification_report": {
+        "requires_manual_check": true,
+        "priority": "MEDIUM",
+        "next_steps": [
+          "Search for alternative official sources",
+          "Check partner organization's website",
+          "Look for news coverage of the partnership",
+          "Contact organization directly if critical"
+        ]
+      }
+    },
+    {
+      "partnership": "Lyon-Guangzhou",
+      "type": "sister_city",
+      "original_url": "https://www.lyon.fr/vie-municipale/relations-internationales",
+      "verification_timestamp": "2025-09-28T09:51:40.988062",
+      "verification_id": "62e6a828a8ba",
+      "url_check": {
+        "accessible": true,
+        "status_code": 404,
+        "final_url": "https://www.lyon.fr/vie-municipale/relations-internationales",
+        "redirected": false,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 292093,
+        "timestamp": "2025-09-28T09:51:41.967932",
+        "content_sample": null
+      },
+      "wayback_check": {
+        "available": false
+      },
+      "status": "CANNOT_VERIFY",
+      "confidence": "NONE",
+      "citation": "Lyon-Guangzhou. URL: https://www.lyon.fr/vie-municipale/relations-internationales. Accessed: 2025-09-28T09:51:40.988062. Status: CANNOT_VERIFY. Verification ID: 62e6a828a8ba",
+      "verification_report": {
+        "requires_manual_check": true,
+        "priority": "MEDIUM",
+        "next_steps": [
+          "Search for alternative official sources",
+          "Check partner organization's website",
+          "Look for news coverage of the partnership",
+          "Contact organization directly if critical"
+        ]
+      }
+    },
+    {
+      "partnership": "Milan-Shanghai",
+      "type": "sister_city",
+      "original_url": "https://www.comune.milano.it/aree-tematiche/relazioni-internazionali",
+      "verification_timestamp": "2025-09-28T09:51:42.144074",
+      "verification_id": "499d5f3c93d9",
+      "url_check": {
+        "accessible": true,
+        "status_code": 403,
+        "final_url": "https://www.comune.milano.it/aree-tematiche/relazioni-internazionali",
+        "redirected": false,
+        "content_type": "text/html",
+        "content_length": 179,
+        "timestamp": "2025-09-28T09:51:42.768887",
+        "content_sample": null
+      },
+      "wayback_check": {
+        "available": false
+      },
+      "status": "CANNOT_VERIFY",
+      "confidence": "NONE",
+      "citation": "Milan-Shanghai. URL: https://www.comune.milano.it/aree-tematiche/relazioni-internazionali. Accessed: 2025-09-28T09:51:42.144074. Status: CANNOT_VERIFY. Verification ID: 499d5f3c93d9",
+      "verification_report": {
+        "requires_manual_check": true,
+        "priority": "MEDIUM",
+        "next_steps": [
+          "Search for alternative official sources",
+          "Check partner organization's website",
+          "Look for news coverage of the partnership",
+          "Contact organization directly if critical"
+        ]
+      }
+    },
+    {
+      "partnership": "Birmingham-Guangzhou",
+      "type": "sister_city",
+      "original_url": "https://www.birmingham.gov.uk/info/50218/birmingham_s_sister_cities",
+      "verification_timestamp": "2025-09-28T09:51:42.964527",
+      "verification_id": "bffc0e208b62",
+      "url_check": {
+        "accessible": true,
+        "status_code": 404,
+        "final_url": "https://www.birmingham.gov.uk/info/50218/birmingham_s_sister_cities",
+        "redirected": false,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 45147,
+        "timestamp": "2025-09-28T09:51:43.542810",
+        "content_sample": null
+      },
+      "wayback_check": {
+        "available": false
+      },
+      "status": "CANNOT_VERIFY",
+      "confidence": "NONE",
+      "citation": "Birmingham-Guangzhou. URL: https://www.birmingham.gov.uk/info/50218/birmingham_s_sister_cities. Accessed: 2025-09-28T09:51:42.964527. Status: CANNOT_VERIFY. Verification ID: bffc0e208b62",
+      "verification_report": {
+        "requires_manual_check": true,
+        "priority": "MEDIUM",
+        "next_steps": [
+          "Search for alternative official sources",
+          "Check partner organization's website",
+          "Look for news coverage of the partnership",
+          "Contact organization directly if critical"
+        ]
+      }
+    },
+    {
+      "partnership": "Krakow-Nanjing",
+      "type": "sister_city",
+      "original_url": "https://www.krakow.pl/aktualnosci",
+      "verification_timestamp": "2025-09-28T09:51:43.768428",
+      "verification_id": "06ac10e0743f",
+      "url_check": {
+        "accessible": true,
+        "status_code": 404,
+        "final_url": "https://www.krakow.pl/aktualnosci",
+        "redirected": false,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 8656,
+        "timestamp": "2025-09-28T09:51:44.420808",
+        "content_sample": null
+      },
+      "wayback_check": {
+        "available": false
+      },
+      "status": "CANNOT_VERIFY",
+      "confidence": "NONE",
+      "citation": "Krakow-Nanjing. URL: https://www.krakow.pl/aktualnosci. Accessed: 2025-09-28T09:51:43.768428. Status: CANNOT_VERIFY. Verification ID: 06ac10e0743f",
+      "verification_report": {
+        "requires_manual_check": true,
+        "priority": "MEDIUM",
+        "next_steps": [
+          "Search for alternative official sources",
+          "Check partner organization's website",
+          "Look for news coverage of the partnership",
+          "Contact organization directly if critical"
+        ]
+      }
+    },
+    {
+      "partnership": "Cambridge University - Tsinghua University",
+      "type": "academic_partnership",
+      "original_url": "https://www.cam.ac.uk/global-cambridge/east-asia",
+      "verification_timestamp": "2025-09-28T09:51:44.584863",
+      "verification_id": "7a080a173002",
+      "url_check": {
+        "accessible": true,
+        "status_code": 404,
+        "final_url": "https://www.cam.ac.uk/global-cambridge/east-asia",
+        "redirected": false,
+        "content_type": "text/html; charset=utf-8",
+        "content_length": 54557,
+        "timestamp": "2025-09-28T09:51:45.180939",
+        "content_sample": null
+      },
+      "wayback_check": {
+        "available": false
+      },
+      "status": "CANNOT_VERIFY",
+      "confidence": "NONE",
+      "citation": "Cambridge University - Tsinghua University. URL: https://www.cam.ac.uk/global-cambridge/east-asia. Accessed: 2025-09-28T09:51:44.584863. Status: CANNOT_VERIFY. Verification ID: 7a080a173002",
+      "verification_report": {
+        "requires_manual_check": true,
+        "priority": "MEDIUM",
+        "next_steps": [
+          "Search for alternative official sources",
+          "Check partner organization's website",
+          "Look for news coverage of the partnership",
+          "Contact organization directly if critical"
+        ]
+      }
+    },
+    {
+      "partnership": "Oxford University - Chinese Universities",
+      "type": "academic_partnership",
+      "original_url": "https://www.ox.ac.uk/global/partnerships",
+      "verification_timestamp": "2025-09-28T09:51:45.360097",
+      "verification_id": "f8a1ce720eb6",
+      "url_check": {
+        "accessible": true,
+        "status_code": 404,
+        "final_url": "https://www.ox.ac.uk/global/partnerships",
+        "redirected": false,
+        "content_type": "text/html; charset=utf-8",
+        "content_length": 68780,
+        "timestamp": "2025-09-28T09:51:46.392084",
+        "content_sample": null
+      },
+      "wayback_check": {
+        "available": false
+      },
+      "status": "CANNOT_VERIFY",
+      "confidence": "NONE",
+      "citation": "Oxford University - Chinese Universities. URL: https://www.ox.ac.uk/global/partnerships. Accessed: 2025-09-28T09:51:45.360097. Status: CANNOT_VERIFY. Verification ID: f8a1ce720eb6",
+      "verification_report": {
+        "requires_manual_check": true,
+        "priority": "MEDIUM",
+        "next_steps": [
+          "Search for alternative official sources",
+          "Check partner organization's website",
+          "Look for news coverage of the partnership",
+          "Contact organization directly if critical"
+        ]
+      }
+    },
+    {
+      "partnership": "Sorbonne - Chinese Universities",
+      "type": "academic_partnership",
+      "original_url": "https://www.sorbonne-universite.fr/international",
+      "verification_timestamp": "2025-09-28T09:51:46.598083",
+      "verification_id": "6e19519a1402",
+      "url_check": {
+        "accessible": true,
+        "status_code": 200,
+        "final_url": "https://lettres.sorbonne-universite.fr/international",
+        "redirected": true,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 165988,
+        "timestamp": "2025-09-28T09:51:47.423573",
+        "content_sample": "<!DOCTYPE html>\n<html lang=\"fr\" dir=\"ltr\" prefix=\"content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# \">\n<head>\n  <meta charset=\"utf-8\" />\n<script>var _paq = _paq || [];(function(){var u=((\"https:\" == document.location.protocol) ? \"https://analytics.sorbonne-universite.fr/matomo/\" : \"http://analytics.sorbonne-universite.fr/matomo/\");_paq.push([\"setSiteId\", \"113\"]);_paq.push([\"setTrackerUrl\", u+\"matomo.php\"]);_paq.push([\"setDoNotTrack\", 1]);_paq.push([\"setCookieDomain\", \".sorbonne-universite.fr\"]);if (!window.matomo_search_results_active) {_paq.push([\"trackPageView\"]);}_paq.push([\"setIgnoreClasses\", [\"no-tracking\",\"colorbox\"]]);_paq.push([\"enableLinkTracking\"]);var d=document,g=d.createElement(\"script\"),s=d.getElementsByTagName(\"script\")[0];g.type=\"text/javascript\";g.defer=true;g.async=true;g.src=u+\"matomo.js\";s.parentNode.insertBefore(g,s);})();</script>\n<meta name=\"description\" content=\"La Faculté des Lettres a fait de la qualité et du rayonnement de ses relations internationales l’une de ses priorités. Elle privilégie les liens avec les grandes universités et autres établissements d’excellence à l’étranger, tout en mettant fortement l’accent sur la nécessité de contribuer au développement culturel et scientifique des pays dits &quot;émergents&quot;.\" />\n<meta name=\"geo.region\" content=\"contact.jpg\" />\n<link rel=\"canonical\" href=\"https://lettres.sorbonne-universite.fr/international\" />\n<meta property=\"og:site_name\" content=\"Sorbonne Université\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:url\" content=\"https://lettres.sorbonne-universite.fr/international\" />\n<meta property=\"og:title\" content=\"International\" />\n<meta property=\"og:description\" content=\"La Faculté des Lettres a fait de la qualité et du rayonnement de ses relations internationales l’une de ses priorités. Elle privilégie les liens avec les grandes universités et autres établissements d’excellence à l’étranger, tout en mettant fortement l’accent sur la nécessité de contribuer au développement culturel et scientifique des pays dits &quot;émergents&quot;.\" />\n<meta property=\"og:image\" content=\"https://lettres.sorbonne-universite.fr/sites/default/files/media/2020-02/ban33-rub.jpg\" />\n<meta property=\"og:image:url\" content=\"https://lettres.sorbonne-universite.fr/sites/default/files/media/2020-02/ban33-rub.jpg\" />\n<meta property=\"og:image:width\" content=\"1903px\" />\n<meta property=\"og:image:height\" content=\"660px\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:description\" content=\"La Faculté des Lettres a fait de la qualité et du rayonnement de ses relations internationales l’une de ses priorités. Elle privilégie les liens avec les grandes universités et autres établissements d’excellence à l’étranger, tout en mettant fortement l’accent sur la nécessité de contribuer au développement culturel et scientifique des pays dits &quot;émergents&quot;.\" />\n<meta name=\"twitter:site\" content=\"@Sorbonne_Univ_\" />\n<meta name=\"twitter:title\" content=\"International\" />\n<meta name=\"twitter:site:id\" content=\"940938863790428160\" />\n<meta name=\"twitter:creator\" content=\"@Sorbonne_Univ_\" />\n<meta name=\"twitter:creator:id\" content=\"940938863790428160\" />\n<meta name=\"twitter:url\" content=\"https://lettres.sorbonne-universite.fr/international\" />\n<meta name=\"twitter:image\" content=\"https://lettres.sorbonne-universite.fr/sites/default/files/media/2020-02/ban33-rub.jpg\" />\n<meta name=\"twitter:image:alt\" content=\"International\" />\n<meta name=\"twitter:image:height\" content=\"660px\" />\n<meta name=\"twitter:image:width\" content=\"1903px\" />\n<meta name=\"Generator\" content=\"Drupal 10 (https://www.drupal.org)\" />\n<meta name=\"MobileOptimized\" content=\"width\" />\n<meta name=\"HandheldFriendly\" content=\"true\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<style>div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-withdraw-tab {background: #00778b} div#sliding-popup.eu-cookie-withdraw-wrapper { background: transparent; } #sliding-popup h1, #sliding-popup h2, #sliding-popup h3, #sliding-popup p, #sliding-popup label, #sliding-popup div, .eu-cookie-compliance-more-button, .eu-cookie-compliance-secondary-button, .eu-cookie-withdraw-tab { color: #ffffff;} .eu-cookie-withdraw-tab { border-color: #ffffff;}</style>\n<link rel=\"icon\" href=\"/themes/custom/boots/favicon.ico\" type=\"image/vnd.microsoft.icon\" />\n<link rel=\"alternate\" hreflang=\"fr\" href=\"https://lettres.sorbonne-universite.fr/international\" />\n\n    <title>International | Sorbonne Université| Lettres</title>\n    <link rel=\"stylesheet\" media=\"all\" href=\"//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.x/css/all.min.css\" /"
+      },
+      "content_search": {
+        "found": false,
+        "terms_found": [],
+        "contexts": []
+      },
+      "agreement_likely": false,
+      "confidence": "LOW",
+      "status": "NEEDS_MANUAL_CHECK",
+      "citation": "Sorbonne - Chinese Universities. URL: https://www.sorbonne-universite.fr/international. Accessed: 2025-09-28T09:51:46.598083. Status: NEEDS_MANUAL_CHECK. Verification ID: 6e19519a1402",
+      "verification_report": {
+        "requires_manual_check": true,
+        "priority": "MEDIUM",
+        "next_steps": [
+          "Manual verification required",
+          "Check page thoroughly for China references",
+          "Search site's search function for China/partnership",
+          "Review site navigation for international relations section"
+        ]
+      }
+    },
+    {
+      "partnership": "TU Munich - Chinese Partners",
+      "type": "academic_partnership",
+      "original_url": "https://www.tum.de/en/global/partnerships",
+      "verification_timestamp": "2025-09-28T09:51:47.427095",
+      "verification_id": "9e35652dfcf5",
+      "url_check": {
+        "accessible": true,
+        "status_code": 404,
+        "final_url": "https://www.tum.de/en/global/partnerships",
+        "redirected": false,
+        "content_type": "text/html; charset=utf-8",
+        "content_length": 357732,
+        "timestamp": "2025-09-28T09:51:49.893087",
+        "content_sample": null
+      },
+      "wayback_check": {
+        "available": false
+      },
+      "status": "CANNOT_VERIFY",
+      "confidence": "NONE",
+      "citation": "TU Munich - Chinese Partners. URL: https://www.tum.de/en/global/partnerships. Accessed: 2025-09-28T09:51:47.427095. Status: CANNOT_VERIFY. Verification ID: 9e35652dfcf5",
+      "verification_report": {
+        "requires_manual_check": true,
+        "priority": "MEDIUM",
+        "next_steps": [
+          "Search for alternative official sources",
+          "Check partner organization's website",
+          "Look for news coverage of the partnership",
+          "Contact organization directly if critical"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "accessible": 10,
+    "partial_verification": 0,
+    "wayback_available": 1,
+    "cannot_verify": 8,
+    "china_content_found": 0
+  }
+}

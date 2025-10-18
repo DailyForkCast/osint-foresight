@@ -1,0 +1,44 @@
+{
+  "cik": "0001289848",
+  "ticker": "HURN",
+  "name": "Huron Consulting Group Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "8742",
+  "sicDescription": "Services-Management Consulting Services",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "010666114",
+  "phone": "(312) 583-8700",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "550 WEST VAN BUREN STREET",
+      "street2": null,
+      "city": "CHICAGO",
+      "stateOrCountry": "IL",
+      "zipCode": "60607",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "550 WEST VAN BUREN STREET",
+      "street2": null,
+      "city": "CHICAGO",
+      "stateOrCountry": "IL",
+      "zipCode": "60607",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1000
+}

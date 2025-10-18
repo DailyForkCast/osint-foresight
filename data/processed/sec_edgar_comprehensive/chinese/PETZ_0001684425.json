@@ -1,0 +1,50 @@
+{
+  "cik": "0001684425",
+  "ticker": "PETZ",
+  "name": "TDH Holdings, Inc.",
+  "detection_reasons": [
+    "location:china",
+    "location:beijing",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "2000",
+  "sicDescription": "Food and Kindred Products",
+  "category": "Non-accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "D8",
+  "ein": "000000000",
+  "phone": "86-187-0642-0269",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "C/O BEIJING WENXIN CO., LTD., ROOM 1104",
+      "street2": "FULL TOWER, 9 EAST THIRD RING MIDDLE RD.",
+      "city": "CHAOYANG DISTRICT, BEIJING",
+      "stateOrCountry": "F4",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "C/O BEIJING WENXIN CO., LTD., ROOM 1104",
+      "street2": "FULL TOWER, 9 EAST THIRD RING MIDDLE RD.",
+      "city": "CHAOYANG DISTRICT, BEIJING",
+      "stateOrCountry": "F4",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "20-F",
+    "date": "2025-04-28"
+  },
+  "filings_count": 109
+}

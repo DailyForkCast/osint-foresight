@@ -1,0 +1,50 @@
+{
+  "cik": "0001588084",
+  "ticker": "TANH",
+  "name": "TANTECH HOLDINGS LTD",
+  "detection_reasons": [
+    "location:china",
+    "location:zhejiang",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "2860",
+  "sicDescription": "Industrial Organic Chemicals",
+  "category": "Non-accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "D8",
+  "ein": "000000000",
+  "phone": "86 578 226 2309",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "NO. 10 CEN SHAN RD, SHUIGE INDTRL ZONE",
+      "street2": "LISHUI CITY",
+      "city": "ZHEJIANG",
+      "stateOrCountry": "F4",
+      "zipCode": "323000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "NO. 10 CEN SHAN RD, SHUIGE INDTRL ZONE",
+      "street2": "LISHUI CITY",
+      "city": "ZHEJIANG",
+      "stateOrCountry": "F4",
+      "zipCode": "323000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-24"
+  },
+  "filings_count": 260
+}

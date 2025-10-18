@@ -1,0 +1,182 @@
+[
+  {
+    "country": "US",
+    "patent": {
+      "publication_number": "US-11075672-B2",
+      "family_id": "59398935",
+      "title": "Cellular wireless communication systems enhanced by intelligent self-organizing wireless distributed active antennas",
+      "abstract": "This invention presents Capacity Projectors (CaPs) for intelligent control and management that collect information on channel conditions, actual and/or predicted demand for connectivity, data throughput and its distribution for a first time period in the future using signaling and control messages, analyze the collected information to identify the configurations of the BSs and CaPs that are needed to produce desired MU-MIMO communication channels in the first time period to meet the connectivity and data throughput demand and its distribution in the first time period, and adaptively control and configure the CaPs to actively shape the MU-MIMO communication channels to meet the predicted demand and its distribution, wherein controlling and configuring the CaP comprises implementing which of the CaPs to switch to sleeping mode or work mode and adjusting one or more of transmitting power gain, antenna tilt, beam direction and/or pattern of the transmitter and/or receiver, filtering of the receiving and/or transmitting signal.",
+      "filing_date": "20190731",
+      "publication_date": "20210727",
+      "technology_categories": [
+        "telecommunications"
+      ],
+      "risk_level": "HIGH",
+      "verification": {
+        "source": "Google BigQuery patents-public-data",
+        "query_timestamp": "2025-09-21T10:34:23.253840",
+        "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'US'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+      }
+    }
+  },
+  {
+    "country": "US",
+    "patent": {
+      "publication_number": "WO-2024168575-A1",
+      "family_id": "92421603",
+      "title": "Mobile-terminated small data transfer",
+      "abstract": "Various aspects of the present disclosure generally relate to wireless communication. In some aspects, a user equipment (UE) may receive a configuration indicating at least one of: a first random access (RA) resource, or a second RA resource configured for a mobile-originated small data transfer (MO-SDT). The UE may receive, from a paging message, an indication of a mobile-terminated SDT (MT-SDT). The UE may select an RA resource, in accordance with the configuration, for an MT-SDT RA channel (RACH) transmission, wherein selecting the RA resource is based at least in part on whether a set of conditions associated with MO-SDT reception are satisfied. The UE may transmit the MT-SDT RACH transmission on the selected RA resource. Numerous other aspects are described.",
+      "filing_date": "20230215",
+      "publication_date": "20240822",
+      "technology_categories": [
+        "telecommunications"
+      ],
+      "risk_level": "HIGH",
+      "verification": {
+        "source": "Google BigQuery patents-public-data",
+        "query_timestamp": "2025-09-21T10:34:23.257730",
+        "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'US'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+      }
+    }
+  },
+  {
+    "country": "US",
+    "patent": {
+      "publication_number": "US-2013137398-A1",
+      "family_id": "44531272",
+      "title": "Local security key update at a wireless communication device",
+      "abstract": "A system and method for updating a security key at a base station (BS) is disclosed. The method comprises the operation of transmitting a handover command from the base station to a mobile station. The operation of incrementing a base station instance of an authentication key counter at the base station follows. The next operation of the method can be calculating a new local authentication key (AK*) at the base station using the base station instance of the authentication key counter and an authentication key (AK). The AK may be previously obtained from an authenticator. The method further includes communicating by the base station with the mobile station using the new local authentication key after a predetermined action time.",
+      "filing_date": "20110305",
+      "publication_date": "20130530",
+      "technology_categories": [
+        "telecommunications"
+      ],
+      "risk_level": "HIGH",
+      "verification": {
+        "source": "Google BigQuery patents-public-data",
+        "query_timestamp": "2025-09-21T10:34:23.259732",
+        "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'US'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+      }
+    }
+  },
+  {
+    "country": "US",
+    "patent": {
+      "publication_number": "WO-2022222132-A1",
+      "family_id": "76250020",
+      "title": "Ordonnancement d&#39;\u00e9quipement utilisateur de liaison lat\u00e9rale d&#39;un r\u00e9cepteur \u00e0 multiplexage par r\u00e9partition spatiale avec plusieurs points de r\u00e9ception-transmission",
+      "abstract": "Methods and devices for wireless communications are described. A first user equipment (UE) may establish a first sidelink connection with a second UE and a second sidelink connection with a third UE. The first UE may receive an indication of a first set of transmission resources for the second UE to use to transmit to the first UE. The first UE may transmit an indication of a second set of transmission resources for the second UE to use to transmit to the first UE, the second set of transmission resources identified by the first UE based at least in part on comparing signals received using the first transmission reception point with signals received using the second transmission reception point. The first UE may receive a data message from the second UE on the second set of transmission resources.",
+      "filing_date": "20210423",
+      "publication_date": "20221027",
+      "technology_categories": [
+        "telecommunications"
+      ],
+      "risk_level": "HIGH",
+      "verification": {
+        "source": "Google BigQuery patents-public-data",
+        "query_timestamp": "2025-09-21T10:34:23.284886",
+        "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'US'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+      }
+    }
+  },
+  {
+    "country": "DE",
+    "patent": {
+      "publication_number": "WO-2023222186-A1",
+      "family_id": "82021158",
+      "title": "Power control for wireless communication devices and methods",
+      "abstract": "Est divulgu\u00e9 un point d&#39;acc\u00e8s, AP, de partage (110) configur\u00e9 pour partager au moins une partie d&#39;une opportunit\u00e9 de transmission, TXOP, avec au moins un AP partag\u00e9 (130) dans un ensemble Multi-AP, M-AP, afin de participer \u00e0 une transmission coordonn\u00e9e, au moins une station OBSS non AP (140a-c) \u00e9tant associ\u00e9e \u00e0 l&#39;AP partag\u00e9 (130). L&#39;AP de partage (110) comprend un circuit de traitement (111) configur\u00e9 pour g\u00e9n\u00e9rer une trame de d\u00e9clenchement et une interface de communication (113) configur\u00e9e pour \u00e9mettre la trame de d\u00e9clenchement (501) vers l&#39;au moins une station OBSS non AP (140a-c) pour d\u00e9clencher une trame de compte-rendu de commande de puissance provenant de l&#39;au moins une station OBSS non AP (140a-c). L&#39;interface de communication (113) est en outre configur\u00e9e pour recevoir la trame de compte-rendu de commande de puissance provenant de l&#39;au moins une station OBSS non AP (140a-c), la trame de compte-rendu de commande de puissance comprenant des informations de commande de puissance associ\u00e9es \u00e0 l&#39;au moins une station OBSS non AP (140a-c) pour ajuster la puissance d&#39;\u00e9mission de l&#39;au moins une station OBSS non AP par l&#39;AP de partage (110).",
+      "filing_date": "20220516",
+      "publication_date": "20231123",
+      "technology_categories": [
+        "telecommunications"
+      ],
+      "risk_level": "HIGH",
+      "verification": {
+        "source": "Google BigQuery patents-public-data",
+        "query_timestamp": "2025-09-21T10:34:28.608740",
+        "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+      }
+    }
+  },
+  {
+    "country": "DE",
+    "patent": {
+      "publication_number": "WO-2019201459-A1",
+      "family_id": "62028006",
+      "title": "Dispositif de transmission et dispositif de r\u00e9ception pour communications sans fil",
+      "abstract": "The present invention presents a transmitting device and receiving device for wireless communications, particularly for V2X or CITS communications. The transmitting device is configured to determine more than one transmission for transmitting a packet, and transmit the packet to a receiving device and/or a group of receiving devices using the determined transmissions. The receiving device is configured to receive a packet in more than one transmission from a transmitting device, and combine the transmissions to obtain the packet. The invention relates also to corresponding transmitting and receiving methods.",
+      "filing_date": "20180925",
+      "publication_date": "20191024",
+      "technology_categories": [
+        "telecommunications"
+      ],
+      "risk_level": "HIGH",
+      "verification": {
+        "source": "Google BigQuery patents-public-data",
+        "query_timestamp": "2025-09-21T10:34:28.615213",
+        "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+      }
+    }
+  },
+  {
+    "country": "JP",
+    "patent": {
+      "publication_number": "WO-2017028746-A1",
+      "family_id": "58050783",
+      "title": "\u65e0\u7ebf\u901a\u4fe1\u7cfb\u7edf\u4e2d\u7684\u88c5\u7f6e\u548c\u65b9\u6cd5",
+      "abstract": "Disclosed is a device and a method in a wireless communication system, and the device comprises: a transmitting unit configured to transmit a first allocation signal synthesized by use of the superimposed coding to plenty of user equipment at least comprising a first and a second user equipment, and the first allocation signal at least comprising a first power signal part for the first user equipment and a second power signal part for the second user equipment; a receiving unit configured to receive at least a feedback retransmission request from the first and the second user equipment; and a processing unit configured to process the first and the second power signal parts with a preset processing coefficient to obtain a second allocation signal in response to the retransmission request, and the transmitting unit is further configured to transmit the second allocation signal to the first and the second user equipment which merge the first and the second allocation signals in order to separately obtain the data for the first and the second user equipment.",
+      "filing_date": "20160812",
+      "publication_date": "20170223",
+      "technology_categories": [
+        "telecommunications"
+      ],
+      "risk_level": "HIGH",
+      "verification": {
+        "source": "Google BigQuery patents-public-data",
+        "query_timestamp": "2025-09-21T10:34:33.180073",
+        "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'JP'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+      }
+    }
+  },
+  {
+    "country": "JP",
+    "patent": {
+      "publication_number": "KR-20200108880-A",
+      "family_id": "67219382",
+      "title": "Ue \ubc0f ue\uc758 \ud1b5\uc2e0 \uc81c\uc5b4 \ubc29\ubc95",
+      "abstract": "\ub124\ud2b8\uc6cc\ud06c(NW)\uac00 \ubcf5\uc218\uc758 \ud63c\uc7a1 \uc81c\uc5b4\ub4e4\uc744 \uc801\uc6a9\ud558\ub294 \uacbd\uc6b0\uc5d0, \ubc31-\uc624\ud504 \ud0c0\uc774\uba38(\uc138\uc158 \uad00\ub9ac(SM) \ud0c0\uc774\uba38)\uc640 \ud568\uaed8 \ub2e4\uc591\ud55c \uc885\ub958\ub4e4\uc758 \ud63c\uc7a1 \uc81c\uc5b4 \uc2dd\ubcc4 \uc815\ubcf4\uac00 \ud1b5\uc9c0\ub418\uc5b4, \ub2e8\ub9d0\uae30 \uc7a5\uce58(UE)\uac00 NW\uc5d0 \uc758\ud574 \uc608\uc0c1\ub418\ub294 \ud63c\uc7a1 \uc81c\uc5b4\ub97c \uc801\uc6a9\ud560 \uc218 \uc788\ub3c4\ub85d \ud55c\ub2e4.  \ub300\uc548\uc73c\ub85c, UE\uac00 \ubc31-\uc624\ud504 \ud0c0\uc774\uba38\uac00 \ud65c\uc131\ud654\ub41c \ucc44\ub85c NW \uac1c\uc2dc SM \uc694\uccad\uc744 \uc218\uc2e0\ud55c \uacbd\uc6b0\uc5d0, UE\ub294 NW \uac1c\uc2dc SM \uc694\uccad\uc5d0 \uc758\ud574 \uc758\ub3c4\ub41c SM \ud0c0\uc774\uba38\ub97c \uc2dd\ubcc4\ud558\ub3c4\ub85d \ud5c8\uc6a9\ub41c\ub2e4.  \ub300\uc548\uc73c\ub85c, UE\uac00 \ubc31-\uc624\ud504 \ud0c0\uc774\uba38\uac00 \ud65c\uc131\ud654\ub41c \ucc44\ub85c NW \uac1c\uc2dc SM \uc694\uccad\uc744 \uc218\uc2e0\ud55c \uacbd\uc6b0\uc5d0, UE\ub294 \ud65c\uc131\ud654\ub41c \ubc31-\uc624\ud504 \ud0c0\uc774\uba38 \ubc0f \uc801\uc6a9\ub420 \ud63c\uc7a1 \uc81c\uc5b4\uc758 \uc5f0\uad00\uc131\uc744 \ubcc0\uacbd\ud558\ub3c4\ub85d \ud5c8\uc6a9\ub41c\ub2e4.  \ub530\ub77c\uc11c, \ub2e8\ub9d0\uae30\uac00, \ubcf5\uc218\uc758 \ud63c\uc7a1 \uc81c\uc5b4\ub4e4\uc744 \uc801\uc6a9\ud558\ub294 5G \ud63c\uc7a1 \uc81c\uc5b4\uc5d0\uc11c NW\uc5d0 \uc758\ud574 \uc801\uc6a9\ub418\ub294 \ud63c\uc7a1 \uc81c\uc5b4\ub4e4 \uc911 NW\uc5d0 \uc758\ud574 \uc608\uc0c1\ub418\ub294 \ud63c\uc7a1 \uc81c\uc5b4\ub97c \uc801\uc6a9\ud558\uae30 \uc704\ud55c \ud1b5\uc2e0 \uc81c\uc5b4 \ubc29\ubc95\uc774 \uc81c\uacf5\ub41c\ub2e4.",
+      "filing_date": "20190111",
+      "publication_date": "20200921",
+      "technology_categories": [
+        "telecommunications"
+      ],
+      "risk_level": "HIGH",
+      "verification": {
+        "source": "Google BigQuery patents-public-data",
+        "query_timestamp": "2025-09-21T10:34:33.198588",
+        "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'JP'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+      }
+    }
+  },
+  {
+    "country": "JP",
+    "patent": {
+      "publication_number": "US-2018309494-A1",
+      "family_id": "58661601",
+      "title": "Wireless communication method and wireless communication device",
+      "abstract": "A wireless communication method and a wireless communication device. The wireless communication device includes: one or more processors, configured to generate multiple data flows, the multiple data flows being transmitted to one or more receivers through the first quantity of radio frequency links; and to configure an antenna control parameter, the antenna control parameter being used for dynamically allocating the second quantity of antennas to the first quantity of radio frequency links. The one or more processors configure the antenna control parameter for transmission to be performed, and any one of the second quantity of antennas can be allocated to any one of the first quantity of radio frequency links in a configurable manner.",
+      "filing_date": "20160728",
+      "publication_date": "20181025",
+      "technology_categories": [
+        "telecommunications"
+      ],
+      "risk_level": "HIGH",
+      "verification": {
+        "source": "Google BigQuery patents-public-data",
+        "query_timestamp": "2025-09-21T10:34:33.201634",
+        "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'JP'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+      }
+    }
+  }
+]

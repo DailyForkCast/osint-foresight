@@ -1,0 +1,48 @@
+{
+  "cik": "0001099160",
+  "ticker": "BBGI",
+  "name": "BEASLEY BROADCAST GROUP INC",
+  "detection_reasons": [
+    "offshore:bm",
+    "vie_structure"
+  ],
+  "sic": "4832",
+  "sicDescription": "Radio Broadcasting Stations",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "650960915",
+  "phone": "9412635000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3033 RIVIERA DRIVE",
+      "street2": "SUITE 200",
+      "city": "NAPLES",
+      "stateOrCountry": "FL",
+      "zipCode": "34103",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3033 RIVIERA DRIVE",
+      "street2": "SUITE 200",
+      "city": "NAPLES",
+      "stateOrCountry": "FL",
+      "zipCode": "34103",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-13"
+  },
+  "filings_count": 1000
+}

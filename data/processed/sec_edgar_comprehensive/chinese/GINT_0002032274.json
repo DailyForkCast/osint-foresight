@@ -1,0 +1,44 @@
+{
+  "cik": "0002032274",
+  "ticker": "GINT",
+  "name": "Gifts International Holdings Ltd",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "5900",
+  "sicDescription": "Retail-Miscellaneous Retail",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "D8",
+  "ein": "000000000",
+  "phone": "(852) 9220 5201",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT A&B, 7/F., FUK CHIU FACTORY BLDG",
+      "street2": "NO.20 BUTE STREET",
+      "city": "MONGKOK, KOWLOON",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "UNIT A&B, 7/F., FUK CHIU FACTORY BLDG",
+      "street2": "NO.20 BUTE STREET",
+      "city": "MONGKOK, KOWLOON",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 14
+}

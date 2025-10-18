@@ -1,0 +1,229 @@
+{
+  "entity": "Huawei",
+  "search_terms": [
+    "Huawei",
+    "华为",
+    "Huawei Technologies"
+  ],
+  "variants_tested": {
+    "Huawei": {
+      "exact_match": [
+        "Huawei"
+      ],
+      "case_insensitive": [
+        "huawei",
+        "HUAWEI"
+      ],
+      "pinyin_variants": [],
+      "simplified_traditional": [],
+      "acronym_expansion": [],
+      "partial_match": [
+        "Huawe",
+        "uawei",
+        "aw"
+      ],
+      "fuzzy_match": [
+        "uHawei",
+        "Hauwei",
+        "Huwaei"
+      ],
+      "transliteration": [
+        "Hua-wei",
+        "Hwawei",
+        "Huawey"
+      ],
+      "common_typos": [
+        "Huswei",
+        "Huqwei",
+        "Huawri"
+      ],
+      "alternate_names": [
+        "Huawei Technologies",
+        "Huawei Tech"
+      ],
+      "historical_names": []
+    },
+    "华为": {
+      "exact_match": [
+        "华为"
+      ],
+      "case_insensitive": [
+        "华为",
+        "华为"
+      ],
+      "pinyin_variants": [
+        "huawei",
+        "hua wei"
+      ],
+      "simplified_traditional": [
+        "華为"
+      ],
+      "acronym_expansion": [],
+      "partial_match": [],
+      "fuzzy_match": [],
+      "transliteration": [],
+      "common_typos": [],
+      "alternate_names": [],
+      "historical_names": []
+    },
+    "Huawei Technologies": {
+      "exact_match": [
+        "Huawei Technologies"
+      ],
+      "case_insensitive": [
+        "huawei technologies",
+        "HUAWEI TECHNOLOGIES"
+      ],
+      "pinyin_variants": [],
+      "simplified_traditional": [],
+      "acronym_expansion": [],
+      "partial_match": [
+        "Huawe",
+        "ogies",
+        "awei Technologi"
+      ],
+      "fuzzy_match": [
+        "uHawei Technologies",
+        "Hauwei Technologies",
+        "Huwaei Technologies"
+      ],
+      "transliteration": [],
+      "common_typos": [
+        "Huswei Technologies",
+        "Huqwei Technologies",
+        "Huawri Technologies"
+      ],
+      "alternate_names": [],
+      "historical_names": []
+    }
+  },
+  "detections": [
+    {
+      "term": "Huawei",
+      "found_in": [],
+      "variant_matches": {
+        "exact_match": [
+          {
+            "variant": "Huawei",
+            "sample_snippet": "{\"original_path\": \"f:\\\\osint_data\\\\standards\\\\ieee_standards_info_20250917.json\", \"profile\": {\"path\": \"f:\\\\osint_data\\\\standards\\\\ieee_standards_info_20250917.json\", \"size\": 424, \"extension\": \".json\","
+          },
+          {
+            "variant": "Huawei",
+            "sample_snippet": "{\"original_path\": \"f:\\\\osint_data\\\\fusion_results\\\\sweden_fusion_20250917_053737.json\", \"profile\": {\"path\": \"f:\\\\osint_data\\\\fusion_results\\\\sweden_fusion_20250917_053737.json\", \"size\": 2138, \"extensi"
+          }
+        ],
+        "case_insensitive": [
+          {
+            "variant": "huawei",
+            "sample_snippet": "{\"original_path\": \"f:\\\\osint_data\\\\standards\\\\ieee_standards_info_20250917.json\", \"profile\": {\"path\": \"f:\\\\osint_data\\\\standards\\\\ieee_standards_info_20250917.json\", \"size\": 424, \"extension\": \".json\","
+          },
+          {
+            "variant": "huawei",
+            "sample_snippet": "{\"original_path\": \"f:\\\\osint_data\\\\fusion_results\\\\sweden_fusion_20250917_053737.json\", \"profile\": {\"path\": \"f:\\\\osint_data\\\\fusion_results\\\\sweden_fusion_20250917_053737.json\", \"size\": 2138, \"extensi"
+          },
+          {
+            "variant": "HUAWEI",
+            "sample_snippet": "{\"original_path\": \"f:\\\\osint_data\\\\standards\\\\ieee_standards_info_20250917.json\", \"profile\": {\"path\": \"f:\\\\osint_data\\\\standards\\\\ieee_standards_info_20250917.json\", \"size\": 424, \"extension\": \".json\","
+          },
+          {
+            "variant": "HUAWEI",
+            "sample_snippet": "{\"original_path\": \"f:\\\\osint_data\\\\fusion_results\\\\sweden_fusion_20250917_053737.json\", \"profile\": {\"path\": \"f:\\\\osint_data\\\\fusion_results\\\\sweden_fusion_20250917_053737.json\", \"size\": 2138, \"extensi"
+          }
+        ],
+        "partial_match": [
+          {
+            "variant": "Huawe",
+            "sample_snippet": "{\"original_path\": \"f:\\\\osint_data\\\\standards\\\\ieee_standards_info_20250917.json\", \"profile\": {\"path\": \"f:\\\\osint_data\\\\standards\\\\ieee_standards_info_20250917.json\", \"size\": 424, \"extension\": \".json\","
+          },
+          {
+            "variant": "Huawe",
+            "sample_snippet": "{\"original_path\": \"f:\\\\osint_data\\\\fusion_results\\\\sweden_fusion_20250917_053737.json\", \"profile\": {\"path\": \"f:\\\\osint_data\\\\fusion_results\\\\sweden_fusion_20250917_053737.json\", \"size\": 2138, \"extensi"
+          },
+          {
+            "variant": "uawei",
+            "sample_snippet": "{\"original_path\": \"f:\\\\osint_data\\\\standards\\\\ieee_standards_info_20250917.json\", \"profile\": {\"path\": \"f:\\\\osint_data\\\\standards\\\\ieee_standards_info_20250917.json\", \"size\": 424, \"extension\": \".json\","
+          },
+          {
+            "variant": "uawei",
+            "sample_snippet": "{\"original_path\": \"f:\\\\osint_data\\\\fusion_results\\\\sweden_fusion_20250917_053737.json\", \"profile\": {\"path\": \"f:\\\\osint_data\\\\fusion_results\\\\sweden_fusion_20250917_053737.json\", \"size\": 2138, \"extensi"
+          },
+          {
+            "variant": "aw",
+            "sample_snippet": "{\"original_path\": \"f:\\\\osint_data\\\\usaspending_fixed_analysis.db\", \"profile\": {\"path\": \"f:\\\\osint_data\\\\usaspending_fixed_analysis.db\", \"size\": 48267264, \"extension\": \".db\", \"encoding\": \"unknown\", \"li"
+          },
+          {
+            "variant": "aw",
+            "sample_snippet": "{\"original_path\": \"f:\\\\osint_data\\\\osint_master.db\", \"profile\": {\"path\": \"f:\\\\osint_data\\\\osint_master.db\", \"size\": 233472, \"extension\": \".db\", \"encoding\": \"unknown\", \"line_count\": 415, \"field_count\":"
+          },
+          {
+            "variant": "aw",
+            "sample_snippet": "{\"original_path\": \"f:\\\\osint_data\\\\openaire_production_comprehensive\\\\openaire_production.db\", \"profile\": {\"path\": \"f:\\\\osint_data\\\\openaire_production_comprehensive\\\\openaire_production.db\", \"size\": "
+          },
+          {
+            "variant": "aw",
+            "sample_snippet": "{\"original_path\": \"f:\\\\osint_data\\\\opensanctions\\\\raw_data\\\\jp_mof_sanctions\\\\20250921_targets.nested.json\", \"profile\": {\"path\": \"f:\\\\osint_data\\\\opensanctions\\\\raw_data\\\\jp_mof_sanctions\\\\20250921_ta"
+          },
+          {
+            "variant": "aw",
+            "sample_snippet": "{\"original_path\": \"f:\\\\osint_data\\\\standards\\\\ieee_standards_info_20250917.json\", \"profile\": {\"path\": \"f:\\\\osint_data\\\\standards\\\\ieee_standards_info_20250917.json\", \"size\": 424, \"extension\": \".json\","
+          },
+          {
+            "variant": "aw",
+            "sample_snippet": "{\"original_path\": \"f:\\\\osint_data\\\\fusion_results\\\\sweden_fusion_20250917_053737.json\", \"profile\": {\"path\": \"f:\\\\osint_data\\\\fusion_results\\\\sweden_fusion_20250917_053737.json\", \"size\": 2138, \"extensi"
+          },
+          {
+            "variant": "aw",
+            "sample_snippet": "{\"original_path\": \"f:\\\\osint_data\\\\opensanctions\\\\raw_data\\\\us_ofac_sdn\\\\20250921_targets.simple.csv\", \"profile\": {\"path\": \"f:\\\\osint_data\\\\opensanctions\\\\raw_data\\\\us_ofac_sdn\\\\20250921_targets.simpl"
+          },
+          {
+            "variant": "aw",
+            "sample_snippet": "{\"original_path\": \"f:\\\\osint_data\\\\opensanctions\\\\raw_data\\\\au_dfat_sanctions\\\\20250921_targets.nested.json\", \"profile\": {\"path\": \"f:\\\\osint_data\\\\opensanctions\\\\raw_data\\\\au_dfat_sanctions\\\\20250921_"
+          },
+          {
+            "variant": "aw",
+            "sample_snippet": "{\"original_path\": \"f:\\\\osint_data\\\\opensanctions\\\\raw_data\\\\us_trade_csl\\\\20250921_targets.nested.json\", \"profile\": {\"path\": \"f:\\\\osint_data\\\\opensanctions\\\\raw_data\\\\us_trade_csl\\\\20250921_targets.ne"
+          }
+        ]
+      },
+      "total_matches": 19
+    },
+    {
+      "term": "华为",
+      "found_in": [],
+      "variant_matches": {
+        "pinyin_variants": [
+          {
+            "variant": "huawei",
+            "sample_snippet": "{\"original_path\": \"f:\\\\osint_data\\\\standards\\\\ieee_standards_info_20250917.json\", \"profile\": {\"path\": \"f:\\\\osint_data\\\\standards\\\\ieee_standards_info_20250917.json\", \"size\": 424, \"extension\": \".json\","
+          },
+          {
+            "variant": "huawei",
+            "sample_snippet": "{\"original_path\": \"f:\\\\osint_data\\\\fusion_results\\\\sweden_fusion_20250917_053737.json\", \"profile\": {\"path\": \"f:\\\\osint_data\\\\fusion_results\\\\sweden_fusion_20250917_053737.json\", \"size\": 2138, \"extensi"
+          }
+        ]
+      },
+      "total_matches": 2
+    },
+    {
+      "term": "Huawei Technologies",
+      "found_in": [],
+      "variant_matches": {
+        "partial_match": [
+          {
+            "variant": "Huawe",
+            "sample_snippet": "{\"original_path\": \"f:\\\\osint_data\\\\standards\\\\ieee_standards_info_20250917.json\", \"profile\": {\"path\": \"f:\\\\osint_data\\\\standards\\\\ieee_standards_info_20250917.json\", \"size\": 424, \"extension\": \".json\","
+          },
+          {
+            "variant": "Huawe",
+            "sample_snippet": "{\"original_path\": \"f:\\\\osint_data\\\\fusion_results\\\\sweden_fusion_20250917_053737.json\", \"profile\": {\"path\": \"f:\\\\osint_data\\\\fusion_results\\\\sweden_fusion_20250917_053737.json\", \"size\": 2138, \"extensi"
+          },
+          {
+            "variant": "ogies",
+            "sample_snippet": "{\"original_path\": \"f:\\\\osint_data\\\\osint_master.db\", \"profile\": {\"path\": \"f:\\\\osint_data\\\\osint_master.db\", \"size\": 233472, \"extension\": \".db\", \"encoding\": \"unknown\", \"line_count\": 415, \"field_count\":"
+          }
+        ]
+      },
+      "total_matches": 3
+    }
+  ]
+}

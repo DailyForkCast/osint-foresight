@@ -1,0 +1,47 @@
+{
+  "cik": "0001733257",
+  "ticker": "FNCH",
+  "name": "Finch Therapeutics Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2836",
+  "sicDescription": "Biological Products, (No Diagnostic Substances)",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "823433558",
+  "phone": "617-229-6499",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "75 STATE STREET",
+      "street2": "SUITE 100",
+      "city": "BOSTON",
+      "stateOrCountry": "MA",
+      "zipCode": "02109",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "75 STATE STREET",
+      "street2": "SUITE 100",
+      "city": "BOSTON",
+      "stateOrCountry": "MA",
+      "zipCode": "02109",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2024-10-21"
+  },
+  "filings_count": 173
+}

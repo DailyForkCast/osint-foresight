@@ -1,0 +1,47 @@
+{
+  "cik": "0001043150",
+  "ticker": "EEGI",
+  "name": "Eline Entertainment Group, Inc.",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "1520",
+  "sicDescription": "General Bldg Contractors - Residential Bldgs",
+  "category": "Non-accelerated filer<br>Smaller reporting company<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "WY",
+  "ein": "880429856",
+  "phone": "852-3703-6155",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "113, TOWER 2, LIPPO CENTRE",
+      "street2": "89 QUEENSWAY",
+      "city": "ADMIRALTY",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "113, TOWER 2, LIPPO CENTRE",
+      "street2": "89 QUEENSWAY",
+      "city": "ADMIRALTY",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-14"
+  },
+  "filings_count": 169
+}

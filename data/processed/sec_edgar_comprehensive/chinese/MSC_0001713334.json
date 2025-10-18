@@ -1,0 +1,47 @@
+{
+  "cik": "0001713334",
+  "ticker": "MSC",
+  "name": "STUDIO CITY INTERNATIONAL HOLDINGS Ltd",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "7011",
+  "sicDescription": "Hotels & Motels",
+  "category": "Accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "D8",
+  "ein": "000000000",
+  "phone": "85225983600",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "C/O 38/F, THE CENTRIUM",
+      "street2": "60 WYNDHAM STREET",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "C/O 38/F, THE CENTRIUM",
+      "street2": "60 WYNDHAM STREET",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-16"
+  },
+  "filings_count": 200
+}

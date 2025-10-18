@@ -1,0 +1,633 @@
+{
+  "timestamp": "2025-09-19T19:46:03.813087",
+  "massive_datasets": {
+    "F:/OSINT_Backups/openalex/": {
+      "name": "OpenAlex Academic Data",
+      "expected_gb": 422,
+      "contains": "200M+ papers, 157k Germany-China collaborations",
+      "critical_for": "Phase 2 (Technology), Phase 5 (Collaboration)",
+      "status": "UNPROCESSED",
+      "actual_gb": 420.6640846217051,
+      "exists": true,
+      "sample_files": [
+        "F:/OSINT_Backups/openalex/RELEASE_NOTES.txt",
+        "F:/OSINT_Backups/openalex/README.txt",
+        "F:/OSINT_Backups/openalex/LICENSE.txt",
+        "F:/OSINT_Backups/openalex/browse.html"
+      ]
+    },
+    "F:/TED_Data/": {
+      "name": "TED Europa Procurement",
+      "expected_gb": 23,
+      "contains": "10 years EU procurement data (2015-2024)",
+      "critical_for": "Phase 2S (Supply Chain), Phase 4 (Funding)",
+      "status": "UNPROCESSED",
+      "actual_gb": 24.196435377933085,
+      "exists": true,
+      "sample_files": [
+        "F:/TED_Data/monthly\\2024\\TED_monthly_2024_08.tar.gz",
+        "F:/TED_Data/monthly\\2024\\TED_monthly_2024_12.tar.gz",
+        "F:/TED_Data/monthly\\2024\\TED_monthly_2024_11.tar.gz",
+        "F:/TED_Data/monthly\\2024\\TED_monthly_2024_10.tar.gz",
+        "F:/TED_Data/monthly\\2024\\TED_monthly_2024_01.tar.gz"
+      ]
+    },
+    "F:/OSINT_DATA/": {
+      "name": "Multi-source OSINT Collection",
+      "contains": "USPTO, SEC EDGAR, EPO patents",
+      "critical_for": "Phase 2 (Technology), Phase 3 (Institutions)",
+      "status": "PARTIALLY_PROCESSED",
+      "actual_gb": 0.17121608182787895,
+      "exists": true,
+      "sample_files": [
+        "F:/OSINT_DATA/collection_tracking.db",
+        "F:/OSINT_DATA/integrated_data.db"
+      ]
+    },
+    "F:/2025-09-14 Horizons/": {
+      "name": "CORDIS EU Projects",
+      "contains": "18,265 EU-funded projects",
+      "critical_for": "Phase 4 (Funding), Phase 5 (Collaboration)",
+      "status": "PARTIAL_EXTRACTION",
+      "actual_gb": 0.1856568418443203,
+      "exists": true,
+      "sample_files": [
+        "F:/2025-09-14 Horizons/cordis-HORIZONreports-json.zip",
+        "F:/2025-09-14 Horizons/cordis-HORIZONprojectPublications-json.zip",
+        "F:/2025-09-14 Horizons/cordis-HORIZONprojects-json (1).zip",
+        "F:/2025-09-14 Horizons/cordis-HORIZONprojectDeliverables-json.zip",
+        "F:/2025-09-14 Horizons/cordis-h2020projects-json.zip"
+      ]
+    },
+    "F:/OSINT_Backups/ted/": {
+      "name": "TED Backup Archive",
+      "contains": "Historical TED data",
+      "critical_for": "Phase 2S (Supply Chain)",
+      "status": "UNKNOWN",
+      "exists": false,
+      "actual_gb": 0
+    }
+  },
+  "orphaned_collectors": [
+    {
+      "path": "src\\collectors\\chinese_perspective_analyzer.py",
+      "name": "chinese_perspective_analyzer",
+      "type": "collector",
+      "likely_purpose": "Chinese viewpoint analysis",
+      "used": false
+    },
+    {
+      "path": "src\\collectors\\comparative_collaboration_analyzer.py",
+      "name": "comparative_collaboration_analyzer",
+      "type": "collector",
+      "likely_purpose": "Cross-country comparison",
+      "used": false
+    },
+    {
+      "path": "src\\collectors\\comparative_collaboration_analyzer_v2.py",
+      "name": "comparative_collaboration_analyzer_v2",
+      "type": "collector",
+      "likely_purpose": "Cross-country comparison",
+      "used": false
+    },
+    {
+      "path": "src\\collectors\\conference_harvester.py",
+      "name": "conference_harvester",
+      "type": "collector",
+      "likely_purpose": "Conference and event data",
+      "used": false
+    },
+    {
+      "path": "src\\collectors\\conference_intelligence_system.py",
+      "name": "conference_intelligence_system",
+      "type": "collector",
+      "likely_purpose": "Conference and event data",
+      "used": false
+    },
+    {
+      "path": "src\\collectors\\cordis_italy_collector.py",
+      "name": "cordis_italy_collector",
+      "type": "collector",
+      "likely_purpose": "EU-funded projects",
+      "used": false
+    },
+    {
+      "path": "src\\collectors\\crossref_event_analyzer.py",
+      "name": "crossref_event_analyzer",
+      "type": "collector",
+      "likely_purpose": "Academic citations",
+      "used": false
+    },
+    {
+      "path": "src\\collectors\\epo_patent_analyzer.py",
+      "name": "epo_patent_analyzer",
+      "type": "collector",
+      "likely_purpose": "European patents",
+      "used": false
+    },
+    {
+      "path": "src\\collectors\\eurostat_trade_analyzer.py",
+      "name": "eurostat_trade_analyzer",
+      "type": "collector",
+      "likely_purpose": "Trade flow analysis",
+      "used": false
+    },
+    {
+      "path": "src\\collectors\\gleif_ownership_tracker.py",
+      "name": "gleif_ownership_tracker",
+      "type": "collector",
+      "likely_purpose": "Legal entity identifiers",
+      "used": false
+    },
+    {
+      "path": "src\\collectors\\improved_collaboration_analyzer.py",
+      "name": "improved_collaboration_analyzer",
+      "type": "collector",
+      "likely_purpose": "Unknown purpose",
+      "used": false
+    },
+    {
+      "path": "src\\collectors\\oecd_rd_collector.py",
+      "name": "oecd_rd_collector",
+      "type": "collector",
+      "likely_purpose": "Unknown purpose",
+      "used": false
+    },
+    {
+      "path": "src\\collectors\\oecd_statistics_analyzer.py",
+      "name": "oecd_statistics_analyzer",
+      "type": "collector",
+      "likely_purpose": "Unknown purpose",
+      "used": false
+    },
+    {
+      "path": "src\\collectors\\openaire_client.py",
+      "name": "openaire_client",
+      "type": "collector",
+      "likely_purpose": "Unknown purpose",
+      "used": false
+    },
+    {
+      "path": "src\\collectors\\openalex_italy_collector.py",
+      "name": "openalex_italy_collector",
+      "type": "collector",
+      "likely_purpose": "Academic papers and collaborations",
+      "used": false
+    },
+    {
+      "path": "src\\collectors\\patent_outcome_analyzer.py",
+      "name": "patent_outcome_analyzer",
+      "type": "collector",
+      "likely_purpose": "Unknown purpose",
+      "used": false
+    },
+    {
+      "path": "src\\collectors\\regional_university_verifier.py",
+      "name": "regional_university_verifier",
+      "type": "collector",
+      "likely_purpose": "Unknown purpose",
+      "used": false
+    },
+    {
+      "path": "src\\collectors\\sec_edgar_analyzer.py",
+      "name": "sec_edgar_analyzer",
+      "type": "collector",
+      "likely_purpose": "US corporate filings",
+      "used": false
+    },
+    {
+      "path": "src\\collectors\\semantic_scholar_tracker.py",
+      "name": "semantic_scholar_tracker",
+      "type": "collector",
+      "likely_purpose": "Unknown purpose",
+      "used": false
+    },
+    {
+      "path": "src\\collectors\\standards_role_normalizer.py",
+      "name": "standards_role_normalizer",
+      "type": "collector",
+      "likely_purpose": "Technical standards",
+      "used": false
+    },
+    {
+      "path": "src\\collectors\\ted_italy_analyzer.py",
+      "name": "ted_italy_analyzer",
+      "type": "collector",
+      "likely_purpose": "EU procurement data",
+      "used": false
+    },
+    {
+      "path": "src\\collectors\\ted_italy_collector.py",
+      "name": "ted_italy_collector",
+      "type": "collector",
+      "likely_purpose": "EU procurement data",
+      "used": false
+    },
+    {
+      "path": "src\\collectors\\un_comtrade_analyzer.py",
+      "name": "un_comtrade_analyzer",
+      "type": "collector",
+      "likely_purpose": "Trade flow analysis",
+      "used": false
+    },
+    {
+      "path": "src\\collectors\\usaspending_italy_analyzer.py",
+      "name": "usaspending_italy_analyzer",
+      "type": "collector",
+      "likely_purpose": "Unknown purpose",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\commoncrawl_pull.py",
+      "name": "commoncrawl_pull",
+      "type": "pull",
+      "likely_purpose": "Unknown purpose",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\comtrade_pull.py",
+      "name": "comtrade_pull",
+      "type": "pull",
+      "likely_purpose": "Trade flow analysis",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\cordis_pull.py",
+      "name": "cordis_pull",
+      "type": "pull",
+      "likely_purpose": "EU-funded projects",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\crossref_event_pull.py",
+      "name": "crossref_event_pull",
+      "type": "pull",
+      "likely_purpose": "Academic citations",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\crossref_pull.py",
+      "name": "crossref_pull",
+      "type": "pull",
+      "likely_purpose": "Academic citations",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\demo_data_collection.py",
+      "name": "demo_data_collection",
+      "type": "pull",
+      "likely_purpose": "Unknown purpose",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\euipo_client.py",
+      "name": "euipo_client",
+      "type": "pull",
+      "likely_purpose": "Unknown purpose",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\eurostat_pull.py",
+      "name": "eurostat_pull",
+      "type": "pull",
+      "likely_purpose": "European statistics",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\gleif_pull.py",
+      "name": "gleif_pull",
+      "type": "pull",
+      "likely_purpose": "Legal entity identifiers",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\ietf_pull.py",
+      "name": "ietf_pull",
+      "type": "pull",
+      "likely_purpose": "Unknown purpose",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\master_pull_orchestrator.py",
+      "name": "master_pull_orchestrator",
+      "type": "pull",
+      "likely_purpose": "Unknown purpose",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\oecd_pull.py",
+      "name": "oecd_pull",
+      "type": "pull",
+      "likely_purpose": "Unknown purpose",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\openaire_pull.py",
+      "name": "openaire_pull",
+      "type": "pull",
+      "likely_purpose": "Unknown purpose",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\opencorporates_pull.py",
+      "name": "opencorporates_pull",
+      "type": "pull",
+      "likely_purpose": "Unknown purpose",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\patents_pull.py",
+      "name": "patents_pull",
+      "type": "pull",
+      "likely_purpose": "Unknown purpose",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\ror_client.py",
+      "name": "ror_client",
+      "type": "pull",
+      "likely_purpose": "Unknown purpose",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\standards_apis_client.py",
+      "name": "standards_apis_client",
+      "type": "pull",
+      "likely_purpose": "Technical standards",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\ted_api_client.py",
+      "name": "ted_api_client",
+      "type": "pull",
+      "likely_purpose": "EU procurement data",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\ted_bulk_download.py",
+      "name": "ted_bulk_download",
+      "type": "pull",
+      "likely_purpose": "EU procurement data",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\ted_bulk_download_auto.py",
+      "name": "ted_bulk_download_auto",
+      "type": "pull",
+      "likely_purpose": "EU procurement data",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\ted_bulk_download_historical.py",
+      "name": "ted_bulk_download_historical",
+      "type": "pull",
+      "likely_purpose": "EU procurement data",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\ted_pull.py",
+      "name": "ted_pull",
+      "type": "pull",
+      "likely_purpose": "EU procurement data",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\ted_simple_search.py",
+      "name": "ted_simple_search",
+      "type": "pull",
+      "likely_purpose": "EU procurement data",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\test_ted_download.py",
+      "name": "test_ted_download",
+      "type": "pull",
+      "likely_purpose": "EU procurement data",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\tsdr_client.py",
+      "name": "tsdr_client",
+      "type": "pull",
+      "likely_purpose": "Unknown purpose",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\uspto_bulk_downloader.py",
+      "name": "uspto_bulk_downloader",
+      "type": "pull",
+      "likely_purpose": "US patents",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\uspto_client.py",
+      "name": "uspto_client",
+      "type": "pull",
+      "likely_purpose": "US patents",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\uspto_env_client.py",
+      "name": "uspto_env_client",
+      "type": "pull",
+      "likely_purpose": "US patents",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\uspto_open_data_client.py",
+      "name": "uspto_open_data_client",
+      "type": "pull",
+      "likely_purpose": "US patents",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\uspto_patentsearch_client.py",
+      "name": "uspto_patentsearch_client",
+      "type": "pull",
+      "likely_purpose": "US patents",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\uspto_simple_client.py",
+      "name": "uspto_simple_client",
+      "type": "pull",
+      "likely_purpose": "US patents",
+      "used": false
+    },
+    {
+      "path": "src\\pulls\\worldbank_pull.py",
+      "name": "worldbank_pull",
+      "type": "pull",
+      "likely_purpose": "Unknown purpose",
+      "used": false
+    }
+  ],
+  "configured_apis": {
+    "# API tokens (copy to .env and fill in as needed)": "CONFIGURED (value hidden)",
+    "OPENCORP_TOKEN": "CONFIGURED (value hidden)",
+    "EPO_CONSUMER_KEY": "CONFIGURED (value hidden)",
+    "# TED Europe API Configuration": "CONFIGURED (value hidden)",
+    "TED_API_KEY": "CONFIGURED (value hidden)",
+    "TED_API_BASE_URL": "CONFIGURED (value hidden)",
+    "TED_API_VERSION": "CONFIGURED (value hidden)",
+    "# USPTO PatentSearch API Configuration": "CONFIGURED (value hidden)",
+    "USPTO_API_KEY": "CONFIGURED (value hidden)",
+    "USPTO_API_TYPE": "CONFIGURED (value hidden)",
+    "# USPTO Open Data Portal API Configuration": "CONFIGURED (value hidden)",
+    "# Add your USPTO Open Data Portal API key here": "CONFIGURED (value hidden)",
+    "USPTO_OPEN_DATA_API_KEY": "CONFIGURED (value hidden)",
+    "config_api_specifications": "config\\api_specifications.yaml",
+    "config_citation_standards": "config\\citation_standards.yaml",
+    "config_data_sources_regional": "config\\data_sources_regional.yaml",
+    "config_fusion_config": "config\\fusion_config.yaml",
+    "config_MASTER_COUNTRY_LIST": "config\\MASTER_COUNTRY_LIST.yaml",
+    "config_models": "config\\models.yaml",
+    "config_multilingual_search_terms": "config\\multilingual_search_terms.yaml",
+    "config_national_statistics_offices": "config\\national_statistics_offices.yaml",
+    "config_pull_configuration": "config\\pull_configuration.yaml",
+    "config_sources": "config\\sources.yaml",
+    "config_TARGET_COUNTRIES_V6": "config\\TARGET_COUNTRIES_V6.yaml",
+    "config_temporal_awareness_requirements": "config\\temporal_awareness_requirements.yaml",
+    "config_thinktank_sources": "config\\thinktank_sources.yaml",
+    "config_uspto_config": "config\\uspto_config.yaml"
+  },
+  "unused_scripts": [
+    "scripts\\apac_thinktank_test.py",
+    "scripts\\arctic_institute_investigation.py",
+    "scripts\\bulk_data_collector.py",
+    "scripts\\ceias_deep_investigation.py",
+    "scripts\\ceias_simple_investigation.py",
+    "scripts\\collect_italian_data.py",
+    "scripts\\compile_all_findings.py",
+    "scripts\\comprehensive_china_tech_harvester.py",
+    "scripts\\comprehensive_thinktank_investigation.py",
+    "scripts\\convert_all_phase_docs.py",
+    "scripts\\convert_md_to_docx.py",
+    "scripts\\create_comprehensive_italy_report.py",
+    "scripts\\create_italy_comprehensive_report.py",
+    "scripts\\create_master_document.py",
+    "scripts\\download_ted_historical.py",
+    "scripts\\download_ted_historical_v2.py",
+    "scripts\\download_ted_historical_v3.py",
+    "scripts\\emergency_inventory.py",
+    "scripts\\eu_thinktank_quick_test.py",
+    "scripts\\eu_thinktank_scan.py",
+    "scripts\\harvest_tracking_peoples_daily.py",
+    "scripts\\ifri_deep_investigation.py",
+    "scripts\\italy_comprehensive_rework.py",
+    "scripts\\italy_full_rework.py",
+    "scripts\\italy_us_overlap_analyzer.py",
+    "scripts\\lens_api_client.py",
+    "scripts\\manual_source_test.py",
+    "scripts\\organize_improvements.py",
+    "scripts\\process_cordis_data.py",
+    "scripts\\process_italy_cordis.py",
+    "scripts\\quick_cordis_analysis.py",
+    "scripts\\quick_ted_analysis.py",
+    "scripts\\quick_thinktank_scan.py",
+    "scripts\\reinvestigate_missing_tanks.py",
+    "scripts\\ted_download_2011_2014.py",
+    "scripts\\ted_download_simple.py",
+    "scripts\\temporal_compliance_audit.py",
+    "scripts\\test_trademark_apis.py",
+    "scripts\\test_uspto_api.py",
+    "scripts\\tracking_peoples_daily_monitor.py",
+    "scripts\\update_harvester_with_discoveries.py",
+    "scripts\\usaspending_collector.py",
+    "scripts\\validate_phase_output.py",
+    "scripts\\analysis\\bigquery_schema_test.py",
+    "scripts\\analysis\\broader_context_investigator.py",
+    "scripts\\analysis\\bulk_data_germany_analyzer.py",
+    "scripts\\analysis\\cfius_mitigation_investigator.py",
+    "scripts\\analysis\\cross_reference_analyzer.py",
+    "scripts\\analysis\\germany_analysis_pipeline.py",
+    "scripts\\analysis\\investigation_evidence_hunter.py",
+    "scripts\\analysis\\italy_comprehensive_analysis.py",
+    "scripts\\analysis\\italy_data_gap_analyzer.py",
+    "scripts\\analysis\\itar_china_connection_analyzer.py",
+    "scripts\\analysis\\leonardo_china_evidence_collector.py",
+    "scripts\\analysis\\leonardo_corporate_structure_analyzer.py",
+    "scripts\\analysis\\leonardo_counterargument_response_strategy.py",
+    "scripts\\analysis\\leonardo_detailed_analyzer.py",
+    "scripts\\analysis\\leonardo_media_coverage_analyzer.py",
+    "scripts\\analysis\\leonardo_potential_defenses_analyzer.py",
+    "scripts\\analysis\\openalex_germany_processor.py",
+    "scripts\\analysis\\openalex_immediate_processor.py",
+    "scripts\\analysis\\openalex_italy_comprehensive.py",
+    "scripts\\analysis\\openalex_manual_test.py",
+    "scripts\\analysis\\openalex_quick_sampler.py",
+    "scripts\\analysis\\openalex_scheduled_processor.py",
+    "scripts\\analysis\\ted_italy_comprehensive_analyzer.py",
+    "scripts\\analysis\\ted_quick_analyzer.py",
+    "scripts\\analysis\\uspto_italy_china_analyzer.py",
+    "scripts\\archive\\archive_prompts.py",
+    "scripts\\archive\\claude_code_patch_src_analysis_phase_2_landscape.py",
+    "scripts\\collectors\\enhanced_source_collector.py",
+    "scripts\\collectors\\master_source_collector.py",
+    "scripts\\collectors\\openalex_germany_collector.py",
+    "scripts\\data_pull\\master_data_pull.py",
+    "scripts\\data_pull\\pull_national_statistics.py",
+    "scripts\\demos\\demo_commoncrawl_simple.py",
+    "scripts\\exploitation\\cross_reference_leonardo.py",
+    "scripts\\exploitation\\fpds_leonardo_extractor.py",
+    "scripts\\exploitation\\italy_us_master_collector.py",
+    "scripts\\exploitation\\leonardo_china_investigation.py",
+    "scripts\\exploitation\\mit_politecnico_researcher_mapper.py",
+    "scripts\\exploitation\\sec_edgar_italian_analyzer.py",
+    "scripts\\exploitation\\visualize_leonardo_contracts.py",
+    "scripts\\extractors\\extract_ted_germany_contracts.py",
+    "scripts\\fixes\\standardize_confidence_scales.py",
+    "scripts\\fixes\\uspto_monitoring_fixes.py",
+    "scripts\\fusion\\comprehensive_data_integrator.py",
+    "scripts\\fusion\\germany_fusion_integration.py",
+    "scripts\\fusion\\master_fusion_integrator.py",
+    "scripts\\processing\\existing_data_processor.py",
+    "scripts\\processing\\openalex_bulk_processor.py",
+    "scripts\\processing\\ted_batch_processor.py",
+    "scripts\\processing\\uspto_bulk_downloader.py",
+    "scripts\\production\\production_data_collector.py",
+    "scripts\\security\\access_control_reviewer.py",
+    "scripts\\security\\dual_use_technology_auditor.py",
+    "scripts\\security\\export_control_compliance_auditor.py",
+    "scripts\\security\\leonardo_contract_security_review.py",
+    "scripts\\security\\personnel_background_investigator.py",
+    "scripts\\security\\supply_chain_security_assessor.py",
+    "scripts\\utils\\analyze_project_structure.py",
+    "scripts\\utils\\auto_organize.py",
+    "scripts\\utils\\check_root_files.py",
+    "scripts\\utils\\reorganize_project.py",
+    "scripts\\validation\\audit_reworked_italy.py",
+    "scripts\\validation\\fusion_validation_suite.py",
+    "scripts\\validation\\phase_audit_executor.py"
+  ],
+  "data_reality_check": {
+    "what_we_have": {
+      "openalex": "422GB of academic papers (UNUSED)",
+      "ted": "23GB of EU procurement (UNUSED)",
+      "cordis": "18,265 EU projects (PARTIAL)",
+      "uspto": "Patent data collected (UNUSED)",
+      "sec_edgar": "Corporate filings available (UNUSED)",
+      "collectors": "56 sophisticated collectors (UNUSED)"
+    },
+    "what_we_use": {
+      "manual_searches": "Ad-hoc Google searches",
+      "chatgpt": "LLM-based analysis",
+      "limited_apis": "Occasional API calls",
+      "documents": "Lots of documentation"
+    },
+    "what_we_need": {
+      "phase_0": "Historical context - HAVE IN OPENALEX",
+      "phase_1": "Data sources - HAVE CONFIGURED",
+      "phase_2": "Technology landscape - HAVE 422GB OPENALEX",
+      "phase_2s": "Supply chain - HAVE 23GB TED",
+      "phase_3": "Institutions - HAVE IN OPENALEX/CORDIS",
+      "phase_4": "Funding - HAVE IN CORDIS",
+      "phase_5": "Collaboration - HAVE IN OPENALEX",
+      "phase_6": "Risk data - CAN DERIVE FROM ABOVE",
+      "phase_7c": "MCF indicators - CAN EXTRACT FROM ABOVE",
+      "phase_8": "Projections - NEED ANALYSIS OF ABOVE"
+    },
+    "the_absurdity": "We have ALL the data needed but use NONE of it"
+  },
+  "total_unused_gb": 445.2173929233104
+}

@@ -1,0 +1,52 @@
+{
+  "path": "F:\\OSINT_DATA\\uspto_monitoring\\uspto_monitoring_20250916_223628.json",
+  "size": 818,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 1,
+  "field_count": 5,
+  "parse_status": "success",
+  "schema": {
+    "monitoring_session": "string",
+    "entities_monitored": "object",
+    "total_new_patents": "number",
+    "total_china_collaborations": "number",
+    "api_status_summary": "object"
+  },
+  "sample_records": [
+    {
+      "monitoring_session": "2025-09-16T22:36:19.927669",
+      "entities_monitored": {
+        "leonardo": {
+          "entity": "leonardo",
+          "timestamp": "2025-09-16T22:36:19.927669",
+          "new_patents": [],
+          "china_collaborations": [],
+          "monitoring_success": true
+        },
+        "italy_defense": {
+          "entity": "italy_defense",
+          "timestamp": "2025-09-16T22:36:25.142643",
+          "new_patents": [],
+          "china_collaborations": [],
+          "monitoring_success": true
+        }
+      },
+      "total_new_patents": 0,
+      "total_china_collaborations": 0,
+      "api_status_summary": {
+        "USPTO_OData": {
+          "available": false,
+          "last_success": null,
+          "error_count": 14
+        },
+        "USPTO_TSDR": {
+          "available": false,
+          "last_success": null,
+          "error_count": 14
+        }
+      }
+    }
+  ],
+  "modified": "2025-09-16T22:36:30"
+}

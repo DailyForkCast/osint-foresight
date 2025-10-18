@@ -1,0 +1,167 @@
+{
+  "generated": "2025-09-25T15:09:36.652646",
+  "total_inventory": {
+    "original_compressed": {
+      "size_gb": 956,
+      "locations": 5,
+      "files": 5062,
+      "status": "found"
+    },
+    "after_first_decompression": {
+      "size_gb": 232.34,
+      "files": 96,
+      "location": "F:/DECOMPRESSED_DATA",
+      "status": "partial"
+    },
+    "after_second_decompression": {
+      "size_gb": 255.88,
+      "files": 98,
+      "additional_extracted": 8.34,
+      "status": "expanded"
+    },
+    "large_files_pending": {
+      "count": 10,
+      "compressed_size_gb": 100,
+      "estimated_uncompressed_gb": 500,
+      "status": "pending"
+    }
+  },
+  "accessible_data": {
+    "fully_parsed": {
+      "json_cordis": {
+        "files": 21,
+        "size_gb": 1.09,
+        "parse_rate": 95.2,
+        "content": "CORDIS/Horizon projects and publications",
+        "status": "ready"
+      },
+      "postgres_usaspending": {
+        "files": 45,
+        "rows": 9397541,
+        "tables": 75,
+        "content": "Financial transactions, contracts, grants",
+        "date_range": "2019-2025",
+        "status": "ready"
+      }
+    },
+    "partially_accessible": {
+      "large_json": {
+        "files": 1,
+        "size_gb": 51.27,
+        "format": "json",
+        "samples_extracted": 100,
+        "content": "Unknown - needs full extraction",
+        "status": "sampled"
+      },
+      "large_tsv": {
+        "files": 2,
+        "size_gb": 107.25,
+        "format": "tsv",
+        "samples_extracted": 200,
+        "content": "Tabular data - needs streaming parse",
+        "status": "sampled"
+      }
+    },
+    "inaccessible": {
+      "large_gz_unsampled": {
+        "files": 7,
+        "compressed_size_gb": 70.6,
+        "reason": "Not yet processed",
+        "status": "pending"
+      },
+      "postgres_large_tables": {
+        "files": 8,
+        "size_gb": 15,
+        "reason": "Files >100MB skipped",
+        "status": "pending"
+      },
+      "unknown_binary": {
+        "files": 13,
+        "reason": "Unidentified binary format",
+        "status": "unknown"
+      }
+    }
+  },
+  "parsing_capabilities": {
+    "total_files": 98,
+    "successfully_parsed": 69,
+    "parse_rate": 70.4,
+    "data_accessible_gb": 1.5,
+    "rows_extracted": 9397541,
+    "parser_types": {
+      "json_parser": "Native Python - 95.2% success",
+      "postgres_parser": "Custom COPY format - 68% success",
+      "streaming_parser": "Memory-efficient - handles 60GB+ files",
+      "smart_decompressor": "Nested archive handler - 80% success"
+    }
+  },
+  "data_categories": {
+    "research_data": {
+      "cordis_horizon": {
+        "description": "EU research projects and publications",
+        "temporal": "2014-2027",
+        "geographic": "European Union + partners",
+        "accessibility": "fully_accessible",
+        "china_relevance": "collaboration analysis possible"
+      }
+    },
+    "financial_data": {
+      "usaspending": {
+        "description": "US federal spending data",
+        "temporal": "2019-2025",
+        "geographic": "United States",
+        "accessibility": "mostly_accessible",
+        "china_relevance": "contractor and vendor analysis",
+        "data_points": "9.4M transactions"
+      }
+    },
+    "unknown_large": {
+      "compressed_archives": {
+        "description": "Very large compressed datasets",
+        "size": "229GB compressed",
+        "format": "Mixed (JSON, TSV)",
+        "accessibility": "requires_infrastructure",
+        "china_relevance": "unknown"
+      }
+    },
+    "metadata": {
+      "ted_data": {
+        "description": "European procurement data (inferred)",
+        "accessibility": "not_yet_extracted",
+        "location": "F:/TED_Data"
+      }
+    }
+  },
+  "accessibility_summary": {
+    "immediately_accessible": {
+      "percentage": 0.16,
+      "size_gb": 1.49,
+      "description": "JSON and PostgreSQL data ready for analysis",
+      "includes": [
+        "CORDIS/Horizon projects",
+        "USASpending transactions",
+        "9.4M structured records"
+      ]
+    },
+    "accessible_with_processing": {
+      "percentage": 16.58,
+      "size_gb": 158.5,
+      "description": "Large files requiring dedicated processing",
+      "requirements": [
+        "Cloud infrastructure for 60GB+ files",
+        "PostgreSQL instance for full DB restore",
+        "Overnight processing for decompression"
+      ]
+    },
+    "currently_inaccessible": {
+      "percentage": 83.26,
+      "size_gb": 796.01,
+      "description": "Compressed or unprocessed data",
+      "barriers": [
+        "Time constraints for decompression",
+        "Unknown binary formats",
+        "Infrastructure limitations"
+      ]
+    }
+  }
+}

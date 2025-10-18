@@ -1,0 +1,47 @@
+{
+  "cik": "0001275101",
+  "ticker": "BOTJ",
+  "name": "BANK OF THE JAMES FINANCIAL GROUP INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6022",
+  "sicDescription": "State Commercial Banks",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "VA",
+  "ein": "200500300",
+  "phone": "4348462000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": null,
+      "street2": null,
+      "city": null,
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "P O BOX 1200",
+      "street2": null,
+      "city": "LYNCHBURG",
+      "stateOrCountry": "VA",
+      "zipCode": "24505",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-20"
+  },
+  "filings_count": 729
+}

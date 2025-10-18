@@ -1,0 +1,548 @@
+{
+  "original_path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\by_country\\SG_china\\collaborations_20250921_124455.json",
+  "profile": {
+    "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\by_country\\SG_china\\collaborations_20250921_124455.json",
+    "size": 1620031,
+    "extension": ".json",
+    "encoding": "utf-8",
+    "line_count": 908,
+    "field_count": 13,
+    "parse_status": "success",
+    "schema": {
+      "paper_id": "string",
+      "doi": "string",
+      "title": "string",
+      "publication_year": "number",
+      "countries_collaborating": "array",
+      "institutions": "object",
+      "authors_by_country": "object",
+      "technology_categories": "array",
+      "collaboration_patterns": "array",
+      "temporal_context": "object",
+      "verification": "object",
+      "risk_assessment": "object",
+      "partner_country": "string"
+    },
+    "sample_records": [
+      {
+        "paper_id": "https://openalex.org/W3048421505",
+        "doi": "https://doi.org/10.48550/arxiv.2008.04743",
+        "title": "Scalable and Communication-efficient Decentralized Federated Edge Learning with Multi-blockchain Framework",
+        "publication_year": 2020,
+        "countries_collaborating": [
+          "AU",
+          "CA",
+          "CN",
+          "SG"
+        ],
+        "institutions": {
+          "AU": [
+            "Monash University"
+          ],
+          "SG": [
+            "National University of Singapore",
+            "Nanyang Technological University"
+          ],
+          "CA": [
+            "BC Research (Canada)"
+          ],
+          "CN": [
+            "Wuhan University of Technology",
+            "Tsinghua University"
+          ]
+        },
+        "authors_by_country": {
+          "AU": [
+            "Yi Liu (Monash University)"
+          ],
+          "SG": [
+            "Jiawen Kang (Nanyang Technological University)",
+            "Chunyan Miao (National University of Singapore)",
+            "Dusit Niyato (National University of Singapore)"
+          ],
+          "CA": [
+            "Cyril Leung (BC Research (Canada))"
+          ],
+          "CN": [
+            "Yang Zhang (Wuhan University of Technology)",
+            "Chunxiao Jiang (Tsinghua University)"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "trade_war_2020_2021",
+          "year": 2020,
+          "pre_bri_baseline": false,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_000.gz",
+          "line_number": 1,
+          "extraction_command": "sed -n '1p' part_000.gz | jq '.title'",
+          "paper_hash": "8d076a53960e5636"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "SG"
+      },
+      {
+        "paper_id": "https://openalex.org/W2370960987",
+        "doi": null,
+        "title": "PREPARATION AND PROPERTY EVALUATION OF Pb(II) ION-IMPRINTED COMPOSITE MEMBRANES",
+        "publication_year": 2012,
+        "countries_collaborating": [
+          "CN",
+          "SG"
+        ],
+        "institutions": {
+          "SG": [
+            "Chemical Synthesis Lab"
+          ],
+          "CN": [
+            "Zhejiang University"
+          ]
+        },
+        "authors_by_country": {
+          "SG": [
+            "Moe Key (Chemical Synthesis Lab)"
+          ],
+          "CN": [
+            "Moe Key (Zhejiang University)"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "pre_bri_baseline_2000_2012",
+          "year": 2012,
+          "pre_bri_baseline": true,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_000.gz",
+          "line_number": 619,
+          "extraction_command": "sed -n '619p' part_000.gz | jq '.title'",
+          "paper_hash": "fb5c22d7d9a29281"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "SG"
+      },
+      {
+        "paper_id": "https://openalex.org/W2101308520",
+        "doi": "https://doi.org/10.1109/cpem.1998.699745",
+        "title": "A data processing method for measurement with time-drift factors and its application in AC/DC transfer standard",
+        "publication_year": 2002,
+        "countries_collaborating": [
+          "CN",
+          "SG"
+        ],
+        "institutions": {
+          "SG": [
+            "Standards, Productivity and Innovation Board"
+          ],
+          "CN": [
+            "National Institute of Metrology"
+          ]
+        },
+        "authors_by_country": {
+          "SG": [
+            "H.A. Chua (Standards, Productivity and Innovation Board)",
+            "C.K. Ang (Standards, Productivity and Innovation Board)",
+            "L.X. Liu (Standards, Productivity and Innovation Board)"
+          ],
+          "CN": [
+            "Z.L. Lu (National Institute of Metrology)",
+            "Z.H. Zhang (National Institute of Metrology)"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "pre_bri_baseline_2000_2012",
+          "year": 2002,
+          "pre_bri_baseline": true,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_000.gz",
+          "line_number": 72365,
+          "extraction_command": "sed -n '72365p' part_000.gz | jq '.title'",
+          "paper_hash": "2e19badd23aa7ede"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "SG"
+      },
+      {
+        "paper_id": "https://openalex.org/W2398516307",
+        "doi": null,
+        "title": "A calorimetric method for studying the interaction between water and proton exchange membranes",
+        "publication_year": 2013,
+        "countries_collaborating": [
+          "CN",
+          "SG"
+        ],
+        "institutions": {
+          "SG": [
+            "Chemical Synthesis Lab"
+          ],
+          "CN": [
+            "China Building Materials Academy"
+          ]
+        },
+        "authors_by_country": {
+          "SG": [
+            "Patric Jannasch (Chemical Synthesis Lab)"
+          ],
+          "CN": [
+            "Alva Thorell (China Building Materials Academy)",
+            "Lars Wads\u00f6 (China Building Materials Academy)"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "bri_launch_2013_2016",
+          "year": 2013,
+          "pre_bri_baseline": false,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_000.gz",
+          "line_number": 235050,
+          "extraction_command": "sed -n '235050p' part_000.gz | jq '.title'",
+          "paper_hash": "c89e616835f7d7f9"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "SG"
+      },
+      {
+        "paper_id": "https://openalex.org/W2388217887",
+        "doi": null,
+        "title": "Study and manufacture of individual protective articles for radio interventional operaters",
+        "publication_year": 2000,
+        "countries_collaborating": [
+          "CN",
+          "SG"
+        ],
+        "institutions": {
+          "SG": [
+            "Academy of Medicine"
+          ],
+          "CN": [
+            "Shandong Academy of Chinese Medicine"
+          ]
+        },
+        "authors_by_country": {
+          "SG": [
+            "Danfeng Zhang (Academy of Medicine)"
+          ],
+          "CN": [
+            "Danfeng Zhang (Shandong Academy of Chinese Medicine)"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "pre_bri_baseline_2000_2012",
+          "year": 2000,
+          "pre_bri_baseline": true,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_000.gz",
+          "line_number": 608290,
+          "extraction_command": "sed -n '608290p' part_000.gz | jq '.title'",
+          "paper_hash": "ed106cd593736533"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "SG"
+      }
+    ],
+    "modified": "2025-09-21T12:45:17.614608"
+  },
+  "sample_data": [
+    {
+      "paper_id": "https://openalex.org/W3048421505",
+      "doi": "https://doi.org/10.48550/arxiv.2008.04743",
+      "title": "Scalable and Communication-efficient Decentralized Federated Edge Learning with Multi-blockchain Framework",
+      "publication_year": 2020,
+      "countries_collaborating": [
+        "AU",
+        "CA",
+        "CN",
+        "SG"
+      ],
+      "institutions": {
+        "AU": [
+          "Monash University"
+        ],
+        "SG": [
+          "National University of Singapore",
+          "Nanyang Technological University"
+        ],
+        "CA": [
+          "BC Research (Canada)"
+        ],
+        "CN": [
+          "Wuhan University of Technology",
+          "Tsinghua University"
+        ]
+      },
+      "authors_by_country": {
+        "AU": [
+          "Yi Liu (Monash University)"
+        ],
+        "SG": [
+          "Jiawen Kang (Nanyang Technological University)",
+          "Chunyan Miao (National University of Singapore)",
+          "Dusit Niyato (National University of Singapore)"
+        ],
+        "CA": [
+          "Cyril Leung (BC Research (Canada))"
+        ],
+        "CN": [
+          "Yang Zhang (Wuhan University of Technology)",
+          "Chunxiao Jiang (Tsinghua University)"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "trade_war_2020_2021",
+        "year": 2020,
+        "pre_bri_baseline": false,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_000.gz",
+        "line_number": 1,
+        "extraction_command": "sed -n '1p' part_000.gz | jq '.title'",
+        "paper_hash": "8d076a53960e5636"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "SG"
+    },
+    {
+      "paper_id": "https://openalex.org/W2370960987",
+      "doi": null,
+      "title": "PREPARATION AND PROPERTY EVALUATION OF Pb(II) ION-IMPRINTED COMPOSITE MEMBRANES",
+      "publication_year": 2012,
+      "countries_collaborating": [
+        "CN",
+        "SG"
+      ],
+      "institutions": {
+        "SG": [
+          "Chemical Synthesis Lab"
+        ],
+        "CN": [
+          "Zhejiang University"
+        ]
+      },
+      "authors_by_country": {
+        "SG": [
+          "Moe Key (Chemical Synthesis Lab)"
+        ],
+        "CN": [
+          "Moe Key (Zhejiang University)"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "pre_bri_baseline_2000_2012",
+        "year": 2012,
+        "pre_bri_baseline": true,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_000.gz",
+        "line_number": 619,
+        "extraction_command": "sed -n '619p' part_000.gz | jq '.title'",
+        "paper_hash": "fb5c22d7d9a29281"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "SG"
+    },
+    {
+      "paper_id": "https://openalex.org/W2101308520",
+      "doi": "https://doi.org/10.1109/cpem.1998.699745",
+      "title": "A data processing method for measurement with time-drift factors and its application in AC/DC transfer standard",
+      "publication_year": 2002,
+      "countries_collaborating": [
+        "CN",
+        "SG"
+      ],
+      "institutions": {
+        "SG": [
+          "Standards, Productivity and Innovation Board"
+        ],
+        "CN": [
+          "National Institute of Metrology"
+        ]
+      },
+      "authors_by_country": {
+        "SG": [
+          "H.A. Chua (Standards, Productivity and Innovation Board)",
+          "C.K. Ang (Standards, Productivity and Innovation Board)",
+          "L.X. Liu (Standards, Productivity and Innovation Board)"
+        ],
+        "CN": [
+          "Z.L. Lu (National Institute of Metrology)",
+          "Z.H. Zhang (National Institute of Metrology)"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "pre_bri_baseline_2000_2012",
+        "year": 2002,
+        "pre_bri_baseline": true,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_000.gz",
+        "line_number": 72365,
+        "extraction_command": "sed -n '72365p' part_000.gz | jq '.title'",
+        "paper_hash": "2e19badd23aa7ede"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "SG"
+    },
+    {
+      "paper_id": "https://openalex.org/W2398516307",
+      "doi": null,
+      "title": "A calorimetric method for studying the interaction between water and proton exchange membranes",
+      "publication_year": 2013,
+      "countries_collaborating": [
+        "CN",
+        "SG"
+      ],
+      "institutions": {
+        "SG": [
+          "Chemical Synthesis Lab"
+        ],
+        "CN": [
+          "China Building Materials Academy"
+        ]
+      },
+      "authors_by_country": {
+        "SG": [
+          "Patric Jannasch (Chemical Synthesis Lab)"
+        ],
+        "CN": [
+          "Alva Thorell (China Building Materials Academy)",
+          "Lars Wads\u00f6 (China Building Materials Academy)"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "bri_launch_2013_2016",
+        "year": 2013,
+        "pre_bri_baseline": false,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_000.gz",
+        "line_number": 235050,
+        "extraction_command": "sed -n '235050p' part_000.gz | jq '.title'",
+        "paper_hash": "c89e616835f7d7f9"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "SG"
+    },
+    {
+      "paper_id": "https://openalex.org/W2388217887",
+      "doi": null,
+      "title": "Study and manufacture of individual protective articles for radio interventional operaters",
+      "publication_year": 2000,
+      "countries_collaborating": [
+        "CN",
+        "SG"
+      ],
+      "institutions": {
+        "SG": [
+          "Academy of Medicine"
+        ],
+        "CN": [
+          "Shandong Academy of Chinese Medicine"
+        ]
+      },
+      "authors_by_country": {
+        "SG": [
+          "Danfeng Zhang (Academy of Medicine)"
+        ],
+        "CN": [
+          "Danfeng Zhang (Shandong Academy of Chinese Medicine)"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "pre_bri_baseline_2000_2012",
+        "year": 2000,
+        "pre_bri_baseline": true,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_000.gz",
+        "line_number": 608290,
+        "extraction_command": "sed -n '608290p' part_000.gz | jq '.title'",
+        "paper_hash": "ed106cd593736533"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "SG"
+    }
+  ]
+}

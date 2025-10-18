@@ -1,0 +1,47 @@
+{
+  "cik": "0001849253",
+  "ticker": "RYAN",
+  "name": "RYAN SPECIALTY HOLDINGS, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6411",
+  "sicDescription": "Insurance Agents, Brokers & Service",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "312-784-6001",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "155 NORTH WACKER DRIVE, SUITE 4000",
+      "street2": null,
+      "city": "CHICAGO",
+      "stateOrCountry": "IL",
+      "zipCode": "60606",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "155 NORTH WACKER DRIVE, SUITE 4000",
+      "street2": null,
+      "city": "CHICAGO",
+      "stateOrCountry": "IL",
+      "zipCode": "60606",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-09"
+  },
+  "filings_count": 463
+}

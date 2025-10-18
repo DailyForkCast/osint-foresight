@@ -1,0 +1,47 @@
+{
+  "cik": "0002016864",
+  "ticker": "MPJS",
+  "name": "MPJS Group Ltd",
+  "detection_reasons": [
+    "location:china",
+    "offshore:hong kong",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "5944",
+  "sicDescription": "Retail-Jewelry Stores",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "K3",
+  "ein": "000000000",
+  "phone": "00852-21519677",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "FLAT 14, 9/F, NAN FUNG COMMERCIAL CENTRE",
+      "street2": "19 LAM LOK STREET, KOWLOON BAY, KOWLOON",
+      "city": "HONG KONG",
+      "stateOrCountry": "F4",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "FLAT 14, 9/F, NAN FUNG COMMERCIAL CENTRE",
+      "street2": "19 LAM LOK STREET, KOWLOON BAY, KOWLOON",
+      "city": "HONG KONG",
+      "stateOrCountry": "F4",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 11
+}

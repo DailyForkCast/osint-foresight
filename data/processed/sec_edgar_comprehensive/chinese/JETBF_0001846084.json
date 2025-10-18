@@ -1,0 +1,47 @@
+{
+  "cik": "0001846084",
+  "ticker": "JETBF",
+  "name": "Global Crossing Airlines Group Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "4512",
+  "sicDescription": "Air Transportation, Scheduled",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "981350261",
+  "phone": "7867518503",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "4200 NW 36TH STREET, BUILDING 5A",
+      "street2": "MIAMI INT'L AIRPORT, 4TH FLOOR",
+      "city": "MIAMI",
+      "stateOrCountry": "FL",
+      "zipCode": "33166",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "4200 NW 36TH STREET, BUILDING 5A",
+      "street2": "MIAMI INT'L AIRPORT, 4TH FLOOR",
+      "city": "MIAMI",
+      "stateOrCountry": "FL",
+      "zipCode": "33166",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-15"
+  },
+  "filings_count": 181
+}

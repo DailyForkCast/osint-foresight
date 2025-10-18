@@ -1,0 +1,52 @@
+{
+  "cik": "0001782037",
+  "ticker": "YGMZ",
+  "name": "MingZhu Logistics Holdings Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:shenzhen",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "4700",
+  "sicDescription": "Transportation Services",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "8675525202831",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "27F YANTIAN MODERN INDUSTRY SERVICE CTR",
+      "street2": "NO. 3018 SHAYAN RD.",
+      "city": "SHENZHEN, GUAGDONG",
+      "stateOrCountry": "F4",
+      "zipCode": "518083",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "27F YANTIAN MODERN INDUSTRY SERVICE CTR",
+      "street2": "NO. 3018 SHAYAN RD.",
+      "city": "SHENZHEN, GUAGDONG",
+      "stateOrCountry": "F4",
+      "zipCode": "518083",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-28"
+  },
+  "filings_count": 156
+}

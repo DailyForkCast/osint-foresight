@@ -1,0 +1,48 @@
+{
+  "cik": "0002053799",
+  "ticker": "KCHVR",
+  "name": "Kochav Defense Acquisition Corp.",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "6770",
+  "sicDescription": "Blank Checks",
+  "category": "Non-accelerated filer<br>Smaller reporting company<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "6462574214",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "307 WEST 38 ST FL 16",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10018",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "307 WEST 38 ST FL 16",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10018",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-14"
+  },
+  "filings_count": 39
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0002020027",
+  "ticker": "CLIK",
+  "name": "Click Holdings Ltd.",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "7361",
+  "sicDescription": "Services-Employment Agencies",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "D8",
+  "ein": "000000000",
+  "phone": "852 3758 2780",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT 709, 7/F., OCEAN CENTRE",
+      "street2": "5 CANTON ROAD",
+      "city": "TSIM SHA TSUI, KOWLOON",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "UNIT 709, 7/F., OCEAN CENTRE",
+      "street2": "5 CANTON ROAD",
+      "city": "TSIM SHA TSUI, KOWLOON",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-07-21"
+  },
+  "filings_count": 47
+}

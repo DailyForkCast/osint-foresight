@@ -1,0 +1,47 @@
+{
+  "cik": "0001089907",
+  "ticker": "SWKH",
+  "name": "SWK Holdings Corp",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6159",
+  "sicDescription": "Miscellaneous Business Credit Institution",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "770435679",
+  "phone": "2142177253",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "5956 SHERRY LANE",
+      "street2": "SUITE 650",
+      "city": "DALLAS",
+      "stateOrCountry": "TX",
+      "zipCode": "75225",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "5956 SHERRY LANE",
+      "street2": "SUITE 650",
+      "city": "DALLAS",
+      "stateOrCountry": "TX",
+      "zipCode": "75225",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-14"
+  },
+  "filings_count": 1000
+}

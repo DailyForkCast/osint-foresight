@@ -1,0 +1,50 @@
+{
+  "cik": "0001650101",
+  "ticker": "ATXG",
+  "name": "ADDENTAX GROUP CORP.",
+  "detection_reasons": [
+    "location:china",
+    "location:shenzhen",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "7330",
+  "sicDescription": "Services-Mailing, Reproduction, Commercial Art & Photography",
+  "category": "Non-accelerated filer<br>Smaller reporting company<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "NV",
+  "ein": "000000000",
+  "phone": "(86) 755 8696 1405",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "KINGKEY 100, BLOCK A, ROOM 4805",
+      "street2": "LUOHU DISTRICT",
+      "city": "SHENZHEN CITY",
+      "stateOrCountry": "F4",
+      "zipCode": "518000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "KINGKEY 100, BLOCK A, ROOM 4805",
+      "street2": "LUOHU DISTRICT",
+      "city": "SHENZHEN CITY",
+      "stateOrCountry": "F4",
+      "zipCode": "518000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-14"
+  },
+  "filings_count": 222
+}

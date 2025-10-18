@@ -1,0 +1,47 @@
+{
+  "cik": "0001418121",
+  "ticker": "APLE",
+  "name": "Apple Hospitality REIT, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6798",
+  "sicDescription": "Real Estate Investment Trusts",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "VA",
+  "ein": "261379210",
+  "phone": "804.344.8121",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "814 EAST MAIN STREET",
+      "street2": null,
+      "city": "RICHMOND",
+      "stateOrCountry": "VA",
+      "zipCode": "23219",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "814 EAST MAIN STREET",
+      "street2": null,
+      "city": "RICHMOND",
+      "stateOrCountry": "VA",
+      "zipCode": "23219",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-08"
+  },
+  "filings_count": 1001
+}

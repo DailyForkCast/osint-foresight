@@ -1,0 +1,65 @@
+{
+  "path": "F:\\OSINT_DATA\\usaspending_remaining.db",
+  "size": 356352,
+  "extension": ".db",
+  "encoding": "unknown",
+  "line_count": 2208,
+  "field_count": 1,
+  "parse_status": "success",
+  "schema": {
+    "contracts": {
+      "row_count": 2208,
+      "columns": [
+        "vendor_name",
+        "vendor_country",
+        "contract_value",
+        "china_signals",
+        "description",
+        "file_source"
+      ]
+    }
+  },
+  "sample_records": [
+    [
+      "INDIVIDUAL RECIPIENT",
+      "GRC",
+      1000.0,
+      "",
+      "DESCRIPTION MASKED FOR PII PURPOSES",
+      "5878.dat.gz"
+    ],
+    [
+      "THE US - ITALY FULBRIGHT COMMISSION",
+      "ITA",
+      1940391.0,
+      "",
+      "OBLIGATION OF ADDITIONAL FY2025 FUNDING (BASE)",
+      "5878.dat.gz"
+    ],
+    [
+      "PRIVATE INDIVIDUAL",
+      "USA",
+      -3.76,
+      "zte",
+      "ENVIRON QUALITY INIT",
+      "5878.dat.gz"
+    ],
+    [
+      "MULTIPLE RECIPIENTS",
+      "NLD",
+      3373.0,
+      "",
+      "AGGREGATE AWARD.  RAILROAD RETIREMENT ACT PENSION RECIPIENT.",
+      "5878.dat.gz"
+    ],
+    [
+      "REDACTED DUE TO PII",
+      "USA",
+      661.0,
+      "dji",
+      "PRICE LOSS COVERAGE PROGRAM",
+      "5878.dat.gz"
+    ]
+  ],
+  "modified": "2025-09-23T13:16:36"
+}

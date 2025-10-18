@@ -1,0 +1,597 @@
+{
+  "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openaire_verified\\HU_china_collaborations_20250922_202621.json",
+  "size": 21713,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 1,
+  "field_count": 6,
+  "parse_status": "success",
+  "schema": {
+    "country": "string",
+    "total_found": "number",
+    "method": "string",
+    "keywords_used": "array",
+    "collection_date": "string",
+    "results": "array"
+  },
+  "sample_records": [
+    {
+      "country": "HU",
+      "total_found": 1,
+      "method": "keyword_search",
+      "keywords_used": [
+        "China",
+        "Chinese",
+        "Beijing",
+        "Shanghai",
+        "Shenzhen",
+        "Guangzhou",
+        "Wuhan",
+        "Chengdu",
+        "Nanjing",
+        "Tianjin"
+      ],
+      "collection_date": "2025-09-22T20:26:21.145767",
+      "results": [
+        {
+          "header": {
+            "dri:objIdentifier": {
+              "$": "doi_dedup___::9414d6858b8e0849fd1a9c63455d90af"
+            },
+            "dri:dateOfCollection": {
+              "$": "2025-08-08T10:09:55.266"
+            },
+            "dri:dateOfTransformation": null
+          },
+          "metadata": {
+            "oaf:entity": {
+              "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+              "oaf:result": {
+                "collectedfrom": [
+                  {
+                    "@name": "Central European University Research Portal",
+                    "@id": "eurocrisdris::ba48dca258a512d430c9417727249ce4"
+                  },
+                  {
+                    "@name": "Crossref",
+                    "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                  },
+                  {
+                    "@name": "Microsoft Academic Graph",
+                    "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                  }
+                ],
+                "originalId": [
+                  {
+                    "$": "10.4324/9781315162461-1"
+                  },
+                  {
+                    "$": "50|doiboost____|9414d6858b8e0849fd1a9c63455d90af"
+                  },
+                  {
+                    "$": "50|dris___02498::5656faf94a97f4107aa0f5dbad962ecd"
+                  },
+                  {
+                    "$": "oai:research.ceu.edu:openaire_cris_publications/66cc4bcc-fe9b-4b83-9283-7c994072d030"
+                  },
+                  {
+                    "$": "2905598802"
+                  }
+                ],
+                "pid": [
+                  {
+                    "@classid": "doi",
+                    "@classname": "Digital Object Identifier",
+                    "@schemeid": "dnet:pid_types",
+                    "@schemename": "dnet:pid_types",
+                    "$": "10.4324/9781315162461-1"
+                  },
+                  {
+                    "@classid": "mag_id",
+                    "@classname": "Microsoft Academic Graph Identifier",
+                    "@schemeid": "dnet:pid_types",
+                    "@schemename": "dnet:pid_types",
+                    "$": 2905598802
+                  }
+                ],
+                "measure": [
+                  {
+                    "@id": "influence",
+                    "@score": "2.8259723E-9",
+                    "@class": "C5"
+                  },
+                  {
+                    "@id": "popularity",
+                    "@score": "3.1862784E-9",
+                    "@class": "C5"
+                  },
+                  {
+                    "@id": "influence_alt",
+                    "@score": "4",
+                    "@class": "C5"
+                  },
+                  {
+                    "@id": "popularity_alt",
+                    "@score": "1.2192",
+                    "@class": "C5"
+                  },
+                  {
+                    "@id": "impulse",
+                    "@score": "2",
+                    "@class": "C5"
+                  }
+                ],
+                "title": [
+                  {
+                    "@classid": "main title",
+                    "@classname": "main title",
+                    "@schemeid": "dnet:dataCite_title",
+                    "@schemename": "dnet:dataCite_title",
+                    "$": "Studying Africa and China"
+                  },
+                  {
+                    "@classid": "main title",
+                    "@classname": "main title",
+                    "@schemeid": "dnet:dataCite_title",
+                    "@schemename": "dnet:dataCite_title",
+                    "$": "studying africa and china"
+                  }
+                ],
+                "bestaccessright": {
+                  "@classid": "UNKNOWN",
+                  "@classname": "unspecified",
+                  "@schemeid": "dnet:access_modes",
+                  "@schemename": "dnet:access_modes"
+                },
+                "creator": [
+                  {
+                    "@rank": "1",
+                    "$": "Daniel Large"
+                  },
+                  {
+                    "@rank": "2",
+                    "$": "Chris Alden"
+                  }
+                ],
+                "country": {
+                  "@classid": "HU",
+                  "@classname": "Hungary",
+                  "@schemeid": "dnet:countries",
+                  "@schemename": "dnet:countries"
+                },
+                "dateofacceptance": {
+                  "$": "2018-07-17"
+                },
+                "language": {
+                  "@classid": "und",
+                  "@classname": "Undetermined",
+                  "@schemeid": "dnet:languages",
+                  "@schemename": "dnet:languages"
+                },
+                "relevantdate": [
+                  {
+                    "@classid": "created",
+                    "@classname": "created",
+                    "@schemeid": "dnet:dataCite_date",
+                    "@schemename": "dnet:dataCite_date",
+                    "$": "2018-12-20"
+                  },
+                  {
+                    "@classid": "published-print",
+                    "@classname": "published-print",
+                    "@schemeid": "dnet:dataCite_date",
+                    "@schemename": "dnet:dataCite_date",
+                    "$": "2018-07-17"
+                  },
+                  {
+                    "@classid": "issued",
+                    "@classname": "issued",
+                    "@schemeid": "dnet:dataCite_date",
+                    "@schemename": "dnet:dataCite_date",
+                    "@inferred": false,
+                    "@provenanceaction": "sysimport:crosswalk:repository",
+                    "@trust": "0.9",
+                    "$": "2018-07-02"
+                  }
+                ],
+                "publisher": {
+                  "$": "Routledge"
+                },
+                "source": [
+                  {
+                    "$": "New Directions in Africa\u2013China Studies ISBN: 9781315162461"
+                  },
+                  {
+                    "$": "Crossref"
+                  }
+                ],
+                "resulttype": {
+                  "@classid": "publication",
+                  "@classname": "publication",
+                  "@schemeid": "dnet:result_typologies",
+                  "@schemename": "dnet:result_typologies"
+                },
+                "resourcetype": {
+                  "@classid": "publication",
+                  "@classname": "publication",
+                  "@schemeid": "dnet:result_typologies",
+                  "@schemename": "dnet:result_typologies"
+                },
+                "isgreen": {
+                  "$": false
+                },
+                "isindiamondjournal": {
+                  "$": false
+                },
+                "publiclyfunded": {
+                  "$": false
+                },
+                "context": {
+                  "@id": "civica",
+                  "@label": "The European University of Social Sciences",
+                  "@type": "community"
+                },
+                "datainfo": {
+                  "inferred": {
+                    "$": true
+                  },
+                  "deletedbyinference": {
+                    "$": false
+                  },
+                  "trust": {
+                    "$": "0.8"
+                  },
+                  "inferenceprovenance": {
+                    "$": "dedup-result-decisiontree-v4"
+                  },
+                  "provenanceaction": {
+                    "@classid": "sysimport:dedup",
+                    "@classname": "Inferred by OpenAIRE",
+                    "@schemeid": "dnet:provenanceActions",
+                    "@schemename": "dnet:provenanceActions"
+                  }
+                },
+                "rels": {
+                  "rel": {
+                    "@inferred": true,
+                    "@trust": "0.85",
+                    "@inferenceprovenance": "propagation",
+                    "@provenanceaction": "result:organization:instrepo",
+                    "to": {
+                      "@class": "hasAuthorInstitution",
+                      "@scheme": "dnet:result_organization_relations",
+                      "@type": "organization",
+                      "$": "openorgs____::d97d9c0ea0cf4e9db0c5f63750024895"
+                    },
+                    "legalname": {
+                      "$": "Central European University"
+                    },
+                    "country": {
+                      "@classid": "HU",
+                      "@classname": "Hungary",
+                      "@schemeid": "dnet:countries",
+                      "@schemename": "dnet:countries"
+                    },
+                    "legalshortname": {
+                      "$": "CEU"
+                    },
+                    "websiteurl": {
+                      "$": "http://www.ceu.edu/"
+                    }
+                  }
+                },
+                "children": {
+                  "result": [
+                    {
+                      "@objidentifier": "dris___02498::5656faf94a97f4107aa0f5dbad962ecd",
+                      "creator": [
+                        {
+                          "$": "Alden, Chris"
+                        },
+                        {
+                          "$": "Large, Daniel"
+                        }
+                      ],
+                      "title": {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "@inferred": false,
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "$": "Studying Africa and China"
+                      },
+                      "instance": {
+                        "accessright": {
+                          "@classid": "UNKNOWN",
+                          "@classname": "unspecified",
+                          "@schemeid": "dnet:access_modes",
+                          "@schemename": "dnet:access_modes"
+                        },
+                        "hostedby": {
+                          "@name": "Central European University Research Portal",
+                          "@id": "eurocrisdris::ba48dca258a512d430c9417727249ce4"
+                        },
+                        "dateofacceptance": {
+                          "$": "2018-07-02"
+                        },
+                        "instancetype": {
+                          "@classid": "0013",
+                          "@classname": "Part of book or chapter of book",
+                          "@schemeid": "dnet:publication_resource",
+                          "@schemename": "dnet:publication_resource"
+                        },
+                        "refereed": {
+                          "@classid": "0002",
+                          "@classname": "nonPeerReviewed",
+                          "@schemeid": "dnet:review_levels",
+                          "@schemename": "dnet:review_levels"
+                        },
+                        "url": [
+                          {
+                            "$": "https://doi.org/10.4324/9781315162461"
+                          },
+                          {
+                            "$": "https://research.ceu.edu/en/publications/66cc4bcc-fe9b-4b83-9283-7c994072d030"
+                          }
+                        ],
+                        "webresource": [
+                          {
+                            "url": {
+                              "$": "https://doi.org/10.4324/9781315162461"
+                            }
+                          },
+                          {
+                            "url": {
+                              "$": "https://research.ceu.edu/en/publications/66cc4bcc-fe9b-4b83-9283-7c994072d030"
+                            }
+                          }
+                        ]
+                      },
+                      "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                      },
+                      "dateofacceptance": {
+                        "$": "2018-07-02"
+                      },
+                      "publisher": {
+                        "$": "Taylor and Francis Inc."
+                      },
+                      "collectedfrom": {
+                        "@name": "Central European University Research Portal",
+                        "@id": "eurocrisdris::ba48dca258a512d430c9417727249ce4"
+                      }
+                    },
+                    {
+                      "@objidentifier": "doi_________::9414d6858b8e0849fd1a9c63455d90af",
+                      "creator": [
+                        {
+                          "$": "Chris Alden"
+                        },
+                        {
+                          "$": "Daniel Large"
+                        }
+                      ],
+                      "dateofacceptance": {
+                        "$": "2018-07-17"
+                      },
+                      "publisher": {
+                        "$": "Routledge"
+                      },
+                      "instance": {
+                        "accessright": {
+                          "@classid": "UNKNOWN",
+                          "@classname": "unspecified",
+                          "@schemeid": "dnet:access_modes",
+                          "@schemename": "dnet:access_modes"
+                        },
+                        "hostedby": {
+                          "@name": "Unknown Repository",
+                          "@id": "openaire____::55045bd2a65019fd8e6741a755395c8c"
+                        },
+                        "dateofacceptance": {
+                          "$": "2018-07-17"
+                        },
+                        "instancetype": {
+                          "@classid": "0013",
+                          "@classname": "Part of book or chapter of book",
+                          "@schemeid": "dnet:publication_resource",
+                          "@schemename": "dnet:publication_resource"
+                        },
+                        "refereed": {
+                          "@classid": "0001",
+                          "@classname": "peerReviewed",
+                          "@schemeid": "dnet:review_levels",
+                          "@schemename": "dnet:review_levels"
+                        },
+                        "url": {
+                          "$": "https://doi.org/10.4324/9781315162461-1"
+                        },
+                        "webresource": {
+                          "url": {
+                            "$": "https://doi.org/10.4324/9781315162461-1"
+                          }
+                        }
+                      },
+                      "pid": {
+                        "@classid": "doi",
+                        "@classname": "Digital Object Identifier",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "$": "10.4324/9781315162461-1"
+                      },
+                      "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                      },
+                      "collectedfrom": {
+                        "@name": "Crossref",
+                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                      },
+                      "title": {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "$": "Studying Africa and China"
+                      }
+                    }
+                  ],
+                  "instance": [
+                    {
+                      "accessright": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "unspecified",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                      },
+                      "collectedfrom": {
+                        "@name": "Microsoft Academic Graph",
+                        "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                      },
+                      "hostedby": {
+                        "@name": "Unknown Repository",
+                        "@id": "openaire____::55045bd2a65019fd8e6741a755395c8c"
+                      },
+                      "instancetype": {
+                        "@classid": "0038",
+                        "@classname": "Other literature type",
+                        "@schemeid": "dnet:publication_resource",
+                        "@schemename": "dnet:publication_resource"
+                      },
+                      "pid": [
+                        {
+                          "@classid": "mag_id",
+                          "@classname": "Microsoft Academic Graph Identifier",
+                          "@schemeid": "dnet:pid_types",
+                          "@schemename": "dnet:pid_types",
+                          "$": 2905598802
+                        },
+                        {
+                          "@classid": "doi",
+                          "@classname": "Digital Object Identifier",
+                          "@schemeid": "dnet:pid_types",
+                          "@schemename": "dnet:pid_types",
+                          "$": "10.4324/9781315162461-1"
+                        }
+                      ],
+                      "refereed": {
+                        "@classid": "0002",
+                        "@classname": "nonPeerReviewed",
+                        "@schemeid": "dnet:review_levels",
+                        "@schemename": "dnet:review_levels"
+                      },
+                      "webresource": {
+                        "url": {
+                          "$": "https://www.taylorfrancis.com/chapters/edit/10.4324/9781315162461-1/studying-africa-china-chris-alden-daniel-large"
+                        }
+                      }
+                    },
+                    {
+                      "accessright": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "unspecified",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                      },
+                      "collectedfrom": {
+                        "@name": "Central European University Research Portal",
+                        "@id": "eurocrisdris::ba48dca258a512d430c9417727249ce4"
+                      },
+                      "hostedby": {
+                        "@name": "Central European University Research Portal",
+                        "@id": "eurocrisdris::ba48dca258a512d430c9417727249ce4"
+                      },
+                      "dateofacceptance": {
+                        "$": "2018-07-02"
+                      },
+                      "instancetype": {
+                        "@classid": "0013",
+                        "@classname": "Part of book or chapter of book",
+                        "@schemeid": "dnet:publication_resource",
+                        "@schemename": "dnet:publication_resource"
+                      },
+                      "alternateidentifier": {
+                        "@classid": "doi",
+                        "@classname": "Digital Object Identifier",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "$": "10.4324/9781315162461"
+                      },
+                      "refereed": {
+                        "@classid": "0002",
+                        "@classname": "nonPeerReviewed",
+                        "@schemeid": "dnet:review_levels",
+                        "@schemename": "dnet:review_levels"
+                      },
+                      "webresource": {
+                        "url": {
+                          "$": "https://doi.org/10.4324/9781315162461"
+                        }
+                      }
+                    },
+                    {
+                      "accessright": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "unspecified",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                      },
+                      "collectedfrom": {
+                        "@name": "Crossref",
+                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                      },
+                      "hostedby": {
+                        "@name": "Unknown Repository",
+                        "@id": "openaire____::55045bd2a65019fd8e6741a755395c8c"
+                      },
+                      "dateofacceptance": {
+                        "$": "2018-07-17"
+                      },
+                      "instancetype": {
+                        "@classid": "0013",
+                        "@classname": "Part of book or chapter of book",
+                        "@schemeid": "dnet:publication_resource",
+                        "@schemename": "dnet:publication_resource"
+                      },
+                      "pid": {
+                        "@classid": "doi",
+                        "@classname": "Digital Object Identifier",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "$": "10.4324/9781315162461-1"
+                      },
+                      "refereed": {
+                        "@classid": "0001",
+                        "@classname": "peerReviewed",
+                        "@schemeid": "dnet:review_levels",
+                        "@schemename": "dnet:review_levels"
+                      },
+                      "webresource": {
+                        "url": {
+                          "$": "https://doi.org/10.4324/9781315162461-1"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "verified_china": true,
+          "detection_method": "targeted_keyword_search",
+          "keyword_used": "China",
+          "country": "HU",
+          "collection_date": "2025-09-22T20:25:38.408037"
+        }
+      ]
+    }
+  ],
+  "modified": "2025-09-22T20:26:21.149338"
+}

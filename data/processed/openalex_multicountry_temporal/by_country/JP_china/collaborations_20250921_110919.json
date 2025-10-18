@@ -1,0 +1,2481 @@
+[
+  {
+    "paper_id": "https://openalex.org/W4292455791",
+    "doi": null,
+    "title": "The influence of climate change on N-cycling microorganisms in soil",
+    "publication_year": 2011,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Institute for Environmental Sciences"
+      ],
+      "CN": [
+        "Institute of Soil Science"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Pascal A. Niklaus (Institute for Environmental Sciences)"
+      ],
+      "CN": [
+        "Ellen Kandeler (Institute of Soil Science)",
+        "Christian Poll (Institute of Soil Science)",
+        "Sven Marhan (Institute of Soil Science)",
+        "Kathleen M. Regan (Institute of Soil Science)",
+        "Daniel Keil (Institute of Soil Science)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2011,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 2,
+      "extraction_command": "sed -n '2p' part_000.gz | jq '.title'",
+      "paper_hash": "9204b5263d7c84e7"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2371021241",
+    "doi": null,
+    "title": "Influence of the essential oil of guava leaves on the feeding behavior of the Asian citrus psyllid",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Zen-Noh (Japan)"
+      ],
+      "CN": [
+        "Jingchu University of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Zhu Hong (Zen-Noh (Japan))"
+      ],
+      "CN": [
+        "Cen Yi (Jingchu University of Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 291,
+      "extraction_command": "sed -n '291p' part_000.gz | jq '.title'",
+      "paper_hash": "5682a67d2d04507f"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2352938787",
+    "doi": null,
+    "title": "Sodium ferulate compound in treating 99 patients with cerebral thrombosis",
+    "publication_year": 1991,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Senshu University"
+      ],
+      "CN": [
+        "Shanghai Ninth People's Hospital"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Shi Yu (Senshu University)"
+      ],
+      "CN": [
+        "Wei Li (Shanghai Ninth People's Hospital)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1991,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 14876,
+      "extraction_command": "sed -n '14876p' part_000.gz | jq '.title'",
+      "paper_hash": "9e9c62382fe61b53"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2050996282",
+    "doi": "https://doi.org/10.1109/icsict.2012.6466750",
+    "title": "Studying the effects of doping minor transition metal elements in Al-Cu-Fe-Mn quasicrystals on the structure and phase change of quasicrystals",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Nara Women's University"
+      ],
+      "CN": [
+        "Zhejiang University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Yazuki Yamamoto (Nara Women's University)"
+      ],
+      "CN": [
+        "Yang Wang (Zhejiang University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 2212,
+      "extraction_command": "sed -n '2212p' part_000.gz | jq '.title'",
+      "paper_hash": "2fab2ed331f18381"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2165499629",
+    "doi": "https://doi.org/10.1109/cleopr.2003.1274601",
+    "title": "Optimization of beat frequency signal between synchronized TI:sapphire and CR:forsteirjte lasers",
+    "publication_year": 2004,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "National Institute of Advanced Industrial Science and Technology"
+      ],
+      "CN": [
+        "Institute of Physics"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Kenji Torizuka (National Institute of Advanced Industrial Science and Technology)",
+        "Y. Kobayashi (National Institute of Advanced Industrial Science and Technology)"
+      ],
+      "CN": [
+        "Zhiyi Wei (Institute of Physics)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2004,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 5620,
+      "extraction_command": "sed -n '5620p' part_000.gz | jq '.title'",
+      "paper_hash": "bfb2b51ee86310a6"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2323945959",
+    "doi": "https://doi.org/10.1142/9789812702623_0020",
+    "title": "PREDICTION OF PHASE EQUILIBRIUM OF PROTEIN AQUEOUS SYSTEM",
+    "publication_year": 2004,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Mitsubishi Materials (Japan)"
+      ],
+      "CN": [
+        "Institute of Process Engineering"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Wei Dai (Mitsubishi Materials (Japan))"
+      ],
+      "CN": [
+        "C. S. LI (Institute of Process Engineering)",
+        "S. J. Zhang (Institute of Process Engineering)",
+        "Xuezhong He (Institute of Process Engineering)",
+        "X. P. ZHANG (Institute of Process Engineering)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2004,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 7930,
+      "extraction_command": "sed -n '7930p' part_000.gz | jq '.title'",
+      "paper_hash": "002b2cdfb1e9f36c"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2324260900",
+    "doi": "https://doi.org/10.1142/9789812702579_0025",
+    "title": "FRAGMENT MASS DISTRIBUTION OF THE <sup>239</sup><font>Pu</font>(<font>d</font>,<font>pf</font>) REACTION VIA THE SUPERDEFORMED β-VIBRATIONAL RESONANCE",
+    "publication_year": 2004,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Japan Atomic Energy Agency"
+      ],
+      "CN": [
+        "Institute of Modern Physics"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "I. Nishinaka (Japan Atomic Energy Agency)",
+        "N. Shinohara (Japan Atomic Energy Agency)",
+        "K. Tsukada (Japan Atomic Energy Agency)",
+        "K. Nishio (Japan Atomic Energy Agency)",
+        "S. Mitsuoka (Japan Atomic Energy Agency)",
+        "Y. Nagame (Japan Atomic Energy Agency)",
+        "H. Ikezoe (Japan Atomic Energy Agency)",
+        "K. Satou (Japan Atomic Energy Agency)",
+        "S. Ichikawa (Japan Atomic Energy Agency)",
+        "M. Asai (Japan Atomic Energy Agency)",
+        "Hiromitsu Haba (Japan Atomic Energy Agency)"
+      ],
+      "CN": [
+        "Lixin Duan (Institute of Modern Physics)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2004,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 7975,
+      "extraction_command": "sed -n '7975p' part_000.gz | jq '.title'",
+      "paper_hash": "56f9650819cb2cd0"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2325406894",
+    "doi": "https://doi.org/10.1142/9789814261579_0098",
+    "title": "CHANGE IN MICROSCOPIC HARDNESS DURING TENSILE PLASTIC DEFORMATION OF POLYCRYSTALLINE ALUMINUM AND TITANIUM",
+    "publication_year": 2009,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "National Institute of Technology, Tsuyama College"
+      ],
+      "CN": [
+        "Panasonic (China)"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Takeji ABE (National Institute of Technology, Tsuyama College)"
+      ],
+      "CN": [
+        "Xiaoqun Wang (Panasonic (China))"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2009,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 8112,
+      "extraction_command": "sed -n '8112p' part_000.gz | jq '.title'",
+      "paper_hash": "c6c11934cdf5ecb6"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2128548690",
+    "doi": "https://doi.org/10.1109/icicic.2006.198",
+    "title": "A Health Check and Prediction System for Lifestyle-Related Disease Prevention",
+    "publication_year": 2006,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Kochi University of Technology"
+      ],
+      "CN": [
+        "Shenyang University of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Shuoyu Wang (Kochi University of Technology)"
+      ],
+      "CN": [
+        "Xia Yu (Shenyang University of Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2006,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 2011,
+      "extraction_command": "sed -n '2011p' part_000.gz | jq '.title'",
+      "paper_hash": "37853decea1eae9e"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2504263091",
+    "doi": "https://doi.org/10.4286/ikakikaigaku.62.8_373",
+    "title": "Development and Evaluation of Automatic Blood Components Separator KL-120",
+    "publication_year": 1992,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Kawasumi Laboratories (Japan)"
+      ],
+      "CN": [
+        "Beijing Red Cross Blood Center"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Masanori Nibu (Kawasumi Laboratories (Japan))",
+        "Hiroomi Ikada (Kawasumi Laboratories (Japan))",
+        "Jun Hirota (Kawasumi Laboratories (Japan))",
+        "Yoshiaki Taruta (Kawasumi Laboratories (Japan))"
+      ],
+      "CN": [
+        "Chihiro Homma (Beijing Red Cross Blood Center)",
+        "Seiji Chiba (Beijing Red Cross Blood Center)",
+        "Tsuneo Takahashi (Beijing Red Cross Blood Center)",
+        "Satoko Nakajo (Beijing Red Cross Blood Center)",
+        "Sadayoshi Sekiguchi (Beijing Red Cross Blood Center)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1992,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_003.gz",
+      "line_number": 24558,
+      "extraction_command": "sed -n '24558p' part_003.gz | jq '.title'",
+      "paper_hash": "bbedbcfaee65ce55"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2372380369",
+    "doi": null,
+    "title": "The study of magnetotelluric sounding on Qushui-Duodi profile in Lhasa basin",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Hagoromo International University"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Shen Xu (Hagoromo International University)"
+      ],
+      "CN": [
+        "Yan Yong (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_002.gz",
+      "line_number": 72936,
+      "extraction_command": "sed -n '72936p' part_002.gz | jq '.title'",
+      "paper_hash": "1654de126e11a03f"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W1912244182",
+    "doi": "https://doi.org/10.2183/pjab1912.9.537",
+    "title": "Is Nomeus a harmless Inquilinus of Physalia?",
+    "publication_year": 1933,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Mitsui (Japan)"
+      ],
+      "CN": [
+        "Marine Biology Institute of Shandong Province"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Kojiro Kato (Mitsui (Japan))"
+      ],
+      "CN": [
+        "Kojiro Kato (Marine Biology Institute of Shandong Province)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1933,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 31122,
+      "extraction_command": "sed -n '31122p' part_000.gz | jq '.title'",
+      "paper_hash": "0019c55cbfa80651"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W7211292",
+    "doi": "https://doi.org/10.1007/978-1-4614-5626-1_20",
+    "title": "Proteomics and Applications to Food Science in Rice",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Institute of Crop Science"
+      ],
+      "CN": [
+        "Wuhan Botanical Garden"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Setsuko Komatsu (Institute of Crop Science)"
+      ],
+      "CN": [
+        "Pingfang Yang (Wuhan Botanical Garden)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_010.gz",
+      "line_number": 92890,
+      "extraction_command": "sed -n '92890p' part_010.gz | jq '.title'",
+      "paper_hash": "19ac38b7dcc1bfef"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2570007777",
+    "doi": "https://doi.org/10.3130/aijs.65.21_5",
+    "title": "OPSERVATIONS OF VARIOUS BLACK PANEL TEMPERATURE : Quantification of thermal degradation environment (Part 4)",
+    "publication_year": 2000,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Building Research Institute"
+      ],
+      "CN": [
+        "Ministry of Housing and Urban-Rural Development"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Norimoto Kashino (Building Research Institute)",
+        "Hitoshi Hamasaki (Building Research Institute)"
+      ],
+      "CN": [
+        "Norimoto Kashino (Ministry of Housing and Urban-Rural Development)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2000,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 5918,
+      "extraction_command": "sed -n '5918p' part_005.gz | jq '.title'",
+      "paper_hash": "98d3deb3fe9432d0"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W4234114949",
+    "doi": "https://doi.org/10.1017/s0022215100062150",
+    "title": "JLO volume 78 issue 4 Cover and Back matter",
+    "publication_year": 1964,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Kajima Corporation (Japan)"
+      ],
+      "CN": [
+        "The Eighth Hospital of Xi'an"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Shigekazu Sato (Kajima Corporation (Japan))",
+        "Jo Ono (Kajima Corporation (Japan))"
+      ],
+      "CN": [
+        "Shigekazu Sato (The Eighth Hospital of Xi'an)",
+        "Jo Ono (The Eighth Hospital of Xi'an)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1964,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_009.gz",
+      "line_number": 27332,
+      "extraction_command": "sed -n '27332p' part_009.gz | jq '.title'",
+      "paper_hash": "89bd1e528c38e47a"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W326754755",
+    "doi": "https://doi.org/10.2172/6734885",
+    "title": "Short-Term Energy Monitoring (STEM): Application of the PSTAR method to a residence in Fredericksburg, Virginia",
+    "publication_year": 1988,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Building Research Institute"
+      ],
+      "CN": [
+        "Beijing Solar Energy Research Institute"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "S. Krishna Prasad (Building Research Institute)"
+      ],
+      "CN": [
+        "S. Krishna Prasad (Beijing Solar Energy Research Institute)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1988,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 10403,
+      "extraction_command": "sed -n '10403p' part_000.gz | jq '.title'",
+      "paper_hash": "eba64884e47437ca"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W4297920336",
+    "doi": "https://doi.org/10.31399/asm.cp.itsc2008p0674",
+    "title": "Microstructures and Oxidation Behavior of Cr39Ni7C Cermet Coatings Oeposited by Diamond Jet Spray Process",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Akashi Medical Center"
+      ],
+      "CN": [
+        "Suzhou Research Institute"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "A. Ohmori (Akashi Medical Center)"
+      ],
+      "CN": [
+        "S.-H. Wu (Suzhou Research Institute)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_006.gz",
+      "line_number": 1423,
+      "extraction_command": "sed -n '1423p' part_006.gz | jq '.title'",
+      "paper_hash": "0e1d8a12f677ddb1"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W4206794733",
+    "doi": "https://doi.org/10.1061/9780872620087.047",
+    "title": "On the Effect of Breakwaters Against Tsunami",
+    "publication_year": 1967,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Port and Airport Research Institute"
+      ],
+      "CN": [
+        "Shanghai Harbour Engineering Design & Research Institute"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Yoshiyuki Ito (Port and Airport Research Institute)"
+      ],
+      "CN": [
+        "Hiromasa Fukuuchi (Shanghai Harbour Engineering Design & Research Institute)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1967,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 76199,
+      "extraction_command": "sed -n '76199p' part_000.gz | jq '.title'",
+      "paper_hash": "65db5054efb94e29"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2571175260",
+    "doi": "https://doi.org/10.3130/aijsx.454.0_127",
+    "title": "DEFORMATION CAPACITY OF REINFORCED CONCRETE COLUMNS UNDER CYCLIC LOADINGS : Deformation capacity beyond flexural yielding of reinforced concrete columns (Part 3)",
+    "publication_year": 1993,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Building Research Institute"
+      ],
+      "CN": [
+        "Ministry of Housing and Urban-Rural Development"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Hisahiro HIRAISHI (Building Research Institute)"
+      ],
+      "CN": [
+        "Hisahiro HIRAISHI (Ministry of Housing and Urban-Rural Development)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1993,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_003.gz",
+      "line_number": 3714,
+      "extraction_command": "sed -n '3714p' part_003.gz | jq '.title'",
+      "paper_hash": "a15297213bb048c6"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2731007903",
+    "doi": "https://doi.org/10.1299/jsmessc.2011.14.121",
+    "title": "C11 Improvement of Low Temperature Differential Multistage Thermoacoustic Engine using a Numerical Calculation : Control of Acoustic Impedance by Expanding the Regenerator",
+    "publication_year": 2011,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Tokai University"
+      ],
+      "CN": [
+        "Kaili University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Shinya HASEGAWA (Tokai University)",
+        "Tomohiro Kaneko (Tokai University)",
+        "Yasuo Oshinoya (Tokai University)",
+        "Tsuyoshi Yamaguchi (Tokai University)"
+      ],
+      "CN": [
+        "Tomohiro Kaneko (Kaili University)",
+        "Shinya HASEGAWA (Kaili University)",
+        "Yasuo Oshinoya (Kaili University)",
+        "Tsuyoshi Yamaguchi (Kaili University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2011,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_009.gz",
+      "line_number": 2880,
+      "extraction_command": "sed -n '2880p' part_009.gz | jq '.title'",
+      "paper_hash": "e66f1ba4d4555894"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W576277802",
+    "doi": "https://doi.org/10.1299/jsmekyushu.2005.55",
+    "title": "211 Effect of Split Injection on Combustion and Emission Characteristics of D.I. Diesel Engine",
+    "publication_year": 2005,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Hiroshima University of Economics",
+        "National Institute of Technology, Yuge College"
+      ],
+      "CN": [
+        "China Automotive Technology and Research Center"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Sadahiro Akiba (National Institute of Technology, Yuge College)",
+        "Keiya Nishida (Hiroshima University of Economics)"
+      ],
+      "CN": [
+        "Xinyun Zi (China Automotive Technology and Research Center)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2005,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_015.gz",
+      "line_number": 11544,
+      "extraction_command": "sed -n '11544p' part_015.gz | jq '.title'",
+      "paper_hash": "c3fed172a183c7fe"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2169097376",
+    "doi": "https://doi.org/10.1109/aim.2003.1225540",
+    "title": "Judgment on level of maturity for tomato quality using L*a*b* color image processing",
+    "publication_year": 2004,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "University of Miyazaki"
+      ],
+      "CN": [
+        "China Agricultural University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Masateru Nagata (University of Miyazaki)",
+        "Yoshinori Gejima (University of Miyazaki)"
+      ],
+      "CN": [
+        "Houguo Zhang (China Agricultural University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2004,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 3716,
+      "extraction_command": "sed -n '3716p' part_000.gz | jq '.title'",
+      "paper_hash": "4349efe0a2d7ac73"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2119557484",
+    "doi": "https://doi.org/10.1143/ptp.1.143",
+    "title": "On the Correlations between Mesons and Yukawa Particles*",
+    "publication_year": 1946,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Nagoya University"
+      ],
+      "CN": [
+        "Institute of Theoretical Physics"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Shoichi Sakata (Nagoya University)",
+        "Takesi Inoue (Nagoya University)"
+      ],
+      "CN": [
+        "Shoichi Sakata (Institute of Theoretical Physics)",
+        "Takesi Inoue (Institute of Theoretical Physics)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1946,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 802,
+      "extraction_command": "sed -n '802p' part_000.gz | jq '.title'",
+      "paper_hash": "92aa8d46f05df3af"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W4231132710",
+    "doi": "https://doi.org/10.1016/s1383-5769(98)81087-8",
+    "title": "Infected host serum blocks transmission of plasmodium yoelii via a nitric oxide-dependent mechanism",
+    "publication_year": 1998,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Ehime University"
+      ],
+      "CN": [
+        "China Medical University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Takafumi Tsuboi (Ehime University)",
+        "Motomi Torii (Ehime University)"
+      ],
+      "CN": [
+        "Yujuan Liu (China Medical University)",
+        "Y-M Cao (China Medical University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1998,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 1217,
+      "extraction_command": "sed -n '1217p' part_001.gz | jq '.title'",
+      "paper_hash": "a90b2212d6793625"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2503442324",
+    "doi": "https://doi.org/10.1007/978-3-642-77495-9",
+    "title": "Precancerous Conditions and Lesions of the Stomach",
+    "publication_year": 1993,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Kyoto Prefectural University of Medicine"
+      ],
+      "CN": [
+        "China Medical University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Keiichi Kawai (Kyoto Prefectural University of Medicine)"
+      ],
+      "CN": [
+        "Ying-Chang Zhang (China Medical University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1993,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 9687,
+      "extraction_command": "sed -n '9687p' part_000.gz | jq '.title'",
+      "paper_hash": "029aef80b5fad84c"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2584523338",
+    "doi": "https://doi.org/10.3130/aija.63.67_3",
+    "title": "ASSESSMENT OF SUPER HIGH-RISE APARTMENT BY INHABITANTS AND AROUND HABITANTS",
+    "publication_year": 1998,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "The University of Tokyo",
+        "Building Research Institute",
+        "Tokyo University of Science"
+      ],
+      "CN": [
+        "Ministry of Housing and Urban-Rural Development"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Jun MUNAKATA (Building Research Institute)",
+        "Masahito Yasuoka (Tokyo University of Science)",
+        "Kotaroh HIRATE (The University of Tokyo)",
+        "Takaya KOJIMA (The University of Tokyo)"
+      ],
+      "CN": [
+        "Jun MUNAKATA (Ministry of Housing and Urban-Rural Development)",
+        "Hideo Matsuno (Ministry of Housing and Urban-Rural Development)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1998,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 14528,
+      "extraction_command": "sed -n '14528p' part_000.gz | jq '.title'",
+      "paper_hash": "b7f3157fc50b7b18"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2088397381",
+    "doi": "https://doi.org/10.5555/318013.318046",
+    "title": "A Logic Verifier Based on Boolean Comparison",
+    "publication_year": 1986,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "The University of Tokyo"
+      ],
+      "CN": [
+        "University of Science and Technology of China"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Masahiro Tomita (The University of Tokyo)",
+        "Osamu Okuzawa (The University of Tokyo)",
+        "Gotaro Odawara (The University of Tokyo)",
+        "Tomomichi Ohta (The University of Tokyo)"
+      ],
+      "CN": [
+        "Zhenquan Zhuang (University of Science and Technology of China)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1986,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 166,
+      "extraction_command": "sed -n '166p' part_000.gz | jq '.title'",
+      "paper_hash": "a4cc79a5a395b8fb"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2615182763",
+    "doi": "https://doi.org/10.1161/res.111.suppl_1.a72",
+    "title": "Abstract 72: Ca <sup>2+</sup> and Calmodulin-Dependent Protein Kinase II Mediate a Temporal Switch Between Cardiotoxic and Cardioprotective Signaling by β2-Adrenergic Receptors",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "JP",
+      "US"
+    ],
+    "institutions": {
+      "JP": [
+        "Jikei University School of Medicine"
+      ],
+      "US": [
+        "Stanford University",
+        "Bernstein Clinical Research Center"
+      ],
+      "CN": [
+        "Zhaotong University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Takashi Urashima (Jikei University School of Medicine)"
+      ],
+      "US": [
+        "Mingming Zhao (Stanford University)",
+        "Daniel Bernstein (Stanford University)",
+        "Giovanni Fajardo (Stanford University)",
+        "Viswanathan Rajagopalan (Stanford University)",
+        "Daniel Bernstein (Bernstein Clinical Research Center)"
+      ],
+      "CN": [
+        "Mingming Zhao (Zhaotong University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 453,
+      "extraction_command": "sed -n '453p' part_000.gz | jq '.title'",
+      "paper_hash": "138caea7caa9a8f1"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2043324165",
+    "doi": "https://doi.org/10.1128/mcb.22.13.4815-4826.2002",
+    "title": "JDP2, a Repressor of AP-1, Recruits a Histone Deacetylase 3 Complex To Inhibit the Retinoic Acid-Induced Differentiation of F9 Cells",
+    "publication_year": 2002,
+    "countries_collaborating": [
+      "CN",
+      "JP",
+      "US"
+    ],
+    "institutions": {
+      "JP": [
+        "RIKEN",
+        "The University of Tokyo",
+        "RIKEN BioResource Research Center"
+      ],
+      "US": [
+        "University of California, Los Angeles"
+      ],
+      "CN": [
+        "China Medical University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Chunyuan Jin (RIKEN BioResource Research Center)",
+        "Kai Li (RIKEN)",
+        "Kai Li (RIKEN BioResource Research Center)",
+        "Chunyuan Jin (RIKEN)",
+        "Kazunari K. Yokoyama (RIKEN)",
+        "Takehide Murata (RIKEN BioResource Research Center)",
+        "Kazunari K. Yokoyama (RIKEN BioResource Research Center)",
+        "Takehide Murata (RIKEN)",
+        "Masami Horikoshi (The University of Tokyo)"
+      ],
+      "US": [
+        "Robert Chiu (University of California, Los Angeles)"
+      ],
+      "CN": [
+        "Kai Li (China Medical University)",
+        "Chunyuan Jin (China Medical University)",
+        "Kailai Sun (China Medical University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2002,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 104,
+      "extraction_command": "sed -n '104p' part_000.gz | jq '.title'",
+      "paper_hash": "2d84b791ef4a3aa2"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2007360575",
+    "doi": "https://doi.org/10.2323/jgam.56.267",
+    "title": "Curvibacter fontana sp. nov., a microaerobic bacteria isolated from well water",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "The University of Tokyo"
+      ],
+      "CN": [
+        "Zhejiang Normal University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Akira Yokota (The University of Tokyo)",
+        "Linxian Ding (The University of Tokyo)"
+      ],
+      "CN": [
+        "Linxian Ding (Zhejiang Normal University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 892,
+      "extraction_command": "sed -n '892p' part_000.gz | jq '.title'",
+      "paper_hash": "7d0538b41731869d"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W1975726510",
+    "doi": "https://doi.org/10.1016/j.stam.2007.08.006",
+    "title": "Fabrication of silicon nitride nanoceramics—Powder preparation and sintering: A review",
+    "publication_year": 2007,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "National Institute for Materials Science"
+      ],
+      "CN": [
+        "University of Science and Technology of China"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Hidehiko Tanaka (National Institute for Materials Science)",
+        "Naoto Hirosaki (National Institute for Materials Science)",
+        "Toshiyuki Nishimura (National Institute for Materials Science)",
+        "Koji Kimoto (National Institute for Materials Science)"
+      ],
+      "CN": [
+        "Xin Xu (University of Science and Technology of China)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2007,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 181,
+      "extraction_command": "sed -n '181p' part_000.gz | jq '.title'",
+      "paper_hash": "762ae9d500405e1c"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2006451633",
+    "doi": "https://doi.org/10.1016/s0142-9612(01)00254-x",
+    "title": "Bioactive titania gel layers formed by chemical treatment of Ti substrate with a H2O2/HCl solution",
+    "publication_year": 2002,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Okayama University"
+      ],
+      "CN": [
+        "Zhejiang University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Kanji Tsuru (Okayama University)",
+        "Akiyoshi Osaka (Okayama University)",
+        "Satoshi Hayakawa (Okayama University)"
+      ],
+      "CN": [
+        "Xiao-Xiang Wang (Zhejiang University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2002,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 260,
+      "extraction_command": "sed -n '260p' part_000.gz | jq '.title'",
+      "paper_hash": "ead7f241690ccabf"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2062732344",
+    "doi": "https://doi.org/10.1016/j.scriptamat.2005.12.045",
+    "title": "Twinning and stacking fault formation during tensile deformation of nanocrystalline Ni",
+    "publication_year": 2006,
+    "countries_collaborating": [
+      "CN",
+      "JP",
+      "US"
+    ],
+    "institutions": {
+      "JP": [
+        "Tohoku University"
+      ],
+      "US": [
+        "Los Alamos National Laboratory",
+        "Johns Hopkins University"
+      ],
+      "CN": [
+        "Institute of Mechanics",
+        "Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Mingwei Chen (Tohoku University)"
+      ],
+      "US": [
+        "Yuntian Zhu (Los Alamos National Laboratory)",
+        "E. Ma (Johns Hopkins University)"
+      ],
+      "CN": [
+        "Xiaolei Wu (Chinese Academy of Sciences)",
+        "Xiaolei Wu (Institute of Mechanics)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2006,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 361,
+      "extraction_command": "sed -n '361p' part_000.gz | jq '.title'",
+      "paper_hash": "6e9be07874b1a7ae"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W1603570524",
+    "doi": "https://doi.org/10.1111/j.1742-4658.2005.04749.x",
+    "title": "Identification of ATP‐NADH kinase isozymes and their contribution to supply of NADP(H) in <i>Saccharomyces cerevisiae</i>",
+    "publication_year": 2005,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Kyoto University"
+      ],
+      "CN": [
+        "Jiangnan University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Shigetarou Mori (Kyoto University)",
+        "Kousaku Murata (Kyoto University)",
+        "Emi Kono (Kyoto University)",
+        "Shigeyuki Kawai (Kyoto University)",
+        "Feng Shi (Kyoto University)"
+      ],
+      "CN": [
+        "Feng Shi (Jiangnan University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2005,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 712,
+      "extraction_command": "sed -n '712p' part_000.gz | jq '.title'",
+      "paper_hash": "e198e327fff10ad2"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2509234370",
+    "doi": "https://doi.org/10.11248/jsta1957.43.18",
+    "title": "Effect of Temperature and Fertilizer Application on Sugar Accumulation in Relation to Invertase Activity in Sugarcane",
+    "publication_year": 1999,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Japan International Research Center for Agricultural Sciences",
+        "Hokkaido Agricultural Research Center"
+      ],
+      "CN": [
+        "Institute of Grassland Research"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Takayoshi Terauchi (Japan International Research Center for Agricultural Sciences)",
+        "Makoto Matsuoka (Japan International Research Center for Agricultural Sciences)",
+        "Hiroshi Nakano (Hokkaido Agricultural Research Center)"
+      ],
+      "CN": [
+        "Makoto Kobayashi (Institute of Grassland Research)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1999,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_016.gz",
+      "line_number": 279,
+      "extraction_command": "sed -n '279p' part_016.gz | jq '.title'",
+      "paper_hash": "1f847f8d7bfc95fd"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2515533737",
+    "doi": "https://doi.org/10.11428/jhej.59.565",
+    "title": "Purification and Characterization of a Proteolytic Enzyme from Bacillus subtilis M2-4",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Gifu University"
+      ],
+      "CN": [
+        "Kunming University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Hiroko Nagano (Gifu University)"
+      ],
+      "CN": [
+        "Chen‐Jian Liu (Kunming University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_017.gz",
+      "line_number": 7,
+      "extraction_command": "sed -n '7p' part_017.gz | jq '.title'",
+      "paper_hash": "94bec19293c1d6d1"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2515598280",
+    "doi": "https://doi.org/10.5035/nishiseisai.45.1117",
+    "title": "Treatment of a 4-part Dislocation Fracture of the Proximal End of the Humerus. A Case Report.",
+    "publication_year": 1996,
+    "countries_collaborating": [
+      "CN",
+      "JP",
+      "US"
+    ],
+    "institutions": {
+      "JP": [
+        "Kagoshima Prefectural College"
+      ],
+      "US": [
+        "Orthopaedic Hospital"
+      ],
+      "CN": [
+        "Changchun Obstetrics and Gynecology Hospital"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Hideo Yasumatsu (Kagoshima Prefectural College)",
+        "Tsuruhisa Yoshidome (Kagoshima Prefectural College)"
+      ],
+      "US": [
+        "Makoto Muroya (Orthopaedic Hospital)",
+        "Nagatoshi Yoshikuni (Orthopaedic Hospital)"
+      ],
+      "CN": [
+        "Nagatoshi Yoshikuni (Changchun Obstetrics and Gynecology Hospital)",
+        "Makoto Muroya (Changchun Obstetrics and Gynecology Hospital)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1996,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_017.gz",
+      "line_number": 22,
+      "extraction_command": "sed -n '22p' part_017.gz | jq '.title'",
+      "paper_hash": "38cb2129216946e9"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W430342312",
+    "doi": null,
+    "title": "Transmission power control technique on a TDD-CDMA/TDMA system for wireless multimedia networks",
+    "publication_year": 1995,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Keio University"
+      ],
+      "CN": [
+        "Institute of Electrical Engineering"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Yukitoshi Sanada (Keio University)",
+        "Qiang Wang (Keio University)",
+        "Kazuhiko Seki (Keio University)",
+        "Vijay K. Bhargava (Keio University)",
+        "Masao Nakagawa (Keio University)"
+      ],
+      "CN": [
+        "Shuzo Kato (Institute of Electrical Engineering)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1995,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_021.gz",
+      "line_number": 3271,
+      "extraction_command": "sed -n '3271p' part_021.gz | jq '.title'",
+      "paper_hash": "fc9c6be24018d00f"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2011551294",
+    "doi": "https://doi.org/10.2328/jnds.28.85",
+    "title": "A Model Analysis Approach for Reassessment of the Public Shelter Plan Focusing both on Accessibility and Accommodation Capacity for Residents - Case Study of Nagata Ward in Kobe City, Japan",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Kyoto University"
+      ],
+      "CN": [
+        "Beijing Normal University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Norio Okada (Kyoto University)",
+        "Michinori Hatayama (Kyoto University)",
+        "Yukiko Takeuchi (Kyoto University)"
+      ],
+      "CN": [
+        "Wei Xu (Beijing Normal University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_007.gz",
+      "line_number": 51,
+      "extraction_command": "sed -n '51p' part_007.gz | jq '.title'",
+      "paper_hash": "149ddf1123f942d5"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2071364948",
+    "doi": "https://doi.org/10.1002/(sici)1097-0231(19971015)11:15<1699::aid-rcm35>3.0.co;2-n",
+    "title": "Similarity between mass spectra of double-bond positional isomers of tetradecen-1-ols and their acetates",
+    "publication_year": 1997,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "University of Kochi",
+        "Kōchi University"
+      ],
+      "CN": [
+        "Peking University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Michio Horiike (University of Kochi)",
+        "Chui-Sa Kim (University of Kochi)",
+        "Chisato Hirano (University of Kochi)",
+        "Michio Horiike (Kōchi University)",
+        "Chui-Sa Kim (Kōchi University)",
+        "Chisato Hirano (Kōchi University)"
+      ],
+      "CN": [
+        "Gu Yuan (Peking University)",
+        "Wang Gui-jie (Peking University)",
+        "Junhua Xiao (Peking University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1997,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 252,
+      "extraction_command": "sed -n '252p' part_001.gz | jq '.title'",
+      "paper_hash": "48032d7e0118f80d"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2036498530",
+    "doi": "https://doi.org/10.1016/j.memsci.2006.02.032",
+    "title": "Modeling the separation performance of nanofiltration membranes for the mixed salts solution",
+    "publication_year": 2006,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Nitto (Japan)"
+      ],
+      "CN": [
+        "Tsinghua University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Masaaki Ando (Nitto (Japan))",
+        "Takuji Shintani (Nitto (Japan))",
+        "Yasuhiro Tomi (Nitto (Japan))"
+      ],
+      "CN": [
+        "Daxin Wang (Tsinghua University)",
+        "Xiao‐Lin Wang (Tsinghua University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2006,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 169,
+      "extraction_command": "sed -n '169p' part_001.gz | jq '.title'",
+      "paper_hash": "b3ee1d9001fe5441"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2034399407",
+    "doi": "https://doi.org/10.1007/s11418-010-0435-4",
+    "title": "Juglanone, a novel α-tetralonyl derivative with potent antioxidant activity from Juglans mandshurica",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Toho University",
+        "Tokyo University of Science"
+      ],
+      "CN": [
+        "Heilongjiang University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Kazuo Koike (Toho University)",
+        "Tatsunori Sasaki (Toho University)",
+        "Yoshihisa Asada (Tokyo University of Science)",
+        "Lijuan Liu (Toho University)",
+        "Wei Li (Toho University)"
+      ],
+      "CN": [
+        "Lijuan Liu (Heilongjiang University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_003.gz",
+      "line_number": 30,
+      "extraction_command": "sed -n '30p' part_003.gz | jq '.title'",
+      "paper_hash": "a72ad9296a499050"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W1991062189",
+    "doi": "https://doi.org/10.1016/0008-6223(84)90102-7",
+    "title": "Hydrogen donor and acceptor ability of coal and pitch—factors governing mesophase development from low rank coal during carbonization",
+    "publication_year": 1984,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Hokkaido University"
+      ],
+      "CN": [
+        "China Coal Research Institute (China)"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Tetsuro Yokono (Hokkaido University)",
+        "S. Iyama (Hokkaido University)",
+        "Ted Obara (Hokkaido University)",
+        "Y. Sanada (Hokkaido University)"
+      ],
+      "CN": [
+        "S. Iyama (China Coal Research Institute (China))",
+        "Ted Obara (China Coal Research Institute (China))",
+        "Y. Sanada (China Coal Research Institute (China))",
+        "Tetsuro Yokono (China Coal Research Institute (China))"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1984,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 48,
+      "extraction_command": "sed -n '48p' part_005.gz | jq '.title'",
+      "paper_hash": "3e68733665c1ed0b"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2083334235",
+    "doi": "https://doi.org/10.1007/s11105-011-0397-z",
+    "title": "Simultaneous Overexpression of Citrate Synthase and Phosphoenolpyruvate Carboxylase in Leaves Augments Citrate Exclusion and Al Resistance in Transgenic Tobacco",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Kyoto University"
+      ],
+      "CN": [
+        "Southwest University",
+        "Kunming University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Katsura Izui (Kyoto University)"
+      ],
+      "CN": [
+        "Kunzhi Li (Kunming University of Science and Technology)",
+        "Yongxiong Yu (Southwest University)",
+        "Hongjuan Nian (Kunming University of Science and Technology)",
+        "Limei Chen (Kunming University of Science and Technology)",
+        "Qiong Yi (Kunming University of Science and Technology)",
+        "Qifeng Wang (Kunming University of Science and Technology)",
+        "Qingquan Hu (Southwest University)",
+        "Yue Zhao (Kunming University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_011.gz",
+      "line_number": 2,
+      "extraction_command": "sed -n '2p' part_011.gz | jq '.title'",
+      "paper_hash": "108f234b717bca39"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2224827571",
+    "doi": "https://doi.org/10.1149/ma2008-02/10/728",
+    "title": "The Film-Forming Properties of Propylene Carbonate (pc) on Graphite Anodes",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "JP",
+      "US"
+    ],
+    "institutions": {
+      "JP": [
+        "Kyoto University"
+      ],
+      "US": [
+        "Lawrence Berkeley National Laboratory"
+      ],
+      "CN": [
+        "Henan Normal University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Zempachi Ogumi (Kyoto University)"
+      ],
+      "US": [
+        "Vince Battaglia (Lawrence Berkeley National Laboratory)",
+        "Gao Liu (Lawrence Berkeley National Laboratory)"
+      ],
+      "CN": [
+        "Honghe Zheng (Henan Normal University)",
+        "Qunting Qu (Henan Normal University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_027.gz",
+      "line_number": 183,
+      "extraction_command": "sed -n '183p' part_027.gz | jq '.title'",
+      "paper_hash": "8a7aa30682d46548"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2142377039",
+    "doi": "https://doi.org/10.1002/pca.1114",
+    "title": "Simultaneous quantification of three major triterpenoids in radix asteris by high-performance liquid chromatography with evaporative light scattering detection",
+    "publication_year": 2009,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Shinshu University"
+      ],
+      "CN": [
+        "Hebei Medical University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Xiaowei Zhang (Shinshu University)",
+        "Xiaona Sheng (Shinshu University)"
+      ],
+      "CN": [
+        "Qiao Wang (Hebei Medical University)",
+        "Yaping Tian (Hebei Medical University)",
+        "Lantong Zhang (Hebei Medical University)",
+        "旭光 鄭 (Hebei Medical University)",
+        "Yu Wang (Hebei Medical University)",
+        "Haitao Qi (Hebei Medical University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2009,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_012.gz",
+      "line_number": 124,
+      "extraction_command": "sed -n '124p' part_012.gz | jq '.title'",
+      "paper_hash": "8550d77dadf7a15e"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2040731655",
+    "doi": "https://doi.org/10.1103/physreva.77.043417",
+    "title": "Influence of Coulomb potential for photoionization of H atoms in an elliptically polarized laser field: Velocity gauge versus length gauge",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Kyoto University"
+      ],
+      "CN": [
+        "Shanghai Institute of Optics and Fine Mechanics"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Takashi Nakajima (Kyoto University)",
+        "Jingtao Zhang (Kyoto University)"
+      ],
+      "CN": [
+        "Jingtao Zhang (Shanghai Institute of Optics and Fine Mechanics)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_013.gz",
+      "line_number": 188,
+      "extraction_command": "sed -n '188p' part_013.gz | jq '.title'",
+      "paper_hash": "1e4b6b63b4862cd7"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W2081646965",
+    "doi": "https://doi.org/10.1117/12.619550",
+    "title": "&lt;title&gt;Tropospheric aerosol observations by Lidar at Naqu&lt;/title&gt;",
+    "publication_year": 2005,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Chiba University"
+      ],
+      "CN": [
+        "Anhui Institute of Optics and Fine Mechanics",
+        "University of Science and Technology of China"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Nobuo Takeuchi (Chiba University)"
+      ],
+      "CN": [
+        "Jianguo Liu (Anhui Institute of Optics and Fine Mechanics)",
+        "Qingnong Wen (Anhui Institute of Optics and Fine Mechanics)",
+        "Hui Yang (Anhui Institute of Optics and Fine Mechanics)",
+        "Dexia Wu (Anhui Institute of Optics and Fine Mechanics)",
+        "Cheng Liu (University of Science and Technology of China)",
+        "Wenqing Liu (Anhui Institute of Optics and Fine Mechanics)",
+        "Yihuai Lu (Anhui Institute of Optics and Fine Mechanics)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2005,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_023.gz",
+      "line_number": 122,
+      "extraction_command": "sed -n '122p' part_023.gz | jq '.title'",
+      "paper_hash": "4b1dccdf6e0e4d69"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  },
+  {
+    "paper_id": "https://openalex.org/W1517025114",
+    "doi": null,
+    "title": "Sensorless vector control system of permanent magnet synchronous motors based on adaptive and fuzzy control",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Nagasaki University"
+      ],
+      "CN": [
+        "Fuzhou University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "M. Tsuji (Nagasaki University)"
+      ],
+      "CN": [
+        "Hua Lin (Fuzhou University)",
+        "Shuo Chen (Fuzhou University)",
+        "Jihua Yao (Fuzhou University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_012.gz",
+      "line_number": 581,
+      "extraction_command": "sed -n '581p' part_012.gz | jq '.title'",
+      "paper_hash": "253c39e6c616aca0"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "JP"
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "cik": "0001310630",
+  "ticker": "CFOO",
+  "name": "China Foods Holdings Ltd.",
+  "detection_reasons": [
+    "location:china",
+    "offshore:hong kong"
+  ],
+  "sic": "2833",
+  "sicDescription": "Medicinal Chemicals & Botanical Products",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "910974149",
+  "phone": "852-3618-8608",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "SUITE 3102, EVERBRIGHT CENTER",
+      "street2": "108 GLOUCESTER ROAD",
+      "city": "WANCHAI",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "SUITE 3102, EVERBRIGHT CENTER",
+      "street2": "108 GLOUCESTER ROAD",
+      "city": "WANCHAI",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-14"
+  },
+  "filings_count": 165
+}

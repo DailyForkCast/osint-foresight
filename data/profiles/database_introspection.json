@@ -1,0 +1,2450 @@
+{
+  "C:\\Projects\\OSINT - Foresight\\data\\uspto_monitoring.db": {
+    "schema": {
+      "monitoring_log": {
+        "row_count": 2,
+        "columns": [
+          "id",
+          "timestamp",
+          "api_used",
+          "query_type",
+          "target_entity",
+          "patents_found",
+          "success",
+          "error_message"
+        ]
+      },
+      "sqlite_sequence": {
+        "row_count": 1,
+        "columns": [
+          "name",
+          "seq"
+        ]
+      },
+      "patent_tracking": {
+        "row_count": 0,
+        "columns": [
+          "id",
+          "patent_number",
+          "title",
+          "assignee",
+          "inventors",
+          "filing_date",
+          "publication_date",
+          "technology_area",
+          "china_collaboration",
+          "first_detected",
+          "last_updated"
+        ]
+      },
+      "api_status": {
+        "row_count": 2,
+        "columns": [
+          "api_name",
+          "available",
+          "last_success",
+          "error_count",
+          "last_error",
+          "updated_at"
+        ]
+      }
+    },
+    "line_count": 5,
+    "field_count": 4,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "C:\\Projects\\OSINT - Foresight\\data\\fusion\\fusion_tracking.db": {
+    "schema": {
+      "conference_patent_procurement": {
+        "row_count": 21,
+        "columns": [
+          "id",
+          "conference_id",
+          "conference_date",
+          "attendee_org",
+          "patent_id",
+          "patent_date",
+          "procurement_id",
+          "procurement_date",
+          "confidence",
+          "china_exposure",
+          "created_at"
+        ]
+      },
+      "sqlite_sequence": {
+        "row_count": 5,
+        "columns": [
+          "name",
+          "seq"
+        ]
+      },
+      "github_dependencies": {
+        "row_count": 12,
+        "columns": [
+          "id",
+          "org_name",
+          "repo_url",
+          "dependency_name",
+          "dependency_version",
+          "china_maintained",
+          "cve_ids",
+          "risk_score",
+          "created_at"
+        ]
+      },
+      "standards_adoption": {
+        "row_count": 138,
+        "columns": [
+          "id",
+          "org_name",
+          "standard_body",
+          "committee_id",
+          "role",
+          "influence_score",
+          "china_collaboration",
+          "market_position",
+          "created_at"
+        ]
+      },
+      "funding_spinout": {
+        "row_count": 7,
+        "columns": [
+          "id",
+          "funding_id",
+          "funding_date",
+          "institution",
+          "spinout_name",
+          "spinout_date",
+          "technology_area",
+          "china_acquisition_risk",
+          "created_at"
+        ]
+      },
+      "china_exposure_matrix": {
+        "row_count": 6,
+        "columns": [
+          "id",
+          "entity_name",
+          "lei",
+          "conference_exposure",
+          "patent_exposure",
+          "dependency_exposure",
+          "standards_exposure",
+          "funding_exposure",
+          "total_exposure",
+          "risk_level",
+          "updated_at"
+        ]
+      }
+    },
+    "line_count": 189,
+    "field_count": 6,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "C:\\Projects\\OSINT - Foresight\\data\\processed\\cordis_unified\\cordis_china_projects.db": {
+    "schema": {
+      "projects": {
+        "row_count": 383,
+        "columns": [
+          "project_id",
+          "acronym",
+          "title",
+          "objective",
+          "programme",
+          "funding_scheme",
+          "status",
+          "start_date",
+          "end_date",
+          "start_year",
+          "end_year",
+          "duration_months",
+          "total_cost",
+          "ec_contribution",
+          "coordinator_country",
+          "num_countries",
+          "num_organizations",
+          "num_chinese_orgs",
+          "countries_list",
+          "eu_partners",
+          "non_eu_partners",
+          "chinese_organizations",
+          "topics",
+          "keywords",
+          "call",
+          "all_org_names"
+        ]
+      },
+      "organizations": {
+        "row_count": 7259,
+        "columns": [
+          "id",
+          "project_id",
+          "org_name",
+          "country",
+          "city",
+          "org_type",
+          "ec_contribution",
+          "net_contribution",
+          "total_cost",
+          "is_chinese"
+        ]
+      },
+      "sqlite_sequence": {
+        "row_count": 1,
+        "columns": [
+          "name",
+          "seq"
+        ]
+      },
+      "project_countries": {
+        "row_count": 3781,
+        "columns": [
+          "project_id",
+          "country_code"
+        ]
+      }
+    },
+    "line_count": 11424,
+    "field_count": 4,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "C:\\Projects\\OSINT - Foresight\\data\\processed\\openaire_comprehensive\\openaire_comprehensive.db": {
+    "schema": {
+      "country_overview": {
+        "row_count": 1,
+        "columns": [
+          "country_code",
+          "country_name",
+          "total_research_products",
+          "recent_publications",
+          "processing_date",
+          "processing_status"
+        ]
+      },
+      "research_products": {
+        "row_count": 3854,
+        "columns": [
+          "id",
+          "country_code",
+          "title",
+          "date_accepted",
+          "result_type",
+          "doi",
+          "processing_batch",
+          "raw_data"
+        ]
+      },
+      "sqlite_sequence": {
+        "row_count": 3,
+        "columns": [
+          "name",
+          "seq"
+        ]
+      },
+      "collaborations": {
+        "row_count": 3854,
+        "columns": [
+          "id",
+          "primary_country",
+          "partner_country",
+          "title",
+          "date_accepted",
+          "result_type",
+          "doi",
+          "num_countries",
+          "organizations",
+          "is_china_collaboration",
+          "processing_batch"
+        ]
+      },
+      "processing_log": {
+        "row_count": 5,
+        "columns": [
+          "id",
+          "country_code",
+          "batch_number",
+          "start_time",
+          "end_time",
+          "records_processed",
+          "collaborations_found",
+          "china_collaborations",
+          "status",
+          "error_message"
+        ]
+      }
+    },
+    "line_count": 7717,
+    "field_count": 5,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\collection_tracking.db": {
+    "schema": {
+      "collection_sessions": {
+        "row_count": 1,
+        "columns": [
+          "id",
+          "session_id",
+          "start_time",
+          "end_time",
+          "priority_level",
+          "countries_total",
+          "countries_completed",
+          "countries_failed",
+          "status"
+        ]
+      },
+      "sqlite_sequence": {
+        "row_count": 2,
+        "columns": [
+          "name",
+          "seq"
+        ]
+      },
+      "country_status": {
+        "row_count": 39,
+        "columns": [
+          "id",
+          "session_id",
+          "country_name",
+          "priority_level",
+          "collection_start",
+          "collection_end",
+          "status",
+          "data_collected",
+          "error_message",
+          "file_paths"
+        ]
+      },
+      "collection_metrics": {
+        "row_count": 0,
+        "columns": [
+          "id",
+          "session_id",
+          "country_name",
+          "collector_type",
+          "items_collected",
+          "data_size_mb",
+          "execution_time_seconds",
+          "api_calls_made",
+          "timestamp"
+        ]
+      }
+    },
+    "line_count": 42,
+    "field_count": 4,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\usaspending_remaining.db": {
+    "schema": {
+      "contracts": {
+        "row_count": 2208,
+        "columns": [
+          "vendor_name",
+          "vendor_country",
+          "contract_value",
+          "china_signals",
+          "description",
+          "file_source"
+        ]
+      }
+    },
+    "line_count": 2208,
+    "field_count": 1,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\usaspending_fixed_detection.db": {
+    "schema": {
+      "contracts_fixed": {
+        "row_count": 200001,
+        "columns": [
+          "id",
+          "contract_id",
+          "vendor_name",
+          "vendor_country_code",
+          "contract_value",
+          "award_date",
+          "description",
+          "china_signals",
+          "china_confidence",
+          "is_china_related",
+          "is_eu_country",
+          "is_bri_country"
+        ]
+      }
+    },
+    "line_count": 200001,
+    "field_count": 1,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\integrated_data.db": {
+    "schema": {
+      "entity_resolution": {
+        "row_count": 0,
+        "columns": [
+          "id",
+          "canonical_name",
+          "country",
+          "entity_type",
+          "aliases",
+          "lei",
+          "cage_code",
+          "duns",
+          "cik",
+          "vat_number",
+          "created_at"
+        ]
+      },
+      "sqlite_sequence": {
+        "row_count": 1,
+        "columns": [
+          "name",
+          "seq"
+        ]
+      },
+      "integrated_data": {
+        "row_count": 8,
+        "columns": [
+          "id",
+          "country",
+          "data_source",
+          "data_type",
+          "file_path",
+          "records_count",
+          "china_exposure_detected",
+          "integration_timestamp"
+        ]
+      },
+      "data_correlations": {
+        "row_count": 0,
+        "columns": [
+          "id",
+          "entity_name",
+          "source1",
+          "source2",
+          "correlation_type",
+          "confidence_score",
+          "china_link",
+          "timestamp"
+        ]
+      }
+    },
+    "line_count": 9,
+    "field_count": 4,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\ted_analysis.db": {
+    "schema": {
+      "contracts": {
+        "row_count": 0,
+        "columns": [
+          "contract_id",
+          "notice_number",
+          "publication_date",
+          "authority_country",
+          "contracting_authority",
+          "contract_value",
+          "currency",
+          "contract_type",
+          "cpv_code",
+          "procedure_type",
+          "award_date",
+          "source_archive",
+          "source_file",
+          "processing_date"
+        ]
+      },
+      "chinese_entities": {
+        "row_count": 26,
+        "columns": [
+          "entity_id",
+          "entity_name",
+          "entity_type",
+          "sector",
+          "parent_company",
+          "country_of_origin"
+        ]
+      },
+      "sqlite_sequence": {
+        "row_count": 1,
+        "columns": [
+          "name",
+          "seq"
+        ]
+      },
+      "contract_entities": {
+        "row_count": 0,
+        "columns": [
+          "contract_id",
+          "entity_id",
+          "mention_type",
+          "confidence_score"
+        ]
+      },
+      "temporal_analysis": {
+        "row_count": 0,
+        "columns": [
+          "year",
+          "month",
+          "country",
+          "entity_id",
+          "contract_count",
+          "total_value"
+        ]
+      },
+      "processing_log": {
+        "row_count": 0,
+        "columns": [
+          "log_id",
+          "archive_path",
+          "year",
+          "month",
+          "xml_files_processed",
+          "contracts_found",
+          "processing_time_seconds",
+          "processing_date",
+          "status",
+          "error_message"
+        ]
+      },
+      "geographic_distribution": {
+        "row_count": 0,
+        "columns": [
+          "country",
+          "entity_id",
+          "first_appearance",
+          "latest_appearance",
+          "total_contracts",
+          "total_value"
+        ]
+      }
+    },
+    "line_count": 27,
+    "field_count": 7,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\osint_intelligence.db": {
+    "schema": {
+      "patents": {
+        "row_count": 10,
+        "columns": [
+          "patent_id",
+          "country_code",
+          "doc_number",
+          "kind_code",
+          "title",
+          "publication_date",
+          "priority_date",
+          "category",
+          "abstract_available",
+          "claims_count",
+          "data_source",
+          "collection_time",
+          "sha256_hash"
+        ]
+      },
+      "patent_applicants": {
+        "row_count": 28,
+        "columns": [
+          "id",
+          "patent_id",
+          "applicant_name",
+          "applicant_country",
+          "applicant_type",
+          "is_chinese",
+          "is_european"
+        ]
+      },
+      "sqlite_sequence": {
+        "row_count": 2,
+        "columns": [
+          "name",
+          "seq"
+        ]
+      },
+      "patent_classifications": {
+        "row_count": 25,
+        "columns": [
+          "id",
+          "patent_id",
+          "classification_code",
+          "classification_text",
+          "technology_area"
+        ]
+      },
+      "patent_abstracts": {
+        "row_count": 10,
+        "columns": [
+          "patent_id",
+          "abstract_text",
+          "language"
+        ]
+      },
+      "patent_claims": {
+        "row_count": 0,
+        "columns": [
+          "id",
+          "patent_id",
+          "claim_number",
+          "claim_text"
+        ]
+      },
+      "organizations": {
+        "row_count": 27,
+        "columns": [
+          "org_id",
+          "org_name",
+          "org_type",
+          "country",
+          "is_chinese",
+          "is_european",
+          "first_seen",
+          "patent_count",
+          "project_count",
+          "publication_count",
+          "risk_score"
+        ]
+      },
+      "collaborations": {
+        "row_count": 0,
+        "columns": [
+          "collab_id",
+          "org1_id",
+          "org2_id",
+          "collaboration_type",
+          "evidence_type",
+          "evidence_id",
+          "start_date",
+          "technology_area",
+          "is_eu_china",
+          "risk_level"
+        ]
+      },
+      "technology_areas": {
+        "row_count": 0,
+        "columns": [
+          "tech_id",
+          "tech_name",
+          "tech_category",
+          "ipc_codes",
+          "critical_technology",
+          "china_activity_level",
+          "eu_activity_level",
+          "collaboration_count"
+        ]
+      },
+      "risk_indicators": {
+        "row_count": 0,
+        "columns": [
+          "risk_id",
+          "indicator_type",
+          "severity",
+          "entity_type",
+          "entity_id",
+          "description",
+          "evidence",
+          "detection_date",
+          "mitigation_status"
+        ]
+      },
+      "cordis_projects": {
+        "row_count": 0,
+        "columns": [
+          "project_id",
+          "acronym",
+          "title",
+          "start_date",
+          "end_date",
+          "total_cost",
+          "eu_contribution",
+          "coordinator_country",
+          "participant_count",
+          "has_chinese_participant",
+          "topics",
+          "objectives"
+        ]
+      },
+      "cordis_participants": {
+        "row_count": 0,
+        "columns": [
+          "participant_id",
+          "project_id",
+          "org_name",
+          "org_country",
+          "org_type",
+          "role",
+          "contribution",
+          "is_coordinator"
+        ]
+      },
+      "openalex_publications": {
+        "row_count": 0,
+        "columns": [
+          "publication_id",
+          "doi",
+          "title",
+          "publication_date",
+          "journal",
+          "citation_count",
+          "has_chinese_author",
+          "has_eu_author",
+          "is_collaboration",
+          "topics",
+          "abstract"
+        ]
+      },
+      "openalex_authors": {
+        "row_count": 0,
+        "columns": [
+          "author_id",
+          "author_name",
+          "institution",
+          "institution_country",
+          "publication_count",
+          "h_index",
+          "collaboration_countries"
+        ]
+      },
+      "data_provenance": {
+        "row_count": 0,
+        "columns": [
+          "provenance_id",
+          "data_type",
+          "source_api",
+          "collection_timestamp",
+          "query_used",
+          "records_collected",
+          "sha256_verification",
+          "raw_file_path"
+        ]
+      },
+      "cross_references": {
+        "row_count": 0,
+        "columns": [
+          "ref_id",
+          "source_type",
+          "source_id",
+          "target_type",
+          "target_id",
+          "confidence_score",
+          "match_type",
+          "verification_status"
+        ]
+      }
+    },
+    "line_count": 102,
+    "field_count": 16,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\osint_master.db": {
+    "schema": {
+      "entities": {
+        "row_count": 238,
+        "columns": [
+          "entity_id",
+          "entity_name",
+          "entity_type",
+          "country_origin",
+          "country_operation",
+          "is_chinese",
+          "is_european",
+          "is_sanctioned",
+          "risk_level",
+          "first_seen",
+          "last_updated",
+          "confidence_score",
+          "notes",
+          "metadata"
+        ]
+      },
+      "entity_aliases": {
+        "row_count": 0,
+        "columns": [
+          "alias_id",
+          "entity_id",
+          "alias_name",
+          "alias_type",
+          "source"
+        ]
+      },
+      "sqlite_sequence": {
+        "row_count": 1,
+        "columns": [
+          "name",
+          "seq"
+        ]
+      },
+      "collaborations": {
+        "row_count": 0,
+        "columns": [
+          "collab_id",
+          "entity1_id",
+          "entity2_id",
+          "collaboration_type",
+          "start_date",
+          "end_date",
+          "status",
+          "evidence_source",
+          "evidence_id",
+          "confidence_score",
+          "is_china_related",
+          "technology_area",
+          "risk_assessment"
+        ]
+      },
+      "technologies": {
+        "row_count": 10,
+        "columns": [
+          "tech_id",
+          "technology_name",
+          "technology_category",
+          "ipc_codes",
+          "cpc_codes",
+          "keywords",
+          "is_critical",
+          "is_dual_use",
+          "china_activity_level",
+          "eu_activity_level",
+          "us_restrictions",
+          "export_control_status"
+        ]
+      },
+      "publications": {
+        "row_count": 0,
+        "columns": [
+          "publication_id",
+          "doi",
+          "title",
+          "abstract",
+          "publication_date",
+          "journal",
+          "authors",
+          "affiliations",
+          "keywords",
+          "citation_count",
+          "has_chinese_author",
+          "has_eu_author",
+          "technology_areas",
+          "data_source",
+          "collection_date"
+        ]
+      },
+      "patents": {
+        "row_count": 10,
+        "columns": [
+          "patent_id",
+          "patent_number",
+          "title",
+          "abstract",
+          "filing_date",
+          "publication_date",
+          "grant_date",
+          "applicants",
+          "inventors",
+          "ipc_codes",
+          "cpc_codes",
+          "claims_count",
+          "citations_made",
+          "citations_received",
+          "legal_status",
+          "technology_category",
+          "has_chinese_entity",
+          "has_eu_entity",
+          "data_source"
+        ]
+      },
+      "funding": {
+        "row_count": 0,
+        "columns": [
+          "funding_id",
+          "program_name",
+          "funding_source",
+          "funding_type",
+          "amount",
+          "currency",
+          "start_date",
+          "end_date",
+          "recipient_id",
+          "topic",
+          "objectives",
+          "deliverables",
+          "has_chinese_participation",
+          "risk_indicators"
+        ]
+      },
+      "procurement": {
+        "row_count": 0,
+        "columns": [
+          "contract_id",
+          "contract_number",
+          "title",
+          "description",
+          "buyer_entity",
+          "supplier_entity",
+          "contract_value",
+          "currency",
+          "award_date",
+          "start_date",
+          "end_date",
+          "cpv_codes",
+          "has_chinese_supplier",
+          "security_clearance_required",
+          "technology_transfer_risk",
+          "data_source"
+        ]
+      },
+      "risk_indicators": {
+        "row_count": 0,
+        "columns": [
+          "indicator_id",
+          "entity_id",
+          "indicator_type",
+          "indicator_name",
+          "severity",
+          "description",
+          "evidence",
+          "detection_date",
+          "mitigation_status",
+          "mitigation_actions"
+        ]
+      },
+      "intelligence_events": {
+        "row_count": 5,
+        "columns": [
+          "event_id",
+          "event_type",
+          "event_date",
+          "entities_involved",
+          "description",
+          "significance",
+          "source",
+          "verified",
+          "analyst_notes",
+          "action_required",
+          "action_taken"
+        ]
+      },
+      "data_provenance": {
+        "row_count": 0,
+        "columns": [
+          "provenance_id",
+          "data_type",
+          "source_api",
+          "source_url",
+          "collection_timestamp",
+          "collection_method",
+          "query_used",
+          "records_collected",
+          "sha256_hash",
+          "raw_file_path",
+          "processing_status",
+          "error_log"
+        ]
+      },
+      "cross_references": {
+        "row_count": 0,
+        "columns": [
+          "ref_id",
+          "source1_type",
+          "source1_id",
+          "source2_type",
+          "source2_id",
+          "match_confidence",
+          "match_method",
+          "verified",
+          "notes"
+        ]
+      },
+      "china_entities": {
+        "row_count": 151,
+        "columns": [
+          "entity_id",
+          "entity_name_chinese",
+          "entity_name_english",
+          "entity_type",
+          "parent_organization",
+          "location_province",
+          "location_city",
+          "established_date",
+          "key_personnel",
+          "research_areas",
+          "international_partnerships",
+          "us_entity_list",
+          "eu_sanctions",
+          "military_civil_fusion",
+          "belt_and_road",
+          "thousand_talents",
+          "made_in_china_2025"
+        ]
+      }
+    },
+    "line_count": 415,
+    "field_count": 14,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\usaspending_quick.db": {
+    "schema": {
+      "contracts": {
+        "row_count": 26562,
+        "columns": [
+          "id",
+          "award_id",
+          "vendor_name",
+          "vendor_country",
+          "contract_value",
+          "award_date",
+          "description",
+          "naics_code",
+          "psc_code",
+          "awarding_agency",
+          "is_china_related",
+          "is_priority_country",
+          "priority_country_code"
+        ]
+      }
+    },
+    "line_count": 26562,
+    "field_count": 1,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\usaspending_real_analysis.db": {
+    "schema": {
+      "contracts": {
+        "row_count": 150003,
+        "columns": [
+          "id",
+          "contract_id",
+          "vendor_name",
+          "vendor_country_code",
+          "recipient_city",
+          "recipient_state",
+          "contract_value",
+          "award_date",
+          "description",
+          "naics_code",
+          "naics_description",
+          "awarding_agency",
+          "awarding_sub_agency",
+          "is_china_related",
+          "is_priority_country",
+          "priority_country_code",
+          "china_signals",
+          "file_source"
+        ]
+      }
+    },
+    "line_count": 150003,
+    "field_count": 1,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\usaspending_fixed_analysis.db": {
+    "schema": {
+      "contracts": {
+        "row_count": 200002,
+        "columns": [
+          "id",
+          "contract_id",
+          "vendor_name",
+          "vendor_country_code",
+          "recipient_city",
+          "recipient_state",
+          "contract_value",
+          "award_date",
+          "description",
+          "naics_code",
+          "naics_description",
+          "awarding_agency",
+          "awarding_sub_agency",
+          "is_china_related",
+          "is_priority_country",
+          "priority_country_code",
+          "china_signals",
+          "file_source"
+        ]
+      }
+    },
+    "line_count": 200002,
+    "field_count": 1,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\usaspending_iso_analysis.db": {
+    "schema": {
+      "contracts": {
+        "row_count": 200001,
+        "columns": [
+          "id",
+          "contract_id",
+          "vendor_name",
+          "vendor_country_code",
+          "contract_value",
+          "award_date",
+          "description",
+          "is_china_related",
+          "is_priority_country",
+          "priority_country_name",
+          "china_signals",
+          "file_source"
+        ]
+      }
+    },
+    "line_count": 200001,
+    "field_count": 1,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\usaspending_complete.db": {
+    "schema": {
+      "contracts": {
+        "row_count": 3058000,
+        "columns": [
+          "id",
+          "contract_id",
+          "vendor_name",
+          "vendor_country",
+          "contract_value",
+          "award_date",
+          "description",
+          "agency",
+          "is_china_related",
+          "is_eu_priority",
+          "china_signals",
+          "file_source",
+          "processed_date"
+        ]
+      },
+      "sqlite_sequence": {
+        "row_count": 1,
+        "columns": [
+          "name",
+          "seq"
+        ]
+      },
+      "processing_status": {
+        "row_count": 6,
+        "columns": [
+          "file_name",
+          "size_gb",
+          "lines_processed",
+          "contracts_found",
+          "china_contracts",
+          "eu_contracts",
+          "processing_time_seconds",
+          "processed_date"
+        ]
+      }
+    },
+    "line_count": 3058007,
+    "field_count": 3,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\fusion_analysis\\master_fusion.db": {
+    "schema": {
+      "entities": {
+        "row_count": 100,
+        "columns": [
+          "entity_id",
+          "name",
+          "type",
+          "country",
+          "lei_code",
+          "cage_code",
+          "duns_number",
+          "cik_number",
+          "china_linked",
+          "risk_score",
+          "last_updated"
+        ]
+      },
+      "correlations": {
+        "row_count": 0,
+        "columns": [
+          "correlation_id",
+          "entity_id",
+          "source_type",
+          "source_file",
+          "data_point",
+          "china_indicator",
+          "confidence",
+          "timestamp"
+        ]
+      },
+      "risk_indicators": {
+        "row_count": 0,
+        "columns": [
+          "indicator_id",
+          "entity_id",
+          "indicator_type",
+          "indicator_value",
+          "severity",
+          "source",
+          "detected_date"
+        ]
+      }
+    },
+    "line_count": 100,
+    "field_count": 3,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\USPTO\\uspto_patents_20250922.db": {
+    "schema": {
+      "patents": {
+        "row_count": 0,
+        "columns": [
+          "patent_number",
+          "patent_title",
+          "patent_date",
+          "patent_type",
+          "assignee_organization",
+          "assignee_country",
+          "inventor_country",
+          "cpc_group",
+          "cpc_subclass",
+          "technology_category",
+          "abstract",
+          "claims_count",
+          "cited_by_count",
+          "china_related",
+          "created_at"
+        ]
+      },
+      "assignees": {
+        "row_count": 0,
+        "columns": [
+          "assignee_id",
+          "assignee_name",
+          "assignee_country",
+          "total_patents",
+          "first_patent_date",
+          "last_patent_date",
+          "main_technology",
+          "china_entity",
+          "subsidiary_of",
+          "updated_at"
+        ]
+      },
+      "technology_trends": {
+        "row_count": 0,
+        "columns": [
+          "year",
+          "technology_category",
+          "cpc_code",
+          "total_patents",
+          "china_patents",
+          "us_patents",
+          "eu_patents",
+          "china_percentage",
+          "growth_rate"
+        ]
+      },
+      "citations": {
+        "row_count": 0,
+        "columns": [
+          "citing_patent",
+          "cited_patent",
+          "citation_date",
+          "citing_assignee",
+          "cited_assignee",
+          "citing_country",
+          "cited_country",
+          "technology_transfer"
+        ]
+      },
+      "collaborations": {
+        "row_count": 0,
+        "columns": [
+          "patent_number",
+          "assignee1",
+          "assignee2",
+          "country1",
+          "country2",
+          "collaboration_type",
+          "technology_area",
+          "year"
+        ]
+      }
+    },
+    "line_count": 0,
+    "field_count": 5,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\openaire_comprehensive_20250921\\openaire_comprehensive.db": {
+    "schema": {
+      "country_overview": {
+        "row_count": 1,
+        "columns": [
+          "country_code",
+          "country_name",
+          "total_research_products",
+          "recent_publications",
+          "processing_date",
+          "processing_status"
+        ]
+      },
+      "research_products": {
+        "row_count": 3854,
+        "columns": [
+          "id",
+          "country_code",
+          "title",
+          "date_accepted",
+          "result_type",
+          "doi",
+          "processing_batch",
+          "raw_data"
+        ]
+      },
+      "sqlite_sequence": {
+        "row_count": 3,
+        "columns": [
+          "name",
+          "seq"
+        ]
+      },
+      "collaborations": {
+        "row_count": 3854,
+        "columns": [
+          "id",
+          "primary_country",
+          "partner_country",
+          "title",
+          "date_accepted",
+          "result_type",
+          "doi",
+          "num_countries",
+          "organizations",
+          "is_china_collaboration",
+          "processing_batch"
+        ]
+      },
+      "processing_log": {
+        "row_count": 5,
+        "columns": [
+          "id",
+          "country_code",
+          "batch_number",
+          "start_time",
+          "end_time",
+          "records_processed",
+          "collaborations_found",
+          "china_collaborations",
+          "status",
+          "error_message"
+        ]
+      }
+    },
+    "line_count": 7717,
+    "field_count": 5,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\openaire_production_comprehensive\\openaire_production.db": {
+    "schema": {
+      "country_overview": {
+        "row_count": 38,
+        "columns": [
+          "country_code",
+          "country_name",
+          "total_research_products",
+          "recent_publications",
+          "processing_start",
+          "processing_end",
+          "processing_status",
+          "batches_completed",
+          "total_collaborations",
+          "china_collaborations",
+          "error_count"
+        ]
+      },
+      "research_products": {
+        "row_count": 156221,
+        "columns": [
+          "id",
+          "country_code",
+          "title",
+          "date_accepted",
+          "result_type",
+          "doi",
+          "processing_batch",
+          "has_collaboration",
+          "raw_data"
+        ]
+      },
+      "sqlite_sequence": {
+        "row_count": 3,
+        "columns": [
+          "name",
+          "seq"
+        ]
+      },
+      "collaborations": {
+        "row_count": 150505,
+        "columns": [
+          "id",
+          "primary_country",
+          "partner_countries",
+          "title",
+          "date_accepted",
+          "result_type",
+          "doi",
+          "num_countries",
+          "organizations",
+          "is_china_collaboration",
+          "processing_batch"
+        ]
+      },
+      "processing_log": {
+        "row_count": 373,
+        "columns": [
+          "id",
+          "country_code",
+          "batch_number",
+          "start_time",
+          "end_time",
+          "records_processed",
+          "collaborations_found",
+          "china_collaborations",
+          "status",
+          "error_message",
+          "processing_time_seconds"
+        ]
+      }
+    },
+    "line_count": 307140,
+    "field_count": 5,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\OpenSanctions\\processed\\sanctions.db": {
+    "schema": {
+      "entities": {
+        "row_count": 183766,
+        "columns": [
+          "id",
+          "dataset_name",
+          "name",
+          "entity_type",
+          "countries",
+          "birth_date",
+          "death_date",
+          "nationality",
+          "address",
+          "program",
+          "list_date",
+          "reason",
+          "raw_data",
+          "is_chinese_affiliated"
+        ]
+      },
+      "aliases": {
+        "row_count": 0,
+        "columns": [
+          "entity_id",
+          "alias_name",
+          "alias_type"
+        ]
+      },
+      "chinese_analysis": {
+        "row_count": 4697,
+        "columns": [
+          "entity_id",
+          "confidence_score",
+          "china_indicators",
+          "analysis_date"
+        ]
+      }
+    },
+    "line_count": 188463,
+    "field_count": 3,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\GLEIF\\databases\\gleif_analysis_20250921.db": {
+    "schema": {
+      "lei_entities": {
+        "row_count": 0,
+        "columns": [
+          "lei",
+          "legal_name",
+          "country",
+          "entity_status",
+          "registration_date",
+          "last_update",
+          "is_chinese",
+          "raw_data"
+        ]
+      },
+      "ownership_relationships": {
+        "row_count": 0,
+        "columns": [
+          "id",
+          "parent_lei",
+          "child_lei",
+          "relationship_type",
+          "ownership_percentage",
+          "start_date",
+          "end_date"
+        ]
+      },
+      "sqlite_sequence": {
+        "row_count": 0,
+        "columns": [
+          "name",
+          "seq"
+        ]
+      },
+      "identifier_mappings": {
+        "row_count": 0,
+        "columns": [
+          "lei",
+          "identifier_type",
+          "identifier_value"
+        ]
+      },
+      "chinese_ownership_analysis": {
+        "row_count": 0,
+        "columns": [
+          "lei",
+          "direct_chinese_ownership",
+          "ultimate_chinese_ownership",
+          "chinese_parent_chain",
+          "analysis_date"
+        ]
+      }
+    },
+    "line_count": 0,
+    "field_count": 5,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\Trade_Facilities\\databases\\trade_facilities_20250921.db": {
+    "schema": {
+      "locations": {
+        "row_count": 0,
+        "columns": [
+          "country",
+          "location",
+          "name",
+          "subdivision",
+          "function",
+          "status",
+          "iata",
+          "coordinates",
+          "is_port",
+          "is_airport",
+          "is_rail"
+        ]
+      },
+      "facilities": {
+        "row_count": 0,
+        "columns": [
+          "os_id",
+          "name",
+          "country",
+          "address",
+          "lat",
+          "lon",
+          "facility_type",
+          "products",
+          "certifications",
+          "employees",
+          "chinese_owned"
+        ]
+      },
+      "trade_flows": {
+        "row_count": 0,
+        "columns": [
+          "id",
+          "year",
+          "month",
+          "reporter_country",
+          "partner_country",
+          "hs_code",
+          "product_description",
+          "flow_type",
+          "trade_value",
+          "quantity",
+          "unit"
+        ]
+      },
+      "sqlite_sequence": {
+        "row_count": 0,
+        "columns": [
+          "name",
+          "seq"
+        ]
+      },
+      "trade_patterns": {
+        "row_count": 0,
+        "columns": [
+          "partner_country",
+          "total_exports_to_china",
+          "total_imports_from_china",
+          "trade_balance",
+          "strategic_goods_share",
+          "top_export_categories",
+          "top_import_categories",
+          "analysis_date"
+        ]
+      },
+      "supply_chain_links": {
+        "row_count": 0,
+        "columns": [
+          "id",
+          "source_location",
+          "destination_location",
+          "product_type",
+          "transport_mode",
+          "frequency",
+          "volume_estimate",
+          "strategic_importance"
+        ]
+      }
+    },
+    "line_count": 0,
+    "field_count": 6,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\Trade_Facilities\\databases\\eurostat_comext_20250921.db": {
+    "schema": {
+      "eu_china_trade": {
+        "row_count": 0,
+        "columns": [
+          "id",
+          "year",
+          "month",
+          "product_code",
+          "product_description",
+          "sitc_code",
+          "cn8_code",
+          "flow_direction",
+          "value_euros",
+          "quantity_100kg",
+          "unit_price",
+          "data_source"
+        ]
+      },
+      "sqlite_sequence": {
+        "row_count": 0,
+        "columns": [
+          "name",
+          "seq"
+        ]
+      },
+      "strategic_goods_trade": {
+        "row_count": 0,
+        "columns": [
+          "product_code",
+          "product_description",
+          "category",
+          "total_imports_from_china",
+          "total_exports_to_china",
+          "trade_balance",
+          "sensitivity_score",
+          "dual_use_flag",
+          "analysis_date"
+        ]
+      },
+      "monthly_summaries": {
+        "row_count": 0,
+        "columns": [
+          "year_month",
+          "total_imports",
+          "total_exports",
+          "trade_balance",
+          "top_import_category",
+          "top_export_category"
+        ]
+      },
+      "tech_transfer_indicators": {
+        "row_count": 0,
+        "columns": [
+          "id",
+          "product_category",
+          "indicator_type",
+          "indicator_value",
+          "trend",
+          "risk_assessment",
+          "detection_date"
+        ]
+      }
+    },
+    "line_count": 0,
+    "field_count": 5,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\Trade_Facilities\\databases\\units_measurement.db": {
+    "schema": {
+      "measurement_units": {
+        "row_count": 0,
+        "columns": [
+          "code",
+          "name",
+          "description",
+          "conversion_factor",
+          "base_unit",
+          "sector",
+          "symbol"
+        ]
+      },
+      "trade_units": {
+        "row_count": 10,
+        "columns": [
+          "unit_code",
+          "unit_name",
+          "category",
+          "to_kg_factor",
+          "to_m3_factor",
+          "to_pieces_factor",
+          "notes"
+        ]
+      }
+    },
+    "line_count": 10,
+    "field_count": 2,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\Trade_Facilities\\databases\\integrated_trade_20250921.db": {
+    "schema": {
+      "port_facility_mapping": {
+        "row_count": 0,
+        "columns": [
+          "unlocode",
+          "location_name",
+          "country",
+          "function_code",
+          "is_port",
+          "is_airport",
+          "is_rail",
+          "is_bri_node",
+          "coordinates",
+          "timezone"
+        ]
+      },
+      "trade_routes": {
+        "row_count": 0,
+        "columns": [
+          "id",
+          "origin_locode",
+          "destination_locode",
+          "product_category",
+          "typical_unit",
+          "average_volume",
+          "frequency",
+          "strategic_importance"
+        ]
+      },
+      "sqlite_sequence": {
+        "row_count": 0,
+        "columns": [
+          "name",
+          "seq"
+        ]
+      },
+      "chinese_locations": {
+        "row_count": 1859,
+        "columns": [
+          "change",
+          "country",
+          "locode",
+          "name",
+          "name_ascii",
+          "subdivision",
+          "function",
+          "status",
+          "date",
+          "iata",
+          "coordinates",
+          "remarks"
+        ]
+      }
+    },
+    "line_count": 1859,
+    "field_count": 4,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\Trade_Facilities\\databases\\iso_codes.db": {
+    "schema": {
+      "iso_currencies": {
+        "row_count": 0,
+        "columns": [
+          "currency_code",
+          "numeric_code",
+          "currency_name",
+          "country_name",
+          "minor_units",
+          "withdrawal_date"
+        ]
+      },
+      "iso_countries": {
+        "row_count": 0,
+        "columns": [
+          "alpha_2",
+          "alpha_3",
+          "numeric_code",
+          "country_name",
+          "official_name",
+          "capital",
+          "continent",
+          "subregion",
+          "languages",
+          "currency_codes"
+        ]
+      },
+      "china_related_codes": {
+        "row_count": 18,
+        "columns": [
+          "entity_type",
+          "code",
+          "name",
+          "description",
+          "notes"
+        ]
+      },
+      "raw_currencies": {
+        "row_count": 294,
+        "columns": [
+          "List one: Currency, fund and precious metal codes",
+          "Unnamed: 1",
+          "Unnamed: 2",
+          "Unnamed: 3",
+          "Unnamed: 4",
+          "Unnamed: 5",
+          "Unnamed: 0",
+          "Table A.2 (E) \u2014 Funds codes registered with the Maintenance Agency"
+        ]
+      },
+      "raw_countries": {
+        "row_count": 171,
+        "columns": [
+          "List three: Codes for historic denominations of currencies and funds ",
+          "Unnamed: 1",
+          "Unnamed: 2",
+          "Unnamed: 3",
+          "Unnamed: 4",
+          "Unnamed: 5"
+        ]
+      }
+    },
+    "line_count": 483,
+    "field_count": 5,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\Trade_Facilities\\uncomtrade\\uncomtrade_v2.db": {
+    "schema": {
+      "bilateral_trade": {
+        "row_count": 0,
+        "columns": [
+          "id",
+          "year",
+          "reporter_code",
+          "reporter_desc",
+          "partner_code",
+          "partner_desc",
+          "flow_code",
+          "flow_desc",
+          "cmd_code",
+          "cmd_desc",
+          "primary_value",
+          "net_weight",
+          "gross_weight",
+          "qty_unit_code",
+          "qty",
+          "is_reported_by_partner"
+        ]
+      },
+      "sqlite_sequence": {
+        "row_count": 0,
+        "columns": [
+          "name",
+          "seq"
+        ]
+      },
+      "strategic_commodities": {
+        "row_count": 0,
+        "columns": [
+          "id",
+          "year",
+          "hs_chapter",
+          "category",
+          "partner_code",
+          "partner_desc",
+          "flow_code",
+          "flow_desc",
+          "trade_value",
+          "quantity",
+          "risk_level"
+        ]
+      }
+    },
+    "line_count": 0,
+    "field_count": 3,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\Trade_Facilities\\strategic_hs_codes\\strategic_trade_20250922.db": {
+    "schema": {
+      "trade_data": {
+        "row_count": 126,
+        "columns": [
+          "id",
+          "hs_code",
+          "hs_description",
+          "category",
+          "subcategory",
+          "reporter",
+          "partner",
+          "flow",
+          "period",
+          "value_euros",
+          "created_at"
+        ]
+      },
+      "sqlite_sequence": {
+        "row_count": 2,
+        "columns": [
+          "name",
+          "seq"
+        ]
+      },
+      "trade_summary": {
+        "row_count": 7,
+        "columns": [
+          "id",
+          "hs_code",
+          "hs_description",
+          "category",
+          "total_imports",
+          "total_exports",
+          "trade_balance",
+          "dependency_ratio",
+          "records_count",
+          "last_updated"
+        ]
+      },
+      "category_totals": {
+        "row_count": 1,
+        "columns": [
+          "category",
+          "total_imports",
+          "total_exports",
+          "trade_deficit",
+          "dependency_ratio",
+          "products_count",
+          "last_updated"
+        ]
+      },
+      "risk_assessment": {
+        "row_count": 7,
+        "columns": [
+          "hs_code",
+          "category",
+          "dependency_score",
+          "strategic_importance",
+          "substitution_difficulty",
+          "risk_level",
+          "notes",
+          "assessed_at"
+        ]
+      }
+    },
+    "line_count": 143,
+    "field_count": 5,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\Trade_Facilities\\strategic_hs_codes\\strategic_trade_analysis_20250922.db": {
+    "schema": {
+      "trade_flows": {
+        "row_count": 947,
+        "columns": [
+          "id",
+          "hs_code",
+          "category",
+          "period",
+          "flow_type",
+          "value_euros",
+          "reporter",
+          "partner",
+          "created_at"
+        ]
+      },
+      "sqlite_sequence": {
+        "row_count": 1,
+        "columns": [
+          "name",
+          "seq"
+        ]
+      },
+      "hs_summary": {
+        "row_count": 25,
+        "columns": [
+          "hs_code",
+          "description",
+          "category",
+          "total_imports",
+          "total_exports",
+          "trade_balance",
+          "dependency_ratio",
+          "monthly_avg_imports",
+          "monthly_avg_exports",
+          "volatility_score",
+          "risk_level",
+          "last_updated"
+        ]
+      },
+      "category_analysis": {
+        "row_count": 6,
+        "columns": [
+          "category",
+          "total_imports",
+          "total_exports",
+          "trade_deficit",
+          "dependency_ratio",
+          "products_count",
+          "critical_products",
+          "high_risk_products",
+          "medium_risk_products",
+          "strategic_importance",
+          "notes",
+          "last_updated"
+        ]
+      },
+      "critical_dependencies": {
+        "row_count": 0,
+        "columns": [
+          "hs_code",
+          "category",
+          "description",
+          "dependency_ratio",
+          "imports_billions",
+          "exports_billions",
+          "deficit_billions",
+          "substitutability",
+          "strategic_importance",
+          "recommended_action",
+          "priority_level",
+          "notes"
+        ]
+      },
+      "monthly_trends": {
+        "row_count": 0,
+        "columns": [
+          "hs_code",
+          "period",
+          "imports",
+          "exports",
+          "balance",
+          "ratio"
+        ]
+      },
+      "risk_matrix": {
+        "row_count": 25,
+        "columns": [
+          "hs_code",
+          "category",
+          "dependency_score",
+          "volume_score",
+          "strategic_score",
+          "overall_risk_score",
+          "risk_classification",
+          "mitigation_priority"
+        ]
+      }
+    },
+    "line_count": 1004,
+    "field_count": 7,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\Trade_Facilities\\critical_hs_codes\\critical_trade_20250922_134317.db": {
+    "schema": {
+      "trade_data": {
+        "row_count": 65,
+        "columns": [
+          "id",
+          "hs_code",
+          "hs_description",
+          "category",
+          "imports_value",
+          "exports_value",
+          "trade_balance",
+          "dependency_ratio",
+          "risk_level",
+          "created_at"
+        ]
+      },
+      "sqlite_sequence": {
+        "row_count": 1,
+        "columns": [
+          "name",
+          "seq"
+        ]
+      },
+      "category_summary": {
+        "row_count": 8,
+        "columns": [
+          "category",
+          "total_imports",
+          "total_exports",
+          "trade_deficit",
+          "avg_dependency",
+          "critical_products",
+          "high_risk_products",
+          "updated_at"
+        ]
+      },
+      "critical_dependencies": {
+        "row_count": 0,
+        "columns": [
+          "hs_code",
+          "description",
+          "category",
+          "imports_billions",
+          "dependency_ratio",
+          "strategic_importance",
+          "alternatives",
+          "notes"
+        ]
+      }
+    },
+    "line_count": 74,
+    "field_count": 4,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\Trade_Facilities\\historical_hs_codes\\historical_trade_2010_2025_20250922_161313.db": {
+    "schema": {
+      "historical_trade": {
+        "row_count": 8395,
+        "columns": [
+          "id",
+          "hs_code",
+          "description",
+          "category",
+          "year",
+          "month",
+          "imports_value",
+          "exports_value",
+          "trade_balance",
+          "dependency_ratio",
+          "created_at"
+        ]
+      },
+      "sqlite_sequence": {
+        "row_count": 1,
+        "columns": [
+          "name",
+          "seq"
+        ]
+      },
+      "annual_summary": {
+        "row_count": 344,
+        "columns": [
+          "hs_code",
+          "year",
+          "total_imports",
+          "total_exports",
+          "trade_deficit",
+          "dependency_ratio",
+          "growth_rate_imports",
+          "growth_rate_exports"
+        ]
+      },
+      "trend_analysis": {
+        "row_count": 22,
+        "columns": [
+          "hs_code",
+          "category",
+          "description",
+          "avg_dependency_2010_2015",
+          "avg_dependency_2016_2020",
+          "avg_dependency_2021_2025",
+          "peak_dependency_year",
+          "peak_dependency_ratio",
+          "trend_direction",
+          "cagr_imports",
+          "cagr_exports",
+          "strategic_shift_year",
+          "notes"
+        ]
+      },
+      "critical_events": {
+        "row_count": 10,
+        "columns": [
+          "year",
+          "event",
+          "impact_categories",
+          "notes"
+        ]
+      }
+    },
+    "line_count": 8772,
+    "field_count": 5,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\Trade_Facilities\\historical_hs_codes\\historical_trade_2010_2023_20250922_161544.db": {
+    "schema": {
+      "annual_trade": {
+        "row_count": 418,
+        "columns": [
+          "hs_code",
+          "description",
+          "category",
+          "year",
+          "imports_value",
+          "exports_value",
+          "trade_balance",
+          "dependency_ratio"
+        ]
+      },
+      "trend_analysis": {
+        "row_count": 30,
+        "columns": [
+          "hs_code",
+          "category",
+          "description",
+          "imports_2010",
+          "imports_2015",
+          "imports_2020",
+          "imports_2023",
+          "exports_2010",
+          "exports_2015",
+          "exports_2020",
+          "exports_2023",
+          "ratio_2010",
+          "ratio_2015",
+          "ratio_2020",
+          "ratio_2023",
+          "peak_year",
+          "peak_ratio",
+          "trend_direction",
+          "cagr_imports",
+          "cagr_exports"
+        ]
+      },
+      "category_evolution": {
+        "row_count": 98,
+        "columns": [
+          "category",
+          "year",
+          "total_imports",
+          "total_exports",
+          "avg_dependency"
+        ]
+      },
+      "critical_periods": {
+        "row_count": 45,
+        "columns": [
+          "hs_code",
+          "critical_year",
+          "dependency_ratio",
+          "event"
+        ]
+      }
+    },
+    "line_count": 591,
+    "field_count": 4,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\WIPO_Brands\\wipo_brands_20250922.db": {
+    "schema": {
+      "trademarks": {
+        "row_count": 0,
+        "columns": [
+          "id",
+          "registration_number",
+          "mark_name",
+          "owner_name",
+          "owner_country",
+          "filing_date",
+          "registration_date",
+          "expiry_date",
+          "nice_classes",
+          "goods_services",
+          "technology_category",
+          "china_related",
+          "status",
+          "created_at"
+        ]
+      },
+      "sqlite_sequence": {
+        "row_count": 0,
+        "columns": [
+          "name",
+          "seq"
+        ]
+      },
+      "owners": {
+        "row_count": 0,
+        "columns": [
+          "owner_id",
+          "owner_name",
+          "owner_country",
+          "total_marks",
+          "technology_focus",
+          "first_filing",
+          "last_filing",
+          "china_entity",
+          "parent_company",
+          "updated_at"
+        ]
+      },
+      "tech_trends": {
+        "row_count": 0,
+        "columns": [
+          "technology_category",
+          "year",
+          "total_filings",
+          "china_filings",
+          "us_filings",
+          "eu_filings",
+          "china_percentage",
+          "growth_rate"
+        ]
+      },
+      "nice_class_analysis": {
+        "row_count": 0,
+        "columns": [
+          "nice_class",
+          "description",
+          "total_marks",
+          "china_marks",
+          "china_percentage",
+          "top_owners"
+        ]
+      },
+      "competition_matrix": {
+        "row_count": 0,
+        "columns": [
+          "technology_area",
+          "company1",
+          "country1",
+          "company2",
+          "country2",
+          "overlap_marks",
+          "competition_score"
+        ]
+      }
+    },
+    "line_count": 0,
+    "field_count": 6,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  },
+  "F:\\OSINT_DATA\\CompaniesHouse_UK\\uk_companies_20250922.db": {
+    "schema": {
+      "companies": {
+        "row_count": 0,
+        "columns": [
+          "company_number",
+          "company_name",
+          "company_type",
+          "company_status",
+          "incorporation_date",
+          "sic_codes",
+          "registered_address",
+          "sector",
+          "china_connected",
+          "created_at"
+        ]
+      },
+      "officers": {
+        "row_count": 0,
+        "columns": [
+          "id",
+          "company_number",
+          "officer_name",
+          "officer_role",
+          "appointed_date",
+          "resigned_date",
+          "nationality",
+          "country_of_residence",
+          "occupation",
+          "china_national"
+        ]
+      },
+      "sqlite_sequence": {
+        "row_count": 0,
+        "columns": [
+          "name",
+          "seq"
+        ]
+      },
+      "ownership": {
+        "row_count": 0,
+        "columns": [
+          "id",
+          "company_number",
+          "psc_name",
+          "psc_type",
+          "nature_of_control",
+          "notified_date",
+          "nationality",
+          "country_of_residence",
+          "china_entity",
+          "ownership_percentage"
+        ]
+      },
+      "filings": {
+        "row_count": 0,
+        "columns": [
+          "id",
+          "company_number",
+          "filing_date",
+          "filing_type",
+          "filing_description"
+        ]
+      },
+      "china_connections": {
+        "row_count": 0,
+        "columns": [
+          "company_number",
+          "company_name",
+          "connection_type",
+          "connection_details",
+          "risk_level",
+          "sector",
+          "first_identified"
+        ]
+      },
+      "sector_analysis": {
+        "row_count": 0,
+        "columns": [
+          "sector",
+          "total_companies",
+          "china_connected",
+          "china_percentage",
+          "key_companies",
+          "risk_assessment"
+        ]
+      }
+    },
+    "line_count": 0,
+    "field_count": 7,
+    "parse_status": "success",
+    "encoding": "sqlite3"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "cik": "0001967822",
+  "ticker": "CGTL",
+  "name": "Creative Global Technology Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong"
+  ],
+  "sic": "5045",
+  "sicDescription": "Wholesale-Computers & Peripheral Equipment & Software",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "85226909121",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT 03, 22/F, WESTIN CENTRE",
+      "street2": "26 HUNG TO ROAD, KWUN TONG, KOWLOON",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "UNIT 03, 22/F, WESTIN CENTRE",
+      "street2": "26 HUNG TO ROAD, KWUN TONG, KOWLOON",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-12"
+  },
+  "filings_count": 65
+}

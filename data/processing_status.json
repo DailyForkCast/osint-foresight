@@ -1,0 +1,49 @@
+{
+  "generated": "2025-09-29T20:56:16.341472",
+  "status": {
+    "openalex": {
+      "processed": true,
+      "sessions": [
+        {
+          "timestamp": "2025-09-20T17:55:32.852784",
+          "location": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_germany_china",
+          "records": 318,
+          "findings": 0
+        },
+        {
+          "timestamp": "2025-09-20T18:02:09.361742",
+          "location": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_real_data",
+          "records": 1225556,
+          "findings": 68
+        }
+      ],
+      "total_records": 1225874,
+      "findings": 68,
+      "output_files": [
+        "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_germany_china\\analysis_20250920_175532.json",
+        "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_germany_china\\collaborations_20250920_175532.json",
+        "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_germany_china\\report_20250920_175532.md",
+        "C:\\Projects\\OSINT - Foresight\\data\\real_verified\\verification_log_20250920_175322.json",
+        "C:\\Projects\\OSINT - Foresight\\data\\real_verified\\verified_data_report_20250920_175322.json"
+      ]
+    },
+    "ted": {
+      "processed": false,
+      "sessions": [],
+      "output_files": []
+    },
+    "cordis": {
+      "processed": false,
+      "sessions": [],
+      "output_files": []
+    },
+    "sec_edgar": {
+      "processed": false,
+      "output_files": []
+    },
+    "epo_patents": {
+      "processed": false,
+      "output_files": []
+    }
+  }
+}

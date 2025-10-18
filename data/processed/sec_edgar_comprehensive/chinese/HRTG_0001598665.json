@@ -1,0 +1,47 @@
+{
+  "cik": "0001598665",
+  "ticker": "HRTG",
+  "name": "Heritage Insurance Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6331",
+  "sicDescription": "Fire, Marine & Casualty Insurance",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "455338504",
+  "phone": "7273627202",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1401 N WESTSHORE BLVD",
+      "street2": null,
+      "city": "TAMPA",
+      "stateOrCountry": "FL",
+      "zipCode": "33607",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1401 N WESTSHORE BLVD",
+      "street2": null,
+      "city": "TAMPA",
+      "stateOrCountry": "FL",
+      "zipCode": "33607",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-25"
+  },
+  "filings_count": 668
+}

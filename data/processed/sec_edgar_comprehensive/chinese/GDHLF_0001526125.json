@@ -1,0 +1,47 @@
+{
+  "cik": "0001526125",
+  "ticker": "GDHLF",
+  "name": "GDS Holdings Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:shanghai",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "7370",
+  "sicDescription": "Services-Computer Programming, Data Processing, Etc.",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "86-21-2029-2200",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "F4/F5, BUILDING C, SUNLAND INTERNATIONAL",
+      "street2": "NO. 999 ZHOUHAI ROAD, PUDONG,",
+      "city": "SHANGHAI",
+      "stateOrCountry": null,
+      "zipCode": "200137",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "F4/F5, BUILDING C, SUNLAND INTERNATIONAL",
+      "street2": "NO. 999 ZHOUHAI ROAD, PUDONG,",
+      "city": "SHANGHAI",
+      "stateOrCountry": null,
+      "zipCode": "200137",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 362
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0000049600",
+  "ticker": "EGP",
+  "name": "EASTGROUP PROPERTIES INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6798",
+  "sicDescription": "Real Estate Investment Trusts",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "MD",
+  "ein": "132711135",
+  "phone": "6013543555",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "400 W. PARKWAY PLACE",
+      "street2": "SUITE 100",
+      "city": "RIDGELAND",
+      "stateOrCountry": "MS",
+      "zipCode": "39157",
+      "stateOrCountryDescription": "MS",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "400 W. PARKWAY PLACE",
+      "street2": "SUITE 100",
+      "city": "RIDGELAND",
+      "stateOrCountry": "MS",
+      "zipCode": "39157",
+      "stateOrCountryDescription": "MS",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-07-23"
+  },
+  "filings_count": 1003
+}

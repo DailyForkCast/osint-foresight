@@ -1,0 +1,818 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.31">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Stéphane Auray">
+<meta name="author" content="Aurélien Eyquem">
+<meta name="author" content="Michael Devereux">
+<meta name="description" content="Les guerres commerciales peuvent avoir des conséquences macroéconomiques importantes. Pourtant, l’interaction entre politiques commerciales et stratégies macroéconomiques optimales reste peu explorée. Ce billet propose une analyse dans le contexte de diverses règles de politique monétaire.">
+
+<title>Guerres commerciales et politique monétaire</title>
+<style class="anchorjs"></style><style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script async="" src="https://cdn.jsdelivr.net/npm/search-insights/dist/search-insights.iife.min.js"></script><script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete-preset-algolia.umd.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../www/favicon.ico" rel="icon">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-51e9ba6732aa6bc0134376f05742e55b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-1c4531505adf27a95d01d9fcc713658a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/social-share-0.5.0/social-share.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/social-share-0.5.0/all.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "algolia": {
+    "application-id": "PMD49D1SEK",
+    "search-only-api-key": "9f13a4839f7fd136e2e1851668be7d51",
+    "index-name": "augmented",
+    "params": {
+      "facets": [
+        "cat",
+        "authors"
+      ],
+      "maxValuesPerFacet": 10
+    },
+    "index-fields": {
+      "href": "href",
+      "title": "title",
+      "section": "section",
+      "text": "text"
+    },
+    "analytics-events": true,
+    "show-logo": true,
+    "libDir": "site_libs"
+  },
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": true,
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "Recherche",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js"></script>
+
+
+<script type="text/javascript">
+var ALGOLIA_INSIGHTS_SRC = "https://cdn.jsdelivr.net/npm/search-insights/dist/search-insights.iife.min.js";
+!function(e,a,t,n,s,i,c){e.AlgoliaAnalyticsObject=s,e[s]=e[s]||function(){
+(e[s].queue=e[s].queue||[]).push(arguments)},i=a.createElement(t),c=a.getElementsByTagName(t)[0],
+i.async=1,i.src=n,c.parentNode.insertBefore(i,c)
+}(window,document,"script",ALGOLIA_INSIGHTS_SRC,"aa");
+</script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-plugin-algolia-insights">
+
+</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-BRFB7DYR42"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-BRFB7DYR42', { 'anonymize_ip': true});
+</script>
+
+
+<style id="quarto-target-style">
+      section:target::before {
+        content: "";
+        display: block;
+        height: 55px;
+        margin: -55px 0 0;
+      }</style></head>
+
+<body class="nav-fixed quarto-light" data-bs-offset="55" style="padding-top: 55px;">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top headroom--top headroom--not-bottom">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="https://www.ofce.sciences-po.fr/blog2024" class="navbar-brand navbar-brand-logo" data-original-href="https://www.ofce.sciences-po.fr/blog2024">
+    <img src="../../../www/ofce.png" alt="logo de l'OFCE" class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="type-overlay" title="Recherche"><div class="aa-Autocomplete" role="combobox" aria-expanded="false" aria-haspopup="listbox"><button type="button" class="aa-DetachedSearchButton"><div class="aa-DetachedSearchButtonIcon"><svg class="aa-SubmitIcon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M16.041 15.856c-0.034 0.026-0.067 0.055-0.099 0.087s-0.060 0.064-0.087 0.099c-1.258 1.213-2.969 1.958-4.855 1.958-1.933 0-3.682-0.782-4.95-2.050s-2.050-3.017-2.050-4.95 0.782-3.682 2.050-4.95 3.017-2.050 4.95-2.050 3.682 0.782 4.95 2.050 2.050 3.017 2.050 4.95c0 1.886-0.745 3.597-1.959 4.856zM21.707 20.293l-3.675-3.675c1.231-1.54 1.968-3.493 1.968-5.618 0-2.485-1.008-4.736-2.636-6.364s-3.879-2.636-6.364-2.636-4.736 1.008-6.364 2.636-2.636 3.879-2.636 6.364 1.008 4.736 2.636 6.364 3.879 2.636 6.364 2.636c2.125 0 4.078-0.737 5.618-1.968l3.675 3.675c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414z"></path></svg></div><div class="aa-DetachedSearchButtonPlaceholder">Recherche</div><div class="aa-DetachedSearchButtonQuery"></div></button></div></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Basculer la navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.ofce.sciences-po.fr/" data-original-href="https://www.ofce.sciences-po.fr/"> <i class="bi bi-house" role="img">
+</i>
+<span class="menu-text">OFCE</span></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/OFCE" data-original-href="https://github.com/OFCE"> <i class="bi bi-github" role="img">
+</i>
+<span class="menu-text"> </span></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://twitter.com/ofceparis" data-original-href="https://twitter.com/ofceparis"> <i class="bi bi-twitter" role="img">
+</i>
+<span class="menu-text"> </span></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://fr.linkedin.com/company/le-golvan" data-original-href="https://fr.linkedin.com/company/le-golvan"> <i class="bi bi-linkedin" role="img">
+</i>
+<span class="menu-text"> </span></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.ofce.sciences-po.fr/blog2024/about.html" data-original-href="https://www.ofce.sciences-po.fr/blog2024/about.html"> <i class="bi bi-person-circle" role="img">
+</i>
+<span class="menu-text"> </span></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.ofce.sciences-po.fr/blog2024/index.en.html" data-original-href="https://www.ofce.sciences-po.fr/blog2024/index.en.html"> <i class="bi bi-globe" role="img">
+</i>
+<span class="menu-text">EN</span></a>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar" style="min-height: calc(-115px + 100vh);">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom" style="top: 55px; max-height: calc(-55px + 100vh);">
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Guerres commerciales et politique monétaire</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category"><a href="/blog2024/index.html#category=Commerce%20ext%C3%A9rieur">Commerce extérieur</a></div>
+    <div class="quarto-category"><a href="/blog2024/index.html#category=Comp%C3%A9tivitit%C3%A9">Compétivitité</a></div>
+    <div class="quarto-category"><a href="/blog2024/index.html#category=%C3%89tats-Unis">États-Unis</a></div>
+  </div>
+  </div>
+
+
+  <details class="details-box" open="">
+    <summary class="quarto-title-meta-heading"><b>Autrices, auteurs</b></summary>
+
+        <div class="quarto-title-meta-author">
+      <div class="quarto-title-meta-heading"> </div>
+      <div class="quarto-title-meta-heading">Affiliations</div>
+
+            <div class="quarto-title-meta-contents">
+        <span class="author"><a href="https://sites.google.com/site/stephaneauray/" data-original-href="https://sites.google.com/site/stephaneauray/">Stéphane Auray</a> </span>
+      </div>
+
+            <div class="quarto-title-meta-contents">
+                <p class="affiliation">
+                      <a href="https://www.ofce.sciences-po.fr/" data-original-href="https://www.ofce.sciences-po.fr/">
+                    OFCE, chercheur associé
+                      </a>
+                  </p>
+                <p class="affiliation">
+                    CREST-Enseai
+                  </p>
+                <p class="affiliation">
+                    ULCO
+                  </p>
+                <p class="affiliation">
+                    RSB
+                  </p>
+              </div>
+                  <div class="quarto-title-meta-contents">
+        <span class="author"><a href="http://aeyq.free.fr/" data-original-href="http://aeyq.free.fr/">Aurélien Eyquem</a> </span>
+      </div>
+
+            <div class="quarto-title-meta-contents">
+                <p class="affiliation">
+                      <a href="https://www.unil.ch/central/en/home.html" data-original-href="https://www.unil.ch/central/en/home.html">
+                    Université of Lausanne (UNIL)
+                      </a>
+                  </p>
+              </div>
+                  <div class="quarto-title-meta-contents">
+        <span class="author"><a href="https://economics.ubc.ca/profile/michael-devereux/" data-original-href="https://economics.ubc.ca/profile/michael-devereux/">Michael Devereux</a> </span>
+      </div>
+
+            <div class="quarto-title-meta-contents">
+                <p class="affiliation">
+                      <a href="https://www.ofce.sciences-po.fr/" data-original-href="https://www.ofce.sciences-po.fr/">
+                    Vancouver School of Economics
+                      </a>
+                  </p>
+                <p class="affiliation">
+                    CEPR
+                  </p>
+                <p class="affiliation">
+                    NBER
+                  </p>
+              </div>
+                </div>
+
+
+    <div class="quarto-title-meta">
+            <div>
+        <div class="quarto-title-meta-heading">Date de publication</div>
+        <div class="quarto-title-meta-contents">
+          <p class="date">19 novembre 2024</p>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </details>
+
+</header>
+
+
+<div id="socialshare">
+<div class="social-share">  <a href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/20241119_SAAEMD.fr.pdf" download="" target="_blank" class="pdf" data-original-href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/20241119_SAAEMD.fr.pdf"><i class="fa-solid fa-file-pdf fa-fw fa-lg"></i></a><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div><a href="https://www.linkedin.com/shareArticle?url=https://ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/index.html&amp;title=Guerres%20commerciales%20et%20politique%20mon%C3%A9taire" target="_blank" class="linkedin" data-original-href="https://www.linkedin.com/shareArticle?url=https://ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/index.html&amp;title=Guerres%20commerciales%20et%20politique%20mon%C3%A9taire"><i class="fa-brands fa-linkedin-in fa-fw fa-lg"></i></a><a href="https://www.facebook.com/sharer.php?u=https://ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/index.html" target="_blank" class="facebook" data-original-href="https://www.facebook.com/sharer.php?u=https://ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/index.html"><i class="fab fa-facebook-f fa-fw fa-lg"></i></a><a href="javascript:void(0);" onclick="var mastodon_instance=prompt('Mastodon Instance / Server Name?'); if(typeof mastodon_instance==='string' &amp;&amp; mastodon_instance.length){this.href='https://'+mastodon_instance+'/share?text=Guerres commerciales et politique monétaire https://ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/index.html'}else{return false;}" target="_blank" class="mastodon" data-original-href="javascript:void(0);"><i class="fa-brands fa-mastodon fa-fw fa-lg"></i></a><a href="https://bsky.app/intent/compose?text=Guerres%20commerciales%20et%20politique%20mon%C3%A9taire" target="_blank" class="bluesky" data-original-href="https://bsky.app/intent/compose?text=Guerres%20commerciales%20et%20politique%20mon%C3%A9taire"> <i class="fa-brands fa-bluesky fa-fw fa-lg"> </i> </a><a href="https://reddit.com/submit?url=https://ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/index.html&amp;title=Guerres%20commerciales%20et%20politique%20mon%C3%A9taire" target="_blank" class="reddit" data-original-href="https://reddit.com/submit?url=https://ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/index.html&amp;title=Guerres%20commerciales%20et%20politique%20mon%C3%A9taire">   <i class="fa-brands fa-reddit-alien fa-fw fa-lg"></i></a><a href="https://twitter.com/share?url=https://ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/index.html&amp;text=Guerres%20commerciales%20et%20politique%20mon%C3%A9taire" target="_blank" class="twitter" data-original-href="https://twitter.com/share?url=https://ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/index.html&amp;text=Guerres%20commerciales%20et%20politique%20mon%C3%A9taire"><i class="fab fa-twitter fa-fw fa-lg"></i></a>  <a href="mailto:?subject=Guerres%20commerciales%20et%20politique%20mon%C3%A9taire&amp;body=Check%20out%20this%20link:https://ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/" target="_blank" class="email" data-original-href="mailto:?subject=Guerres%20commerciales%20et%20politique%20mon%C3%A9taire&amp;body=Check%20out%20this%20link:https://ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/index.html"><i class="fa-solid fa-envelope fa-fw fa-lg"></i></a></div>
+</div>
+<p>Les guerres commerciales peuvent avoir des conséquences macroéconomiques importantes, mais l’interaction entre les politiques commerciales et les politiques macroéconomiques optimales est peu étudiée. Cette chronique étudie la conception optimale des politiques commerciales dans le cadre de différentes règles de politique monétaire. Elle constate que dans une guerre commerciale, une règle de politique monétaire qui cible l’inflation des prix à la consommation conduit à des taux de droits de douane moyens plus bas et à un bien-être plus élevé qu’un ciblage de l’inflation des prix à la production ou une politique de taux de change nominaux fixes. En outre, une règle de politique monétaire conçue de manière optimale et déléguée qui internalise la formation de la politique commerciale peut éliminer la guerre commerciale et même compenser certaines des distorsions de monopole dans la production.</p>
+<p>Le monde a récemment connu un renversement du processus de libéralisation commerciale qui a duré des décennies dans le cadre d’un système commercial multilatéral fondé sur des règles (voir par exemple <span class="citation" data-cites="FAJ_ETAL">Fajgelbaum <em>et al.</em> (<a href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#ref-FAJ_ETAL" role="doc-biblioref" data-original-href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#ref-FAJ_ETAL" aria-expanded="false">2019</a>)</span>). On craint de plus en plus une guerre commerciale mondiale, dans laquelle la plupart des pays suivraient des politiques tarifaires unilatérales non coopératives.Les conséquences pour l’économie mondiale seront majeures. Une question clé est de savoir jusqu’où les tarifs douaniers pourraient augmenter dans une guerre commerciale mondiale. De nombreux exemples d’augmentation des tarifs douaniers pavent l’histoire récente des Etats-Unis. L’administration Trump a décidé d’augmenter les droits de douane sur les importations chinoises, faisant fi des règles de l’OMC et initiant ainsi une véritable guerre commerciale, conduisant à une série de réactions chinoises, telles que décrites par <span class="citation" data-cites="BOWN:2019">Chadl (<a href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#ref-BOWN:2019" role="doc-biblioref" data-original-href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#ref-BOWN:2019" aria-expanded="false">2019</a>)</span> . Les droits de douane sur les échanges commerciaux de biens entre les États-Unis et la Chine sont donc passés de 3% environ en 2017 à près de 26% fin 2019. Plus généralement, l’ensemble des mesures prises par l’administration Trump ont affecté pour près de 420&nbsp;milliards de dollars d’importations américaines. L’administration Biden n’est pas revenu sur ces droits de douane arguant que la Chine faisait fi des règles de l’OMC. En mai 2024, et dans la continuité des politiques du Président Trump, Le Président Biden a annoncé une hausse record des tarifs douaniers appliqués aux importations chinoises dans certaines filières industrielles, une mesure qui s’appliquera à 18&nbsp;milliards de dollars d’importations annuelles<a href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#fn1" class="footnote-ref" id="fnref1" role="doc-noteref" data-original-href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#fn1" aria-expanded="false"><sup>1</sup></a>.</p>
+<div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;Voir par exemple cet article sur le <a href="https://legrandcontinent.eu/fr/2024/05/14/washington-augmente-ses-tarifs-douaniers-sur-les-importations-de-vehicules-electriques-chinois-de-275-a-1025/" data-original-href="https://legrandcontinent.eu/fr/2024/05/14/washington-augmente-ses-tarifs-douaniers-sur-les-importations-de-vehicules-electriques-chinois-de-275-a-1025/">Grand Continent</a>.</p></div></div><p>Bien qu’il existe une littérature scientifique de longue date sur la théorie commerciale concernant la détermination des tarifs douaniers non coopératifs optimaux pour les petites et les grandes économies, on s’est beaucoup moins intéressé à l’interaction entre la politique commerciale optimale et la politique macroéconomique. D’une part, la littérature sur la politique macroéconomique optimale dans les économies ouvertes a pour la plupart fait abstraction de la politique commerciale. Dans la littérature néo-keynésienne sur l’économie ouverte, de nombreux articles ont exploré la nature des retombées de la politique monétaire et les avantages de la coopération internationale en matière de politique monétaire. L’augmentation récente des tensions commerciales entre les principaux pays a donné lieu à des études analysant les impacts des tarifs exogènes ou des subventions à l’exportation dans ce type de modèles (par exemple, <span class="citation" data-cites="BARA/CACC/GHIR:18">Barattieri, Cacciatore et Ghironi (<a href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#ref-BARA/CACC/GHIR:18" role="doc-biblioref" data-original-href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#ref-BARA/CACC/GHIR:18" aria-expanded="false">2021</a>)</span>, <span class="citation" data-cites="BerginCorsetti23">Bergin et Corsetti (<a href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#ref-BerginCorsetti23" role="doc-biblioref" data-original-href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#ref-BerginCorsetti23" aria-expanded="false">2023</a>)</span>). En revanche, les études sur la politique commerciale optimale dans les cadres néo-keynésiens standards, où les prix et les salaires sont rigides, ont été beaucoup moins explorées.</p>
+<p>D’autre part, la plupart des études sur la politique commerciale et les accords commerciaux ont implicitement fait abstraction des considérations à court terme lors de l’exploration des déterminants des tarifs douaniers et autres barrières commerciales, que ce soit dans des environnements coopératifs ou non coopératifs. Le <em>« nouveau monde »</em> de la politique commerciale discrétionnaire exige un cadre intégré qui tienne compte du choix optimal des tarifs dans le contexte plus large de l’agenda de politique économique à court terme. Dans un premier article dans ce sens <span class="citation" data-cites="AUR/DEV/EYQ:2022">(<a href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#ref-AUR/DEV/EYQ:2022" role="doc-biblioref" data-original-href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#ref-AUR/DEV/EYQ:2022" aria-expanded="false">Auray, Devereux et Eyquem, 2022</a>)</span>, nous avons étendu le modèle simple à deux pays de <span class="citation" data-cites="GALI/MONA:05">Galì et Monacelli (<a href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#ref-GALI/MONA:05" role="doc-biblioref" data-original-href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#ref-GALI/MONA:05" aria-expanded="false">2005</a>)</span> pour incorporer la formation endogène des tarifs dans un jeu dynamique non coopératif. En utilisant l’hypothèse de <span class="citation" data-cites="BAGW/STAI:03">Bagwell et Staiger (<a href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#ref-BAGW/STAI:03" role="doc-biblioref" data-original-href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#ref-BAGW/STAI:03" aria-expanded="false">2003</a>)</span>, où les tarifs sont déterminés comme un équilibre dans des contraintes d’incitation dynamiques en interaction pour chaque pays, nous constatons que les tarifs devraient être acycliques si les prix et les salaires sont flexibles, de sorte que les restrictions commerciales sont indépendantes des chocs macroéconomiques. Cependant, en raison de la rigidité des salaires et des prix, les tarifs douaniers varient en fonction du cycle économique, car les gouvernements tentent d’utiliser les tarifs douaniers pour corriger l’absence d’ajustement des salaires nominaux ou des prix. Nous constatons cependant que les tarifs douaniers peuvent être procycliques ou contracycliques, selon la nature des chocs<a href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#fn2" class="footnote-ref" id="fnref2" role="doc-noteref" data-original-href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#fn2" aria-expanded="false"><sup>2</sup></a>.</p>
+<div class="no-row-height column-margin column-container"><div id="fn2"><p><sup>2</sup>&nbsp;Les résultats empiriques étayant ces modèles de cyclicité conditionnelle de la protection commerciale sont présentés dans un article complémentaire <span class="citation" data-cites="AURA:2024a">(<a href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#ref-AURA:2024a" role="doc-biblioref" data-original-href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#ref-AURA:2024a" aria-expanded="false">Auray, Devereux et Eyquem, 2024a</a>)</span>.</p></div></div><p>Une analyse approfondie dans <span class="citation" data-cites="AURA:2024b">(<a href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#ref-AURA:2024b" role="doc-biblioref" data-original-href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#ref-AURA:2024b" aria-expanded="false">Auray, Devereux et Eyquem, 2024b</a>)</span> compare les résultats de tarifs optimaux et de guerres commerciales en fonction de différentes hypothèses sur le degré d’engagement de la politique monétaire. Dans cette étude, nous montrons qu’un cadre monétaire ciblant l’inflation est associé à des tarifs significativement plus bas et à une guerre commerciale moins intense qu’une situation caractérisée par une politique monétaire discrétionnaire c’est à dire qui ne suit pas une règle définie au préalable. Dans une application quantitative, nous constatons que les tarifs mondiaux moyens seraient 30 % plus bas avec une règle monétaire ciblant l’inflation qu’avec une politique discrétionnaire. Dans une étude plus récente <span class="citation" data-cites="AURA:2024c">(<a href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#ref-AURA:2024c" role="doc-biblioref" data-original-href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#ref-AURA:2024c" aria-expanded="false">Auray, Devereux et Eyquem, 2024c</a>)</span>, nous étendons l’analyse des politiques commerciales non coopératives optimales pour explorer les conséquences de règles de politique monétaire alternatives et leur conception optimale. L’hypothèse clé qui sous-tend l’analyse est que la politique commerciale est élaborée dans un cadre où le fixateur des tarifs prend en compte les distorsions monopolistiques et les rigidités nominales préexistantes. Lorsque les marges monopolistiques sont positives, un tarif améliore les termes de l’échange, mais est susceptible d’exacerber la distorsion en raison du fait que la production globale est inférieure au niveau socialement optimal. En cas de prix rigides, un tarif douanier peut également avoir un effet secondaire négatif en raison de son impact déflationniste car des tarifs plus élevés induisent des tensions déflationistes chez le producteur. Nous montrons qu’une règle monétaire qui cible l’indice des prix à la consommation (IPC) ou stabilise le taux de change nominal exacerbe l’impact des coûts de production intérieurs des tarifs douaniers et conduit à des taux de droits moyens plus bas dans une guerre commerciale, et donc à un bien-être plus élevé.</p>
+<p><span class="citation" data-cites="CGG2002">Clarida, Gali et Gertler (<a href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#ref-CGG2002" role="doc-biblioref" data-original-href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#ref-CGG2002" aria-expanded="false">2002</a>)</span> et <span class="citation" data-cites="ENGEL2011">Engel (<a href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#ref-ENGEL2011" role="doc-biblioref" data-original-href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#ref-ENGEL2011" aria-expanded="false">2011</a>)</span> utilisent des modèles néo-keynésiens d’économie ouverte avec prix à la production en monnaie et libre-échange pour montrer qu’une politique monétaire optimale devrait cibler le taux d’inflation des biens nationaux (ou l’indice des prix à la production). Dans <span class="citation" data-cites="AURA:2024c">Auray, Devereux et Eyquem (<a href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#ref-AURA:2024c" role="doc-biblioref" data-original-href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#ref-AURA:2024c" aria-expanded="false">2024c</a>)</span>, nous montrons que ce résultat ne s’applique plus dans le contexte d’une guerre commerciale. Notre premier résultat est que l’inflation de l’IPC domine strictement le ciblage de l’IPP en fonction du bien-être, car il conduit à des tarifs douaniers plus bas en cas de guerre commerciale. Alors que le ciblage de l’IPC stabilise la réponse de l’IPC global à tout choc, il conduit à une plus grande réponse déflationniste de l’IPP. Cela conduit à un coût plus élevé d’un tarif en termes d’écart de la production globale par rapport à son niveau socialement optimal. Dans le contexte d’une politique commerciale endogène, cela réduira le tarif de guerre commerciale souhaité. Dans une économie mondiale entièrement symétrique, le bien-être est plus élevé dans le cadre du ciblage de l’IPC car les tarifs moyens sont plus bas dans tous les pays. La <a href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#fig-1" class="quarto-xref" data-original-href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#fig-1" aria-expanded="false">Figure&nbsp;1</a> illustre les implications de trois formes simples de politique monétaire pour des tarifs douaniers et un bien-être optimaux dans une guerre commerciale symétrique pour différents degrés de rigidité des prix. Avec des prix totalement flexibles, la politique monétaire n’a aucune incidence sur l’issue d’une guerre commerciale. Mais lorsque les prix deviennent plus rigides, le ciblage de l’IPC conduit à des tarifs douaniers plus bas et à un bien-être plus élevé que le ciblage de l’IPP ou, plus surprenant, une politique de taux de change nominal fixe. En substance, la <a href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#fig-1" class="quarto-xref" data-original-href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/#fig-1" aria-expanded="false">Figure&nbsp;1</a> montre quantitativement la chute des tarifs.</p>
+<div id="fig-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Les effets des différentes règles de politique monétaire dans une guerre commerciale symétrique
+</figcaption>
+<div aria-describedby="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/figures/fig_1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;1: Les effets des différentes règles de politique monétaire dans une guerre commerciale symétrique" data-original-href="https://www.ofce.sciences-po.fr/blog2024/fr/2024/20241119_SAAEMD/figures/fig_1.png"><img src="figures/fig_1.png" class="img-fluid figure-img"></a>
+</div>
+</figure>
+<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#fig-1" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></div>
+<p><strong>Note</strong> : Ce graphique montre les résultats en termes de tarifs douaniers, de consommation, d’emploi et de bien-être pour différentes règles de politique monétaire selon différents degrés de rigidité des prix.</p>
+<p>En réalité, il est possible de faire mieux que cela, car aucune des règles exactes (ciblage de l’IPP, ciblage de l’IPC ou taux de change nominaux fixes) ne maximise le bien-être global du point de vue d’une autorité coopérative qui internaliserait la motivation des politiques commerciales nationales et l’impact ultérieur des règles monétaires sur les choix tarifaires. Nous considérons cette situation comme une situation dans laquelle les règles monétaires sont déléguées à des banques centrales indépendantes, mais les règles sont conçues ex ante, en tenant compte de la nature de la politique commerciale et de la mise en œuvre de la politique monétaire. Dans ce cas, nous montrons qu’une règle optimale conçue de manière coopérative accordera une grande importance à la stabilisation d’une fonction des termes de l’échange ajustés par les tarifs – plus importante que le ciblage de l’inflation par l’IPC. Cette règle coopérative agit pour compenser entièrement l’incitation à imposer des tarifs, et élimine donc en fait complètement la guerre commerciale. Elle conduit en fait à de faibles tarifs négatifs, qui annulent en partie les distorsions de monopole préexistantes dans la production. Ainsi, de manière remarquable, en présence d’une fixation endogène des tarifs douaniers, une règle particulière de politique monétaire peut non seulement empêcher la guerre commerciale, mais aussi atténuer en partie la distorsion de production sous-jacente dans chaque économie, et ce faisant, domine en fait un résultat de libre-échange en termes de bien-être. La politique monétaire se retranscit en une guerre commerciale par une manipulation agressive du taux de change (un thème souvent présent dans la lutte contre l’inflation des années 80). Enfin, nous montrons que la politique monétaire optimale conçue de manière coopérative est très proche d’un résultat non coopératif dans lequel chaque pays conçoit sa règle monétaire et la délègue à sa propre banque centrale. Tout d’abord, si une règle doit être transparente dans le sens où elle cible un indice des prix officiel, alors nous avons déjà constaté que le ciblage de l’IPC plutôt que celui de l’IPP sera unilatéralement optimal pour chaque pays. Cependant, si la règle permet plus de flexibilité, nous montrons que dans ce cas (comme dans le cas d’un choix de cible coopératif), la règle optimale conduit à une élimination endogène de la guerre commerciale et à une compensation partielle de la distorsion de monopole et implique de faibles pertes de bien-être par rapport à la règle coopérative. Par conséquent, nous pouvons conclure qu’une conception monétaire optimale et une délégation purement auto-orientées peuvent produire des gains de bien-être majeurs dans un environnement de politique commerciale endogène non coopérative et de distorsions de monopole dans la production.</p>
+<div class="refs">
+
+</div>
+
+
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading" id="références">Références<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#références" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2><div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-AUR/DEV/EYQ:2022" class="csl-entry" role="listitem">
+Auray S., Devereux M.B., Eyquem A. (2022). <span>«&nbsp;<span>Self-enforcing Trade Policy and Exchange Rate Adjustment</span>&nbsp;»</span>, <em>Journal of International Economics</em>, <em>134</em>, n° C.
+</div>
+<div id="ref-AURA:2024a" class="csl-entry" role="listitem">
+Auray S., Devereux M.B., Eyquem A. (2024a). <span>«&nbsp;The Demand for Trade Protection over the Business Cycle&nbsp;»</span>, <em>Journal of Money Credit and Banking</em>, <em>56</em>, n° 4, p.&nbsp;865‑898.
+</div>
+<div id="ref-AURA:2024b" class="csl-entry" role="listitem">
+Auray S., Devereux M.B., Eyquem A. (2024b). <span>«&nbsp;Trade Wars, Nominal Rigidities and Monetary Policy&nbsp;»</span>, <em>Review of Economic Studies</em>.
+</div>
+<div id="ref-AURA:2024c" class="csl-entry" role="listitem">
+Auray S., Devereux M.B., Eyquem A. (2024c). <span>«&nbsp;<span>Trade Wars and the Optimal Design of Monetary Rules”</span>&nbsp;»</span>, NBER Working Paper, 32451.
+</div>
+<div id="ref-BAGW/STAI:03" class="csl-entry" role="listitem">
+Bagwell K., Staiger R.W. (2003). <span>«&nbsp;<span>Protection and the Business Cycle</span>&nbsp;»</span>, <em>The B.E. Journal of Economic Analysis &amp; Policy</em>, <em>3</em>, n° 1, p.&nbsp;1‑45.
+</div>
+<div id="ref-BARA/CACC/GHIR:18" class="csl-entry" role="listitem">
+Barattieri A., Cacciatore M., Ghironi F. (2021). <span>«&nbsp;<span>Protectionism and the Business Cycle</span>&nbsp;»</span>, <em>Journal of International Economics</em>, <em>129</em>, p.&nbsp;103417.
+</div>
+<div id="ref-BerginCorsetti23" class="csl-entry" role="listitem">
+Bergin P.R., Corsetti G. (2023). <span>«&nbsp;<span>The Macroeconomic Stabilization of Tariff Shocks: What is the Optimal Monetary Response?</span>&nbsp;»</span>, <em>Journal of International Economics</em>, p.&nbsp;103758.
+</div>
+<div id="ref-BOWN:2019" class="csl-entry" role="listitem">
+Chadl B. (2019). <span>«&nbsp;<span>US-China Trade War: The Guns of August</span>&nbsp;»</span>, Manuscript.
+</div>
+<div id="ref-CGG2002" class="csl-entry" role="listitem">
+Clarida R., Gali J., Gertler M. (2002). <span>«&nbsp;<span>A Simple Framework for International Monetary Policy Analysis</span>&nbsp;»</span>, <em>Journal of Monetary Economics</em>, <em>49</em>, n° 5, p.&nbsp;879‑904.
+</div>
+<div id="ref-ENGEL2011" class="csl-entry" role="listitem">
+Engel C. (2011). <span>«&nbsp;<span>Currency Alignments and Optimal Monetary Policy</span>&nbsp;»</span>, <em>American Economic Review</em>, <em>101</em>, n° 6, p.&nbsp;2796‑2822.
+</div>
+<div id="ref-FAJ_ETAL" class="csl-entry" role="listitem">
+Fajgelbaum P.D., Goldberg P.K., Kennedy P.J., Khandelwal A.K. (2019). <span>«&nbsp;<span>The Return to Protectionism</span>&nbsp;»</span>, <em>The Quarterly Journal of Economics</em>, <em>135</em>, n° 1, p.&nbsp;1‑55.
+</div>
+<div id="ref-GALI/MONA:05" class="csl-entry" role="listitem">
+Galì J., Monacelli T. (2005). <span>«&nbsp;<span>Monetary Policy and Exchange Rate Volatility in a Small Open Economy</span>&nbsp;»</span>, <em>The Review of Economic Studies</em>, <em>72</em>, n° 3, p.&nbsp;707‑734.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copié");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copié");
+        tooltip = new bootstrap.Tooltip(button,
+          { trigger: "manual",
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/www\.ofce\.sciences-po\.fr\/blog2024\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config);
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined;
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              }
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            }
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><a href="https://www.ofce.sciences-po.fr/blog2024/www/ccby4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-original-href="https://www.ofce.sciences-po.fr/blog2024/www/ccby4.png"><img src="../../../www/ccby4.png" height="16"></a></p>
+</div>
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>propulsé par <img src="../../../www/quarto.png" height="16"></p>
+</div>
+  </div>
+</footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      }
+    });
+
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+
+  };
+
+})();
+          </script>
+
+
+
+
+</body></html>

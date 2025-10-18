@@ -1,0 +1,47 @@
+{
+  "cik": "0001519449",
+  "ticker": "SKWD",
+  "name": "Skyward Specialty Insurance Group, Inc.",
+  "detection_reasons": [
+    "offshore:ky"
+  ],
+  "sic": "6331",
+  "sicDescription": "Fire, Marine & Casualty Insurance",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "141957288",
+  "phone": "713-935-4888",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "800 GESSNER",
+      "street2": "SUITE 600",
+      "city": "HOUSTON",
+      "stateOrCountry": "TX",
+      "zipCode": "77024",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "800 GESSNER",
+      "street2": "SUITE 600",
+      "city": "HOUSTON",
+      "stateOrCountry": "TX",
+      "zipCode": "77024",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-08"
+  },
+  "filings_count": 326
+}

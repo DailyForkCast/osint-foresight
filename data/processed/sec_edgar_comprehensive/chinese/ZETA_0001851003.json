@@ -1,0 +1,47 @@
+{
+  "cik": "0001851003",
+  "ticker": "ZETA",
+  "name": "Zeta Global Holdings Corp.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7372",
+  "sicDescription": "Services-Prepackaged Software",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "800814458",
+  "phone": "(212) 967-5055",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3 PARK AVENUE",
+      "street2": "33RD FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10016",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3 PARK AVENUE",
+      "street2": "33RD FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10016",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-06"
+  },
+  "filings_count": 383
+}

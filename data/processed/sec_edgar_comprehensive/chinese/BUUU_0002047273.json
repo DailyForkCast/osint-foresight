@@ -1,0 +1,47 @@
+{
+  "cik": "0002047273",
+  "ticker": "BUUU",
+  "name": "BUUU Group Ltd",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "7900",
+  "sicDescription": "Services-Amusement & Recreation Services",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "85237055244",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "FLAT B, 16/F, FORD GLORY PLAZA",
+      "street2": "37 WING HONG STREET, CHEUNG SHA WAN",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "000000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "FLAT B, 16/F, FORD GLORY PLAZA",
+      "street2": "37 WING HONG STREET, CHEUNG SHA WAN",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "000000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-25"
+  },
+  "filings_count": 15
+}

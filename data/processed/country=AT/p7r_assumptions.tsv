@@ -1,9 +1,0 @@
-assumption_id	statement	phase_origin	basis	impact_if_wrong	confidence_LMH	notes
-A1	HPC access (VSC/EuroHPC) enables AI maturity	P2	signals+facilities	Overstates AI capability if allocations tiny	M	Need allocation proof
-A2	AT has accredited EMC/GNSS capacity	P3	expected from registry	Risk posture relies on real benches	L	Confirm scopes first
-A3	Standards roles → deployment influence	P2,P5	IETF IPPM/NTP authorship	May overstate leverage if roles minor	M	Check editorship, doc adoption
-A4	No direct PRC nexus exists	P5,P7C	Clean screening results	Misses hidden connections	H	Multiple screens confirm
-A5	EU governance mitigates risks	P6,P7C	Framework reliance	May underestimate workarounds	M	Monitor implementation gaps
-A6	Conference hosting → research strength	P2	ICLR Vienna signal	Events ≠ sustained capability	L	Need publication metrics
-A7	DACH corridor is primary knowledge flow	P5	Co-pub patterns	May miss other corridors	M	Check broader networks
-A8	Supply chain risk is low	P2S	Landlocked position	Ignores transit vulnerabilities	M	Verify corridor controls

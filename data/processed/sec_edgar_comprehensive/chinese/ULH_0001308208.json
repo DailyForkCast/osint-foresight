@@ -1,0 +1,47 @@
+{
+  "cik": "0001308208",
+  "ticker": "ULH",
+  "name": "UNIVERSAL LOGISTICS HOLDINGS, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "4213",
+  "sicDescription": "Trucking (No Local)",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "NV",
+  "ein": "383640097",
+  "phone": "(586) 920-0100",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "12755 EAST NINE MILE ROAD",
+      "street2": null,
+      "city": "WARREN",
+      "stateOrCountry": "MI",
+      "zipCode": "48089",
+      "stateOrCountryDescription": "MI",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "12755 EAST NINE MILE ROAD",
+      "street2": null,
+      "city": "WARREN",
+      "stateOrCountry": "MI",
+      "zipCode": "48089",
+      "stateOrCountryDescription": "MI",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-07"
+  },
+  "filings_count": 525
+}

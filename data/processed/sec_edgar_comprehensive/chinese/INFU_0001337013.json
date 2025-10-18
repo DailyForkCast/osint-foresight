@@ -1,0 +1,47 @@
+{
+  "cik": "0001337013",
+  "ticker": "INFU",
+  "name": "InfuSystem Holdings, Inc",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3841",
+  "sicDescription": "Surgical & Medical Instruments & Apparatus",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "203341405",
+  "phone": "(248) 291-1210",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3851 WEST HAMLIN ROAD",
+      "street2": null,
+      "city": "ROCHESTER HILLS",
+      "stateOrCountry": "MI",
+      "zipCode": "48309",
+      "stateOrCountryDescription": "MI",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3851 WEST HAMLIN ROAD",
+      "street2": null,
+      "city": "ROCHESTER HILLS",
+      "stateOrCountry": "MI",
+      "zipCode": "48309",
+      "stateOrCountryDescription": "MI",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-25"
+  },
+  "filings_count": 1003
+}

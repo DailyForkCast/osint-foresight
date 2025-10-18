@@ -1,0 +1,51 @@
+{
+  "cik": "0000723533",
+  "ticker": "WYGC",
+  "name": "Wenyuan Group Corp.",
+  "detection_reasons": [
+    "location:china",
+    "location:hangzhou",
+    "address:mailing",
+    "address:business",
+    "sic:8742"
+  ],
+  "sic": "8742",
+  "sicDescription": "Services-Management Consulting Services",
+  "category": "Non-accelerated filer<br>Smaller reporting company<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "NV",
+  "ein": "953506403",
+  "phone": "626-872-9451",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "RM 219, NO. 25 CAIHE RD",
+      "street2": "SHANGCHENG DIST.",
+      "city": "HANGZHOU",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "RM 219, NO. 25 CAIHE RD",
+      "street2": "SHANGCHENG DIST.",
+      "city": "HANGZHOU",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-18"
+  },
+  "filings_count": 263
+}

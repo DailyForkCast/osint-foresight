@@ -1,0 +1,47 @@
+{
+  "cik": "0001692115",
+  "ticker": "SWX",
+  "name": "Southwest Gas Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "4923",
+  "sicDescription": "Natural Gas Transmisison & Distribution",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "813881866",
+  "phone": "702-876-7237",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "C/O SOUTHWEST GAS CORPORATION",
+      "street2": "8360 S. DURANGO DRIVE",
+      "city": "LAS VEGAS",
+      "stateOrCountry": "NV",
+      "zipCode": "89113",
+      "stateOrCountryDescription": "NV",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "C/O SOUTHWEST GAS CORPORATION",
+      "street2": "8360 S. DURANGO DRIVE",
+      "city": "LAS VEGAS",
+      "stateOrCountry": "NV",
+      "zipCode": "89113",
+      "stateOrCountryDescription": "NV",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-05"
+  },
+  "filings_count": 1015
+}

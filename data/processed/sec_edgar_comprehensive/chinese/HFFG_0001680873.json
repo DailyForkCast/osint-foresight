@@ -1,0 +1,47 @@
+{
+  "cik": "0001680873",
+  "ticker": "HFFG",
+  "name": "HF Foods Group Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5140",
+  "sicDescription": "Wholesale-Groceries & Related Products",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "812717873",
+  "phone": "888-905-0998",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "6325 SOUTH RAINBOW BOULEVARD, SUITE 420",
+      "street2": null,
+      "city": "LAS VEGAS",
+      "stateOrCountry": "NV",
+      "zipCode": "89118",
+      "stateOrCountryDescription": "NV",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "6325 SOUTH RAINBOW BOULEVARD, SUITE 420",
+      "street2": null,
+      "city": "LAS VEGAS",
+      "stateOrCountry": "NV",
+      "zipCode": "89118",
+      "stateOrCountryDescription": "NV",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-25"
+  },
+  "filings_count": 366
+}

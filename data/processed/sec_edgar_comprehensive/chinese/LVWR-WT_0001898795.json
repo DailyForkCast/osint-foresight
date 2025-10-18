@@ -1,0 +1,47 @@
+{
+  "cik": "0001898795",
+  "ticker": "LVWR-WT",
+  "name": "LiveWire Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3751",
+  "sicDescription": "Motorcycles, Bicycles & Parts",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "(650) 447-8424",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3700 W JUNEAU AVENUE",
+      "street2": null,
+      "city": "MILWAUKEE",
+      "stateOrCountry": "WI",
+      "zipCode": "53208",
+      "stateOrCountryDescription": "WI",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3700 W JUNEAU AVENUE",
+      "street2": null,
+      "city": "MILWAUKEE",
+      "stateOrCountry": "WI",
+      "zipCode": "53208",
+      "stateOrCountryDescription": "WI",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-09"
+  },
+  "filings_count": 324
+}

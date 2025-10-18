@@ -1,0 +1,47 @@
+{
+  "cik": "0001452857",
+  "ticker": "SPLPP",
+  "name": "STEEL PARTNERS HOLDINGS L.P.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3390",
+  "sicDescription": "Miscellaneous Primary Metal Products",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "212-520-2300",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "590 MADISON AVENUE, 32ND FLOOR",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10022",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "590 MADISON AVENUE, 32ND FLOOR",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10022",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-04-11"
+  },
+  "filings_count": 1000
+}

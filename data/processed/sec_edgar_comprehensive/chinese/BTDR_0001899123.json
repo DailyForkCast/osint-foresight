@@ -1,0 +1,48 @@
+{
+  "cik": "0001899123",
+  "ticker": "BTDR",
+  "name": "Bitdeer Technologies Group",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "6199",
+  "sicDescription": "Finance Services",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "65-62828220",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "08 KALLANG AVENUE, APERIA TOWER 1, #09-0",
+      "street2": null,
+      "city": "SINGAPORE",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Singapore",
+      "countryCode": "U0"
+    },
+    "business": {
+      "street1": "08 KALLANG AVENUE, APERIA TOWER 1, #09-0",
+      "street2": null,
+      "city": "SINGAPORE",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Singapore",
+      "countryCode": "U0"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-12"
+  },
+  "filings_count": 200
+}

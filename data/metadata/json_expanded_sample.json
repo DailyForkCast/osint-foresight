@@ -1,0 +1,50 @@
+{
+  "lines_processed": 2000000,
+  "samples": {
+    "beginning_count": 1000,
+    "middle_count": 2001,
+    "china_matches": 1799
+  },
+  "china_examples": [
+    {
+      "line_num": 2953,
+      "content": "{34823}\t106744638\tcontract\tA\tBPA CALL\tCONT_AWD_47QSHA22F1BBJ_4732_47QSHA21A0003_4732\t47QSHA22F1BBJ\t2025-04-24 22:39:25.206+00\t47QSHA22F1BBJ\t\\N\t\\N\t16.36\t16.36\tSHEARS, STRAIGHT TRIMMERS: MSP - 29,568 PLEASE SEE IPD OR LONG DESCRIPTION FOR FURTHER DETAILS. PRODUCT MADE IN CHINA.\t0.00\t0.00\t<1M\t56259ca9-a95a-3379-3420-594e241e9f18\t{C}\tGIGA, INC.\t096628409\t096628409\tHK1LP651C8G1\tHK1LP651C8G1\t{category_business,corporate_entity_not_tax_exempt,small_business,special_designations,us_owned_business}\t2022-"
+    },
+    {
+      "line_num": 3554,
+      "content": "{34823}\t108455658\tcontract\tA\tBPA CALL\tCONT_AWD_47QSSC25F6KWM_4732_47QSHA21A0003_4732\t47QSSC25F6KWM\t2025-08-13 02:28:30.431+00\t47QSSC25F6KWM\t\\N\t\\N\t203.10\t203.10\tSCISSORS, LADIES (SEWING):     MSP - 4,375. PRODUCT MADE IN CHINA.  PLEASE SEE IPD OR LONG DESCRIPTION FOR FURTHER INFORMATION.\t0.00\t0.00\t<1M\t56259ca9-a95a-3379-3420-594e241e9f18\t{C}\tGIGA, INC.\t\\N\t\\N\tHK1LP651C8G1\tHK1LP651C8G1\t{category_business,corporate_entity_not_tax_exempt,small_business,special_designations,us_owned_business}\t2025-03-"
+    },
+    {
+      "line_num": 3790,
+      "content": "{34823}\t170890931\tcontract\tA\tBPA CALL\tCONT_AWD_47QSSC25F8UX4_4732_47QSHA21A0003_4732\t47QSSC25F8UX4\t2025-08-13 02:28:30.431+00\t47QSSC25F8UX4\t\\N\t\\N\t25.41\t25.41\tSHEARS, STRAIGHT TRIMMERS:    MSP - 29,568PLEASE SEE IPD OR LONG DESCRIPTION FOR FURTHER DETAILS.  PRODUCT MADE IN CHINA.\t0.00\t0.00\t<1M\t56259ca9-a95a-3379-3420-594e241e9f18\t{C}\tGIGA, INC.\t\\N\t\\N\tHK1LP651C8G1\tHK1LP651C8G1\t{category_business,corporate_entity_not_tax_exempt,small_business,special_designations,us_owned_business}\t2025-05-20\t2025\t"
+    },
+    {
+      "line_num": 4860,
+      "content": "\\N\t119712899\tcontract\tC\tDO\tCONT_AWD_GS07B1521807151_4740_GS07B15218_4740\tGS07B1521807151\t2018-02-03 18:54:06.983782+00\tGS07B1521807151\t\\N\t\\N\t3300.00\t3300.00\tLEASE\t0.00\t0.00\t<1M\te35236bf-350b-1d1a-fec0-3884aa8c61b1\t{C}\tUNITED FOOD STORE NO 1 INC\t075751198\t075751198\tXXFFUVD2LD15\tXXFFUVD2LD15\t{category_business,corporate_entity_tax_exempt,other_than_small_business}\t2007-04-01\t2007\t2009-05-29\t2007-04-01\t2009-09-30\t2007-04-01\t\\N\t0.00\t0.00\t636\t\\N\t\\N\t\\N\tGeneral Services Administration\t\\N\tPublic Buildin"
+    },
+    {
+      "line_num": 5211,
+      "content": "{78466}\t60453217\tloans\t08\tGUARANTEED/INSURED LOAN (F)\tASST_NON_3282837106_073\t3282837106\t2025-07-03 00:53:05.024272+00\t\\N\t3282837106\t\\N\t18411.32\t0.00\tTO AID SMALL BUSINESSES IN MAINTAINING WORK FORCE DURING COVID-19 PANDEMIC.\t18411.32\t18100.00\t<1M\tbd461722-93a6-64c8-e247-3778cf419c37\t{R}\tULTIMATE 24 FITNESS, AZTEC\t\\N\t\\N\t\\N\t\\N\t{category_business,small_business}\t2020-04-11\t2020\t2021-01-04\t\\N\t\\N\t2020-04-11\t\\N\t18411.32\t18100.00\t803\t803\t803\t803\tSmall Business Administration\tSmall Business Administrat"
+    },
+    {
+      "line_num": 5434,
+      "content": "{34823}\t107109541\tcontract\tA\tBPA CALL\tCONT_AWD_47QSHA23F35PN_4732_47QSHA21A0003_4732\t47QSHA23F35PN\t2025-04-24 22:39:25.206+00\t47QSHA23F35PN\t\\N\t\\N\t83.80\t83.80\tSCISSORS, LADIES (SEWING):     MSP - 4,375. PRODUCT MADE IN CHINA.  PLEASE SEE IPD OR LONG DESCRIPTION FOR FURTHER INFORMATION.\t0.00\t0.00\t<1M\t56259ca9-a95a-3379-3420-594e241e9f18\t{C}\tGIGA, INC.\t\\N\t\\N\tHK1LP651C8G1\tHK1LP651C8G1\t{category_business,corporate_entity_not_tax_exempt,small_business,special_designations,us_owned_business}\t2023-05-26"
+    },
+    {
+      "line_num": 5474,
+      "content": "\\N\t124415512\tcontract\tC\tDO\tCONT_AWD_GSNPNBG55804_4730_GS14FK0006_4730\tGSNPNBG55804\t2018-02-03 18:54:06.983782+00\tGSNPNBG55804\t\\N\t\\N\t833.32\t833.32\tCUSHIONING MA\t0.00\t0.00\t<1M\t807d030f-7f18-5000-b1c1-2fbe6ac79a3b\t{C}\tSEALED AIR CORPORATION\t101391068\t101391068\tMFALMAB5W823\tMFALMAB5W823\t{category_business,other_than_small_business}\t2004-04-28\t2004\t2006-04-01\t2004-04-28\t2004-05-31\t2004-04-28\t\\N\t0.00\t0.00\t633\t1174\t1173\t1174\tGeneral Services Administration\tDepartment of Defense\tFederal Acquisition Serv"
+    },
+    {
+      "line_num": 5493,
+      "content": "\\N\t124435169\tcontract\tC\tDO\tCONT_AWD_GSNPNBHH1325_4730_GS14FK0006_4730\tGSNPNBHH1325\t2018-02-03 18:54:06.983782+00\tGSNPNBHH1325\t\\N\t\\N\t555.66\t555.66\tCUSHIONING MATERIAL, 24\" WIDE, 1/2\" THICK, 250 FT. PER ROLL, 2 MIL BACK AND 4 MIL BUBBLE FILM.\t0.00\t0.00\t<1M\t807d030f-7f18-5000-b1c1-2fbe6ac79a3b\t{C}\tSEALED AIR CORPORATION\t101391068\t101391068\tMFALMAB5W823\tMFALMAB5W823\t{category_business,other_than_small_business}\t2004-11-18\t2005\t2005-08-02\t2004-11-18\t2004-12-21\t2004-11-18\t\\N\t0.00\t0.00\t633\t\\N\t\\N\t\\N\tGen"
+    },
+    {
+      "line_num": 5503,
+      "content": "\\N\t124447870\tcontract\tC\tDELIVERY ORDER\tCONT_AWD_GSNPNBJE0825_4730_GS14FK0006_4730\tGSNPNBJE0825\t2024-10-03 02:53:07.536304+00\tGSNPNBJE0825\t\\N\t\\N\t388.80\t388.80\tCUSHIONING MATERIAL\t0.00\t0.00\t<1M\t807d030f-7f18-5000-b1c1-2fbe6ac79a3b\t{C}\tSEALED AIR CORPORATION\t\\N\t\\N\tMFALMAB5W823\tMFALMAB5W823\t{category_business,other_than_small_business}\t2005-04-04\t2005\t2024-09-28\t2005-04-04\t2005-05-07\t2005-04-04\t\\N\t0.00\t0.00\t633\t1174\t1173\t1174\tGeneral Services Administration\tDepartment of Defense\tFederal Acquisition "
+    },
+    {
+      "line_num": 6520,
+      "content": "{34823}\t108342863\tcontract\tA\tBPA CALL\tCONT_AWD_47QSSC25F3Q43_4732_47QSHA21A0003_4732\t47QSSC25F3Q43\t2025-08-13 02:28:30.431+00\t47QSSC25F3Q43\t\\N\t\\N\t15.20\t15.20\tSHEARS, STRAIGHT TRIMMERS:    MSP - 29,568PLEASE SEE IPD OR LONG DESCRIPTION FOR FURTHER DETAILS.  PRODUCT MADE IN CHINA.\t0.00\t0.00\t<1M\t56259ca9-a95a-3379-3420-594e241e9f18\t{C}\tGIGA, INC.\t\\N\t\\N\tHK1LP651C8G1\tHK1LP651C8G1\t{category_business,corporate_entity_not_tax_exempt,small_business,special_designations,us_owned_business}\t2025-01-15\t2025\t"
+    }
+  ]
+}

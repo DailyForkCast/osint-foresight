@@ -1,0 +1,53 @@
+{
+  "cik": "0001030471",
+  "ticker": "UTSI",
+  "name": "UTSTARCOM HOLDINGS CORP.",
+  "detection_reasons": [
+    "location:china",
+    "location:hangzhou",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:bm",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "3669",
+  "sicDescription": "Communications Equipment, NEC",
+  "category": "Non-accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "E9",
+  "ein": "521782500",
+  "phone": "86 571 8192 8888",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "4TH FLOOR, SOUTH WING, 368 LIUHE ROAD",
+      "street2": "BINJIANG DISTRICT",
+      "city": "HANGZHOU, P.R.",
+      "stateOrCountry": "F4",
+      "zipCode": "NA",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "4TH FLOOR, SOUTH WING, 368 LIUHE ROAD",
+      "street2": "BINJIANG DISTRICT",
+      "city": "HANGZHOU, P.R.",
+      "stateOrCountry": "F4",
+      "zipCode": "NA",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-29"
+  },
+  "filings_count": 873
+}

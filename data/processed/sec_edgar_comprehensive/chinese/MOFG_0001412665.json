@@ -1,0 +1,47 @@
+{
+  "cik": "0001412665",
+  "ticker": "MOFG",
+  "name": "MidWestOne Financial Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6022",
+  "sicDescription": "State Commercial Banks",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "IA",
+  "ein": "421206172",
+  "phone": "319-356-5800",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "102 SOUTH CLINTON ST.",
+      "street2": null,
+      "city": "IOWA CITY",
+      "stateOrCountry": "IA",
+      "zipCode": "52240",
+      "stateOrCountryDescription": "IA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "102 SOUTH CLINTON ST.",
+      "street2": null,
+      "city": "IOWA CITY",
+      "stateOrCountry": "IA",
+      "zipCode": "52240",
+      "stateOrCountryDescription": "IA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-06"
+  },
+  "filings_count": 1002
+}

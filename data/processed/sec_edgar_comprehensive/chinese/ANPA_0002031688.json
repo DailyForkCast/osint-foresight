@@ -1,0 +1,47 @@
+{
+  "cik": "0002031688",
+  "ticker": "ANPA",
+  "name": "Rich Sparkle Holdings Ltd",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "7380",
+  "sicDescription": "Services-Miscellaneous Business Services",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "(852) 6604 0990",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "PORTION 2, 12TH FLOOR, THE CENTER",
+      "street2": "99 QUEEN'S ROAD CENTRAL",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "PORTION 2, 12TH FLOOR, THE CENTER",
+      "street2": "99 QUEEN'S ROAD CENTRAL",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-07-28"
+  },
+  "filings_count": 23
+}

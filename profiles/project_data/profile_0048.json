@@ -1,0 +1,43 @@
+{
+  "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\config.json",
+  "size": 576,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 1,
+  "field_count": 6,
+  "parse_status": "success",
+  "schema": {
+    "analysis_name": "string",
+    "version": "string",
+    "created": "string",
+    "data_source": "object",
+    "zero_fabrication": "object",
+    "processing": "object"
+  },
+  "sample_records": [
+    {
+      "analysis_name": "OpenAlex Multi-Country Temporal Analysis",
+      "version": "1.0",
+      "created": "2025-09-20T22:05:27.153999",
+      "data_source": {
+        "name": "OpenAlex",
+        "path": "F:/OSINT_Backups/openalex/data/",
+        "size_gb": 422,
+        "format": "JSONL (gzipped)"
+      },
+      "zero_fabrication": {
+        "enabled": true,
+        "verification_required": true,
+        "source_tracking": true,
+        "hash_verification": true
+      },
+      "processing": {
+        "streaming": true,
+        "checkpoint_frequency": 5,
+        "memory_limit_gb": 32,
+        "parallel_countries": true
+      }
+    }
+  ],
+  "modified": "2025-09-20T22:05:27.155694"
+}

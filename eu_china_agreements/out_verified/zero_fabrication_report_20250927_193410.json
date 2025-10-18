@@ -1,0 +1,59 @@
+{
+  "session_summary": {
+    "timestamp": "2025-09-27T19:34:10.637318",
+    "countries_processed": [
+      "DE",
+      "FR",
+      "IT",
+      "GB",
+      "PL"
+    ],
+    "verification_status": "ALL_DATA_REQUIRES_MANUAL_VERIFICATION",
+    "fabrication_risk": "ZERO"
+  },
+  "country_results": {
+    "DE": {
+      "country": "DE",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_verified\\provenance\\DE_provenance_20250927_193333.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION"
+    },
+    "FR": {
+      "country": "FR",
+      "agreements_found": 2,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_verified\\provenance\\FR_provenance_20250927_193341.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION"
+    },
+    "IT": {
+      "country": "IT",
+      "agreements_found": 1,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_verified\\provenance\\IT_provenance_20250927_193345.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION"
+    },
+    "GB": {
+      "country": "GB",
+      "agreements_found": 2,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_verified\\provenance\\GB_provenance_20250927_193350.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION"
+    },
+    "PL": {
+      "country": "PL",
+      "agreements_found": 2,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_verified\\provenance\\PL_provenance_20250927_193410.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION"
+    }
+  },
+  "usage_warning": "DO NOT USE ANY DATA WITHOUT MANUAL VERIFICATION OF SOURCE DOCUMENTS",
+  "next_steps": [
+    "1. Review all provenance files",
+    "2. Manually verify each agreement in source documents",
+    "3. Cross-reference with official government publications",
+    "4. Validate dates and parties through multiple sources",
+    "5. Flag any suspicious or unverifiable data"
+  ]
+}

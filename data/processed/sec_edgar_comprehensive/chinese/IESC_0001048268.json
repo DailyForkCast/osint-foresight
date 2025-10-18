@@ -1,0 +1,45 @@
+{
+  "cik": "0001048268",
+  "ticker": "IESC",
+  "name": "IES Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm",
+    "vie_structure"
+  ],
+  "sic": "1731",
+  "sicDescription": "Electrical Work",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "760542208",
+  "phone": "7138601500",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "13131 DAIRY ASHFORD ROAD",
+      "street2": "SUITE 500",
+      "city": "HOUSTON",
+      "stateOrCountry": "TX",
+      "zipCode": "77478",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "13131 DAIRY ASHFORD ROAD",
+      "street2": "SUITE 500",
+      "city": "HOUSTON",
+      "stateOrCountry": "TX",
+      "zipCode": "77478",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1000
+}

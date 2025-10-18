@@ -1,0 +1,45 @@
+{
+  "cik": "0002074123",
+  "ticker": "CCHH",
+  "name": "CCH Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "5812",
+  "sicDescription": "Retail-Eating  Places",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "(60) 4-5307694",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "NO. 1, JALAN PERDA JAYA",
+      "street2": "KAWASAN PERNIAGAAN PERDA JAYA",
+      "city": "BUKIT MERTAJAM",
+      "stateOrCountry": null,
+      "zipCode": "14000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "PULAU PINANG",
+      "country": "Malaysia",
+      "countryCode": "N8"
+    },
+    "business": {
+      "street1": "NO. 1, JALAN PERDA JAYA",
+      "street2": "KAWASAN PERNIAGAAN PERDA JAYA",
+      "city": "BUKIT MERTAJAM",
+      "stateOrCountry": null,
+      "zipCode": "14000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "PULAU PINANG",
+      "country": "Malaysia",
+      "countryCode": "N8"
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 6
+}

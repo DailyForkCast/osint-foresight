@@ -1,0 +1,48 @@
+{
+  "cik": "0001165002",
+  "ticker": "WHG",
+  "name": "WESTWOOD HOLDINGS GROUP INC",
+  "detection_reasons": [
+    "offshore:vg",
+    "offshore:bm"
+  ],
+  "sic": "6282",
+  "sicDescription": "Investment Advice",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "752969997",
+  "phone": "2147566900",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "200 CRESCENT COURT",
+      "street2": "SUITE 1200",
+      "city": "DALLAS",
+      "stateOrCountry": "TX",
+      "zipCode": "75201",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "200 CRESCENT COURT",
+      "street2": "SUITE 1200",
+      "city": "DALLAS",
+      "stateOrCountry": "TX",
+      "zipCode": "75201",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-08"
+  },
+  "filings_count": 1001
+}

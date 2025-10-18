@@ -1,0 +1,328 @@
+{
+  "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openaire_verified\\RO_china_collaborations_20250922_202842.json",
+  "size": 11934,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 1,
+  "field_count": 6,
+  "parse_status": "success",
+  "schema": {
+    "country": "string",
+    "total_found": "number",
+    "method": "string",
+    "keywords_used": "array",
+    "collection_date": "string",
+    "results": "array"
+  },
+  "sample_records": [
+    {
+      "country": "RO",
+      "total_found": 1,
+      "method": "keyword_search",
+      "keywords_used": [
+        "China",
+        "Chinese",
+        "Beijing",
+        "Shanghai",
+        "Shenzhen",
+        "Guangzhou",
+        "Wuhan",
+        "Chengdu",
+        "Nanjing",
+        "Tianjin"
+      ],
+      "collection_date": "2025-09-22T20:28:42.641281",
+      "results": [
+        {
+          "header": {
+            "dri:objIdentifier": {
+              "$": "doi_________::9bab50272070d7e2442e82398bdafc8b"
+            },
+            "dri:dateOfCollection": {
+              "$": "2025-08-08T10:12:50.155"
+            },
+            "dri:dateOfTransformation": null
+          },
+          "metadata": {
+            "oaf:entity": {
+              "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+              "oaf:result": {
+                "collectedfrom": {
+                  "@name": "Crossref",
+                  "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                },
+                "originalId": [
+                  {
+                    "$": "10.24193/csq.41.3"
+                  },
+                  {
+                    "$": "50|doiboost____|9bab50272070d7e2442e82398bdafc8b"
+                  }
+                ],
+                "pid": {
+                  "@classid": "doi",
+                  "@classname": "Digital Object Identifier",
+                  "@schemeid": "dnet:pid_types",
+                  "@schemename": "dnet:pid_types",
+                  "$": "10.24193/csq.41.3"
+                },
+                "measure": [
+                  {
+                    "@id": "influence",
+                    "@score": "2.635068E-9",
+                    "@class": "C5"
+                  },
+                  {
+                    "@id": "popularity",
+                    "@score": "2.2369273E-9",
+                    "@class": "C5"
+                  },
+                  {
+                    "@id": "influence_alt",
+                    "@score": "0",
+                    "@class": "C5"
+                  },
+                  {
+                    "@id": "popularity_alt",
+                    "@score": "0.0",
+                    "@class": "C5"
+                  },
+                  {
+                    "@id": "impulse",
+                    "@score": "0",
+                    "@class": "C5"
+                  }
+                ],
+                "title": {
+                  "@classid": "main title",
+                  "@classname": "main title",
+                  "@schemeid": "dnet:dataCite_title",
+                  "@schemename": "dnet:dataCite_title",
+                  "$": "CHINA: THE STORY OF A MISSED OPPORTUNITY. HOW CHINA MANAGED TO DISREGARD THE SOUTH CHINA SEA RULING"
+                },
+                "bestaccessright": {
+                  "@classid": "OPEN",
+                  "@classname": "Open Access",
+                  "@schemeid": "dnet:access_modes",
+                  "@schemename": "dnet:access_modes"
+                },
+                "creator": {
+                  "@rank": "1",
+                  "@name": "Tudor",
+                  "@surname": "CHERHAT",
+                  "$": "Tudor CHERHAT"
+                },
+                "dateofacceptance": {
+                  "$": "2022-10-05"
+                },
+                "description": {
+                  "$": "<jats:p>On July 12, 2016 an international tribunal (registered with The Hague Permanent Court of Arbitration) ruled against China`s territorial claims in the South China Sea, arguing that the Chinese historic rights within the Nine Dash-Line map have no valid effect under the United Nations Convention on the Law of the Sea (UNCLOS). The tribunal\u2019s decision came at a time when tensions in the South China Sea had reached a very high level amid increasing maritime incidents caused by China and the Chinese government\u2019s construction of artificial islands in the open sea. What was supposed to be a major victory against China for the US-backed states (Vietnam, Philippines), turned out to be only a symbolic success for the Philippines. China not only rejected the sentence, but continued to conduct provocative naval exercises, harass other foreign ships and build artificial islands for military purposes. Using historical research and comparative analysis, this paper illustrates how China\u2019s rejection of the ruling was facilitated by a number of legal, economic and political factors that have diminished international reactions and pressures on the Chinese government: the non-ratification of UNCLOS by the US, the lack of coercive mechanisms to enforce international rulings, the economic interdependence between China and other regional states and the precedents set by other major powers.      Keywords: South China Sea, Permanent Court of Arbitration, UNCLOS, maritime claims, historic rights.</jats:p>"
+                },
+                "subject": [
+                  {
+                    "@classid": "SDG",
+                    "@classname": "Sustainable Development Goals",
+                    "@schemeid": "dnet:subject_classification_typologies",
+                    "@schemename": "dnet:subject_classification_typologies",
+                    "@inferred": true,
+                    "@inferenceprovenance": "update",
+                    "@provenanceaction": "subject:sdg",
+                    "$": "14. Life underwater"
+                  },
+                  {
+                    "@classid": "SDG",
+                    "@classname": "Sustainable Development Goals",
+                    "@schemeid": "dnet:subject_classification_typologies",
+                    "@schemename": "dnet:subject_classification_typologies",
+                    "@inferred": true,
+                    "@inferenceprovenance": "update",
+                    "@provenanceaction": "subject:sdg",
+                    "$": "16. Peace & justice"
+                  }
+                ],
+                "language": {
+                  "@classid": "und",
+                  "@classname": "Undetermined",
+                  "@schemeid": "dnet:languages",
+                  "@schemename": "dnet:languages"
+                },
+                "relevantdate": [
+                  {
+                    "@classid": "created",
+                    "@classname": "created",
+                    "@schemeid": "dnet:dataCite_date",
+                    "@schemename": "dnet:dataCite_date",
+                    "$": "2022-10-17"
+                  },
+                  {
+                    "@classid": "published-online",
+                    "@classname": "published-online",
+                    "@schemeid": "dnet:dataCite_date",
+                    "@schemename": "dnet:dataCite_date",
+                    "$": "2022-10-05"
+                  },
+                  {
+                    "@classid": "published-print",
+                    "@classname": "published-print",
+                    "@schemeid": "dnet:dataCite_date",
+                    "@schemename": "dnet:dataCite_date",
+                    "$": "2022-10-05"
+                  }
+                ],
+                "publisher": {
+                  "$": "Babes-Bolyai University Cluj-Napoca"
+                },
+                "source": {
+                  "$": "Crossref"
+                },
+                "resulttype": {
+                  "@classid": "publication",
+                  "@classname": "publication",
+                  "@schemeid": "dnet:result_typologies",
+                  "@schemename": "dnet:result_typologies"
+                },
+                "resourcetype": {
+                  "@classid": "publication",
+                  "@classname": "publication",
+                  "@schemeid": "dnet:result_typologies",
+                  "@schemename": "dnet:result_typologies"
+                },
+                "isgreen": {
+                  "$": false
+                },
+                "openaccesscolor": {
+                  "$": "gold"
+                },
+                "isindiamondjournal": {
+                  "$": false
+                },
+                "publiclyfunded": {
+                  "$": false
+                },
+                "journal": {
+                  "@issn": "2285-7605",
+                  "@eissn": "2285-7605",
+                  "@ep": "59",
+                  "@sp": "44",
+                  "$": "Conflict Studies Quarterly"
+                },
+                "context": [
+                  {
+                    "@id": "knowmad",
+                    "@label": "Knowmad Institut",
+                    "@type": "community"
+                  },
+                  {
+                    "@id": "eutopia",
+                    "@label": "EUTOPIA Open Research Portal",
+                    "@type": "community"
+                  }
+                ],
+                "datainfo": {
+                  "inferred": {
+                    "$": false
+                  },
+                  "deletedbyinference": {
+                    "$": false
+                  },
+                  "trust": {
+                    "$": "0.91"
+                  },
+                  "inferenceprovenance": {
+                    "$": "null"
+                  },
+                  "provenanceaction": {
+                    "@classid": "sysimport:actionset",
+                    "@classname": "Harvested",
+                    "@schemeid": "dnet:provenanceActions",
+                    "@schemename": "dnet:provenanceActions"
+                  }
+                },
+                "rels": {
+                  "rel": {
+                    "@inferred": true,
+                    "@trust": "1.0",
+                    "@inferenceprovenance": "openaire:affiliation:rawaff",
+                    "@provenanceaction": "result:organization:openaireinference",
+                    "to": {
+                      "@class": "hasAuthorInstitution",
+                      "@scheme": "dnet:result_organization_relations",
+                      "@type": "organization",
+                      "$": "openorgs____::52203596562cc56fcefb3e737c6e2441"
+                    },
+                    "legalname": {
+                      "$": "Babe\u0219-Bolyai University"
+                    },
+                    "legalshortname": {
+                      "$": "UBB"
+                    },
+                    "country": {
+                      "@classid": "RO",
+                      "@classname": "Romania",
+                      "@schemeid": "dnet:countries",
+                      "@schemename": "dnet:countries"
+                    },
+                    "websiteurl": {
+                      "$": "http://www.ubbcluj.ro/en/"
+                    }
+                  }
+                },
+                "children": {
+                  "instance": {
+                    "accessright": {
+                      "@classid": "OPEN",
+                      "@classname": "Open Access",
+                      "@schemeid": "dnet:access_modes",
+                      "@schemename": "dnet:access_modes"
+                    },
+                    "collectedfrom": {
+                      "@name": "Crossref",
+                      "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                    },
+                    "hostedby": {
+                      "@name": "Conflict Studies Quarterly",
+                      "@id": "doajarticles::125a261e3f1708e4fb1c680855a24b3a"
+                    },
+                    "dateofacceptance": {
+                      "$": "2022-10-05"
+                    },
+                    "instancetype": {
+                      "@classid": "0001",
+                      "@classname": "Article",
+                      "@schemeid": "dnet:publication_resource",
+                      "@schemename": "dnet:publication_resource"
+                    },
+                    "pid": {
+                      "@classid": "doi",
+                      "@classname": "Digital Object Identifier",
+                      "@schemeid": "dnet:pid_types",
+                      "@schemename": "dnet:pid_types",
+                      "$": "10.24193/csq.41.3"
+                    },
+                    "refereed": {
+                      "@classid": "0001",
+                      "@classname": "peerReviewed",
+                      "@schemeid": "dnet:review_levels",
+                      "@schemename": "dnet:review_levels"
+                    },
+                    "webresource": {
+                      "url": {
+                        "$": "https://doi.org/10.24193/csq.41.3"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "verified_china": true,
+          "detection_method": "targeted_keyword_search",
+          "keyword_used": "China",
+          "country": "RO",
+          "collection_date": "2025-09-22T20:28:01.589929"
+        }
+      ]
+    }
+  ],
+  "modified": "2025-09-22T20:28:42.641281"
+}

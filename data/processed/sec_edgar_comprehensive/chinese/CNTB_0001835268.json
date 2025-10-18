@@ -1,0 +1,48 @@
+{
+  "cik": "0001835268",
+  "ticker": "CNTB",
+  "name": "Connect Biopharma Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "2834",
+  "sicDescription": "Pharmaceutical Preparations",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "858-727-1040",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3580 CARMEL MOUNTAIN ROAD, SUITE 200",
+      "street2": null,
+      "city": "SAN DIEGO",
+      "stateOrCountry": "CA",
+      "zipCode": "92130",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3580 CARMEL MOUNTAIN ROAD, SUITE 200",
+      "street2": null,
+      "city": "SAN DIEGO",
+      "stateOrCountry": "CA",
+      "zipCode": "92130",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-16"
+  },
+  "filings_count": 147
+}

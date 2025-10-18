@@ -1,0 +1,46 @@
+{
+  "cik": "0001084991",
+  "ticker": "NGS",
+  "name": "NATURAL GAS SERVICES GROUP INC",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:vg",
+    "offshore:bm"
+  ],
+  "sic": "1389",
+  "sicDescription": "Oil & Gas Field Services, NEC",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "752811855",
+  "phone": "(432) 262-2700",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "404 VETERANS AIRPARK LANE",
+      "street2": "SUITE 300",
+      "city": "MIDLAND",
+      "stateOrCountry": "TX",
+      "zipCode": "79705",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "404 VETERANS AIRPARK LANE",
+      "street2": "SUITE 300",
+      "city": "MIDLAND",
+      "stateOrCountry": "TX",
+      "zipCode": "79705",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1003
+}

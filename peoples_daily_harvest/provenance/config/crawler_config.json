@@ -1,0 +1,35 @@
+{
+  "keyword_patterns": {
+    "AI": "\\b(AI|artificial intelligence|machine learning|ML|foundation model|LLM|large language model|autonomy|robotics|agent|GPU|accelerator|neural network|deep learning)\\b",
+    "Quantum": "\\b(quantum|QKD|qubit|cryogenic|dilution refrigerator|quantum computing|quantum communication)\\b",
+    "Semiconductors": "\\b(semiconductor|chip|EUV|lithography|fab|wafer|HBM|packaging|chiplet|CFET|GAA|GaN|SiC|integrated circuit|IC|Huawei.*Ascend|Nvidia)\\b",
+    "Advanced_Materials": "\\b(metamaterial|composite|UHTC|HEA|solid-state battery|advanced material)\\b",
+    "Biotechnology": "\\b(CRISPR|synbio|synthetic biology|viral vector|biofoundry|GMP|biomanufactur|biotech)\\b",
+    "Neuro_BCI": "\\b(EEG|MEG|ECoG|neuromodulation|implant|BCI|brain-computer|neural interface)\\b",
+    "Smart_City": "\\b(smart city|digital twin|ICS|SCADA|edge computing|intelligent city|urban sensing)\\b",
+    "5G_6G": "\\b(5G|6G|3GPP|sub-THz|NTN|Open RAN|telecom)\\b",
+    "Aerospace_Space": "\\b(LEO|SAR|OOS|hypersonic|arc-jet|aerospace|satellite|space)\\b"
+  },
+  "mcf_patterns": "\\b(civil-military|dual-use|defense application|procurement|tender|export control|military-civil fusion|MCF)\\b",
+  "standards_patterns": "\\b(3GPP|ETSI|IETF|W3C|ITU|SEP|standard-essential)\\b",
+  "tech_taxonomy": [
+    "AI",
+    "Advanced_Materials",
+    "Biotechnology",
+    "Neuro_BCI",
+    "Quantum",
+    "Semiconductors",
+    "Smart_City",
+    "5G_6G",
+    "Aerospace_Space"
+  ],
+  "mcf_signal_types": [
+    "standards",
+    "procurement",
+    "export_control",
+    "defense_application",
+    "facility_build",
+    "equipment_order",
+    "talent_program"
+  ]
+}

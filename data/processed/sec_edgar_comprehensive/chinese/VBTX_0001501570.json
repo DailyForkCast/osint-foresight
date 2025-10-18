@@ -1,0 +1,47 @@
+{
+  "cik": "0001501570",
+  "ticker": "VBTX",
+  "name": "Veritex Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6022",
+  "sicDescription": "State Commercial Banks",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "TX",
+  "ein": "270973566",
+  "phone": "972-349-6200",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "8214 WESTCHESTER DRIVE",
+      "street2": "SUITE 800",
+      "city": "DALLAS",
+      "stateOrCountry": "TX",
+      "zipCode": "75225",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "8214 WESTCHESTER DRIVE",
+      "street2": "SUITE 800",
+      "city": "DALLAS",
+      "stateOrCountry": "TX",
+      "zipCode": "75225",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-23"
+  },
+  "filings_count": 1002
+}

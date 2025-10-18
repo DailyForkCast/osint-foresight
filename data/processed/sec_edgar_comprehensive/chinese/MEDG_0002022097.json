@@ -1,0 +1,46 @@
+{
+  "cik": "0002022097",
+  "ticker": "MEDG",
+  "name": "MEDI Group Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong"
+  ],
+  "sic": "7200",
+  "sicDescription": "Services-Personal Services",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "852 2388 1121",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "14/F, EDWARD WONG TOWER",
+      "street2": "910 CHEUNG SHA WAN ROAD, CHEUNG SHA WAN",
+      "city": "KOWLOON, HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "14/F, EDWARD WONG TOWER",
+      "street2": "910 CHEUNG SHA WAN ROAD, CHEUNG SHA WAN",
+      "city": "KOWLOON, HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 4
+}

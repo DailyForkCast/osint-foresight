@@ -1,0 +1,49 @@
+{
+  "cik": "0001956166",
+  "ticker": "MSW",
+  "name": "Ming Shing Group Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong"
+  ],
+  "sic": "1700",
+  "sicDescription": "Construction - Special Trade Contractors",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "852 2370 3788",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "OFFICE UNIT B8, 27/F NCB INNOVATION",
+      "street2": "CENTRE NO. 888 LAI CHI KOK ROAD",
+      "city": "KOWLOON",
+      "stateOrCountry": null,
+      "zipCode": "00000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    },
+    "business": {
+      "street1": "OFFICE UNIT B8, 27/F NCB INNOVATION",
+      "street2": "CENTRE NO. 888 LAI CHI KOK ROAD",
+      "city": "KOWLOON",
+      "stateOrCountry": null,
+      "zipCode": "00000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-24"
+  },
+  "filings_count": 76
+}

@@ -1,0 +1,54 @@
+{
+  "cik": "0001872090",
+  "ticker": "YXT",
+  "name": "YXT.COM GROUP HOLDING Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:suzhou",
+    "location:jiangsu",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business",
+    "sic:7372"
+  ],
+  "sic": "7372",
+  "sicDescription": "Services-Prepackaged Software",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86 512 66899881",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "FLOOR 20, BUILDING 2, NO. 209,",
+      "street2": "ZHUYUAN ROAD, HIGH-TECH DISTRICT, SUZHOU",
+      "city": "JIANGSU, 215011",
+      "stateOrCountry": null,
+      "zipCode": "215011",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "JIANGSU",
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "FLOOR 20, BUILDING 2, NO. 209,",
+      "street2": "ZHUYUAN ROAD, HIGH-TECH DISTRICT, SUZHOU",
+      "city": "JIANGSU, 215011",
+      "stateOrCountry": null,
+      "zipCode": "215011",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "JIANGSU",
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-20"
+  },
+  "filings_count": 69
+}

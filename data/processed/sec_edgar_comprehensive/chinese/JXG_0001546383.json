@@ -1,0 +1,49 @@
+{
+  "cik": "0001546383",
+  "ticker": "JXG",
+  "name": "JX Luxventure Group Inc.",
+  "detection_reasons": [
+    "location:china",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "5000",
+  "sicDescription": "Wholesale-Durable Goods",
+  "category": "Non-accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "1T",
+  "ein": "000000000",
+  "phone": "(86) 595 8889 6198",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "BIN HAI DA DAO NO. 270, LANG QIN WAN GUO",
+      "street2": "JI DU JIA CUN ZONG HE LOU, XIU YING DIST",
+      "city": "HAIKOU CITY, HAINAN PROVINCE",
+      "stateOrCountry": "F4",
+      "zipCode": "570100",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "BIN HAI DA DAO NO. 270, LANG QIN WAN GUO",
+      "street2": "JI DU JIA CUN ZONG HE LOU, XIU YING DIST",
+      "city": "HAIKOU CITY, HAINAN PROVINCE",
+      "stateOrCountry": "F4",
+      "zipCode": "570100",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-23"
+  },
+  "filings_count": 213
+}

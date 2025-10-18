@@ -1,0 +1,121 @@
+{
+  "analysis_scope": "Full European Region + Strategic Partners",
+  "last_updated": "2025-09-30",
+  "total_countries": 81,
+  "categories": {
+    "european_union": {
+      "count": 27,
+      "countries": ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE"]
+    },
+    "european_non_eu": {
+      "count": 4,
+      "countries": ["GB", "NO", "CH", "IS"],
+      "note": "Post-Brexit UK, EFTA states"
+    },
+    "balkans_full": {
+      "count": 6,
+      "countries": ["AL", "BA", "MK", "ME", "RS", "XK"],
+      "note": "All Western Balkans including Kosovo"
+    },
+    "caucasus_full": {
+      "count": 3,
+      "countries": ["AM", "AZ", "GE"],
+      "note": "Complete Caucasus coverage - Armenia, Azerbaijan, Georgia"
+    },
+    "eastern_partnership": {
+      "count": 5,
+      "countries": ["UA", "GE", "AM", "AZ", "BY"],
+      "note": "EU Eastern Partnership countries (Moldova excluded - add if needed)"
+    },
+    "turkey": {
+      "count": 1,
+      "countries": ["TR"],
+      "note": "EU candidate spanning Europe/Asia"
+    },
+    "five_eyes": {
+      "count": 4,
+      "countries": ["US", "CA", "AU", "NZ"],
+      "note": "GB already in european_non_eu"
+    },
+    "asia_pacific": {
+      "count": 8,
+      "countries": ["JP", "KR", "SG", "TW", "IN", "TH", "MY", "VN"]
+    },
+    "middle_east": {
+      "count": 3,
+      "countries": ["IL", "AE", "SA"]
+    },
+    "latin_america": {
+      "count": 4,
+      "countries": ["BR", "MX", "AR", "CL"]
+    },
+    "africa": {
+      "count": 4,
+      "countries": ["ZA", "EG", "KE", "NG"]
+    },
+    "russia_sphere": {
+      "count": 3,
+      "countries": ["RU", "BY", "KZ"],
+      "note": "Belarus overlaps with Eastern Partnership"
+    }
+  },
+  "priority_tiers": {
+    "tier_1_high_priority": {
+      "description": "Gateway countries with documented Chinese penetration",
+      "countries": ["HU", "GR", "IT", "PL", "RS", "TR"]
+    },
+    "tier_2_expanded_coverage": {
+      "description": "Newly added countries - UK, Norway, Switzerland, full Balkans, full Caucasus",
+      "countries": ["GB", "NO", "CH", "IS", "AL", "BA", "MK", "ME", "XK", "AM", "AZ"]
+    },
+    "tier_3_major_economies": {
+      "description": "Large EU economies with high R&D",
+      "countries": ["DE", "FR", "ES", "NL", "BE", "SE"]
+    },
+    "tier_4_rest_of_europe": {
+      "description": "All other European countries",
+      "countries": ["AT", "BG", "CY", "CZ", "DK", "EE", "FI", "IE", "LT", "LV", "MT", "PT", "RO", "SI", "SK", "UA", "GE", "FO", "GL"]
+    }
+  },
+  "china_analysis_focus": {
+    "target_country": "CN",
+    "collaboration_types": [
+      "research_collaboration",
+      "technology_transfer",
+      "procurement_contracts",
+      "investment_flows",
+      "strategic_partnerships"
+    ],
+    "temporal_coverage": "2000-2025",
+    "risk_assessment": true
+  },
+  "data_sources": {
+    "openalex": {
+      "coverage": "All countries - academic publications",
+      "path": "F:/OSINT_Backups/openalex/data/"
+    },
+    "ted": {
+      "coverage": "EU27 + EEA (NO, IS, LI) + CH via bilateral agreements",
+      "path": "F:/TED_Data/monthly/"
+    },
+    "usaspending": {
+      "coverage": "US federal contracts - international recipient tracking",
+      "path": "F:/OSINT_DATA/USAspending/"
+    },
+    "cordis": {
+      "coverage": "EU research framework programs - third country participation",
+      "path": "countries/_global/data/cordis_raw/"
+    },
+    "openaire": {
+      "coverage": "Global research outputs",
+      "api": "https://api.openaire.eu/"
+    }
+  },
+  "validation_requirements": {
+    "zero_fabrication": true,
+    "multi_source_validation": true,
+    "provenance_tracking": true,
+    "confidence_scoring": true,
+    "negative_evidence_logging": true
+  }
+}

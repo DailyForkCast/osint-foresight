@@ -1,0 +1,47 @@
+{
+  "cik": "0001705402",
+  "ticker": "AGMH",
+  "name": "AGM GROUP HOLDINGS, INC.",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "7371",
+  "sicDescription": "Services-Computer Programming Services",
+  "category": "Non-accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "D8",
+  "ein": "000000000",
+  "phone": "86 010 65020507",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ROOM 1502-3 15/F., CONNUAGHT COMMERCIAL",
+      "street2": "BUILDING, 185 WANCHAI ROAD",
+      "city": "WANCHAI",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "HONG KONG",
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    },
+    "business": {
+      "street1": "ROOM 1502-3 15/F., CONNUAGHT COMMERCIAL",
+      "street2": "BUILDING, 185 WANCHAI ROAD",
+      "city": "WANCHAI",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "HONG KONG",
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-23"
+  },
+  "filings_count": 213
+}

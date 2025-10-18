@@ -1,0 +1,47 @@
+{
+  "cik": "0000890926",
+  "ticker": "RDN",
+  "name": "RADIAN GROUP INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6351",
+  "sicDescription": "Surety Insurance",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "232691170",
+  "phone": "2155646600",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "550 EAST SWEDESFORD ROAD",
+      "street2": "SUITE 350",
+      "city": "WAYNE",
+      "stateOrCountry": "PA",
+      "zipCode": "19087",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "550 EAST SWEDESFORD ROAD",
+      "street2": "SUITE 350",
+      "city": "WAYNE",
+      "stateOrCountry": "PA",
+      "zipCode": "19087",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-18"
+  },
+  "filings_count": 1000
+}

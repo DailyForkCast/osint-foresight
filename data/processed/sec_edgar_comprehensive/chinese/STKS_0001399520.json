@@ -1,0 +1,47 @@
+{
+  "cik": "0001399520",
+  "ticker": "STKS",
+  "name": "ONE Group Hospitality, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5812",
+  "sicDescription": "Retail-Eating  Places",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "141961545",
+  "phone": "212 277 5351",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1624 MARKET STREET",
+      "street2": "SUITE 311",
+      "city": "DENVER",
+      "stateOrCountry": "CO",
+      "zipCode": "80202",
+      "stateOrCountryDescription": "CO",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1624 MARKET STREET",
+      "street2": "SUITE 311",
+      "city": "DENVER",
+      "stateOrCountry": "CO",
+      "zipCode": "80202",
+      "stateOrCountryDescription": "CO",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-10"
+  },
+  "filings_count": 825
+}

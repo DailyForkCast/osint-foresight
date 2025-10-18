@@ -1,4 +1,0 @@
-node_id	node_type	name	location	role	relevance_note	notes
-N1	rail terminal	Wien Süd (example)	Vienna	intermodal/rail	Connects to DE/CZ/SI corridors; used for high-value electronics	Example terminal
-N2	air cargo hub	Vienna International (VIE)	Schwechat	air cargo	Primary intl cargo gateway; potential route for sensitive shipments	Main air gateway
-N3	free zone/customs	(if any)	—	customs facilitation	Note FTZ/special procedures if confirmed	To be verified

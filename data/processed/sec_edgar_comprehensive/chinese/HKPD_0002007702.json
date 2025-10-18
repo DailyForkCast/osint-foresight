@@ -1,0 +1,50 @@
+{
+  "cik": "0002007702",
+  "ticker": "HKPD",
+  "name": "Hong Kong Pharma Digital Technology Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong",
+    "offshore:hk"
+  ],
+  "sic": "5122",
+  "sicDescription": "Wholesale-Drugs, Proprietaries & Druggists' Sundries",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "(852) 26189289",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ROOM B1, 5/F. WELL TOWN IND. BUILDING",
+      "street2": "13 KO FAI ROAD, YAU TONG",
+      "city": "KOWLOON",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "ROOM B1, 5/F. WELL TOWN IND. BUILDING",
+      "street2": "13 KO FAI ROAD, YAU TONG",
+      "city": "KOWLOON",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-11"
+  },
+  "filings_count": 37
+}

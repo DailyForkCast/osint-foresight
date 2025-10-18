@@ -1,0 +1,47 @@
+{
+  "cik": "0001453593",
+  "ticker": "XTNT",
+  "name": "Xtant Medical Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3841",
+  "sicDescription": "Surgical & Medical Instruments & Apparatus",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "205313323",
+  "phone": "406-388-0480",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "664 CRUISER LANE",
+      "street2": null,
+      "city": "BELGRADE",
+      "stateOrCountry": "MT",
+      "zipCode": "59714",
+      "stateOrCountryDescription": "MT",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "664 CRUISER LANE",
+      "street2": null,
+      "city": "BELGRADE",
+      "stateOrCountry": "MT",
+      "zipCode": "59714",
+      "stateOrCountryDescription": "MT",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-12"
+  },
+  "filings_count": 1009
+}

@@ -1,0 +1,37 @@
+{
+  "total_found": 2,
+  "by_level": {
+    "CRITICAL": 1,
+    "HIGH": 1,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "MINIMAL": 0
+  },
+  "sample_entities": {
+    "CRITICAL": [
+      {
+        "name": "APELL National Center for Disaster Management Foundation (CN APELL)",
+        "country": "RO",
+        "confidence": 1.0,
+        "level": "CRITICAL",
+        "recommendation": "IMMEDIATE ATTENTION: Confirmed Chinese entity",
+        "matched_indicator": "CN",
+        "evidence": "Definitive Chinese country code: CN"
+      }
+    ],
+    "HIGH": [
+      {
+        "name": "Chongqing Taishan Cable Co., Ltd",
+        "country": "CN",
+        "confidence": 0.8785714285714284,
+        "level": "HIGH",
+        "recommendation": "HIGH PRIORITY: Very likely Chinese entity",
+        "matched_indicator": "Chongqing",
+        "evidence": "Definitive country code: CN"
+      }
+    ],
+    "MEDIUM": [],
+    "LOW": [],
+    "MINIMAL": []
+  }
+}

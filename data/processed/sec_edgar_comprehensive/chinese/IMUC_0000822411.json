@@ -1,0 +1,44 @@
+{
+  "cik": "0000822411",
+  "ticker": "IMUC",
+  "name": "EOM Pharmaceutical Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2834",
+  "sicDescription": "Pharmaceutical Preparations",
+  "category": "Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "931301885",
+  "phone": "818-264-2300",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "30721 RUSSELL RANCH ROAD",
+      "street2": "SUITE 140",
+      "city": "WESTLAKE VILLAGE",
+      "stateOrCountry": "CA",
+      "zipCode": "91362",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "30721 RUSSELL RANCH ROAD",
+      "street2": "SUITE 140",
+      "city": "WESTLAKE VILLAGE",
+      "stateOrCountry": "CA",
+      "zipCode": "91362",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 558
+}

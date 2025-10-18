@@ -1,0 +1,209 @@
+{
+  "session_id": "diag_20250923_1907_focused",
+  "timestamp": "2025-09-23T19:08:30.575002",
+  "inventory_summary": {
+    "usaspending": {
+      "file_count": 758,
+      "total_size_gb": 6.954125145,
+      "pattern_count": 9
+    },
+    "cordis": {
+      "file_count": 9,
+      "total_size_gb": 0.545411662,
+      "pattern_count": 0
+    },
+    "ted": {
+      "file_count": 139,
+      "total_size_gb": 25.980724657,
+      "pattern_count": 0
+    },
+    "openalex": {
+      "file_count": 1000,
+      "total_size_gb": 61.603565757,
+      "pattern_count": 0
+    },
+    "patents": {
+      "file_count": 1,
+      "total_size_gb": 0.000294311,
+      "pattern_count": 0
+    },
+    "sec_edgar": {
+      "file_count": 1,
+      "total_size_gb": 1.8218e-05,
+      "pattern_count": 0
+    },
+    "opensanctions": {
+      "file_count": 0,
+      "total_size_gb": 0.0,
+      "pattern_count": 0
+    },
+    "analyses": {
+      "file_count": 165,
+      "total_size_gb": 0.000762431,
+      "pattern_count": 4
+    },
+    "databases": {
+      "file_count": 347,
+      "total_size_gb": 0.253116133,
+      "pattern_count": 10
+    },
+    "other": {
+      "file_count": 0,
+      "total_size_gb": 0.0,
+      "pattern_count": 0
+    }
+  },
+  "readiness_scores": {
+    "data_sources": {
+      "usaspending": {
+        "ready": true,
+        "files": 758,
+        "size_gb": 6.954125145,
+        "china_patterns": 9,
+        "confidence": "high"
+      },
+      "cordis": {
+        "ready": true,
+        "files": 9,
+        "size_gb": 0.545411662,
+        "china_patterns": 0,
+        "confidence": "medium"
+      },
+      "ted": {
+        "ready": true,
+        "files": 139,
+        "size_gb": 25.980724657,
+        "china_patterns": 0,
+        "confidence": "high"
+      },
+      "openalex": {
+        "ready": true,
+        "files": 1000,
+        "size_gb": 61.603565757,
+        "china_patterns": 0,
+        "confidence": "high"
+      },
+      "patents": {
+        "ready": true,
+        "files": 1,
+        "size_gb": 0.000294311,
+        "china_patterns": 0,
+        "confidence": "low"
+      },
+      "sec_edgar": {
+        "ready": true,
+        "files": 1,
+        "size_gb": 1.8218e-05,
+        "china_patterns": 0,
+        "confidence": "low"
+      }
+    },
+    "overall": 1.0,
+    "confidence": "high"
+  },
+  "zero_evidence_log": [
+    {
+      "database": "F:/OSINT_Data/usaspending_iso_analysis.db",
+      "table": "contracts",
+      "column": "is_china_related",
+      "non_empty_count": 200001,
+      "query": "SELECT COUNT(*) FROM contracts WHERE is_china_related IS NOT NULL AND is_china_related != ''"
+    },
+    {
+      "database": "F:/OSINT_Data/usaspending_iso_analysis.db",
+      "table": "contracts",
+      "column": "china_signals",
+      "non_empty_count": 192,
+      "query": "SELECT COUNT(*) FROM contracts WHERE china_signals IS NOT NULL AND china_signals != ''"
+    },
+    {
+      "database": "F:/OSINT_Data/usaspending_fixed_detection.db",
+      "table": "contracts_fixed",
+      "column": "china_signals",
+      "non_empty_count": 2961,
+      "query": "SELECT COUNT(*) FROM contracts_fixed WHERE china_signals IS NOT NULL AND china_signals != ''"
+    },
+    {
+      "database": "F:/OSINT_Data/usaspending_fixed_detection.db",
+      "table": "contracts_fixed",
+      "column": "china_confidence",
+      "non_empty_count": 200001,
+      "query": "SELECT COUNT(*) FROM contracts_fixed WHERE china_confidence IS NOT NULL AND china_confidence != ''"
+    },
+    {
+      "database": "F:/OSINT_Data/usaspending_fixed_detection.db",
+      "table": "contracts_fixed",
+      "column": "is_china_related",
+      "non_empty_count": 200001,
+      "query": "SELECT COUNT(*) FROM contracts_fixed WHERE is_china_related IS NOT NULL AND is_china_related != ''"
+    }
+  ],
+  "database_analysis": {
+    "collection_tracking.db": {
+      "tables": {
+        "collection_sessions": 1,
+        "sqlite_sequence": 2,
+        "country_status": 39,
+        "collection_metrics": 0
+      }
+    },
+    "usaspending_remaining.db": {
+      "tables": {
+        "contracts": 2208
+      }
+    },
+    "usaspending_fixed_detection.db": {
+      "tables": {
+        "contracts_fixed": 200001
+      }
+    },
+    "integrated_data.db": {
+      "tables": {
+        "entity_resolution": 0,
+        "sqlite_sequence": 1,
+        "integrated_data": 8,
+        "data_correlations": 0
+      }
+    },
+    "ted_analysis.db": {
+      "tables": {
+        "contracts": 0,
+        "chinese_entities": 26,
+        "sqlite_sequence": 1,
+        "contract_entities": 0,
+        "temporal_analysis": 0
+      }
+    },
+    "osint_intelligence.db": {
+      "tables": {
+        "patents": 10,
+        "patent_applicants": 28,
+        "sqlite_sequence": 2,
+        "patent_classifications": 25,
+        "patent_abstracts": 10
+      }
+    },
+    "osint_master.db": {
+      "tables": {
+        "entities": 238,
+        "entity_aliases": 0,
+        "sqlite_sequence": 1,
+        "collaborations": 0,
+        "technologies": 10
+      }
+    },
+    "usaspending_quick.db": {
+      "tables": {
+        "contracts": 26562
+      }
+    },
+    "usaspending_analysis.db": {
+      "tables": {}
+    },
+    "usaspending_real_analysis.db": {
+      "tables": {
+        "contracts": 150003
+      }
+    }
+  }
+}

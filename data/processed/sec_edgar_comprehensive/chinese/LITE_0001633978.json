@@ -1,0 +1,47 @@
+{
+  "cik": "0001633978",
+  "ticker": "LITE",
+  "name": "Lumentum Holdings Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3669",
+  "sicDescription": "Communications Equipment, NEC",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "473108385",
+  "phone": "408-546-5483",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1001 RIDDER PARK DRIVE",
+      "street2": null,
+      "city": "SAN JOSE",
+      "stateOrCountry": "CA",
+      "zipCode": "95131",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1001 RIDDER PARK DRIVE",
+      "street2": null,
+      "city": "SAN JOSE",
+      "stateOrCountry": "CA",
+      "zipCode": "95131",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-08"
+  },
+  "filings_count": 1001
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0001038683",
+  "ticker": "RYAAY",
+  "name": "RYANAIR HOLDINGS PLC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "4512",
+  "sicDescription": "Air Transportation, Scheduled",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "3538444440",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "CT CORPORATION SYSTEM",
+      "street2": "1633 BROADWAY",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10019",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "C/O RYANAIR LTD CORPORATE HEAD OFFICE",
+      "street2": "DUBLIN AIRPORT",
+      "city": "COUNTY DUBLIN IRELAN",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Ireland",
+      "countryCode": "L2"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-22"
+  },
+  "filings_count": 1000
+}

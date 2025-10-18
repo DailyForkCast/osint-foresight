@@ -1,0 +1,49 @@
+{
+  "cik": "0001780785",
+  "ticker": "CNEY",
+  "name": "CN ENERGY GROUP. INC.",
+  "detection_reasons": [
+    "location:china",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "2860",
+  "sicDescription": "Industrial Organic Chemicals",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "D8",
+  "ein": "000000000",
+  "phone": "(86) 571-87555823",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "BUILDING 2-B, ROOM 206",
+      "street2": "NO. 268 SHINIU ROAD, LIANDU DISTRICT",
+      "city": "LISHUI CITY",
+      "stateOrCountry": "F4",
+      "zipCode": "323010",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "BUILDING 2-B, ROOM 206",
+      "street2": "NO. 268 SHINIU ROAD, LIANDU DISTRICT",
+      "city": "LISHUI CITY",
+      "stateOrCountry": "F4",
+      "zipCode": "323010",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-14"
+  },
+  "filings_count": 111
+}

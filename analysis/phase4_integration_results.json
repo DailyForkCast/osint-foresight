@@ -1,0 +1,358 @@
+{
+  "generated": "2025-09-25T14:20:08.786041",
+  "temporal_views": {
+    "2000": {
+      "total_references": 0,
+      "china_references": 0,
+      "china_percentage": 0
+    },
+    "2001": {
+      "total_references": 0,
+      "china_references": 0,
+      "china_percentage": 0
+    },
+    "2002": {
+      "total_references": 0,
+      "china_references": 0,
+      "china_percentage": 0
+    },
+    "2003": {
+      "total_references": 0,
+      "china_references": 0,
+      "china_percentage": 0
+    },
+    "2004": {
+      "total_references": 0,
+      "china_references": 0,
+      "china_percentage": 0
+    },
+    "2005": {
+      "total_references": 0,
+      "china_references": 0,
+      "china_percentage": 0
+    },
+    "2006": {
+      "total_references": 0,
+      "china_references": 0,
+      "china_percentage": 0
+    },
+    "2007": {
+      "total_references": 0,
+      "china_references": 0,
+      "china_percentage": 0
+    },
+    "2008": {
+      "total_references": 0,
+      "china_references": 0,
+      "china_percentage": 0
+    },
+    "2009": {
+      "total_references": 0,
+      "china_references": 0,
+      "china_percentage": 0
+    },
+    "2010": {
+      "total_references": 0,
+      "china_references": 0,
+      "china_percentage": 0
+    },
+    "2011": {
+      "total_references": 0,
+      "china_references": 0,
+      "china_percentage": 0
+    },
+    "2012": {
+      "total_references": 0,
+      "china_references": 0,
+      "china_percentage": 0
+    },
+    "2013": {
+      "total_references": 0,
+      "china_references": 0,
+      "china_percentage": 0
+    },
+    "2014": {
+      "total_references": 0,
+      "china_references": 0,
+      "china_percentage": 0
+    },
+    "2015": {
+      "total_references": 0,
+      "china_references": 0,
+      "china_percentage": 0
+    },
+    "2016": {
+      "total_references": 0,
+      "china_references": 0,
+      "china_percentage": 0
+    },
+    "2017": {
+      "total_references": 0,
+      "china_references": 0,
+      "china_percentage": 0
+    },
+    "2018": {
+      "total_references": 3,
+      "china_references": 2,
+      "china_percentage": 66.66666666666666
+    },
+    "2019": {
+      "total_references": 7,
+      "china_references": 6,
+      "china_percentage": 85.71428571428571
+    },
+    "2020": {
+      "total_references": 9,
+      "china_references": 7,
+      "china_percentage": 77.77777777777779
+    },
+    "2021": {
+      "total_references": 3,
+      "china_references": 3,
+      "china_percentage": 100.0
+    },
+    "2022": {
+      "total_references": 0,
+      "china_references": 0,
+      "china_percentage": 0
+    },
+    "2023": {
+      "total_references": 0,
+      "china_references": 0,
+      "china_percentage": 0
+    },
+    "2024": {
+      "total_references": 18,
+      "china_references": 11,
+      "china_percentage": 61.111111111111114
+    }
+  },
+  "geographic_distribution": {
+    "Austria": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Belgium": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Bulgaria": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Croatia": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Cyprus": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Czech Republic": {
+      "mentions": 1,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0.0
+    },
+    "Denmark": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Estonia": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Finland": {
+      "mentions": 1,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0.0
+    },
+    "France": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Germany": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Greece": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Hungary": {
+      "mentions": 1,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0.0
+    },
+    "Ireland": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Italy": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Latvia": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Lithuania": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Luxembourg": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Malta": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Netherlands": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Poland": {
+      "mentions": 1,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0.0
+    },
+    "Portugal": {
+      "mentions": 1,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0.0
+    },
+    "Romania": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Slovakia": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Slovenia": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Spain": {
+      "mentions": 1,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0.0
+    },
+    "Sweden": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "United Kingdom": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "United States": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "China": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Russia": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "India": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Japan": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "South Korea": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Australia": {
+      "mentions": 1,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0.0
+    },
+    "Canada": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Switzerland": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Norway": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Israel": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Turkey": {
+      "mentions": 1,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0.0
+    },
+    "Brazil": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    },
+    "Mexico": {
+      "mentions": 0,
+      "china_co_occurrence": 0,
+      "collaboration_index": 0
+    }
+  },
+  "cross_dimensional": {},
+  "confidence_intervals": {
+    "temporal": {
+      "mean": 15.65,
+      "ci_lower": 2.89,
+      "ci_upper": 28.42,
+      "confidence_level": "95%"
+    },
+    "geographic": {
+      "mean": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0,
+      "confidence_level": "95%"
+    }
+  },
+  "outliers_detected": []
+}

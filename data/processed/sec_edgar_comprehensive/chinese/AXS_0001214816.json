@@ -1,0 +1,48 @@
+{
+  "cik": "0001214816",
+  "ticker": "AXS",
+  "name": "AXIS CAPITAL HOLDINGS LTD",
+  "detection_reasons": [
+    "offshore:bermuda",
+    "offshore:bm"
+  ],
+  "sic": "6331",
+  "sicDescription": "Fire, Marine & Casualty Insurance",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "(441) 496-2600",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "92 PITTS BAY ROAD",
+      "street2": null,
+      "city": "PEMBROKE",
+      "stateOrCountry": "D0",
+      "zipCode": "HM 08",
+      "stateOrCountryDescription": "Bermuda",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "92 PITTS BAY ROAD",
+      "street2": null,
+      "city": "PEMBROKE",
+      "stateOrCountry": "D0",
+      "zipCode": "HM 08",
+      "stateOrCountryDescription": "Bermuda",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-20"
+  },
+  "filings_count": 1000
+}

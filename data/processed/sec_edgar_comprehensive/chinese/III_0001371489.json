@@ -1,0 +1,47 @@
+{
+  "cik": "0001371489",
+  "ticker": "III",
+  "name": "Information Services Group Inc.",
+  "detection_reasons": [
+    "offshore:vg"
+  ],
+  "sic": "8742",
+  "sicDescription": "Services-Management Consulting Services",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "205261587",
+  "phone": "203-517-3100",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "400 ATLANTIC STREET",
+      "street2": "SIXTH FLOOR",
+      "city": "STAMFORD",
+      "stateOrCountry": "CT",
+      "zipCode": "06901-3512",
+      "stateOrCountryDescription": "CT",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "400 ATLANTIC STREET",
+      "street2": "SIXTH FLOOR",
+      "city": "STAMFORD",
+      "stateOrCountry": "CT",
+      "zipCode": "06901-3512",
+      "stateOrCountryDescription": "CT",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-07"
+  },
+  "filings_count": 864
+}

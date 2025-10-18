@@ -1,0 +1,98 @@
+[
+  {
+    "paper_id": "https://openalex.org/W2347649620",
+    "doi": null,
+    "title": "Discussion on Operation Mechanism of State Engineering and Technology Research Center for Key Tropical Crops",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "IT"
+    ],
+    "institutions": {
+      "IT": [
+        "CATAS"
+      ],
+      "CN": [
+        "Institute of Scientific and Technical Information"
+      ]
+    },
+    "authors_by_country": {
+      "IT": [
+        "Zhao Zib (CATAS)"
+      ],
+      "CN": [
+        "Zhao Zib (Institute of Scientific and Technical Information)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [
+      "institution_building"
+    ],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 143328,
+      "extraction_command": "sed -n '143328p' part_001.gz | jq '.title'",
+      "paper_hash": "1bb269a9b44e9c34"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "MEDIUM",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2501119768",
+    "doi": "https://doi.org/10.5962/bhl.title.48285",
+    "title": "Prototype experience with the use of dissimilar armor for repair and rehabilitation of rubble-mound coastal structures / by Robert D. Carver, Coastal Engineering Research Center ; prepared for Department of the Army, US Army Corps of Engineers.",
+    "publication_year": 1989,
+    "countries_collaborating": [
+      "CN",
+      "NG"
+    ],
+    "institutions": {
+      "NG": [
+        "West Africa Vocational Education"
+      ],
+      "CN": [
+        "State Key Laboratory of Hydrology-Water Resources and Hydraulic Engineering"
+      ]
+    },
+    "authors_by_country": {
+      "NG": [
+        "Robert D. Carver (West Africa Vocational Education)"
+      ],
+      "CN": [
+        "Robert D. Carver (State Key Laboratory of Hydrology-Water Resources and Hydraulic Engineering)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [
+      "institution_building"
+    ],
+    "temporal_context": {
+      "period": null,
+      "year": 1989,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 397946,
+      "extraction_command": "sed -n '397946p' part_005.gz | jq '.title'",
+      "paper_hash": "253351337cca7d70"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "MEDIUM",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  }
+]

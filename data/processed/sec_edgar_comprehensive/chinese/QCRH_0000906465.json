@@ -1,0 +1,47 @@
+{
+  "cik": "0000906465",
+  "ticker": "QCRH",
+  "name": "QCR HOLDINGS INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6022",
+  "sicDescription": "State Commercial Banks",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "421397595",
+  "phone": "3097363580",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3551 7TH STREET",
+      "street2": null,
+      "city": "MOLINE",
+      "stateOrCountry": "IL",
+      "zipCode": "61265",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3551 7TH STREET",
+      "street2": null,
+      "city": "MOLINE",
+      "stateOrCountry": "IL",
+      "zipCode": "61265",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-15"
+  },
+  "filings_count": 1017
+}

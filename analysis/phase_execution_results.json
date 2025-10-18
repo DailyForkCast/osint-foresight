@@ -1,0 +1,7 @@
+{
+  "phase_1": {
+    "status": "failed",
+    "error": "Traceback (most recent call last):\n  File \"C:\\Projects\\OSINT - Foresight\\scripts\\phase1_complete_profiling.py\", line 445, in <module>\n    sys.exit(profiler.run())\n  File \"C:\\Projects\\OSINT - Foresight\\scripts\\phase1_complete_profiling.py\", line 369, in run\n    self.save_results()\n  File \"C:\\Projects\\OSINT - Foresight\\scripts\\phase1_complete_profiling.py\", line 416, in save_results\n    self.generate_report()\n  File \"C:\\Projects\\OSINT - Foresight\\scripts\\phase1_complete_profiling.py\", line 440, in",
+    "timestamp": "2025-09-25T14:07:32.151189"
+  }
+}

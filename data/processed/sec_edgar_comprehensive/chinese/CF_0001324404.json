@@ -1,0 +1,48 @@
+{
+  "cik": "0001324404",
+  "ticker": "CF",
+  "name": "CF Industries Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm",
+    "vie_structure"
+  ],
+  "sic": "2870",
+  "sicDescription": "Agricultural Chemicals",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "202697511",
+  "phone": "(847) 405-2400",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2375 WATERVIEW DRIVE",
+      "street2": null,
+      "city": "NORTHBROOK",
+      "stateOrCountry": "IL",
+      "zipCode": "60062",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2375 WATERVIEW DRIVE",
+      "street2": null,
+      "city": "NORTHBROOK",
+      "stateOrCountry": "IL",
+      "zipCode": "60062",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-09"
+  },
+  "filings_count": 1000
+}

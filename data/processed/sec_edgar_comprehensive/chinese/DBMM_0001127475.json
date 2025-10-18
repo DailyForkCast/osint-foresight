@@ -1,0 +1,47 @@
+{
+  "cik": "0001127475",
+  "ticker": "DBMM",
+  "name": "Digital Brand Media & Marketing Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7389",
+  "sicDescription": "Services-Business Services, NEC",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "FL",
+  "ein": "593666743",
+  "phone": "646-722-2706",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "845 THIRD AVENUE, 6TH FLOOR",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10022",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "845 THIRD AVENUE, 6TH FLOOR",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10022",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-07-15"
+  },
+  "filings_count": 217
+}

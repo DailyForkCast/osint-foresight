@@ -1,0 +1,47 @@
+{
+  "cik": "0000794170",
+  "ticker": "TOL",
+  "name": "Toll Brothers, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "1531",
+  "sicDescription": "Operative Builders",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "232416878",
+  "phone": "2159388000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1140 VIRGINIA DRIVE",
+      "street2": null,
+      "city": "FORT WASHINGTON",
+      "stateOrCountry": "PA",
+      "zipCode": "19034",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1140 VIRGINIA DRIVE",
+      "street2": null,
+      "city": "FORT WASHINGTON",
+      "stateOrCountry": "PA",
+      "zipCode": "19034",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-18"
+  },
+  "filings_count": 1000
+}

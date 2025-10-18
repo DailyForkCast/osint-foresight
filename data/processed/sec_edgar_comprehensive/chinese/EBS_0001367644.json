@@ -1,0 +1,47 @@
+{
+  "cik": "0001367644",
+  "ticker": "EBS",
+  "name": "Emergent BioSolutions Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2834",
+  "sicDescription": "Pharmaceutical Preparations",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "141902018",
+  "phone": "240-631-3200",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "300 PROFESSIONAL DR",
+      "street2": null,
+      "city": "GAITHERSBURG",
+      "stateOrCountry": "MD",
+      "zipCode": "20879",
+      "stateOrCountryDescription": "MD",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "300 PROFESSIONAL DR",
+      "street2": null,
+      "city": "GAITHERSBURG",
+      "stateOrCountry": "MD",
+      "zipCode": "20879",
+      "stateOrCountryDescription": "MD",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-11"
+  },
+  "filings_count": 1000
+}

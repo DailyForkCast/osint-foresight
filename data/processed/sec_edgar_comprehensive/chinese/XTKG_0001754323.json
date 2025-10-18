@@ -1,0 +1,51 @@
+{
+  "cik": "0001754323",
+  "ticker": "XTKG",
+  "name": "X3 Holdings Co., Ltd.",
+  "detection_reasons": [
+    "location:china",
+    "location:guangdong",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing"
+  ],
+  "sic": "7371",
+  "sicDescription": "Services-Computer Programming Services",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86-756-339-5666",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ADVANCED BUSINESS PARK, 9TH FL, BLDG C2",
+      "street2": "29 LANWAN LANE, HIGHTECH DISTRICT ZHUHAI",
+      "city": "GUANGDONG",
+      "stateOrCountry": "F4",
+      "zipCode": "519080",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "SUITE 412, TOWER A, TAI SENG EXCHANGE",
+      "street2": "ONE TAI SENG AVENUE",
+      "city": "SINGAPORE",
+      "stateOrCountry": "U0",
+      "zipCode": "536464",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-08"
+  },
+  "filings_count": 176
+}

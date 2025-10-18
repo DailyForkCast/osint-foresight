@@ -1,0 +1,94 @@
+{
+  "country": "GB",
+  "harvest_session": {
+    "start_time": "2025-09-27T19:33:45.337021",
+    "end_time": "2025-09-27T19:33:50.859601",
+    "total_operations": 9
+  },
+  "operations_log": [
+    {
+      "timestamp": "2025-09-27T19:33:45.337021",
+      "operation": "HARVEST_SESSION_START",
+      "details": {
+        "country": "GB"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T19:33:45.337021",
+      "operation": "FETCH_INITIATED",
+      "details": {
+        "url": "https://www.gov.uk/world/china",
+        "country": "GB"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T19:33:46.133903",
+      "operation": "FETCH_COMPLETED",
+      "details": {
+        "url": "https://www.gov.uk/world/china",
+        "status_code": 200,
+        "content_length": 96696,
+        "content_hash": "25ad75c4611c57ff4e414e414273068333ff53e495df3328815e13ab2de65eff",
+        "raw_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_verified\\raw_verified\\GB_www_gov_uk_20250927_193346_25ad75c4.html"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T19:33:46.134902",
+      "operation": "EXTRACTION_INITIATED",
+      "details": {
+        "url": "https://www.gov.uk/world/china",
+        "country": "GB"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T19:33:46.155279",
+      "operation": "EXTRACTION_COMPLETED",
+      "details": {
+        "url": "https://www.gov.uk/world/china",
+        "title_found": true,
+        "confidence": "medium",
+        "agreement_indicators": 3
+      }
+    },
+    {
+      "timestamp": "2025-09-27T19:33:48.167847",
+      "operation": "FETCH_INITIATED",
+      "details": {
+        "url": "https://www.gov.uk/government/world/organisations/british-embassy-beijing",
+        "country": "GB"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T19:33:48.786196",
+      "operation": "FETCH_COMPLETED",
+      "details": {
+        "url": "https://www.gov.uk/government/world/organisations/british-embassy-beijing",
+        "status_code": 200,
+        "content_length": 69750,
+        "content_hash": "c47e722f8a369414e9370abd6538564a21f1e1c0d6dec3b3f1c543b1a4035398",
+        "raw_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_verified\\raw_verified\\GB_www_gov_uk_20250927_193348_c47e722f.html"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T19:33:48.788213",
+      "operation": "EXTRACTION_INITIATED",
+      "details": {
+        "url": "https://www.gov.uk/government/world/organisations/british-embassy-beijing",
+        "country": "GB"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T19:33:48.822020",
+      "operation": "EXTRACTION_COMPLETED",
+      "details": {
+        "url": "https://www.gov.uk/government/world/organisations/british-embassy-beijing",
+        "title_found": true,
+        "confidence": "low",
+        "agreement_indicators": 2
+      }
+    }
+  ],
+  "verification_status": "ALL_DATA_REQUIRES_MANUAL_VERIFICATION",
+  "fabrication_risk": "ZERO_FABRICATION_PROTOCOL_ENFORCED",
+  "usage_warning": "DO NOT USE WITHOUT MANUAL VERIFICATION OF SOURCE DOCUMENTS"
+}

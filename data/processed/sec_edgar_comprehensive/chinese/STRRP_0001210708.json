@@ -1,0 +1,48 @@
+{
+  "cik": "0001210708",
+  "ticker": "STRRP",
+  "name": "Star Equity Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm",
+    "offshore:hk"
+  ],
+  "sic": "7363",
+  "sicDescription": "Services-Help Supply Services",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "593547281",
+  "phone": "2034095628",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "53 FOREST AVENUE",
+      "street2": null,
+      "city": "OLD GREENWICH",
+      "stateOrCountry": "CT",
+      "zipCode": "06870",
+      "stateOrCountryDescription": "CT",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "53 FOREST AVENUE",
+      "street2": null,
+      "city": "OLD GREENWICH",
+      "stateOrCountry": "CT",
+      "zipCode": "06870",
+      "stateOrCountryDescription": "CT",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-17"
+  },
+  "filings_count": 1002
+}

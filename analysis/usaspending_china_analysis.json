@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-09-29T19:14:03.564662",
+  "references_found": 17,
+  "sample_references": [
+    {
+      "file": "5758.dat.gz",
+      "row": 759,
+      "confidence": "low",
+      "patterns": [
+        "basic_china"
+      ],
+      "sample": "401 USA 12.550 The Language Flagship Grants to Institutions of Higher Education The Language Flagship DEFENSE HUMAN RESOURCES ACTIVITY, DEPT OF DEFENSE {\"list\":[{\"act\":{\"description\":\"David L. Boren N"
+    },
+    {
+      "file": "5758.dat.gz",
+      "row": 762,
+      "confidence": "low",
+      "patterns": [
+        "basic_china"
+      ],
+      "sample": "2388 USA 12.553 The Language Flagship Fellowships  DEPT OF DEFENSE, DEPT OF DEFENSE {\"list\":[{\"act\":{\"description\":\"David L. Boren Nation Security Education Act\"},\"publicLaw\":{\"congressCode\":\"102\",\"nu"
+    },
+    {
+      "file": "5758.dat.gz",
+      "row": 1100,
+      "confidence": "low",
+      "patterns": [
+        "basic_china"
+      ],
+      "sample": "619 USA 15.224 Cultural and Paleontological Resources Management  BUREAU OF LAND MANAGEMENT, INTERIOR, DEPARTMENT OF THE {\"list\":[{\"act\":{},\"publicLaw\":{\"congressCode\":\"94\",\"number\":\"579\"},\"USC\":{\"tit"
+    },
+    {
+      "file": "5758.dat.gz",
+      "row": 1233,
+      "confidence": "low",
+      "patterns": [
+        "basic_china"
+      ],
+      "sample": "726 USA 15.608 Fish and Aquatic Conservation - Aquatic Invasive Species Aquatic Invasive Species U.S. FISH AND WILDLIFE SERVICE, INTERIOR, DEPARTMENT OF THE {\"list\":[{\"act\":{\"description\":\"Nonindigeno"
+    },
+    {
+      "file": "5758.dat.gz",
+      "row": 1238,
+      "confidence": "medium",
+      "patterns": [
+        "import.*china"
+      ],
+      "sample": "731 USA 15.619 Rhinoceros and Tiger Conservation Fund  U.S. FISH AND WILDLIFE SERVICE, INTERIOR, DEPARTMENT OF THE {\"list\":[{\"act\":{\"description\":\"Rhinoceros and Tiger Conservation Act, 16 U.S.C. \u00a7530"
+    },
+    {
+      "file": "5758.dat.gz",
+      "row": 1295,
+      "confidence": "medium",
+      "patterns": [
+        "china.*trade"
+      ],
+      "sample": "785 USA 15.679 Combating Wildlife Trafficking  U.S. FISH AND WILDLIFE SERVICE, INTERIOR, DEPARTMENT OF THE {\"list\":[{\"act\":{\"description\":\"Endangered Species Act\u2014International Cooperation,16 U.S.C. \u00a71"
+    },
+    {
+      "file": "5758.dat.gz",
+      "row": 1304,
+      "confidence": "medium",
+      "patterns": [
+        "\\bprc\\b"
+      ],
+      "sample": "5604 USA 15.688 Great Lakes Fish and Wildlife Restoration Act GLFWRA U.S. FISH AND WILDLIFE SERVICE, INTERIOR, DEPARTMENT OF THE {\"list\":[{\"act\":{},\"authorizationTypes\":{\"act\":true}}]} To provide assi"
+    },
+    {
+      "file": "5758.dat.gz",
+      "row": 1659,
+      "confidence": "low",
+      "patterns": [
+        "basic_china"
+      ],
+      "sample": "1020 USA 19.009 Academic Exchange Programs - Undergraduate Programs Undergraduate Programs BUREAU OF EDUCATIONAL AND CULTURAL, STATE, DEPARTMENT OF {\"list\":[{\"act\":{\"description\":\"The Fulbright-Hays A"
+    },
+    {
+      "file": "5758.dat.gz",
+      "row": 1713,
+      "confidence": "low",
+      "patterns": [
+        "basic_china"
+      ],
+      "sample": "1061 USA 19.415 Professional and Cultural Exchange Programs - Citizen Exchanges Citizen Exchanges BUREAU OF EDUCATIONAL AND CULTURAL, STATE, DEPARTMENT OF {\"list\":[{\"act\":{\"description\":\"The Fulbright"
+    },
+    {
+      "file": "5758.dat.gz",
+      "row": 2107,
+      "confidence": "high",
+      "patterns": [
+        "huawei",
+        "zte\\b"
+      ],
+      "sample": "3284 USA 32.010 Supply Chain Reimbursement Program Supply Chain Reimbursement Program FEDERAL COMMUNICATIONS COMMISSION, FEDERAL COMMUNICATIONS COMMISSION {\"list\":[{\"publicLaw\":{\"congressCode\":\"116\",\""
+    },
+    {
+      "file": "5758.dat.gz",
+      "row": 2201,
+      "confidence": "low",
+      "patterns": [
+        "basic_china"
+      ],
+      "sample": "3334 USA 54.001 Intelligence Community Centers for Academic Excellence IC CAE Program OFFICE OF THE DIRECTOR OF NATIONAL INTELLIGENCE, OFFICE OF THE DIRECTOR OF NATIONAL INTELLIGENCE {\"list\":[{\"act\":{"
+    },
+    {
+      "file": "5758.dat.gz",
+      "row": 2827,
+      "confidence": "low",
+      "patterns": [
+        "basic_china"
+      ],
+      "sample": "1617 USA 93.001 Civil Rights and Privacy Rule Compliance Activities Office for Civil Rights IMMED OFFICE OF THE SECRETARY OF HEALTH AND HUMAN SERVICES, HEALTH AND HUMAN SERVICES, DEPARTMENT OF {\"list\""
+    },
+    {
+      "file": "5758.dat.gz",
+      "row": 2903,
+      "confidence": "low",
+      "patterns": [
+        "basic_china"
+      ],
+      "sample": "2793 USA 93.105 Bilingual/Bicultural Service Demonstration Grants (Bi/Bi) Bilingual/Bicultural OFFICE OF MINORITY HEALTH, HEALTH AND HUMAN SERVICES, DEPARTMENT OF {\"list\":[{\"act\":{\"description\":\"Offic"
+    },
+    {
+      "file": "5758.dat.gz",
+      "row": 3046,
+      "confidence": "medium",
+      "patterns": [
+        "\\bprc\\b"
+      ],
+      "sample": "1795 USA 93.325 Paralysis Resource Center  ADMINISTRATION FOR COMMUNITY LIVING (ACL), HEALTH AND HUMAN SERVICES, DEPARTMENT OF {\"list\":[{\"act\":{\"description\":\"Public Health Service Act, Title 42, Part"
+    },
+    {
+      "file": "5758.dat.gz",
+      "row": 3229,
+      "confidence": "medium",
+      "patterns": [
+        "\\bprc\\b"
+      ],
+      "sample": "1889 USA 93.542 Health Promotion and Disease Prevention Research Centers: PPHF - Affordable Care Act Projects  Prevention Research Centers  CENTERS FOR DISEASE CONTROL AND PREVENTION, HEALTH AND HUMAN"
+    },
+    {
+      "file": "5758.dat.gz",
+      "row": 3327,
+      "confidence": "low",
+      "patterns": [
+        "basic_china"
+      ],
+      "sample": "3327 USA null.001 Intelligence Community Centers for Academic Excellence IC CAE Program OFFICE OF THE DIRECTOR OF NATIONAL INTELLIGENCE, OFFICE OF THE DIRECTOR OF NATIONAL INTELLIGENCE {\"list\":[{\"act\""
+    },
+    {
+      "file": "5758.dat.gz",
+      "row": 3352,
+      "confidence": "low",
+      "patterns": [
+        "basic_china"
+      ],
+      "sample": "3070 USA 93.699 State and National Tobacco Cessation Support Systems Quitlines CENTERS FOR DISEASE CONTROL AND PREVENTION, HEALTH AND HUMAN SERVICES, DEPARTMENT OF {\"list\":[{\"act\":{},\"authorizationTyp"
+    }
+  ]
+}

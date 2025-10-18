@@ -1,0 +1,50 @@
+{
+  "cik": "0001720250",
+  "ticker": "KNDI",
+  "name": "Kandi Technologies Group, Inc.",
+  "detection_reasons": [
+    "location:china",
+    "location:zhejiang",
+    "offshore:bvi",
+    "address:mailing"
+  ],
+  "sic": "3714",
+  "sicDescription": "Motor Vehicle Parts & Accessories",
+  "category": "Accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "(86-579) 82239856",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "JINHUA CITY INDUSTRIAL ZONE",
+      "street2": "ZHEJIANG PROVINCE",
+      "city": "JINHUA",
+      "stateOrCountry": "F4",
+      "zipCode": "321016",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": null,
+      "street2": null,
+      "city": null,
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-19"
+  },
+  "filings_count": 22
+}

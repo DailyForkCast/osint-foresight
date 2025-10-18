@@ -1,0 +1,15 @@
+{
+  "run_id": "d9800b1e-b55a-452a-bd30-c6759d51f4aa",
+  "phase": "Phase 6",
+  "step": "monitor_entity_resolution",
+  "status": "success",
+  "timestamp": "2025-09-24T18:13:55.075330",
+  "duration_seconds": null,
+  "metadata": {
+    "process": "entity_resolution",
+    "status": "idle",
+    "health": "healthy",
+    "last_run": "2025-09-24T18:13:55.071343",
+    "next_run": "2025-09-24T19:13:55.071343"
+  }
+}

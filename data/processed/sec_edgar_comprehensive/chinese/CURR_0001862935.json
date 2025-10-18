@@ -1,0 +1,48 @@
+{
+  "cik": "0001862935",
+  "ticker": "CURR",
+  "name": "Currenc Group Inc.",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "7389",
+  "sicDescription": "Services-Business Services, NEC",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "917-519-3948",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "410 NORTH BRIDGE ROAD",
+      "street2": "SPACES CITY HALL",
+      "city": "SINGAPORE",
+      "stateOrCountry": null,
+      "zipCode": "188726",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Singapore",
+      "countryCode": "U0"
+    },
+    "business": {
+      "street1": "410 NORTH BRIDGE ROAD",
+      "street2": "SPACES CITY HALL",
+      "city": "SINGAPORE",
+      "stateOrCountry": null,
+      "zipCode": "188726",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Singapore",
+      "countryCode": "U0"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-11"
+  },
+  "filings_count": 214
+}

@@ -1,0 +1,49 @@
+{
+  "cik": "0001964664",
+  "ticker": "ORIS",
+  "name": "ORIENTAL RISE HOLDINGS Ltd",
+  "detection_reasons": [
+    "location:china",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "0100",
+  "sicDescription": "Agricultural Production-Crops",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "86-(0)5938386777",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "NO. 48 XIANYU ROAD, SHUANGCHENG TOWN",
+      "street2": "ZHERONG",
+      "city": "NINGDE",
+      "stateOrCountry": "F4",
+      "zipCode": "355399",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "NO. 48 XIANYU ROAD, SHUANGCHENG TOWN",
+      "street2": "ZHERONG",
+      "city": "NINGDE",
+      "stateOrCountry": "F4",
+      "zipCode": "355399",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-07-30"
+  },
+  "filings_count": 67
+}

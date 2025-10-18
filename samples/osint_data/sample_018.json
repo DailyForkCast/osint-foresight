@@ -1,0 +1,17 @@
+{
+  "original_path": "F:\\OSINT_DATA\\OpenSanctions\\raw_data\\au_dfat_sanctions\\20250921_targets.nested.json",
+  "profile": {
+    "path": "F:\\OSINT_DATA\\OpenSanctions\\raw_data\\au_dfat_sanctions\\20250921_targets.nested.json",
+    "size": 8360362,
+    "extension": ".json",
+    "encoding": "unknown",
+    "line_count": 0,
+    "field_count": 0,
+    "parse_status": "parse_error",
+    "schema": {},
+    "sample_records": [],
+    "modified": "2025-09-21T17:41:36",
+    "error": "Extra data: line 2 column 1 (char 2059)"
+  },
+  "sample_data": []
+}

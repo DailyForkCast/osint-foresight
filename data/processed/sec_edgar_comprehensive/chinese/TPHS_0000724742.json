@@ -1,0 +1,49 @@
+{
+  "cik": "0000724742",
+  "ticker": "TPHS",
+  "name": "Trinity Place Holdings Inc.",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:bm",
+    "vie_structure"
+  ],
+  "sic": "6512",
+  "sicDescription": "Opeators of  Nonresidential Buildings",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "222465228",
+  "phone": "(212) 235-2190",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "340 MADISON AVENUE",
+      "street2": "SUITE 3C",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10173",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "340 MADISON AVENUE",
+      "street2": "SUITE 3C",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10173",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-K",
+    "date": "2025-03-24"
+  },
+  "filings_count": 1000
+}

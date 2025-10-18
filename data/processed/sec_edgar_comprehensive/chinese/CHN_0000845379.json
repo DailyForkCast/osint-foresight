@@ -1,0 +1,45 @@
+{
+  "cik": "0000845379",
+  "ticker": "CHN",
+  "name": "China Fund, Inc.",
+  "detection_reasons": [
+    "location:china",
+    "offshore:bm"
+  ],
+  "sic": "",
+  "sicDescription": "",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "MD",
+  "ein": "000000000",
+  "phone": "617 772 1616",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "50 POST OFFICE SQUARE",
+      "street2": null,
+      "city": "BOSTON",
+      "stateOrCountry": "MA",
+      "zipCode": "02110",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "50 POST OFFICE SQUARE",
+      "street2": null,
+      "city": "BOSTON",
+      "stateOrCountry": "MA",
+      "zipCode": "02110",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 858
+}

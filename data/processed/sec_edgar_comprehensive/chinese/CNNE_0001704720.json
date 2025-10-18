@@ -1,0 +1,47 @@
+{
+  "cik": "0001704720",
+  "ticker": "CNNE",
+  "name": "Cannae Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5810",
+  "sicDescription": "Retail-Eating & Drinking Places",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "821273460",
+  "phone": "702-323-7334",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "C/O CANNAE HOLDINGS, INC.",
+      "street2": "1701 VILLAGE CENTER CIRCLE",
+      "city": "LAS VEGAS",
+      "stateOrCountry": "NV",
+      "zipCode": "89134",
+      "stateOrCountryDescription": "NV",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "C/O CANNAE HOLDINGS, INC.",
+      "street2": "1701 VILLAGE CENTER CIRCLE",
+      "city": "LAS VEGAS",
+      "stateOrCountry": "NV",
+      "zipCode": "89134",
+      "stateOrCountryDescription": "NV",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-28"
+  },
+  "filings_count": 615
+}

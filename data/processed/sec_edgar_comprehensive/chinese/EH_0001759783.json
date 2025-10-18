@@ -1,0 +1,53 @@
+{
+  "cik": "0001759783",
+  "ticker": "EH",
+  "name": "EHang Holdings Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:guangzhou",
+    "location:guangdong",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "3728",
+  "sicDescription": "Aircraft Parts & Auxiliary Equipment, NEC",
+  "category": "Accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "8602029028899",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "FLOOR11, BUILDING1 EHANG TECHNOLOGY PARK",
+      "street2": "NO. 29 BISHAN BIVD. HUANGPU DISTRICT",
+      "city": "GUANGZHOU",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "GUANGDONG PROVINCE",
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "FLOOR11, BUILDING1 EHANG TECHNOLOGY PARK",
+      "street2": "NO. 29 BISHAN BIVD. HUANGPU DISTRICT",
+      "city": "GUANGZHOU",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "GUANGDONG PROVINCE",
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-26"
+  },
+  "filings_count": 109
+}

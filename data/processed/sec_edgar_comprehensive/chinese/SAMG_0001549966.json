@@ -1,0 +1,47 @@
+{
+  "cik": "0001549966",
+  "ticker": "SAMG",
+  "name": "Silvercrest Asset Management Group Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6282",
+  "sicDescription": "Investment Advice",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "455146560",
+  "phone": "212-649-0600",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1330 AVENUE OF THE AMERICAS, 38TH FLOOR",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10019",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1330 AVENUE OF THE AMERICAS, 38TH FLOOR",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10019",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-07-31"
+  },
+  "filings_count": 515
+}

@@ -1,0 +1,44 @@
+{
+  "cik": "0002004385",
+  "ticker": "FGO",
+  "name": "FG Holdings Ltd",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "6199",
+  "sicDescription": "Finance Services",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "852 2398-9100",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT 1002, 10/F TAI SANG BANK BUILDING",
+      "street2": "130-132 DES VOEUX ROAD CENTRAL, CENTRAL",
+      "city": "HONG KONG SAR",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "UNIT 1002, 10/F TAI SANG BANK BUILDING",
+      "street2": "130-132 DES VOEUX ROAD CENTRAL, CENTRAL",
+      "city": "HONG KONG SAR",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 21
+}

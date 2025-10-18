@@ -1,0 +1,51 @@
+{
+  "cik": "0002003061",
+  "ticker": "STFS",
+  "name": "Star Fashion Culture Holdings Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:xiamen",
+    "location:fujian",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "7310",
+  "sicDescription": "Services-Advertising",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "5859898659",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ROOM 64, ROOM 401",
+      "street2": "NO. 7 HE NING ER ROAD, HULI DISTRICT",
+      "city": "XIAMEN CITY, FUJIAN PROVINCE",
+      "stateOrCountry": "F4",
+      "zipCode": "361000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "ROOM 64, ROOM 401",
+      "street2": "NO. 7 HE NING ER ROAD, HULI DISTRICT",
+      "city": "XIAMEN CITY, FUJIAN PROVINCE",
+      "stateOrCountry": "F4",
+      "zipCode": "361000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-07-08"
+  },
+  "filings_count": 53
+}

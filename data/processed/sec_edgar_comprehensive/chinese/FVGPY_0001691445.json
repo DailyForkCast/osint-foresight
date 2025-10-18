@@ -1,0 +1,53 @@
+{
+  "cik": "0001691445",
+  "ticker": "FVGPY",
+  "name": "FinVolution Group",
+  "detection_reasons": [
+    "location:china",
+    "location:shanghai",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:vg",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "6163",
+  "sicDescription": "Loan Brokers",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86 21 80303200-8601",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "BUILDING G1, NO. 999 DANGUI ROAD",
+      "street2": "PUDONG NEW DISTRICT",
+      "city": "SHANGHAI",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "BUILDING G1, NO. 999 DANGUI ROAD",
+      "street2": "PUDONG NEW DISTRICT",
+      "city": "SHANGHAI",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-21"
+  },
+  "filings_count": 192
+}

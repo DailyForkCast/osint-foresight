@@ -1,0 +1,44 @@
+{
+  "cik": "0001710864",
+  "ticker": "MSUXF",
+  "name": "Misumi Group Inc./ADR",
+  "detection_reasons": [
+    "offshore:ky"
+  ],
+  "sic": "",
+  "sicDescription": "",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "M0",
+  "ein": "000000000",
+  "phone": "212-336-2301",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "C/O PATTERSON BELKNAP C/O H. RASPE",
+      "street2": "1133 AVENUE OF THE AMERICAS",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10036",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "IIDABASHI FIRST BLDG., 5-1 KORAKU",
+      "street2": "2-CHOME, BUNKYO-KU",
+      "city": "TOKYO",
+      "stateOrCountry": "M0",
+      "zipCode": "1128583",
+      "stateOrCountryDescription": "Japan",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 4
+}

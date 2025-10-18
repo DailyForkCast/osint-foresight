@@ -1,0 +1,48 @@
+{
+  "cik": "0001393883",
+  "ticker": "DHX",
+  "name": "DHI GROUP, INC.",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:bm"
+  ],
+  "sic": "7389",
+  "sicDescription": "Services-Business Services, NEC",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "203179218",
+  "phone": "515-978-3737",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "6465 SOUTH GREENWOOD PLAZA",
+      "street2": "SUITE 400",
+      "city": "CENTENNIAL",
+      "stateOrCountry": "CO",
+      "zipCode": "80111",
+      "stateOrCountryDescription": "CO",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "6465 SOUTH GREENWOOD PLAZA",
+      "street2": "SUITE 400",
+      "city": "CENTENNIAL",
+      "stateOrCountry": "CO",
+      "zipCode": "80111",
+      "stateOrCountryDescription": "CO",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-06"
+  },
+  "filings_count": 1001
+}

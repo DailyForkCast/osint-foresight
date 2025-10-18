@@ -1,0 +1,117 @@
+{
+  "executive_summary": {
+    "total_eu_contracts": 34523,
+    "chinese_involvement": 8,
+    "penetration_rate": 0.023172957158995453,
+    "high_risk_contracts": 0,
+    "critical_findings": 7,
+    "most_exposed_countries": [
+      [
+        "CZ",
+        {
+          "total_contracts": 2444,
+          "chinese_contracts": 6,
+          "chinese_contractors": [
+            {
+              "name": "A.M.I. - Analytical Medical Instruments, s.r.o.",
+              "confidence": 0.65,
+              "evidence": "INVESTIGATE: Probably Chinese entity",
+              "contract_id": "2024/S 011-027906",
+              "cpv_code": "[\"50421000\", \"50421000\"]",
+              "value": 9132900.0
+            },
+            {
+              "name": "O2 Czech Republic a.s.",
+              "confidence": 0.9,
+              "evidence": "HIGH PRIORITY: Very likely Chinese entity",
+              "contract_id": "2024/S 011-028482",
+              "cpv_code": "[\"64200000\", \"64200000\"]",
+              "value": 38760.0
+            },
+            {
+              "name": "HELAGO-CZ, s.r.o.",
+              "confidence": 0.9,
+              "evidence": "HIGH PRIORITY: Very likely Chinese entity",
+              "contract_id": "2024/S 016-044408",
+              "cpv_code": "[\"38970000\", \"38970000\", \"38970000\"]",
+              "value": 168880.0
+            },
+            {
+              "name": "Dopravn\u011b in\u017een\u00fdrsk\u00e1 kancel\u00e1\u0159, s.r.o.",
+              "confidence": 0.9,
+              "evidence": "HIGH PRIORITY: Very likely Chinese entity",
+              "contract_id": "2024/S 019-052344",
+              "cpv_code": "[\"71000000\", \"71000000\"]",
+              "value": 1977700.0
+            },
+            {
+              "name": "MO Atelier s.r.o. ",
+              "confidence": 0.9,
+              "evidence": "HIGH PRIORITY: Very likely Chinese entity",
+              "contract_id": "2024/S 012-031911",
+              "cpv_code": "[\"71000000\"]",
+              "value": 4850000.0
+            },
+            {
+              "name": "Veolia Komodity \u010cR, s.r.o.",
+              "confidence": 0.9,
+              "evidence": "HIGH PRIORITY: Very likely Chinese entity",
+              "contract_id": "2024/S 015-040679",
+              "cpv_code": "[\"09123000\", \"09123000\", \"09123000\"]",
+              "value": 66000000.0
+            }
+          ],
+          "sectors_exposed": {
+            "[\"": 6
+          },
+          "total_value_to_china": 82168240.0,
+          "critical_dependencies": []
+        }
+      ],
+      [
+        "BE",
+        {
+          "total_contracts": 64,
+          "chinese_contracts": 1,
+          "chinese_contractors": [
+            {
+              "name": "APELL National Center for Disaster Management Foundation (CN APELL)",
+              "confidence": 1.0,
+              "evidence": "IMMEDIATE ATTENTION: Confirmed Chinese entity",
+              "contract_id": "2024/S 020-055943",
+              "cpv_code": "[\"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\"]",
+              "value": 2392200.0
+            }
+          ],
+          "sectors_exposed": {
+            "[\"": 1
+          },
+          "total_value_to_china": 2392200.0,
+          "critical_dependencies": []
+        }
+      ],
+      [
+        "PT",
+        {
+          "total_contracts": 581,
+          "chinese_contracts": 1,
+          "chinese_contractors": [
+            {
+              "name": "Chongqing Taishan Cable Co., Ltd",
+              "confidence": 0.8785714285714284,
+              "evidence": "HIGH PRIORITY: Very likely Chinese entity",
+              "contract_id": "2024/S 016-044315",
+              "cpv_code": "[\"31321000\", \"31321000\", \"31321000\", \"31321000\"]",
+              "value": 5125095.0
+            }
+          ],
+          "sectors_exposed": {
+            "[\"": 1
+          },
+          "total_value_to_china": 5125095.0,
+          "critical_dependencies": []
+        }
+      ]
+    ]
+  }
+}

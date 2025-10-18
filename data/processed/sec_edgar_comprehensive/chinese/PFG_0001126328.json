@@ -1,0 +1,47 @@
+{
+  "cik": "0001126328",
+  "ticker": "PFG",
+  "name": "PRINCIPAL FINANCIAL GROUP INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6321",
+  "sicDescription": "Accident & Health Insurance",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "421520346",
+  "phone": "5152475111",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "711 HIGH STREET",
+      "street2": null,
+      "city": "DES MOINES",
+      "stateOrCountry": "IA",
+      "zipCode": "50392",
+      "stateOrCountryDescription": "IA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "711 HIGH STREET",
+      "street2": null,
+      "city": "DES MOINES",
+      "stateOrCountry": "IA",
+      "zipCode": "50392",
+      "stateOrCountryDescription": "IA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-19"
+  },
+  "filings_count": 1000
+}

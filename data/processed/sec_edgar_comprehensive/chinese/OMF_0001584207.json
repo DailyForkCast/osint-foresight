@@ -1,0 +1,47 @@
+{
+  "cik": "0001584207",
+  "ticker": "OMF",
+  "name": "OneMain Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6141",
+  "sicDescription": "Personal Credit Institutions",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "463348401",
+  "phone": "(812) 424-8031",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "601 N.W. SECOND STREET",
+      "street2": null,
+      "city": "EVANSVILLE",
+      "stateOrCountry": "IN",
+      "zipCode": "47708",
+      "stateOrCountryDescription": "IN",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "601 N.W. SECOND STREET",
+      "street2": null,
+      "city": "EVANSVILLE",
+      "stateOrCountry": "IN",
+      "zipCode": "47708",
+      "stateOrCountryDescription": "IN",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-17"
+  },
+  "filings_count": 868
+}

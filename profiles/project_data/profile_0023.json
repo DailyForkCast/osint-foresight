@@ -1,0 +1,50 @@
+{
+  "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\national_procurement_automated\\automated_summary_20250923_184245.json",
+  "size": 538,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 1,
+  "field_count": 5,
+  "parse_status": "success",
+  "schema": {
+    "search_date": "string",
+    "statistics": "object",
+    "by_country": "object",
+    "companies_searched": "array",
+    "method": "string"
+  },
+  "sample_records": [
+    {
+      "search_date": "2025-09-23T18:42:45.077186",
+      "statistics": {
+        "total_searches": 20,
+        "total_contracts_found": 20,
+        "chinese_contracts_identified": 0,
+        "errors": 0
+      },
+      "by_country": {
+        "CZ": {
+          "total": 20,
+          "chinese": 0
+        },
+        "PL": {
+          "total": 0,
+          "chinese": 0
+        },
+        "SK": {
+          "total": 0,
+          "chinese": 0
+        }
+      },
+      "companies_searched": [
+        "Huawei",
+        "ZTE",
+        "Lenovo",
+        "Hikvision",
+        "DJI"
+      ],
+      "method": "automated_scraping"
+    }
+  ],
+  "modified": "2025-09-23T18:42:45.078249"
+}

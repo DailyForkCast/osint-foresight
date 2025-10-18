@@ -1,0 +1,47 @@
+{
+  "cik": "0001820872",
+  "ticker": "GBTG",
+  "name": "Global Business Travel Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "4700",
+  "sicDescription": "Transportation Services",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "980598290",
+  "phone": "212-329-7200",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "666 THIRD AVENUE",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10017",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "666 THIRD AVENUE",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10017",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-02"
+  },
+  "filings_count": 468
+}

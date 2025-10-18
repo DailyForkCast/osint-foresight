@@ -1,0 +1,228 @@
+{
+  "metadata": {
+    "analysis_date": "2025-09-21T17:17:11.076218",
+    "countries_analyzed": 19,
+    "data_source": "OpenAIRE Graph API",
+    "collection_method": "Multi-country systematic sampling"
+  },
+  "country_overviews": {
+    "HU": {
+      "country": "HU",
+      "total_research_products": 519297,
+      "recent_publications": 14482,
+      "last_updated": "2025-09-21T17:06:42.313423"
+    },
+    "GR": {
+      "country": "GR",
+      "total_research_products": 851507,
+      "recent_publications": 22716,
+      "last_updated": "2025-09-21T17:06:44.016216"
+    },
+    "IT": {
+      "country": "IT",
+      "total_research_products": 7277853,
+      "recent_publications": 133628,
+      "last_updated": "2025-09-21T17:06:45.739101"
+    },
+    "PL": {
+      "country": "PL",
+      "total_research_products": 1947999,
+      "recent_publications": 48921,
+      "last_updated": "2025-09-21T17:06:47.430809"
+    },
+    "PT": {
+      "country": "PT",
+      "total_research_products": 1404020,
+      "recent_publications": 47280,
+      "last_updated": "2025-09-21T17:06:49.962015"
+    },
+    "CZ": {
+      "country": "CZ",
+      "total_research_products": 997082,
+      "recent_publications": 25376,
+      "last_updated": "2025-09-21T17:06:51.691713"
+    },
+    "DE": {
+      "country": "DE",
+      "total_research_products": 8248274,
+      "recent_publications": 306865,
+      "last_updated": "2025-09-21T17:06:53.424165"
+    },
+    "FR": {
+      "country": "FR",
+      "total_research_products": 5842271,
+      "recent_publications": 117812,
+      "last_updated": "2025-09-21T17:06:55.170492"
+    },
+    "ES": {
+      "country": "ES",
+      "total_research_products": 4639927,
+      "recent_publications": 117417,
+      "last_updated": "2025-09-21T17:06:56.875306"
+    },
+    "BG": {
+      "country": "BG",
+      "total_research_products": 225844,
+      "recent_publications": 7627,
+      "last_updated": "2025-09-21T17:06:59.139572"
+    },
+    "HR": {
+      "country": "HR",
+      "total_research_products": 1199757,
+      "recent_publications": 21720,
+      "last_updated": "2025-09-21T17:07:00.837898"
+    },
+    "EE": {
+      "country": "EE",
+      "total_research_products": 162331,
+      "recent_publications": 3825,
+      "last_updated": "2025-09-21T17:07:02.557446"
+    },
+    "LV": {
+      "country": "LV",
+      "total_research_products": 148795,
+      "recent_publications": 5445,
+      "last_updated": "2025-09-21T17:07:04.272923"
+    },
+    "LT": {
+      "country": "LT",
+      "total_research_products": 411669,
+      "recent_publications": 12196,
+      "last_updated": "2025-09-21T17:07:05.977454"
+    },
+    "LU": {
+      "country": "LU",
+      "total_research_products": 56502,
+      "recent_publications": 1762,
+      "last_updated": "2025-09-21T17:07:07.692966"
+    },
+    "MT": {
+      "country": "MT",
+      "total_research_products": 39358,
+      "recent_publications": 777,
+      "last_updated": "2025-09-21T17:07:09.386952"
+    },
+    "RO": {
+      "country": "RO",
+      "total_research_products": 335853,
+      "recent_publications": 13209,
+      "last_updated": "2025-09-21T17:07:11.082851"
+    },
+    "SK": {
+      "country": "SK",
+      "total_research_products": 200002,
+      "recent_publications": 5819,
+      "last_updated": "2025-09-21T17:07:13.350232"
+    },
+    "SI": {
+      "country": "SI",
+      "total_research_products": 503073,
+      "recent_publications": 6564,
+      "last_updated": "2025-09-21T17:07:15.054815"
+    }
+  },
+  "china_collaborations": {
+    "HU": {
+      "total_collaborations": 0,
+      "data": [],
+      "message": "No China collaborations detected in sample"
+    },
+    "GR": {
+      "total_collaborations": 0,
+      "data": [],
+      "message": "No China collaborations detected in sample"
+    },
+    "IT": {
+      "total_collaborations": 0,
+      "data": [],
+      "message": "No China collaborations detected in sample"
+    },
+    "PL": {
+      "total_collaborations": 0,
+      "data": [],
+      "message": "No China collaborations detected in sample"
+    },
+    "PT": {
+      "total_collaborations": 0,
+      "data": [],
+      "message": "No China collaborations detected in sample"
+    },
+    "CZ": {
+      "total_collaborations": 0,
+      "data": [],
+      "message": "No China collaborations detected in sample"
+    },
+    "DE": {
+      "total_collaborations": 0,
+      "data": [],
+      "message": "No China collaborations detected in sample"
+    },
+    "FR": {
+      "total_collaborations": 0,
+      "data": [],
+      "message": "No China collaborations detected in sample"
+    },
+    "ES": {
+      "total_collaborations": 0,
+      "data": [],
+      "message": "No China collaborations detected in sample"
+    },
+    "BG": {
+      "total_collaborations": 0,
+      "data": [],
+      "message": "No China collaborations detected in sample"
+    },
+    "HR": {
+      "total_collaborations": 0,
+      "data": [],
+      "message": "No China collaborations detected in sample"
+    },
+    "EE": {
+      "total_collaborations": 0,
+      "data": [],
+      "message": "No China collaborations detected in sample"
+    },
+    "LV": {
+      "total_collaborations": 0,
+      "data": [],
+      "message": "No China collaborations detected in sample"
+    },
+    "LT": {
+      "total_collaborations": 0,
+      "data": [],
+      "message": "No China collaborations detected in sample"
+    },
+    "LU": {
+      "total_collaborations": 0,
+      "data": [],
+      "message": "No China collaborations detected in sample"
+    },
+    "MT": {
+      "total_collaborations": 0,
+      "data": [],
+      "message": "No China collaborations detected in sample"
+    },
+    "RO": {
+      "total_collaborations": 0,
+      "data": [],
+      "message": "No China collaborations detected in sample"
+    },
+    "SK": {
+      "total_collaborations": 0,
+      "data": [],
+      "message": "No China collaborations detected in sample"
+    },
+    "SI": {
+      "total_collaborations": 0,
+      "data": [],
+      "message": "No China collaborations detected in sample"
+    }
+  },
+  "summary": {
+    "total_research_products": 35011414,
+    "total_recent_publications": 913441,
+    "total_china_collaborations": 0,
+    "countries_with_collaborations": 0,
+    "countries_analyzed": 19
+  }
+}

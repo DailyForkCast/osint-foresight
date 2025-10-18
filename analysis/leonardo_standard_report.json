@@ -1,0 +1,483 @@
+{
+  "generated_at": "2025-09-28T14:21:02.574600+00:00",
+  "scoring_methodology": "Leonardo Standard 20-Point Assessment",
+  "zero_fabrication_compliance": true,
+  "total_technologies_scored": 50,
+  "risk_distribution": {
+    "critical": 0,
+    "high": 50,
+    "medium": 0,
+    "low": 0
+  },
+  "critical_technologies": [
+    {
+      "technology": "March\u00e9 de Ma\u00eetrise d'oeuvre urbaine de l'op\u00e9ration Fauvettes-Joncherolles \u00e0 Pierrefitte-sur-Seine",
+      "total_score": 12,
+      "risk_level": "HIGH",
+      "breakdown": {
+        "exact_match": 2,
+        "china_access": 2,
+        "exploitation": 3,
+        "timeline": 3,
+        "alternatives": 0,
+        "dual_use": 0,
+        "oversight": 2
+      },
+      "key_findings": {
+        "exact_match": "Name contains: EUV in semiconductors",
+        "china_access": "Some Chinese contractors (1) have access",
+        "exploitation": "Direct exploitation via procurement contracts",
+        "timeline": "Immediate threat - active contracts in progress",
+        "alternatives": "Multiple alternative sources available",
+        "dual_use": "No dual-use potential identified",
+        "oversight": "Limited procurement transparency"
+      }
+    },
+    {
+      "technology": "\u03a0\u03a1\u039f\u039c\u0397\u0398\u0395\u0399\u0391 \u03a5\u0393\u03a1\u039f\u03a5 \u039f\u039e\u03a5\u0393\u039f\u039d\u039f\u03a5(CPV:24100000-5) \u03ba\u03b1\u03b9 \u0395\u039d\u039f\u0399\u039a\u0399\u0391\u03a3\u0397 \u0394\u0395\u039e\u0391\u039c\u0395\u039d\u0397\u03a3 \u03a5\u0393\u03a1\u039f\u03a5 \u039f\u039e\u03a5\u0393\u039f\u039d\u039f\u03a5(CPV:44612200-5)",
+      "total_score": 10,
+      "risk_level": "HIGH",
+      "breakdown": {
+        "exact_match": 0,
+        "china_access": 2,
+        "exploitation": 3,
+        "timeline": 3,
+        "alternatives": 0,
+        "dual_use": 0,
+        "oversight": 2
+      },
+      "key_findings": {
+        "exact_match": "No critical technology match",
+        "china_access": "Some Chinese contractors (1) have access",
+        "exploitation": "Direct exploitation via procurement contracts",
+        "timeline": "Immediate threat - active contracts in progress",
+        "alternatives": "Multiple alternative sources available",
+        "dual_use": "No dual-use potential identified",
+        "oversight": "Limited procurement transparency"
+      }
+    },
+    {
+      "technology": "CONTRATO SUMINISTRO E INSTALACI\u00d3N DE 4.000 AULAS DIGITALES INTERACTIVAS PARA CENTROS EDUCATIVOS DE L",
+      "total_score": 10,
+      "risk_level": "HIGH",
+      "breakdown": {
+        "exact_match": 0,
+        "china_access": 2,
+        "exploitation": 3,
+        "timeline": 3,
+        "alternatives": 0,
+        "dual_use": 0,
+        "oversight": 2
+      },
+      "key_findings": {
+        "exact_match": "No critical technology match",
+        "china_access": "Some Chinese contractors (1) have access",
+        "exploitation": "Direct exploitation via procurement contracts",
+        "timeline": "Immediate threat - active contracts in progress",
+        "alternatives": "Multiple alternative sources available",
+        "dual_use": "No dual-use potential identified",
+        "oversight": "Limited procurement transparency"
+      }
+    },
+    {
+      "technology": "\u201e(PU-11395/23) Ma\u017eosios mechanizacijos \u012frenginiai: vejos traktoriukas (rider), auk\u0161to sl\u0117gio plovykl",
+      "total_score": 10,
+      "risk_level": "HIGH",
+      "breakdown": {
+        "exact_match": 0,
+        "china_access": 2,
+        "exploitation": 3,
+        "timeline": 3,
+        "alternatives": 0,
+        "dual_use": 0,
+        "oversight": 2
+      },
+      "key_findings": {
+        "exact_match": "No critical technology match",
+        "china_access": "Some Chinese contractors (1) have access",
+        "exploitation": "Direct exploitation via procurement contracts",
+        "timeline": "Immediate threat - active contracts in progress",
+        "alternatives": "Multiple alternative sources available",
+        "dual_use": "No dual-use potential identified",
+        "oversight": "Limited procurement transparency"
+      }
+    },
+    {
+      "technology": "\u201e\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 \u043d\u0430 \u0415\u041b\u0410\u0419\u0417\u0410 \u0442\u0435\u0441\u0442\u043e\u0432\u0435 \u0438 \u043a\u043e\u043d\u0441\u0443\u043c\u0430\u0442\u0438\u0432\u0438 \u0437\u0430 \u043a\u043b\u0435\u0442\u044a\u0447\u043d\u043e \u043a\u0443\u043b\u0442\u0438\u0432\u0438\u0440\u0430\u043d\u0435\u201c",
+      "total_score": 10,
+      "risk_level": "HIGH",
+      "breakdown": {
+        "exact_match": 0,
+        "china_access": 2,
+        "exploitation": 3,
+        "timeline": 3,
+        "alternatives": 0,
+        "dual_use": 0,
+        "oversight": 2
+      },
+      "key_findings": {
+        "exact_match": "No critical technology match",
+        "china_access": "Some Chinese contractors (1) have access",
+        "exploitation": "Direct exploitation via procurement contracts",
+        "timeline": "Immediate threat - active contracts in progress",
+        "alternatives": "Multiple alternative sources available",
+        "dual_use": "No dual-use potential identified",
+        "oversight": "Limited procurement transparency"
+      }
+    },
+    {
+      "technology": "\u201e\u0410\u0432\u0430\u0440\u0438\u0439\u043d\u043e-\u0432\u044a\u0437\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0435\u043b\u043d\u0438 \u0440\u0430\u0431\u043e\u0442\u0438 \u043f\u043e \u043e\u0441\u0438\u0433\u0443\u0440\u044f\u0432\u0430\u043d\u0435 \u043d\u0430 \u043f\u0440\u043e\u0432\u043e\u0434\u0438\u043c\u043e\u0441\u0442\u0442\u0430 \u043d\u0430 \u0440\u0435\u043a\u0430, \u0432 \u0440\u0435\u0433\u0443\u043b\u0430\u0446\u0438\u043e\u043d\u043d\u0438\u0442\u0435 \u0433\u0440\u0430\u043d\u0438\u0446\u0438 \u043d",
+      "total_score": 10,
+      "risk_level": "HIGH",
+      "breakdown": {
+        "exact_match": 0,
+        "china_access": 2,
+        "exploitation": 3,
+        "timeline": 3,
+        "alternatives": 0,
+        "dual_use": 0,
+        "oversight": 2
+      },
+      "key_findings": {
+        "exact_match": "No critical technology match",
+        "china_access": "Some Chinese contractors (1) have access",
+        "exploitation": "Direct exploitation via procurement contracts",
+        "timeline": "Immediate threat - active contracts in progress",
+        "alternatives": "Multiple alternative sources available",
+        "dual_use": "No dual-use potential identified",
+        "oversight": "Limited procurement transparency"
+      }
+    },
+    {
+      "technology": "reprise de mission MOE \u00e0 partir de la phase \u00e0 PRO pour la r\u00e9habilitation de la Maison des jeunes et ",
+      "total_score": 10,
+      "risk_level": "HIGH",
+      "breakdown": {
+        "exact_match": 0,
+        "china_access": 2,
+        "exploitation": 3,
+        "timeline": 3,
+        "alternatives": 0,
+        "dual_use": 0,
+        "oversight": 2
+      },
+      "key_findings": {
+        "exact_match": "No critical technology match",
+        "china_access": "Some Chinese contractors (1) have access",
+        "exploitation": "Direct exploitation via procurement contracts",
+        "timeline": "Immediate threat - active contracts in progress",
+        "alternatives": "Multiple alternative sources available",
+        "dual_use": "No dual-use potential identified",
+        "oversight": "Limited procurement transparency"
+      }
+    },
+    {
+      "technology": "Amgros 2024-1.1217.a.",
+      "total_score": 10,
+      "risk_level": "HIGH",
+      "breakdown": {
+        "exact_match": 0,
+        "china_access": 2,
+        "exploitation": 3,
+        "timeline": 3,
+        "alternatives": 0,
+        "dual_use": 0,
+        "oversight": 2
+      },
+      "key_findings": {
+        "exact_match": "No critical technology match",
+        "china_access": "Some Chinese contractors (1) have access",
+        "exploitation": "Direct exploitation via procurement contracts",
+        "timeline": "Immediate threat - active contracts in progress",
+        "alternatives": "Multiple alternative sources available",
+        "dual_use": "No dual-use potential identified",
+        "oversight": "Limited procurement transparency"
+      }
+    },
+    {
+      "technology": "servizi di pulizia delle aerostazioni e fabbricati ausiliari, delle relativefacciate e attivit\u00e0 acce",
+      "total_score": 10,
+      "risk_level": "HIGH",
+      "breakdown": {
+        "exact_match": 0,
+        "china_access": 2,
+        "exploitation": 3,
+        "timeline": 3,
+        "alternatives": 0,
+        "dual_use": 0,
+        "oversight": 2
+      },
+      "key_findings": {
+        "exact_match": "No critical technology match",
+        "china_access": "Some Chinese contractors (1) have access",
+        "exploitation": "Direct exploitation via procurement contracts",
+        "timeline": "Immediate threat - active contracts in progress",
+        "alternatives": "Multiple alternative sources available",
+        "dual_use": "No dual-use potential identified",
+        "oversight": "Limited procurement transparency"
+      }
+    },
+    {
+      "technology": "\u03a0\u03a1\u039f\u039c\u0397\u0398\u0395\u0399\u0391 \u039a\u0399\u039d\u0397\u03a4\u0397\u03a1\u03a9\u039d \u0395\u03a1\u0393\u039f\u03a3\u03a4\u0391\u03a3\u0399\u0391\u039a\u0397\u03a3 \u0391\u039d\u0391\u039a\u0391\u03a4\u0391\u03a3\u039a\u0395\u03a5\u0397\u03a3 \u0393\u0399\u0391 \u03a4\u0391 \u0391\u03a3\u0398/\u03a1\u0391 \u039f\u03a7\u0397\u039c\u0391\u03a4\u0391 \u0395\u03a1\u0393\u039f\u03a3\u03a4\u0391\u03a3\u0399\u039f\u03a5 \u039a\u0391\u03a4\u0391\u03a3\u039a\u0395\u03a5\u0397\u03a3 PEUGEOT",
+      "total_score": 10,
+      "risk_level": "HIGH",
+      "breakdown": {
+        "exact_match": 0,
+        "china_access": 2,
+        "exploitation": 3,
+        "timeline": 3,
+        "alternatives": 0,
+        "dual_use": 0,
+        "oversight": 2
+      },
+      "key_findings": {
+        "exact_match": "No critical technology match",
+        "china_access": "Some Chinese contractors (1) have access",
+        "exploitation": "Direct exploitation via procurement contracts",
+        "timeline": "Immediate threat - active contracts in progress",
+        "alternatives": "Multiple alternative sources available",
+        "dual_use": "No dual-use potential identified",
+        "oversight": "Limited procurement transparency"
+      }
+    },
+    {
+      "technology": "Projekt Havnehuset",
+      "total_score": 10,
+      "risk_level": "HIGH",
+      "breakdown": {
+        "exact_match": 0,
+        "china_access": 2,
+        "exploitation": 3,
+        "timeline": 3,
+        "alternatives": 0,
+        "dual_use": 0,
+        "oversight": 2
+      },
+      "key_findings": {
+        "exact_match": "No critical technology match",
+        "china_access": "Some Chinese contractors (1) have access",
+        "exploitation": "Direct exploitation via procurement contracts",
+        "timeline": "Immediate threat - active contracts in progress",
+        "alternatives": "Multiple alternative sources available",
+        "dual_use": "No dual-use potential identified",
+        "oversight": "Limited procurement transparency"
+      }
+    },
+    {
+      "technology": "Suministro sucesivo de equipamento electrom\u00e9dico y mobiliario cl\u00ednico con destino a Centros de Atenc",
+      "total_score": 10,
+      "risk_level": "HIGH",
+      "breakdown": {
+        "exact_match": 0,
+        "china_access": 2,
+        "exploitation": 3,
+        "timeline": 3,
+        "alternatives": 0,
+        "dual_use": 0,
+        "oversight": 2
+      },
+      "key_findings": {
+        "exact_match": "No critical technology match",
+        "china_access": "Some Chinese contractors (1) have access",
+        "exploitation": "Direct exploitation via procurement contracts",
+        "timeline": "Immediate threat - active contracts in progress",
+        "alternatives": "Multiple alternative sources available",
+        "dual_use": "No dual-use potential identified",
+        "oversight": "Limited procurement transparency"
+      }
+    },
+    {
+      "technology": "contr\u00f4le sanitaire des eaux en r\u00e9gion Occitanie",
+      "total_score": 10,
+      "risk_level": "HIGH",
+      "breakdown": {
+        "exact_match": 0,
+        "china_access": 2,
+        "exploitation": 3,
+        "timeline": 3,
+        "alternatives": 0,
+        "dual_use": 0,
+        "oversight": 2
+      },
+      "key_findings": {
+        "exact_match": "No critical technology match",
+        "china_access": "Some Chinese contractors (1) have access",
+        "exploitation": "Direct exploitation via procurement contracts",
+        "timeline": "Immediate threat - active contracts in progress",
+        "alternatives": "Multiple alternative sources available",
+        "dual_use": "No dual-use potential identified",
+        "oversight": "Limited procurement transparency"
+      }
+    },
+    {
+      "technology": "maintenance du logiciel AR-CCAM et r\u00e9alisation de prestations associ\u00e9es",
+      "total_score": 10,
+      "risk_level": "HIGH",
+      "breakdown": {
+        "exact_match": 0,
+        "china_access": 2,
+        "exploitation": 3,
+        "timeline": 3,
+        "alternatives": 0,
+        "dual_use": 0,
+        "oversight": 2
+      },
+      "key_findings": {
+        "exact_match": "No critical technology match",
+        "china_access": "Some Chinese contractors (1) have access",
+        "exploitation": "Direct exploitation via procurement contracts",
+        "timeline": "Immediate threat - active contracts in progress",
+        "alternatives": "Multiple alternative sources available",
+        "dual_use": "No dual-use potential identified",
+        "oversight": "Limited procurement transparency"
+      }
+    },
+    {
+      "technology": "Suministro de Material para el Servicio de Cirug\u00eda Vascular de la Organizaci\u00f3n Sanitaria Integrada E",
+      "total_score": 10,
+      "risk_level": "HIGH",
+      "breakdown": {
+        "exact_match": 0,
+        "china_access": 2,
+        "exploitation": 3,
+        "timeline": 3,
+        "alternatives": 0,
+        "dual_use": 0,
+        "oversight": 2
+      },
+      "key_findings": {
+        "exact_match": "No critical technology match",
+        "china_access": "Some Chinese contractors (1) have access",
+        "exploitation": "Direct exploitation via procurement contracts",
+        "timeline": "Immediate threat - active contracts in progress",
+        "alternatives": "Multiple alternative sources available",
+        "dual_use": "No dual-use potential identified",
+        "oversight": "Limited procurement transparency"
+      }
+    },
+    {
+      "technology": "\u201e\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 \u0447\u0440\u0435\u0437 \u043f\u043e\u043a\u0443\u043f\u043a\u0430 \u043d\u0430 \u0445\u0440\u0430\u043d\u0438\u0442\u0435\u043b\u043d\u0438 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0438 \u0437\u0430 \u043d\u0443\u0436\u0434\u0438\u0442\u0435 \u043d\u0430 \u041e\u0431\u0449\u0438\u043d\u0430 \u0412\u0430\u0440\u043d\u0430, \u0441\u043e\u0446\u0438\u0430\u043b\u043d\u0438\u0442\u0435 \u0443\u0441\u043b\u0443\u0433\u0438 \u0432 \u043e\u0431\u0449\u043d\u043e\u0441",
+      "total_score": 10,
+      "risk_level": "HIGH",
+      "breakdown": {
+        "exact_match": 0,
+        "china_access": 2,
+        "exploitation": 3,
+        "timeline": 3,
+        "alternatives": 0,
+        "dual_use": 0,
+        "oversight": 2
+      },
+      "key_findings": {
+        "exact_match": "No critical technology match",
+        "china_access": "Some Chinese contractors (1) have access",
+        "exploitation": "Direct exploitation via procurement contracts",
+        "timeline": "Immediate threat - active contracts in progress",
+        "alternatives": "Multiple alternative sources available",
+        "dual_use": "No dual-use potential identified",
+        "oversight": "Limited procurement transparency"
+      }
+    },
+    {
+      "technology": "Opracowanie proj. wykonawczych i wykonanie rob\u00f3t budowlanych na st. Szczecin Port Centralny - zadani",
+      "total_score": 10,
+      "risk_level": "HIGH",
+      "breakdown": {
+        "exact_match": 0,
+        "china_access": 2,
+        "exploitation": 3,
+        "timeline": 3,
+        "alternatives": 0,
+        "dual_use": 0,
+        "oversight": 2
+      },
+      "key_findings": {
+        "exact_match": "No critical technology match",
+        "china_access": "Some Chinese contractors (1) have access",
+        "exploitation": "Direct exploitation via procurement contracts",
+        "timeline": "Immediate threat - active contracts in progress",
+        "alternatives": "Multiple alternative sources available",
+        "dual_use": "No dual-use potential identified",
+        "oversight": "Limited procurement transparency"
+      }
+    },
+    {
+      "technology": "VU MF MMC pastato E korpuso 3 ir 4 auk\u0161to vidaus patalp\u0173 \u012frengimo darbai (VU40188)",
+      "total_score": 10,
+      "risk_level": "HIGH",
+      "breakdown": {
+        "exact_match": 0,
+        "china_access": 2,
+        "exploitation": 3,
+        "timeline": 3,
+        "alternatives": 0,
+        "dual_use": 0,
+        "oversight": 2
+      },
+      "key_findings": {
+        "exact_match": "No critical technology match",
+        "china_access": "Some Chinese contractors (1) have access",
+        "exploitation": "Direct exploitation via procurement contracts",
+        "timeline": "Immediate threat - active contracts in progress",
+        "alternatives": "Multiple alternative sources available",
+        "dual_use": "No dual-use potential identified",
+        "oversight": "Limited procurement transparency"
+      }
+    },
+    {
+      "technology": "Dostawa energii elektrycznej",
+      "total_score": 10,
+      "risk_level": "HIGH",
+      "breakdown": {
+        "exact_match": 0,
+        "china_access": 2,
+        "exploitation": 3,
+        "timeline": 3,
+        "alternatives": 0,
+        "dual_use": 0,
+        "oversight": 2
+      },
+      "key_findings": {
+        "exact_match": "No critical technology match",
+        "china_access": "Some Chinese contractors (1) have access",
+        "exploitation": "Direct exploitation via procurement contracts",
+        "timeline": "Immediate threat - active contracts in progress",
+        "alternatives": "Multiple alternative sources available",
+        "dual_use": "No dual-use potential identified",
+        "oversight": "Limited procurement transparency"
+      }
+    },
+    {
+      "technology": "\u0410\u0432\u0430\u0440\u0438\u0439\u043d\u043e \u0443\u043a\u0440\u0435\u043f\u0432\u0430\u043d\u0435 \u043d\u0430 \u0441\u0442\u044a\u043b\u0431 \u2116 58 \u043e\u0442 \u0412\u0415\u041b 110kV \"\u041b\u0438\u043b\u0438\u044f-\u0413\u043b\u0430\u0440\u0443\u0441\" \u0438 \u0441\u0442\u044a\u043b\u0431 \u2116 69 \u043e\u0442 \u0412\u0415\u041b 110kV \"\u0417\u0432\u0435\u0437\u0434\u0438\u0446\u0430\"",
+      "total_score": 10,
+      "risk_level": "HIGH",
+      "breakdown": {
+        "exact_match": 0,
+        "china_access": 2,
+        "exploitation": 3,
+        "timeline": 3,
+        "alternatives": 0,
+        "dual_use": 0,
+        "oversight": 2
+      },
+      "key_findings": {
+        "exact_match": "No critical technology match",
+        "china_access": "Some Chinese contractors (1) have access",
+        "exploitation": "Direct exploitation via procurement contracts",
+        "timeline": "Immediate threat - active contracts in progress",
+        "alternatives": "Multiple alternative sources available",
+        "dual_use": "No dual-use potential identified",
+        "oversight": "Limited procurement transparency"
+      }
+    }
+  ],
+  "average_scores": {
+    "exact_match": 0.04,
+    "china_access": 2.0,
+    "exploitation": 3.0,
+    "timeline": 3.0,
+    "alternatives": 0.0,
+    "dual_use": 0.0,
+    "oversight": 2.0
+  }
+}

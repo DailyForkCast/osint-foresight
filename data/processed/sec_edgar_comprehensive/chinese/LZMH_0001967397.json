@@ -1,0 +1,53 @@
+{
+  "cik": "0001967397",
+  "ticker": "LZMH",
+  "name": "LZ Technology Holdings Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:xiamen",
+    "location:fujian",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "7371",
+  "sicDescription": "Services-Computer Programming Services",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "0592-2950080",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "802, 59-2 BUILDING NUMBER 8, WANGHAI ST.",
+      "street2": "SIMING DISTRICT",
+      "city": "XIAMEN, FUJIAN",
+      "stateOrCountry": "F4",
+      "zipCode": "361008",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "802, 59-2 BUILDING NUMBER 8, WANGHAI ST.",
+      "street2": "SIMING DISTRICT",
+      "city": "XIAMEN, FUJIAN",
+      "stateOrCountry": "F4",
+      "zipCode": "361008",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-13"
+  },
+  "filings_count": 40
+}

@@ -1,0 +1,92 @@
+{
+  "CORDIS_OpenAIRE": {
+    "source1": "CORDIS",
+    "source2": "OpenAIRE",
+    "source1_records": 9992,
+    "source2_records": 9977,
+    "matched_records": 8441,
+    "match_rate": 0.8448373307093603,
+    "discrepancy": 0.001501200960768615
+  },
+  "CORDIS_OpenAlex": {
+    "source1": "CORDIS",
+    "source2": "OpenAlex",
+    "source1_records": 9832,
+    "source2_records": 9999,
+    "matched_records": 8036,
+    "match_rate": 0.8037792397981312,
+    "discrepancy": 0.0167016701670167
+  },
+  "CORDIS_TED": {
+    "source1": "CORDIS",
+    "source2": "TED",
+    "source1_records": 10126,
+    "source2_records": 9914,
+    "matched_records": 9370,
+    "match_rate": 0.9254369630463114,
+    "discrepancy": 0.020936203831720325
+  },
+  "CORDIS_USASpending": {
+    "source1": "CORDIS",
+    "source2": "USASpending",
+    "source1_records": 10208,
+    "source2_records": 9909,
+    "matched_records": 8976,
+    "match_rate": 0.8793392225264696,
+    "discrepancy": 0.02929075235109718
+  },
+  "OpenAIRE_OpenAlex": {
+    "source1": "OpenAIRE",
+    "source2": "OpenAlex",
+    "source1_records": 9929,
+    "source2_records": 10052,
+    "matched_records": 8976,
+    "match_rate": 0.8930524841380465,
+    "discrepancy": 0.012236370871468364
+  },
+  "OpenAIRE_TED": {
+    "source1": "OpenAIRE",
+    "source2": "TED",
+    "source1_records": 9983,
+    "source2_records": 10207,
+    "matched_records": 8241,
+    "match_rate": 0.8074627885196899,
+    "discrepancy": 0.0219457235230724
+  },
+  "OpenAIRE_USASpending": {
+    "source1": "OpenAIRE",
+    "source2": "USASpending",
+    "source1_records": 10057,
+    "source2_records": 10004,
+    "matched_records": 7727,
+    "match_rate": 0.768382996570925,
+    "discrepancy": 0.005269961221040072
+  },
+  "OpenAlex_TED": {
+    "source1": "OpenAlex",
+    "source2": "TED",
+    "source1_records": 10095,
+    "source2_records": 9885,
+    "matched_records": 8343,
+    "match_rate": 0.8265442124400008,
+    "discrepancy": 0.020802377414561663
+  },
+  "OpenAlex_USASpending": {
+    "source1": "OpenAlex",
+    "source2": "USASpending",
+    "source1_records": 9934,
+    "source2_records": 9990,
+    "matched_records": 7596,
+    "match_rate": 0.7604155409137179,
+    "discrepancy": 0.005605605605605605
+  },
+  "TED_USASpending": {
+    "source1": "TED",
+    "source2": "USASpending",
+    "source1_records": 10073,
+    "source2_records": 9909,
+    "matched_records": 7872,
+    "match_rate": 0.7815232039177198,
+    "discrepancy": 0.016281147622356794
+  }
+}

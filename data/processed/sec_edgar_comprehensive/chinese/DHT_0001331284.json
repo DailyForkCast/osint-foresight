@@ -1,0 +1,47 @@
+{
+  "cik": "0001331284",
+  "ticker": "DHT",
+  "name": "DHT Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bermuda"
+  ],
+  "sic": "4412",
+  "sicDescription": "Deep Sea Foreign Transportation of  Freight",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "1T",
+  "ein": "000000000",
+  "phone": "1 441 299-4912",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "CLARENDON HOUSE",
+      "street2": "2 CHURCH STREET",
+      "city": "HAMILTON",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Bermuda",
+      "countryCode": "D0"
+    },
+    "business": {
+      "street1": "CLARENDON HOUSE",
+      "street2": "2 CHURCH STREET",
+      "city": "HAMILTON",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Bermuda",
+      "countryCode": "D0"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-07"
+  },
+  "filings_count": 517
+}

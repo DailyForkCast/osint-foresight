@@ -1,0 +1,56 @@
+[
+  {
+    "dataset": "project_data",
+    "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\national_procurement\\search_summary_20250923.json",
+    "size": "789.00 B",
+    "hash_2kb": "3d9188e17d071ec7da065ffe3742f59e9bc4764bd27463fa5bab208d43149e70"
+  },
+  {
+    "dataset": "project_data",
+    "path": "C:\\Projects\\OSINT - Foresight\\data\\raw\\source=cordis\\horizon\\projects\\organization.json",
+    "size": "94.61 MB",
+    "hash_2kb": "32ac5cf204795763bb874357f2c845681c7174697bc40c6ed9f2374c87c583f5"
+  },
+  {
+    "dataset": "project_data",
+    "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\ted_2023_2025\\by_country\\LU_china\\contracts_2023.json",
+    "size": "271.68 KB",
+    "hash_2kb": "7c3b50a20d187e443472a6e5cf8a9846e663b1d5106fbb1ab5eed5e7e400f6e4"
+  },
+  {
+    "dataset": "osint_data",
+    "path": "F:\\OSINT_DATA\\USAspending\\extracted\\5842.dat.gz",
+    "size": "1.73 MB",
+    "hash_2kb": "46b26286ac1a3eb2ba0875924bd0d1be3a821b7ef7c3e3324091a3ab739e5005"
+  },
+  {
+    "dataset": "osint_data",
+    "path": "F:\\OSINT_DATA\\USAspending\\extracted\\5769.dat.gz",
+    "size": "4.89 KB",
+    "hash_2kb": "8770ce210cb0736042e501f6678eccf680b25204e2f646bad8da479b0a6984b1"
+  },
+  {
+    "dataset": "osint_data",
+    "path": "F:\\OSINT_DATA\\USAspending\\extracted\\5839.dat.gz",
+    "size": "328.40 KB",
+    "hash_2kb": "6a560e89f503186f2f8fdea7591da6f6a5161147cda6e6d76f734a6110f50bd8"
+  },
+  {
+    "dataset": "ted_data",
+    "path": "F:\\TED_Data\\monthly\\2023\\TED_monthly_2023_01.tar.gz",
+    "size": "194.66 MB",
+    "hash_2kb": "84d7060a0303b98bbc5d5f49c5a0d7f4dda970f49bb9b50e88ddb41aa7cdc901"
+  },
+  {
+    "dataset": "ted_data",
+    "path": "F:\\TED_Data\\monthly\\2025\\TED_monthly_2025_03.tar.gz",
+    "size": "328.76 MB",
+    "hash_2kb": "3c89394c22e0e9c9c37711358e90257f1a052a43ebf54b269e2c3e66c3441d59"
+  },
+  {
+    "dataset": "ted_data",
+    "path": "F:\\TED_Data\\monthly\\2020\\TED_monthly_2020_08.tar.gz",
+    "size": "144.72 MB",
+    "hash_2kb": "d6845bba8a9b4ffa5ac7b72b7f350f7c7a8209cede65c35b9f4ee346b1f93bea"
+  }
+]

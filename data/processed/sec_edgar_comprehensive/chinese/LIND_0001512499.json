@@ -1,0 +1,47 @@
+{
+  "cik": "0001512499",
+  "ticker": "LIND",
+  "name": "LINDBLAD EXPEDITIONS HOLDINGS, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "4700",
+  "sicDescription": "Transportation Services",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "274749725",
+  "phone": "212-261-9000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "96 MORTON STREET",
+      "street2": "9TH FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10014",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "96 MORTON STREET",
+      "street2": "9TH FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10014",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-05"
+  },
+  "filings_count": 956
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0001981792",
+  "ticker": "HHH",
+  "name": "Howard Hughes Holdings Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6798",
+  "sicDescription": "Real Estate Investment Trusts",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "931869991",
+  "phone": "6463543406",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "9950 WOODLOCH FOREST DRIVE",
+      "street2": "11TH FLOOR",
+      "city": "THE WOODLANDS",
+      "stateOrCountry": "TX",
+      "zipCode": "77380",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "9950 WOODLOCH FOREST DRIVE",
+      "street2": "11TH FLOOR",
+      "city": "THE WOODLANDS",
+      "stateOrCountry": "TX",
+      "zipCode": "77380",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-06"
+  },
+  "filings_count": 191
+}

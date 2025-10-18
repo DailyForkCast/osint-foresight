@@ -1,0 +1,162 @@
+{
+  "government_sources": {
+    "NDU_CSCMA": {
+      "name": "NDU Center for Study of Chinese Military Affairs",
+      "base_url": "https://digitalcommons.ndu.edu",
+      "type": "Military Academic",
+      "priority": "HIGH",
+      "focus": "Chinese military strategy and competition",
+      "verified_paths": [
+        "/cscma-allpubs/",
+        "/china-strategic-perspectives/",
+        "/cscma-books/"
+      ],
+      "search_pattern": null,
+      "content_selector": "div.content",
+      "china_mentions_verified": 864,
+      "special_notes": "Digital Commons repository, PDF documents available"
+    },
+    "USCC": {
+      "name": "US-China Economic and Security Review Commission",
+      "base_url": "https://www.uscc.gov",
+      "type": "Congressional Commission",
+      "priority": "HIGH",
+      "focus": "Economic and security implications of US-China relationship",
+      "verified_paths": [
+        "/Research",
+        "/Annual-Reports",
+        "/Hearings"
+      ],
+      "search_pattern": null,
+      "content_selector": "div.content",
+      "china_mentions_verified": 247,
+      "special_notes": "Annual reports and congressional hearings"
+    },
+    "CSET": {
+      "name": "Center for Security and Emerging Technology",
+      "base_url": "https://cset.georgetown.edu",
+      "type": "University/Government Partnership",
+      "priority": "HIGH",
+      "focus": "China AI and emerging technology competition",
+      "verified_paths": [
+        "/research/",
+        "/publications/",
+        "/research/chinese-talent-program-tracker/"
+      ],
+      "search_pattern": null,
+      "content_selector": "main.content",
+      "china_mentions_verified": 203,
+      "special_notes": "Georgetown University, focus on AI and emerging tech"
+    },
+    "DoD_CMPR": {
+      "name": "DoD China Military Power Report",
+      "base_url": "https://www.defense.gov",
+      "type": "Annual Report",
+      "priority": "HIGH",
+      "focus": "Annual assessment of PLA capabilities",
+      "verified_paths": [
+        "/CMPR/"
+      ],
+      "pdf_urls": [
+        "https://media.defense.gov/2023/Oct/19/2003323409/-1/-1/1/2023-MILITARY-AND-SECURITY-DEVELOPMENTS-INVOLVING-THE-PEOPLES-REPUBLIC-OF-CHINA.PDF",
+        "https://media.defense.gov/2022/Nov/29/2003122279/-1/-1/1/2022-MILITARY-AND-SECURITY-DEVELOPMENTS-INVOLVING-THE-PEOPLES-REPUBLIC-OF-CHINA.PDF"
+      ],
+      "search_pattern": null,
+      "content_selector": null,
+      "china_mentions_verified": null,
+      "special_notes": "Annual PDF report, direct download links"
+    },
+    "CRS": {
+      "name": "Congressional Research Service",
+      "base_url": "https://crsreports.congress.gov",
+      "type": "Congressional Research",
+      "priority": "MEDIUM",
+      "focus": "Policy analysis for Congress on China issues",
+      "verified_paths": [],
+      "search_pattern": "/search/#/?termsInTitle=china",
+      "content_selector": null,
+      "china_mentions_verified": null,
+      "special_notes": "403 Forbidden errors, may require different access method"
+    },
+    "State_Dept": {
+      "name": "State Department China Reports",
+      "base_url": "https://www.state.gov",
+      "type": "Diplomatic/Policy",
+      "priority": "MEDIUM",
+      "focus": "China diplomatic and human rights reports",
+      "verified_paths": [
+        "/bureaus-offices/under-secretary-for-arms-control-and-international-security/",
+        "/military-civil-fusion/",
+        "/key-topics-bureau-of-east-asian-and-pacific-affairs/china/"
+      ],
+      "search_pattern": null,
+      "content_selector": "div.content",
+      "china_mentions_verified": null,
+      "special_notes": "Focus on MCF and arms control compliance"
+    },
+    "DIA": {
+      "name": "Defense Intelligence Agency",
+      "base_url": "https://www.dia.mil",
+      "type": "Intelligence Agency",
+      "priority": "MEDIUM",
+      "focus": "China military intelligence assessments",
+      "verified_paths": [
+        "/News/Articles/",
+        "/News/Speeches-and-Testimonies/",
+        "/Military-Power-Publications/"
+      ],
+      "search_pattern": null,
+      "content_selector": "div.content",
+      "china_mentions_verified": null,
+      "special_notes": "Military power publications and threat assessments"
+    },
+    "ODNI": {
+      "name": "Office of Director of National Intelligence",
+      "base_url": "https://www.dni.gov",
+      "type": "Intelligence Community",
+      "priority": "MEDIUM",
+      "focus": "Annual Threat Assessment including China",
+      "verified_paths": [
+        "/index.php/newsroom/reports-publications",
+        "/files/ODNI/documents/"
+      ],
+      "search_pattern": null,
+      "content_selector": "div.content",
+      "china_mentions_verified": null,
+      "special_notes": "Annual Threat Assessment reports"
+    },
+    "CASI": {
+      "name": "China Aerospace Studies Institute",
+      "base_url": "https://www.airuniversity.af.edu/CASI/",
+      "type": "US Air Force Research Institute",
+      "priority": "HIGH",
+      "focus": "China aerospace, military, PLA research",
+      "verified_paths": [
+        "/CASI/",
+        "/CASI/Publications/",
+        "/CASI/Research/",
+        "/CASI/Translations/"
+      ],
+      "search_pattern": null,
+      "content_selector": "div.content",
+      "china_mentions_verified": 505,
+      "special_notes": "Dedicated China military research institute"
+    }
+  },
+  "metadata": {
+    "created_date": "2025-09-19",
+    "total_sources": 9,
+    "high_priority": 5,
+    "confirmed_china_content": 4,
+    "requires_special_handling": ["CRS"],
+    "pdf_sources": ["DoD_CMPR", "NDU_CSCMA"]
+  },
+  "harvesting_notes": {
+    "NDU_CSCMA": "Use Digital Commons API if available, otherwise scrape listing pages",
+    "USCC": "Annual reports are key priority, check for RSS/API feeds",
+    "CSET": "Has Chinese Talent Program Tracker - valuable dataset",
+    "DoD_CMPR": "Annual PDF release, monitor for new versions",
+    "CRS": "May need institutional access or alternative source",
+    "CASI": "Extensive translations of Chinese military documents"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0001674101",
+  "ticker": "VRT",
+  "name": "Vertiv Holdings Co",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3679",
+  "sicDescription": "Electronic Components, NEC",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "812376902",
+  "phone": "(614) 888-0246",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "505 N. CLEVELAND AVE.",
+      "street2": null,
+      "city": "WESTERVILLE",
+      "stateOrCountry": "OH",
+      "zipCode": "43082",
+      "stateOrCountryDescription": "OH",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "505 N. CLEVELAND AVE.",
+      "street2": null,
+      "city": "WESTERVILLE",
+      "stateOrCountry": "OH",
+      "zipCode": "43082",
+      "stateOrCountryDescription": "OH",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-03"
+  },
+  "filings_count": 719
+}

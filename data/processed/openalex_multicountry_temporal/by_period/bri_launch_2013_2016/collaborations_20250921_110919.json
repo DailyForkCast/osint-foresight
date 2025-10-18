@@ -1,0 +1,1710 @@
+[
+  {
+    "paper_id": "https://openalex.org/W2621191381",
+    "doi": null,
+    "title": "Loop-based Modeling of Parallel Communication Traces",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Laboratoire des Sciences de l'Ingénieur, de l'Informatique et de l'Imagerie"
+      ],
+      "CN": [
+        "Central Compilation & Translation Bureau"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Philippe Clauss (Laboratoire des Sciences de l'Ingénieur, de l'Informatique et de l'Imagerie)",
+        "Matthieu Kuhn (Laboratoire des Sciences de l'Ingénieur, de l'Informatique et de l'Imagerie)",
+        "Alain Ketterlin (Laboratoire des Sciences de l'Ingénieur, de l'Informatique et de l'Imagerie)",
+        "Stéphane Genaud (Laboratoire des Sciences de l'Ingénieur, de l'Informatique et de l'Imagerie)"
+      ],
+      "CN": [
+        "Philippe Clauss (Central Compilation & Translation Bureau)",
+        "Alain Ketterlin (Central Compilation & Translation Bureau)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 48,
+      "extraction_command": "sed -n '48p' part_000.gz | jq '.title'",
+      "paper_hash": "7dae73227c9de0ab"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2221751767",
+    "doi": null,
+    "title": "Central-local authority relationships and the institutional process of city creation",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Institut d'Histoire Moderne et Contemporaine"
+      ],
+      "CN": [
+        "Development Research Center of the State Council",
+        "Nanfang Hospital"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Miguel Elosua (Institut d'Histoire Moderne et Contemporaine)"
+      ],
+      "CN": [
+        "Chi-Han Ai (Nanfang Hospital)",
+        "Shantong Li (Development Research Center of the State Council)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 10,
+      "extraction_command": "sed -n '10p' part_000.gz | jq '.title'",
+      "paper_hash": "9f121295cc885dbd"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2360657336",
+    "doi": null,
+    "title": "Preparation of hydrogenation raw material by pretreated wood tar",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Environmental Research Institute"
+      ],
+      "CN": [
+        "Heilongjiang Provincial Environmental Science Research Institute"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Chen Son (Environmental Research Institute)"
+      ],
+      "CN": [
+        "Chen Son (Heilongjiang Provincial Environmental Science Research Institute)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 20899,
+      "extraction_command": "sed -n '20899p' part_000.gz | jq '.title'",
+      "paper_hash": "5bf54433083d44cf"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2361190174",
+    "doi": null,
+    "title": "Ming Confucians' Divergence and Development on Idea of Will",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "CZ"
+    ],
+    "institutions": {
+      "CZ": [
+        "Czech Academy of Sciences, Institute of Philosophy"
+      ],
+      "CN": [
+        "Shanghai Academy of Social Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "CZ": [
+        "Zhang Jin-zh (Czech Academy of Sciences, Institute of Philosophy)"
+      ],
+      "CN": [
+        "Zhang Jin-zh (Shanghai Academy of Social Sciences)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 20905,
+      "extraction_command": "sed -n '20905p' part_000.gz | jq '.title'",
+      "paper_hash": "6f99a21656b9c888"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2741469065",
+    "doi": null,
+    "title": "Growth and Death in the Past",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "German Society of Surgery"
+      ],
+      "CN": [
+        "Institute of Forensic Science"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Michael Hermanussen (German Society of Surgery)"
+      ],
+      "CN": [
+        "Jesper L. Boldsen (Institute of Forensic Science)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 107888,
+      "extraction_command": "sed -n '107888p' part_000.gz | jq '.title'",
+      "paper_hash": "c234d5b95c2d9046"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W3170037743",
+    "doi": null,
+    "title": "Wheel-individual estimation of the friction potential for split frition and changing friction conditions for the application in an automated emergency braking system",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "Fraunhofer Institute for Intelligent Analysis and Information Systems"
+      ],
+      "CN": [
+        "China Automotive Engineering Research Institute"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Hans‐Ulrich Kobialka (Fraunhofer Institute for Intelligent Analysis and Information Systems)"
+      ],
+      "CN": [
+        "Cornelia Lex (China Automotive Engineering Research Institute)",
+        "Arno Eichberger (China Automotive Engineering Research Institute)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_003.gz",
+      "line_number": 3660,
+      "extraction_command": "sed -n '3660p' part_003.gz | jq '.title'",
+      "paper_hash": "c2cbf53f1b22f185"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2319979133",
+    "doi": "https://doi.org/10.1364/jsap.2013.17p_d4_5",
+    "title": "Controlling Surface Plasmon Propagation in Silver Nanowire Networks",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "CZ"
+    ],
+    "institutions": {
+      "CZ": [
+        "Czech Academy of Sciences, Institute of Physics"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "CZ": [
+        "Hong Wei (Czech Academy of Sciences, Institute of Physics)",
+        "Hongxing Xu (Czech Academy of Sciences, Institute of Physics)"
+      ],
+      "CN": [
+        "Hongxing Xu (Chinese Academy of Sciences)",
+        "Hong Wei (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1975,
+      "extraction_command": "sed -n '1975p' part_000.gz | jq '.title'",
+      "paper_hash": "0737238e96fbf655"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2013614626",
+    "doi": "https://doi.org/10.1109/tuffc.2014.6689789",
+    "title": "An evaluation of the frequency shift caused by collisions with background gas in the primary frequency standard NPL-CsF2",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "National Physical Laboratory"
+      ],
+      "CN": [
+        "National Institute of Metrology"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "K. Szymaniec (National Physical Laboratory)",
+        "S.N. Lea (National Physical Laboratory)"
+      ],
+      "CN": [
+        "Kun Liu (National Institute of Metrology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 8963,
+      "extraction_command": "sed -n '8963p' part_000.gz | jq '.title'",
+      "paper_hash": "55c7061a049fb61f"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4237587474",
+    "doi": "https://doi.org/10.1007/978-3-319-48156-2_153",
+    "title": "On Continuous PFC Emission Unrelated to Anode Effects",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "International Aluminium Institute"
+      ],
+      "CN": [
+        "Guangxi Research Institute of Chemical Industry"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Chris Bayliss (International Aluminium Institute)"
+      ],
+      "CN": [
+        "Xiping Chen (Guangxi Research Institute of Chemical Industry)",
+        "Jianhong Yang (Guangxi Research Institute of Chemical Industry)",
+        "Qingyun Zhao (Guangxi Research Institute of Chemical Industry)",
+        "Wangxing Li (Guangxi Research Institute of Chemical Industry)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_006.gz",
+      "line_number": 119035,
+      "extraction_command": "sed -n '119035p' part_006.gz | jq '.title'",
+      "paper_hash": "d4e283ba88641609"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2418171079",
+    "doi": "https://doi.org/10.1037/xhp0000163",
+    "title": "“Stress affects articulatory planning in reading aloud”: Correction to Sulpizio, Spinelli, and Burani (2015).",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Institut des Sciences Cognitives"
+      ],
+      "CN": [
+        "Institute of Linguistics"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Cristina Burani (Institut des Sciences Cognitives)"
+      ],
+      "CN": [
+        "Giacomo Spinelli (Institute of Linguistics)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 57062,
+      "extraction_command": "sed -n '57062p' part_000.gz | jq '.title'",
+      "paper_hash": "2776756ceacfa197"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W3123622207",
+    "doi": null,
+    "title": "Does the economic integration of China affect growth and inflation in industrial countries",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "European University Viadrina",
+        "German Institute for Economic Research"
+      ],
+      "CN": [
+        "Chinese Academy of Social Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Christian Dreger (European University Viadrina)",
+        "Christian Dreger (German Institute for Economic Research)"
+      ],
+      "CN": [
+        "Yanqun Zhang (Chinese Academy of Social Sciences)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_003.gz",
+      "line_number": 17520,
+      "extraction_command": "sed -n '17520p' part_003.gz | jq '.title'",
+      "paper_hash": "3dc9820948f1c509"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4206881947",
+    "doi": null,
+    "title": "Modélisation de la résistance à la corrosion des matériaux céramiques vis-à-vis des condensats dans les échangeurs de chaleur (TES)",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Centre de Géosciences"
+      ],
+      "CN": [
+        "Cree (China)"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Laurent de Windt (Centre de Géosciences)"
+      ],
+      "CN": [
+        "Benoît Watremetz (Cree (China))"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_004.gz",
+      "line_number": 11240,
+      "extraction_command": "sed -n '11240p' part_004.gz | jq '.title'",
+      "paper_hash": "bb821decf4cafa36"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4207091447",
+    "doi": null,
+    "title": "Model-assisted comparative analysis of sugar accumulation in fleshy fruits: grape, tomato, and peach",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Plantes et Système de Cultures Horticoles",
+        "Ecophysiologie et Génomique Fonctionnelle de la Vigne"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Valentina Baldazzi (Plantes et Système de Cultures Horticoles)",
+        "Huan Wu (Ecophysiologie et Génomique Fonctionnelle de la Vigne)",
+        "Cornelis van Leeuwen (Ecophysiologie et Génomique Fonctionnelle de la Vigne)",
+        "Nadia Bertin (Plantes et Système de Cultures Horticoles)",
+        "Zhanwu Dai (Ecophysiologie et Génomique Fonctionnelle de la Vigne)",
+        "Hélène Gautier (Plantes et Système de Cultures Horticoles)",
+        "Éric Gomès (Ecophysiologie et Génomique Fonctionnelle de la Vigne)",
+        "Michel M. Génard (Plantes et Système de Cultures Horticoles)"
+      ],
+      "CN": [
+        "Benhong Wu (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_004.gz",
+      "line_number": 15993,
+      "extraction_command": "sed -n '15993p' part_004.gz | jq '.title'",
+      "paper_hash": "976a1295a2e60dee"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2357858009",
+    "doi": null,
+    "title": "Construction of a Human Stable Transmembrane TNF-α Recombi nant Cell Lines",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "CZ"
+    ],
+    "institutions": {
+      "CZ": [
+        "Czech Academy of Sciences, Institute of Microbiology"
+      ],
+      "CN": [
+        "Academy of Military Medical Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "CZ": [
+        "Xi Tong (Czech Academy of Sciences, Institute of Microbiology)"
+      ],
+      "CN": [
+        "Xi Tong (Academy of Military Medical Sciences)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_003.gz",
+      "line_number": 3890,
+      "extraction_command": "sed -n '3890p' part_003.gz | jq '.title'",
+      "paper_hash": "738ad739b2c2487c"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2462915769",
+    "doi": "https://doi.org/10.48550/arxiv.1607.02563",
+    "title": "Closability of Quadratic Forms Associated to Invariant Probability Measures of SPDEs",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "DE",
+      "GB"
+    ],
+    "institutions": {
+      "DE": [
+        "Bielefeld University"
+      ],
+      "GB": [
+        "Swansea University"
+      ],
+      "CN": [
+        "Tianjin University"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Michael Röckner (Bielefeld University)"
+      ],
+      "GB": [
+        "Feng‐Yu Wang (Swansea University)"
+      ],
+      "CN": [
+        "Feng‐Yu Wang (Tianjin University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 1605,
+      "extraction_command": "sed -n '1605p' part_005.gz | jq '.title'",
+      "paper_hash": "5dacf256fc7d8670"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4309401217",
+    "doi": null,
+    "title": "The British Growth Crisis",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "FR",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University of Kent"
+      ],
+      "FR": [
+        "Centre d'études Européennes de Sciences Po"
+      ],
+      "CN": [
+        "Beihang University"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Peter Taylor‐Gooby (University of Kent)"
+      ],
+      "FR": [
+        "Colin Hay (Centre d'études Européennes de Sciences Po)"
+      ],
+      "CN": [
+        "Peter Taylor‐Gooby (Beihang University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_012.gz",
+      "line_number": 16454,
+      "extraction_command": "sed -n '16454p' part_012.gz | jq '.title'",
+      "paper_hash": "df053785db828302"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2226380923",
+    "doi": "https://doi.org/10.4172/2329-6925.1000233",
+    "title": "A Novel Speckle Tracking Technique for Investigating Regional Motion of the Carotid Wall: Spatio-temporal Variation in Distension Associates with Presence of Calcified Plaque",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "King's College London",
+        "British Heart Foundation"
+      ],
+      "CN": [
+        "Huazhong University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Jiawei Wang (King's College London)",
+        "Jiawei Wang (British Heart Foundation)"
+      ],
+      "CN": [
+        "Jiawei Wang (Huazhong University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_003.gz",
+      "line_number": 6632,
+      "extraction_command": "sed -n '6632p' part_003.gz | jq '.title'",
+      "paper_hash": "24e26e73298b1f8c"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W3087250222",
+    "doi": null,
+    "title": "Evolution of calibrated particles during their compaction",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Laboratoire de Mécanique et d’Acoustique"
+      ],
+      "CN": [
+        "Beijing Research Institute of Uranium Geology"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Lise Hégron (Laboratoire de Mécanique et d’Acoustique)"
+      ],
+      "CN": [
+        "Lise Hégron (Beijing Research Institute of Uranium Geology)",
+        "Philippe Sornay (Beijing Research Institute of Uranium Geology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_011.gz",
+      "line_number": 850,
+      "extraction_command": "sed -n '850p' part_011.gz | jq '.title'",
+      "paper_hash": "6f176a4b92d8a361"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2072597280",
+    "doi": null,
+    "title": "A bioresorbable cardiovascular stent prepared from L -lactide, trimethylene carbonate and glycolide terpolymers",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Institut Européen des Membranes",
+        "Centre National de la Recherche Scientifique"
+      ],
+      "CN": [
+        "Fudan University",
+        "Shanghai Sixth People's Hospital"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Suming Li (Centre National de la Recherche Scientifique)",
+        "Suming Li (Institut Européen des Membranes)"
+      ],
+      "CN": [
+        "Zaishang Tan (Fudan University)",
+        "Jianting Dong (Fudan University)",
+        "Zhongyong Fan (Fudan University)",
+        "Lan Liao (Fudan University)",
+        "Zhiqian Lü (Shanghai Sixth People's Hospital)",
+        "Li Shi (Fudan University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1905,
+      "extraction_command": "sed -n '1905p' part_000.gz | jq '.title'",
+      "paper_hash": "6577352cb87adc0f"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4205915201",
+    "doi": "https://doi.org/10.1063/1.4895615]",
+    "title": "Enhanced electrocaloric effect in lead-free BaTi 12x Sn x O 3 ceramics near room temperature",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Laboratoire de Mécanique, Modélisation & Procédés Propres"
+      ],
+      "CN": [
+        "Xi'an Jiaotong University"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Yang Liu (Laboratoire de Mécanique, Modélisation & Procédés Propres)",
+        "Brahim Dkhil (Laboratoire de Mécanique, Modélisation & Procédés Propres)"
+      ],
+      "CN": [
+        "Xiaojie Lou (Xi'an Jiaotong University)",
+        "Yonggang Yao (Xi'an Jiaotong University)",
+        "Yang Liu (Xi'an Jiaotong University)",
+        "Chenqi Liu (Xi'an Jiaotong University)",
+        "Dawei Zhang (Xi'an Jiaotong University)",
+        "Di Zhou (Xi'an Jiaotong University)",
+        "Xiaobing Ren (Xi'an Jiaotong University)",
+        "Zheng‐Dong Luo (Xi'an Jiaotong University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 724,
+      "extraction_command": "sed -n '724p' part_000.gz | jq '.title'",
+      "paper_hash": "85029bda7b36beba"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2032706896",
+    "doi": "https://doi.org/10.1145/2783258.2783261",
+    "title": "SCRAM",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Institut National des Sciences Appliquées de Lyon",
+        "Université Claude Bernard Lyon 1"
+      ],
+      "CN": [
+        "Shanghai Jiao Tong University"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Issam Sahel (Institut National des Sciences Appliquées de Lyon)",
+        "Frédéric Le Mouël (Université Claude Bernard Lyon 1)",
+        "Issam Sahel (Université Claude Bernard Lyon 1)",
+        "Frédéric Le Mouël (Institut National des Sciences Appliquées de Lyon)"
+      ],
+      "CN": [
+        "Shiyou Qian (Shanghai Jiao Tong University)",
+        "Jian Cao (Shanghai Jiao Tong University)",
+        "Minglu Li (Shanghai Jiao Tong University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 3591,
+      "extraction_command": "sed -n '3591p' part_000.gz | jq '.title'",
+      "paper_hash": "07a78ba808d48a8d"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W122929186",
+    "doi": "https://doi.org/10.1007/978-3-642-29305-4_99",
+    "title": "Signal Extraction of Brain Activity Response by Near Infrared Spectroscopy based on Recursive Least Squares Adaptive Filtering",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "OBS Medical (United Kingdom)"
+      ],
+      "CN": [
+        "Harbin Institute of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "P. Rolfe (OBS Medical (United Kingdom))"
+      ],
+      "CN": [
+        "Chengbo Yang (Harbin Institute of Technology)",
+        "Mingming Zhu (Harbin Institute of Technology)",
+        "Y. Zhang (Harbin Institute of Technology)",
+        "Jing-Guang Sun (Harbin Institute of Technology)",
+        "Buchuan Zhang (Harbin Institute of Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 721,
+      "extraction_command": "sed -n '721p' part_000.gz | jq '.title'",
+      "paper_hash": "8ab19fd3e1eb1028"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1933587690",
+    "doi": "https://doi.org/10.1111/1540-6253.12046",
+    "title": "Philosophy of Learning in Wang Yangming and Francis Bacon",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "King's College London"
+      ],
+      "CN": [
+        "Renmin University of China"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Xinzhong Yao (King's College London)"
+      ],
+      "CN": [
+        "Xinzhong Yao (Renmin University of China)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 2512,
+      "extraction_command": "sed -n '2512p' part_000.gz | jq '.title'",
+      "paper_hash": "2ab83ed54ca1cd28"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2075579006",
+    "doi": "https://doi.org/10.1115/1.4024733",
+    "title": "Automatic Structural Synthesis of Planar Multiple Joint Kinematic Chains",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "University of Duisburg-Essen"
+      ],
+      "CN": [
+        "Yanshan University"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Andrés Kecskeméthy (University of Duisburg-Essen)"
+      ],
+      "CN": [
+        "Huafeng Ding (Yanshan University)",
+        "Peng Huang (Yanshan University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_002.gz",
+      "line_number": 54,
+      "extraction_command": "sed -n '54p' part_002.gz | jq '.title'",
+      "paper_hash": "805b8cd2a7195089"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4230783460",
+    "doi": "https://doi.org/10.4018/978-1-4666-7481-3.ch007",
+    "title": "Service Evolution in Clouds for Dementia Patient Monitoring System Usability Enhancement",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Edinburgh Napier University"
+      ],
+      "CN": [
+        "Xi'an Shiyou University"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Zhe Wang (Edinburgh Napier University)"
+      ],
+      "CN": [
+        "Guojian Cheng (Xi'an Shiyou University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_019.gz",
+      "line_number": 204,
+      "extraction_command": "sed -n '204p' part_019.gz | jq '.title'",
+      "paper_hash": "0bf6150638ce4186"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4301158904",
+    "doi": "https://doi.org/10.1007/s11590-014-0722-1",
+    "title": "A note on the connection between Chaney’s derivatives and epi-derivatives",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Laboratoire Jacques-Louis Lions",
+        "Sorbonne Université"
+      ],
+      "CN": [
+        "South China Normal University"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Jean‐Paul Penot (Sorbonne Université)",
+        "Jean‐Paul Penot (Laboratoire Jacques-Louis Lions)"
+      ],
+      "CN": [
+        "Liren Huang (South China Normal University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_021.gz",
+      "line_number": 122,
+      "extraction_command": "sed -n '122p' part_021.gz | jq '.title'",
+      "paper_hash": "64fce32128886f5a"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2113498396",
+    "doi": "https://doi.org/10.1039/c5ta07015e",
+    "title": "Porosity effect on ZrO<sub>2</sub> hollow shells and hydrothermal stability for catalytic steam reforming of methane",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University College London",
+        "University of Nottingham"
+      ],
+      "CN": [
+        "Ningbo Institute of Industrial Technology",
+        "University of Nottingham Ningbo China"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Kwang‐Leong Choy (University College London)",
+        "Zi‐Yian Lim (University of Nottingham)"
+      ],
+      "CN": [
+        "Wei Guo Wang (Ningbo Institute of Industrial Technology)",
+        "Chunzheng Wu (Ningbo Institute of Industrial Technology)",
+        "Zi‐Yian Lim (University of Nottingham Ningbo China)",
+        "Hongfeng Yin (Ningbo Institute of Industrial Technology)",
+        "Zi‐Yian Lim (Ningbo Institute of Industrial Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_002.gz",
+      "line_number": 323,
+      "extraction_command": "sed -n '323p' part_002.gz | jq '.title'",
+      "paper_hash": "36a6771b98bdcb01"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2072884775",
+    "doi": "https://doi.org/10.1007/s10898-013-0102-x",
+    "title": "An objective space cut and bound algorithm for convex multiplicative programmes",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Lancaster University"
+      ],
+      "CN": [
+        "University of Science and Technology Beijing"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Matthias Ehrgott (Lancaster University)"
+      ],
+      "CN": [
+        "Lizhen Shao (University of Science and Technology Beijing)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 47,
+      "extraction_command": "sed -n '47p' part_005.gz | jq '.title'",
+      "paper_hash": "274422481257759d"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1901480042",
+    "doi": "https://doi.org/10.1109/ciss.2013.6624264",
+    "title": "Energy-efficient collaborative data collection in mobile wireless sensor networks",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "Karlsruhe Institute of Technology"
+      ],
+      "CN": [
+        "Tsinghua University"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Lin Zhang (Karlsruhe Institute of Technology)",
+        "Michael Beigl (Karlsruhe Institute of Technology)",
+        "Behnam Banitalebi (Karlsruhe Institute of Technology)"
+      ],
+      "CN": [
+        "Qiao Fu (Tsinghua University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_014.gz",
+      "line_number": 317,
+      "extraction_command": "sed -n '317p' part_014.gz | jq '.title'",
+      "paper_hash": "6aeaf67cb11196ab"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4245636927",
+    "doi": "https://doi.org/10.1002/9781118792148.ch394",
+    "title": "Correlation between Internal States and Strength in Bulk Metallic Glass",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "Technische Universität Dresden",
+        "Leibniz Institute for Solid State and Materials Research"
+      ],
+      "CN": [
+        "Kunming University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "J. Eckert (Leibniz Institute for Solid State and Materials Research)",
+        "Caiju Li (Leibniz Institute for Solid State and Materials Research)",
+        "Jun Tan (Leibniz Institute for Solid State and Materials Research)",
+        "J. Eckert (Technische Universität Dresden)",
+        "Jun Tan (Technische Universität Dresden)"
+      ],
+      "CN": [
+        "Jun Tan (Kunming University of Science and Technology)",
+        "Caiju Li (Kunming University of Science and Technology)",
+        "Ye Hua Jiang (Kunming University of Science and Technology)",
+        "Rongfeng Zhou (Kunming University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 67,
+      "extraction_command": "sed -n '67p' part_001.gz | jq '.title'",
+      "paper_hash": "29d2562fd935e47e"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4232875146",
+    "doi": "https://doi.org/10.1142/9789813146976_0106",
+    "title": "A DUAL-OUTPUT Z-SOURCE HALF-BRIDGE CONVERTER",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "University of Hagen"
+      ],
+      "CN": [
+        "South China University of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "ZHONG LI (University of Hagen)",
+        "Wolfgang A. Halang (University of Hagen)"
+      ],
+      "CN": [
+        "Bo Zhang (South China University of Technology)",
+        "Dongyuan Qiu (South China University of Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_011.gz",
+      "line_number": 311,
+      "extraction_command": "sed -n '311p' part_011.gz | jq '.title'",
+      "paper_hash": "aaa0489b27ab89c1"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4247497838",
+    "doi": "https://doi.org/10.1111/1467-8322.12165",
+    "title": "Like a virgin? Hymen restoration operations in contemporary China (Respond to this article at https://www.therai.org.uk/publications/anthropology-today/debate)",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "London School of Economics and Political Science"
+      ],
+      "CN": [
+        "Sun Yat-sen University"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Hans Steinmüller (London School of Economics and Political Science)"
+      ],
+      "CN": [
+        "Tan Tongxue (Sun Yat-sen University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_016.gz",
+      "line_number": 123,
+      "extraction_command": "sed -n '123p' part_016.gz | jq '.title'",
+      "paper_hash": "9f98f49710cdd982"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2201762308",
+    "doi": "https://doi.org/10.1080/15226514.2015.1131233",
+    "title": "Effects of manganese on the microstructures of<i>Chenopodium ambrosioides</i>L., A manganese tolerant plant",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Harper Adams University"
+      ],
+      "CN": [
+        "Hunan Agricultural University",
+        "Central South University"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "William Hartley (Harper Adams University)"
+      ],
+      "CN": [
+        "Weisong Pan (Hunan Agricultural University)",
+        "Shengguo Xue (Central South University)",
+        "Feng Zhu (Central South University)",
+        "Chuan Wu (Central South University)",
+        "Jie Lei (Central South University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_010.gz",
+      "line_number": 14,
+      "extraction_command": "sed -n '14p' part_010.gz | jq '.title'",
+      "paper_hash": "e72ad8a0af2d4f66"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2251671233",
+    "doi": "https://doi.org/10.3115/v1/p15-2003",
+    "title": "Improving Distributed Representation of Word Sense via WordNet Gloss Composition and Context Clustering",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Aston University"
+      ],
+      "CN": [
+        "Harbin Institute of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Xuan Wang (Aston University)"
+      ],
+      "CN": [
+        "Ruifeng Xu (Harbin Institute of Technology)",
+        "Yulan He (Harbin Institute of Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_008.gz",
+      "line_number": 36,
+      "extraction_command": "sed -n '36p' part_008.gz | jq '.title'",
+      "paper_hash": "870669135bac316f"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2040965758",
+    "doi": "https://doi.org/10.1016/j.jeurceramsoc.2013.01.023",
+    "title": "CO2 laser peeling of Al2O3 ceramic and an application for the polishing of laser cut surfaces",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University of Manchester"
+      ],
+      "CN": [
+        "Beijing University of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Yinzhou Yan (University of Manchester)",
+        "Lin Li (University of Manchester)",
+        "Tian Long See (University of Manchester)"
+      ],
+      "CN": [
+        "Yijian Jiang (Beijing University of Technology)",
+        "Yinzhou Yan (Beijing University of Technology)",
+        "Lingfei Ji (Beijing University of Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_013.gz",
+      "line_number": 269,
+      "extraction_command": "sed -n '269p' part_013.gz | jq '.title'",
+      "paper_hash": "2f549993963c5eaf"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  }
+]

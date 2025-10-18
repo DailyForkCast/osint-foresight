@@ -1,0 +1,48 @@
+{
+  "cik": "0001364479",
+  "ticker": "HRI",
+  "name": "HERC HOLDINGS INC",
+  "detection_reasons": [
+    "offshore:bm",
+    "vie_structure"
+  ],
+  "sic": "7350",
+  "sicDescription": "Services-Miscellaneous Equipment Rental & Leasing",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "203530539",
+  "phone": "(239) 301-1000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "27500 RIVERVIEW CENTER BLVD",
+      "street2": null,
+      "city": "BONITA SPRINGS",
+      "stateOrCountry": "FL",
+      "zipCode": "34134",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "27500 RIVERVIEW CENTER BLVD",
+      "street2": null,
+      "city": "BONITA SPRINGS",
+      "stateOrCountry": "FL",
+      "zipCode": "34134",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-04"
+  },
+  "filings_count": 1009
+}

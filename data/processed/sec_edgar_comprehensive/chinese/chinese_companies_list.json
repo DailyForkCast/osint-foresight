@@ -1,0 +1,4712 @@
+[
+  {
+    "ticker": "BABA",
+    "name": "Alibaba Group Holding Ltd",
+    "cik": "0001577552"
+  },
+  {
+    "ticker": "UNH",
+    "name": "UNITEDHEALTH GROUP INC",
+    "cik": "0000731766"
+  },
+  {
+    "ticker": "HSBC",
+    "name": "HSBC HOLDINGS PLC",
+    "cik": "0001089113"
+  },
+  {
+    "ticker": "GS",
+    "name": "GOLDMAN SACHS GROUP INC",
+    "cik": "0000886982"
+  },
+  {
+    "ticker": "C",
+    "name": "CITIGROUP INC",
+    "cik": "0000831001"
+  },
+  {
+    "ticker": "PDD",
+    "name": "PDD Holdings Inc.",
+    "cik": "0001737806"
+  },
+  {
+    "ticker": "MUFG",
+    "name": "MITSUBISHI UFJ FINANCIAL GROUP INC",
+    "cik": "0000067088"
+  },
+  {
+    "ticker": "BKNG",
+    "name": "Booking Holdings Inc.",
+    "cik": "0001075531"
+  },
+  {
+    "ticker": "SONY",
+    "name": "Sony Group Corp",
+    "cik": "0000313838"
+  },
+  {
+    "ticker": "ETN",
+    "name": "Eaton Corp plc",
+    "cik": "0001551182"
+  },
+  {
+    "ticker": "BHP",
+    "name": "BHP Group Ltd",
+    "cik": "0000811809"
+  },
+  {
+    "ticker": "UBS",
+    "name": "UBS Group AG",
+    "cik": "0001610520"
+  },
+  {
+    "ticker": "CRWD",
+    "name": "CrowdStrike Holdings, Inc.",
+    "cik": "0001535527"
+  },
+  {
+    "ticker": "IBKR",
+    "name": "Interactive Brokers Group, Inc.",
+    "cik": "0001381197"
+  },
+  {
+    "ticker": "MO",
+    "name": "ALTRIA GROUP, INC.",
+    "cik": "0000764180"
+  },
+  {
+    "ticker": "SMFG",
+    "name": "SUMITOMO MITSUI FINANCIAL GROUP, INC.",
+    "cik": "0001022837"
+  },
+  {
+    "ticker": "CME",
+    "name": "CME GROUP INC.",
+    "cik": "0001156375"
+  },
+  {
+    "ticker": "MFG",
+    "name": "MIZUHO FINANCIAL GROUP INC",
+    "cik": "0001335730"
+  },
+  {
+    "ticker": "MGCLY",
+    "name": "Midea Group Co., Ltd./ADR",
+    "cik": "0002039784"
+  },
+  {
+    "ticker": "PNC",
+    "name": "PNC FINANCIAL SERVICES GROUP, INC.",
+    "cik": "0000713676"
+  },
+  {
+    "ticker": "NU",
+    "name": "Nu Holdings Ltd.",
+    "cik": "0001691493"
+  },
+  {
+    "ticker": "TDG",
+    "name": "TransDigm Group INC",
+    "cik": "0001260221"
+  },
+  {
+    "ticker": "SPG",
+    "name": "SIMON PROPERTY GROUP INC /DE/",
+    "cik": "0001063761"
+  },
+  {
+    "ticker": "LYG",
+    "name": "Lloyds Banking Group plc",
+    "cik": "0001160106"
+  },
+  {
+    "ticker": "PYPL",
+    "name": "PayPal Holdings, Inc.",
+    "cik": "0001633917"
+  },
+  {
+    "ticker": "HLT",
+    "name": "Hilton Worldwide Holdings Inc.",
+    "cik": "0001585689"
+  },
+  {
+    "ticker": "NWG",
+    "name": "NatWest Group plc",
+    "cik": "0000844150"
+  },
+  {
+    "ticker": "PCAR",
+    "name": "PACCAR INC",
+    "cik": "0000075362"
+  },
+  {
+    "ticker": "VRT",
+    "name": "Vertiv Holdings Co",
+    "cik": "0001674101"
+  },
+  {
+    "ticker": "TCOM",
+    "name": "Trip.com Group Ltd",
+    "cik": "0001269238"
+  },
+  {
+    "ticker": "CBRE",
+    "name": "CBRE GROUP, INC.",
+    "cik": "0001138118"
+  },
+  {
+    "ticker": "AIG",
+    "name": "AMERICAN INTERNATIONAL GROUP, INC.",
+    "cik": "0000005272"
+  },
+  {
+    "ticker": "PEG",
+    "name": "PUBLIC SERVICE ENTERPRISE GROUP INC",
+    "cik": "0000788784"
+  },
+  {
+    "ticker": "FRFHF",
+    "name": "FAIRFAX FINANCIAL HOLDINGS LTD/ CAN",
+    "cik": "0000915191"
+  },
+  {
+    "ticker": "TME",
+    "name": "Tencent Music Entertainment Group",
+    "cik": "0001744676"
+  },
+  {
+    "ticker": "HIG",
+    "name": "HARTFORD INSURANCE GROUP, INC.",
+    "cik": "0000874766"
+  },
+  {
+    "ticker": "STX",
+    "name": "Seagate Technology Holdings plc",
+    "cik": "0001137789"
+  },
+  {
+    "ticker": "CSGP",
+    "name": "COSTAR GROUP, INC.",
+    "cik": "0001057352"
+  },
+  {
+    "ticker": "VICI",
+    "name": "VICI PROPERTIES INC.",
+    "cik": "0001705696"
+  },
+  {
+    "ticker": "WEC",
+    "name": "WEC ENERGY GROUP, INC.",
+    "cik": "0000783325"
+  },
+  {
+    "ticker": "ACGL",
+    "name": "ARCH CAPITAL GROUP LTD.",
+    "cik": "0000947484"
+  },
+  {
+    "ticker": "UAL",
+    "name": "United Airlines Holdings, Inc.",
+    "cik": "0000100517"
+  },
+  {
+    "ticker": "IQV",
+    "name": "IQVIA HOLDINGS INC.",
+    "cik": "0001478242"
+  },
+  {
+    "ticker": "RYAAY",
+    "name": "RYANAIR HOLDINGS PLC",
+    "cik": "0001038683"
+  },
+  {
+    "ticker": "VOD",
+    "name": "VODAFONE GROUP PUBLIC LTD CO",
+    "cik": "0000839923"
+  },
+  {
+    "ticker": "EME",
+    "name": "EMCOR Group, Inc.",
+    "cik": "0000105634"
+  },
+  {
+    "ticker": "VIK",
+    "name": "Viking Holdings Ltd",
+    "cik": "0001745201"
+  },
+  {
+    "ticker": "EXPE",
+    "name": "Expedia Group, Inc.",
+    "cik": "0001324424"
+  },
+  {
+    "ticker": "LPLA",
+    "name": "LPL Financial Holdings Inc.",
+    "cik": "0001397911"
+  },
+  {
+    "ticker": "AWK",
+    "name": "American Water Works Company, Inc.",
+    "cik": "0001410636"
+  },
+  {
+    "ticker": "AFRM",
+    "name": "Affirm Holdings, Inc.",
+    "cik": "0001820953"
+  },
+  {
+    "ticker": "CRDO",
+    "name": "Credo Technology Group Holding Ltd",
+    "cik": "0001807794"
+  },
+  {
+    "ticker": "PHM",
+    "name": "PULTEGROUP INC/MI/",
+    "cik": "0000822416"
+  },
+  {
+    "ticker": "FUTU",
+    "name": "Futu Holdings Ltd",
+    "cik": "0001754581"
+  },
+  {
+    "ticker": "MKL",
+    "name": "MARKEL GROUP INC.",
+    "cik": "0001096343"
+  },
+  {
+    "ticker": "SHG",
+    "name": "SHINHAN FINANCIAL GROUP CO LTD",
+    "cik": "0001263043"
+  },
+  {
+    "ticker": "LDOS",
+    "name": "Leidos Holdings, Inc.",
+    "cik": "0001336920"
+  },
+  {
+    "ticker": "RSHGY",
+    "name": "RESONA HOLDINGS INC",
+    "cik": "0001447391"
+  },
+  {
+    "ticker": "LH",
+    "name": "LABCORP HOLDINGS INC.",
+    "cik": "0000920148"
+  },
+  {
+    "ticker": "CG",
+    "name": "Carlyle Group Inc.",
+    "cik": "0001527166"
+  },
+  {
+    "ticker": "TROW",
+    "name": "PRICE T ROWE GROUP INC",
+    "cik": "0001113169"
+  },
+  {
+    "ticker": "BEKE",
+    "name": "KE Holdings Inc.",
+    "cik": "0001809587"
+  },
+  {
+    "ticker": "CFG",
+    "name": "CITIZENS FINANCIAL GROUP INC/RI",
+    "cik": "0000759944"
+  },
+  {
+    "ticker": "NMR",
+    "name": "NOMURA HOLDINGS INC",
+    "cik": "0001163653"
+  },
+  {
+    "ticker": "AER",
+    "name": "AerCap Holdings N.V.",
+    "cik": "0001378789"
+  },
+  {
+    "ticker": "SSNC",
+    "name": "SS&C Technologies Holdings Inc",
+    "cik": "0001402436"
+  },
+  {
+    "ticker": "CDW",
+    "name": "CDW Corp",
+    "cik": "0001402057"
+  },
+  {
+    "ticker": "ZBH",
+    "name": "ZIMMER BIOMET HOLDINGS, INC.",
+    "cik": "0001136869"
+  },
+  {
+    "ticker": "ZG",
+    "name": "ZILLOW GROUP, INC.",
+    "cik": "0001617640"
+  },
+  {
+    "ticker": "PFG",
+    "name": "PRINCIPAL FINANCIAL GROUP INC",
+    "cik": "0001126328"
+  },
+  {
+    "ticker": "IHG",
+    "name": "INTERCONTINENTAL HOTELS GROUP PLC /NEW/",
+    "cik": "0000858446"
+  },
+  {
+    "ticker": "SGI",
+    "name": "SOMNIGROUP INTERNATIONAL INC.",
+    "cik": "0001206264"
+  },
+  {
+    "ticker": "WMG",
+    "name": "Warner Music Group Corp.",
+    "cik": "0001319161"
+  },
+  {
+    "ticker": "PFGC",
+    "name": "Performance Food Group Co",
+    "cik": "0001618673"
+  },
+  {
+    "ticker": "THC",
+    "name": "TENET HEALTHCARE CORP",
+    "cik": "0000070318"
+  },
+  {
+    "ticker": "YUMC",
+    "name": "Yum China Holdings, Inc.",
+    "cik": "0001673358"
+  },
+  {
+    "ticker": "EQH",
+    "name": "Equitable Holdings, Inc.",
+    "cik": "0001333986"
+  },
+  {
+    "ticker": "TKO",
+    "name": "TKO Group Holdings, Inc.",
+    "cik": "0001973266"
+  },
+  {
+    "ticker": "PKX",
+    "name": "POSCO HOLDINGS INC.",
+    "cik": "0000889132"
+  },
+  {
+    "ticker": "OMC",
+    "name": "OMNICOM GROUP INC.",
+    "cik": "0000029989"
+  },
+  {
+    "ticker": "CF",
+    "name": "CF Industries Holdings, Inc.",
+    "cik": "0001324404"
+  },
+  {
+    "ticker": "EG",
+    "name": "EVEREST GROUP, LTD.",
+    "cik": "0001095073"
+  },
+  {
+    "ticker": "RYAN",
+    "name": "RYAN SPECIALTY HOLDINGS, INC.",
+    "cik": "0001849253"
+  },
+  {
+    "ticker": "RKUNY",
+    "name": "Rakuten Group, Inc.",
+    "cik": "0001294591"
+  },
+  {
+    "ticker": "APG",
+    "name": "APi Group Corp",
+    "cik": "0001796209"
+  },
+  {
+    "ticker": "MEDP",
+    "name": "Medpace Holdings, Inc.",
+    "cik": "0001668397"
+  },
+  {
+    "ticker": "JEF",
+    "name": "Jefferies Financial Group Inc.",
+    "cik": "0000096223"
+  },
+  {
+    "ticker": "COOP",
+    "name": "Mr. Cooper Group Inc.",
+    "cik": "0000933136"
+  },
+  {
+    "ticker": "CELH",
+    "name": "Celsius Holdings, Inc.",
+    "cik": "0001341766"
+  },
+  {
+    "ticker": "TOL",
+    "name": "Toll Brothers, Inc.",
+    "cik": "0000794170"
+  },
+  {
+    "ticker": "LECO",
+    "name": "LINCOLN ELECTRIC HOLDINGS INC",
+    "cik": "0000059527"
+  },
+  {
+    "ticker": "HTHT",
+    "name": "H World Group Ltd",
+    "cik": "0001483994"
+  },
+  {
+    "ticker": "RGA",
+    "name": "REINSURANCE GROUP OF AMERICA INC",
+    "cik": "0000898174"
+  },
+  {
+    "ticker": "BJ",
+    "name": "BJ's Wholesale Club Holdings, Inc.",
+    "cik": "0001531152"
+  },
+  {
+    "ticker": "AFG",
+    "name": "AMERICAN FINANCIAL GROUP INC",
+    "cik": "0001042046"
+  },
+  {
+    "ticker": "UNM",
+    "name": "Unum Group",
+    "cik": "0000005513"
+  },
+  {
+    "ticker": "DSEEY",
+    "name": "Daiwa Securities Group Inc.",
+    "cik": "0001481045"
+  },
+  {
+    "ticker": "RNR",
+    "name": "RENAISSANCERE HOLDINGS LTD",
+    "cik": "0000913144"
+  },
+  {
+    "ticker": "NCLH",
+    "name": "Norwegian Cruise Line Holdings Ltd.",
+    "cik": "0001513761"
+  },
+  {
+    "ticker": "PAG",
+    "name": "PENSKE AUTOMOTIVE GROUP, INC.",
+    "cik": "0001019849"
+  },
+  {
+    "ticker": "CCK",
+    "name": "CROWN HOLDINGS, INC.",
+    "cik": "0001219601"
+  },
+  {
+    "ticker": "LITE",
+    "name": "Lumentum Holdings Inc.",
+    "cik": "0001633978"
+  },
+  {
+    "ticker": "KNSL",
+    "name": "Kinsale Capital Group, Inc.",
+    "cik": "0001669162"
+  },
+  {
+    "ticker": "ENSG",
+    "name": "ENSIGN GROUP, INC",
+    "cik": "0001125376"
+  },
+  {
+    "ticker": "GNRC",
+    "name": "GENERAC HOLDINGS INC.",
+    "cik": "0001474735"
+  },
+  {
+    "ticker": "UWMC",
+    "name": "UWM Holdings Corp",
+    "cik": "0001783398"
+  },
+  {
+    "ticker": "IPG",
+    "name": "INTERPUBLIC GROUP OF COMPANIES, INC.",
+    "cik": "0000051644"
+  },
+  {
+    "ticker": "MTSI",
+    "name": "MACOM Technology Solutions Holdings, Inc.",
+    "cik": "0001493594"
+  },
+  {
+    "ticker": "ELAN",
+    "name": "Elanco Animal Health Inc",
+    "cik": "0001739104"
+  },
+  {
+    "ticker": "EGP",
+    "name": "EASTGROUP PROPERTIES INC",
+    "cik": "0000049600"
+  },
+  {
+    "ticker": "MTCH",
+    "name": "Match Group, Inc.",
+    "cik": "0000891103"
+  },
+  {
+    "ticker": "ATR",
+    "name": "APTARGROUP, INC.",
+    "cik": "0000896622"
+  },
+  {
+    "ticker": "EDU",
+    "name": "New Oriental Education & Technology Group Inc.",
+    "cik": "0001372920"
+  },
+  {
+    "ticker": "BRX",
+    "name": "Brixmor Property Group Inc.",
+    "cik": "0001581068"
+  },
+  {
+    "ticker": "VIPS",
+    "name": "Vipshop Holdings Ltd",
+    "cik": "0001529192"
+  },
+  {
+    "ticker": "OLLI",
+    "name": "Ollie's Bargain Outlet Holdings, Inc.",
+    "cik": "0001639300"
+  },
+  {
+    "ticker": "GDS",
+    "name": "GDS Holdings Ltd",
+    "cik": "0001526125"
+  },
+  {
+    "ticker": "AAL",
+    "name": "American Airlines Group Inc.",
+    "cik": "0000006201"
+  },
+  {
+    "ticker": "SIRI",
+    "name": "SIRIUS XM HOLDINGS INC.",
+    "cik": "0000908937"
+  },
+  {
+    "ticker": "IESC",
+    "name": "IES Holdings, Inc.",
+    "cik": "0001048268"
+  },
+  {
+    "ticker": "AXS",
+    "name": "AXIS CAPITAL HOLDINGS LTD",
+    "cik": "0001214816"
+  },
+  {
+    "ticker": "STEP",
+    "name": "StepStone Group Inc.",
+    "cik": "0001796022"
+  },
+  {
+    "ticker": "LW",
+    "name": "Lamb Weston Holdings, Inc.",
+    "cik": "0001679273"
+  },
+  {
+    "ticker": "CAVA",
+    "name": "CAVA GROUP, INC.",
+    "cik": "0001639438"
+  },
+  {
+    "ticker": "RGC",
+    "name": "Regencell Bioscience Holdings Ltd",
+    "cik": "0001829667"
+  },
+  {
+    "ticker": "KD",
+    "name": "Kyndryl Holdings, Inc.",
+    "cik": "0001867072"
+  },
+  {
+    "ticker": "ALSN",
+    "name": "Allison Transmission Holdings Inc",
+    "cik": "0001411207"
+  },
+  {
+    "ticker": "MNSO",
+    "name": "MINISO Group Holding Ltd",
+    "cik": "0001815846"
+  },
+  {
+    "ticker": "OMF",
+    "name": "OneMain Holdings, Inc.",
+    "cik": "0001584207"
+  },
+  {
+    "ticker": "EXLS",
+    "name": "ExlService Holdings, Inc.",
+    "cik": "0001297989"
+  },
+  {
+    "ticker": "JHG",
+    "name": "JANUS HENDERSON GROUP PLC",
+    "cik": "0001274173"
+  },
+  {
+    "ticker": "BYD",
+    "name": "BOYD GAMING CORP",
+    "cik": "0000906553"
+  },
+  {
+    "ticker": "AMG",
+    "name": "AFFILIATED MANAGERS GROUP, INC.",
+    "cik": "0001004434"
+  },
+  {
+    "ticker": "MKTX",
+    "name": "MARKETAXESS HOLDINGS INC",
+    "cik": "0001278021"
+  },
+  {
+    "ticker": "UPST",
+    "name": "Upstart Holdings, Inc.",
+    "cik": "0001647639"
+  },
+  {
+    "ticker": "FCFS",
+    "name": "FirstCash Holdings, Inc.",
+    "cik": "0000840489"
+  },
+  {
+    "ticker": "TAL",
+    "name": "TAL Education Group",
+    "cik": "0001499620"
+  },
+  {
+    "ticker": "KNX",
+    "name": "Knight-Swift Transportation Holdings Inc.",
+    "cik": "0001492691"
+  },
+  {
+    "ticker": "ESNT",
+    "name": "Essent Group Ltd.",
+    "cik": "0001448893"
+  },
+  {
+    "ticker": "THG",
+    "name": "HANOVER INSURANCE GROUP, INC.",
+    "cik": "0000944695"
+  },
+  {
+    "ticker": "QMMM",
+    "name": "QMMM Holdings Ltd",
+    "cik": "0001971542"
+  },
+  {
+    "ticker": "LTH",
+    "name": "Life Time Group Holdings, Inc.",
+    "cik": "0001869198"
+  },
+  {
+    "ticker": "ALK",
+    "name": "ALASKA AIR GROUP, INC.",
+    "cik": "0000766421"
+  },
+  {
+    "ticker": "CCCS",
+    "name": "CCC Intelligent Solutions Holdings Inc.",
+    "cik": "0001818201"
+  },
+  {
+    "ticker": "NXST",
+    "name": "NEXSTAR MEDIA GROUP, INC.",
+    "cik": "0001142417"
+  },
+  {
+    "ticker": "CWAN",
+    "name": "Clearwater Analytics Holdings, Inc.",
+    "cik": "0001866368"
+  },
+  {
+    "ticker": "GPI",
+    "name": "GROUP 1 AUTOMOTIVE INC",
+    "cik": "0001031203"
+  },
+  {
+    "ticker": "BVN",
+    "name": "BUENAVENTURA MINING CO INC",
+    "cik": "0001013131"
+  },
+  {
+    "ticker": "ACT",
+    "name": "Enact Holdings, Inc.",
+    "cik": "0001823529"
+  },
+  {
+    "ticker": "CAR",
+    "name": "AVIS BUDGET GROUP, INC.",
+    "cik": "0000723612"
+  },
+  {
+    "ticker": "POST",
+    "name": "Post Holdings, Inc.",
+    "cik": "0001530950"
+  },
+  {
+    "ticker": "SWX",
+    "name": "Southwest Gas Holdings, Inc.",
+    "cik": "0001692115"
+  },
+  {
+    "ticker": "ATAT",
+    "name": "Atour Lifestyle Holdings Ltd",
+    "cik": "0001853717"
+  },
+  {
+    "ticker": "SNEX",
+    "name": "StoneX Group Inc.",
+    "cik": "0000913760"
+  },
+  {
+    "ticker": "BILL",
+    "name": "BILL Holdings, Inc.",
+    "cik": "0001786352"
+  },
+  {
+    "ticker": "GHC",
+    "name": "Graham Holdings Co",
+    "cik": "0000104889"
+  },
+  {
+    "ticker": "KRG",
+    "name": "KITE REALTY GROUP TRUST",
+    "cik": "0001286043"
+  },
+  {
+    "ticker": "SPR",
+    "name": "Spirit AeroSystems Holdings, Inc.",
+    "cik": "0001364885"
+  },
+  {
+    "ticker": "KC",
+    "name": "Kingsoft Cloud Holdings Ltd",
+    "cik": "0001795589"
+  },
+  {
+    "ticker": "RDN",
+    "name": "RADIAN GROUP INC",
+    "cik": "0000890926"
+  },
+  {
+    "ticker": "TKC",
+    "name": "TURKCELL ILETISIM HIZMETLERI A S",
+    "cik": "0001071321"
+  },
+  {
+    "ticker": "QTWO",
+    "name": "Q2 Holdings, Inc.",
+    "cik": "0001410384"
+  },
+  {
+    "ticker": "SIGI",
+    "name": "SELECTIVE INSURANCE GROUP INC",
+    "cik": "0000230557"
+  },
+  {
+    "ticker": "ABG",
+    "name": "ASBURY AUTOMOTIVE GROUP INC",
+    "cik": "0001144980"
+  },
+  {
+    "ticker": "WTM",
+    "name": "WHITE MOUNTAINS INSURANCE GROUP LTD",
+    "cik": "0000776867"
+  },
+  {
+    "ticker": "VCTR",
+    "name": "Victory Capital Holdings, Inc.",
+    "cik": "0001570827"
+  },
+  {
+    "ticker": "HHH",
+    "name": "Howard Hughes Holdings Inc.",
+    "cik": "0001981792"
+  },
+  {
+    "ticker": "NMRK",
+    "name": "NEWMARK GROUP, INC.",
+    "cik": "0001690680"
+  },
+  {
+    "ticker": "HSAI",
+    "name": "Hesai Group",
+    "cik": "0001861737"
+  },
+  {
+    "ticker": "NEXHY",
+    "name": "Nippon Express Holdings, Inc./ADR",
+    "cik": "0001985406"
+  },
+  {
+    "ticker": "BGC",
+    "name": "BGC Group, Inc.",
+    "cik": "0001094831"
+  },
+  {
+    "ticker": "SLGN",
+    "name": "SILGAN HOLDINGS INC",
+    "cik": "0000849869"
+  },
+  {
+    "ticker": "ZETA",
+    "name": "Zeta Global Holdings Corp.",
+    "cik": "0001851003"
+  },
+  {
+    "ticker": "GBTG",
+    "name": "Global Business Travel Group, Inc.",
+    "cik": "0001820872"
+  },
+  {
+    "ticker": "QFIN",
+    "name": "Qfin Holdings, Inc.",
+    "cik": "0001741530"
+  },
+  {
+    "ticker": "HRI",
+    "name": "HERC HOLDINGS INC",
+    "cik": "0001364479"
+  },
+  {
+    "ticker": "PAY",
+    "name": "Paymentus Holdings, Inc.",
+    "cik": "0001841156"
+  },
+  {
+    "ticker": "CNO",
+    "name": "CNO Financial Group, Inc.",
+    "cik": "0001224608"
+  },
+  {
+    "ticker": "TMDX",
+    "name": "TransMedics Group, Inc.",
+    "cik": "0001756262"
+  },
+  {
+    "ticker": "BTDR",
+    "name": "Bitdeer Technologies Group",
+    "cik": "0001899123"
+  },
+  {
+    "ticker": "TENB",
+    "name": "Tenable Holdings, Inc.",
+    "cik": "0001660280"
+  },
+  {
+    "ticker": "WGS",
+    "name": "GeneDx Holdings Corp.",
+    "cik": "0001818331"
+  },
+  {
+    "ticker": "LNTH",
+    "name": "Lantheus Holdings, Inc.",
+    "cik": "0001521036"
+  },
+  {
+    "ticker": "ITGR",
+    "name": "Integer Holdings Corp",
+    "cik": "0001114483"
+  },
+  {
+    "ticker": "NWE",
+    "name": "NorthWestern Energy Group, Inc.",
+    "cik": "0001993004"
+  },
+  {
+    "ticker": "MDU",
+    "name": "MDU RESOURCES GROUP INC",
+    "cik": "0000067716"
+  },
+  {
+    "ticker": "AAPG",
+    "name": "ASCENTAGE PHARMA GROUP INTERNATIONAL",
+    "cik": "0002023311"
+  },
+  {
+    "ticker": "TNET",
+    "name": "TRINET GROUP, INC.",
+    "cik": "0000937098"
+  },
+  {
+    "ticker": "NVST",
+    "name": "Envista Holdings Corp",
+    "cik": "0001757073"
+  },
+  {
+    "ticker": "ARX",
+    "name": "Accelerant Holdings",
+    "cik": "0001997350"
+  },
+  {
+    "ticker": "AHL",
+    "name": "ASPEN INSURANCE HOLDINGS LTD",
+    "cik": "0001267395"
+  },
+  {
+    "ticker": "DOCN",
+    "name": "DigitalOcean Holdings, Inc.",
+    "cik": "0001582961"
+  },
+  {
+    "ticker": "CNK",
+    "name": "Cinemark Holdings, Inc.",
+    "cik": "0001385280"
+  },
+  {
+    "ticker": "CHA",
+    "name": "Chagee Holdings Ltd.",
+    "cik": "0002013649"
+  },
+  {
+    "ticker": "GEO",
+    "name": "GEO GROUP INC",
+    "cik": "0000923796"
+  },
+  {
+    "ticker": "KEN",
+    "name": "Kenon Holdings Ltd.",
+    "cik": "0001611005"
+  },
+  {
+    "ticker": "MYRG",
+    "name": "MYR GROUP INC.",
+    "cik": "0000700923"
+  },
+  {
+    "ticker": "APLE",
+    "name": "Apple Hospitality REIT, Inc.",
+    "cik": "0001418121"
+  },
+  {
+    "ticker": "PRVA",
+    "name": "Privia Health Group, Inc.",
+    "cik": "0001759655"
+  },
+  {
+    "ticker": "REVG",
+    "name": "REV Group, Inc.",
+    "cik": "0001687221"
+  },
+  {
+    "ticker": "KNTK",
+    "name": "Kinetik Holdings Inc.",
+    "cik": "0001692787"
+  },
+  {
+    "ticker": "KYIV",
+    "name": "Kyivstar Group Ltd.",
+    "cik": "0002062440"
+  },
+  {
+    "ticker": "BFH",
+    "name": "BREAD FINANCIAL HOLDINGS, INC.",
+    "cik": "0001101215"
+  },
+  {
+    "ticker": "HCM",
+    "name": "HUTCHMED (China) Ltd",
+    "cik": "0001648257"
+  },
+  {
+    "ticker": "BBAI",
+    "name": "BigBear.ai Holdings, Inc.",
+    "cik": "0001836981"
+  },
+  {
+    "ticker": "CWT",
+    "name": "CALIFORNIA WATER SERVICE GROUP",
+    "cik": "0001035201"
+  },
+  {
+    "ticker": "ALRM",
+    "name": "Alarm.com Holdings, Inc.",
+    "cik": "0001459200"
+  },
+  {
+    "ticker": "HURN",
+    "name": "Huron Consulting Group Inc.",
+    "cik": "0001289848"
+  },
+  {
+    "ticker": "HG",
+    "name": "Hamilton Insurance Group, Ltd.",
+    "cik": "0001593275"
+  },
+  {
+    "ticker": "CPRI",
+    "name": "Capri Holdings Ltd",
+    "cik": "0001530721"
+  },
+  {
+    "ticker": "DBRG",
+    "name": "DigitalBridge Group, Inc.",
+    "cik": "0001679688"
+  },
+  {
+    "ticker": "ALG",
+    "name": "ALAMO GROUP INC",
+    "cik": "0000897077"
+  },
+  {
+    "ticker": "HCI",
+    "name": "HCI Group, Inc.",
+    "cik": "0001400810"
+  },
+  {
+    "ticker": "ATEC",
+    "name": "Alphatec Holdings, Inc.",
+    "cik": "0001350653"
+  },
+  {
+    "ticker": "CDTX",
+    "name": "Cidara Therapeutics, Inc.",
+    "cik": "0001610618"
+  },
+  {
+    "ticker": "OSW",
+    "name": "ONESPAWORLD HOLDINGS Ltd",
+    "cik": "0001758488"
+  },
+  {
+    "ticker": "EPAC",
+    "name": "ENERPAC TOOL GROUP CORP",
+    "cik": "0000006955"
+  },
+  {
+    "ticker": "BGM",
+    "name": "BGM Group Ltd.",
+    "cik": "0001779578"
+  },
+  {
+    "ticker": "VNET",
+    "name": "VNET Group, Inc.",
+    "cik": "0001508475"
+  },
+  {
+    "ticker": "HTH",
+    "name": "Hilltop Holdings Inc.",
+    "cik": "0001265131"
+  },
+  {
+    "ticker": "HUBG",
+    "name": "Hub Group, Inc.",
+    "cik": "0000940942"
+  },
+  {
+    "ticker": "LFST",
+    "name": "LifeStance Health Group, Inc.",
+    "cik": "0001845257"
+  },
+  {
+    "ticker": "AVDX",
+    "name": "AvidXchange Holdings, Inc.",
+    "cik": "0001858257"
+  },
+  {
+    "ticker": "DHT",
+    "name": "DHT Holdings, Inc.",
+    "cik": "0001331284"
+  },
+  {
+    "ticker": "CCOI",
+    "name": "COGENT COMMUNICATIONS HOLDINGS, INC.",
+    "cik": "0001158324"
+  },
+  {
+    "ticker": "DV",
+    "name": "DoubleVerify Holdings, Inc.",
+    "cik": "0001819928"
+  },
+  {
+    "ticker": "DNLI",
+    "name": "Denali Therapeutics Inc.",
+    "cik": "0001714899"
+  },
+  {
+    "ticker": "DK",
+    "name": "Delek US Holdings, Inc.",
+    "cik": "0001694426"
+  },
+  {
+    "ticker": "FINV",
+    "name": "FinVolution Group",
+    "cik": "0001691445"
+  },
+  {
+    "ticker": "SKWD",
+    "name": "Skyward Specialty Insurance Group, Inc.",
+    "cik": "0001519449"
+  },
+  {
+    "ticker": "PRCH",
+    "name": "Porch Group, Inc.",
+    "cik": "0001784535"
+  },
+  {
+    "ticker": "PARR",
+    "name": "PAR PACIFIC HOLDINGS, INC.",
+    "cik": "0000821483"
+  },
+  {
+    "ticker": "VBTX",
+    "name": "Veritex Holdings, Inc.",
+    "cik": "0001501570"
+  },
+  {
+    "ticker": "FIHL",
+    "name": "Fidelis Insurance Holdings Ltd",
+    "cik": "0001636639"
+  },
+  {
+    "ticker": "RAMP",
+    "name": "LiveRamp Holdings, Inc.",
+    "cik": "0000733269"
+  },
+  {
+    "ticker": "MAN",
+    "name": "ManpowerGroup Inc.",
+    "cik": "0000871763"
+  },
+  {
+    "ticker": "ENR",
+    "name": "ENERGIZER HOLDINGS, INC.",
+    "cik": "0001632790"
+  },
+  {
+    "ticker": "PRGS",
+    "name": "PROGRESS SOFTWARE CORP /MA",
+    "cik": "0000876167"
+  },
+  {
+    "ticker": "AVAH",
+    "name": "Aveanna Healthcare Holdings, Inc.",
+    "cik": "0001832332"
+  },
+  {
+    "ticker": "EXPI",
+    "name": "eXp World Holdings, Inc.",
+    "cik": "0001495932"
+  },
+  {
+    "ticker": "IMCR",
+    "name": "Immunocore Holdings plc",
+    "cik": "0001671927"
+  },
+  {
+    "ticker": "RVLV",
+    "name": "Revolve Group, Inc.",
+    "cik": "0001746618"
+  },
+  {
+    "ticker": "CARCY",
+    "name": "China Resources Cement Holdings Limited/ADR/",
+    "cik": "0001484515"
+  },
+  {
+    "ticker": "WLDN",
+    "name": "Willdan Group, Inc.",
+    "cik": "0001370450"
+  },
+  {
+    "ticker": "PGRE",
+    "name": "Paramount Group, Inc.",
+    "cik": "0001605607"
+  },
+  {
+    "ticker": "SEM",
+    "name": "SELECT MEDICAL HOLDINGS CORP",
+    "cik": "0001320414"
+  },
+  {
+    "ticker": "SBH",
+    "name": "Sally Beauty Holdings, Inc.",
+    "cik": "0001368458"
+  },
+  {
+    "ticker": "HRMY",
+    "name": "Harmony Biosciences Holdings, Inc.",
+    "cik": "0001802665"
+  },
+  {
+    "ticker": "AMC",
+    "name": "AMC ENTERTAINMENT HOLDINGS, INC.",
+    "cik": "0001411579"
+  },
+  {
+    "ticker": "NBHC",
+    "name": "National Bank Holdings Corp",
+    "cik": "0001475841"
+  },
+  {
+    "ticker": "CYD",
+    "name": "CHINA YUCHAI INTERNATIONAL LTD",
+    "cik": "0000932695"
+  },
+  {
+    "ticker": "MD",
+    "name": "Pediatrix Medical Group, Inc.",
+    "cik": "0000893949"
+  },
+  {
+    "ticker": "UPBD",
+    "name": "UPBOUND GROUP, INC.",
+    "cik": "0000933036"
+  },
+  {
+    "ticker": "XPRO",
+    "name": "EXPRO GROUP HOLDINGS N.V.",
+    "cik": "0001575828"
+  },
+  {
+    "ticker": "NVAX",
+    "name": "NOVAVAX INC",
+    "cik": "0001000694"
+  },
+  {
+    "ticker": "JBI",
+    "name": "Janus International Group, Inc.",
+    "cik": "0001839839"
+  },
+  {
+    "ticker": "GDRX",
+    "name": "GoodRx Holdings, Inc.",
+    "cik": "0001809519"
+  },
+  {
+    "ticker": "DSGR",
+    "name": "Distribution Solutions Group, Inc.",
+    "cik": "0000703604"
+  },
+  {
+    "ticker": "EH",
+    "name": "EHang Holdings Ltd",
+    "cik": "0001759783"
+  },
+  {
+    "ticker": "SPB",
+    "name": "Spectrum Brands Holdings, Inc.",
+    "cik": "0000109177"
+  },
+  {
+    "ticker": "QCRH",
+    "name": "QCR HOLDINGS INC",
+    "cik": "0000906465"
+  },
+  {
+    "ticker": "FOR",
+    "name": "Forestar Group Inc.",
+    "cik": "0001406587"
+  },
+  {
+    "ticker": "MNSKY",
+    "name": "MoneySupermarket.com Group PLC/ADR",
+    "cik": "0001584297"
+  },
+  {
+    "ticker": "ULCC",
+    "name": "Frontier Group Holdings, Inc.",
+    "cik": "0001670076"
+  },
+  {
+    "ticker": "XERS",
+    "name": "Xeris Biopharma Holdings, Inc.",
+    "cik": "0001867096"
+  },
+  {
+    "ticker": "BV",
+    "name": "BrightView Holdings, Inc.",
+    "cik": "0001734713"
+  },
+  {
+    "ticker": "GHLD",
+    "name": "Guild Holdings Co",
+    "cik": "0001821160"
+  },
+  {
+    "ticker": "AHCO",
+    "name": "AdaptHealth Corp.",
+    "cik": "0001725255"
+  },
+  {
+    "ticker": "MOMO",
+    "name": "Hello Group Inc.",
+    "cik": "0001610601"
+  },
+  {
+    "ticker": "SHLS",
+    "name": "Shoals Technologies Group, Inc.",
+    "cik": "0001831651"
+  },
+  {
+    "ticker": "HCSG",
+    "name": "HEALTHCARE SERVICES GROUP INC",
+    "cik": "0000731012"
+  },
+  {
+    "ticker": "YALA",
+    "name": "Yalla Group Ltd",
+    "cik": "0001794350"
+  },
+  {
+    "ticker": "KW",
+    "name": "Kennedy-Wilson Holdings, Inc.",
+    "cik": "0001408100"
+  },
+  {
+    "ticker": "GIII",
+    "name": "G III APPAREL GROUP LTD /DE/",
+    "cik": "0000821002"
+  },
+  {
+    "ticker": "LMB",
+    "name": "Limbach Holdings, Inc.",
+    "cik": "0001606163"
+  },
+  {
+    "ticker": "PRO",
+    "name": "PROS Holdings, Inc.",
+    "cik": "0001392972"
+  },
+  {
+    "ticker": "NVGS",
+    "name": "Navigator Holdings Ltd.",
+    "cik": "0001581804"
+  },
+  {
+    "ticker": "SEMR",
+    "name": "SEMrush Holdings, Inc.",
+    "cik": "0001831840"
+  },
+  {
+    "ticker": "VTOL",
+    "name": "Bristow Group Inc.",
+    "cik": "0001525221"
+  },
+  {
+    "ticker": "CWH",
+    "name": "Camping World Holdings, Inc.",
+    "cik": "0001669779"
+  },
+  {
+    "ticker": "IART",
+    "name": "INTEGRA LIFESCIENCES HOLDINGS CORP",
+    "cik": "0000917520"
+  },
+  {
+    "ticker": "SAFT",
+    "name": "SAFETY INSURANCE GROUP INC",
+    "cik": "0001172052"
+  },
+  {
+    "ticker": "UCTT",
+    "name": "Ultra Clean Holdings, Inc.",
+    "cik": "0001275014"
+  },
+  {
+    "ticker": "CNNE",
+    "name": "Cannae Holdings, Inc.",
+    "cik": "0001704720"
+  },
+  {
+    "ticker": "AMTD",
+    "name": "AMTD IDEA GROUP",
+    "cik": "0001769731"
+  },
+  {
+    "ticker": "SCL",
+    "name": "STEPAN CO",
+    "cik": "0000094049"
+  },
+  {
+    "ticker": "MDXG",
+    "name": "MIMEDX GROUP, INC.",
+    "cik": "0001376339"
+  },
+  {
+    "ticker": "CRON",
+    "name": "Cronos Group Inc.",
+    "cik": "0001656472"
+  },
+  {
+    "ticker": "ATLC",
+    "name": "Atlanticus Holdings Corp",
+    "cik": "0001464343"
+  },
+  {
+    "ticker": "PHAR",
+    "name": "Pharming Group N.V.",
+    "cik": "0001828316"
+  },
+  {
+    "ticker": "MUC",
+    "name": "BLACKROCK MUNIHOLDINGS CALIFORNIA QUALITY FUND, INC.",
+    "cik": "0001051004"
+  },
+  {
+    "ticker": "IGIC",
+    "name": "International General Insurance Holdings Ltd.",
+    "cik": "0001794338"
+  },
+  {
+    "ticker": "MRVI",
+    "name": "MARAVAI LIFESCIENCES HOLDINGS, INC.",
+    "cik": "0001823239"
+  },
+  {
+    "ticker": "ECPG",
+    "name": "ENCORE CAPITAL GROUP INC",
+    "cik": "0001084961"
+  },
+  {
+    "ticker": "EIG",
+    "name": "Employers Holdings, Inc.",
+    "cik": "0001379041"
+  },
+  {
+    "ticker": "MEG",
+    "name": "Montrose Environmental Group, Inc.",
+    "cik": "0001643615"
+  },
+  {
+    "ticker": "HLX",
+    "name": "HELIX ENERGY SOLUTIONS GROUP INC",
+    "cik": "0000866829"
+  },
+  {
+    "ticker": "BH-A",
+    "name": "Biglari Holdings Inc.",
+    "cik": "0001726173"
+  },
+  {
+    "ticker": "FWRG",
+    "name": "First Watch Restaurant Group, Inc.",
+    "cik": "0001789940"
+  },
+  {
+    "ticker": "LX",
+    "name": "LexinFintech Holdings Ltd.",
+    "cik": "0001708259"
+  },
+  {
+    "ticker": "BBDC",
+    "name": "Barings BDC, Inc.",
+    "cik": "0001379785"
+  },
+  {
+    "ticker": "LVWR",
+    "name": "LiveWire Group, Inc.",
+    "cik": "0001898795"
+  },
+  {
+    "ticker": "AHG",
+    "name": "Akso Health Group",
+    "cik": "0001702318"
+  },
+  {
+    "ticker": "GRPN",
+    "name": "Groupon, Inc.",
+    "cik": "0001490281"
+  },
+  {
+    "ticker": "OLPX",
+    "name": "OLAPLEX HOLDINGS, INC.",
+    "cik": "0001868726"
+  },
+  {
+    "ticker": "ESQ",
+    "name": "Esquire Financial Holdings, Inc.",
+    "cik": "0001531031"
+  },
+  {
+    "ticker": "FPH",
+    "name": "Five Point Holdings, LLC",
+    "cik": "0001574197"
+  },
+  {
+    "ticker": "HIPO",
+    "name": "Hippo Holdings Inc.",
+    "cik": "0001828105"
+  },
+  {
+    "ticker": "THR",
+    "name": "Thermon Group Holdings, Inc.",
+    "cik": "0001489096"
+  },
+  {
+    "ticker": "PNTG",
+    "name": "Pennant Group, Inc.",
+    "cik": "0001766400"
+  },
+  {
+    "ticker": "NXDR",
+    "name": "Nextdoor Holdings, Inc.",
+    "cik": "0001846069"
+  },
+  {
+    "ticker": "GETY",
+    "name": "Getty Images Holdings, Inc.",
+    "cik": "0001898496"
+  },
+  {
+    "ticker": "NOAH",
+    "name": "NOAH HOLDINGS LTD",
+    "cik": "0001499543"
+  },
+  {
+    "ticker": "ECX",
+    "name": "ECARX Holdings Inc.",
+    "cik": "0001861974"
+  },
+  {
+    "ticker": "SKYH",
+    "name": "Sky Harbour Group Corp",
+    "cik": "0001823587"
+  },
+  {
+    "ticker": "UFCS",
+    "name": "UNITED FIRE GROUP INC",
+    "cik": "0000101199"
+  },
+  {
+    "ticker": "HRTG",
+    "name": "Heritage Insurance Holdings, Inc.",
+    "cik": "0001598665"
+  },
+  {
+    "ticker": "ADTN",
+    "name": "ADTRAN Holdings, Inc.",
+    "cik": "0000926282"
+  },
+  {
+    "ticker": "CCO",
+    "name": "Clear Channel Outdoor Holdings, Inc.",
+    "cik": "0001334978"
+  },
+  {
+    "ticker": "MSC",
+    "name": "STUDIO CITY INTERNATIONAL HOLDINGS Ltd",
+    "cik": "0001713334"
+  },
+  {
+    "ticker": "FMCB",
+    "name": "FARMERS & MERCHANTS BANCORP",
+    "cik": "0001085913"
+  },
+  {
+    "ticker": "BWMN",
+    "name": "Bowman Consulting Group Ltd.",
+    "cik": "0001847590"
+  },
+  {
+    "ticker": "CCBG",
+    "name": "CAPITAL CITY BANK GROUP INC",
+    "cik": "0000726601"
+  },
+  {
+    "ticker": "AXL",
+    "name": "AMERICAN AXLE & MANUFACTURING HOLDINGS INC",
+    "cik": "0001062231"
+  },
+  {
+    "ticker": "LIND",
+    "name": "LINDBLAD EXPEDITIONS HOLDINGS, INC.",
+    "cik": "0001512499"
+  },
+  {
+    "ticker": "HBNB",
+    "name": "Hotel101 Global Holdings Corp.",
+    "cik": "0002054507"
+  },
+  {
+    "ticker": "UVE",
+    "name": "UNIVERSAL INSURANCE HOLDINGS, INC.",
+    "cik": "0000891166"
+  },
+  {
+    "ticker": "GDYN",
+    "name": "GRID DYNAMICS HOLDINGS, INC.",
+    "cik": "0001743725"
+  },
+  {
+    "ticker": "DNA",
+    "name": "Ginkgo Bioworks Holdings, Inc.",
+    "cik": "0001830214"
+  },
+  {
+    "ticker": "DGICA",
+    "name": "DONEGAL GROUP INC",
+    "cik": "0000800457"
+  },
+  {
+    "ticker": "BJRI",
+    "name": "BJs RESTAURANTS INC",
+    "cik": "0001013488"
+  },
+  {
+    "ticker": "ULH",
+    "name": "UNIVERSAL LOGISTICS HOLDINGS, INC.",
+    "cik": "0001308208"
+  },
+  {
+    "ticker": "MGTX",
+    "name": "MeiraGTx Holdings plc",
+    "cik": "0001735438"
+  },
+  {
+    "ticker": "CPS",
+    "name": "Cooper-Standard Holdings Inc.",
+    "cik": "0001320461"
+  },
+  {
+    "ticker": "TROX",
+    "name": "Tronox Holdings plc",
+    "cik": "0001530804"
+  },
+  {
+    "ticker": "PRAA",
+    "name": "PRA GROUP INC",
+    "cik": "0001185348"
+  },
+  {
+    "ticker": "MATV",
+    "name": "Mativ Holdings, Inc.",
+    "cik": "0001000623"
+  },
+  {
+    "ticker": "ORGO",
+    "name": "Organogenesis Holdings Inc.",
+    "cik": "0001661181"
+  },
+  {
+    "ticker": "MHD",
+    "name": "BLACKROCK MUNIHOLDINGS FUND, INC.",
+    "cik": "0001034665"
+  },
+  {
+    "ticker": "ICHR",
+    "name": "ICHOR HOLDINGS, LTD.",
+    "cik": "0001652535"
+  },
+  {
+    "ticker": "MUJ",
+    "name": "BLACKROCK MUNIHOLDINGS NEW JERSEY QUALITY FUND, INC.",
+    "cik": "0001053988"
+  },
+  {
+    "ticker": "MOFG",
+    "name": "MidWestOne Financial Group, Inc.",
+    "cik": "0001412665"
+  },
+  {
+    "ticker": "JFIN",
+    "name": "Jiayin Group Inc.",
+    "cik": "0001743102"
+  },
+  {
+    "ticker": "BXC",
+    "name": "BlueLinx Holdings Inc.",
+    "cik": "0001301787"
+  },
+  {
+    "ticker": "KOP",
+    "name": "Koppers Holdings Inc.",
+    "cik": "0001315257"
+  },
+  {
+    "ticker": "EUBG",
+    "name": "ENTREPRENEUR UNIVERSE BRIGHT GROUP",
+    "cik": "0001171326"
+  },
+  {
+    "ticker": "ARCT",
+    "name": "Arcturus Therapeutics Holdings Inc.",
+    "cik": "0001768224"
+  },
+  {
+    "ticker": "CLPT",
+    "name": "ClearPoint Neuro, Inc.",
+    "cik": "0001285550"
+  },
+  {
+    "ticker": "CVLG",
+    "name": "COVENANT LOGISTICS GROUP, INC.",
+    "cik": "0000928658"
+  },
+  {
+    "ticker": "HCKT",
+    "name": "HACKETT GROUP, INC.",
+    "cik": "0001057379"
+  },
+  {
+    "ticker": "QSG",
+    "name": "QuantaSing Group Ltd",
+    "cik": "0001932770"
+  },
+  {
+    "ticker": "CODI",
+    "name": "Compass Diversified Holdings",
+    "cik": "0001345126"
+  },
+  {
+    "ticker": "RMAX",
+    "name": "RE/MAX Holdings, Inc.",
+    "cik": "0001581091"
+  },
+  {
+    "ticker": "LZMH",
+    "name": "LZ Technology Holdings Ltd",
+    "cik": "0001967397"
+  },
+  {
+    "ticker": "NRGV",
+    "name": "Energy Vault Holdings, Inc.",
+    "cik": "0001828536"
+  },
+  {
+    "ticker": "SRDX",
+    "name": "SURMODICS INC",
+    "cik": "0000924717"
+  },
+  {
+    "ticker": "RPAY",
+    "name": "Repay Holdings Corp",
+    "cik": "0001720592"
+  },
+  {
+    "ticker": "XRX",
+    "name": "Xerox Holdings Corp",
+    "cik": "0001770450"
+  },
+  {
+    "ticker": "FRPH",
+    "name": "FRP HOLDINGS, INC.",
+    "cik": "0000844059"
+  },
+  {
+    "ticker": "ZKH",
+    "name": "ZKH Group Ltd",
+    "cik": "0001862044"
+  },
+  {
+    "ticker": "GTEN",
+    "name": "Gores Holdings X, Inc. / CI",
+    "cik": "0001986817"
+  },
+  {
+    "ticker": "ATGL",
+    "name": "Alpha Technology Group Ltd",
+    "cik": "0001967621"
+  },
+  {
+    "ticker": "ANPA",
+    "name": "Rich Sparkle Holdings Ltd",
+    "cik": "0002031688"
+  },
+  {
+    "ticker": "EBS",
+    "name": "Emergent BioSolutions Inc.",
+    "cik": "0001367644"
+  },
+  {
+    "ticker": "PACK",
+    "name": "Ranpak Holdings Corp.",
+    "cik": "0001712463"
+  },
+  {
+    "ticker": "GRRR",
+    "name": "Gorilla Technology Group Inc.",
+    "cik": "0001903145"
+  },
+  {
+    "ticker": "AMBC",
+    "name": "AMBAC FINANCIAL GROUP INC",
+    "cik": "0000874501"
+  },
+  {
+    "ticker": "MOV",
+    "name": "MOVADO GROUP INC",
+    "cik": "0000072573"
+  },
+  {
+    "ticker": "SDM",
+    "name": "Smart Digital Group Ltd",
+    "cik": "0002014955"
+  },
+  {
+    "ticker": "GBLI",
+    "name": "Global Indemnity Group, LLC",
+    "cik": "0001494904"
+  },
+  {
+    "ticker": "TSNDF",
+    "name": "TerrAscend Corp.",
+    "cik": "0001778129"
+  },
+  {
+    "ticker": "HYLN",
+    "name": "Hyliion Holdings Corp.",
+    "cik": "0001759631"
+  },
+  {
+    "ticker": "SGU",
+    "name": "STAR GROUP, L.P.",
+    "cik": "0001002590"
+  },
+  {
+    "ticker": "RITR",
+    "name": "Reitar Logtech Holdings Ltd",
+    "cik": "0001951229"
+  },
+  {
+    "ticker": "DHIL",
+    "name": "DIAMOND HILL INVESTMENT GROUP INC",
+    "cik": "0000909108"
+  },
+  {
+    "ticker": "SENS",
+    "name": "Senseonics Holdings, Inc.",
+    "cik": "0001616543"
+  },
+  {
+    "ticker": "VPG",
+    "name": "Vishay Precision Group, Inc.",
+    "cik": "0001487952"
+  },
+  {
+    "ticker": "LXFR",
+    "name": "LUXFER HOLDINGS PLC",
+    "cik": "0001096056"
+  },
+  {
+    "ticker": "SPOK",
+    "name": "Spok Holdings, Inc",
+    "cik": "0001289945"
+  },
+  {
+    "ticker": "LCTX",
+    "name": "Lineage Cell Therapeutics, Inc.",
+    "cik": "0000876343"
+  },
+  {
+    "ticker": "BWFG",
+    "name": "Bankwell Financial Group, Inc.",
+    "cik": "0001505732"
+  },
+  {
+    "ticker": "NGS",
+    "name": "NATURAL GAS SERVICES GROUP INC",
+    "cik": "0001084991"
+  },
+  {
+    "ticker": "MCFT",
+    "name": "MasterCraft Boat Holdings, Inc.",
+    "cik": "0001638290"
+  },
+  {
+    "ticker": "PDLB",
+    "name": "Ponce Financial Group, Inc.",
+    "cik": "0001874071"
+  },
+  {
+    "ticker": "REPL",
+    "name": "Replimune Group, Inc.",
+    "cik": "0001737953"
+  },
+  {
+    "ticker": "LUD",
+    "name": "Luda Technology Group Ltd",
+    "cik": "0001984124"
+  },
+  {
+    "ticker": "ONIT",
+    "name": "ONITY GROUP INC.",
+    "cik": "0000873860"
+  },
+  {
+    "ticker": "CUB",
+    "name": "Lionheart Holdings",
+    "cik": "0002015955"
+  },
+  {
+    "ticker": "BKKT",
+    "name": "Bakkt Holdings, Inc.",
+    "cik": "0001820302"
+  },
+  {
+    "ticker": "AREN",
+    "name": "Arena Group Holdings, Inc.",
+    "cik": "0000894871"
+  },
+  {
+    "ticker": "MHN",
+    "name": "BLACKROCK MUNIHOLDINGS NEW YORK QUALITY FUND, INC.",
+    "cik": "0001038186"
+  },
+  {
+    "ticker": "MG",
+    "name": "Mistras Group, Inc.",
+    "cik": "0001436126"
+  },
+  {
+    "ticker": "LOCO",
+    "name": "El Pollo Loco Holdings, Inc.",
+    "cik": "0001606366"
+  },
+  {
+    "ticker": "PCB",
+    "name": "PCB BANCORP",
+    "cik": "0001423869"
+  },
+  {
+    "ticker": "PKOH",
+    "name": "PARK OHIO HOLDINGS CORP",
+    "cik": "0000076282"
+  },
+  {
+    "ticker": "BIOT",
+    "name": "Relativity Holdings Inc.",
+    "cik": "0002072188"
+  },
+  {
+    "ticker": "WEYS",
+    "name": "WEYCO GROUP INC",
+    "cik": "0000106532"
+  },
+  {
+    "ticker": "MREO",
+    "name": "Mereo BioPharma Group plc",
+    "cik": "0001719714"
+  },
+  {
+    "ticker": "III",
+    "name": "Information Services Group Inc.",
+    "cik": "0001371489"
+  },
+  {
+    "ticker": "CAF",
+    "name": "Morgan Stanley China A Share Fund, Inc.",
+    "cik": "0001368493"
+  },
+  {
+    "ticker": "RMR",
+    "name": "RMR GROUP INC.",
+    "cik": "0001644378"
+  },
+  {
+    "ticker": "JRVR",
+    "name": "James River Group Holdings, Ltd.",
+    "cik": "0001620459"
+  },
+  {
+    "ticker": "COE",
+    "name": "51Talk Online Education Group",
+    "cik": "0001659494"
+  },
+  {
+    "ticker": "CHPT",
+    "name": "ChargePoint Holdings, Inc.",
+    "cik": "0001777393"
+  },
+  {
+    "ticker": "AEF",
+    "name": "abrdn Emerging Markets ex-China Fund, Inc.",
+    "cik": "0000846676"
+  },
+  {
+    "ticker": "SDA",
+    "name": "SunCar Technology Group Inc.",
+    "cik": "0001936804"
+  },
+  {
+    "ticker": "PSF",
+    "name": "Cohen & Steers Select Preferred & Income Fund, Inc.",
+    "cik": "0001498612"
+  },
+  {
+    "ticker": "ZY",
+    "name": "China Tobacco & Alcohol Group Ltd",
+    "cik": "0002025180"
+  },
+  {
+    "ticker": "LANV",
+    "name": "Lanvin Group Holdings Ltd",
+    "cik": "0001922097"
+  },
+  {
+    "ticker": "RICK",
+    "name": "RCI HOSPITALITY HOLDINGS, INC.",
+    "cik": "0000935419"
+  },
+  {
+    "ticker": "UHG",
+    "name": "United Homes Group, Inc.",
+    "cik": "0001830188"
+  },
+  {
+    "ticker": "THH",
+    "name": "TryHard Holdings Ltd",
+    "cik": "0002044241"
+  },
+  {
+    "ticker": "SWIN",
+    "name": "Solowin Holdings, Ltd.",
+    "cik": "0001959224"
+  },
+  {
+    "ticker": "EFTY",
+    "name": "ETOILES CAPITAL GROUP CO., LTD",
+    "cik": "0002058349"
+  },
+  {
+    "ticker": "ALTG",
+    "name": "ALTA EQUIPMENT GROUP INC.",
+    "cik": "0001759824"
+  },
+  {
+    "ticker": "DOYU",
+    "name": "DouYu International Holdings Ltd",
+    "cik": "0001762417"
+  },
+  {
+    "ticker": "INGN",
+    "name": "Inogen Inc",
+    "cik": "0001294133"
+  },
+  {
+    "ticker": "GHG",
+    "name": "GreenTree Hospitality Group Ltd.",
+    "cik": "0001724755"
+  },
+  {
+    "ticker": "KG",
+    "name": "Kestrel Group Ltd",
+    "cik": "0002055116"
+  },
+  {
+    "ticker": "MUE",
+    "name": "BLACKROCK MUNIHOLDINGS QUALITY FUND II, INC.",
+    "cik": "0001071899"
+  },
+  {
+    "ticker": "BRLT",
+    "name": "Brilliant Earth Group, Inc.",
+    "cik": "0001866757"
+  },
+  {
+    "ticker": "FRGE",
+    "name": "Forge Global Holdings, Inc.",
+    "cik": "0001827821"
+  },
+  {
+    "ticker": "SLS",
+    "name": "SELLAS Life Sciences Group, Inc.",
+    "cik": "0001390478"
+  },
+  {
+    "ticker": "INFU",
+    "name": "InfuSystem Holdings, Inc",
+    "cik": "0001337013"
+  },
+  {
+    "ticker": "NIPG",
+    "name": "NIP Group Inc.",
+    "cik": "0001966233"
+  },
+  {
+    "ticker": "XTKG",
+    "name": "X3 Holdings Co., Ltd.",
+    "cik": "0001754323"
+  },
+  {
+    "ticker": "CHOW",
+    "name": "ChowChow Cloud International Holdings Ltd",
+    "cik": "0002041829"
+  },
+  {
+    "ticker": "FSFG",
+    "name": "First Savings Financial Group, Inc.",
+    "cik": "0001435508"
+  },
+  {
+    "ticker": "HFFG",
+    "name": "HF Foods Group Inc.",
+    "cik": "0001680873"
+  },
+  {
+    "ticker": "SMHI",
+    "name": "SEACOR Marine Holdings Inc.",
+    "cik": "0001690334"
+  },
+  {
+    "ticker": "TTEC",
+    "name": "TTEC Holdings, Inc.",
+    "cik": "0001013880"
+  },
+  {
+    "ticker": "CURV",
+    "name": "Torrid Holdings Inc.",
+    "cik": "0001792781"
+  },
+  {
+    "ticker": "PHOE",
+    "name": "Phoenix Asia Holdings Ltd",
+    "cik": "0002035709"
+  },
+  {
+    "ticker": "SWKH",
+    "name": "SWK Holdings Corp",
+    "cik": "0001089907"
+  },
+  {
+    "ticker": "PPIH",
+    "name": "Perma-Pipe International Holdings, Inc.",
+    "cik": "0000914122"
+  },
+  {
+    "ticker": "ONEG",
+    "name": "OneConstruction Group Ltd",
+    "cik": "0002030834"
+  },
+  {
+    "ticker": "TVGN",
+    "name": "Tevogen Bio Holdings Inc.",
+    "cik": "0001860871"
+  },
+  {
+    "ticker": "SGC",
+    "name": "SUPERIOR GROUP OF COMPANIES, INC.",
+    "cik": "0000095574"
+  },
+  {
+    "ticker": "CHN",
+    "name": "China Fund, Inc.",
+    "cik": "0000845379"
+  },
+  {
+    "ticker": "SPCE",
+    "name": "Virgin Galactic Holdings, Inc",
+    "cik": "0001706946"
+  },
+  {
+    "ticker": "SXTC",
+    "name": "China SXT Pharmaceuticals, Inc.",
+    "cik": "0001723980"
+  },
+  {
+    "ticker": "WHG",
+    "name": "WESTWOOD HOLDINGS GROUP INC",
+    "cik": "0001165002"
+  },
+  {
+    "ticker": "MB",
+    "name": "MASTERBEEF GROUP",
+    "cik": "0002027265"
+  },
+  {
+    "ticker": "FOSL",
+    "name": "Fossil Group, Inc.",
+    "cik": "0000883569"
+  },
+  {
+    "ticker": "ESGL",
+    "name": "ESGL Holdings Ltd",
+    "cik": "0001957538"
+  },
+  {
+    "ticker": "DUOT",
+    "name": "DUOS TECHNOLOGIES GROUP, INC.",
+    "cik": "0001396536"
+  },
+  {
+    "ticker": "HAIN",
+    "name": "HAIN CELESTIAL GROUP INC",
+    "cik": "0000910406"
+  },
+  {
+    "ticker": "CAAS",
+    "name": "China Automotive Systems, Inc.",
+    "cik": "0002037400"
+  },
+  {
+    "ticker": "HIND",
+    "name": "Vyome Holdings, Inc",
+    "cik": "0001427570"
+  },
+  {
+    "ticker": "DCGO",
+    "name": "DocGo Inc.",
+    "cik": "0001822359"
+  },
+  {
+    "ticker": "CRBP",
+    "name": "Corbus Pharmaceuticals Holdings, Inc.",
+    "cik": "0001595097"
+  },
+  {
+    "ticker": "TGE",
+    "name": "Generation Essentials Group",
+    "cik": "0002053456"
+  },
+  {
+    "ticker": "DHX",
+    "name": "DHI GROUP, INC.",
+    "cik": "0001393883"
+  },
+  {
+    "ticker": "SAMG",
+    "name": "Silvercrest Asset Management Group Inc.",
+    "cik": "0001549966"
+  },
+  {
+    "ticker": "UCL",
+    "name": "uCloudlink Group Inc.",
+    "cik": "0001775898"
+  },
+  {
+    "ticker": "BUUU",
+    "name": "BUUU Group Ltd",
+    "cik": "0002047273"
+  },
+  {
+    "ticker": "OBIO",
+    "name": "Orchestra BioMed Holdings, Inc.",
+    "cik": "0001814114"
+  },
+  {
+    "ticker": "SBFG",
+    "name": "SB FINANCIAL GROUP, INC.",
+    "cik": "0000767405"
+  },
+  {
+    "ticker": "NCSM",
+    "name": "NCS Multistage Holdings, Inc.",
+    "cik": "0001692427"
+  },
+  {
+    "ticker": "CTW",
+    "name": "CTW Cayman",
+    "cik": "0002047148"
+  },
+  {
+    "ticker": "CURR",
+    "name": "Currenc Group Inc.",
+    "cik": "0001862935"
+  },
+  {
+    "ticker": "NVNI",
+    "name": "Nvni Group Ltd",
+    "cik": "0001965143"
+  },
+  {
+    "ticker": "STG",
+    "name": "Sunlands Technology Group",
+    "cik": "0001723935"
+  },
+  {
+    "ticker": "LHSW",
+    "name": "Lianhe Sowell International Group Ltd",
+    "cik": "0002004024"
+  },
+  {
+    "ticker": "YOUL",
+    "name": "Youlife Group Inc.",
+    "cik": "0002028177"
+  },
+  {
+    "ticker": "EMPG",
+    "name": "Empro Group Inc.",
+    "cik": "0002005569"
+  },
+  {
+    "ticker": "CCG",
+    "name": "Cheche Group Inc.",
+    "cik": "0001965473"
+  },
+  {
+    "ticker": "ICG",
+    "name": "Intchains Group Ltd",
+    "cik": "0001895597"
+  },
+  {
+    "ticker": "VSME",
+    "name": "VS MEDIA Holdings Ltd",
+    "cik": "0001951294"
+  },
+  {
+    "ticker": "QVCGA",
+    "name": "QVC Group, Inc.",
+    "cik": "0001355096"
+  },
+  {
+    "ticker": "CPOP",
+    "name": "Pop Culture Group Co., Ltd",
+    "cik": "0001807389"
+  },
+  {
+    "ticker": "HUHU",
+    "name": "HUHUTECH International Group Inc.",
+    "cik": "0001945415"
+  },
+  {
+    "ticker": "DLXY",
+    "name": "Delixy Holdings Ltd",
+    "cik": "0002025218"
+  },
+  {
+    "ticker": "DOMH",
+    "name": "Dominari Holdings Inc.",
+    "cik": "0000012239"
+  },
+  {
+    "ticker": "PROV",
+    "name": "PROVIDENT FINANCIAL HOLDINGS INC",
+    "cik": "0001010470"
+  },
+  {
+    "ticker": "SPWH",
+    "name": "SPORTSMAN'S WAREHOUSE HOLDINGS, INC.",
+    "cik": "0001132105"
+  },
+  {
+    "ticker": "KNDI",
+    "name": "Kandi Technologies Group, Inc.",
+    "cik": "0001720250"
+  },
+  {
+    "ticker": "ENGS",
+    "name": "Energys Group Ltd",
+    "cik": "0001971828"
+  },
+  {
+    "ticker": "TCRX",
+    "name": "TScan Therapeutics, Inc.",
+    "cik": "0001783328"
+  },
+  {
+    "ticker": "BAER",
+    "name": "Bridger Aerospace Group Holdings, Inc.",
+    "cik": "0001941536"
+  },
+  {
+    "ticker": "GRAN",
+    "name": "Grande Group Ltd/HK",
+    "cik": "0002027722"
+  },
+  {
+    "ticker": "SOGP",
+    "name": "Sound Group Inc.",
+    "cik": "0001783407"
+  },
+  {
+    "ticker": "CODA",
+    "name": "Coda Octopus Group, Inc.",
+    "cik": "0001334325"
+  },
+  {
+    "ticker": "GENK",
+    "name": "GEN Restaurant Group, Inc.",
+    "cik": "0001891856"
+  },
+  {
+    "ticker": "CNTB",
+    "name": "Connect Biopharma Holdings Ltd",
+    "cik": "0001835268"
+  },
+  {
+    "ticker": "ASRT",
+    "name": "Assertio Holdings, Inc.",
+    "cik": "0001808665"
+  },
+  {
+    "ticker": "BMHL",
+    "name": "Bluemount Holdings Ltd",
+    "cik": "0002027815"
+  },
+  {
+    "ticker": "OPXS",
+    "name": "Optex Systems Holdings Inc",
+    "cik": "0001397016"
+  },
+  {
+    "ticker": "BDMD",
+    "name": "Baird Medical Investment Holdings Ltd",
+    "cik": "0001982444"
+  },
+  {
+    "ticker": "MPU",
+    "name": "Mega Matrix Inc",
+    "cik": "0001953021"
+  },
+  {
+    "ticker": "AMPG",
+    "name": "AmpliTech Group, Inc.",
+    "cik": "0001518461"
+  },
+  {
+    "ticker": "CHUC",
+    "name": "Charlie's Holdings, Inc.",
+    "cik": "0001134765"
+  },
+  {
+    "ticker": "ALXO",
+    "name": "ALX ONCOLOGY HOLDINGS INC",
+    "cik": "0001810182"
+  },
+  {
+    "ticker": "XTNT",
+    "name": "Xtant Medical Holdings, Inc.",
+    "cik": "0001453593"
+  },
+  {
+    "ticker": "STKS",
+    "name": "ONE Group Hospitality, Inc.",
+    "cik": "0001399520"
+  },
+  {
+    "ticker": "DLHC",
+    "name": "DLH Holdings Corp.",
+    "cik": "0000785557"
+  },
+  {
+    "ticker": "GMHS",
+    "name": "Gamehaus Holdings Inc.",
+    "cik": "0002000530"
+  },
+  {
+    "ticker": "YGMZ",
+    "name": "MingZhu Logistics Holdings Ltd",
+    "cik": "0001782037"
+  },
+  {
+    "ticker": "DDC",
+    "name": "DDC Enterprise Ltd",
+    "cik": "0001808110"
+  },
+  {
+    "ticker": "GEG",
+    "name": "Great Elm Group, Inc.",
+    "cik": "0001831096"
+  },
+  {
+    "ticker": "HLP",
+    "name": "Hongli Group Inc.",
+    "cik": "0001855557"
+  },
+  {
+    "ticker": "WYHG",
+    "name": "Wing Yip Food Holdings Group Ltd",
+    "cik": "0001999860"
+  },
+  {
+    "ticker": "SLNH",
+    "name": "Soluna Holdings, Inc",
+    "cik": "0000064463"
+  },
+  {
+    "ticker": "DXLG",
+    "name": "DESTINATION XL GROUP, INC.",
+    "cik": "0000813298"
+  },
+  {
+    "ticker": "TIRX",
+    "name": "TIAN RUIXIANG HOLDINGS LTD",
+    "cik": "0001782941"
+  },
+  {
+    "ticker": "XBP",
+    "name": "XBP Global Holdings, Inc.",
+    "cik": "0001839530"
+  },
+  {
+    "ticker": "NOTE",
+    "name": "FiscalNote Holdings, Inc.",
+    "cik": "0001823466"
+  },
+  {
+    "ticker": "DSY",
+    "name": "Big Tree Cloud Holdings Ltd",
+    "cik": "0001999297"
+  },
+  {
+    "ticker": "BOTJ",
+    "name": "BANK OF THE JAMES FINANCIAL GROUP INC",
+    "cik": "0001275101"
+  },
+  {
+    "ticker": "GROV",
+    "name": "Grove Collaborative Holdings, Inc.",
+    "cik": "0001841761"
+  },
+  {
+    "ticker": "CVGI",
+    "name": "Commercial Vehicle Group, Inc.",
+    "cik": "0001290900"
+  },
+  {
+    "ticker": "OPTX",
+    "name": "SYNTEC OPTICS HOLDINGS, INC.",
+    "cik": "0001866816"
+  },
+  {
+    "ticker": "HCHL",
+    "name": "Happy City Holdings Ltd",
+    "cik": "0002046656"
+  },
+  {
+    "ticker": "JZXN",
+    "name": "Jiuzi Holdings, Inc.",
+    "cik": "0001816172"
+  },
+  {
+    "ticker": "LXEH",
+    "name": "Lixiang Education Holding Co. Ltd.",
+    "cik": "0001814067"
+  },
+  {
+    "ticker": "STEC",
+    "name": "Santech Holdings Ltd",
+    "cik": "0001785680"
+  },
+  {
+    "ticker": "ITHUF",
+    "name": "iANTHUS CAPITAL HOLDINGS, INC.",
+    "cik": "0001643154"
+  },
+  {
+    "ticker": "BEDU",
+    "name": "Bright Scholar Education Holdings Ltd",
+    "cik": "0001696355"
+  },
+  {
+    "ticker": "MESA",
+    "name": "MESA AIR GROUP INC",
+    "cik": "0000810332"
+  },
+  {
+    "ticker": "DMYY",
+    "name": "dMY Squared Technology Group, Inc.",
+    "cik": "0001915380"
+  },
+  {
+    "ticker": "USPCY",
+    "name": "USPACE Technology Group Limited/ADR",
+    "cik": "0001939479"
+  },
+  {
+    "ticker": "RFL",
+    "name": "Rafael Holdings, Inc.",
+    "cik": "0001713863"
+  },
+  {
+    "ticker": "NHTC",
+    "name": "NATURAL HEALTH TRENDS CORP",
+    "cik": "0000912061"
+  },
+  {
+    "ticker": "RECT",
+    "name": "Rectitude Holdings Ltd.",
+    "cik": "0001995116"
+  },
+  {
+    "ticker": "PLUT",
+    "name": "Plutus Financial Group Ltd",
+    "cik": "0001933021"
+  },
+  {
+    "ticker": "YXT",
+    "name": "YXT.COM GROUP HOLDING Ltd",
+    "cik": "0001872090"
+  },
+  {
+    "ticker": "CGEH",
+    "name": "Capstone Green Energy Holdings, Inc.",
+    "cik": "0001009759"
+  },
+  {
+    "ticker": "HAFG",
+    "name": "Holistic Asset Finance Group Co., Ltd.",
+    "cik": "0001367993"
+  },
+  {
+    "ticker": "AMOD",
+    "name": "ALPHA MODUS HOLDINGS, INC.",
+    "cik": "0001862463"
+  },
+  {
+    "ticker": "HTCO",
+    "name": "High-Trend International Group",
+    "cik": "0001928948"
+  },
+  {
+    "ticker": "WOK",
+    "name": "WORK Medical Technology Group LTD",
+    "cik": "0001929783"
+  },
+  {
+    "ticker": "OPHC",
+    "name": "OptimumBank Holdings, Inc.",
+    "cik": "0001288855"
+  },
+  {
+    "ticker": "KORE",
+    "name": "KORE Group Holdings, Inc.",
+    "cik": "0001855457"
+  },
+  {
+    "ticker": "BEWFF",
+    "name": "BEWHERE HOLDINGS INC",
+    "cik": "0001113152"
+  },
+  {
+    "ticker": "AP",
+    "name": "AMPCO PITTSBURGH CORP",
+    "cik": "0000006176"
+  },
+  {
+    "ticker": "TOP",
+    "name": "TOP Financial Group Ltd",
+    "cik": "0001848275"
+  },
+  {
+    "ticker": "IVFH",
+    "name": "INNOVATIVE FOOD HOLDINGS INC",
+    "cik": "0000312257"
+  },
+  {
+    "ticker": "JBDI",
+    "name": "JBDI Holdings Ltd",
+    "cik": "0001964314"
+  },
+  {
+    "ticker": "JETMF",
+    "name": "Global Crossing Airlines Group Inc.",
+    "cik": "0001846084"
+  },
+  {
+    "ticker": "MSW",
+    "name": "Ming Shing Group Holdings Ltd",
+    "cik": "0001956166"
+  },
+  {
+    "ticker": "BLIV",
+    "name": "BeLive Holdings",
+    "cik": "0001982448"
+  },
+  {
+    "ticker": "SNTI",
+    "name": "Senti Biosciences, Inc.",
+    "cik": "0001854270"
+  },
+  {
+    "ticker": "LGL",
+    "name": "LGL GROUP INC",
+    "cik": "0000061004"
+  },
+  {
+    "ticker": "RTCJF",
+    "name": "Baijiayun Group Ltd",
+    "cik": "0001381074"
+  },
+  {
+    "ticker": "KLXE",
+    "name": "KLX Energy Services Holdings, Inc.",
+    "cik": "0001738827"
+  },
+  {
+    "ticker": "RANI",
+    "name": "Rani Therapeutics Holdings, Inc.",
+    "cik": "0001856725"
+  },
+  {
+    "ticker": "BMGL",
+    "name": "Basel Medical Group Ltd",
+    "cik": "0002004489"
+  },
+  {
+    "ticker": "SKBL",
+    "name": "Skyline Builders Group Holding Ltd",
+    "cik": "0002031009"
+  },
+  {
+    "ticker": "KMRK",
+    "name": "K-TECH SOLUTIONS CO LTD",
+    "cik": "0002049187"
+  },
+  {
+    "ticker": "DBGI",
+    "name": "Digital Brands Group, Inc.",
+    "cik": "0001668010"
+  },
+  {
+    "ticker": "EBON",
+    "name": "Ebang International Holdings Inc.",
+    "cik": "0001799290"
+  },
+  {
+    "ticker": "GREE",
+    "name": "Greenidge Generation Holdings Inc.",
+    "cik": "0001844971"
+  },
+  {
+    "ticker": "MGIH",
+    "name": "Millennium Group International Holdings Ltd",
+    "cik": "0001903995"
+  },
+  {
+    "ticker": "MCTR",
+    "name": "CTRL GROUP Ltd",
+    "cik": "0001969928"
+  },
+  {
+    "ticker": "IZM",
+    "name": "ICZOOM Group Inc.",
+    "cik": "0001854572"
+  },
+  {
+    "ticker": "BFNH",
+    "name": "BIOFORCE NANOSCIENCES HOLDINGS, INC.",
+    "cik": "0001310488"
+  },
+  {
+    "ticker": "CCM",
+    "name": "Concord Medical Services Holdings Ltd",
+    "cik": "0001472072"
+  },
+  {
+    "ticker": "SGRP",
+    "name": "SPAR Group, Inc.",
+    "cik": "0001004989"
+  },
+  {
+    "ticker": "DUO",
+    "name": "Fangdd Network Group Ltd.",
+    "cik": "0001750593"
+  },
+  {
+    "ticker": "SOND",
+    "name": "Sonder Holdings Inc.",
+    "cik": "0001819395"
+  },
+  {
+    "ticker": "JL",
+    "name": "J-Long Group Ltd",
+    "cik": "0001948436"
+  },
+  {
+    "ticker": "GSUN",
+    "name": "Golden Sun Health Technology Group Ltd",
+    "cik": "0001826376"
+  },
+  {
+    "ticker": "MJID",
+    "name": "Majestic Ideal Holdings Ltd",
+    "cik": "0001897532"
+  },
+  {
+    "ticker": "UTSI",
+    "name": "UTSTARCOM HOLDINGS CORP.",
+    "cik": "0001030471"
+  },
+  {
+    "ticker": "BGI",
+    "name": "BIRKS GROUP INC.",
+    "cik": "0001179821"
+  },
+  {
+    "ticker": "STLY",
+    "name": "HG Holdings, Inc.",
+    "cik": "0000797465"
+  },
+  {
+    "ticker": "CUPR",
+    "name": "Cuprina Holdings (Cayman) LTD",
+    "cik": "0001995704"
+  },
+  {
+    "ticker": "CNF",
+    "name": "CNFinance Holdings Ltd.",
+    "cik": "0001733868"
+  },
+  {
+    "ticker": "SONN",
+    "name": "Sonnet BioTherapeutics Holdings, Inc.",
+    "cik": "0001106838"
+  },
+  {
+    "ticker": "EJH",
+    "name": "E-Home Household Service Holdings Ltd",
+    "cik": "0001769768"
+  },
+  {
+    "ticker": "HUDI",
+    "name": "Huadi International Group Co., Ltd.",
+    "cik": "0001791725"
+  },
+  {
+    "ticker": "FGL",
+    "name": "Founder Group Ltd",
+    "cik": "0001989930"
+  },
+  {
+    "ticker": "DFLI",
+    "name": "Dragonfly Energy Holdings Corp.",
+    "cik": "0001847986"
+  },
+  {
+    "ticker": "ARBB",
+    "name": "ARB IOT Group Ltd",
+    "cik": "0001930179"
+  },
+  {
+    "ticker": "ASBP",
+    "name": "Aspire Biopharma Holdings, Inc.",
+    "cik": "0001847345"
+  },
+  {
+    "ticker": "WKHS",
+    "name": "Workhorse Group Inc.",
+    "cik": "0001425287"
+  },
+  {
+    "ticker": "NISN",
+    "name": "Nisun International Enterprise Development Group Co., Ltd",
+    "cik": "0001603993"
+  },
+  {
+    "ticker": "GDHG",
+    "name": "GOLDEN HEAVEN GROUP HOLDINGS LTD.",
+    "cik": "0001928340"
+  },
+  {
+    "ticker": "HXHX",
+    "name": "Haoxin Holdings Ltd",
+    "cik": "0001936817"
+  },
+  {
+    "ticker": "PTHL",
+    "name": "Pheton Holdings Ltd",
+    "cik": "0001970544"
+  },
+  {
+    "ticker": "OFAL",
+    "name": "OFA Group",
+    "cik": "0002036307"
+  },
+  {
+    "ticker": "MFON",
+    "name": "MOBIVITY HOLDINGS CORP.",
+    "cik": "0001447380"
+  },
+  {
+    "ticker": "ABP",
+    "name": "Abpro Holdings, Inc.",
+    "cik": "0001893219"
+  },
+  {
+    "ticker": "ABTS",
+    "name": "Abits Group Inc",
+    "cik": "0001864055"
+  },
+  {
+    "ticker": "PN",
+    "name": "Skycorp Solar Group Ltd",
+    "cik": "0002001288"
+  },
+  {
+    "ticker": "YQ",
+    "name": "17 Education & Technology Group Inc.",
+    "cik": "0001821468"
+  },
+  {
+    "ticker": "GLE",
+    "name": "Global Engine Group Holding Ltd",
+    "cik": "0001908705"
+  },
+  {
+    "ticker": "HKPD",
+    "name": "Hong Kong Pharma Digital Technology Holdings Ltd",
+    "cik": "0002007702"
+  },
+  {
+    "ticker": "AEHL",
+    "name": "Antelope Enterprise Holdings Ltd",
+    "cik": "0001470683"
+  },
+  {
+    "ticker": "CWBHF",
+    "name": "Charlotte's Web Holdings, Inc.",
+    "cik": "0001750155"
+  },
+  {
+    "ticker": "TLIH",
+    "name": "Ten-League International Holdings Ltd",
+    "cik": "0001982012"
+  },
+  {
+    "ticker": "PT",
+    "name": "Pintec Technology Holdings Ltd",
+    "cik": "0001716338"
+  },
+  {
+    "ticker": "KRKR",
+    "name": "36Kr Holdings Inc.",
+    "cik": "0001779476"
+  },
+  {
+    "ticker": "COOT",
+    "name": "Australian Oilseeds Holdings Ltd",
+    "cik": "0001959994"
+  },
+  {
+    "ticker": "OXBR",
+    "name": "OXBRIDGE RE HOLDINGS Ltd",
+    "cik": "0001584831"
+  },
+  {
+    "ticker": "AGMH",
+    "name": "AGM GROUP HOLDINGS, INC.",
+    "cik": "0001705402"
+  },
+  {
+    "ticker": "INEO",
+    "name": "INNEOVA Holdings Ltd",
+    "cik": "0001933951"
+  },
+  {
+    "ticker": "CNEY",
+    "name": "CN ENERGY GROUP. INC.",
+    "cik": "0001780785"
+  },
+  {
+    "ticker": "PC",
+    "name": "Premium Catering (Holdings) Ltd",
+    "cik": "0001998056"
+  },
+  {
+    "ticker": "AIRI",
+    "name": "AIR INDUSTRIES GROUP",
+    "cik": "0001009891"
+  },
+  {
+    "ticker": "SFHG",
+    "name": "SAMFINE CREATION HOLDINGS GROUP Ltd",
+    "cik": "0001926792"
+  },
+  {
+    "ticker": "RYDE",
+    "name": "Ryde Group Ltd",
+    "cik": "0001971115"
+  },
+  {
+    "ticker": "CCTG",
+    "name": "CCSC Technology International Holdings Ltd",
+    "cik": "0001931717"
+  },
+  {
+    "ticker": "OSRH",
+    "name": "OSR Holdings, Inc.",
+    "cik": "0001840425"
+  },
+  {
+    "ticker": "CNFR",
+    "name": "Conifer Holdings, Inc.",
+    "cik": "0001502292"
+  },
+  {
+    "ticker": "INTJ",
+    "name": "Intelligent Group Ltd",
+    "cik": "0001916416"
+  },
+  {
+    "ticker": "ILAG",
+    "name": "Intelligent Living Application Group Inc.",
+    "cik": "0001814963"
+  },
+  {
+    "ticker": "PLAG",
+    "name": "Planet Green Holdings Corp.",
+    "cik": "0001117057"
+  },
+  {
+    "ticker": "LVLU",
+    "name": "Lulu's Fashion Lounge Holdings, Inc.",
+    "cik": "0001780201"
+  },
+  {
+    "ticker": "CFOO",
+    "name": "China Foods Holdings Ltd.",
+    "cik": "0001310630"
+  },
+  {
+    "ticker": "NCEW",
+    "name": "New Century Logistics (BVI) Ltd",
+    "cik": "0001968043"
+  },
+  {
+    "ticker": "CGTL",
+    "name": "Creative Global Technology Holdings Ltd",
+    "cik": "0001967822"
+  },
+  {
+    "ticker": "APM",
+    "name": "Aptorum Group Ltd",
+    "cik": "0001734005"
+  },
+  {
+    "ticker": "ZDAI",
+    "name": "Primega Group Holdings Ltd",
+    "cik": "0001966678"
+  },
+  {
+    "ticker": "BBGI",
+    "name": "BEASLEY BROADCAST GROUP INC",
+    "cik": "0001099160"
+  },
+  {
+    "ticker": "EKSO",
+    "name": "EKSO BIONICS HOLDINGS, INC.",
+    "cik": "0001549084"
+  },
+  {
+    "ticker": "RAYA",
+    "name": "Erayak Power Solution Group Inc.",
+    "cik": "0001825875"
+  },
+  {
+    "ticker": "ATXG",
+    "name": "ADDENTAX GROUP CORP.",
+    "cik": "0001650101"
+  },
+  {
+    "ticker": "PSIG",
+    "name": "PS International Group Ltd.",
+    "cik": "0001997201"
+  },
+  {
+    "ticker": "BSLK",
+    "name": "Bolt Projects Holdings, Inc.",
+    "cik": "0001841125"
+  },
+  {
+    "ticker": "PETZ",
+    "name": "TDH Holdings, Inc.",
+    "cik": "0001684425"
+  },
+  {
+    "ticker": "SRRE",
+    "name": "SUNRISE REAL ESTATE GROUP INC",
+    "cik": "0001083490"
+  },
+  {
+    "ticker": "WCT",
+    "name": "Wellchange Holdings Co Ltd",
+    "cik": "0001990251"
+  },
+  {
+    "ticker": "DXYN",
+    "name": "DIXIE GROUP INC",
+    "cik": "0000029332"
+  },
+  {
+    "ticker": "CLWT",
+    "name": "EURO TECH HOLDINGS CO LTD",
+    "cik": "0001026662"
+  },
+  {
+    "ticker": "GLXG",
+    "name": "Galaxy Payroll Group Ltd",
+    "cik": "0001905920"
+  },
+  {
+    "ticker": "JXG",
+    "name": "JX Luxventure Group Inc.",
+    "cik": "0001546383"
+  },
+  {
+    "ticker": "CDTG",
+    "name": "CDT Environmental Technology Investment Holdings Ltd",
+    "cik": "0001793895"
+  },
+  {
+    "ticker": "CLIK",
+    "name": "Click Holdings Ltd.",
+    "cik": "0002020027"
+  },
+  {
+    "ticker": "ORIS",
+    "name": "ORIENTAL RISE HOLDINGS Ltd",
+    "cik": "0001964664"
+  },
+  {
+    "ticker": "ZKIN",
+    "name": "ZK International Group Co., Ltd.",
+    "cik": "0001687451"
+  },
+  {
+    "ticker": "EPWK",
+    "name": "EPWK Holdings Ltd.",
+    "cik": "0001900720"
+  },
+  {
+    "ticker": "JEM",
+    "name": "707 Cayman Holdings Ltd.",
+    "cik": "0002018222"
+  },
+  {
+    "ticker": "KXIN",
+    "name": "Kaixin Holdings",
+    "cik": "0001713539"
+  },
+  {
+    "ticker": "GORV",
+    "name": "Lazydays Holdings, Inc.",
+    "cik": "0001721741"
+  },
+  {
+    "ticker": "OST",
+    "name": "Ostin Technology Group Co., Ltd.",
+    "cik": "0001803407"
+  },
+  {
+    "ticker": "ADN",
+    "name": "ADVENT TECHNOLOGIES HOLDINGS, INC.",
+    "cik": "0001744494"
+  },
+  {
+    "ticker": "MIGI",
+    "name": "Mawson Infrastructure Group Inc.",
+    "cik": "0001218683"
+  },
+  {
+    "ticker": "SUGP",
+    "name": "SU Group Holdings Ltd",
+    "cik": "0001969863"
+  },
+  {
+    "ticker": "SKK",
+    "name": "SKK Holdings Ltd",
+    "cik": "0001991261"
+  },
+  {
+    "ticker": "FLYYQ",
+    "name": "Spirit Aviation Holdings, Inc.",
+    "cik": "0001498710"
+  },
+  {
+    "ticker": "GVH",
+    "name": "Globavend Holdings Ltd",
+    "cik": "0001978527"
+  },
+  {
+    "ticker": "MASK",
+    "name": "3 E Network Technology Group Ltd",
+    "cik": "0001993097"
+  },
+  {
+    "ticker": "HIHO",
+    "name": "HIGHWAY HOLDINGS LTD",
+    "cik": "0001026785"
+  },
+  {
+    "ticker": "NCI",
+    "name": "Neo-Concept International Group Holdings Ltd",
+    "cik": "0001916331"
+  },
+  {
+    "ticker": "BIYA",
+    "name": "Baiya International Group Inc.",
+    "cik": "0001944712"
+  },
+  {
+    "ticker": "FTFT",
+    "name": "Future FinTech Group Inc.",
+    "cik": "0001066923"
+  },
+  {
+    "ticker": "CMGHF",
+    "name": "CHAODA MODERN AGRICULTURE HOLDINGS LTD /FI",
+    "cik": "0001169760"
+  },
+  {
+    "ticker": "FEBO",
+    "name": "Fenbo Holdings Ltd",
+    "cik": "0001957001"
+  },
+  {
+    "ticker": "WYGC",
+    "name": "Wenyuan Group Corp.",
+    "cik": "0000723533"
+  },
+  {
+    "ticker": "STRR",
+    "name": "Star Equity Holdings, Inc.",
+    "cik": "0001210708"
+  },
+  {
+    "ticker": "GIBO",
+    "name": "GIBO HOLDINGS Ltd",
+    "cik": "0002034520"
+  },
+  {
+    "ticker": "WAFU",
+    "name": "Wah Fu Education Group Ltd",
+    "cik": "0001716770"
+  },
+  {
+    "ticker": "CERO",
+    "name": "CERO THERAPEUTICS HOLDINGS, INC.",
+    "cik": "0001870404"
+  },
+  {
+    "ticker": "CPHI",
+    "name": "CHINA PHARMA HOLDINGS, INC.",
+    "cik": "0001106644"
+  },
+  {
+    "ticker": "JCSE",
+    "name": "JE Cleantech Holdings Ltd",
+    "cik": "0001905511"
+  },
+  {
+    "ticker": "PAIYY",
+    "name": "Aesthetic Medical International Holdings Group Ltd",
+    "cik": "0001757143"
+  },
+  {
+    "ticker": "CHNR",
+    "name": "CHINA NATURAL RESOURCES INC",
+    "cik": "0000793628"
+  },
+  {
+    "ticker": "RMSL",
+    "name": "RemSleep Holdings Inc.",
+    "cik": "0001412126"
+  },
+  {
+    "ticker": "LGHL",
+    "name": "Lion Group Holding Ltd",
+    "cik": "0001806524"
+  },
+  {
+    "ticker": "BAOS",
+    "name": "Baosheng Media Group Holdings Ltd",
+    "cik": "0001811216"
+  },
+  {
+    "ticker": "SNTG",
+    "name": "Sentage Holdings Inc.",
+    "cik": "0001810467"
+  },
+  {
+    "ticker": "AIEV",
+    "name": "Thunder Power Holdings, Inc.",
+    "cik": "0001912582"
+  },
+  {
+    "ticker": "SPHL",
+    "name": "SPRINGVIEW HOLDINGS LTD",
+    "cik": "0002002236"
+  },
+  {
+    "ticker": "JZ",
+    "name": "Jianzhi Education Technology Group Co Ltd",
+    "cik": "0001852440"
+  },
+  {
+    "ticker": "ELVG",
+    "name": "Elvictor Group, Inc.",
+    "cik": "0001741489"
+  },
+  {
+    "ticker": "STFS",
+    "name": "Star Fashion Culture Holdings Ltd",
+    "cik": "0002003061"
+  },
+  {
+    "ticker": "GNLN",
+    "name": "Greenlane Holdings, Inc.",
+    "cik": "0001743745"
+  },
+  {
+    "ticker": "CBIH",
+    "name": "Cannabis Bioscience International Holdings, Inc.",
+    "cik": "0001411057"
+  },
+  {
+    "ticker": "NIVF",
+    "name": "NewGenIvf Group Ltd",
+    "cik": "0001981662"
+  },
+  {
+    "ticker": "TRCK",
+    "name": "Track Group, Inc.",
+    "cik": "0001045942"
+  },
+  {
+    "ticker": "TWG",
+    "name": "Top Wealth Group Holding Ltd",
+    "cik": "0001978057"
+  },
+  {
+    "ticker": "TANH",
+    "name": "TANTECH HOLDINGS LTD",
+    "cik": "0001588084"
+  },
+  {
+    "ticker": "BLMZ",
+    "name": "Harrison Global Holdings Inc.",
+    "cik": "0001984014"
+  },
+  {
+    "ticker": "EEGI",
+    "name": "Eline Entertainment Group, Inc.",
+    "cik": "0001043150"
+  },
+  {
+    "ticker": "VRAX",
+    "name": "Virax Biolabs Group Ltd",
+    "cik": "0001885827"
+  },
+  {
+    "ticker": "HGYN",
+    "name": "HONG YUAN HOLDING GROUP",
+    "cik": "0001324759"
+  },
+  {
+    "ticker": "QSJC",
+    "name": "TANCHENG GROUP CO., LTD.",
+    "cik": "0001753391"
+  },
+  {
+    "ticker": "PNYG",
+    "name": "Pony Group Inc.",
+    "cik": "0001784058"
+  },
+  {
+    "ticker": "ZNB",
+    "name": "Zeta Network Group",
+    "cik": "0001747661"
+  },
+  {
+    "ticker": "DBMM",
+    "name": "Digital Brand Media & Marketing Group, Inc.",
+    "cik": "0001127475"
+  },
+  {
+    "ticker": "ZAPPF",
+    "name": "Zapp Electric Vehicles Group Ltd",
+    "cik": "0001955104"
+  },
+  {
+    "ticker": "WLGSF",
+    "name": "WANG & LEE GROUP, Inc.",
+    "cik": "0001899658"
+  },
+  {
+    "ticker": "BPTH",
+    "name": "BIO-PATH HOLDINGS, INC.",
+    "cik": "0001133818"
+  },
+  {
+    "ticker": "GFMH",
+    "name": "Goliath Film & Media Holdings",
+    "cik": "0000820771"
+  },
+  {
+    "ticker": "CWNOF",
+    "name": "CHINESEWORLDNET COM INC",
+    "cik": "0001145898"
+  },
+  {
+    "ticker": "STBXF",
+    "name": "Starbox Group Holdings Ltd.",
+    "cik": "0001914818"
+  },
+  {
+    "ticker": "FGO",
+    "name": "FG Holdings Ltd",
+    "cik": "0002004385"
+  },
+  {
+    "ticker": "RNBW",
+    "name": "Rainbow Capital Holdings Ltd",
+    "cik": "0002046919"
+  },
+  {
+    "ticker": "POAS",
+    "name": "Phaos Technology (Cayman) Holdings Ltd",
+    "cik": "0002024258"
+  },
+  {
+    "ticker": "OWLS",
+    "name": "OBOOK HOLDINGS INC.",
+    "cik": "0002025416"
+  },
+  {
+    "ticker": "CSC",
+    "name": "CSC Collective Holdings Ltd",
+    "cik": "0002068711"
+  },
+  {
+    "ticker": "KBAT",
+    "name": "KBAT Group Inc.",
+    "cik": "0002033315"
+  },
+  {
+    "ticker": "AVGPF",
+    "name": "Avingtrans PLC",
+    "cik": "0001995085"
+  },
+  {
+    "ticker": "TCLXY",
+    "name": "TCL Electronics Holdings Limited/ADR",
+    "cik": "0002073804"
+  },
+  {
+    "ticker": "ELCG",
+    "name": "ELC Group Holdings Ltd.",
+    "cik": "0002039096"
+  },
+  {
+    "ticker": "UPX",
+    "name": "Uptrend Holdings Ltd",
+    "cik": "0002046370"
+  },
+  {
+    "ticker": "RSHL",
+    "name": "Rise Smart Group Holdings Ltd",
+    "cik": "0001984192"
+  },
+  {
+    "ticker": "GINT",
+    "name": "Gifts International Holdings Ltd",
+    "cik": "0002032274"
+  },
+  {
+    "ticker": "UHP",
+    "name": "Ultra High Point Holdings Ltd",
+    "cik": "0002034767"
+  },
+  {
+    "ticker": "TTEI",
+    "name": "TDE GROUP Ltd",
+    "cik": "0002053475"
+  },
+  {
+    "ticker": "KYTFY",
+    "name": "Kyoto Financial Group Inc/ADR",
+    "cik": "0002042187"
+  },
+  {
+    "ticker": "ZGM",
+    "name": "Zenta Group Co Ltd",
+    "cik": "0002011458"
+  },
+  {
+    "ticker": "VSGRY",
+    "name": "VusionGroup",
+    "cik": "0002075141"
+  },
+  {
+    "ticker": "MPJS",
+    "name": "MPJS Group Ltd",
+    "cik": "0002016864"
+  },
+  {
+    "ticker": "OAK-PA",
+    "name": "Brookfield Oaktree Holdings, LLC",
+    "cik": "0001403528"
+  },
+  {
+    "ticker": "IVHI",
+    "name": "Invech Holdings, Inc.",
+    "cik": "0001009919"
+  },
+  {
+    "ticker": "ALEH",
+    "name": "ALE Group Holding Ltd",
+    "cik": "0001806905"
+  },
+  {
+    "ticker": "EVON",
+    "name": "EvoNexus Group LTD",
+    "cik": "0002075036"
+  },
+  {
+    "ticker": "BENN",
+    "name": "Bend NovaTech Group Ltd",
+    "cik": "0002072315"
+  },
+  {
+    "ticker": "AMPM",
+    "name": "AM PM Group Ltd",
+    "cik": "0002049323"
+  },
+  {
+    "ticker": "CCHH",
+    "name": "CCH Holdings Ltd",
+    "cik": "0002074123"
+  },
+  {
+    "ticker": "KOKO",
+    "name": "KOKOBOTS GROUP",
+    "cik": "0002045907"
+  },
+  {
+    "ticker": "ECST",
+    "name": "ECST Holdings Ltd",
+    "cik": "0002058007"
+  },
+  {
+    "ticker": "GTSG",
+    "name": "GATES GROUP Inc.",
+    "cik": "0002033738"
+  },
+  {
+    "ticker": "INHI",
+    "name": "Unitrend Entertainment Group Ltd",
+    "cik": "0001997950"
+  },
+  {
+    "ticker": "ACCL",
+    "name": "Acco Group Holdings Ltd",
+    "cik": "0002038378"
+  },
+  {
+    "ticker": "GEHDF",
+    "name": "Great Eastern Holdings Ltd",
+    "cik": "0001291313"
+  },
+  {
+    "ticker": "BGHL",
+    "name": "BILLION GROUP HOLDINGS Ltd",
+    "cik": "0002069821"
+  },
+  {
+    "ticker": "KPL",
+    "name": "Kepler Group Ltd",
+    "cik": "0002000208"
+  },
+  {
+    "ticker": "ZHJD",
+    "name": "Intelligent Hotel Group Ltd.",
+    "cik": "0001794276"
+  },
+  {
+    "ticker": "DBIM",
+    "name": "Dbim Holdings Ltd",
+    "cik": "0002057757"
+  },
+  {
+    "ticker": "SSTR",
+    "name": "Solar Strategy Holdings Ltd",
+    "cik": "0002067602"
+  },
+  {
+    "ticker": "MEDG",
+    "name": "MEDI Group Ltd",
+    "cik": "0002022097"
+  },
+  {
+    "ticker": "TCGL",
+    "name": "TechCreate Group Ltd.",
+    "cik": "0002047190"
+  },
+  {
+    "ticker": "FFFZ",
+    "name": "Fuxing China Group Ltd",
+    "cik": "0001954705"
+  },
+  {
+    "ticker": "RIKU",
+    "name": "RIKU DINING GROUP Ltd",
+    "cik": "0002058976"
+  },
+  {
+    "ticker": "NSNFY",
+    "name": "Nissin Foods Holdings Co., Ltd./ADR",
+    "cik": "0002027166"
+  },
+  {
+    "ticker": "BTFT",
+    "name": "Beta FinTech Holdings Ltd",
+    "cik": "0002046216"
+  },
+  {
+    "ticker": "HNPHY",
+    "name": "Hansoh Pharmaceutical Group Co Limited/ADR",
+    "cik": "0002073669"
+  },
+  {
+    "ticker": "TSMWF",
+    "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+    "cik": "0001046179"
+  },
+  {
+    "ticker": "BABAF",
+    "name": "Alibaba Group Holding Ltd",
+    "cik": "0001577552"
+  },
+  {
+    "ticker": "PCCYF",
+    "name": "PETROCHINA CO LTD",
+    "cik": "0001108329"
+  },
+  {
+    "ticker": "HBCYF",
+    "name": "HSBC HOLDINGS PLC",
+    "cik": "0001089113"
+  },
+  {
+    "ticker": "MBFJF",
+    "name": "MITSUBISHI UFJ FINANCIAL GROUP INC",
+    "cik": "0000067088"
+  },
+  {
+    "ticker": "SNEJF",
+    "name": "Sony Group Corp",
+    "cik": "0000313838"
+  },
+  {
+    "ticker": "BHPLF",
+    "name": "BHP Group Ltd",
+    "cik": "0000811809"
+  },
+  {
+    "ticker": "CILJF",
+    "name": "CHINA LIFE INSURANCE CO LTD",
+    "cik": "0001268896"
+  },
+  {
+    "ticker": "SMFNF",
+    "name": "SUMITOMO MITSUI FINANCIAL GROUP, INC.",
+    "cik": "0001022837"
+  },
+  {
+    "ticker": "SNPMF",
+    "name": "CHINA PETROLEUM & CHEMICAL CORP",
+    "cik": "0001123658"
+  },
+  {
+    "ticker": "GS-PA",
+    "name": "GOLDMAN SACHS GROUP INC",
+    "cik": "0000886982"
+  },
+  {
+    "ticker": "GS-PD",
+    "name": "GOLDMAN SACHS GROUP INC",
+    "cik": "0000886982"
+  },
+  {
+    "ticker": "MZHOF",
+    "name": "MIZUHO FINANCIAL GROUP INC",
+    "cik": "0001335730"
+  },
+  {
+    "ticker": "SPG-PJ",
+    "name": "SIMON PROPERTY GROUP INC /DE/",
+    "cik": "0001063761"
+  },
+  {
+    "ticker": "TRPCF",
+    "name": "Trip.com Group Ltd",
+    "cik": "0001269238"
+  },
+  {
+    "ticker": "LLDTF",
+    "name": "Lloyds Banking Group plc",
+    "cik": "0001160106"
+  },
+  {
+    "ticker": "SVNDF",
+    "name": "SEVEN & I HOLDINGS CO LTD",
+    "cik": "0001359519"
+  },
+  {
+    "ticker": "RBSPF",
+    "name": "NatWest Group plc",
+    "cik": "0000844150"
+  },
+  {
+    "ticker": "VODPF",
+    "name": "VODAFONE GROUP PUBLIC LTD CO",
+    "cik": "0000839923"
+  },
+  {
+    "ticker": "RYAOF",
+    "name": "RYANAIR HOLDINGS PLC",
+    "cik": "0001038683"
+  },
+  {
+    "ticker": "Z",
+    "name": "ZILLOW GROUP, INC.",
+    "cik": "0001617640"
+  },
+  {
+    "ticker": "HIG-PG",
+    "name": "HARTFORD INSURANCE GROUP, INC.",
+    "cik": "0000874766"
+  },
+  {
+    "ticker": "NRSCF",
+    "name": "NOMURA HOLDINGS INC",
+    "cik": "0001163653"
+  },
+  {
+    "ticker": "FAXXF",
+    "name": "FAIRFAX FINANCIAL HOLDINGS LTD/ CAN",
+    "cik": "0000915191"
+  },
+  {
+    "ticker": "CHEAF",
+    "name": "CHINA EASTERN AIRLINES CORP LTD",
+    "cik": "0001030475"
+  },
+  {
+    "ticker": "CHKIF",
+    "name": "CHINA SOUTHERN AIRLINES CO LTD",
+    "cik": "0001041668"
+  },
+  {
+    "ticker": "FRFFF",
+    "name": "FAIRFAX FINANCIAL HOLDINGS LTD/ CAN",
+    "cik": "0000915191"
+  },
+  {
+    "ticker": "ACGLO",
+    "name": "ARCH CAPITAL GROUP LTD.",
+    "cik": "0000947484"
+  },
+  {
+    "ticker": "FRFXF",
+    "name": "FAIRFAX FINANCIAL HOLDINGS LTD/ CAN",
+    "cik": "0000915191"
+  },
+  {
+    "ticker": "NCSYF",
+    "name": "NICE Ltd.",
+    "cik": "0001003935"
+  },
+  {
+    "ticker": "ALMMF",
+    "name": "ALUMINUM CORP OF CHINA LTD",
+    "cik": "0001161611"
+  },
+  {
+    "ticker": "ICHGF",
+    "name": "INTERCONTINENTAL HOTELS GROUP PLC /NEW/",
+    "cik": "0000858446"
+  },
+  {
+    "ticker": "RZB",
+    "name": "REINSURANCE GROUP OF AMERICA INC",
+    "cik": "0000898174"
+  },
+  {
+    "ticker": "GS-PC",
+    "name": "GOLDMAN SACHS GROUP INC",
+    "cik": "0000886982"
+  },
+  {
+    "ticker": "RKUNF",
+    "name": "Rakuten Group, Inc.",
+    "cik": "0001294591"
+  },
+  {
+    "ticker": "RNR-PF",
+    "name": "RENAISSANCERE HOLDINGS LTD",
+    "cik": "0000913144"
+  },
+  {
+    "ticker": "MSUXF",
+    "name": "Misumi Group Inc./ADR",
+    "cik": "0001710864"
+  },
+  {
+    "ticker": "DSECF",
+    "name": "Daiwa Securities Group Inc.",
+    "cik": "0001481045"
+  },
+  {
+    "ticker": "OAK-PB",
+    "name": "Brookfield Oaktree Holdings, LLC",
+    "cik": "0001403528"
+  },
+  {
+    "ticker": "UNMA",
+    "name": "Unum Group",
+    "cik": "0000005513"
+  },
+  {
+    "ticker": "AXS-PE",
+    "name": "AXIS CAPITAL HOLDINGS LTD",
+    "cik": "0001214816"
+  },
+  {
+    "ticker": "HMDCF",
+    "name": "HUTCHMED (China) Ltd",
+    "cik": "0001648257"
+  },
+  {
+    "ticker": "AHL-PE",
+    "name": "ASPEN INSURANCE HOLDINGS LTD",
+    "cik": "0001267395"
+  },
+  {
+    "ticker": "AGM-A",
+    "name": "FEDERAL AGRICULTURAL MORTGAGE CORP",
+    "cik": "0000845877"
+  },
+  {
+    "ticker": "AHL-PD",
+    "name": "ASPEN INSURANCE HOLDINGS LTD",
+    "cik": "0001267395"
+  },
+  {
+    "ticker": "MHLA",
+    "name": "Maiden Holdings, Ltd.",
+    "cik": "0001412100"
+  },
+  {
+    "ticker": "CODI-PB",
+    "name": "Compass Diversified Holdings",
+    "cik": "0001345126"
+  },
+  {
+    "ticker": "BH",
+    "name": "Biglari Holdings Inc.",
+    "cik": "0001726173"
+  },
+  {
+    "ticker": "CODI-PA",
+    "name": "Compass Diversified Holdings",
+    "cik": "0001345126"
+  },
+  {
+    "ticker": "SPLP",
+    "name": "STEEL PARTNERS HOLDINGS L.P.",
+    "cik": "0001452857"
+  },
+  {
+    "ticker": "DGICB",
+    "name": "DONEGAL GROUP INC",
+    "cik": "0000800457"
+  },
+  {
+    "ticker": "AVHHL",
+    "name": "AVITA Medical, Inc.",
+    "cik": "0001762303"
+  },
+  {
+    "ticker": "GRFXY",
+    "name": "Graphex Group Ltd",
+    "cik": "0001816723"
+  },
+  {
+    "ticker": "RAASY",
+    "name": "Cloopen Group Holding Ltd",
+    "cik": "0001804583"
+  },
+  {
+    "ticker": "LCHD",
+    "name": "Leader Capital Holdings Corp.",
+    "cik": "0001715433"
+  },
+  {
+    "ticker": "IDWM",
+    "name": "IDW MEDIA HOLDINGS, INC.",
+    "cik": "0001463833"
+  },
+  {
+    "ticker": "SALM",
+    "name": "SALEM MEDIA GROUP, INC. /DE/",
+    "cik": "0001050606"
+  },
+  {
+    "ticker": "AFGC",
+    "name": "AMERICAN FINANCIAL GROUP INC",
+    "cik": "0001042046"
+  },
+  {
+    "ticker": "FNCH",
+    "name": "Finch Therapeutics Group, Inc.",
+    "cik": "0001733257"
+  },
+  {
+    "ticker": "IMUC",
+    "name": "EOM Pharmaceutical Holdings, Inc.",
+    "cik": "0000822411"
+  },
+  {
+    "ticker": "WINSF",
+    "name": "Wins Finance Holdings Inc.",
+    "cik": "0001640251"
+  },
+  {
+    "ticker": "NXMH",
+    "name": "Next Meats Holdings, Inc.",
+    "cik": "0001811530"
+  },
+  {
+    "ticker": "TPHS",
+    "name": "Trinity Place Holdings Inc.",
+    "cik": "0000724742"
+  },
+  {
+    "ticker": "HMMR",
+    "name": "HAMMER TECHNOLOGY HOLDINGS CORP.",
+    "cik": "0001539680"
+  },
+  {
+    "ticker": "CLUS",
+    "name": "Cluster Group Holdings Ltd Co",
+    "cik": "0001346287"
+  },
+  {
+    "ticker": "IMPM",
+    "name": "IMPAC MORTGAGE HOLDINGS INC",
+    "cik": "0001000298"
+  },
+  {
+    "ticker": "MGHL",
+    "name": "MORGAN GROUP HOLDING CO",
+    "cik": "0001162283"
+  },
+  {
+    "ticker": "GMBL",
+    "name": "ESPORTS ENTERTAINMENT GROUP, INC.",
+    "cik": "0001451448"
+  },
+  {
+    "ticker": "BLPG",
+    "name": "Blue Line Protection Group, Inc.",
+    "cik": "0001416697"
+  },
+  {
+    "ticker": "CDSG",
+    "name": "China Dongsheng International, Inc.",
+    "cik": "0000946112"
+  },
+  {
+    "ticker": "LFLY",
+    "name": "Leafly Holdings, Inc. /DE",
+    "cik": "0001785592"
+  },
+  {
+    "ticker": "OXBRW",
+    "name": "OXBRIDGE RE HOLDINGS Ltd",
+    "cik": "0001584831"
+  },
+  {
+    "ticker": "KEGS",
+    "name": "1812 Brewing Company, Inc.",
+    "cik": "0000884380"
+  },
+  {
+    "ticker": "ECXJ",
+    "name": "CXJ GROUP CO., Ltd",
+    "cik": "0001823635"
+  },
+  {
+    "ticker": "ASPU",
+    "name": "ASPEN GROUP, INC.",
+    "cik": "0001487198"
+  },
+  {
+    "ticker": "HNSPF",
+    "name": "Hansoh Pharmaceutical Group Co Limited/ADR",
+    "cik": "0002073669"
+  },
+  {
+    "ticker": "GIBOW",
+    "name": "GIBO HOLDINGS Ltd",
+    "cik": "0002034520"
+  },
+  {
+    "ticker": "SEPSF",
+    "name": "Asep Medical Holdings Inc.",
+    "cik": "0001969766"
+  },
+  {
+    "ticker": "GEGGL",
+    "name": "Great Elm Group, Inc.",
+    "cik": "0001831096"
+  },
+  {
+    "ticker": "KORGW",
+    "name": "KORE Group Holdings, Inc.",
+    "cik": "0001855457"
+  },
+  {
+    "ticker": "AFGD",
+    "name": "AMERICAN FINANCIAL GROUP INC",
+    "cik": "0001042046"
+  },
+  {
+    "ticker": "AFGE",
+    "name": "AMERICAN FINANCIAL GROUP INC",
+    "cik": "0001042046"
+  },
+  {
+    "ticker": "AFGB",
+    "name": "AMERICAN FINANCIAL GROUP INC",
+    "cik": "0001042046"
+  },
+  {
+    "ticker": "BAERW",
+    "name": "Bridger Aerospace Group Holdings, Inc.",
+    "cik": "0001941536"
+  },
+  {
+    "ticker": "DNABW",
+    "name": "Ginkgo Bioworks Holdings, Inc.",
+    "cik": "0001830214"
+  },
+  {
+    "ticker": "TCMEF",
+    "name": "Tencent Music Entertainment Group",
+    "cik": "0001744676"
+  },
+  {
+    "ticker": "MGR",
+    "name": "AFFILIATED MANAGERS GROUP, INC.",
+    "cik": "0001004434"
+  },
+  {
+    "ticker": "MGRB",
+    "name": "AFFILIATED MANAGERS GROUP, INC.",
+    "cik": "0001004434"
+  },
+  {
+    "ticker": "MGRE",
+    "name": "AFFILIATED MANAGERS GROUP, INC.",
+    "cik": "0001004434"
+  },
+  {
+    "ticker": "MGRD",
+    "name": "AFFILIATED MANAGERS GROUP, INC.",
+    "cik": "0001004434"
+  },
+  {
+    "ticker": "SWKHL",
+    "name": "SWK Holdings Corp",
+    "cik": "0001089907"
+  },
+  {
+    "ticker": "UWMC-WT",
+    "name": "UWM Holdings Corp",
+    "cik": "0001783398"
+  },
+  {
+    "ticker": "QLUNF",
+    "name": "Qilun Group Inc.",
+    "cik": "0001951378"
+  },
+  {
+    "ticker": "HCIIP",
+    "name": "HCI Group, Inc.",
+    "cik": "0001400810"
+  },
+  {
+    "ticker": "ATLCL",
+    "name": "Atlanticus Holdings Corp",
+    "cik": "0001464343"
+  },
+  {
+    "ticker": "ATLCP",
+    "name": "Atlanticus Holdings Corp",
+    "cik": "0001464343"
+  },
+  {
+    "ticker": "ATLCZ",
+    "name": "Atlanticus Holdings Corp",
+    "cik": "0001464343"
+  },
+  {
+    "ticker": "GROVW",
+    "name": "Grove Collaborative Holdings, Inc.",
+    "cik": "0001841761"
+  },
+  {
+    "ticker": "WGSWW",
+    "name": "GeneDx Holdings Corp.",
+    "cik": "0001818331"
+  },
+  {
+    "ticker": "TSPH",
+    "name": "TuSimple Holdings Inc.",
+    "cik": "0001823593"
+  },
+  {
+    "ticker": "GDHLF",
+    "name": "GDS Holdings Ltd",
+    "cik": "0001526125"
+  },
+  {
+    "ticker": "HWLDF",
+    "name": "H World Group Ltd",
+    "cik": "0001483994"
+  },
+  {
+    "ticker": "FOSLL",
+    "name": "Fossil Group, Inc.",
+    "cik": "0000883569"
+  },
+  {
+    "ticker": "LANV-WT",
+    "name": "Lanvin Group Holdings Ltd",
+    "cik": "0001922097"
+  },
+  {
+    "ticker": "TANAF",
+    "name": "Tian'an Technology Group Ltd",
+    "cik": "0001941189"
+  },
+  {
+    "ticker": "LLOBF",
+    "name": "Lloyds Banking Group plc",
+    "cik": "0001160106"
+  },
+  {
+    "ticker": "CCGWW",
+    "name": "Cheche Group Inc.",
+    "cik": "0001965473"
+  },
+  {
+    "ticker": "NWOEF",
+    "name": "New Oriental Education & Technology Group Inc.",
+    "cik": "0001372920"
+  },
+  {
+    "ticker": "MHNC",
+    "name": "Maiden Holdings, Ltd.",
+    "cik": "0001412100"
+  },
+  {
+    "ticker": "SONDW",
+    "name": "Sonder Holdings Inc.",
+    "cik": "0001819395"
+  },
+  {
+    "ticker": "DBRG-PH",
+    "name": "DigitalBridge Group, Inc.",
+    "cik": "0001679688"
+  },
+  {
+    "ticker": "DBRG-PI",
+    "name": "DigitalBridge Group, Inc.",
+    "cik": "0001679688"
+  },
+  {
+    "ticker": "DBRG-PJ",
+    "name": "DigitalBridge Group, Inc.",
+    "cik": "0001679688"
+  },
+  {
+    "ticker": "BDMDW",
+    "name": "Baird Medical Investment Holdings Ltd",
+    "cik": "0001982444"
+  },
+  {
+    "ticker": "GRRRW",
+    "name": "Gorilla Technology Group Inc.",
+    "cik": "0001903145"
+  },
+  {
+    "ticker": "NOTE-WT",
+    "name": "FiscalNote Holdings, Inc.",
+    "cik": "0001823466"
+  },
+  {
+    "ticker": "UHGI",
+    "name": "Ultimate Holdings Group, Inc.",
+    "cik": "0001888846"
+  },
+  {
+    "ticker": "KMFG",
+    "name": "KEEMO Fashion Group Ltd",
+    "cik": "0001935033"
+  },
+  {
+    "ticker": "KCLHF",
+    "name": "Kingsoft Cloud Holdings Ltd",
+    "cik": "0001795589"
+  },
+  {
+    "ticker": "SPLPP",
+    "name": "STEEL PARTNERS HOLDINGS L.P.",
+    "cik": "0001452857"
+  },
+  {
+    "ticker": "CFG-PE",
+    "name": "CITIZENS FINANCIAL GROUP INC/RI",
+    "cik": "0000759944"
+  },
+  {
+    "ticker": "CFG-PH",
+    "name": "CITIZENS FINANCIAL GROUP INC/RI",
+    "cik": "0000759944"
+  },
+  {
+    "ticker": "CFG-PI",
+    "name": "CITIZENS FINANCIAL GROUP INC/RI",
+    "cik": "0000759944"
+  },
+  {
+    "ticker": "RMHI",
+    "name": "Retrieve Medical Holdings, Inc.",
+    "cik": "0001452804"
+  },
+  {
+    "ticker": "MOVAA",
+    "name": "MOVADO GROUP INC",
+    "cik": "0000072573"
+  },
+  {
+    "ticker": "CNO-PA",
+    "name": "CNO Financial Group, Inc.",
+    "cik": "0001224608"
+  },
+  {
+    "ticker": "DSYWW",
+    "name": "Big Tree Cloud Holdings Ltd",
+    "cik": "0001999297"
+  },
+  {
+    "ticker": "NPEHF",
+    "name": "Nippon Express Holdings, Inc./ADR",
+    "cik": "0001985406"
+  },
+  {
+    "ticker": "BSLKW",
+    "name": "Bolt Projects Holdings, Inc.",
+    "cik": "0001841125"
+  },
+  {
+    "ticker": "SAZ",
+    "name": "SARATOGA INVESTMENT CORP.",
+    "cik": "0001377936"
+  },
+  {
+    "ticker": "TGE-WT",
+    "name": "Generation Essentials Group",
+    "cik": "0002053456"
+  },
+  {
+    "ticker": "CHWRF",
+    "name": "China Tower Corp Limited/ADR",
+    "cik": "0001751162"
+  },
+  {
+    "ticker": "GMBLP",
+    "name": "ESPORTS ENTERTAINMENT GROUP, INC.",
+    "cik": "0001451448"
+  },
+  {
+    "ticker": "GMBLZ",
+    "name": "ESPORTS ENTERTAINMENT GROUP, INC.",
+    "cik": "0001451448"
+  },
+  {
+    "ticker": "LGL-WT",
+    "name": "LGL GROUP INC",
+    "cik": "0000061004"
+  },
+  {
+    "ticker": "RNR-PG",
+    "name": "RENAISSANCERE HOLDINGS LTD",
+    "cik": "0000913144"
+  },
+  {
+    "ticker": "RFL-WT",
+    "name": "Rafael Holdings, Inc.",
+    "cik": "0001713863"
+  },
+  {
+    "ticker": "SKYH-WT",
+    "name": "Sky Harbour Group Corp",
+    "cik": "0001823587"
+  },
+  {
+    "ticker": "C-PN",
+    "name": "CITIGROUP INC",
+    "cik": "0000831001"
+  },
+  {
+    "ticker": "VIIQ",
+    "name": "Capstone Technologies Group Inc.",
+    "cik": "0001470129"
+  },
+  {
+    "ticker": "ARGO-PA",
+    "name": "Argo Group International Holdings, Inc.",
+    "cik": "0001091748"
+  },
+  {
+    "ticker": "ABPWW",
+    "name": "Abpro Holdings, Inc.",
+    "cik": "0001893219"
+  },
+  {
+    "ticker": "CHNEY",
+    "name": "CHINA EASTERN AIRLINES CORP LTD",
+    "cik": "0001030475"
+  },
+  {
+    "ticker": "STRRP",
+    "name": "Star Equity Holdings, Inc.",
+    "cik": "0001210708"
+  },
+  {
+    "ticker": "ECXWW",
+    "name": "ECARX Holdings Inc.",
+    "cik": "0001861974"
+  },
+  {
+    "ticker": "OSRHW",
+    "name": "OSR Holdings, Inc.",
+    "cik": "0001840425"
+  },
+  {
+    "ticker": "DMYY-UN",
+    "name": "dMY Squared Technology Group, Inc.",
+    "cik": "0001915380"
+  },
+  {
+    "ticker": "DMYY-WT",
+    "name": "dMY Squared Technology Group, Inc.",
+    "cik": "0001915380"
+  },
+  {
+    "ticker": "XBPEW",
+    "name": "XBP Global Holdings, Inc.",
+    "cik": "0001839530"
+  },
+  {
+    "ticker": "LFLYW",
+    "name": "Leafly Holdings, Inc. /DE",
+    "cik": "0001785592"
+  },
+  {
+    "ticker": "LFLYD",
+    "name": "Leafly Holdings, Inc. /DE",
+    "cik": "0001785592"
+  },
+  {
+    "ticker": "MSOGF",
+    "name": "MINISO Group Holding Ltd",
+    "cik": "0001815846"
+  },
+  {
+    "ticker": "ASBPW",
+    "name": "Aspire Biopharma Holdings, Inc.",
+    "cik": "0001847345"
+  },
+  {
+    "ticker": "TVGNW",
+    "name": "Tevogen Bio Holdings Inc.",
+    "cik": "0001860871"
+  },
+  {
+    "ticker": "PLMKU",
+    "name": "Plum Acquisition Corp, IV",
+    "cik": "0002030482"
+  },
+  {
+    "ticker": "SIGIP",
+    "name": "SELECTIVE INSURANCE GROUP INC",
+    "cik": "0000230557"
+  },
+  {
+    "ticker": "FVGPY",
+    "name": "FinVolution Group",
+    "cik": "0001691445"
+  },
+  {
+    "ticker": "BBAI-WT",
+    "name": "BigBear.ai Holdings, Inc.",
+    "cik": "0001836981"
+  },
+  {
+    "ticker": "BBAAY",
+    "name": "Alibaba Group Holding Ltd",
+    "cik": "0001577552"
+  },
+  {
+    "ticker": "CEROW",
+    "name": "CERO THERAPEUTICS HOLDINGS, INC.",
+    "cik": "0001870404"
+  },
+  {
+    "ticker": "GTENW",
+    "name": "Gores Holdings X, Inc. / CI",
+    "cik": "0001986817"
+  },
+  {
+    "ticker": "GTENU",
+    "name": "Gores Holdings X, Inc. / CI",
+    "cik": "0001986817"
+  },
+  {
+    "ticker": "CUBWW",
+    "name": "Lionheart Holdings",
+    "cik": "0002015955"
+  },
+  {
+    "ticker": "CUBWU",
+    "name": "Lionheart Holdings",
+    "cik": "0002015955"
+  },
+  {
+    "ticker": "PTCCY",
+    "name": "PETROCHINA CO LTD",
+    "cik": "0001108329"
+  },
+  {
+    "ticker": "ACGLN",
+    "name": "ARCH CAPITAL GROUP LTD.",
+    "cik": "0000947484"
+  },
+  {
+    "ticker": "ANG-PD",
+    "name": "American National Group Inc.",
+    "cik": "0001039828"
+  },
+  {
+    "ticker": "ANG-PB",
+    "name": "American National Group Inc.",
+    "cik": "0001039828"
+  },
+  {
+    "ticker": "SLNHP",
+    "name": "Soluna Holdings, Inc",
+    "cik": "0000064463"
+  },
+  {
+    "ticker": "BKKT-WT",
+    "name": "Bakkt Holdings, Inc.",
+    "cik": "0001820302"
+  },
+  {
+    "ticker": "KCHVR",
+    "name": "Kochav Defense Acquisition Corp.",
+    "cik": "0002053799"
+  },
+  {
+    "ticker": "LVWR-WT",
+    "name": "LiveWire Group, Inc.",
+    "cik": "0001898795"
+  },
+  {
+    "ticker": "NVNIW",
+    "name": "Nvni Group Ltd",
+    "cik": "0001965143"
+  },
+  {
+    "ticker": "HIPOW",
+    "name": "Hippo Holdings Inc.",
+    "cik": "0001828105"
+  },
+  {
+    "ticker": "ADNWW",
+    "name": "ADVENT TECHNOLOGIES HOLDINGS, INC.",
+    "cik": "0001744494"
+  },
+  {
+    "ticker": "UHGWW",
+    "name": "United Homes Group, Inc.",
+    "cik": "0001830188"
+  },
+  {
+    "ticker": "CMSC",
+    "name": "CMS ENERGY CORP",
+    "cik": "0000811156"
+  },
+  {
+    "ticker": "GREEL",
+    "name": "Greenidge Generation Holdings Inc.",
+    "cik": "0001844971"
+  },
+  {
+    "ticker": "EQH-PA",
+    "name": "Equitable Holdings, Inc.",
+    "cik": "0001333986"
+  },
+  {
+    "ticker": "EQH-PC",
+    "name": "Equitable Holdings, Inc.",
+    "cik": "0001333986"
+  },
+  {
+    "ticker": "RAJAF",
+    "name": "Cordyceps Sunshine Biotech Holdings Co., Ltd.",
+    "cik": "0001885680"
+  },
+  {
+    "ticker": "CJRCF",
+    "name": "China Resources Cement Holdings Limited/ADR/",
+    "cik": "0001484515"
+  },
+  {
+    "ticker": "COOTW",
+    "name": "Australian Oilseeds Holdings Ltd",
+    "cik": "0001959994"
+  },
+  {
+    "ticker": "SDAWW",
+    "name": "SunCar Technology Group Inc.",
+    "cik": "0001936804"
+  },
+  {
+    "ticker": "AMPGW",
+    "name": "AmpliTech Group, Inc.",
+    "cik": "0001518461"
+  },
+  {
+    "ticker": "ALTG-PA",
+    "name": "ALTA EQUIPMENT GROUP INC.",
+    "cik": "0001759824"
+  },
+  {
+    "ticker": "JETBF",
+    "name": "Global Crossing Airlines Group Inc.",
+    "cik": "0001846084"
+  },
+  {
+    "ticker": "DFLIW",
+    "name": "Dragonfly Energy Holdings Corp.",
+    "cik": "0001847986"
+  },
+  {
+    "ticker": "CGABL",
+    "name": "Carlyle Group Inc.",
+    "cik": "0001527166"
+  },
+  {
+    "ticker": "AMODW",
+    "name": "ALPHA MODUS HOLDINGS, INC.",
+    "cik": "0001862463"
+  },
+  {
+    "ticker": "NIVFW",
+    "name": "NewGenIvf Group Ltd",
+    "cik": "0001981662"
+  },
+  {
+    "ticker": "QVCGP",
+    "name": "QVC Group, Inc.",
+    "cik": "0001355096"
+  },
+  {
+    "ticker": "QVCGB",
+    "name": "QVC Group, Inc.",
+    "cik": "0001355096"
+  },
+  {
+    "ticker": "FERAR",
+    "name": "Fifth Era Acquisition Corp I",
+    "cik": "0002025401"
+  },
+  {
+    "ticker": "FAXRF",
+    "name": "FAIRFAX FINANCIAL HOLDINGS LTD/ CAN",
+    "cik": "0000915191"
+  },
+  {
+    "ticker": "AHL-PF",
+    "name": "ASPEN INSURANCE HOLDINGS LTD",
+    "cik": "0001267395"
+  },
+  {
+    "ticker": "RZC",
+    "name": "REINSURANCE GROUP OF AMERICA INC",
+    "cik": "0000898174"
+  },
+  {
+    "ticker": "GSCE",
+    "name": "GOLDMAN SACHS GROUP INC",
+    "cik": "0000886982"
+  },
+  {
+    "ticker": "CNFRZ",
+    "name": "Conifer Holdings, Inc.",
+    "cik": "0001502292"
+  },
+  {
+    "ticker": "ESGLW",
+    "name": "ESGL Holdings Ltd",
+    "cik": "0001957538"
+  },
+  {
+    "ticker": "OPTXW",
+    "name": "SYNTEC OPTICS HOLDINGS, INC.",
+    "cik": "0001866816"
+  },
+  {
+    "ticker": "CITAF",
+    "name": "CHINA SHIPPING CONTAINER LINES CO LTD",
+    "cik": "0001317295"
+  },
+  {
+    "ticker": "TCLHF",
+    "name": "TCL Electronics Holdings Limited/ADR",
+    "cik": "0002073804"
+  },
+  {
+    "ticker": "RSNHF",
+    "name": "RESONA HOLDINGS INC",
+    "cik": "0001447391"
+  },
+  {
+    "ticker": "CODI-PC",
+    "name": "Compass Diversified Holdings",
+    "cik": "0001345126"
+  },
+  {
+    "ticker": "ZAPWF",
+    "name": "Zapp Electric Vehicles Group Ltd",
+    "cik": "0001955104"
+  },
+  {
+    "ticker": "MGCOF",
+    "name": "Midea Group Co., Ltd./ADR",
+    "cik": "0002039784"
+  },
+  {
+    "ticker": "EDVGF",
+    "name": "Endeavour Group Limited/ADR",
+    "cik": "0002020414"
+  },
+  {
+    "ticker": "KYFGF",
+    "name": "Kyoto Financial Group Inc/ADR",
+    "cik": "0002042187"
+  },
+  {
+    "ticker": "MBGCF",
+    "name": "Mitsubishi Gas Chemical Company, Inc./ADR",
+    "cik": "0002079706"
+  },
+  {
+    "ticker": "KYIVW",
+    "name": "Kyivstar Group Ltd.",
+    "cik": "0002062440"
+  },
+  {
+    "ticker": "SRBEF",
+    "name": "VusionGroup",
+    "cik": "0002075141"
+  }
+]

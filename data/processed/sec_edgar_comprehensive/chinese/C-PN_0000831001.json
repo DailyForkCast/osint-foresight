@@ -1,0 +1,44 @@
+{
+  "cik": "0000831001",
+  "ticker": "C-PN",
+  "name": "CITIGROUP INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6021",
+  "sicDescription": "National Commercial Banks",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "521568099",
+  "phone": "2125591000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "388 GREENWICH STREET",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10013",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "388 GREENWICH STREET",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10013",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 10973
+}

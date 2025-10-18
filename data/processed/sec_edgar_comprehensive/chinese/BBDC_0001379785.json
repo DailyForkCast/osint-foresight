@@ -1,0 +1,47 @@
+{
+  "cik": "0001379785",
+  "ticker": "BBDC",
+  "name": "Barings BDC, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "",
+  "sicDescription": "",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "NC",
+  "ein": "061798488",
+  "phone": "(704) 805-7200",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "300 SOUTH TRYON STREET",
+      "street2": "SUITE 2500",
+      "city": "CHARLOTTE",
+      "stateOrCountry": "NC",
+      "zipCode": "28202",
+      "stateOrCountryDescription": "NC",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "300 SOUTH TRYON STREET",
+      "street2": "SUITE 2500",
+      "city": "CHARLOTTE",
+      "stateOrCountry": "NC",
+      "zipCode": "28202",
+      "stateOrCountryDescription": "NC",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-15"
+  },
+  "filings_count": 1000
+}

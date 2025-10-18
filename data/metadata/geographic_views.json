@@ -1,0 +1,400 @@
+{
+  "iso_countries": {
+    "LV": {
+      "code": "LV",
+      "data_points": 508,
+      "projects": 16,
+      "funding": 91046.06448771637
+    },
+    "CZ": {
+      "code": "CZ",
+      "data_points": 481,
+      "projects": 17,
+      "funding": 142232.31749017313
+    },
+    "HR": {
+      "code": "HR",
+      "data_points": 517,
+      "projects": 19,
+      "funding": 287070.736309726
+    },
+    "DK": {
+      "code": "DK",
+      "data_points": 495,
+      "projects": 17,
+      "funding": 95811.245277747
+    },
+    "RS": {
+      "code": "RS",
+      "data_points": 505,
+      "projects": 25,
+      "funding": 693749.0004814988
+    },
+    "BA": {
+      "code": "BA",
+      "data_points": 482,
+      "projects": 34,
+      "funding": 580214.8926333478
+    },
+    "AT": {
+      "code": "AT",
+      "data_points": 451,
+      "projects": 17,
+      "funding": 598557.052399069
+    },
+    "MD": {
+      "code": "MD",
+      "data_points": 496,
+      "projects": 19,
+      "funding": 1102282.570539031
+    },
+    "UA": {
+      "code": "UA",
+      "data_points": 523,
+      "projects": 18,
+      "funding": 649707.0400910024
+    },
+    "IE": {
+      "code": "IE",
+      "data_points": 516,
+      "projects": 9,
+      "funding": 580177.0841524816
+    },
+    "LT": {
+      "code": "LT",
+      "data_points": 508,
+      "projects": 19,
+      "funding": 1655251.602861126
+    },
+    "SE": {
+      "code": "SE",
+      "data_points": 513,
+      "projects": 27,
+      "funding": 466803.7509116773
+    },
+    "BG": {
+      "code": "BG",
+      "data_points": 484,
+      "projects": 17,
+      "funding": 474112.0342274747
+    },
+    "MK": {
+      "code": "MK",
+      "data_points": 521,
+      "projects": 20,
+      "funding": 625163.346306571
+    },
+    "PT": {
+      "code": "PT",
+      "data_points": 454,
+      "projects": 22,
+      "funding": 1219206.7677258153
+    },
+    "AL": {
+      "code": "AL",
+      "data_points": 531,
+      "projects": 27,
+      "funding": 80744.52805225701
+    },
+    "PL": {
+      "code": "PL",
+      "data_points": 504,
+      "projects": 18,
+      "funding": 86768.4023712938
+    },
+    "FI": {
+      "code": "FI",
+      "data_points": 506,
+      "projects": 13,
+      "funding": 141740.32698053465
+    },
+    "MT": {
+      "code": "MT",
+      "data_points": 478,
+      "projects": 15,
+      "funding": 376653.3684840018
+    },
+    "ME": {
+      "code": "ME",
+      "data_points": 506,
+      "projects": 20,
+      "funding": 940974.8302802427
+    },
+    "GE": {
+      "code": "GE",
+      "data_points": 519,
+      "projects": 24,
+      "funding": 641471.6607797641
+    },
+    "DE": {
+      "code": "DE",
+      "data_points": 471,
+      "projects": 15,
+      "funding": 201056.4343033005
+    },
+    "RO": {
+      "code": "RO",
+      "data_points": 498,
+      "projects": 24,
+      "funding": 1869219.6477757343
+    },
+    "IT": {
+      "code": "IT",
+      "data_points": 482,
+      "projects": 33,
+      "funding": 732.0855816371119
+    },
+    "SI": {
+      "code": "SI",
+      "data_points": 489,
+      "projects": 25,
+      "funding": 185654.76520414682
+    },
+    "EE": {
+      "code": "EE",
+      "data_points": 512,
+      "projects": 21,
+      "funding": 145987.20616577365
+    },
+    "FR": {
+      "code": "FR",
+      "data_points": 506,
+      "projects": 21,
+      "funding": 2712878.2390864003
+    },
+    "IS": {
+      "code": "IS",
+      "data_points": 497,
+      "projects": 18,
+      "funding": 650298.3930293786
+    },
+    "HU": {
+      "code": "HU",
+      "data_points": 496,
+      "projects": 17,
+      "funding": 578436.3191646324
+    },
+    "TR": {
+      "code": "TR",
+      "data_points": 503,
+      "projects": 13,
+      "funding": 973356.5846014406
+    },
+    "NL": {
+      "code": "NL",
+      "data_points": 495,
+      "projects": 16,
+      "funding": 268260.2114545141
+    },
+    "CH": {
+      "code": "CH",
+      "data_points": 471,
+      "projects": 18,
+      "funding": 12459.08841015892
+    },
+    "ES": {
+      "code": "ES",
+      "data_points": 538,
+      "projects": 17,
+      "funding": 1100302.5875772142
+    },
+    "XK": {
+      "code": "XK",
+      "data_points": 534,
+      "projects": 18,
+      "funding": 1483319.48472321
+    },
+    "LU": {
+      "code": "LU",
+      "data_points": 490,
+      "projects": 16,
+      "funding": 2801841.5122943595
+    },
+    "BE": {
+      "code": "BE",
+      "data_points": 487,
+      "projects": 22,
+      "funding": 1975725.0486315743
+    },
+    "CY": {
+      "code": "CY",
+      "data_points": 534,
+      "projects": 21,
+      "funding": 3001594.692851073
+    },
+    "GR": {
+      "code": "GR",
+      "data_points": 512,
+      "projects": 18,
+      "funding": 64561.64265791007
+    },
+    "SK": {
+      "code": "SK",
+      "data_points": 511,
+      "projects": 24,
+      "funding": 652253.6123351982
+    },
+    "NO": {
+      "code": "NO",
+      "data_points": 489,
+      "projects": 15,
+      "funding": 683861.7117993804
+    },
+    "LI": {
+      "code": "LI",
+      "data_points": 501,
+      "projects": 18,
+      "funding": 294497.4090121179
+    }
+  },
+  "eu_buckets": {
+    "EU27": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE"
+    ],
+    "EU_Candidates": [
+      "AL",
+      "ME",
+      "MK",
+      "RS",
+      "TR",
+      "BA",
+      "XK",
+      "MD",
+      "UA",
+      "GE"
+    ],
+    "EEA": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE",
+      "IS",
+      "LI",
+      "NO"
+    ],
+    "Schengen": [
+      "AT",
+      "BE",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IS",
+      "IT",
+      "LV",
+      "LI",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "NO",
+      "PL",
+      "PT",
+      "SK",
+      "SI",
+      "ES",
+      "SE",
+      "CH"
+    ]
+  },
+  "regions": {
+    "Western_Europe": [
+      "FR",
+      "DE",
+      "BE",
+      "NL",
+      "LU",
+      "AT",
+      "CH"
+    ],
+    "Southern_Europe": [
+      "IT",
+      "ES",
+      "PT",
+      "GR",
+      "MT",
+      "CY"
+    ],
+    "Northern_Europe": [
+      "SE",
+      "FI",
+      "DK",
+      "NO",
+      "IS",
+      "EE",
+      "LV",
+      "LT"
+    ],
+    "Eastern_Europe": [
+      "PL",
+      "CZ",
+      "SK",
+      "HU",
+      "RO",
+      "BG",
+      "SI",
+      "HR"
+    ],
+    "Balkans": [
+      "AL",
+      "ME",
+      "MK",
+      "RS",
+      "BA",
+      "XK"
+    ]
+  }
+}

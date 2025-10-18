@@ -1,0 +1,49 @@
+{
+  "cik": "0001494904",
+  "ticker": "GBLI",
+  "name": "Global Indemnity Group, LLC",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:bm",
+    "offshore:hk"
+  ],
+  "sic": "6331",
+  "sicDescription": "Fire, Marine & Casualty Insurance",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "981304287",
+  "phone": "610-664-1500",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3 BALA PLAZA EAST",
+      "street2": "SUITE 300",
+      "city": "BALA CYNWYD",
+      "stateOrCountry": "PA",
+      "zipCode": "19004",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3 BALA PLAZA EAST",
+      "street2": "SUITE 300",
+      "city": "BALA CYNWYD",
+      "stateOrCountry": "PA",
+      "zipCode": "19004",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-02"
+  },
+  "filings_count": 1001
+}

@@ -1,0 +1,49 @@
+{
+  "cik": "0001885680",
+  "ticker": "RAJAF",
+  "name": "Cordyceps Sunshine Biotech Holdings Co., Ltd.",
+  "detection_reasons": [
+    "location:china",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "2833",
+  "sicDescription": "Medicinal Chemicals & Botanical Products",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "886-2-27489091",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "6TH FL., NO. 15, LANE 548",
+      "street2": "RUIGUANG ROAD, NEIHU DISTRICT",
+      "city": "TAIPEI CITY",
+      "stateOrCountry": "F5",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Taiwan, Province of China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "6TH FL., NO. 15, LANE 548",
+      "street2": "RUIGUANG ROAD, NEIHU DISTRICT",
+      "city": "TAIPEI CITY",
+      "stateOrCountry": "F5",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Taiwan, Province of China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "20-F",
+    "date": "2025-06-13"
+  },
+  "filings_count": 32
+}

@@ -1,0 +1,28 @@
+{
+  "timestamp": "2025-09-29T19:05:23.885464",
+  "openalex": {
+    "total_files": 971,
+    "sampled_files": 5,
+    "sample_records": 11,
+    "average_file_size": 4780.6,
+    "estimated_total_size_gb": 0.004323164559900761
+  },
+  "ted": {
+    "total_archives": 139,
+    "double_wrapped_count": 4,
+    "needs_extraction": true
+  },
+  "openaire": {},
+  "usaspending": {},
+  "issues_found": [
+    "OpenAlex files are too small - likely sample data only",
+    "TED data has 4 double-wrapped tar.gz files",
+    "Table ted_china_contracts is empty",
+    "Table cordis_china_collaborations is empty",
+    "Table openalex_institutions does not exist"
+  ],
+  "recommendations": [
+    "Download full OpenAlex dataset from https://openalex.org/data/download",
+    "Extract nested tar.gz files from TED archives before processing"
+  ]
+}

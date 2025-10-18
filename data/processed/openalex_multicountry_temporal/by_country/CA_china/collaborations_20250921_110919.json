@@ -1,0 +1,372 @@
+[
+  {
+    "paper_id": "https://openalex.org/W3048421505",
+    "doi": "https://doi.org/10.48550/arxiv.2008.04743",
+    "title": "Scalable and Communication-efficient Decentralized Federated Edge Learning with Multi-blockchain Framework",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "AU",
+      "CA",
+      "CN",
+      "SG"
+    ],
+    "institutions": {
+      "CA": [
+        "BC Research (Canada)"
+      ],
+      "SG": [
+        "Nanyang Technological University",
+        "National University of Singapore"
+      ],
+      "AU": [
+        "Monash University"
+      ],
+      "CN": [
+        "Tsinghua University",
+        "Wuhan University of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "CA": [
+        "Cyril Leung (BC Research (Canada))"
+      ],
+      "SG": [
+        "Jiawen Kang (Nanyang Technological University)",
+        "Chunyan Miao (National University of Singapore)",
+        "Dusit Niyato (National University of Singapore)"
+      ],
+      "AU": [
+        "Yi Liu (Monash University)"
+      ],
+      "CN": [
+        "Chunxiao Jiang (Tsinghua University)",
+        "Yang Zhang (Wuhan University of Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1,
+      "extraction_command": "sed -n '1p' part_000.gz | jq '.title'",
+      "paper_hash": "8d076a53960e5636"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "CA"
+  },
+  {
+    "paper_id": "https://openalex.org/W2074833892",
+    "doi": "https://doi.org/10.1016/s0141-1136(97)00017-2",
+    "title": "A review of the effect of salts on the solubility of organic compounds in seawater",
+    "publication_year": 1997,
+    "countries_collaborating": [
+      "CA",
+      "CN"
+    ],
+    "institutions": {
+      "CA": [
+        "University of Toronto"
+      ],
+      "CN": [
+        "Peking University"
+      ]
+    },
+    "authors_by_country": {
+      "CA": [
+        "Donald Mackay (University of Toronto)",
+        "Wan‐Ying Shiu (University of Toronto)"
+      ],
+      "CN": [
+        "Wenhui Xie (Peking University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1997,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 61,
+      "extraction_command": "sed -n '61p' part_000.gz | jq '.title'",
+      "paper_hash": "f241985b55011edb"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "CA"
+  },
+  {
+    "paper_id": "https://openalex.org/W2418383780",
+    "doi": null,
+    "title": "Safety assessment of ingested heterocyclic amines: initial report.",
+    "publication_year": 1993,
+    "countries_collaborating": [
+      "CA",
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "American Chemistry Council"
+      ],
+      "CA": [
+        "Cantox Health Sciences International"
+      ],
+      "CN": [
+        "Institute of Medicinal Plant Development"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "O. D. Easterday (American Chemistry Council)",
+        "Elke Kennepohl (American Chemistry Council)",
+        "C. H. Manley (American Chemistry Council)",
+        "Ronald E. Erickson (American Chemistry Council)",
+        "Bernard M. Wagner (American Chemistry Council)"
+      ],
+      "CA": [
+        "I.C. Munro (Cantox Health Sciences International)"
+      ],
+      "CN": [
+        "Philip S. Portoghese (Institute of Medicinal Plant Development)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1993,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 2552,
+      "extraction_command": "sed -n '2552p' part_000.gz | jq '.title'",
+      "paper_hash": "ba2957375f0e7058"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "CA"
+  },
+  {
+    "paper_id": "https://openalex.org/W4231029400",
+    "doi": "https://doi.org/10.1016/j.ijrobp.2020.07.1540",
+    "title": "Withdrawn",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "CA",
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University Hospitals Seidman Cancer Center",
+        "Case Western Reserve University"
+      ],
+      "CA": [
+        "University of Toronto",
+        "Sunnybrook Health Science Centre"
+      ],
+      "CN": [
+        "University of Hong Kong - Shenzhen Hospital"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Feng‐Ming Kong (Case Western Reserve University)",
+        "Feng‐Ming Kong (University Hospitals Seidman Cancer Center)",
+        "Jian‐Yue Jin (Case Western Reserve University)",
+        "Jian‐Yue Jin (University Hospitals Seidman Cancer Center)"
+      ],
+      "CA": [
+        "Jian‐Yue Jin (University of Toronto)",
+        "Alexander Chang (University of Toronto)",
+        "Alexander Chang (Sunnybrook Health Science Centre)",
+        "Feng‐Ming Kong (University of Toronto)"
+      ],
+      "CN": [
+        "Yaqing Nong (University of Hong Kong - Shenzhen Hospital)",
+        "Zhiyuan Xu (University of Hong Kong - Shenzhen Hospital)",
+        "Wing Hong Chan (University of Hong Kong - Shenzhen Hospital)",
+        "Kyujoon Lee (University of Hong Kong - Shenzhen Hospital)",
+        "Alexander Chang (University of Hong Kong - Shenzhen Hospital)",
+        "Song Hui (University of Hong Kong - Shenzhen Hospital)",
+        "Yong Zhou (University of Hong Kong - Shenzhen Hospital)",
+        "Qīng Wáng (University of Hong Kong - Shenzhen Hospital)",
+        "Yang Li (University of Hong Kong - Shenzhen Hospital)",
+        "Hao Zhang (University of Hong Kong - Shenzhen Hospital)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 107,
+      "extraction_command": "sed -n '107p' part_001.gz | jq '.title'",
+      "paper_hash": "18a5abd9438946da"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "CA"
+  },
+  {
+    "paper_id": "https://openalex.org/W3096004323",
+    "doi": "https://doi.org/10.3389/fimmu.2020.615275",
+    "title": "Corrigendum: Interferon-α2b Treatment for COVID-19",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "AU",
+      "CA",
+      "CN"
+    ],
+    "institutions": {
+      "CA": [
+        "Prevention of Organ Failure",
+        "University of British Columbia",
+        "University of Toronto",
+        "University Health Network",
+        "St. Paul's Hospital",
+        "Toronto General Hospital"
+      ],
+      "AU": [
+        "The Kids Research Institute Australia"
+      ],
+      "CN": [
+        "Huazhong University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "CA": [
+        "Casey P. Shannon (Prevention of Organ Failure)",
+        "Scott J. Tebbutt (Prevention of Organ Failure)",
+        "Virginia Chen (Prevention of Organ Failure)",
+        "Eleanor N. Fish (University Health Network)",
+        "Virginia Chen (St. Paul's Hospital)",
+        "Virginia Chen (University of British Columbia)",
+        "Casey P. Shannon (St. Paul's Hospital)",
+        "Eleanor N. Fish (University of Toronto)",
+        "Casey P. Shannon (University of British Columbia)",
+        "Scott J. Tebbutt (St. Paul's Hospital)",
+        "Eleanor N. Fish (Toronto General Hospital)",
+        "Scott J. Tebbutt (University of British Columbia)"
+      ],
+      "AU": [
+        "Tobias R. Kollmann (The Kids Research Institute Australia)"
+      ],
+      "CN": [
+        "Qiong Zhou (Huazhong University of Science and Technology)",
+        "Xu Wang (Huazhong University of Science and Technology)",
+        "Zihao Wang (Huazhong University of Science and Technology)",
+        "Xiao‐Shan Wei (Huazhong University of Science and Technology)",
+        "Xuan Xiang (Huazhong University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 330,
+      "extraction_command": "sed -n '330p' part_000.gz | jq '.title'",
+      "paper_hash": "90172069d583d966"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "CA"
+  },
+  {
+    "paper_id": "https://openalex.org/W2011945938",
+    "doi": "https://doi.org/10.1021/jf9604201",
+    "title": "Determination of the Protein Quality of Three New Northern Adapted Cultivars of Common and Miso Type Soybeans by Amino Acid Analysis",
+    "publication_year": 1997,
+    "countries_collaborating": [
+      "CA",
+      "CN"
+    ],
+    "institutions": {
+      "CA": [
+        "Agriculture and Agri-Food Canada"
+      ],
+      "CN": [
+        "Nankai University"
+      ]
+    },
+    "authors_by_country": {
+      "CA": [
+        "Victor K. Choi (Agriculture and Agri-Food Canada)",
+        "Constantinos G. Zarkadas (Agriculture and Agri-Food Canada)",
+        "H. D. Voldeng (Agriculture and Agri-Food Canada)",
+        "Zi Ran Yu (Agriculture and Agri-Food Canada)"
+      ],
+      "CN": [
+        "Victor K. Choi (Nankai University)",
+        "H. D. Voldeng (Nankai University)",
+        "Zi Ran Yu (Nankai University)",
+        "Constantinos G. Zarkadas (Nankai University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1997,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_007.gz",
+      "line_number": 187,
+      "extraction_command": "sed -n '187p' part_007.gz | jq '.title'",
+      "paper_hash": "2c255d9652a41c93"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "CA"
+  }
+]

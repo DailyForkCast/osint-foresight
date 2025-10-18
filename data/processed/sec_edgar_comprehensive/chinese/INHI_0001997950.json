@@ -1,0 +1,49 @@
+{
+  "cik": "0001997950",
+  "ticker": "INHI",
+  "name": "Unitrend Entertainment Group Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:beijing",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "7822",
+  "sicDescription": "Services-Motion Picture & Video Tape Distribution",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "9176317777",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ROOM A-4474, NO. 3 BUILDING, YONGAN RD.",
+      "street2": "SHILONG ECONOMIC DEVELOPMENT DISTRICT",
+      "city": "BEIJING",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "ROOM A-4474, NO. 3 BUILDING, YONGAN RD.",
+      "street2": "SHILONG ECONOMIC DEVELOPMENT DISTRICT",
+      "city": "BEIJING",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 15
+}

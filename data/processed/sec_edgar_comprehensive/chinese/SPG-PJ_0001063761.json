@@ -1,0 +1,47 @@
+{
+  "cik": "0001063761",
+  "ticker": "SPG-PJ",
+  "name": "SIMON PROPERTY GROUP INC /DE/",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6798",
+  "sicDescription": "Real Estate Investment Trusts",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "046268599",
+  "phone": "317-636-1600",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "225 WEST WASHINGTON STREET",
+      "street2": null,
+      "city": "INDIANAPOLIS",
+      "stateOrCountry": "IN",
+      "zipCode": "46204-3438",
+      "stateOrCountryDescription": "IN",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "225 WEST WASHINGTON STREET",
+      "street2": null,
+      "city": "INDIANAPOLIS",
+      "stateOrCountry": "IN",
+      "zipCode": "46204-3438",
+      "stateOrCountryDescription": "IN",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-07"
+  },
+  "filings_count": 1001
+}

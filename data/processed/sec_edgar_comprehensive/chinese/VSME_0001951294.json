@@ -1,0 +1,47 @@
+{
+  "cik": "0001951294",
+  "ticker": "VSME",
+  "name": "VS MEDIA Holdings Ltd",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "7311",
+  "sicDescription": "Services-Advertising Agencies",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "D8",
+  "ein": "000000000",
+  "phone": "852 2865 9992",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "6/F, KOHO",
+      "street2": "75 HUNG TO ROAD, KWUN TONG",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "000000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "6/F, KOHO",
+      "street2": "75 HUNG TO ROAD, KWUN TONG",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "000000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-12"
+  },
+  "filings_count": 52
+}

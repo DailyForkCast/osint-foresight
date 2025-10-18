@@ -1,0 +1,63 @@
+{
+  "timestamp": "2025-09-21T01:49:04.523525+00:00",
+  "reason": "First run - no previous update record",
+  "status": {
+    "timestamp": "2025-09-21T01:49:04.464478+00:00",
+    "data_sources": {
+      "openalex": {
+        "status": "\u2705 Ready",
+        "size_gb": 420.7,
+        "path": "F:\\OSINT_Backups\\openalex"
+      },
+      "ted": {
+        "status": "\u2705 Ready",
+        "size_gb": 24.2,
+        "path": "F:\\TED_Data\\monthly"
+      },
+      "cordis": {
+        "status": "\u2705 Ready",
+        "size_gb": 0.2,
+        "path": "F:\\2025-09-14 Horizons"
+      },
+      "sec_edgar": {
+        "status": "\u2705 Ready",
+        "size_gb": 0.1,
+        "path": "F:\\OSINT_DATA\\SEC_EDGAR"
+      },
+      "patents": {
+        "status": "\u2705 Ready",
+        "size_gb": 0.0,
+        "path": "F:\\OSINT_DATA\\EPO_PATENTS"
+      }
+    },
+    "total_data_gb": 445.2,
+    "master_prompts": [
+      {
+        "name": "CHATGPT_MASTER_PROMPT_V9.4_SEQUENTIAL.md",
+        "path": "docs/prompts/active/master/CHATGPT_MASTER_PROMPT_V9.4_SEQUENTIAL.md",
+        "modified": "2025-09-20"
+      },
+      {
+        "name": "CLAUDE_CODE_MASTER_V9.5_SEQUENTIAL.md",
+        "path": "docs/prompts/active/master/CLAUDE_CODE_MASTER_V9.5_SEQUENTIAL.md",
+        "modified": "2025-09-20"
+      }
+    ],
+    "recent_artifacts": [
+      {
+        "country": "Italy",
+        "last_modified": "2025-09-19",
+        "recent": true
+      },
+      {
+        "country": "_review",
+        "last_modified": "2025-09-13",
+        "recent": false
+      }
+    ],
+    "git_status": {
+      "uncommitted_changes": 602,
+      "last_commit": "3024b82 feat: Major project reorganization and comprehensive data integration 2025-09-19"
+    }
+  }
+}

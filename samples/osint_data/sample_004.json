@@ -1,0 +1,218 @@
+{
+  "original_path": "F:\\OSINT_DATA\\openaire_production_comprehensive\\openaire_production.db",
+  "profile": {
+    "path": "F:\\OSINT_DATA\\openaire_production_comprehensive\\openaire_production.db",
+    "size": 2199068672,
+    "extension": ".db",
+    "encoding": "unknown",
+    "line_count": 307140,
+    "field_count": 5,
+    "parse_status": "success",
+    "schema": {
+      "country_overview": {
+        "row_count": 38,
+        "columns": [
+          "country_code",
+          "country_name",
+          "total_research_products",
+          "recent_publications",
+          "processing_start",
+          "processing_end",
+          "processing_status",
+          "batches_completed",
+          "total_collaborations",
+          "china_collaborations",
+          "error_count"
+        ]
+      },
+      "research_products": {
+        "row_count": 156221,
+        "columns": [
+          "id",
+          "country_code",
+          "title",
+          "date_accepted",
+          "result_type",
+          "doi",
+          "processing_batch",
+          "has_collaboration",
+          "raw_data"
+        ]
+      },
+      "sqlite_sequence": {
+        "row_count": 3,
+        "columns": [
+          "name",
+          "seq"
+        ]
+      },
+      "collaborations": {
+        "row_count": 150505,
+        "columns": [
+          "id",
+          "primary_country",
+          "partner_countries",
+          "title",
+          "date_accepted",
+          "result_type",
+          "doi",
+          "num_countries",
+          "organizations",
+          "is_china_collaboration",
+          "processing_batch"
+        ]
+      },
+      "processing_log": {
+        "row_count": 373,
+        "columns": [
+          "id",
+          "country_code",
+          "batch_number",
+          "start_time",
+          "end_time",
+          "records_processed",
+          "collaborations_found",
+          "china_collaborations",
+          "status",
+          "error_message",
+          "processing_time_seconds"
+        ]
+      }
+    },
+    "sample_records": [
+      [
+        "HU",
+        "Hungary",
+        519297,
+        14482,
+        "2025-09-21T17:32:00.957960",
+        "2025-09-21T17:42:34.390127",
+        "completed",
+        10,
+        3488,
+        0,
+        0
+      ],
+      [
+        "GR",
+        "Greece",
+        851507,
+        22716,
+        "2025-09-21T17:42:35.587954",
+        "2025-09-21T17:55:46.115345",
+        "completed",
+        10,
+        4910,
+        0,
+        0
+      ],
+      [
+        "IT",
+        "Italy",
+        7277853,
+        133628,
+        "2025-09-21T17:55:47.365316",
+        "2025-09-21T18:08:17.148176",
+        "completed",
+        10,
+        7149,
+        0,
+        0
+      ],
+      [
+        "PL",
+        "Poland",
+        1947999,
+        48921,
+        "2025-09-21T18:08:17.645317",
+        "2025-09-21T18:16:44.513771",
+        "completed",
+        10,
+        4395,
+        0,
+        0
+      ],
+      [
+        "DE",
+        "Germany",
+        8248274,
+        306865,
+        "2025-09-21T18:16:45.404144",
+        "2025-09-21T18:24:23.785839",
+        "completed",
+        10,
+        8371,
+        0,
+        0
+      ]
+    ],
+    "modified": "2025-09-22T00:24:52"
+  },
+  "sample_data": [
+    [
+      "HU",
+      "Hungary",
+      519297,
+      14482,
+      "2025-09-21T17:32:00.957960",
+      "2025-09-21T17:42:34.390127",
+      "completed",
+      10,
+      3488,
+      0,
+      0
+    ],
+    [
+      "GR",
+      "Greece",
+      851507,
+      22716,
+      "2025-09-21T17:42:35.587954",
+      "2025-09-21T17:55:46.115345",
+      "completed",
+      10,
+      4910,
+      0,
+      0
+    ],
+    [
+      "IT",
+      "Italy",
+      7277853,
+      133628,
+      "2025-09-21T17:55:47.365316",
+      "2025-09-21T18:08:17.148176",
+      "completed",
+      10,
+      7149,
+      0,
+      0
+    ],
+    [
+      "PL",
+      "Poland",
+      1947999,
+      48921,
+      "2025-09-21T18:08:17.645317",
+      "2025-09-21T18:16:44.513771",
+      "completed",
+      10,
+      4395,
+      0,
+      0
+    ],
+    [
+      "DE",
+      "Germany",
+      8248274,
+      306865,
+      "2025-09-21T18:16:45.404144",
+      "2025-09-21T18:24:23.785839",
+      "completed",
+      10,
+      8371,
+      0,
+      0
+    ]
+  ]
+}

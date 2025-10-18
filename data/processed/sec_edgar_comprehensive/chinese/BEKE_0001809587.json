@@ -1,0 +1,52 @@
+{
+  "cik": "0001809587",
+  "ticker": "BEKE",
+  "name": "KE Holdings Inc.",
+  "detection_reasons": [
+    "location:china",
+    "location:beijing",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "6531",
+  "sicDescription": "Real Estate Agents & Managers (For Others)",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "861058104689",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ORIENTAL ELECTRONIC TECHNOLOGY BUILDING",
+      "street2": "NO. 2 CHUANGYE ROAD, HAIDIAN DISTRICT",
+      "city": "BEIJING",
+      "stateOrCountry": null,
+      "zipCode": "100086",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "ORIENTAL ELECTRONIC TECHNOLOGY BUILDING",
+      "street2": "NO. 2 CHUANGYE ROAD, HAIDIAN DISTRICT",
+      "city": "BEIJING",
+      "stateOrCountry": null,
+      "zipCode": "100086",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-22"
+  },
+  "filings_count": 365
+}

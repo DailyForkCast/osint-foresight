@@ -1,0 +1,5090 @@
+[
+  {
+    "paper_id": "https://openalex.org/W2096686514",
+    "doi": "https://doi.org/10.1109/vlsi-dat.2014.6834875",
+    "title": "A novel power noise simulation methodology for chip design using Wafer Level Chip Scale Packaging",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "SG"
+    ],
+    "institutions": {
+      "SG": [
+        "MediaTek (Singapore)"
+      ],
+      "CN": [
+        "MediaTek (China)"
+      ]
+    },
+    "authors_by_country": {
+      "SG": [
+        "Jing‐Chun Han (MediaTek (Singapore))",
+        "Yipin Wu (MediaTek (Singapore))",
+        "Zhigang Hao (MediaTek (Singapore))"
+      ],
+      "CN": [
+        "Joy N. Tsai (MediaTek (China))"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 156044,
+      "extraction_command": "sed -n '156044p' part_000.gz | jq '.title'",
+      "paper_hash": "c3ab4b1af88e60ae"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2181353767",
+    "doi": null,
+    "title": "Advance in Compound Semiconductor of China",
+    "publication_year": 2003,
+    "countries_collaborating": [
+      "CN",
+      "CZ"
+    ],
+    "institutions": {
+      "CZ": [
+        "Czech Academy of Sciences, Institute of Physics"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "CZ": [
+        "Qi Huang (Czech Academy of Sciences, Institute of Physics)"
+      ],
+      "CN": [
+        "Qi Huang (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2003,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 345478,
+      "extraction_command": "sed -n '345478p' part_000.gz | jq '.title'",
+      "paper_hash": "68d821228ba93c27"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2357615095",
+    "doi": null,
+    "title": "Optical Nonlinearities of the Polar Enhancement Metal-Oxide Semiconductor Particles",
+    "publication_year": 1993,
+    "countries_collaborating": [
+      "CN",
+      "TW"
+    ],
+    "institutions": {
+      "TW": [
+        "Hsin Sheng College of Medical Care and Management"
+      ],
+      "CN": [
+        "Chenguang Research Institute of Chemical Industry"
+      ]
+    },
+    "authors_by_country": {
+      "TW": [
+        "Hao Fei (Hsin Sheng College of Medical Care and Management)"
+      ],
+      "CN": [
+        "Ai Xi (Chenguang Research Institute of Chemical Industry)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1993,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 100542,
+      "extraction_command": "sed -n '100542p' part_000.gz | jq '.title'",
+      "paper_hash": "f94e4b41d76859fb"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1987664189",
+    "doi": "https://doi.org/10.1117/12.2086062",
+    "title": "The study of lithography conditions to use advanced resist performance properly",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Nikon (United States)"
+      ],
+      "CN": [
+        "Shanghai Huali Microelectronics (China)"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Kengo Takemasa (Nikon (United States))",
+        "Hajime Aoyama (Nikon (United States))",
+        "Tomoyuki Matsuyama (Nikon (United States))",
+        "Toshihiko Sei (Nikon (United States))",
+        "Tami Miyazawa (Nikon (United States))"
+      ],
+      "CN": [
+        "Zhengkai Yang (Shanghai Huali Microelectronics (China))",
+        "Quan Chen (Shanghai Huali Microelectronics (China))",
+        "Wuping Wang (Shanghai Huali Microelectronics (China))"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 439445,
+      "extraction_command": "sed -n '439445p' part_000.gz | jq '.title'",
+      "paper_hash": "0dd3135827b0aec9"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2313256098",
+    "doi": "https://doi.org/10.1149/1.3694325",
+    "title": "DOF and Coherence Optimization in Sub-32 nm Contact Lithography",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "IT"
+    ],
+    "institutions": {
+      "IT": [
+        "Semiconductor Manufacturing International (Italy)"
+      ],
+      "CN": [
+        "Semiconductor Manufacturing International (China)"
+      ]
+    },
+    "authors_by_country": {
+      "IT": [
+        "Yiming Gu (Semiconductor Manufacturing International (Italy))",
+        "Xuelong Shi (Semiconductor Manufacturing International (Italy))"
+      ],
+      "CN": [
+        "Yao Xu (Semiconductor Manufacturing International (China))",
+        "Qiang Wu (Semiconductor Manufacturing International (China))"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_003.gz",
+      "line_number": 262078,
+      "extraction_command": "sed -n '262078p' part_003.gz | jq '.title'",
+      "paper_hash": "5169f4919069c1b8"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4251893396",
+    "doi": "https://doi.org/10.1149/1.3694320",
+    "title": "Substrate Effect on CD Control for Ion Implantation Layer Lithography Beyond 45nm Node",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "IT"
+    ],
+    "institutions": {
+      "IT": [
+        "Semiconductor Manufacturing International (Italy)"
+      ],
+      "CN": [
+        "Semiconductor Manufacturing International (China)"
+      ]
+    },
+    "authors_by_country": {
+      "IT": [
+        "Yiming Gu (Semiconductor Manufacturing International (Italy))",
+        "Yi-Shih Lin (Semiconductor Manufacturing International (Italy))"
+      ],
+      "CN": [
+        "Qiang Wu (Semiconductor Manufacturing International (China))",
+        "Huayong Hu (Semiconductor Manufacturing International (China))"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_009.gz",
+      "line_number": 603638,
+      "extraction_command": "sed -n '603638p' part_009.gz | jq '.title'",
+      "paper_hash": "350781a2980cab5e"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1978114200",
+    "doi": "https://doi.org/10.1088/0256-307x/10/9/014",
+    "title": "Magneto-Optical Bistability in Diluted Magnetic Semiconductor Cd <sub>1-x</sub> Mn <sub>x</sub> Te",
+    "publication_year": 1993,
+    "countries_collaborating": [
+      "CN",
+      "TW"
+    ],
+    "institutions": {
+      "TW": [
+        "Academia Sinica"
+      ],
+      "CN": [
+        "Shanghai Institute of Technical Physics",
+        "Peking University"
+      ]
+    },
+    "authors_by_country": {
+      "TW": [
+        "Kejun Ma (Academia Sinica)"
+      ],
+      "CN": [
+        "Chenjia Chen (Peking University)",
+        "Kejun Ma (Shanghai Institute of Technical Physics)",
+        "Jizhou Liu (Peking University)",
+        "Xuezhong Wang (Peking University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1993,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 82109,
+      "extraction_command": "sed -n '82109p' part_001.gz | jq '.title'",
+      "paper_hash": "eeccf49a7bc3fa5e"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2207851085",
+    "doi": "https://doi.org/10.1109/wipda.2015.7369312",
+    "title": "Recent developments in GaN-based optical rapid switching semiconductor devices",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University of Illinois Chicago",
+        "Kyma Technologies (United States)"
+      ],
+      "CN": [
+        "Xi'an University of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Jacob H. Leach (Kyma Technologies (United States))",
+        "Kevin Udwary (Kyma Technologies (United States))",
+        "Sudip K. Mazumder (University of Illinois Chicago)"
+      ],
+      "CN": [
+        "Kyma Technologies (Xi'an University of Technology)",
+        "Xinmei Wang (Xi'an University of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_002.gz",
+      "line_number": 1370,
+      "extraction_command": "sed -n '1370p' part_002.gz | jq '.title'",
+      "paper_hash": "300398fdaf9779f1"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2470981804",
+    "doi": "https://doi.org/10.7567/ssdm.2001.p-2-1",
+    "title": "Effect of Shape and Size on Electron Transition Energies of InAs Semiconductor Quantum Dots",
+    "publication_year": 2001,
+    "countries_collaborating": [
+      "CN",
+      "TW",
+      "UA"
+    ],
+    "institutions": {
+      "UA": [
+        "Taras Shevchenko National University of Kyiv"
+      ],
+      "TW": [
+        "National Yang Ming Chiao Tung University"
+      ],
+      "CN": [
+        "China Institute Of Communications"
+      ]
+    },
+    "authors_by_country": {
+      "UA": [
+        "O. Voskoboynikov (Taras Shevchenko National University of Kyiv)",
+        "O. V. Tretyak (Taras Shevchenko National University of Kyiv)"
+      ],
+      "TW": [
+        "C. P. Lee (National Yang Ming Chiao Tung University)",
+        "Simon M. Sze (National Yang Ming Chiao Tung University)"
+      ],
+      "CN": [
+        "Yiming Li (China Institute Of Communications)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2001,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 126369,
+      "extraction_command": "sed -n '126369p' part_005.gz | jq '.title'",
+      "paper_hash": "ef2f0bb9d43758cf"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2507642616",
+    "doi": null,
+    "title": "Dynamics of simultaneous measurements of hall and magnetoresistance effects in liquid metals and semiconductors",
+    "publication_year": 2005,
+    "countries_collaborating": [
+      "CN",
+      "JP",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Materials Resources (United States)"
+      ],
+      "JP": [
+        "Shizuoka University"
+      ],
+      "CN": [
+        "High Magnetic Field Laboratory"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Iwao Mogi (Materials Resources (United States))"
+      ],
+      "JP": [
+        "Masaaki Isai (Shizuoka University)",
+        "T. Itō (Shizuoka University)",
+        "Masami Ogita (Shizuoka University)"
+      ],
+      "CN": [
+        "Satoshi Awaji (High Magnetic Field Laboratory)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2005,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 449198,
+      "extraction_command": "sed -n '449198p' part_005.gz | jq '.title'",
+      "paper_hash": "d06befdf7130721d"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2580503575",
+    "doi": "https://doi.org/10.1109/ipcon.2016.7830993",
+    "title": "Monolithic white lasers and semiconductor alloy nanostructures with a wide range of composition control",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Arizona State University"
+      ],
+      "CN": [
+        "Tsinghua University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Cun‐Zheng Ning (Arizona State University)",
+        "Sunay Türkdoğan (Arizona State University)",
+        "Zhicheng Liu (Arizona State University)",
+        "Fan Fan (Arizona State University)"
+      ],
+      "CN": [
+        "Cun‐Zheng Ning (Tsinghua University)",
+        "Fan Fan (Tsinghua University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_006.gz",
+      "line_number": 134963,
+      "extraction_command": "sed -n '134963p' part_006.gz | jq '.title'",
+      "paper_hash": "19cef07411e3264b"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4238683714",
+    "doi": "https://doi.org/10.1364/acp.2013.aw3b.2",
+    "title": "Cavity Enhanced Nonlinearity in Injection-locked Semiconductor Ring Lasers",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University of Bristol"
+      ],
+      "CN": [
+        "Beijing Jiaotong University"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Ning Zhang (University of Bristol)",
+        "Xinlun Cai (University of Bristol)",
+        "huanlu li (University of Bristol)",
+        "Siyuan Yu (University of Bristol)"
+      ],
+      "CN": [
+        "Zexin Kang (Beijing Jiaotong University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_010.gz",
+      "line_number": 232911,
+      "extraction_command": "sed -n '232911p' part_010.gz | jq '.title'",
+      "paper_hash": "8b4c9f9a91fdf363"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2354566388",
+    "doi": null,
+    "title": "Design of 2 M to Ethernet System for Smart Grid Using Embedded Microprocessor",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Electric Power Research Institute"
+      ],
+      "CN": [
+        "NARI Group (China)"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Fan Hu (Electric Power Research Institute)"
+      ],
+      "CN": [
+        "Fan Hu (NARI Group (China))"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 93543,
+      "extraction_command": "sed -n '93543p' part_005.gz | jq '.title'",
+      "paper_hash": "aec22ef179e5a132"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2356469781",
+    "doi": null,
+    "title": "Research Progress of Semiconductor Quantum Dots Glasses",
+    "publication_year": 2006,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "Materials Science & Engineering"
+      ],
+      "CN": [
+        "Central South University"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Anxian Lu (Materials Science & Engineering)"
+      ],
+      "CN": [
+        "Anxian Lu (Central South University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2006,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 128866,
+      "extraction_command": "sed -n '128866p' part_005.gz | jq '.title'",
+      "paper_hash": "b97e278857e5e085"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2361073850",
+    "doi": null,
+    "title": "Semiconductor Nanocrystals for Thin Film Transistors",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "Materials Science & Engineering"
+      ],
+      "CN": [
+        "Zhejiang University"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Luan Qingbi (Materials Science & Engineering)"
+      ],
+      "CN": [
+        "Luan Qingbi (Zhejiang University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 214947,
+      "extraction_command": "sed -n '214947p' part_005.gz | jq '.title'",
+      "paper_hash": "3a66143ce21a52e1"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2377976002",
+    "doi": null,
+    "title": "Application of Modified Nano TiO_2 Films by Semiconductor Coupling in DSSC",
+    "publication_year": 2011,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "Materials Science & Engineering"
+      ],
+      "CN": [
+        "Hubei University"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Li Wan (Materials Science & Engineering)"
+      ],
+      "CN": [
+        "Li Wan (Hubei University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2011,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 526886,
+      "extraction_command": "sed -n '526886p' part_005.gz | jq '.title'",
+      "paper_hash": "f48503496c913d34"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2380507266",
+    "doi": null,
+    "title": "Research Progress on Graphene/Semiconductor Composite Structures in the Application of Photocataslysis",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Metal Matrix Cast Composites (United States)"
+      ],
+      "CN": [
+        "Shanghai Jiao Tong University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Linglin Yang (Metal Matrix Cast Composites (United States))"
+      ],
+      "CN": [
+        "Linglin Yang (Shanghai Jiao Tong University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors",
+      "advanced_materials"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_006.gz",
+      "line_number": 21304,
+      "extraction_command": "sed -n '21304p' part_006.gz | jq '.title'",
+      "paper_hash": "23b9e6471368c56a"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2384156717",
+    "doi": null,
+    "title": "Research and Applications of Visible Light Responsive Narrow Band Gap Semiconductor Photocatalytic Materials",
+    "publication_year": 2009,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "Materials Science & Engineering"
+      ],
+      "CN": [
+        "Zhejiang University"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Hong Zhanglian (Materials Science & Engineering)"
+      ],
+      "CN": [
+        "Hong Zhanglian (Zhejiang University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2009,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_006.gz",
+      "line_number": 88856,
+      "extraction_command": "sed -n '88856p' part_006.gz | jq '.title'",
+      "paper_hash": "7fd758b19921a824"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2390237423",
+    "doi": null,
+    "title": "Research Progress and Application of Semiconductor Spintronics",
+    "publication_year": 2006,
+    "countries_collaborating": [
+      "BG",
+      "CN"
+    ],
+    "institutions": {
+      "BG": [
+        "Georgi Nadjakov Institute of Solid State Physics"
+      ],
+      "CN": [
+        "Sichuan Normal University"
+      ]
+    },
+    "authors_by_country": {
+      "BG": [
+        "Xu Ming (Georgi Nadjakov Institute of Solid State Physics)"
+      ],
+      "CN": [
+        "Xu Ming (Sichuan Normal University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2006,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_006.gz",
+      "line_number": 201276,
+      "extraction_command": "sed -n '201276p' part_006.gz | jq '.title'",
+      "paper_hash": "fa6823345a2f4eb3"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2504084620",
+    "doi": "https://doi.org/10.1364/cleo_si.2016.sth1i.1",
+    "title": "Optoelectronic THz Frequency Synthesizer Based on a Multiple Laser Photonic Integrated Circuit",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University of Glasgow"
+      ],
+      "CN": [
+        "Institute of Semiconductors"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Lianping Hou (University of Glasgow)",
+        "J.H. Marsh (University of Glasgow)"
+      ],
+      "CN": [
+        "Liangshun Han (Institute of Semiconductors)",
+        "Hongliang Zhu (Institute of Semiconductors)",
+        "Junjie Xu (Institute of Semiconductors)",
+        "Qiufang Deng (Institute of Semiconductors)",
+        "Song Liang (Institute of Semiconductors)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_008.gz",
+      "line_number": 77774,
+      "extraction_command": "sed -n '77774p' part_008.gz | jq '.title'",
+      "paper_hash": "253db7758b5b2641"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4233964784",
+    "doi": "https://doi.org/10.1109/mcom.2016.7452268",
+    "title": "Integrated circuits for communications [Series Editorial]",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "CreoNex Systems (United States)"
+      ],
+      "CN": [
+        "Zhejiang University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Charles Chien (CreoNex Systems (United States))"
+      ],
+      "CN": [
+        "Zhiwei Xu (Zhejiang University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_013.gz",
+      "line_number": 46565,
+      "extraction_command": "sed -n '46565p' part_013.gz | jq '.title'",
+      "paper_hash": "91ae6157d9519e31"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4236449966",
+    "doi": "https://doi.org/10.1117/12.960798",
+    "title": "Optical And Semiconductor Properties Of Lead Telluride Coatings",
+    "publication_year": 1989,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University of Reading"
+      ],
+      "CN": [
+        "Shanghai Institute of Technical Physics"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "J. S. Seeley (University of Reading)",
+        "Gary Hawkins (University of Reading)",
+        "R. Hunneman (University of Reading)"
+      ],
+      "CN": [
+        "K. Q. Zhang (Shanghai Institute of Technical Physics)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1989,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_013.gz",
+      "line_number": 195998,
+      "extraction_command": "sed -n '195998p' part_013.gz | jq '.title'",
+      "paper_hash": "bd414a807228ac82"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1555208339",
+    "doi": "https://doi.org/10.1088/0256-307x/21/12/054",
+    "title": "Superconducting Transition Temperature and Metal–Semiconductor Transition Temperature in YBa 2 Cu 4 O 8 /La 0.67 Ca 0.33 MnO 3 /YBa 2 Cu 4 O 8 Trilayer Films",
+    "publication_year": 2004,
+    "countries_collaborating": [
+      "CN",
+      "CZ"
+    ],
+    "institutions": {
+      "CZ": [
+        "Czech Academy of Sciences, Institute of Physics"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences",
+        "International Centre for Materials Physics"
+      ]
+    },
+    "authors_by_country": {
+      "CZ": [
+        "Kun Zhao (Czech Academy of Sciences, Institute of Physics)",
+        "Jiafeng Feng (Czech Academy of Sciences, Institute of Physics)",
+        "Huang Yan-Hong (Czech Academy of Sciences, Institute of Physics)"
+      ],
+      "CN": [
+        "Jiafeng Feng (Chinese Academy of Sciences)",
+        "Kun Zhao (Chinese Academy of Sciences)",
+        "Kun Zhao (International Centre for Materials Physics)",
+        "Huang Yan-Hong (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2004,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 193590,
+      "extraction_command": "sed -n '193590p' part_000.gz | jq '.title'",
+      "paper_hash": "abe08586ac750436"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1778791916",
+    "doi": "https://doi.org/10.1007/978-3-642-55711-8_14",
+    "title": "Asymptotic Convergence to Diffusive Wave of Bipolar Hydrodynamical Model for Semiconductors",
+    "publication_year": 2003,
+    "countries_collaborating": [
+      "AT",
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "AT": [
+        "University of Vienna"
+      ],
+      "DE": [
+        "Universität Hamburg"
+      ],
+      "CN": [
+        "PLA Academy of Military Science"
+      ]
+    },
+    "authors_by_country": {
+      "AT": [
+        "Hai-Liang Li (University of Vienna)"
+      ],
+      "DE": [
+        "Ingenuin Gasser (Universität Hamburg)"
+      ],
+      "CN": [
+        "Ling Hsiao (PLA Academy of Military Science)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2003,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 226797,
+      "extraction_command": "sed -n '226797p' part_000.gz | jq '.title'",
+      "paper_hash": "fa0515abadc34602"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2112237144",
+    "doi": "https://doi.org/10.1142/s0217979204027153",
+    "title": "HALL AND MAGNETORESISTANCE EFFECTS OBTAINED FROM SIMULTANEOUS MEASUREMENTS OF LIQUID METALS AND SEMICONDUCTORS",
+    "publication_year": 2004,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Shizuoka University",
+        "Tohoku University"
+      ],
+      "CN": [
+        "High Magnetic Field Laboratory"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Masaaki Isai (Shizuoka University)",
+        "K. Yokoo (Tohoku University)",
+        "Satoshi Awaji (Tohoku University)",
+        "T. Itō (Shizuoka University)",
+        "Masami Ogita (Shizuoka University)",
+        "Iwao Mogi (Tohoku University)"
+      ],
+      "CN": [
+        "Satoshi Awaji (High Magnetic Field Laboratory)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2004,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 36714,
+      "extraction_command": "sed -n '36714p' part_001.gz | jq '.title'",
+      "paper_hash": "7caf78d1288c325b"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2114535222",
+    "doi": "https://doi.org/10.1109/iscas.1997.621899",
+    "title": "A new algorithm for generating symbolic network functions of analog integrated circuits",
+    "publication_year": 2002,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University of Illinois Chicago"
+      ],
+      "CN": [
+        "University of Electronic Science and Technology of China"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Wai‐Kai Chen (University of Illinois Chicago)"
+      ],
+      "CN": [
+        "Zhaoming Wang (University of Electronic Science and Technology of China)",
+        "Ruzhang Li (University of Electronic Science and Technology of China)",
+        "Xiangfu Huang (University of Electronic Science and Technology of China)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2002,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 39956,
+      "extraction_command": "sed -n '39956p' part_001.gz | jq '.title'",
+      "paper_hash": "c6690f931b42af2e"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2124121900",
+    "doi": "https://doi.org/10.1109/cleopr.2009.5292158",
+    "title": "Linewidth enhancement factor for ultrafast dynamics in bulk semiconductor optical amplifiers",
+    "publication_year": 2009,
+    "countries_collaborating": [
+      "CA",
+      "CN"
+    ],
+    "institutions": {
+      "CA": [
+        "McMaster University"
+      ],
+      "CN": [
+        "Beijing Jiaotong University"
+      ]
+    },
+    "authors_by_country": {
+      "CA": [
+        "Wei‐Ping Huang (McMaster University)"
+      ],
+      "CN": [
+        "Zhi Wang (Beijing Jiaotong University)",
+        "Li Wang (Beijing Jiaotong University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2009,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 53518,
+      "extraction_command": "sed -n '53518p' part_001.gz | jq '.title'",
+      "paper_hash": "26d7a3fcb92b7eb1"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2131975277",
+    "doi": "https://doi.org/10.1557/proc-0921-t02-07",
+    "title": "Understanding and Control of Lateral Contraction in Stamping Lithography",
+    "publication_year": 2006,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University of California, Davis",
+        "University of Nebraska–Lincoln"
+      ],
+      "CN": [
+        "Peking University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Gang-yu Liu (University of California, Davis)",
+        "Li Tan (University of Nebraska–Lincoln)"
+      ],
+      "CN": [
+        "Zheng Li (Peking University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2006,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 64606,
+      "extraction_command": "sed -n '64606p' part_001.gz | jq '.title'",
+      "paper_hash": "02fd8e2e08ab84cc"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2141962369",
+    "doi": "https://doi.org/10.1109/icece.2008.4769324",
+    "title": "Raman spectroscopic determination of hole density in diluted magnetic semiconductor Ga&lt;inf&gt;x&lt;/inf&gt;Mn&lt;inf&gt;1&amp;#x2212;x&lt;/inf&gt;Sb",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Kyoto Institute of Technology"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Masayoshi Yamada (Kyoto Institute of Technology)"
+      ],
+      "CN": [
+        "N. F. Chen (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 78648,
+      "extraction_command": "sed -n '78648p' part_001.gz | jq '.title'",
+      "paper_hash": "a5fd1f2f1d2a4060"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2154615701",
+    "doi": "https://doi.org/10.1109/08ias.2008.236",
+    "title": "High-Power EUV Source for Lithography Using Tin Target",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Kumamoto University"
+      ],
+      "CN": [
+        "University of Shanghai for Science and Technology",
+        "Harbin Institute of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "H. Imamura (Kumamoto University)",
+        "H. Horta (Kumamoto University)",
+        "S. Katsuki (Kumamoto University)",
+        "Hidenori Akiyama (Kumamoto University)"
+      ],
+      "CN": [
+        "Chong Zhang (Harbin Institute of Technology)",
+        "Chong Zhang (University of Shanghai for Science and Technology)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 102102,
+      "extraction_command": "sed -n '102102p' part_001.gz | jq '.title'",
+      "paper_hash": "afe4229ab2428f61"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2201432692",
+    "doi": null,
+    "title": "Electronic states of some semiconductor clusters",
+    "publication_year": 1999,
+    "countries_collaborating": [
+      "CN",
+      "RU"
+    ],
+    "institutions": {
+      "RU": [
+        "Institute of Metallurgy"
+      ],
+      "CN": [
+        "Shanghai Institute of Microsystem and Information Technology",
+        "Tsinghua University"
+      ]
+    },
+    "authors_by_country": {
+      "RU": [
+        "Feng Pingyi (Institute of Metallurgy)"
+      ],
+      "CN": [
+        "Feng Pingyi (Shanghai Institute of Microsystem and Information Technology)",
+        "Hang Tan (Tsinghua University)",
+        "Muzhen Liao (Tsinghua University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1999,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 189462,
+      "extraction_command": "sed -n '189462p' part_001.gz | jq '.title'",
+      "paper_hash": "26618c2218977fd7"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2279418350",
+    "doi": "https://doi.org/10.1149/ma2014-01/34/1276",
+    "title": "Semiconductor Nanomaterials for Dye-Sensitized Solar Cells",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Georgia Institute of Technology"
+      ],
+      "CN": [
+        "Xiamen University",
+        "Collaborative Innovation Center of Chemistry for Energy Materials"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Mengye Wang (Georgia Institute of Technology)",
+        "Zhiqun Lin (Georgia Institute of Technology)",
+        "Xukai Xin (Georgia Institute of Technology)"
+      ],
+      "CN": [
+        "Changjian Lin (Collaborative Innovation Center of Chemistry for Energy Materials)",
+        "Changjian Lin (Xiamen University)",
+        "Meidan Ye (Xiamen University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 334398,
+      "extraction_command": "sed -n '334398p' part_001.gz | jq '.title'",
+      "paper_hash": "d7de37ea9843c5d9"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4243426622",
+    "doi": "https://doi.org/10.1364/acp.2013.ath3b.4",
+    "title": "Ultrafast, Energy-Efficient Photonic Switches Based on Semiconductor Nanostructures",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "JP",
+      "NL"
+    ],
+    "institutions": {
+      "NL": [
+        "Eindhoven University of Technology"
+      ],
+      "JP": [
+        "Kobe University"
+      ],
+      "CN": [
+        "National Science Library"
+      ]
+    },
+    "authors_by_country": {
+      "NL": [
+        "Chao‐Yuan Jin (Eindhoven University of Technology)"
+      ],
+      "JP": [
+        "Osamu Wada (Kobe University)"
+      ],
+      "CN": [
+        "Osamu Wada (National Science Library)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_004.gz",
+      "line_number": 10497,
+      "extraction_command": "sed -n '10497p' part_004.gz | jq '.title'",
+      "paper_hash": "7e18af4550e1b8e6"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4245386138",
+    "doi": "https://doi.org/10.1149/ma2008-02/31/2137",
+    "title": "Semiconductor - Liquid Metal Nanowire Heterojunctions: Fabrications, Properties, and Potential Applications in Nanosystem",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "National Institute for Materials Science"
+      ],
+      "CN": [
+        "Donghua University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Dmitri Golberg (National Institute for Materials Science)",
+        "Yoshio Bando (National Institute for Materials Science)"
+      ],
+      "CN": [
+        "Junqing Hu (Donghua University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_004.gz",
+      "line_number": 79987,
+      "extraction_command": "sed -n '79987p' part_004.gz | jq '.title'",
+      "paper_hash": "f768f3be094d9ef0"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2370722843",
+    "doi": null,
+    "title": "2D Square-lattice Photonic Crystal Based on Circular-ring Cylinders and Thin Cross Plates Suitable for Optical Integrated Circuits",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Micron (United States)"
+      ],
+      "CN": [
+        "Shenzhen University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Jingjin Wang (Micron (United States))"
+      ],
+      "CN": [
+        "Jingjin Wang (Shenzhen University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 59303,
+      "extraction_command": "sed -n '59303p' part_001.gz | jq '.title'",
+      "paper_hash": "244d557b85f1d45c"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2485774721",
+    "doi": "https://doi.org/10.1142/p647",
+    "title": "Selected Semiconductor Research",
+    "publication_year": 2011,
+    "countries_collaborating": [
+      "CN",
+      "SG"
+    ],
+    "institutions": {
+      "SG": [
+        "National University of Singapore"
+      ],
+      "CN": [
+        "Fudan University"
+      ]
+    },
+    "authors_by_country": {
+      "SG": [
+        "Ming‐Fu Li (National University of Singapore)"
+      ],
+      "CN": [
+        "Ming‐Fu Li (Fudan University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2011,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 185479,
+      "extraction_command": "sed -n '185479p' part_001.gz | jq '.title'",
+      "paper_hash": "ece09eaf68439d6a"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2520838289",
+    "doi": "https://doi.org/10.1117/12.2235468",
+    "title": "Plasmonic properties of nanopatterns fabricated by nanosphere shadowing lithography",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Virginia Commonwealth University",
+        "University of Georgia"
+      ],
+      "CN": [
+        "Shandong Normal University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Dexian Ye (Virginia Commonwealth University)",
+        "Yizhuo He (University of Georgia)",
+        "Q. J. Zhang (University of Georgia)",
+        "Yiping Zhao (University of Georgia)",
+        "Keenan Stone (University of Georgia)",
+        "Whitney Ingram (University of Georgia)",
+        "W. M. Dennis (University of Georgia)"
+      ],
+      "CN": [
+        "Q. J. Zhang (Shandong Normal University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 208815,
+      "extraction_command": "sed -n '208815p' part_001.gz | jq '.title'",
+      "paper_hash": "baa2a1279e2fe68b"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2535871463",
+    "doi": "https://doi.org/10.1109/icia.2005.1635095",
+    "title": "The development of high-accuracy microprocessor based thermocouple calibrator",
+    "publication_year": 2006,
+    "countries_collaborating": [
+      "CA",
+      "CN"
+    ],
+    "institutions": {
+      "CA": [
+        "Carleton University",
+        "University of Alberta"
+      ],
+      "CN": [
+        "Ningbo University",
+        "Institute of Intelligent Machines"
+      ]
+    },
+    "authors_by_country": {
+      "CA": [
+        "Ming Meng (Carleton University)",
+        "Chao Hu (University of Alberta)",
+        "Xiangguang Cheng (University of Alberta)"
+      ],
+      "CN": [
+        "Huawei Liang (Institute of Intelligent Machines)",
+        "Peter Liu (Ningbo University)",
+        "Chao Hu (Ningbo University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2006,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 216346,
+      "extraction_command": "sed -n '216346p' part_001.gz | jq '.title'",
+      "paper_hash": "963998e97e8e3fbb"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2553445048",
+    "doi": "https://doi.org/10.1364/acpc.2016.as1f.7",
+    "title": "A vertical cavity semiconductor optical amplifier monolithically integrated with the photodetector",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CA",
+      "CN"
+    ],
+    "institutions": {
+      "CA": [
+        "McMaster University"
+      ],
+      "CN": [
+        "Huazhong University of Science and Technology",
+        "Wuhan National Laboratory for Optoelectronics",
+        "Huawei Technologies (China)"
+      ]
+    },
+    "authors_by_country": {
+      "CA": [
+        "Xun Li (McMaster University)"
+      ],
+      "CN": [
+        "Kai Wang (Huazhong University of Science and Technology)",
+        "Kai Wang (Wuhan National Laboratory for Optoelectronics)",
+        "Yang Yu (Wuhan National Laboratory for Optoelectronics)",
+        "Yang Yu (Huazhong University of Science and Technology)",
+        "Yuyu Xia (Wuhan National Laboratory for Optoelectronics)",
+        "Yanping Xi (Wuhan National Laboratory for Optoelectronics)",
+        "Liping Wang (Huawei Technologies (China))",
+        "Yanping Xi (Huazhong University of Science and Technology)",
+        "Yuyu Xia (Huazhong University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 223250,
+      "extraction_command": "sed -n '223250p' part_001.gz | jq '.title'",
+      "paper_hash": "c366aa7a274ed793"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W3014511725",
+    "doi": "https://doi.org/10.1039/d0nr90074e",
+    "title": "Correction: Fabrication of metal/semiconductor nanocomposites by selective laser nano-welding",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University of Nebraska–Lincoln"
+      ],
+      "CN": [
+        "Huazhong University of Science and Technology",
+        "Wuhan National Laboratory for Optoelectronics"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Yongfeng Lu (University of Nebraska–Lincoln)"
+      ],
+      "CN": [
+        "Xiangyou Li (Wuhan National Laboratory for Optoelectronics)",
+        "Lianbo Guo (Huazhong University of Science and Technology)",
+        "Xiangyou Li (Huazhong University of Science and Technology)",
+        "Zhongqi Hao (Wuhan National Laboratory for Optoelectronics)",
+        "Rongxing Yi (Huazhong University of Science and Technology)",
+        "Huiwu Yu (Wuhan National Laboratory for Optoelectronics)",
+        "Wei Xiong (Wuhan National Laboratory for Optoelectronics)",
+        "Lianbo Guo (Wuhan National Laboratory for Optoelectronics)",
+        "Wei Xiong (Huazhong University of Science and Technology)",
+        "Rongxing Yi (Wuhan National Laboratory for Optoelectronics)",
+        "Jiaming Li (Wuhan National Laboratory for Optoelectronics)",
+        "Xiaoyan Zeng (Wuhan National Laboratory for Optoelectronics)",
+        "Xiaoyan Zeng (Huazhong University of Science and Technology)",
+        "Huiwu Yu (Huazhong University of Science and Technology)",
+        "Jiaming Li (Huazhong University of Science and Technology)",
+        "Xinyan Yang (Wuhan National Laboratory for Optoelectronics)",
+        "Zhongqi Hao (Huazhong University of Science and Technology)",
+        "Xinyan Yang (Huazhong University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors",
+      "advanced_materials"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 10613,
+      "extraction_command": "sed -n '10613p' part_001.gz | jq '.title'",
+      "paper_hash": "d4b5e7bf7fe3bb2b"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W433241964",
+    "doi": "https://doi.org/10.14832/gsjsdmd.2010f.0.15.0",
+    "title": "Chitosan/BSA micropatterns on Titanium Surfaces by Functionization and Soft Lithography",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Hokkaido University"
+      ],
+      "CN": [
+        "Southwest Jiaotong University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Xiong Lu (Hokkaido University)",
+        "Fumio Watari (Hokkaido University)"
+      ],
+      "CN": [
+        "Xiong Lu (Southwest Jiaotong University)",
+        "Jie Weng (Southwest Jiaotong University)",
+        "Dan Li (Southwest Jiaotong University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_003.gz",
+      "line_number": 7753,
+      "extraction_command": "sed -n '7753p' part_003.gz | jq '.title'",
+      "paper_hash": "20ccdaa742c3adb1"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1974431422",
+    "doi": "https://doi.org/10.1109/cjece.1990.6591508",
+    "title": "An intelligent self-improving control strategy and its microprocessor-based implementation for application to a hydro-turbine governing system",
+    "publication_year": 1990,
+    "countries_collaborating": [
+      "CA",
+      "CN"
+    ],
+    "institutions": {
+      "CA": [
+        "University of Calgary"
+      ],
+      "CN": [
+        "Huazhong University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "CA": [
+        "G.S. Hope (University of Calgary)",
+        "G.C. Hancock (University of Calgary)",
+        "O.P. Malik (University of Calgary)"
+      ],
+      "CN": [
+        "Zhaohui Li (Huazhong University of Science and Technology)",
+        "Wei Shouping (Huazhong University of Science and Technology)",
+        "Ye Luqing (Huazhong University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1990,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 7655,
+      "extraction_command": "sed -n '7655p' part_000.gz | jq '.title'",
+      "paper_hash": "912197044854db76"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W144794296",
+    "doi": "https://doi.org/10.1007/978-1-4757-0770-0_10",
+    "title": "The Effects of Ordering in Ternary Semiconductor Alloys: Electronic and Structural Properties",
+    "publication_year": 1989,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University of Notre Dame"
+      ],
+      "CN": [
+        "Tsinghua University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Kathie E. Newman (University of Notre Dame)",
+        "Dan Teng (University of Notre Dame)",
+        "Jun Shen (University of Notre Dame)"
+      ],
+      "CN": [
+        "Bing-Lin Gu (Tsinghua University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1989,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 129480,
+      "extraction_command": "sed -n '129480p' part_000.gz | jq '.title'",
+      "paper_hash": "633d86bfe51a7c02"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2208273745",
+    "doi": "https://doi.org/10.1007/978-3-642-22480-5_5",
+    "title": "Semiconductor Nanowire Heterostructures: Controlled Growth and Optoelectronic Applications",
+    "publication_year": 2011,
+    "countries_collaborating": [
+      "CN",
+      "SG"
+    ],
+    "institutions": {
+      "SG": [
+        "Nanyang Technological University"
+      ],
+      "CN": [
+        "Tongji University"
+      ]
+    },
+    "authors_by_country": {
+      "SG": [
+        "Hong Jin Fan (Nanyang Technological University)"
+      ],
+      "CN": [
+        "Chuanwei Cheng (Tongji University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2011,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 15042,
+      "extraction_command": "sed -n '15042p' part_001.gz | jq '.title'",
+      "paper_hash": "be3f3e00f54859c9"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W224050771",
+    "doi": "https://doi.org/10.1016/s1474-6670(17)49430-4",
+    "title": "Fault Diagnosis of a Batch of Microprocessors",
+    "publication_year": 1992,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Laboratoire d'Informatique et d'Automatique pour les Systèmes"
+      ],
+      "CN": [
+        "Jiangsu University of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "René David (Laboratoire d'Informatique et d'Automatique pour les Systèmes)"
+      ],
+      "CN": [
+        "Jianwen Huang (Jiangsu University of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1992,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 25164,
+      "extraction_command": "sed -n '25164p' part_001.gz | jq '.title'",
+      "paper_hash": "fb3863dd14b0de23"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2041095883",
+    "doi": "https://doi.org/10.1002/adma.201370163",
+    "title": "Organic Transistors: High Performance Field‐Effect Ammonia Sensors Based on a Structured Ultrathin Organic Semiconductor Film (Adv. Mater. 25/2013)",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "CeNTech",
+        "Max Planck Institute for Polymer Research"
+      ],
+      "CN": [
+        "Jilin University",
+        "Soochow University"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Harald Fuchs (CeNTech)",
+        "Martin Baumgarten (Max Planck Institute for Polymer Research)",
+        "Kläus Müllen (CeNTech)",
+        "Liqiang Li (CeNTech)",
+        "Lifeng Chi (Max Planck Institute for Polymer Research)",
+        "Lifeng Chi (CeNTech)",
+        "Kläus Müllen (Max Planck Institute for Polymer Research)",
+        "Peng Gao (Max Planck Institute for Polymer Research)"
+      ],
+      "CN": [
+        "Lifeng Chi (Soochow University)",
+        "Nan Lü (Jilin University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 23495,
+      "extraction_command": "sed -n '23495p' part_000.gz | jq '.title'",
+      "paper_hash": "e2b1e4bc5ed973bb"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4255293580",
+    "doi": "https://doi.org/10.1002/anie.202083461",
+    "title": "Frontispiece: Non‐Lithography Hydrodynamic Printing of Micro/Nanostructures on Curved Surfaces",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "CA",
+      "CH",
+      "CN"
+    ],
+    "institutions": {
+      "CH": [
+        "Swiss Federal Laboratories for Materials Science and Technology",
+        "ETH Zurich"
+      ],
+      "CA": [
+        "Université de Sherbrooke"
+      ],
+      "CN": [
+        "University of Chinese Academy of Sciences",
+        "Beijing National Laboratory for Molecular Sciences",
+        "Institute of Chemistry",
+        "Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "CH": [
+        "Feifei Qin (ETH Zurich)",
+        "Dominique Derome (Swiss Federal Laboratories for Materials Science and Technology)",
+        "Feifei Qin (Swiss Federal Laboratories for Materials Science and Technology)",
+        "Jan Carmeliet (ETH Zurich)"
+      ],
+      "CA": [
+        "Dominique Derome (Université de Sherbrooke)"
+      ],
+      "CN": [
+        "Zeying Zhang (Chinese Academy of Sciences)",
+        "Zhipeng Zhao (University of Chinese Academy of Sciences)",
+        "Bingda Chen (Beijing National Laboratory for Molecular Sciences)",
+        "Qi Pan (University of Chinese Academy of Sciences)",
+        "Qi Pan (Beijing National Laboratory for Molecular Sciences)",
+        "Zheren Cai (University of Chinese Academy of Sciences)",
+        "Zheren Cai (Chinese Academy of Sciences)",
+        "Zhandong Huang (Beijing National Laboratory for Molecular Sciences)",
+        "Meng Su (Beijing National Laboratory for Molecular Sciences)",
+        "Xiaotian Hu (Chinese Academy of Sciences)",
+        "Zheren Cai (Institute of Chemistry)",
+        "Yanlin Song (Institute of Chemistry)",
+        "Zeying Zhang (Beijing National Laboratory for Molecular Sciences)",
+        "Bingda Chen (Chinese Academy of Sciences)",
+        "Zeying Zhang (Institute of Chemistry)",
+        "Zhipeng Zhao (Institute of Chemistry)",
+        "Zeying Zhang (University of Chinese Academy of Sciences)",
+        "Zheren Cai (Beijing National Laboratory for Molecular Sciences)",
+        "Bingda Chen (University of Chinese Academy of Sciences)",
+        "Meng Su (Institute of Chemistry)",
+        "Zhandong Huang (Institute of Chemistry)",
+        "Zhandong Huang (Chinese Academy of Sciences)",
+        "Yanlin Song (Chinese Academy of Sciences)",
+        "Xiaotian Hu (Institute of Chemistry)",
+        "Meng Su (University of Chinese Academy of Sciences)",
+        "Zhipeng Zhao (Chinese Academy of Sciences)",
+        "Yanlin Song (Beijing National Laboratory for Molecular Sciences)",
+        "Yanlin Song (University of Chinese Academy of Sciences)",
+        "Xiaotian Hu (Beijing National Laboratory for Molecular Sciences)",
+        "Zhipeng Zhao (Beijing National Laboratory for Molecular Sciences)",
+        "Meng Su (Chinese Academy of Sciences)",
+        "Bingda Chen (Institute of Chemistry)",
+        "Qi Pan (Institute of Chemistry)",
+        "Qi Pan (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_002.gz",
+      "line_number": 38231,
+      "extraction_command": "sed -n '38231p' part_002.gz | jq '.title'",
+      "paper_hash": "28dce885443f4af7"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2315460045",
+    "doi": "https://doi.org/10.1364/oaa.1993.tuc2",
+    "title": "Saturation Characteristics of Ga1-xInxAs/GaInAsP/InP Tensile-Strained Quantum-Well Semiconductor Laser Amplifiers with Tapered Waveguide Structures",
+    "publication_year": 1993,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Tokyo Institute of Technology"
+      ],
+      "CN": [
+        "Tsinghua University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Koji Kudo (Tokyo Institute of Technology)",
+        "Kazuhiro Komori (Tokyo Institute of Technology)",
+        "Yidong Huang (Tokyo Institute of Technology)",
+        "Shigehisa Arai (Tokyo Institute of Technology)",
+        "Syamsul El Yumin (Tokyo Institute of Technology)"
+      ],
+      "CN": [
+        "Yidong Huang (Tsinghua University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1993,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 47846,
+      "extraction_command": "sed -n '47846p' part_000.gz | jq '.title'",
+      "paper_hash": "db6c009a2373f903"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1969127899",
+    "doi": "https://doi.org/10.1109/apec.2014.6803604",
+    "title": "Investigating the influence of semiconductor device voltage drops on harmonic and reactive current compensation with cascaded multilevel inverters",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "The University of Texas at San Antonio"
+      ],
+      "CN": [
+        "Huazhong University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Shuo Wang (The University of Texas at San Antonio)"
+      ],
+      "CN": [
+        "Deliang Wu (Huazhong University of Science and Technology)",
+        "Peng Li (Huazhong University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1490,
+      "extraction_command": "sed -n '1490p' part_000.gz | jq '.title'",
+      "paper_hash": "f2359ab562c15d3e"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2039736222",
+    "doi": "https://doi.org/10.4032/9789814303903",
+    "title": "Ge1-x Mnx-diluted magnetic semiconductor nanostructures for spintronics",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "AU",
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Iowa State University"
+      ],
+      "AU": [
+        "The University of Queensland"
+      ],
+      "CN": [
+        "Zhejiang University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Faxian Xiu (Iowa State University)"
+      ],
+      "AU": [
+        "Jin Zou (The University of Queensland)",
+        "Yong Wang (The University of Queensland)"
+      ],
+      "CN": [
+        "Yong Wang (Zhejiang University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 3756,
+      "extraction_command": "sed -n '3756p' part_000.gz | jq '.title'",
+      "paper_hash": "7ed41fb832ec6b81"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W160319756",
+    "doi": "https://doi.org/10.1007/978-3-642-41773-3_10",
+    "title": "System on a Programmable Chip Design of a Wireless Transceiver Prototype for Smart Grid Applications",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University of Michigan–Dearborn"
+      ],
+      "CN": [
+        "Shanghai Institute of Microsystem and Information Technology"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Dan Shan (University of Michigan–Dearborn)",
+        "Paul Richardson (University of Michigan–Dearborn)",
+        "Weidong Xiang (University of Michigan–Dearborn)"
+      ],
+      "CN": [
+        "Hua Qian (Shanghai Institute of Microsystem and Information Technology)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 8083,
+      "extraction_command": "sed -n '8083p' part_000.gz | jq '.title'",
+      "paper_hash": "8314f70a7f402f4b"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2003385105",
+    "doi": "https://doi.org/10.1109/isie.2006.295745",
+    "title": "Parasitic Inductance Effects on the Switching Loss Measurement of Power Semiconductor Devices",
+    "publication_year": 2006,
+    "countries_collaborating": [
+      "CN",
+      "DK"
+    ],
+    "institutions": {
+      "DK": [
+        "Grundfos (Denmark)"
+      ],
+      "CN": [
+        "Zhejiang University"
+      ]
+    },
+    "authors_by_country": {
+      "DK": [
+        "Zhaohui Zeng (Grundfos (Denmark))"
+      ],
+      "CN": [
+        "Yan Deng (Zhejiang University)",
+        "Xiangning He (Zhejiang University)",
+        "Jian Jiang (Zhejiang University)",
+        "Yanqun Shen (Zhejiang University)",
+        "Yan Xiong (Zhejiang University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2006,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 561,
+      "extraction_command": "sed -n '561p' part_000.gz | jq '.title'",
+      "paper_hash": "2cac02fda96dff66"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2057737294",
+    "doi": "https://doi.org/10.1002/pssc.200673353",
+    "title": "Negative long wavelength dielectric constant in semiconductor QWs",
+    "publication_year": 2007,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "University of Wollongong",
+        "Australian National University"
+      ],
+      "CN": [
+        "Peking University"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Feng Gao (University of Wollongong)",
+        "Wen Xu (Australian National University)",
+        "Chao Zhang (University of Wollongong)",
+        "Saeid Hessami Pilehrood (University of Wollongong)"
+      ],
+      "CN": [
+        "Zhongshui Ma (Peking University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2007,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 26703,
+      "extraction_command": "sed -n '26703p' part_000.gz | jq '.title'",
+      "paper_hash": "97278c92b8caf6ec"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4238448536",
+    "doi": "https://doi.org/10.3327/jnst.8.262",
+    "title": "Measurement of Fast Neutron Spectrum Outside Beam Port by Li-6 Semiconductor Spectrometer",
+    "publication_year": 1971,
+    "countries_collaborating": [
+      "CN",
+      "TW"
+    ],
+    "institutions": {
+      "TW": [
+        "National Tsing Hua University"
+      ],
+      "CN": [
+        "Tsinghua University"
+      ]
+    },
+    "authors_by_country": {
+      "TW": [
+        "Teh-Li Yang (National Tsing Hua University)",
+        "Chen-Shyong YEN (National Tsing Hua University)"
+      ],
+      "CN": [
+        "Chen-Shyong YEN (Tsinghua University)",
+        "Teh-Li Yang (Tsinghua University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1971,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 56990,
+      "extraction_command": "sed -n '56990p' part_000.gz | jq '.title'",
+      "paper_hash": "edfca522e8423433"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4239025201",
+    "doi": "https://doi.org/10.1364/ofc.2001.me1",
+    "title": "Single to Multi Wavelength Conversion Using Amplified Spontaneous Emission of Semiconductor Optical Amplifier",
+    "publication_year": 2001,
+    "countries_collaborating": [
+      "CN",
+      "SG"
+    ],
+    "institutions": {
+      "SG": [
+        "Nanyang Technological University"
+      ],
+      "CN": [
+        "Huazhong University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "SG": [
+        "Tzu‐Hurng Cheng (Nanyang Technological University)",
+        "Yunfeng Shen (Nanyang Technological University)",
+        "Jun Hong Ng (Nanyang Technological University)",
+        "Chao Lü (Nanyang Technological University)",
+        "M.K. Rao (Nanyang Technological University)"
+      ],
+      "CN": [
+        "Deming Liu (Huazhong University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2001,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 58060,
+      "extraction_command": "sed -n '58060p' part_000.gz | jq '.title'",
+      "paper_hash": "c6c684fa7c51002b"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2002464473",
+    "doi": "https://doi.org/10.5188/ijsmer.9.1",
+    "title": "Synthesis and Photochemical Properties of Semiconductor/Layered Compound Nanocomposites",
+    "publication_year": 2001,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Tohoku University"
+      ],
+      "CN": [
+        "Huaqiao University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Tsugio Sato (Tohoku University)",
+        "Sittinun Tawkaew (Tohoku University)",
+        "Shu Yin (Tohoku University)"
+      ],
+      "CN": [
+        "Jihuai Wu (Huaqiao University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors",
+      "advanced_materials"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2001,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 63653,
+      "extraction_command": "sed -n '63653p' part_000.gz | jq '.title'",
+      "paper_hash": "90923e5710bfd4f2"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1974174020",
+    "doi": "https://doi.org/10.1364/solar.2008.stuc6",
+    "title": "Semiconductor Alloy Nanowires with Spatially Graded Compositions for Full-Spectrum Solar Cell Applications",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Arizona State University"
+      ],
+      "CN": [
+        "Hunan University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Min Sun (Arizona State University)",
+        "Cun‐Zheng Ning (Arizona State University)",
+        "Anlian Pan (Arizona State University)",
+        "Eunice S. P. Leong (Arizona State University)"
+      ],
+      "CN": [
+        "B. S. Zou (Hunan University)",
+        "Weichang Zhou (Hunan University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 18729,
+      "extraction_command": "sed -n '18729p' part_000.gz | jq '.title'",
+      "paper_hash": "b26d0ea92625f46f"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2624616508",
+    "doi": null,
+    "title": "Semiconductor alloy nanowires with spatially graded compositions for full-spectrum solar cell applications",
+    "publication_year": 2011,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Arizona State University"
+      ],
+      "CN": [
+        "Hunan University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Min Sun (Arizona State University)",
+        "Anlian Pan (Arizona State University)",
+        "Eunice S. P. Leong (Arizona State University)"
+      ],
+      "CN": [
+        "B. S. Zou (Hunan University)",
+        "Weichang Zhou (Hunan University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2011,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 53245,
+      "extraction_command": "sed -n '53245p' part_000.gz | jq '.title'",
+      "paper_hash": "ab0e16debc65a271"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2061856912",
+    "doi": "https://doi.org/10.1080/00337577008234988",
+    "title": "Radiation-ionization energy and fano factor in semiconductors. I",
+    "publication_year": 1970,
+    "countries_collaborating": [
+      "CN",
+      "DK",
+      "IT"
+    ],
+    "institutions": {
+      "DK": [
+        "Aarhus University"
+      ],
+      "IT": [
+        "Joint Research Centre"
+      ],
+      "CN": [
+        "Institute of Solid State Physics"
+      ]
+    },
+    "authors_by_country": {
+      "DK": [
+        "E. Antončík (Aarhus University)"
+      ],
+      "IT": [
+        "G. Di Cola (Joint Research Centre)",
+        "L. Farese (Joint Research Centre)"
+      ],
+      "CN": [
+        "E. Antončík (Institute of Solid State Physics)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1970,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 15295,
+      "extraction_command": "sed -n '15295p' part_000.gz | jq '.title'",
+      "paper_hash": "a51e578a94bd4e36"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2108772894",
+    "doi": "https://doi.org/10.1016/j.ssc.2006.03.002",
+    "title": "Phenomenological band structure model of magnetic coupling in semiconductors",
+    "publication_year": 2006,
+    "countries_collaborating": [
+      "BR",
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "BR": [
+        "Universidade de São Paulo"
+      ],
+      "US": [
+        "National Renewable Energy Laboratory"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences",
+        "Institute of Solid State Physics",
+        "Fudan University"
+      ]
+    },
+    "authors_by_country": {
+      "BR": [
+        "A. Fazzio (Universidade de São Paulo)",
+        "Antônio J. R. da Silva (Universidade de São Paulo)"
+      ],
+      "US": [
+        "Su‐Huai Wei (National Renewable Energy Laboratory)",
+        "Gustavo M. Dalpian (National Renewable Energy Laboratory)"
+      ],
+      "CN": [
+        "Xin-Gao Gong (Institute of Solid State Physics)",
+        "Xin-Gao Gong (Chinese Academy of Sciences)",
+        "Xin-Gao Gong (Fudan University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2006,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1329,
+      "extraction_command": "sed -n '1329p' part_000.gz | jq '.title'",
+      "paper_hash": "6b34bcf7046f075b"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1966487561",
+    "doi": "https://doi.org/10.1016/j.mee.2008.01.006",
+    "title": "Electron beam lithography of HSQ/PMMA bilayer resists for negative tone lift-off process",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Rutherford Appleton Laboratory"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences",
+        "Institute of Physics"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Zheng Cui (Rutherford Appleton Laboratory)"
+      ],
+      "CN": [
+        "Qiang Luo (Chinese Academy of Sciences)",
+        "Junjie Li (Institute of Physics)",
+        "Qiang Luo (Institute of Physics)",
+        "Haifang Yang (Chinese Academy of Sciences)",
+        "Haifang Yang (Institute of Physics)",
+        "Changzhi Gu (Chinese Academy of Sciences)",
+        "Junjie Li (Chinese Academy of Sciences)",
+        "Aizi Jin (Institute of Physics)",
+        "Aizi Jin (Chinese Academy of Sciences)",
+        "Changzhi Gu (Institute of Physics)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1162,
+      "extraction_command": "sed -n '1162p' part_000.gz | jq '.title'",
+      "paper_hash": "16d3accdf13247db"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W3080848402",
+    "doi": "https://doi.org/10.1364/cleo_si.2020.sw4j.4",
+    "title": "AlN microresonators fabricated with standard photolithography for broadband Kerr frequency comb generation",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "CN",
+      "IE"
+    ],
+    "institutions": {
+      "IE": [
+        "Trinity College Dublin"
+      ],
+      "CN": [
+        "Huazhong University of Science and Technology",
+        "Wuhan National Laboratory for Optoelectronics"
+      ]
+    },
+    "authors_by_country": {
+      "IE": [
+        "Jing Li (Trinity College Dublin)",
+        "Hai‐Zhong Weng (Trinity College Dublin)",
+        "John F. Donegan (Trinity College Dublin)",
+        "Adnan Ali Afridi (Trinity College Dublin)"
+      ],
+      "CN": [
+        "Jia Liu (Wuhan National Laboratory for Optoelectronics)",
+        "Weihua Guo (Wuhan National Laboratory for Optoelectronics)",
+        "Qiaoyin Lu (Wuhan National Laboratory for Optoelectronics)",
+        "Qiaoyin Lu (Huazhong University of Science and Technology)",
+        "Jia Liu (Huazhong University of Science and Technology)",
+        "Weihua Guo (Huazhong University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 23652,
+      "extraction_command": "sed -n '23652p' part_000.gz | jq '.title'",
+      "paper_hash": "5ea28a85372444ca"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2049601093",
+    "doi": "https://doi.org/10.1364/ofc.2013.oth4i.5",
+    "title": "Silicon microring-based integrated circuit for optical label-free biosensor with direct electrical readout",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "SG"
+    ],
+    "institutions": {
+      "SG": [
+        "Institute of Microelectronics",
+        "Agency for Science, Technology and Research",
+        "Singapore Science Park"
+      ],
+      "CN": [
+        "State Key Laboratory on Integrated Optoelectronics",
+        "Jilin University"
+      ]
+    },
+    "authors_by_country": {
+      "SG": [
+        "Xiaoguang Tu (Singapore Science Park)",
+        "Chao Li (Agency for Science, Technology and Research)",
+        "Huijuan Zhang (Institute of Microelectronics)",
+        "Junfeng Song (Institute of Microelectronics)",
+        "Mi Kyoung Park (Singapore Science Park)",
+        "Guo‐Qiang Lo (Institute of Microelectronics)",
+        "Jack Sheng Kee (Agency for Science, Technology and Research)",
+        "Qing Fang (Agency for Science, Technology and Research)",
+        "Xianshu Luo (Agency for Science, Technology and Research)",
+        "Mingbin Yu (Agency for Science, Technology and Research)",
+        "Qing Fang (Singapore Science Park)",
+        "Xianshu Luo (Institute of Microelectronics)",
+        "Huijuan Zhang (Agency for Science, Technology and Research)",
+        "Tsung-Yang Liow (Institute of Microelectronics)",
+        "Junfeng Song (Agency for Science, Technology and Research)",
+        "Mi Kyoung Park (Institute of Microelectronics)",
+        "Mingbin Yu (Institute of Microelectronics)",
+        "Xiaoguang Tu (Institute of Microelectronics)",
+        "Jack Sheng Kee (Institute of Microelectronics)",
+        "Mingbin Yu (Singapore Science Park)",
+        "Mi Kyoung Park (Agency for Science, Technology and Research)",
+        "Tsung-Yang Liow (Singapore Science Park)",
+        "Guo‐Qiang Lo (Agency for Science, Technology and Research)",
+        "Lianxi Jia (Singapore Science Park)",
+        "Tsung-Yang Liow (Agency for Science, Technology and Research)",
+        "Xiaoguang Tu (Agency for Science, Technology and Research)",
+        "Junfeng Song (Singapore Science Park)",
+        "Guo‐Qiang Lo (Singapore Science Park)",
+        "Huijuan Zhang (Singapore Science Park)",
+        "Xianshu Luo (Singapore Science Park)",
+        "Chao Li (Institute of Microelectronics)",
+        "Lianxi Jia (Agency for Science, Technology and Research)",
+        "Chao Li (Singapore Science Park)",
+        "Lianxi Jia (Institute of Microelectronics)",
+        "Qing Fang (Institute of Microelectronics)",
+        "Jack Sheng Kee (Singapore Science Park)"
+      ],
+      "CN": [
+        "Junfeng Song (State Key Laboratory on Integrated Optoelectronics)",
+        "Junfeng Song (Jilin University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 9699,
+      "extraction_command": "sed -n '9699p' part_000.gz | jq '.title'",
+      "paper_hash": "156971b2b1a020ae"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2123373652",
+    "doi": "https://doi.org/10.1002/pssb.2221500243",
+    "title": "The Optical Bistability in the Active and Absorptive Tandem Semiconductor Lasers",
+    "publication_year": 1988,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University of Bath"
+      ],
+      "CN": [
+        "Jilin University"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Ian Flint (University of Bath)"
+      ],
+      "CN": [
+        "Xiaobo Zhang (Jilin University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1988,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 11186,
+      "extraction_command": "sed -n '11186p' part_000.gz | jq '.title'",
+      "paper_hash": "4625a3200927e812"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1982945158",
+    "doi": "https://doi.org/10.1063/1.3095665",
+    "title": "Surface selective deposition of molecular semiconductors for solution-based integration of organic field-effect transistors",
+    "publication_year": 2009,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Japan Science and Technology Agency",
+        "Dai Nippon Printing (Japan)",
+        "National Institute for Materials Science",
+        "RIKEN",
+        "National Institute of Advanced Industrial Science and Technology"
+      ],
+      "CN": [
+        "Soochow University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Yoshinobu Aoyagi (RIKEN)",
+        "Tetsuhiko Miyadera (National Institute of Advanced Industrial Science and Technology)",
+        "Takeo Minari (RIKEN)",
+        "Kazuhito Tsukagoshi (Japan Science and Technology Agency)",
+        "Kazuhito Tsukagoshi (National Institute of Advanced Industrial Science and Technology)",
+        "Kazuhito Tsukagoshi (National Institute for Materials Science)",
+        "Masataka Kano (Dai Nippon Printing (Japan))"
+      ],
+      "CN": [
+        "Sui‐Dong Wang (Soochow University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2009,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 3650,
+      "extraction_command": "sed -n '3650p' part_000.gz | jq '.title'",
+      "paper_hash": "0b786646b8e72b2a"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1964082022",
+    "doi": "https://doi.org/10.1002/adma.200400818",
+    "title": "Fabrication of Multicolor‐Encoded Microspheres by Tagging Semiconductor Nanocrystals to Hydrogel Spheres",
+    "publication_year": 2005,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "Max Planck Institute of Colloids and Interfaces",
+        "Max Planck Society"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences",
+        "Institute of Chemistry",
+        "Fudan University"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Mingyuan Gao (Max Planck Society)",
+        "Dayang Wang (Max Planck Institute of Colloids and Interfaces)",
+        "Meng Kuang (Max Planck Institute of Colloids and Interfaces)",
+        "Meng Kuang (Max Planck Society)",
+        "Helmuth Möhwald (Max Planck Society)",
+        "Dayang Wang (Max Planck Society)",
+        "Mingyuan Gao (Max Planck Institute of Colloids and Interfaces)",
+        "Helmuth Möhwald (Max Planck Institute of Colloids and Interfaces)"
+      ],
+      "CN": [
+        "Ming Jiang (Fudan University)",
+        "Han Bao (Chinese Academy of Sciences)",
+        "Han Bao (Institute of Chemistry)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2005,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 978,
+      "extraction_command": "sed -n '978p' part_000.gz | jq '.title'",
+      "paper_hash": "dd9a239b7a0c7210"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2950307479",
+    "doi": "https://doi.org/10.48550/arxiv.1808.04654",
+    "title": "Low-power continuous-wave second harmonic generation in semiconductor nanowires",
+    "publication_year": 2018,
+    "countries_collaborating": [
+      "CN",
+      "FI"
+    ],
+    "institutions": {
+      "FI": [
+        "Aalto University"
+      ],
+      "CN": [
+        "Northwestern Polytechnical University"
+      ]
+    },
+    "authors_by_country": {
+      "FI": [
+        "Zhipei Sun (Aalto University)",
+        "Vladislav Khayrudinov (Aalto University)",
+        "Harri Lipsanen (Aalto University)",
+        "He Yang (Aalto University)"
+      ],
+      "CN": [
+        "Liang Fang (Northwestern Polytechnical University)",
+        "Qingchen Yuan (Northwestern Polytechnical University)",
+        "Xuetao Gan (Northwestern Polytechnical University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2018,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 13208,
+      "extraction_command": "sed -n '13208p' part_001.gz | jq '.title'",
+      "paper_hash": "ffa5dcfa54937760"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2030464230",
+    "doi": "https://doi.org/10.1103/physrevb.85.195114",
+    "title": "Strain tuning of topological band order in cubic semiconductors",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University of Tennessee at Knoxville",
+        "Oak Ridge National Laboratory"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences",
+        "Beijing Institute of Technology",
+        "Institute of Physics"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Wenguang Zhu (University of Tennessee at Knoxville)",
+        "Hanno H. Weitering (University of Tennessee at Knoxville)",
+        "Hanno H. Weitering (Oak Ridge National Laboratory)",
+        "Wanxiang Feng (University of Tennessee at Knoxville)",
+        "G. M. Stocks (Oak Ridge National Laboratory)",
+        "Wanxiang Feng (Oak Ridge National Laboratory)",
+        "Di Xiao (Oak Ridge National Laboratory)",
+        "Wenguang Zhu (Oak Ridge National Laboratory)"
+      ],
+      "CN": [
+        "Wanxiang Feng (Chinese Academy of Sciences)",
+        "Yugui Yao (Beijing Institute of Technology)",
+        "Wanxiang Feng (Institute of Physics)",
+        "Yugui Yao (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 296,
+      "extraction_command": "sed -n '296p' part_001.gz | jq '.title'",
+      "paper_hash": "9415c1ede109348f"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2806796504",
+    "doi": "https://doi.org/10.1002/smll.201870100",
+    "title": "Metal‐Semiconductor Contacts: Metallic Contact between MoS<sub>2</sub> and Ni via Au Nanoglue (Small 22/2018)",
+    "publication_year": 2018,
+    "countries_collaborating": [
+      "CH",
+      "CN",
+      "FI",
+      "SE"
+    ],
+    "institutions": {
+      "FI": [
+        "Aalto University",
+        "University of Oulu"
+      ],
+      "SE": [
+        "MAX IV Laboratory",
+        "Lund University"
+      ],
+      "CH": [
+        "University of Fribourg"
+      ],
+      "CN": [
+        "Anhui Polytechnic University",
+        "Xiangtan University",
+        "East China University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "FI": [
+        "Sebastiaan van Dijken (Aalto University)",
+        "Xinying Shi (University of Oulu)",
+        "Wei Cao (University of Oulu)",
+        "Sergei Posysaev (University of Oulu)",
+        "Sami Saukko (University of Oulu)",
+        "Marko Huttula (University of Oulu)",
+        "Diego López González (Aalto University)",
+        "Olga Miroshnichenko (University of Oulu)",
+        "Vladimir Pankratov (University of Oulu)",
+        "M. Alatalo (University of Oulu)"
+      ],
+      "SE": [
+        "Yuran Niu (MAX IV Laboratory)",
+        "Yuran Niu (Lund University)",
+        "Alexei A. Zakharov (MAX IV Laboratory)",
+        "Alexei A. Zakharov (Lund University)"
+      ],
+      "CH": [
+        "Faisal Zeeshan (University of Fribourg)",
+        "J.‐Cl. Dousse (University of Fribourg)",
+        "J. Hoszowska (University of Fribourg)"
+      ],
+      "CN": [
+        "Xiao Wang (East China University of Science and Technology)",
+        "Taohai Li (Xiangtan University)",
+        "Zhongjia Huang (Anhui Polytechnic University)",
+        "Meng Zhang (East China University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2018,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_008.gz",
+      "line_number": 2156,
+      "extraction_command": "sed -n '2156p' part_008.gz | jq '.title'",
+      "paper_hash": "4c2de9771ea741cf"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2019952087",
+    "doi": "https://doi.org/10.1063/1.126238",
+    "title": "Ordered semiconductor ZnO nanowire arrays and their photoluminescence properties",
+    "publication_year": 2000,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "Max Planck Institute for Intelligent Systems",
+        "Max Planck Society"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences",
+        "Institute of Solid State Physics"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "F. Phillipp (Max Planck Society)",
+        "Yangfang Li (Max Planck Society)",
+        "F. Phillipp (Max Planck Institute for Intelligent Systems)",
+        "Yangfang Li (Max Planck Institute for Intelligent Systems)"
+      ],
+      "CN": [
+        "Guowen Meng (Chinese Academy of Sciences)",
+        "Linjie Zhang (Chinese Academy of Sciences)",
+        "Linjie Zhang (Institute of Solid State Physics)",
+        "Guowen Meng (Institute of Solid State Physics)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2000,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1160,
+      "extraction_command": "sed -n '1160p' part_000.gz | jq '.title'",
+      "paper_hash": "1212dd25d738106a"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2316056315",
+    "doi": "https://doi.org/10.1364/ofc.2016.w2a.19",
+    "title": "2×2 Multimode Interference Coupler with Low Loss Using 248 nm Photolithography",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CA",
+      "CN"
+    ],
+    "institutions": {
+      "CA": [
+        "Huawei Technologies (Canada)"
+      ],
+      "CN": [
+        "Huawei Technologies (China)"
+      ]
+    },
+    "authors_by_country": {
+      "CA": [
+        "Jia Jiang (Huawei Technologies (Canada))",
+        "Patrick Dumais (Huawei Technologies (Canada))",
+        "D. Celo (Huawei Technologies (Canada))",
+        "Éric Bernier (Huawei Technologies (Canada))",
+        "Dominic Goodwill (Huawei Technologies (Canada))"
+      ],
+      "CN": [
+        "Ming Li (Huawei Technologies (China))",
+        "Yuming Wei (Huawei Technologies (China))",
+        "H. Y. Fu (Huawei Technologies (China))",
+        "Fei Zhao (Huawei Technologies (China))",
+        "Dongyu Geng (Huawei Technologies (China))",
+        "Xin Tu (Huawei Technologies (China))"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_007.gz",
+      "line_number": 73,
+      "extraction_command": "sed -n '73p' part_007.gz | jq '.title'",
+      "paper_hash": "d22ad838f8379e1b"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2074851955",
+    "doi": "https://doi.org/10.1063/1.2163335",
+    "title": "The ordered thin-film growth of organic semiconductor on Ag(110)",
+    "publication_year": 2006,
+    "countries_collaborating": [
+      "CN",
+      "DE",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University of St Andrews"
+      ],
+      "DE": [
+        "Universität Hamburg"
+      ],
+      "CN": [
+        "Zhejiang University"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Qiao Chen (University of St Andrews)"
+      ],
+      "DE": [
+        "Bernhard Botters (Universität Hamburg)"
+      ],
+      "CN": [
+        "He Pi-Mo (Zhejiang University)",
+        "Shining Bao (Zhejiang University)",
+        "Mao Hongying (Zhejiang University)",
+        "Bin Lu (Zhejiang University)",
+        "Hanjie Zhang (Zhejiang University)",
+        "Han Huang (Zhejiang University)",
+        "Haiyang Li (Zhejiang University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2006,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 451,
+      "extraction_command": "sed -n '451p' part_005.gz | jq '.title'",
+      "paper_hash": "16039072f566867b"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2001065796",
+    "doi": "https://doi.org/10.1007/s12200-010-0105-x",
+    "title": "High-speed, all-optical XOR gates using semiconductor optical amplifiers in ultrafast nonlinear interferometers",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "CN",
+      "IE"
+    ],
+    "institutions": {
+      "IE": [
+        "University College Cork"
+      ],
+      "CN": [
+        "Shanghai Jiao Tong University"
+      ]
+    },
+    "authors_by_country": {
+      "IE": [
+        "Xuelin Yang (University College Cork)"
+      ],
+      "CN": [
+        "Weisheng Hu (Shanghai Jiao Tong University)",
+        "Xuelin Yang (Shanghai Jiao Tong University)",
+        "Qiwei Weng (Shanghai Jiao Tong University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_009.gz",
+      "line_number": 2629,
+      "extraction_command": "sed -n '2629p' part_009.gz | jq '.title'",
+      "paper_hash": "ee40b93c9b846ca8"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W193711168",
+    "doi": "https://doi.org/10.1016/j.physb.2010.01.068",
+    "title": "Nanolithography on SrRuO3 thin film surfaces by scanning tunneling microscopy",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "CN",
+      "NO"
+    ],
+    "institutions": {
+      "NO": [
+        "Norwegian University of Science and Technology"
+      ],
+      "CN": [
+        "University of South China"
+      ]
+    },
+    "authors_by_country": {
+      "NO": [
+        "Yun Liu (Norwegian University of Science and Technology)"
+      ],
+      "CN": [
+        "Jia Zhang (University of South China)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_014.gz",
+      "line_number": 4823,
+      "extraction_command": "sed -n '4823p' part_014.gz | jq '.title'",
+      "paper_hash": "25363a8f739faed4"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1967174444",
+    "doi": "https://doi.org/10.1016/s0022-4073(03)00234-6",
+    "title": "Radiative heat transfer analysis in pure water heater used for semiconductor processing",
+    "publication_year": 2003,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Hokkaido University",
+        "Komatsu (Japan)"
+      ],
+      "CN": [
+        "Harbin Institute of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "K. Kudo (Hokkaido University)",
+        "Tomohiko Ogawa (Hokkaido University)",
+        "K. Kadotani (Komatsu (Japan))",
+        "Akeno Mochida (Hokkaido University)",
+        "L.H. Liu (Hokkaido University)"
+      ],
+      "CN": [
+        "L.H. Liu (Harbin Institute of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2003,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_014.gz",
+      "line_number": 14571,
+      "extraction_command": "sed -n '14571p' part_014.gz | jq '.title'",
+      "paper_hash": "31ad301737612cb0"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2020150900",
+    "doi": "https://doi.org/10.1002/pssb.2220760142",
+    "title": "Transport Phenomena and Eigenoscillations of Hot Electrons in Semiconductors with Periodic Structure",
+    "publication_year": 1976,
+    "countries_collaborating": [
+      "CN",
+      "CZ",
+      "UA"
+    ],
+    "institutions": {
+      "UA": [
+        "National Academy of Sciences of Ukraine"
+      ],
+      "CZ": [
+        "Czech Academy of Sciences, Institute of Physics"
+      ],
+      "CN": [
+        "Institute of Semiconductors"
+      ]
+    },
+    "authors_by_country": {
+      "UA": [
+        "P. M. Tomchuk (National Academy of Sciences of Ukraine)"
+      ],
+      "CZ": [
+        "P. M. Tomchuk (Czech Academy of Sciences, Institute of Physics)"
+      ],
+      "CN": [
+        "I. M. Dykman (Institute of Semiconductors)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1976,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 8849,
+      "extraction_command": "sed -n '8849p' part_001.gz | jq '.title'",
+      "paper_hash": "ffc1e8a81cc7d7aa"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2167585957",
+    "doi": "https://doi.org/10.1364/cleo.2009.ctuy7",
+    "title": "Super-Broadly Wavelength-Tunable Semiconductor Nanowire Lasers on a Single Substrate",
+    "publication_year": 2009,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Arizona State University"
+      ],
+      "CN": [
+        "Hunan University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "R.B. Liu (Arizona State University)",
+        "Anlian Pan (Arizona State University)",
+        "Alan C. H. Chin (Arizona State University)",
+        "Cun‐Zheng Ning (Arizona State University)",
+        "Weihang Zhou (Arizona State University)",
+        "Eunice S. P. Leong (Arizona State University)"
+      ],
+      "CN": [
+        "Cun‐Zheng Ning (Hunan University)",
+        "Weihang Zhou (Hunan University)",
+        "B. S. Zou (Hunan University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2009,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 18640,
+      "extraction_command": "sed -n '18640p' part_001.gz | jq '.title'",
+      "paper_hash": "7e1b4e47d7d6629f"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2074091204",
+    "doi": "https://doi.org/10.1109/icma.2010.5588724",
+    "title": "Measurement of nanoscale surface patterns produced by two-beam laser interference lithography",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University of Bedfordshire"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences",
+        "Institute of Optics and Electronics, Chinese Academy of Sciences",
+        "Changchun University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Yong Yue (University of Bedfordshire)",
+        "Dayou Li (University of Bedfordshire)"
+      ],
+      "CN": [
+        "Jia Xu (Changchun University of Science and Technology)",
+        "Zhankun Weng (Changchun University of Science and Technology)",
+        "Zhengxun Song (Changchun University of Science and Technology)",
+        "Lanjiao Liu (Changchun University of Science and Technology)",
+        "Jin Zhang (Institute of Optics and Electronics, Chinese Academy of Sciences)",
+        "Jin Zhang (Chinese Academy of Sciences)",
+        "Hongmei Xu (Changchun University of Science and Technology)",
+        "Haiyan Pan (Changchun University of Science and Technology)",
+        "Zuobin Wang (Changchun University of Science and Technology)",
+        "Zhen Hu (Changchun University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 567,
+      "extraction_command": "sed -n '567p' part_001.gz | jq '.title'",
+      "paper_hash": "0aa0f1f86d88b348"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1986743498",
+    "doi": "https://doi.org/10.1103/physrevlett.102.017201",
+    "title": "Origin and Enhancement of Hole-Induced Ferromagnetism in First-Row<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:msup><mml:mi>d</mml:mi><mml:mn>0</mml:mn></mml:msup></mml:math>Semiconductors",
+    "publication_year": 2009,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "National Renewable Energy Laboratory"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Hongjun Xiang (National Renewable Energy Laboratory)",
+        "Su‐Huai Wei (National Renewable Energy Laboratory)"
+      ],
+      "CN": [
+        "Jingbo Li (Chinese Academy of Sciences)",
+        "Haowei Peng (Chinese Academy of Sciences)",
+        "Shu‐Shen Li (Chinese Academy of Sciences)",
+        "Jian‐Bai Xia (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2009,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1511,
+      "extraction_command": "sed -n '1511p' part_000.gz | jq '.title'",
+      "paper_hash": "3c03aa4d5ee8baed"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2034609839",
+    "doi": "https://doi.org/10.1063/1.1140801",
+    "title": "The Adone wiggler x-ray lithography beamline",
+    "publication_year": 1989,
+    "countries_collaborating": [
+      "CN",
+      "IT"
+    ],
+    "institutions": {
+      "IT": [
+        "Istituto Nazionale di Fisica Nucleare",
+        "Istituto Nazionale di Fisica Nucleare, Laboratori Nazionali di Frascati",
+        "Sapienza University of Rome"
+      ],
+      "CN": [
+        "University of Science and Technology of China"
+      ]
+    },
+    "authors_by_country": {
+      "IT": [
+        "E. Burattini (Istituto Nazionale di Fisica Nucleare, Laboratori Nazionali di Frascati)",
+        "Antonio Grilli (Istituto Nazionale di Fisica Nucleare)",
+        "E. Bernieri (Istituto Nazionale di Fisica Nucleare, Laboratori Nazionali di Frascati)",
+        "E. Bernieri (Istituto Nazionale di Fisica Nucleare)",
+        "A. Balerna (Istituto Nazionale di Fisica Nucleare)",
+        "S. Simeoni (Istituto Nazionale di Fisica Nucleare, Laboratori Nazionali di Frascati)",
+        "E. Burattini (Istituto Nazionale di Fisica Nucleare)",
+        "A. Balerna (Istituto Nazionale di Fisica Nucleare, Laboratori Nazionali di Frascati)",
+        "S. Simeoni (Istituto Nazionale di Fisica Nucleare)",
+        "C. Mencuccini (Sapienza University of Rome)",
+        "Antonio Grilli (Istituto Nazionale di Fisica Nucleare, Laboratori Nazionali di Frascati)"
+      ],
+      "CN": [
+        "Chen Qian-Hong (University of Science and Technology of China)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1989,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 15282,
+      "extraction_command": "sed -n '15282p' part_001.gz | jq '.title'",
+      "paper_hash": "ee0746c4087e43d2"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2911596479",
+    "doi": "https://doi.org/10.1002/9781119354987.ch18",
+    "title": "<scp>III</scp>‐Nitride Dilute Magnetic Semiconductors",
+    "publication_year": 2019,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "The University of Osaka"
+      ],
+      "CN": [
+        "Shanghai Normal University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "H. Asahi (The University of Osaka)",
+        "Yikai Zhou (The University of Osaka)"
+      ],
+      "CN": [
+        "Yikai Zhou (Shanghai Normal University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2019,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 41400,
+      "extraction_command": "sed -n '41400p' part_001.gz | jq '.title'",
+      "paper_hash": "120c887f26937c01"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1975016429",
+    "doi": "https://doi.org/10.1103/physrevlett.100.236601",
+    "title": "Quantum Spin Hall Effect in Inverted Type-II Semiconductors",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Stanford University",
+        "University of California, Los Angeles"
+      ],
+      "CN": [
+        "Tsinghua University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Kang Wang (University of California, Los Angeles)",
+        "Taylor L. Hughes (Stanford University)",
+        "Chao‐Xing Liu (Stanford University)",
+        "Shou-Cheng Zhang (Stanford University)",
+        "Xiao-Liang Qi (Stanford University)"
+      ],
+      "CN": [
+        "Chao‐Xing Liu (Tsinghua University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 458,
+      "extraction_command": "sed -n '458p' part_000.gz | jq '.title'",
+      "paper_hash": "0d16ff19f96721f4"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2154903153",
+    "doi": "https://doi.org/10.1021/cr1001645",
+    "title": "Semiconductor-based Photocatalytic Hydrogen Generation",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Lawrence Berkeley National Laboratory"
+      ],
+      "CN": [
+        "Xi'an Jiaotong University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Shaohua Shen (Lawrence Berkeley National Laboratory)",
+        "Liejin Guo (Lawrence Berkeley National Laboratory)",
+        "Xiaobo Chen (Lawrence Berkeley National Laboratory)",
+        "Samuel S. Mao (Lawrence Berkeley National Laboratory)"
+      ],
+      "CN": [
+        "Samuel S. Mao (Xi'an Jiaotong University)",
+        "Liejin Guo (Xi'an Jiaotong University)",
+        "Xiaobo Chen (Xi'an Jiaotong University)",
+        "Shaohua Shen (Xi'an Jiaotong University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 297,
+      "extraction_command": "sed -n '297p' part_000.gz | jq '.title'",
+      "paper_hash": "e1f293fa742fcac3"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2049100033",
+    "doi": "https://doi.org/10.1103/physrevb.80.035333",
+    "title": "Quantum efficiency of stimulated emission in colloidal semiconductor nanocrystal quantum dots",
+    "publication_year": 2009,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Ocean NanoTech (United States)",
+        "Pennsylvania State University"
+      ],
+      "CN": [
+        "Tianjin University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Chunfeng Zhang (Pennsylvania State University)",
+        "Zhan’ao Tan (Pennsylvania State University)",
+        "Jian Xu (Pennsylvania State University)",
+        "Andrew Y. Wang (Ocean NanoTech (United States))",
+        "Ting Zhu (Pennsylvania State University)",
+        "Fan Zhang (Pennsylvania State University)"
+      ],
+      "CN": [
+        "Shuai Gao (Tianjin University)",
+        "Huaipeng Su (Tianjin University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2009,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_015.gz",
+      "line_number": 154,
+      "extraction_command": "sed -n '154p' part_015.gz | jq '.title'",
+      "paper_hash": "a6d6076010563d24"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2079907935",
+    "doi": "https://doi.org/10.1016/0042-207x(86)90286-1",
+    "title": "The growth and interface study of PECVD SiOxNy on III–V semiconductors",
+    "publication_year": 1986,
+    "countries_collaborating": [
+      "CN",
+      "TW"
+    ],
+    "institutions": {
+      "TW": [
+        "National Tsing Hua University"
+      ],
+      "CN": [
+        "Institute of Electrical Engineering"
+      ]
+    },
+    "authors_by_country": {
+      "TW": [
+        "Min‐Shyong Lin (National Tsing Hua University)",
+        "Tai‐Yu Chou (National Tsing Hua University)",
+        "Ching‐Yi Wu (National Tsing Hua University)"
+      ],
+      "CN": [
+        "Tai‐Yu Chou (Institute of Electrical Engineering)",
+        "Min‐Shyong Lin (Institute of Electrical Engineering)",
+        "Ching‐Yi Wu (Institute of Electrical Engineering)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1986,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_022.gz",
+      "line_number": 9284,
+      "extraction_command": "sed -n '9284p' part_022.gz | jq '.title'",
+      "paper_hash": "c6731d274f733d2a"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1964179448",
+    "doi": "https://doi.org/10.1117/12.2004131",
+    "title": "High-performance broadband plasmonic absorber in visible fabricated by nanoimprint lithography",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University of Michigan",
+        "Michigan United"
+      ],
+      "CN": [
+        "Harbin Institute of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "L. Jay Guo (University of Michigan)",
+        "L. Jay Guo (Michigan United)",
+        "Peng Zhu (Michigan United)",
+        "Peng Zhu (University of Michigan)"
+      ],
+      "CN": [
+        "Peng Zhu (Harbin Institute of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_021.gz",
+      "line_number": 1934,
+      "extraction_command": "sed -n '1934p' part_021.gz | jq '.title'",
+      "paper_hash": "45d73310f8c79e10"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2084006130",
+    "doi": "https://doi.org/10.1117/12.2052314",
+    "title": "Bifurcation diagram of an external-cavity semiconductor laser: experiment and theory",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "FR",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Georgia Institute of Technology"
+      ],
+      "FR": [
+        "Georgia Tech Lorraine",
+        "Centre National de la Recherche Scientifique"
+      ],
+      "CN": [
+        "Southwest Jiaotong University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Alexandre Locquet (Georgia Institute of Technology)",
+        "D. S. Citrin (Georgia Institute of Technology)",
+        "Daeyoung Choi (Georgia Institute of Technology)",
+        "Byungchil Kim (Georgia Institute of Technology)"
+      ],
+      "FR": [
+        "Byungchil Kim (Georgia Tech Lorraine)",
+        "Alexandre Locquet (Centre National de la Recherche Scientifique)",
+        "D. S. Citrin (Centre National de la Recherche Scientifique)",
+        "Byungchil Kim (Centre National de la Recherche Scientifique)",
+        "Daeyoung Choi (Centre National de la Recherche Scientifique)",
+        "Alexandre Locquet (Georgia Tech Lorraine)",
+        "D. S. Citrin (Georgia Tech Lorraine)",
+        "Daeyoung Choi (Georgia Tech Lorraine)"
+      ],
+      "CN": [
+        "Nianqiang Li (Southwest Jiaotong University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_023.gz",
+      "line_number": 2856,
+      "extraction_command": "sed -n '2856p' part_023.gz | jq '.title'",
+      "paper_hash": "e113cc65a317be52"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2087160254",
+    "doi": "https://doi.org/10.1109/issse.2010.5606942",
+    "title": "Signal integrity analysis of through-silicon via based 3D integrated circuit",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "CN",
+      "SG"
+    ],
+    "institutions": {
+      "SG": [
+        "Agency for Science, Technology and Research",
+        "Institute of High Performance Computing"
+      ],
+      "CN": [
+        "Zhejiang University"
+      ]
+    },
+    "authors_by_country": {
+      "SG": [
+        "En‐Xiao Liu (Agency for Science, Technology and Research)",
+        "En‐Xiao Liu (Institute of High Performance Computing)",
+        "Er‐Ping Li (Agency for Science, Technology and Research)",
+        "Er‐Ping Li (Institute of High Performance Computing)"
+      ],
+      "CN": [
+        "Er‐Ping Li (Zhejiang University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_023.gz",
+      "line_number": 6490,
+      "extraction_command": "sed -n '6490p' part_023.gz | jq '.title'",
+      "paper_hash": "759350dec940bc9d"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2094572274",
+    "doi": "https://doi.org/10.1021/am401281u",
+    "title": "Preparation and Mechanics of Nanotextures on Adapting a Low Adhesive Surface Using Local Oxidation Nanolithography",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "George Washington University"
+      ],
+      "CN": [
+        "Guangxi University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Yufei Mo (George Washington University)",
+        "Alicia Chau (George Washington University)"
+      ],
+      "CN": [
+        "Zhaoxia Lu (Guangxi University)",
+        "Fuchuan Huang (Guangxi University)",
+        "Yufei Mo (Guangxi University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_023.gz",
+      "line_number": 14994,
+      "extraction_command": "sed -n '14994p' part_023.gz | jq '.title'",
+      "paper_hash": "3d9618650d71296e"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2170937836",
+    "doi": "https://doi.org/10.1109/jqe.2013.2279936",
+    "title": "A Numerical Study of Cavity Enhanced Inter-Modal Four Wave Mixing in Injection-Locked Semiconductor Ring Lasers",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University of Bristol"
+      ],
+      "CN": [
+        "Beijing Jiaotong University"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Huanlu Li (University of Bristol)",
+        "Ning Zhang (University of Bristol)",
+        "Xinlun Cai (University of Bristol)",
+        "Siyuan Yu (University of Bristol)"
+      ],
+      "CN": [
+        "Zexin Kang (Beijing Jiaotong University)",
+        "Dan Lu (Beijing Jiaotong University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_026.gz",
+      "line_number": 3180,
+      "extraction_command": "sed -n '3180p' part_026.gz | jq '.title'",
+      "paper_hash": "551cf47cdae684d3"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2327980554",
+    "doi": "https://doi.org/10.1049/cp.2014.0289",
+    "title": "Electro-thermal Method for Semiconductor Power Losses Analysis under Different Modulation Schemes",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Queen's University Belfast",
+        "Newcastle University"
+      ],
+      "CN": [
+        "Guangxi University"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "W.P. Cao (Newcastle University)",
+        "Bing Ji (Newcastle University)",
+        "Volker Pickert (Newcastle University)",
+        "Larry Chen (Queen's University Belfast)"
+      ],
+      "CN": [
+        "Min Zhang (Guangxi University)"
+      ]
+    },
+    "technology_categories": [
+      "semiconductors"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_011.gz",
+      "line_number": 4007,
+      "extraction_command": "sed -n '4007p' part_011.gz | jq '.title'",
+      "paper_hash": "7f39cbb312a93e2e"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: semiconductors"
+      ]
+    }
+  }
+]

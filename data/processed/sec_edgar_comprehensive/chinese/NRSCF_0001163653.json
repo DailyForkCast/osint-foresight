@@ -1,0 +1,48 @@
+{
+  "cik": "0001163653",
+  "ticker": "NRSCF",
+  "name": "NOMURA HOLDINGS INC",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:bm"
+  ],
+  "sic": "6211",
+  "sicDescription": "Security Brokers, Dealers & Flotation Companies",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "M0",
+  "ein": "000000000",
+  "phone": "81-3-5255-1000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1-13-1 NIHONBASHI",
+      "street2": "CHUO-KU",
+      "city": "TOKYO",
+      "stateOrCountry": null,
+      "zipCode": "103-8645",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Japan",
+      "countryCode": "M0"
+    },
+    "business": {
+      "street1": "1-13-1 NIHONBASHI",
+      "street2": "CHUO-KU",
+      "city": "TOKYO",
+      "stateOrCountry": null,
+      "zipCode": "103-8645",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Japan",
+      "countryCode": "M0"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-18"
+  },
+  "filings_count": 1001
+}

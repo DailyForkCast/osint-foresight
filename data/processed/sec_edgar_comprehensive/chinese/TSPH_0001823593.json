@@ -1,0 +1,45 @@
+{
+  "cik": "0001823593",
+  "ticker": "TSPH",
+  "name": "TuSimple Holdings Inc.",
+  "detection_reasons": [
+    "offshore:cayman",
+    "offshore:bm"
+  ],
+  "sic": "7373",
+  "sicDescription": "Services-Computer Integrated Systems Design",
+  "category": "Large accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "862341575",
+  "phone": "(619) 916-3144",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "9191 TOWNE CENTRE DRIVE, SUITE 150",
+      "street2": null,
+      "city": "SAN DIEGO",
+      "stateOrCountry": "CA",
+      "zipCode": "92122",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "9191 TOWNE CENTRE DRIVE, SUITE 150",
+      "street2": null,
+      "city": "SAN DIEGO",
+      "stateOrCountry": "CA",
+      "zipCode": "92122",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 217
+}

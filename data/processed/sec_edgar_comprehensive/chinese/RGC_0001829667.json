@@ -1,0 +1,49 @@
+{
+  "cik": "0001829667",
+  "ticker": "RGC",
+  "name": "Regencell Bioscience Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong"
+  ],
+  "sic": "2833",
+  "sicDescription": "Medicinal Chemicals & Botanical Products",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "852 2155 0823",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "11/F FIRST COMMERCIAL BUILDING",
+      "street2": "33-35 LEIGHTON ROAD, CAUSEWAY BAY",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "11/F FIRST COMMERCIAL BUILDING",
+      "street2": "33-35 LEIGHTON ROAD, CAUSEWAY BAY",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-06-30"
+  },
+  "filings_count": 63
+}

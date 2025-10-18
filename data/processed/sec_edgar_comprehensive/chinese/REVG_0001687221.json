@@ -1,0 +1,48 @@
+{
+  "cik": "0001687221",
+  "ticker": "REVG",
+  "name": "REV Group, Inc.",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:vg"
+  ],
+  "sic": "3711",
+  "sicDescription": "Motor Vehicles & Passenger Car Bodies",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "263013415",
+  "phone": "414-290-0190",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "245 SOUTH EXECUTIVE DRIVE",
+      "street2": null,
+      "city": "BROOKFIELD",
+      "stateOrCountry": "WI",
+      "zipCode": "53005",
+      "stateOrCountryDescription": "WI",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "245 SOUTH EXECUTIVE DRIVE",
+      "street2": null,
+      "city": "BROOKFIELD",
+      "stateOrCountry": "WI",
+      "zipCode": "53005",
+      "stateOrCountryDescription": "WI",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-09-03"
+  },
+  "filings_count": 432
+}

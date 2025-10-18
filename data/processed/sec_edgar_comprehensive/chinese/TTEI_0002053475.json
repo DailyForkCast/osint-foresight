@@ -1,0 +1,44 @@
+{
+  "cik": "0002053475",
+  "ticker": "TTEI",
+  "name": "TDE GROUP Ltd",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "8200",
+  "sicDescription": "Services-Educational Services",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "K3",
+  "ein": "000000000",
+  "phone": "852-23460023",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT 2101, 21/F, THE BAY HUB",
+      "street2": "17 KAI CHEUNG ROAD",
+      "city": "KOWLOON BAY",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "HONG KONG",
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    },
+    "business": {
+      "street1": "UNIT 2101, 21/F, THE BAY HUB",
+      "street2": "17 KAI CHEUNG ROAD",
+      "city": "KOWLOON BAY",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "HONG KONG",
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 5
+}

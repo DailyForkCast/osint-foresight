@@ -1,0 +1,48 @@
+{
+  "cik": "0001828316",
+  "ticker": "PHAR",
+  "name": "Pharming Group N.V.",
+  "detection_reasons": [
+    "location:prc",
+    "offshore:bvi"
+  ],
+  "sic": "2834",
+  "sicDescription": "Pharmaceutical Preparations",
+  "category": "Accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "P7",
+  "ein": "000000000",
+  "phone": "31 (0)71 5247 400",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "DARWINWEG 24",
+      "street2": null,
+      "city": "LEIDEN",
+      "stateOrCountry": "P7",
+      "zipCode": "2333 CR",
+      "stateOrCountryDescription": "Netherlands",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "DARWINWEG 24",
+      "street2": null,
+      "city": "LEIDEN",
+      "stateOrCountry": "P7",
+      "zipCode": "2333 CR",
+      "stateOrCountryDescription": "Netherlands",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-10"
+  },
+  "filings_count": 120
+}

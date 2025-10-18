@@ -1,0 +1,55 @@
+{
+  "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\national_procurement\\search_summary_20250923.json",
+  "size": 789,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 1,
+  "field_count": 7,
+  "parse_status": "success",
+  "schema": {
+    "search_date": "string",
+    "countries_searched": "array",
+    "total_searches": "number",
+    "errors": "number",
+    "status": "string",
+    "next_steps": "array",
+    "priority_portals": "array"
+  },
+  "sample_records": [
+    {
+      "search_date": "2025-09-23T16:09:52.952910",
+      "countries_searched": [
+        "PL",
+        "CZ",
+        "SK"
+      ],
+      "total_searches": 33,
+      "errors": 0,
+      "status": "framework_only",
+      "next_steps": [
+        "1. Manual verification of search URLs",
+        "2. Portal-specific authentication setup",
+        "3. HTML/API parsing implementation",
+        "4. Result extraction and analysis"
+      ],
+      "priority_portals": [
+        {
+          "country": "CZ",
+          "portal": "nen.nipez.cz",
+          "reason": "English interface available"
+        },
+        {
+          "country": "PL",
+          "portal": "ezamowienia.gov.pl",
+          "reason": "Largest market, 112 TED contracts found"
+        },
+        {
+          "country": "SK",
+          "portal": "uvo.gov.sk",
+          "reason": "Public database access"
+        }
+      ]
+    }
+  ],
+  "modified": "2025-09-23T16:09:52.952910"
+}

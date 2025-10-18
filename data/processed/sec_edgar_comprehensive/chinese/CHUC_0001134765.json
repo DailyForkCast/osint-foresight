@@ -1,0 +1,48 @@
+{
+  "cik": "0001134765",
+  "ticker": "CHUC",
+  "name": "Charlie's Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:bm"
+  ],
+  "sic": "2833",
+  "sicDescription": "Medicinal Chemicals & Botanical Products",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "NV",
+  "ein": "841575085",
+  "phone": "949-570-0691",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1007 BRIOSO DR.",
+      "street2": null,
+      "city": "COSTA MESA",
+      "stateOrCountry": "CA",
+      "zipCode": "92627",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1007 BRIOSO DR.",
+      "street2": null,
+      "city": "COSTA MESA",
+      "stateOrCountry": "CA",
+      "zipCode": "92627",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-21"
+  },
+  "filings_count": 792
+}

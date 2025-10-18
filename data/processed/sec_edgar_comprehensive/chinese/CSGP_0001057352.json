@@ -1,0 +1,47 @@
+{
+  "cik": "0001057352",
+  "ticker": "CSGP",
+  "name": "COSTAR GROUP, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7389",
+  "sicDescription": "Services-Business Services, NEC",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "522091509",
+  "phone": "2023466500",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1201 WILSON BLVD.",
+      "street2": null,
+      "city": "ARLINGTON",
+      "stateOrCountry": "VA",
+      "zipCode": "22209",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1201 WILSON BLVD.",
+      "street2": null,
+      "city": "ARLINGTON",
+      "stateOrCountry": "VA",
+      "zipCode": "22209",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-27"
+  },
+  "filings_count": 1004
+}

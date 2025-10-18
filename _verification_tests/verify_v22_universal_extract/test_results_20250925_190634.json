@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-09-25T19:06:34.676047",
+  "config": "tests.yaml",
+  "tests_run": 1,
+  "tests_passed": 0,
+  "tests_failed": 1,
+  "test_results": [
+    {
+      "id": "TED_X1",
+      "name": "TED FS Delta Check",
+      "passed": false,
+      "output": "\nSTDERR: usage: verification_tools_starter_pack.py [-h]\n                                          {reachability,enum_parity,fs_delta_check,archive_member_check,ext_mime_hist,schema_probe,openability_check,coverage_delta,lineage_check,stream_json,batch_tsv,bulk_decompress,ted_schema_probe}\n                                          ...\nverification_tools_starter_pack.py: error: unrecognized arguments: - Foresight/data/processed/ted_2023_2025\n"
+    }
+  ]
+}

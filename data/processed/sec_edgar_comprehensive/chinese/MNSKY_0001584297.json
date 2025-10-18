@@ -1,0 +1,44 @@
+{
+  "cik": "0001584297",
+  "ticker": "MNSKY",
+  "name": "MoneySupermarket.com Group PLC/ADR",
+  "detection_reasons": [
+    "offshore:ky"
+  ],
+  "sic": "",
+  "sicDescription": "",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "212-238-3128",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "120 BROADWAY",
+      "street2": "32ND FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10271",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "120 BROADWAY",
+      "street2": "32ND FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10271",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 2
+}

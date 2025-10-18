@@ -1,0 +1,44 @@
+{
+  "cik": "0000075362",
+  "ticker": "PCAR",
+  "name": "PACCAR INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3711",
+  "sicDescription": "Motor Vehicles & Passenger Car Bodies",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "910351110",
+  "phone": "425 468 7525",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "PACCAR BUILDING",
+      "street2": "777 106TH AVENUE NE",
+      "city": "BELLEVUE",
+      "stateOrCountry": "WA",
+      "zipCode": "98004",
+      "stateOrCountryDescription": "WA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "PACCAR BUILDING",
+      "street2": "777 106TH AVENUE NE",
+      "city": "BELLEVUE",
+      "stateOrCountry": "WA",
+      "zipCode": "98004",
+      "stateOrCountryDescription": "WA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1011
+}

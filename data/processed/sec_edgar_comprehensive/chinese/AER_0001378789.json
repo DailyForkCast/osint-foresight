@@ -1,0 +1,47 @@
+{
+  "cik": "0001378789",
+  "ticker": "AER",
+  "name": "AerCap Holdings N.V.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7359",
+  "sicDescription": "Services-Equipment Rental & Leasing, NEC",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "P7",
+  "ein": "000000000",
+  "phone": "35 31 819 2010",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "AERCAP HOUSE",
+      "street2": "65 ST. STEPHEN'S GREEN",
+      "city": "DUBLIN",
+      "stateOrCountry": null,
+      "zipCode": "D02 YX20",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Ireland",
+      "countryCode": "L2"
+    },
+    "business": {
+      "street1": "AERCAP HOUSE",
+      "street2": "65 ST. STEPHEN'S GREEN",
+      "city": "DUBLIN",
+      "stateOrCountry": null,
+      "zipCode": "D02 YX20",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Ireland",
+      "countryCode": "L2"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-22"
+  },
+  "filings_count": 1000
+}

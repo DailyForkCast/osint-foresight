@@ -1,0 +1,660 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <title>Via Benefits - Get the Most out of Medicare</title>
+  <link rel="stylesheet" href="https://my.viabenefits.com/static/cdn/es-assets/source-sans-pro.css">
+  <link rel="stylesheet" href="https://my.viabenefits.com/static/cdn/es-assets/icons.css">
+      <link rel="icon" href="/wp-content/themes/HighendWP-child/images/favicon-32x32.png" type="image/png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <style>
+    *  {
+    	font-family: 'Source Sans Pro', sans-serif;
+    }
+    body {
+    	margin: 0;
+    }
+  	header {
+  		border-bottom: 6px solid #327fef;
+  		padding: 23px 55px;
+
+  	}
+  	h1,h2,h3 {
+  		margin-top: 0;
+  		margin-bottom: 0;
+  	}
+  	h1 {
+  		background-color: rgba(50,127,239,.8);
+  		padding: 25px 31px 25px 31px;
+  		color: white;
+  		display: inline-block;
+  		font-size: 48px;
+  		font-weight: 500;
+  		margin-top: 58px;
+  		margin-bottom: 0;
+  	}
+  	h2 {
+  		font-weight:500;
+  		font-size: 36px;
+  		margin-bottom: 46px;
+  	}
+  	h3 {
+  		font-weight: 300;
+  		font-size: 25.92px;
+  		color: #444;
+  	}
+  	p {
+  		font-size: 24px;
+  		margin: 0;
+  	}
+  	a {
+  		text-decoration: none;
+  	}
+  	.button {
+  		color: #327fef;
+  		background-color: #fff;
+  		padding: 15px 22px 15px 16px;
+  		font-size: 24px;
+  		font-weight: 600;
+  		margin-top: 28px;
+  		display: inline-block;
+  		border-radius: 6px;
+  		cursor: pointer;
+  		transition: all 0.1s linear;
+  		cursor: pointer;
+  	}
+  	.button:after {
+  		content: '';
+  		background-image: url('/wp-content/themes/HighendWP-child/static/cdn/es-assets/images/od925/right-arrow-blue.png');
+  		background-size: contain;
+  		background-repeat: no-repeat;
+  		display: inline-block;
+  		width: 27px;
+  		height: 13px;
+  		margin-left: 10px;
+  		cursor: pointer;
+  		transition: all 0.1s linear;
+  		cursor: pointer;
+  	}
+  	.logo {
+  		width: 100%;
+  		max-width: 266px;
+  	}
+  	.logo img {
+  		width: 100%;
+  	}
+  	#hero {
+  		height: 50vh;
+  		max-height: 300px;
+  		overflow: hidden;
+  		padding-left: 55px;
+  		background-image: url('/wp-content/themes/HighendWP-child/static/cdn/es-assets/images/od925/desktop-hero.jpg');
+  		background-repeat: no-repeat;
+	    background-position: 0 -10rem;
+	    height: 300px;
+	    position: relative;
+	    background-size: cover;
+	}
+  	.flex {
+  		display: flex;
+  	}
+  	.flex-space-between {
+  		justify-content: space-between;
+  	}
+  	.flex-item {
+  		background-color: #327fef;
+  		border-radius: 20px;
+  		margin-left: 16px;
+  		margin-right: 16px;
+  		max-width: 663px;
+  		padding: 24px 30px 30px 30px;
+  		box-sizing: border-box;
+  		position: relative;
+  		width: 100%;
+  	}
+  	.flex-item:nth-child(1) p {
+  		position: relative;
+  		transition: all 0.1s linear;
+  	}
+  	.flex-item:nth-child(2) {
+  		background-color: #c900ac;
+  	}
+  	.flex-item h2 {
+  		color: #fff;
+  	}
+  	.flex-item p {
+  		color: #fff;
+  	}
+  	.flex-justify-center {
+  		justify-content: center;
+  	}
+  	#main {
+  		padding: 67px 55px 55px 55px;
+  	}
+  	.new-user {
+  		margin-top: 90px;
+  		text-align: center;
+  	}
+  	.new-user h2 {
+  		font-weight: 400;
+  		text-align: center;
+  		color: #808080;
+  		margin-bottom: 10px;
+  	}
+  	.new-user p {
+  		font-size: 28px;
+  		text-align: center;
+  		color: #808080;
+  	}
+  	.new-user .button {
+  		border: 2.5px solid #327fef;
+  		margin-top: 30px;
+  	}
+  	.button:hover {
+  		background-color: #327fef;
+  		color: white;
+  	}
+  	.button:hover:after {
+  		filter: brightness(0) invert(1);
+  	}
+  	.flex-item .button {
+  		border: 2.5px solid #327fef;
+  	}
+
+  	.flex-item:nth-child(2) .button {
+  		border: 2.5px solid #c900ac;
+  	}
+  	.flex-item .button:hover {
+  		border-color: white;
+  	}
+  	footer {
+  		border-top: 2.5px solid #c900ac;
+  	}
+  	footer .flex-wrapper {
+  		background-color: #f3f3f3;
+  		padding-top: 27px;
+  		padding-bottom: 20px;
+  		padding-left: 71px;
+  		padding-right: 71px;
+  	}
+  	footer .flex,
+  	.footer-inner p {
+  		max-width: 1390px;
+  		margin-left: auto;
+  		margin-right: auto;
+  		box-sizing: border-box;
+  	}
+  	.footer-nav a,
+  	.copyright {
+  		font-size: 0.98rem;
+  		color: #808080;
+  	}
+  	.footer-nav a:after {
+  		content: '|';
+  		padding-left: 6px;
+  		padding-right: 6px;
+  		font-size: 1.05rem;
+  	}
+  	.footer-nav a:last-child:after {
+  		content: '';
+  	}
+  	.footer-inner p {
+  		margin-top: 46px;
+  		font-size: .98rem;
+  		font-weight: 400;
+  		color: #6d6e71;
+  		margin-bottom: 46px;
+  	}
+  	.parent-item {
+  		color: #808080;
+  		font-size: 20px;
+  	}
+  	.parent-item:after {
+  		content: '';
+  		width: 16px;
+  		height: 9px;
+  		background-image: url('/wp-content/themes/HighendWP-child/static/cdn/es-assets/images/od925/chevron.png');
+  		background-repeat: no-repeat;
+  		background-size: contain;
+  		display: inline-block;
+  		margin-left: 10px;
+  	}
+  	.dropdown {
+  		position: relative;
+  		cursor: pointer;
+  	}
+  	.subnav {
+  		display: none;
+  		flex-direction: column;
+  		background-color: #fff;
+  		padding: 32px 36px;
+  		position: absolute;
+  		top: 35px;
+  		left: -35px;
+  		z-index: 1001;
+  		box-shadow: #ccc 1px 1px 5px;
+  		width: 213px;
+  	}
+  	.dropdown.xhover .subnav {
+  		display: flex;
+  	}
+  	.subnav a {
+  		color: #808080;
+  		font-size: 20px;
+  	}
+  	.subnav a+a {
+  		margin-top: 22px;
+  	}
+  	.flair {
+  		position: absolute;
+  		top: -10px;
+  		left: 0;
+  	}
+  	.flex-align-center{
+  		align-items: center;
+  	}
+  	#modal {
+  		position: fixed;
+  		top: 0;
+  		left: 0;
+  		right: 0;
+  		bottom: 0;
+  		background-color: rgba(68,68,68,0.5);
+  		display: none;
+  	}
+  	body.show-modal {
+  		overflow: hidden;
+  	}
+  	body.show-modal #modal {
+  		display: block;
+  	}
+  	#modal-body {
+  		position: relative;
+      margin: 30vh auto;
+      width: 600px;
+      background-color: #fff;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  	}
+  	.modal-header {
+  		padding: 15px;
+  		border-bottom: 2px solid #c110a0;
+  		display: flex;
+  		justify-content: space-between;
+  		align-items: baseline;
+  	}
+  	.modal-content {
+  		padding: 15px;
+  	}
+  	.modal-content div,
+  	.modal-content strong {
+  		font-size: 18px;
+  		color: #444;
+  		line-height: 1.428;
+  	}
+  	div.close-modal {
+  		height: 14px;
+  		width: 14px;
+  		background-image: url('/wp-content/themes/HighendWP-child/static/cdn/es-assets/images/od925/x.png');
+  		background-size: contain;
+  		background-repeat: no-repeat;
+  		background-position: center center;
+  		cursor: pointer;
+  	}
+  	.button-wrapper {
+  		padding-top: 15px;
+  		display: flex;
+  		justify-content: flex-end;
+  	}
+  	.modal-button {
+  		background-color: #d8d8d8;
+	    border: 2px solid transparent;
+	    border-color: #d8d8d8;
+	    border-bottom-left-radius: 0.25rem;
+	    border-bottom-right-radius: 0.25rem;
+	    border-top-left-radius: 0.25rem;
+	    border-top-right-radius: 0.25rem;
+	    box-sizing: border-box;
+	    color: #000000;
+	    cursor: pointer;
+	    font-family: inherit;
+	    font-size: 1.15rem;
+	    font-weight: normal;
+	    line-height: 1.5;
+	    padding-bottom: 0.25rem;
+	    padding-left: 1rem;
+	    padding-right: 1rem;
+	    padding-top: 0.25rem;
+	    position: relative;
+	    text-align: center;
+	    -webkit-text-decoration: none;
+	    text-decoration: none;
+	    text-transform: none;
+	    -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	    -webkit-user-select: none;
+	    -moz-user-select: none;
+	    -ms-user-select: none;
+	    user-select: none;
+	    vertical-align: middle;
+	    white-space: nowrap;
+	    min-width: 100px;
+	    display: inline-block;
+	    width: auto;
+  	}
+  	.modal-button:hover {
+  		background-color: #c5c5c5;
+      border-color: #bfbfbf;
+  	}
+  	.flex-item:nth-child(1) .button {
+  			position: absolute;
+  			bottom: 30px;
+  		}
+
+  	.new-user h2 {
+  		font-size: 27px;
+  	}
+  	.new-user p {
+  		font-size: 21px;
+  	}
+  	.new-user .button {
+  		font-size: 18px;
+  		padding: 11.25px 16.5px 11.5x 12px;
+  	}
+  	.new-user .button:after {
+  		width: 20.25px;
+  		height: 12.75px;
+  		vertical-align: -2px;
+  	}
+  	@media screen and (min-width: 1600px){
+  		#hero {
+  			background-position: 0 -11rem;
+  		}
+  	}
+  	@media screen and (min-width: 1800px){
+  		#hero {
+  			background-position: 0 -12rem;
+  		}
+  	}
+  	@media screen and (min-width: 2000px){
+  		#hero {
+  			background-position: 0 -13rem;
+  		}
+  	}
+  	@media screen and (min-width: 2250px){
+  		#hero {
+  			background-position: 0 -17rem;
+  		}
+  	}
+  	@media screen and (min-width: 2500px){
+  		#hero {
+  			background-position: 0 -21rem;
+  		}
+  	}
+  	@media screen and (min-width: 2600px){
+  		#hero {
+  			background-position: 0 -25rem;
+  		}
+  	}
+  	@media screen and (max-width: 768px) {
+  		header {
+  			padding-left: 0;
+  			padding-right: 0;
+  			padding-bottom: 0;
+  		}
+  		.dropdown {
+  			width: 100%;
+  			background-color: #e6e6e6;
+  			text-align: center;
+  			margin-top: 28px;
+  		}
+  		.parent-item {
+  			padding-top: 10px;
+  			padding-bottom: 8px;
+  		}
+  		.subnav {
+  			top: 40px;
+  			left: 0;
+  			width: 100%;
+  			border-top: 1px solid #5080c7;
+  			padding: 28px 0;
+  		}
+  		.subnav-item br {
+  			display: none;
+  		}
+  		.flair {
+  			display: none;
+  		}
+  		#main {
+  			padding: 30px 27px;
+  		}
+  		#hero {
+  			background-image: url('/wp-content/themes/HighendWP-child/static/cdn/es-assets/images/od925/mobile-hero.jpg');
+  			max-height: 404px;
+  			height: 404px;
+  			background-position: top center;
+  			padding: 0;
+  		}
+  		h1 {
+  			position: relative;
+  			left: 50%;
+  			transform: translatex(-50%);
+  			margin-top: 32px;
+  			line-height: 1em;
+  		}
+  		h2 {
+  			font-size: 20px;
+  			margin-bottom: 10px;
+  		}
+  		p {
+  			font-size: 16px;
+  		}
+  		.button {
+  			font-size: 16px;
+  			padding: 7px 11px;
+  		}
+  		.button:after {
+  			width: 13.5px;
+  			height: 7.5px;
+  			margin-left: 5px;
+  		}
+  		.flex {
+  			flex-direction: column;
+  		}
+  		.flex-tablet-row {
+  			flex-direction: row;
+  		}
+  		.flex-item {
+  			padding: 17px;
+  			width: 100%;
+  			margin-left: 10px;
+  			margin-right: 10px;
+  			position: relative;
+  		}
+  		.flex-item .button {
+  			bottom: 17px !important;
+  		}
+  		.flex-item:nth-child(1) {
+  			margin-left: 0;
+  			transition: all 0.2s linear;
+  		}
+
+  		.flex-item:nth-child(2) {
+  			margin-right: 0;
+  		}
+  		.new-user {
+  			margin-top: 40px;
+  		}
+  		.new-user p {
+  			font-size: 16px;
+  		}
+  		.flex-tablet-center {
+  			align-items: flex-start;
+  		}
+  		footer .flex-wrapper {
+  			padding: 10px 20px;
+  		}
+  		.footer-nav {
+  			padding-bottom: 5px;
+  		}
+  		.footer-inner {
+  			padding-left: 20px;
+  			padding-right: 20px;
+  		}
+  		.footer-inner p {
+  			margin-top: 20px;
+  			margin-bottom: 20px;
+  		}
+  	}
+  	@media screen and (max-width: 540px) {
+  		h1 {
+  			font-size: 27px;
+    		margin-top: 12px;
+  		}
+  		#hero {
+  			height: 260px;
+  			max-height: 260px;
+  			background-image: url('/wp-content/themes/HighendWP-child/static/cdn/es-assets/images/od925/mobile-hero2.jpg');
+  		}
+  		.flex-tablet-row {
+  			flex-direction: column;
+  		}
+  		.flex-item {
+  			margin: 10px 0;
+  		}
+  		.footer-nav a,
+  		.footer-inner p {
+  			font-size: 0.95rem;
+  		}
+  		.flex-item:nth-child(1) .button {
+  			position: static;
+  		}
+  		#modal-body {
+  			width: 95vw;
+  			margin-top: 20vh;
+  		}
+
+  	}
+  </style>
+</head>
+<body class="new-landing">
+<header class="flex flex-space-between flex-align-center">
+	<div class="logo">
+		<img src="/wp-content/themes/HighendWP-child/images/new via logo.jpg">
+	</div>
+	<div class="dropdown">
+		<div class="parent-item">Solutions for Employers</div>
+		<div class="subnav">
+			<div class="flair"><img src="/wp-content/themes/HighendWP-child/static/cdn/es-assets/images/od925/flair.png"></div>
+				<a class="subnav-item" href="https://optimizeretireebenefits.com/">Retiree Health Care</a>
+				<a class="subnav-item" href="https://www.wtwco.com/en-us/solutions/spending-accounts">Spending Account <br>Administration</a>
+		</div>
+	</div>
+</header>
+<section id="hero">
+	<div class="section-content">
+		<h1>Welcome to Via Benefits!</h1>
+	</div>
+</section>
+<section id="main">
+	<div class="flex flex-justify-center flex-tablet-row">
+		<div class="flex-item">
+			<h2 style="padding-bottom: 0px;">Spending Accounts</h2>
+			<p>Via Benefits administers my spending account (HSA, HRA, FSA, DCFSA, LSA, Commuter, etc.).</p>
+			<a class="button" href="https://www.viabenefitsaccounts.com/benefits/logindisplay.jsp?app=docmgmt&amp;mode=S">Sign In</a>
+		</div>
+		<div class="flex-item">
+			<h2>Individual and Medicare Marketplace</h2>
+			<p>Via Benefits helps me select, enroll, and manage Medicare, health insurance coverage, or my reimbursement account.</p>
+			<a class="button" href="https://my.viabenefits.com/">Sign In</a>
+		</div>
+	</div>
+	<div class="new-user">
+		<h2>Not a current Via Benefits user?</h2>
+		<p>Explore your health insurance coverage options.</p>
+		<a class="button" href="https://discover.viabenefits.com/">Start Now!</a>
+	</div>
+</section>
+<footer>
+	<div class="flex-wrapper">
+		<div class="flex flex-space-between flex-tablet-center">
+			<nav class="footer-nav">
+				<a href="https://my.viabenefits.com/about/privacy-policy">Privacy Policy</a>
+				<a href="https://my.viabenefits.com/about/consumer-health-privacy">Consumer Health Privacy Notice</a>
+				<a href="https://my.viabenefits.com/about/licensing-legal">Licensing and Legal</a>
+				<a href="#" class="lang-modal">Language Assistance</a>
+			</nav>
+			<p class="copyright">Copyright © 2024 Via Benefits. All Rights Reserved.</p>
+		</div>
+	</div>
+	<div class="footer-inner">
+		<p>Via Benefits Accounts services are provided by Acclaris, Inc. Via Benefits Marketplace services for retirees are provided by Extend Health, Inc., and all insurance is offered through Extend Insurance Services, LLC. Note: Extend Insurance Services, LLC is changing its d/b/a from Towers Watson's OneExchange to Via Benefits Insurance Services. Via Benefits Marketplace services for employees are provided by various entities including Towers Watson Delaware, Inc. and/or its corporate affiliates depending on your location and other factors. Additional information is available upon request.</p>
+	</div>
+</footer>
+
+
+<div id="modal">
+	<div id="modal-body">
+		<div class="modal-header">
+			<h3>Language Assistance</h3>
+			<div class="close-modal"></div>
+		</div>
+		<div class="modal-content">
+			<div>You have the right to get help and information in your language and at no additional cost. Via Benefits is committed to making its services accessible to people with disabilities: oral interpretation services are available at no cost. To speak with an interpreter, call:</div>
+			<strong><a href="tel:+18005912611" class="tel">1-800-591-2611</a> (TTY: 711)<br>Monday – Friday, 6 a.m. – 5 p.m. Mountain Time</strong>
+			<div class="button-wrapper"><button class="modal-button close-modal">Close</button></div>
+		</div>
+	</div>
+</div>
+
+
+
+<script>
+
+	function alignText() {
+
+		let bob=$('.flex-item:nth-child(1) h2').get(0);
+		$(bob).css({'padding-bottom':'0'});
+		let fred=$('.flex-item:nth-child(2) h2').get(0);
+		let fredy=$(fred).height();
+		let boby=$(bob).height();
+		if(boby != fredy){
+			let diff=fredy-boby;
+			$(bob).css({'padding-bottom':diff+'px'});
+		}
+	}
+
+
+	$(document).ready(function(){
+		alignText();
+		$('.dropdown').hover(function() {
+			$(this).addClass('xhover');
+		}, function() {
+			$(this).removeClass('xhover');
+		});
+		$('.parent-item').click(function() {
+			let parent=$(this).parents('.dropdown');
+			console.log(parent);
+			if($(parent).hasClass('xhover')) {
+				console.log('has xhover');
+			} else {
+				console.log('missing xhover');
+			}
+		});
+		$('.lang-modal').click(function() {
+			$('body').addClass('show-modal');
+		});
+
+		$('#modal').click(function(e) {
+			console.log(e.target);
+		});
+		$('.close-modal').click(function() {
+			$('body').removeClass('show-modal');
+		});
+		$(window).resize(function() {
+			alignText();
+		});
+
+	})
+</script>
+
+</body></html>

@@ -1,0 +1,109 @@
+{
+  "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\national_procurement\\SK_procurement_searches_20250923_160952.json",
+  "size": 2554,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 1,
+  "field_count": 4,
+  "parse_status": "success",
+  "schema": {
+    "country": "string",
+    "search_date": "string",
+    "results": "array",
+    "statistics": "object"
+  },
+  "sample_records": [
+    {
+      "country": "SK",
+      "search_date": "2025-09-23T16:09:52.945884",
+      "results": [
+        {
+          "search_term": "Huawei",
+          "country": "SK",
+          "portal": "uvo.gov.sk",
+          "timestamp": "2025-09-23T16:09:32.876902",
+          "status": "framework_only",
+          "note": "Public database access available"
+        },
+        {
+          "search_term": "ZTE",
+          "country": "SK",
+          "portal": "uvo.gov.sk",
+          "timestamp": "2025-09-23T16:09:34.882589",
+          "status": "framework_only",
+          "note": "Public database access available"
+        },
+        {
+          "search_term": "Lenovo",
+          "country": "SK",
+          "portal": "uvo.gov.sk",
+          "timestamp": "2025-09-23T16:09:36.884083",
+          "status": "framework_only",
+          "note": "Public database access available"
+        },
+        {
+          "search_term": "Hikvision",
+          "country": "SK",
+          "portal": "uvo.gov.sk",
+          "timestamp": "2025-09-23T16:09:38.885268",
+          "status": "framework_only",
+          "note": "Public database access available"
+        },
+        {
+          "search_term": "DJI",
+          "country": "SK",
+          "portal": "uvo.gov.sk",
+          "timestamp": "2025-09-23T16:09:40.890072",
+          "status": "framework_only",
+          "note": "Public database access available"
+        },
+        {
+          "search_term": "Dahua",
+          "country": "SK",
+          "portal": "uvo.gov.sk",
+          "timestamp": "2025-09-23T16:09:42.894960",
+          "status": "framework_only",
+          "note": "Public database access available"
+        },
+        {
+          "search_term": "Xiaomi",
+          "country": "SK",
+          "portal": "uvo.gov.sk",
+          "timestamp": "2025-09-23T16:09:44.901993",
+          "status": "framework_only",
+          "note": "Public database access available"
+        },
+        {
+          "search_term": "Alibaba",
+          "country": "SK",
+          "portal": "uvo.gov.sk",
+          "timestamp": "2025-09-23T16:09:46.906347",
+          "status": "framework_only",
+          "note": "Public database access available"
+        },
+        {
+          "search_term": "BYD",
+          "country": "SK",
+          "portal": "uvo.gov.sk",
+          "timestamp": "2025-09-23T16:09:48.921289",
+          "status": "framework_only",
+          "note": "Public database access available"
+        },
+        {
+          "search_term": "CRRC",
+          "country": "SK",
+          "portal": "uvo.gov.sk",
+          "timestamp": "2025-09-23T16:09:50.931359",
+          "status": "framework_only",
+          "note": "Public database access available"
+        }
+      ],
+      "statistics": {
+        "searches_performed": 33,
+        "contracts_found": 0,
+        "errors": 0
+      }
+    }
+  ],
+  "modified": "2025-09-23T16:09:52.946886"
+}

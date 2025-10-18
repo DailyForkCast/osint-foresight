@@ -1,0 +1,47 @@
+{
+  "cik": "0001411057",
+  "ticker": "CBIH",
+  "name": "Cannabis Bioscience International Holdings, Inc.",
+  "detection_reasons": [
+    "location:china"
+  ],
+  "sic": "8731",
+  "sicDescription": "Services-Commercial Physical & Biological Research",
+  "category": "Non-accelerated filer<br>Smaller reporting company<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "844901229",
+  "phone": "214-733-0868",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "6201 BONHOMME ROAD",
+      "street2": "SUITE 435S",
+      "city": "HOUSTON",
+      "stateOrCountry": "TX",
+      "zipCode": "77036",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "6201 BONHOMME ROAD",
+      "street2": "SUITE 435S",
+      "city": "HOUSTON",
+      "stateOrCountry": "TX",
+      "zipCode": "77036",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-K",
+    "date": "2025-09-22"
+  },
+  "filings_count": 127
+}

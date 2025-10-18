@@ -1,0 +1,47 @@
+{
+  "cik": "0001315257",
+  "ticker": "KOP",
+  "name": "Koppers Holdings Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2400",
+  "sicDescription": "Lumber & Wood Products (No Furniture)",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "PA",
+  "ein": "201878963",
+  "phone": "412-227-2001",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "436 SEVENTH AVENUE",
+      "street2": null,
+      "city": "PITTSBURGH",
+      "stateOrCountry": "PA",
+      "zipCode": "15219",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "436 SEVENTH AVENUE",
+      "street2": null,
+      "city": "PITTSBURGH",
+      "stateOrCountry": "PA",
+      "zipCode": "15219",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-08"
+  },
+  "filings_count": 1000
+}

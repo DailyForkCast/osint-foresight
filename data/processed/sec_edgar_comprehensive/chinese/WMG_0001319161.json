@@ -1,0 +1,47 @@
+{
+  "cik": "0001319161",
+  "ticker": "WMG",
+  "name": "Warner Music Group Corp.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7900",
+  "sicDescription": "Services-Amusement & Recreation Services",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "134271875",
+  "phone": "212-275-2000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1633 BROADWAY",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10019",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1633 BROADWAY",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10019",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-07"
+  },
+  "filings_count": 919
+}

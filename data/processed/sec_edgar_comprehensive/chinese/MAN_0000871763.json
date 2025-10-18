@@ -1,0 +1,47 @@
+{
+  "cik": "0000871763",
+  "ticker": "MAN",
+  "name": "ManpowerGroup Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7363",
+  "sicDescription": "Services-Help Supply Services",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "WI",
+  "ein": "391672779",
+  "phone": "414 961-1000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "100 MANPOWER PLACE",
+      "street2": null,
+      "city": "MILWAUKEE",
+      "stateOrCountry": "WI",
+      "zipCode": "53212",
+      "stateOrCountryDescription": "WI",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "100 MANPOWER PLACE",
+      "street2": null,
+      "city": "MILWAUKEE",
+      "stateOrCountry": "WI",
+      "zipCode": "53212",
+      "stateOrCountryDescription": "WI",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-05"
+  },
+  "filings_count": 1001
+}

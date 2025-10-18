@@ -1,0 +1,49 @@
+{
+  "cik": "0001620459",
+  "ticker": "JRVR",
+  "name": "James River Group Holdings, Ltd.",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:bermuda",
+    "offshore:bm"
+  ],
+  "sic": "6331",
+  "sicDescription": "Fire, Marine & Casualty Insurance",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "D0",
+  "ein": "980585280",
+  "phone": "1-441-295-1422",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "CLARENDON HOUSE, 2 CHURCH STREET",
+      "street2": "HAMILTON",
+      "city": "PEMBROKE",
+      "stateOrCountry": "D0",
+      "zipCode": "HM 11",
+      "stateOrCountryDescription": "Bermuda",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "CLARENDON HOUSE, 2 CHURCH STREET",
+      "street2": "HAMILTON",
+      "city": "PEMBROKE",
+      "stateOrCountry": "D0",
+      "zipCode": "HM 11",
+      "stateOrCountryDescription": "Bermuda",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-29"
+  },
+  "filings_count": 750
+}

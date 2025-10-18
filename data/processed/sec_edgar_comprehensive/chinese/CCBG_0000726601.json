@@ -1,0 +1,44 @@
+{
+  "cik": "0000726601",
+  "ticker": "CCBG",
+  "name": "CAPITAL CITY BANK GROUP INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6022",
+  "sicDescription": "State Commercial Banks",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "FL",
+  "ein": "592273542",
+  "phone": "8506710300",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "PO BOX 11248",
+      "street2": null,
+      "city": "TALLAHASSEE",
+      "stateOrCountry": "FL",
+      "zipCode": "32302-3248",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "217 N MONROE ST",
+      "street2": null,
+      "city": "TALLAHASSEE",
+      "stateOrCountry": "FL",
+      "zipCode": "32301",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1001
+}

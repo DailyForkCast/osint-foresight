@@ -1,0 +1,1040 @@
+[
+  {
+    "paper_id": "https://openalex.org/W2355340314",
+    "doi": null,
+    "title": "Safety evaluation of pUDKH preparation for gene therapy",
+    "publication_year": 2006,
+    "countries_collaborating": [
+      "BE",
+      "BR",
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "BR": [
+        "Ministry of Culture"
+      ],
+      "BE": [
+        "AZ Sint-Lucas"
+      ],
+      "US": [
+        "Technology Solutions Experts (United States)",
+        "Copiah-Lincoln Community College"
+      ],
+      "CN": [
+        "Beibu Gulf University"
+      ]
+    },
+    "authors_by_country": {
+      "BR": [
+        "Yuan Li (Ministry of Culture)"
+      ],
+      "BE": [
+        "Yuan Li (AZ Sint-Lucas)"
+      ],
+      "US": [
+        "Qing Zhang (Copiah-Lincoln Community College)",
+        "Wu Chu (Technology Solutions Experts (United States))"
+      ],
+      "CN": [
+        "Ha Xiao (Beibu Gulf University)"
+      ]
+    },
+    "technology_categories": [
+      "biotechnology"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2006,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 518289,
+      "extraction_command": "sed -n '518289p' part_000.gz | jq '.title'",
+      "paper_hash": "1a9741a54cc4b425"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4390786919",
+    "doi": null,
+    "title": "Case study: reducing the harmful impacts of plum pox virus through the use of biotechnology",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "BG",
+      "CN",
+      "FR",
+      "RU",
+      "UA"
+    ],
+    "institutions": {
+      "UA": [
+        "National Academy of Sciences of Ukraine"
+      ],
+      "BG": [
+        "Agrobioinstitute"
+      ],
+      "FR": [
+        "Laboratoire Génome et Développement des Plantes"
+      ],
+      "RU": [
+        "Russian Academy of Sciences"
+      ],
+      "CN": [
+        "Fruit Research Institute"
+      ]
+    },
+    "authors_by_country": {
+      "UA": [
+        "Ya. B. Blume (National Academy of Sciences of Ukraine)"
+      ],
+      "BG": [
+        "I. Kamenova (Agrobioinstitute)"
+      ],
+      "FR": [
+        "Michel Ravelonandro (Laboratoire Génome et Développement des Plantes)"
+      ],
+      "RU": [
+        "Dmitry Dorokhov (Russian Academy of Sciences)"
+      ],
+      "CN": [
+        "S. Paunović (Fruit Research Institute)"
+      ]
+    },
+    "technology_categories": [
+      "biotechnology"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_009.gz",
+      "line_number": 52066,
+      "extraction_command": "sed -n '52066p' part_009.gz | jq '.title'",
+      "paper_hash": "8f365feca7e2645e"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2469021937",
+    "doi": "https://doi.org/10.3760/cma.j.issn.0253-3766.2012.04.002",
+    "title": "[Therapeutic effect of ovarian intra-arterial infusion of GE7-delivery system-mediated HSVl-tk/ganciclovir gene therapy in a rat model of malignant ovarian tumor].",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Breast Cancer Care"
+      ],
+      "CN": [
+        "Obstetrics and Gynecology Hospital of Fudan University"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Zhi Min Shao (Breast Cancer Care)"
+      ],
+      "CN": [
+        "Wei Jiang (Obstetrics and Gynecology Hospital of Fudan University)"
+      ]
+    },
+    "technology_categories": [
+      "biotechnology",
+      "nuclear_technology"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_004.gz",
+      "line_number": 508045,
+      "extraction_command": "sed -n '508045p' part_004.gz | jq '.title'",
+      "paper_hash": "6a3f4490b3008317"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: nuclear_technology"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2417151941",
+    "doi": null,
+    "title": "[The microencapsulated genetic engineering cells: a new platform on treatment of cancer instead of genetic engineering drugs].",
+    "publication_year": 2003,
+    "countries_collaborating": [
+      "CN",
+      "IN"
+    ],
+    "institutions": {
+      "IN": [
+        "Cancer Institute (WIA)"
+      ],
+      "CN": [
+        "Zhejiang University"
+      ]
+    },
+    "authors_by_country": {
+      "IN": [
+        "Yue-long Pan (Cancer Institute (WIA))"
+      ],
+      "CN": [
+        "Yue-long Pan (Zhejiang University)"
+      ]
+    },
+    "technology_categories": [
+      "biotechnology"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2003,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_004.gz",
+      "line_number": 244947,
+      "extraction_command": "sed -n '244947p' part_004.gz | jq '.title'",
+      "paper_hash": "350c3f5975de0b31"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2768694157",
+    "doi": "https://doi.org/10.1161/res.119.suppl_1.233",
+    "title": "Abstract 233: DJ-1 Gene Therapy Opposes the Development of Ischemic Heart Failure",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "JP",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Emory University"
+      ],
+      "JP": [
+        "Shimizu (Japan)"
+      ],
+      "CN": [
+        "China Shenhua Energy (China)"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Yuuki Shimizu (Emory University)",
+        "John W. Calvert (Emory University)",
+        "Di Sha (Emory University)",
+        "Lian Li (Emory University)",
+        "Lih‐Shen Chin (Emory University)"
+      ],
+      "JP": [
+        "Yuuki Shimizu (Shimizu (Japan))"
+      ],
+      "CN": [
+        "Lih‐Shen Chin (China Shenhua Energy (China))"
+      ]
+    },
+    "technology_categories": [
+      "biotechnology"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_007.gz",
+      "line_number": 201148,
+      "extraction_command": "sed -n '201148p' part_007.gz | jq '.title'",
+      "paper_hash": "0520cc7d4d7cd3f9"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2401990489",
+    "doi": null,
+    "title": "[Correlation of bone marrow stromal cells to leukemia and its research advancement in gene therapy for leukemia].",
+    "publication_year": 2005,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Palmetto Hematology Oncology"
+      ],
+      "CN": [
+        "Sun Yat-sen University",
+        "Sun Yat-sen University Cancer Center"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Yue Lü (Palmetto Hematology Oncology)"
+      ],
+      "CN": [
+        "Xiao Qing Li (Sun Yat-sen University)",
+        "Xiao Qing Li (Sun Yat-sen University Cancer Center)"
+      ]
+    },
+    "technology_categories": [
+      "biotechnology"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2005,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_006.gz",
+      "line_number": 422677,
+      "extraction_command": "sed -n '422677p' part_006.gz | jq '.title'",
+      "paper_hash": "ad552f4d0373556f"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2393381559",
+    "doi": null,
+    "title": "Immunity , Safety and Increases of Antibody Valences in Immunization pigs of Wild Using \"O\"Type FMDV Genetic Engineering Vaccine",
+    "publication_year": 2000,
+    "countries_collaborating": [
+      "CN",
+      "IN"
+    ],
+    "institutions": {
+      "IN": [
+        "Animal Husbandry & Veterinary"
+      ],
+      "CN": [
+        "Shanghai Academy of Agricultural Sciences",
+        "Animal Science Research Institute"
+      ]
+    },
+    "authors_by_country": {
+      "IN": [
+        "Yongqiang He (Animal Husbandry & Veterinary)"
+      ],
+      "CN": [
+        "Yongqiang He (Shanghai Academy of Agricultural Sciences)",
+        "Yongqiang He (Animal Science Research Institute)"
+      ]
+    },
+    "technology_categories": [
+      "biotechnology"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2000,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 145260,
+      "extraction_command": "sed -n '145260p' part_001.gz | jq '.title'",
+      "paper_hash": "7003d2e7fd4017e4"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2030813283",
+    "doi": "https://doi.org/10.1016/j.copbio.2011.08.003",
+    "title": "Chemical biotechnology in progress",
+    "publication_year": 2011,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Biotechnology Institute",
+        "University of Minnesota"
+      ],
+      "CN": [
+        "Tsinghua University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Romas J. Kazlauskas (University of Minnesota)",
+        "Romas J. Kazlauskas (Biotechnology Institute)"
+      ],
+      "CN": [
+        "Guo‐Qiang Chen (Tsinghua University)"
+      ]
+    },
+    "technology_categories": [
+      "biotechnology"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2011,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 5269,
+      "extraction_command": "sed -n '5269p' part_000.gz | jq '.title'",
+      "paper_hash": "669ff4555293cfa9"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1037221496",
+    "doi": null,
+    "title": "Gene Therapy and Transfection Efficiency Following Subretinal AAV Vector Delivery Is Not Affected by a Previous Intravitreal AAV Vector Administration",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Jackson Laboratory",
+        "University of Florida"
+      ],
+      "CN": [
+        "Wenzhou Medical University",
+        "Affiliated Eye Hospital of Wenzhou Medical College"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Jijing Pang (University of Florida)",
+        "William W. Hauswirth (University of Florida)",
+        "Bo Chang (Jackson Laboratory)"
+      ],
+      "CN": [
+        "Xi Zhou (Affiliated Eye Hospital of Wenzhou Medical College)",
+        "Jia Qu (Affiliated Eye Hospital of Wenzhou Medical College)",
+        "Fuqu Lu (Affiliated Eye Hospital of Wenzhou Medical College)",
+        "W. Li (Wenzhou Medical University)",
+        "X. Li (Wenzhou Medical University)",
+        "Fansheng Kong (Affiliated Eye Hospital of Wenzhou Medical College)",
+        "W. Li (Affiliated Eye Hospital of Wenzhou Medical College)",
+        "X. Liu (Wenzhou Medical University)",
+        "Fansheng Kong (Wenzhou Medical University)",
+        "Jia Qu (Wenzhou Medical University)",
+        "Xi Zhou (Wenzhou Medical University)",
+        "X. Li (Affiliated Eye Hospital of Wenzhou Medical College)",
+        "X. Liu (Affiliated Eye Hospital of Wenzhou Medical College)",
+        "Fuqu Lu (Wenzhou Medical University)"
+      ]
+    },
+    "technology_categories": [
+      "biotechnology"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 37961,
+      "extraction_command": "sed -n '37961p' part_000.gz | jq '.title'",
+      "paper_hash": "97eba599d4ff5bbb"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1163842805",
+    "doi": null,
+    "title": "C3 Transferase Disrupts CLAN Formation in DEX Treated HTM Cells, Relevant to Glaucoma Gene Therapy",
+    "publication_year": 2006,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University of Wisconsin–Madison"
+      ],
+      "CN": [
+        "Beijing Tongren Hospital"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "P.L. Kaufman (University of Wisconsin–Madison)",
+        "J. Park (University of Wisconsin–Madison)",
+        "X. Liu (University of Wisconsin–Madison)",
+        "Mark S. Filla (University of Wisconsin–Madison)"
+      ],
+      "CN": [
+        "N. Wang (Beijing Tongren Hospital)",
+        "X. Liu (Beijing Tongren Hospital)",
+        "Limin Guo (Beijing Tongren Hospital)"
+      ]
+    },
+    "technology_categories": [
+      "biotechnology"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2006,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 44562,
+      "extraction_command": "sed -n '44562p' part_000.gz | jq '.title'",
+      "paper_hash": "00db82415f9aea72"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2565172612",
+    "doi": "https://doi.org/10.1016/s1525-0016(16)34053-9",
+    "title": "444. One-Time Gene Therapy to Prevent Peanut-Induced Anaphylaxis",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Yale University",
+        "Cornell University"
+      ],
+      "CN": [
+        "Sichuan University",
+        "West China Hospital of Sichuan University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Odelya E. Pagovich (Cornell University)",
+        "Clarisse Jose (Cornell University)",
+        "Marı́a J. Chiuchiolo (Cornell University)",
+        "Stephen M. Kaminsky (Cornell University)",
+        "Ronald G. Crystal (Cornell University)",
+        "Bo Wang (Cornell University)",
+        "Christina Price (Yale University)"
+      ],
+      "CN": [
+        "Bo Wang (West China Hospital of Sichuan University)",
+        "Bo Wang (Sichuan University)"
+      ]
+    },
+    "technology_categories": [
+      "biotechnology"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 13166,
+      "extraction_command": "sed -n '13166p' part_001.gz | jq '.title'",
+      "paper_hash": "0423583e96bde0c4"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2040616932",
+    "doi": "https://doi.org/10.1007/s10646-009-0448-5",
+    "title": "China–U.S. workshop on biotechnology of bioenergy plants",
+    "publication_year": 2009,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University of Tennessee at Knoxville",
+        "Bioenergy Life Science (United States)",
+        "Purdue University West Lafayette"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences",
+        "Institute of Soil and Water Conservation",
+        "Institute of Botany"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "C. Neal Stewart (University of Tennessee at Knoxville)",
+        "Gary S. Sayler (University of Tennessee at Knoxville)",
+        "Richard Meilan (Purdue University West Lafayette)",
+        "Randall W. Gentry (University of Tennessee at Knoxville)",
+        "Gerald A. Tuskan (Bioenergy Life Science (United States))",
+        "Jie Zhuang (University of Tennessee at Knoxville)"
+      ],
+      "CN": [
+        "Yongqing Ma (Institute of Soil and Water Conservation)",
+        "Gongshe Liu (Institute of Botany)",
+        "Gongshe Liu (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "biotechnology"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2009,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 9021,
+      "extraction_command": "sed -n '9021p' part_000.gz | jq '.title'",
+      "paper_hash": "0bb0970c3186d338"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1992934883",
+    "doi": "https://doi.org/10.1097/00002371-199909000-00026",
+    "title": "CISPLATIN ENHANCE THE ANTITUMOR EFFECT OF HSVTK/GC GENE THERAPY FOR HUMAN HEPATOCELLUALR CARCINONMA",
+    "publication_year": 1999,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Roswell Park Comprehensive Cancer Center"
+      ],
+      "CN": [
+        "Shanghai Medical College of Fudan University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Zhongcheng Zheng (Roswell Park Comprehensive Cancer Center)",
+        "Zhao‐You Tang (Roswell Park Comprehensive Cancer Center)",
+        "Xuesheng Feng (Roswell Park Comprehensive Cancer Center)",
+        "Kai Ke (Roswell Park Comprehensive Cancer Center)",
+        "Xinyuan Liu (Roswell Park Comprehensive Cancer Center)"
+      ],
+      "CN": [
+        "Zhongcheng Zheng (Shanghai Medical College of Fudan University)",
+        "Zhao‐You Tang (Shanghai Medical College of Fudan University)",
+        "Xuesheng Feng (Shanghai Medical College of Fudan University)",
+        "Xinyuan Liu (Shanghai Medical College of Fudan University)",
+        "Kai Ke (Shanghai Medical College of Fudan University)"
+      ]
+    },
+    "technology_categories": [
+      "biotechnology"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1999,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 67238,
+      "extraction_command": "sed -n '67238p' part_000.gz | jq '.title'",
+      "paper_hash": "89670d88c9efa02b"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1132818141",
+    "doi": null,
+    "title": "Long Term Rescue Following Gene Therapy With Capsid Mutant AAV8 in the rd10 Mouse, a Model of Recessive Retinitis Pigmentosa",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Jackson Laboratory",
+        "SUNY Upstate Medical University",
+        "University of Florida"
+      ],
+      "CN": [
+        "Chongqing Medical University",
+        "Wenzhou Medical University",
+        "Affiliated Eye Hospital of Wenzhou Medical College",
+        "The Affiliated Yongchuan Hospital of Chongqing Medical University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Xufeng Dai (University of Florida)",
+        "Astra Dinculescu (University of Florida)",
+        "Yumiko Umino (SUNY Upstate Medical University)",
+        "Bo Chang (Jackson Laboratory)",
+        "Sanford L. Boye (University of Florida)",
+        "D. Erik Everhart (SUNY Upstate Medical University)",
+        "William W. Hauswirth (University of Florida)",
+        "Jijing Pang (University of Florida)",
+        "Robert B. Barlow (SUNY Upstate Medical University)"
+      ],
+      "CN": [
+        "Bo Lei (The Affiliated Yongchuan Hospital of Chongqing Medical University)",
+        "Xufeng Dai (Wenzhou Medical University)",
+        "Bo Lei (Chongqing Medical University)",
+        "Xufeng Dai (Affiliated Eye Hospital of Wenzhou Medical College)"
+      ]
+    },
+    "technology_categories": [
+      "biotechnology"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 7184,
+      "extraction_command": "sed -n '7184p' part_000.gz | jq '.title'",
+      "paper_hash": "038c3f45156ee343"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1421706174",
+    "doi": null,
+    "title": "Gene Therapy Preserves Inner Retinal Neurons and Their Connectivity in rd10 Mice, a Model of Recessive Retinitis Pigmentosa With PDEβ Mutations",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "CN",
+      "IT",
+      "US"
+    ],
+    "institutions": {
+      "IT": [
+        "Neuroscience Institute"
+      ],
+      "US": [
+        "Jackson Laboratory",
+        "University of Florida"
+      ],
+      "CN": [
+        "Chongqing Medical University",
+        "Wenzhou Medical University",
+        "Affiliated Eye Hospital of Wenzhou Medical College",
+        "The Affiliated Yongchuan Hospital of Chongqing Medical University"
+      ]
+    },
+    "authors_by_country": {
+      "IT": [
+        "Enrica Strettoi (Neuroscience Institute)",
+        "Ilaria Barone (Neuroscience Institute)"
+      ],
+      "US": [
+        "Lihe Liu (University of Florida)",
+        "Bo Chang (Jackson Laboratory)",
+        "V. Chiodo (University of Florida)",
+        "Sanford L. Boye (University of Florida)",
+        "William W. Hauswirth (University of Florida)",
+        "Jijing Pang (University of Florida)",
+        "Xufeng Dai (University of Florida)"
+      ],
+      "CN": [
+        "Bo Lei (The Affiliated Yongchuan Hospital of Chongqing Medical University)",
+        "Xufeng Dai (Wenzhou Medical University)",
+        "Bo Lei (Chongqing Medical University)",
+        "Xufeng Dai (Affiliated Eye Hospital of Wenzhou Medical College)"
+      ]
+    },
+    "technology_categories": [
+      "biotechnology"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 7756,
+      "extraction_command": "sed -n '7756p' part_000.gz | jq '.title'",
+      "paper_hash": "12106278b1e11695"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2209389732",
+    "doi": "https://doi.org/10.1016/j.envint.2015.04.004",
+    "title": "Naming and functions of ACR2, arsenate reductase, and ACR3 arsenite efflux transporter in plants (correspondence on: Kumar, S., Dubey, R.S., Tripathi, R.D., Chakrabarty, D., Trivedi, P.K., 2015. Omics and biotechnology of arsenic stress and detoxification in plants: current updates and prospective. Environ Int. 74:221–230.)",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University of Florida"
+      ],
+      "CN": [
+        "State Key Laboratory of Pollution Control and Resource Reuse",
+        "Nanjing University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Bala Rathinasabapathi (University of Florida)",
+        "Q. Lena (University of Florida)"
+      ],
+      "CN": [
+        "Yanshan Chen (State Key Laboratory of Pollution Control and Resource Reuse)",
+        "Q. Lena (Nanjing University)",
+        "Yong-He Han (State Key Laboratory of Pollution Control and Resource Reuse)",
+        "Yanshan Chen (Nanjing University)",
+        "Yong-He Han (Nanjing University)",
+        "Q. Lena (State Key Laboratory of Pollution Control and Resource Reuse)"
+      ]
+    },
+    "technology_categories": [
+      "biotechnology"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 31822,
+      "extraction_command": "sed -n '31822p' part_000.gz | jq '.title'",
+      "paper_hash": "6e8e5fe566b39da3"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2109450329",
+    "doi": "https://doi.org/10.2174/1574888x11308030004",
+    "title": "A Review of Techniques for Gene Therapy in Bone Healing",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Bristol Royal Infirmary"
+      ],
+      "CN": [
+        "Bentham Science Publishers (China)"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Payam Tarassoli (Bristol Royal Infirmary)"
+      ],
+      "CN": [
+        "A. F. W. Hughes (Bentham Science Publishers (China))"
+      ]
+    },
+    "technology_categories": [
+      "biotechnology"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_009.gz",
+      "line_number": 1357,
+      "extraction_command": "sed -n '1357p' part_009.gz | jq '.title'",
+      "paper_hash": "6ec0260d095e6bd5"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1555051939",
+    "doi": "https://doi.org/10.1002/9781118299753.ch5",
+    "title": "Colouring up Plant Biotechnology",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "ES",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Sainsbury Laboratory",
+        "Norwich Research Park",
+        "John Innes Centre"
+      ],
+      "ES": [
+        "Universitat Politècnica de València"
+      ],
+      "CN": [
+        "Huazhong Agricultural University"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Yang Zhang (Norwich Research Park)",
+        "Laurence Tomlinson (Sainsbury Laboratory)",
+        "Jonathan D. G. Jones (Sainsbury Laboratory)",
+        "Cathie Martin (John Innes Centre)",
+        "Cathie Martin (Norwich Research Park)",
+        "Jonathan D. G. Jones (Norwich Research Park)",
+        "Kalyani Kallam (Norwich Research Park)",
+        "Eugenio Butelli (Norwich Research Park)",
+        "Laurence Tomlinson (Norwich Research Park)",
+        "Jie Luo (Norwich Research Park)",
+        "Kalyani Kallam (John Innes Centre)",
+        "Jie Luo (John Innes Centre)",
+        "Yang Zhang (John Innes Centre)",
+        "Eugenio Butelli (John Innes Centre)"
+      ],
+      "ES": [
+        "Antonio Granell (Universitat Politècnica de València)",
+        "Diego Orzáez (Universitat Politècnica de València)"
+      ],
+      "CN": [
+        "Jie Luo (Huazhong Agricultural University)"
+      ]
+    },
+    "technology_categories": [
+      "biotechnology"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_014.gz",
+      "line_number": 1110,
+      "extraction_command": "sed -n '1110p' part_014.gz | jq '.title'",
+      "paper_hash": "635c3bba2d9f7887"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  }
+]

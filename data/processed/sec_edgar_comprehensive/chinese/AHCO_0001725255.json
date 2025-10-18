@@ -1,0 +1,47 @@
+{
+  "cik": "0001725255",
+  "ticker": "AHCO",
+  "name": "AdaptHealth Corp.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "8082",
+  "sicDescription": "Services-Home Health Care Services",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "823677704",
+  "phone": "610-424-4515",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "555 EAST NORTH LANE",
+      "street2": "SUITE 5075",
+      "city": "CONSHOHOCKEN",
+      "stateOrCountry": "PA",
+      "zipCode": "19428",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "555 EAST NORTH LANE",
+      "street2": "SUITE 5075",
+      "city": "CONSHOHOCKEN",
+      "stateOrCountry": "PA",
+      "zipCode": "19428",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-05"
+  },
+  "filings_count": 668
+}

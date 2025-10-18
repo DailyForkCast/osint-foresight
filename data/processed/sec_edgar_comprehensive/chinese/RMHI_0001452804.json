@@ -1,0 +1,47 @@
+{
+  "cik": "0001452804",
+  "ticker": "RMHI",
+  "name": "Retrieve Medical Holdings, Inc.",
+  "detection_reasons": [
+    "vie_structure"
+  ],
+  "sic": "2834",
+  "sicDescription": "Pharmaceutical Preparations",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "NV",
+  "ein": "000000000",
+  "phone": "908-800-2880",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "376 MAIN STREET",
+      "street2": "SUITE 100",
+      "city": "BEDMINSTER",
+      "stateOrCountry": "NJ",
+      "zipCode": "07921",
+      "stateOrCountryDescription": "NJ",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "376 MAIN STREET",
+      "street2": "SUITE 100",
+      "city": "BEDMINSTER",
+      "stateOrCountry": "NJ",
+      "zipCode": "07921",
+      "stateOrCountryDescription": "NJ",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2023-02-09"
+  },
+  "filings_count": 120
+}

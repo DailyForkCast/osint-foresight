@@ -1,9 +1,0 @@
-gap_id	domain	why_it_matters	how_to_close	effort_1to3	notes
-G1	Accreditation scopes (EMC/GNSS)	Bench capability confirmation	Scrape/capture 10–20 scopes; hash PDFs	2	
-G2	CORDIS AT co-projects	Edges & partner heat	Run CORDIS pull 2015–2025; normalize	1	
-G3	Ownership/control (LEI/OpenCorporates)	Supplier vectors	Pull/normalize LEI + OC; merge into CER	2	
-G4	VSC/EuroHPC allocation data	Actual compute usage patterns	Request allocation reports; FOI if needed	3	
-G5	Patent landscape	Tech transfer indicators	EPO/WIPO searches for AT entities	2	
-G6	Conference attendee flows	Network building patterns	Analyze registration data when available	3	
-G7	Visiting researcher programs	Knowledge transfer mechanisms	University international office data	2	
-G8	Industry partnerships	Commercial capability links	Chamber of commerce data; company reports	2	

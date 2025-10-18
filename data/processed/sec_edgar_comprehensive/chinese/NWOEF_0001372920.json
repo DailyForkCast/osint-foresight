@@ -1,0 +1,53 @@
+{
+  "cik": "0001372920",
+  "ticker": "NWOEF",
+  "name": "New Oriental Education & Technology Group Inc.",
+  "detection_reasons": [
+    "location:china",
+    "location:beijing",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:ky",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "8200",
+  "sicDescription": "Services-Educational Services",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "(86-10) 6260-5566",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "NO. 6 HAI DIAN ZHONG STREET, 9TH FLOOR",
+      "street2": null,
+      "city": "BEIJING",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "NO. 6 HAI DIAN ZHONG STREET, 9TH FLOOR",
+      "street2": null,
+      "city": "BEIJING",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-25"
+  },
+  "filings_count": 401
+}

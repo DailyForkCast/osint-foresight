@@ -1,0 +1,44 @@
+{
+  "cik": "0001644378",
+  "ticker": "RMR",
+  "name": "RMR GROUP INC.",
+  "detection_reasons": [
+    "offshore:hk"
+  ],
+  "sic": "8742",
+  "sicDescription": "Services-Management Consulting Services",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "MD",
+  "ein": "474122583",
+  "phone": "(617) 796-8320",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "TWO NEWTON PL., 255 WASH. ST., STE. 300",
+      "street2": null,
+      "city": "NEWTON",
+      "stateOrCountry": "MA",
+      "zipCode": "02458",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "TWO NEWTON PL., 255 WASH. ST., STE. 300",
+      "street2": null,
+      "city": "NEWTON",
+      "stateOrCountry": "MA",
+      "zipCode": "02458",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 471
+}

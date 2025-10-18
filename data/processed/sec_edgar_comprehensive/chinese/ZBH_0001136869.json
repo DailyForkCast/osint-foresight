@@ -1,0 +1,47 @@
+{
+  "cik": "0001136869",
+  "ticker": "ZBH",
+  "name": "ZIMMER BIOMET HOLDINGS, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3842",
+  "sicDescription": "Orthopedic, Prosthetic & Surgical Appliances & Supplies",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "134151777",
+  "phone": "5742676131",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "345 EAST MAIN STREET",
+      "street2": null,
+      "city": "WARSAW",
+      "stateOrCountry": "IN",
+      "zipCode": "46580",
+      "stateOrCountryDescription": "IN",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "345 EAST MAIN STREET",
+      "street2": null,
+      "city": "WARSAW",
+      "stateOrCountry": "IN",
+      "zipCode": "46580",
+      "stateOrCountryDescription": "IN",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-04"
+  },
+  "filings_count": 1000
+}

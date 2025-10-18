@@ -1,0 +1,608 @@
+{
+  "original_path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\by_country\\AE_china\\collaborations_20250921_124455.json",
+  "profile": {
+    "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\by_country\\AE_china\\collaborations_20250921_124455.json",
+    "size": 343753,
+    "extension": ".json",
+    "encoding": "utf-8",
+    "line_count": 22,
+    "field_count": 13,
+    "parse_status": "success",
+    "schema": {
+      "paper_id": "string",
+      "doi": "string",
+      "title": "string",
+      "publication_year": "number",
+      "countries_collaborating": "array",
+      "institutions": "object",
+      "authors_by_country": "object",
+      "technology_categories": "array",
+      "collaboration_patterns": "array",
+      "temporal_context": "object",
+      "verification": "object",
+      "risk_assessment": "object",
+      "partner_country": "string"
+    },
+    "sample_records": [
+      {
+        "paper_id": "https://openalex.org/W2657135528",
+        "doi": "https://doi.org/10.17706/ijapm.2015.5.2.115-125",
+        "title": "Existence of Extremal Solutions of Differential Equations with Delay in Banach Spaces",
+        "publication_year": 2015,
+        "countries_collaborating": [
+          "AE",
+          "CN"
+        ],
+        "institutions": {
+          "AE": [
+            "Abu Dhabi University"
+          ],
+          "CN": [
+            "Shandong Normal University"
+          ]
+        },
+        "authors_by_country": {
+          "AE": [
+            "Haydar Ak\u00e7a (Abu Dhabi University)"
+          ],
+          "CN": [
+            "Jinjun Fan (Shandong Normal University)",
+            "Xiaodi Li (Shandong Normal University)"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "bri_launch_2013_2016",
+          "year": 2015,
+          "pre_bri_baseline": false,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_005.gz",
+          "line_number": 273399,
+          "extraction_command": "sed -n '273399p' part_005.gz | jq '.title'",
+          "paper_hash": "ace223b4e244cf2f"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "AE"
+      },
+      {
+        "paper_id": "https://openalex.org/W4250036850",
+        "doi": "https://doi.org/10.1504/ijaudit.2017.086745",
+        "title": "Firm's financial risk vulnerability: evidence from Nigeria",
+        "publication_year": 2017,
+        "countries_collaborating": [
+          "AE",
+          "CN",
+          "GB",
+          "NG"
+        ],
+        "institutions": {
+          "GB": [
+            "University of Surrey"
+          ],
+          "NG": [
+            "Federal University Otuoke"
+          ],
+          "AE": [
+            "American University in the Emirates",
+            "Ittihad University"
+          ],
+          "CN": [
+            "Institute of Finance and Banking"
+          ]
+        },
+        "authors_by_country": {
+          "GB": [
+            "Etumudon Ndidi Asien (University of Surrey)"
+          ],
+          "NG": [
+            "Etumudon Ndidi Asien (Federal University Otuoke)"
+          ],
+          "AE": [
+            "Etumudon Ndidi Asien (Ittihad University)",
+            "Etumudon Ndidi Asien (American University in the Emirates)"
+          ],
+          "CN": [
+            "Etumudon Ndidi Asien (Institute of Finance and Banking)"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "expansion_2017_2019",
+          "year": 2017,
+          "pre_bri_baseline": false,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_011.gz",
+          "line_number": 46002,
+          "extraction_command": "sed -n '46002p' part_011.gz | jq '.title'",
+          "paper_hash": "666c11521a04e15e"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "AE"
+      },
+      {
+        "paper_id": "https://openalex.org/W2024056232",
+        "doi": "https://doi.org/10.1587/transcom.e94.b.285",
+        "title": "MCFO Compensation and Performance Analysis for Localized DFT-S-OFDM Uplink Cooperative System",
+        "publication_year": 2011,
+        "countries_collaborating": [
+          "AE",
+          "CN"
+        ],
+        "institutions": {
+          "AE": [
+            "Technology Innovation Institute"
+          ],
+          "CN": [
+            "Beijing University of Posts and Telecommunications"
+          ]
+        },
+        "authors_by_country": {
+          "AE": [
+            "Yi Liu (Technology Innovation Institute)",
+            "Jianhua Zhang (Technology Innovation Institute)",
+            "Yanyan Zhang (Technology Innovation Institute)",
+            "Wei Xu (Technology Innovation Institute)",
+            "Zhiyan Zhang (Technology Innovation Institute)"
+          ],
+          "CN": [
+            "Wei Xu (Beijing University of Posts and Telecommunications)",
+            "Yanyan Zhang (Beijing University of Posts and Telecommunications)",
+            "Zhiyan Zhang (Beijing University of Posts and Telecommunications)",
+            "Yi Liu (Beijing University of Posts and Telecommunications)",
+            "Jianhua Zhang (Beijing University of Posts and Telecommunications)"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "pre_bri_baseline_2000_2012",
+          "year": 2011,
+          "pre_bri_baseline": true,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_002.gz",
+          "line_number": 33195,
+          "extraction_command": "sed -n '33195p' part_002.gz | jq '.title'",
+          "paper_hash": "e6b23bd5812c3abb"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "AE"
+      },
+      {
+        "paper_id": "https://openalex.org/W2261810084",
+        "doi": "https://doi.org/10.1007/s13226-015-0164-1",
+        "title": "The Levitin-Polyak well-posedness by perturbations for systems of general variational inclusion and disclusion problems",
+        "publication_year": 2015,
+        "countries_collaborating": [
+          "AE",
+          "CN",
+          "KR",
+          "TW"
+        ],
+        "institutions": {
+          "KR": [
+            "Chinju National University of Education",
+            "Gyeongsang National University"
+          ],
+          "TW": [
+            "Kaohsiung Medical University"
+          ],
+          "AE": [
+            "Birla Institute of Technology and Science, Pilani - Dubai Campus",
+            "Synergy University Dubai"
+          ],
+          "CN": [
+            "Southwest University",
+            "Wuhan University"
+          ]
+        },
+        "authors_by_country": {
+          "KR": [
+            "Y. J. Cho (Chinju National University of Education)",
+            "Y. J. Cho (Gyeongsang National University)"
+          ],
+          "TW": [
+            "Ching\u2010Feng Wen (Kaohsiung Medical University)"
+          ],
+          "AE": [
+            "Suhel Ahmad Khan (Synergy University Dubai)",
+            "Suhel Ahmad Khan (Birla Institute of Technology and Science, Pilani - Dubai Campus)"
+          ],
+          "CN": [
+            "Zhenyu Wan (Wuhan University)",
+            "J. W. Chen (Southwest University)"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "bri_launch_2013_2016",
+          "year": 2015,
+          "pre_bri_baseline": false,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_003.gz",
+          "line_number": 330318,
+          "extraction_command": "sed -n '330318p' part_003.gz | jq '.title'",
+          "paper_hash": "6b1fa86585f594b9"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "AE"
+      },
+      {
+        "paper_id": "https://openalex.org/W2125055247",
+        "doi": "https://doi.org/10.3329/bjme.v1i1.12853",
+        "title": "Practice of Self Assessment by Undergraduate Dental Students In Academic Study",
+        "publication_year": 2012,
+        "countries_collaborating": [
+          "AE",
+          "CN",
+          "IN"
+        ],
+        "institutions": {
+          "IN": [
+            "Government ENT Hospital"
+          ],
+          "AE": [
+            "Sheikh Shakhbout Medical City"
+          ],
+          "CN": [
+            "Chongqing Electromechanical Holdings (China)"
+          ]
+        },
+        "authors_by_country": {
+          "IN": [
+            "Muhammad Salahuddin (Government ENT Hospital)"
+          ],
+          "AE": [
+            "Naseem Akhter (Sheikh Shakhbout Medical City)"
+          ],
+          "CN": [
+            "HK Talukder (Chongqing Electromechanical Holdings (China))",
+            "Md. Shofiqul Islam (Chongqing Electromechanical Holdings (China))"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "pre_bri_baseline_2000_2012",
+          "year": 2012,
+          "pre_bri_baseline": true,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_001.gz",
+          "line_number": 54797,
+          "extraction_command": "sed -n '54797p' part_001.gz | jq '.title'",
+          "paper_hash": "e937cadbb221a600"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "AE"
+      }
+    ],
+    "modified": "2025-09-21T12:46:14.203388"
+  },
+  "sample_data": [
+    {
+      "paper_id": "https://openalex.org/W2657135528",
+      "doi": "https://doi.org/10.17706/ijapm.2015.5.2.115-125",
+      "title": "Existence of Extremal Solutions of Differential Equations with Delay in Banach Spaces",
+      "publication_year": 2015,
+      "countries_collaborating": [
+        "AE",
+        "CN"
+      ],
+      "institutions": {
+        "AE": [
+          "Abu Dhabi University"
+        ],
+        "CN": [
+          "Shandong Normal University"
+        ]
+      },
+      "authors_by_country": {
+        "AE": [
+          "Haydar Ak\u00e7a (Abu Dhabi University)"
+        ],
+        "CN": [
+          "Jinjun Fan (Shandong Normal University)",
+          "Xiaodi Li (Shandong Normal University)"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "bri_launch_2013_2016",
+        "year": 2015,
+        "pre_bri_baseline": false,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_005.gz",
+        "line_number": 273399,
+        "extraction_command": "sed -n '273399p' part_005.gz | jq '.title'",
+        "paper_hash": "ace223b4e244cf2f"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "AE"
+    },
+    {
+      "paper_id": "https://openalex.org/W4250036850",
+      "doi": "https://doi.org/10.1504/ijaudit.2017.086745",
+      "title": "Firm's financial risk vulnerability: evidence from Nigeria",
+      "publication_year": 2017,
+      "countries_collaborating": [
+        "AE",
+        "CN",
+        "GB",
+        "NG"
+      ],
+      "institutions": {
+        "GB": [
+          "University of Surrey"
+        ],
+        "NG": [
+          "Federal University Otuoke"
+        ],
+        "AE": [
+          "American University in the Emirates",
+          "Ittihad University"
+        ],
+        "CN": [
+          "Institute of Finance and Banking"
+        ]
+      },
+      "authors_by_country": {
+        "GB": [
+          "Etumudon Ndidi Asien (University of Surrey)"
+        ],
+        "NG": [
+          "Etumudon Ndidi Asien (Federal University Otuoke)"
+        ],
+        "AE": [
+          "Etumudon Ndidi Asien (Ittihad University)",
+          "Etumudon Ndidi Asien (American University in the Emirates)"
+        ],
+        "CN": [
+          "Etumudon Ndidi Asien (Institute of Finance and Banking)"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "expansion_2017_2019",
+        "year": 2017,
+        "pre_bri_baseline": false,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_011.gz",
+        "line_number": 46002,
+        "extraction_command": "sed -n '46002p' part_011.gz | jq '.title'",
+        "paper_hash": "666c11521a04e15e"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "AE"
+    },
+    {
+      "paper_id": "https://openalex.org/W2024056232",
+      "doi": "https://doi.org/10.1587/transcom.e94.b.285",
+      "title": "MCFO Compensation and Performance Analysis for Localized DFT-S-OFDM Uplink Cooperative System",
+      "publication_year": 2011,
+      "countries_collaborating": [
+        "AE",
+        "CN"
+      ],
+      "institutions": {
+        "AE": [
+          "Technology Innovation Institute"
+        ],
+        "CN": [
+          "Beijing University of Posts and Telecommunications"
+        ]
+      },
+      "authors_by_country": {
+        "AE": [
+          "Yi Liu (Technology Innovation Institute)",
+          "Jianhua Zhang (Technology Innovation Institute)",
+          "Yanyan Zhang (Technology Innovation Institute)",
+          "Wei Xu (Technology Innovation Institute)",
+          "Zhiyan Zhang (Technology Innovation Institute)"
+        ],
+        "CN": [
+          "Wei Xu (Beijing University of Posts and Telecommunications)",
+          "Yanyan Zhang (Beijing University of Posts and Telecommunications)",
+          "Zhiyan Zhang (Beijing University of Posts and Telecommunications)",
+          "Yi Liu (Beijing University of Posts and Telecommunications)",
+          "Jianhua Zhang (Beijing University of Posts and Telecommunications)"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "pre_bri_baseline_2000_2012",
+        "year": 2011,
+        "pre_bri_baseline": true,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_002.gz",
+        "line_number": 33195,
+        "extraction_command": "sed -n '33195p' part_002.gz | jq '.title'",
+        "paper_hash": "e6b23bd5812c3abb"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "AE"
+    },
+    {
+      "paper_id": "https://openalex.org/W2261810084",
+      "doi": "https://doi.org/10.1007/s13226-015-0164-1",
+      "title": "The Levitin-Polyak well-posedness by perturbations for systems of general variational inclusion and disclusion problems",
+      "publication_year": 2015,
+      "countries_collaborating": [
+        "AE",
+        "CN",
+        "KR",
+        "TW"
+      ],
+      "institutions": {
+        "KR": [
+          "Chinju National University of Education",
+          "Gyeongsang National University"
+        ],
+        "TW": [
+          "Kaohsiung Medical University"
+        ],
+        "AE": [
+          "Birla Institute of Technology and Science, Pilani - Dubai Campus",
+          "Synergy University Dubai"
+        ],
+        "CN": [
+          "Southwest University",
+          "Wuhan University"
+        ]
+      },
+      "authors_by_country": {
+        "KR": [
+          "Y. J. Cho (Chinju National University of Education)",
+          "Y. J. Cho (Gyeongsang National University)"
+        ],
+        "TW": [
+          "Ching\u2010Feng Wen (Kaohsiung Medical University)"
+        ],
+        "AE": [
+          "Suhel Ahmad Khan (Synergy University Dubai)",
+          "Suhel Ahmad Khan (Birla Institute of Technology and Science, Pilani - Dubai Campus)"
+        ],
+        "CN": [
+          "Zhenyu Wan (Wuhan University)",
+          "J. W. Chen (Southwest University)"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "bri_launch_2013_2016",
+        "year": 2015,
+        "pre_bri_baseline": false,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_003.gz",
+        "line_number": 330318,
+        "extraction_command": "sed -n '330318p' part_003.gz | jq '.title'",
+        "paper_hash": "6b1fa86585f594b9"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "AE"
+    },
+    {
+      "paper_id": "https://openalex.org/W2125055247",
+      "doi": "https://doi.org/10.3329/bjme.v1i1.12853",
+      "title": "Practice of Self Assessment by Undergraduate Dental Students In Academic Study",
+      "publication_year": 2012,
+      "countries_collaborating": [
+        "AE",
+        "CN",
+        "IN"
+      ],
+      "institutions": {
+        "IN": [
+          "Government ENT Hospital"
+        ],
+        "AE": [
+          "Sheikh Shakhbout Medical City"
+        ],
+        "CN": [
+          "Chongqing Electromechanical Holdings (China)"
+        ]
+      },
+      "authors_by_country": {
+        "IN": [
+          "Muhammad Salahuddin (Government ENT Hospital)"
+        ],
+        "AE": [
+          "Naseem Akhter (Sheikh Shakhbout Medical City)"
+        ],
+        "CN": [
+          "HK Talukder (Chongqing Electromechanical Holdings (China))",
+          "Md. Shofiqul Islam (Chongqing Electromechanical Holdings (China))"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "pre_bri_baseline_2000_2012",
+        "year": 2012,
+        "pre_bri_baseline": true,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_001.gz",
+        "line_number": 54797,
+        "extraction_command": "sed -n '54797p' part_001.gz | jq '.title'",
+        "paper_hash": "e937cadbb221a600"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "AE"
+    }
+  ]
+}

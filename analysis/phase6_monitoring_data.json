@@ -1,0 +1,221 @@
+{
+  "metrics": {
+    "phase_completion": {
+      "Phase 0: Inventory manifest": {
+        "status": "COMPLETE",
+        "path": "C:\\Projects\\OSINT - Foresight\\inventory_manifest.json",
+        "size": 647023,
+        "modified": "2025-09-24T17:30:07.272964"
+      },
+      "Phase 0: Verification report": {
+        "status": "COMPLETE",
+        "path": "C:\\Projects\\OSINT - Foresight\\phase0_verification_report.md",
+        "size": 3548,
+        "modified": "2025-09-24T17:31:02.622221"
+      },
+      "Phase 1: Content profile": {
+        "status": "COMPLETE",
+        "path": "C:\\Projects\\OSINT - Foresight\\content_profile.json",
+        "size": 886455,
+        "modified": "2025-09-24T17:33:14.835017"
+      },
+      "Phase 1: Profile report": {
+        "status": "COMPLETE",
+        "path": "C:\\Projects\\OSINT - Foresight\\phase1_content_profile_report.md",
+        "size": 3256,
+        "modified": "2025-09-24T17:33:14.879914"
+      },
+      "Phase 2: Schema analysis": {
+        "status": "COMPLETE",
+        "path": "C:\\Projects\\OSINT - Foresight\\phase2_schema_analysis.json",
+        "size": 11124,
+        "modified": "2025-09-24T17:37:07.334809"
+      },
+      "Phase 2: Joinability matrix": {
+        "status": "COMPLETE",
+        "path": "C:\\Projects\\OSINT - Foresight\\joinability_matrix.csv",
+        "size": 197,
+        "modified": "2025-09-24T17:37:07.354376"
+      },
+      "Phase 2: Schema report": {
+        "status": "COMPLETE",
+        "path": "C:\\Projects\\OSINT - Foresight\\phase2_schema_report.md",
+        "size": 2362,
+        "modified": "2025-09-24T17:37:07.358378"
+      },
+      "Phase 3: Detection dictionary": {
+        "status": "COMPLETE",
+        "path": "C:\\Projects\\OSINT - Foresight\\china_detection_dictionary.json",
+        "size": 4580,
+        "modified": "2025-09-24T17:39:53.801442"
+      },
+      "Phase 3: Test results": {
+        "status": "COMPLETE",
+        "path": "C:\\Projects\\OSINT - Foresight\\china_signal_test_results.json",
+        "size": 4900,
+        "modified": "2025-09-24T17:39:53.809933"
+      },
+      "Phase 3: Calibration report": {
+        "status": "COMPLETE",
+        "path": "C:\\Projects\\OSINT - Foresight\\phase3_calibration_report.md",
+        "size": 2740,
+        "modified": "2025-09-24T17:39:53.824041"
+      },
+      "Phase 4: Integration results": {
+        "status": "COMPLETE",
+        "path": "C:\\Projects\\OSINT - Foresight\\phase4_integration_results.json",
+        "size": 6273,
+        "modified": "2025-09-24T17:41:04.554772"
+      },
+      "Phase 4: Timeline data": {
+        "status": "COMPLETE",
+        "path": "C:\\Projects\\OSINT - Foresight\\china_collaboration_timeline.csv",
+        "size": 469,
+        "modified": "2025-09-24T17:41:04.572306"
+      },
+      "Phase 4: Integration report": {
+        "status": "COMPLETE",
+        "path": "C:\\Projects\\OSINT - Foresight\\phase4_integration_report.md",
+        "size": 1987,
+        "modified": "2025-09-24T17:41:04.583396"
+      },
+      "Phase 5: Entity registry": {
+        "status": "COMPLETE",
+        "path": "C:\\Projects\\OSINT - Foresight\\entity_registry.json",
+        "size": 2,
+        "modified": "2025-09-24T17:42:19.773687"
+      },
+      "Phase 5: Resolution log": {
+        "status": "COMPLETE",
+        "path": "C:\\Projects\\OSINT - Foresight\\entity_resolution_log.json",
+        "size": 2,
+        "modified": "2025-09-24T17:42:19.774688"
+      },
+      "Phase 5: Entity summary": {
+        "status": "COMPLETE",
+        "path": "C:\\Projects\\OSINT - Foresight\\entity_summary.csv",
+        "size": 2,
+        "modified": "2025-09-24T17:42:19.778258"
+      },
+      "Phase 5: Resolution report": {
+        "status": "COMPLETE",
+        "path": "C:\\Projects\\OSINT - Foresight\\phase5_entity_resolution_report.md",
+        "size": 1272,
+        "modified": "2025-09-24T17:42:19.779289"
+      }
+    },
+    "data_integrity": {
+      "inventory": {
+        "total_files": 1132,
+        "total_size": 0,
+        "locations": 0
+      },
+      "sample_validation": {
+        "checked": 0,
+        "valid": 0,
+        "integrity_rate": 0
+      },
+      "schema_quality": {
+        "sources_mapped": 4,
+        "average_completeness": 73.89184432115286
+      }
+    },
+    "temporal_consistency": {
+      "start_year": 2015,
+      "end_year": 2025,
+      "years_covered": 11,
+      "gaps": []
+    },
+    "coverage_gaps": [
+      {
+        "type": "MISSING_SOURCE",
+        "source": "TED",
+        "impact": "MEDIUM"
+      },
+      {
+        "type": "MISSING_SOURCE",
+        "source": "OpenAlex",
+        "impact": "MEDIUM"
+      },
+      {
+        "type": "MISSING_SOURCE",
+        "source": "USPTO",
+        "impact": "MEDIUM"
+      },
+      {
+        "type": "MISSING_SOURCE",
+        "source": "SEC EDGAR",
+        "impact": "MEDIUM"
+      },
+      {
+        "type": "MISSING_SOURCE",
+        "source": "GLEIF",
+        "impact": "MEDIUM"
+      },
+      {
+        "type": "MISSING_SOURCE",
+        "source": "OpenSanctions",
+        "impact": "MEDIUM"
+      }
+    ],
+    "quality_gates": {
+      "data_availability": 0.0,
+      "processing_success": 100.0,
+      "integration_quality": 73.89184432115286,
+      "resolution_quality": 0.0,
+      "china_detection": 60.0
+    },
+    "monitoring_alerts": []
+  },
+  "results": {
+    "generated": "2025-09-24T17:44:11.150626",
+    "system_health": "DEGRADED",
+    "phases_completed": 0,
+    "total_quality_score": 46.77836886423057,
+    "recommendations": [
+      {
+        "priority": "HIGH",
+        "area": "Data Availability",
+        "recommendation": "Verify all data sources are accessible and re-run inventory scan",
+        "phase": "Phase 0"
+      },
+      {
+        "priority": "MEDIUM",
+        "area": "Source Coverage",
+        "recommendation": "Integrate TED data source",
+        "phase": "Phase 1-2"
+      },
+      {
+        "priority": "MEDIUM",
+        "area": "Source Coverage",
+        "recommendation": "Integrate OpenAlex data source",
+        "phase": "Phase 1-2"
+      },
+      {
+        "priority": "MEDIUM",
+        "area": "Source Coverage",
+        "recommendation": "Integrate USPTO data source",
+        "phase": "Phase 1-2"
+      },
+      {
+        "priority": "MEDIUM",
+        "area": "Source Coverage",
+        "recommendation": "Integrate SEC EDGAR data source",
+        "phase": "Phase 1-2"
+      },
+      {
+        "priority": "MEDIUM",
+        "area": "Source Coverage",
+        "recommendation": "Integrate GLEIF data source",
+        "phase": "Phase 1-2"
+      },
+      {
+        "priority": "MEDIUM",
+        "area": "Source Coverage",
+        "recommendation": "Integrate OpenSanctions data source",
+        "phase": "Phase 1-2"
+      }
+    ],
+    "artifact_completion_rate": 100.0
+  }
+}

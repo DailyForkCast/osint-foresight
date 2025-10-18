@@ -1,0 +1,240 @@
+{
+  "path": "F:\\OSINT_DATA\\Italy\\fusion_results_20250916_211536.json",
+  "size": 5834,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 1,
+  "field_count": 4,
+  "parse_status": "success",
+  "schema": {
+    "timestamp": "string",
+    "pipelines": "object",
+    "china_exposure_matrix": "object",
+    "execution_time": "number"
+  },
+  "sample_records": [
+    {
+      "timestamp": "2025-09-16T21:15:36.778808",
+      "pipelines": {
+        "conference_patent_procurement": {
+          "pipeline": "conference_patent_procurement",
+          "timestamp": "2025-09-16T21:15:36.783701",
+          "findings": [
+            {
+              "conference": "IEEE ICASSP 2023",
+              "entity": "Leonardo S.p.A",
+              "patents_filed": 0,
+              "china_exposure": 0,
+              "confidence": 0.76
+            },
+            {
+              "conference": "IEEE ICASSP 2023",
+              "entity": "Tsinghua University",
+              "patents_filed": 0,
+              "china_exposure": 0,
+              "confidence": 0.4
+            },
+            {
+              "conference": "IEEE ICASSP 2023",
+              "entity": "MIT",
+              "patents_filed": 0,
+              "china_exposure": 0,
+              "confidence": 0.4
+            }
+          ]
+        },
+        "github_dependencies": {
+          "pipeline": "github_dependencies",
+          "timestamp": "2025-09-16T21:15:36.784700",
+          "vulnerabilities": [
+            {
+              "org": "leonardo-company",
+              "china_dependencies": [
+                {
+                  "package": "vue",
+                  "china_maintained": true,
+                  "cve_count": 2
+                },
+                {
+                  "package": "element-ui",
+                  "china_maintained": true,
+                  "cve_count": 2
+                },
+                {
+                  "package": "ant-design",
+                  "china_maintained": true,
+                  "cve_count": 2
+                },
+                {
+                  "package": "pingcap/tidb",
+                  "china_maintained": true,
+                  "cve_count": 2
+                }
+              ],
+              "risk_score": 1.0
+            },
+            {
+              "org": "finmeccanica",
+              "china_dependencies": [
+                {
+                  "package": "vue",
+                  "china_maintained": true,
+                  "cve_count": 2
+                },
+                {
+                  "package": "element-ui",
+                  "china_maintained": true,
+                  "cve_count": 2
+                },
+                {
+                  "package": "ant-design",
+                  "china_maintained": true,
+                  "cve_count": 2
+                },
+                {
+                  "package": "pingcap/tidb",
+                  "china_maintained": true,
+                  "cve_count": 2
+                }
+              ],
+              "risk_score": 1.0
+            },
+            {
+              "org": "leonardo-drs",
+              "china_dependencies": [
+                {
+                  "package": "vue",
+                  "china_maintained": true,
+                  "cve_count": 2
+                },
+                {
+                  "package": "element-ui",
+                  "china_maintained": true,
+                  "cve_count": 2
+                },
+                {
+                  "package": "ant-design",
+                  "china_maintained": true,
+                  "cve_count": 2
+                },
+                {
+                  "package": "pingcap/tidb",
+                  "china_maintained": true,
+                  "cve_count": 2
+                }
+              ],
+              "risk_score": 1.0
+            }
+          ]
+        },
+        "standards_adoption": {
+          "pipeline": "standards_adoption",
+          "timestamp": "2025-09-16T21:15:36.784700",
+          "influence_map": [
+            {
+              "entity": "Leonardo S.p.A",
+              "body": "ETSI",
+              "committee": "TC CYBER",
+              "role": "voting_member",
+              "influence_score": 0.7,
+              "china_collaboration": 1
+            },
+            {
+              "entity": "Huawei",
+              "body": "ETSI",
+              "committee": "TC CYBER",
+              "role": "voting_member",
+              "influence_score": 0.7,
+              "china_collaboration": 1
+            },
+            {
+              "entity": "Nokia",
+              "body": "ETSI",
+              "committee": "TC CYBER",
+              "role": "voting_member",
+              "influence_score": 0.7,
+              "china_collaboration": 1
+            }
+          ]
+        },
+        "funding_spinout": {
+          "pipeline": "funding_spinout",
+          "timestamp": "2025-09-16T21:15:36.785699",
+          "spinouts": [
+            {
+              "funding_id": "HORIZON-2021-12345",
+              "institution": "Politecnico di Milano",
+              "spinout_detected": true,
+              "china_acquisition_risk": 0.3,
+              "spinout_name": "TechSpinout SRL"
+            }
+          ]
+        }
+      },
+      "china_exposure_matrix": {
+        "leonardo-drs": {
+          "entity": "leonardo-drs",
+          "conference": 0.0,
+          "patent": 0.0,
+          "dependency": 1.0,
+          "standards": 0.0,
+          "funding": 0.0,
+          "total": 0.15,
+          "risk_level": "LOW"
+        },
+        "finmeccanica": {
+          "entity": "finmeccanica",
+          "conference": 0.0,
+          "patent": 0.0,
+          "dependency": 1.0,
+          "standards": 0.0,
+          "funding": 0.0,
+          "total": 0.15,
+          "risk_level": "LOW"
+        },
+        "Tsinghua University": {
+          "entity": "Tsinghua University",
+          "conference": 0.0,
+          "patent": 0.0,
+          "dependency": 0.0,
+          "standards": 0.0,
+          "funding": 0.0,
+          "total": 0.0,
+          "risk_level": "LOW"
+        },
+        "MIT": {
+          "entity": "MIT",
+          "conference": 0.0,
+          "patent": 0.0,
+          "dependency": 0.0,
+          "standards": 0.0,
+          "funding": 0.0,
+          "total": 0.0,
+          "risk_level": "LOW"
+        },
+        "leonardo-company": {
+          "entity": "leonardo-company",
+          "conference": 0.0,
+          "patent": 0.0,
+          "dependency": 1.0,
+          "standards": 0.0,
+          "funding": 0.0,
+          "total": 0.15,
+          "risk_level": "LOW"
+        },
+        "Leonardo S.p.A": {
+          "entity": "Leonardo S.p.A",
+          "conference": 0.0,
+          "patent": 0.0,
+          "dependency": 0.0,
+          "standards": 1.0,
+          "funding": 0.0,
+          "total": 0.25,
+          "risk_level": "LOW"
+        }
+      },
+      "execution_time": 0.10039663314819336
+    }
+  ],
+  "modified": "2025-09-16T21:15:38"
+}

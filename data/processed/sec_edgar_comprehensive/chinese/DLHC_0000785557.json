@@ -1,0 +1,44 @@
+{
+  "cik": "0000785557",
+  "ticker": "DLHC",
+  "name": "DLH Holdings Corp.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7363",
+  "sicDescription": "Services-Help Supply Services",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "NJ",
+  "ein": "221899798",
+  "phone": "8669521647",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3565 PIEDMONT ROAD, NE",
+      "street2": "BUILDING 3, SUITE 700",
+      "city": "ATLANTA",
+      "stateOrCountry": "GA",
+      "zipCode": "30305",
+      "stateOrCountryDescription": "GA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3565 PIEDMONT ROAD, NE",
+      "street2": "BUILDING 3, SUITE 700",
+      "city": "ATLANTA",
+      "stateOrCountry": "GA",
+      "zipCode": "30305",
+      "stateOrCountryDescription": "GA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1000
+}

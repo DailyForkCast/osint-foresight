@@ -1,0 +1,48 @@
+{
+  "cik": "0001986817",
+  "ticker": "GTENW",
+  "name": "Gores Holdings X, Inc. / CI",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "6770",
+  "sicDescription": "Blank Checks",
+  "category": "Non-accelerated filer<br>Smaller reporting company<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "E9",
+  "ein": "981740672",
+  "phone": "(303) 531-3100",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "6260 LOOKOUT ROAD",
+      "street2": null,
+      "city": "BOULDER",
+      "stateOrCountry": "CO",
+      "zipCode": "80301",
+      "stateOrCountryDescription": "CO",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "6260 LOOKOUT ROAD",
+      "street2": null,
+      "city": "BOULDER",
+      "stateOrCountry": "CO",
+      "zipCode": "80301",
+      "stateOrCountryDescription": "CO",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-13"
+  },
+  "filings_count": 35
+}

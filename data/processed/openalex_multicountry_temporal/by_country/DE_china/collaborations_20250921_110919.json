@@ -1,0 +1,734 @@
+[
+  {
+    "paper_id": "https://openalex.org/W2741469065",
+    "doi": null,
+    "title": "Growth and Death in the Past",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "German Society of Surgery"
+      ],
+      "CN": [
+        "Institute of Forensic Science"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Michael Hermanussen (German Society of Surgery)"
+      ],
+      "CN": [
+        "Jesper L. Boldsen (Institute of Forensic Science)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 107888,
+      "extraction_command": "sed -n '107888p' part_000.gz | jq '.title'",
+      "paper_hash": "c234d5b95c2d9046"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "DE"
+  },
+  {
+    "paper_id": "https://openalex.org/W3170037743",
+    "doi": null,
+    "title": "Wheel-individual estimation of the friction potential for split frition and changing friction conditions for the application in an automated emergency braking system",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "Fraunhofer Institute for Intelligent Analysis and Information Systems"
+      ],
+      "CN": [
+        "China Automotive Engineering Research Institute"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Hans‐Ulrich Kobialka (Fraunhofer Institute for Intelligent Analysis and Information Systems)"
+      ],
+      "CN": [
+        "Cornelia Lex (China Automotive Engineering Research Institute)",
+        "Arno Eichberger (China Automotive Engineering Research Institute)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_003.gz",
+      "line_number": 3660,
+      "extraction_command": "sed -n '3660p' part_003.gz | jq '.title'",
+      "paper_hash": "c2cbf53f1b22f185"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "DE"
+  },
+  {
+    "paper_id": "https://openalex.org/W3123622207",
+    "doi": null,
+    "title": "Does the economic integration of China affect growth and inflation in industrial countries",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "European University Viadrina",
+        "German Institute for Economic Research"
+      ],
+      "CN": [
+        "Chinese Academy of Social Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Christian Dreger (European University Viadrina)",
+        "Christian Dreger (German Institute for Economic Research)"
+      ],
+      "CN": [
+        "Yanqun Zhang (Chinese Academy of Social Sciences)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_003.gz",
+      "line_number": 17520,
+      "extraction_command": "sed -n '17520p' part_003.gz | jq '.title'",
+      "paper_hash": "3dc9820948f1c509"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "DE"
+  },
+  {
+    "paper_id": "https://openalex.org/W4206850628",
+    "doi": null,
+    "title": "Torcy-Vieux dam (71): sampling, tests and results on geotextile filters",
+    "publication_year": 1999,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "Sustainable Europe Research Institute"
+      ],
+      "CN": [
+        "Beijing Drainage Group (China)"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Claude Parrón (Sustainable Europe Research Institute)"
+      ],
+      "CN": [
+        "Y.H. Faure (Beijing Drainage Group (China))"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1999,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_004.gz",
+      "line_number": 7460,
+      "extraction_command": "sed -n '7460p' part_004.gz | jq '.title'",
+      "paper_hash": "fa874a4e0dc326f7"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "DE"
+  },
+  {
+    "paper_id": "https://openalex.org/W4211023382",
+    "doi": "https://doi.org/10.1515/9783112521588-fm",
+    "title": "Frontmatter",
+    "publication_year": 1959,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "Internationale Akademie Berlin",
+        "Acatech"
+      ],
+      "CN": [
+        "Hegang People's Hospital"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "H Klemm (Acatech)",
+        "Eugen Klever (Acatech)",
+        "Eugen Klever (Internationale Akademie Berlin)",
+        "H Klemm (Internationale Akademie Berlin)",
+        "Heinz Walter (Acatech)",
+        "Heinrich Bertsch (Internationale Akademie Berlin)",
+        "Vollständiges Repertorium (Internationale Akademie Berlin)",
+        "Vollständiges Repertorium (Acatech)",
+        "Heinrich Bertsch (Acatech)",
+        "Heinz Walter (Internationale Akademie Berlin)"
+      ],
+      "CN": [
+        "Vollständiges Repertorium (Hegang People's Hospital)",
+        "H Klemm (Hegang People's Hospital)",
+        "Heinz Walter (Hegang People's Hospital)",
+        "Eugen Klever (Hegang People's Hospital)",
+        "Heinrich Bertsch (Hegang People's Hospital)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1959,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_004.gz",
+      "line_number": 45456,
+      "extraction_command": "sed -n '45456p' part_004.gz | jq '.title'",
+      "paper_hash": "0a8fd6c1e2257dd2"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "DE"
+  },
+  {
+    "paper_id": "https://openalex.org/W2462915769",
+    "doi": "https://doi.org/10.48550/arxiv.1607.02563",
+    "title": "Closability of Quadratic Forms Associated to Invariant Probability Measures of SPDEs",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "DE",
+      "GB"
+    ],
+    "institutions": {
+      "DE": [
+        "Bielefeld University"
+      ],
+      "GB": [
+        "Swansea University"
+      ],
+      "CN": [
+        "Tianjin University"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Michael Röckner (Bielefeld University)"
+      ],
+      "GB": [
+        "Feng‐Yu Wang (Swansea University)"
+      ],
+      "CN": [
+        "Feng‐Yu Wang (Tianjin University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 1605,
+      "extraction_command": "sed -n '1605p' part_005.gz | jq '.title'",
+      "paper_hash": "5dacf256fc7d8670"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "DE"
+  },
+  {
+    "paper_id": "https://openalex.org/W2486324517",
+    "doi": "https://doi.org/10.1159/000413079",
+    "title": "Epstein-Barr Virus and Nasopharyngeal Carcinoma",
+    "publication_year": 1987,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "Ludwig-Maximilians-Universität München"
+      ],
+      "CN": [
+        "National Institute for Viral Disease Control and Prevention"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "R. Kühbeck (Ludwig-Maximilians-Universität München)",
+        "R. Seibl (Ludwig-Maximilians-Universität München)",
+        "Wolfgang Jilg (Ludwig-Maximilians-Universität München)",
+        "Susanne Modrow (Ludwig-Maximilians-Universität München)",
+        "Jun Fan (Ludwig-Maximilians-Universität München)",
+        "M. Motz (Ludwig-Maximilians-Universität München)",
+        "H. Wolf (Ludwig-Maximilians-Universität München)"
+      ],
+      "CN": [
+        "Yucheng Zeng (National Institute for Viral Disease Control and Prevention)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1987,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 266,
+      "extraction_command": "sed -n '266p' part_000.gz | jq '.title'",
+      "paper_hash": "9c933b9e244de941"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "DE"
+  },
+  {
+    "paper_id": "https://openalex.org/W2122786566",
+    "doi": "https://doi.org/10.1161/01.cir.60.5.1104",
+    "title": "Cross-sectional echocardiography. I. Analysis of mathematic models for quantifying mass of the left ventricle in dogs.",
+    "publication_year": 1979,
+    "countries_collaborating": [
+      "CN",
+      "DE",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Davidson College"
+      ],
+      "DE": [
+        "Baum Consult"
+      ],
+      "CN": [
+        "Wyatt Technology (China)"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Robert M. Davidson (Davidson College)"
+      ],
+      "DE": [
+        "Samuel Meerbaum (Baum Consult)"
+      ],
+      "CN": [
+        "H.L. Wyatt (Wyatt Technology (China))"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1979,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 704,
+      "extraction_command": "sed -n '704p' part_000.gz | jq '.title'",
+      "paper_hash": "9e4b3a7b9d7513bc"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "DE"
+  },
+  {
+    "paper_id": "https://openalex.org/W2075579006",
+    "doi": "https://doi.org/10.1115/1.4024733",
+    "title": "Automatic Structural Synthesis of Planar Multiple Joint Kinematic Chains",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "University of Duisburg-Essen"
+      ],
+      "CN": [
+        "Yanshan University"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Andrés Kecskeméthy (University of Duisburg-Essen)"
+      ],
+      "CN": [
+        "Huafeng Ding (Yanshan University)",
+        "Peng Huang (Yanshan University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_002.gz",
+      "line_number": 54,
+      "extraction_command": "sed -n '54p' part_002.gz | jq '.title'",
+      "paper_hash": "805b8cd2a7195089"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "DE"
+  },
+  {
+    "paper_id": "https://openalex.org/W1901480042",
+    "doi": "https://doi.org/10.1109/ciss.2013.6624264",
+    "title": "Energy-efficient collaborative data collection in mobile wireless sensor networks",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "Karlsruhe Institute of Technology"
+      ],
+      "CN": [
+        "Tsinghua University"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Lin Zhang (Karlsruhe Institute of Technology)",
+        "Michael Beigl (Karlsruhe Institute of Technology)",
+        "Behnam Banitalebi (Karlsruhe Institute of Technology)"
+      ],
+      "CN": [
+        "Qiao Fu (Tsinghua University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_014.gz",
+      "line_number": 317,
+      "extraction_command": "sed -n '317p' part_014.gz | jq '.title'",
+      "paper_hash": "6aeaf67cb11196ab"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "DE"
+  },
+  {
+    "paper_id": "https://openalex.org/W4245636927",
+    "doi": "https://doi.org/10.1002/9781118792148.ch394",
+    "title": "Correlation between Internal States and Strength in Bulk Metallic Glass",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "Technische Universität Dresden",
+        "Leibniz Institute for Solid State and Materials Research"
+      ],
+      "CN": [
+        "Kunming University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "J. Eckert (Leibniz Institute for Solid State and Materials Research)",
+        "Caiju Li (Leibniz Institute for Solid State and Materials Research)",
+        "Jun Tan (Leibniz Institute for Solid State and Materials Research)",
+        "J. Eckert (Technische Universität Dresden)",
+        "Jun Tan (Technische Universität Dresden)"
+      ],
+      "CN": [
+        "Jun Tan (Kunming University of Science and Technology)",
+        "Caiju Li (Kunming University of Science and Technology)",
+        "Ye Hua Jiang (Kunming University of Science and Technology)",
+        "Rongfeng Zhou (Kunming University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 67,
+      "extraction_command": "sed -n '67p' part_001.gz | jq '.title'",
+      "paper_hash": "29d2562fd935e47e"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "DE"
+  },
+  {
+    "paper_id": "https://openalex.org/W2012692741",
+    "doi": "https://doi.org/10.1016/0923-5965(91)90063-8",
+    "title": "Piecewise linear motion-adaptive interpolation",
+    "publication_year": 1991,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "Philips (Germany)"
+      ],
+      "CN": [
+        "Shanghai Jiao Tong University"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Wenjun Zhang (Philips (Germany))"
+      ],
+      "CN": [
+        "Yu Song Yu (Shanghai Jiao Tong University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1991,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 204,
+      "extraction_command": "sed -n '204p' part_001.gz | jq '.title'",
+      "paper_hash": "8a00081bf9e4f498"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "DE"
+  },
+  {
+    "paper_id": "https://openalex.org/W4232875146",
+    "doi": "https://doi.org/10.1142/9789813146976_0106",
+    "title": "A DUAL-OUTPUT Z-SOURCE HALF-BRIDGE CONVERTER",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "University of Hagen"
+      ],
+      "CN": [
+        "South China University of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "ZHONG LI (University of Hagen)",
+        "Wolfgang A. Halang (University of Hagen)"
+      ],
+      "CN": [
+        "Bo Zhang (South China University of Technology)",
+        "Dongyuan Qiu (South China University of Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_011.gz",
+      "line_number": 311,
+      "extraction_command": "sed -n '311p' part_011.gz | jq '.title'",
+      "paper_hash": "aaa0489b27ab89c1"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "DE"
+  },
+  {
+    "paper_id": "https://openalex.org/W2154175550",
+    "doi": "https://doi.org/10.1143/ptp.96.449",
+    "title": "Coupled Integrable Systems Associated with a Polynomial Spectral Problem and Their Virasoro Symmetry Algebras",
+    "publication_year": 1996,
+    "countries_collaborating": [
+      "BG",
+      "CN",
+      "CZ",
+      "DE",
+      "US"
+    ],
+    "institutions": {
+      "BG": [
+        "Institute of Mathematics and Informatics"
+      ],
+      "CZ": [
+        "Czech Academy of Sciences, Institute of Mathematics"
+      ],
+      "DE": [
+        "Paderborn University"
+      ],
+      "US": [
+        "University of Pennsylvania"
+      ],
+      "CN": [
+        "Fudan University"
+      ]
+    },
+    "authors_by_country": {
+      "BG": [
+        "Wen-Xiu Ma (Institute of Mathematics and Informatics)",
+        "ZIQING zhou (Institute of Mathematics and Informatics)"
+      ],
+      "CZ": [
+        "Wen-Xiu Ma (Czech Academy of Sciences, Institute of Mathematics)",
+        "ZIQING zhou (Czech Academy of Sciences, Institute of Mathematics)"
+      ],
+      "DE": [
+        "Wen-Xiu Ma (Paderborn University)"
+      ],
+      "US": [
+        "ZIQING zhou (University of Pennsylvania)"
+      ],
+      "CN": [
+        "ZIQING zhou (Fudan University)",
+        "Wen-Xiu Ma (Fudan University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1996,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_007.gz",
+      "line_number": 75,
+      "extraction_command": "sed -n '75p' part_007.gz | jq '.title'",
+      "paper_hash": "259e96a1efcacfda"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "DE"
+  }
+]

@@ -1,0 +1,1 @@
+{"timestamp": "2025-09-21T14:40:47.188941", "results": {"success": true, "exit_code": 1, "high_severity": 318, "medium_severity": 1704, "total_issues": 2022, "timestamp": "2025-09-21T14:40:47.131675"}, "violations": ["HIGH SEVERITY: 318 issues (threshold: 0)", "MEDIUM SEVERITY: 1704 issues (threshold: 50)", "TOTAL ISSUES: 2022 (threshold: 100)"], "action_required": true}

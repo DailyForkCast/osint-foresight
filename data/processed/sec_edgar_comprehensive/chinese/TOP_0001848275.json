@@ -1,0 +1,48 @@
+{
+  "cik": "0001848275",
+  "ticker": "TOP",
+  "name": "TOP Financial Group Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "6200",
+  "sicDescription": "Security & Commodity Brokers, Dealers, Exchanges & Services",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "852-3107-0731",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "101 CECIL STREET",
+      "street2": "#13-05 TONG ENG BUILDING",
+      "city": "SINGAPORE",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Singapore",
+      "countryCode": "U0"
+    },
+    "business": {
+      "street1": "101 CECIL STREET",
+      "street2": "#13-05 TONG ENG BUILDING",
+      "city": "SINGAPORE",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Singapore",
+      "countryCode": "U0"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-25"
+  },
+  "filings_count": 93
+}

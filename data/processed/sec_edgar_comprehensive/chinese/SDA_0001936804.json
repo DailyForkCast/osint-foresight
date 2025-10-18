@@ -1,0 +1,52 @@
+{
+  "cik": "0001936804",
+  "ticker": "SDA",
+  "name": "SunCar Technology Group Inc.",
+  "detection_reasons": [
+    "location:china",
+    "location:shanghai",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "7500",
+  "sicDescription": "Services-Automotive Repair, Services & Parking",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86-18602168668",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "SUITE 209, NO. 656 LINGSHI ROAD",
+      "street2": "JING'AN DISTRICT",
+      "city": "SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "200072",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "SUITE 209, NO. 656 LINGSHI ROAD",
+      "street2": "JING'AN DISTRICT",
+      "city": "SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "200072",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-18"
+  },
+  "filings_count": 98
+}

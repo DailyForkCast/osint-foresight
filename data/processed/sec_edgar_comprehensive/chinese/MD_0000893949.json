@@ -1,0 +1,47 @@
+{
+  "cik": "0000893949",
+  "ticker": "MD",
+  "name": "Pediatrix Medical Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "8060",
+  "sicDescription": "Services-Hospitals",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "FL",
+  "ein": "263667538",
+  "phone": "9543840175",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1301 CONCORD TERRACE",
+      "street2": null,
+      "city": "SUNRISE",
+      "stateOrCountry": "FL",
+      "zipCode": "33323",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1301 CONCORD TERRACE",
+      "street2": null,
+      "city": "SUNRISE",
+      "stateOrCountry": "FL",
+      "zipCode": "33323",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-18"
+  },
+  "filings_count": 1000
+}

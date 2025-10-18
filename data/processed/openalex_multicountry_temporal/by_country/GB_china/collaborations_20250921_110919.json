@@ -1,0 +1,1525 @@
+[
+  {
+    "paper_id": "https://openalex.org/W2360657336",
+    "doi": null,
+    "title": "Preparation of hydrogenation raw material by pretreated wood tar",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Environmental Research Institute"
+      ],
+      "CN": [
+        "Heilongjiang Provincial Environmental Science Research Institute"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Chen Son (Environmental Research Institute)"
+      ],
+      "CN": [
+        "Chen Son (Heilongjiang Provincial Environmental Science Research Institute)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 20899,
+      "extraction_command": "sed -n '20899p' part_000.gz | jq '.title'",
+      "paper_hash": "5bf54433083d44cf"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W4243597028",
+    "doi": "https://doi.org/10.5962/bhl.title.119395",
+    "title": "[Catalogue]",
+    "publication_year": 1905,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Horse Hospital"
+      ],
+      "CN": [
+        "Poultry Research Institute"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "James A. Lawrence (Horse Hospital)"
+      ],
+      "CN": [
+        "James A. Lawrence (Poultry Research Institute)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1905,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 746,
+      "extraction_command": "sed -n '746p' part_000.gz | jq '.title'",
+      "paper_hash": "64a4deeba0252ae0"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W2537361309",
+    "doi": null,
+    "title": "Re-assessment of the inframammary crease ligament",
+    "publication_year": 1999,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Academy of Medical Sciences"
+      ],
+      "CN": [
+        "Plastic Surgery Hospital"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Senkai Li (Academy of Medical Sciences)"
+      ],
+      "CN": [
+        "Senkai Li (Plastic Surgery Hospital)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1999,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 2835,
+      "extraction_command": "sed -n '2835p' part_001.gz | jq '.title'",
+      "paper_hash": "642c32b5f6786d39"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W2013614626",
+    "doi": "https://doi.org/10.1109/tuffc.2014.6689789",
+    "title": "An evaluation of the frequency shift caused by collisions with background gas in the primary frequency standard NPL-CsF2",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "National Physical Laboratory"
+      ],
+      "CN": [
+        "National Institute of Metrology"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "K. Szymaniec (National Physical Laboratory)",
+        "S.N. Lea (National Physical Laboratory)"
+      ],
+      "CN": [
+        "Kun Liu (National Institute of Metrology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 8963,
+      "extraction_command": "sed -n '8963p' part_000.gz | jq '.title'",
+      "paper_hash": "55c7061a049fb61f"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W4237587474",
+    "doi": "https://doi.org/10.1007/978-3-319-48156-2_153",
+    "title": "On Continuous PFC Emission Unrelated to Anode Effects",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "International Aluminium Institute"
+      ],
+      "CN": [
+        "Guangxi Research Institute of Chemical Industry"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Chris Bayliss (International Aluminium Institute)"
+      ],
+      "CN": [
+        "Xiping Chen (Guangxi Research Institute of Chemical Industry)",
+        "Jianhong Yang (Guangxi Research Institute of Chemical Industry)",
+        "Qingyun Zhao (Guangxi Research Institute of Chemical Industry)",
+        "Wangxing Li (Guangxi Research Institute of Chemical Industry)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_006.gz",
+      "line_number": 119035,
+      "extraction_command": "sed -n '119035p' part_006.gz | jq '.title'",
+      "paper_hash": "d4e283ba88641609"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W4250269233",
+    "doi": "https://doi.org/10.1136/bmj.284.6318.769",
+    "title": "Reorganisation a la carte.",
+    "publication_year": 1982,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Cardiff Royal Infirmary"
+      ],
+      "CN": [
+        "Institute of Forensic Science"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Bernard Knight (Cardiff Royal Infirmary)"
+      ],
+      "CN": [
+        "Bernard Knight (Institute of Forensic Science)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1982,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_007.gz",
+      "line_number": 58900,
+      "extraction_command": "sed -n '58900p' part_007.gz | jq '.title'",
+      "paper_hash": "3b18a2a39ef09db5"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W2016929645",
+    "doi": "https://doi.org/10.1080/00207237508709687",
+    "title": "Fluorine uptake by grass from aluminium smelter fume",
+    "publication_year": 1975,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Luxfer Group (United Kingdom)"
+      ],
+      "CN": [
+        "Institute of Grassland Research"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "L. N. Less (Luxfer Group (United Kingdom))",
+        "A. G. McGregor (Luxfer Group (United Kingdom))"
+      ],
+      "CN": [
+        "D. W. Cowling (Institute of Grassland Research)",
+        "L. H. P. Jones (Institute of Grassland Research)",
+        "E. L. Leafe (Institute of Grassland Research)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1975,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1727,
+      "extraction_command": "sed -n '1727p' part_000.gz | jq '.title'",
+      "paper_hash": "46659e3c5d9e9735"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W1968226634",
+    "doi": "https://doi.org/10.1111/j.2044-8295.1953.tb01211.x",
+    "title": "A NEW TYPE OF BEHAVIOUR THEORY",
+    "publication_year": 1953,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University of Oxford"
+      ],
+      "CN": [
+        "Institute of Psychology, Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "J. A. Deutsch (University of Oxford)"
+      ],
+      "CN": [
+        "J. A. Deutsch (Institute of Psychology, Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1953,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 3772,
+      "extraction_command": "sed -n '3772p' part_000.gz | jq '.title'",
+      "paper_hash": "3426923b56b57960"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W2462915769",
+    "doi": "https://doi.org/10.48550/arxiv.1607.02563",
+    "title": "Closability of Quadratic Forms Associated to Invariant Probability Measures of SPDEs",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "DE",
+      "GB"
+    ],
+    "institutions": {
+      "DE": [
+        "Bielefeld University"
+      ],
+      "GB": [
+        "Swansea University"
+      ],
+      "CN": [
+        "Tianjin University"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Michael Röckner (Bielefeld University)"
+      ],
+      "GB": [
+        "Feng‐Yu Wang (Swansea University)"
+      ],
+      "CN": [
+        "Feng‐Yu Wang (Tianjin University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 1605,
+      "extraction_command": "sed -n '1605p' part_005.gz | jq '.title'",
+      "paper_hash": "5dacf256fc7d8670"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W4309401217",
+    "doi": null,
+    "title": "The British Growth Crisis",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "FR",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University of Kent"
+      ],
+      "FR": [
+        "Centre d'études Européennes de Sciences Po"
+      ],
+      "CN": [
+        "Beihang University"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Peter Taylor‐Gooby (University of Kent)"
+      ],
+      "FR": [
+        "Colin Hay (Centre d'études Européennes de Sciences Po)"
+      ],
+      "CN": [
+        "Peter Taylor‐Gooby (Beihang University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_012.gz",
+      "line_number": 16454,
+      "extraction_command": "sed -n '16454p' part_012.gz | jq '.title'",
+      "paper_hash": "df053785db828302"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W2226380923",
+    "doi": "https://doi.org/10.4172/2329-6925.1000233",
+    "title": "A Novel Speckle Tracking Technique for Investigating Regional Motion of the Carotid Wall: Spatio-temporal Variation in Distension Associates with Presence of Calcified Plaque",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "King's College London",
+        "British Heart Foundation"
+      ],
+      "CN": [
+        "Huazhong University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Jiawei Wang (King's College London)",
+        "Jiawei Wang (British Heart Foundation)"
+      ],
+      "CN": [
+        "Jiawei Wang (Huazhong University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_003.gz",
+      "line_number": 6632,
+      "extraction_command": "sed -n '6632p' part_003.gz | jq '.title'",
+      "paper_hash": "24e26e73298b1f8c"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W936307488",
+    "doi": "https://doi.org/10.9753/icce.v11.70",
+    "title": "MODEL STUDIES OF A PERFORATED BR&lt;-JKV.'ATER",
+    "publication_year": 1968,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "HR Wallingford"
+      ],
+      "CN": [
+        "State Key Laboratory of Hydrology-Water Resources and Hydraulic Engineering"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "G. H. Lean (HR Wallingford)"
+      ],
+      "CN": [
+        "G. H. Lean (State Key Laboratory of Hydrology-Water Resources and Hydraulic Engineering)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1968,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 2322,
+      "extraction_command": "sed -n '2322p' part_000.gz | jq '.title'",
+      "paper_hash": "7feebd4090e0be4d"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W2314473366",
+    "doi": "https://doi.org/10.1093/geronj/17.1.75",
+    "title": "Discrimination Learning With Old and Young Rats",
+    "publication_year": 1962,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University of Oxford"
+      ],
+      "CN": [
+        "Institute of Psychology, Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "M. E. Sime (University of Oxford)",
+        "H. Kay (University of Oxford)"
+      ],
+      "CN": [
+        "M. E. Sime (Institute of Psychology, Chinese Academy of Sciences)",
+        "H. Kay (Institute of Psychology, Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1962,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 2402,
+      "extraction_command": "sed -n '2402p' part_000.gz | jq '.title'",
+      "paper_hash": "a8fc2f6bb3419038"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W2552100588",
+    "doi": "https://doi.org/10.9753/icce.v8.12",
+    "title": "SIMILARITY IN SEDIMENT TRANSPORT DUE TO WAVES",
+    "publication_year": 1962,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "HR Wallingford"
+      ],
+      "CN": [
+        "State Key Laboratory of Hydrology-Water Resources and Hydraulic Engineering"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Selim Yalin (HR Wallingford)",
+        "R. C. H. Russell (HR Wallingford)"
+      ],
+      "CN": [
+        "Selim Yalin (State Key Laboratory of Hydrology-Water Resources and Hydraulic Engineering)",
+        "R. C. H. Russell (State Key Laboratory of Hydrology-Water Resources and Hydraulic Engineering)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1962,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 2215,
+      "extraction_command": "sed -n '2215p' part_000.gz | jq '.title'",
+      "paper_hash": "dce5802a8afd0ab8"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W2300372267",
+    "doi": "https://doi.org/10.1093/oxfordjournals.bmb.a070283",
+    "title": "VISUAL DISCRIMINATION IN ANIMALS",
+    "publication_year": 1964,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University of Oxford"
+      ],
+      "CN": [
+        "Institute of Psychology, Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Neil Sutherland (University of Oxford)"
+      ],
+      "CN": [
+        "Neil Sutherland (Institute of Psychology, Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1964,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 833,
+      "extraction_command": "sed -n '833p' part_000.gz | jq '.title'",
+      "paper_hash": "168b4e725c3179df"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W1982614327",
+    "doi": "https://doi.org/10.1016/s0277-9536(96)00350-4",
+    "title": "Health sector reform: Lessons from China",
+    "publication_year": 1997,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University of Sussex"
+      ],
+      "CN": [
+        "Shanghai Medical College of Fudan University"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Gerald Bloom (University of Sussex)"
+      ],
+      "CN": [
+        "Gu Xingyuan (Shanghai Medical College of Fudan University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1997,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 223,
+      "extraction_command": "sed -n '223p' part_000.gz | jq '.title'",
+      "paper_hash": "f240aff61f4229d7"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W1982711852",
+    "doi": "https://doi.org/10.1016/s0140-6736(89)90522-9",
+    "title": "ANTIHISTAMINIC DRUGS THAT REVERSE CHLOROQUINE RESISTANCE IN PLASMODIUM FALCIPARUM",
+    "publication_year": 1989,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "London School of Hygiene & Tropical Medicine",
+        "University of London"
+      ],
+      "CN": [
+        "National Institute for Parasitic Diseases"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Rosemary Ekong (London School of Hygiene & Tropical Medicine)",
+        "B. L. Robinson (University of London)",
+        "W. Peters (University of London)",
+        "D. C. Warhurst (London School of Hygiene & Tropical Medicine)",
+        "B. L. Robinson (London School of Hygiene & Tropical Medicine)",
+        "Rosemary Ekong (University of London)",
+        "D. C. Warhurst (University of London)",
+        "W. Peters (London School of Hygiene & Tropical Medicine)"
+      ],
+      "CN": [
+        "Xing-Qing Pan (National Institute for Parasitic Diseases)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1989,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 994,
+      "extraction_command": "sed -n '994p' part_000.gz | jq '.title'",
+      "paper_hash": "abbd81f8c5563344"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W2004920366",
+    "doi": "https://doi.org/10.1111/j.2044-8295.1956.tb00570.x",
+    "title": "A THEORY OF INSIGHT, REASONING AND LATENT LEARNING",
+    "publication_year": 1956,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University of Oxford"
+      ],
+      "CN": [
+        "Institute of Psychology, Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "J. A. Deutsch (University of Oxford)"
+      ],
+      "CN": [
+        "J. A. Deutsch (Institute of Psychology, Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1956,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 6060,
+      "extraction_command": "sed -n '6060p' part_000.gz | jq '.title'",
+      "paper_hash": "54e5e29134a42c9c"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W122929186",
+    "doi": "https://doi.org/10.1007/978-3-642-29305-4_99",
+    "title": "Signal Extraction of Brain Activity Response by Near Infrared Spectroscopy based on Recursive Least Squares Adaptive Filtering",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "OBS Medical (United Kingdom)"
+      ],
+      "CN": [
+        "Harbin Institute of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "P. Rolfe (OBS Medical (United Kingdom))"
+      ],
+      "CN": [
+        "Chengbo Yang (Harbin Institute of Technology)",
+        "Mingming Zhu (Harbin Institute of Technology)",
+        "Y. Zhang (Harbin Institute of Technology)",
+        "Jing-Guang Sun (Harbin Institute of Technology)",
+        "Buchuan Zhang (Harbin Institute of Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 721,
+      "extraction_command": "sed -n '721p' part_000.gz | jq '.title'",
+      "paper_hash": "8ab19fd3e1eb1028"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W1933587690",
+    "doi": "https://doi.org/10.1111/1540-6253.12046",
+    "title": "Philosophy of Learning in Wang Yangming and Francis Bacon",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "King's College London"
+      ],
+      "CN": [
+        "Renmin University of China"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Xinzhong Yao (King's College London)"
+      ],
+      "CN": [
+        "Xinzhong Yao (Renmin University of China)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 2512,
+      "extraction_command": "sed -n '2512p' part_000.gz | jq '.title'",
+      "paper_hash": "2ab83ed54ca1cd28"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W2058324834",
+    "doi": "https://doi.org/10.1016/0306-4522(89)90083-3",
+    "title": "Embryonic entorhinal transplants project selectively to the deafferented entorhinal zone of adult mouse hippocampi, as demonstrated by the use of thy-1 allelic immunohistochemistry. Effect of timing of transplantation in relation to deafferentation",
+    "publication_year": 1989,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Medical Research Council"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences",
+        "Shanghai Institute of Applied Physics"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Geoffrey Raisman (Medical Research Council)"
+      ],
+      "CN": [
+        "Chang‐Fu Zhou (Shanghai Institute of Applied Physics)",
+        "Chang‐Fu Zhou (Chinese Academy of Sciences)",
+        "Y. Li (Shanghai Institute of Applied Physics)",
+        "Y. Li (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1989,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1409,
+      "extraction_command": "sed -n '1409p' part_000.gz | jq '.title'",
+      "paper_hash": "0496d148ea6fa2a4"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W2082281027",
+    "doi": "https://doi.org/10.2136/sssaj1967.03615995003100060012x",
+    "title": "Fractionation of Soil Inorganic Phosphate by a Modification of Chang and Jackson's Procedure",
+    "publication_year": 1967,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Rothamsted Research"
+      ],
+      "CN": [
+        "Institute of Soil Science"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "T. W. Walker (Rothamsted Research)"
+      ],
+      "CN": [
+        "T. W. Walker (Institute of Soil Science)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1967,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 831,
+      "extraction_command": "sed -n '831p' part_000.gz | jq '.title'",
+      "paper_hash": "4f970bd8a881d5a9"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W4230783460",
+    "doi": "https://doi.org/10.4018/978-1-4666-7481-3.ch007",
+    "title": "Service Evolution in Clouds for Dementia Patient Monitoring System Usability Enhancement",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Edinburgh Napier University"
+      ],
+      "CN": [
+        "Xi'an Shiyou University"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Zhe Wang (Edinburgh Napier University)"
+      ],
+      "CN": [
+        "Guojian Cheng (Xi'an Shiyou University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_019.gz",
+      "line_number": 204,
+      "extraction_command": "sed -n '204p' part_019.gz | jq '.title'",
+      "paper_hash": "0bf6150638ce4186"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W2082937299",
+    "doi": "https://doi.org/10.1111/j.1744-7348.1997.tb05783.x",
+    "title": "Detection and relationships of cotton leaf curl virus and allied whitefly‐transmitted geminiviruses occurring in Pakistan",
+    "publication_year": 1997,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University of Dundee"
+      ],
+      "CN": [
+        "Institute of Microbiology",
+        "Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "B. D. Harrison (University of Dundee)"
+      ],
+      "CN": [
+        "Yule Liu (Institute of Microbiology)",
+        "Yule Liu (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1997,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 41,
+      "extraction_command": "sed -n '41p' part_001.gz | jq '.title'",
+      "paper_hash": "c6c9b93af57dac01"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W2113498396",
+    "doi": "https://doi.org/10.1039/c5ta07015e",
+    "title": "Porosity effect on ZrO<sub>2</sub> hollow shells and hydrothermal stability for catalytic steam reforming of methane",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University College London",
+        "University of Nottingham"
+      ],
+      "CN": [
+        "Ningbo Institute of Industrial Technology",
+        "University of Nottingham Ningbo China"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Kwang‐Leong Choy (University College London)",
+        "Zi‐Yian Lim (University of Nottingham)"
+      ],
+      "CN": [
+        "Wei Guo Wang (Ningbo Institute of Industrial Technology)",
+        "Chunzheng Wu (Ningbo Institute of Industrial Technology)",
+        "Zi‐Yian Lim (University of Nottingham Ningbo China)",
+        "Hongfeng Yin (Ningbo Institute of Industrial Technology)",
+        "Zi‐Yian Lim (Ningbo Institute of Industrial Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_002.gz",
+      "line_number": 323,
+      "extraction_command": "sed -n '323p' part_002.gz | jq '.title'",
+      "paper_hash": "36a6771b98bdcb01"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W2072884775",
+    "doi": "https://doi.org/10.1007/s10898-013-0102-x",
+    "title": "An objective space cut and bound algorithm for convex multiplicative programmes",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Lancaster University"
+      ],
+      "CN": [
+        "University of Science and Technology Beijing"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Matthias Ehrgott (Lancaster University)"
+      ],
+      "CN": [
+        "Lizhen Shao (University of Science and Technology Beijing)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 47,
+      "extraction_command": "sed -n '47p' part_005.gz | jq '.title'",
+      "paper_hash": "274422481257759d"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W4247497838",
+    "doi": "https://doi.org/10.1111/1467-8322.12165",
+    "title": "Like a virgin? Hymen restoration operations in contemporary China (Respond to this article at https://www.therai.org.uk/publications/anthropology-today/debate)",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "London School of Economics and Political Science"
+      ],
+      "CN": [
+        "Sun Yat-sen University"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Hans Steinmüller (London School of Economics and Political Science)"
+      ],
+      "CN": [
+        "Tan Tongxue (Sun Yat-sen University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_016.gz",
+      "line_number": 123,
+      "extraction_command": "sed -n '123p' part_016.gz | jq '.title'",
+      "paper_hash": "9f98f49710cdd982"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W2201762308",
+    "doi": "https://doi.org/10.1080/15226514.2015.1131233",
+    "title": "Effects of manganese on the microstructures of<i>Chenopodium ambrosioides</i>L., A manganese tolerant plant",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Harper Adams University"
+      ],
+      "CN": [
+        "Hunan Agricultural University",
+        "Central South University"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "William Hartley (Harper Adams University)"
+      ],
+      "CN": [
+        "Weisong Pan (Hunan Agricultural University)",
+        "Shengguo Xue (Central South University)",
+        "Feng Zhu (Central South University)",
+        "Chuan Wu (Central South University)",
+        "Jie Lei (Central South University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_010.gz",
+      "line_number": 14,
+      "extraction_command": "sed -n '14p' part_010.gz | jq '.title'",
+      "paper_hash": "e72ad8a0af2d4f66"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W2251671233",
+    "doi": "https://doi.org/10.3115/v1/p15-2003",
+    "title": "Improving Distributed Representation of Word Sense via WordNet Gloss Composition and Context Clustering",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Aston University"
+      ],
+      "CN": [
+        "Harbin Institute of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Xuan Wang (Aston University)"
+      ],
+      "CN": [
+        "Ruifeng Xu (Harbin Institute of Technology)",
+        "Yulan He (Harbin Institute of Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_008.gz",
+      "line_number": 36,
+      "extraction_command": "sed -n '36p' part_008.gz | jq '.title'",
+      "paper_hash": "870669135bac316f"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W2040965758",
+    "doi": "https://doi.org/10.1016/j.jeurceramsoc.2013.01.023",
+    "title": "CO2 laser peeling of Al2O3 ceramic and an application for the polishing of laser cut surfaces",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University of Manchester"
+      ],
+      "CN": [
+        "Beijing University of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Yinzhou Yan (University of Manchester)",
+        "Lin Li (University of Manchester)",
+        "Tian Long See (University of Manchester)"
+      ],
+      "CN": [
+        "Yijian Jiang (Beijing University of Technology)",
+        "Yinzhou Yan (Beijing University of Technology)",
+        "Lingfei Ji (Beijing University of Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_013.gz",
+      "line_number": 269,
+      "extraction_command": "sed -n '269p' part_013.gz | jq '.title'",
+      "paper_hash": "2f549993963c5eaf"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  },
+  {
+    "paper_id": "https://openalex.org/W2081680198",
+    "doi": "https://doi.org/10.1143/jjap.33.3469",
+    "title": "Analysis of Charge-Controlled Gray Scale in Ferroelectric Liquid Crystal Optically Addressed Spatial Light Modulator",
+    "publication_year": 1994,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Central Research Laboratories (United Kingdom)"
+      ],
+      "CN": [
+        "Panasonic (China)"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Akio Takimoto (Central Research Laboratories (United Kingdom))",
+        "Yukio Tanaka (Central Research Laboratories (United Kingdom))",
+        "Hisahito Ogawa (Central Research Laboratories (United Kingdom))"
+      ],
+      "CN": [
+        "Hisahito Ogawa (Panasonic (China))",
+        "Akio Takimoto (Panasonic (China))",
+        "Yukio Tanaka (Panasonic (China))"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1994,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_023.gz",
+      "line_number": 148,
+      "extraction_command": "sed -n '148p' part_023.gz | jq '.title'",
+      "paper_hash": "8e6d5f4fb30f393e"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "GB"
+  }
+]

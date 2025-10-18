@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "adms": "http://www.w3.org/ns/adms#",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  },
+  "@id": "http://data.europa.eu/88u/distribution/94503343-9f9f-485b-b4ef-a99be2cab78d",
+  "@type": "dcat:Distribution",
+  "dct:title": {
+    "@language": "en",
+    "@value": "HORIZON Projects"
+  },
+  "dct:description": {
+    "@language": "en",
+    "@value": "The zip file, besides the details of the Horizon Europe projects (RCN, grant agreement number, funding program, etc), also includes association details of related euroSciVoc categories, legal basis, topics, organizations (including cost, coordinator, country, participants, etc) and links to project websites (webLinks)"
+  },
+  "dct:modified": {
+    "@value": "2025-08-12T00:00:00",
+    "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+  },
+  "dct:format": {
+    "@id": "http://publications.europa.eu/resource/authority/file-type/JSON"
+  },
+  "dcat:downloadURL": {
+    "@id": "https://cordis.europa.eu/data/cordis-HORIZONprojects-json.zip"
+  },
+  "dcat:accessURL": {
+    "@id": "https://cordis.europa.eu/data/cordis-HORIZONprojects-json.zip"
+  },
+  "dcat:compressFormat": {
+    "@id": "http://www.iana.org/assignments/media-types/application/zip"
+  },
+  "dct:license": {
+    "@id": "http://data.europa.eu/eli/dec/2011/833/oj"
+  },
+  "dct:type": {
+    "@id": "http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"
+  },
+  "dct:identifier": "https://piveau.eu/set/data/dLa9VWCMxH",
+  "adms:status": {
+    "@id": "http://purl.org/adms/status/Completed"
+  },
+  "ingestion": {
+    "accessed_date": "2025-09-14",
+    "local_path": "/data/raw/source=cordis/horizon/",
+    "extraction_status": "pending",
+    "validation_status": "pending",
+    "notes": "Horizon Europe projects dataset with full relationship data"
+  }
+}

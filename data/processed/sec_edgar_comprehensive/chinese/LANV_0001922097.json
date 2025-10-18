@@ -1,0 +1,52 @@
+{
+  "cik": "0001922097",
+  "ticker": "LANV",
+  "name": "Lanvin Group Holdings Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:shanghai",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "2300",
+  "sicDescription": "Apparel & Other Finishd Prods of  Fabrics & Similar Matl",
+  "category": "Accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "(86)13636579351",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "4F, 168 JIUJIANG ROAD,",
+      "street2": "CARLOWITZ & CO, HUANGPU DISTRICT",
+      "city": "SHANGHAI",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "4F, 168 JIUJIANG ROAD,",
+      "street2": "CARLOWITZ & CO, HUANGPU DISTRICT",
+      "city": "SHANGHAI",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-09"
+  },
+  "filings_count": 127
+}

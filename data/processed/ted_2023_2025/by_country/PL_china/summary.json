@@ -1,0 +1,18 @@
+{
+  "country": "Poland",
+  "total_contracts": 35,
+  "total_value": 0.0,
+  "years_active": [
+    "2023"
+  ],
+  "top_entities": {
+    "generic": 29,
+    "zte": 4,
+    "byd": 2
+  },
+  "sectors": {
+    "unknown": 29,
+    "telecom": 4,
+    "automotive": 2
+  }
+}

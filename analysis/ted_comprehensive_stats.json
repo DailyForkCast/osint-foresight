@@ -1,0 +1,13 @@
+{
+  "total_processed": 500,
+  "successfully_parsed": 500,
+  "parsing_errors": 0,
+  "document_types": {
+    "TED_EXPORT": 190,
+    "UBL Prior Information Notice": 14,
+    "UBL Contract Notice": 152,
+    "UBL Contract Award Notice": 144
+  },
+  "contractors_found": 0,
+  "chinese_entities": 0
+}

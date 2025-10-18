@@ -1,0 +1,47 @@
+{
+  "cik": "0001726173",
+  "ticker": "BH",
+  "name": "Biglari Holdings Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5812",
+  "sicDescription": "Retail-Eating  Places",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "IN",
+  "ein": "823784946",
+  "phone": "210-344-3400",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "19100 RIDGEWOOD PKWY, SUITE 1200",
+      "street2": null,
+      "city": "SAN ANTONIO",
+      "stateOrCountry": "TX",
+      "zipCode": "78259",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "19100 RIDGEWOOD PKWY, SUITE 1200",
+      "street2": null,
+      "city": "SAN ANTONIO",
+      "stateOrCountry": "TX",
+      "zipCode": "78259",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-08"
+  },
+  "filings_count": 212
+}

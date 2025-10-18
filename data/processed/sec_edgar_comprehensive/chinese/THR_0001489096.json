@@ -1,0 +1,47 @@
+{
+  "cik": "0001489096",
+  "ticker": "THR",
+  "name": "Thermon Group Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3620",
+  "sicDescription": "Electrical Industrial Apparatus",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "272228185",
+  "phone": "5126900600",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "7171 SOUTHWEST PARKWAY",
+      "street2": "BUILDING 300, SUITE 200",
+      "city": "AUSTIN",
+      "stateOrCountry": "TX",
+      "zipCode": "78735",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "7171 SOUTHWEST PARKWAY",
+      "street2": "BUILDING 300, SUITE 200",
+      "city": "AUSTIN",
+      "stateOrCountry": "TX",
+      "zipCode": "78735",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-07"
+  },
+  "filings_count": 1000
+}

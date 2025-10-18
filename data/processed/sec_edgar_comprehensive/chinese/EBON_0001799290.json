@@ -1,0 +1,49 @@
+{
+  "cik": "0001799290",
+  "ticker": "EBON",
+  "name": "Ebang International Holdings Inc.",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "vie_structure"
+  ],
+  "sic": "6200",
+  "sicDescription": "Security & Commodity Brokers, Dealers, Exchanges & Services",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "8657188176197",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "12 MARINA VIEW, #20-02B",
+      "street2": null,
+      "city": "ASIA SQUARE TOWER 2",
+      "stateOrCountry": "U0",
+      "zipCode": "018961",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "12 MARINA VIEW, #20-02B",
+      "street2": null,
+      "city": "ASIA SQUARE TOWER 2",
+      "stateOrCountry": "U0",
+      "zipCode": "018961",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-15"
+  },
+  "filings_count": 127
+}

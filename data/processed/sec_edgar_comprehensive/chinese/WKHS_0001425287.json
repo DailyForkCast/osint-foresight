@@ -1,0 +1,44 @@
+{
+  "cik": "0001425287",
+  "ticker": "WKHS",
+  "name": "Workhorse Group Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3711",
+  "sicDescription": "Motor Vehicles & Passenger Car Bodies",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "NV",
+  "ein": "261394771",
+  "phone": "513-360-4704",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "100 COMMERCE DRIVE",
+      "street2": null,
+      "city": "LOVELAND",
+      "stateOrCountry": "OH",
+      "zipCode": "45140",
+      "stateOrCountryDescription": "OH",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "100 COMMERCE DRIVE",
+      "street2": null,
+      "city": "LOVELAND",
+      "stateOrCountry": "OH",
+      "zipCode": "45140",
+      "stateOrCountryDescription": "OH",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1003
+}

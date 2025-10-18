@@ -1,0 +1,58 @@
+{
+  "phase": 9,
+  "country": "Italy",
+  "generated": "2025-09-19T07:40:42.664795",
+  "national_strategy": {
+    "china_policy": {
+      "official_position": "De-risking not decoupling",
+      "bri_exit": "March 2024",
+      "strategic_sectors_protected": [
+        "5G",
+        "Critical infrastructure",
+        "Defense"
+      ],
+      "confidence": 0.85,
+      "uncertainty": 0.1
+    },
+    "technology_sovereignty": {
+      "eu_chips_act_participation": true,
+      "national_ai_strategy": "Active",
+      "quantum_initiative": "Planned",
+      "confidence": 0.8,
+      "uncertainty": 0.1
+    }
+  },
+  "negative_evidence_documented": {
+    "not_found": [
+      "Military technology transfers to China",
+      "Classified information breaches linked to China",
+      "Systematic talent recruitment program participation"
+    ],
+    "contradictions": [
+      {
+        "claim": "Massive Chinese investment",
+        "reality": "Below EU average",
+        "confidence": 0.75,
+        "uncertainty": 0.15
+      }
+    ],
+    "failed_searches": [
+      "Thousand Talents program participants",
+      "PLA-affiliated researchers in sensitive positions"
+    ]
+  },
+  "policy_coherence": {
+    "alignment_with_eu": 0.75,
+    "alignment_with_nato": 0.85,
+    "internal_consistency": 0.7,
+    "implementation_gap": "Moderate",
+    "confidence": 0.7,
+    "uncertainty": 0.15
+  },
+  "deception_indicators_analyzed": {
+    "patterns_found": 2,
+    "assessment": "Limited deception, mostly transparency",
+    "confidence": 0.65,
+    "uncertainty": 0.2
+  }
+}

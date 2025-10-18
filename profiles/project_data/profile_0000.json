@@ -1,0 +1,124 @@
+{
+  "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\cordis_multicountry\\china_project_list_20250921_105946.json",
+  "size": 172643,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 383,
+  "field_count": 5,
+  "parse_status": "success",
+  "schema": {
+    "id": "number",
+    "acronym": "string",
+    "title": "string",
+    "chinese_orgs": "array",
+    "countries": "array"
+  },
+  "sample_records": [
+    {
+      "id": 101002086,
+      "acronym": "DigiScore",
+      "title": "Digital Scores \u2013 investigating the technological transformation of the music score",
+      "chinese_orgs": [
+        "CENTRAL CONSERVATORY OF MUSIC"
+      ],
+      "countries": [
+        "UK",
+        "CN",
+        "CA",
+        "AU",
+        "US"
+      ]
+    },
+    {
+      "id": 101003590,
+      "acronym": "PolarRES",
+      "title": "Polar Regions in the Earth System",
+      "chinese_orgs": [
+        "SHANGHAI JIAO TONG UNIVERSITY"
+      ],
+      "countries": [
+        "UK",
+        "SE",
+        "BE",
+        "DK",
+        "NO",
+        "CN",
+        "RU",
+        "NL",
+        "DE",
+        "FI",
+        "UA"
+      ]
+    },
+    {
+      "id": 101003476,
+      "acronym": "Safeguard",
+      "title": "Safeguarding European wild pollinators",
+      "chinese_orgs": [
+        "NANKAI UNIVERSITY",
+        "CHINA WEST NORMAL UNIVERSITY",
+        "NORTHWEST A&F UNIVERSITY"
+      ],
+      "countries": [
+        "UK",
+        "SE",
+        "BE",
+        "CN",
+        "RS",
+        "EE",
+        "CH",
+        "ES",
+        "HU",
+        "NL",
+        "DE",
+        "FR",
+        "IT",
+        "BG",
+        "RO"
+      ]
+    },
+    {
+      "id": 101000224,
+      "acronym": "TUdi",
+      "title": "Transforming Unsustainable management of soils in key agricultural systems in EU and China. Developing an integrated platform of alternatives to reverse soil degradation.",
+      "chinese_orgs": [
+        "NORTHWEST A&F UNIVERSITY",
+        "BEIJING FORESTRY UNIVERSITY",
+        "BEIJING NORMAL UNIVERSITY",
+        "CHINA AGRICULTURAL UNIVERSITY",
+        "NORTHWEST UNIVERSITY"
+      ],
+      "countries": [
+        "UK",
+        "CN",
+        "CZ",
+        "HU",
+        "ES",
+        "IT",
+        "AT",
+        "NZ",
+        "BG"
+      ]
+    },
+    {
+      "id": 101022484,
+      "acronym": "ConsenCUS",
+      "title": "CarbOn Neutral cluSters through Electricity-based iNnovations in Capture, Utilisation and Storage",
+      "chinese_orgs": [
+        "SHANGHAI JIAO TONG UNIVERSITY",
+        "THE HONG KONG UNIVERSITY OF SCIENCE AND TECHNOLOGY (GUANGZHOU)",
+        "Zhejiang University"
+      ],
+      "countries": [
+        "UK",
+        "EL",
+        "DK",
+        "CN",
+        "CA",
+        "NL",
+        "RO"
+      ]
+    }
+  ],
+  "modified": "2025-09-21T10:59:46.269810"
+}

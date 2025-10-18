@@ -1,0 +1,48 @@
+{
+  "cik": "0001969928",
+  "ticker": "MCTR",
+  "name": "CTRL GROUP Ltd",
+  "detection_reasons": [
+    "offshore:hong kong",
+    "offshore:hk"
+  ],
+  "sic": "7311",
+  "sicDescription": "Services-Advertising Agencies",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "85231074887",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT F, 12/F KAISER ESTATE PHASE 1",
+      "street2": "41 MAN YUE STREET",
+      "city": "HUNGHOM, KOWLOON",
+      "stateOrCountry": "K3",
+      "zipCode": "HKG",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "UNIT F, 12/F KAISER ESTATE PHASE 1",
+      "street2": "41 MAN YUE STREET",
+      "city": "HUNGHOM, KOWLOON",
+      "stateOrCountry": "K3",
+      "zipCode": "HKG",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "20-F",
+    "date": "2025-08-15"
+  },
+  "filings_count": 44
+}

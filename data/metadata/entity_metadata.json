@@ -1,0 +1,1501 @@
+{
+  "organizations_0": {
+    "name": "AS",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONreports-json\\reportSummaries.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_1": {
+    "name": "METHANE",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONreports-json\\reportSummaries.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_2": {
+    "name": "ELECTRICAL",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONreports-json\\reportSummaries.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_3": {
+    "name": "CYCLING",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONreports-json\\reportSummaries.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_4": {
+    "name": "CONDUITS",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONreports-json\\reportSummaries.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_5": {
+    "name": "CONDUCTIVE",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONreports-json\\reportSummaries.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_6": {
+    "name": "FASTEST",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONreports-json\\reportSummaries.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_7": {
+    "name": "MIMET",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONreports-json\\reportSummaries.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_8": {
+    "name": "IN",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONreports-json\\reportSummaries.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_9": {
+    "name": "MINERALS",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONreports-json\\reportSummaries.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_10": {
+    "name": "ESR",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojectPublications-json\\projectPublications.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_11": {
+    "name": "ZENODO",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojectPublications-json\\projectPublications.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_12": {
+    "name": "EV",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_13": {
+    "name": "European Union",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_14": {
+    "name": "HORIZON",
+    "type": "organizations",
+    "source_count": 3,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\topics.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\legalBasis.json"
+    ],
+    "frequency": 3
+  },
+  "organizations_15": {
+    "name": "OPTIMALMINE",
+    "type": "organizations",
+    "source_count": 2,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\organization.json"
+    ],
+    "frequency": 2
+  },
+  "organizations_16": {
+    "name": "FET",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_17": {
+    "name": "DRU",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_18": {
+    "name": "UNEW",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_19": {
+    "name": "European Commission",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_20": {
+    "name": "SIGNED",
+    "type": "organizations",
+    "source_count": 2,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 2
+  },
+  "organizations_21": {
+    "name": "HSAFE",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_22": {
+    "name": "MSCA",
+    "type": "organizations",
+    "source_count": 3,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\topics.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\legalBasis.json"
+    ],
+    "frequency": 3
+  },
+  "organizations_23": {
+    "name": "TMA",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_24": {
+    "name": "EU",
+    "type": "organizations",
+    "source_count": 4,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\legalBasis.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projectDeliverables-json\\projectDeliverables.json"
+    ],
+    "frequency": 4
+  },
+  "organizations_25": {
+    "name": "SE",
+    "type": "organizations",
+    "source_count": 2,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\topics.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json"
+    ],
+    "frequency": 2
+  },
+  "organizations_26": {
+    "name": "LUCIA",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_27": {
+    "name": "HES",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_28": {
+    "name": "QUEENSLAND",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_29": {
+    "name": "MEDET",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_30": {
+    "name": "ST",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_31": {
+    "name": "ASAREL",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_32": {
+    "name": "COLUMBIA",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_33": {
+    "name": "THE",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_34": {
+    "name": "SME",
+    "type": "organizations",
+    "source_count": 3,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projectDeliverables-json\\projectDeliverables.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\organization.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\organization.json"
+    ],
+    "frequency": 3
+  },
+  "organizations_35": {
+    "name": "AGRONOMY",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_36": {
+    "name": "UBC",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_37": {
+    "name": "BRITISH",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_38": {
+    "name": "AD",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_39": {
+    "name": "UNIVERSITY",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_40": {
+    "name": "PRC",
+    "type": "organizations",
+    "source_count": 2,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\organization.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\organization.json"
+    ],
+    "frequency": 2
+  },
+  "organizations_41": {
+    "name": "CA",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_42": {
+    "name": "AU",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_43": {
+    "name": "OF",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_44": {
+    "name": "BG",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_45": {
+    "name": "ROAD",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_46": {
+    "name": "VANCOUVER",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_47": {
+    "name": "PPGMS",
+    "type": "organizations",
+    "source_count": 4,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\webLink.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\webLink.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojectDeliverables-json\\projectDeliverables.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projectDeliverables-json\\projectDeliverables.json"
+    ],
+    "frequency": 4
+  },
+  "organizations_48": {
+    "name": "FARBES",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojectDeliverables-json\\projectDeliverables.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_49": {
+    "name": "VLF",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojectDeliverables-json\\projectDeliverables.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_50": {
+    "name": "TESTUDO",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojectDeliverables-json\\projectDeliverables.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_51": {
+    "name": "COROB",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojectDeliverables-json\\projectDeliverables.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_52": {
+    "name": "CLINT",
+    "type": "organizations",
+    "source_count": 2,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\organization.json"
+    ],
+    "frequency": 2
+  },
+  "organizations_53": {
+    "name": "ERC",
+    "type": "organizations",
+    "source_count": 2,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\topics.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 2
+  },
+  "organizations_54": {
+    "name": "HE",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_55": {
+    "name": "CS",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_56": {
+    "name": "LE",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_57": {
+    "name": "HEALIN",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_58": {
+    "name": "EE",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_59": {
+    "name": "LI",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_60": {
+    "name": "LC",
+    "type": "organizations",
+    "source_count": 2,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\topics.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 2
+  },
+  "organizations_61": {
+    "name": "WEF",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_62": {
+    "name": "RIA",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_63": {
+    "name": "AI",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_64": {
+    "name": "CLA",
+    "type": "organizations",
+    "source_count": 2,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\topics.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 2
+  },
+  "organizations_65": {
+    "name": "REINDEER",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_66": {
+    "name": "ML",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_67": {
+    "name": "COG",
+    "type": "organizations",
+    "source_count": 2,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\topics.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 2
+  },
+  "organizations_68": {
+    "name": "CSIS",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_69": {
+    "name": "ICT",
+    "type": "organizations",
+    "source_count": 3,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\topics.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\legalBasis.json"
+    ],
+    "frequency": 3
+  },
+  "organizations_70": {
+    "name": "HLI",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_71": {
+    "name": "PPP",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\topics.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_72": {
+    "name": "HPC",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\webItem.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_73": {
+    "name": "DE",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_74": {
+    "name": "WATER",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_75": {
+    "name": "ATHINA",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_76": {
+    "name": "AE",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_77": {
+    "name": "REC",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_78": {
+    "name": "AX",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_79": {
+    "name": "GMBH",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_80": {
+    "name": "NL",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_81": {
+    "name": "KLIMARECHENZENTRUM",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_82": {
+    "name": "PANORMOU",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_83": {
+    "name": "IHE",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_84": {
+    "name": "INSTITUTE",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_85": {
+    "name": "MODELLING",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_86": {
+    "name": "WESTVEST",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_87": {
+    "name": "FOR",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_88": {
+    "name": "DEUTSCHES",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_89": {
+    "name": "DELFT",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_90": {
+    "name": "EL",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_91": {
+    "name": "STICHTING",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_92": {
+    "name": "EDUCATION",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_93": {
+    "name": "BUNDESSTRASSE",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\organization.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_94": {
+    "name": "LEADERSHIP",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\legalBasis.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_95": {
+    "name": "CHALLENGES",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\legalBasis.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_96": {
+    "name": "INDUSTRIAL",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\legalBasis.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_97": {
+    "name": "SOCIETAL",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\legalBasis.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_98": {
+    "name": "REACHOUT",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projectDeliverables-json\\projectDeliverables.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_99": {
+    "name": "WWU",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projectDeliverables-json\\projectDeliverables.json"
+    ],
+    "frequency": 1
+  },
+  "organizations_100": {
+    "name": "OPTIMA",
+    "type": "organizations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020reports-json\\reportSummaries.json"
+    ],
+    "frequency": 1
+  },
+  "people_101": {
+    "name": "Periodic Reporting",
+    "type": "people",
+    "source_count": 2,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONreports-json\\reportSummaries.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020reports-json\\reportSummaries.json"
+    ],
+    "frequency": 2
+  },
+  "people_102": {
+    "name": "Making Places Attractive",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojectPublications-json\\projectPublications.json"
+    ],
+    "frequency": 1
+  },
+  "people_103": {
+    "name": "European Sociological Review",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojectPublications-json\\projectPublications.json"
+    ],
+    "frequency": 1
+  },
+  "people_104": {
+    "name": "What More Can",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojectPublications-json\\projectPublications.json"
+    ],
+    "frequency": 1
+  },
+  "people_105": {
+    "name": "Nature Reviews Urology",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojectPublications-json\\projectPublications.json"
+    ],
+    "frequency": 1
+  },
+  "people_106": {
+    "name": "National Workshop",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojectPublications-json\\projectPublications.json"
+    ],
+    "frequency": 1
+  },
+  "people_107": {
+    "name": "Be Done",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojectPublications-json\\projectPublications.json"
+    ],
+    "frequency": 1
+  },
+  "people_108": {
+    "name": "Alicia Garc",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojectPublications-json\\projectPublications.json"
+    ],
+    "frequency": 1
+  },
+  "people_109": {
+    "name": "Civic Engagement",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json"
+    ],
+    "frequency": 1
+  },
+  "people_110": {
+    "name": "Marie Curie",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json"
+    ],
+    "frequency": 1
+  },
+  "people_111": {
+    "name": "Practicing Democratic Values",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json"
+    ],
+    "frequency": 1
+  },
+  "people_112": {
+    "name": "European Commission",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json"
+    ],
+    "frequency": 1
+  },
+  "people_113": {
+    "name": "Czech Republic",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json"
+    ],
+    "frequency": 1
+  },
+  "people_114": {
+    "name": "Democratic Roles",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json"
+    ],
+    "frequency": 1
+  },
+  "people_115": {
+    "name": "Machine Learning",
+    "type": "people",
+    "source_count": 2,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 2
+  },
+  "people_116": {
+    "name": "Critical Raw Materials",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json"
+    ],
+    "frequency": 1
+  },
+  "people_117": {
+    "name": "South Africa",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json"
+    ],
+    "frequency": 1
+  },
+  "people_118": {
+    "name": "Staff Exchanges",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\topics.json"
+    ],
+    "frequency": 1
+  },
+  "people_119": {
+    "name": "Curie Actions",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\legalBasis.json"
+    ],
+    "frequency": 1
+  },
+  "people_120": {
+    "name": "Marie Sk",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\legalBasis.json"
+    ],
+    "frequency": 1
+  },
+  "people_121": {
+    "name": "Artificial Intelligence",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "people_122": {
+    "name": "Climate Science",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "people_123": {
+    "name": "Energy Efficient",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "people_124": {
+    "name": "Climate Change Hotspots",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "people_125": {
+    "name": "Extreme Events",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "people_126": {
+    "name": "Copernicus Climate Change",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "people_127": {
+    "name": "Climate Services",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "people_128": {
+    "name": "Climate Services Information",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "people_129": {
+    "name": "Web Processing Services",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "people_130": {
+    "name": "Consolidator Grant",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\topics.json"
+    ],
+    "frequency": 1
+  },
+  "people_131": {
+    "name": "Smart Connectivity",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\topics.json"
+    ],
+    "frequency": 1
+  },
+  "people_132": {
+    "name": "Optimised Usage",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\webItem.json"
+    ],
+    "frequency": 1
+  },
+  "people_133": {
+    "name": "Raw Materials",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\legalBasis.json"
+    ],
+    "frequency": 1
+  },
+  "people_134": {
+    "name": "Resource Efficiency",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\legalBasis.json"
+    ],
+    "frequency": 1
+  },
+  "people_135": {
+    "name": "Communication Technologies",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\legalBasis.json"
+    ],
+    "frequency": 1
+  },
+  "people_136": {
+    "name": "Structural Change",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projectDeliverables-json\\projectDeliverables.json"
+    ],
+    "frequency": 1
+  },
+  "people_137": {
+    "name": "Multiscale Analysis",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020reports-json\\reportSummaries.json"
+    ],
+    "frequency": 1
+  },
+  "people_138": {
+    "name": "Water Treatment Technologies",
+    "type": "people",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020reports-json\\reportSummaries.json"
+    ],
+    "frequency": 1
+  },
+  "technologies_139": {
+    "name": "Machine Learning",
+    "type": "technologies",
+    "source_count": 2,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 2
+  },
+  "technologies_140": {
+    "name": "machine learning",
+    "type": "technologies",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "technologies_141": {
+    "name": "Artificial Intelligence",
+    "type": "technologies",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "technologies_142": {
+    "name": "ML",
+    "type": "technologies",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "technologies_143": {
+    "name": "Machine learning",
+    "type": "technologies",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "technologies_144": {
+    "name": "5G",
+    "type": "technologies",
+    "source_count": 2,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\topics.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 2
+  },
+  "technologies_145": {
+    "name": "AI",
+    "type": "technologies",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "projects_146": {
+    "name": "HORIZON-MSCA-2024-SE-01",
+    "type": "projects",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json"
+    ],
+    "frequency": 1
+  },
+  "projects_147": {
+    "name": "HORIZON-MSCA-2024-SE-01-01",
+    "type": "projects",
+    "source_count": 2,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\topics.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json"
+    ],
+    "frequency": 2
+  },
+  "projects_148": {
+    "name": "HORIZON-TMA-MSCA-SE",
+    "type": "projects",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json"
+    ],
+    "frequency": 1
+  },
+  "projects_149": {
+    "name": "H2020-ICT-2018-20",
+    "type": "projects",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "projects_150": {
+    "name": "CLA-12-2020",
+    "type": "projects",
+    "source_count": 2,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\topics.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 2
+  },
+  "projects_151": {
+    "name": "ICT-52-2020",
+    "type": "projects",
+    "source_count": 2,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\topics.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 2
+  },
+  "projects_152": {
+    "name": "CLA-2018-2019-2020",
+    "type": "projects",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "projects_153": {
+    "name": "H2020-LC-CLA-2018-2019-2020",
+    "type": "projects",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "projects_154": {
+    "name": "CLA-2020-2",
+    "type": "projects",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "projects_155": {
+    "name": "H2020-LC-CLA-2020-2",
+    "type": "projects",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "projects_156": {
+    "name": "ICT-2020-2",
+    "type": "projects",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "projects_157": {
+    "name": "ERC-COG",
+    "type": "projects",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "projects_158": {
+    "name": "ERC-2019-COG",
+    "type": "projects",
+    "source_count": 2,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\topics.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 2
+  },
+  "projects_159": {
+    "name": "H2020-EU",
+    "type": "projects",
+    "source_count": 2,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\legalBasis.json",
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 2
+  },
+  "projects_160": {
+    "name": "H2020-ICT-2020-2",
+    "type": "projects",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "projects_161": {
+    "name": "ICT-2018-20",
+    "type": "projects",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json"
+    ],
+    "frequency": 1
+  },
+  "locations_162": {
+    "name": "Spain",
+    "type": "locations",
+    "source_count": 1,
+    "sources": [
+      "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojectPublications-json\\projectPublications.json"
+    ],
+    "frequency": 1
+  }
+}

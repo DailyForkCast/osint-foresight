@@ -1,0 +1,44 @@
+{
+  "cik": "0001368493",
+  "ticker": "CAF",
+  "name": "Morgan Stanley China A Share Fund, Inc.",
+  "detection_reasons": [
+    "location:china"
+  ],
+  "sic": "",
+  "sicDescription": "",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "MD",
+  "ein": "000000000",
+  "phone": "800-231-2608",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1585 BROADWAY",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10036",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1585 BROADWAY",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10036",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 324
+}

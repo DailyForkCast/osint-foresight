@@ -1,0 +1,47 @@
+{
+  "cik": "0001823466",
+  "ticker": "NOTE-WT",
+  "name": "FiscalNote Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7389",
+  "sicDescription": "Services-Business Services, NEC",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "202 793-5300",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1201 PENNSYLVANIA AVENUE NW, 6TH FLOOR",
+      "street2": null,
+      "city": "WASHINGTON",
+      "stateOrCountry": "DC",
+      "zipCode": "20004",
+      "stateOrCountryDescription": "DC",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1201 PENNSYLVANIA AVENUE NW, 6TH FLOOR",
+      "street2": null,
+      "city": "WASHINGTON",
+      "stateOrCountry": "DC",
+      "zipCode": "20004",
+      "stateOrCountryDescription": "DC",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-11"
+  },
+  "filings_count": 802
+}

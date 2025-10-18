@@ -1,0 +1,47 @@
+{
+  "cik": "0001285550",
+  "ticker": "CLPT",
+  "name": "ClearPoint Neuro, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3841",
+  "sicDescription": "Surgical & Medical Instruments & Apparatus",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "582394628",
+  "phone": "9499006833",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "120 S. SIERRA AVENUE",
+      "street2": "SUITE 100",
+      "city": "SOLANA BEACH",
+      "stateOrCountry": "CA",
+      "zipCode": "92075",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "120 S. SIERRA AVENUE",
+      "street2": "SUITE 100",
+      "city": "SOLANA BEACH",
+      "stateOrCountry": "CA",
+      "zipCode": "92075",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-12"
+  },
+  "filings_count": 1003
+}

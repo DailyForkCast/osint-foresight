@@ -1,0 +1,44 @@
+{
+  "cik": "0000800457",
+  "ticker": "DGICB",
+  "name": "DONEGAL GROUP INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6331",
+  "sicDescription": "Fire, Marine & Casualty Insurance",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "232424711",
+  "phone": "7174261931",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1195 RIVER ROAD",
+      "street2": "BOX 302",
+      "city": "MARIETTA",
+      "stateOrCountry": "PA",
+      "zipCode": "17547",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1195 RIVER RD PO BOX 302",
+      "street2": null,
+      "city": "MARIETTA",
+      "stateOrCountry": "PA",
+      "zipCode": "17547-0302",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1004
+}

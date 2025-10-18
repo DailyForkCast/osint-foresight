@@ -1,0 +1,44 @@
+{
+  "cik": "0001034665",
+  "ticker": "MHD",
+  "name": "BLACKROCK MUNIHOLDINGS FUND, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "",
+  "sicDescription": "",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "223508039",
+  "phone": "800-441-7762",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "100 BELLEVUE PARKWAY",
+      "street2": null,
+      "city": "WILMINGTON",
+      "stateOrCountry": "DE",
+      "zipCode": "19809",
+      "stateOrCountryDescription": "DE",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "100 BELLEVUE PARKWAY",
+      "street2": null,
+      "city": "WILMINGTON",
+      "stateOrCountry": "DE",
+      "zipCode": "19809",
+      "stateOrCountryDescription": "DE",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 532
+}

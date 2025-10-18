@@ -1,0 +1,46 @@
+{
+  "cik": "0001291313",
+  "ticker": "GEHDF",
+  "name": "Great Eastern Holdings Ltd",
+  "detection_reasons": [
+    "location:china",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "",
+  "sicDescription": "",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": null,
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1 PICKERING ST #16-01",
+      "street2": "GREAT EASTERN CENTRE",
+      "city": "SINGAPORE",
+      "stateOrCountry": "F4",
+      "zipCode": "048659",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1 PICKERING ST #16-01",
+      "street2": "GREAT EASTERN CENTRE",
+      "city": "SINGAPORE",
+      "stateOrCountry": "F4",
+      "zipCode": "048659",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 9
+}

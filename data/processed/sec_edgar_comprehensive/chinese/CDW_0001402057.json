@@ -1,0 +1,44 @@
+{
+  "cik": "0001402057",
+  "ticker": "CDW",
+  "name": "CDW Corp",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5961",
+  "sicDescription": "Retail-Catalog & Mail-Order Houses",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "260273989",
+  "phone": "847-465-6000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "200 N MILWAUKEE AVENUE",
+      "street2": null,
+      "city": "VERNON HILLS",
+      "stateOrCountry": "IL",
+      "zipCode": "60061",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "200 N MILWAUKEE AVENUE",
+      "street2": null,
+      "city": "VERNON HILLS",
+      "stateOrCountry": "IL",
+      "zipCode": "60061",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1000
+}

@@ -1,0 +1,44 @@
+{
+  "cik": "0001447391",
+  "ticker": "RSNHF",
+  "name": "RESONA HOLDINGS INC",
+  "detection_reasons": [
+    "offshore:ky"
+  ],
+  "sic": "",
+  "sicDescription": "",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "81367041725",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "FUKAGAWA GATHARIA W2 BLDG.",
+      "street2": "5-65, KIBA 1-CHOME",
+      "city": "KOTO-KU, TOKYO",
+      "stateOrCountry": null,
+      "zipCode": "135-8582",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Japan",
+      "countryCode": "M0"
+    },
+    "business": {
+      "street1": "FUKAGAWA GATHARIA W2 BLDG.",
+      "street2": "5-65, KIBA 1-CHOME",
+      "city": "KOTO-KU, TOKYO",
+      "stateOrCountry": null,
+      "zipCode": "135-8582",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Japan",
+      "countryCode": "M0"
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 23
+}

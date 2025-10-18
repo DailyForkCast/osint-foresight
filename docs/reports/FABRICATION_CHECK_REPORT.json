@@ -1,0 +1,187 @@
+{
+  "timestamp": "2025-09-21T14:44:37.524216",
+  "files_checked": 215,
+  "total_issues": 1910,
+  "high_severity": 161,
+  "medium_severity": 1749,
+  "low_severity": 0,
+  "emerging_patterns": [
+    {
+      "pattern": "PATTERN_RISK",
+      "frequency": 1714,
+      "spread": 145,
+      "examples": [
+        "| **Ted** | 24.2GB | \u2705 Ready | EU contracts 2006-2",
+        "python scripts/process_ted_procurement_multicountr",
+        "python scripts/process_ted_procurement_multicountr"
+      ]
+    },
+    {
+      "pattern": "KNOWN_FABRICATION",
+      "frequency": 159,
+      "spread": 16,
+      "examples": [
+        "| **\u20ac12B** | Made-up EU-China trade figure | Remov",
+        "| **\u20ac12B** | Made-up EU-China trade figure | Remov",
+        "| **100,000-500,000** | Invented collaboration ran"
+      ]
+    },
+    {
+      "pattern": "SUSPICIOUS_PRECISION",
+      "frequency": 35,
+      "spread": 9,
+      "examples": [
+        "| OpenAlex | 420.66 GB | 0.5% | 99.5% | 20-30 hour",
+        "- Suspiciously precise decimals (e.g., 123.45%)",
+        "| OpenAlex | 420.66 GB | 3 of 770 large files | 1,"
+      ]
+    }
+  ],
+  "issues": {
+    "high": [
+      {
+        "file": "C:\\Projects\\OSINT - Foresight\\docs\\FABRICATION_ANALYSIS_RESULTS.md",
+        "line": 26,
+        "type": "KNOWN_FABRICATION",
+        "severity": "HIGH",
+        "text": "| **\u20ac12B** | Made-up EU-China trade figure | Remove all instances |",
+        "issue": "Contains known fabricated number: \u20ac12B",
+        "fix": "Remove or mark with [HYPOTHETICAL EXAMPLE]"
+      },
+      {
+        "file": "C:\\Projects\\OSINT - Foresight\\docs\\FABRICATION_ANALYSIS_RESULTS.md",
+        "line": 26,
+        "type": "KNOWN_FABRICATION",
+        "severity": "HIGH",
+        "text": "| **\u20ac12B** | Made-up EU-China trade figure | Remove all instances |",
+        "issue": "Contains known fabricated number: 12B",
+        "fix": "Remove or mark with [HYPOTHETICAL EXAMPLE]"
+      },
+      {
+        "file": "C:\\Projects\\OSINT - Foresight\\docs\\FABRICATION_ANALYSIS_RESULTS.md",
+        "line": 28,
+        "type": "KNOWN_FABRICATION",
+        "severity": "HIGH",
+        "text": "| **100,000-500,000** | Invented collaboration range | Remove or mark as example |",
+        "issue": "Contains known fabricated number: 100,000",
+        "fix": "Remove or mark with [HYPOTHETICAL EXAMPLE]"
+      },
+      {
+        "file": "C:\\Projects\\OSINT - Foresight\\docs\\FABRICATION_ANALYSIS_RESULTS.md",
+        "line": 28,
+        "type": "KNOWN_FABRICATION",
+        "severity": "HIGH",
+        "text": "| **100,000-500,000** | Invented collaboration range | Remove or mark as example |",
+        "issue": "Contains known fabricated number: 100,000-500,000",
+        "fix": "Remove or mark with [HYPOTHETICAL EXAMPLE]"
+      },
+      {
+        "file": "C:\\Projects\\OSINT - Foresight\\docs\\FABRICATION_ANALYSIS_RESULTS.md",
+        "line": 28,
+        "type": "KNOWN_FABRICATION",
+        "severity": "HIGH",
+        "text": "| **100,000-500,000** | Invented collaboration range | Remove or mark as example |",
+        "issue": "Contains known fabricated number: 500,000",
+        "fix": "Remove or mark with [HYPOTHETICAL EXAMPLE]"
+      },
+      {
+        "file": "C:\\Projects\\OSINT - Foresight\\docs\\FABRICATION_ANALYSIS_RESULTS.md",
+        "line": 58,
+        "type": "KNOWN_FABRICATION",
+        "severity": "HIGH",
+        "text": "3. Remove or mark actual fabrications (\u20ac12B, 4,500, 100,000-500,000)",
+        "issue": "Contains known fabricated number: 100,000",
+        "fix": "Remove or mark with [HYPOTHETICAL EXAMPLE]"
+      },
+      {
+        "file": "C:\\Projects\\OSINT - Foresight\\docs\\FABRICATION_ANALYSIS_RESULTS.md",
+        "line": 58,
+        "type": "KNOWN_FABRICATION",
+        "severity": "HIGH",
+        "text": "3. Remove or mark actual fabrications (\u20ac12B, 4,500, 100,000-500,000)",
+        "issue": "Contains known fabricated number: \u20ac12B",
+        "fix": "Remove or mark with [HYPOTHETICAL EXAMPLE]"
+      },
+      {
+        "file": "C:\\Projects\\OSINT - Foresight\\docs\\FABRICATION_ANALYSIS_RESULTS.md",
+        "line": 58,
+        "type": "KNOWN_FABRICATION",
+        "severity": "HIGH",
+        "text": "3. Remove or mark actual fabrications (\u20ac12B, 4,500, 100,000-500,000)",
+        "issue": "Contains known fabricated number: 100,000-500,000",
+        "fix": "Remove or mark with [HYPOTHETICAL EXAMPLE]"
+      },
+      {
+        "file": "C:\\Projects\\OSINT - Foresight\\docs\\FABRICATION_ANALYSIS_RESULTS.md",
+        "line": 58,
+        "type": "KNOWN_FABRICATION",
+        "severity": "HIGH",
+        "text": "3. Remove or mark actual fabrications (\u20ac12B, 4,500, 100,000-500,000)",
+        "issue": "Contains known fabricated number: 12B",
+        "fix": "Remove or mark with [HYPOTHETICAL EXAMPLE]"
+      },
+      {
+        "file": "C:\\Projects\\OSINT - Foresight\\docs\\FABRICATION_ANALYSIS_RESULTS.md",
+        "line": 58,
+        "type": "KNOWN_FABRICATION",
+        "severity": "HIGH",
+        "text": "3. Remove or mark actual fabrications (\u20ac12B, 4,500, 100,000-500,000)",
+        "issue": "Contains known fabricated number: 500,000",
+        "fix": "Remove or mark with [HYPOTHETICAL EXAMPLE]"
+      }
+    ],
+    "medium": [
+      {
+        "file": "C:\\Projects\\OSINT - Foresight\\README.md",
+        "line": 21,
+        "type": "PATTERN_RISK",
+        "severity": "MEDIUM",
+        "text": "| **Ted** | 24.2GB | \u2705 Ready | EU contracts 2006-2024 |",
+        "issue": "Range estimate without verification",
+        "match": "2006-2024 ",
+        "fix": "Add appropriate marker or verify data source"
+      },
+      {
+        "file": "C:\\Projects\\OSINT - Foresight\\README.md",
+        "line": 76,
+        "type": "PATTERN_RISK",
+        "severity": "MEDIUM",
+        "text": "python scripts/process_ted_procurement_multicountry.py --years 2010-2025 --all-eu",
+        "issue": "Range estimate without verification",
+        "match": "2010-2025 ",
+        "fix": "Add appropriate marker or verify data source"
+      },
+      {
+        "file": "C:\\Projects\\OSINT - Foresight\\README.md",
+        "line": 79,
+        "type": "PATTERN_RISK",
+        "severity": "MEDIUM",
+        "text": "python scripts/process_ted_procurement_multicountry.py --years 2010-2025 --countries HU,GR,IT,PL,CZ,",
+        "issue": "Range estimate without verification",
+        "match": "2010-2025 ",
+        "fix": "Add appropriate marker or verify data source"
+      },
+      {
+        "file": "C:\\Projects\\OSINT - Foresight\\README.md",
+        "line": 82,
+        "type": "PATTERN_RISK",
+        "severity": "MEDIUM",
+        "text": "python scripts/process_ted_procurement_multicountry.py --years 2010-2025 --countries DE,FR,ES,NL",
+        "issue": "Range estimate without verification",
+        "match": "2010-2025 ",
+        "fix": "Add appropriate marker or verify data source"
+      },
+      {
+        "file": "C:\\Projects\\OSINT - Foresight\\README.md",
+        "line": 88,
+        "type": "PATTERN_RISK",
+        "severity": "MEDIUM",
+        "text": "**Why 2010-2025?** Procurement has 3-5 year implementation lag. Today's critical infrastructure trac",
+        "issue": "Range estimate without verification",
+        "match": "3-5 ",
+        "fix": "Add appropriate marker or verify data source"
+      }
+    ],
+    "low": []
+  }
+}

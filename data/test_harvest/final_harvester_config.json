@@ -1,0 +1,215 @@
+{
+  "generated": "2025-09-19T15:17:57.391775",
+  "sources": {
+    "Council on Foreign Relations": {
+      "base_url": "https://www.cfr.org",
+      "search_paths": [
+        "/china",
+        "/",
+        "/publications"
+      ],
+      "priority": "HIGH",
+      "type": "US",
+      "rate_limit": 1.0
+    },
+    "Brookings Institution": {
+      "base_url": "https://www.brookings.edu",
+      "search_paths": [
+        "/china",
+        "/",
+        "/publications"
+      ],
+      "priority": "HIGH",
+      "type": "US",
+      "rate_limit": 1.0
+    },
+    "CSIS": {
+      "base_url": "https://www.csis.org",
+      "search_paths": [
+        "/china",
+        "/",
+        "/publications"
+      ],
+      "priority": "HIGH",
+      "type": "US",
+      "rate_limit": 1.0
+    },
+    "RAND Corporation": {
+      "base_url": "https://www.rand.org",
+      "search_paths": [
+        "/topics/china",
+        "/",
+        "/publications"
+      ],
+      "priority": "HIGH",
+      "type": "US",
+      "rate_limit": 1.0
+    },
+    "Atlantic Council": {
+      "base_url": "https://www.atlanticcouncil.org",
+      "search_paths": [
+        "/topics/china",
+        "/",
+        "/publications"
+      ],
+      "priority": "MEDIUM",
+      "type": "US",
+      "rate_limit": 1.0
+    },
+    "American Enterprise Institute": {
+      "base_url": "https://www.aei.org",
+      "search_paths": [
+        "/topics/china",
+        "/",
+        "/publications"
+      ],
+      "priority": "HIGH",
+      "type": "US",
+      "rate_limit": 1.0
+    },
+    "Wilson Center": {
+      "base_url": "https://www.wilsoncenter.org",
+      "search_paths": [
+        "/search?q=china",
+        "/",
+        "/publications"
+      ],
+      "priority": "MEDIUM",
+      "type": "US",
+      "rate_limit": 1.0
+    },
+    "US Institute of Peace": {
+      "base_url": "https://www.usip.org",
+      "search_paths": [
+        "/publications",
+        "/",
+        "/publications"
+      ],
+      "priority": "MEDIUM",
+      "type": "US",
+      "rate_limit": 1.0
+    },
+    "CNAS": {
+      "base_url": "https://www.cnas.org",
+      "search_paths": [
+        "/search?q=china",
+        "/",
+        "/publications"
+      ],
+      "priority": "HIGH",
+      "type": "US",
+      "rate_limit": 1.0
+    },
+    "FDD": {
+      "base_url": "https://www.fdd.org",
+      "search_paths": [
+        "/?s=china",
+        "/",
+        "/publications"
+      ],
+      "priority": "MEDIUM",
+      "type": "US",
+      "rate_limit": 1.0
+    },
+    "Heritage Foundation": {
+      "base_url": "https://www.heritage.org",
+      "search_paths": [
+        "/china",
+        "/",
+        "/publications"
+      ],
+      "priority": "HIGH",
+      "type": "US",
+      "rate_limit": 1.0
+    },
+    "Hudson Institute": {
+      "base_url": "https://www.hudson.org",
+      "search_paths": [
+        "/china",
+        "/",
+        "/publications"
+      ],
+      "priority": "MEDIUM",
+      "type": "US",
+      "rate_limit": 1.0
+    },
+    "CEIAS": {
+      "base_url": "https://ceias.eu",
+      "search_paths": [
+        "/en/publications",
+        "/",
+        "/publications"
+      ],
+      "priority": "HIGH",
+      "type": "EU",
+      "rate_limit": 1.0
+    },
+    "IFRI": {
+      "base_url": "https://www.ifri.org",
+      "search_paths": [
+        "/fr/regions/asie-et-indo-pacifique",
+        "/",
+        "/publications"
+      ],
+      "priority": "HIGH",
+      "type": "EU",
+      "rate_limit": 1.0
+    },
+    "IISS": {
+      "base_url": "https://www.iiss.org",
+      "search_paths": [
+        "/",
+        "/publications",
+        "/china",
+        "/asia"
+      ],
+      "priority": "MEDIUM",
+      "type": "EU",
+      "rate_limit": 1.0
+    },
+    "ECFR": {
+      "base_url": "https://ecfr.eu",
+      "search_paths": [
+        "/china",
+        "/",
+        "/publications"
+      ],
+      "priority": "MEDIUM",
+      "type": "EU",
+      "rate_limit": 1.0
+    },
+    "MERICS": {
+      "base_url": "https://merics.org",
+      "search_paths": [
+        "/search?q=china",
+        "/",
+        "/publications"
+      ],
+      "priority": "HIGH",
+      "type": "EU",
+      "rate_limit": 1.0
+    },
+    "FRS": {
+      "base_url": "https://www.frstrategie.org",
+      "search_paths": [
+        "/search?q=china",
+        "/",
+        "/publications"
+      ],
+      "priority": "HIGH",
+      "type": "EU",
+      "rate_limit": 1.0
+    },
+    "Arctic Institute": {
+      "base_url": "https://www.thearcticinstitute.org",
+      "search_paths": [
+        "/china",
+        "/",
+        "/publications"
+      ],
+      "priority": "MEDIUM",
+      "type": "APAC",
+      "rate_limit": 1.0
+    }
+  }
+}

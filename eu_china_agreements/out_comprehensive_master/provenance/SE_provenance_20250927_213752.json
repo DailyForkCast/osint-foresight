@@ -1,0 +1,20 @@
+{
+  "country": "SE",
+  "harvest_session": {
+    "start_time": "2025-09-27T21:37:52.869462",
+    "end_time": "2025-09-27T21:37:52.869462",
+    "total_operations": 1
+  },
+  "operations_log": [
+    {
+      "timestamp": "2025-09-27T21:37:52.869462",
+      "operation": "HARVEST_SESSION_START",
+      "details": {
+        "country": "SE"
+      }
+    }
+  ],
+  "verification_status": "ALL_DATA_REQUIRES_MANUAL_VERIFICATION",
+  "fabrication_risk": "ZERO_FABRICATION_PROTOCOL_ENFORCED",
+  "usage_warning": "DO NOT USE WITHOUT MANUAL VERIFICATION OF SOURCE DOCUMENTS"
+}

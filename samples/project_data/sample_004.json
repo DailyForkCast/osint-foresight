@@ -1,0 +1,98 @@
+{
+  "original_path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\mcf_enhanced\\phase1_results_20250923_134709.json",
+  "profile": {
+    "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\mcf_enhanced\\phase1_results_20250923_134709.json",
+    "size": 919,
+    "extension": ".json",
+    "encoding": "utf-8",
+    "line_count": 1,
+    "field_count": 7,
+    "parse_status": "success",
+    "schema": {
+      "phase": "string",
+      "name": "string",
+      "timestamp": "string",
+      "collectors": "object",
+      "documents_collected": "number",
+      "high_relevance_count": "number",
+      "errors": "array"
+    },
+    "sample_records": [
+      {
+        "phase": "phase1",
+        "name": "MCF Core Sources (Enhanced)",
+        "timestamp": "2025-09-23T13:14:04.694171",
+        "collectors": {
+          "state_dept": {
+            "source": "state_dept_enhanced",
+            "documents_collected": 0,
+            "documents_saved": 0,
+            "high_relevance": 0,
+            "timestamp": "2025-09-23T13:28:44.777489"
+          },
+          "aspi": {
+            "source": "aspi_selenium",
+            "documents_collected": 0,
+            "documents_saved": 0,
+            "high_relevance": 0,
+            "timestamp": "2025-09-23T13:47:07.013615"
+          },
+          "ndu_cscma": {
+            "documents_collected": 0,
+            "error": "No run_collection method"
+          },
+          "casi": {
+            "documents_collected": 0,
+            "error": "No run_collection method"
+          },
+          "uscc": {
+            "documents_collected": 0,
+            "error": "No run_collection method"
+          }
+        },
+        "documents_collected": 0,
+        "high_relevance_count": 0,
+        "errors": []
+      }
+    ],
+    "modified": "2025-09-23T13:47:09.636813"
+  },
+  "sample_data": [
+    {
+      "phase": "phase1",
+      "name": "MCF Core Sources (Enhanced)",
+      "timestamp": "2025-09-23T13:14:04.694171",
+      "collectors": {
+        "state_dept": {
+          "source": "state_dept_enhanced",
+          "documents_collected": 0,
+          "documents_saved": 0,
+          "high_relevance": 0,
+          "timestamp": "2025-09-23T13:28:44.777489"
+        },
+        "aspi": {
+          "source": "aspi_selenium",
+          "documents_collected": 0,
+          "documents_saved": 0,
+          "high_relevance": 0,
+          "timestamp": "2025-09-23T13:47:07.013615"
+        },
+        "ndu_cscma": {
+          "documents_collected": 0,
+          "error": "No run_collection method"
+        },
+        "casi": {
+          "documents_collected": 0,
+          "error": "No run_collection method"
+        },
+        "uscc": {
+          "documents_collected": 0,
+          "error": "No run_collection method"
+        }
+      },
+      "documents_collected": 0,
+      "high_relevance_count": 0,
+      "errors": []
+    }
+  ]
+}

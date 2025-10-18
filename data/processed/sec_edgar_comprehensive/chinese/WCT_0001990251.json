@@ -1,0 +1,51 @@
+{
+  "cik": "0001990251",
+  "ticker": "WCT",
+  "name": "Wellchange Holdings Co Ltd",
+  "detection_reasons": [
+    "location:china",
+    "offshore:hong kong",
+    "address:mailing",
+    "address:business",
+    "sic:7372"
+  ],
+  "sic": "7372",
+  "sicDescription": "Services-Prepackaged Software",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "852 9815 6485",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "FLAT E, 11/F, BILLION PLAZA 2",
+      "street2": "10 CHEUNG YUE STREET CHEUNG SHA WAN",
+      "city": "HONG KONG",
+      "stateOrCountry": "F4",
+      "zipCode": "000000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "FLAT E, 11/F, BILLION PLAZA 2",
+      "street2": "10 CHEUNG YUE STREET CHEUNG SHA WAN",
+      "city": "HONG KONG",
+      "stateOrCountry": "F4",
+      "zipCode": "000000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-19"
+  },
+  "filings_count": 48
+}

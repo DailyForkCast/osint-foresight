@@ -1,0 +1,44 @@
+{
+  "cik": "0001694426",
+  "ticker": "DK",
+  "name": "Delek US Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2911",
+  "sicDescription": "Petroleum Refining",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "352581557",
+  "phone": "615-771-6701",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "310 SEVEN SPRINGS WAY",
+      "street2": "SUITE 500",
+      "city": "BRENTWOOD",
+      "stateOrCountry": "TN",
+      "zipCode": "37027",
+      "stateOrCountryDescription": "TN",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "310 SEVEN SPRINGS WAY",
+      "street2": "SUITE 500",
+      "city": "BRENTWOOD",
+      "stateOrCountry": "TN",
+      "zipCode": "37027",
+      "stateOrCountryDescription": "TN",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 848
+}

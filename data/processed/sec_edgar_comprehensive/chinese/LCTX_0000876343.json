@@ -1,0 +1,47 @@
+{
+  "cik": "0000876343",
+  "ticker": "LCTX",
+  "name": "Lineage Cell Therapeutics, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2836",
+  "sicDescription": "Biological Products, (No Diagnostic Substances)",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "CA",
+  "ein": "943127919",
+  "phone": "5105213390",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2173 SALK AVENUE",
+      "street2": "SUITE 200",
+      "city": "CARLSBAD",
+      "stateOrCountry": "CA",
+      "zipCode": "92008",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2173 SALK AVENUE",
+      "street2": "SUITE 200",
+      "city": "CARLSBAD",
+      "stateOrCountry": "CA",
+      "zipCode": "92008",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-26"
+  },
+  "filings_count": 1000
+}

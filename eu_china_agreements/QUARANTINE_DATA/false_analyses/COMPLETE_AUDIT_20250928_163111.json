@@ -1,0 +1,281 @@
+{
+  "audit_timestamp": "2025-09-28T16:31:11.097536",
+  "files_processed": 9,
+  "total_raw_results": 14792,
+  "unique_urls": 3465,
+  "duplicates": 11327,
+  "relevant_agreements": 1218,
+  "irrelevant_urls": 2247,
+  "category_counts": {
+    "energy": 66,
+    "climate": 75,
+    "trade": 97,
+    "investment": 95,
+    "bri": 207,
+    "infrastructure": 181,
+    "technology": 39,
+    "university": 26,
+    "government": 34,
+    "sister_city": 9
+  },
+  "sample_relevant": [
+    {
+      "url": "http://www.mzes.uni-mannheim.de/d7/en/projects/cooperation-with-the-institute-for-european-studies-of-the-chinese-academy-of-social-sciences",
+      "categories": []
+    },
+    {
+      "url": "https://arcticnow.com/expert-issues-grave-russia-and-china-warning-over-uks-grounded-1-3b-sub/",
+      "categories": []
+    },
+    {
+      "url": "https://www.eubulletin.com/5906-the-elusive-strategic-eu-china-partnership.html",
+      "categories": []
+    },
+    {
+      "url": "https://www.politico.eu/event/energy-visions-series-eu-china-are-they-the-leading-partnership-to-fight-climate-change/",
+      "categories": [
+        "energy",
+        "climate"
+      ]
+    },
+    {
+      "url": "https://thecorner.eu/news-spain/spain-economy/repsol-signs-an-agreement-with-a-chinese-producer-to-build-three-chemical-plants-in-jiangsu/93400/",
+      "categories": []
+    },
+    {
+      "url": "https://studychina.chinaservicesinfo.com/s/202305/26/WS64700bbc498ea274927bbd31/serbian-yangzhou-universities-to-strengthen-cooperation.html",
+      "categories": []
+    },
+    {
+      "url": "https://www.eurasiareview.com/27082023-security-agreement-could-prompt-chinese-retaliation-against-south-korea-analysis/",
+      "categories": []
+    },
+    {
+      "url": "https://ecfr.eu/podcasts/episode/rogue-nato-the-new-face-of-the-shanghai-cooperation-organisation/",
+      "categories": []
+    },
+    {
+      "url": "https://www.bsr2013.eu/summit-topics/prospects-for-cooperation-between-the-baltic-states-and-china/",
+      "categories": []
+    },
+    {
+      "url": "https://policy.trade.ec.europa.eu/events/csd-eu-china-comprehensive-agreement-investment-cai-2021-01-27_en?prefLang=bg",
+      "categories": [
+        "trade",
+        "investment"
+      ]
+    },
+    {
+      "url": "https://indiaunitedpress.info/world/xis-visit-to-hungary-and-serbia-brings-new-chinese-investment-and-deeper-ties-to-europes-doorstep/",
+      "categories": [
+        "bri",
+        "investment"
+      ]
+    },
+    {
+      "url": "https://dirittovitivinicolo.eu/accordo-ue-giappone-tutela-dop-igp/eu-100-list-of-gis-eu-china-agreement_en/",
+      "categories": []
+    },
+    {
+      "url": "https://climate.ec.europa.eu/eu-action/international-action-climate-change/cooperation-non-eu-countries-regions/china_es",
+      "categories": [
+        "climate"
+      ]
+    },
+    {
+      "url": "https://gl.eureporter.co/frontpage/2020/12/30/eu-china-investment-agreement-anchors-our-values-based-trade-agenda-with-one-of-our-largest-trading-partners-says-dombrovskis/",
+      "categories": [
+        "trade",
+        "infrastructure",
+        "investment"
+      ]
+    },
+    {
+      "url": "https://www.login.amdigital.co.uk/login.aspx?returnUrl=https%3A%2F%2Fwww.chinacultureandsociety.amdigital.co.uk%2FDocuments%2FDetail%2Fthe-rise-and-progress-of-british-opium-smuggling%2F108831&JWTKey=amdigital&JWTdata=chinacultureandsociety&cookiesTesting=true",
+      "categories": [
+        "bri",
+        "technology"
+      ]
+    },
+    {
+      "url": "http://www.allpointsoftware.com/index.php/best-famous-casino-norway-2023-real-money/",
+      "categories": []
+    },
+    {
+      "url": "https://www.pubaffairsbruxelles.eu/eu-institution-news/eu-and-china-reach-agreement-in-principle-on-investment/",
+      "categories": [
+        "investment"
+      ]
+    },
+    {
+      "url": "https://www.kosovodiaspora.org/casino-slots-real-best-deals-for-mr-bet-money-for-the-app-shop/",
+      "categories": []
+    },
+    {
+      "url": "https://ga.eureporter.co/kazakhstan-2/2024/06/10/kazakhstan-china-sign-agreement-for-copper-smelter-construction/",
+      "categories": [
+        "infrastructure"
+      ]
+    },
+    {
+      "url": "http://cabo-deals.com/pin-up-casino-azerbaijan-a-nec-qeydiyyatdan-ketsmk-v-daxil-olmaq-olar-2/",
+      "categories": []
+    },
+    {
+      "url": "https://www.pivotarea.eu/tag/shanghaier-cooperation-organisation/",
+      "categories": []
+    },
+    {
+      "url": "https://www.ids.ac.uk/publications/china-and-african-development-partnership-not-mentoring/",
+      "categories": []
+    },
+    {
+      "url": "https://moderndiplomacy.eu/2021/08/18/china-russian-strategic-partnership-from-continental-to-marine/",
+      "categories": []
+    },
+    {
+      "url": "https://www.eurasiantimes.com/could-us-indonesia-cooperation-end-chinas-growing-aggression-in-the-south-china-sea/embed/",
+      "categories": []
+    },
+    {
+      "url": "https://miningsee.eu/vanadium-resources-secures-off-take-agreement-with-chinese-producer-accelerates-south-african-operations/",
+      "categories": []
+    },
+    {
+      "url": "https://ecfr.eu/article/commentary_a_pragmatic_partnership_why_china_and_iran_try_to_collaborate/",
+      "categories": []
+    },
+    {
+      "url": "https://www.intereconomics.eu/contents/year/2016/number/1/article/europe-and-china-in-the-global-economy-in-the-next-50-years-a-partnership-for-global-peace-and-stabi.html",
+      "categories": []
+    },
+    {
+      "url": "https://www.euro-petrole.com/cheniere-and-petrochina-sign-long-term-lng-sale-and-purchase-agreement-n-i-24202",
+      "categories": []
+    },
+    {
+      "url": "https://ru.eureporter.co/environment/climate-change/2022/08/13/china-will-continue-to-actively-participate-in-international-cooperation-on-climate-change/",
+      "categories": [
+        "infrastructure",
+        "climate"
+      ]
+    },
+    {
+      "url": "https://www.chinaeurope.eu/tag/ministers-of-nordic-cooperation/",
+      "categories": []
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/25/?isdp_publication_series=issue-policy-brief&isdp_region=east-asia%2Csouth-asia&isdp_initiative=stockholm-center-for-south-asian-and-indo-pacific-affairs&isdp_project=aukus%2Cchinas-military-transformation%2Cpacific-islands%2Cregional-security-cooperation-in-east-asia&isdp_issue=conflict-management%2Cdiplomacy%2Cconflict-and-security&isdp_program=asia-program",
+      "categories": [
+        "bri"
+      ]
+    },
+    {
+      "url": "https://isdp.eu/publications-isdp/?isdp_publication_series=journal-article&isdp_region=northeast-asia&isdp_initiative=china-center-isdp&isdp_project=sino-nordic-arctic-policy&isdp_issue=energy-and-resources%2Cgovernance&isdp_program=asia-program",
+      "categories": [
+        "energy"
+      ]
+    },
+    {
+      "url": "https://www.login.amdigital.co.uk/login.aspx?returnUrl=https%3A%2F%2Fwww.chinacultureandsociety.amdigital.co.uk%2FDocuments%2FDetail%2Flecture-on-the-nature-and-structure-of-the-chinese-language-delivered-at-university-college%2F102091&JWTKey=amdigital&JWTdata=chinacultureandsociety&cookiesTesting=true",
+      "categories": [
+        "university",
+        "technology"
+      ]
+    },
+    {
+      "url": "https://www.cardiff.ac.uk/cy/news/view/837929-students-jet-off-to-china-for-international-exchange",
+      "categories": []
+    },
+    {
+      "url": "https://pes.eu.com/renewable-news/praxair-china-signs-agreement-with-evergreen-solar/?pg=9",
+      "categories": [
+        "energy",
+        "climate"
+      ]
+    },
+    {
+      "url": "https://www.postalmuseum.si.edu/exhibition/pacific-exchange-china-and-us-mail-community/community-chinese-in-america",
+      "categories": []
+    },
+    {
+      "url": "https://www.compas.ox.ac.uk/2005/er-2005-knowledge_exchange_diaspora_china_adb/",
+      "categories": []
+    },
+    {
+      "url": "https://arabic.euronews.com/2023/07/08/yellen-stresses-the-importance-of-cooperation-between-beijing-and-washington",
+      "categories": [
+        "trade",
+        "infrastructure"
+      ]
+    },
+    {
+      "url": "https://oceans-and-fisheries.ec.europa.eu/news/eu-and-china-sign-landmark-partnership-oceans-2018-07-16_it",
+      "categories": []
+    },
+    {
+      "url": "https://archive.intereconomics.eu/year/2016/1/europe-and-china-in-the-global-economy-in-the-next-50-years-a-partnership-for-global-peace-and-stabi/",
+      "categories": []
+    },
+    {
+      "url": "https://yi.eureporter.co/kazakhstan-2/2024/06/10/kazakhstan-china-sign-agreement-for-copper-smelter-construction/",
+      "categories": [
+        "infrastructure"
+      ]
+    },
+    {
+      "url": "https://www.bangor.ac.uk/confucius/news/a-flourishing-artistic-collaboration-chinese-ink-brush-painting-masterclass-with",
+      "categories": []
+    },
+    {
+      "url": "https://pes.eu.com/renewable-news/praxair-china-signs-agreement-with-evergreen-solar/?pg=4",
+      "categories": [
+        "energy",
+        "climate"
+      ]
+    },
+    {
+      "url": "https://www.schoenherr.eu/content/serbia-schoenherr-advises-cwp-europe-on-partnership-with-powerchina-resources-for-300-mw-vetrozelena-wind-farm",
+      "categories": []
+    },
+    {
+      "url": "https://www.vukuzenzele.gov.za/sa-chinese-cooperation-agreement-boosts-education",
+      "categories": []
+    },
+    {
+      "url": "https://oldpostbooks.com/art/global-times-cultural-center-bridges-chinese-serbian-peoples-breeds-friendship/",
+      "categories": [
+        "bri",
+        "infrastructure"
+      ]
+    },
+    {
+      "url": "https://www.government.is/topics/foreign-affairs/external-trade/free-trade-agreements/free-trade-agreement-between-iceland-and-china/",
+      "categories": [
+        "government",
+        "trade"
+      ]
+    },
+    {
+      "url": "https://cordmagazine.com/news/ambassador-li-ming-china-emerges-as-serbias-main-source-of-foreign-investment/",
+      "categories": [
+        "investment"
+      ]
+    },
+    {
+      "url": "https://www.eurocontinent.eu/uzbekistan-and-the-shanghai-cooperation-organization-sco-contributing-to-eurasian-and-global-geopolitical-stability/",
+      "categories": []
+    },
+    {
+      "url": "https://www.kosovodiaspora.org/spend-because-of-the-double-bubble-slot-no-deposit-cellular-telephone-casino-british/",
+      "categories": [
+        "bri"
+      ]
+    }
+  ],
+  "breakdown": {
+    "china_only": 1982,
+    "europe_only": 147,
+    "neither": 118
+  }
+}

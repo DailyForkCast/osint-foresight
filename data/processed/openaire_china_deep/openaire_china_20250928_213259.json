@@ -1,0 +1,47 @@
+{
+  "extraction_date": "2025-09-28T21:32:59.901131",
+  "total_projects": 2,
+  "high_risk_projects": 0,
+  "total_funding": 0,
+  "top_funders": [
+    [
+      "",
+      0
+    ]
+  ],
+  "top_technologies": [],
+  "projects": [
+    {
+      "id": "",
+      "title": "",
+      "acronym": "",
+      "start_date": "",
+      "end_date": "",
+      "funding": {
+        "amount": 0,
+        "currency": "EUR",
+        "funder": ""
+      },
+      "participants": [],
+      "keywords": [],
+      "china_entities": [],
+      "risk_level": "LOW"
+    },
+    {
+      "id": "",
+      "title": "",
+      "acronym": "",
+      "start_date": "",
+      "end_date": "",
+      "funding": {
+        "amount": 0,
+        "currency": "EUR",
+        "funder": ""
+      },
+      "participants": [],
+      "keywords": [],
+      "china_entities": [],
+      "risk_level": "LOW"
+    }
+  ]
+}

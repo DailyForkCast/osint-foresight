@@ -1,0 +1,52 @@
+{
+  "cik": "0001803407",
+  "ticker": "OST",
+  "name": "Ostin Technology Group Co., Ltd.",
+  "detection_reasons": [
+    "location:china",
+    "location:jiangsu",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "3679",
+  "sicDescription": "Electronic Components, NEC",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "8602558595234",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ROOM 101 BUILDING 2 KECHUANG ROAD 1",
+      "street2": "QIXIA DISTRICT",
+      "city": "NANJIANG JIANGSU",
+      "stateOrCountry": "F4",
+      "zipCode": "231300",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "ROOM 101 BUILDING 2 KECHUANG ROAD 1",
+      "street2": "QIXIA DISTRICT",
+      "city": "NANJIANG JIANGSU",
+      "stateOrCountry": "F4",
+      "zipCode": "231300",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-06"
+  },
+  "filings_count": 124
+}

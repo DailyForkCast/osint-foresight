@@ -1,0 +1,48 @@
+{
+  "cik": "0001050606",
+  "ticker": "SALM",
+  "name": "SALEM MEDIA GROUP, INC. /DE/",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:bm"
+  ],
+  "sic": "4832",
+  "sicDescription": "Radio Broadcasting Stations",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "770121400",
+  "phone": "8059870400",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "6400 NORTH BELT LINE ROAD",
+      "street2": null,
+      "city": "IRVING",
+      "stateOrCountry": "TX",
+      "zipCode": "75063",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "6400 NORTH BELT LINE ROAD",
+      "street2": null,
+      "city": "IRVING",
+      "stateOrCountry": "TX",
+      "zipCode": "75063",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2024-01-25"
+  },
+  "filings_count": 1000
+}

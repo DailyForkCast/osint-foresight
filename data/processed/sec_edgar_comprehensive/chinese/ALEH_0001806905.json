@@ -1,0 +1,47 @@
+{
+  "cik": "0001806905",
+  "ticker": "ALEH",
+  "name": "ALE Group Holding Ltd",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "8742",
+  "sicDescription": "Services-Management Consulting Services",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "D8",
+  "ein": "000000000",
+  "phone": "852 3620 2688",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT 1005, 10/F, TOWER A",
+      "street2": "NEW MANDARIN PLAZA,14 SCIENCE MUSEUM RD.",
+      "city": "KOWLOON",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "UNIT 1005, 10/F, TOWER A",
+      "street2": "NEW MANDARIN PLAZA,14 SCIENCE MUSEUM RD.",
+      "city": "KOWLOON",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "20-F",
+    "date": "2025-08-15"
+  },
+  "filings_count": 87
+}

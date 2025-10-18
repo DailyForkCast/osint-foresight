@@ -1,0 +1,47 @@
+{
+  "cik": "0001031203",
+  "ticker": "GPI",
+  "name": "GROUP 1 AUTOMOTIVE INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5500",
+  "sicDescription": "Retail-Auto Dealers & Gasoline Stations",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "760506313",
+  "phone": "713-647-5700",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "730 TOWN & COUNTRY BOULEVARD",
+      "street2": "SUITE 500",
+      "city": "HOUSTON",
+      "stateOrCountry": "TX",
+      "zipCode": "77024",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "730 TOWN & COUNTRY BOULEVARD",
+      "street2": "SUITE 500",
+      "city": "HOUSTON",
+      "stateOrCountry": "TX",
+      "zipCode": "77024",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-13"
+  },
+  "filings_count": 1000
+}

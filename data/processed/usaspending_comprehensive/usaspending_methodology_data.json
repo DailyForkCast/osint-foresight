@@ -1,0 +1,453 @@
+{
+  "metadata": {
+    "generated": "2025-09-21T17:24:10.241854",
+    "status": "methodology_demonstration",
+    "framework": "OSINT Foresight Multi-Country",
+    "scope": "EU 27+3 + China + US"
+  },
+  "methodology": {
+    "priority_countries": {
+      "HU": {
+        "name": "Hungary",
+        "tier": 1,
+        "notes": "17+1 format leader, unrestricted Chinese access"
+      },
+      "GR": {
+        "name": "Greece",
+        "tier": 1,
+        "notes": "COSCO port control, BRI gateway to EU"
+      },
+      "IT": {
+        "name": "Italy",
+        "tier": 2,
+        "notes": "G7 country in BRI, Leonardo defense concerns"
+      },
+      "PL": {
+        "name": "Poland",
+        "tier": 2,
+        "notes": "Central Europe pivot, 5G battleground"
+      },
+      "PT": {
+        "name": "Portugal",
+        "tier": 2,
+        "notes": "Strategic Atlantic position"
+      },
+      "CZ": {
+        "name": "Czech Republic",
+        "tier": 2,
+        "notes": "Former pro-China, recent restrictions"
+      },
+      "DE": {
+        "name": "Germany",
+        "tier": 3,
+        "notes": "Target despite restrictions"
+      },
+      "FR": {
+        "name": "France",
+        "tier": 3,
+        "notes": "EU leader, technology transfer concerns"
+      },
+      "ES": {
+        "name": "Spain",
+        "tier": 3,
+        "notes": "Growing Chinese presence"
+      },
+      "NL": {
+        "name": "Netherlands",
+        "tier": 3,
+        "notes": "ASML semiconductor equipment"
+      },
+      "CN": {
+        "name": "China",
+        "tier": 0,
+        "notes": "Primary target"
+      },
+      "US": {
+        "name": "United States",
+        "tier": 0,
+        "notes": "Domestic analysis"
+      }
+    },
+    "china_patterns": {
+      "companies": [
+        "huawei",
+        "zte",
+        "lenovo",
+        "xiaomi",
+        "alibaba",
+        "tencent",
+        "baidu",
+        "dji",
+        "hikvision",
+        "dahua",
+        "bgi",
+        "bytedance",
+        "smic",
+        "byd",
+        "sensetime",
+        "megvii",
+        "cambricon"
+      ],
+      "geographic": [
+        "beijing",
+        "shanghai",
+        "shenzhen",
+        "guangzhou",
+        "hong kong",
+        "china",
+        "chinese",
+        "prc",
+        "peoples republic"
+      ],
+      "subsidiaries": [
+        "sino-",
+        "china-",
+        "zh-",
+        "cn-",
+        "hk-"
+      ]
+    },
+    "eu_patterns": {
+      "IT": [
+        "leonardo",
+        "finmeccanica",
+        "fiat",
+        "eni",
+        "telecom italia"
+      ],
+      "DE": [
+        "siemens",
+        "sap",
+        "bmw",
+        "mercedes",
+        "bosch",
+        "airbus",
+        "rheinmetall"
+      ],
+      "FR": [
+        "thales",
+        "dassault",
+        "safran",
+        "airbus",
+        "total",
+        "orange"
+      ],
+      "ES": [
+        "indra",
+        "telefonica",
+        "repsol"
+      ],
+      "NL": [
+        "philips",
+        "shell",
+        "asml"
+      ],
+      "HU": [
+        "hungary",
+        "hungarian",
+        "budapest"
+      ],
+      "GR": [
+        "greece",
+        "greek",
+        "athens"
+      ],
+      "PL": [
+        "poland",
+        "polish",
+        "warsaw"
+      ],
+      "PT": [
+        "portugal",
+        "portuguese",
+        "lisbon"
+      ],
+      "CZ": [
+        "czech",
+        "prague"
+      ]
+    },
+    "tech_keywords": {
+      "semiconductors": [
+        "semiconductor",
+        "chip",
+        "microprocessor",
+        "asml",
+        "lithography"
+      ],
+      "ai_ml": [
+        "artificial intelligence",
+        "machine learning",
+        "neural network"
+      ],
+      "quantum": [
+        "quantum computing",
+        "quantum",
+        "qubit"
+      ],
+      "5g_6g": [
+        "5g",
+        "6g",
+        "wireless",
+        "telecommunications"
+      ],
+      "defense": [
+        "radar",
+        "missile",
+        "defense",
+        "military",
+        "naval"
+      ],
+      "cyber": [
+        "cybersecurity",
+        "encryption",
+        "cryptography"
+      ],
+      "space": [
+        "satellite",
+        "spacecraft",
+        "launch vehicle"
+      ],
+      "energy": [
+        "battery",
+        "solar",
+        "renewable energy",
+        "smart grid"
+      ]
+    }
+  },
+  "demonstration_results": {
+    "total_demonstration_contracts": 9,
+    "analyzed_matches": 9,
+    "countries_identified": [
+      "IT",
+      "DE",
+      "FR",
+      "CN",
+      "HU",
+      "NL"
+    ],
+    "technologies_identified": [
+      "semiconductors",
+      "defense",
+      "energy",
+      "5g_6g",
+      "cyber"
+    ],
+    "high_risk_contracts": 0,
+    "china_connected": 2
+  },
+  "statistics": {
+    "IT": {
+      "contracts": 2,
+      "total_value": 120000000.0
+    },
+    "technologies": {
+      "defense": 3,
+      "energy": 2,
+      "cyber": 2,
+      "semiconductors": 1,
+      "5g_6g": 1
+    },
+    "DE": {
+      "contracts": 2,
+      "total_value": 60000000.0
+    },
+    "NL": {
+      "contracts": 1,
+      "total_value": 85000000.0
+    },
+    "FR": {
+      "contracts": 1,
+      "total_value": 67000000.0
+    },
+    "HU": {
+      "contracts": 1,
+      "total_value": 5500000.0
+    },
+    "CN": {
+      "contracts": 2,
+      "total_value": 23200000.0
+    }
+  },
+  "sample_matches": [
+    {
+      "award_id": "DEMO_IT_001",
+      "recipient_name": "Leonardo DRS Technologies Inc.",
+      "amount": 75000000.0,
+      "agency": "Department of Defense",
+      "description": "Advanced radar systems and electronic warfare capabilities for naval platforms",
+      "action_date": "2023-06-15",
+      "country_connections": [
+        "IT"
+      ],
+      "technology_categories": [
+        "defense"
+      ],
+      "risk_assessment": "low",
+      "place_of_performance": "Arlington, VA",
+      "evidence": [
+        "IT pattern: leonardo",
+        "Technology: defense"
+      ]
+    },
+    {
+      "award_id": "DEMO_IT_002",
+      "recipient_name": "Leonardo S.p.A - US Division",
+      "amount": 45000000.0,
+      "agency": "Department of the Navy",
+      "description": "Helicopter sustainment and maintenance services",
+      "action_date": "2023-08-22",
+      "country_connections": [
+        "IT"
+      ],
+      "technology_categories": [],
+      "risk_assessment": "low",
+      "place_of_performance": "Philadelphia, PA",
+      "evidence": [
+        "IT pattern: leonardo"
+      ]
+    },
+    {
+      "award_id": "DEMO_DE_001",
+      "recipient_name": "Siemens Government Technologies Inc.",
+      "amount": 32000000.0,
+      "agency": "Department of Energy",
+      "description": "Smart grid infrastructure and cybersecurity systems",
+      "action_date": "2023-09-10",
+      "country_connections": [
+        "DE"
+      ],
+      "technology_categories": [
+        "energy",
+        "cyber"
+      ],
+      "risk_assessment": "low",
+      "place_of_performance": "Princeton, NJ",
+      "evidence": [
+        "DE pattern: siemens",
+        "Technology: cyber",
+        "Technology: energy"
+      ]
+    },
+    {
+      "award_id": "DEMO_DE_002",
+      "recipient_name": "Rheinmetall Defense USA",
+      "amount": 28000000.0,
+      "agency": "Department of Defense",
+      "description": "Active protection systems for armored vehicles",
+      "action_date": "2023-11-05",
+      "country_connections": [
+        "DE"
+      ],
+      "technology_categories": [
+        "defense"
+      ],
+      "risk_assessment": "low",
+      "place_of_performance": "Huntsville, AL",
+      "evidence": [
+        "DE pattern: rheinmetall",
+        "Technology: defense"
+      ]
+    },
+    {
+      "award_id": "DEMO_NL_001",
+      "recipient_name": "ASML US Inc.",
+      "amount": 85000000.0,
+      "agency": "National Science Foundation",
+      "description": "Advanced semiconductor lithography equipment for national research initiatives",
+      "action_date": "2023-07-20",
+      "country_connections": [
+        "NL"
+      ],
+      "technology_categories": [
+        "semiconductors"
+      ],
+      "risk_assessment": "low",
+      "place_of_performance": "Wilton, CT",
+      "evidence": [
+        "NL pattern: asml",
+        "Technology: semiconductors"
+      ]
+    },
+    {
+      "award_id": "DEMO_FR_001",
+      "recipient_name": "Thales Defense & Security Inc.",
+      "amount": 67000000.0,
+      "agency": "Department of Homeland Security",
+      "description": "Cybersecurity and communications systems for critical infrastructure",
+      "action_date": "2023-10-15",
+      "country_connections": [
+        "FR"
+      ],
+      "technology_categories": [
+        "defense",
+        "cyber"
+      ],
+      "risk_assessment": "low",
+      "place_of_performance": "Clarksburg, MD",
+      "evidence": [
+        "FR pattern: thales",
+        "Technology: defense",
+        "Technology: cyber"
+      ]
+    },
+    {
+      "award_id": "DEMO_HU_001",
+      "recipient_name": "Hungarian Research Solutions LLC",
+      "amount": 5500000.0,
+      "agency": "Department of Energy",
+      "description": "Research collaboration on renewable energy storage systems",
+      "action_date": "2023-12-08",
+      "country_connections": [
+        "HU"
+      ],
+      "technology_categories": [
+        "energy"
+      ],
+      "risk_assessment": "low",
+      "place_of_performance": "Berkeley, CA",
+      "evidence": [
+        "HU pattern: hungarian",
+        "Technology: energy"
+      ]
+    },
+    {
+      "award_id": "DEMO_CN_001",
+      "recipient_name": "Sino-American Technology Solutions",
+      "amount": 15000000.0,
+      "agency": "Department of Commerce",
+      "description": "Telecommunications equipment research and development",
+      "action_date": "2023-05-30",
+      "country_connections": [
+        "CN"
+      ],
+      "technology_categories": [
+        "5g_6g"
+      ],
+      "risk_assessment": "medium",
+      "place_of_performance": "San Jose, CA",
+      "evidence": [
+        "China pattern: sino- (subsidiaries)",
+        "Technology: 5g_6g"
+      ]
+    },
+    {
+      "award_id": "DEMO_CN_002",
+      "recipient_name": "Beijing Innovation Corp USA",
+      "amount": 8200000.0,
+      "agency": "National Institutes of Health",
+      "description": "Biotechnology research for genomics applications",
+      "action_date": "2023-09-25",
+      "country_connections": [
+        "CN"
+      ],
+      "technology_categories": [],
+      "risk_assessment": "medium",
+      "place_of_performance": "Boston, MA",
+      "evidence": [
+        "China pattern: beijing (geographic)"
+      ]
+    }
+  ]
+}

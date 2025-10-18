@@ -1,0 +1,106 @@
+{
+  "comprehensive_agreement_types": {
+    "bilateral_treaties": [
+      "bilateral treaty", "bilateral agreement", "treaty", "convention", "protocol"
+    ],
+    "mous_partnerships": [
+      "memorandum of understanding", "MoU", "MOU", "memorandum", "partnership agreement",
+      "cooperation agreement", "framework agreement", "strategic partnership"
+    ],
+    "sister_city_agreements": [
+      "sister city", "twin city", "sister cities", "city partnership", "municipal cooperation",
+      "town twinning", "sister town", "friendship city", "urban cooperation"
+    ],
+    "academic_partnerships": [
+      "academic cooperation", "university partnership", "education agreement",
+      "research cooperation", "academic exchange", "student exchange", "faculty exchange",
+      "joint degree", "double degree", "academic memorandum", "research collaboration"
+    ],
+    "science_tech_agreements": [
+      "science and technology", "S&T agreement", "technology cooperation",
+      "research and development", "R&D cooperation", "innovation partnership",
+      "technology transfer", "joint research", "scientific cooperation",
+      "technological collaboration", "innovation agreement"
+    ],
+    "economic_agreements": [
+      "economic cooperation", "trade agreement", "investment agreement",
+      "commercial agreement", "business cooperation", "economic partnership",
+      "trade promotion", "investment promotion", "economic framework"
+    ],
+    "cultural_agreements": [
+      "cultural cooperation", "cultural exchange", "cultural agreement",
+      "arts cooperation", "language cooperation", "cultural partnership",
+      "cultural dialogue", "people-to-people exchange"
+    ],
+    "infrastructure_agreements": [
+      "infrastructure cooperation", "Belt and Road", "BRI", "connectivity agreement",
+      "transport cooperation", "logistics agreement", "infrastructure development",
+      "construction cooperation", "engineering cooperation"
+    ],
+    "government_agreements": [
+      "government cooperation", "official agreement", "state agreement",
+      "ministerial agreement", "diplomatic agreement", "official memorandum",
+      "intergovernmental", "cabinet agreement", "ministry cooperation"
+    ]
+  },
+
+  "multilingual_terms": {
+    "chinese_terms": [
+      "协议", "合作协议", "谅解备忘录", "伙伴关系", "合作", "友好城市",
+      "姐妹城市", "学术合作", "科技合作", "教育合作", "文化合作",
+      "经济合作", "贸易协议", "投资协议", "一带一路", "政府间协议"
+    ],
+    "european_common_terms": {
+      "french": [
+        "accord", "accord bilatéral", "mémorandum", "coopération", "partenariat",
+        "ville jumelée", "jumelage", "coopération universitaire", "échange académique",
+        "coopération scientifique", "accord économique", "coopération culturelle"
+      ],
+      "german": [
+        "Abkommen", "Vereinbarung", "Kooperationsabkommen", "Partnerschaft",
+        "Städtepartnerschaft", "Zusammenarbeit", "Hochschulkooperation",
+        "wissenschaftliche Zusammenarbeit", "Wirtschaftsabkommen", "Kulturaustausch"
+      ],
+      "italian": [
+        "accordo", "intesa", "memorandum", "cooperazione", "partenariato",
+        "gemellaggio", "città gemelle", "cooperazione universitaria",
+        "cooperazione scientifica", "accordo economico", "cooperazione culturale"
+      ],
+      "spanish": [
+        "acuerdo", "convenio", "memorándum", "cooperación", "asociación",
+        "hermanamiento", "ciudades hermanas", "cooperación universitaria",
+        "cooperación científica", "acuerdo económico", "cooperación cultural"
+      ],
+      "polish": [
+        "umowa", "porozumienie", "współpraca", "partnerstwo", "miasta partnerskie",
+        "współpraca uniwersytecka", "współpraca naukowa", "umowa gospodarcza",
+        "współpraca kulturalna"
+      ]
+    }
+  },
+
+  "search_strategies": {
+    "official_sources": [
+      "site:gov.*", "site:mfa.*", "site:president.*", "site:parliament.*",
+      "site:diplo*", "site:foreign*", "site:ministry*"
+    ],
+    "academic_sources": [
+      "site:edu", "site:ac.*", "site:univ*", "site:university*"
+    ],
+    "municipal_sources": [
+      "site:city.*", "site:town.*", "site:commune.*", "site:municipality.*"
+    ],
+    "search_operators": [
+      "\"agreement with China\"", "\"cooperation with China\"",
+      "\"China partnership\"", "\"Chinese cooperation\"",
+      "filetype:pdf", "filetype:doc", "filetype:docx"
+    ]
+  },
+
+  "expanded_source_limits": {
+    "major_countries": 50,
+    "medium_countries": 30,
+    "small_countries": 20,
+    "total_search_depth": "comprehensive"
+  }
+}

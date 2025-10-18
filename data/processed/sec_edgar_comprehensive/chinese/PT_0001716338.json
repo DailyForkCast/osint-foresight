@@ -1,0 +1,52 @@
+{
+  "cik": "0001716338",
+  "ticker": "PT",
+  "name": "Pintec Technology Holdings Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:beijing",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "7370",
+  "sicDescription": "Services-Computer Programming, Data Processing, Etc.",
+  "category": "Non-accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86 1085643600",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3RD FLOOR, NO.11 BUILDING",
+      "street2": "NO.109 YARD TIANJIZHIGU, JINGHAI 3RD ST",
+      "city": "BDA, BEIJING",
+      "stateOrCountry": "F4",
+      "zipCode": "100000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3RD FLOOR, NO.11 BUILDING",
+      "street2": "NO.109 YARD TIANJIZHIGU, JINGHAI 3RD ST",
+      "city": "BDA, BEIJING",
+      "stateOrCountry": "F4",
+      "zipCode": "100000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-19"
+  },
+  "filings_count": 134
+}

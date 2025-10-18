@@ -1,0 +1,47 @@
+{
+  "cik": "0001759655",
+  "ticker": "PRVA",
+  "name": "Privia Health Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "8000",
+  "sicDescription": "Services-Health Services",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "571-366-8850",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "950 N. GLEBE RD., SUITE 700",
+      "street2": null,
+      "city": "ARLINGTON",
+      "stateOrCountry": "VA",
+      "zipCode": "22203",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "950 N. GLEBE RD., SUITE 700",
+      "street2": null,
+      "city": "ARLINGTON",
+      "stateOrCountry": "VA",
+      "zipCode": "22203",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-23"
+  },
+  "filings_count": 509
+}

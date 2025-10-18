@@ -1,0 +1,47 @@
+{
+  "cik": "0000051644",
+  "ticker": "IPG",
+  "name": "INTERPUBLIC GROUP OF COMPANIES, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7311",
+  "sicDescription": "Services-Advertising Agencies",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "131024020",
+  "phone": "212-704-1200",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "909 THIRD AVENUE",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10022",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "909 THIRD AVENUE",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10022",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-09"
+  },
+  "filings_count": 1001
+}

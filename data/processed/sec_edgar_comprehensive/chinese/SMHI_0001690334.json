@@ -1,0 +1,47 @@
+{
+  "cik": "0001690334",
+  "ticker": "SMHI",
+  "name": "SEACOR Marine Holdings Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "4412",
+  "sicDescription": "Deep Sea Foreign Transportation of  Freight",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "472564547",
+  "phone": "9858765400",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "12121 WICKCHESTER LANE",
+      "street2": "SUITE 500",
+      "city": "HOUSTON",
+      "stateOrCountry": "TX",
+      "zipCode": "77079",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "12121 WICKCHESTER LANE",
+      "street2": "SUITE 500",
+      "city": "HOUSTON",
+      "stateOrCountry": "TX",
+      "zipCode": "77079",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-09"
+  },
+  "filings_count": 518
+}

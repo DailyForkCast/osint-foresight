@@ -1,0 +1,126 @@
+<html lang="it"><head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="/sr/favicon.ico">
+<link rel="stylesheet" href="/sr/jquery-ui/jquery-ui.min.css">
+<link rel="stylesheet" type="text/css" href="https://static.cineca.it/jd/npm/jgrowl@1.4.9/jquery.jgrowl.min.css">
+<link rel="stylesheet" href="https://static.cineca.it/jd/npm/select2@4.0.13/dist/css/select2.min.css">
+<link rel="stylesheet" href="https://static.cineca.it/jd/npm/select2-bootstrap-5-theme@1.1.1/dist/select2-bootstrap-5-theme.min.css">
+<link rel="stylesheet" href="/sr/cineca/css/bootstrap-ricerca.min.css">
+<link rel="stylesheet" href="/sr/local.css"><title>L'Accordo Comprensivo sugli Investimenti tra Unione Europea e Cina (CAI): origine, sviluppi e declino.</title>
+	<script src="https://static.cineca.it/jd/npm/jquery@3.7.1/dist/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/sr/jquery-ui/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/sr/jquery-ui-i18n/jquery.ui.datepicker-it.latest.js" charset="utf-8"></script>
+<script src="https://static.cineca.it/jd/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script src="https://static.cineca.it/jd/npm/jgrowl@1.4.9/jquery.jgrowl.min.js"></script>
+<script src="https://static.cineca.it/jd/npm/select2@4.0.13/dist/js/select2.full.min.js"></script>
+<script src="https://static.cineca.it/jd/npm/blueimp-tmpl@3.20.0/js/tmpl.min.js"></script><script type="text/javascript" src="/sr/jquery/js/jquery.displaytag-ajax-1.2.js"></script>
+<script src="https://static.cineca.it/jd/npm/js-cookie@3.0.5/dist/js.cookie.min.js" integrity="sha256-WCzAhd2P6gRJF9Hv3oOOd+hFJi/QJbv+Azn4CGB8gfY=" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+	var JQ = $;
+	var j = $;
+</script>
+<script type="text/javascript">
+</script>
+<script type="text/javascript" src="/sr/cineca/js/cilea.js?fwkVersion=25.9.2.2"></script>
+<script type="text/javascript" src="/sr/cineca/js/fragment.js?fwkVersion=25.9.2.2"></script>
+<script type="text/javascript" src="/sr/cineca/js/treeview.js?fwkVersion=25.9.2.2"></script>
+<script type="text/javascript" src="/sr/cineca/js/ap-tool.js?fwkVersion=25.9.2.2"></script>
+</head><body><span style="display:none;" id="rememberToSaveText">Attenzione: i dati modificati non sono ancora stati salvati. Per confermare inserimenti o cancellazioni di voci è necessario confermare con il tasto SALVA/INSERISCI in fondo alla pagina</span>
+<script type="text/javascript" src="/sr/cineca/js/print.js?fwkVersion=25.9.2.2"></script>
+<script type="text/javascript" src="/sr/cineca/js/widget.js?fwkVersion=25.9.2.2"></script>
+<script type="text/javascript" src="/sr/cineca/js/layout.js?fwkVersion=25.9.2.2"></script>
+
+
+
+
+<script type="text/javascript">
+	var authenticatedPersonId='';
+	var authenticatedUser=false;
+</script>
+<script type="text/javascript" src="https://unitesi.unive.it/static/js/utils.js"></script>
+	<script type="text/javascript" src="https://unitesi.unive.it/static/js/choice-support.js"></script>
+<script type="text/javascript">
+				j(document).ready(function() {
+					j('body').on('change','#itemxpage', function() {
+						var dspaceObjectId = $('#dspaceObjectId').val();
+						if (dspaceObjectId != null && dspaceObjectId != '') {
+							$('#modal_display_item').modal('toggle');
+							showEventLog(dspaceObjectId, '1', this.value);
+						}
+					});
+					j('body').on('click',"#modal_display_item .pagination li:not('.active') .page-link", function(event) {
+						var pagesize = $('#itemxpage').val();
+						var dspaceObjectId = $('#dspaceObjectId').val();
+						var url = new URL(this.href);
+						var page = url.searchParams.get("page");
+						if (page == null || isNaN(page)){
+							page = 1;
+						}
+						if (dspaceObjectId != null && dspaceObjectId != '') {
+							$('#modal_display_item').modal('toggle');
+							showEventLog(dspaceObjectId,page, pagesize);
+						}
+						return false;
+					});
+				});
+				function showEventLog(dsoId, page, pagesize) {
+					   var url = "/dspaceObjectEventLog/widgetSearch.modal";
+					jQuery.ajax({
+						url: url,
+						method: 'GET',
+						data: {dspaceObjectId: dsoId, posting: 1, modalSize: 'xlarge', page: page, pageSize: pagesize},
+						success: function(data) {
+			                var $modal = $(data);
+			                $modal.attr('id','modal_display_item');
+							$('body').append($modal);
+							var myModal = new bootstrap.Modal(document.getElementById('modal_display_item'), {backdrop: true});
+							myModal.show();
+			                $modal.filter('.modal').on('hidden.bs.modal', function(){
+			                	$modal.remove();
+							});
+
+						}
+					});
+				}
+				</script>
+<script type"text="" javascript"="">
+$(document).ready(function() {
+	checkMoreless();
+});
+function checkMoreless() {
+	if($('.moreless-more').length) {
+		var more = $('<a class="btn-link"></a>').html('&nbsp;espandi');
+		more.click(function(){
+			var moretext = $(this).next('.moreless-more');
+			var lesstext = $(this).prev('.moreless-fixed');
+			lesstext.html(lesstext.html().substring(0, lesstext.html().length-3));
+			moretext.toggleClass('hide');
+			$(this).toggleClass('hide');
+			var less = $('<a class="btn-link"></a>').html('&nbsp;comprimi');
+			less.click(function(){
+				var moretext = $(this).prev('.moreless-more');
+				moretext.toggleClass('hide');
+				$(this).toggleClass('hide');
+				moretext.prev('a').toggleClass('hide');
+				var elements = document.getElementsByTagName('span');
+				for (var i = 0; i < elements.length; i++) {
+					if((elements[i].className).indexOf('moreless-fixed') > -1) {
+						if(elements[i].innerHTML.indexOf('...') == -1){
+							elements[i].innerHTML=elements[i].innerHTML+'...';
+						}
+					}
+				}
+			});
+			moretext.after(less);
+		});
+		$('.moreless-more').before(more);
+		$('.moreless-more').toggleClass('hide');
+
+	}
+}
+</script><script>
+      window.customCookieJsonConfigPath='/sr/cookie-config.json';
+    </script>
+	<script src="https://static.iu.cineca.it/v1/default.js"></script></body></html>

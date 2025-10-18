@@ -1,0 +1,223 @@
+{
+  "provenance_schema": {
+    "version": "1.0",
+    "created": "2025-09-19",
+    "purpose": "MCF intelligence provenance tracking"
+  },
+  "required_fields": {
+    "document_metadata": [
+      "source_id",
+      "document_type",
+      "publication_date",
+      "capture_date",
+      "url",
+      "title"
+    ],
+    "content_hashing": [
+      "pdf_sha256",
+      "html_sha256",
+      "content_hash"
+    ],
+    "attribution": [
+      "authors",
+      "author_affiliations",
+      "sponsoring_organization",
+      "series_name",
+      "report_number"
+    ],
+    "mcf_signals": [
+      "mcf_relevance_score",
+      "mcf_keywords_found",
+      "entities_mentioned",
+      "technologies_discussed",
+      "policy_instruments"
+    ]
+  },
+  "document_types": {
+    "report": {
+      "priority": "high",
+      "preserve": ["pdf", "html", "annexes"],
+      "extract": ["executive_summary", "methodology", "data_tables"]
+    },
+    "testimony": {
+      "priority": "high",
+      "preserve": ["transcript", "slides", "witness_bio"],
+      "extract": ["witness_affiliation", "key_statements"]
+    },
+    "translation": {
+      "priority": "highest",
+      "preserve": ["original_source", "translation", "translator_notes"],
+      "extract": ["source_document_ref", "translation_date"]
+    },
+    "dataset": {
+      "priority": "highest",
+      "preserve": ["csv", "json", "methodology"],
+      "extract": ["doi", "version", "update_frequency"]
+    },
+    "brief": {
+      "priority": "medium",
+      "preserve": ["html", "pdf"],
+      "extract": ["key_points", "sources_cited"]
+    },
+    "tracker": {
+      "priority": "highest",
+      "preserve": ["current_snapshot", "changelog"],
+      "extract": ["entities_tracked", "update_date"]
+    }
+  },
+  "entity_categories": {
+    "chinese_companies": {
+      "priority_entities": [
+        "AVIC", "AECC", "NORINCO", "CETC", "CSSC", "CSIC",
+        "Huawei", "ZTE", "SMIC", "YMTC", "CXMT", "BOE"
+      ],
+      "attributes": ["chinese_name", "english_name", "aliases", "subsidiaries"]
+    },
+    "research_institutes": {
+      "priority_entities": [
+        "CAS", "CASC", "CASIC", "NUDT", "BIT", "HIT"
+      ],
+      "attributes": ["full_name", "abbreviation", "focus_areas"]
+    },
+    "government_bodies": {
+      "priority_entities": [
+        "MIIT", "SASAC", "MOST", "NDRC", "CMC", "SASTIND"
+      ],
+      "attributes": ["full_name", "role", "policy_areas"]
+    },
+    "programs": {
+      "priority_entities": [
+        "Made in China 2025", "Thousand Talents", "863 Program",
+        "973 Program", "National IC Fund", "Military-Civil Fusion"
+      ],
+      "attributes": ["launch_date", "objectives", "funding"]
+    }
+  },
+  "source_specific_provenance": {
+    "ndu_cscma": {
+      "special_fields": ["series_id", "ndu_publication_number"],
+      "archive_priority": "high",
+      "notes": "Capture Digital Commons metadata"
+    },
+    "casi": {
+      "special_fields": ["original_pla_source", "translation_quality"],
+      "archive_priority": "highest",
+      "notes": "Preserve bilingual versions"
+    },
+    "uscc": {
+      "special_fields": ["hearing_date", "witness_list", "chapter_number"],
+      "archive_priority": "high",
+      "notes": "Extract company names from testimony"
+    },
+    "cset": {
+      "special_fields": ["dataset_doi", "zenodo_link", "github_repo"],
+      "archive_priority": "highest",
+      "notes": "Version all datasets"
+    },
+    "aspi": {
+      "special_fields": ["tracker_version", "methodology_doc"],
+      "archive_priority": "highest",
+      "notes": "Save CSV exports"
+    },
+    "merics": {
+      "special_fields": ["chinese_sources_cited", "policy_timeline"],
+      "archive_priority": "high",
+      "notes": "Capture dataset appendices"
+    },
+    "state_mcf": {
+      "special_fields": ["advisory_number", "bureau", "risk_level"],
+      "archive_priority": "highest",
+      "notes": "Archive all advisories immediately"
+    },
+    "rand": {
+      "special_fields": ["sponsor", "contract_number", "classification"],
+      "archive_priority": "high",
+      "notes": "Note page ranges for long PDFs"
+    },
+    "foi": {
+      "special_fields": ["isbn", "foi_report_number"],
+      "archive_priority": "medium",
+      "notes": "Swedish and English versions"
+    },
+    "crs": {
+      "special_fields": ["crs_code", "update_history", "distribution"],
+      "archive_priority": "high",
+      "notes": "Track revision history"
+    }
+  },
+  "extraction_rules": {
+    "pdf_metadata": {
+      "extract": ["title", "author", "subject", "keywords", "creator", "producer"],
+      "hash": "sha256"
+    },
+    "html_content": {
+      "extract": ["meta_tags", "schema_org", "dublin_core"],
+      "preserve": ["original_formatting", "embedded_data"]
+    },
+    "citations": {
+      "extract_patterns": [
+        "footnotes",
+        "endnotes",
+        "bibliography",
+        "works_cited"
+      ]
+    },
+    "figures_tables": {
+      "preserve": true,
+      "extract_captions": true,
+      "store_separately": true
+    }
+  },
+  "versioning_policy": {
+    "track_updates": true,
+    "store_all_versions": false,
+    "store_major_versions": true,
+    "diff_threshold": 0.1,
+    "archive_deleted": true
+  },
+  "quality_checks": {
+    "completeness": {
+      "required_score": 0.8,
+      "check_fields": ["title", "date", "author", "source", "url"]
+    },
+    "mcf_relevance": {
+      "minimum_score": 0.3,
+      "require_keywords": true,
+      "require_entities": false
+    },
+    "deduplication": {
+      "check_hash": true,
+      "check_title_similarity": 0.95,
+      "check_content_similarity": 0.90
+    }
+  },
+  "storage_structure": {
+    "base_path": "data/mcf_archive/",
+    "structure": "{source_id}/{year}/{month}/{document_type}/",
+    "naming": "{date}_{source}_{doc_id}_{version}",
+    "metadata_file": "provenance.json",
+    "preserve_originals": true
+  },
+  "api_endpoints": {
+    "provenance_query": "/api/provenance/{doc_id}",
+    "entity_timeline": "/api/entities/{entity_name}/timeline",
+    "source_audit": "/api/sources/{source_id}/audit",
+    "version_history": "/api/documents/{doc_id}/versions",
+    "citation_network": "/api/citations/{doc_id}/network"
+  },
+  "automation_triggers": {
+    "high_mcf_score": {
+      "threshold": 0.8,
+      "action": "priority_review"
+    },
+    "new_entity": {
+      "action": "entity_investigation"
+    },
+    "source_update": {
+      "action": "version_comparison"
+    },
+    "export_control_mention": {
+      "action": "compliance_flag"
+    }
+  }
+}

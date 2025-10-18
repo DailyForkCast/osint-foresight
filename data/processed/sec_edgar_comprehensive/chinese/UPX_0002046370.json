@@ -1,0 +1,44 @@
+{
+  "cik": "0002046370",
+  "ticker": "UPX",
+  "name": "Uptrend Holdings Ltd",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "1540",
+  "sicDescription": "General Bldg Contractors - Nonresidential Bldgs",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "(852) 9666 4546",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ROOM 22, 23/F, TUEN MUN CENTRAL SQUARE",
+      "street2": "22 HOI WING ROAD, TUEN MUN",
+      "city": "NEW TERRITORIES",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "ROOM 22, 23/F, TUEN MUN CENTRAL SQUARE",
+      "street2": "22 HOI WING ROAD, TUEN MUN",
+      "city": "NEW TERRITORIES",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 13
+}

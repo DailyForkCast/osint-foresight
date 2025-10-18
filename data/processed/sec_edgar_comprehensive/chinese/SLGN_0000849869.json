@@ -1,0 +1,47 @@
+{
+  "cik": "0000849869",
+  "ticker": "SLGN",
+  "name": "SILGAN HOLDINGS INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3411",
+  "sicDescription": "Metal Cans",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "061269834",
+  "phone": "2039757110",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "601 MERRITT 7",
+      "street2": "FLOOR 1",
+      "city": "NORWALK",
+      "stateOrCountry": "CT",
+      "zipCode": "06851",
+      "stateOrCountryDescription": "CT",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "601 MERRITT 7",
+      "street2": null,
+      "city": "NORWALK",
+      "stateOrCountry": "CT",
+      "zipCode": "06851",
+      "stateOrCountryDescription": "CT",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-18"
+  },
+  "filings_count": 1004
+}

@@ -1,7 +1,0 @@
-funder_id	name	org_type	level	website	mandate_summary	notes
-F1	FFG — Austrian Research Promotion Agency	funder	national	https://www.ffg.at	Competitive R&D programs across tech sectors, incl. digital/AI/HPC calls	Primary national R&D funder
-F2	FWF — Austrian Science Fund	funder	national	https://www.fwf.ac.at	Basic research funding; investigator-driven grants	Basic research focus
-F3	aws — Austria Wirtschaftsservice	funder	national	https://www.aws.at	SME finance, innovation/seed instruments (includes AI Mission Austria with FFG/FWF)	Innovation and SME focus
-F4	BMK/BMAW (relevant ministries)	government	national	(portal links)	Policy owners for digital/tech programs; sometimes issue calls	Policy level
-F5	CORDIS / Horizon Europe	funder	EU	https://cordis.europa.eu	EU framework programs; multinational consortia	EU-level funding
-F6	EuroHPC JU	funder/program	EU	https://eurohpc-ju.europa.eu	HPC infrastructure/R&D programs	HPC-specific EU funding

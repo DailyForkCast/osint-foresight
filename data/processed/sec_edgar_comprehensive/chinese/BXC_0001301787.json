@@ -1,0 +1,47 @@
+{
+  "cik": "0001301787",
+  "ticker": "BXC",
+  "name": "BlueLinx Holdings Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5031",
+  "sicDescription": "Wholesale-Lumber, Plywood, Millwork & Wood Panels",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "770627356",
+  "phone": "770-953-7000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1950 SPECTRUM CIRCLE",
+      "street2": "SUITE 300",
+      "city": "MARIETTA",
+      "stateOrCountry": "GA",
+      "zipCode": "30067",
+      "stateOrCountryDescription": "GA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1950 SPECTRUM CIRCLE",
+      "street2": "SUITE 300",
+      "city": "MARIETTA",
+      "stateOrCountry": "GA",
+      "zipCode": "30067",
+      "stateOrCountryDescription": "GA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-28"
+  },
+  "filings_count": 1000
+}

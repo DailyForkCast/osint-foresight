@@ -1,0 +1,44 @@
+{
+  "cik": "0001786352",
+  "ticker": "BILL",
+  "name": "BILL Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7372",
+  "sicDescription": "Services-Prepackaged Software",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "832661725",
+  "phone": "(650) 621-7700",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "6220 AMERICA CENTER DR.",
+      "street2": "SUITE 100",
+      "city": "SAN JOSE",
+      "stateOrCountry": "CA",
+      "zipCode": "95002",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "6220 AMERICA CENTER DR.",
+      "street2": "SUITE 100",
+      "city": "SAN JOSE",
+      "stateOrCountry": "CA",
+      "zipCode": "95002",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 834
+}

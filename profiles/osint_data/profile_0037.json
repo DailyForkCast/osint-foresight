@@ -1,0 +1,30 @@
+{
+  "path": "F:\\OSINT_DATA\\github_dependencies\\Bulgaria_github_20250917_052541.json",
+  "size": 265,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 1,
+  "field_count": 4,
+  "parse_status": "success",
+  "schema": {
+    "country": "string",
+    "organizations_scanned": "array",
+    "total_vulnerabilities": "number",
+    "collection_timestamp": "string"
+  },
+  "sample_records": [
+    {
+      "country": "Bulgaria",
+      "organizations_scanned": [
+        {
+          "organization": "bulgaria",
+          "status": "not_found",
+          "repositories_scanned": 0
+        }
+      ],
+      "total_vulnerabilities": 0,
+      "collection_timestamp": "2025-09-17T05:25:41.342105"
+    }
+  ],
+  "modified": "2025-09-17T05:25:42"
+}

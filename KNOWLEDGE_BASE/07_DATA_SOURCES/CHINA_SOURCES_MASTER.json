@@ -1,0 +1,568 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2025-09-19",
+    "total_sources": 50,
+    "think_tanks": 41,
+    "government_sources": 9,
+    "verified_china_content": 50
+  },
+  "harvesting_config": {
+    "rate_limit": 1.0,
+    "timeout": 10,
+    "max_content_size": 102400,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "respect_robots_txt": true,
+    "deduplication": "sha256"
+  },
+  "sources": {
+    "think_tanks": {
+      "tier_1_priority": [
+        {
+          "id": "jamestown",
+          "name": "Jamestown Foundation",
+          "base_url": "https://jamestown.org",
+          "search_paths": ["/programs/cb/", "/regions/china/"],
+          "china_mentions": 337,
+          "extraction": "standard",
+          "enabled": true
+        },
+        {
+          "id": "ceias",
+          "name": "Central European Institute of Asian Studies",
+          "base_url": "https://ceias.eu",
+          "search_paths": ["/", "/publications/", "/articles/"],
+          "china_mentions": "extensive",
+          "extraction": "custom_html",
+          "enabled": true
+        },
+        {
+          "id": "cnas",
+          "name": "Center for a New American Security",
+          "base_url": "https://www.cnas.org",
+          "search_paths": ["/research/"],
+          "china_mentions": 274,
+          "extraction": "standard",
+          "enabled": true
+        },
+        {
+          "id": "merics",
+          "name": "Mercator Institute for China Studies",
+          "base_url": "https://www.merics.org",
+          "search_paths": ["/en/", "/en/search"],
+          "china_mentions": 668,
+          "extraction": "standard",
+          "enabled": true
+        },
+        {
+          "id": "aspi",
+          "name": "Australian Strategic Policy Institute",
+          "base_url": "https://www.aspi.org.au",
+          "search_paths": ["/report/", "/publications/"],
+          "china_mentions": 493,
+          "extraction": "standard",
+          "special_features": ["Critical Technology Tracker"],
+          "enabled": true
+        }
+      ],
+      "tier_2_standard": [
+        {
+          "id": "brookings",
+          "name": "Brookings Institution",
+          "base_url": "https://www.brookings.edu",
+          "search_paths": ["/topic/china/"],
+          "china_mentions": 131,
+          "enabled": true
+        },
+        {
+          "id": "rand",
+          "name": "RAND Corporation",
+          "base_url": "https://www.rand.org",
+          "search_paths": ["/topics/china.html"],
+          "china_mentions": 228,
+          "enabled": true
+        },
+        {
+          "id": "csis",
+          "name": "Center for Strategic and International Studies",
+          "base_url": "https://www.csis.org",
+          "search_paths": ["/regions/asia/china/"],
+          "special_projects": ["https://chinapower.csis.org"],
+          "china_mentions": 259,
+          "enabled": true
+        },
+        {
+          "id": "carnegie",
+          "name": "Carnegie Endowment",
+          "base_url": "https://carnegieendowment.org",
+          "search_paths": ["/programs/asia/"],
+          "china_mentions": 143,
+          "enabled": true
+        },
+        {
+          "id": "hudson",
+          "name": "Hudson Institute",
+          "base_url": "https://www.hudson.org",
+          "search_paths": ["/regions/china/"],
+          "china_mentions": 180,
+          "enabled": true
+        },
+        {
+          "id": "wilson",
+          "name": "Wilson Center",
+          "base_url": "https://www.wilsoncenter.org",
+          "search_paths": ["/regions/china/"],
+          "china_mentions": 201,
+          "enabled": true
+        },
+        {
+          "id": "atlantic",
+          "name": "Atlantic Council",
+          "base_url": "https://www.atlanticcouncil.org",
+          "search_paths": ["/regions/asia/"],
+          "china_mentions": 98,
+          "enabled": true
+        },
+        {
+          "id": "aei",
+          "name": "American Enterprise Institute",
+          "base_url": "https://www.aei.org",
+          "search_paths": ["/china/"],
+          "china_mentions": 156,
+          "enabled": true
+        },
+        {
+          "id": "heritage",
+          "name": "Heritage Foundation",
+          "base_url": "https://www.heritage.org",
+          "search_paths": ["/asia/"],
+          "china_mentions": 124,
+          "enabled": true
+        },
+        {
+          "id": "hoover",
+          "name": "Hoover Institution",
+          "base_url": "https://www.hoover.org",
+          "search_paths": ["/research/china"],
+          "china_mentions": 189,
+          "enabled": true
+        },
+        {
+          "id": "cfr",
+          "name": "Council on Foreign Relations",
+          "base_url": "https://www.cfr.org",
+          "search_paths": ["/region/china/"],
+          "china_mentions": 177,
+          "enabled": true
+        },
+        {
+          "id": "stimson",
+          "name": "Stimson Center",
+          "base_url": "https://www.stimson.org",
+          "search_paths": ["/programs/china/"],
+          "china_mentions": 91,
+          "enabled": true
+        },
+        {
+          "id": "cato",
+          "name": "Cato Institute",
+          "base_url": "https://www.cato.org",
+          "search_paths": ["/research/china/"],
+          "china_mentions": 67,
+          "enabled": true
+        },
+        {
+          "id": "peterson",
+          "name": "Peterson Institute",
+          "base_url": "https://www.piie.com",
+          "search_paths": ["/research/china"],
+          "china_mentions": 103,
+          "enabled": true
+        },
+        {
+          "id": "gmf",
+          "name": "German Marshall Fund",
+          "base_url": "https://www.gmfus.org",
+          "search_paths": ["/regions/asia/"],
+          "china_mentions": 54,
+          "enabled": true
+        }
+      ],
+      "tier_3_specialized": [
+        {
+          "id": "arctic",
+          "name": "Arctic Institute",
+          "base_url": "https://www.thearcticinstitute.org",
+          "search_paths": ["/?s=china"],
+          "china_mentions": 122,
+          "extraction": "listing_pages",
+          "enabled": true
+        },
+        {
+          "id": "ifri",
+          "name": "IFRI",
+          "base_url": "https://www.ifri.org",
+          "search_paths": ["/en/recherche/china"],
+          "china_mentions": 88,
+          "language": "multi",
+          "enabled": true
+        },
+        {
+          "id": "rusi",
+          "name": "Royal United Services Institute",
+          "base_url": "https://www.rusi.org",
+          "search_paths": ["/explore-our-research/publications"],
+          "china_mentions": "confirmed",
+          "extraction": "mixed_pdf",
+          "enabled": true
+        },
+        {
+          "id": "iiss",
+          "name": "International Institute for Strategic Studies",
+          "base_url": "https://www.iiss.org",
+          "search_paths": ["/publications/"],
+          "china_mentions": 112,
+          "enabled": true
+        },
+        {
+          "id": "chatham",
+          "name": "Chatham House",
+          "base_url": "https://www.chathamhouse.org",
+          "search_paths": ["/research/"],
+          "china_mentions": 95,
+          "enabled": true
+        },
+        {
+          "id": "ecfr",
+          "name": "European Council on Foreign Relations",
+          "base_url": "https://ecfr.eu",
+          "search_paths": ["/publications/"],
+          "china_mentions": 74,
+          "enabled": true
+        },
+        {
+          "id": "swp",
+          "name": "German Institute for International and Security Affairs",
+          "base_url": "https://www.swp-berlin.org",
+          "search_paths": ["/en/publications/"],
+          "china_mentions": 86,
+          "enabled": true
+        },
+        {
+          "id": "iai",
+          "name": "Istituto Affari Internazionali",
+          "base_url": "https://www.iai.it",
+          "search_paths": ["/en/pubblicazioni/"],
+          "china_mentions": "confirmed",
+          "language": "multi",
+          "enabled": true
+        },
+        {
+          "id": "foi",
+          "name": "Swedish Defence Research Agency",
+          "base_url": "https://www.foi.se",
+          "search_paths": ["/en/foi/reports.html"],
+          "china_mentions": "confirmed",
+          "extraction": "listing_scrape",
+          "enabled": true
+        },
+        {
+          "id": "nupi",
+          "name": "Norwegian Institute of International Affairs",
+          "base_url": "https://www.nupi.no",
+          "search_paths": ["/en/publications/"],
+          "china_mentions": "confirmed",
+          "extraction": "pdf_primary",
+          "enabled": true
+        },
+        {
+          "id": "dgap",
+          "name": "German Council on Foreign Relations",
+          "base_url": "https://dgap.org",
+          "search_paths": ["/en/research/"],
+          "china_mentions": 63,
+          "enabled": true
+        },
+        {
+          "id": "odi",
+          "name": "Overseas Development Institute",
+          "base_url": "https://odi.org",
+          "search_paths": ["/en/publications/"],
+          "china_mentions": 41,
+          "enabled": true
+        },
+        {
+          "id": "eastwest",
+          "name": "East-West Center",
+          "base_url": "https://www.eastwestcenter.org",
+          "search_paths": ["/publications/"],
+          "china_mentions": 134,
+          "enabled": true
+        },
+        {
+          "id": "pacforum",
+          "name": "Pacific Forum",
+          "base_url": "https://pacforum.org",
+          "search_paths": ["/publications/"],
+          "china_mentions": 87,
+          "enabled": true
+        },
+        {
+          "id": "scsp",
+          "name": "Special Competitive Studies Project",
+          "base_url": "https://www.scsp.ai",
+          "search_paths": ["/publications/"],
+          "china_mentions": 76,
+          "enabled": true
+        },
+        {
+          "id": "itif",
+          "name": "Information Technology and Innovation Foundation",
+          "base_url": "https://www.itif.org",
+          "search_paths": ["/publications/"],
+          "china_mentions": 94,
+          "enabled": true
+        },
+        {
+          "id": "nbr",
+          "name": "National Bureau of Asian Research",
+          "base_url": "https://www.nbr.org",
+          "search_paths": ["/publications/"],
+          "china_mentions": 166,
+          "enabled": true
+        },
+        {
+          "id": "cigi",
+          "name": "Centre for International Governance Innovation",
+          "base_url": "https://www.cigionline.org",
+          "search_paths": ["/publications/"],
+          "china_mentions": 52,
+          "enabled": true
+        },
+        {
+          "id": "asia_society",
+          "name": "Asia Society Policy Institute",
+          "base_url": "https://asiasociety.org/policy-institute",
+          "search_paths": ["/publications"],
+          "china_mentions": 145,
+          "enabled": true
+        },
+        {
+          "id": "china_institute",
+          "name": "China Institute",
+          "base_url": "https://chinainstitute.org",
+          "search_paths": ["/publications/"],
+          "china_mentions": 178,
+          "enabled": true
+        },
+        {
+          "id": "secure_world",
+          "name": "Secure World Foundation",
+          "base_url": "https://swfound.org",
+          "search_paths": ["/publications/"],
+          "china_mentions": 48,
+          "focus": "space",
+          "enabled": true
+        }
+      ]
+    },
+    "government_sources": [
+      {
+        "id": "ndu_cscma",
+        "name": "NDU Center for Study of Chinese Military Affairs",
+        "base_url": "https://digitalcommons.ndu.edu",
+        "paths": ["/cscma-allpubs/", "/china-strategic-perspectives/"],
+        "china_mentions": 864,
+        "type": "military_academic",
+        "priority": "high",
+        "enabled": true
+      },
+      {
+        "id": "casi",
+        "name": "China Aerospace Studies Institute",
+        "base_url": "https://www.airuniversity.af.edu/CASI/",
+        "paths": ["/CASI/Publications/", "/CASI/Translations/"],
+        "china_mentions": 505,
+        "type": "air_force",
+        "priority": "high",
+        "enabled": true
+      },
+      {
+        "id": "uscc",
+        "name": "US-China Economic and Security Review Commission",
+        "base_url": "https://www.uscc.gov",
+        "paths": ["/Research", "/Annual-Reports", "/Hearings"],
+        "china_mentions": 247,
+        "type": "congressional",
+        "priority": "high",
+        "enabled": true
+      },
+      {
+        "id": "cset",
+        "name": "Center for Security and Emerging Technology",
+        "base_url": "https://cset.georgetown.edu",
+        "paths": ["/publications/", "/research/chinese-talent-program-tracker/"],
+        "china_mentions": 203,
+        "type": "academic_gov",
+        "priority": "high",
+        "special_tools": ["Talent Program Tracker", "Map of Science"],
+        "enabled": true
+      },
+      {
+        "id": "dod_cmpr",
+        "name": "DoD China Military Power Report",
+        "base_url": "https://www.defense.gov/CMPR/",
+        "type": "annual_report",
+        "format": "pdf",
+        "priority": "high",
+        "enabled": true
+      },
+      {
+        "id": "state_mcf",
+        "name": "State Department MCF Reports",
+        "base_url": "https://www.state.gov",
+        "paths": ["/military-civil-fusion/"],
+        "type": "diplomatic",
+        "priority": "medium",
+        "enabled": true
+      },
+      {
+        "id": "dia",
+        "name": "Defense Intelligence Agency",
+        "base_url": "https://www.dia.mil",
+        "paths": ["/Military-Power-Publications/"],
+        "type": "intelligence",
+        "priority": "medium",
+        "enabled": true
+      },
+      {
+        "id": "odni",
+        "name": "Office of Director of National Intelligence",
+        "base_url": "https://www.dni.gov",
+        "paths": ["/index.php/newsroom/reports-publications"],
+        "type": "intelligence",
+        "priority": "medium",
+        "enabled": true
+      },
+      {
+        "id": "crs",
+        "name": "Congressional Research Service",
+        "base_url": "https://crsreports.congress.gov",
+        "type": "congressional",
+        "access_issue": "403_forbidden",
+        "priority": "low",
+        "enabled": false
+      }
+    ]
+  },
+  "mcf_insight_mapping": {
+    "direct_mcf": [
+      "state_mcf", "casi", "ndu_cscma", "aspi", "jamestown"
+    ],
+    "technology_transfer": [
+      "cset", "wilson", "uscc", "cfr"
+    ],
+    "industrial_policy": [
+      "merics", "peterson", "uscc", "brookings"
+    ],
+    "standards_procurement": [
+      "csis", "carnegie", "merics", "itif"
+    ],
+    "supply_chain": [
+      "csis", "rand", "casi", "atlantic"
+    ],
+    "export_controls": [
+      "cnas", "rusi", "state_mcf", "atlantic"
+    ]
+  },
+  "keyword_weights": {
+    "core_tech": {
+      "weight": 3,
+      "keywords": [
+        "artificial intelligence", "ai", "machine learning",
+        "quantum computing", "quantum communications",
+        "semiconductor", "chips", "integrated circuits",
+        "biotechnology", "synthetic biology", "genomics",
+        "5g", "6g", "telecommunications",
+        "space technology", "satellite", "aerospace",
+        "hypersonic", "directed energy", "autonomous systems"
+      ]
+    },
+    "policy_instruments": {
+      "weight": 3,
+      "keywords": [
+        "export control", "foreign direct investment",
+        "industrial policy", "subsidies", "state support",
+        "standards", "standardization", "technical standards",
+        "talent program", "thousand talents", "recruitment",
+        "technology transfer", "intellectual property"
+      ]
+    },
+    "strategic_competition": {
+      "weight": 3,
+      "keywords": [
+        "military civil fusion", "mcf", "dual use",
+        "strategic competition", "great power competition",
+        "supply chain", "decoupling", "de-risking",
+        "belt and road", "bri", "digital silk road"
+      ]
+    },
+    "china_general": {
+      "weight": 1,
+      "keywords": [
+        "china", "chinese", "beijing", "prc",
+        "pla", "ccp", "xi jinping", "made in china 2025"
+      ]
+    },
+    "mcf_direct": {
+      "weight": 5,
+      "keywords": [
+        "military civil fusion", "military-civil fusion", "MCF",
+        "dual use", "dual-use", "jun-min ronghe"
+      ]
+    },
+    "pla_industry": {
+      "weight": 4,
+      "keywords": [
+        "AVIC", "AECC", "NORINCO", "CETC", "CSSC", "CSIC",
+        "defense industry", "defense industrial base", "PLA procurement"
+      ]
+    },
+    "entity_tracking": {
+      "weight": 4,
+      "keywords": [
+        "entity list", "shell company", "front company",
+        "sanctions evasion", "end use", "end user"
+      ]
+    },
+    "governance_bodies": {
+      "weight": 3,
+      "keywords": [
+        "MIIT", "SASAC", "MOST", "NDRC", "CMC",
+        "guidance funds", "state funds", "SOE"
+      ]
+    }
+  },
+  "extraction_methods": {
+    "standard": {
+      "description": "Standard HTML extraction",
+      "selector": "article, div.content, main"
+    },
+    "custom_html": {
+      "description": "Custom regex patterns per site",
+      "sites": ["ceias", "arctic"]
+    },
+    "listing_scrape": {
+      "description": "Scrape listing pages for article URLs",
+      "sites": ["foi", "arctic"]
+    },
+    "pdf_primary": {
+      "description": "Primary content in PDF format",
+      "sites": ["nupi", "dod_cmpr"]
+    },
+    "mixed_pdf": {
+      "description": "Mix of HTML and PDF content",
+      "sites": ["rusi", "rand"]
+    }
+  }
+}

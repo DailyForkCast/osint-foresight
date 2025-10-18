@@ -1,0 +1,44 @@
+{
+  "cik": "0001000298",
+  "ticker": "IMPM",
+  "name": "IMPAC MORTGAGE HOLDINGS INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6798",
+  "sicDescription": "Real Estate Investment Trusts",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "MD",
+  "ein": "330675505",
+  "phone": "9494753600",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "4000 MACARTHUR BLVD.",
+      "street2": "SUITE 6000",
+      "city": "NEWPORT BEACH",
+      "stateOrCountry": "CA",
+      "zipCode": "92660",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "4000 MACARTHUR BLVD.",
+      "street2": "SUITE 6000",
+      "city": "NEWPORT BEACH",
+      "stateOrCountry": "CA",
+      "zipCode": "92660",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1000
+}

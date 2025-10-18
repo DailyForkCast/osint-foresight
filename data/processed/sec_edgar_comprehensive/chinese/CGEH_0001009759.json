@@ -1,0 +1,47 @@
+{
+  "cik": "0001009759",
+  "ticker": "CGEH",
+  "name": "Capstone Green Energy Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3510",
+  "sicDescription": "Engines & Turbines",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "954180883",
+  "phone": "818-734-5300",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "16640 STAGG STREET",
+      "street2": null,
+      "city": "VAN NUYS",
+      "stateOrCountry": "CA",
+      "zipCode": "91406",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "16640 STAGG STREET",
+      "street2": null,
+      "city": "VAN NUYS",
+      "stateOrCountry": "CA",
+      "zipCode": "91406",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-14"
+  },
+  "filings_count": 1000
+}

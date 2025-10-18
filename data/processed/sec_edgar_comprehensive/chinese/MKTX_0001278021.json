@@ -1,0 +1,47 @@
+{
+  "cik": "0001278021",
+  "ticker": "MKTX",
+  "name": "MARKETAXESS HOLDINGS INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6211",
+  "sicDescription": "Security Brokers, Dealers & Flotation Companies",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "522230784",
+  "phone": "212-831-6000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "55 HUDSON YARDS, 15TH FLOOR",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10001",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "55 HUDSON YARDS, 15TH FLOOR",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10001",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-06"
+  },
+  "filings_count": 1008
+}

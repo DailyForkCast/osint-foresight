@@ -1,0 +1,47 @@
+{
+  "cik": "0001039828",
+  "ticker": "ANG-PD",
+  "name": "American National Group Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6311",
+  "sicDescription": "Life Insurance",
+  "category": "Non-accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "IA",
+  "ein": "421447959",
+  "phone": "5152210002",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "6000 WESTOWN PARKWAY",
+      "street2": null,
+      "city": "WEST DES MOINES",
+      "stateOrCountry": "IA",
+      "zipCode": "50266",
+      "stateOrCountryDescription": "IA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "6000 WESTOWN PARKWAY",
+      "street2": null,
+      "city": "WEST DEMOINES",
+      "stateOrCountry": "IA",
+      "zipCode": "50266",
+      "stateOrCountryDescription": "IA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-12"
+  },
+  "filings_count": 1000
+}

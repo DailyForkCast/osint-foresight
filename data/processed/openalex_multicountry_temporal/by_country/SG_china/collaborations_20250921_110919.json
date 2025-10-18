@@ -1,0 +1,266 @@
+[
+  {
+    "paper_id": "https://openalex.org/W3048421505",
+    "doi": "https://doi.org/10.48550/arxiv.2008.04743",
+    "title": "Scalable and Communication-efficient Decentralized Federated Edge Learning with Multi-blockchain Framework",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "AU",
+      "CA",
+      "CN",
+      "SG"
+    ],
+    "institutions": {
+      "CA": [
+        "BC Research (Canada)"
+      ],
+      "SG": [
+        "Nanyang Technological University",
+        "National University of Singapore"
+      ],
+      "AU": [
+        "Monash University"
+      ],
+      "CN": [
+        "Tsinghua University",
+        "Wuhan University of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "CA": [
+        "Cyril Leung (BC Research (Canada))"
+      ],
+      "SG": [
+        "Jiawen Kang (Nanyang Technological University)",
+        "Chunyan Miao (National University of Singapore)",
+        "Dusit Niyato (National University of Singapore)"
+      ],
+      "AU": [
+        "Yi Liu (Monash University)"
+      ],
+      "CN": [
+        "Chunxiao Jiang (Tsinghua University)",
+        "Yang Zhang (Wuhan University of Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1,
+      "extraction_command": "sed -n '1p' part_000.gz | jq '.title'",
+      "paper_hash": "8d076a53960e5636"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "SG"
+  },
+  {
+    "paper_id": "https://openalex.org/W4231565524",
+    "doi": "https://doi.org/10.1002/(sici)1099-1239(1998100)8:12<1059::aid-rnc365>3.3.co;2-n",
+    "title": "Robust stability of a class of hybrid dynamic uncertain systems",
+    "publication_year": 1998,
+    "countries_collaborating": [
+      "CN",
+      "SG"
+    ],
+    "institutions": {
+      "SG": [
+        "Nanyang Technological University"
+      ],
+      "CN": [
+        "Northeastern University"
+      ]
+    },
+    "authors_by_country": {
+      "SG": [
+        "C.B. Soh (Nanyang Technological University)",
+        "Zhengguo Li (Nanyang Technological University)"
+      ],
+      "CN": [
+        "Xinhe Xu (Northeastern University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1998,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_002.gz",
+      "line_number": 5889,
+      "extraction_command": "sed -n '5889p' part_002.gz | jq '.title'",
+      "paper_hash": "79862a0ed788d11f"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "SG"
+  },
+  {
+    "paper_id": "https://openalex.org/W4200273644",
+    "doi": "https://doi.org/10.4018/978-1-6684-3702-5.ch073",
+    "title": "The Role of Functional Diversity, Collective Team Identification, and Task Cohesion in Influencing Innovation Speed",
+    "publication_year": 2021,
+    "countries_collaborating": [
+      "CN",
+      "SG"
+    ],
+    "institutions": {
+      "SG": [
+        "National University of Singapore"
+      ],
+      "CN": [
+        "East China University of Science and Technology",
+        "Fudan University"
+      ]
+    },
+    "authors_by_country": {
+      "SG": [
+        "Bernard C. Y. Tan (National University of Singapore)"
+      ],
+      "CN": [
+        "Hong Ling (Fudan University)",
+        "Jin Chen (East China University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2021,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 864,
+      "extraction_command": "sed -n '864p' part_000.gz | jq '.title'",
+      "paper_hash": "4db9e449fcd3f710"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "SG"
+  },
+  {
+    "paper_id": "https://openalex.org/W4205088699",
+    "doi": "https://doi.org/10.2991/assehr.k.211209.021",
+    "title": "Heightened Herd Behavior in Financial Market Under Covid-19",
+    "publication_year": 2021,
+    "countries_collaborating": [
+      "CN",
+      "SG"
+    ],
+    "institutions": {
+      "SG": [
+        "Raffles Institution"
+      ],
+      "CN": [
+        "Qingdao Women and Children's Hospital",
+        "Qingdao University"
+      ]
+    },
+    "authors_by_country": {
+      "SG": [
+        "Yafan Wang (Raffles Institution)"
+      ],
+      "CN": [
+        "Sijin Lyu (Qingdao Women and Children's Hospital)",
+        "Sijin Lyu (Qingdao University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2021,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_006.gz",
+      "line_number": 27,
+      "extraction_command": "sed -n '27p' part_006.gz | jq '.title'",
+      "paper_hash": "b8dfdaf46930ffd0"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "SG"
+  },
+  {
+    "paper_id": "https://openalex.org/W4232873293",
+    "doi": "https://doi.org/10.1007/978-3-030-63647-0_40",
+    "title": "Surface Hybrid Structuring by Laser Removal and Subtractive Processing",
+    "publication_year": 2021,
+    "countries_collaborating": [
+      "CN",
+      "SG"
+    ],
+    "institutions": {
+      "SG": [
+        "National University of Singapore"
+      ],
+      "CN": [
+        "Wenzhou University",
+        "Harbin Institute of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "SG": [
+        "Minghui Hong (National University of Singapore)",
+        "Xue Yao (National University of Singapore)"
+      ],
+      "CN": [
+        "Lijun Yang (Harbin Institute of Technology)",
+        "Ding Ye (Harbin Institute of Technology)",
+        "Fengping Li (Wenzhou University)",
+        "Xue Yao (Wenzhou University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2021,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_011.gz",
+      "line_number": 306,
+      "extraction_command": "sed -n '306p' part_011.gz | jq '.title'",
+      "paper_hash": "f204f7e180f4ae29"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "SG"
+  }
+]

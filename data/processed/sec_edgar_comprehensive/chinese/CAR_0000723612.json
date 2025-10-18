@@ -1,0 +1,47 @@
+{
+  "cik": "0000723612",
+  "ticker": "CAR",
+  "name": "AVIS BUDGET GROUP, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7510",
+  "sicDescription": "Services-Auto Rental & Leasing (No Drivers)",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "060918165",
+  "phone": "973-496-4700",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "379 INTERPACE PARKWAY",
+      "street2": null,
+      "city": "PARSIPPANY",
+      "stateOrCountry": "NJ",
+      "zipCode": "07054",
+      "stateOrCountryDescription": "NJ",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "379 INTERPACE PARKWAY",
+      "street2": null,
+      "city": "PARSIPPANY",
+      "stateOrCountry": "NJ",
+      "zipCode": "07054",
+      "stateOrCountryDescription": "NJ",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-19"
+  },
+  "filings_count": 1004
+}

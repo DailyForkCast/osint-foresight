@@ -1,0 +1,52 @@
+{
+  "cik": "0001744676",
+  "ticker": "TCMEF",
+  "name": "Tencent Music Entertainment Group",
+  "detection_reasons": [
+    "location:china",
+    "location:shenzhen",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "4832",
+  "sicDescription": "Radio Broadcasting Stations",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86 755 86013388",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT 3, BUILDING D, KEXING SCIENCE PARK",
+      "street2": "KEJIZHONGSAN AVENUE, HI-TECH PARK",
+      "city": "NANSHAN DISTRICT, SHENZHEN",
+      "stateOrCountry": "F4",
+      "zipCode": "518057",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "UNIT 3, BUILDING D, KEXING SCIENCE PARK",
+      "street2": "KEJIZHONGSAN AVENUE, HI-TECH PARK",
+      "city": "NANSHAN DISTRICT, SHENZHEN",
+      "stateOrCountry": "F4",
+      "zipCode": "518057",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-23"
+  },
+  "filings_count": 205
+}

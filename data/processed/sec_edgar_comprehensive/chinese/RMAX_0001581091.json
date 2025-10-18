@@ -1,0 +1,48 @@
+{
+  "cik": "0001581091",
+  "ticker": "RMAX",
+  "name": "RE/MAX Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm",
+    "offshore:hk"
+  ],
+  "sic": "6531",
+  "sicDescription": "Real Estate Agents & Managers (For Others)",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "CO",
+  "ein": "800937145",
+  "phone": "(303)770-5531",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "5075 SOUTH SYRACUSE STREET",
+      "street2": null,
+      "city": "DENVER",
+      "stateOrCountry": "CO",
+      "zipCode": "80237",
+      "stateOrCountryDescription": "CO",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "5075 SOUTH SYRACUSE STREET",
+      "street2": null,
+      "city": "DENVER",
+      "stateOrCountry": "CO",
+      "zipCode": "80237",
+      "stateOrCountryDescription": "CO",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-07-29"
+  },
+  "filings_count": 793
+}

@@ -1,0 +1,67 @@
+{
+  "path": "F:\\OSINT_DATA\\integrated_data.db",
+  "size": 20480,
+  "extension": ".db",
+  "encoding": "unknown",
+  "line_count": 9,
+  "field_count": 4,
+  "parse_status": "success",
+  "schema": {
+    "entity_resolution": {
+      "row_count": 0,
+      "columns": [
+        "id",
+        "canonical_name",
+        "country",
+        "entity_type",
+        "aliases",
+        "lei",
+        "cage_code",
+        "duns",
+        "cik",
+        "vat_number",
+        "created_at"
+      ]
+    },
+    "sqlite_sequence": {
+      "row_count": 1,
+      "columns": [
+        "name",
+        "seq"
+      ]
+    },
+    "integrated_data": {
+      "row_count": 8,
+      "columns": [
+        "id",
+        "country",
+        "data_source",
+        "data_type",
+        "file_path",
+        "records_count",
+        "china_exposure_detected",
+        "integration_timestamp"
+      ]
+    },
+    "data_correlations": {
+      "row_count": 0,
+      "columns": [
+        "id",
+        "entity_name",
+        "source1",
+        "source2",
+        "correlation_type",
+        "confidence_score",
+        "china_link",
+        "timestamp"
+      ]
+    }
+  },
+  "sample_records": [
+    [
+      "integrated_data",
+      8
+    ]
+  ],
+  "modified": "2025-09-17T05:57:14"
+}

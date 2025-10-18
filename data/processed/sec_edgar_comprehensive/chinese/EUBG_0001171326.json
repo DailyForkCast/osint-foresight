@@ -1,0 +1,51 @@
+{
+  "cik": "0001171326",
+  "ticker": "EUBG",
+  "name": "ENTREPRENEUR UNIVERSE BRIGHT GROUP",
+  "detection_reasons": [
+    "location:china",
+    "location:xi'an",
+    "address:mailing",
+    "address:business",
+    "sic:8742"
+  ],
+  "sic": "8742",
+  "sicDescription": "Services-Management Consulting Services",
+  "category": "Non-accelerated filer<br>Smaller reporting company<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "NV",
+  "ein": "753025152",
+  "phone": "86-400-6087979",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "SUITE 907, SAIGAO CITY PLAZA BUILDING 2",
+      "street2": "NO. 170, WEIYANG ROAD",
+      "city": "XI'AN",
+      "stateOrCountry": "F4",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "SUITE 907, SAIGAO CITY PLAZA BUILDING 2",
+      "street2": "NO. 170, WEIYANG ROAD",
+      "city": "XI'AN",
+      "stateOrCountry": "F4",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-13"
+  },
+  "filings_count": 166
+}

@@ -1,0 +1,53 @@
+{
+  "cik": "0002037400",
+  "ticker": "CAAS",
+  "name": "China Automotive Systems, Inc.",
+  "detection_reasons": [
+    "location:china",
+    "location:wuhan",
+    "location:hubei",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "3714",
+  "sicDescription": "Motor Vehicle Parts & Accessories",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86278757 0028",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "D8 HENGLONG BUILDING, OPTICS VALLEY PARK",
+      "street2": "GUANSHAN AVENUE, EAST LAKE HI-TECH ZONE",
+      "city": "WUHAN CITY, HUBEI",
+      "stateOrCountry": null,
+      "zipCode": "430073",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "D8 HENGLONG BUILDING, OPTICS VALLEY PARK",
+      "street2": "GUANSHAN AVENUE, EAST LAKE HI-TECH ZONE",
+      "city": "WUHAN CITY, HUBEI",
+      "stateOrCountry": null,
+      "zipCode": "430073",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-19"
+  },
+  "filings_count": 11
+}

@@ -1,0 +1,49 @@
+{
+  "cik": "0000839923",
+  "ticker": "VODPF",
+  "name": "VODAFONE GROUP PUBLIC LTD CO",
+  "detection_reasons": [
+    "offshore:bm",
+    "offshore:hk",
+    "vie_structure"
+  ],
+  "sic": "4812",
+  "sicDescription": "Radiotelephone Communications",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "011-44-1635-33251",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "VODAFONE HOUSE",
+      "street2": "THE CONNECTION",
+      "city": "NEWBURY, BERKSHIRE",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "United Kingdom",
+      "countryCode": "X0"
+    },
+    "business": {
+      "street1": "VODAFONE HOUSE",
+      "street2": "THE CONNECTION",
+      "city": "NEWBURY, BERKSHIRE",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "United Kingdom",
+      "countryCode": "X0"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-23"
+  },
+  "filings_count": 1000
+}

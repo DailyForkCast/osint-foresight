@@ -1,0 +1,44 @@
+{
+  "cik": "0001035201",
+  "ticker": "CWT",
+  "name": "CALIFORNIA WATER SERVICE GROUP",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "4941",
+  "sicDescription": "Water Supply",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "770448994",
+  "phone": "4083678200",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1720 FIRST ST",
+      "street2": "C/O CALIFORNIA WATER SERVICE CO",
+      "city": "SAN JOSE",
+      "stateOrCountry": "CA",
+      "zipCode": "95112",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1720 N FIRST ST",
+      "street2": "C/O CALIFORNIA WATER SERVICE CO",
+      "city": "SAN JOSE",
+      "stateOrCountry": "CA",
+      "zipCode": "95112",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1007
+}

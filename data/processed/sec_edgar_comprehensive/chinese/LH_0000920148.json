@@ -1,0 +1,48 @@
+{
+  "cik": "0000920148",
+  "ticker": "LH",
+  "name": "LABCORP HOLDINGS INC.",
+  "detection_reasons": [
+    "location:prc",
+    "offshore:bm"
+  ],
+  "sic": "8071",
+  "sicDescription": "Services-Medical Laboratories",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "992588107",
+  "phone": "3362291127",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "358 S MAIN ST",
+      "street2": null,
+      "city": "BURLINGTON",
+      "stateOrCountry": "NC",
+      "zipCode": "27215",
+      "stateOrCountryDescription": "NC",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "358 S MAIN ST",
+      "street2": null,
+      "city": "BURLINGTON",
+      "stateOrCountry": "NC",
+      "zipCode": "27215",
+      "stateOrCountryDescription": "NC",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-25"
+  },
+  "filings_count": 1001
+}

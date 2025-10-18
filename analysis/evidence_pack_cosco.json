@@ -1,0 +1,111 @@
+{
+  "entity": "COSCO",
+  "search_terms": [
+    "COSCO",
+    "中远",
+    "COSCO Shipping",
+    "中远海运"
+  ],
+  "variants_tested": {
+    "COSCO": {
+      "exact_match": [
+        "COSCO"
+      ],
+      "case_insensitive": [
+        "cosco",
+        "COSCO"
+      ],
+      "pinyin_variants": [],
+      "simplified_traditional": [],
+      "acronym_expansion": [],
+      "partial_match": [],
+      "fuzzy_match": [
+        "OCSCO",
+        "CSOCO",
+        "COCSO"
+      ],
+      "transliteration": [],
+      "common_typos": [
+        "CiSCO",
+        "CpSCO",
+        "COaCO"
+      ],
+      "alternate_names": [
+        "COSCO Shipping",
+        "China Ocean Shipping Company"
+      ],
+      "historical_names": []
+    },
+    "中远": {
+      "exact_match": [
+        "中远"
+      ],
+      "case_insensitive": [
+        "中远",
+        "中远"
+      ],
+      "pinyin_variants": [],
+      "simplified_traditional": [],
+      "acronym_expansion": [],
+      "partial_match": [],
+      "fuzzy_match": [],
+      "transliteration": [],
+      "common_typos": [],
+      "alternate_names": [],
+      "historical_names": []
+    },
+    "COSCO Shipping": {
+      "exact_match": [
+        "COSCO Shipping"
+      ],
+      "case_insensitive": [
+        "cosco shipping",
+        "COSCO SHIPPING"
+      ],
+      "pinyin_variants": [],
+      "simplified_traditional": [],
+      "acronym_expansion": [],
+      "partial_match": [
+        "COSCO",
+        "pping",
+        "SCO Shippi"
+      ],
+      "fuzzy_match": [
+        "OCSCO Shipping",
+        "CSOCO Shipping",
+        "COCSO Shipping"
+      ],
+      "transliteration": [],
+      "common_typos": [
+        "CiSCO Shipping",
+        "CpSCO Shipping",
+        "COaCO Shipping"
+      ],
+      "alternate_names": [],
+      "historical_names": []
+    },
+    "中远海运": {
+      "exact_match": [
+        "中远海运"
+      ],
+      "case_insensitive": [
+        "中远海运",
+        "中远海运"
+      ],
+      "pinyin_variants": [],
+      "simplified_traditional": [],
+      "acronym_expansion": [],
+      "partial_match": [],
+      "fuzzy_match": [
+        "远中海运",
+        "中海远运",
+        "中远运海"
+      ],
+      "transliteration": [],
+      "common_typos": [],
+      "alternate_names": [],
+      "historical_names": []
+    }
+  },
+  "detections": []
+}

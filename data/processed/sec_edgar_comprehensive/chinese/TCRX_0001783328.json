@@ -1,0 +1,47 @@
+{
+  "cik": "0001783328",
+  "ticker": "TCRX",
+  "name": "TScan Therapeutics, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2836",
+  "sicDescription": "Biological Products, (No Diagnostic Substances)",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "825282075",
+  "phone": "857-399-9500",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "830 WINTER STREET",
+      "street2": null,
+      "city": "WALTHAM",
+      "stateOrCountry": "MA",
+      "zipCode": "02451",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "830 WINTER STREET",
+      "street2": null,
+      "city": "WALTHAM",
+      "stateOrCountry": "MA",
+      "zipCode": "02451",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-09"
+  },
+  "filings_count": 291
+}

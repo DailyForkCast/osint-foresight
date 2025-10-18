@@ -1,0 +1,47 @@
+{
+  "cik": "0001818201",
+  "ticker": "CCCS",
+  "name": "CCC Intelligent Solutions Holdings Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7372",
+  "sicDescription": "Services-Prepackaged Software",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "(800) 621-8070",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "167 N. GREEN STREET",
+      "street2": "9TH FLOOR",
+      "city": "CHICAGO",
+      "stateOrCountry": "IL",
+      "zipCode": "60607",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "167 N. GREEN STREET",
+      "street2": "9TH FLOOR",
+      "city": "CHICAGO",
+      "stateOrCountry": "IL",
+      "zipCode": "60607",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-15"
+  },
+  "filings_count": 522
+}

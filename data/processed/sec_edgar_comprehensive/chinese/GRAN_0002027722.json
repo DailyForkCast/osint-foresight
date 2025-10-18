@@ -1,0 +1,48 @@
+{
+  "cik": "0002027722",
+  "ticker": "GRAN",
+  "name": "Grande Group Ltd/HK",
+  "detection_reasons": [
+    "offshore:hong kong",
+    "offshore:hk"
+  ],
+  "sic": "6199",
+  "sicDescription": "Finance Services",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "852 3890 3601",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "SUITE 2701, 27/F., TOWER 1",
+      "street2": "ADMIRALTY CENTER. 18 HARCOURT RD.",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "SUITE 2701, 27/F., TOWER 1",
+      "street2": "ADMIRALTY CENTER. 18 HARCOURT RD.",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-15"
+  },
+  "filings_count": 32
+}

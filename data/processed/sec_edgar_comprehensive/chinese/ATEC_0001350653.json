@@ -1,0 +1,44 @@
+{
+  "cik": "0001350653",
+  "ticker": "ATEC",
+  "name": "Alphatec Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3841",
+  "sicDescription": "Surgical & Medical Instruments & Apparatus",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "202463898",
+  "phone": "760-431-9286",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "5818 EL CAMINO REAL",
+      "street2": null,
+      "city": "CARLSBAD",
+      "stateOrCountry": "CA",
+      "zipCode": "92008",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "5818 EL CAMINO REAL",
+      "street2": null,
+      "city": "CARLSBAD",
+      "stateOrCountry": "CA",
+      "zipCode": "92008",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1005
+}

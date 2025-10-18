@@ -1,0 +1,47 @@
+{
+  "cik": "0001132105",
+  "ticker": "SPWH",
+  "name": "SPORTSMAN'S WAREHOUSE HOLDINGS, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5940",
+  "sicDescription": "Retail-Miscellaneous Shopping Goods Stores",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "391795614",
+  "phone": "801-566-6681",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1475 WEST 9000 SOUTH",
+      "street2": "SUITE A",
+      "city": "WEST JORDAN",
+      "stateOrCountry": "UT",
+      "zipCode": "84088",
+      "stateOrCountryDescription": "UT",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1475 WEST 9000 SOUTH",
+      "street2": "SUITE A",
+      "city": "WEST JORDAN",
+      "stateOrCountry": "UT",
+      "zipCode": "84088",
+      "stateOrCountryDescription": "UT",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-11"
+  },
+  "filings_count": 604
+}

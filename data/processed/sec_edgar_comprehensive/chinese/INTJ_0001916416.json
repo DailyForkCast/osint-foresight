@@ -1,0 +1,47 @@
+{
+  "cik": "0001916416",
+  "ticker": "INTJ",
+  "name": "Intelligent Group Ltd",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "8742",
+  "sicDescription": "Services-Management Consulting Services",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "(852) 3618 8460",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "6/F, WING ON CHEONG BUILDING",
+      "street2": "5 WING LOK STREET",
+      "city": "SHEUNG WAN",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "6/F, WING ON CHEONG BUILDING",
+      "street2": "5 WING LOK STREET",
+      "city": "SHEUNG WAN",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-02"
+  },
+  "filings_count": 67
+}

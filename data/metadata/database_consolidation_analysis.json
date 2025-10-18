@@ -1,0 +1,378 @@
+{
+  "timestamp": "2025-09-29T18:36:53.641204",
+  "master_db": {
+    "size_mb": 3592.75390625,
+    "tables": 122,
+    "rows": 16827295
+  },
+  "databases": {
+    "osint_research.db": {
+      "size_mb": 1.76953125,
+      "tables": 31,
+      "rows": 2691,
+      "error": null,
+      "overlap": 6.451612903225806,
+      "unique_tables": [
+        "core_f_patent",
+        "research_session",
+        "scheduled_collection_log",
+        "raw_entity_data",
+        "core_f_trade_flow",
+        "research_findings",
+        "ops_quality_results",
+        "ops_alert_rules",
+        "core_intelligence_fusion",
+        "research_query_log",
+        "core_dim_person",
+        "core_network_edges",
+        "core_dim_product",
+        "marts_supply_chain",
+        "stage_trade",
+        "core_network_metrics",
+        "core_dim_organization",
+        "raw_trade_data",
+        "core_entity_resolution",
+        "ops_alert_history",
+        "marts_risk_assessment",
+        "mcf_relationships",
+        "core_dim_location",
+        "core_f_publication",
+        "ops_quality_rules",
+        "core_f_procurement",
+        "core_risk_scores",
+        "core_f_collaboration",
+        "ops_false_negative_log"
+      ],
+      "recommendation": "KEEP - Contains unique data"
+    },
+    "ted_deep_extract.db": {
+      "size_mb": 5.9296875,
+      "tables": 1,
+      "rows": 600,
+      "error": null,
+      "overlap": 0.0,
+      "unique_tables": [
+        "ted_deep_extract"
+      ],
+      "recommendation": "KEEP - Contains unique data"
+    },
+    "ted_complete_analysis.db": {
+      "size_mb": 24.12109375,
+      "tables": 1,
+      "rows": 28258,
+      "error": null,
+      "overlap": 0.0,
+      "unique_tables": [
+        "ted_complete_analysis"
+      ],
+      "recommendation": "KEEP - Contains unique data"
+    },
+    "ted_osint_fixed.db": {
+      "size_mb": 0.109375,
+      "tables": 1,
+      "rows": 496,
+      "error": null,
+      "overlap": 0.0,
+      "unique_tables": [
+        "ted_osint_analysis"
+      ],
+      "recommendation": "KEEP - Contains unique data"
+    },
+    "openalex_analysis.db": {
+      "size_mb": 2.53125,
+      "tables": 6,
+      "rows": 10911,
+      "error": null,
+      "overlap": 0.0,
+      "unique_tables": [
+        "openalex_collaborations",
+        "openalex_authors",
+        "openalex_institutions",
+        "openalex_funders",
+        "openalex_china_topics",
+        "openalex_works"
+      ],
+      "recommendation": "KEEP - Contains unique data"
+    },
+    "openalex_china_analysis.db": {
+      "size_mb": 0.0390625,
+      "tables": 3,
+      "rows": 0,
+      "error": null,
+      "overlap": 33.33333333333333,
+      "unique_tables": [
+        "china_research_topics",
+        "china_collaborations"
+      ],
+      "recommendation": "DELETE - Empty database"
+    },
+    "openalex_china_final.db": {
+      "size_mb": 1.10546875,
+      "tables": 2,
+      "rows": 6346,
+      "error": null,
+      "overlap": 0.0,
+      "unique_tables": [
+        "openalex_extraction_stats",
+        "openalex_china_entities"
+      ],
+      "recommendation": "KEEP - Contains unique data"
+    },
+    "google_patents_china.db": {
+      "size_mb": 0.046875,
+      "tables": 5,
+      "rows": 80,
+      "error": null,
+      "overlap": 0.0,
+      "unique_tables": [
+        "patent_searches",
+        "patent_statistics",
+        "technology_tracking",
+        "chinese_patents",
+        "anomaly_tracking"
+      ],
+      "recommendation": "DELETE - Trivial size"
+    },
+    "rss_intelligence.db": {
+      "size_mb": 0.046875,
+      "tables": 7,
+      "rows": 54,
+      "error": null,
+      "overlap": 0.0,
+      "unique_tables": [
+        "intelligence_alerts",
+        "china_alerts",
+        "feed_status",
+        "rss_items",
+        "rss_feeds",
+        "feed_directory",
+        "intelligence_items"
+      ],
+      "recommendation": "DELETE - Trivial size"
+    },
+    "entity_graph.db": {
+      "size_mb": 0.03125,
+      "tables": 4,
+      "rows": 27,
+      "error": null,
+      "overlap": 0.0,
+      "unique_tables": [
+        "network_clusters",
+        "entity_edges",
+        "hidden_connections",
+        "entity_nodes"
+      ],
+      "recommendation": "DELETE - Trivial size"
+    },
+    "ted_procurement.db": {
+      "size_mb": 17.14453125,
+      "tables": 3,
+      "rows": 40993,
+      "error": null,
+      "overlap": 0.0,
+      "unique_tables": [
+        "pattern_matches",
+        "ted_contracts",
+        "chinese_entities_found"
+      ],
+      "recommendation": "KEEP - Contains unique data"
+    },
+    "validation_results.db": {
+      "size_mb": 0.01171875,
+      "tables": 1,
+      "rows": 15,
+      "error": null,
+      "overlap": 0.0,
+      "unique_tables": [
+        "validation_results"
+      ],
+      "recommendation": "DELETE - Trivial size"
+    },
+    "leonardo_scores.db": {
+      "size_mb": 0.05078125,
+      "tables": 1,
+      "rows": 50,
+      "error": null,
+      "overlap": 0.0,
+      "unique_tables": [
+        "leonardo_scores"
+      ],
+      "recommendation": "DELETE - Trivial size"
+    },
+    "leonardo_scoring.db": {
+      "size_mb": 0.015625,
+      "tables": 2,
+      "rows": 11,
+      "error": null,
+      "overlap": 0.0,
+      "unique_tables": [
+        "scoring_thresholds",
+        "technology_assessments"
+      ],
+      "recommendation": "DELETE - Trivial size"
+    },
+    "master_intelligence.db": {
+      "size_mb": 0.02734375,
+      "tables": 3,
+      "rows": 6,
+      "error": null,
+      "overlap": 0.0,
+      "unique_tables": [
+        "intelligence_fusion",
+        "analysis_results",
+        "threat_indicators"
+      ],
+      "recommendation": "DELETE - Trivial size"
+    },
+    "chinese_patents.db": {
+      "size_mb": 0.0,
+      "tables": 0,
+      "rows": 0,
+      "error": "Empty file (0 bytes)",
+      "overlap": 0,
+      "unique_tables": [],
+      "recommendation": "DELETE - Empty file (0 bytes)"
+    },
+    "entity_relationships.db": {
+      "size_mb": 0.0,
+      "tables": 0,
+      "rows": 0,
+      "error": "Empty file (0 bytes)",
+      "overlap": 0,
+      "unique_tables": [],
+      "recommendation": "DELETE - Empty file (0 bytes)"
+    },
+    "intelligence_feeds.db": {
+      "size_mb": 0.0,
+      "tables": 0,
+      "rows": 0,
+      "error": "Empty file (0 bytes)",
+      "overlap": 0,
+      "unique_tables": [],
+      "recommendation": "DELETE - Empty file (0 bytes)"
+    },
+    "predictive_indicators.db": {
+      "size_mb": 0.03125,
+      "tables": 3,
+      "rows": 44,
+      "error": null,
+      "overlap": 0.0,
+      "unique_tables": [
+        "alert_triggers",
+        "indicator_measurements",
+        "trend_analysis"
+      ],
+      "recommendation": "DELETE - Trivial size"
+    },
+    "mcf_dualuse_intelligence.db": {
+      "size_mb": 0.07421875,
+      "tables": 5,
+      "rows": 96,
+      "error": null,
+      "overlap": 20.0,
+      "unique_tables": [
+        "quantum_dualuse",
+        "dual_use_technologies",
+        "mcf_reports",
+        "arctic_intelligence"
+      ],
+      "recommendation": "DELETE - Trivial size"
+    },
+    "arctic_intelligence.db": {
+      "size_mb": 0.04296875,
+      "tables": 4,
+      "rows": 12,
+      "error": null,
+      "overlap": 0.0,
+      "unique_tables": [
+        "arctic_resources",
+        "arctic_reports",
+        "arctic_technologies",
+        "arctic_infrastructure"
+      ],
+      "recommendation": "DELETE - Trivial size"
+    },
+    "dualuse_taxonomy.db": {
+      "size_mb": 0.03515625,
+      "tables": 4,
+      "rows": 29,
+      "error": null,
+      "overlap": 0.0,
+      "unique_tables": [
+        "technology_entities",
+        "dual_use_assessments",
+        "technology_categories",
+        "technology_relationships"
+      ],
+      "recommendation": "DELETE - Trivial size"
+    },
+    "alert_system.db": {
+      "size_mb": 0.01953125,
+      "tables": 2,
+      "rows": 8,
+      "error": null,
+      "overlap": 0.0,
+      "unique_tables": [
+        "alert_history",
+        "alerts"
+      ],
+      "recommendation": "DELETE - Trivial size"
+    },
+    "quantum_intelligence.db": {
+      "size_mb": 0.0234375,
+      "tables": 2,
+      "rows": 6,
+      "error": null,
+      "overlap": 0.0,
+      "unique_tables": [
+        "quantum_entities",
+        "quantum_reports"
+      ],
+      "recommendation": "DELETE - Trivial size"
+    },
+    "ted_comprehensive.db": {
+      "size_mb": 0.10546875,
+      "tables": 1,
+      "rows": 213,
+      "error": null,
+      "overlap": 0.0,
+      "unique_tables": [
+        "ted_contracts_comprehensive"
+      ],
+      "recommendation": "KEEP - Contains unique data"
+    }
+  },
+  "recommendations": {
+    "delete": [
+      "openalex_china_analysis.db",
+      "google_patents_china.db",
+      "rss_intelligence.db",
+      "entity_graph.db",
+      "validation_results.db",
+      "leonardo_scores.db",
+      "leonardo_scoring.db",
+      "master_intelligence.db",
+      "chinese_patents.db",
+      "entity_relationships.db",
+      "intelligence_feeds.db",
+      "predictive_indicators.db",
+      "mcf_dualuse_intelligence.db",
+      "arctic_intelligence.db",
+      "dualuse_taxonomy.db",
+      "alert_system.db",
+      "quantum_intelligence.db"
+    ],
+    "archive": [],
+    "review": [],
+    "keep": [
+      "osint_research.db",
+      "ted_deep_extract.db",
+      "ted_complete_analysis.db",
+      "ted_osint_fixed.db",
+      "openalex_analysis.db",
+      "openalex_china_final.db",
+      "ted_procurement.db",
+      "ted_comprehensive.db"
+    ]
+  }
+}

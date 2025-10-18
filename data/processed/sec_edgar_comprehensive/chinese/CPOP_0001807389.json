@@ -1,0 +1,53 @@
+{
+  "cik": "0001807389",
+  "ticker": "CPOP",
+  "name": "Pop Culture Group Co., Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:xiamen",
+    "location:fujian",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "7900",
+  "sicDescription": "Services-Amusement & Recreation Services",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86-0592-5968169",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ROOM 1207-08, NO. 2488 HUANDAO EAST ROAD",
+      "street2": "HULI DISTRICT, XIAMEN CITY",
+      "city": "FUJIAN PROVINCE",
+      "stateOrCountry": "F4",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "ROOM 1207-08, NO. 2488 HUANDAO EAST ROAD",
+      "street2": "HULI DISTRICT, XIAMEN CITY",
+      "city": "FUJIAN PROVINCE",
+      "stateOrCountry": "F4",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-23"
+  },
+  "filings_count": 104
+}

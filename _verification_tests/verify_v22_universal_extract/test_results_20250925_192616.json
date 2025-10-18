@@ -1,0 +1,39 @@
+{
+  "timestamp": "2025-09-25T19:26:15.825778",
+  "config": "tests.yaml",
+  "tests_run": 5,
+  "tests_passed": 0,
+  "tests_failed": 5,
+  "test_results": [
+    {
+      "id": "SEC_EDGAR_X1",
+      "name": "SEC EDGAR FS Delta Check",
+      "passed": false,
+      "output": "\nSTDERR: usage: verification_tools_starter_pack.py [-h]\n                                          {reachability,enum_parity,fs_delta_check,archive_member_check,ext_mime_hist,schema_probe,openability_check,coverage_delta,lineage_check,stream_json,batch_tsv,bulk_decompress,ted_schema_probe}\n                                          ...\nverification_tools_starter_pack.py: error: unrecognized arguments: - Foresight/data/processed/sec_edgar_comprehensive\n"
+    },
+    {
+      "id": "SEC_EDGAR_X3",
+      "name": "SEC EDGAR Ext/MIME Sanity",
+      "passed": false,
+      "output": "\nSTDERR: usage: verification_tools_starter_pack.py [-h]\n                                          {reachability,enum_parity,fs_delta_check,archive_member_check,ext_mime_hist,schema_probe,openability_check,coverage_delta,lineage_check,stream_json,batch_tsv,bulk_decompress,ted_schema_probe}\n                                          ...\nverification_tools_starter_pack.py: error: unrecognized arguments: - Foresight/data/processed/sec_edgar_comprehensive\n"
+    },
+    {
+      "id": "SEC_EDGAR_X4",
+      "name": "SEC EDGAR Schema Probe",
+      "passed": false,
+      "output": "\nSTDERR: usage: verification_tools_starter_pack.py [-h]\n                                          {reachability,enum_parity,fs_delta_check,archive_member_check,ext_mime_hist,schema_probe,openability_check,coverage_delta,lineage_check,stream_json,batch_tsv,bulk_decompress,ted_schema_probe}\n                                          ...\nverification_tools_starter_pack.py: error: unrecognized arguments: - Foresight/data/processed/sec_edgar_comprehensive\n"
+    },
+    {
+      "id": "SEC_EDGAR_X5",
+      "name": "SEC EDGAR Coverage Delta",
+      "passed": false,
+      "output": "\nSTDERR: usage: verification_tools_starter_pack.py [-h]\n                                          {reachability,enum_parity,fs_delta_check,archive_member_check,ext_mime_hist,schema_probe,openability_check,coverage_delta,lineage_check,stream_json,batch_tsv,bulk_decompress,ted_schema_probe}\n                                          ...\nverification_tools_starter_pack.py: error: unrecognized arguments: - Foresight/data/processed/sec_edgar_comprehensive\n"
+    },
+    {
+      "id": "SEC_EDGAR_X6",
+      "name": "SEC EDGAR Chinese Companies Validation",
+      "passed": false,
+      "output": "\nSTDERR: usage: verification_tools_starter_pack.py [-h]\n                                          {reachability,enum_parity,fs_delta_check,archive_member_check,ext_mime_hist,schema_probe,openability_check,coverage_delta,lineage_check,stream_json,batch_tsv,bulk_decompress,ted_schema_probe}\n                                          ...\nverification_tools_starter_pack.py: error: unrecognized arguments: - Foresight/data/processed/sec_edgar_comprehensive\n"
+    }
+  ]
+}

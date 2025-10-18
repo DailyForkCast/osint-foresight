@@ -1,0 +1,50 @@
+{
+  "cik": "0001941189",
+  "ticker": "TANAF",
+  "name": "Tian'an Technology Group Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:shanghai",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "3621",
+  "sicDescription": "Motors & Generators",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "D8",
+  "ein": "002059465",
+  "phone": "86 17127669333",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "NO. 3500 XIUPU ROAD",
+      "street2": "PUDONG NEW AREA",
+      "city": "SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "201315",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "NO. 3500 XIUPU ROAD",
+      "street2": "PUDONG NEW AREA",
+      "city": "SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "201315",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-27"
+  },
+  "filings_count": 25
+}

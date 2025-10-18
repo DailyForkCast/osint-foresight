@@ -1,0 +1,26 @@
+{
+  "yearly_mean": {
+    "mean": 32.38181818181818,
+    "std": 29.918711418262866,
+    "ci_lower": 24.29365752159272,
+    "ci_upper": 40.469978842043645,
+    "confidence_level": 0.95,
+    "sample_size": 55
+  },
+  "country_funding": {
+    "mean": 760635.0073049197,
+    "std": 774061.2701714849,
+    "ci_lower": 516311.12325671327,
+    "ci_upper": 1004958.891353126,
+    "confidence_level": 0.95,
+    "sample_size": 41
+  },
+  "reconciliation_accuracy": {
+    "mean": 0.8290773982580373,
+    "std": 0.05570345236126987,
+    "ci_lower": 0.7892295489240104,
+    "ci_upper": 0.8689252475920641,
+    "confidence_level": 0.95,
+    "sample_size": 10
+  }
+}

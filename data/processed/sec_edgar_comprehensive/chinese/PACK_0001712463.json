@@ -1,0 +1,49 @@
+{
+  "cik": "0001712463",
+  "ticker": "PACK",
+  "name": "Ranpak Holdings Corp.",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:bm"
+  ],
+  "sic": "2670",
+  "sicDescription": "Converted Paper & Paperboard Prods (No Contaners/Boxes)",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "440-354-4445",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "7990 AUBURN ROAD",
+      "street2": null,
+      "city": "CONCORD TOWNSHIP",
+      "stateOrCountry": "OH",
+      "zipCode": "44077",
+      "stateOrCountryDescription": "OH",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "7990 AUBURN ROAD",
+      "street2": null,
+      "city": "CONCORD TOWNSHIP",
+      "stateOrCountry": "OH",
+      "zipCode": "44077",
+      "stateOrCountryDescription": "OH",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-26"
+  },
+  "filings_count": 565
+}

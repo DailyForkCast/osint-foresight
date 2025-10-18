@@ -1,0 +1,44 @@
+{
+  "cik": "0001156375",
+  "ticker": "CME",
+  "name": "CME GROUP INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6200",
+  "sicDescription": "Security & Commodity Brokers, Dealers, Exchanges & Services",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "364459170",
+  "phone": "3129301000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "20 S. WACKER DR.",
+      "street2": null,
+      "city": "CHICAGO",
+      "stateOrCountry": "IL",
+      "zipCode": "60606",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "20 S. WACKER DR.",
+      "street2": null,
+      "city": "CHICAGO",
+      "stateOrCountry": "IL",
+      "zipCode": "60606",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1000
+}

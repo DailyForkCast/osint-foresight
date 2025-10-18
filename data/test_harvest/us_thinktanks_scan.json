@@ -1,0 +1,421 @@
+{
+  "scan_date": "2025-09-19T15:10:21.492100",
+  "summary": {
+    "total_scanned": 14,
+    "with_china_content": 14,
+    "without_china_content": 0
+  },
+  "results": {
+    "CFR": {
+      "name": "Council on Foreign Relations",
+      "base_url": "https://www.cfr.org",
+      "working_paths": [
+        {
+          "path": "/china",
+          "mentions": 52,
+          "title": "China Strategy Initiative | Council on Foreign Relations"
+        },
+        {
+          "path": "/publications",
+          "mentions": 33,
+          "title": "Books &amp; Reports | Council on Foreign Relations"
+        },
+        {
+          "path": "/asia",
+          "mentions": 33,
+          "title": "Asia | Council on Foreign Relations"
+        },
+        {
+          "path": "/?s=china",
+          "mentions": 1,
+          "title": "Council on Foreign Relations"
+        }
+      ],
+      "china_content": true,
+      "best_path": "/china",
+      "max_mentions": 52
+    },
+    "Brookings": {
+      "name": "Brookings Institution",
+      "base_url": "https://www.brookings.edu",
+      "working_paths": [
+        {
+          "path": "/",
+          "mentions": 8,
+          "title": "Brookings - Quality. Independence. Impact."
+        },
+        {
+          "path": "/china",
+          "mentions": 81,
+          "title": "John L. Thornton China Center | Brookings"
+        },
+        {
+          "path": "/research/china",
+          "mentions": 73,
+          "title": "China 2049: Economic challenges of a rising global power | Brookings"
+        },
+        {
+          "path": "/publications",
+          "mentions": 4,
+          "title": "Publications | Brookings Helping communities make the most of historic public investment"
+        },
+        {
+          "path": "/asia",
+          "mentions": 4,
+          "title": "Asia and Policymaking for the Global Economy | Brookings"
+        },
+        {
+          "path": "/search?q=china",
+          "mentions": 4,
+          "title": "Search | Brookings"
+        },
+        {
+          "path": "/?s=china",
+          "mentions": 26,
+          "title": "You searched for china | Brookings"
+        }
+      ],
+      "china_content": true,
+      "best_path": "/china",
+      "max_mentions": 81
+    },
+    "CSIS": {
+      "name": "CSIS",
+      "base_url": "https://www.csis.org",
+      "working_paths": [
+        {
+          "path": "/",
+          "mentions": 8,
+          "title": "CSIS | Center for Strategic and International Studies"
+        },
+        {
+          "path": "/china",
+          "mentions": 79,
+          "title": "Freeman Chair in China Studies | Geopolitics and Foreign Policy | CSIS"
+        },
+        {
+          "path": "/asia",
+          "mentions": 26,
+          "title": "Asia Program | Former Programs | CSIS"
+        },
+        {
+          "path": "/?s=china",
+          "mentions": 9,
+          "title": "CSIS | Center for Strategic and International Studies"
+        }
+      ],
+      "china_content": true,
+      "best_path": "/china",
+      "max_mentions": 79
+    },
+    "RAND": {
+      "name": "RAND Corporation",
+      "base_url": "https://www.rand.org",
+      "working_paths": [
+        {
+          "path": "/",
+          "mentions": 2,
+          "title": "RAND Provides Objective Research Services and Public Policy Analysis | RAND"
+        },
+        {
+          "path": "/topics/china",
+          "mentions": 72,
+          "title": "China | RAND"
+        },
+        {
+          "path": "/publications",
+          "mentions": 3,
+          "title": "Research & Commentary | RAND"
+        },
+        {
+          "path": "/?s=china",
+          "mentions": 2,
+          "title": "RAND Provides Objective Research Services and Public Policy Analysis | RAND"
+        }
+      ],
+      "china_content": true,
+      "best_path": "/topics/china",
+      "max_mentions": 72
+    },
+    "Atlantic_Council": {
+      "name": "Atlantic Council",
+      "base_url": "https://www.atlanticcouncil.org",
+      "working_paths": [
+        {
+          "path": "/",
+          "mentions": 6,
+          "title": "Atlantic Council - Shaping the global future together"
+        },
+        {
+          "path": "/topics/china",
+          "mentions": 30,
+          "title": "China - Atlantic Council"
+        },
+        {
+          "path": "/research/china",
+          "mentions": 30,
+          "title": "China - Atlantic Council"
+        },
+        {
+          "path": "/?s=china",
+          "mentions": 13,
+          "title": "You searched for china - Atlantic Council"
+        }
+      ],
+      "china_content": true,
+      "best_path": "/topics/china",
+      "max_mentions": 30
+    },
+    "AEI": {
+      "name": "American Enterprise Institute",
+      "base_url": "https://www.aei.org",
+      "working_paths": [
+        {
+          "path": "/",
+          "mentions": 1,
+          "title": "American Enterprise Institute - AEI | The American Enterprise Institute, AEI, is a nonpartisan publi"
+        },
+        {
+          "path": "/topics/china",
+          "mentions": 143,
+          "title": "China | American Enterprise Institute - AEI"
+        },
+        {
+          "path": "/research/china",
+          "mentions": 143,
+          "title": "China | American Enterprise Institute - AEI"
+        },
+        {
+          "path": "/asia",
+          "mentions": 34,
+          "title": "Congressional Inaction on Defense Budget Weakens Deterrence in Asia | American Enterprise Institute "
+        }
+      ],
+      "china_content": true,
+      "best_path": "/topics/china",
+      "max_mentions": 143
+    },
+    "Carnegie": {
+      "name": "Carnegie Endowment",
+      "base_url": "https://carnegieendowment.org",
+      "working_paths": [
+        {
+          "path": "/china",
+          "mentions": 4,
+          "title": "Carnegie China | Carnegie Endowment for International Peace"
+        },
+        {
+          "path": "/search?q=china",
+          "mentions": 1,
+          "title": "Search - Carnegie Endowment for International Peace | Carnegie Endowment for International Peace"
+        }
+      ],
+      "china_content": true,
+      "best_path": "/china",
+      "max_mentions": 4
+    },
+    "Wilson": {
+      "name": "Wilson Center",
+      "base_url": "https://www.wilsoncenter.org",
+      "working_paths": [
+        {
+          "path": "/",
+          "mentions": 10,
+          "title": "Wilson Center"
+        },
+        {
+          "path": "/publications",
+          "mentions": 12,
+          "title": "RAFDI Insight &amp; Analysis | Wilson Center"
+        },
+        {
+          "path": "/asia",
+          "mentions": 10,
+          "title": "Indo-Pacific Program | Wilson Center"
+        },
+        {
+          "path": "/search?q=china",
+          "mentions": 15,
+          "title": "Search | Wilson Center"
+        },
+        {
+          "path": "/?s=china",
+          "mentions": 11,
+          "title": "Wilson Center"
+        }
+      ],
+      "china_content": true,
+      "best_path": "/search?q=china",
+      "max_mentions": 15
+    },
+    "Hoover": {
+      "name": "Hoover Institution",
+      "base_url": "https://www.hoover.org",
+      "working_paths": [
+        {
+          "path": "/",
+          "mentions": 6,
+          "title": "Hoover Institution"
+        },
+        {
+          "path": "/research/china",
+          "mentions": 6,
+          "title": "Research | Hoover Institution"
+        },
+        {
+          "path": "/publications",
+          "mentions": 5,
+          "title": "Publications | Hoover Institution"
+        },
+        {
+          "path": "/search?q=china",
+          "mentions": 6,
+          "title": "Search | Hoover Institution"
+        },
+        {
+          "path": "/?s=china",
+          "mentions": 6,
+          "title": "Hoover Institution"
+        }
+      ],
+      "china_content": true,
+      "best_path": "/",
+      "max_mentions": 6
+    },
+    "USIP": {
+      "name": "US Institute of Peace",
+      "base_url": "https://www.usip.org",
+      "working_paths": [
+        {
+          "path": "/",
+          "mentions": 4,
+          "title": "United States Institute of Peace"
+        },
+        {
+          "path": "/publications",
+          "mentions": 38,
+          "title": "Research &amp; Analysis | United States Institute of Peace"
+        },
+        {
+          "path": "/?s=china",
+          "mentions": 5,
+          "title": "United States Institute of Peace"
+        }
+      ],
+      "china_content": true,
+      "best_path": "/publications",
+      "max_mentions": 38
+    },
+    "CNAS": {
+      "name": "CNAS",
+      "base_url": "https://www.cnas.org",
+      "working_paths": [
+        {
+          "path": "/",
+          "mentions": 23,
+          "title": "Homepage | CNAS"
+        },
+        {
+          "path": "/publications",
+          "mentions": 5,
+          "title": "Reports | CNAS"
+        },
+        {
+          "path": "/search?q=china",
+          "mentions": 55,
+          "title": "CNAS"
+        },
+        {
+          "path": "/?s=china",
+          "mentions": 23,
+          "title": "Homepage | CNAS"
+        }
+      ],
+      "china_content": true,
+      "best_path": "/search?q=china",
+      "max_mentions": 55
+    },
+    "FDD": {
+      "name": "FDD",
+      "base_url": "https://www.fdd.org",
+      "working_paths": [
+        {
+          "path": "/",
+          "mentions": 19,
+          "title": "FDD | The Foundation for Defense of Democracies"
+        },
+        {
+          "path": "/?s=china",
+          "mentions": 21,
+          "title": "You searched for FDD | china"
+        }
+      ],
+      "china_content": true,
+      "best_path": "/?s=china",
+      "max_mentions": 21
+    },
+    "Heritage": {
+      "name": "Heritage Foundation",
+      "base_url": "https://www.heritage.org",
+      "working_paths": [
+        {
+          "path": "/",
+          "mentions": 7,
+          "title": "The Heritage Foundation"
+        },
+        {
+          "path": "/china",
+          "mentions": 74,
+          "title": "China | The Heritage Foundation"
+        },
+        {
+          "path": "/asia",
+          "mentions": 74,
+          "title": "China | The Heritage Foundation"
+        },
+        {
+          "path": "/search?q=china",
+          "mentions": 15,
+          "title": "Search | The Heritage Foundation"
+        },
+        {
+          "path": "/?s=china",
+          "mentions": 8,
+          "title": "The Heritage Foundation"
+        }
+      ],
+      "china_content": true,
+      "best_path": "/china",
+      "max_mentions": 74
+    },
+    "Hudson": {
+      "name": "Hudson Institute",
+      "base_url": "https://www.hudson.org",
+      "working_paths": [
+        {
+          "path": "/",
+          "mentions": 8,
+          "title": "Hudson Institute"
+        },
+        {
+          "path": "/china",
+          "mentions": 35,
+          "title": "China | Hudson Institute"
+        },
+        {
+          "path": "/search?q=china",
+          "mentions": 9,
+          "title": "Search | Hudson Institute"
+        },
+        {
+          "path": "/?s=china",
+          "mentions": 8,
+          "title": "Hudson Institute"
+        }
+      ],
+      "china_content": true,
+      "best_path": "/china",
+      "max_mentions": 35
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "country": "Czech Republic",
+  "total_contracts": 19,
+  "total_value": 0.0,
+  "years_active": [
+    "2023",
+    "2024"
+  ],
+  "top_entities": {
+    "generic": 17,
+    "byd": 1,
+    "zte": 1
+  },
+  "sectors": {
+    "unknown": 17,
+    "automotive": 1,
+    "telecom": 1
+  }
+}

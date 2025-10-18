@@ -1,0 +1,47 @@
+{
+  "cik": "0001785592",
+  "ticker": "LFLYD",
+  "name": "Leafly Holdings, Inc. /DE",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7372",
+  "sicDescription": "Services-Prepackaged Software",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "WA",
+  "ein": "842266022",
+  "phone": "206-455-9504",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "113 CHERRY STREET",
+      "street2": "PMB 88154",
+      "city": "SEATTLE",
+      "stateOrCountry": "WA",
+      "zipCode": "98104-2205",
+      "stateOrCountryDescription": "WA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "113 CHERRY STREET",
+      "street2": "PMB 88154",
+      "city": "SEATTLE",
+      "stateOrCountry": "WA",
+      "zipCode": "98104-2205",
+      "stateOrCountryDescription": "WA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-06-18"
+  },
+  "filings_count": 384
+}

@@ -1,0 +1,48 @@
+{
+  "cik": "0001916331",
+  "ticker": "NCI",
+  "name": "Neo-Concept International Group Holdings Ltd",
+  "detection_reasons": [
+    "offshore:hong kong",
+    "vie_structure"
+  ],
+  "sic": "2300",
+  "sicDescription": "Apparel & Other Finishd Prods of  Fabrics & Similar Matl",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "K3",
+  "ein": "000000000",
+  "phone": "852 2798 8639",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "10/F SEAVIEW CENTRE",
+      "street2": "139-141 HOI BUN ROAD, KOWLOON TONG",
+      "city": "HONG KONG",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    },
+    "business": {
+      "street1": "10/F SEAVIEW CENTRE",
+      "street2": "139-141 HOI BUN ROAD, KOWLOON TONG",
+      "city": "HONG KONG",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-12"
+  },
+  "filings_count": 68
+}

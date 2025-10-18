@@ -1,0 +1,47 @@
+{
+  "cik": "0000731012",
+  "ticker": "HCSG",
+  "name": "HEALTHCARE SERVICES GROUP INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "8050",
+  "sicDescription": "Services-Nursing & Personal Care Facilities",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "PA",
+  "ein": "232018365",
+  "phone": "2159381661",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3220 TILLMAN DRIVE",
+      "street2": "SUITE 300",
+      "city": "BENSALEM",
+      "stateOrCountry": "PA",
+      "zipCode": "19020",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3220 TILLMAN DRIVE",
+      "street2": "SUITE 300",
+      "city": "BENSALEM",
+      "stateOrCountry": "PA",
+      "zipCode": "19020",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-07-25"
+  },
+  "filings_count": 1000
+}

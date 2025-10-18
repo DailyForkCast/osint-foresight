@@ -1,0 +1,52 @@
+{
+  "country": "DE",
+  "harvest_session": {
+    "start_time": "2025-09-27T21:28:17.261445",
+    "end_time": "2025-09-27T21:29:20.430857",
+    "total_operations": 5
+  },
+  "operations_log": [
+    {
+      "timestamp": "2025-09-27T21:28:17.261445",
+      "operation": "HARVEST_SESSION_START",
+      "details": {
+        "country": "DE"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T21:28:17.262443",
+      "operation": "FETCH_INITIATED",
+      "details": {
+        "url": "https://www.auswaertiges-amt.de/de/aussenpolitik/laender/laenderinfos/china/bilateral_node.html",
+        "country": "DE"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T21:28:38.321781",
+      "operation": "FETCH_FAILED",
+      "details": {
+        "url": "https://www.auswaertiges-amt.de/de/aussenpolitik/laender/laenderinfos/china/bilateral_node.html",
+        "error": "HTTPSConnectionPool(host='www.auswaertiges-amt.de', port=443): Max retries exceeded with url: /de/aussenpolitik/laender/laenderinfos/china/bilateral_node.html (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000027925138E80>, 'Connection to www.auswaertiges-amt.de timed out. (connect timeout=30)'))"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T21:28:38.322695",
+      "operation": "FETCH_INITIATED",
+      "details": {
+        "url": "https://www.bundesregierung.de",
+        "country": "DE"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T21:29:20.429850",
+      "operation": "FETCH_FAILED",
+      "details": {
+        "url": "https://www.bundesregierung.de",
+        "error": "HTTPSConnectionPool(host='www.bundesregierung.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000027925D724A0>, 'Connection to www.bundesregierung.de timed out. (connect timeout=30)'))"
+      }
+    }
+  ],
+  "verification_status": "ALL_DATA_REQUIRES_MANUAL_VERIFICATION",
+  "fabrication_risk": "ZERO_FABRICATION_PROTOCOL_ENFORCED",
+  "usage_warning": "DO NOT USE WITHOUT MANUAL VERIFICATION OF SOURCE DOCUMENTS"
+}

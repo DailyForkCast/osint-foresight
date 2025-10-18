@@ -1,0 +1,47 @@
+{
+  "cik": "0001832332",
+  "ticker": "AVAH",
+  "name": "Aveanna Healthcare Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "8082",
+  "sicDescription": "Services-Home Health Care Services",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "844717209",
+  "phone": "770-441-1580",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "400 INTERSTATE NORTH PARKWAY",
+      "street2": "STE 1700",
+      "city": "ATLANTA",
+      "stateOrCountry": "GA",
+      "zipCode": "30339",
+      "stateOrCountryDescription": "GA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "400 INTERSTATE NORTH PARKWAY",
+      "street2": "STE 1700",
+      "city": "ATLANTA",
+      "stateOrCountry": "GA",
+      "zipCode": "30339",
+      "stateOrCountryDescription": "GA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-18"
+  },
+  "filings_count": 305
+}

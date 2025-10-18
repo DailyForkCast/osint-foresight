@@ -1,0 +1,47 @@
+{
+  "cik": "0001531152",
+  "ticker": "BJ",
+  "name": "BJ's Wholesale Club Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5331",
+  "sicDescription": "Retail-Variety Stores",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "452936287",
+  "phone": "774-512-7400",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "350 CAMPUS DRIVE",
+      "street2": null,
+      "city": "MARLBOROUGH",
+      "stateOrCountry": "MA",
+      "zipCode": "01752",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "350 CAMPUS DRIVE",
+      "street2": null,
+      "city": "MARLBOROUGH",
+      "stateOrCountry": "MA",
+      "zipCode": "01752",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-28"
+  },
+  "filings_count": 772
+}

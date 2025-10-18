@@ -1,0 +1,72 @@
+{
+  "phase": 13,
+  "country": "Italy",
+  "generated": "2025-09-19T07:40:42.685125",
+  "key_findings": [
+    {
+      "finding": "Leonardo helicopter exposure creates reverse engineering risk",
+      "confidence": 0.85,
+      "uncertainty": 0.1,
+      "evidence_quality": "Tier 1",
+      "counterfactual_tested": true,
+      "recommendation": "Enhanced export controls and monitoring"
+    },
+    {
+      "finding": "Supply chain dependencies align with global patterns",
+      "confidence": 0.75,
+      "uncertainty": 0.15,
+      "evidence_quality": "Tier 1-2",
+      "counterfactual_tested": true,
+      "recommendation": "Selective diversification in critical components"
+    },
+    {
+      "finding": "Academic collaboration presents selective risks",
+      "confidence": 0.65,
+      "uncertainty": 0.2,
+      "evidence_quality": "Tier 2",
+      "counterfactual_tested": true,
+      "recommendation": "Enhanced vetting for sensitive research areas"
+    }
+  ],
+  "overall_risk_assessment": {
+    "level": "Medium",
+    "trajectory": "Stable to declining",
+    "confidence": 0.7,
+    "uncertainty": 0.15,
+    "key_factors": [
+      "BRI exit reduces exposure",
+      "EU de-risking alignment",
+      "But Leonardo and supply chain vulnerabilities remain"
+    ]
+  },
+  "intelligence_gaps_remaining": [
+    "Conference intelligence network effects",
+    "Tier 2-3 supply chain visibility",
+    "Talent program participation",
+    "Cyber attribution capabilities"
+  ],
+  "recommendations": {
+    "immediate": [
+      "Implement Leonardo technology controls",
+      "Establish conference monitoring system",
+      "Deploy MCF dataset integration"
+    ],
+    "short_term": [
+      "Enhance supply chain mapping",
+      "Strengthen academic vetting",
+      "Improve standards body coordination"
+    ],
+    "long_term": [
+      "Develop technology sovereignty capabilities",
+      "Build resilient supply chains",
+      "Strengthen NATO/EU coordination"
+    ]
+  },
+  "validation_summary": {
+    "phases_with_counterfactuals": 14,
+    "confidence_standardized": true,
+    "mcf_sources_integrated": 12,
+    "evidence_tier_compliance": true,
+    "protocol_version": "v6.1_complete"
+  }
+}

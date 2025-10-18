@@ -1,0 +1,44 @@
+{
+  "cik": "0001777393",
+  "ticker": "CHPT",
+  "name": "ChargePoint Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3790",
+  "sicDescription": "Miscellaneous Transportation Equipment",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "841747686",
+  "phone": "(972) 514-9535",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "240 EAST HACIENDA AVENUE",
+      "street2": null,
+      "city": "CAMPBELL",
+      "stateOrCountry": "CA",
+      "zipCode": "95008",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "240 EAST HACIENDA AVENUE",
+      "street2": null,
+      "city": "CAMPBELL",
+      "stateOrCountry": "CA",
+      "zipCode": "95008",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 834
+}

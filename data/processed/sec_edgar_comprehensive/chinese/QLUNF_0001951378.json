@@ -1,0 +1,52 @@
+{
+  "cik": "0001951378",
+  "ticker": "QLUNF",
+  "name": "Qilun Group Inc.",
+  "detection_reasons": [
+    "location:china",
+    "location:shenzhen",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "5190",
+  "sicDescription": "Wholesale-Miscellaneous Nondurable Goods",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86-755-83985414",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2201, MODERN INTERNATIONAL BUILDING,",
+      "street2": "3038, JINTIAN ROAD, GANGXIA COMMUNITY",
+      "city": "FUTIAN DISTRICT, SHENZHEN",
+      "stateOrCountry": "F4",
+      "zipCode": "518000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2201, MODERN INTERNATIONAL BUILDING,",
+      "street2": "3038, JINTIAN ROAD, GANGXIA COMMUNITY",
+      "city": "FUTIAN DISTRICT, SHENZHEN",
+      "stateOrCountry": "F4",
+      "zipCode": "518000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2024-01-04"
+  },
+  "filings_count": 20
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0002046919",
+  "ticker": "RNBW",
+  "name": "Rainbow Capital Holdings Ltd",
+  "detection_reasons": [
+    "location:china",
+    "offshore:hong kong",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "6199",
+  "sicDescription": "Finance Services",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "D8",
+  "ein": "000000000",
+  "phone": "(852) 3841-7451",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "OFFICE, NO. 710, 7/F, WING ON HOUSE,",
+      "street2": "71 DES VOEUX ROAD CENTRAL",
+      "city": "HONG KONG",
+      "stateOrCountry": "F4",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "OFFICE, NO. 710, 7/F, WING ON HOUSE,",
+      "street2": "71 DES VOEUX ROAD CENTRAL",
+      "city": "HONG KONG",
+      "stateOrCountry": "F4",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 12
+}

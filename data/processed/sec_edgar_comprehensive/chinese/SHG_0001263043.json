@@ -1,0 +1,47 @@
+{
+  "cik": "0001263043",
+  "ticker": "SHG",
+  "name": "SHINHAN FINANCIAL GROUP CO LTD",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6021",
+  "sicDescription": "National Commercial Banks",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "82263603000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "120 2-GA TAEPYUNG RO JUNG GU",
+      "street2": "SEOUL 100-102",
+      "city": "SEOUL",
+      "stateOrCountry": null,
+      "zipCode": "00000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Korea, Republic of",
+      "countryCode": "M5"
+    },
+    "business": {
+      "street1": "120 2-GA TAEPYUNG RO JUNG GU",
+      "street2": null,
+      "city": "SEOUL100-102",
+      "stateOrCountry": null,
+      "zipCode": "00000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Korea, Republic of",
+      "countryCode": "M5"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-12"
+  },
+  "filings_count": 976
+}

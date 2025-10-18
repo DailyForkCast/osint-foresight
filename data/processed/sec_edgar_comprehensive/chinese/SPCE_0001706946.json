@@ -1,0 +1,48 @@
+{
+  "cik": "0001706946",
+  "ticker": "SPCE",
+  "name": "Virgin Galactic Holdings, Inc",
+  "detection_reasons": [
+    "offshore:vg",
+    "offshore:bm"
+  ],
+  "sic": "4700",
+  "sicDescription": "Transportation Services",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "853608069",
+  "phone": "(575) 424-2100",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1700 FLIGHT WAY",
+      "street2": null,
+      "city": "TUSTIN",
+      "stateOrCountry": "CA",
+      "zipCode": "92782",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1700 FLIGHT WAY",
+      "street2": null,
+      "city": "TUSTIN",
+      "stateOrCountry": "CA",
+      "zipCode": "92782",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-29"
+  },
+  "filings_count": 604
+}

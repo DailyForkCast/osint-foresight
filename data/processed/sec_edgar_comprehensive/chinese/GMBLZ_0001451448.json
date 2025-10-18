@@ -1,0 +1,47 @@
+{
+  "cik": "0001451448",
+  "ticker": "GMBLZ",
+  "name": "ESPORTS ENTERTAINMENT GROUP, INC.",
+  "detection_reasons": [
+    "offshore:vg"
+  ],
+  "sic": "7900",
+  "sicDescription": "Services-Amusement & Recreation Services",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "NV",
+  "ein": "263062752",
+  "phone": "356 2757 7000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "BLOCK 6, TRIQ PACEVILLE",
+      "street2": "ST. JULIANS STJ 3109",
+      "city": "MALTA",
+      "stateOrCountry": "O1",
+      "zipCode": "BKR 9077",
+      "stateOrCountryDescription": "Malta",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "BLOCK 6, TRIQ PACEVILLE",
+      "street2": "ST. JULIANS STJ 3109",
+      "city": "MALTA",
+      "stateOrCountry": "O1",
+      "zipCode": "BKR 9077",
+      "stateOrCountryDescription": "Malta",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2024-06-20"
+  },
+  "filings_count": 431
+}

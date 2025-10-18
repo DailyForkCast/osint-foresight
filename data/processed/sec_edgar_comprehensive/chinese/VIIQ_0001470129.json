@@ -1,0 +1,44 @@
+{
+  "cik": "0001470129",
+  "ticker": "VIIQ",
+  "name": "Capstone Technologies Group Inc.",
+  "detection_reasons": [
+    "location:china"
+  ],
+  "sic": "6799",
+  "sicDescription": "Investors, NEC",
+  "category": "",
+  "entityType": "operating",
+  "stateOfIncorporation": "NV",
+  "ein": "680678185",
+  "phone": "48223896676",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "PULAWSKA STREET 21 SUITE 23",
+      "street2": null,
+      "city": "LUBLIN",
+      "stateOrCountry": "R9",
+      "zipCode": "20-051",
+      "stateOrCountryDescription": "Poland",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "PULAWSKA STREET 21 SUITE 23",
+      "street2": null,
+      "city": "LUBLIN",
+      "stateOrCountry": "R9",
+      "zipCode": "20-051",
+      "stateOrCountryDescription": "Poland",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 62
+}

@@ -1,0 +1,659 @@
+{
+  "country": "SK",
+  "total_found": 1,
+  "method": "keyword_search",
+  "keywords_used": [
+    "China",
+    "Chinese",
+    "Beijing",
+    "Shanghai",
+    "Shenzhen",
+    "Guangzhou",
+    "Wuhan",
+    "Chengdu",
+    "Nanjing",
+    "Tianjin"
+  ],
+  "collection_date": "2025-09-22T20:27:56.298685",
+  "results": [
+    {
+      "header": {
+        "dri:objIdentifier": {
+          "$": "doi_dedup___::3a852d15b2777ef4b12d01a6cb348020"
+        },
+        "dri:dateOfCollection": {
+          "$": "2025-08-08T10:01:34.322"
+        },
+        "dri:dateOfTransformation": null
+      },
+      "metadata": {
+        "oaf:entity": {
+          "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+          "oaf:result": {
+            "collectedfrom": [
+              {
+                "@name": "Datacite",
+                "@id": "openaire____::9e3be59865b2c1c335d32dae2fe7b254"
+              },
+              {
+                "@name": "Research Papers in Economics",
+                "@id": "opendoar____::5e9f92a01c986bafcabbafd145520b13"
+              },
+              {
+                "@name": "Microsoft Academic Graph",
+                "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+              }
+            ],
+            "originalId": [
+              {
+                "$": "50|datacite____::3a852d15b2777ef4b12d01a6cb348020"
+              },
+              {
+                "$": "10.22004/ag.econ.118283"
+              },
+              {
+                "$": "1484384419"
+              },
+              {
+                "$": "oai:RePEc:ags:asagre:118283"
+              },
+              {
+                "$": "50|od_______645::0ca7ed02fb1c523e350b87bc007b1e49"
+              }
+            ],
+            "pid": [
+              {
+                "@classid": "doi",
+                "@classname": "Digital Object Identifier",
+                "@schemeid": "dnet:pid_types",
+                "@schemename": "dnet:pid_types",
+                "@inferred": false,
+                "@provenanceaction": "sysimport:actionset",
+                "@trust": "0.9",
+                "$": "10.22004/ag.econ.118283"
+              },
+              {
+                "@classid": "mag_id",
+                "@classname": "Microsoft Academic Graph Identifier",
+                "@schemeid": "dnet:pid_types",
+                "@schemename": "dnet:pid_types",
+                "$": 1484384419
+              }
+            ],
+            "measure": [
+              {
+                "@id": "influence",
+                "@score": "2.635068E-9",
+                "@class": "C5"
+              },
+              {
+                "@id": "popularity",
+                "@score": "5.5947835E-10",
+                "@class": "C5"
+              },
+              {
+                "@id": "influence_alt",
+                "@score": "0",
+                "@class": "C5"
+              },
+              {
+                "@id": "popularity_alt",
+                "@score": "0.0",
+                "@class": "C5"
+              },
+              {
+                "@id": "impulse",
+                "@score": "0",
+                "@class": "C5"
+              }
+            ],
+            "title": [
+              {
+                "@classid": "main title",
+                "@classname": "main title",
+                "@schemeid": "dnet:dataCite_title",
+                "@schemename": "dnet:dataCite_title",
+                "$": "Evaluation on Comprehensive Benefit of Natural Forest Protection Project in Southwest China"
+              },
+              {
+                "@classid": "main title",
+                "@classname": "main title",
+                "@schemeid": "dnet:dataCite_title",
+                "@schemename": "dnet:dataCite_title",
+                "$": "evaluation on comprehensive benefit of natural forest protection project in southwest china"
+              }
+            ],
+            "bestaccessright": {
+              "@classid": "UNKNOWN",
+              "@classname": "unspecified",
+              "@schemeid": "dnet:access_modes",
+              "@schemename": "dnet:access_modes"
+            },
+            "creator": [
+              {
+                "@rank": "1",
+                "@name": "Zheng",
+                "@surname": "Guo",
+                "$": "Guo, Zheng"
+              },
+              {
+                "@rank": "2",
+                "@name": "Hua",
+                "@surname": "Nie",
+                "$": "Nie, Hua"
+              },
+              {
+                "@rank": "3",
+                "@name": "Runguo",
+                "@surname": "Zang",
+                "$": "Zang, Runguo"
+              },
+              {
+                "@rank": "4",
+                "@name": "Zheng",
+                "@surname": "Guo",
+                "$": "Guo, Zheng"
+              },
+              {
+                "@rank": "5",
+                "@name": "Hua",
+                "@surname": "Nie",
+                "$": "Nie, Hua"
+              },
+              {
+                "@rank": "6",
+                "@name": "Runguo",
+                "@surname": "Zang",
+                "$": "Zang, Runguo"
+              }
+            ],
+            "dateofacceptance": {
+              "$": "2011-01-01"
+            },
+            "description": {
+              "$": "According to the problem of seriously degraded natural forest in Southwest China prior to the implementation of Natural Forest Protection Project, under the guidance of principle of practicality and systematicness, we establish the comprehensive-benefit evaluation index system of restoring the degraded natural forest in Southwest China, including 3 second-level indices, 12 third-level indices and 24 fourth-level indices. In addition, we use the method of Analytic Hierarchy Process to conduct comprehensive-benefit evaluation on implementation of Natural Forest Protection Project in Southwest China. The results show that since ten years of implementation of Natural Forest Protection Project in Southwest China, it has gained considerable comprehensive benefit. The comprehensive evaluation index of Natural Forest Protection Project in Southwest China is 83.08; the ecological benefit index of Natural Forest Protection Project in Southwest China is 56.75; the economic benefit index of Natural Forest Protection Project in Southwest China is 19.05; the social benefit index of Natural Forest Protection Project in Southwest China is 7.28. The effect of construction of Natural Forest Protection Project in Southwest China is good. The evaluation index system and research results in this paper will provide the empirical guidance for comprehensive-benefit evaluation of Natural Forest Protection Project in China, and especially in Southwest China."
+            },
+            "subject": [
+              {
+                "@classid": "keyword",
+                "@classname": "keyword",
+                "@schemeid": "dnet:result_subject",
+                "@schemename": "dnet:result_subject",
+                "@inferred": false,
+                "@provenanceaction": "sysimport:crosswalk:repository",
+                "@trust": "0.9",
+                "$": "Southwest China, Comprehensive-benefit evaluation, Index system, Analytic Hierarchy Process, Agribusiness,"
+              },
+              {
+                "@classid": "SDG",
+                "@classname": "Sustainable Development Goals",
+                "@schemeid": "dnet:subject_classification_typologies",
+                "@schemename": "dnet:subject_classification_typologies",
+                "@inferred": true,
+                "@inferenceprovenance": "update",
+                "@provenanceaction": "subject:sdg",
+                "$": "11. Sustainability"
+              },
+              {
+                "@classid": "keyword",
+                "@classname": "keyword",
+                "@schemeid": "dnet:subject_classification_typologies",
+                "@schemename": "dnet:subject_classification_typologies",
+                "$": "Index system"
+              },
+              {
+                "@classid": "keyword",
+                "@classname": "keyword",
+                "@schemeid": "dnet:subject_classification_typologies",
+                "@schemename": "dnet:subject_classification_typologies",
+                "$": "Comprehensive-benefit evaluation"
+              },
+              {
+                "@classid": "keyword",
+                "@classname": "keyword",
+                "@schemeid": "dnet:subject_classification_typologies",
+                "@schemename": "dnet:subject_classification_typologies",
+                "$": "Agribusiness"
+              },
+              {
+                "@classid": "SDG",
+                "@classname": "Sustainable Development Goals",
+                "@schemeid": "dnet:subject_classification_typologies",
+                "@schemename": "dnet:subject_classification_typologies",
+                "@inferred": true,
+                "@inferenceprovenance": "update",
+                "@provenanceaction": "subject:sdg",
+                "$": "15. Life on land"
+              },
+              {
+                "@classid": "keyword",
+                "@classname": "keyword",
+                "@schemeid": "dnet:subject_classification_typologies",
+                "@schemename": "dnet:subject_classification_typologies",
+                "$": "Southwest China"
+              },
+              {
+                "@classid": "keyword",
+                "@classname": "keyword",
+                "@schemeid": "dnet:subject_classification_typologies",
+                "@schemename": "dnet:subject_classification_typologies",
+                "$": "Analytic Hierarchy Process"
+              },
+              {
+                "@classid": "SDG",
+                "@classname": "Sustainable Development Goals",
+                "@schemeid": "dnet:subject_classification_typologies",
+                "@schemename": "dnet:subject_classification_typologies",
+                "@inferred": true,
+                "@inferenceprovenance": "update",
+                "@provenanceaction": "subject:sdg",
+                "$": "12. Responsible consumption"
+              }
+            ],
+            "language": {
+              "@classid": "eng",
+              "@classname": "English",
+              "@schemeid": "dnet:languages",
+              "@schemename": "dnet:languages"
+            },
+            "relevantdate": {
+              "@classid": "issued",
+              "@classname": "issued",
+              "@schemeid": "dnet:dataCite_date",
+              "@schemename": "dnet:dataCite_date",
+              "$": "2011-01-01"
+            },
+            "publisher": {
+              "$": "Unknown"
+            },
+            "resulttype": {
+              "@classid": "publication",
+              "@classname": "publication",
+              "@schemeid": "dnet:result_typologies",
+              "@schemename": "dnet:result_typologies"
+            },
+            "resourcetype": {
+              "@classid": "UNKNOWN",
+              "@classname": "UNKNOWN",
+              "@schemeid": "dnet:dataCite_resource",
+              "@schemename": "dnet:dataCite_resource"
+            },
+            "isgreen": {
+              "$": false
+            },
+            "isindiamondjournal": {
+              "$": false
+            },
+            "publiclyfunded": {
+              "$": false
+            },
+            "journal": {
+              "@issn": "1943-9903",
+              "@ep": "30",
+              "@iss": "6",
+              "@sp": "25",
+              "@vol": "3",
+              "$": "Asian Agricultural Research"
+            },
+            "context": {
+              "@id": "knowmad",
+              "@label": "Knowmad Institut",
+              "@type": "community"
+            },
+            "datainfo": {
+              "inferred": {
+                "$": true
+              },
+              "deletedbyinference": {
+                "$": false
+              },
+              "trust": {
+                "$": "0.8"
+              },
+              "inferenceprovenance": {
+                "$": "dedup-result-decisiontree-v4"
+              },
+              "provenanceaction": {
+                "@classid": "sysimport:dedup",
+                "@classname": "Inferred by OpenAIRE",
+                "@schemeid": "dnet:provenanceActions",
+                "@schemename": "dnet:provenanceActions"
+              }
+            },
+            "rels": {
+              "rel": {
+                "@inferred": true,
+                "@trust": "1.0",
+                "@inferenceprovenance": "openaire:affiliation:rawaff",
+                "@provenanceaction": "result:organization:openaireinference",
+                "to": {
+                  "@class": "hasAuthorInstitution",
+                  "@scheme": "dnet:result_organization_relations",
+                  "@type": "organization",
+                  "$": "ror_________::429854ed83e7796d2a56c59921baa139"
+                },
+                "websiteurl": {
+                  "$": "https://ife.sk"
+                },
+                "country": {
+                  "@classid": "SK",
+                  "@classname": "Slovakia",
+                  "@schemeid": "dnet:countries",
+                  "@schemename": "dnet:countries"
+                },
+                "legalshortname": {
+                  "$": "IFE"
+                },
+                "legalname": {
+                  "$": "Institute of Forest Ecology of the Slovak Academy of Sciences"
+                }
+              }
+            },
+            "children": {
+              "result": [
+                {
+                  "@objidentifier": "doi_________::3a852d15b2777ef4b12d01a6cb348020",
+                  "creator": [
+                    {
+                      "$": "Nie, Hua"
+                    },
+                    {
+                      "$": "Zang, Runguo"
+                    },
+                    {
+                      "$": "Guo, Zheng"
+                    }
+                  ],
+                  "pid": {
+                    "@classid": "doi",
+                    "@classname": "Digital Object Identifier",
+                    "@schemeid": "dnet:pid_types",
+                    "@schemename": "dnet:pid_types",
+                    "@inferred": false,
+                    "@provenanceaction": "sysimport:actionset",
+                    "@trust": "0.9",
+                    "$": "10.22004/ag.econ.118283"
+                  },
+                  "description": {
+                    "$": "According to the problem of seriously degraded natural forest in Southwest China prior to the implementation of Natural Forest Protection Project, under the guidance of principle of practicality and systematicness, we establish the comprehensive-benefit evaluation index system of restoring the degraded natural forest in Southwest China, including 3 second-level indices, 12 third-level indices and 24 fourth-level indices. In addition, we use the method of Analytic Hierarchy Process to conduct com"
+                  },
+                  "publisher": {
+                    "$": "Unknown"
+                  },
+                  "collectedfrom": {
+                    "@name": "Datacite",
+                    "@id": "openaire____::9e3be59865b2c1c335d32dae2fe7b254"
+                  },
+                  "title": {
+                    "@classid": "main title",
+                    "@classname": "main title",
+                    "@schemeid": "dnet:dataCite_title",
+                    "@schemename": "dnet:dataCite_title",
+                    "$": "Evaluation on Comprehensive Benefit of Natural Forest Protection Project in Southwest China"
+                  },
+                  "instance": {
+                    "accessright": {
+                      "@classid": "UNKNOWN",
+                      "@classname": "unspecified",
+                      "@schemeid": "dnet:access_modes",
+                      "@schemename": "dnet:access_modes"
+                    },
+                    "hostedby": {
+                      "@name": "Unknown Repository",
+                      "@id": "openaire____::55045bd2a65019fd8e6741a755395c8c"
+                    },
+                    "dateofacceptance": {
+                      "$": "2011-01-01"
+                    },
+                    "instancetype": {
+                      "@classid": "0038",
+                      "@classname": "Other literature type",
+                      "@schemeid": "dnet:publication_resource",
+                      "@schemename": "dnet:publication_resource"
+                    },
+                    "refereed": {
+                      "@classid": "0002",
+                      "@classname": "nonPeerReviewed",
+                      "@schemeid": "dnet:review_levels",
+                      "@schemename": "dnet:review_levels"
+                    },
+                    "url": {
+                      "$": "https://dx.doi.org/10.22004/ag.econ.118283"
+                    },
+                    "webresource": {
+                      "url": {
+                        "$": "https://dx.doi.org/10.22004/ag.econ.118283"
+                      }
+                    }
+                  },
+                  "resulttype": {
+                    "@classid": "publication",
+                    "@classname": "publication",
+                    "@schemeid": "dnet:result_typologies",
+                    "@schemename": "dnet:result_typologies"
+                  },
+                  "dateofacceptance": {
+                    "$": "2011-01-01"
+                  }
+                },
+                {
+                  "@objidentifier": "od_______645::0ca7ed02fb1c523e350b87bc007b1e49",
+                  "collectedfrom": {
+                    "@name": "Research Papers in Economics",
+                    "@id": "opendoar____::5e9f92a01c986bafcabbafd145520b13"
+                  },
+                  "creator": [
+                    {
+                      "$": "Nie, Hua"
+                    },
+                    {
+                      "$": "Zang, Runguo"
+                    },
+                    {
+                      "$": "Guo, Zheng"
+                    }
+                  ],
+                  "resulttype": {
+                    "@classid": "publication",
+                    "@classname": "publication",
+                    "@schemeid": "dnet:result_typologies",
+                    "@schemename": "dnet:result_typologies"
+                  },
+                  "instance": {
+                    "accessright": {
+                      "@classid": "UNKNOWN",
+                      "@classname": "unspecified",
+                      "@schemeid": "dnet:access_modes",
+                      "@schemename": "dnet:access_modes"
+                    },
+                    "hostedby": {
+                      "@name": "Research Papers in Economics",
+                      "@id": "opendoar____::5e9f92a01c986bafcabbafd145520b13"
+                    },
+                    "dateofacceptance": {
+                      "$": "2011-01-01"
+                    },
+                    "instancetype": {
+                      "@classid": "0001",
+                      "@classname": "Article",
+                      "@schemeid": "dnet:publication_resource",
+                      "@schemename": "dnet:publication_resource"
+                    },
+                    "refereed": {
+                      "@classid": "0002",
+                      "@classname": "nonPeerReviewed",
+                      "@schemeid": "dnet:review_levels",
+                      "@schemename": "dnet:review_levels"
+                    },
+                    "url": {
+                      "$": "http://purl.umn.edu/118283"
+                    },
+                    "webresource": {
+                      "url": {
+                        "$": "http://purl.umn.edu/118283"
+                      }
+                    }
+                  },
+                  "title": {
+                    "@classid": "main title",
+                    "@classname": "main title",
+                    "@schemeid": "dnet:dataCite_title",
+                    "@schemename": "dnet:dataCite_title",
+                    "@inferred": false,
+                    "@provenanceaction": "sysimport:crosswalk:repository",
+                    "@trust": "0.9",
+                    "$": "Evaluation on Comprehensive Benefit of Natural Forest Protection Project in Southwest China"
+                  },
+                  "description": {
+                    "$": "According to the problem of seriously degraded natural forest in Southwest China prior to the implementation of Natural Forest Protection Project, under the guidance of principle of practicality and systematicness, we establish the comprehensive-benefit evaluation index system of restoring the degraded natural forest in Southwest China, including 3 second-level indices, 12 third-level indices and 24 fourth-level indices. In addition, we use the method of Analytic Hierarchy Process to conduct com"
+                  },
+                  "dateofacceptance": {
+                    "$": "2011-01-01"
+                  }
+                }
+              ],
+              "instance": [
+                {
+                  "accessright": {
+                    "@classid": "UNKNOWN",
+                    "@classname": "unspecified",
+                    "@schemeid": "dnet:access_modes",
+                    "@schemename": "dnet:access_modes"
+                  },
+                  "collectedfrom": {
+                    "@name": "Microsoft Academic Graph",
+                    "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                  },
+                  "hostedby": {
+                    "@name": "Unknown Repository",
+                    "@id": "openaire____::55045bd2a65019fd8e6741a755395c8c"
+                  },
+                  "instancetype": {
+                    "@classid": "0038",
+                    "@classname": "Other literature type",
+                    "@schemeid": "dnet:publication_resource",
+                    "@schemename": "dnet:publication_resource"
+                  },
+                  "pid": [
+                    {
+                      "@classid": "mag_id",
+                      "@classname": "Microsoft Academic Graph Identifier",
+                      "@schemeid": "dnet:pid_types",
+                      "@schemename": "dnet:pid_types",
+                      "$": 1484384419
+                    },
+                    {
+                      "@classid": "doi",
+                      "@classname": "Digital Object Identifier",
+                      "@schemeid": "dnet:pid_types",
+                      "@schemename": "dnet:pid_types",
+                      "$": "10.22004/ag.econ.118283"
+                    }
+                  ],
+                  "refereed": {
+                    "@classid": "0002",
+                    "@classname": "nonPeerReviewed",
+                    "@schemeid": "dnet:review_levels",
+                    "@schemename": "dnet:review_levels"
+                  },
+                  "webresource": {
+                    "url": {
+                      "$": "https://ideas.repec.org/a/ags/asagre/118283.html"
+                    }
+                  }
+                },
+                {
+                  "accessright": {
+                    "@classid": "UNKNOWN",
+                    "@classname": "unspecified",
+                    "@schemeid": "dnet:access_modes",
+                    "@schemename": "dnet:access_modes"
+                  },
+                  "collectedfrom": {
+                    "@name": "Research Papers in Economics",
+                    "@id": "opendoar____::5e9f92a01c986bafcabbafd145520b13"
+                  },
+                  "hostedby": {
+                    "@name": "Research Papers in Economics",
+                    "@id": "opendoar____::5e9f92a01c986bafcabbafd145520b13"
+                  },
+                  "dateofacceptance": {
+                    "$": "2011-01-01"
+                  },
+                  "instancetype": {
+                    "@classid": "0001",
+                    "@classname": "Article",
+                    "@schemeid": "dnet:publication_resource",
+                    "@schemename": "dnet:publication_resource"
+                  },
+                  "refereed": {
+                    "@classid": "0002",
+                    "@classname": "nonPeerReviewed",
+                    "@schemeid": "dnet:review_levels",
+                    "@schemename": "dnet:review_levels"
+                  },
+                  "webresource": {
+                    "url": {
+                      "$": "http://purl.umn.edu/118283"
+                    }
+                  }
+                },
+                {
+                  "accessright": {
+                    "@classid": "UNKNOWN",
+                    "@classname": "unspecified",
+                    "@schemeid": "dnet:access_modes",
+                    "@schemename": "dnet:access_modes"
+                  },
+                  "collectedfrom": {
+                    "@name": "Datacite",
+                    "@id": "openaire____::9e3be59865b2c1c335d32dae2fe7b254"
+                  },
+                  "hostedby": {
+                    "@name": "Unknown Repository",
+                    "@id": "openaire____::55045bd2a65019fd8e6741a755395c8c"
+                  },
+                  "dateofacceptance": {
+                    "$": "2011-01-01"
+                  },
+                  "instancetype": {
+                    "@classid": "0038",
+                    "@classname": "Other literature type",
+                    "@schemeid": "dnet:publication_resource",
+                    "@schemename": "dnet:publication_resource"
+                  },
+                  "pid": {
+                    "@classid": "doi",
+                    "@classname": "Digital Object Identifier",
+                    "@schemeid": "dnet:pid_types",
+                    "@schemename": "dnet:pid_types",
+                    "@inferred": false,
+                    "@provenanceaction": "sysimport:actionset",
+                    "@trust": "0.9",
+                    "$": "10.22004/ag.econ.118283"
+                  },
+                  "refereed": {
+                    "@classid": "0002",
+                    "@classname": "nonPeerReviewed",
+                    "@schemeid": "dnet:review_levels",
+                    "@schemename": "dnet:review_levels"
+                  },
+                  "webresource": {
+                    "url": {
+                      "$": "https://doi.org/10.22004/ag.econ.118283"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "verified_china": true,
+      "detection_method": "targeted_keyword_search",
+      "keyword_used": "China",
+      "country": "SK",
+      "collection_date": "2025-09-22T20:26:32.933919"
+    }
+  ]
+}

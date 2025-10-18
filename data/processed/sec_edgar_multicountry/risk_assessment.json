@@ -1,0 +1,38 @@
+[
+  {
+    "country_code": "CN",
+    "country_name": "China",
+    "total_filings": 4,
+    "china_exposed_companies": 2,
+    "vie_structures": 2,
+    "total_risk_score": 130,
+    "avg_risk_score": 32.5
+  },
+  {
+    "country_code": "HK",
+    "country_name": "Hong Kong",
+    "total_filings": 1,
+    "china_exposed_companies": 1,
+    "vie_structures": 1,
+    "total_risk_score": 70,
+    "avg_risk_score": 70.0
+  },
+  {
+    "country_code": "JP",
+    "country_name": "Japan",
+    "total_filings": 5,
+    "china_exposed_companies": 0,
+    "vie_structures": 5,
+    "total_risk_score": 70,
+    "avg_risk_score": 14.0
+  },
+  {
+    "country_code": "IL",
+    "country_name": "Israel",
+    "total_filings": 3,
+    "china_exposed_companies": 0,
+    "vie_structures": 3,
+    "total_risk_score": 50,
+    "avg_risk_score": 16.666666666666668
+  }
+]

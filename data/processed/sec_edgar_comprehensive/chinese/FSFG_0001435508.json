@@ -1,0 +1,47 @@
+{
+  "cik": "0001435508",
+  "ticker": "FSFG",
+  "name": "First Savings Financial Group, Inc.",
+  "detection_reasons": [
+    "offshore:vg"
+  ],
+  "sic": "6035",
+  "sicDescription": "Savings Institution, Federally Chartered",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "IN",
+  "ein": "371567871",
+  "phone": "812-283-0724",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "702 NORTH SHORE DRIVE",
+      "street2": "SUITE 300",
+      "city": "JEFFERSONVILLE",
+      "stateOrCountry": "IN",
+      "zipCode": "47130",
+      "stateOrCountryDescription": "IN",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "702 NORTH SHORE DRIVE",
+      "street2": "SUITE 300",
+      "city": "JEFFERSONVILLE",
+      "stateOrCountry": "IN",
+      "zipCode": "47130",
+      "stateOrCountryDescription": "IN",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-25"
+  },
+  "filings_count": 851
+}

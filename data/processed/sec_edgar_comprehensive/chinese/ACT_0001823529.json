@@ -1,0 +1,44 @@
+{
+  "cik": "0001823529",
+  "ticker": "ACT",
+  "name": "Enact Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6411",
+  "sicDescription": "Insurance Agents, Brokers & Service",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "461579166",
+  "phone": "(919) 846-4100",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "8325 SIX FORKS ROAD",
+      "street2": null,
+      "city": "RALEIGH",
+      "stateOrCountry": "NC",
+      "zipCode": "27615",
+      "stateOrCountryDescription": "NC",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "8325 SIX FORKS ROAD",
+      "street2": null,
+      "city": "RALEIGH",
+      "stateOrCountry": "NC",
+      "zipCode": "27615",
+      "stateOrCountryDescription": "NC",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 532
+}

@@ -1,0 +1,52 @@
+{
+  "cik": "0001123658",
+  "ticker": "SNPMF",
+  "name": "CHINA PETROLEUM & CHEMICAL CORP",
+  "detection_reasons": [
+    "location:china",
+    "location:beijing",
+    "offshore:hong kong",
+    "offshore:hk",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "2911",
+  "sicDescription": "Petroleum Refining",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "861059960028",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "22 CHAOYANGMEN NORTH STREET",
+      "street2": "CHAOYANG DISTRICT",
+      "city": "BEIJING CHINA",
+      "stateOrCountry": "F4",
+      "zipCode": "100728",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "22 CHAOYANGMEN NORTH STREET",
+      "street2": "CHAOYANG DISTRICT",
+      "city": "BEIJING",
+      "stateOrCountry": "F4",
+      "zipCode": "100728",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2023-12-08"
+  },
+  "filings_count": 787
+}

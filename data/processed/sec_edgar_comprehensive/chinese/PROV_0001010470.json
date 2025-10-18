@@ -1,0 +1,47 @@
+{
+  "cik": "0001010470",
+  "ticker": "PROV",
+  "name": "PROVIDENT FINANCIAL HOLDINGS INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6035",
+  "sicDescription": "Savings Institution, Federally Chartered",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "330704889",
+  "phone": "9096866060",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3756 CENTRAL AVENUE",
+      "street2": null,
+      "city": "RIVERSIDE",
+      "stateOrCountry": "CA",
+      "zipCode": "92506",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3756 CENTRAL AVE",
+      "street2": null,
+      "city": "RIVERSIDE",
+      "stateOrCountry": "CA",
+      "zipCode": "92506",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-K",
+    "date": "2025-08-29"
+  },
+  "filings_count": 1000
+}

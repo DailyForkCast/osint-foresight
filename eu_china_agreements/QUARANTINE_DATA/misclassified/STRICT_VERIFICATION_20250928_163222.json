@@ -1,0 +1,3267 @@
+{
+  "verification_timestamp": "2025-09-28T16:32:22.356815",
+  "total_urls_checked": 3465,
+  "excluded_noise": 996,
+  "missing_europe": 1173,
+  "missing_china": 52,
+  "missing_agreement": 604,
+  "verified_agreements": 640,
+  "country_breakdown": {
+    "armenia": 26,
+    "uk": 74,
+    "greece": 11,
+    "georgia": 44,
+    "albania": 23,
+    "iceland": 77,
+    "kosovo": 2,
+    "macedonia": 21,
+    "azerbaijan": 19,
+    "sweden": 44,
+    "slovakia": 4,
+    "switzerland": 21,
+    "cyprus": 1,
+    "italy": 6,
+    "eu": 50,
+    "germany": 18,
+    "belgium": 10,
+    "serbia": 58,
+    "luxembourg": 12,
+    "hungary": 15,
+    "netherlands": 7,
+    "turkey": 17,
+    "portugal": 3,
+    "latvia": 2,
+    "montenegro": 27,
+    "romania": 5,
+    "bosnia": 13,
+    "malta": 2,
+    "france": 4,
+    "spain": 3,
+    "slovenia": 4,
+    "ireland": 4,
+    "czech": 3,
+    "norway": 4,
+    "denmark": 1,
+    "poland": 2,
+    "croatia": 1,
+    "bulgaria": 1,
+    "austria": 1
+  },
+  "type_breakdown": {
+    "investment": 72,
+    "treaty": 5,
+    "cooperation": 168,
+    "contract": 19,
+    "mou": 126,
+    "partnership": 83,
+    "agreement": 95,
+    "bilateral": 9,
+    "deal": 49,
+    "pact": 1,
+    "memorandum": 8,
+    "joint": 1,
+    "trade": 4
+  },
+  "verified_list": [
+    {
+      "url": "https://www.amcham-shanghai.org/en/trade-investment-center/robots.txt",
+      "european_entity": "armenia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "http://www.fco.gov.uk/en/publications-and-documents/treaty-command-papers-ems/explanatory-memoranda/explanatory-memoranda-2007a/china-gnss",
+      "european_entity": "uk",
+      "agreement_type": "treaty"
+    },
+    {
+      "url": "https://chinaandgreece.com/cooperation-athens-macedonian-new-agency-xinhua/",
+      "european_entity": "greece",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://apply4ep.gestmax.eu/74/1/call-for-expression-of-interest-contract-staff-fg-iv-in-the-area-of-communication/el_EL?backlink=searchinactive",
+      "european_entity": "georgia",
+      "agreement_type": "contract"
+    },
+    {
+      "url": "https://www.amchamchina.org/working-groups/beijing/financial-services-and-insurance/outbound-investment/",
+      "european_entity": "armenia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.allmowersspares.com/china-oem-plastic-lawn-mower-shell-injection-mould-lawn-electric-mower-housing-molding-with-free-design-custom/",
+      "european_entity": "albania",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.istudy-china.com/%E9%87%8A%E9%81%93%E5%86%B2%E3%80%8A%E7%9C%8B%E7%9B%B8%E6%89%91%E3%80%8B-famous-chinese-poems-with-pinyin-version-chinese-folk-painting/",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://support4partnership.org/en/news/what-is-the-chinese-office-doing-in-pristina",
+      "european_entity": "kosovo",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://jamestown.org/program/free-trade-agreement-with-china-boosts-georgias-security-strategic-regional-importance/source-georgiatoday-ge/",
+      "european_entity": "georgia",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.isin.net/isin-update-chinas-bejing-infrastructure-investment-co-issues-1bil-in-2-tranches/bejing-infrastructure-investment-co-2/",
+      "european_entity": "iceland",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://apply4ep.gestmax.eu/74/1/call-for-expression-of-interest-contract-staff-fg-iv-in-the-area-of-communication/bg_BG?backlink=searchinactive",
+      "european_entity": "georgia",
+      "agreement_type": "contract"
+    },
+    {
+      "url": "https://uschinadialogue.georgetown.edu/responses/shared-aspirations-for-future-cooperation-a-retrospective-on-the-georgetown-beida-student-to-student-dialogue",
+      "european_entity": "georgia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://learn.mkme.org/2021/05/28/securing-the-belt-and-road-initiative-risk-assessment-private-security-and-special-insurances-along-the-new-wave-of-chinese-outbound-investments/",
+      "european_entity": "macedonia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://vgoprodredirect-dphqhvfad0ace5fk.z01.azurefd.net/en/article/new-foreign-investment-law-to-take-effect-in-china-in-2020",
+      "european_entity": "azerbaijan",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://contractorfinder.geappliances.com/contractors-china-grove-nc",
+      "european_entity": "georgia",
+      "agreement_type": "contract"
+    },
+    {
+      "url": "https://www.durbin.senate.gov/newsroom/press-releases/durbin-kirk-manzullo-and-roskam-tell-chinese-government-to-uphold-their-agreements-with-illinois-businesses",
+      "european_entity": "sweden",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://skb.skku.edu/gsc/china_cooperation.do",
+      "european_entity": "slovakia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.amchamchina.org/policy-advocacy/policy-spotlight/investment",
+      "european_entity": "armenia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://uk.advfn.com/stock-market/london/abrdn-china-investment-ACIZ/financials/income-statement",
+      "european_entity": "uk",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "http://www.isbmmachines.com/china-pc_pmma_isbm_machine_4_cavity_blow_moulding_machine_200mm_750ml-14185492.html",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.chinaeu.eu/china-europe-investment-and-connectivity-cooperation-where-we-stand-where-we-go/",
+      "european_entity": "switzerland",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.istudy-china.com/li-bai-down-zhongnan-mountain-to-the-kind-pillow-and-bowl-of-husi-%E6%9D%8E%E7%99%BD%E3%80%8A%E4%B8%8B%E7%B5%82%E5%8D%97%E5%B1%B1%E9%81%8E%E6%96%9B%E6%96%AF%E5%B1%B1%E4%BA%BA%E5%AE%BF%E7%BD%AE/",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.papaphilippou.eu/china-desk/publications/38-assistance-crucial-with-shares-pledge-agreements-in-cyprus-2",
+      "european_entity": "cyprus",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "http://www.barece.com.mk/index.php/mk/novosti/114-cooperation-china-macedonia.html",
+      "european_entity": "macedonia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "http://www.isbmmachines.com/china-600ml_small_plastic_container_making_machine_petg_200ml_fully_automatic_blow_moulding_machine-14227593.html",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.istma-europe.com/en/istma-europe/news/die--mould-china-2016-hosts-istma-brics-forum-105",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.istudy-china.com/%E5%85%83%C2%B7%E9%A9%AC%E9%92%B0%E3%80%8A%E6%BB%A1%E5%BA%AD%E8%8A%B3%C2%B7%E9%82%80%E5%A7%9A%E5%85%AC%E4%B9%A6%E3%80%8B-famous-chinese-poems-with-pinyin-version-chinese-folk-painting/",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.chinaeurope.eu/2021/05/24/globalink-italy-china-could-expand-cooperation-in-culture-tourism-sports-cicc-cfo/",
+      "european_entity": "italy",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://edps.europa.eu/data-protection/our-work/publications/opinions/eu-china-joint-customs-cooperation-committee_fr",
+      "european_entity": "eu",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://studychina.chinaservicesinfo.com/s/202305/26/WS64700bbc498ea274927bbd31/serbian-yangzhou-universities-to-strengthen-cooperation.html",
+      "european_entity": "switzerland",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://china.diplo.de/cn-de/willkommen-in-china/politik/bilaterales",
+      "european_entity": "germany",
+      "agreement_type": "bilateral"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/2/?isdp_publication_series=issue-policy-brief&isdp_region=east-asia%2Csouth-asia&isdp_initiative=stockholm-center-for-south-asian-and-indo-pacific-affairs&isdp_project=aukus%2Cchinas-military-transformation%2Cpacific-islands%2Cregional-security-cooperation-in-east-asia&isdp_issue=conflict-management%2Cdiplomacy%2Cconflict-and-security&isdp_program=asia-program",
+      "european_entity": "sweden",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.amazingdestinations.be/china-reizen/yangshuo-mountain-retreat",
+      "european_entity": "belgium",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://oceans-and-fisheries.ec.europa.eu/news/eu-and-china-sign-landmark-partnership-oceans-2018-07-16_en?prefLang=it",
+      "european_entity": "eu",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://justfinanceinternational.org/2022/10/11/serbias-chinese-built-coal-fired-power-plant-deals-blow-to-climate-and-health/",
+      "european_entity": "serbia",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://www.allmowersspares.com/china-hot-selling-60-80hp-agricultural-tractor-mounted-front-shovel-pusher-snow-grader-with-great-quality/",
+      "european_entity": "albania",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.generali-investments.lu/cz/en/professionalhttps:/www.generali-investments.lu/cz/en/professional/article/china-pboc-cuts-rates-amid-poor-data",
+      "european_entity": "luxembourg",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.istudy-china.com/10-famous-chinese-love-poems-to-express-your-thoughts/",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.globalconstructionreview.com/china-serbia-ink-deal-943m-railway-hungary/",
+      "european_entity": "hungary",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/8/?isdp_publication_series=commentary&isdp_region=turkey-and-middle-east&isdp_initiative=stockholm-center-for-south-asian-and-indo-pacific-affairs%2Cchina-center-isdp&isdp_project=chinas-military-transformation%2Cmaritime-security%2Cregional-security-cooperation-in-east-asia&isdp_issue=conflict-management%2Cdiplomacy%2Cpolitics%2Cconflict-and-security&isdp_program=asia-program",
+      "european_entity": "sweden",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.getwide.com/venture-capital-investment-market-and-services-in-china/",
+      "european_entity": "georgia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.bashya.nl/soul-glamourr/chinese-elementen/element-aarde",
+      "european_entity": "netherlands",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.tridge.com/news/china-malaysia-economic-and-trade-cooperation-join",
+      "european_entity": "turkey",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.invest.gov.tr/tr/news/news-from-turkey/sayfalar/300715-turkey-china-to-boost-trade-economic-cooperation.aspx",
+      "european_entity": "turkey",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/26/?isdp_publication_series=issue-policy-brief&isdp_region=east-asia%2Csouth-asia&isdp_initiative=stockholm-center-for-south-asian-and-indo-pacific-affairs&isdp_project=aukus%2Cchinas-military-transformation%2Cpacific-islands%2Cregional-security-cooperation-in-east-asia&isdp_issue=conflict-management%2Cdiplomacy%2Cconflict-and-security&isdp_program=asia-program",
+      "european_entity": "sweden",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://uschinadialogue.georgetown.edu/podcasts/diverse-approaches-to-clean-energy-cooperation-with-china",
+      "european_entity": "georgia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://istanbulchronicler.com/economy/kazakhstan-plans-to-sign-agreement-with-china-on-development-of-trans-caspian-transport-route/",
+      "european_entity": "turkey",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "http://www.fco.gov.uk/en/publications-and-documents/treaty-command-papers-ems/explanatory-memoranda/explanatory-memoranda-2005/chinamarine",
+      "european_entity": "uk",
+      "agreement_type": "treaty"
+    },
+    {
+      "url": "https://pure.eur.nl/en/publications/criminal-procedural-agreements-in-china-and-england-and-wales",
+      "european_entity": "netherlands",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://bt2i.eu/ukrainian-company-yunasko-reaches-licensing-agreement-with-chinese-company-for-ultracapacitors-cells-modules/",
+      "european_entity": "uk",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://pure.qub.ac.uk/en/activities/optimising-higher-education-partnerships-in-china",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "http://china.lboro.ac.uk/department-and-schools/cooperation",
+      "european_entity": "uk",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.rubio.senate.gov/rubio-banks-raise-concerns-of-chinese-espionage-through-university-partnerships-with-huawei/",
+      "european_entity": "sweden",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://news.getupradio.com/doj-charges-former-apple-engineer-with-alleged-theft-of-autonomous-car-tech-for-china/",
+      "european_entity": "georgia",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.gearfocus.com/m/canon-cn-e-20mm-t1-5-lf-cinema-prime-lens-for-ef-mount",
+      "european_entity": "georgia",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://apply4ep.gestmax.eu/74/1/call-for-expression-of-interest-contract-staff-fg-iv-in-the-area-of-communication/sv_SV?backlink=searchinactive",
+      "european_entity": "georgia",
+      "agreement_type": "contract"
+    },
+    {
+      "url": "https://aviotime.com/air-china-expands-air-serbia-cooperation/",
+      "european_entity": "serbia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://anti-fraud.ec.europa.eu/media-corner/news/olaf-and-chinese-customs-sign-arrangement-strengthen-cooperation-customs-investigations-2015-07-01_en?prefLang=lt",
+      "european_entity": "eu",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.eur.nl/en/esl/news/euplant-webinar-eu-china-comprehensive-agreement-investment-context",
+      "european_entity": "netherlands",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://ebsms.edu.azores.gov.pt/2020/08/20/plano-de-ensino-a-distancia-ebs-mouzinho-da-silveira-atualizado/",
+      "european_entity": "portugal",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://oceans-and-fisheries.ec.europa.eu/news/eu-and-china-sign-landmark-partnership-oceans-2018-07-16_it",
+      "european_entity": "eu",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://uschinadialogue.georgetown.edu/cn/responses/mutual-cooperation-or-a-red-herring-u-s-china-climate-change-dialogue",
+      "european_entity": "georgia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.allmowersspares.com/china-standard-custom-water-glass-carbon-steel-lost-wax-investment-casting-machinery-parts-washers-with-sand-blasting-near-me-manufacturer/",
+      "european_entity": "albania",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www2.mfa.gov.lv/en/china/current-events/845-visas-vestniecibas/china-en/china-news-other/70267-latvia-showcases-new-cooperation-opportunities-in-shenzhen",
+      "european_entity": "latvia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.businesslend.com/news/shanghai-cooperation-organization-officials-visit-heydar-aliyev-foundation-in-azerbaijan/",
+      "european_entity": "azerbaijan",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://china.mfa.am/hy/bilateral-mn/",
+      "european_entity": "armenia",
+      "agreement_type": "bilateral"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/22/?isdp_publication_series=commentary&isdp_region=northeast-asia&isdp_initiative=china-center-isdp&isdp_project=regional-security-cooperation-in-east-asia%2Cone-belt-one-road-initiative&isdp_program=asia-program",
+      "european_entity": "iceland",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.istudy-china.com/li-bai-tianmu-mountain-ascended-in-a-dream-%E6%9D%8E%E7%99%BD%E3%80%8A%E5%A4%A2%E9%81%8A%E5%A4%A9%E5%A7%A5%E5%90%9F%E7%95%99%E5%88%A5%E3%80%8B-300-tang-poems/",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.jic.ac.uk/news/professor-dale-sanders-receives-china-international-science-and-technology-cooperation-award/",
+      "european_entity": "uk",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.armoudian.com/scholars-circle-anniversary-of-armenian-genocide-in-turkey-activism-in-authoritarian-state-like-china-april-22-2018/",
+      "european_entity": "turkey",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "http://www.allmowersspares.com/china-standard-custom-water-glass-carbon-steel-lost-wax-investment-casting-machinery-parts-washers-with-sand-blasting-near-me-manufacturer/",
+      "european_entity": "albania",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://tl.eureporter.co/world/china-2/chinaeu/2022/10/15/the-sound-development-momentum-of-china-belgium-economic-and-trade-cooperation-needs-to-be-cherished-and-cared-for/",
+      "european_entity": "belgium",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/19/?isdp_publication_series=commentary&isdp_region=northeast-asia&isdp_initiative=china-center-isdp&isdp_project=regional-security-cooperation-in-east-asia%2Cone-belt-one-road-initiative&isdp_program=asia-program",
+      "european_entity": "iceland",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.foreign.senate.gov/press/dem/release/sfrc-chairman-menendez-urges-leadership-on-bilateral-challenges-in-advance-of-secretary-blinkens-trip-to-the-peoples-republic-of-china",
+      "european_entity": "sweden",
+      "agreement_type": "bilateral"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/21/?isdp_publication_series=commentary&isdp_region=northeast-asia&isdp_initiative=china-center-isdp&isdp_project=regional-security-cooperation-in-east-asia%2Cone-belt-one-road-initiative&isdp_program=asia-program",
+      "european_entity": "iceland",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.kubesphere.io/news/kubesphere-turkey-and-huawei-partnership/",
+      "european_entity": "turkey",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://edge.media/archive/bidens-delaware-address-linked-to-hunters-250000-deal-with-beijing/",
+      "european_entity": "montenegro",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "http://chinaandgreece.com/el/cooperation-athens-macedonian-new-agency-xinhua/xinhua-9-2/",
+      "european_entity": "greece",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.govnet.ro/Energy/Economics/Oltenia-EC-and-China-Huadian-Engineering-sign-agreement-for-the-Rovinari-project",
+      "european_entity": "romania",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.kwrealestateinvestments.com/forum/money-saving-forum/jogos-de-cassino-online-bitcoin-macedonia-jogos-de-cassino-online-bitcoin-bonus-gratis-sem-deposito",
+      "european_entity": "macedonia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "http://skb.skku.edu/gsc/china_cooperation.do",
+      "european_entity": "slovakia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "http://www.gear-box.xyz/taiwan-mcn-gears-box-speed-reducer-r-series-foot-shaft-mounted-gearbox/",
+      "european_entity": "georgia",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.istudy-china.com/from-my-study-at-the-mouth-of-the-valley-a-message-to-censor-yang/",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/20/?isdp_publication_series=commentary&isdp_region=northeast-asia&isdp_initiative=china-center-isdp&isdp_project=regional-security-cooperation-in-east-asia%2Cone-belt-one-road-initiative&isdp_program=asia-program",
+      "european_entity": "iceland",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "http://www.arcdigital.media/by-quitting-the-trans-pacific-partnership-trump-cedes-asia-pacific-to-china-f63514a783ac?source=friends_link&sk=959f8f7c206d98f0b9c1950ce0d9e4a8",
+      "european_entity": "montenegro",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.euractiv.rs/vesti/8166-china-fostering-cooperation-with-cee-countries.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+euractiv%2Feaenglish+%28EurActiv+English%29",
+      "european_entity": "serbia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://chinarhotel.az/az/news/31/package-deal-post-covid-19-recovery",
+      "european_entity": "azerbaijan",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://www.generali-investments.lu/cz/en/professionalhttps:/www.generali-investments.lu/cz/en/professional/article/china-s-npc-meeting-the-way-back-to-normal",
+      "european_entity": "luxembourg",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "http://hosted.ap.org/citizensvoice/article/8b112f599ab51a18e290d5183b971970/xis-visit-hungary-and-serbia-brings-new-chinese-investment",
+      "european_entity": "hungary",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.chinaeurope.eu/tag/nordic-cooperation/",
+      "european_entity": "switzerland",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "http://www.chinafamous.net/robots.txt",
+      "european_entity": "switzerland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://china-cee.eu/2023/11/21/serbia-political-briefing-free-trade-agreement-with-the-peoples-republic-of-china/",
+      "european_entity": "serbia",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.swansonreed.org/chinese-made-tires-foreign-investment-georgia-tire-company/",
+      "european_entity": "georgia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/china/eu-china-agreement/milestones-and-documents_en",
+      "european_entity": "eu",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.isdp.eu/publication/sino-taiwan-economic-cooperation-framework-agreement-ecfa-time-discuss-one-china/",
+      "european_entity": "iceland",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.bazarchinatown.com/minnie-mouse",
+      "european_entity": "bosnia",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://balkanengineer.com/news/investments-chinese-company-zijin-mining-group-serbia-reached",
+      "european_entity": "serbia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "http://www.mti.gov.eg/English/MediaCenter/News/Pages/Samir,-Chinese-ambassador-discuss-more-cooperation.aspx",
+      "european_entity": "malta",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://fakte.mk/eu-and-china-reach-agreement-in-principle-on-investment/",
+      "european_entity": "macedonia",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.trillmag.com/news/chinas-infamous-ringtone-of-shame-to-play-on-the-phones-of-those-in-debt/",
+      "european_entity": "turkey",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.finance.senate.gov/chairmans-news/committee-to-hold-hearing-on-the-us-china-bilateral-trade-agreement",
+      "european_entity": "sweden",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://arcdigital.media/by-quitting-the-trans-pacific-partnership-trump-cedes-asia-pacific-to-china-f63514a783ac?source=friends_link&sk=959f8f7c206d98f0b9c1950ce0d9e4a8",
+      "european_entity": "montenegro",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://swfound-preprod.azurewebsites.net/news/all-news/2013/01/brian-weeden-quoted-in-reuters-on-impact-of-another-potential-chinese-asat-test",
+      "european_entity": "azerbaijan",
+      "agreement_type": "pact"
+    },
+    {
+      "url": "https://www.cccm.gov.pt/events/portugal-china-cooperation-in-scientific-research-anrs-fja/",
+      "european_entity": "portugal",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/30/?isdp_publication_series=commentary&isdp_region=turkey-and-middle-east&isdp_initiative=stockholm-center-for-south-asian-and-indo-pacific-affairs%2Cchina-center-isdp&isdp_project=chinas-military-transformation%2Cmaritime-security%2Cregional-security-cooperation-in-east-asia&isdp_issue=conflict-management%2Cdiplomacy%2Cpolitics%2Cconflict-and-security&isdp_program=asia-program",
+      "european_entity": "sweden",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://prospect.org/topics/issue-china-deal/index.rss",
+      "european_entity": "serbia",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://www.chinadeals.fr/robots.txt",
+      "european_entity": "france",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://www.isin.net/tag/beijing-infrastructure-investment-co-ltd/",
+      "european_entity": "iceland",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://oceans-and-fisheries.ec.europa.eu/news/eu-and-china-sign-landmark-partnership-oceans-2018-07-16_mt",
+      "european_entity": "eu",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://policy.trade.ec.europa.eu/events/csd-eu-china-comprehensive-agreement-investment-cai-2021-01-27_hu",
+      "european_entity": "eu",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/?isdp_publication_series=asia-paper&isdp_region=east-asia&isdp_initiative=china-center-isdp%2Cstockholm-taiwan-center&isdp_project=chinas-military-transformation%2Cregional-security-cooperation-in-east-asia&isdp_issue=conflict-management%2Cdiplomacy%2Cpolitics%2Cconflict-and-security&isdp_program=asia-program",
+      "european_entity": "sweden",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.flynous.com/multi-city-deal-uk-germany-ams-to-hungary-azerbaijan-china-malaysia-astralia/",
+      "european_entity": "germany",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://www.ricketts.senate.gov/news/press-releases/ricketts-leads-15-colleagues-to-introduce-bill-to-strengthen-oversight-of-u-s-china-science-and-technology-agreements/",
+      "european_entity": "sweden",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.generali-investments.lu/at/en/privatehttps:/www.generali-investments.lu/at/en/private/article/china-s-growth-is-slowing",
+      "european_entity": "luxembourg",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.mei.edu/publications/gcc-states-and-viability-strategic-military-partnership-china",
+      "european_entity": "montenegro",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://sakom.org.rs/en/belgrade-bypass-was-built-by-builders-from-azerbaijan-and-china-together-with-serbian-subcontractors/",
+      "european_entity": "serbia",
+      "agreement_type": "contract"
+    },
+    {
+      "url": "https://www.allisonbrooks.com/mountain-spa-chongqing-china.shtml",
+      "european_entity": "albania",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://thecorner.eu/news-spain/spain-economy/repsol-signs-an-agreement-with-a-chinese-producer-to-build-three-chemical-plants-in-jiangsu/93400/",
+      "european_entity": "spain",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://cordis.europa.eu/article/id/136681-launch-of-the-choice-project-on-euchina-cooperation-on-ict-rd/en",
+      "european_entity": "eu",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "http://www.isbmmachines.com/china-50ml_6_cavity_bottling_production_line_3000bph_jerry_can_blow_moulding_machine-14064088.html",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.macedoniantruth.org/forum/forum/macedonian-truth-forum/general-discussions/4483-government-reaches-agreement-over-export-of-macedonian-wine-to-china#post182661",
+      "european_entity": "macedonia",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://g-f-c.eu/2020/04/23/first-digital-training-course-on-birth-assistance-for-pigs-in-the-german-chinese-cooperation-project-was-a-success/",
+      "european_entity": "germany",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://cordmagazine.com/news/ambassador-chen-bo-china-aims-on-improvement-of-bilateral-cooperation-with-serbia/",
+      "european_entity": "serbia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://jamestown.org/program/china-seeks-massive-investments-in-georgia/",
+      "european_entity": "georgia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://forum.lightburnsoftware.com/t/alarm-2-il-target-di-movimento-del-codice-g-supera-la-corsa-della-macchina-posizione-della-macchina-mantenuta-in-modo-sicuro-lallarme-potrebbe-essere-sbloccato-fare-clic-con-il-pulsante-destro-del-mouse-sul-pulsante-dispositivi-per-ripristinare/111235",
+      "european_entity": "kosovo",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://research-portal.uea.ac.uk/en/publications/public-support-for-china-eu-environmental-cooperation-the-percept",
+      "european_entity": "uk",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://china.diplo.de/cn-de/willkommen-in-china/wirtschaft/wirtschaft-bilateral",
+      "european_entity": "germany",
+      "agreement_type": "bilateral"
+    },
+    {
+      "url": "https://flex.iconnect007.media/index.php/article/133686/schweizer-electronic-inks-patent-transfer-agreement-with-china-subsidiary/133689/?skin=flex",
+      "european_entity": "montenegro",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.istockphoto.com/photo/asian-man-backpacker-male-hiker-looking-at-mountains-in-yading-national-park-china-gm1398508692-452622992?utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fes%2Fs%2Ffotos%2Fcordillera&utm_medium=affiliate&utm_source=unsplash&utm_term=cordillera%3A%3A%3A",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.eusmecentre.org.cn/eu-sme-centre-renews-partnership-with-the-china-luxembourg-chamber-of-commerce/",
+      "european_entity": "luxembourg",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "http://portsmouthchinese.org.uk/robots.txt",
+      "european_entity": "uk",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://edge.media/archive/nikki-haley-isnt-treading-lightly-and-promises-republicans-will-deal-with-china-once-and-for-all/",
+      "european_entity": "montenegro",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "http://sharkovshchina.vitebsk-region.gov.by/en/republic-en/view/lukashenko-invites-ethiopia-to-take-cooperation-to-new-level-26516/",
+      "european_entity": "uk",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://oceans-and-fisheries.ec.europa.eu/news/eu-and-china-sign-landmark-partnership-oceans-2018-07-16_en?prefLang=ro",
+      "european_entity": "eu",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://international-partnerships.ec.europa.eu/countries/china_fi",
+      "european_entity": "eu",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.istudy-china.com/china-uk-cooperation-mutually-beneficial-chinese-vp/",
+      "european_entity": "uk",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.bsfc.ac.uk/news/2014-01-31-wirral-s-sixth-form-college-forges-china-university-partnership",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://single-market-economy.ec.europa.eu/industry/international-activities/cooperation-governments/eu-china-cooperation_en?prefLang=sl",
+      "european_entity": "eu",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://policy.trade.ec.europa.eu/events/csd-eu-china-comprehensive-agreement-investment-cai-2021-01-27_fi",
+      "european_entity": "eu",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.cardin.senate.gov/press-releases/cardin-statement-on-historic-us-china-climate-agreement/",
+      "european_entity": "sweden",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.ralspace.stfc.ac.uk/Pages/UK-China-Research-and-Innovation-Partnership.aspx",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://demo.trimountainlogic.com/blog/%E1%90%89-asian-handicap-brought-up-chinese-mar-set/",
+      "european_entity": "turkey",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://blackjack.mk/2024/02/01/principais-dicas-criancice-gerenciamento-infantilidade-online-who-wants-to-be-a-millionaire-roulette-dealer-real-mesa-infantilidade-cassino-online-para-orcamentos-pequenos/",
+      "european_entity": "macedonia",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://www.bayarea-stamps.com/products/2020-11-the-60th-anniversary-of-the-chinese-mountaineering-teams-ascent-to-mount-everest-new-issue-retail",
+      "european_entity": "bosnia",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "http://www.isbmmachines.com/china-petg_12_cav_bottling_production_line_200ml_pet_stretch_blow_moulding_machine-14231679.html",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://cset.georgetown.edu/newsletter/fight-escalates-over-tiktok-and-wechat-china-unveils-unreliable-entity-list-and-jaic-hosts-ai-partnership-for-defense/",
+      "european_entity": "georgia",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://cordis.europa.eu/article/id/116703-exploring-euchina-cooperation-on-research/en",
+      "european_entity": "eu",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://research-portal.st-andrews.ac.uk/en/activities/us-china-relations-cooperation-and-conflict-in-a-g2-world",
+      "european_entity": "uk",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://ptdf.gov.ng/award-of-2022-2022-united-kingdom-and-germany-france-china-and-malaysia-gfcm-strategic-partnership-scholarships-msc-phd/",
+      "european_entity": "germany",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.bayarea-stamps.com/products/pk2018-16-shanghai-cooperation-organization-qingdao-summit-silk-sheetlet-folder",
+      "european_entity": "bosnia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "http://www.gaysin-rda.gov.ua/ua/news/16442-vinnichchina-pidpisala-memorandum-pro-vzaemorozuminnya-zi-shvejtsarsko-ukrajinskim-proektom-ucord",
+      "european_entity": "uk",
+      "agreement_type": "memorandum"
+    },
+    {
+      "url": "https://pureportal.strath.ac.uk/en/projects/scotland-china-higher-education-research-partnership-for-phd-stud",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.istudy-china.com/%E4%B8%87%E4%BF%9F%E5%92%8F%E3%80%8A%E5%AE%89%E5%B9%B3%E4%B9%90%E6%85%A2%E3%80%8B-famous-chinese-poems-with-pinyin-version-chinese-folk-painting/",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://ec2-15-188-152-128.eu-west-3.compute.amazonaws.com/2023/09/04/imfs-georgieva-says-fund-has-strong-partnership-with-china/",
+      "european_entity": "armenia",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/9/?isdp_publication_series=commentary&isdp_region=turkey-and-middle-east&isdp_initiative=stockholm-center-for-south-asian-and-indo-pacific-affairs%2Cchina-center-isdp&isdp_project=chinas-military-transformation%2Cmaritime-security%2Cregional-security-cooperation-in-east-asia&isdp_issue=conflict-management%2Cdiplomacy%2Cpolitics%2Cconflict-and-security&isdp_program=asia-program",
+      "european_entity": "sweden",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "http://www.international.ac.uk/programmes/current-opportunities/the-newton-fund/calls-for-uk-china-research-and-innovation-partnership-fund.aspx",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "http://blog.chinatraderonline.com/2023/10/eu-serbia-trade-agreement-and-motion-to-enforce-settlement-agreement-in-washington/",
+      "european_entity": "switzerland",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.amwu.org.au/china_deal_threatens_auto_trades",
+      "european_entity": "armenia",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://uschinadialogue.georgetown.edu/cn/subtopics/resetting-u-s-china-relations-through-subnational-economic-cooperation",
+      "european_entity": "georgia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://policy.trade.ec.europa.eu/events/csd-eu-china-comprehensive-agreement-investment-cai-2021-01-27_es",
+      "european_entity": "eu",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://uschinadialogue.georgetown.edu/cn/subtopics/telemedicine-cooperation-as-a-path-forward-for-u-s-china-relations",
+      "european_entity": "georgia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.mkintl.co.kr/single-post/2019/07/08/belt-and-road-initiative-project-cooperation-summit-2019-beijing",
+      "european_entity": "macedonia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.cornwall.gov.uk/people-and-communities/community-area-partnerships/china-clay-area-and-luxulyan/",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.alliancebernstein.com/us/en-us/investments/insights/economic-perspectives/chinas-growth-is-slowing-what-does-it-mean.html",
+      "european_entity": "albania",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.rubio.senate.gov/rubio-sounds-alarm-on-jpmorgan-partnership-with-chinese-tiktok-parent-bytedance/",
+      "european_entity": "sweden",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://anti-fraud.ec.europa.eu/media-corner/news/olaf-and-chinese-customs-sign-arrangement-strengthen-cooperation-customs-investigations-2015-07-01_lt",
+      "european_entity": "eu",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.politico.eu/article/xi-jinping-viktor-orban-china-hungary-diplomacy-love-letter-cooperation/",
+      "european_entity": "hungary",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://no.bagtobag.com.gr/psathini-tsanta-omou-cn-23125/?attribute_pa_color=bez",
+      "european_entity": "greece",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.allianzgi.com/en/insights/outlook-and-commentary/how-climate-risk-integration-is-disrupting-the-chinese-investment-landscape",
+      "european_entity": "albania",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "http://www.amnh.org/research/paleontology/collections/fossil-invertebrate-collection/trilobite-website/trilobite-localities/chinese-trilobites-mountains-mole-hills/gallery-of-chengjiang-trilobites",
+      "european_entity": "armenia",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.businesseurope.eu/publications/8th-eu-china-business-summit-cooperation-boost-confidence-growth-brussels-20-september",
+      "european_entity": "belgium",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.gearfuse.com/chinese-mouse-is-also-a-tablet-device/",
+      "european_entity": "georgia",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/31/?isdp_publication_series=commentary&isdp_region=turkey-and-middle-east&isdp_initiative=stockholm-center-for-south-asian-and-indo-pacific-affairs%2Cchina-center-isdp&isdp_project=chinas-military-transformation%2Cmaritime-security%2Cregional-security-cooperation-in-east-asia&isdp_issue=conflict-management%2Cdiplomacy%2Cpolitics%2Cconflict-and-security&isdp_program=asia-program",
+      "european_entity": "sweden",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://oceans-and-fisheries.ec.europa.eu/news/eu-and-china-sign-landmark-partnership-oceans-2018-07-16_en?prefLang=mt",
+      "european_entity": "eu",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.isdp.eu/publication/book-review-thrassy-n-marketos-chinas-energy-geopolitics-shanghai-cooperation-organization-central-asia/",
+      "european_entity": "iceland",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://balkanengineer.com/events/chinas-zijin-mining-group-plans-new-investment-serbias-cukaru",
+      "european_entity": "uk",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.cassidy.senate.gov/newsroom/press-releases/cassidy-applauds-agreement-to-end-taxpayer-subsidies-of-mail-from-china-other-foreign-countries/",
+      "european_entity": "sweden",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.allisonarmour.com/im-going-published-china/",
+      "european_entity": "albania",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.chinaeurope.eu/2021/11/01/video-globalink-cooperation-upheld-on-global-issues-among-g20-members-experts/",
+      "european_entity": "switzerland",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.usmessageboard.com/threads/china-secures-a-new-european-vassal-state-in-serbia-china-and-eu-candidate-serbia-sign-an-agreement-to-build-a-shared-future.1101911/",
+      "european_entity": "serbia",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://contractorfinder.geappliances.com/contractors-south-china-me",
+      "european_entity": "georgia",
+      "agreement_type": "contract"
+    },
+    {
+      "url": "http://www.azithromycin365.us.com/dealer-di-kasino-online/",
+      "european_entity": "azerbaijan",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "http://barece.com.mk/index.php/en/news/114-cooperation-china-macedonia.html",
+      "european_entity": "macedonia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.britt.senate.gov/news/press-releases/u-s-senators-katie-britt-pete-ricketts-introduce-bill-to-strengthen-oversight-of-u-s-china-science-and-technology-agreements/",
+      "european_entity": "sweden",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.istudy-china.com/%E6%98%93%E5%A3%AB%E8%BE%BE%E3%80%8A%E8%A7%82%E5%82%80%E5%84%A1%E3%80%8B-yishida-famous-poems-chinese-folk-painting/",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://g-f-c.eu/en/2020/04/23/first-digital-training-course-on-birth-assistance-for-pigs-in-the-german-chinese-cooperation-project-was-a-success/",
+      "european_entity": "germany",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.invest.gov.tr/en/News/News-from-Turkey/Pages/260912-akbank-boc-partnership-chinese-business-ties.aspx",
+      "european_entity": "turkey",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.eu-china-twinning.org/2017/05/south-nord-institute-for-sustainable-snisd-beijing-change-partnership-belgium/",
+      "european_entity": "belgium",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.isaactan.net/2021/02/foodpanda-huat-a-deal-chinese-new-year.html",
+      "european_entity": "iceland",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "http://chinatasteyarmouth.menucities.com/robots.txt",
+      "european_entity": "montenegro",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/28/?isdp_publication_series=commentary&isdp_region=turkey-and-middle-east&isdp_initiative=stockholm-center-for-south-asian-and-indo-pacific-affairs%2Cchina-center-isdp&isdp_project=chinas-military-transformation%2Cmaritime-security%2Cregional-security-cooperation-in-east-asia&isdp_issue=conflict-management%2Cdiplomacy%2Cpolitics%2Cconflict-and-security&isdp_program=asia-program",
+      "european_entity": "sweden",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "http://www.ekaicenter.eu/2016/04/hungary-and-china-agreement-en-crisis-y.html",
+      "european_entity": "hungary",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.gear-box.top/china-auto-parts-gearbox-rear-mount-13248630-13324724-for-chevrolet-cruze-malibu-xl-buick-regal-excel-lacrosse-car-gearbox/",
+      "european_entity": "georgia",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "http://www.allmowersspares.com/china-oem-plastic-lawn-mower-shell-injection-mould-lawn-electric-mower-housing-molding-with-free-design-custom/",
+      "european_entity": "albania",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.allhosesandfittings.com/products/china-supply-british-standard-sleeve-joint-steel-clamp-pressed/",
+      "european_entity": "uk",
+      "agreement_type": "joint"
+    },
+    {
+      "url": "https://chinarhotel.az/news/31/package-deal-post-covid-19-recovery",
+      "european_entity": "azerbaijan",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://nolimast.ftn.uns.ac.rs/china-ceec-materials-and-chemical-innovation-cooperation-network-joined/",
+      "european_entity": "serbia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.banrepcultural.org/monteria/actividad/el-campesino-ideal-fotografia-de-la-reforma-agraria-en-colombia-durante-las",
+      "european_entity": "bosnia",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://mpd.me/partner-meeting-what-founders-should-do-when-deals-arent-getting-done-china-s-20th-national-8038c5736c8e",
+      "european_entity": "montenegro",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://www.generali-investments.lu/at/en/privatehttps:/www.generali-investments.lu/at/en/private/article/china-s-q1-gdp-growth-strong-year-on-year-growth-amid-weak-momentum",
+      "european_entity": "luxembourg",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://serbia-business.eu/?category_name=&tag%5B%5D=companies&tag%5B%5D=foreign-companies&tag%5B%5D=domestic-companies&tag%5B%5D=chinese-companies&tag%5B%5D=it-companies&tag%5B%5D=production&tag%5B%5D=factory&tag%5B%5D=assembly&tag%5B%5D=investments&tag%5B%5D=automotive&tag%5B%5D=export&tag%5B%5D=import",
+      "european_entity": "serbia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/china/eu-china-agreement/eu-china-agreement-principle_en",
+      "european_entity": "eu",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/25/?isdp_publication_series=issue-policy-brief&isdp_region=east-asia%2Csouth-asia&isdp_initiative=stockholm-center-for-south-asian-and-indo-pacific-affairs&isdp_project=aukus%2Cchinas-military-transformation%2Cpacific-islands%2Cregional-security-cooperation-in-east-asia&isdp_issue=conflict-management%2Cdiplomacy%2Cconflict-and-security&isdp_program=asia-program",
+      "european_entity": "sweden",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://no.bagtobag.com.gr/psathini-tsanta-omou-cn-23125/?attribute_pa_color=anoixto-mpez",
+      "european_entity": "greece",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.shanshuiprojects.net/reclusive-culture-in-chinese-mountain-and-water-painting/.get_permalink",
+      "european_entity": "georgia",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://nuclear-safety-cooperation.ec.europa.eu/contracts/enhancing-capabilities-china-area-emergency-management-and-management-severe-accidents-installation_en",
+      "european_entity": "eu",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.shaheen.senate.gov/news/press/shaheen-portman-introduce-bill-to-strengthen-us-eu-cooperation-on-cyber-and-telecommunications-infrastructure-to-counter-chinas-influence",
+      "european_entity": "sweden",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.frontiere.eu/tag/shanghai-cooperation-organisation/",
+      "european_entity": "france",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://oecp.eu/serbia-as-an-eu-trade-hub-for-chinese-high-tech-companies-leveraging-the-china-serbia-free-trade-agreement/",
+      "european_entity": "serbia",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://justfinanceinternational.org/2022/06/13/legal-memo-on-chinese-investments-in-serbia-shows-weakened-rule-of-law-leading-to-forced-labour-and-human-rights-abuses/",
+      "european_entity": "serbia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://is.eureporter.co/world/china-2/china-eu/2024/04/19/join-hands-to-build-a-community-of-shared-future-and-create-a-brighter-future-for-china-belgium-all-round-partnership-of-friendly-cooperation-together/",
+      "european_entity": "belgium",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.efinancialcareers.cn/jobs/associate-real-estate-investment-analyst/at-london-stock-exchange-group/in-china",
+      "european_entity": "uk",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.istudy-china.com/%E8%A2%81%E8%AF%B4%E5%8F%8B%E3%80%8A%E7%91%9E%E5%AD%99%E5%91%A8%E5%B2%81%E3%80%8B-famous-chinese-poems-with-pinyin-version-chinese-folk-painting/",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "http://www.isbmmachines.com/china-pctg_jerry_can_auto_deflashing_blow_moulding_machine_120ml_250ml-14206015.html",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://abcnews.go.com/Business/wireStory/xis-visit-hungary-serbia-brings-new-chinese-investment-110201510",
+      "european_entity": "hungary",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://justfinanceinternational.org/2023/12/23/the-diplomat-new-china-serbia-free-trade-agreement-raises-security-concerns-for-europe/",
+      "european_entity": "serbia",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "http://www.isbmmachines.com/china-mini_blow_moulding_full_automatic_blow_molding_machine_petg_0_5l_12_cav-14223922.html",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://china.mfa.gov.ua/zh/partnership/economic-cooperation/invest-in-ukraine",
+      "european_entity": "uk",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.uclan.ac.uk/study/fees-and-finance/bursaries-and-scholarships/china-partnership",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.istudy-china.com/a-buddhist-retreat-behind-broken-mountain-temple/",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.cassidy.senate.gov/news/press-releases/cassidy-applauds-agreement-to-end-taxpayer-subsidies-of-mail-from-china-other-foreign-countries/",
+      "european_entity": "sweden",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.generali-investments.lu/cz/en/professionalhttps:/www.generali-investments.lu/cz/en/professional/article/china-tackling-the-grey-rhinos",
+      "european_entity": "luxembourg",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.urbantransformations.ox.ac.uk/china-and-uk-research-cooperation/",
+      "european_entity": "uk",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.istockphoto.com/photo/the-famous-ancient-town-of-china-wuzhen-gm690273856-127226843?utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fwuzhen&utm_medium=affiliate&utm_source=unsplash&utm_term=wuzhen%3A%3A%3A",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://chinarhotel.az/ru/news/31/package-deal-post-covid-19-recovery",
+      "european_entity": "azerbaijan",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/6/?isdp_publication_series=issue-policy-brief&isdp_region=east-asia%2Csouth-asia&isdp_initiative=stockholm-center-for-south-asian-and-indo-pacific-affairs&isdp_project=aukus%2Cchinas-military-transformation%2Cpacific-islands%2Cregional-security-cooperation-in-east-asia&isdp_issue=conflict-management%2Cdiplomacy%2Cconflict-and-security&isdp_program=asia-program",
+      "european_entity": "sweden",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.isdp.eu/files/publications/cefq/08/lk08chinainvestment.pdf",
+      "european_entity": "iceland",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "http://www.govnet.ro/Energy/Economics/Oltenia-EC-and-China-Huadian-Engineering-sign-agreement-for-the-Rovinari-project",
+      "european_entity": "romania",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://uschinadialogue.georgetown.edu/cn/subtopics/space-as-a-catalyst-for-u-s-china-cooperation",
+      "european_entity": "georgia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://justfinanceinternational.org/2023/11/01/high-price-for-chinas-investments-in-serbian-steel-plant/",
+      "european_entity": "serbia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/27/?isdp_publication_series=issue-policy-brief&isdp_region=east-asia%2Csouth-asia&isdp_initiative=stockholm-center-for-south-asian-and-indo-pacific-affairs&isdp_project=aukus%2Cchinas-military-transformation%2Cpacific-islands%2Cregional-security-cooperation-in-east-asia&isdp_issue=conflict-management%2Cdiplomacy%2Cconflict-and-security&isdp_program=asia-program",
+      "european_entity": "sweden",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "http://www.isbmmachines.com/china-hdpe_jerry_can_blow_moulding_single_stage_pet_blowing_machine_petg_0_15l_0_5l-14059278.html",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.sknis.gov.kn/2023/09/20/st-kitts-and-nevis-and-the-republic-of-china-taiwan-sign-agreement-on-diplomatic-staff-training/unnamed-2023-09-20t122517-962/",
+      "european_entity": "slovakia",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://kubesphere.io/news/kubesphere-turkey-and-huawei-partnership/",
+      "european_entity": "turkey",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.vukuzenzele.gov.za/sa-chinese-cooperation-agreement-boosts-education",
+      "european_entity": "uk",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "http://www.barece.com.mk/index.php/en/news/114-cooperation-china-macedonia.html",
+      "european_entity": "macedonia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.istockphoto.com/photo/wuzhen-is-a-famous-town-in-zhejiang-province-china-gm1332235134-415140672?utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fwuzhen&utm_medium=affiliate&utm_source=unsplash&utm_term=wuzhen%3A%3A%3A",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://somaliadailynews.com/cgtn-a-new-chapter-china-serbia-continue-to-deepen-cooperation/",
+      "european_entity": "serbia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://apply4ep.gestmax.eu/74/1/call-for-expression-of-interest-contract-staff-fg-iv-in-the-area-of-communication/nl_NL?backlink=searchinactive",
+      "european_entity": "georgia",
+      "agreement_type": "contract"
+    },
+    {
+      "url": "https://www.istockphoto.com/photo/the-great-wall-of-jinshan-mountains-in-the-cloud-sea-gm1165262128-320566984?utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fchina&utm_medium=affiliate&utm_source=unsplash&utm_term=china%3A%3A%3A",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://uist.edu.mk/admissions/international-cooperation/china/",
+      "european_entity": "macedonia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://jia.sipa.columbia.edu/news/challenge-and-necessity-us-china-technology-cooperation",
+      "european_entity": "slovenia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "http://www.china-mould.com/en_Productinfo.asp?ClassCode=a1.ba&ProductID=264",
+      "european_entity": "switzerland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.euclaim.com/news/british-airways-is-launching-a-cooperation-with-china-southern",
+      "european_entity": "uk",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "http://barece.com.mk/index.php/novosti/114-cooperation-china-macedonia.html",
+      "european_entity": "macedonia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.banking.senate.gov/newsroom/majority/brown-toomey-reach-bipartisan-agreement-on-amendment-to-china-competition-bill",
+      "european_entity": "sweden",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.bournemouth.ac.uk/research/projects/uk-china-research-innovation-collaboration-cloud-based-virtual-film-production-uccvp",
+      "european_entity": "uk",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.amyscosmetics.com/spille-ny-kasino-roulette-med-en-dealer-spil-2023/",
+      "european_entity": "armenia",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://stia.georgetown.edu/engagement/intlpartnerships/us-china-climate-change-cooperation/",
+      "european_entity": "georgia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "http://fco.gov.uk/en/publications-and-documents/treaty-command-papers-ems/explanatory-memoranda/explanatory-memoranda-2005/chinamarine",
+      "european_entity": "uk",
+      "agreement_type": "treaty"
+    },
+    {
+      "url": "https://cordis.europa.eu/article/id/17067-esa-and-china-sign-joint-project-agreement/de",
+      "european_entity": "eu",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.rickscott.senate.gov/2023/8/sen-rick-scott-to-sec-blinken-u-s-cannot-renew-technology-and-science-agreement-with-communist-china",
+      "european_entity": "sweden",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.amyscosmetics.gr/spille-kortspil-med-en-dealer-kasino-spil/",
+      "european_entity": "greece",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://www.its.ac.id/international/partnership/mou-moa/mou-with-asian-countries/mou-with-china/",
+      "european_entity": "italy",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://balkanengineer.com/news/serbia-china-energy-international-signed-agreement-new-oil-refin",
+      "european_entity": "serbia",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://area.gov.az/en/page/beynelxalq-emekdasliq/beynelxalq-muqavileler/energetika-nazirliyi-ile-cinin-china-gezhouba-group-overseas-investment-sirketi-arasinda-2-qvt-gucunde-berpa-olunan-enerji-layihelerinin-heyata-kecirilmesine-dair-anlasma-memorandumu",
+      "european_entity": "azerbaijan",
+      "agreement_type": "memorandum"
+    },
+    {
+      "url": "https://www.ksat.com/news/world/2024/05/14/xis-visit-to-hungary-and-serbia-brings-new-chinese-investment-and-deeper-ties-to-europes-doorstep/",
+      "european_entity": "hungary",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "http://www.isbmmachines.com/china-pctg_pet_injection_stretch_blow_moulding_machine_pmma_1_5_ltr-14222267.html",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://glovemould.com/news/httpswwwexchangeratesorguknews31191exchange-rate-forecasts-2021-2022-euro-pound-us-dollar-chinese-yuan-swedish-norwegian-kronehtml-3.html",
+      "european_entity": "sweden",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://serbiansteel.eu/serbia-as-a-trading-hub-for-eu-companies-exports-to-china-under-the-new-free-trade-agreement/",
+      "european_entity": "serbia",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://researchitaly.mur.gov.it/en/understanding/press-media/news/space-signed-cooperation-agreement-with-china/",
+      "european_entity": "italy",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.mk.ru/incident/2016/01/26/muzhchina-zastrelil-devushkupromoutera-vozle-metro-lyublino.html",
+      "european_entity": "macedonia",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.srbija.gov.rs/vest/en/124330/cultural-cooperation-with-china-records-great-results.php",
+      "european_entity": "serbia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://transport.ec.europa.eu/news-events/news/aviation-strategy-europe-european-union-signs-landmark-aviation-agreements-china-2019-05-24_en",
+      "european_entity": "eu",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "http://apdr.allard.ubc.ca/enactment-of-investment-law-during-the-period-of-transformation-of-chinas-economic-structure/",
+      "european_entity": "albania",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.iade.europeia.pt/noticias/universidade-europeia-na-global-partnership-week-2018-shanghai-polytechnic-university/",
+      "european_entity": "portugal",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://uschinadialogue.georgetown.edu/cn/subtopics/green-tech-as-a-nexus-of-cooperation-in-u-s-china-relations",
+      "european_entity": "georgia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.chinaeurope.eu/2021/09/07/china-issues-plan-for-further-developing-shenzhen-hk-cooperation-zone/",
+      "european_entity": "switzerland",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://international-partnerships.ec.europa.eu/countries/china_bg",
+      "european_entity": "eu",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://newstech.me/germany-blocks-chinese-owned-firms-chip-factory-deal/",
+      "european_entity": "germany",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://jewishspectator.com/cgtn-a-new-chapter-china-serbia-continue-to-deepen-cooperation/",
+      "european_entity": "serbia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://msp.gov.rs/en/foreign-policy/bilateral-cooperation/china",
+      "european_entity": "serbia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://policy.trade.ec.europa.eu/events/csd-eu-china-comprehensive-agreement-investment-cai-2021-01-27_en?prefLang=cs",
+      "european_entity": "eu",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://research-portal.st-andrews.ac.uk/en/activities/interview-china-and-the-pacific-cooperation-or-confrontation",
+      "european_entity": "uk",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.batonrougenews.net/news/273658323/imf-ranil-deal-may-strengthen-pro-china-forces-in-sri-lanka-report",
+      "european_entity": "bosnia",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://de.bagtobag.com.gr/psathini-tsanta-omou-cn-23125/?attribute_pa_color=anoixto-mpez",
+      "european_entity": "greece",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://forestindustries.eu/content/italy-china-partnership-poplar-based-agroforestry-benefits-millions",
+      "european_entity": "italy",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "http://www.isbmmachines.com/china-300ml_pet_moulding_automatic_glass_bottle_making_machine_0_5l_petg-14229592.html",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.istudy-china.com/flying-fox-of-snowy-mountain-0%E3%80%8A%E5%A4%A7%E9%97%B9%E7%A6%8F%E5%B8%85%E5%BA%9C%E3%80%8B-wuxia-novels-books/",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://ankara.mfa.gov.et/china-will-deepen-friendship-expand-cooperation-with-ethiopia-foreign-minister/",
+      "european_entity": "turkey",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://demo.trimountainlogic.com/blog/how-to-use-whatsapp-in-china-in-2021-even-though/",
+      "european_entity": "turkey",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://thegeopost.com/en/analysis/stradner-vucic-will-polarize-north-macedonia-through-the-church-and-the-serbian-world-china-makes-a-security-investment-in-serbia/",
+      "european_entity": "serbia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.allmowersspares.com/china-factory-supplier-mini-czpt-with-all-farming-tools-grader-cutting-edge-forest-wood-harvesters-mounted-on-tractor-drill-machine-near-me-manufacturer/",
+      "european_entity": "albania",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://serbia-business.eu/serbia-business-recent-free-trade-agreement-china/",
+      "european_entity": "serbia",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.istudy-china.com/%E5%88%98%E5%9F%BA%E3%80%8A%E6%B8%B8%E4%BB%99%EF%BC%88%E4%B9%9D%E9%A6%96%EF%BC%89%E3%80%8B-liu-ji-famous-poems-chinese-folk-painting/",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.efinancialcareers.com/jobs/trader/at-london-stock-exchange-group/in-china",
+      "european_entity": "uk",
+      "agreement_type": "trade"
+    },
+    {
+      "url": "https://fluiddrivecoupling.com/ept-custom-made-in-china-replacement-parts-in-baku-azerbaijan-m-35-ton-mobile-truck-mounted-crane-price-qy35k5-with-top-quality/",
+      "european_entity": "azerbaijan",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://serbia-business.eu/serbia-balances-growth-and-investment-eu-ties-and-chinas-limited-role/",
+      "european_entity": "serbia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.generali-investments.lu/cz/en/professionalhttps:/www.generali-investments.lu/cz/en/professional/article/china-s-q1-gdp-growth-strong-year-on-year-growth-amid-weak-momentum",
+      "european_entity": "luxembourg",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://apply4ep.gestmax.eu/74/1/call-for-expression-of-interest-contract-staff-fg-iv-in-the-area-of-communication/hr_HR?backlink=searchinactive",
+      "european_entity": "georgia",
+      "agreement_type": "contract"
+    },
+    {
+      "url": "https://policy.trade.ec.europa.eu/events/csd-eu-china-comprehensive-agreement-investment-cai-2021-01-27_de",
+      "european_entity": "eu",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://fakte.mk/chinese-contractor-of-malaysias-mega-rail-project-joins-flood-relief-efforts/",
+      "european_entity": "macedonia",
+      "agreement_type": "contract"
+    },
+    {
+      "url": "https://single-market-economy.ec.europa.eu/industry/international-activities/cooperation-governments/eu-china-cooperation_en?prefLang=ro",
+      "european_entity": "eu",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://bakunovosti.com/china-stepping-up-military-cooperation-with-tajikistan/",
+      "european_entity": "azerbaijan",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.generali-investments.lu/gb/en/privatehttps:/www.generali-investments.lu/gb/en/private/article/china-tackling-the-grey-rhinos",
+      "european_entity": "luxembourg",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/3/?isdp_publication_series=issue-policy-brief&isdp_region=east-asia%2Csouth-asia&isdp_initiative=stockholm-center-for-south-asian-and-indo-pacific-affairs&isdp_project=aukus%2Cchinas-military-transformation%2Cpacific-islands%2Cregional-security-cooperation-in-east-asia&isdp_issue=conflict-management%2Cdiplomacy%2Cconflict-and-security&isdp_program=asia-program",
+      "european_entity": "sweden",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.amcham-shanghai.org/NR/rdonlyres/A18F268D-6EE8-4221-B075-4F00282E8623/1427/AmChamShanghailaborcontractlawcommentstoNPCApr2006.pdf",
+      "european_entity": "armenia",
+      "agreement_type": "contract"
+    },
+    {
+      "url": "https://www.dundee.ac.uk/stories/university-dundee-expands-global-reach-chinese-partnerships",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://8am.media/shanghai-approved-the-draft-anti-terrorism-cooperation-memorandum/",
+      "european_entity": "montenegro",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://ec2-15-188-152-128.eu-west-3.compute.amazonaws.com/2024/01/05/china-u-s-cooperation-no-longer/",
+      "european_entity": "armenia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://canaryislandsnews.net/xis-visit-to-hungary-and-serbia-brings-new-chinese-investment-and-deeper-ties-to-europes-doorstep/",
+      "european_entity": "hungary",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.daines.senate.gov/2017/11/08/daines-secures-agreement-to-ship-200-million-of-montana-beef-to-china/",
+      "european_entity": "sweden",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://policy.trade.ec.europa.eu/events/csd-eu-china-comprehensive-agreement-investment-cai-2021-01-27_sk",
+      "european_entity": "eu",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.rothamsted.ac.uk/international/international-partnerships/china/cinag",
+      "european_entity": "romania",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.president.gov.ua/ru/news/ukrayina-j-turechchina-pidpisali-memorandum-shodo-budivnictv-70845",
+      "european_entity": "uk",
+      "agreement_type": "memorandum"
+    },
+    {
+      "url": "https://gsc.skku.edu/gsc_ch/china_cooperation.do",
+      "european_entity": "slovakia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://politico.eu/article/xi-jinping-belgrade-serbia-china-aleksandar-vucic-investments/",
+      "european_entity": "serbia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "http://www.isbmmachines.com/china-3600bph_hand_injection_stretch_blow_moulding_machine_petg_10_cav-14222127.html",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://uk.advfn.com/stock-market/london/abrdn-china-investment-ACIZ/financials/stats-and-ratios",
+      "european_entity": "uk",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://el.eureporter.co/world/china-2/china-eu/2024/04/19/join-hands-to-build-a-community-of-shared-future-and-create-a-brighter-future-for-china-belgium-all-round-partnership-of-friendly-cooperation-together/",
+      "european_entity": "belgium",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://serbia-business.eu/chinese-bus-maker-yin-long-eyes-investment-in-serbias-ikarbus/",
+      "european_entity": "serbia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.generali-investments.lu/gb/en/privatehttps:/www.generali-investments.lu/gb/en/private/article/china-weak-q3-growth-amid-multiple-headwinds",
+      "european_entity": "luxembourg",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://balkangreenenergynews.com/serbia-inks-eur-3-2-billion-deal-with-chinas-crbc-for-wastewater-projects-landfills/",
+      "european_entity": "serbia",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://ohsem.me/2023/07/cgtn-china-solomon-islands-ink-comprehensive-strategic-partnership-to-upgrade-ties/",
+      "european_entity": "montenegro",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.amnesty.org/es/latest/press-release/2021/06/china-draconian-repression-of-muslims-in-xinjiang-amounts-to-crimes-against-humanity/",
+      "european_entity": "armenia",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://leaddeal.oss-cn-shenzhen.aliyuncs.com/robots.txt",
+      "european_entity": "albania",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://travelchinawith.me/weibao-mountain/",
+      "european_entity": "montenegro",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.allenandgledhill.com/perspectives/articles/23680/sgkh-and-shanghai-reaffirm-strong-ties-and-sign-15-agreements-broadening-cooperation",
+      "european_entity": "albania",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.bradford.ac.uk/news/archive/2022/uk-china-polymer-partnership-marks-10th-anniversary.php",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.generali-investments.lu/at/en/privatehttps:/www.generali-investments.lu/at/en/private/article/china-weak-q3-growth-amid-multiple-headwinds",
+      "european_entity": "luxembourg",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.comunicacao.ba.gov.br/2024/05/destaques/b2-destaque-sem-foto/forum-comemora-50-anos-da-relacao-bilateral-entre-bahia-china/",
+      "european_entity": "bosnia",
+      "agreement_type": "bilateral"
+    },
+    {
+      "url": "https://www.eusmecentre.org.cn/new-partnership-the-eu-sme-centre-signs-an-mou-with-the-ireland-china-business-association/",
+      "european_entity": "ireland",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.kreston.com/article/serbia-china-free-trade-agreement/",
+      "european_entity": "serbia",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.baumsport.cz/under-armour-ua-w-hovr-machina-3-storm-black-black-black-cerna-385",
+      "european_entity": "czech",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://insider-app.onelink.me/4cpG/?af_js_web=true&af_ss_ver=2_3_0&af_dp=insider%3A%2F%2Fbi%2Fpost%2Fus-china-tariff-increase-trade-deal-in-trouble-2019-5&af_force_deeplink=true&is_retargeting=true&deep_link_value=https%3A%2F%2Fwww.businessinsider.com%2Fus-china-tariff-increase-trade-deal-in-trouble-2019-5&pid=businessinsider&c=post_page_share_bar_v2_smart_4.13.23",
+      "european_entity": "montenegro",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/18/?isdp_publication_series=commentary&isdp_region=northeast-asia&isdp_initiative=china-center-isdp&isdp_project=regional-security-cooperation-in-east-asia%2Cone-belt-one-road-initiative&isdp_program=asia-program",
+      "european_entity": "iceland",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://insider-app.onelink.me/4cpG/?af_js_web=true&af_ss_ver=2_3_0&af_dp=insider%3A%2F%2Fmi%2Fpost%2Fnews%2Fstocks%2Fus-reaches-another-trade-deal-in-principle-with-china-report-2019-12-1028760262&af_force_deeplink=true&is_retargeting=true&deep_link_value=https%3A%2F%2Fmarkets.businessinsider.com%2Fnews%2Fstocks%2Fus-reaches-another-trade-deal-in-principle-with-china-report-2019-12-1028760262&pid=businessinsider&c=post_page_share_bar_v2_smart_4.13.23",
+      "european_entity": "montenegro",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://www.intellinews.com/china-and-hungary-sign-18-agreements-during-last-leg-of-xi-s-european-tour-324703/?source=serbia",
+      "european_entity": "hungary",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.amerikaninsesi.org/a/hungary-china-signed--strategic-partnership-agreement/7625796.html",
+      "european_entity": "hungary",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.education.ox.ac.uk/events/the-china-question-managing-risks-and-maximising-benefits-from-partnership-in-higher-education-and-research/",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://serbia-energy.eu/serbia-exclusive-are-the-chinese-the-most-serious-energy-investment-players-in-the-region/",
+      "european_entity": "serbia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.generali-investments.lu/gb/en/privatehttps:/www.generali-investments.lu/gb/en/private/article/china-pboc-cuts-rates-amid-poor-data",
+      "european_entity": "luxembourg",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.international.ac.uk/programmes/current-opportunities/the-newton-fund/calls-for-uk-china-research-and-innovation-partnership-fund.aspx",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://geneva.usmission.gov/2012/02/22/agreement-paves-way-for-more-u-s-films-in-china/",
+      "european_entity": "switzerland",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.era.ac.uk/era-builds-new-partnerships-in-china/",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.mti.gov.sg/Newsroom/Speeches/2023/06/Speech-by-MOS-Alvin-Tan-at-the-Singapore-China-Guangdong-Economic-and-Trade-Cooperation-Conference",
+      "european_entity": "malta",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://climate.ec.europa.eu/eu-action/international-action-climate-change/cooperation-non-eu-countries-regions/china_es",
+      "european_entity": "eu",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.iea.org/analysis?type=report&year=2020&energy%5B0%5D=building-envelopes%2Ccarbon-capture-utilisation-and-storage%2Cbioenergy&energy%5B1%5D=coal&energy%5B2%5D=electricity&topic%5B0%5D=climate-change&topic%5B1%5D=investment&technology%5B0%5D=coal&country%5B0%5D=turkmenistan%2Carmenia%2Cukraine%2Ckazakhstan&country%5B1%5D=kazakhstan&country%5B2%5D=georgia&country%5B3%5D=ukraine&country%5B4%5D=azerbaijan&country%5B5%5D=china",
+      "european_entity": "ireland",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://uschinadialogue.georgetown.edu/responses/post-paris-climate-change-governance-seeking-substantive-cooperation",
+      "european_entity": "france",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/35/?isdp_publication_series=commentary&isdp_region=turkey-and-middle-east&isdp_initiative=stockholm-center-for-south-asian-and-indo-pacific-affairs%2Cchina-center-isdp&isdp_project=chinas-military-transformation%2Cmaritime-security%2Cregional-security-cooperation-in-east-asia&isdp_issue=conflict-management%2Cdiplomacy%2Cpolitics%2Cconflict-and-security&isdp_program=asia-program",
+      "european_entity": "sweden",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://alumni.europa.eu/events/bilateral-eu-china-comprehensive-investment-agreement",
+      "european_entity": "eu",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.brecorder.com/news/40302416/chinas-xi-to-discuss-multi-billion-euro-investments-in-serbia",
+      "european_entity": "serbia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.bsfc.ac.uk/news/2014-03-17-the-sixth-form-college-builds-on-china-partnership-by-welcoming-university-teacher",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.universitiesuk.ac.uk/universities-uk-international/programmes/current-opportunities/the-newton-fund/calls-for-uk-china-research-and-innovation-partnership-fund.aspx",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://us.sis.gov.eg/Story/185840/Egypt-keen-on-furthering-joint-cooperation-with-China-?lang=en-us",
+      "european_entity": "slovenia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/7/?isdp_publication_series=commentary&isdp_region=northeast-asia&isdp_initiative=china-center-isdp&isdp_project=regional-security-cooperation-in-east-asia%2Cone-belt-one-road-initiative&isdp_program=asia-program",
+      "european_entity": "iceland",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "http://www.chinanetworkvub.eu/?event=baces-eu-china-think-tank-forum-eu-china-40-years-a-new-comprehensive-strategic-partnership",
+      "european_entity": "switzerland",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://asianpacific.duke.edu/news/experts-assemble-online-discuss-us-china-st-cooperation-and-engagement",
+      "european_entity": "uk",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.medialoft.eu/en/news/cnbc-china-faces-short-term-economic-contraction-as-pandemic-restrictions-are-lifted/l1994c4",
+      "european_entity": "montenegro",
+      "agreement_type": "contract"
+    },
+    {
+      "url": "http://sharkovshchina.vitebsk-region.gov.by/en/republic-en/view/lukashenko-okays-amendments-to-cis-telemedicine-systems-agreement-26549/",
+      "european_entity": "uk",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.istudy-china.com/flying-fox-of-snowy-mountain-0-2-%E3%80%8A%E9%93%81%E5%8E%85%E7%83%88%E7%81%AB%E3%80%8B-wuxia-novels-books/",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.isdp.eu/publication/the-geopolitical-aftershocks-of-the-china-solomon-islands-security-agreement/",
+      "european_entity": "iceland",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://oceans-and-fisheries.ec.europa.eu/news/eu-and-china-sign-landmark-partnership-oceans-2018-07-16_ro",
+      "european_entity": "eu",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://policy.trade.ec.europa.eu/events/csd-eu-china-comprehensive-agreement-investment-cai-2021-01-27_en?prefLang=hu",
+      "european_entity": "eu",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "http://www.mkyah.cn/error/403.html?url=https%3A%2F%2Fwww.chinapp.com%2Fmsgprotocol%2Finvestment",
+      "european_entity": "switzerland",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://international-partnerships.ec.europa.eu/countries/china_en?prefLang=fi",
+      "european_entity": "eu",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "http://www.gear-box.xyz/china-hot-selling-helical-gearbox-r47-with-iec-input-flange-czpt-output-shaft-flange-mounted-components-of-gearbox/",
+      "european_entity": "georgia",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.tridge.com/stories/fta-agreement-anticipated-to-level-the-playing-field-in-chinas-banana-market",
+      "european_entity": "turkey",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.ids.ac.uk/publications/sri-lanka-case-study-investigating-potential-for-sri-lanka-china-uk-trilateral-cooperation/",
+      "european_entity": "uk",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.istudy-china.com/chinese-food-chinese-famous-snacks/",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.mkfireworksking.co.uk/products/chinese-mega-250-deal",
+      "european_entity": "uk",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://travelcorrespondence.com/air-serbia-and-air-china-renew-and-expand-their-partnership/",
+      "european_entity": "serbia",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "http://www.isbmmachines.com/china-water_bottle_moulding_single_stage_blow_molding_machine_2_cav_2500ml_5000ml-14215919.html",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.mkfireworksking.co.uk/products/chinese-dragon-55-deal",
+      "european_entity": "uk",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://www.gewinnmachinery.com/establishment-of-production-technology-fund-to-strengthen-sino-german-cooperation",
+      "european_entity": "germany",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.iwkg.uni-hannover.de/en/research/research-projects/details/projects/success-factors-of-reciprocal-knowledge-transfer-in-chinese-german-cooperation-projects-joint-competence-development-in-the-research-and-innovation-phase",
+      "european_entity": "germany",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.isdp.eu/publication/swedish-eu-presidency-green-growth-strategy-boosting-clean-energy-cooperation-china/",
+      "european_entity": "sweden",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://thecorner.eu/news-europe/chinese-investments-greece-boosted-new-agreements/38478/",
+      "european_entity": "greece",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "http://www.isbmmachines.com/china-automatic_blow_moulding_isbm_machine_ps_pmma_50ml_100ml-14179804.html",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://contractorfinder.geappliances.com/contractors-winnipeg-chinatown-civic-centre-exchange-district-mb",
+      "european_entity": "georgia",
+      "agreement_type": "contract"
+    },
+    {
+      "url": "https://validate.perfdrive.com/7ae6c71cf9a39216e0012edc82d9361f/?ssa=29b675c2-4277-4bbc-9cb2-b89e5179a1fb&ssb=15780398441&ssc=https%3A%2F%2Fwww.banrepcultural.org%2Fmonteria%2Factividad%2Fel-campesino-ideal-fotografia-de-la-reforma-agraria-en-colombia-durante-las&ssi=2b9635a2-c583-498c-8efa-0e98f3308208&ssk=support@shieldsquare.com&ssm=87852256271597481104354126630182&ssn=e98195a97f5b17ef356c1e226b6ba475879bcc8c1cf4-a8e0-4a70-9ac6a5&sso=be24d91e-64b3fcf808549e8644948a6df8efdafa035c9e692958c3fc&ssp=24469057841718756085171877633470933&ssq=19744396970213286302469702859791631396008&ssr=NDQuMjExLjI2LjE3OA==&sst=CCBot/2.0%20(https://commoncrawl.org/faq/)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjYwMDAyYjU0YjkyZC1hMjczLTRmYjQtOGM0Yi0zODJiOTBhODIwNGQxNzE4NzY5NzAyMTM2MC01ZjBlNjY5MGY4ZmNhNjA1MTAiLCJ1em14IjoiN2Y5MDAwZTAzYTYzN2QtMjZiZC00NDAyLWE4MmEtOTQ4ZTIwZmE4NTg1MS0xNzE4NzY5NzAyMTM2MC05MGM3ZTc0YTlmMjAzNDUyMTAiLCJyZCI6ImJhbnJlcGN1bHR1cmFsLm9yZyJ9",
+      "european_entity": "bosnia",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "http://un.china-mission.gov.cn/eng/chinaandun/legalaffairs/treaty/",
+      "european_entity": "switzerland",
+      "agreement_type": "treaty"
+    },
+    {
+      "url": "https://www.bayarea-stamps.com/products/pf2020-18m-hua-tuo-a-famous-ancient-chinese-physician-souvenir-sheet-fdc-subscription",
+      "european_entity": "bosnia",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "http://www.china-plasticmould.net/robots.txt",
+      "european_entity": "switzerland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://china.mfa.am/hy/bilateral-cn/",
+      "european_entity": "armenia",
+      "agreement_type": "bilateral"
+    },
+    {
+      "url": "https://serbia-energy.eu/serbias-eps-and-consortium-of-chinese-companies-sign-protocol-on-cooperation/",
+      "european_entity": "serbia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://serbia-energy.eu/republika-srpska-dongfang-china-signs-cooperation-financing-memo-for-new-tpp-gacko-2/",
+      "european_entity": "serbia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://serbia-business.eu/serbia-business-recent-solar-investment-power-plant-chinese-company/",
+      "european_entity": "serbia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://chinarhotel.az/medicalpackages/13/package-deal-arthrosis-treatment",
+      "european_entity": "azerbaijan",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://www.macedoniantruth.org/forum/forum/macedonian-truth-forum/general-discussions/4483-government-reaches-agreement-over-export-of-macedonian-wine-to-china?p=182661",
+      "european_entity": "macedonia",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://pure.eur.nl/en/activities/the-eu-china-comprehensive-agreement-on-investment-key-elements-a-2",
+      "european_entity": "netherlands",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://serbia-business.eu/tag/chinese-investments/",
+      "european_entity": "serbia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://insider-app.onelink.me/4cpG/?af_js_web=true&af_ss_ver=2_3_0&af_dp=insider%3A%2F%2Fbi%2Fpost%2Fis-morgan-stanleys-andy-xie-a-mouthpiece-for-the-chinese-goverment-2009-7&af_force_deeplink=true&is_retargeting=true&deep_link_value=https%3A%2F%2Fwww.businessinsider.com%2Fis-morgan-stanleys-andy-xie-a-mouthpiece-for-the-chinese-goverment-2009-7&pid=businessinsider&c=post_page_share_bar_v2_smart_4.13.23",
+      "european_entity": "montenegro",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://ec2-15-188-152-128.eu-west-3.compute.amazonaws.com/2023/11/15/us-china-pledge-cooperation/",
+      "european_entity": "armenia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.dmu.ac.uk/about-dmu/news/2021/january/dmus-confucius-institute-signs-partnership-with-leading-chinese-university.aspx",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.gear-box.top/china-220v-380v-f-series-paralle-shaft-mounted-gear-box-with-dc-ac-motor-manufacturer/",
+      "european_entity": "georgia",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.alleventstent.com/rapid-construction-of-basketball-venue-in-shanghai-all-events-tent-china-facilitates-investment-returns.html",
+      "european_entity": "albania",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://yrtnews.com/serbia-and-china-sign-free-trade-agreement-politico/",
+      "european_entity": "serbia",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://outreach.senate.gov/iqextranet/iqClickTrk.aspx?&cid=SenScott&crop=19471.422841651.12660834.12706907&report_id=&redirect=https%3A%2F%2Fwww.rickscott.senate.gov%2F2023%2F8%2Fsen-rick-scott-to-sec-blinken-u-s-cannot-renew-technology-and-science-agreement-with-communist-china&redir_log=264805464655977",
+      "european_entity": "sweden",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/?isdp_publication_series=journal-article&isdp_region=east-asia%2Csouth-asia&isdp_initiative=stockholm-center-for-south-asian-and-indo-pacific-affairs%2Cchina-center-isdp&isdp_project=regional-security-cooperation-in-east-asia&isdp_issue=conflict-management%2Cdiplomacy%2Cgovernance%2Cpolitics%2Cconflict-and-security&isdp_program=asia-program",
+      "european_entity": "sweden",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.amyscosmetics.com/hvad-er-nogle-tricks-for-at-vinde-i-ekasino-kortspil-med-en-dealer/",
+      "european_entity": "armenia",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://investmentpolicy.unctad.org/international-investment-agreements/treaties/bilateral-investment-treaties/932/china---macedonia-the-former-yugoslav-republic-of-bit-1997-",
+      "european_entity": "macedonia",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "http://www.isbmmachines.com/china-pmma_hdpe_bottle_pet_bottle_injection_moulding_machine_isbm_machine_8_cav_20ml-14202297.html",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.northernpublicradio.org/post/china-mobile-and-apple-sign-iphone-deal",
+      "european_entity": "norway",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://jamestown.org/program/china-and-georgia-deepen-transit-cooperation/attachment/235273220/",
+      "european_entity": "georgia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.diplomacyandcommerce.rs/unicredit-and-industrial-and-commercial-bank-of-china-icbc-announce-business-cooperation-agreement/",
+      "european_entity": "serbia",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://cv-coupling.com/2020/09/23/customized-single-phase-4-pole-motor-factory-made-in-china-replacement-parts-in-yerevan-armenia-high-quality-plastic-pom-moulding-gear-with-top-quality/",
+      "european_entity": "armenia",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.alleywatch.com/tag/bank-of-china-group-investment/",
+      "european_entity": "albania",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.istudy-china.com/on-the-mountain-holiday-thinking-of-my-brothers-in-shandong/",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://us.sis.gov.eg/Story/178440/Military-production-min.%2C-Fuji-Sino-Chinese-company-discuss-bilateral-cooperation?lang=en-us",
+      "european_entity": "slovenia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://policy.trade.ec.europa.eu/news/eu-and-china-reach-agreement-principle-investment-2020-12-30_en",
+      "european_entity": "eu",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.rubio.senate.gov/rubio-cotton-introduce-senate-joint-resolution-disapproving-of-u-s-china-nuclear-cooperation-agreement/",
+      "european_entity": "sweden",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.chinaeurope.eu/2021/09/10/china-focus-carbon-neutrality-drives-growth-of-chinas-investment-cooperation/",
+      "european_entity": "switzerland",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://citytelegraph.com/news/113181/powering-the-future-turkey-and-china-close-in-on-nuclear-plant-deal/",
+      "european_entity": "turkey",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://www.barnabasfund.org/us/news/persecution-concerns-mount-as-china-s-surveillance-state-genetically-map/",
+      "european_entity": "bosnia",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.istudy-china.com/%E7%8E%8B%E6%99%94-%E3%80%8A%E6%A1%83%E8%8A%B1%E5%A5%B3%E3%80%8B-famous-chinese-poems-with-pinyin-version-chinese-folk-painting/",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "http://www.isbmmachines.com/china-5_ltr_tritan_water_tank_blow_moulding_machine_pctg_single_station-14212323.html",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://china.mfa.gov.ua/zh/partnership/ukrainians-in-china",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.mama.mk.ua/forum/vsyakaya-vsyachina/yumor-prikoly/6469/mechtat-ne-vredno-ili-kakoy-on-ideal-nyy-den-zhenschiny.html?post=975926",
+      "european_entity": "macedonia",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://uk.eureporter.co/kazakhstan-2/2024/06/10/kazakhstan-china-sign-agreement-for-copper-smelter-construction/",
+      "european_entity": "uk",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://ca.eureporter.co/world/china-2/china-eu/2024/04/19/join-hands-to-build-a-community-of-shared-future-and-create-a-brighter-future-for-china-belgium-all-round-partnership-of-friendly-cooperation-together/",
+      "european_entity": "belgium",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.mama.mk.ua/forum/vsyakaya-vsyachina/yumor-prikoly/6469/mechtat-ne-vredno-ili-kakoy-on-ideal-nyy-den-zhenschiny.html?page=1#post975926",
+      "european_entity": "macedonia",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/9/?isdp_publication_series=commentary&isdp_region=northeast-asia&isdp_initiative=china-center-isdp&isdp_project=regional-security-cooperation-in-east-asia%2Cone-belt-one-road-initiative&isdp_program=asia-program",
+      "european_entity": "iceland",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "http://ldol.sm.gov.ua/index.php/uk/prioriteti/gkh/2898-sumshchina-pidpisala-memorandum-pro-partnerstvo-z-derzhenergoefektivnosti",
+      "european_entity": "uk",
+      "agreement_type": "memorandum"
+    },
+    {
+      "url": "https://pureportal.strath.ac.uk/en/activities/the-2016-china-uk-cooperation-project-bilateral-conference-for-in",
+      "european_entity": "uk",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://web.alliancebernstein.com/investments/china/home.htm",
+      "european_entity": "albania",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://travelchinawith.me/china-introduction/china-destinations/guangdong-introduction/attachment/danxia-mountain-2/",
+      "european_entity": "montenegro",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.uni-wuerzburg.de/en/news-and-events/news/detail/news/new-partnership-in-china/",
+      "european_entity": "germany",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.mama.mk.ua/forum/vsyakaya-vsyachina/yumor-prikoly/6469/mechtat-ne-vredno-ili-kakoy-on-ideal-nyy-den-zhenschiny.html",
+      "european_entity": "macedonia",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://insider-app.onelink.me/4cpG/?af_js_web=true&af_ss_ver=2_3_0&af_dp=insider%3A%2F%2Fbi%2Fpost%2Fboehner-slams-obamas-climate-deal-with-china-2014-11&af_force_deeplink=true&is_retargeting=true&deep_link_value=https%3A%2F%2Fwww.businessinsider.com%2Fboehner-slams-obamas-climate-deal-with-china-2014-11&pid=businessinsider&c=post_page_share_bar_v2_smart_4.13.23",
+      "european_entity": "montenegro",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://parsi.euronews.com/2019/04/03/china-panda-diplomacy-trade-agreements-mao-sun-zing-er-denmark-copenhagen-zoo",
+      "european_entity": "denmark",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www2.mfa.gov.lv/en/china/bilateral-cooperation?cookie_75c861aa8fec2383c5e37cdf0b7704e0=accepted",
+      "european_entity": "latvia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.iss.europa.eu/content/countering-terrorism-area-eu-china-cooperation",
+      "european_entity": "eu",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://glamourfm.es/2024/05/08/china-apoya-a-serbia-en-su-reclamacion-sobre-el-territorio-de-kosovo/",
+      "european_entity": "spain",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.istudy-china.com/%E9%99%86%E6%B8%B8%E3%80%8A%E4%B8%B4%E5%AE%89%E6%98%A5%E9%9B%A8%E5%88%9D%E9%9C%81%E3%80%8B-famous-chinese-poems-with-pinyin-version-chinese-folk-painting/",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.shanshuiprojects.net/reclusive-culture-in-chinese-mountain-and-water-painting/.get_permalink().",
+      "european_entity": "georgia",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/?isdp_publication_series=journal-article&isdp_region=east-asia%2Csouth-asia%2Csoutheast-asia&isdp_initiative=stockholm-center-for-south-asian-and-indo-pacific-affairs&isdp_project=chinas-military-transformation%2Cregional-security-cooperation-in-east-asia&isdp_issue=conflict-management%2Cdiplomacy%2Cpolitics%2Cconflict-and-security&isdp_program=asia-program",
+      "european_entity": "sweden",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.barbopoulos.gr/product/joyce-prasino-set-t-shirt-me-vermouda-gia-agori-13959-green/",
+      "european_entity": "greece",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.istudy-china.com/li-bai-a-song-of-lu-mountain-to-censor-lu-xuzhou-%E6%9D%8E%E7%99%BD%E3%80%8A%E5%BB%AC%E5%B1%B1%E8%AC%A0%E5%AF%84%E7%9B%A7%E4%BE%8D%E5%BE%A1%E8%99%9B%E8%88%9F%E3%80%8B-300-tang-poems/",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.chinesemedicineboard.gov.au/About/Health-Profession-Agreements.aspx",
+      "european_entity": "switzerland",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://serbiansteel.eu/serbia-china-free-trade-agreement-boosting-exports-to-europe-and-facilitating-eu-exports-to-china-via-serbia/",
+      "european_entity": "serbia",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.chinanetworkvub.eu/?event=baces-eu-china-think-tank-forum-eu-china-40-years-a-new-comprehensive-strategic-partnership",
+      "european_entity": "switzerland",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.vukuzenzele.gov.za/sa-china-partnership-warning-criminals",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.cassis.uni-bonn.de/en/media-contributions/do-more-clubbing-how-forming-partnerships-can-help-tech-middle-powers-survive-the-escalating-us-china-tech-war/image/view",
+      "european_entity": "germany",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://china.mfa.gov.ua/en/partnership/184-dogovirno-pravova-baza-mizh-ukrajinoju-ta-kitajem",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.baybridgebio.com/blog/chinese_investment_down_1h2019",
+      "european_entity": "bosnia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "http://www.europcar.ie/partnerships/shouqi-china",
+      "european_entity": "ireland",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.invest.gov.tr/tr/news/news-from-turkey/sayfalar/230212-turkey-china-nuclear-energy-cooperation.aspx",
+      "european_entity": "turkey",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.ues.rs.ba/en/2018/05/08/successful-cooperation-of-the-university-of-east-sarajevo-with-chinese-partners/",
+      "european_entity": "serbia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.infrapppworld.com/news/albania-montenegro-and-chinese-company-sign-mou-for-road-project",
+      "european_entity": "albania",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://serbia-energy.eu/romania-nuclearelectrica-signs-deal-with-china-nuclearl-power-corporation-for-cernavoda-new-3-and-4-reactors/",
+      "european_entity": "romania",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "http://www.isbmmachines.com/china-pet_stretch_blow_moulding_isbm_machine_one_step_petg_200ml_4000bph-14180940.html",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.uni-flensburg.de/en/ices/dates-and-events/past-events/euf-events-in-cooperation-with-ices/end-of-china-illusion",
+      "european_entity": "germany",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.edps.europa.eu:443/data-protection/our-work/publications/opinions/eu-china-joint-customs-cooperation-committee_fr",
+      "european_entity": "eu",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/?isdp_publication_series=focus-asia&isdp_region=south-asia&isdp_initiative=stockholm-center-for-south-asian-and-indo-pacific-affairs%2Cchina-center-isdp&isdp_project=regional-security-cooperation-in-east-asia&isdp_issue=energy-and-resources%2Cconflict-and-security&isdp_program=asia-program",
+      "european_entity": "sweden",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.allfresh168.com/product-page/chinese-of-farmed-one-mouth-mullet-roe-karasumi",
+      "european_entity": "albania",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://beijing.mfa.gov.az/en/news/3200/the-city-of-sumgait-establishes-cooperation-with-the-chinese-city-of-xian",
+      "european_entity": "azerbaijan",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://aebc17802a3d3198ab668a102c3e5db4-1397211045.eu-west-2.elb.amazonaws.com/news/local/reps-querries-fg-over-china-loan-agreement",
+      "european_entity": "armenia",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.bashya.nl/soul-glamourr/chinese-elementen/element-hout",
+      "european_entity": "netherlands",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/10/?isdp_publication_series=commentary&isdp_region=turkey-and-middle-east&isdp_initiative=stockholm-center-for-south-asian-and-indo-pacific-affairs%2Cchina-center-isdp&isdp_project=chinas-military-transformation%2Cmaritime-security%2Cregional-security-cooperation-in-east-asia&isdp_issue=conflict-management%2Cdiplomacy%2Cpolitics%2Cconflict-and-security&isdp_program=asia-program",
+      "european_entity": "sweden",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.invest.gov.tr/tr/news/News-from-Turkey/Sayfalar/250112-china-turkey-nuclear-power-plant-cooperation.aspx",
+      "european_entity": "turkey",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.harper-adams.ac.uk/news/203139/china--transnational-education-degree-partnerships-renewed",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.ponarseurasia.org/memo/azerbaijan-through-prism-bri-chinas-mounting-interests-and-influence-region?fbclid=IwAR1N17FHwZRqQib6PxOJc4ySQSlijHrZ3ePpgn_BBASWZXaDxDzKKPorfsU",
+      "european_entity": "azerbaijan",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.medicalboard.gov.au/?f.Website%7Cboard=all+national+boards&f.Website%7Cboard=ahpra&f.Website%7Cboard=aboriginal+and+torres+strait+islander+health+practice+board&f.Website%7Cboard=chinese+medicine+board&f.Website%7Cboard=chiropractic+board&f.Website%7Cboard=dental+board&f.Website%7Cboard=medical+board&f.Website%7Cboard=medical+radiation+practice+board&f.Website%7Cboard=nursing+and+midwifery+board&f.Website%7Cboard=occupational+therapy+board&f.Website%7Cboard=optometry+board&f.Website%7Cboard=osteopathy+board&f.Website%7Cboard=paramedicine+board&f.Website%7Cboard=pharmacy+board&f.Website%7Cboard=physiotherapy+board&f.Website%7Cboard=podiatry+board&f.Website%7Cboard=psychology+board&profile=medical&query=information+on+the+management+of+impaired+practitioners&collection=ahpra-websites-web&f.Content+type%7Ccontent=accreditation+agreement+-+schedules+3+and+4+2020%2F21+financial+year",
+      "european_entity": "montenegro",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "http://chinaandgreece.com/el/cooperation-athens-macedonian-new-agency-xinhua/",
+      "european_entity": "greece",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://policy.trade.ec.europa.eu/events/csd-eu-china-comprehensive-agreement-investment-cai-2021-01-27_cs",
+      "european_entity": "eu",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "http://ww99.bankpawa.co.uk/traders-urge-the-ogun-state-government-to-stop-importing-cheap-fake-chinese-adire-fabrics/",
+      "european_entity": "uk",
+      "agreement_type": "trade"
+    },
+    {
+      "url": "http://www.allmowersspares.com/china-best-tractor-3-point-mounted-1slf-525-hydraulic-reversible-furrow-plough-for-large-farms-with-good-quality/",
+      "european_entity": "albania",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.urmc.rochester.edu/education/partnership/chinese-university-background.aspx",
+      "european_entity": "romania",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.georgefm.co.nz/home/good-chat/2019/12/nz-fires-up-after-chinese-man-claims-he-invented-johnny-dangers-famous-vortex.html",
+      "european_entity": "georgia",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.istockphoto.com/photo/solo-travel-asian-chinese-woman-standing-in-front-of-snowcapped-mountain-at-gm2150076101-571268309?utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fit%2Fs%2Ffoto%2Fclima&utm_medium=affiliate&utm_source=unsplash&utm_term=clima%3A%3A%3A",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.chinafamous.net/robots.txt",
+      "european_entity": "switzerland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.northernforum.org/ru/news-ru/1136-the-northern-forum-china-cooperation-in-innovative-technologies-for-the-protection-and-development-of-the-arctic",
+      "european_entity": "norway",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.thnewswire.com/jcn-newswire/mitsubishi-electrics-swedish-subsidiary-signs-share-transfer-agreement-to-wholly-acquire-norwegian-elevator-distributor-uniheis/",
+      "european_entity": "sweden",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.ids.ac.uk/events/china-and-global-britain-a-sustainable-development-partnership-for-the-future/",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.southampton.ac.uk/study/fees-funding/scholarships/partnerships-china-scholarship-council",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.isportconnect.com/10-sports-broadcasting-deals-of-the-week-031014/index.php?option=com_content&view=article&id=29348:eurosport-unveils-broadcasters-for-wtccs-chinese-rounds&catid=10:media--broadcasting&Itemid=20",
+      "european_entity": "iceland",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://littoncapitalgroup.com/xis-visit-to-hungary-and-serbia-brings-new-chinese-investment-and-deeper-ties-to-europes-doorstep/",
+      "european_entity": "hungary",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "http://www.isbmmachines.com/china-8_cavity_20_5_l_d_stretch_blow_moulding_preform_bottle_blowing_machine_5l-14165057.html",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.istudy-china.com/%E5%88%98%E5%85%8B%E5%BA%84%E3%80%8A%E8%B4%BA%E6%96%B0%E9%83%8E%C2%B7%E7%AB%AF%E5%8D%88%E3%80%8B-liu-kezhuang-famous-poems-chinese-folk-painting/",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://bestchinesestreetfoods.sitey.me/blog/post/220227/chinese-street-food-why-it-s-so-famous",
+      "european_entity": "slovenia",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.thebritishacademy.ac.uk/blog/eu-china-partnerships-climate-change--are-they-effective/",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/8/?isdp_publication_series=commentary&isdp_region=northeast-asia&isdp_initiative=china-center-isdp&isdp_project=regional-security-cooperation-in-east-asia%2Cone-belt-one-road-initiative&isdp_program=asia-program",
+      "european_entity": "iceland",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://morelove.me/idealnoe-telo/vostochnye-tantsy-video-uroki-dlya-nachinayuschih.html",
+      "european_entity": "montenegro",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://www.cardiff.ac.uk/news/view/144709-school-of-chemistry-forges-new-partnerships-with-chinese-universities",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://nuclear-safety-cooperation.ec.europa.eu/contracts/enhancing-capabilities-china-identification-and-treatment-people-who-may-have-been-over-exposed_en",
+      "european_entity": "eu",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://deframedia.blog.gov.uk/2018/08/24/farming-technical-notices-and-uk-dairy-agreement-with-china/",
+      "european_entity": "uk",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.mkfireworksking.co.uk/products/chinese-elebrate-100-deal",
+      "european_entity": "uk",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "http://fco.gov.uk/en/publications-and-documents/treaty-command-papers-ems/explanatory-memoranda/explanatory-memoranda-2007a/china-gnss",
+      "european_entity": "uk",
+      "agreement_type": "treaty"
+    },
+    {
+      "url": "https://web.ground.news/article/xis-visit-to-hungary-and-serbia-brings-new-chinese-investment-and-deeper-ties-to-europes-doorstep_7ddc3b",
+      "european_entity": "greece",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://chinarhotel.az/medicalpackages/15/package-deal-gout-treatment",
+      "european_entity": "azerbaijan",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://apply4ep.gestmax.eu/74/1/call-for-expression-of-interest-contract-staff-fg-iv-in-the-area-of-communication/sk_SK?backlink=searchinactive",
+      "european_entity": "georgia",
+      "agreement_type": "contract"
+    },
+    {
+      "url": "https://www.srbija.gov.rs/vest/en/222430/government-adopts-several-documents-on-cooperation-of-serbia-peoples-republic-of-china.php",
+      "european_entity": "serbia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "http://www.isbmmachines.com/china-petg_water_tank_injection_stretch_blow_moulding_machine_3800bph_120ml-14221528.html",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "http://www.amls.com.au/contract_translation_chinese.html",
+      "european_entity": "armenia",
+      "agreement_type": "contract"
+    },
+    {
+      "url": "https://www.amtdigital.net/davos-focus-amtd-and-caixin-global-signed-an-agreement-of-strategic-cooperation-to-promote-chinas-voices-across-the-globe/",
+      "european_entity": "armenia",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.istudy-china.com/autumn-evening-in-the-mountains/",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.istudy-china.com/%E9%9F%A6%E5%BA%94%E7%89%A9%E3%80%8A%E9%87%91%E8%B0%B7%E5%9B%AD%E6%AD%8C%E3%80%8B-famous-chinese-poems-with-pinyin-version-chinese-folk-painting/",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://cordmagazine.com/events/president-xi-jinping-highlights-china-serbia-partnership-for-global-peace-and-development/",
+      "european_entity": "serbia",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://contractorfinder.geappliances.com/contractors-china-me",
+      "european_entity": "georgia",
+      "agreement_type": "contract"
+    },
+    {
+      "url": "http://www.allmowersspares.com/china-factory-supplier-mini-czpt-with-all-farming-tools-grader-cutting-edge-forest-wood-harvesters-mounted-on-tractor-drill-machine-near-me-manufacturer/",
+      "european_entity": "albania",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.kopyl.gov.by/en/news/republik/item/29102-lukashenko-okays-draft-belarus-china-agreement-on-trade-in-services-on-making-investments.html",
+      "european_entity": "uk",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://apply4ep.gestmax.eu/74/1/call-for-expression-of-interest-contract-staff-fg-iv-in-the-area-of-communication/en_US?backlink=searchinactive",
+      "european_entity": "georgia",
+      "agreement_type": "contract"
+    },
+    {
+      "url": "http://www.isbmmachines.com/china-isbm_machine_24_l_d_2_litre_automatic_pet_blow_moulding_machine_conveyor-14167360.html",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.uea.ac.uk/about/news/article/vice-chancellor-visits-china-to-mark-18th-anniversary-of-uea-into-partnership",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/HR/legal-content/summary/eu-china-agreement-on-civil-aviation-safety.html",
+      "european_entity": "eu",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.ucl.ac.uk/ssees/events/2022/mar/exchange-rate-uncertainty-and-timing-chinese-outward-direct-investment",
+      "european_entity": "uk",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://denesmagazin.mk/nula-kuchina-bezdomnitsi-vo-chair-potpishan-memorandum-za-zashtita-i-tretman-na-zhivotnite-happy-shelter/",
+      "european_entity": "macedonia",
+      "agreement_type": "memorandum"
+    },
+    {
+      "url": "https://www.pl.gov.my/newspaper-clipping/tencent-dan-china-construction-bank-labuan-menandatangani-memorandum-kerjasama/?lang=en",
+      "european_entity": "poland",
+      "agreement_type": "memorandum"
+    },
+    {
+      "url": "https://www.foxnews.com/world/china-serbia-sign-over-20-agreements-pledge-to-boost-ties",
+      "european_entity": "serbia",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.alliancebernstein.com/corporate/en/insights/investment-insights/chinas-struggling-economy-masks-a-promising-investing-landscape.html",
+      "european_entity": "albania",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://insider-app.onelink.me/4cpG/?af_js_web=true&af_ss_ver=2_3_0&af_dp=insider%3A%2F%2Fbi%2Fpost%2Ftrump-has-reportedly-discussed-limited-china-trade-deal-tariff-delays-2019-9&af_force_deeplink=true&is_retargeting=true&deep_link_value=https%3A%2F%2Fwww.businessinsider.com%2Ftrump-has-reportedly-discussed-limited-china-trade-deal-tariff-delays-2019-9&pid=businessinsider&c=post_page_share_bar_v2_smart_4.13.23",
+      "european_entity": "montenegro",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://www.amchamchina.org/press/amcham-china-statement-on-foreign-investment-law/amcham@amchamchina.org",
+      "european_entity": "armenia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.ndtv.com/world-news/china-serbia-sign-over-20-agreements-pledge-to-boost-ties-1420664",
+      "european_entity": "serbia",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.britt.senate.gov/press-releases/u-s-senators-katie-britt-pete-ricketts-introduce-bill-to-strengthen-oversight-of-u-s-china-science-and-technology-agreements/",
+      "european_entity": "sweden",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.bcu.ac.uk/news-events/university-given-rare-green-light-for-major-higher-education-partnership-in-china",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://international-partnerships.ec.europa.eu/countries/china_en?prefLang=bg",
+      "european_entity": "eu",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.euroakademie.de/english/references/educational-cooperation-with-china.html",
+      "european_entity": "germany",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://ec2-16-16-210-193.eu-north-1.compute.amazonaws.com/addressing-the-shanghai-cooperation-organisations-virtual-summit-countering-terrorism-and-ensuring-peace-and-stability/",
+      "european_entity": "armenia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.allianz.com/en/press/news/financials/stakes_investments/171019-allianz-taiwan-life-insurance-china-life.html",
+      "european_entity": "albania",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/4/?isdp_publication_series=issue-policy-brief&isdp_region=east-asia%2Csouth-asia&isdp_initiative=stockholm-center-for-south-asian-and-indo-pacific-affairs&isdp_project=aukus%2Cchinas-military-transformation%2Cpacific-islands%2Cregional-security-cooperation-in-east-asia&isdp_issue=conflict-management%2Cdiplomacy%2Cconflict-and-security&isdp_program=asia-program",
+      "european_entity": "sweden",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://apply4ep.gestmax.eu/74/1/call-for-expression-of-interest-contract-staff-fg-iv-in-the-area-of-communication/fr_FR?backlink=searchinactive",
+      "european_entity": "georgia",
+      "agreement_type": "contract"
+    },
+    {
+      "url": "https://news.baothuathienhue.vn/windows/making-cooperation-with-chinese-leading-hospital-129857.html",
+      "european_entity": "bosnia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.generali-investments.lu/at/en/privatehttps:/www.generali-investments.lu/at/en/private/article/evergrande-is-not-china-s-lehman-moment",
+      "european_entity": "luxembourg",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "http://www.euractiv.rs/vesti/8166-china-fostering-cooperation-with-cee-countries.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+euractiv%2Feaenglish+%28EurActiv+English%29",
+      "european_entity": "serbia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://single-market-economy.ec.europa.eu/industry/international-activities/cooperation-governments/eu-china-cooperation_sl",
+      "european_entity": "eu",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.whitireiaweltec.ac.nz/news/whitireia-and-weltec-te-pukenga-host-chinese-minister-of-education-at-te-auaha-campus-to-reaffirm-cooperation/",
+      "european_entity": "uk",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://chinarhotel.az/medicalpackages/9/treatment-package-deal-antistress",
+      "european_entity": "azerbaijan",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://globalwomenshealthacademy.org/news/accelerating-serbias-access-to-genomics-to-enhance-health-in-partnership-with-chinese-gene-test-company-bgi-genomics/2332869/",
+      "european_entity": "serbia",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.bashya.nl/soul-glamourr/chinese-elementen/element-metaal",
+      "european_entity": "netherlands",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.scott.senate.gov/media-center/press-releases/scott-praises-passage-of-bill-approving-trade-agreement-to-strengthen-ties-with-taiwan-stand-against-chinese-aggression/",
+      "european_entity": "sweden",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://intellectual-property-helpdesk.ec.europa.eu/news-events/upcoming-events/trade-fair-16th-eu-china-business-technology-cooperation-fair-2021-09-17_en",
+      "european_entity": "eu",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.ballsport.cz/under-armour-ua-w-hovr-machina-3-storm-black-black-black-cerna-385",
+      "european_entity": "czech",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.amro-asia.org/infographic-the-inclusion-of-china-in-major-global-investment-indices-implications-for-asean3-regional-capital-flows/",
+      "european_entity": "armenia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "http://www.northernpublicradio.org/post/china-mobile-and-apple-sign-iphone-deal",
+      "european_entity": "norway",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://www.traveldailynews.com/aviation/air-serbia-and-air-china-renew-and-expand-their-partnership/",
+      "european_entity": "serbia",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://blogs.edgehill.ac.uk/research/2019/07/29/ahrc-uk-china-research-industry-creative-partnerships-call/",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://ceias.eu/infographic-v4-serbia-and-chinese-investment/",
+      "european_entity": "serbia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://china.mfa.am/en/bilateral-mn/",
+      "european_entity": "armenia",
+      "agreement_type": "bilateral"
+    },
+    {
+      "url": "http://www.isbmmachines.com/china-100ml_4_cavity_blow_moulding_plastic_bottle_injection_molding_machine_petg_sgs-14031967.html",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://policy.trade.ec.europa.eu/events/csd-eu-china-comprehensive-agreement-investment-cai-2021-01-27_en?prefLang=es",
+      "european_entity": "eu",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.istudy-china.com/10-most-famous-chinese-tourist-attractions-you-must-go-in-china/",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "http://www.island-hk.com/2012/01/01/island-successfully-awarded-an-support-services-contract-for-one-of-the-largest-publicly-listed-beverage-packaging-companies-in-china-who-operates-85-plants-located-nationwide-and-employed-over-7000-people/",
+      "european_entity": "iceland",
+      "agreement_type": "contract"
+    },
+    {
+      "url": "https://china.mfa.am/en/bilateral-th/",
+      "european_entity": "armenia",
+      "agreement_type": "bilateral"
+    },
+    {
+      "url": "https://www.railfreight.com/beltandroad/2023/12/11/china-azerbaijan-trade-soars-rail-freight-volumes-follow/",
+      "european_entity": "azerbaijan",
+      "agreement_type": "trade"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/11/?isdp_publication_series=commentary&isdp_region=northeast-asia&isdp_initiative=china-center-isdp&isdp_project=regional-security-cooperation-in-east-asia%2Cone-belt-one-road-initiative&isdp_program=asia-program",
+      "european_entity": "iceland",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.shanshuiprojects.net/reclusive-culture-in-chinese-mountain-and-water-painting/'.get_permalink().'",
+      "european_entity": "georgia",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://ardm.eu/autres-annonces/annonces-de-theses/soutenance-dune-these-en-didactique-des-mathematiques-issue-de-la-cooperation-entre-lens-de-lyon-et-lecnu-de-shanghai/",
+      "european_entity": "france",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://jamestown.org/program/china-and-georgia-deepen-transit-cooperation/?fbclid=IwAR3nPoysdVhzqroeYP-b3DZrd9d1N_xYOdbiB9ezPespCw-HtFfLNhe9fkg",
+      "european_entity": "georgia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://policy.trade.ec.europa.eu/events/csd-eu-china-comprehensive-agreement-investment-cai-2021-01-27_el",
+      "european_entity": "eu",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://researchportal.bath.ac.uk/en/publications/the-eu-china-and-the-trade-in-green-technologies-cooperation-and-",
+      "european_entity": "uk",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/5/?isdp_publication_series=issue-policy-brief&isdp_region=east-asia%2Csouth-asia&isdp_initiative=stockholm-center-for-south-asian-and-indo-pacific-affairs&isdp_project=aukus%2Cchinas-military-transformation%2Cpacific-islands%2Cregional-security-cooperation-in-east-asia&isdp_issue=conflict-management%2Cdiplomacy%2Cconflict-and-security&isdp_program=asia-program",
+      "european_entity": "sweden",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.chinaeurope.eu/2022/12/10/interview-china-arab-summit-to-further-friendship-strategic-cooperation-says-al-chief/",
+      "european_entity": "switzerland",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "http://www.mzes.uni-mannheim.de/d7/en/projects/cooperation-with-the-institute-for-european-studies-of-the-chinese-academy-of-social-sciences",
+      "european_entity": "germany",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://policy.trade.ec.europa.eu/events/csd-eu-china-comprehensive-agreement-investment-cai-2021-01-27_en?prefLang=fi",
+      "european_entity": "eu",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.srbija.gov.rs/vest/en/207378/strengthening-cooperation-with-china-in-field-of-transport.php",
+      "european_entity": "serbia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.istartwork.com/find-an-ideal-chinese-dating-website-for-you/",
+      "european_entity": "iceland",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "http://hosted.ap.org/clevelandbanner/article/8b112f599ab51a18e290d5183b971970/xis-visit-hungary-and-serbia-brings-new-chinese-investment",
+      "european_entity": "hungary",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://serbiansteel.eu/serbias-new-free-trade-agreement-with-china-impacts-on-eu-markets-and-opportunities-for-eu-companies/",
+      "european_entity": "serbia",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.mfa.rs/en/foreign-policy/bilateral-cooperation/china",
+      "european_entity": "serbia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://researchitaly.mur.gov.it//en/understanding/press-media/news/space-signed-cooperation-agreement-with-china/",
+      "european_entity": "italy",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://cseba.eu/news/plenkovic-about-cooperation-with-china-croatia-is-focused-on-infrastructure-science-and-innovation/486/",
+      "european_entity": "croatia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://sv.eureporter.co/world/china-2/chinaeu/2022/10/15/the-sound-development-momentum-of-china-belgium-economic-and-trade-cooperation-needs-to-be-cherished-and-cared-for/",
+      "european_entity": "belgium",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://uzbekistannewsgazette.com/azerbaijan-china-sign-memorandums-on-tourism-cooperation/",
+      "european_entity": "azerbaijan",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.uni-flensburg.de/ices/termine/abgeschlossene-veranstaltungen/euf-events-in-cooperation-with-ices/das-ende-der-china-illusion",
+      "european_entity": "germany",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.hepi.ac.uk/2023/07/19/changes-in-uk-china-transnational-education-partnerships-whats-driving-the-shift/",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://moldovainvest.eu/en/international-en/china-and-hungary-signed-an-important-strategic-partnership/",
+      "european_entity": "hungary",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/?isdp_publication_series=commentary&isdp_region=northeast-asia&isdp_initiative=china-center-isdp&isdp_project=maritime-security%2Cregional-security-cooperation-in-east-asia%2Csino-regional-relations&isdp_issue=conflict-management%2Cgovernance%2Cconflict-and-security&isdp_program=asia-program",
+      "european_entity": "iceland",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/china/eu-china-agreement_en?prefLang=es",
+      "european_entity": "eu",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.istockphoto.com/photo/wuzhen-is-a-famous-town-in-zhejiang-province-china-gm1332235092-415140618?utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fwuzhen&utm_medium=affiliate&utm_source=unsplash&utm_term=wuzhen%3A%3A%3A",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://insider-app.onelink.me/4cpG/?af_js_web=true&af_ss_ver=2_3_0&af_dp=insider%3A%2F%2Fbi%2Fpost%2Fchina-deleted-chunks-of-trade-deal-it-didnt-like-angered-us-report-2019-5&af_force_deeplink=true&is_retargeting=true&deep_link_value=https%3A%2F%2Fwww.businessinsider.com%2Fchina-deleted-chunks-of-trade-deal-it-didnt-like-angered-us-report-2019-5&pid=businessinsider&c=post_page_share_bar_v2_smart_4.13.23",
+      "european_entity": "montenegro",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "http://www.isbmmachines.com/china-3000bph_pet_blow_molding_machine_stretch_blow_moulding_machine_petg_150ml-14048957.html",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.baunatdiamond.cn/en/what-are-chinas-new-import-tariffs-on-investment-diamond-jewellery",
+      "european_entity": "bosnia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://serbia-business.eu/tag/china-investments/",
+      "european_entity": "serbia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://neweasterneurope.eu/2023/11/20/hazards-to-georgias-foreign-policy-a-strategic-partnership-with-china/",
+      "european_entity": "georgia",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.amwu.org.au/_fair_trade_not_free_trade_no_dodgy_china_deal_rally_in_devonport_thursday",
+      "european_entity": "armenia",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://www.daines.senate.gov/news/press-releases/daines-secures-agreement-to-ship-200-million-of-montana-beef-to-china",
+      "european_entity": "sweden",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.bgu.ac.uk/news/bgu-awarded-british-council-funding-to-strengthen-china-partnership",
+      "european_entity": "bulgaria",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/10/?isdp_publication_series=commentary&isdp_region=northeast-asia&isdp_initiative=china-center-isdp&isdp_project=regional-security-cooperation-in-east-asia%2Cone-belt-one-road-initiative&isdp_program=asia-program",
+      "european_entity": "iceland",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://policy.trade.ec.europa.eu/events/csd-eu-china-comprehensive-agreement-investment-cai-2021-01-27_en?prefLang=el",
+      "european_entity": "eu",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://uschinadialogue.georgetown.edu/cn/responses/cooperation-is-necessary-in-global-climate-leadership",
+      "european_entity": "georgia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.europcar.ie/partnerships/shouqi-china",
+      "european_entity": "ireland",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.sunderland.ac.uk/more/news/story/Sunderland-blends-partnership-links-with-Chinas-food-producers-987",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://single-market-economy.ec.europa.eu/industry/international-activities/cooperation-governments/eu-china-cooperation_ro",
+      "european_entity": "eu",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "http://www.gerc.ac.uk/aboutgerc/international-partnerships/china-university-of-mining-and-technology.aspx",
+      "european_entity": "uk",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "http://www.isbmmachines.com/china-pctg_2_ltr_pet_jar_blowing_machine_5_ltr_blow_moulding_machine_pmma-14229557.html",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.govisachina.com/2021/08/10/world-insights-china-and-turkey-celebrate-50-years-of-partnership/",
+      "european_entity": "turkey",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "http://www.isbmmachines.com/china-1ml_9t_pet_bottle_making_machine_1_litre_blow_moulding_machine_sk-14184095.html",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.geveltotaal.com/institutions/international-partnerships-in-education/teach-tour-china-summer-2014-282973",
+      "european_entity": "georgia",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://ec2-15-188-152-128.eu-west-3.compute.amazonaws.com/2023/09/13/xi-says-china-venezuela-agree-on-partnership-during-maduro-trip/",
+      "european_entity": "armenia",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://depo.mk/product/rainbow-mountains-china/",
+      "european_entity": "macedonia",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.chinadealz.net/robots.txt",
+      "european_entity": "switzerland",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://seebiz.eu/drustvo/china-hungary-elevate-ties-to-all-weather-comprehensive-strategic-partnership/304894/",
+      "european_entity": "hungary",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://www.baobablibros.es/juego/juego-sombras-chinas-brujas-moulin-roty_1380",
+      "european_entity": "spain",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://research-and-innovation.ec.europa.eu/strategy/strategy-2020-2024/europe-world/international-cooperation/bilateral-cooperation-science-and-technology-agreements-non-eu-countries/china_ro",
+      "european_entity": "eu",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://policy.trade.ec.europa.eu/events/csd-eu-china-comprehensive-agreement-investment-cai-2021-01-27_en?prefLang=bg",
+      "european_entity": "eu",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.alpinus.cz/cms/virtualni-kasino-s-primou-vyplatou-pro-hrace/",
+      "european_entity": "czech",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://chinafocus.ucsd.edu/2023/08/22/chinas-best-friend-in-the-eu-the-potential-for-sino-hungarian-cooperation-2023-china-focus-essay-contest-runner-up/china_and_hungary_flags/",
+      "european_entity": "hungary",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.bastimmers.nl/2008/02/26/na-brokeback-mountain-de-chinese-realiteit/",
+      "european_entity": "netherlands",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://cordmagazine.com/news/ambassador-li-ming-china-emerges-as-serbias-main-source-of-foreign-investment/",
+      "european_entity": "serbia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.fiw.ac.at/publications/exchange-rate-volatility-financial-constraints-and-trade-empirical-evidence-from-chinese-firms/",
+      "european_entity": "austria",
+      "agreement_type": "trade"
+    },
+    {
+      "url": "https://de.bagtobag.com.gr/psathini-tsanta-omou-cn-23125/?attribute_pa_color=bez",
+      "european_entity": "greece",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.bazarchinatown.com/tienda-disfraces-online-y-complementos/mascaras-de-carnaval/orejas-de-carnaval-y-narices/nariz-negra-de-espuma-nariz-de-raton-mickey-mouse-?id_product_attribute=0",
+      "european_entity": "bosnia",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.srbija.gov.rs/vest/en/222139/acts-necessary-for-improvement-of-cooperation-with-china.php",
+      "european_entity": "serbia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.govisachina.com/2021/07/23/ukraine-china-working-on-visa-waiver-agreement/",
+      "european_entity": "uk",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://basc.berkeley.edu/taiwan-china-relations-debates-over-the-economic-cooperation-framework-agreement-ecfa/",
+      "european_entity": "belgium",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.arcdigital.media/by-quitting-the-trans-pacific-partnership-trump-cedes-asia-pacific-to-china-f63514a783ac?source=friends_link&sk=959f8f7c206d98f0b9c1950ce0d9e4a8",
+      "european_entity": "montenegro",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://asia.businessupturn.com/building-bridges-china-and-serbia-forge-strategic-partnership-for-a-bright-future/19140/",
+      "european_entity": "serbia",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "http://www.isbmmachines.com/china-300ml_horizontal_rotary_blow_molding_machine_pctg_auto_deflashing_blow_moulding_machine_sgs-14027392.html",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://china.diplo.de/cn-de/willkommen-in-china/informationen-ueber-china/bilaterale-beziehungen",
+      "european_entity": "germany",
+      "agreement_type": "bilateral"
+    },
+    {
+      "url": "https://ukccsrc.ac.uk/new-uk-china-guangdong-ccus-centre-memorandum-of-understanding-exchanged/",
+      "european_entity": "uk",
+      "agreement_type": "memorandum"
+    },
+    {
+      "url": "https://serbiansteel.eu/serbia-china-free-trade-agreement-belt-and-road-initiative-and-the-potential-for-trade-increase-with-eu-markets/",
+      "european_entity": "serbia",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://www.schoenherr.eu/content/serbia-schoenherr-advises-cwp-europe-on-partnership-with-powerchina-resources-for-300-mw-vetrozelena-wind-farm",
+      "european_entity": "serbia",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "http://m.mediaquery.cn/copy_2_2397411_170713_thetrendofaggregatesindustryinvestmentinchina.html",
+      "european_entity": "montenegro",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://uzbekistannewsgazette.com/azal-azerbaijan-tourism-board-and-china-tourism-group-signed-a-tripartite-memorandum-of-understanding-photo/",
+      "european_entity": "azerbaijan",
+      "agreement_type": "memorandum"
+    },
+    {
+      "url": "https://china.enrichcentres.eu/en/news/sino-norwegian-cooperation-in-china-and-europe-partnership-on-sustainable-urbanisation",
+      "european_entity": "norway",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://chinaobservers.eu/by-inking-a-strategic-partnership-with-beijing-georgia-is-walking-further-away-from-the-west/",
+      "european_entity": "georgia",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://justfinanceinternational.org/2024/05/27/forbes-serbia-chinese-investment-in-the-balkans-leaves-a-trail-of-controversy/",
+      "european_entity": "serbia",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.allfinancialservice.com/ticn-investment-clubs/",
+      "european_entity": "albania",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.chinaeurope.eu/tag/ministers-of-nordic-cooperation/",
+      "european_entity": "switzerland",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.chinaeurope.eu/2021/07/06/xi-calls-for-expanding-consensus-cooperation-with-europe-in-virtual-summit-with-french-german-leaders/",
+      "european_entity": "germany",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://insider-app.onelink.me/4cpG/?af_js_web=true&af_ss_ver=2_3_0&af_dp=insider%3A%2F%2Fbi%2Fpost%2Ftrump-could-welcome-china-deal-collapse-as-opportunity-to-attack-biden-2019-5&af_force_deeplink=true&is_retargeting=true&deep_link_value=https%3A%2F%2Fwww.businessinsider.com%2Ftrump-could-welcome-china-deal-collapse-as-opportunity-to-attack-biden-2019-5&pid=businessinsider&c=post_page_share_bar_v2_smart_4.13.23",
+      "european_entity": "montenegro",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "https://cordis.europa.eu/article/id/36281-towards-euchina-cooperation-in-ict/fr",
+      "european_entity": "eu",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://ohsem.me/2023/05/cgtn-how-to-open-up-a-new-era-of-china-central-asia-cooperation/",
+      "european_entity": "montenegro",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://archive.ids.ac.uk/futurehealthsystems/blog/2017/9/22/how-will-chinas-belt-and-road-shape-global-health-cooperation.html",
+      "european_entity": "uk",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.rsis.edu.sg/staff-publication/pan-beibu-gulf-cooperation-potential-for-peace-in-the-south-china-sea/",
+      "european_entity": "serbia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/7/?isdp_publication_series=commentary&isdp_region=turkey-and-middle-east&isdp_initiative=stockholm-center-for-south-asian-and-indo-pacific-affairs%2Cchina-center-isdp&isdp_project=chinas-military-transformation%2Cmaritime-security%2Cregional-security-cooperation-in-east-asia&isdp_issue=conflict-management%2Cdiplomacy%2Cpolitics%2Cconflict-and-security&isdp_program=asia-program",
+      "european_entity": "sweden",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "http://www.bal.topsprezarki.com.pl/2020/10/20/owszem-biznes-z-chinami-tudziez-studia-mba-za-granicaidealnego/",
+      "european_entity": "poland",
+      "agreement_type": "deal"
+    },
+    {
+      "url": "http://www.amcham-shanghai.org/NR/rdonlyres/A18F268D-6EE8-4221-B075-4F00282E8623/1427/AmChamShanghailaborcontractlawcommentstoNPCApr2006.pdf",
+      "european_entity": "armenia",
+      "agreement_type": "contract"
+    },
+    {
+      "url": "https://www.invest.gov.tr/tr/news/news-from-turkey/sayfalar/181010-turkey-china-high-speed-train-partnership.aspx",
+      "european_entity": "turkey",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "http://www.argomarine.eu/shanghai-expo-2010-sino-italian-development-cooperation-programme/",
+      "european_entity": "italy",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.mkintl.co.kr/single-post/2019/11/18/official-visit-meeting-with-leaders-of-powerchina-gicfc-and-moutai-group-organizations-be",
+      "european_entity": "macedonia",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "http://www.isbmmachines.com/china-6_cav_plastic_bottle_molding_machine_petg_fully_automatic_pet_blow_moulding_machine_sgs-14013315.html",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://policy.trade.ec.europa.eu/events/csd-eu-china-comprehensive-agreement-investment-cai-2021-01-27_bg",
+      "european_entity": "eu",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "http://www.isbmmachines.com/china-single_stage_pmma_asb_injection_moulding_pet_preform_machine_6_cavity_1_5l-14227592.html",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/29/?isdp_publication_series=commentary&isdp_region=turkey-and-middle-east&isdp_initiative=stockholm-center-for-south-asian-and-indo-pacific-affairs%2Cchina-center-isdp&isdp_project=chinas-military-transformation%2Cmaritime-security%2Cregional-security-cooperation-in-east-asia&isdp_issue=conflict-management%2Cdiplomacy%2Cpolitics%2Cconflict-and-security&isdp_program=asia-program",
+      "european_entity": "sweden",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://us.knews.media/business/investments-could-flow-back-into-china-as-companies-avoid-u-s-delisting/",
+      "european_entity": "montenegro",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://transport.ec.europa.eu/news-events/news/international-aviation-eu-launches-new-aviation-partnership-china-2016-09-22_en",
+      "european_entity": "eu",
+      "agreement_type": "partnership"
+    },
+    {
+      "url": "https://travelchinawith.me/nannuo-mountain/",
+      "european_entity": "montenegro",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "http://www.isbmmachines.com/china-4_cavity_0_5l_fully_automatic_blow_moulding_machine_petg_tritan-14223943.html",
+      "european_entity": "iceland",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "http://www.geyeemould.com/chinese/",
+      "european_entity": "georgia",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://af.eureporter.co/world/china-2/china-eu/2024/04/19/join-hands-to-build-a-community-of-shared-future-and-create-a-brighter-future-for-china-belgium-all-round-partnership-of-friendly-cooperation-together/",
+      "european_entity": "belgium",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://azerbaijani.gh-pe.com/Butt-fusion-fitting/china-manufacture-of-hdpe-moulded-butt-fusion-reducing-tee-reducer-for-water-supply-sewage-transfer-draining",
+      "european_entity": "azerbaijan",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://portsmouthchinese.org.uk/robots.txt",
+      "european_entity": "uk",
+      "agreement_type": "mou"
+    },
+    {
+      "url": "https://www.hoeven.senate.gov/news/news-releases/hoeven-statement-after-president-announces-phase-one-trade-agreement-with-china-deal-includes-40-50-billion-purchase-of-us-agriculture-products",
+      "european_entity": "sweden",
+      "agreement_type": "agreement"
+    },
+    {
+      "url": "https://uschinadialogue.georgetown.edu/subtopics/space-as-a-catalyst-for-u-s-china-cooperation",
+      "european_entity": "georgia",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://www.isdp.eu/publications-isdp/page/26/?isdp_publication_series=commentary&isdp_region=northeast-asia&isdp_initiative=china-center-isdp&isdp_project=regional-security-cooperation-in-east-asia%2Cone-belt-one-road-initiative&isdp_program=asia-program",
+      "european_entity": "iceland",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://1newsmedia.com/xis-visit-to-hungary-and-serbia-brings-new-chinese-investment-and-deeper-ties-to-europes-doorstep/",
+      "european_entity": "hungary",
+      "agreement_type": "investment"
+    },
+    {
+      "url": "https://www.uni-giessen.de/de/jlucn/international_pages/cooperationwithchina/blogsmitchinabezug",
+      "european_entity": "germany",
+      "agreement_type": "cooperation"
+    },
+    {
+      "url": "https://msf.cbs.chula.ac.th/alumni/factors-influencing-inefficient-investment-of-listed-soes-on-chinese-exchanges/",
+      "european_entity": "switzerland",
+      "agreement_type": "investment"
+    }
+  ]
+}

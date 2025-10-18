@@ -1,0 +1,47 @@
+{
+  "cik": "0001908705",
+  "ticker": "GLE",
+  "name": "Global Engine Group Holding Ltd",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "7374",
+  "sicDescription": "Services-Computer Processing & Data Preparation",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "D8",
+  "ein": "000000000",
+  "phone": "852 3955 2300",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "WORKSHOP A, 8/F, REASON GROUP TOWER",
+      "street2": "403 CASTLE PEAK ROAD, KWAI CHUNG",
+      "city": "NEW TERRITORIES",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "WORKSHOP A, 8/F, REASON GROUP TOWER",
+      "street2": "403 CASTLE PEAK ROAD, KWAI CHUNG",
+      "city": "NEW TERRITORIES",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-07"
+  },
+  "filings_count": 60
+}

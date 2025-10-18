@@ -1,0 +1,52 @@
+{
+  "cik": "0001897532",
+  "ticker": "MJID",
+  "name": "Majestic Ideal Holdings Ltd",
+  "detection_reasons": [
+    "location:china",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "2300",
+  "sicDescription": "Apparel & Other Finishd Prods of  Fabrics & Similar Matl",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "852 9710 8044",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "22/F, CHINA UNITED PLAZA",
+      "street2": "1002-1008 TAI NAN WEST STREET",
+      "city": "CHEUNG SHA WAN, KOWLOON",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "22/F, CHINA UNITED PLAZA",
+      "street2": "1002-1008 TAI NAN WEST STREET",
+      "city": "CHEUNG SHA WAN, KOWLOON",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-15"
+  },
+  "filings_count": 79
+}

@@ -1,0 +1,46 @@
+{
+  "cik": "0002069821",
+  "ticker": "BGHL",
+  "name": "BILLION GROUP HOLDINGS Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:ky"
+  ],
+  "sic": "2000",
+  "sicDescription": "Food and Kindred Products",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "852 98431101",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "89 NEXUS WAY",
+      "street2": null,
+      "city": "CAMANA BAY",
+      "stateOrCountry": null,
+      "zipCode": "KY1-9009",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Cayman Islands",
+      "countryCode": "E9"
+    },
+    "business": {
+      "street1": "89 NEXUS WAY",
+      "street2": null,
+      "city": "CAMANA BAY",
+      "stateOrCountry": null,
+      "zipCode": "KY1-9009",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Cayman Islands",
+      "countryCode": "E9"
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 8
+}

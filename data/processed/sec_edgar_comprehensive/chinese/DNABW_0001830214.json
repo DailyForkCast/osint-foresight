@@ -1,0 +1,47 @@
+{
+  "cik": "0001830214",
+  "ticker": "DNABW",
+  "name": "Ginkgo Bioworks Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2836",
+  "sicDescription": "Biological Products, (No Diagnostic Substances)",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "872652913",
+  "phone": "(877) 442-5362",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "27 DRYDOCK AVENUE",
+      "street2": "8TH FLOOR",
+      "city": "BOSTON",
+      "stateOrCountry": "MA",
+      "zipCode": "02210",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "27 DRYDOCK AVENUE",
+      "street2": "8TH FLOOR",
+      "city": "BOSTON",
+      "stateOrCountry": "MA",
+      "zipCode": "02210",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-04"
+  },
+  "filings_count": 1002
+}

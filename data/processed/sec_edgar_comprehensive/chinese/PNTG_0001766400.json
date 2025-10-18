@@ -1,0 +1,47 @@
+{
+  "cik": "0001766400",
+  "ticker": "PNTG",
+  "name": "Pennant Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "8000",
+  "sicDescription": "Services-Health Services",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "(208) 401-1400",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1675 E. RIVERSIDE DRIVE",
+      "street2": null,
+      "city": "EAGLE",
+      "stateOrCountry": "ID",
+      "zipCode": "83616",
+      "stateOrCountryDescription": "ID",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1675 E. RIVERSIDE DRIVE",
+      "street2": null,
+      "city": "EAGLE",
+      "stateOrCountry": "ID",
+      "zipCode": "83616",
+      "stateOrCountryDescription": "ID",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-06"
+  },
+  "filings_count": 450
+}

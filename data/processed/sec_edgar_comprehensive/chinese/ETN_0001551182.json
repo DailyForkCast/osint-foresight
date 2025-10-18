@@ -1,0 +1,47 @@
+{
+  "cik": "0001551182",
+  "ticker": "ETN",
+  "name": "Eaton Corp plc",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3590",
+  "sicDescription": "Misc Industrial & Commercial Machinery & Equipment",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "981059235",
+  "phone": "353 1637 2900",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "30 PEMBROKE ROAD",
+      "street2": "EATON HOUSE",
+      "city": "DUBLIN",
+      "stateOrCountry": "L2",
+      "zipCode": "DUBLIN 4",
+      "stateOrCountryDescription": "Ireland",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "30 PEMBROKE ROAD",
+      "street2": "EATON HOUSE",
+      "city": "DUBLIN",
+      "stateOrCountry": "L2",
+      "zipCode": "DUBLIN 4",
+      "stateOrCountryDescription": "Ireland",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-05"
+  },
+  "filings_count": 1000
+}

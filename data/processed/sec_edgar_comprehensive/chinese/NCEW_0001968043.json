@@ -1,0 +1,51 @@
+{
+  "cik": "0001968043",
+  "ticker": "NCEW",
+  "name": "New Century Logistics (BVI) Ltd",
+  "detection_reasons": [
+    "location:china",
+    "offshore:bvi",
+    "offshore:hong kong",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "4731",
+  "sicDescription": "Arrangement of  Transportation of  Freight & Cargo",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "D8",
+  "ein": "000000000",
+  "phone": "(852) 3974 1828",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "OFFICE A-E, 33/F, KING PALACE PLAZA,",
+      "street2": "55 KING YIP STREET, KWUN TONG",
+      "city": "HONG KONG",
+      "stateOrCountry": "F4",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "OFFICE A-E, 33/F, KING PALACE PLAZA,",
+      "street2": "55 KING YIP STREET, KWUN TONG",
+      "city": "HONG KONG",
+      "stateOrCountry": "F4",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-12"
+  },
+  "filings_count": 62
+}

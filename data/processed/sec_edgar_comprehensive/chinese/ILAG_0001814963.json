@@ -1,0 +1,48 @@
+{
+  "cik": "0001814963",
+  "ticker": "ILAG",
+  "name": "Intelligent Living Application Group Inc.",
+  "detection_reasons": [
+    "offshore:vg",
+    "offshore:hong kong"
+  ],
+  "sic": "2540",
+  "sicDescription": "Partitions, Shelvg, Lockers, & of fice & Store Fixtures",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "K3",
+  "ein": "000000000",
+  "phone": "852 2481 7938",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT 02, 5/F., BLK A, PROFIT IND. BLDG.,",
+      "street2": "1-15 KWAI FUNG ST., KWAI CHUNG, N.T.",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "UNIT 02, 5/F., BLK A, PROFIT IND. BLDG.,",
+      "street2": "1-15 KWAI FUNG ST., KWAI CHUNG, N.T.",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-12"
+  },
+  "filings_count": 82
+}

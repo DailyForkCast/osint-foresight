@@ -1,0 +1,47 @@
+{
+  "cik": "0001831840",
+  "ticker": "SEMR",
+  "name": "SEMrush Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7372",
+  "sicDescription": "Services-Prepackaged Software",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "844053265",
+  "phone": "800-851-9959",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "800 BOYLSTON STREET, SUITE 2475",
+      "street2": null,
+      "city": "BOSTON",
+      "stateOrCountry": "MA",
+      "zipCode": "02199",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "800 BOYLSTON STREET, SUITE 2475",
+      "street2": null,
+      "city": "BOSTON",
+      "stateOrCountry": "MA",
+      "zipCode": "02199",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-07"
+  },
+  "filings_count": 541
+}

@@ -1,0 +1,50 @@
+{
+  "cik": "0001083490",
+  "ticker": "SRRE",
+  "name": "SUNRISE REAL ESTATE GROUP INC",
+  "detection_reasons": [
+    "location:china",
+    "location:shanghai",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "6513",
+  "sicDescription": "Operators of  Apartment Buildings",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "TX",
+  "ein": "752713701",
+  "phone": "8621-64220505",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "SUITE 1502",
+      "street2": "NO. 333 ZHAOJIABANG ROAD",
+      "city": "SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "-",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "SUITE 1502",
+      "street2": "NO. 333 ZHAOJIABANG ROAD",
+      "city": "SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "-",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-19"
+  },
+  "filings_count": 310
+}

@@ -1,0 +1,50 @@
+{
+  "cik": "0001965143",
+  "ticker": "NVNIW",
+  "name": "Nvni Group Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:ky",
+    "sic:7372"
+  ],
+  "sic": "7372",
+  "sicDescription": "Services-Prepackaged Software",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "55-11-5642-3370",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "RUA JESUINO ARRUDA, NO. 769",
+      "street2": "ROOM 20-BI, ITAIM BIBI",
+      "city": "SAO PAULO",
+      "stateOrCountry": "D5",
+      "zipCode": "04532-082",
+      "stateOrCountryDescription": "Brazil",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "WILLOW HOUSE, CRICKET SQUARE",
+      "street2": "P.O. BOX 10008",
+      "city": "GRAND CAYMAN",
+      "stateOrCountry": "E9",
+      "zipCode": "KY1-1001",
+      "stateOrCountryDescription": "Cayman Islands",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-28"
+  },
+  "filings_count": 87
+}

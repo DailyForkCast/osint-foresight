@@ -1,0 +1,47 @@
+{
+  "cik": "0000076282",
+  "ticker": "PKOH",
+  "name": "PARK OHIO HOLDINGS CORP",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3460",
+  "sicDescription": "Metal Forgings & Stampings",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "OH",
+  "ein": "346520107",
+  "phone": "440-947-2210",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "6065 PARKLAND BLVD.",
+      "street2": null,
+      "city": "CLEVELAND",
+      "stateOrCountry": "OH",
+      "zipCode": "44124",
+      "stateOrCountryDescription": "OH",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "6065 PARKLAND BLVD.",
+      "street2": null,
+      "city": "CLEVELAND",
+      "stateOrCountry": "OH",
+      "zipCode": "44124",
+      "stateOrCountryDescription": "OH",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-07"
+  },
+  "filings_count": 1004
+}

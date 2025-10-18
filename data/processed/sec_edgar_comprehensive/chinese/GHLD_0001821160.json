@@ -1,0 +1,44 @@
+{
+  "cik": "0001821160",
+  "ticker": "GHLD",
+  "name": "Guild Holdings Co",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6162",
+  "sicDescription": "Mortgage Bankers & Loan Correspondents",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "852453154",
+  "phone": "(858) 956-5130",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "5887 COPLEY DRIVE",
+      "street2": null,
+      "city": "SAN DIEGO",
+      "stateOrCountry": "CA",
+      "zipCode": "92111",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "5887 COPLEY DRIVE",
+      "street2": null,
+      "city": "SAN DIEGO",
+      "stateOrCountry": "CA",
+      "zipCode": "92111",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 299
+}

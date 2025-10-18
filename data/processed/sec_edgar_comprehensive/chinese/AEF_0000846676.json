@@ -1,0 +1,44 @@
+{
+  "cik": "0000846676",
+  "ticker": "AEF",
+  "name": "abrdn Emerging Markets ex-China Fund, Inc.",
+  "detection_reasons": [
+    "location:china"
+  ],
+  "sic": "",
+  "sicDescription": "",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "MD",
+  "ein": "222990009",
+  "phone": "215-405-5700",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1900 MARKET STREET",
+      "street2": "SUITE 200",
+      "city": "PHILADELPHIA",
+      "stateOrCountry": "PA",
+      "zipCode": "19103",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1900 MARKET STREET",
+      "street2": "SUITE 200",
+      "city": "PHILADELPHIA",
+      "stateOrCountry": "PA",
+      "zipCode": "19103",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 779
+}

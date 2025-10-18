@@ -1,0 +1,49 @@
+{
+  "cik": "0001948436",
+  "ticker": "JL",
+  "name": "J-Long Group Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong"
+  ],
+  "sic": "5600",
+  "sicDescription": "Retail-Apparel & Accessory Stores",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "852-2408-0077",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "FLAT D-F, 8/F, HOUSTON IND. BLDG.",
+      "street2": "32-40 WANG LUNG ST.",
+      "city": "TSUEN WAN, N.T.",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "FLAT D-F, 8/F, HOUSTON IND. BLDG.",
+      "street2": "32-40 WANG LUNG ST.",
+      "city": "TSUEN WAN, N.T.",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-16"
+  },
+  "filings_count": 55
+}

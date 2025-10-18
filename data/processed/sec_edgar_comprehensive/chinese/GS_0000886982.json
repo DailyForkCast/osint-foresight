@@ -1,0 +1,48 @@
+{
+  "cik": "0000886982",
+  "ticker": "GS",
+  "name": "GOLDMAN SACHS GROUP INC",
+  "detection_reasons": [
+    "location:prc",
+    "offshore:ky",
+    "offshore:vg",
+    "offshore:bm",
+    "offshore:hk"
+  ],
+  "sic": "6211",
+  "sicDescription": "Security Brokers, Dealers & Flotation Companies",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "134019460",
+  "phone": "212-902-1000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "200 WEST STREET",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10282",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "200 WEST STREET",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10282",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 9348
+}

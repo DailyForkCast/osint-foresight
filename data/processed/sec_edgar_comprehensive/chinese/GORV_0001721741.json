@@ -1,0 +1,47 @@
+{
+  "cik": "0001721741",
+  "ticker": "GORV",
+  "name": "Lazydays Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5500",
+  "sicDescription": "Retail-Auto Dealers & Gasoline Stations",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "813-246-4999",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "4042 PARK OAKS BLVD",
+      "street2": "SUITE 350",
+      "city": "TAMPA",
+      "stateOrCountry": "FL",
+      "zipCode": "33610",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "4042 PARK OAKS BLVD",
+      "street2": "SUITE 350",
+      "city": "TAMPA",
+      "stateOrCountry": "FL",
+      "zipCode": "33610",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-16"
+  },
+  "filings_count": 564
+}

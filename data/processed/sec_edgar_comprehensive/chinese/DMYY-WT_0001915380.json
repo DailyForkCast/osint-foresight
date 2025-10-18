@@ -1,0 +1,47 @@
+{
+  "cik": "0001915380",
+  "ticker": "DMYY-WT",
+  "name": "dMY Squared Technology Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6770",
+  "sicDescription": "Blank Checks",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "MA",
+  "ein": "880748933",
+  "phone": "408-232-2139",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1180 NORTH TOWN CENTER DRIVE SUITE 100",
+      "street2": null,
+      "city": "LAS VEGAS",
+      "stateOrCountry": "NV",
+      "zipCode": "89144",
+      "stateOrCountryDescription": "NV",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1180 NORTH TOWN CENTER DRIVE SUITE 100",
+      "street2": null,
+      "city": "LAS VEGAS",
+      "stateOrCountry": "NV",
+      "zipCode": "89144",
+      "stateOrCountryDescription": "NV",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-18"
+  },
+  "filings_count": 138
+}

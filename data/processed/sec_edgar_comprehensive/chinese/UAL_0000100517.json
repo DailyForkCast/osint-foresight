@@ -1,0 +1,44 @@
+{
+  "cik": "0000100517",
+  "ticker": "UAL",
+  "name": "United Airlines Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "4512",
+  "sicDescription": "Air Transportation, Scheduled",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "362675207",
+  "phone": "872-825-4000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "E. ANNA HA - WHQLD",
+      "street2": "233 SOUTH WACKER DRIVE",
+      "city": "CHICAGO",
+      "stateOrCountry": "IL",
+      "zipCode": "60606",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "E. ANNA HA - WHQLD",
+      "street2": "233 SOUTH WACKER DRIVE",
+      "city": "CHICAGO",
+      "stateOrCountry": "IL",
+      "zipCode": "60606",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1002
+}

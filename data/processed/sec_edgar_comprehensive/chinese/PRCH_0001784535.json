@@ -1,0 +1,47 @@
+{
+  "cik": "0001784535",
+  "ticker": "PRCH",
+  "name": "Porch Group, Inc.",
+  "detection_reasons": [
+    "location:prc"
+  ],
+  "sic": "7372",
+  "sicDescription": "Services-Prepackaged Software",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "842587663",
+  "phone": "(855) 767-2400",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "411 1ST AVENUE S., SUITE 501",
+      "street2": null,
+      "city": "SEATTLE",
+      "stateOrCountry": "WA",
+      "zipCode": "98104",
+      "stateOrCountryDescription": "WA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "411 1ST AVENUE S., SUITE 501",
+      "street2": null,
+      "city": "SEATTLE",
+      "stateOrCountry": "WA",
+      "zipCode": "98104",
+      "stateOrCountryDescription": "WA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-05"
+  },
+  "filings_count": 534
+}

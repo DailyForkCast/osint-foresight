@@ -1,0 +1,52 @@
+{
+  "cik": "0001810467",
+  "ticker": "SNTG",
+  "name": "Sentage Holdings Inc.",
+  "detection_reasons": [
+    "location:china",
+    "location:shanghai",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "6199",
+  "sicDescription": "Finance Services",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86-21 5386 0209",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "501, PLATINUM TOWER, 233 TAICANG RD",
+      "street2": "HUANGPU",
+      "city": "SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "200020",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "501, PLATINUM TOWER, 233 TAICANG RD",
+      "street2": "HUANGPU",
+      "city": "SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "200020",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "20-F",
+    "date": "2025-05-14"
+  },
+  "filings_count": 53
+}

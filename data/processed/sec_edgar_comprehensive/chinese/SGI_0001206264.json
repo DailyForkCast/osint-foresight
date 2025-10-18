@@ -1,0 +1,48 @@
+{
+  "cik": "0001206264",
+  "ticker": "SGI",
+  "name": "SOMNIGROUP INTERNATIONAL INC.",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:bm"
+  ],
+  "sic": "2510",
+  "sicDescription": "Household Furniture",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "331022198",
+  "phone": "800-878-8889",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1000 TEMPUR WAY",
+      "street2": null,
+      "city": "LEXINGTON",
+      "stateOrCountry": "KY",
+      "zipCode": "40511",
+      "stateOrCountryDescription": "KY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1000 TEMPUR WAY",
+      "street2": null,
+      "city": "LEXINGTON",
+      "stateOrCountry": "KY",
+      "zipCode": "40511",
+      "stateOrCountryDescription": "KY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-02"
+  },
+  "filings_count": 1000
+}

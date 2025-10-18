@@ -1,0 +1,44 @@
+{
+  "cik": "0001984192",
+  "ticker": "RSHL",
+  "name": "Rise Smart Group Holdings Ltd",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "8200",
+  "sicDescription": "Services-Educational Services",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "852 2980 2306",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ROOM 903, FLOOR 9, TOWER 1",
+      "street2": "SILVERCORD, 30 CANTON ROAD TSIM SHA TSUI",
+      "city": "KOWLOON",
+      "stateOrCountry": "K3",
+      "zipCode": "000000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "ROOM 903, FLOOR 9, TOWER 1",
+      "street2": "SILVERCORD, 30 CANTON ROAD TSIM SHA TSUI",
+      "city": "KOWLOON",
+      "stateOrCountry": "K3",
+      "zipCode": "000000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 14
+}

@@ -1,0 +1,50 @@
+{
+  "cik": "0001603993",
+  "ticker": "NISN",
+  "name": "Nisun International Enterprise Development Group Co., Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:shanghai",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "3490",
+  "sicDescription": "Miscellaneous Fabricated Metal Products",
+  "category": "Non-accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "D8",
+  "ein": "000000000",
+  "phone": "86 0577 8689 5678",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "21F, 55 LOUSHANGUAN RD",
+      "street2": "CHANGNING DISTRICT",
+      "city": "SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "200336",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "21F, 55 LOUSHANGUAN RD",
+      "street2": "CHANGNING DISTRICT",
+      "city": "SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "200336",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-07-07"
+  },
+  "filings_count": 200
+}

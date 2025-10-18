@@ -1,0 +1,47 @@
+{
+  "cik": "0001743725",
+  "ticker": "GDYN",
+  "name": "GRID DYNAMICS HOLDINGS, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7372",
+  "sicDescription": "Services-Prepackaged Software",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "830632724",
+  "phone": "(619) 736-6855",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "7660 FAY AVENUE",
+      "street2": "SUITE H, UNIT 339",
+      "city": "LA JOLLA",
+      "stateOrCountry": "CA",
+      "zipCode": "92037",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "7660 FAY AVENUE",
+      "street2": "SUITE H, UNIT 339",
+      "city": "LA JOLLA",
+      "stateOrCountry": "CA",
+      "zipCode": "92037",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-07-31"
+  },
+  "filings_count": 696
+}

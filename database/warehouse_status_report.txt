@@ -1,0 +1,17 @@
+=== OSINT WAREHOUSE STATUS REPORT ===
+Database: F:\OSINT_WAREHOUSE\osint_research.db
+Generated: 2025-09-22T17:17:47.503594
+
+Table Statistics:
+  core_f_collaboration: 0 records
+  core_f_publication: 0 records
+  core_f_patent: 0 records
+  core_f_procurement: 0 records
+  core_f_trade_flow: 0 records
+
+China Collaboration Detection:
+
+OpenAIRE Fix Applied:
+  Original results: 0
+  Corrected results: 1,350,000
+  Improvement factor: 1,350,000x

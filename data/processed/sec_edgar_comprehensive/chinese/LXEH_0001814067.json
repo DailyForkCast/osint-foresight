@@ -1,0 +1,50 @@
+{
+  "cik": "0001814067",
+  "ticker": "LXEH",
+  "name": "Lixiang Education Holding Co. Ltd.",
+  "detection_reasons": [
+    "location:china",
+    "location:zhejiang",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "8200",
+  "sicDescription": "Services-Educational Services",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "86(578)2267142",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "NO. 818 HUA YUAN STREET",
+      "street2": "LIANDU DISTRICT",
+      "city": "LISHUI CITY. ZHEJIANG PROVINCE",
+      "stateOrCountry": "F4",
+      "zipCode": "323000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "NO. 818 HUA YUAN STREET",
+      "street2": "LIANDU DISTRICT",
+      "city": "LISHUI CITY. ZHEJIANG PROVINCE",
+      "stateOrCountry": "F4",
+      "zipCode": "323000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "20-F",
+    "date": "2025-04-30"
+  },
+  "filings_count": 111
+}

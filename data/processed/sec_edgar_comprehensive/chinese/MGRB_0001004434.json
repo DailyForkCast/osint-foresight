@@ -1,0 +1,44 @@
+{
+  "cik": "0001004434",
+  "ticker": "MGRB",
+  "name": "AFFILIATED MANAGERS GROUP, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6282",
+  "sicDescription": "Investment Advice",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "043218510",
+  "phone": "(800) 345-1100",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "777 SOUTH FLAGLER DRIVE",
+      "street2": "SUITE 1401 EAST TOWER",
+      "city": "WEST PALM BEACH",
+      "stateOrCountry": "FL",
+      "zipCode": "33401",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "777 SOUTH FLAGLER DRIVE",
+      "street2": "SUITE 1401 EAST TOWER",
+      "city": "WEST PALM BEACH",
+      "stateOrCountry": "FL",
+      "zipCode": "33401",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1000
+}

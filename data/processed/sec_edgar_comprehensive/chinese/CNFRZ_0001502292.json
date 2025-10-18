@@ -1,0 +1,47 @@
+{
+  "cik": "0001502292",
+  "ticker": "CNFRZ",
+  "name": "Conifer Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6331",
+  "sicDescription": "Fire, Marine & Casualty Insurance",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "MI",
+  "ein": "271298795",
+  "phone": "(248) 559-0840",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3001 WEST BIG BEAVER ROAD",
+      "street2": "SUITE 319",
+      "city": "TROY",
+      "stateOrCountry": "MI",
+      "zipCode": "48084",
+      "stateOrCountryDescription": "MI",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3001 WEST BIG BEAVER ROAD",
+      "street2": "SUITE 319",
+      "city": "TROY",
+      "stateOrCountry": "MI",
+      "zipCode": "48084",
+      "stateOrCountryDescription": "MI",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-18"
+  },
+  "filings_count": 439
+}

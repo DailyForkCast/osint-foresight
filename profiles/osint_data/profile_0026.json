@@ -1,0 +1,609 @@
+{
+  "path": "F:\\OSINT_DATA\\Italy\\SEC_EDGAR\\leonardo_drs_20250916.json",
+  "size": 18218,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 1,
+  "field_count": 10,
+  "parse_status": "success",
+  "schema": {
+    "company_name": "string",
+    "cik": "string",
+    "ticker": "array",
+    "sic_description": "string",
+    "business_address": "object",
+    "fiscal_year_end": "string",
+    "total_filings": "number",
+    "recent_filings": "array",
+    "rd_expenses": "object",
+    "dei_facts": "object"
+  },
+  "sample_records": [
+    {
+      "company_name": "Leonardo DRS, Inc.",
+      "cik": "0001833756",
+      "ticker": [
+        "DRS"
+      ],
+      "sic_description": "Search, Detection, Navigation, Guidance, Aeronautical Sys",
+      "business_address": {
+        "street1": "2345 CRYSTAL DRIVE",
+        "street2": "SUITE 1000",
+        "city": "ARLINGTON",
+        "stateOrCountry": "VA",
+        "zipCode": "22202",
+        "stateOrCountryDescription": "VA",
+        "isForeignLocation": null,
+        "foreignStateTerritory": null,
+        "country": null,
+        "countryCode": null
+      },
+      "fiscal_year_end": "1231",
+      "total_filings": 326,
+      "recent_filings": [
+        {
+          "form": "10-Q",
+          "filingDate": "2025-07-30",
+          "accessionNumber": "0001628280-25-036706",
+          "primaryDocument": "drs-20250630.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1833756/000162828025036706/drs-20250630.htm"
+        },
+        {
+          "form": "8-K",
+          "filingDate": "2025-07-30",
+          "accessionNumber": "0001628280-25-036557",
+          "primaryDocument": "drs-20250730.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1833756/000162828025036557/drs-20250730.htm"
+        },
+        {
+          "form": "8-K",
+          "filingDate": "2025-06-05",
+          "accessionNumber": "0001628280-25-029664",
+          "primaryDocument": "drs-20250604.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1833756/000162828025029664/drs-20250604.htm"
+        },
+        {
+          "form": "10-Q",
+          "filingDate": "2025-05-01",
+          "accessionNumber": "0001628280-25-021521",
+          "primaryDocument": "drs-20250331.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1833756/000162828025021521/drs-20250331.htm"
+        },
+        {
+          "form": "8-K",
+          "filingDate": "2025-05-01",
+          "accessionNumber": "0001628280-25-021328",
+          "primaryDocument": "drs-20250501.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1833756/000162828025021328/drs-20250501.htm"
+        },
+        {
+          "form": "DEF 14A",
+          "filingDate": "2025-04-23",
+          "accessionNumber": "0001628280-25-019362",
+          "primaryDocument": "drs-20250423.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1833756/000162828025019362/drs-20250423.htm"
+        },
+        {
+          "form": "8-K",
+          "filingDate": "2025-03-12",
+          "accessionNumber": "0001628280-25-012341",
+          "primaryDocument": "drs-20250311.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1833756/000162828025012341/drs-20250311.htm"
+        },
+        {
+          "form": "10-K",
+          "filingDate": "2025-03-03",
+          "accessionNumber": "0001628280-25-009248",
+          "primaryDocument": "drs-20241231.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1833756/000162828025009248/drs-20241231.htm"
+        },
+        {
+          "form": "8-K",
+          "filingDate": "2025-02-20",
+          "accessionNumber": "0001628280-25-006563",
+          "primaryDocument": "drs-20250220.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1833756/000162828025006563/drs-20250220.htm"
+        },
+        {
+          "form": "8-K",
+          "filingDate": "2024-12-30",
+          "accessionNumber": "0001628280-24-052572",
+          "primaryDocument": "drs-20241230.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1833756/000162828024052572/drs-20241230.htm"
+        }
+      ],
+      "rd_expenses": {
+        "label": "Research and Development Expense",
+        "description": "The aggregate costs incurred (1) in a planned search or critical investigation aimed at discovery of new knowledge with the hope that such knowledge will be useful in developing a new product or service, a new process or technique, or in bringing about a significant improvement to an existing product or process; or (2) to translate research findings or other knowledge into a plan or design for a new product or process or for a significant improvement to an existing product or process whether intended for sale or the entity's use, during the reporting period charged to research and development projects, including the costs of developing computer software up to the point in time of achieving technological feasibility, and costs allocated in accounting for a business combination to in-process projects deemed to have no alternative future use.",
+        "units": {
+          "USD": [
+            {
+              "start": "2019-01-01",
+              "end": "2019-12-31",
+              "val": 31000000,
+              "accn": "0001628280-22-007409",
+              "fy": 2021,
+              "fp": "FY",
+              "form": "10-K",
+              "filed": "2022-03-28"
+            },
+            {
+              "start": "2019-01-01",
+              "end": "2019-12-31",
+              "val": 31000000,
+              "accn": "0001628280-22-020196",
+              "fy": null,
+              "fp": null,
+              "form": "8-K",
+              "filed": "2022-08-02"
+            },
+            {
+              "start": "2019-01-01",
+              "end": "2019-12-31",
+              "val": 31000000,
+              "accn": "0001628280-23-009265",
+              "fy": null,
+              "fp": null,
+              "form": "8-K",
+              "filed": "2023-03-27",
+              "frame": "CY2019"
+            },
+            {
+              "start": "2020-01-01",
+              "end": "2020-12-31",
+              "val": 41000000,
+              "accn": "0001628280-22-007409",
+              "fy": 2021,
+              "fp": "FY",
+              "form": "10-K",
+              "filed": "2022-03-28"
+            },
+            {
+              "start": "2020-01-01",
+              "end": "2020-12-31",
+              "val": 41000000,
+              "accn": "0001628280-22-020196",
+              "fy": null,
+              "fp": null,
+              "form": "8-K",
+              "filed": "2022-08-02"
+            },
+            {
+              "start": "2020-01-01",
+              "end": "2020-12-31",
+              "val": 41000000,
+              "accn": "0001628280-23-009265",
+              "fy": null,
+              "fp": null,
+              "form": "8-K",
+              "filed": "2023-03-27"
+            },
+            {
+              "start": "2020-01-01",
+              "end": "2020-12-31",
+              "val": 41000000,
+              "accn": "0001628280-23-009545",
+              "fy": 2022,
+              "fp": "FY",
+              "form": "10-K",
+              "filed": "2023-03-28",
+              "frame": "CY2020"
+            },
+            {
+              "start": "2021-01-01",
+              "end": "2021-12-31",
+              "val": 48000000,
+              "accn": "0001628280-22-007409",
+              "fy": 2021,
+              "fp": "FY",
+              "form": "10-K",
+              "filed": "2022-03-28"
+            },
+            {
+              "start": "2021-01-01",
+              "end": "2021-12-31",
+              "val": 48000000,
+              "accn": "0001628280-22-020196",
+              "fy": null,
+              "fp": null,
+              "form": "8-K",
+              "filed": "2022-08-02"
+            },
+            {
+              "start": "2021-01-01",
+              "end": "2021-12-31",
+              "val": 48000000,
+              "accn": "0001628280-23-009265",
+              "fy": null,
+              "fp": null,
+              "form": "8-K",
+              "filed": "2023-03-27"
+            },
+            {
+              "start": "2021-01-01",
+              "end": "2021-12-31",
+              "val": 48000000,
+              "accn": "0001628280-23-009545",
+              "fy": 2022,
+              "fp": "FY",
+              "form": "10-K",
+              "filed": "2023-03-28"
+            },
+            {
+              "start": "2021-01-01",
+              "end": "2021-12-31",
+              "val": 48000000,
+              "accn": "0001628280-24-007359",
+              "fy": 2023,
+              "fp": "FY",
+              "form": "10-K",
+              "filed": "2024-02-28",
+              "frame": "CY2021"
+            },
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 58000000,
+              "accn": "0001628280-23-009545",
+              "fy": 2022,
+              "fp": "FY",
+              "form": "10-K",
+              "filed": "2023-03-28"
+            },
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 58000000,
+              "accn": "0001628280-24-007359",
+              "fy": 2023,
+              "fp": "FY",
+              "form": "10-K",
+              "filed": "2024-02-28"
+            },
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 58000000,
+              "accn": "0001628280-25-009248",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "10-K",
+              "filed": "2025-03-03",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 82000000,
+              "accn": "0001628280-24-007359",
+              "fy": 2023,
+              "fp": "FY",
+              "form": "10-K",
+              "filed": "2024-02-28"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 82000000,
+              "accn": "0001628280-25-009248",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "10-K",
+              "filed": "2025-03-03",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-03-31",
+              "val": 20000000,
+              "accn": "0001628280-25-021521",
+              "fy": 2025,
+              "fp": "Q1",
+              "form": "10-Q",
+              "filed": "2025-05-01",
+              "frame": "CY2024Q1"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-06-30",
+              "val": 41000000,
+              "accn": "0001628280-25-036706",
+              "fy": 2025,
+              "fp": "Q2",
+              "form": "10-Q",
+              "filed": "2025-07-30"
+            },
+            {
+              "start": "2024-04-01",
+              "end": "2024-06-30",
+              "val": 21000000,
+              "accn": "0001628280-25-036706",
+              "fy": 2025,
+              "fp": "Q2",
+              "form": "10-Q",
+              "filed": "2025-07-30",
+              "frame": "CY2024Q2"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 92000000,
+              "accn": "0001628280-25-009248",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "10-K",
+              "filed": "2025-03-03",
+              "frame": "CY2024"
+            },
+            {
+              "start": "2025-01-01",
+              "end": "2025-03-31",
+              "val": 28000000,
+              "accn": "0001628280-25-021521",
+              "fy": 2025,
+              "fp": "Q1",
+              "form": "10-Q",
+              "filed": "2025-05-01",
+              "frame": "CY2025Q1"
+            },
+            {
+              "start": "2025-01-01",
+              "end": "2025-06-30",
+              "val": 58000000,
+              "accn": "0001628280-25-036706",
+              "fy": 2025,
+              "fp": "Q2",
+              "form": "10-Q",
+              "filed": "2025-07-30"
+            },
+            {
+              "start": "2025-04-01",
+              "end": "2025-06-30",
+              "val": 30000000,
+              "accn": "0001628280-25-036706",
+              "fy": 2025,
+              "fp": "Q2",
+              "form": "10-Q",
+              "filed": "2025-07-30",
+              "frame": "CY2025Q2"
+            }
+          ]
+        }
+      },
+      "dei_facts": {
+        "EntityCommonStockSharesOutstanding": {
+          "label": "Entity Common Stock, Shares Outstanding",
+          "description": "Indicate number of shares or other units outstanding of each of registrant's classes of capital or common stock or other ownership interests, if and as stated on cover of related periodic report. Where multiple classes or units exist define each class/interest by adding class of stock items such as Common Class A [Member], Common Class B [Member] or Partnership Interest [Member] onto the Instrument [Domain] of the Entity Listings, Instrument.",
+          "units": {
+            "shares": [
+              {
+                "end": "2021-05-17",
+                "val": 145000000,
+                "accn": "0001628280-21-012252",
+                "fy": 2021,
+                "fp": "Q1",
+                "form": "10-Q/A",
+                "filed": "2021-06-15"
+              },
+              {
+                "end": "2021-08-13",
+                "val": 145000000,
+                "accn": "0001628280-21-016936",
+                "fy": 2021,
+                "fp": "Q2",
+                "form": "10-Q",
+                "filed": "2021-08-13",
+                "frame": "CY2021Q2I"
+              },
+              {
+                "end": "2021-11-12",
+                "val": 145000000,
+                "accn": "0001628280-21-023021",
+                "fy": 2021,
+                "fp": "Q3",
+                "form": "10-Q",
+                "filed": "2021-11-12",
+                "frame": "CY2021Q3I"
+              },
+              {
+                "end": "2022-03-28",
+                "val": 145000000,
+                "accn": "0001628280-22-007409",
+                "fy": 2021,
+                "fp": "FY",
+                "form": "10-K",
+                "filed": "2022-03-28",
+                "frame": "CY2022Q1I"
+              },
+              {
+                "end": "2022-05-16",
+                "val": 145000000,
+                "accn": "0001628280-22-014481",
+                "fy": 2022,
+                "fp": "Q1",
+                "form": "10-Q",
+                "filed": "2022-05-16",
+                "frame": "CY2022Q2I"
+              },
+              {
+                "end": "2022-08-15",
+                "val": 145000000,
+                "accn": "0001628280-22-022869",
+                "fy": 2022,
+                "fp": "Q2",
+                "form": "10-Q",
+                "filed": "2022-08-15"
+              },
+              {
+                "end": "2022-11-07",
+                "val": 145000000,
+                "accn": "0001628280-22-028651",
+                "fy": 2022,
+                "fp": "Q3",
+                "form": "10-Q",
+                "filed": "2022-11-07",
+                "frame": "CY2022Q3I"
+              },
+              {
+                "end": "2023-03-27",
+                "val": 260548000,
+                "accn": "0001628280-23-009545",
+                "fy": 2022,
+                "fp": "FY",
+                "form": "10-K",
+                "filed": "2023-03-28",
+                "frame": "CY2023Q1I"
+              },
+              {
+                "end": "2023-05-01",
+                "val": 261000000,
+                "accn": "0001628280-23-015776",
+                "fy": 2023,
+                "fp": "Q1",
+                "form": "10-Q",
+                "filed": "2023-05-04"
+              },
+              {
+                "end": "2023-08-01",
+                "val": 262000000,
+                "accn": "0001628280-23-026772",
+                "fy": 2023,
+                "fp": "Q2",
+                "form": "10-Q",
+                "filed": "2023-08-02",
+                "frame": "CY2023Q2I"
+              },
+              {
+                "end": "2023-11-01",
+                "val": 262370008,
+                "accn": "0001628280-23-036429",
+                "fy": 2023,
+                "fp": "Q3",
+                "form": "10-Q",
+                "filed": "2023-11-02",
+                "frame": "CY2023Q3I"
+              },
+              {
+                "end": "2024-02-26",
+                "val": 262629912,
+                "accn": "0001628280-24-007359",
+                "fy": 2023,
+                "fp": "FY",
+                "form": "10-K",
+                "filed": "2024-02-28"
+              },
+              {
+                "end": "2024-04-30",
+                "val": 263142102,
+                "accn": "0001628280-24-019617",
+                "fy": 2024,
+                "fp": "Q1",
+                "form": "10-Q",
+                "filed": "2024-05-01",
+                "frame": "CY2024Q1I"
+              },
+              {
+                "end": "2024-07-29",
+                "val": 263702807,
+                "accn": "0001628280-24-033473",
+                "fy": 2024,
+                "fp": "Q2",
+                "form": "10-Q",
+                "filed": "2024-07-30",
+                "frame": "CY2024Q2I"
+              },
+              {
+                "end": "2024-10-29",
+                "val": 264397059,
+                "accn": "0001628280-24-044314",
+                "fy": 2024,
+                "fp": "Q3",
+                "form": "10-Q",
+                "filed": "2024-10-30",
+                "frame": "CY2024Q3I"
+              },
+              {
+                "end": "2025-02-28",
+                "val": 265157699,
+                "accn": "0001628280-25-009248",
+                "fy": 2024,
+                "fp": "FY",
+                "form": "10-K",
+                "filed": "2025-03-03"
+              },
+              {
+                "end": "2025-04-30",
+                "val": 266049205,
+                "accn": "0001628280-25-021521",
+                "fy": 2025,
+                "fp": "Q1",
+                "form": "10-Q",
+                "filed": "2025-05-01",
+                "frame": "CY2025Q1I"
+              },
+              {
+                "end": "2025-07-29",
+                "val": 266123634,
+                "accn": "0001628280-25-036706",
+                "fy": 2025,
+                "fp": "Q2",
+                "form": "10-Q",
+                "filed": "2025-07-30",
+                "frame": "CY2025Q2I"
+              }
+            ]
+          }
+        },
+        "EntityPublicFloat": {
+          "label": "Entity Public Float",
+          "description": "The aggregate market value of the voting and non-voting common equity held by non-affiliates computed by reference to the price at which the common equity was last sold, or the average bid and asked price of such common equity, as of the last business day of the registrant's most recently completed second fiscal quarter.",
+          "units": {
+            "USD": [
+              {
+                "end": "2021-06-30",
+                "val": 0,
+                "accn": "0001628280-22-007409",
+                "fy": 2021,
+                "fp": "FY",
+                "form": "10-K",
+                "filed": "2022-03-28",
+                "frame": "CY2021Q2I"
+              },
+              {
+                "end": "2022-06-30",
+                "val": 0,
+                "accn": "0001628280-23-009545",
+                "fy": 2022,
+                "fp": "FY",
+                "form": "10-K",
+                "filed": "2023-03-28",
+                "frame": "CY2022Q2I"
+              },
+              {
+                "end": "2023-06-30",
+                "val": 886000000,
+                "accn": "0001628280-24-007359",
+                "fy": 2023,
+                "fp": "FY",
+                "form": "10-K",
+                "filed": "2024-02-28",
+                "frame": "CY2023Q2I"
+              },
+              {
+                "end": "2024-06-30",
+                "val": 1875000000,
+                "accn": "0001628280-25-009248",
+                "fy": 2024,
+                "fp": "FY",
+                "form": "10-K",
+                "filed": "2025-03-03",
+                "frame": "CY2024Q2I"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "modified": "2025-09-16T20:16:04"
+}

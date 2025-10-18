@@ -1,0 +1,47 @@
+{
+  "cik": "0002027265",
+  "ticker": "MB",
+  "name": "MASTERBEEF GROUP",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "5812",
+  "sicDescription": "Retail-Eating  Places",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "K3",
+  "ein": "000000000",
+  "phone": "852 3953 9388",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT 1509-10, TOWER 1",
+      "street2": "EVER GAIN PLAZA 88 CONTAINER PORT ROAD",
+      "city": "KWAI CHUNG, NEW TERRITORIES",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "UNIT 1509-10, TOWER 1",
+      "street2": "EVER GAIN PLAZA 88 CONTAINER PORT ROAD",
+      "city": "KWAI CHUNG, NEW TERRITORIES",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-08"
+  },
+  "filings_count": 32
+}

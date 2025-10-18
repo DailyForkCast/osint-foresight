@@ -1,0 +1,48 @@
+{
+  "cik": "0001513761",
+  "ticker": "NCLH",
+  "name": "Norwegian Cruise Line Holdings Ltd.",
+  "detection_reasons": [
+    "offshore:bermuda",
+    "offshore:bm"
+  ],
+  "sic": "4400",
+  "sicDescription": "Water Transportation",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "D0",
+  "ein": "980691007",
+  "phone": "305-436-4000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "7665 CORPORATE DRIVE",
+      "street2": null,
+      "city": "MIAMI",
+      "stateOrCountry": "FL",
+      "zipCode": "33126",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "7665 CORPORATE DRIVE",
+      "street2": null,
+      "city": "MIAMI",
+      "stateOrCountry": "FL",
+      "zipCode": "33126",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-18"
+  },
+  "filings_count": 1003
+}

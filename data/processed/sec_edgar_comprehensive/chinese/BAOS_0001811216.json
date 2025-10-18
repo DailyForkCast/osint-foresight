@@ -1,0 +1,53 @@
+{
+  "cik": "0001811216",
+  "ticker": "BAOS",
+  "name": "Baosheng Media Group Holdings Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:beijing",
+    "location:anhui",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "7389",
+  "sicDescription": "Services-Business Services, NEC",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "(86) 010-82088021",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "EAST FLOOR 5, BUILDING NO. 8",
+      "street2": "XISHANHUI SHIJINGSHAN DISTRICT",
+      "city": "BEIJING",
+      "stateOrCountry": "F4",
+      "zipCode": "100041",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "EAST FLOOR 5, BUILDING NO. 8",
+      "street2": "XISHANHUI SHIJINGSHAN DISTRICT",
+      "city": "BEIJING",
+      "stateOrCountry": "F4",
+      "zipCode": "100041",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-01"
+  },
+  "filings_count": 102
+}

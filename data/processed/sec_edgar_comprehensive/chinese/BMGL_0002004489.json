@@ -1,0 +1,48 @@
+{
+  "cik": "0002004489",
+  "ticker": "BMGL",
+  "name": "Basel Medical Group Ltd",
+  "detection_reasons": [
+    "offshore:bm",
+    "vie_structure"
+  ],
+  "sic": "8011",
+  "sicDescription": "Services-Offices & Clinics of  Doctors of  Medicine",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "D8",
+  "ein": "000000000",
+  "phone": "65 6291 9188",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "600 NORTH BRIDGE ROAD, #12-02/03",
+      "street2": "PARKVIEW SQUARE",
+      "city": "SINGAPORE",
+      "stateOrCountry": "U0",
+      "zipCode": "188778",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "600 NORTH BRIDGE ROAD, #12-02/03",
+      "street2": "PARKVIEW SQUARE",
+      "city": "SINGAPORE",
+      "stateOrCountry": "U0",
+      "zipCode": "188778",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-21"
+  },
+  "filings_count": 51
+}

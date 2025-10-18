@@ -1,0 +1,53 @@
+{
+  "cik": "0001708259",
+  "ticker": "LX",
+  "name": "LexinFintech Holdings Ltd.",
+  "detection_reasons": [
+    "location:china",
+    "location:shenzhen",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:bm",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "6199",
+  "sicDescription": "Finance Services",
+  "category": "Accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "8675533688788",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "27/F, CES TOWER, 3099 KE YUAN SOUTH ROAD",
+      "street2": "NANSHAN DISTRICT",
+      "city": "SHENZHEN",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "27/F, CES TOWER, 3099 KE YUAN SOUTH ROAD",
+      "street2": "NANSHAN DISTRICT",
+      "city": "SHENZHEN",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-07"
+  },
+  "filings_count": 162
+}

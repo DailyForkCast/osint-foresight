@@ -1,0 +1,48 @@
+{
+  "cik": "0001022837",
+  "ticker": "SMFNF",
+  "name": "SUMITOMO MITSUI FINANCIAL GROUP, INC.",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:bm"
+  ],
+  "sic": "6029",
+  "sicDescription": "Commercial Banks, NEC",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "M0",
+  "ein": "000000000",
+  "phone": "81-3-3282-8111",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1-2, MARUNOUCHI 1-CHOME",
+      "street2": "CHIYODA-KU",
+      "city": "TOKYO",
+      "stateOrCountry": "M0",
+      "zipCode": "100-0005",
+      "stateOrCountryDescription": "Japan",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1-2, MARUNOUCHI 1-CHOME",
+      "street2": "CHIYODA-KU",
+      "city": "TOKYO",
+      "stateOrCountry": "M0",
+      "zipCode": "100-0005",
+      "stateOrCountryDescription": "Japan",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-14"
+  },
+  "filings_count": 794
+}

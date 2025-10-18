@@ -1,0 +1,49 @@
+{
+  "cik": "0001966678",
+  "ticker": "ZDAI",
+  "name": "Primega Group Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong"
+  ],
+  "sic": "1540",
+  "sicDescription": "General Bldg Contractors - Nonresidential Bldgs",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "852-3997-3682",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ROOM 2912, 29/F., NEW TECH PLAZA",
+      "street2": "34 TAI YAU STREET",
+      "city": "SAN PO KONG, KOWLOON",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "ROOM 2912, 29/F., NEW TECH PLAZA",
+      "street2": "34 TAI YAU STREET",
+      "city": "SAN PO KONG, KOWLOON",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-12"
+  },
+  "filings_count": 60
+}

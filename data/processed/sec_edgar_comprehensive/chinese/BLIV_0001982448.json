@@ -1,0 +1,48 @@
+{
+  "cik": "0001982448",
+  "ticker": "BLIV",
+  "name": "BeLive Holdings",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "7373",
+  "sicDescription": "Services-Computer Integrated Systems Design",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "65 9090 5788",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "26A ANN SIANG ROAD",
+      "street2": "#03-00",
+      "city": "SINGAPORE",
+      "stateOrCountry": "U0",
+      "zipCode": "069706",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "26A ANN SIANG ROAD",
+      "street2": "#03-00",
+      "city": "SINGAPORE",
+      "stateOrCountry": "U0",
+      "zipCode": "069706",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-11"
+  },
+  "filings_count": 59
+}

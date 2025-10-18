@@ -1,0 +1,44 @@
+{
+  "cik": "0001679273",
+  "ticker": "LW",
+  "name": "Lamb Weston Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2030",
+  "sicDescription": "Canned, Frozen & Preservd Fruit, Veg & Food Specialties",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "611797411",
+  "phone": "208.938.1047",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "599 S. RIVERSHORE LANE",
+      "street2": null,
+      "city": "EAGLE",
+      "stateOrCountry": "ID",
+      "zipCode": "83616",
+      "stateOrCountryDescription": "ID",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "599 S. RIVERSHORE LANE",
+      "street2": null,
+      "city": "EAGLE",
+      "stateOrCountry": "ID",
+      "zipCode": "83616",
+      "stateOrCountryDescription": "ID",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 700
+}

@@ -1,0 +1,48 @@
+{
+  "cik": "0001669779",
+  "ticker": "CWH",
+  "name": "Camping World Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm",
+    "vie_structure"
+  ],
+  "sic": "5500",
+  "sicDescription": "Retail-Auto Dealers & Gasoline Stations",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "811737145",
+  "phone": "(847) 808-3000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2 MARRIOTT DRIVE",
+      "street2": null,
+      "city": "LINCOLNSHIRE",
+      "stateOrCountry": "IL",
+      "zipCode": "60069",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2 MARRIOTT DRIVE",
+      "street2": null,
+      "city": "LINCOLNSHIRE",
+      "stateOrCountry": "IL",
+      "zipCode": "60069",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-07-30"
+  },
+  "filings_count": 603
+}

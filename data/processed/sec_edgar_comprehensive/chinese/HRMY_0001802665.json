@@ -1,0 +1,47 @@
+{
+  "cik": "0001802665",
+  "ticker": "HRMY",
+  "name": "Harmony Biosciences Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2834",
+  "sicDescription": "Pharmaceutical Preparations",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "822279923",
+  "phone": "(484) 539-9800",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "630 W GERMANTOWN PIKE",
+      "street2": "SUITE 215",
+      "city": "PLYMOUTH MEETING",
+      "stateOrCountry": "PA",
+      "zipCode": "19462",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "630 W GERMANTOWN PIKE",
+      "street2": "SUITE 215",
+      "city": "PLYMOUTH MEETING",
+      "stateOrCountry": "PA",
+      "zipCode": "19462",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-24"
+  },
+  "filings_count": 385
+}

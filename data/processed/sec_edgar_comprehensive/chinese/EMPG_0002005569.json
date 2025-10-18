@@ -1,0 +1,48 @@
+{
+  "cik": "0002005569",
+  "ticker": "EMPG",
+  "name": "Empro Group Inc.",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "2844",
+  "sicDescription": "Perfumes, Cosmetics & Other Toilet Preparations",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "60-355231983",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "21, JALAN 15/23, TIONG NAM INDUSTRY PARK",
+      "street2": "SHAH ALAM",
+      "city": "SELANGOR",
+      "stateOrCountry": "N8",
+      "zipCode": "40200",
+      "stateOrCountryDescription": "Malaysia",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "21, JALAN 15/23, TIONG NAM INDUSTRY PARK",
+      "street2": "SHAH ALAM",
+      "city": "SELANGOR",
+      "stateOrCountry": "N8",
+      "zipCode": "40200",
+      "stateOrCountryDescription": "Malaysia",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-04"
+  },
+  "filings_count": 25
+}

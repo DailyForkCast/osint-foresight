@@ -1,0 +1,44 @@
+{
+  "cik": "0001617640",
+  "ticker": "Z",
+  "name": "ZILLOW GROUP, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7389",
+  "sicDescription": "Services-Business Services, NEC",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "WA",
+  "ein": "471645716",
+  "phone": "(206) 470-7000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1301 SECOND AVENUE, FLOOR 36",
+      "street2": null,
+      "city": "SEATTLE",
+      "stateOrCountry": "WA",
+      "zipCode": "98101",
+      "stateOrCountryDescription": "WA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1301 SECOND AVENUE, FLOOR 36",
+      "street2": null,
+      "city": "SEATTLE",
+      "stateOrCountry": "WA",
+      "zipCode": "98101",
+      "stateOrCountryDescription": "WA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1001
+}

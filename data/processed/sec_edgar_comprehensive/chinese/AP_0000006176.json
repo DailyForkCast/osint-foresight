@@ -1,0 +1,47 @@
+{
+  "cik": "0000006176",
+  "ticker": "AP",
+  "name": "AMPCO PITTSBURGH CORP",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3561",
+  "sicDescription": "Pumps & Pumping Equipment",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "PA",
+  "ein": "251117717",
+  "phone": "412-456-4400",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "726 BELL AVENUE",
+      "street2": "SUITE 301",
+      "city": "CARNEGIE",
+      "stateOrCountry": "PA",
+      "zipCode": "15106",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "726 BELL AVENUE",
+      "street2": "SUITE 301",
+      "city": "CARNEGIE",
+      "stateOrCountry": "PA",
+      "zipCode": "15106",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-12"
+  },
+  "filings_count": 1001
+}

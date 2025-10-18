@@ -1,0 +1,50 @@
+{
+  "cik": "0001999860",
+  "ticker": "WYHG",
+  "name": "Wing Yip Food Holdings Group Ltd",
+  "detection_reasons": [
+    "location:china",
+    "offshore:hong kong",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "2013",
+  "sicDescription": "Sausages & Other Prepared Meat Products",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "K3",
+  "ein": "000000000",
+  "phone": "(86)76023215457",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "NO.9, GUANXIAN NORTH RD, HUANGPU TOWN",
+      "street2": null,
+      "city": "ZHONGSHAN CITY",
+      "stateOrCountry": "F4",
+      "zipCode": "528429",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "NO.9, GUANXIAN NORTH RD, HUANGPU TOWN",
+      "street2": null,
+      "city": "ZHONGSHAN CITY",
+      "stateOrCountry": "F4",
+      "zipCode": "528429",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-28"
+  },
+  "filings_count": 40
+}

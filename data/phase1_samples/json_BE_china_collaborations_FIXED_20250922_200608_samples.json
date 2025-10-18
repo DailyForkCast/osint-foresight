@@ -1,0 +1,12 @@
+{
+  "dataset": "json_BE_china_collaborations_FIXED_20250922_200608",
+  "source_path": "data\\processed\\openaire_verified\\terminal_test\\BE_china_collaborations_FIXED_20250922_200608.json",
+  "size_bytes": 5115083,
+  "samples": {
+    "country": "BE",
+    "terminal": "TEST",
+    "total_found": 150,
+    "method": "keyword_search_fixed",
+    "fix_applied": "openaire_structure_parsing"
+  }
+}

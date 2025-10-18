@@ -1,0 +1,47 @@
+{
+  "cik": "0001470683",
+  "ticker": "AEHL",
+  "name": "Antelope Enterprise Holdings Ltd",
+  "detection_reasons": [
+    "location:china"
+  ],
+  "sic": "4899",
+  "sicDescription": "Communications Services, NEC",
+  "category": "Non-accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "D8",
+  "ein": "000000000",
+  "phone": "1-838-500 8888",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "THE EMPIRE STATE BUILDING",
+      "street2": "350 FIFTH AVENUE, SUITE 7540",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10118",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "THE EMPIRE STATE BUILDING",
+      "street2": "350 FIFTH AVENUE, SUITE 7540",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10118",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-06"
+  },
+  "filings_count": 411
+}

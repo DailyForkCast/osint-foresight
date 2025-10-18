@@ -1,0 +1,49 @@
+{
+  "cik": "0001610520",
+  "ticker": "UBS",
+  "name": "UBS Group AG",
+  "detection_reasons": [
+    "offshore:bm",
+    "offshore:hk",
+    "vie_structure"
+  ],
+  "sic": "6021",
+  "sicDescription": "National Commercial Banks",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "V8",
+  "ein": "000000000",
+  "phone": "41-44-234-1111",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "BAHNHOFSTRASSE 45",
+      "street2": null,
+      "city": "ZURICH",
+      "stateOrCountry": "V8",
+      "zipCode": "CH-8001",
+      "stateOrCountryDescription": "Switzerland",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "BAHNHOFSTRASSE 45",
+      "street2": null,
+      "city": "ZURICH",
+      "stateOrCountry": "V8",
+      "zipCode": "CH-8001",
+      "stateOrCountryDescription": "Switzerland",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-23"
+  },
+  "filings_count": 1000
+}

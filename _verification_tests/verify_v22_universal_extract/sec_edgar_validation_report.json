@@ -1,0 +1,165 @@
+{
+  "timestamp": "2025-09-25T19:26:57.807659",
+  "config": "tests.yaml",
+  "tests_run": 26,
+  "tests_passed": 7,
+  "tests_failed": 19,
+  "test_results": [
+    {
+      "id": "TED_X1",
+      "name": "TED FS Delta Check",
+      "passed": true,
+      "output": "FS Delta OK: +55 files, +35 dirs, +3.59 MB (fs_delta.json)\n"
+    },
+    {
+      "id": "TED_X3",
+      "name": "TED Ext/MIME Sanity",
+      "passed": true,
+      "output": "Ext/MIME hist OK (ted_ext.json, ted_mime.json)\n"
+    },
+    {
+      "id": "TED_X4",
+      "name": "TED Schema Probe",
+      "passed": false,
+      "output": "\nSTDERR: usage: verification_tools_starter_pack.py [-h]\n                                          {reachability,enum_parity,fs_delta_check,archive_member_check,ext_mime_hist,schema_probe,openability_check,coverage_delta,lineage_check,stream_json,batch_tsv,bulk_decompress,ted_schema_probe}\n                                          ...\nverification_tools_starter_pack.py: error: unrecognized arguments: - Foresight/data/processed/ted_2023_2025\n"
+    },
+    {
+      "id": "TED_X5",
+      "name": "TED Coverage Delta",
+      "passed": true,
+      "output": "Coverage delta OK: 3.59 MB >= 1.00 MB (coverage_delta.json)\n"
+    },
+    {
+      "id": "TED_X6",
+      "name": "TED Openability",
+      "passed": true,
+      "output": "Openability OK: 50 files opened (openability.json)\n"
+    },
+    {
+      "id": "CORDIS_X1",
+      "name": "CORDIS FS Delta Check",
+      "passed": false,
+      "output": "\nSTDERR: usage: verification_tools_starter_pack.py [-h]\n                                          {reachability,enum_parity,fs_delta_check,archive_member_check,ext_mime_hist,schema_probe,openability_check,coverage_delta,lineage_check,stream_json,batch_tsv,bulk_decompress,ted_schema_probe}\n                                          ...\nverification_tools_starter_pack.py: error: unrecognized arguments: - Foresight/data/processed/cordis_unified\n"
+    },
+    {
+      "id": "CORDIS_X3",
+      "name": "CORDIS Ext/MIME Sanity",
+      "passed": false,
+      "output": "\nSTDERR: usage: verification_tools_starter_pack.py [-h]\n                                          {reachability,enum_parity,fs_delta_check,archive_member_check,ext_mime_hist,schema_probe,openability_check,coverage_delta,lineage_check,stream_json,batch_tsv,bulk_decompress,ted_schema_probe}\n                                          ...\nverification_tools_starter_pack.py: error: unrecognized arguments: - Foresight/data/processed/cordis_unified\n"
+    },
+    {
+      "id": "CORDIS_X4",
+      "name": "CORDIS Schema Probe",
+      "passed": false,
+      "output": "\nSTDERR: usage: verification_tools_starter_pack.py [-h]\n                                          {reachability,enum_parity,fs_delta_check,archive_member_check,ext_mime_hist,schema_probe,openability_check,coverage_delta,lineage_check,stream_json,batch_tsv,bulk_decompress,ted_schema_probe}\n                                          ...\nverification_tools_starter_pack.py: error: unrecognized arguments: - Foresight/data/processed/cordis_unified\n"
+    },
+    {
+      "id": "CORDIS_X5",
+      "name": "CORDIS Coverage Delta",
+      "passed": false,
+      "output": "\nSTDERR: usage: verification_tools_starter_pack.py [-h]\n                                          {reachability,enum_parity,fs_delta_check,archive_member_check,ext_mime_hist,schema_probe,openability_check,coverage_delta,lineage_check,stream_json,batch_tsv,bulk_decompress,ted_schema_probe}\n                                          ...\nverification_tools_starter_pack.py: error: unrecognized arguments: - Foresight/data/processed/cordis_unified\n"
+    },
+    {
+      "id": "OPENALEX_X1",
+      "name": "OpenAlex FS Delta Check",
+      "passed": false,
+      "output": "\nSTDERR: usage: verification_tools_starter_pack.py [-h]\n                                          {reachability,enum_parity,fs_delta_check,archive_member_check,ext_mime_hist,schema_probe,openability_check,coverage_delta,lineage_check,stream_json,batch_tsv,bulk_decompress,ted_schema_probe}\n                                          ...\nverification_tools_starter_pack.py: error: unrecognized arguments: - Foresight/data/processed/openalex_multicountry_temporal\n"
+    },
+    {
+      "id": "OPENALEX_X3",
+      "name": "OpenAlex Ext/MIME Sanity",
+      "passed": false,
+      "output": "\nSTDERR: usage: verification_tools_starter_pack.py [-h]\n                                          {reachability,enum_parity,fs_delta_check,archive_member_check,ext_mime_hist,schema_probe,openability_check,coverage_delta,lineage_check,stream_json,batch_tsv,bulk_decompress,ted_schema_probe}\n                                          ...\nverification_tools_starter_pack.py: error: unrecognized arguments: - Foresight/data/processed/openalex_multicountry_temporal\n"
+    },
+    {
+      "id": "OPENALEX_X4",
+      "name": "OpenAlex Schema Probe",
+      "passed": false,
+      "output": "\nSTDERR: usage: verification_tools_starter_pack.py [-h]\n                                          {reachability,enum_parity,fs_delta_check,archive_member_check,ext_mime_hist,schema_probe,openability_check,coverage_delta,lineage_check,stream_json,batch_tsv,bulk_decompress,ted_schema_probe}\n                                          ...\nverification_tools_starter_pack.py: error: unrecognized arguments: - Foresight/data/processed/openalex_multicountry_temporal\n"
+    },
+    {
+      "id": "OPENALEX_X5",
+      "name": "OpenAlex Coverage Delta",
+      "passed": false,
+      "output": "\nSTDERR: usage: verification_tools_starter_pack.py [-h]\n                                          {reachability,enum_parity,fs_delta_check,archive_member_check,ext_mime_hist,schema_probe,openability_check,coverage_delta,lineage_check,stream_json,batch_tsv,bulk_decompress,ted_schema_probe}\n                                          ...\nverification_tools_starter_pack.py: error: unrecognized arguments: - Foresight/data/processed/openalex_multicountry_temporal\n"
+    },
+    {
+      "id": "OPENALEX_X6",
+      "name": "OpenAlex JSON Stream Test",
+      "passed": false,
+      "output": "\nSTDERR: usage: verification_tools_starter_pack.py [-h]\n                                          {reachability,enum_parity,fs_delta_check,archive_member_check,ext_mime_hist,schema_probe,openability_check,coverage_delta,lineage_check,stream_json,batch_tsv,bulk_decompress,ted_schema_probe}\n                                          ...\nverification_tools_starter_pack.py: error: unrecognized arguments: - Foresight/data/processed/openalex_multicountry_temporal/germany_china_2020_2024.json\n"
+    },
+    {
+      "id": "OPENAIRE_X1",
+      "name": "OpenAIRE FS Delta Check",
+      "passed": false,
+      "output": "\nSTDERR: usage: verification_tools_starter_pack.py [-h]\n                                          {reachability,enum_parity,fs_delta_check,archive_member_check,ext_mime_hist,schema_probe,openability_check,coverage_delta,lineage_check,stream_json,batch_tsv,bulk_decompress,ted_schema_probe}\n                                          ...\nverification_tools_starter_pack.py: error: unrecognized arguments: - Foresight/data/processed/openaire_comprehensive\n"
+    },
+    {
+      "id": "OPENAIRE_X3",
+      "name": "OpenAIRE Ext/MIME Sanity",
+      "passed": false,
+      "output": "\nSTDERR: usage: verification_tools_starter_pack.py [-h]\n                                          {reachability,enum_parity,fs_delta_check,archive_member_check,ext_mime_hist,schema_probe,openability_check,coverage_delta,lineage_check,stream_json,batch_tsv,bulk_decompress,ted_schema_probe}\n                                          ...\nverification_tools_starter_pack.py: error: unrecognized arguments: - Foresight/data/processed/openaire_comprehensive\n"
+    },
+    {
+      "id": "PATENTS_X1",
+      "name": "Patents FS Delta Check",
+      "passed": false,
+      "output": "\nSTDERR: usage: verification_tools_starter_pack.py [-h]\n                                          {reachability,enum_parity,fs_delta_check,archive_member_check,ext_mime_hist,schema_probe,openability_check,coverage_delta,lineage_check,stream_json,batch_tsv,bulk_decompress,ted_schema_probe}\n                                          ...\nverification_tools_starter_pack.py: error: unrecognized arguments: - Foresight/data/processed/patents_multicountry\n"
+    },
+    {
+      "id": "PATENTS_X3",
+      "name": "Patents Ext/MIME Sanity",
+      "passed": false,
+      "output": "\nSTDERR: usage: verification_tools_starter_pack.py [-h]\n                                          {reachability,enum_parity,fs_delta_check,archive_member_check,ext_mime_hist,schema_probe,openability_check,coverage_delta,lineage_check,stream_json,batch_tsv,bulk_decompress,ted_schema_probe}\n                                          ...\nverification_tools_starter_pack.py: error: unrecognized arguments: - Foresight/data/processed/patents_multicountry\n"
+    },
+    {
+      "id": "PATENTS_X4",
+      "name": "Patents Schema Probe",
+      "passed": false,
+      "output": "\nSTDERR: usage: verification_tools_starter_pack.py [-h]\n                                          {reachability,enum_parity,fs_delta_check,archive_member_check,ext_mime_hist,schema_probe,openability_check,coverage_delta,lineage_check,stream_json,batch_tsv,bulk_decompress,ted_schema_probe}\n                                          ...\nverification_tools_starter_pack.py: error: unrecognized arguments: - Foresight/data/processed/patents_multicountry\n"
+    },
+    {
+      "id": "SEC_EDGAR_X1",
+      "name": "SEC EDGAR FS Delta Check",
+      "passed": true,
+      "output": "FS Delta OK: +33 files, +1 dirs, +2.52 MB (fs_delta.json)\n"
+    },
+    {
+      "id": "SEC_EDGAR_X3",
+      "name": "SEC EDGAR Ext/MIME Sanity",
+      "passed": true,
+      "output": "Ext/MIME hist OK (sec_edgar_ext.json, sec_edgar_mime.json)\n"
+    },
+    {
+      "id": "SEC_EDGAR_X4",
+      "name": "SEC EDGAR Schema Probe",
+      "passed": false,
+      "output": "FAIL_SCHEMA_PROBE: none of the sampled files expose required fields\n"
+    },
+    {
+      "id": "SEC_EDGAR_X5",
+      "name": "SEC EDGAR Coverage Delta",
+      "passed": false,
+      "output": "\nSTDERR: Traceback (most recent call last):\n  File \"C:\\Projects\\OSINT - Foresight\\_verification_tests\\verify_v22_universal_extract\\tools\\verification_tools_starter_pack.py\", line 738, in <module>\n    sys.exit(main())\n  File \"C:\\Projects\\OSINT - Foresight\\_verification_tests\\verify_v22_universal_extract\\tools\\verification_tools_starter_pack.py\", line 723, in main\n    return cmd_coverage_delta(args)\n  File \"C:\\Projects\\OSINT - Foresight\\_verification_tests\\verify_v22_universal_extract\\tools\\verification_tools_starter_pack.py\", line 451, in cmd_coverage_delta\n    min_bytes = parse_size(args.min)\n  File \"C:\\Projects\\OSINT - Foresight\\_verification_tests\\verify_v22_universal_extract\\tools\\verification_tools_starter_pack.py\", line 487, in parse_size\n    return int(float(s[:-len(k)].strip())*v)\nValueError: could not convert string to float: '1M'\n"
+    },
+    {
+      "id": "SEC_EDGAR_X6",
+      "name": "SEC EDGAR Chinese Companies Validation",
+      "passed": true,
+      "output": "Openability OK: 10 files opened (openability.json)\n"
+    },
+    {
+      "id": "AGGREGATE_ENUM_PARITY",
+      "name": "Cross-Source Enumeration Parity",
+      "passed": false,
+      "output": "\nSTDERR: usage: verification_tools_starter_pack.py [-h]\n                                          {reachability,enum_parity,fs_delta_check,archive_member_check,ext_mime_hist,schema_probe,openability_check,coverage_delta,lineage_check,stream_json,batch_tsv,bulk_decompress,ted_schema_probe}\n                                          ...\nverification_tools_starter_pack.py: error: unrecognized arguments: - Foresight/data/processed\n"
+    },
+    {
+      "id": "AGGREGATE_REACHABILITY",
+      "name": "Full Data Reachability Check",
+      "passed": false,
+      "output": "\nSTDERR: Traceback (most recent call last):\n  File \"C:\\Projects\\OSINT - Foresight\\_verification_tests\\verify_v22_universal_extract\\tools\\verification_tools_starter_pack.py\", line 738, in <module>\n    sys.exit(main())\n  File \"C:\\Projects\\OSINT - Foresight\\_verification_tests\\verify_v22_universal_extract\\tools\\verification_tools_starter_pack.py\", line 709, in main\n    return cmd_reachability(args)\n  File \"C:\\Projects\\OSINT - Foresight\\_verification_tests\\verify_v22_universal_extract\\tools\\verification_tools_starter_pack.py\", line 143, in cmd_reachability\n    print(f\"Reachability: {file_count} files, {human_bytes(total_bytes)} (report \\u2192 {out})\")\n  File \"C:\\Users\\mrear\\AppData\\Local\\Programs\\Python\\Python310\\lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u2192' in position 38: character maps to <undefined>\n"
+    }
+  ]
+}

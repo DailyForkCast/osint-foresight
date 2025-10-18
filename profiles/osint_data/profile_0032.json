@@ -1,0 +1,30 @@
+{
+  "path": "F:\\OSINT_DATA\\github_dependencies\\Armenia_github_20250917_052411.json",
+  "size": 263,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 1,
+  "field_count": 4,
+  "parse_status": "success",
+  "schema": {
+    "country": "string",
+    "organizations_scanned": "array",
+    "total_vulnerabilities": "number",
+    "collection_timestamp": "string"
+  },
+  "sample_records": [
+    {
+      "country": "Armenia",
+      "organizations_scanned": [
+        {
+          "organization": "armenia",
+          "status": "not_found",
+          "repositories_scanned": 0
+        }
+      ],
+      "total_vulnerabilities": 0,
+      "collection_timestamp": "2025-09-17T05:24:11.721625"
+    }
+  ],
+  "modified": "2025-09-17T05:24:14"
+}

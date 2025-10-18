@@ -1,0 +1,51 @@
+{
+  "cik": "0001791725",
+  "ticker": "HUDI",
+  "name": "Huadi International Group Co., Ltd.",
+  "detection_reasons": [
+    "location:china",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "3317",
+  "sicDescription": "Steel Pipe & Tubes",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86057786598888",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "NO. 68, YAQIAN VILLAGE, YONGZHONG STREET",
+      "street2": null,
+      "city": "WENZHOU",
+      "stateOrCountry": "F4",
+      "zipCode": "325025",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "NO. 68, YAQIAN VILLAGE, YONGZHONG STREET",
+      "street2": null,
+      "city": "WENZHOU",
+      "stateOrCountry": "F4",
+      "zipCode": "325025",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-06"
+  },
+  "filings_count": 85
+}

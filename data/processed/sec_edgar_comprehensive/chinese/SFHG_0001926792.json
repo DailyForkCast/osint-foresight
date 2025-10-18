@@ -1,0 +1,50 @@
+{
+  "cik": "0001926792",
+  "ticker": "SFHG",
+  "name": "SAMFINE CREATION HOLDINGS GROUP Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:bm",
+    "offshore:hong kong"
+  ],
+  "sic": "2750",
+  "sicDescription": "Commercial Printing",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "85235891500",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT BM 8/F, BLK 4, KWUN TONG IND. CTR.",
+      "street2": "436-446 KWUN TONG ROAD, KWUN TONG",
+      "city": "HONG KONG",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    },
+    "business": {
+      "street1": "UNIT BM 8/F, BLK 4, KWUN TONG IND. CTR.",
+      "street2": "436-446 KWUN TONG ROAD, KWUN TONG",
+      "city": "HONG KONG",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-25"
+  },
+  "filings_count": 58
+}

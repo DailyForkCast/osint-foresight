@@ -1,0 +1,22 @@
+{
+  "nupi_status": "CONFIRMED",
+  "base_url": "https://www.nupi.no",
+  "china_content": true,
+  "evidence": [
+    "https://www.nupi.no/content/pdf_preview/29346/file/NUPI_Report_11_2024_Gasemyr_.pdf",
+    "https://www.nupi.no/content/pdf_preview/29660/file/NUPI_Policy_Brief_2_BloomHenriksenRowe.pdf",
+    "https://www.nupi.no/en/news/has-military-activity-in-the-arctic-increased-after-2022"
+  ],
+  "content_types": [
+    "PDF reports",
+    "News articles"
+  ],
+  "topics": [
+    "China",
+    "Arctic",
+    "Military",
+    "Security"
+  ],
+  "working_paths": [],
+  "notes": "Requires PDF extraction and listing page scraping"
+}

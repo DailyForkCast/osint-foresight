@@ -1,0 +1,49 @@
+{
+  "cik": "0000858446",
+  "ticker": "ICHGF",
+  "name": "INTERCONTINENTAL HOTELS GROUP PLC /NEW/",
+  "detection_reasons": [
+    "offshore:bm",
+    "offshore:hong kong",
+    "vie_structure"
+  ],
+  "sic": "7011",
+  "sicDescription": "Hotels & Motels",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "DE",
+  "ein": "250420260",
+  "phone": "4045513500",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1 WINDSOR DIALS, ARTHUR ROAD, WINDSOR",
+      "street2": null,
+      "city": "BERKSHIRE",
+      "stateOrCountry": null,
+      "zipCode": "X0 SL4 1RS",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "BERKSHIRE",
+      "country": "United Kingdom",
+      "countryCode": "X0"
+    },
+    "business": {
+      "street1": "1 WINDSOR DIALS, ARTHUR ROAD, WINDSOR",
+      "street2": null,
+      "city": "BERKSHIRE",
+      "stateOrCountry": null,
+      "zipCode": "X0 SL4 1RS",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "BERKSHIRE",
+      "country": "United Kingdom",
+      "countryCode": "X0"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-19"
+  },
+  "filings_count": 1000
+}

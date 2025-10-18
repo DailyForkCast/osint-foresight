@@ -1,0 +1,47 @@
+{
+  "cik": "0000811809",
+  "ticker": "BHPLF",
+  "name": "BHP Group Ltd",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "1000",
+  "sicDescription": "Metal Mining",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "C3",
+  "ein": "000000000",
+  "phone": "011611300554757",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "GPO BOX 86",
+      "street2": "MELBOURNE",
+      "city": "VICTORIA AUSTRALIA",
+      "stateOrCountry": null,
+      "zipCode": "3000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "VICTORIA",
+      "country": "Australia",
+      "countryCode": "C3"
+    },
+    "business": {
+      "street1": "16/171 COLLINS STREET",
+      "street2": "MELBOURNE",
+      "city": "VICTORIA AUSTRALIA",
+      "stateOrCountry": null,
+      "zipCode": "3000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "VICTORIA",
+      "country": "Australia",
+      "countryCode": "C3"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-16"
+  },
+  "filings_count": 1001
+}

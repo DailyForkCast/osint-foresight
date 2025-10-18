@@ -1,0 +1,120 @@
+{
+  "search_type": "sister_cities",
+  "timestamp": "2025-09-28T09:24:18.528369",
+  "total_results": 0,
+  "search_patterns": [
+    "*.gov.*/sister-city*",
+    "*.city.*/partnership*china*",
+    "*.municipality.*/twin-city*",
+    "*.comune.*/gemellaggio*cina*",
+    "*.ville.*/jumelage*chine*",
+    "*.stadt.*/partnerschaft*china*"
+  ],
+  "results": [],
+  "provenance": {
+    "data_source": "Common Crawl Foundation",
+    "terms_of_use": "https://commoncrawl.org/terms-of-use/",
+    "citation_required": true,
+    "fabrication_risk": "ZERO",
+    "all_data_verified": false,
+    "manual_verification_required": true
+  },
+  "operations_log": [
+    {
+      "timestamp": "2025-09-28T09:24:18.214983",
+      "operation": "CDX_SEARCH_INITIATED",
+      "details": {
+        "url_pattern": "*.gov.*/sister-city*",
+        "crawl_id": "CC-MAIN-2024-10",
+        "limit": 50
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.264960",
+      "operation": "CDX_SEARCH_FAILED",
+      "details": {
+        "error": "CDX query failed: 404 Client Error: Not Found for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.gov.%2A%2Fsister-city%2A&output=json&limit=50"
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.265937",
+      "operation": "CDX_SEARCH_INITIATED",
+      "details": {
+        "url_pattern": "*.city.*/partnership*china*",
+        "crawl_id": "CC-MAIN-2024-10",
+        "limit": 50
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.312939",
+      "operation": "CDX_SEARCH_FAILED",
+      "details": {
+        "error": "CDX query failed: 404 Client Error: Not Found for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.city.%2A%2Fpartnership%2Achina%2A&output=json&limit=50"
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.313940",
+      "operation": "CDX_SEARCH_INITIATED",
+      "details": {
+        "url_pattern": "*.municipality.*/twin-city*",
+        "crawl_id": "CC-MAIN-2024-10",
+        "limit": 50
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.377010",
+      "operation": "CDX_SEARCH_FAILED",
+      "details": {
+        "error": "CDX query failed: 404 Client Error: Not Found for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.municipality.%2A%2Ftwin-city%2A&output=json&limit=50"
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.377977",
+      "operation": "CDX_SEARCH_INITIATED",
+      "details": {
+        "url_pattern": "*.comune.*/gemellaggio*cina*",
+        "crawl_id": "CC-MAIN-2024-10",
+        "limit": 50
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.445367",
+      "operation": "CDX_SEARCH_FAILED",
+      "details": {
+        "error": "CDX query failed: 503 Server Error: Service Temporarily Unavailable for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.comune.%2A%2Fgemellaggio%2Acina%2A&output=json&limit=50"
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.447421",
+      "operation": "CDX_SEARCH_INITIATED",
+      "details": {
+        "url_pattern": "*.ville.*/jumelage*chine*",
+        "crawl_id": "CC-MAIN-2024-10",
+        "limit": 50
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.488369",
+      "operation": "CDX_SEARCH_FAILED",
+      "details": {
+        "error": "CDX query failed: 503 Server Error: Service Temporarily Unavailable for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.ville.%2A%2Fjumelage%2Achine%2A&output=json&limit=50"
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.489369",
+      "operation": "CDX_SEARCH_INITIATED",
+      "details": {
+        "url_pattern": "*.stadt.*/partnerschaft*china*",
+        "crawl_id": "CC-MAIN-2024-10",
+        "limit": 50
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.527368",
+      "operation": "CDX_SEARCH_FAILED",
+      "details": {
+        "error": "CDX query failed: 503 Server Error: Service Temporarily Unavailable for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.stadt.%2A%2Fpartnerschaft%2Achina%2A&output=json&limit=50"
+      }
+    }
+  ]
+}

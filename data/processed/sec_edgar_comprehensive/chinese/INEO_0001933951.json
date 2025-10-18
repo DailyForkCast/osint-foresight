@@ -1,0 +1,48 @@
+{
+  "cik": "0001933951",
+  "ticker": "INEO",
+  "name": "INNEOVA Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "5010",
+  "sicDescription": "Wholesale-Motor Vehicles & Motor Vehicle Parts & Supplies",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "65 6383 7540",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "14 ANG MO KIO STREET 63",
+      "street2": null,
+      "city": "SINGAPORE",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Singapore",
+      "countryCode": "U0"
+    },
+    "business": {
+      "street1": "14 ANG MO KIO STREET 63",
+      "street2": null,
+      "city": "SINGAPORE",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Singapore",
+      "countryCode": "U0"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-28"
+  },
+  "filings_count": 89
+}

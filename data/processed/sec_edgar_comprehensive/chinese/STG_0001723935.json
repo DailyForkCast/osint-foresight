@@ -1,0 +1,52 @@
+{
+  "cik": "0001723935",
+  "ticker": "STG",
+  "name": "Sunlands Technology Group",
+  "detection_reasons": [
+    "location:china",
+    "location:beijing",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "8200",
+  "sicDescription": "Services-Educational Services",
+  "category": "Non-accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86 10 52413738",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "BUILDING 4-6, CHAOLAI SCIENCE PARK",
+      "street2": "NO. 36 CHUANGYUAN RD, CHAOYANG DISTRICT",
+      "city": "BEIJING",
+      "stateOrCountry": "F4",
+      "zipCode": "100012",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "BUILDING 4-6, CHAOLAI SCIENCE PARK",
+      "street2": "NO. 36 CHUANGYUAN RD, CHAOYANG DISTRICT",
+      "city": "BEIJING",
+      "stateOrCountry": "F4",
+      "zipCode": "100012",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-14"
+  },
+  "filings_count": 131
+}

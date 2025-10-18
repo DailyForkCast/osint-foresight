@@ -1,0 +1,51 @@
+{
+  "cik": "0001346287",
+  "ticker": "CLUS",
+  "name": "Cluster Group Holdings Ltd Co",
+  "detection_reasons": [
+    "location:china",
+    "location:shanghai",
+    "location:guangzhou",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "4899",
+  "sicDescription": "Communications Services, NEC",
+  "category": "Non-accelerated filer<br>Smaller reporting company<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "FL",
+  "ein": "593565377",
+  "phone": "86-21-5091-7695",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "16TH FLOOR, NORTH TOWER",
+      "street2": "528 PUDONG SOUTH ROAD",
+      "city": "SHANGHAI",
+      "stateOrCountry": null,
+      "zipCode": "200120",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "16TH FLOOR, NORTH TOWER",
+      "street2": "528 PUDONG SOUTH ROAD",
+      "city": "SHANGHAI",
+      "stateOrCountry": null,
+      "zipCode": "200120",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-14"
+  },
+  "filings_count": 175
+}

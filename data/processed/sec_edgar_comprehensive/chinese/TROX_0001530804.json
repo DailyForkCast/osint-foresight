@@ -1,0 +1,47 @@
+{
+  "cik": "0001530804",
+  "ticker": "TROX",
+  "name": "Tronox Holdings plc",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2810",
+  "sicDescription": "Industrial Inorganic Chemicals",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "X0",
+  "ein": "981467236",
+  "phone": "(203) 705-3800",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "263 TRESSER BLVD., SUITE 1100",
+      "street2": null,
+      "city": "STAMFORD",
+      "stateOrCountry": "CT",
+      "zipCode": "06901",
+      "stateOrCountryDescription": "CT",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "263 TRESSER BLVD., SUITE 1100",
+      "street2": null,
+      "city": "STAMFORD",
+      "stateOrCountry": "CT",
+      "zipCode": "06901",
+      "stateOrCountryDescription": "CT",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-15"
+  },
+  "filings_count": 1006
+}

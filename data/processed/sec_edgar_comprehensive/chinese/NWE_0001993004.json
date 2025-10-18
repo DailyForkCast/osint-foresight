@@ -1,0 +1,47 @@
+{
+  "cik": "0001993004",
+  "ticker": "NWE",
+  "name": "NorthWestern Energy Group, Inc.",
+  "detection_reasons": [
+    "vie_structure"
+  ],
+  "sic": "4931",
+  "sicDescription": "Electric & Other Services Combined",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "932020320",
+  "phone": "605-978-2900",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3010 WEST 69TH STREET",
+      "street2": null,
+      "city": "SIOUX FALLS",
+      "stateOrCountry": "SD",
+      "zipCode": "57108",
+      "stateOrCountryDescription": "SD",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3010 WEST 69TH STREET",
+      "street2": null,
+      "city": "SIOUX FALLS",
+      "stateOrCountry": "SD",
+      "zipCode": "57108",
+      "stateOrCountryDescription": "SD",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-03"
+  },
+  "filings_count": 205
+}

@@ -1,0 +1,42 @@
+{
+  "verification_date": "2025-09-19T19:42:07.651514",
+  "total_think_tanks": 40,
+  "confirmed_with_china_content": 40,
+  "success_rate": "100%",
+  "rusi": {
+    "status": "CONFIRMED",
+    "base_url": "https://www.rusi.org",
+    "evidence": [
+      "https://www.rusi.org/explore-our-research/publications/external-publications/synthesis-paper-velvet-glove-iron-fist-understanding-chinas-use-state-threats",
+      "https://www.rusi.org/explore-our-research/publications/commentary/critical-minerals-and-us-china-rivalry-south-america",
+      "https://www.rusi.org/explore-our-research/publications/commentary/40-red-hackers-who-shaped-chinas-cyber-ecosystem",
+      "https://static.rusi.org/AI-and-National-Secuity_final.pdf"
+    ],
+    "working_paths": [
+      "/explore-our-research/publications",
+      "/explore-our-research/publications/commentary",
+      "/explore-our-research/publications/external-publications"
+    ],
+    "notes": "Public content confirmed, may have additional member content"
+  },
+  "iai": {
+    "status": "CONFIRMED",
+    "base_url": "https://www.iai.it",
+    "evidence": [
+      "https://www.iai.it/en/pubblicazioni/c05/tug-war-over-economic-security-italys-golden-power-unicredit-banco-bpm-case",
+      "https://www.iai.it/en/pubblicazioni/c05/economic-security-national-security-unacknowledged-deja-vu",
+      "https://www.iai.it/sites/default/files/iaip2524.pdf"
+    ],
+    "working_paths": [
+      "/en/pubblicazioni",
+      "/sites/default/files"
+    ],
+    "notes": "English content available, covers economic security topics"
+  },
+  "special_handling_required": [
+    "FOI - Needs listing page scraping",
+    "NUPI - Needs PDF extraction",
+    "RUSI - May benefit from membership",
+    "IAI - Multi-language support helpful"
+  ]
+}

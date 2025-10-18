@@ -1,0 +1,49 @@
+{
+  "cik": "0001931717",
+  "ticker": "CCTG",
+  "name": "CCSC Technology International Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong"
+  ],
+  "sic": "3640",
+  "sicDescription": "Electric Lighting & Wiring Equipment",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "00852-26870272",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1301-03, 13/F SHATIN GALLERIA,",
+      "street2": "18-24 SHAN MEI ST FOTAN, SHATIN",
+      "city": "HONG KONG",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    },
+    "business": {
+      "street1": "1301-03, 13/F SHATIN GALLERIA,",
+      "street2": "18-24 SHAN MEI ST FOTAN, SHATIN",
+      "city": "HONG KONG",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    }
+  },
+  "latest_filing": {
+    "form": "20-F",
+    "date": "2025-07-17"
+  },
+  "filings_count": 52
+}

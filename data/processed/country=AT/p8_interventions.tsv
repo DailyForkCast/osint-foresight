@@ -1,5 +1,0 @@
-intervention_id	class	what	why_linked_to_evidence	effort_1to3	owner_hint	notes
-I1	Monitoring	Quarterly registry scrape (EMC/GNSS)	Closes Phase-3/6 evidence gaps	1	Analyst + Claude Code	
-I2	Governance	Publish allocation transparency request	Tests A1 assumption about compute impact	1	Research org / civil society	
-I3	Capacity	Standards skills clinic (IPPM/NTP)	Builds benign influence; documents roles	2	University/RTO + SDO mentors	
-I4	Data hygiene	LEI/OC quarterly merge → CER-lite	Detects BO/control vectors	1	Analyst + scripts	

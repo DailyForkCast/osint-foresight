@@ -1,0 +1,367 @@
+{
+  "country": "PL",
+  "total_found": 1,
+  "method": "keyword_search",
+  "keywords_used": [
+    "China",
+    "Chinese",
+    "Beijing",
+    "Shanghai",
+    "Shenzhen",
+    "Guangzhou",
+    "Wuhan",
+    "Chengdu",
+    "Nanjing",
+    "Tianjin"
+  ],
+  "collection_date": "2025-09-22T20:24:53.379211",
+  "results": [
+    {
+      "header": {
+        "dri:objIdentifier": {
+          "$": "dris___02463::a8f2f0a1eff95af5d1a9fa92b0ea14ac"
+        },
+        "dri:dateOfCollection": {
+          "$": "2025-08-08T10:13:26.750"
+        },
+        "dri:dateOfTransformation": {
+          "$": "2025-06-14T06:25:16.864Z"
+        }
+      },
+      "metadata": {
+        "oaf:entity": {
+          "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+          "oaf:result": {
+            "collectedfrom": {
+              "@name": "The Knowledge Base of the University of Gdańsk",
+              "@id": "eurocrisdris::24ecb75193edd0a635c637dc4b5bc435"
+            },
+            "originalId": [
+              {
+                "$": "50|dris___02463::a8f2f0a1eff95af5d1a9fa92b0ea14ac"
+              },
+              {
+                "$": "oai:repozytorium.bg.ug.edu.pl:Publications/UOGa8c9f91c3c2a46f382034c3865d9fa7e"
+              }
+            ],
+            "measure": [
+              {
+                "@id": "influence",
+                "@score": "2.635068E-9",
+                "@class": "C5"
+              },
+              {
+                "@id": "popularity",
+                "@score": "1.9373685E-9",
+                "@class": "C5"
+              },
+              {
+                "@id": "influence_alt",
+                "@score": "0",
+                "@class": "C5"
+              },
+              {
+                "@id": "popularity_alt",
+                "@score": "0.0",
+                "@class": "C5"
+              },
+              {
+                "@id": "impulse",
+                "@score": "0",
+                "@class": "C5"
+              }
+            ],
+            "title": [
+              {
+                "@classid": "main title",
+                "@classname": "main title",
+                "@schemeid": "dnet:dataCite_title",
+                "@schemename": "dnet:dataCite_title",
+                "@inferred": false,
+                "@provenanceaction": "sysimport:crosswalk:repository",
+                "@trust": "0.9",
+                "$": "Od „Made in China” do „Created in China” - droga Chin do supremacji innowacyjnej"
+              },
+              {
+                "@classid": "subtitle",
+                "@classname": "subtitle",
+                "@schemeid": "dnet:dataCite_title",
+                "@schemename": "dnet:dataCite_title",
+                "@inferred": false,
+                "@provenanceaction": "sysimport:crosswalk:repository",
+                "@trust": "0.9",
+                "$": "From “Made in China” to “Created in China” - China’s way to innovation supremacy"
+              }
+            ],
+            "bestaccessright": {
+              "@classid": "OPEN",
+              "@classname": "Open Access",
+              "@schemeid": "dnet:access_modes",
+              "@schemename": "dnet:access_modes"
+            },
+            "country": {
+              "@classid": "PL",
+              "@classname": "Poland",
+              "@schemeid": "dnet:countries",
+              "@schemename": "dnet:countries"
+            },
+            "dateofacceptance": {
+              "$": "2021-01-01"
+            },
+            "description": {
+              "$": "China is not only a country of cheap production (“Made in China”). China is becoming more and more innovative, as evidenced by its growing position in the annual Global Innovation Index (GII) ranking. Over the past decade, China has become an emerging superpower while the economic position of the United States and the European Union has weakened. The purpose of this article is to answer the question of whether the US innovation supremacy becoming the past. The role of China is growing as a result of departing from “Made in China” and illegally obtained technological solutions in favor of innovation and technologically advanced production “Created in China.” Huawei is one of the most innovative companies in the world. The analysis is carried out in the context of the significance of the Thucydides trap in the technological war between the United States and China and the location of changes in the innovativeness of both countries in the aspect of the Kondratiev cycle. Additionally, China may come out stronger from the pandemic that has changed the whole world."
+            },
+            "subject": [
+              {
+                "@classid": "keyword",
+                "@classname": "keyword",
+                "@schemeid": "dnet:subject_classification_typologies",
+                "@schemename": "dnet:subject_classification_typologies",
+                "@inferred": false,
+                "@provenanceaction": "sysimport:crosswalk:repository",
+                "@trust": "0.9",
+                "$": "China"
+              },
+              {
+                "@classid": "keyword",
+                "@classname": "keyword",
+                "@schemeid": "dnet:subject_classification_typologies",
+                "@schemename": "dnet:subject_classification_typologies",
+                "@inferred": false,
+                "@provenanceaction": "sysimport:crosswalk:repository",
+                "@trust": "0.9",
+                "$": "innovation supremacy"
+              },
+              {
+                "@classid": "keyword",
+                "@classname": "keyword",
+                "@schemeid": "dnet:subject_classification_typologies",
+                "@schemename": "dnet:subject_classification_typologies",
+                "@inferred": false,
+                "@provenanceaction": "sysimport:crosswalk:repository",
+                "@trust": "0.9",
+                "$": "Thucydides trap"
+              },
+              {
+                "@classid": "keyword",
+                "@classname": "keyword",
+                "@schemeid": "dnet:subject_classification_typologies",
+                "@schemename": "dnet:subject_classification_typologies",
+                "@inferred": false,
+                "@provenanceaction": "sysimport:crosswalk:repository",
+                "@trust": "0.9",
+                "$": "Kondratiev cycle"
+              },
+              {
+                "@classid": "keyword",
+                "@classname": "keyword",
+                "@schemeid": "dnet:subject_classification_typologies",
+                "@schemename": "dnet:subject_classification_typologies",
+                "@inferred": false,
+                "@provenanceaction": "sysimport:crosswalk:repository",
+                "@trust": "0.9",
+                "$": "Chiny"
+              },
+              {
+                "@classid": "keyword",
+                "@classname": "keyword",
+                "@schemeid": "dnet:subject_classification_typologies",
+                "@schemename": "dnet:subject_classification_typologies",
+                "@inferred": false,
+                "@provenanceaction": "sysimport:crosswalk:repository",
+                "@trust": "0.9",
+                "$": "cykl Kondratiewa"
+              },
+              {
+                "@classid": "keyword",
+                "@classname": "keyword",
+                "@schemeid": "dnet:subject_classification_typologies",
+                "@schemename": "dnet:subject_classification_typologies",
+                "@inferred": false,
+                "@provenanceaction": "sysimport:crosswalk:repository",
+                "@trust": "0.9",
+                "$": "supremacja innowacyjna"
+              },
+              {
+                "@classid": "keyword",
+                "@classname": "keyword",
+                "@schemeid": "dnet:subject_classification_typologies",
+                "@schemename": "dnet:subject_classification_typologies",
+                "@inferred": false,
+                "@provenanceaction": "sysimport:crosswalk:repository",
+                "@trust": "0.9",
+                "$": "Global Innovation Index"
+              },
+              {
+                "@classid": "keyword",
+                "@classname": "keyword",
+                "@schemeid": "dnet:subject_classification_typologies",
+                "@schemename": "dnet:subject_classification_typologies",
+                "@inferred": false,
+                "@provenanceaction": "sysimport:crosswalk:repository",
+                "@trust": "0.9",
+                "$": "pułapka Tukidydesa"
+              },
+              {
+                "@classid": "keyword",
+                "@classname": "keyword",
+                "@schemeid": "dnet:subject_classification_typologies",
+                "@schemename": "dnet:subject_classification_typologies",
+                "@inferred": false,
+                "@provenanceaction": "sysimport:crosswalk:repository",
+                "@trust": "0.9",
+                "$": "USA"
+              }
+            ],
+            "language": {
+              "@classid": "pol",
+              "@classname": "Polish",
+              "@schemeid": "dnet:languages",
+              "@schemename": "dnet:languages"
+            },
+            "relevantdate": {
+              "@classid": "issued",
+              "@classname": "issued",
+              "@schemeid": "dnet:dataCite_date",
+              "@schemename": "dnet:dataCite_date",
+              "@inferred": false,
+              "@provenanceaction": "sysimport:crosswalk:repository",
+              "@trust": "0.9",
+              "$": "2021-01-01"
+            },
+            "resulttype": {
+              "@classid": "publication",
+              "@classname": "publication",
+              "@schemeid": "dnet:result_typologies",
+              "@schemename": "dnet:result_typologies"
+            },
+            "resourcetype": {
+              "@classid": "UNKNOWN",
+              "@classname": "UNKNOWN",
+              "@schemeid": "dnet:dataCite_resource",
+              "@schemename": "dnet:dataCite_resource"
+            },
+            "isgreen": {
+              "$": false
+            },
+            "openaccesscolor": {
+              "$": "gold"
+            },
+            "isindiamondjournal": {
+              "$": false
+            },
+            "publiclyfunded": {
+              "$": false
+            },
+            "journal": {
+              "@issn": "2084-2902",
+              "@ep": "115",
+              "@iss": "19",
+              "@sp": "97",
+              "$": "Gdańskie Studia Azji Wschodniej"
+            },
+            "datainfo": {
+              "inferred": {
+                "$": false
+              },
+              "deletedbyinference": {
+                "$": false
+              },
+              "trust": {
+                "$": "0.9"
+              },
+              "inferenceprovenance": {
+                "$": "null"
+              },
+              "provenanceaction": {
+                "@classid": "sysimport:crosswalk:repository",
+                "@classname": "Harvested",
+                "@schemeid": "dnet:provenanceActions",
+                "@schemename": "dnet:provenanceActions"
+              }
+            },
+            "rels": {
+              "rel": {
+                "@inferred": true,
+                "@trust": "0.85",
+                "@inferenceprovenance": "propagation",
+                "@provenanceaction": "result:organization:instrepo",
+                "to": {
+                  "@class": "hasAuthorInstitution",
+                  "@scheme": "dnet:result_organization_relations",
+                  "@type": "organization",
+                  "$": "openorgs____::e7b3816d378182c681b5dad48bf5fe49"
+                },
+                "country": {
+                  "@classid": "PL",
+                  "@classname": "Poland",
+                  "@schemeid": "dnet:countries",
+                  "@schemename": "dnet:countries"
+                },
+                "websiteurl": {
+                  "$": "http://en.ug.edu.pl/"
+                },
+                "legalshortname": {
+                  "$": "UG"
+                },
+                "legalname": {
+                  "$": "University of Gdańsk"
+                }
+              }
+            },
+            "children": {
+              "instance": {
+                "accessright": {
+                  "@classid": "OPEN",
+                  "@classname": "Open Access",
+                  "@schemeid": "dnet:access_modes",
+                  "@schemename": "dnet:access_modes"
+                },
+                "collectedfrom": {
+                  "@name": "The Knowledge Base of the University of Gdańsk",
+                  "@id": "eurocrisdris::24ecb75193edd0a635c637dc4b5bc435"
+                },
+                "hostedby": {
+                  "@name": "Gdańskie Studia Azji Wschodniej",
+                  "@id": "issn___print::928242323e9d54b02db80c1377183a0e"
+                },
+                "dateofacceptance": {
+                  "$": "2021-01-01"
+                },
+                "instancetype": {
+                  "@classid": "0001",
+                  "@classname": "Article",
+                  "@schemeid": "dnet:publication_resource",
+                  "@schemename": "dnet:publication_resource"
+                },
+                "alternateidentifier": {
+                  "@classid": "doi",
+                  "@classname": "Digital Object Identifier",
+                  "@schemeid": "dnet:pid_types",
+                  "@schemename": "dnet:pid_types",
+                  "$": "10.4467/23538724gs.20.052.13492"
+                },
+                "refereed": {
+                  "@classid": "0002",
+                  "@classname": "nonPeerReviewed",
+                  "@schemeid": "dnet:review_levels",
+                  "@schemename": "dnet:review_levels"
+                },
+                "webresource": {
+                  "url": {
+                    "$": "https://doi.org/10.4467/23538724GS.20.052.13492"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "verified_china": true,
+      "detection_method": "targeted_keyword_search",
+      "keyword_used": "China",
+      "country": "PL",
+      "collection_date": "2025-09-22T20:24:14.222610"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0000006955",
+  "ticker": "EPAC",
+  "name": "ENERPAC TOOL GROUP CORP",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3590",
+  "sicDescription": "Misc Industrial & Commercial Machinery & Equipment",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "WI",
+  "ein": "390168610",
+  "phone": "262-293-1500",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "648 N PLANKINTON AVE, 4TH FLOOR",
+      "street2": null,
+      "city": "MILWAUKEE",
+      "stateOrCountry": "WI",
+      "zipCode": "53203-2917",
+      "stateOrCountryDescription": "WI",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "648 N PLANKINTON AVE, 4TH FLOOR",
+      "street2": null,
+      "city": "MILWAUKEE",
+      "stateOrCountry": "WI",
+      "zipCode": "53203-2917",
+      "stateOrCountryDescription": "WI",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-07-07"
+  },
+  "filings_count": 1002
+}

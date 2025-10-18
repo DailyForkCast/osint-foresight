@@ -1,0 +1,1201 @@
+[
+  {
+    "paper_id": "https://openalex.org/W3049021989",
+    "doi": "https://doi.org/10.48550/arxiv.2008.06519",
+    "title": "Room-Temperature Skyrmion Thermopower in Fe3Sn2",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Brookhaven National Laboratory",
+        "Stony Brook University"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "C. Petrović (Stony Brook University)",
+        "C. Petrović (Brookhaven National Laboratory)",
+        "Qianheng Du (Brookhaven National Laboratory)",
+        "Yimei Zhu (Brookhaven National Laboratory)",
+        "Myung‐Geun Han (Brookhaven National Laboratory)",
+        "Weijun Ren (Brookhaven National Laboratory)",
+        "Qianheng Du (Stony Brook University)",
+        "Yu Liu (Brookhaven National Laboratory)"
+      ],
+      "CN": [
+        "Yimei Zhu (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 2556,
+      "extraction_command": "sed -n '2556p' part_000.gz | jq '.title'",
+      "paper_hash": "8ffbcd05bc024abb"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W3048421505",
+    "doi": "https://doi.org/10.48550/arxiv.2008.04743",
+    "title": "Scalable and Communication-efficient Decentralized Federated Edge Learning with Multi-blockchain Framework",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "AU",
+      "CA",
+      "CN",
+      "SG"
+    ],
+    "institutions": {
+      "CA": [
+        "BC Research (Canada)"
+      ],
+      "SG": [
+        "Nanyang Technological University",
+        "National University of Singapore"
+      ],
+      "AU": [
+        "Monash University"
+      ],
+      "CN": [
+        "Tsinghua University",
+        "Wuhan University of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "CA": [
+        "Cyril Leung (BC Research (Canada))"
+      ],
+      "SG": [
+        "Jiawen Kang (Nanyang Technological University)",
+        "Chunyan Miao (National University of Singapore)",
+        "Dusit Niyato (National University of Singapore)"
+      ],
+      "AU": [
+        "Yi Liu (Monash University)"
+      ],
+      "CN": [
+        "Chunxiao Jiang (Tsinghua University)",
+        "Yang Zhang (Wuhan University of Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1,
+      "extraction_command": "sed -n '1p' part_000.gz | jq '.title'",
+      "paper_hash": "8d076a53960e5636"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W3156467040",
+    "doi": null,
+    "title": "To Help or Not to Help: A Game-Theoretic Analysis of Regulation GPOs' Price-Ceiling Policy",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Temple University"
+      ],
+      "CN": [
+        "Dalian University of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Subodha Kumar (Temple University)"
+      ],
+      "CN": [
+        "Yingxin Zhang (Dalian University of Technology)",
+        "Xiangpei Hu (Dalian University of Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_009.gz",
+      "line_number": 25,
+      "extraction_command": "sed -n '25p' part_009.gz | jq '.title'",
+      "paper_hash": "0e6841628af5fb97"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4249723511",
+    "doi": "https://doi.org/10.26434/chemrxiv.12599951",
+    "title": "Thermochromic AIE Dual Phosphorescence via Temperature-Dependent sp3-Linked Donor-Acceptor Electronic Coupling",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "New York University"
+      ],
+      "CN": [
+        "Hefei National Center for Physical Sciences at Nanoscale",
+        "New York University Shanghai",
+        "University of Science and Technology of China"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Xiang Sun (New York University)"
+      ],
+      "CN": [
+        "Hui Miao (University of Science and Technology of China)",
+        "Guoqing Zhang (Hefei National Center for Physical Sciences at Nanoscale)",
+        "Xiancheng Nie (University of Science and Technology of China)",
+        "Zhubin Hu (New York University Shanghai)",
+        "Tao Wang (University of Science and Technology of China)",
+        "Linkun Huang (Hefei National Center for Physical Sciences at Nanoscale)",
+        "Hui Miao (Hefei National Center for Physical Sciences at Nanoscale)",
+        "Linkun Huang (University of Science and Technology of China)",
+        "Xiang Sun (New York University Shanghai)",
+        "Xiancheng Nie (Hefei National Center for Physical Sciences at Nanoscale)",
+        "Guoqing Zhang (University of Science and Technology of China)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_003.gz",
+      "line_number": 327,
+      "extraction_command": "sed -n '327p' part_003.gz | jq '.title'",
+      "paper_hash": "ac712fd9603fc75e"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W3206435460",
+    "doi": null,
+    "title": "Evolution of Polypoidal Lesions after Anti-VEGF Treatment Using Swept-Source Optical Coherence Tomography Angiography in Polypoidal Choroidal Vasculopathy",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University of Miami"
+      ],
+      "CN": [
+        "Shanghai First People's Hospital",
+        "Shanghai Jiao Tong University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Giovanni Gregori (University of Miami)",
+        "Mengxi Shen (University of Miami)",
+        "Philip J. Rosenfeld (University of Miami)"
+      ],
+      "CN": [
+        "Minlu Song (Shanghai Jiao Tong University)",
+        "Fenghua Wang (Shanghai First People's Hospital)",
+        "Minlu Song (Shanghai First People's Hospital)",
+        "Xiaodong Sun (Shanghai First People's Hospital)",
+        "Fenghua Wang (Shanghai Jiao Tong University)",
+        "Qiyu Bo (Shanghai Jiao Tong University)",
+        "Qiyu Bo (Shanghai First People's Hospital)",
+        "Xiaodong Sun (Shanghai Jiao Tong University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 1442,
+      "extraction_command": "sed -n '1442p' part_001.gz | jq '.title'",
+      "paper_hash": "be83c6ccc2063219"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W3208835887",
+    "doi": null,
+    "title": "Evaluation of Long-Term Visual Field Function in Patients Undergoing Glaucoma Drainage Device Implantation",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "California University of Pennsylvania",
+        "University of California, San Francisco",
+        "Smith-Kettlewell Eye Research Institute"
+      ],
+      "CN": [
+        "Henan Provincial Eye Hospital"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Qian Liu (University of California, San Francisco)",
+        "Ying Han (University of California, San Francisco)",
+        "Gui-Shuang Ying (California University of Pennsylvania)",
+        "Qian Liu (Smith-Kettlewell Eye Research Institute)",
+        "Yinxi Yu (California University of Pennsylvania)",
+        "Murtaza Saifee (University of California, San Francisco)"
+      ],
+      "CN": [
+        "Qian Liu (Henan Provincial Eye Hospital)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 1853,
+      "extraction_command": "sed -n '1853p' part_001.gz | jq '.title'",
+      "paper_hash": "a13bd1aecd3e8560"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4231029400",
+    "doi": "https://doi.org/10.1016/j.ijrobp.2020.07.1540",
+    "title": "Withdrawn",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "CA",
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University Hospitals Seidman Cancer Center",
+        "Case Western Reserve University"
+      ],
+      "CA": [
+        "University of Toronto",
+        "Sunnybrook Health Science Centre"
+      ],
+      "CN": [
+        "University of Hong Kong - Shenzhen Hospital"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Feng‐Ming Kong (Case Western Reserve University)",
+        "Feng‐Ming Kong (University Hospitals Seidman Cancer Center)",
+        "Jian‐Yue Jin (Case Western Reserve University)",
+        "Jian‐Yue Jin (University Hospitals Seidman Cancer Center)"
+      ],
+      "CA": [
+        "Jian‐Yue Jin (University of Toronto)",
+        "Alexander Chang (University of Toronto)",
+        "Alexander Chang (Sunnybrook Health Science Centre)",
+        "Feng‐Ming Kong (University of Toronto)"
+      ],
+      "CN": [
+        "Yaqing Nong (University of Hong Kong - Shenzhen Hospital)",
+        "Zhiyuan Xu (University of Hong Kong - Shenzhen Hospital)",
+        "Wing Hong Chan (University of Hong Kong - Shenzhen Hospital)",
+        "Kyujoon Lee (University of Hong Kong - Shenzhen Hospital)",
+        "Alexander Chang (University of Hong Kong - Shenzhen Hospital)",
+        "Song Hui (University of Hong Kong - Shenzhen Hospital)",
+        "Yong Zhou (University of Hong Kong - Shenzhen Hospital)",
+        "Qīng Wáng (University of Hong Kong - Shenzhen Hospital)",
+        "Yang Li (University of Hong Kong - Shenzhen Hospital)",
+        "Hao Zhang (University of Hong Kong - Shenzhen Hospital)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 107,
+      "extraction_command": "sed -n '107p' part_001.gz | jq '.title'",
+      "paper_hash": "18a5abd9438946da"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4200207063",
+    "doi": "https://doi.org/10.1093/geroni/igab046.1383",
+    "title": "Vietnamese Families' Strength and Resilience and Healthcare Professionals’ Role During the Pandemic",
+    "publication_year": 2021,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "The University of Texas Medical Branch at Galveston",
+        "University of Houston"
+      ],
+      "CN": [
+        "Central South University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Christina E. Miyawaki (University of Houston)",
+        "Kyriakos Markides (The University of Texas Medical Branch at Galveston)"
+      ],
+      "CN": [
+        "Minhui Liu (Central South University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2021,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 234,
+      "extraction_command": "sed -n '234p' part_001.gz | jq '.title'",
+      "paper_hash": "961bf2a9a8855fc8"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W3096004323",
+    "doi": "https://doi.org/10.3389/fimmu.2020.615275",
+    "title": "Corrigendum: Interferon-α2b Treatment for COVID-19",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "AU",
+      "CA",
+      "CN"
+    ],
+    "institutions": {
+      "CA": [
+        "Prevention of Organ Failure",
+        "University of British Columbia",
+        "University of Toronto",
+        "University Health Network",
+        "St. Paul's Hospital",
+        "Toronto General Hospital"
+      ],
+      "AU": [
+        "The Kids Research Institute Australia"
+      ],
+      "CN": [
+        "Huazhong University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "CA": [
+        "Casey P. Shannon (Prevention of Organ Failure)",
+        "Scott J. Tebbutt (Prevention of Organ Failure)",
+        "Virginia Chen (Prevention of Organ Failure)",
+        "Eleanor N. Fish (University Health Network)",
+        "Virginia Chen (St. Paul's Hospital)",
+        "Virginia Chen (University of British Columbia)",
+        "Casey P. Shannon (St. Paul's Hospital)",
+        "Eleanor N. Fish (University of Toronto)",
+        "Casey P. Shannon (University of British Columbia)",
+        "Scott J. Tebbutt (St. Paul's Hospital)",
+        "Eleanor N. Fish (Toronto General Hospital)",
+        "Scott J. Tebbutt (University of British Columbia)"
+      ],
+      "AU": [
+        "Tobias R. Kollmann (The Kids Research Institute Australia)"
+      ],
+      "CN": [
+        "Qiong Zhou (Huazhong University of Science and Technology)",
+        "Xu Wang (Huazhong University of Science and Technology)",
+        "Zihao Wang (Huazhong University of Science and Technology)",
+        "Xiao‐Shan Wei (Huazhong University of Science and Technology)",
+        "Xuan Xiang (Huazhong University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 330,
+      "extraction_command": "sed -n '330p' part_000.gz | jq '.title'",
+      "paper_hash": "90172069d583d966"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4200273644",
+    "doi": "https://doi.org/10.4018/978-1-6684-3702-5.ch073",
+    "title": "The Role of Functional Diversity, Collective Team Identification, and Task Cohesion in Influencing Innovation Speed",
+    "publication_year": 2021,
+    "countries_collaborating": [
+      "CN",
+      "SG"
+    ],
+    "institutions": {
+      "SG": [
+        "National University of Singapore"
+      ],
+      "CN": [
+        "East China University of Science and Technology",
+        "Fudan University"
+      ]
+    },
+    "authors_by_country": {
+      "SG": [
+        "Bernard C. Y. Tan (National University of Singapore)"
+      ],
+      "CN": [
+        "Hong Ling (Fudan University)",
+        "Jin Chen (East China University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2021,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 864,
+      "extraction_command": "sed -n '864p' part_000.gz | jq '.title'",
+      "paper_hash": "4db9e449fcd3f710"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4200279765",
+    "doi": "https://doi.org/10.7287/peerj.12223v0.1/reviews/2",
+    "title": "Peer Review #2 of \"Prevalence of depression and its associated factors among adolescents in China during the early stage of the COVID-19 outbreak (v0.1)\"",
+    "publication_year": 2021,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "The University of Western Australia",
+        "The University of Notre Dame Australia"
+      ],
+      "CN": [
+        "Beijing Anding Hospital",
+        "Capital Medical University"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Gábor S. Ungvári (The University of Notre Dame Australia)",
+        "Gábor S. Ungvári (The University of Western Australia)"
+      ],
+      "CN": [
+        "Siman Lei (Beijing Anding Hospital)",
+        "Jia Luo (Capital Medical University)",
+        "Yuan Feng (Capital Medical University)",
+        "Yuan Feng (Beijing Anding Hospital)",
+        "Siman Lei (Capital Medical University)",
+        "Rui Liu (Beijing Anding Hospital)",
+        "Jia Luo (Beijing Anding Hospital)",
+        "Chen Xu (Beijing Anding Hospital)",
+        "Han Qi (Capital Medical University)",
+        "Rui Liu (Capital Medical University)",
+        "Han Qi (Beijing Anding Hospital)",
+        "Chen Xu (Capital Medical University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2021,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1549,
+      "extraction_command": "sed -n '1549p' part_000.gz | jq '.title'",
+      "paper_hash": "1290beddb8bd1268"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4200281046",
+    "doi": "https://doi.org/10.7287/peerj.12223v0.1/reviews/1",
+    "title": "Peer Review #1 of \"Prevalence of depression and its associated factors among adolescents in China during the early stage of the COVID-19 outbreak (v0.1)\"",
+    "publication_year": 2021,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "The University of Western Australia",
+        "The University of Notre Dame Australia"
+      ],
+      "CN": [
+        "Beijing Anding Hospital",
+        "Capital Medical University"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Gábor S. Ungvári (The University of Notre Dame Australia)",
+        "Gábor S. Ungvári (The University of Western Australia)"
+      ],
+      "CN": [
+        "Siman Lei (Beijing Anding Hospital)",
+        "Jia Luo (Capital Medical University)",
+        "Yuan Feng (Capital Medical University)",
+        "Yuan Feng (Beijing Anding Hospital)",
+        "Siman Lei (Capital Medical University)",
+        "Rui Liu (Beijing Anding Hospital)",
+        "Jia Luo (Beijing Anding Hospital)",
+        "Chen Xu (Beijing Anding Hospital)",
+        "Han Qi (Capital Medical University)",
+        "Han Qi (Beijing Anding Hospital)",
+        "Rui Liu (Capital Medical University)",
+        "Chen Xu (Capital Medical University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2021,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1550,
+      "extraction_command": "sed -n '1550p' part_000.gz | jq '.title'",
+      "paper_hash": "63b3040a3c0cc625"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4238723531",
+    "doi": "https://doi.org/10.21037/tau.2020.02.22",
+    "title": "Estimates of over-time trends in incidence and mortality of testicular cancer from 1990 to 2030",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University of California, San Francisco"
+      ],
+      "CN": [
+        "Peking University",
+        "Peking University First Hospital",
+        "Second Hospital of Tianjin Medical University",
+        "Tianjin Medical University General Hospital",
+        "Tianjin Medical University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Guiting Lin (University of California, San Francisco)"
+      ],
+      "CN": [
+        "Zhongcheng Xin (Second Hospital of Tianjin Medical University)",
+        "Xuemei Guo (Tianjin Medical University)",
+        "Zhongcheng Xin (Peking University First Hospital)",
+        "Yaogang Wang (Tianjin Medical University)",
+        "Jie Hou (Tianjin Medical University)",
+        "Shu Li (Tianjin Medical University)",
+        "Baoshuai Zhang (Second Hospital of Tianjin Medical University)",
+        "Zhongcheng Xin (Tianjin Medical University)",
+        "Wei Zhang (Tianjin Medical University)",
+        "Yegang Chen (Tianjin Medical University)",
+        "Chenjie Xu (Tianjin Medical University)",
+        "Qiliang Cai (Second Hospital of Tianjin Medical University)",
+        "Xinyu Zhang (Tianjin Medical University)",
+        "Yegang Chen (Second Hospital of Tianjin Medical University)",
+        "Yuanjie Niu (Tianjin Medical University)",
+        "Baoshuai Zhang (Tianjin Medical University)",
+        "Qiliang Cai (Tianjin Medical University)",
+        "Dingrong Zhang (Tianjin Medical University)",
+        "Zhongcheng Xin (Peking University)",
+        "Xiaodong Zhou (Second Hospital of Tianjin Medical University)",
+        "Yuanjie Niu (Second Hospital of Tianjin Medical University)",
+        "Ying Gao (Tianjin Medical University General Hospital)",
+        "Dingrong Zhang (Second Hospital of Tianjin Medical University)",
+        "Zunke Xie (Tianjin Medical University)",
+        "Jiancheng Pan (Second Hospital of Tianjin Medical University)",
+        "Zunke Xie (Second Hospital of Tianjin Medical University)",
+        "Wei Zhang (Second Hospital of Tianjin Medical University)",
+        "Jiancheng Pan (Tianjin Medical University)",
+        "Xiaodong Zhou (Tianjin Medical University)",
+        "Fei Ma (Tianjin Medical University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 21,
+      "extraction_command": "sed -n '21p' part_000.gz | jq '.title'",
+      "paper_hash": "a94327679527499c"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4205088699",
+    "doi": "https://doi.org/10.2991/assehr.k.211209.021",
+    "title": "Heightened Herd Behavior in Financial Market Under Covid-19",
+    "publication_year": 2021,
+    "countries_collaborating": [
+      "CN",
+      "SG"
+    ],
+    "institutions": {
+      "SG": [
+        "Raffles Institution"
+      ],
+      "CN": [
+        "Qingdao Women and Children's Hospital",
+        "Qingdao University"
+      ]
+    },
+    "authors_by_country": {
+      "SG": [
+        "Yafan Wang (Raffles Institution)"
+      ],
+      "CN": [
+        "Sijin Lyu (Qingdao Women and Children's Hospital)",
+        "Sijin Lyu (Qingdao University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2021,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_006.gz",
+      "line_number": 27,
+      "extraction_command": "sed -n '27p' part_006.gz | jq '.title'",
+      "paper_hash": "b8dfdaf46930ffd0"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4232873293",
+    "doi": "https://doi.org/10.1007/978-3-030-63647-0_40",
+    "title": "Surface Hybrid Structuring by Laser Removal and Subtractive Processing",
+    "publication_year": 2021,
+    "countries_collaborating": [
+      "CN",
+      "SG"
+    ],
+    "institutions": {
+      "SG": [
+        "National University of Singapore"
+      ],
+      "CN": [
+        "Wenzhou University",
+        "Harbin Institute of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "SG": [
+        "Minghui Hong (National University of Singapore)",
+        "Xue Yao (National University of Singapore)"
+      ],
+      "CN": [
+        "Lijun Yang (Harbin Institute of Technology)",
+        "Ding Ye (Harbin Institute of Technology)",
+        "Fengping Li (Wenzhou University)",
+        "Xue Yao (Wenzhou University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2021,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_011.gz",
+      "line_number": 306,
+      "extraction_command": "sed -n '306p' part_011.gz | jq '.title'",
+      "paper_hash": "f204f7e180f4ae29"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W3000642212",
+    "doi": "https://doi.org/10.1080/14786419.2020.1712381",
+    "title": "A new alkynol compound from <i>Platycodins folium</i> and its cytotoxicity",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Creighton University"
+      ],
+      "CN": [
+        "Jilin Medical University",
+        "Jilin University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Zhuo Li (Creighton University)"
+      ],
+      "CN": [
+        "Cuizhu Wang (Jilin Medical University)",
+        "Fang Wang (Jilin University)",
+        "Jinping Liu (Jilin University)",
+        "Fang Wang (Jilin Medical University)",
+        "Qinghai Dong (Jilin University)",
+        "Fulin Wu (Jilin University)",
+        "Cuizhu Wang (Jilin University)",
+        "Pingya Li (Jilin University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_027.gz",
+      "line_number": 104,
+      "extraction_command": "sed -n '104p' part_027.gz | jq '.title'",
+      "paper_hash": "20df1b0589d2dc7d"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W3195990437",
+    "doi": "https://doi.org/10.1177/03611981211036358",
+    "title": "Developing a Google Earth-Based Method to Measure Sight Distance for U-Turns at Unsignalized Intersections on Multilane Divided Highways",
+    "publication_year": 2021,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Auburn University"
+      ],
+      "CN": [
+        "Southeast University",
+        "Beijing Urban Construction Design & Development Group (China)"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Huaguo Zhou (Auburn University)",
+        "Beijia Zhang (Auburn University)"
+      ],
+      "CN": [
+        "Pan Liu (Southeast University)",
+        "Li Quan (Beijing Urban Construction Design & Development Group (China))"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2021,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_031.gz",
+      "line_number": 74,
+      "extraction_command": "sed -n '74p' part_031.gz | jq '.title'",
+      "paper_hash": "3de1e752eb2d6aa8"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W3003217347",
+    "doi": "https://doi.org/10.1038/s41586-020-2008-3",
+    "title": "A new coronavirus associated with human respiratory disease in China",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "The University of Sydney"
+      ],
+      "CN": [
+        "National Institute for Communicable Disease Control and Prevention",
+        "Central Hospital of Wuhan",
+        "Wuhan Center for Disease Control and Prevention",
+        "Shanghai Public Health Clinical Center",
+        "Huazhong University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Edward C. Holmes (The University of Sydney)"
+      ],
+      "CN": [
+        "Fa-Hui Dai (Shanghai Public Health Clinical Center)",
+        "Lin Xu (Shanghai Public Health Clinical Center)",
+        "Jun-Hua Tian (Wuhan Center for Disease Control and Prevention)",
+        "Yanmei Chen (Shanghai Public Health Clinical Center)",
+        "Ming-Li Yuan (Huazhong University of Science and Technology)",
+        "Fan Wu (Shanghai Public Health Clinical Center)",
+        "Zhao-Wu Tao (Huazhong University of Science and Technology)",
+        "Yǒng-Zhèn Zhāng (National Institute for Communicable Disease Control and Prevention)",
+        "Yi Liu (Shanghai Public Health Clinical Center)",
+        "Zhi-Gang Song (Shanghai Public Health Clinical Center)",
+        "Yi Hu (Huazhong University of Science and Technology)",
+        "Wen Wang (National Institute for Communicable Disease Control and Prevention)",
+        "Yu-Ling Zhang (Shanghai Public Health Clinical Center)",
+        "Qimin Wang (Shanghai Public Health Clinical Center)",
+        "Yuan-Yuan Pei (Shanghai Public Health Clinical Center)",
+        "Zhao Su (Huazhong University of Science and Technology)",
+        "Ming-Li Yuan (Central Hospital of Wuhan)",
+        "Bin Yu (Wuhan Center for Disease Control and Prevention)",
+        "Zhao-Wu Tao (Central Hospital of Wuhan)",
+        "Zhao Su (Central Hospital of Wuhan)",
+        "Yi Hu (Central Hospital of Wuhan)",
+        "Jiao-Jiao Zheng (Shanghai Public Health Clinical Center)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 107,
+      "extraction_command": "sed -n '107p' part_000.gz | jq '.title'",
+      "paper_hash": "af72d1430dcbf773"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W3011891944",
+    "doi": "https://doi.org/10.1097/md.0000000000019183",
+    "title": "Effect of evidence-based nursing intervention on upper limb function in postoperative radiotherapy patients with breast cancer",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Weatherford College"
+      ],
+      "CN": [
+        "Huazhong University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Qian Lai (Weatherford College)",
+        "Yuzhen Tian (Weatherford College)",
+        "Xin Wang (Weatherford College)"
+      ],
+      "CN": [
+        "Zou Ling (Huazhong University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_006.gz",
+      "line_number": 13,
+      "extraction_command": "sed -n '13p' part_006.gz | jq '.title'",
+      "paper_hash": "9aebcae620086c78"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W3216105902",
+    "doi": "https://doi.org/10.1088/1361-6463/ac3d5d",
+    "title": "Reduced breakdown voltage for in-liquid plasma discharges using moveable electrodes",
+    "publication_year": 2021,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "Queensland University of Technology",
+        "The University of Sydney"
+      ],
+      "CN": [
+        "Huazhong University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Tianqi Zhang (The University of Sydney)",
+        "Wenshao Li (Queensland University of Technology)",
+        "Rusen Zhou (The University of Sydney)",
+        "Jungmi Hong (The University of Sydney)",
+        "Jungmi Hong (Queensland University of Technology)",
+        "Rusen Zhou (Queensland University of Technology)",
+        "Renwu Zhou (The University of Sydney)",
+        "Patrick J. Cullen (The University of Sydney)",
+        "Kostya Ostrikov (Queensland University of Technology)"
+      ],
+      "CN": [
+        "Yubin Xian (Huazhong University of Science and Technology)",
+        "Dejiang Zhou (Huazhong University of Science and Technology)",
+        "Xinpei Lu (Huazhong University of Science and Technology)",
+        "Baowang Liu (Huazhong University of Science and Technology)",
+        "Yiyang Li (Huazhong University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2021,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_018.gz",
+      "line_number": 196,
+      "extraction_command": "sed -n '196p' part_018.gz | jq '.title'",
+      "paper_hash": "391c72420001373e"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W3091238583",
+    "doi": "https://doi.org/10.5772/intechopen.92968",
+    "title": "The Na/K-ATPase Signaling Regulates Natriuresis in Renal Proximal Tubule",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Marshall University"
+      ],
+      "CN": [
+        "Yanshan University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Yanling Yan (Marshall University)",
+        "Jiang Liu (Marshall University)",
+        "Joseph I. Shapiro (Marshall University)"
+      ],
+      "CN": [
+        "Yanling Yan (Yanshan University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_024.gz",
+      "line_number": 30,
+      "extraction_command": "sed -n '30p' part_024.gz | jq '.title'",
+      "paper_hash": "b8b668fbeb34e83a"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    }
+  }
+]

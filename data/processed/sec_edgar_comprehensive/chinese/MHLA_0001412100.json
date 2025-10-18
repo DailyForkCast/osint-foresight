@@ -1,0 +1,45 @@
+{
+  "cik": "0001412100",
+  "ticker": "MHLA",
+  "name": "Maiden Holdings, Ltd.",
+  "detection_reasons": [
+    "offshore:bermuda",
+    "offshore:bm"
+  ],
+  "sic": "6331",
+  "sicDescription": "Fire, Marine & Casualty Insurance",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "D0",
+  "ein": "000000000",
+  "phone": "(441) 298-4900",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "48 PAR-LA-VILLE ROAD",
+      "street2": "SUITE 1141",
+      "city": "HAMILTON",
+      "stateOrCountry": "D0",
+      "zipCode": "HM 11",
+      "stateOrCountryDescription": "Bermuda",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "48 PAR-LA-VILLE ROAD",
+      "street2": "SUITE 1141",
+      "city": "HAMILTON",
+      "stateOrCountry": "D0",
+      "zipCode": "HM 11",
+      "stateOrCountryDescription": "Bermuda",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 906
+}

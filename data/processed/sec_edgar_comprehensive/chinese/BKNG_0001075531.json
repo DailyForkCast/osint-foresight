@@ -1,0 +1,47 @@
+{
+  "cik": "0001075531",
+  "ticker": "BKNG",
+  "name": "Booking Holdings Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "4700",
+  "sicDescription": "Transportation Services",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "061528493",
+  "phone": "203-299-8000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "800 CONNECTICUT AVE",
+      "street2": null,
+      "city": "NORWALK",
+      "stateOrCountry": "CT",
+      "zipCode": "06854",
+      "stateOrCountryDescription": "CT",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "800 CONNECTICUT AVE",
+      "street2": null,
+      "city": "NORWALK",
+      "stateOrCountry": "CT",
+      "zipCode": "06854",
+      "stateOrCountryDescription": "CT",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-19"
+  },
+  "filings_count": 1001
+}

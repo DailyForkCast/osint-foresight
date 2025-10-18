@@ -1,0 +1,47 @@
+{
+  "cik": "0001096056",
+  "ticker": "LXFR",
+  "name": "LUXFER HOLDINGS PLC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2810",
+  "sicDescription": "Industrial Inorganic Chemicals",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "X0",
+  "ein": "000000000",
+  "phone": "441615159620",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "LUMNS LANE",
+      "street2": null,
+      "city": "MANCHESTER",
+      "stateOrCountry": "X0",
+      "zipCode": "M27 8LN",
+      "stateOrCountryDescription": "United Kingdom",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "LUMNS LANE",
+      "street2": null,
+      "city": "MANCHESTER",
+      "stateOrCountry": "X0",
+      "zipCode": "M27 8LN",
+      "stateOrCountryDescription": "United Kingdom",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-14"
+  },
+  "filings_count": 643
+}

@@ -1,0 +1,20 @@
+
+DATABASE MERGE REPORT
+====================
+Time: 2025-09-26T05:08:57.744946
+
+Data Imported:
+- MCF Documents: 7
+- Procurement Records: 1355
+- Patent Records: 200
+- Publication Records: 450
+- Collaboration Records: 424
+
+Total New Records: 2436
+
+Errors: 3
+
+Error Details:
+  - MCF import error: 'NoneType' object is not subscriptable
+  - MCF import error: 'NoneType' object is not subscriptable
+  - MCF import error: 'NoneType' object is not subscriptable

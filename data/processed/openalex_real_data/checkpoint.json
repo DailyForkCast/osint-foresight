@@ -1,0 +1,170 @@
+{
+  "timestamp": "2025-09-20T18:02:09.361742",
+  "stats": {
+    "files_processed": 3,
+    "total_papers": 1225556,
+    "germany_papers": 10734,
+    "china_papers": 28718,
+    "germany_china_collaborations": 68,
+    "errors": 0
+  },
+  "sample_collaborations": [
+    {
+      "doi": "https://doi.org/10.21203/rs.3.rs-3438740/v1",
+      "title": "Multiple sustained increases in atmospheric oxygen and marine productivity through the Neoproterozoic and Paleozoic Eras",
+      "year": 2023,
+      "de_institutions": [
+        "State Museum of Natural History Karlsruhe",
+        "GFZ Helmholtz Centre for Geosciences"
+      ],
+      "cn_institutions": [
+        "Chengdu University of Technology"
+      ],
+      "source_file": "updated_date=2025-06-19\\part_001.gz",
+      "line_number": 5721,
+      "openalex_id": "https://openalex.org/W4388669954",
+      "verification_hash": "4d214a1a80851068"
+    },
+    {
+      "doi": "https://doi.org/10.1115/icem2023-111102",
+      "title": "History and Advances in German HLLW Vitrification Technology With Joule Heated Liquid Fed Ceramic Melter",
+      "year": 2023,
+      "de_institutions": [
+        "Karlsruhe Institute of Technology"
+      ],
+      "cn_institutions": [
+        "China General Nuclear Power Corporation (China)"
+      ],
+      "source_file": "updated_date=2025-06-19\\part_001.gz",
+      "line_number": 9304,
+      "openalex_id": "https://openalex.org/W4389061275",
+      "verification_hash": "521449923970fc2a"
+    },
+    {
+      "doi": "https://doi.org/10.1130/abs/2023am-391978",
+      "title": "FOCUSED EROSION ALONG THE SUTLEJ RIVER, NW INDIAN HIMALAYA – WHY NOT A TECTONIC ANEURYSM?",
+      "year": 2023,
+      "de_institutions": [
+        "University of Potsdam"
+      ],
+      "cn_institutions": [
+        "Chinese Academy of Sciences"
+      ],
+      "source_file": "updated_date=2025-06-19\\part_001.gz",
+      "line_number": 12734,
+      "openalex_id": "https://openalex.org/W4389353180",
+      "verification_hash": "a76f1316d436c819"
+    },
+    {
+      "doi": "https://doi.org/10.1364/assl.2023.sd1.5",
+      "title": "Sub-30-fs Kerr-lens mode-locked Yb:Sc2SiO5 laser",
+      "year": 2023,
+      "de_institutions": [
+        "Max-Born-Institute for Nonlinear Optics and Short Pulse Spectroscopy"
+      ],
+      "cn_institutions": [
+        "Chinese Academy of Sciences",
+        "Yunnan University",
+        "Shandong University of Science and Technology",
+        "Fujian Institute of Research on the Structure of Matter",
+        "Shanghai Institute of Ceramics"
+      ],
+      "source_file": "updated_date=2025-06-19\\part_001.gz",
+      "line_number": 13326,
+      "openalex_id": "https://openalex.org/W4389633590",
+      "verification_hash": "c49fdd3e0b2c0e71"
+    },
+    {
+      "doi": "https://doi.org/10.1109/cama57522.2023.10352787",
+      "title": "Mechanism and Applications of Electric and Magnetic Modes of Double-layer Metasurface",
+      "year": 2023,
+      "de_institutions": [
+        "Karlsruhe Institute of Technology"
+      ],
+      "cn_institutions": [
+        "Guangxi University of Science and Technology",
+        "South China Agricultural University"
+      ],
+      "source_file": "updated_date=2025-06-19\\part_001.gz",
+      "line_number": 14981,
+      "openalex_id": "https://openalex.org/W4389934799",
+      "verification_hash": "b6c91b6f15985b18"
+    },
+    {
+      "doi": "https://doi.org/10.7554/elife.86847.2",
+      "title": "Structural and mechanistic insight into ribosomal ITS2 RNA processing by nuclease-kinase machinery",
+      "year": 2023,
+      "de_institutions": [
+        "Goethe University Frankfurt"
+      ],
+      "cn_institutions": [
+        "University of Science and Technology of China"
+      ],
+      "source_file": "updated_date=2025-06-19\\part_001.gz",
+      "line_number": 16529,
+      "openalex_id": "https://openalex.org/W4389938401",
+      "verification_hash": "a754510799c7e99b"
+    },
+    {
+      "doi": "https://doi.org/10.1002/macp.202300388",
+      "title": "Next Generation of Polymer Researchers",
+      "year": 2023,
+      "de_institutions": [
+        "Friedrich Schiller University Jena"
+      ],
+      "cn_institutions": [
+        "Jilin University"
+      ],
+      "source_file": "updated_date=2025-06-19\\part_001.gz",
+      "line_number": 16696,
+      "openalex_id": "https://openalex.org/W4389938744",
+      "verification_hash": "8870cfe411a9837b"
+    },
+    {
+      "doi": "https://doi.org/10.1007/s41809-023-00136-0",
+      "title": "Distributed embodiment of the Persian term dæqi:qæn in forward gestures",
+      "year": 2023,
+      "de_institutions": [
+        "University of Education Weingarten"
+      ],
+      "cn_institutions": [
+        "University of Electronic Science and Technology of China"
+      ],
+      "source_file": "updated_date=2025-06-19\\part_001.gz",
+      "line_number": 17547,
+      "openalex_id": "https://openalex.org/W4389940694",
+      "verification_hash": "3babd2e27586e7d3"
+    },
+    {
+      "doi": "https://doi.org/10.23919/sice59929.2023.10354081",
+      "title": "TFCSG: An Unsupervised Approach for Question-retrieval Over Multi-task Learning",
+      "year": 2023,
+      "de_institutions": [
+        "Reutlingen University"
+      ],
+      "cn_institutions": [
+        "Xi'an Polytechnic University"
+      ],
+      "source_file": "updated_date=2025-06-19\\part_001.gz",
+      "line_number": 19672,
+      "openalex_id": "https://openalex.org/W4389946362",
+      "verification_hash": "cf3605c5a88eda00"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physreva.108.063311",
+      "title": "Theoretical investigation of an ultracold atom-dimer reaction for three identical bosons",
+      "year": 2023,
+      "de_institutions": [
+        "Universität Ulm",
+        "Center for Integrated Quantum Science and Technology"
+      ],
+      "cn_institutions": [
+        "Dalian University of Technology"
+      ],
+      "source_file": "updated_date=2025-06-19\\part_001.gz",
+      "line_number": 20532,
+      "openalex_id": "https://openalex.org/W4389948350",
+      "verification_hash": "6da847c1e069c9ba"
+    }
+  ]
+}

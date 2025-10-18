@@ -1,0 +1,47 @@
+{
+  "cik": "0001814114",
+  "ticker": "OBIO",
+  "name": "Orchestra BioMed Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3841",
+  "sicDescription": "Surgical & Medical Instruments & Apparatus",
+  "category": "Non-accelerated filer<br>Smaller reporting company<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "646-343-9298",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "150 UNION SQUARE DRIVE",
+      "street2": null,
+      "city": "NEW HOPE",
+      "stateOrCountry": "PA",
+      "zipCode": "18938",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "150 UNION SQUARE DRIVE",
+      "street2": null,
+      "city": "NEW HOPE",
+      "stateOrCountry": "PA",
+      "zipCode": "18938",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-12"
+  },
+  "filings_count": 329
+}

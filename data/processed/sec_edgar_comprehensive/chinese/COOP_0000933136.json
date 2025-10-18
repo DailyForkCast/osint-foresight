@@ -1,0 +1,47 @@
+{
+  "cik": "0000933136",
+  "ticker": "COOP",
+  "name": "Mr. Cooper Group Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6199",
+  "sicDescription": "Finance Services",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "911653725",
+  "phone": "469-549-2000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "8950 CYPRESS WATERS BLVD.",
+      "street2": null,
+      "city": "COPPELL",
+      "stateOrCountry": "TX",
+      "zipCode": "75019",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "8950 CYPRESS WATERS BLVD.",
+      "street2": null,
+      "city": "COPPELL",
+      "stateOrCountry": "TX",
+      "zipCode": "75019",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-22"
+  },
+  "filings_count": 1001
+}

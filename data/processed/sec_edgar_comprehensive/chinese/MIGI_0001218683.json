@@ -1,0 +1,47 @@
+{
+  "cik": "0001218683",
+  "ticker": "MIGI",
+  "name": "Mawson Infrastructure Group Inc.",
+  "detection_reasons": [
+    "offshore:ky"
+  ],
+  "sic": "6199",
+  "sicDescription": "Finance Services",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "880445167",
+  "phone": "61 02 8624 6130",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "201 CLARK STREET",
+      "street2": null,
+      "city": "SHARON",
+      "stateOrCountry": "PA",
+      "zipCode": "16146",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "201 CLARK STREET",
+      "street2": null,
+      "city": "SHARON",
+      "stateOrCountry": "PA",
+      "zipCode": "16146",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-17"
+  },
+  "filings_count": 632
+}

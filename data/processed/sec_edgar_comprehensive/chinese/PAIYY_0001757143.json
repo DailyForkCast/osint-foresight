@@ -1,0 +1,53 @@
+{
+  "cik": "0001757143",
+  "ticker": "PAIYY",
+  "name": "Aesthetic Medical International Holdings Group Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:shenzhen",
+    "location:guangdong",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "8093",
+  "sicDescription": "Services-Specialty Outpatient Facilities, NEC",
+  "category": "Non-accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "917 609-0333",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1122 NANSHAN AVENUE",
+      "street2": "NANSHAN DISTRICT",
+      "city": "SHENZHEN",
+      "stateOrCountry": null,
+      "zipCode": "518000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "GUANGDONG PROVINCE",
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "1122 NANSHAN AVENUE",
+      "street2": "NANSHAN DISTRICT",
+      "city": "SHENZHEN",
+      "stateOrCountry": null,
+      "zipCode": "518000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "GUANGDONG PROVINCE",
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-19"
+  },
+  "filings_count": 119
+}

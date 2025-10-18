@@ -1,0 +1,49 @@
+{
+  "cik": "0001966233",
+  "ticker": "NIPG",
+  "name": "NIP Group Inc.",
+  "detection_reasons": [
+    "location:shanghai",
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "7990",
+  "sicDescription": "Services-Miscellaneous Amusement & Recreation",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "46-705775564",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ROSENLUNDSGATAN 31",
+      "street2": null,
+      "city": "STOCKHOLM",
+      "stateOrCountry": "V7",
+      "zipCode": "118 63",
+      "stateOrCountryDescription": "Sweden",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "ROSENLUNDSGATAN 31",
+      "street2": null,
+      "city": "STOCKHOLM",
+      "stateOrCountry": "V7",
+      "zipCode": "118 63",
+      "stateOrCountryDescription": "Sweden",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-10"
+  },
+  "filings_count": 81
+}

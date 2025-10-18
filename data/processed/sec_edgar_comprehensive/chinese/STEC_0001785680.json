@@ -1,0 +1,52 @@
+{
+  "cik": "0001785680",
+  "ticker": "STEC",
+  "name": "Santech Holdings Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:shanghai",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "6282",
+  "sicDescription": "Investment Advice",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "8602180133888",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "F3",
+      "street2": "8 YINCHENG MID. ROAD, PUDONG NEW DIST.",
+      "city": "SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "200120",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "F3",
+      "street2": "8 YINCHENG MID. ROAD, PUDONG NEW DIST.",
+      "city": "SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "200120",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-07"
+  },
+  "filings_count": 78
+}

@@ -1,0 +1,48 @@
+{
+  "cik": "0001995116",
+  "ticker": "RECT",
+  "name": "Rectitude Holdings Ltd.",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "3420",
+  "sicDescription": "Cutlery, Handtools & General Hardware",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "6749 6640",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "35 TAMPINES INDUSTRIAL AVENUE 5",
+      "street2": null,
+      "city": "SINGAPORE",
+      "stateOrCountry": "U0",
+      "zipCode": "528627",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "35 TAMPINES INDUSTRIAL AVENUE 5",
+      "street2": null,
+      "city": "SINGAPORE",
+      "stateOrCountry": "U0",
+      "zipCode": "528627",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-08"
+  },
+  "filings_count": 43
+}

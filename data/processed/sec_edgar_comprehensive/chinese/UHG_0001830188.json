@@ -1,0 +1,47 @@
+{
+  "cik": "0001830188",
+  "ticker": "UHG",
+  "name": "United Homes Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "1531",
+  "sicDescription": "Operative Builders",
+  "category": "Non-accelerated filer<br>Smaller reporting company<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "853460766",
+  "phone": "844-766-4663",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "917 CHAPIN ROAD",
+      "street2": null,
+      "city": "CHAPIN",
+      "stateOrCountry": "SC",
+      "zipCode": "29036",
+      "stateOrCountryDescription": "SC",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "917 CHAPIN ROAD",
+      "street2": null,
+      "city": "CHAPIN",
+      "stateOrCountry": "SC",
+      "zipCode": "29036",
+      "stateOrCountryDescription": "SC",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-08"
+  },
+  "filings_count": 323
+}

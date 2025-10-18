@@ -1,0 +1,44 @@
+{
+  "cik": "0001324424",
+  "ticker": "EXPE",
+  "name": "Expedia Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "4700",
+  "sicDescription": "Transportation Services",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "202705720",
+  "phone": "(206) 481-7200",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1111 EXPEDIA GROUP WAY W.",
+      "street2": null,
+      "city": "SEATTLE",
+      "stateOrCountry": "WA",
+      "zipCode": "98119",
+      "stateOrCountryDescription": "WA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1111 EXPEDIA GROUP WAY W.",
+      "street2": null,
+      "city": "SEATTLE",
+      "stateOrCountry": "WA",
+      "zipCode": "98119",
+      "stateOrCountryDescription": "WA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1000
+}

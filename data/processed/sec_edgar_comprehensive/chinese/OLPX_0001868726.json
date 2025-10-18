@@ -1,0 +1,47 @@
+{
+  "cik": "0001868726",
+  "ticker": "OLPX",
+  "name": "OLAPLEX HOLDINGS, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2844",
+  "sicDescription": "Perfumes, Cosmetics & Other Toilet Preparations",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "310-691-0776",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "432 PARK AVENUE SOUTH",
+      "street2": "THIRD FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10016",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "432 PARK AVENUE SOUTH",
+      "street2": "THIRD FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10016",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-26"
+  },
+  "filings_count": 225
+}

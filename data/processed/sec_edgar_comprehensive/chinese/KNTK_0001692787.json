@@ -1,0 +1,47 @@
+{
+  "cik": "0001692787",
+  "ticker": "KNTK",
+  "name": "Kinetik Holdings Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "4922",
+  "sicDescription": "Natural Gas Transmission",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "814675947",
+  "phone": "713-621-7330",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2700 POST OAK BLVD.",
+      "street2": "SUITE 300",
+      "city": "HOUSTON",
+      "stateOrCountry": "TX",
+      "zipCode": "77056",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2700 POST OAK BLVD.",
+      "street2": "SUITE 300",
+      "city": "HOUSTON",
+      "stateOrCountry": "TX",
+      "zipCode": "77056",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-05"
+  },
+  "filings_count": 657
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0001585689",
+  "ticker": "HLT",
+  "name": "Hilton Worldwide Holdings Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7011",
+  "sicDescription": "Hotels & Motels",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "274384691",
+  "phone": "703-883-1000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "7930 JONES BRANCH DRIVE, SUITE 1100",
+      "street2": null,
+      "city": "MCLEAN",
+      "stateOrCountry": "VA",
+      "zipCode": "22102",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "7930 JONES BRANCH DRIVE, SUITE 1100",
+      "street2": null,
+      "city": "MCLEAN",
+      "stateOrCountry": "VA",
+      "zipCode": "22102",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-07-23"
+  },
+  "filings_count": 1005
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0001310488",
+  "ticker": "BFNH",
+  "name": "BIOFORCE NANOSCIENCES HOLDINGS, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3826",
+  "sicDescription": "Laboratory Analytical Instruments",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "852138858",
+  "phone": "757-306-6090",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2020 GENERAL BOOTH BLVD",
+      "street2": "SUITE 230",
+      "city": "VIRGINIA BEACH",
+      "stateOrCountry": "VA",
+      "zipCode": "23454",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2020 GENERAL BOOTH BLVD",
+      "street2": "SUITE 230",
+      "city": "VIRGINIA BEACH",
+      "stateOrCountry": "VA",
+      "zipCode": "23454",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-11"
+  },
+  "filings_count": 234
+}

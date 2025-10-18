@@ -1,0 +1,46 @@
+{
+  "cik": "0002034767",
+  "ticker": "UHP",
+  "name": "Ultra High Point Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong"
+  ],
+  "sic": "8000",
+  "sicDescription": "Services-Health Services",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "852 3101 1186",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT 707, 7TH FLOOR, LAKESIDE 1, PHASE 2",
+      "street2": "NO.8 SCIENCE PARK WEST AVENUE, HONG KONG",
+      "city": "PAK SHEK KOK",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "UNIT 707, 7TH FLOOR, LAKESIDE 1, PHASE 2",
+      "street2": "NO.8 SCIENCE PARK WEST AVENUE, HONG KONG",
+      "city": "PAK SHEK KOK",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 10
+}

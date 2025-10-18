@@ -1,0 +1,47 @@
+{
+  "cik": "0001866757",
+  "ticker": "BRLT",
+  "name": "Brilliant Earth Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3910",
+  "sicDescription": "Jewelry, Silverware & Plated Ware",
+  "category": "Non-accelerated filer<br>Smaller reporting company<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "871015499",
+  "phone": "(415) 918-5551",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "300 GRANT AVENUE",
+      "street2": "3RD FLOOR",
+      "city": "SAN FRANCISCO",
+      "stateOrCountry": "CA",
+      "zipCode": "94108",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "300 GRANT AVENUE",
+      "street2": "3RD FLOOR",
+      "city": "SAN FRANCISCO",
+      "stateOrCountry": "CA",
+      "zipCode": "94108",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-07"
+  },
+  "filings_count": 382
+}

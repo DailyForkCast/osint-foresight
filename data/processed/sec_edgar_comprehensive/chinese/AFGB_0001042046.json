@@ -1,0 +1,47 @@
+{
+  "cik": "0001042046",
+  "ticker": "AFGB",
+  "name": "AMERICAN FINANCIAL GROUP INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6331",
+  "sicDescription": "Fire, Marine & Casualty Insurance",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "OH",
+  "ein": "311544320",
+  "phone": "5135792121",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "GREAT AMERICAN INSURANCE GROUP TOWER",
+      "street2": "301 E. 4TH STREET",
+      "city": "CINCINNATI",
+      "stateOrCountry": "OH",
+      "zipCode": "45202",
+      "stateOrCountryDescription": "OH",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "GREAT AMERICAN INSURANCE GROUP TOWER",
+      "street2": "301 E. 4TH STREET",
+      "city": "CINCINNATI",
+      "stateOrCountry": "OH",
+      "zipCode": "45202",
+      "stateOrCountryDescription": "OH",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-23"
+  },
+  "filings_count": 1000
+}

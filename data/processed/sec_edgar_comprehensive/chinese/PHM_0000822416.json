@@ -1,0 +1,47 @@
+{
+  "cik": "0000822416",
+  "ticker": "PHM",
+  "name": "PULTEGROUP INC/MI/",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "1531",
+  "sicDescription": "Operative Builders",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "MI",
+  "ein": "382766606",
+  "phone": "(404) 978-6400",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3350 PEACHTREE ROAD NORTHEAST",
+      "street2": "SUITE 1500",
+      "city": "ATLANTA",
+      "stateOrCountry": "GA",
+      "zipCode": "30326",
+      "stateOrCountryDescription": "GA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3350 PEACHTREE ROAD NORTHEAST",
+      "street2": "SUITE 1500",
+      "city": "ATLANTA",
+      "stateOrCountry": "GA",
+      "zipCode": "30326",
+      "stateOrCountryDescription": "GA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-14"
+  },
+  "filings_count": 1000
+}

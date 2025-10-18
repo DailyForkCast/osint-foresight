@@ -1,0 +1,47 @@
+{
+  "cik": "0001855457",
+  "ticker": "KORE",
+  "name": "KORE Group Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "4899",
+  "sicDescription": "Communications Services, NEC",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "863078783",
+  "phone": "877-710-5673",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1155 PERIMETER CENTER WEST",
+      "street2": "11TH FLOOR",
+      "city": "ATLANTA",
+      "stateOrCountry": "GA",
+      "zipCode": "30346",
+      "stateOrCountryDescription": "GA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1155 PERIMETER CENTER WEST",
+      "street2": "11TH FLOOR",
+      "city": "ATLANTA",
+      "stateOrCountry": "GA",
+      "zipCode": "30346",
+      "stateOrCountryDescription": "GA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-14"
+  },
+  "filings_count": 414
+}

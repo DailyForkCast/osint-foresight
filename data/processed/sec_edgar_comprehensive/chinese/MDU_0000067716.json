@@ -1,0 +1,47 @@
+{
+  "cik": "0000067716",
+  "ticker": "MDU",
+  "name": "MDU RESOURCES GROUP INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "1400",
+  "sicDescription": "Mining & Quarrying of  Nonmetallic Minerals (No Fuels)",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "301133956",
+  "phone": "701-530-1000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1200 WEST CENTURY AVENUE",
+      "street2": null,
+      "city": "BISMARCK",
+      "stateOrCountry": "ND",
+      "zipCode": "58503",
+      "stateOrCountryDescription": "ND",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1200 WEST CENTURY AVENUE",
+      "street2": null,
+      "city": "BISMARCK",
+      "stateOrCountry": "ND",
+      "zipCode": "58503",
+      "stateOrCountryDescription": "ND",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-13"
+  },
+  "filings_count": 1008
+}

@@ -1,0 +1,36 @@
+{
+  "started": "2025-09-25T14:33:15.819510",
+  "gz_files_found": 49,
+  "successfully_decompressed": 39,
+  "failed": 0,
+  "skipped_large": 10,
+  "total_bytes_decompressed": 8339223033,
+  "large_files": [
+    {
+      "name": "5801.dat.gz",
+      "path": "F:\\DECOMPRESSED_DATA\\osint_data\\OSINT_DATA\\USAspending\\usaspending-db_20250906\\5801.dat.gz",
+      "size_gb": 14.3
+    },
+    {
+      "name": "5836.dat.gz",
+      "path": "F:\\DECOMPRESSED_DATA\\osint_data\\OSINT_DATA\\USAspending\\usaspending-db_20250906\\5836.dat.gz",
+      "size_gb": 13.07
+    },
+    {
+      "name": "5847.dat.gz",
+      "path": "F:\\DECOMPRESSED_DATA\\osint_data\\OSINT_DATA\\USAspending\\usaspending-db_20250906\\5847.dat.gz",
+      "size_gb": 15.56
+    },
+    {
+      "name": "5848.dat.gz",
+      "path": "F:\\DECOMPRESSED_DATA\\osint_data\\OSINT_DATA\\USAspending\\usaspending-db_20250906\\5848.dat.gz",
+      "size_gb": 16.49
+    },
+    {
+      "name": "5862.dat.gz",
+      "path": "F:\\DECOMPRESSED_DATA\\osint_data\\OSINT_DATA\\USAspending\\usaspending-db_20250906\\5862.dat.gz",
+      "size_gb": 4.71
+    }
+  ],
+  "completed": "2025-09-25T14:35:17.672755"
+}

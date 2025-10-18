@@ -1,0 +1,94 @@
+{
+  "original_path": "F:\\OSINT_DATA\\country_analysis\\Turkey_complete_analysis_20250917_053938.json",
+  "profile": {
+    "path": "F:\\OSINT_DATA\\country_analysis\\Turkey_complete_analysis_20250917_053938.json",
+    "size": 939,
+    "extension": ".json",
+    "encoding": "utf-8",
+    "line_count": 1,
+    "field_count": 9,
+    "parse_status": "success",
+    "schema": {
+      "country": "string",
+      "priority_level": "string",
+      "session_id": "string",
+      "start_time": "string",
+      "collectors_run": "array",
+      "files_created": "array",
+      "data_summary": "object",
+      "status": "string",
+      "errors": "array"
+    },
+    "sample_records": [
+      {
+        "country": "Turkey",
+        "priority_level": "PRIORITY",
+        "session_id": "priority_20250917_052237",
+        "start_time": "2025-09-17T05:38:33.080847",
+        "collectors_run": [
+          "fusion_analysis",
+          "conference_data",
+          "github_dependencies"
+        ],
+        "files_created": [],
+        "data_summary": {
+          "fusion": {
+            "status": "completed",
+            "file": "F:\\OSINT_DATA\\fusion_results\\Turkey_fusion_20250917_053833.json",
+            "china_exposure_score": 0.5,
+            "execution_time": 0.466576
+          },
+          "conferences": {
+            "status": "completed",
+            "file": "F:\\OSINT_DATA\\conferences\\Turkey_conferences_20250917_053936.json",
+            "conferences_found": 0
+          },
+          "github": {
+            "status": "completed",
+            "file": "F:\\OSINT_DATA\\github_dependencies\\Turkey_github_20250917_053938.json",
+            "vulnerabilities_found": 0,
+            "orgs_scanned": 1
+          }
+        },
+        "status": "running",
+        "errors": []
+      }
+    ],
+    "modified": "2025-09-17T05:39:40"
+  },
+  "sample_data": [
+    {
+      "country": "Turkey",
+      "priority_level": "PRIORITY",
+      "session_id": "priority_20250917_052237",
+      "start_time": "2025-09-17T05:38:33.080847",
+      "collectors_run": [
+        "fusion_analysis",
+        "conference_data",
+        "github_dependencies"
+      ],
+      "files_created": [],
+      "data_summary": {
+        "fusion": {
+          "status": "completed",
+          "file": "F:\\OSINT_DATA\\fusion_results\\Turkey_fusion_20250917_053833.json",
+          "china_exposure_score": 0.5,
+          "execution_time": 0.466576
+        },
+        "conferences": {
+          "status": "completed",
+          "file": "F:\\OSINT_DATA\\conferences\\Turkey_conferences_20250917_053936.json",
+          "conferences_found": 0
+        },
+        "github": {
+          "status": "completed",
+          "file": "F:\\OSINT_DATA\\github_dependencies\\Turkey_github_20250917_053938.json",
+          "vulnerabilities_found": 0,
+          "orgs_scanned": 1
+        }
+      },
+      "status": "running",
+      "errors": []
+    }
+  ]
+}

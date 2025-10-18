@@ -1,0 +1,1040 @@
+{
+  "generated": "2025-09-24T18:20:15.916806",
+  "locations": {
+    "project_data": {
+      "path": "C:/Projects/OSINT - Foresight/data",
+      "files": [],
+      "total_bytes": 103240054,
+      "total_files": 183,
+      "os_verification": {
+        "os_bytes": 1365608409,
+        "command": "powershell -Command \"Get-ChildItem -Path 'C:/Proje..."
+      },
+      "subdirectories": [
+        {
+          "name": "cache",
+          "files": 0,
+          "bytes": 0
+        },
+        {
+          "name": "collected",
+          "files": 20,
+          "bytes": 6261981
+        },
+        {
+          "name": "fusion",
+          "files": 1,
+          "bytes": 45056
+        },
+        {
+          "name": "interim",
+          "files": 0,
+          "bytes": 0
+        },
+        {
+          "name": "phase1_samples",
+          "files": 12,
+          "bytes": 766935
+        },
+        {
+          "name": "policies",
+          "files": 3,
+          "bytes": 26365
+        },
+        {
+          "name": "processed",
+          "files": 107,
+          "bytes": 80807749
+        },
+        {
+          "name": "raw",
+          "files": 6,
+          "bytes": 317508
+        },
+        {
+          "name": "real_verified",
+          "files": 2,
+          "bytes": 1949
+        },
+        {
+          "name": "supply_chain_analysis",
+          "files": 2,
+          "bytes": 4774613
+        },
+        {
+          "name": "tech_transfer_timeline",
+          "files": 5,
+          "bytes": 9570278
+        },
+        {
+          "name": "test_harvest",
+          "files": 22,
+          "bytes": 665727
+        },
+        {
+          "name": "trade_analysis",
+          "files": 2,
+          "bytes": 1485
+        },
+        {
+          "name": "uspto_bulk",
+          "files": 1,
+          "bytes": 408
+        }
+      ]
+    },
+    "osint_data": {
+      "path": "F:/OSINT_DATA",
+      "files": [],
+      "total_bytes": 184066646,
+      "total_files": 245,
+      "os_verification": {
+        "os_bytes": 476478435776,
+        "command": "powershell -Command \"Get-ChildItem -Path 'F:/OSINT..."
+      },
+      "subdirectories": [
+        {
+          "name": "logs",
+          "files": 2,
+          "bytes": 965
+        },
+        {
+          "name": "manifests",
+          "files": 1,
+          "bytes": 163
+        },
+        {
+          "name": "country=AT",
+          "files": 1,
+          "bytes": 40658042
+        },
+        {
+          "name": "SEC_EDGAR",
+          "files": 1,
+          "bytes": 133160960
+        },
+        {
+          "name": "EPO_PATENTS",
+          "files": 0,
+          "bytes": 0
+        },
+        {
+          "name": "THE_LENS",
+          "files": 0,
+          "bytes": 0
+        },
+        {
+          "name": "CORDIS",
+          "files": 0,
+          "bytes": 0
+        },
+        {
+          "name": "TED_PROCUREMENT",
+          "files": 0,
+          "bytes": 0
+        },
+        {
+          "name": "OPENALEX",
+          "files": 0,
+          "bytes": 0
+        },
+        {
+          "name": "Italy",
+          "files": 20,
+          "bytes": 352832
+        },
+        {
+          "name": "github_dependencies",
+          "files": 39,
+          "bytes": 13061
+        },
+        {
+          "name": "uspto_monitoring",
+          "files": 11,
+          "bytes": 2450
+        },
+        {
+          "name": "country_analysis",
+          "files": 83,
+          "bytes": 136004
+        },
+        {
+          "name": "fusion_results",
+          "files": 39,
+          "bytes": 73190
+        },
+        {
+          "name": "conferences",
+          "files": 39,
+          "bytes": 7188
+        },
+        {
+          "name": "collection_logs",
+          "files": 2,
+          "bytes": 54075
+        },
+        {
+          "name": "USPTO_Patents",
+          "files": 4,
+          "bytes": 7551
+        },
+        {
+          "name": "Eurostat_Bulk",
+          "files": 1,
+          "bytes": 9597702
+        },
+        {
+          "name": "comprehensive_integration",
+          "files": 1,
+          "bytes": 1960
+        },
+        {
+          "name": "EXPORT_CONTROL",
+          "files": 1,
+          "bytes": 503
+        }
+      ]
+    },
+    "ted_data": {
+      "path": "F:/TED_Data",
+      "files": [],
+      "total_bytes": 25980724657,
+      "total_files": 139,
+      "os_verification": {
+        "os_bytes": 25980724657,
+        "command": "powershell -Command \"Get-ChildItem -Path 'F:/TED_D..."
+      },
+      "subdirectories": [
+        {
+          "name": "monthly",
+          "files": 139,
+          "bytes": 25980724657
+        },
+        {
+          "name": "csv_historical",
+          "files": 0,
+          "bytes": 0
+        },
+        {
+          "name": "historical",
+          "files": 0,
+          "bytes": 0
+        }
+      ]
+    },
+    "osint_backups": {
+      "path": "F:/OSINT_Backups",
+      "files": [],
+      "total_bytes": 2415998,
+      "total_files": 181,
+      "os_verification": {
+        "os_bytes": 451964296198,
+        "command": "powershell -Command \"Get-ChildItem -Path 'F:/OSINT..."
+      },
+      "subdirectories": [
+        {
+          "name": "project",
+          "files": 166,
+          "bytes": 2024114
+        },
+        {
+          "name": "openalex",
+          "files": 15,
+          "bytes": 391884
+        },
+        {
+          "name": "archives",
+          "files": 0,
+          "bytes": 0
+        }
+      ]
+    },
+    "horizons_data": {
+      "path": "F:/2025-09-14 Horizons",
+      "files": [],
+      "total_bytes": 0,
+      "total_files": 0,
+      "os_verification": {
+        "os_bytes": 199347516,
+        "command": "powershell -Command \"Get-ChildItem -Path 'F:/2025-..."
+      },
+      "subdirectories": []
+    }
+  },
+  "data_sources": {
+    "CORDIS": {
+      "directories": [
+        {
+          "name": "cordis_multicountry",
+          "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\cordis_multicountry",
+          "files": 5,
+          "bytes": 851358,
+          "databases": [],
+          "json_files": [
+            "china_project_list_20250921_105946.json",
+            "cordis_china_collaborations_20250921.json",
+            "cordis_china_collaborations_20250921_105946.json"
+          ],
+          "csv_files": []
+        },
+        {
+          "name": "cordis_specific_countries",
+          "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\cordis_specific_countries",
+          "files": 3,
+          "bytes": 1486475,
+          "databases": [],
+          "json_files": [
+            "greece_albania_kosovo_analysis_20250921_160701.json",
+            "greece_albania_kosovo_analysis_20250921_160740.json"
+          ],
+          "csv_files": []
+        },
+        {
+          "name": "cordis_unified",
+          "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\cordis_unified",
+          "files": 5,
+          "bytes": 3169825,
+          "databases": [
+            "cordis_china_projects.db"
+          ],
+          "json_files": [
+            "cordis_complete_analysis_20250921_161957.json",
+            "summary_20250921_161957.json"
+          ],
+          "csv_files": []
+        }
+      ],
+      "total_files": 13,
+      "total_bytes": 5507658,
+      "file_types": {}
+    },
+    "OpenAIRE": {
+      "directories": [
+        {
+          "name": "openaire_comprehensive",
+          "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openaire_comprehensive",
+          "files": 2,
+          "bytes": 49766636,
+          "databases": [
+            "openaire_comprehensive.db"
+          ],
+          "json_files": [
+            "processing_checkpoint.json"
+          ],
+          "csv_files": []
+        },
+        {
+          "name": "openaire_multicountry",
+          "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openaire_multicountry",
+          "files": 2,
+          "bytes": 8694,
+          "databases": [],
+          "json_files": [
+            "openaire_multicountry_analysis_20250921_171711.json"
+          ],
+          "csv_files": []
+        },
+        {
+          "name": "openaire_technology",
+          "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openaire_technology",
+          "files": 1,
+          "bytes": 18640,
+          "databases": [],
+          "json_files": [
+            "technology_search_results_20250921_170853.json"
+          ],
+          "csv_files": []
+        },
+        {
+          "name": "openaire_verified",
+          "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openaire_verified",
+          "files": 12,
+          "bytes": 16857976,
+          "databases": [],
+          "json_files": [
+            "collection_stats_20250922_175524.json",
+            "collection_stats_20250922_202842.json",
+            "CZ_china_collaborations_20250922_202533.json",
+            "HU_china_collaborations_20250922_202621.json",
+            "PL_china_collaborations_20250922_201852.json",
+            "PL_china_collaborations_20250922_202453.json",
+            "RO_china_collaborations_20250922_202842.json",
+            "SK_china_collaborations_20250922_202756.json",
+            "terminal_d_final_stats_20250922_195036.json",
+            "BE_china_collaborations_FIXED_20250922_200608.json",
+            "DE_china_collaborations_FIXED_20250922_200627.json",
+            "IT_china_collaborations_FIXED_20250922_200527.json"
+          ],
+          "csv_files": []
+        }
+      ],
+      "total_files": 17,
+      "total_bytes": 66651946,
+      "file_types": {}
+    },
+    "OpenAlex": {
+      "directories": [
+        {
+          "name": "openalex_germany_china",
+          "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_germany_china",
+          "files": 4,
+          "bytes": 1580,
+          "databases": [],
+          "json_files": [
+            "analysis_20250920_175532.json",
+            "checkpoint.json",
+            "collaborations_20250920_175532.json"
+          ],
+          "csv_files": []
+        },
+        {
+          "name": "openalex_multicountry_temporal",
+          "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal",
+          "files": 190,
+          "bytes": 168559514,
+          "databases": [],
+          "json_files": [
+            "config.json",
+            "countries_config.json",
+            "processing_checkpoint.json",
+            "technology_config.json",
+            "comprehensive_analysis_20250920_221040.json",
+            "comprehensive_analysis_20250920_221048.json",
+            "comprehensive_analysis_20250921_101747.json",
+            "comprehensive_analysis_20250921_102735.json",
+            "comprehensive_analysis_20250921_110919.json",
+            "comprehensive_analysis_20250921_124455.json",
+            "COUNTRY_RISK_MATRIX.json",
+            "EXECUTIVE_DASHBOARD.json",
+            "TECHNOLOGY_THREAT_ASSESSMENT.json",
+            "TEMPORAL_INTELLIGENCE_BRIEFING.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_110919.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_110919.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_110919.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_110919.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_110919.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "metadata.json",
+            "collaborations_20250921_110919.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_110919.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_110919.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_110919.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_110919.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_110919.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_124455.json",
+            "metadata.json",
+            "collaborations_20250921_110919.json",
+            "collaborations_20250921_124455.json",
+            "collaborations_20250921_124455.json",
+            "collaborations_20250921_110919.json",
+            "collaborations_20250921_124455.json",
+            "collaborations_20250921_110919.json",
+            "collaborations_20250921_124455.json",
+            "collaborations_20250921_110919.json",
+            "collaborations_20250921_124455.json",
+            "collaborations_20250921_124455.json",
+            "collaborations_20250921_124455.json",
+            "collaborations_20250921_124455.json",
+            "collaborations_20250921_124455.json",
+            "collaborations_20250921_124455.json",
+            "collaborations_20250921_124455.json",
+            "collaborations_20250921_124455.json",
+            "collaborations_20250921_124455.json",
+            "collaborations_20250921_124455.json",
+            "collaborations_20250921_124455.json",
+            "institution_building_20250921_124455.json",
+            "strategic_partnerships_20250921_124455.json"
+          ],
+          "csv_files": []
+        },
+        {
+          "name": "openalex_real_data",
+          "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_real_data",
+          "files": 1,
+          "bytes": 6258,
+          "databases": [],
+          "json_files": [
+            "checkpoint.json"
+          ],
+          "csv_files": []
+        }
+      ],
+      "total_files": 195,
+      "total_bytes": 168567352,
+      "file_types": {}
+    },
+    "TED": {
+      "directories": [
+        {
+          "name": "ted_2016_2022_gap",
+          "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\ted_2016_2022_gap",
+          "files": 8,
+          "bytes": 3436,
+          "databases": [],
+          "json_files": [
+            "master_timeline_2016_2022.json",
+            "year_2016_summary.json",
+            "year_2017_summary.json",
+            "year_2018_summary.json",
+            "year_2019_summary.json",
+            "year_2020_summary.json",
+            "year_2021_summary.json",
+            "year_2022_summary.json"
+          ],
+          "csv_files": []
+        },
+        {
+          "name": "ted_2023_2025",
+          "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\ted_2023_2025",
+          "files": 55,
+          "bytes": 3764616,
+          "databases": [],
+          "json_files": [
+            "checkpoint.json",
+            "all_contracts.json",
+            "analysis.json",
+            "all_contracts.json",
+            "analysis.json",
+            "all_contracts.json",
+            "analysis.json",
+            "all_contracts.json",
+            "analysis.json",
+            "all_contracts.json",
+            "analysis.json",
+            "all_contracts.json",
+            "analysis.json",
+            "contracts_2023.json",
+            "contracts_2024.json",
+            "summary.json",
+            "contracts_2023.json",
+            "summary.json",
+            "contracts_2023.json",
+            "summary.json",
+            "contracts_2023.json",
+            "summary.json",
+            "contracts_2023.json",
+            "summary.json",
+            "contracts_2023.json",
+            "summary.json",
+            "contracts_2023.json",
+            "contracts_2024.json",
+            "summary.json",
+            "contracts_2023.json",
+            "summary.json",
+            "contracts_2023.json",
+            "summary.json",
+            "contracts_2023.json",
+            "summary.json",
+            "contracts_2023.json",
+            "summary.json",
+            "contracts_2023.json",
+            "summary.json",
+            "contracts_2023.json",
+            "summary.json",
+            "contracts_2023.json",
+            "summary.json",
+            "all_contracts.json",
+            "analysis.json",
+            "all_contracts.json",
+            "analysis.json",
+            "all_contracts.json",
+            "analysis.json",
+            "all_contracts.json",
+            "analysis.json",
+            "all_contracts.json",
+            "analysis.json",
+            "all_contracts.json",
+            "analysis.json"
+          ],
+          "csv_files": []
+        },
+        {
+          "name": "ted_flexible_2016_2022",
+          "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\ted_flexible_2016_2022",
+          "files": 4,
+          "bytes": 5499560,
+          "databases": [],
+          "json_files": [
+            "china_contracts_found.json",
+            "processing_checkpoint.json",
+            "results.json",
+            "summary.json"
+          ],
+          "csv_files": []
+        },
+        {
+          "name": "ted_historical_2006_2009",
+          "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\ted_historical_2006_2009",
+          "files": 2,
+          "bytes": 1901,
+          "databases": [],
+          "json_files": [
+            "early_period_analysis_2006_2009.json"
+          ],
+          "csv_files": []
+        },
+        {
+          "name": "ted_historical_2010_2022",
+          "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\ted_historical_2010_2022",
+          "files": 8,
+          "bytes": 11462,
+          "databases": [],
+          "json_files": [
+            "checkpoint.json",
+            "all_contracts.json",
+            "analysis.json",
+            "contracts_2022.json",
+            "summary.json",
+            "all_contracts.json",
+            "analysis.json",
+            "temporal_analysis.json"
+          ],
+          "csv_files": []
+        },
+        {
+          "name": "ted_multicountry",
+          "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\ted_multicountry",
+          "files": 3,
+          "bytes": 2851,
+          "databases": [],
+          "json_files": [
+            "checkpoint.json",
+            "comprehensive_analysis.json"
+          ],
+          "csv_files": []
+        }
+      ],
+      "total_files": 80,
+      "total_bytes": 9283826,
+      "file_types": {}
+    },
+    "USASpending": {
+      "directories": [
+        {
+          "name": "usaspending_comprehensive",
+          "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\usaspending_comprehensive",
+          "files": 4,
+          "bytes": 21156,
+          "databases": [],
+          "json_files": [
+            "usaspending_comprehensive_data_2020_2024.json",
+            "usaspending_methodology_data.json"
+          ],
+          "csv_files": []
+        }
+      ],
+      "total_files": 4,
+      "total_bytes": 21156,
+      "file_types": {}
+    },
+    "SEC_EDGAR": {
+      "directories": [
+        {
+          "name": "sec_edgar_comprehensive",
+          "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\sec_edgar_comprehensive",
+          "files": 0,
+          "bytes": 0,
+          "databases": [],
+          "json_files": [],
+          "csv_files": []
+        },
+        {
+          "name": "sec_edgar_multicountry",
+          "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\sec_edgar_multicountry",
+          "files": 8,
+          "bytes": 10537,
+          "databases": [],
+          "json_files": [
+            "china_exposed_companies.json",
+            "risk_assessment.json",
+            "vie_structures.json",
+            "sec_filings.json",
+            "sec_filings.json",
+            "sec_filings.json",
+            "sec_filings.json"
+          ],
+          "csv_files": []
+        }
+      ],
+      "total_files": 8,
+      "total_bytes": 10537,
+      "file_types": {}
+    },
+    "Patents": {
+      "directories": [
+        {
+          "name": "patents_multicountry",
+          "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\patents_multicountry",
+          "files": 12,
+          "bytes": 1041211,
+          "databases": [],
+          "json_files": [
+            "risk_assessment.json",
+            "patents.json",
+            "patents.json",
+            "patents.json",
+            "patents.json",
+            "patents.json",
+            "patents.json",
+            "patents.json",
+            "patents.json",
+            "patents.json",
+            "yearly_collaborations.json"
+          ],
+          "csv_files": []
+        }
+      ],
+      "total_files": 12,
+      "total_bytes": 1041211,
+      "file_types": {}
+    },
+    "MCF": {
+      "directories": [
+        {
+          "name": "mcf_enhanced",
+          "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\mcf_enhanced",
+          "files": 1,
+          "bytes": 919,
+          "databases": [],
+          "json_files": [
+            "phase1_results_20250923_134709.json"
+          ],
+          "csv_files": []
+        },
+        {
+          "name": "mcf_orchestrated",
+          "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\mcf_orchestrated",
+          "files": 4,
+          "bytes": 2006109,
+          "databases": [],
+          "json_files": [
+            "mcf_comprehensive_collection_20250922_220243.json",
+            "mcf_comprehensive_collection_20250922_223007.json"
+          ],
+          "csv_files": []
+        }
+      ],
+      "total_files": 5,
+      "total_bytes": 2007028,
+      "file_types": {}
+    },
+    "National_Procurement": {
+      "directories": [
+        {
+          "name": "national_procurement",
+          "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\national_procurement",
+          "files": 5,
+          "bytes": 11839,
+          "databases": [],
+          "json_files": [
+            "CZ_procurement_searches_20250923_160932.json",
+            "PL_procurement_searches_20250923_160912.json",
+            "search_summary_20250923.json",
+            "search_urls_20250923.json",
+            "SK_procurement_searches_20250923_160952.json"
+          ],
+          "csv_files": []
+        },
+        {
+          "name": "national_procurement_automated",
+          "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\national_procurement_automated",
+          "files": 4,
+          "bytes": 5620,
+          "databases": [],
+          "json_files": [
+            "automated_summary_20250923_184245.json",
+            "CZ_automated_results_20250923_184213.json",
+            "PL_automated_results_20250923_184231.json",
+            "SK_automated_results_20250923_184245.json"
+          ],
+          "csv_files": []
+        },
+        {
+          "name": "selenium_procurement",
+          "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\selenium_procurement",
+          "files": 4,
+          "bytes": 7960,
+          "databases": [],
+          "json_files": [
+            "CZ_selenium_results_20250923_185006.json",
+            "PL_selenium_results_20250923_185020.json",
+            "selenium_summary_20250923_185042.json",
+            "SK_selenium_results_20250923_185042.json"
+          ],
+          "csv_files": []
+        }
+      ],
+      "total_files": 13,
+      "total_bytes": 25419,
+      "file_types": {}
+    }
+  },
+  "samples": [
+    {
+      "path": "C:\\Projects\\OSINT - Foresight\\data\\phase1_samples\\json_cordis_china_collaborations_20250921_105946_samples.json",
+      "size": 702153,
+      "modified": "2025-09-24T17:33:14.712069",
+      "extension": ".json",
+      "sha256_first_2kb": "757a07acf39ce302f8baf4261866853fd825a5a4902f38dc06b3301f3778fe05",
+      "sha256_full": "b51d2ecba4d73513e8ebe8efa50e7de5577031709b2e2e669006d125fe7f23d3",
+      "hex_first_100_bytes": "7b0d0a20202264617461736574223a20226a736f6e5f636f726469735f6368696e615f636f6c6c61626f726174696f6e735f32303235303932315f313035393436222c0d0a202022736f757263655f70617468223a2022646174615c5c70726f63657373"
+    },
+    {
+      "path": "C:\\Projects\\OSINT - Foresight\\data\\phase1_samples\\openaire_samples.json",
+      "size": 51940,
+      "modified": "2025-09-24T17:33:14.631956",
+      "extension": ".json",
+      "sha256_first_2kb": "bbb6a36c891aed72deecf8c684041136254d41ed8a0ef158b2e790ce7f933f96",
+      "sha256_full": "3cdb51681384eb2b90a53e26604dd852f2cc7eb3390550731b153c92bd33f8bb",
+      "hex_first_100_bytes": "7b0d0a20202264617461736574223a20226f70656e61697265222c0d0a202022736f757263655f70617468223a2022463a5c5c4f53494e545f444154415c5c6f70656e616972655f70726f64756374696f6e5f636f6d70726568656e736976655c5c6f70"
+    },
+    {
+      "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\technology_config.json",
+      "size": 785,
+      "modified": "2025-09-20T22:05:27.179999",
+      "extension": ".json",
+      "sha256_first_2kb": "376356437b40eaf2c243a83968f8cfcd601f79f91a520428d8ed1a2e92a4b56b",
+      "sha256_full": "376356437b40eaf2c243a83968f8cfcd601f79f91a520428d8ed1a2e92a4b56b",
+      "hex_first_100_bytes": "7b0d0a2020226475616c5f7573655f746563686e6f6c6f67696573223a207b0d0a2020202022435249544943414c223a205b0d0a202020202020226172746966696369616c5f696e74656c6c6967656e6365222c0d0a202020202020227175616e74756d"
+    },
+    {
+      "path": "C:\\Projects\\OSINT - Foresight\\data\\collected\\epo\\leonardo_patents_20250916_201606.json",
+      "size": 274648,
+      "modified": "2025-09-16T20:16:06.869992",
+      "extension": ".json",
+      "sha256_first_2kb": "a3c5b38d553c84f87a00bbda76c184b1f9ff2daa0c8d5660f31555d27325825c",
+      "sha256_full": "08b86de13c3ab45784edaa62b1e0b0fd8a4f38c3f04eddd6cc24ddfb67fce1b9",
+      "hex_first_100_bytes": "5b0d0a20207b0d0a20202020226f70733a776f726c642d706174656e742d64617461223a207b0d0a2020202020202240786d6c6e73223a207b0d0a2020202020202020226f7073223a2022687474703a2f2f6f70732e65706f2e6f7267222c0d0a202020"
+    },
+    {
+      "path": "C:\\Projects\\OSINT - Foresight\\data\\collected\\sec_edgar\\leonardo_drs_analysis_20250916_200654.json",
+      "size": 513,
+      "modified": "2025-09-19T07:37:31.297451",
+      "extension": ".json",
+      "sha256_first_2kb": "49c99a0dceb3de0dadf1492e56493236492251188e564a08900ccda64b8203e2",
+      "sha256_full": "49c99a0dceb3de0dadf1492e56493236492251188e564a08900ccda64b8203e2",
+      "hex_first_100_bytes": "7b0a202022636f6d70616e795f6e616d65223a202254726565486f7573652050726976617465204272616e64732c20496e632e222c0a20202263696b223a202230303031363938303237222c0a2020227469636b6572223a205b5d2c0a2020227369635f"
+    },
+    {
+      "path": "C:\\Projects\\OSINT - Foresight\\data\\collected\\epo\\leonardo_patents_20250916_201606.json",
+      "size": 274648,
+      "modified": "2025-09-16T20:16:06.869992",
+      "extension": ".json",
+      "sha256_first_2kb": "a3c5b38d553c84f87a00bbda76c184b1f9ff2daa0c8d5660f31555d27325825c",
+      "sha256_full": "08b86de13c3ab45784edaa62b1e0b0fd8a4f38c3f04eddd6cc24ddfb67fce1b9",
+      "hex_first_100_bytes": "5b0d0a20207b0d0a20202020226f70733a776f726c642d706174656e742d64617461223a207b0d0a2020202020202240786d6c6e73223a207b0d0a2020202020202020226f7073223a2022687474703a2f2f6f70732e65706f2e6f7267222c0d0a202020"
+    },
+    {
+      "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\mcf_orchestrated\\mcf_collection_summary_20250922_220243.md",
+      "size": 1705,
+      "modified": "2025-09-22T22:02:43.680032",
+      "extension": ".md",
+      "sha256_first_2kb": "73b37273d3de55a4927db98e7a3b4417b8cbc7c2eb7c25644b3a59500bd88830",
+      "sha256_full": "73b37273d3de55a4927db98e7a3b4417b8cbc7c2eb7c25644b3a59500bd88830",
+      "hex_first_100_bytes": "23204d434620436f6c6c656374696f6e2053657373696f6e2053756d6d6172790d0a0d0a2a2a446174652a2a3a20323032352d30392d32320d0a2a2a4475726174696f6e2a2a3a20323032352d30392d32325432313a34343a32392e3835313136372074"
+    },
+    {
+      "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\national_procurement\\search_urls_20250923.json",
+      "size": 2243,
+      "modified": "2025-09-23T16:08:46.724706",
+      "extension": ".json",
+      "sha256_first_2kb": "73ed07d5a9d3b1cbdabf9eb2f276b3a031c93ec5c196d5a9580d9051cfa6857b",
+      "sha256_full": "c601f0891021b156c921fb6ab1edcb04aa6c9673f38a31697cb276b1d2829523",
+      "hex_first_100_bytes": "7b0d0a202022504c223a205b0d0a202020207b0d0a20202020202022636f6d70616e79223a2022487561776569222c0d0a2020202020202275726c223a202268747470733a2f2f657a616d6f7769656e69612e676f762e706c2f7365617263683f713d48"
+    },
+    {
+      "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\cordis_unified\\CORDIS_COMPLETE_ANALYSIS_20250921_161957.md",
+      "size": 7364,
+      "modified": "2025-09-21T16:19:58.085528",
+      "extension": ".md",
+      "sha256_first_2kb": "0b9326cdb881081bb8dfa5a6127f92bf3b30efffd22aea9541fa76419c746947",
+      "sha256_full": "dfd7315c92afd41785e67972a29faaf4113cb4742b0402776bb065f85d8537b1",
+      "hex_first_100_bytes": "2320434f52444953204d756c74692d436f756e747279204368696e6120436f6c6c61626f726174696f6e20416e616c797369732028434f4d504c455445290d0a47656e6572617465643a20323032352d30392d32312031363a31393a35370d0a44617461"
+    },
+    {
+      "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\cordis_unified\\cordis_china_projects.db",
+      "size": 1531904,
+      "modified": "2025-09-21T16:25:41.628248",
+      "extension": ".db",
+      "sha256_first_2kb": "e2195bc02588839532d68e07d9480d7c7f5305591225133237dcca5c73d470cc",
+      "sha256_full": "4b955a0b359c7d0e3eef01af198b6832cbd9d67f5a4242a925b1310ee2f71b24",
+      "hex_first_100_bytes": "53514c69746520666f726d61742033001000010100402020000000040000017600000000000000000000000900000004000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000004002e574a"
+    }
+  ],
+  "os_verification": {
+    "project_data": {
+      "os_bytes": 1365608409,
+      "command": "powershell -Command \"Get-ChildItem -Path 'C:/Proje..."
+    },
+    "osint_data": {
+      "os_bytes": 476478435776,
+      "command": "powershell -Command \"Get-ChildItem -Path 'F:/OSINT..."
+    },
+    "ted_data": {
+      "os_bytes": 25980724657,
+      "command": "powershell -Command \"Get-ChildItem -Path 'F:/TED_D..."
+    },
+    "osint_backups": {
+      "os_bytes": 451964296198,
+      "command": "powershell -Command \"Get-ChildItem -Path 'F:/OSINT..."
+    },
+    "horizons_data": {
+      "os_bytes": 199347516,
+      "command": "powershell -Command \"Get-ChildItem -Path 'F:/2025-..."
+    }
+  },
+  "parse_failures": [
+    {
+      "issue": "OS vs scan discrepancy: 97.2%",
+      "os_bytes": 955988412556,
+      "scan_bytes": 26523563488,
+      "triage": "investigate"
+    }
+  ],
+  "summary": {
+    "raw_data_bytes": 26270447355,
+    "raw_data_files": 748,
+    "total_bytes": 26523563488,
+    "total_files": 1095,
+    "processed_bytes": 253116133,
+    "processed_files": 347,
+    "data_source_categories": 9,
+    "locations_scanned": 5,
+    "parse_failures": 0,
+    "samples_created": 10,
+    "os_discrepancy_percent": 97.22553504418691
+  }
+}

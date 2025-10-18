@@ -1,0 +1,44 @@
+{
+  "cik": "0001530950",
+  "ticker": "POST",
+  "name": "Post Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2040",
+  "sicDescription": "Grain Mill Products",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "MO",
+  "ein": "453355106",
+  "phone": "314-644-7600",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2503 S. HANLEY ROAD",
+      "street2": null,
+      "city": "ST. LOUIS",
+      "stateOrCountry": "MO",
+      "zipCode": "63144",
+      "stateOrCountryDescription": "MO",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2503 S. HANLEY ROAD",
+      "street2": null,
+      "city": "ST. LOUIS",
+      "stateOrCountry": "MO",
+      "zipCode": "63144",
+      "stateOrCountryDescription": "MO",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1001
+}

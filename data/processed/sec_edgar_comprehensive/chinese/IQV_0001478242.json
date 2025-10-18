@@ -1,0 +1,48 @@
+{
+  "cik": "0001478242",
+  "ticker": "IQV",
+  "name": "IQVIA HOLDINGS INC.",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:bm"
+  ],
+  "sic": "8731",
+  "sicDescription": "Services-Commercial Physical & Biological Research",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "271341991",
+  "phone": "919-998-2000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2400 ELLIS ROAD",
+      "street2": null,
+      "city": "DURHAM",
+      "stateOrCountry": "NC",
+      "zipCode": "27703",
+      "stateOrCountryDescription": "NC",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2400 ELLIS ROAD",
+      "street2": null,
+      "city": "DURHAM",
+      "stateOrCountry": "NC",
+      "zipCode": "27703",
+      "stateOrCountryDescription": "NC",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-02"
+  },
+  "filings_count": 980
+}

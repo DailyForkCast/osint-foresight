@@ -1,0 +1,52 @@
+{
+  "cik": "0001741530",
+  "ticker": "QFIN",
+  "name": "Qfin Holdings, Inc.",
+  "detection_reasons": [
+    "location:china",
+    "location:shanghai",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "6199",
+  "sicDescription": "Finance Services",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "862161516360",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "7/F LUJIAZUI FINANCE PLAZA",
+      "street2": "NO. 1217 DONGFANG ROAD",
+      "city": "PUDONG NEW AREA, SHANGHAI",
+      "stateOrCountry": null,
+      "zipCode": "200122",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "7/F LUJIAZUI FINANCE PLAZA",
+      "street2": "NO. 1217 DONGFANG ROAD",
+      "city": "PUDONG NEW AREA, SHANGHAI",
+      "stateOrCountry": null,
+      "zipCode": "200122",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-15"
+  },
+  "filings_count": 219
+}

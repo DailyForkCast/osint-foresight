@@ -1,0 +1,47 @@
+{
+  "cik": "0000703604",
+  "ticker": "DSGR",
+  "name": "Distribution Solutions Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5080",
+  "sicDescription": "Wholesale-Machinery, Equipment & Supplies",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "362229304",
+  "phone": "(888) 611-9888",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "301 COMMERCE STREET",
+      "street2": "SUITE 1700",
+      "city": "FORT WORTH",
+      "stateOrCountry": "TX",
+      "zipCode": "76102",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "301 COMMERCE STREET",
+      "street2": "SUITE 1700",
+      "city": "FORT WORTH",
+      "stateOrCountry": "TX",
+      "zipCode": "76102",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-07-31"
+  },
+  "filings_count": 1000
+}

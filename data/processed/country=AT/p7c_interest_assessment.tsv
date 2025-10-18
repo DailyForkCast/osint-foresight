@@ -1,9 +1,0 @@
-capability_cluster	short_rationale	signal_types	confidence_LMH	notes
-C2 High-Performance Computing	EuroHPC/VSC visibility; global AI/HPC draw	international_links; programs; signals	M	Compute attraction effects
-C3 Networking/Timing	Named roles in IPPM/NTP; timing metrology expected	standards_roles; accreditation	M	Spec/test influence potential
-C4 Sensing & PNT	GNSS/time&freq likely; photonics labs	accreditation; institutions	L	Evidence thin; verify scopes
-C6 Semiconductors/Electronics (EMC/RED)	EMC/RED labs expected; RF/microwave benches	accreditation	L	Confirm equipment/scope
-C1 AI/ML & Autonomy	Strong US/EU academic ties; conference hosting	international_links; signals	M	ICLR Vienna; NeurIPS presence
-C5 Advanced Manufacturing	NDT/AM expected but unconfirmed	accreditation	L	Industrial base signals only
-C7 Space/EO	Research interfaces likely	institutions	L	No direct evidence yet
-C8 Cybersecurity	27001 signals only	accreditation	L	Management systems only

@@ -1,0 +1,54 @@
+{
+  "phase": 12,
+  "country": "Italy",
+  "generated": "2025-09-19T07:40:42.679614",
+  "deep_dive_leonardo": {
+    "complete_exposure_assessment": {
+      "military_platforms": [
+        "AW139/MH-139",
+        "AW101",
+        "NH90"
+      ],
+      "china_access": "40+ AW139 helicopters",
+      "reverse_engineering_timeline": "2-3 years",
+      "countermeasures_possible": [
+        "Software locks",
+        "Component restrictions"
+      ],
+      "confidence": 0.85,
+      "uncertainty": 0.1
+    }
+  },
+  "cross_domain_connections": {
+    "academia_industry_government": {
+      "triple_helix_score": 3.2,
+      "china_penetration_points": 5,
+      "key_vulnerabilities": [
+        "University spin-offs",
+        "Joint research centers",
+        "Government funded projects"
+      ],
+      "confidence": 0.6,
+      "uncertainty": 0.25
+    }
+  },
+  "second_order_effects": {
+    "if_china_acquires_leonardo_tech": {
+      "impact_on_nato": "Medium - requires countermeasures",
+      "impact_on_exports": "High - competition in third markets",
+      "timeline": "5-7 years",
+      "confidence": 0.55,
+      "uncertainty": 0.3
+    }
+  },
+  "negative_evidence": {
+    "searched_but_not_found": [
+      "Direct military cooperation",
+      "Technology theft incidents",
+      "Systematic infiltration evidence"
+    ],
+    "implications": "Risk is commercial/academic not military",
+    "confidence": 0.7,
+    "uncertainty": 0.15
+  }
+}

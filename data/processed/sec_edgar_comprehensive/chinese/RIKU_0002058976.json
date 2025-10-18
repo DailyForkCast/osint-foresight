@@ -1,0 +1,44 @@
+{
+  "cik": "0002058976",
+  "ticker": "RIKU",
+  "name": "RIKU DINING GROUP Ltd",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "5810",
+  "sicDescription": "Retail-Eating & Drinking Places",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "852-90187860",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "46/F, LEE GARDEN ONE, 33 HYSAN AVENUE",
+      "street2": null,
+      "city": "CAUSEWAY BAY",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "46/F, LEE GARDEN ONE, 33 HYSAN AVENUE",
+      "street2": null,
+      "city": "CAUSEWAY BAY",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 5
+}

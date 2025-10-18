@@ -1,0 +1,47 @@
+{
+  "cik": "0000944695",
+  "ticker": "THG",
+  "name": "HANOVER INSURANCE GROUP, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6331",
+  "sicDescription": "Fire, Marine & Casualty Insurance",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "043263626",
+  "phone": "5088551000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "440 LINCOLN ST",
+      "street2": null,
+      "city": "WORCESTER",
+      "stateOrCountry": "MA",
+      "zipCode": "01653",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "440 LINCOLN ST",
+      "street2": null,
+      "city": "WORCESTER",
+      "stateOrCountry": "MA",
+      "zipCode": "01653",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-21"
+  },
+  "filings_count": 1007
+}

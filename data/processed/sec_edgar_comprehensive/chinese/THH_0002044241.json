@@ -1,0 +1,49 @@
+{
+  "cik": "0002044241",
+  "ticker": "THH",
+  "name": "TryHard Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:ky"
+  ],
+  "sic": "7990",
+  "sicDescription": "Services-Miscellaneous Amusement & Recreation",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "81 06-4708-6470",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2-5-19, KYUTARO-CHO, CHUO-KU",
+      "street2": null,
+      "city": "OSAKA",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Japan",
+      "countryCode": "M0"
+    },
+    "business": {
+      "street1": "2-5-19, KYUTARO-CHO, CHUO-KU",
+      "street2": null,
+      "city": "OSAKA",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Japan",
+      "countryCode": "M0"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-04"
+  },
+  "filings_count": 13
+}

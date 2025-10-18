@@ -1,0 +1,51 @@
+{
+  "cik": "0001965473",
+  "ticker": "CCGWW",
+  "name": "Cheche Group Inc.",
+  "detection_reasons": [
+    "location:china",
+    "location:beijing",
+    "location:ningbo",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "6411",
+  "sicDescription": "Insurance Agents, Brokers & Service",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "86-105-083-0911",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "8TH FLOOR, DESHENG HESHENG FORTUNE PLAZA",
+      "street2": "13-1 DESHENGMENWAI AVENUE, XICHENG DIST.",
+      "city": "BEIJING",
+      "stateOrCountry": "F4",
+      "zipCode": "100088",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "8TH FLOOR, DESHENG HESHENG FORTUNE PLAZA",
+      "street2": "13-1 DESHENGMENWAI AVENUE, XICHENG DIST.",
+      "city": "BEIJING",
+      "stateOrCountry": "F4",
+      "zipCode": "100088",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-19"
+  },
+  "filings_count": 117
+}

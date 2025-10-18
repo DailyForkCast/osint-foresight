@@ -1,0 +1,591 @@
+{
+  "timestamp": "2025-09-28T14:02:03.182614",
+  "direct_chinese": 0,
+  "indirect_indicators": 0,
+  "technology_dependencies": [
+    {
+      "type": "Potential Chinese Technology Dependency",
+      "technology": "5G",
+      "contractor": "hub one",
+      "title": "exp\u00e9rimentations r\u00e9seau 5g mobile priv\u00e9",
+      "country": "FR",
+      "note": "May involve Chinese 5G suppliers"
+    },
+    {
+      "type": "Potential Chinese Technology Dependency",
+      "technology": "5G",
+      "contractor": "RATEART Dariusz Matyjewicz",
+      "title": "dostawa analizatora widma z funkcj\u0105 analizy sygna\u0142\u00f3w 4G/5G",
+      "country": "PL",
+      "note": "May involve Chinese 5G suppliers"
+    },
+    {
+      "type": "Potential Chinese Technology Dependency",
+      "technology": "5G",
+      "contractor": "Progress Systemy Kompmuterowe Sp. z o.o.",
+      "title": "Dostawa modem\u00f3w 5G mmWave dla WIEiT - KC-zp.272-385/23",
+      "country": "PL",
+      "note": "May involve Chinese 5G suppliers"
+    },
+    {
+      "type": "Potential Chinese Technology Dependency",
+      "technology": "5G",
+      "contractor": "IDIOMUND S.L",
+      "title": "CONTRATO PARA EL \u201cSUMINISTRO DE 400 TABLETS CON CONECTIVIDAD M\u00d3VIL 5G PARA ACTUACIONES JUDICIALES FUERA DE LAS DEPENDENCIAS DE JUSTICIA\u201d. PLAN DE RECUPERACI\u00d3N, TRANSFORMACI\u00d3N Y RESILIENCIA - FINANCIAD",
+      "country": "ES",
+      "note": "May involve Chinese 5G suppliers"
+    },
+    {
+      "contractor": "hub one",
+      "title": "exp\u00e9rimentations r\u00e9seau 5g mobile priv\u00e9",
+      "country": "FR",
+      "risk_score": 3,
+      "risk_factors": [
+        "5G technology"
+      ],
+      "note": "High probability of Chinese equipment in telecom infrastructure"
+    },
+    {
+      "contractor": "RATEART Dariusz Matyjewicz",
+      "title": "dostawa analizatora widma z funkcj\u0105 analizy sygna\u0142\u00f3w 4G/5G",
+      "country": "PL",
+      "risk_score": 3,
+      "risk_factors": [
+        "5G technology"
+      ],
+      "note": "High probability of Chinese equipment in telecom infrastructure"
+    },
+    {
+      "contractor": "Progress Systemy Kompmuterowe Sp. z o.o.",
+      "title": "Dostawa modem\u00f3w 5G mmWave dla WIEiT - KC-zp.272-385/23",
+      "country": "PL",
+      "risk_score": 3,
+      "risk_factors": [
+        "5G technology"
+      ],
+      "note": "High probability of Chinese equipment in telecom infrastructure"
+    },
+    {
+      "contractor": "IDIOMUND S.L",
+      "title": "CONTRATO PARA EL \u201cSUMINISTRO DE 400 TABLETS CON CONECTIVIDAD M\u00d3VIL 5G PARA ACTUACIONES JUDICIALES FUERA DE LAS DEPENDENCIAS DE JUSTICIA\u201d. PLAN DE RECU",
+      "country": "ES",
+      "risk_score": 3,
+      "risk_factors": [
+        "5G technology"
+      ],
+      "note": "High probability of Chinese equipment in telecom infrastructure"
+    }
+  ],
+  "suspicious_patterns": [
+    {
+      "type": "Chinese Brand Mentioned",
+      "brand": "Oppo",
+      "contractor": "N/A",
+      "title": "etudes D'Opportunite Et D'Aide A La Decision Pour Le Developpement Des Mobilites Regionales Des Etoiles D'Orleans Et De Tours, Et De La Liaison Tours ",
+      "country": "FR"
+    },
+    {
+      "type": "Chinese Brand Mentioned",
+      "brand": "Vivo",
+      "contractor": "Cooperativa Aurora Domus",
+      "title": "Gestione servizio di sostegno scolastico alunni diversamente abili per conto del Comune di Fontevivo (lotto 1) e San Secondo Parmense (lotto 2)",
+      "country": "IT"
+    },
+    {
+      "type": "Chinese Brand Mentioned",
+      "brand": "Vivo",
+      "contractor": "Revvity Italia SpA",
+      "title": "Fornitura di un sistema integrato e automatizzato di bio-imaging ottico in vivo 2D e 3D.",
+      "country": "IT"
+    },
+    {
+      "type": "Chinese Brand Mentioned",
+      "brand": "Gree",
+      "contractor": "Greenpark Kennels",
+      "title": "Single \u2013Party Framework Agreement  Provision of Dog Shelter Management Services in County Meath",
+      "country": "IE"
+    },
+    {
+      "type": "Chinese Brand Mentioned",
+      "brand": "Gree",
+      "contractor": "N/A",
+      "title": "Nakup in/ali zakup Microsoft programske opreme EA (Enterprise Agreement)",
+      "country": "SI"
+    },
+    {
+      "type": "Chinese Brand Mentioned",
+      "brand": "Gree",
+      "contractor": "N/A",
+      "title": "Organisation logistique et technique de l\u2019\u00e9v\u00e9nement \u00ab Forum Finance Climat \u00bb (FFC) du Programme Green Overseas",
+      "country": "FR"
+    },
+    {
+      "type": "Chinese Brand Mentioned",
+      "brand": "BYD",
+      "contractor": "Security  & Cleaning System Sp\u00f3\u0142ka z o.o.",
+      "title": "Us\u0142ugi sprz\u0105tania \u2013 RZGW Bydgoszcz ",
+      "country": "PL"
+    },
+    {
+      "type": "Chinese Brand Mentioned",
+      "brand": "BYD",
+      "contractor": "Agencja Ochrony Os\u00f3b i Mienia JAG Sp. z o.o.",
+      "title": "Us\u0142uga utrzymania czysto\u015bci w budynku administracyjno - biurowym po\u0142o\u017conym  w Bydgoszczy przy ul. Gda\u0144skiej 163a oraz na terenach przyleg\u0142ych",
+      "country": "PL"
+    },
+    {
+      "type": "Chinese Brand Mentioned",
+      "brand": "BYD",
+      "contractor": "JURAND - WYKONPOL sp. z o.o.",
+      "title": "\u015awiadczenie us\u0142ug pogotowia technicznego, usuwania awarii  i rob\u00f3t konserwacyjno-naprawczych w budynkach i innych nieruchomo\u015bciach AMW Oddzia\u0142 Regiona",
+      "country": "PL"
+    },
+    {
+      "type": "Chinese Brand Mentioned",
+      "brand": "NIO",
+      "contractor": "Janusz Jakubowski \u201eZak\u0142ad Og\u00f3lnobudowlany\u201d",
+      "title": "\u015awiadczenie us\u0142ug konserwacji, drobnych napraw i usuwania awarii w zakresie bran\u017cy budowlanej na terenie nieruchomo\u015bci oraz w lokalach znajduj\u0105cych si",
+      "country": "PL"
+    },
+    {
+      "type": "Chinese Brand Mentioned",
+      "brand": "NIO",
+      "contractor": "Mabrian Technologies S.L.",
+      "title": "U\u017esienio turist\u0173 i\u0161laid\u0173 mok\u0117jimo kortel\u0117mis Lietuvoje tyrimo paslaugos",
+      "country": "LT"
+    },
+    {
+      "type": "Chinese Brand Mentioned",
+      "brand": "NIO",
+      "contractor": "NORGINE DE ESPA\u00d1A SLU",
+      "title": "SUMINISTRO DE LOS MEDICAMENTOS ASOCIACIONES DE MACROGOL (DOE) PARA TODAS LAS ORGANIZACIONES DE SERVICIOS DE OSAKIDETZA Y LOS QUE SUSCRIBAN UN CONVENIO",
+      "country": "ES"
+    },
+    {
+      "type": "Chinese Brand Mentioned",
+      "brand": "WeChat",
+      "contractor": "N/A",
+      "title": "S1 Wiener Au\u00dfenring Schnellstra\u00dfe VA02, KN Schwechat \u2013 ASt Gro\u00df-Enzersdorf, Laufendes BVwG-Verfahren zum Wasserrecht \u2013 Erg\u00e4nzende Modellierung Grundwa",
+      "country": "AT"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "port",
+      "contractor": "SEIDOR IBERIA, S.L.",
+      "title": "Suministro y servicio gestionado de renovaci\u00f3n, mantenimiento y soporte a la operaci\u00f3n y explotaci\u00f3n de la infraestructura de soporte al negocio",
+      "country": "ES",
+      "value": 1010370.0,
+      "note": "Belt and Road Initiative potential - port project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "port",
+      "contractor": "Zaklad Utylizacji Odpad\u00f3w Sp. z o.o.",
+      "title": "Transport i zagospodarowanie odpad\u00f3w komunalnych",
+      "country": "PL",
+      "value": 1026150.0,
+      "note": "Belt and Road Initiative potential - port project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "port",
+      "contractor": "imprimerie Du Mas",
+      "title": "accord-Cadre \u00e0 bons de commande relatif \u00e0 la fabrication, impression, fa\u00e7onnage et distribution du magazine municipal et de supports de communication ",
+      "country": "FR",
+      "value": 1040000.0,
+      "note": "Belt and Road Initiative potential - port project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "port",
+      "contractor": "Zak\u0142ad Obs\u0142ugi Mienia Samorz\u0105dowego Sp. z o.o.",
+      "title": "Odbi\u00f3r, transport i zagospodarowanie odpad\u00f3w komunalnych z nieruchomo\u015bci zamieszka\u0142ych po\u0142o\u017conych na terenie gminy Kwilcz oraz odbieranie i zagospodar",
+      "country": "PL",
+      "value": 1045185.34,
+      "note": "Belt and Road Initiative potential - port project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "port",
+      "contractor": "Citadela d.o.o.",
+      "title": "Nabava za ure\u0111enje i opremanje sportskog parka u Brse\u010du, tematskog dje\u010djeg igrali\u0161ta u Mo\u0161\u0107enicama i \u0161umskog igrali\u0161ta u Trebi\u0161\u0107ima u sklopu projekta ",
+      "country": "HR",
+      "value": 1054240.0,
+      "note": "Belt and Road Initiative potential - port project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "port",
+      "contractor": "TECNOLOGIAS PLEXUS S.L",
+      "title": "CONTRATO DE SUMINISTRO DE LICENCIAS DE SOFTWARE BASE Y DE INFRAESTRUCTURA: \u201cRENOVACI\u00d3N DE SUSCRIPCI\u00d3N DEL SOFTWARE LIFERAY DIGITAL EXPERIENCE PLATFORM",
+      "country": "ES",
+      "value": 1064678.48,
+      "note": "Belt and Road Initiative potential - port project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "port",
+      "contractor": "Kolumna Transportu Sanitarnego TRIOMED Sp. z o.o.",
+      "title": "\u015awiadczenie us\u0142ug transportu drogowego na rzecz os\u00f3b dializowanych.",
+      "country": "PL",
+      "value": 1064880.0,
+      "note": "Belt and Road Initiative potential - port project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "port",
+      "contractor": "bstp transport",
+      "title": "prestation de ttransport de verre depuis lforme de regroupement d'ibos (65420)",
+      "country": "FR",
+      "value": 1072000.0,
+      "note": "Belt and Road Initiative potential - port project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "port",
+      "contractor": "U.T.E. KAPSCH-VODAFONE EDUSI FUENGIROLA",
+      "title": "Contrataci\u00f3n del suministro del proyecto \u201cSmart mobility- gesti\u00f3n inteligente y sostenible del tr\u00e1fico en la ciudad de Fuengirola\u201d mediante la implant",
+      "country": "ES",
+      "value": 1076631.63,
+      "note": "Belt and Road Initiative potential - port project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "port",
+      "contractor": "U.T.E. KAPSCH-VODAFONE EDUSI FUENGIROLA",
+      "title": "SUMINISTRO DEL PROYECTO \u201cSMART MOBILITY- GESTI\u00d3N INTELIGENTE Y SOSTENIBLE DEL TR\u00c1FICO EN LA CIUDAD DE FUENGIROLA\u201d MEDIANTE LA IMPLANTACI\u00d3N DE UNA RED ",
+      "country": "ES",
+      "value": 1076631.63,
+      "note": "Belt and Road Initiative potential - port project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "port",
+      "contractor": "TELECONSYS S.P.A.",
+      "title": "Fornitura di apparati e licenze Checkpoint, comprensiva dei servizi di manutenzione e supporto specialistico",
+      "country": "IT",
+      "value": 1096500.0,
+      "note": "Belt and Road Initiative potential - port project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "port",
+      "contractor": "TARS DESIGN FROM I TO C, S.L.",
+      "title": "Modificacion expte. para la creatividad, dise\u00f1o, proyecto t\u00e9cnico, realizaci\u00f3n, instalaci\u00f3n, decoraci\u00f3n, transporte, montaje y desmontaje de los stand",
+      "country": "ES",
+      "value": 1103268.0,
+      "note": "Belt and Road Initiative potential - port project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "port",
+      "contractor": "Konsorcjum firm: Utylimed sp. z o.o. ",
+      "title": "\u015awiadczenie us\u0142ug w zakresie odbioru, transportu i zagospodarowania odpad\u00f3w medycznych.",
+      "country": "PL",
+      "value": 1103665.5,
+      "note": "Belt and Road Initiative potential - port project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "port",
+      "contractor": "Adecco Italia S.p.A.",
+      "title": "Accordo Quadro per il servizio di somministrazione di personale a tempo determinato e/o indeterminato presso gli Aeroporti di Milano Linate e  Milano ",
+      "country": "IT",
+      "value": 1185869.69,
+      "note": "Belt and Road Initiative potential - port project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "port",
+      "contractor": "Helmut Kallage Bauunternehmen GmbH",
+      "title": "Neubau 3-fach Sporthalle Ravensberger Gymnasium Herford-Rohbauarbeiten",
+      "country": "DE",
+      "value": 1188506.92,
+      "note": "Belt and Road Initiative potential - port project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "port",
+      "contractor": "sarl Floriades De L'Arnon",
+      "title": "fourniture De Support De Culture Hors Sol, Composes De Plantes Pour Floraison Annuelle, Bisannuelle, Vivaces, Gramines Et Bulbes",
+      "country": "FR",
+      "value": 1200000.0,
+      "note": "Belt and Road Initiative potential - port project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "port",
+      "contractor": "A2A Ambiente Spa",
+      "title": "Accordo Quadro per il servizio di raccolta, trasporto e smaltimento fanghi disidratati prodotti dall\u2019impianto di depurazione di Sant\u2019Agostino",
+      "country": "IT",
+      "value": 1200300.0,
+      "note": "Belt and Road Initiative potential - port project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "port",
+      "contractor": "marlim energie services",
+      "title": "fourniture et livraison de carburants pour le service transport du syded haute-vienne",
+      "country": "FR",
+      "value": 1210000.0,
+      "note": "Belt and Road Initiative potential - port project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "port",
+      "contractor": "RTI Protiviti Government Services s.r.l. - BDO Italia S.p.A",
+      "title": "Servizi di supporto e assistenza tecnica per l\u2019esercizio e lo sviluppo della funzione di audit dell\u2019Organismo Indipendente di Audit del PNRR e altri p",
+      "country": "IT",
+      "value": 1212750.0,
+      "note": "Belt and Road Initiative potential - port project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "port",
+      "contractor": "Poste Italiane S.p.a.",
+      "title": "Procedura aperta per Servizi di gestione e recapito della corrispondenza per conto di Sport e Salute S.p.A.",
+      "country": "IT",
+      "value": 1217593.63,
+      "note": "Belt and Road Initiative potential - port project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "tunnel",
+      "contractor": "ineo infracom-equans",
+      "title": "maintenance des \u00e9quipements des tunnels de la dir sud-ouest",
+      "country": "FR",
+      "value": 2000000.0,
+      "note": "Belt and Road Initiative potential - tunnel project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "tunnel",
+      "contractor": "semeru sas",
+      "title": "entretien de la d\u00e9tection dans les tunnels de la Dirif",
+      "country": "FR",
+      "value": 7920000.0,
+      "note": "Belt and Road Initiative potential - tunnel project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "tunnel",
+      "contractor": "sas spie Citynetworks (Mandataire)",
+      "title": "supervision et automatismes des tunnels de la DIR-CE et du Cd73 - tierce maintenance applicative",
+      "country": "FR",
+      "value": 8333333.33,
+      "note": "Belt and Road Initiative potential - tunnel project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "tunnel",
+      "contractor": "Swietelsky Tunnelbau GmbH & Co KG",
+      "title": "A11 Karawankentunnel, Vollausbau Karawankentunnel 2. R\u00f6hre, \u00c4A84/MKF80",
+      "country": "AT",
+      "value": 89879579.18,
+      "note": "Belt and Road Initiative potential - tunnel project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "airport",
+      "contractor": "Hensoldt Optronics (PTY) ",
+      "title": " Design, Build and Installation of air traffic control recorder equipment, communication and meteorological at Kamuzu international airport, Lilongwe ",
+      "country": "MW",
+      "value": 7296974.0,
+      "note": "Belt and Road Initiative potential - airport project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "airport",
+      "contractor": "The Nuance Group (Sverige) AB",
+      "title": "Beauty brand store Stockholm Arlanda Airport",
+      "country": "SE",
+      "value": 40921000.0,
+      "note": "Belt and Road Initiative potential - airport project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "metro",
+      "contractor": "TPF CONSULTORES DE ENG E ARQT SA, Portugal",
+      "title": "Aquisi\u00e7\u00e3o de Servi\u00e7os para a Revis\u00e3o do Projeto da Liga\u00e7\u00e3o das Linhas Verde e Amarela, Rato - Cais do Sodr\u00e9 e Viadutos do Campo Grande - Linha Circula",
+      "country": "PT",
+      "value": 1275000.0,
+      "note": "Belt and Road Initiative potential - metro project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "metro",
+      "contractor": "BERTIN Technologies SAS",
+      "title": "Multiple rammeaftaler efter kaskadeprincippet vedr\u00f8rende udvikling og levering af et indkapslet overv\u00e5gnings- og metrologisystem til ITER (IVVS)",
+      "country": "ES",
+      "value": 2713139.34,
+      "note": "Belt and Road Initiative potential - metro project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "metro",
+      "contractor": "UTE AECOM SPAIN DCS, S.L.U. - LRA INFRAESTRUCTURES CONSULTING, S.L.",
+      "title": "Servicio para la redacci\u00f3n del proyecto de la nueva l\u00ednea de Metro de Madrid Nuevo Norte",
+      "country": "ES",
+      "value": 3228818.79,
+      "note": "Belt and Road Initiative potential - metro project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "metro",
+      "contractor": "veolia Eau",
+      "title": "exploitation D'Infrastructures Et D'Installations D'Assainissement Sur Des Communes Metropolitaines.Les communes concern\u00e9es sont d\u00e9taill\u00e9es par lot",
+      "country": "FR",
+      "value": 3900000.0,
+      "note": "Belt and Road Initiative potential - metro project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "metro",
+      "contractor": "Movement Barcelona 2005 S.l",
+      "title": "Servicio de aparcamientos seguros de bicicletas complementario al transporte p\u00fablico metropolitano (servicio Bicibox). (900072/22)",
+      "country": "ES",
+      "value": 5322620.0,
+      "note": "Belt and Road Initiative potential - metro project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "metro",
+      "contractor": "Bombardier Transportation Portugal, S.A.,",
+      "title": "CONTRATO PARA PROJETO, FORNECIMENTO, INSTALA\u00c7\u00c3O, TESTES E COLOCA\u00c7\u00c3O AO SERVI\u00c7O DO SISTEMA DE SINALIZA\u00c7\u00c3O E ATP DE VIA PARA A EXTENS\u00c3O A VILA DE ESTE D",
+      "country": "PT",
+      "value": 5578243.12,
+      "note": "Belt and Road Initiative potential - metro project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "metro",
+      "contractor": "CONFIDEX, LTD.",
+      "title": "Aquisi\u00e7\u00e3o de bilhetes de mem\u00f3ria sem contacto com chip ST25TB512 para a TML - Transportes Metropolitanos de Lisboa, E.M.T, S.A.",
+      "country": "PT",
+      "value": 7200000.0,
+      "note": "Belt and Road Initiative potential - metro project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "metro",
+      "contractor": "sarp",
+      "title": "entretien et curage des reseaux enterres, bassins de retention, fosses des eaux pluviales et ouvrages de protection contre les inondations des commune",
+      "country": "FR",
+      "value": 8000000.0,
+      "note": "Belt and Road Initiative potential - metro project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "metro",
+      "contractor": "ENBRA, a.s.",
+      "title": "Metrologick\u00e9 slu\u017eby",
+      "country": "CZ",
+      "value": 25481840.0,
+      "note": "Belt and Road Initiative potential - metro project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "metro",
+      "contractor": "TORHAMER Sp. z o.o. sp\u00f3\u0142ka komandytowa",
+      "title": "Zaprojektowanie i wykonanie rob\u00f3t dla zadania pn. \u201ePomorska Kolej Metropolitalna Etap I \u2013 rewitalizacja \u201eKolei Kokoszkowskiej\u201d Faza IV \u2013 rozbudowa p. ",
+      "country": "PL",
+      "value": 35169416.61,
+      "note": "Belt and Road Initiative potential - metro project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "metro",
+      "contractor": "Zarz\u0105d Transportu Miejskiego w Gda\u0144sku jednostka bud\u017cetowa Gminy Gminy Miasta Gda\u0144ska",
+      "title": "\u015bwiadczenie przez Zarz\u0105d Transportu Miejskiego w Gda\u0144sku na rzecz MZKZG us\u0142ug w zakresie wprowadzenia do systemu biletowego ZTM w Gda\u0144sku bilet\u00f3w metr",
+      "country": "PL",
+      "value": 47012518.49,
+      "note": "Belt and Road Initiative potential - metro project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "metro",
+      "contractor": "ING-GRAD D.O.O.",
+      "title": "RADOVI  NA REKONSTRUKCIJI I DOGRADNJI NOVOG  HRVATSKOG PRIRODOSLOVNOG MUZEJA\u2013 PALA\u010cE AMADEO, ZAGREB, DEMETROVA 1",
+      "country": "HR",
+      "value": 78811745.4,
+      "note": "Belt and Road Initiative potential - metro project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "metro",
+      "contractor": "TRAKCJA PRKiI S. A.",
+      "title": "Zaproj. i wykon. rob\u00f3t w ramach proj. Budowa Szczeci\u0144skiej Kolei Metrop. z wykorz. istniej\u0105cych odc. linii kol. nr406,273,351. Zad. B Modern. wybranej",
+      "country": "PL",
+      "value": 112766350.11,
+      "note": "Belt and Road Initiative potential - metro project"
+    },
+    {
+      "type": "Major Infrastructure Project",
+      "keyword": "metro",
+      "contractor": "Trakcja PRKiI S.A.",
+      "title": "Zaprojektowanie i wykonanie rob\u00f3t w ramach projektu Budowa Szczeci\u0144skiej Kolei Metropolitalnej zwykorzystaniem istniej\u0105cych odc. linii kolejowych nr 4",
+      "country": "PL",
+      "value": 390088562.01,
+      "note": "Belt and Road Initiative potential - metro project"
+    }
+  ],
+  "joint_ventures": [
+    {
+      "contractor": "QSAR LAB ltd., leader of Consortium QL_NAM_NANO_2023",
+      "title": "Rammeaftale om metodologisk udvikling og datagenerering til vurdering og opbygning af s\u00e6t af nanoformer",
+      "country": "FI",
+      "type": "consortium",
+      "contract_id": "2024/S 012-031129",
+      "note": "Potential for Chinese partner involvement"
+    },
+    {
+      "contractor": "JVM Computers spol. s r.o.",
+      "title": "Spot\u0159ebn\u00ed materi\u00e1l do tisk\u00e1ren",
+      "country": "CZ",
+      "type": "JV",
+      "contract_id": "2024/S 011-028469",
+      "note": "Potential for Chinese partner involvement"
+    },
+    {
+      "contractor": "JV SALFO AND ASSOCIATES SA - ADO SA",
+      "title": "Negotiated Procedure for Project Management and Technical Supervisory Services for the Paola Primary Health Care Southern Regional Hub",
+      "country": "MT",
+      "type": "JV",
+      "contract_id": "2024/S 011-028177",
+      "note": "Potential for Chinese partner involvement"
+    },
+    {
+      "contractor": "\u00daJV \u0158e\u017e, a. s.",
+      "title": "Dynamick\u00fd n\u00e1kupn\u00ed syst\u00e9m na n\u00e1kup radioaktivn\u00edho materi\u00e1lu a URZ",
+      "country": "CZ",
+      "type": "JV",
+      "contract_id": "2024/S 019-052291",
+      "note": "Potential for Chinese partner involvement"
+    },
+    {
+      "contractor": "\u00daJV \u0158e\u017e, a. s.",
+      "title": "Dod\u00e1vky radiofarmak 18-FDG pro PET/CT",
+      "country": "CZ",
+      "type": "JV",
+      "contract_id": "2024/S 007-015358",
+      "note": "Potential for Chinese partner involvement"
+    },
+    {
+      "contractor": "JV Karavokyris - Toumazis",
+      "title": "TAY 44/2023: DEVELOPMENT OF AN ASSESSMENT METHOD FOR THE HYDROMORPHOLOGICAL STATUS OF RIVERS IN CYPRUS",
+      "country": "CY",
+      "type": "JV",
+      "contract_id": "2024/S 015-040625",
+      "note": "Potential for Chinese partner involvement"
+    }
+  ],
+  "supply_chain_risks": [],
+  "recommendations": [
+    "1. Implement mandatory disclosure of all subcontractors and suppliers",
+    "2. Require country-of-origin labeling for all technology components",
+    "3. Conduct supply chain audits for critical infrastructure projects",
+    "4. Establish a registry of Chinese technology dependencies",
+    "5. Develop alternative non-Chinese suppliers for critical sectors",
+    "6. Monitor joint ventures and consortiums for hidden Chinese partners"
+  ]
+}

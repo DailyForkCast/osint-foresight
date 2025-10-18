@@ -1,0 +1,102 @@
+[
+  {
+    "country": "US",
+    "patent": {
+      "publication_number": "US-8486803-B2",
+      "family_id": "48086262",
+      "title": "Wafer level packaging method of encapsulating the bottom and side of a semiconductor chip",
+      "abstract": "A chip-scale packaging method, with bottom and side of a semiconductor chip encapsulated, includes the following steps: attaching backside of a thinned semiconductor wafer to a dicing tape; separating individual chips by cutting from front side of the wafer at scribe line but not cut through the dicing tape; flipping and attaching the wafer onto a top surface of a double-sided tape, then removing the dicing tape; attaching bottom surface of the double-sided tape on a supporting plate; filling the space between adjacent chips and covering the whole wafer backside with a molding material; flipping the whole structure and remove the supporting plate; placing solder balls at corresponding positions on electrodes of each chip and performing backflow treatment; finally separating individual chip packages by cutting through molding material at the space between adjacent chip packages with molding material encapsulating the bottom and side of each individual semiconductor chip.",
+      "filing_date": "20111013",
+      "publication_date": "20130716",
+      "technology_categories": [
+        "semiconductors"
+      ],
+      "risk_level": "CRITICAL",
+      "verification": {
+        "source": "Google BigQuery patents-public-data",
+        "query_timestamp": "2025-09-21T10:34:23.268823",
+        "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'US'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+      }
+    }
+  },
+  {
+    "country": "US",
+    "patent": {
+      "publication_number": "WO-2025027402-A1",
+      "family_id": "94387038",
+      "title": "Stacked field effect transistors",
+      "abstract": "A semiconductor device including stacked field effect transistors ( FETs) is provided. The stacked FETs are formed utilizing a process that optimizes the thermal budget without negatively impacting the frontside and/or backside contact structures. The stacked can be designed to have different work function metals and a frontside/backside deep via structure can be provided that has a low area resistance.",
+      "filing_date": "20240603",
+      "publication_date": "20250206",
+      "technology_categories": [
+        "semiconductors"
+      ],
+      "risk_level": "CRITICAL",
+      "verification": {
+        "source": "Google BigQuery patents-public-data",
+        "query_timestamp": "2025-09-21T10:34:23.284886",
+        "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'US'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+      }
+    }
+  },
+  {
+    "country": "DE",
+    "patent": {
+      "publication_number": "WO-2011117849-A1",
+      "family_id": "44672503",
+      "title": "Compos\u00e9s semi-conducteurs et polym\u00e8res \u00e0 base de thi\u00e9nocoron\u00e8ne-imide",
+      "abstract": "Disclosed are new semiconductor materials prepared from thienocoronene-imide-based small molecule and/or polymeric compounds. Such compounds can exhibit high carrier mobility and/or good current modulation characteristics. In addition, the compounds of the present teachings can possess certain processing advantages such as solution-processability and/or good stability at ambient conditions.",
+      "filing_date": "20110418",
+      "publication_date": "20110929",
+      "technology_categories": [
+        "semiconductors"
+      ],
+      "risk_level": "CRITICAL",
+      "verification": {
+        "source": "Google BigQuery patents-public-data",
+        "query_timestamp": "2025-09-21T10:34:28.606113",
+        "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+      }
+    }
+  },
+  {
+    "country": "KR",
+    "patent": {
+      "publication_number": "US-8501540-B2",
+      "family_id": "41164349",
+      "title": "Method for manufacture of inline integrated circuit system",
+      "abstract": "A method for manufacture of an integrated circuit package system includes: providing a leadframe with an integrated circuit mounted thereover; encapsulating the integrated circuit with an encapsulation; mounting an etch barrier below the leadframe; and etching the leadframe.",
+      "filing_date": "20110613",
+      "publication_date": "20130806",
+      "technology_categories": [
+        "semiconductors"
+      ],
+      "risk_level": "CRITICAL",
+      "verification": {
+        "source": "Google BigQuery patents-public-data",
+        "query_timestamp": "2025-09-21T10:34:37.464528",
+        "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'KR'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+      }
+    }
+  },
+  {
+    "country": "KR",
+    "patent": {
+      "publication_number": "US-8810019-B2",
+      "family_id": "39224056",
+      "title": "Integrated circuit package system with stacked die",
+      "abstract": "An integrated circuit package system includes a trace frame includes: an encapsulant; a first series of bonding pads along a length of the encapsulant; a second series of the bonding pads along a width of the encapsulant; conductive traces for connecting the bonding pads of the first series to the bonding pads of the second series in a one to one correspondence; and a first integrated circuit die on the encapsulant and on the conductive traces that extend beyond the first integrated circuit die.",
+      "filing_date": "20120206",
+      "publication_date": "20140819",
+      "technology_categories": [
+        "semiconductors"
+      ],
+      "risk_level": "CRITICAL",
+      "verification": {
+        "source": "Google BigQuery patents-public-data",
+        "query_timestamp": "2025-09-21T10:34:37.466522",
+        "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'KR'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+      }
+    }
+  }
+]

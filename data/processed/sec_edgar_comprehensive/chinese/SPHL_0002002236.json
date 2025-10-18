@@ -1,0 +1,53 @@
+{
+  "cik": "0002002236",
+  "ticker": "SPHL",
+  "name": "SPRINGVIEW HOLDINGS LTD",
+  "detection_reasons": [
+    "location:china",
+    "location:shenzhen",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:ky",
+    "address:mailing",
+    "vie_structure"
+  ],
+  "sic": "1520",
+  "sicDescription": "General Bldg Contractors - Residential Bldgs",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "65 6271 2282",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "31/F BAIDU INTERNATIONAL BUILDING",
+      "street2": "EAST TOWER NO.6 HAITIAN YI ROAD",
+      "city": "NANSHAN DISTRICT, SHENZHEN",
+      "stateOrCountry": "F4",
+      "zipCode": "518053",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "89 NEXUS WAY, CAMANA BAY",
+      "street2": null,
+      "city": "GRAND CAYMAN",
+      "stateOrCountry": "E9",
+      "zipCode": "KY1-9009",
+      "stateOrCountryDescription": "Cayman Islands",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-06-16"
+  },
+  "filings_count": 41
+}

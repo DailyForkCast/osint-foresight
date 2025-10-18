@@ -1,0 +1,691 @@
+{
+  "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openaire_technology\\technology_search_results_20250921_170853.json",
+  "size": 18640,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 1,
+  "field_count": 5,
+  "parse_status": "success",
+  "schema": {
+    "metadata": "object",
+    "summary": "object",
+    "country_totals": "object",
+    "keyword_totals": "object",
+    "detailed_results": "array"
+  },
+  "sample_records": [
+    {
+      "metadata": {
+        "analysis_date": "2025-09-21T17:08:53.438493",
+        "countries": {
+          "IT": "Italy",
+          "DE": "Germany",
+          "HU": "Hungary",
+          "GR": "Greece"
+        },
+        "keywords": [
+          "artificial intelligence",
+          "quantum computing",
+          "biotechnology",
+          "nanotechnology",
+          "5G",
+          "semiconductor",
+          "battery technology",
+          "solar energy",
+          "machine learning"
+        ],
+        "method": "Technology-specific keyword search"
+      },
+      "summary": {
+        "total_collaborations": 11,
+        "countries_with_collaborations": 4,
+        "keywords_with_collaborations": 6
+      },
+      "country_totals": {
+        "IT": 2,
+        "DE": 3,
+        "HU": 2,
+        "GR": 4
+      },
+      "keyword_totals": {
+        "artificial intelligence": 0,
+        "quantum computing": 2,
+        "biotechnology": 1,
+        "nanotechnology": 2,
+        "5G": 0,
+        "semiconductor": 2,
+        "battery technology": 2,
+        "solar energy": 2,
+        "machine learning": 0
+      },
+      "detailed_results": [
+        {
+          "keyword": "artificial intelligence",
+          "country": "IT",
+          "total_results": 18567,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        },
+        {
+          "keyword": "quantum computing",
+          "country": "IT",
+          "total_results": 1571,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        },
+        {
+          "keyword": "biotechnology",
+          "country": "IT",
+          "total_results": 8617,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        },
+        {
+          "keyword": "nanotechnology",
+          "country": "IT",
+          "total_results": 3436,
+          "china_collaborations": 1,
+          "collaboration_details": [
+            {
+              "title": "Macrostructures and rhetorical moves in research articles in nanotechnology",
+              "date": "2025-01-22",
+              "keyword": "nanotechnology",
+              "countries": [
+                "IT",
+                "CN"
+              ],
+              "organizations": [
+                {
+                  "country": "IT",
+                  "organization": "Catholic University of the Sacred Heart"
+                },
+                {
+                  "country": "CN",
+                  "organization": "Yangzhou University"
+                },
+                {
+                  "country": "CN",
+                  "organization": "Jiangxi University of Technology"
+                },
+                {
+                  "country": "CN",
+                  "organization": "Jiangsu University of Technology"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "keyword": "5G",
+          "country": "IT",
+          "total_results": 2742,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        },
+        {
+          "keyword": "semiconductor",
+          "country": "IT",
+          "total_results": 2953,
+          "china_collaborations": 1,
+          "collaboration_details": [
+            {
+              "title": "Interfacial regulation of aqueous synthesized metal-semiconductor hetero-nanocrystals",
+              "date": "2022-12-13",
+              "keyword": "semiconductor",
+              "countries": [
+                "IT",
+                "CN"
+              ],
+              "organizations": [
+                {
+                  "country": "CN",
+                  "organization": "Beijing Institute of Technology (BIT)"
+                },
+                {
+                  "country": "IT",
+                  "organization": "University of Salento"
+                },
+                {
+                  "country": "CN",
+                  "organization": "Fuzhou University"
+                },
+                {
+                  "country": "CN",
+                  "organization": "Beijing Institute of Technology"
+                },
+                {
+                  "country": "CN",
+                  "organization": "Ministry of Industry and Information Technology"
+                },
+                {
+                  "country": "CN",
+                  "organization": "Beijing Institute of Technology"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "keyword": "battery technology",
+          "country": "IT",
+          "total_results": 1531,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        },
+        {
+          "keyword": "solar energy",
+          "country": "IT",
+          "total_results": 5881,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        },
+        {
+          "keyword": "machine learning",
+          "country": "IT",
+          "total_results": 25179,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        },
+        {
+          "keyword": "artificial intelligence",
+          "country": "DE",
+          "total_results": 21188,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        },
+        {
+          "keyword": "quantum computing",
+          "country": "DE",
+          "total_results": 2927,
+          "china_collaborations": 1,
+          "collaboration_details": [
+            {
+              "title": "Quantum compiling with a variational instruction set for accurate and fast quantum computing",
+              "date": "2023-05-12",
+              "keyword": "quantum computing",
+              "countries": [
+                "CN",
+                "DE"
+              ],
+              "organizations": [
+                {
+                  "country": "DE",
+                  "organization": "Max Planck Society"
+                },
+                {
+                  "country": "DE",
+                  "organization": "Max Planck Institute for Mathematics in the Sciences"
+                },
+                {
+                  "country": "CN",
+                  "organization": "Capital Normal University"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "keyword": "biotechnology",
+          "country": "DE",
+          "total_results": 9498,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        },
+        {
+          "keyword": "nanotechnology",
+          "country": "DE",
+          "total_results": 4028,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        },
+        {
+          "keyword": "5G",
+          "country": "DE",
+          "total_results": 2271,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        },
+        {
+          "keyword": "semiconductor",
+          "country": "DE",
+          "total_results": 6055,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        },
+        {
+          "keyword": "battery technology",
+          "country": "DE",
+          "total_results": 3655,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        },
+        {
+          "keyword": "solar energy",
+          "country": "DE",
+          "total_results": 7994,
+          "china_collaborations": 2,
+          "collaboration_details": [
+            {
+              "title": "Concentrating solar assisted biomass-to-fuel conversion through gasification: A review",
+              "date": "2023-01-17",
+              "keyword": "solar energy",
+              "countries": [
+                "ES",
+                "CN",
+                "DE"
+              ],
+              "organizations": [
+                {
+                  "country": "ES",
+                  "organization": "University of Seville"
+                },
+                {
+                  "country": "DE",
+                  "organization": "University of Greifswald"
+                },
+                {
+                  "country": "ES",
+                  "organization": "Universidad de Sevilla (US)"
+                },
+                {
+                  "country": "CN",
+                  "organization": "Shanghai Jiao Tong University"
+                },
+                {
+                  "country": "CN",
+                  "organization": "Shanghai Jiao Tong University"
+                }
+              ]
+            },
+            {
+              "title": "The solar radiation variation and its absorption by the terrestrial atmosphere",
+              "date": "2023-01-01",
+              "keyword": "solar energy",
+              "countries": [
+                "CN",
+                "DE"
+              ],
+              "organizations": [
+                {
+                  "country": "CN",
+                  "organization": "Institute of Atmospheric Physics"
+                },
+                {
+                  "country": "CN",
+                  "organization": "Chinese Academy of Sciences"
+                },
+                {
+                  "country": "DE",
+                  "organization": "Helmholtz Centre Potsdam"
+                },
+                {
+                  "country": "CN",
+                  "organization": "National Center for Climate Change Strategy and International Cooperation"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "keyword": "machine learning",
+          "country": "DE",
+          "total_results": 34905,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        },
+        {
+          "keyword": "artificial intelligence",
+          "country": "HU",
+          "total_results": 1522,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        },
+        {
+          "keyword": "quantum computing",
+          "country": "HU",
+          "total_results": 125,
+          "china_collaborations": 1,
+          "collaboration_details": [
+            {
+              "title": "The Electronic Structure of the Hydrogen Molecule: A Tutorial Exercise in Classical and Quantum Computation",
+              "date": "2025-07-24",
+              "keyword": "quantum computing",
+              "countries": [
+                "HU",
+                "MD",
+                "CN",
+                "SK",
+                "IL",
+                "GB"
+              ],
+              "organizations": [
+                {
+                  "country": "CN",
+                  "organization": "Institute of Chemistry"
+                },
+                {
+                  "country": "IL",
+                  "organization": "Institute of Chemistry,"
+                },
+                {
+                  "country": "MD",
+                  "organization": "Moldova State University, Institute of Chemistry"
+                },
+                {
+                  "country": "HU",
+                  "organization": "University of Miskolc"
+                },
+                {
+                  "country": "SK",
+                  "organization": "Slovak Academy of Sciences"
+                },
+                {
+                  "country": "GB",
+                  "organization": "Riverlane (United Kingdom)"
+                },
+                {
+                  "country": "SK",
+                  "organization": "Institute of Chemistry"
+                },
+                {
+                  "country": "CN",
+                  "organization": "Chinese Academy of Sciences"
+                },
+                {
+                  "country": "MD",
+                  "organization": "Moldova State University"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "keyword": "biotechnology",
+          "country": "HU",
+          "total_results": 991,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        },
+        {
+          "keyword": "nanotechnology",
+          "country": "HU",
+          "total_results": 226,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        },
+        {
+          "keyword": "5G",
+          "country": "HU",
+          "total_results": 240,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        },
+        {
+          "keyword": "semiconductor",
+          "country": "HU",
+          "total_results": 188,
+          "china_collaborations": 1,
+          "collaboration_details": [
+            {
+              "title": "Quantum bit with telecom wave-length emission from a simple defect in Si",
+              "date": "2024-10-14",
+              "keyword": "semiconductor",
+              "countries": [
+                "HU",
+                "CN"
+              ],
+              "organizations": [
+                {
+                  "country": "HU",
+                  "organization": "HUN-REN Wigner Research Centre for Physics"
+                },
+                {
+                  "country": "CN",
+                  "organization": "Beijing Computational Science Research Center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "keyword": "battery technology",
+          "country": "HU",
+          "total_results": 171,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        },
+        {
+          "keyword": "solar energy",
+          "country": "HU",
+          "total_results": 545,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        },
+        {
+          "keyword": "machine learning",
+          "country": "HU",
+          "total_results": 2112,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        },
+        {
+          "keyword": "artificial intelligence",
+          "country": "GR",
+          "total_results": 4426,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        },
+        {
+          "keyword": "quantum computing",
+          "country": "GR",
+          "total_results": 206,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        },
+        {
+          "keyword": "biotechnology",
+          "country": "GR",
+          "total_results": 1572,
+          "china_collaborations": 1,
+          "collaboration_details": [
+            {
+              "title": "Tumor-associated macrophages promoting PD-L1 expression in infiltrating B cells through the CXCL12/ CXCR4 axis in human hepatocellular carcinoma",
+              "date": "2024-01-01",
+              "keyword": "biotechnology",
+              "countries": [
+                "UNKNOWN",
+                "GR",
+                "CN"
+              ],
+              "organizations": [
+                {
+                  "country": "CN",
+                  "organization": "Nanjing University"
+                },
+                {
+                  "country": "GR",
+                  "organization": "Medical School"
+                },
+                {
+                  "country": "CN",
+                  "organization": "NANJING UNIVERSITY"
+                },
+                {
+                  "country": "CN",
+                  "organization": "Hebei University"
+                },
+                {
+                  "country": "CN",
+                  "organization": "Nanjing University"
+                },
+                {
+                  "country": "UNKNOWN",
+                  "organization": "Nanjing University"
+                },
+                {
+                  "country": "CN",
+                  "organization": "Nanjing University"
+                },
+                {
+                  "country": "CN",
+                  "organization": "Nanjing University"
+                },
+                {
+                  "country": "CN",
+                  "organization": "NANJING UNIVERSITY"
+                },
+                {
+                  "country": "CN",
+                  "organization": "Nanjing University"
+                },
+                {
+                  "country": "CN",
+                  "organization": "Nanjing University"
+                },
+                {
+                  "country": "CN",
+                  "organization": "NANJING UNIVERSITY"
+                },
+                {
+                  "country": "CN",
+                  "organization": "State Key Laboratory of Pharmaceutical Biotechnology"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "keyword": "nanotechnology",
+          "country": "GR",
+          "total_results": 1601,
+          "china_collaborations": 1,
+          "collaboration_details": [
+            {
+              "title": "Application of nanotechnology in periodontal therapy: Narrative review",
+              "date": "2024-04-11",
+              "keyword": "nanotechnology",
+              "countries": [
+                "GR",
+                "CN",
+                "UA"
+              ],
+              "organizations": [
+                {
+                  "country": "UA",
+                  "organization": "I.Horbachevsky Ternopil National Medical University"
+                },
+                {
+                  "country": "UA",
+                  "organization": "Ternopil State Medical University"
+                },
+                {
+                  "country": "GR",
+                  "organization": "Research Academic Computer Technology Institute"
+                },
+                {
+                  "country": "CN",
+                  "organization": "Hubei University of Technology"
+                },
+                {
+                  "country": "UA",
+                  "organization": "Lviv Polytechnic National University"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "keyword": "5G",
+          "country": "GR",
+          "total_results": 1420,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        },
+        {
+          "keyword": "semiconductor",
+          "country": "GR",
+          "total_results": 320,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        },
+        {
+          "keyword": "battery technology",
+          "country": "GR",
+          "total_results": 262,
+          "china_collaborations": 2,
+          "collaboration_details": [
+            {
+              "title": "Comparative life cycle greenhouse gas emissions assessment of battery energy storage technologies for grid applications",
+              "date": "2023-03-01",
+              "keyword": "battery technology",
+              "countries": [
+                "GR",
+                "CN"
+              ],
+              "organizations": [
+                {
+                  "country": "CN",
+                  "organization": "Soochow University"
+                },
+                {
+                  "country": "CN",
+                  "organization": "Xi\u2019an Jiaotong-Liverpool University"
+                },
+                {
+                  "country": "GR",
+                  "organization": "National Technical University of Athens"
+                },
+                {
+                  "country": "GR",
+                  "organization": "Centre for Research and Technology Hellas"
+                }
+              ]
+            },
+            {
+              "title": "Improved oxygen evolution reaction performance in Co0.4Mn0.6O2 nanosheets through Triple-doping (Cu, P, N) strategy and its application to Zn-air battery",
+              "date": "2023-01-01",
+              "keyword": "battery technology",
+              "countries": [
+                "GR",
+                "CN"
+              ],
+              "organizations": [
+                {
+                  "country": "GR",
+                  "organization": "University Of Thessaly"
+                },
+                {
+                  "country": "CN",
+                  "organization": "University of Science and Technology of China"
+                },
+                {
+                  "country": "CN",
+                  "organization": "Shenzhen University"
+                },
+                {
+                  "country": "CN",
+                  "organization": "Tsinghua University"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "keyword": "solar energy",
+          "country": "GR",
+          "total_results": 1170,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        },
+        {
+          "keyword": "machine learning",
+          "country": "GR",
+          "total_results": 6232,
+          "china_collaborations": 0,
+          "collaboration_details": []
+        }
+      ]
+    }
+  ],
+  "modified": "2025-09-21T17:08:53.444675"
+}

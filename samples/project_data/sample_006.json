@@ -1,0 +1,181 @@
+{
+  "original_path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\patents_multicountry\\by_technology\\artificial_intelligence\\patents.json",
+  "profile": {
+    "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\patents_multicountry\\by_technology\\artificial_intelligence\\patents.json",
+    "size": 10500,
+    "extension": ".json",
+    "encoding": "utf-8",
+    "line_count": 4,
+    "field_count": 2,
+    "parse_status": "success",
+    "schema": {
+      "country": "string",
+      "patent": "object"
+    },
+    "sample_records": [
+      {
+        "country": "US",
+        "patent": {
+          "publication_number": "WO-2024119839-A1",
+          "family_id": "91378482",
+          "title": "Fixed asymmetry compensation for multiply and accumulate operations",
+          "abstract": "Systems and methods for compensating multiply and accumulate (MAC) operations are described. A processor can send an input vector to a first portion of a memory device. The first portion can store synaptic weights of a trained artificial neural network (ANN). The processor can read a first result of a MAC operation performed on the input vector and the synaptic weights stored in the first portion. The processor can send an inverse of the input vector to a second portion of the memory device. The processor can read a second result of a MAC operation performed on the inverse of the input vector and an inverse of synaptic weights stored in the second portion. The processor can combine the first result and the second result to generate a final result. The final result can be a compensated version of the first result.",
+          "filing_date": "20230721",
+          "publication_date": "20240613",
+          "technology_categories": [
+            "artificial_intelligence"
+          ],
+          "risk_level": "CRITICAL",
+          "verification": {
+            "source": "Google BigQuery patents-public-data",
+            "query_timestamp": "2025-09-21T10:34:23.259732",
+            "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'US'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+          }
+        }
+      },
+      {
+        "country": "US",
+        "patent": {
+          "publication_number": "WO-2024120499-A1",
+          "family_id": "91378614",
+          "title": "Method, apparatus, and medium for visual data processing",
+          "abstract": "Embodiments of the present disclosure provide a solution for visual data processing. In a method for visual data processing, for a conversion between a current visual unit of visual data and a bitstream of the visual data, at least one wavelet subband representation of the current visual unit is determined based on a neural network-based non-linear transformation or a neural network-based inverse non-linear transformation inverse to the non-linear transformation. A wavelet subband representation is associated with a subband of a wavelet of the current visual unit. The conversion is performed based on the at least one wavelet subband representation.",
+          "filing_date": "20231207",
+          "publication_date": "20240613",
+          "technology_categories": [
+            "artificial_intelligence"
+          ],
+          "risk_level": "CRITICAL",
+          "verification": {
+            "source": "Google BigQuery patents-public-data",
+            "query_timestamp": "2025-09-21T10:34:23.284886",
+            "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'US'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+          }
+        }
+      },
+      {
+        "country": "DE",
+        "patent": {
+          "publication_number": "WO-2024032901-A1",
+          "family_id": "83229070",
+          "title": "Syst\u00e8me de cam\u00e9ra lidar",
+          "abstract": "It is provided a method of spatially calibrating a LIDAR device with respect to at least one camera device based on one or more simulated LIDAR point clouds. The method comprises the steps of capturing by the at least one camera device at least one image of an environmentof the at least one camera device and obtaining a point cloud for the environment by the LIDAR device. The method, furthermore, comprises inputting data based on the at least one captured image into a neural network, outputting by the neural network a neural network representation of the environment of the at least one camera based on the input data, obtaining a first simulated LIDAR point cloud based on the neural network representation and calibrating the LIDAR device by matching of the point cloud obtained by the LIDAR device and the first simulated LIDAR point cloud.",
+          "filing_date": "20220812",
+          "publication_date": "20240215",
+          "technology_categories": [
+            "artificial_intelligence"
+          ],
+          "risk_level": "CRITICAL",
+          "verification": {
+            "source": "Google BigQuery patents-public-data",
+            "query_timestamp": "2025-09-21T10:34:28.612204",
+            "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+          }
+        }
+      },
+      {
+        "country": "DE",
+        "patent": {
+          "publication_number": "WO-2021228404-A1",
+          "family_id": "70775363",
+          "title": "G\u00e9n\u00e9ration de donn\u00e9es synth\u00e9tiques de grande dimension et de grande utilit\u00e9",
+          "abstract": "In some examples, a computer-implemented method for generating high-dimensional, high utility synthetic data comprises generating a differentially privatised global model using a global model, the differentially privatised global model defining an autoencoder configured to map high-dimensional user data to a lower dimensional feature space, and iteratively refining the global model on the basis of multiple differentially privatised local models received from a network of user equipment defining a federated learning structure. The refinement process can proceed by broadcasting the differentially privatised global model to the network of user equipment as part of a refinement iteration, receiving updated versions of the multiple differentially privatised local models from the network of user equipment, and on the basis of a convergence threshold representing convergence of the differentially privatised global model to a selected measure of accuracy according to a loss function, using the differentially privatised global model to generate a set of synthetic data by selecting a set of random latent features using a predefined distribution as input to the differentially privatised global model whereby to generate a set of synthetic data as output of the differentially privatised global model. The generated synthetic data can be used for data mining and the building of machine learning models and so on.",
+          "filing_date": "20200515",
+          "publication_date": "20211118",
+          "technology_categories": [
+            "artificial_intelligence"
+          ],
+          "risk_level": "CRITICAL",
+          "verification": {
+            "source": "Google BigQuery patents-public-data",
+            "query_timestamp": "2025-09-21T10:34:28.622195",
+            "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+          }
+        }
+      }
+    ],
+    "modified": "2025-09-21T10:34:38.856797"
+  },
+  "sample_data": [
+    {
+      "country": "US",
+      "patent": {
+        "publication_number": "WO-2024119839-A1",
+        "family_id": "91378482",
+        "title": "Fixed asymmetry compensation for multiply and accumulate operations",
+        "abstract": "Systems and methods for compensating multiply and accumulate (MAC) operations are described. A processor can send an input vector to a first portion of a memory device. The first portion can store synaptic weights of a trained artificial neural network (ANN). The processor can read a first result of a MAC operation performed on the input vector and the synaptic weights stored in the first portion. The processor can send an inverse of the input vector to a second portion of the memory device. The processor can read a second result of a MAC operation performed on the inverse of the input vector and an inverse of synaptic weights stored in the second portion. The processor can combine the first result and the second result to generate a final result. The final result can be a compensated version of the first result.",
+        "filing_date": "20230721",
+        "publication_date": "20240613",
+        "technology_categories": [
+          "artificial_intelligence"
+        ],
+        "risk_level": "CRITICAL",
+        "verification": {
+          "source": "Google BigQuery patents-public-data",
+          "query_timestamp": "2025-09-21T10:34:23.259732",
+          "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'US'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+        }
+      }
+    },
+    {
+      "country": "US",
+      "patent": {
+        "publication_number": "WO-2024120499-A1",
+        "family_id": "91378614",
+        "title": "Method, apparatus, and medium for visual data processing",
+        "abstract": "Embodiments of the present disclosure provide a solution for visual data processing. In a method for visual data processing, for a conversion between a current visual unit of visual data and a bitstream of the visual data, at least one wavelet subband representation of the current visual unit is determined based on a neural network-based non-linear transformation or a neural network-based inverse non-linear transformation inverse to the non-linear transformation. A wavelet subband representation is associated with a subband of a wavelet of the current visual unit. The conversion is performed based on the at least one wavelet subband representation.",
+        "filing_date": "20231207",
+        "publication_date": "20240613",
+        "technology_categories": [
+          "artificial_intelligence"
+        ],
+        "risk_level": "CRITICAL",
+        "verification": {
+          "source": "Google BigQuery patents-public-data",
+          "query_timestamp": "2025-09-21T10:34:23.284886",
+          "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'US'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+        }
+      }
+    },
+    {
+      "country": "DE",
+      "patent": {
+        "publication_number": "WO-2024032901-A1",
+        "family_id": "83229070",
+        "title": "Syst\u00e8me de cam\u00e9ra lidar",
+        "abstract": "It is provided a method of spatially calibrating a LIDAR device with respect to at least one camera device based on one or more simulated LIDAR point clouds. The method comprises the steps of capturing by the at least one camera device at least one image of an environmentof the at least one camera device and obtaining a point cloud for the environment by the LIDAR device. The method, furthermore, comprises inputting data based on the at least one captured image into a neural network, outputting by the neural network a neural network representation of the environment of the at least one camera based on the input data, obtaining a first simulated LIDAR point cloud based on the neural network representation and calibrating the LIDAR device by matching of the point cloud obtained by the LIDAR device and the first simulated LIDAR point cloud.",
+        "filing_date": "20220812",
+        "publication_date": "20240215",
+        "technology_categories": [
+          "artificial_intelligence"
+        ],
+        "risk_level": "CRITICAL",
+        "verification": {
+          "source": "Google BigQuery patents-public-data",
+          "query_timestamp": "2025-09-21T10:34:28.612204",
+          "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+        }
+      }
+    },
+    {
+      "country": "DE",
+      "patent": {
+        "publication_number": "WO-2021228404-A1",
+        "family_id": "70775363",
+        "title": "G\u00e9n\u00e9ration de donn\u00e9es synth\u00e9tiques de grande dimension et de grande utilit\u00e9",
+        "abstract": "In some examples, a computer-implemented method for generating high-dimensional, high utility synthetic data comprises generating a differentially privatised global model using a global model, the differentially privatised global model defining an autoencoder configured to map high-dimensional user data to a lower dimensional feature space, and iteratively refining the global model on the basis of multiple differentially privatised local models received from a network of user equipment defining a federated learning structure. The refinement process can proceed by broadcasting the differentially privatised global model to the network of user equipment as part of a refinement iteration, receiving updated versions of the multiple differentially privatised local models from the network of user equipment, and on the basis of a convergence threshold representing convergence of the differentially privatised global model to a selected measure of accuracy according to a loss function, using the differentially privatised global model to generate a set of synthetic data by selecting a set of random latent features using a predefined distribution as input to the differentially privatised global model whereby to generate a set of synthetic data as output of the differentially privatised global model. The generated synthetic data can be used for data mining and the building of machine learning models and so on.",
+        "filing_date": "20200515",
+        "publication_date": "20211118",
+        "technology_categories": [
+          "artificial_intelligence"
+        ],
+        "risk_level": "CRITICAL",
+        "verification": {
+          "source": "Google BigQuery patents-public-data",
+          "query_timestamp": "2025-09-21T10:34:28.622195",
+          "reproduction_query": "SELECT DISTINCT             p.publication_number,             p.family_id,             ARRAY_AGG(DISTINCT t.text IGNORE NULLS) as title,             ARRAY_AGG(DISTINCT a.text IGNORE NULLS) as abstract,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         FROM             `patents-public-data.patents.publications` p,             UNNEST(p.title_localized) as t,             UNNEST(p.abstract_localized) as a,             UNNEST(p.assignee_harmonized) as assignee_cn,             UNNEST(p.assignee_harmonized) as assignee_target         WHERE             p.publication_date >= 20000101             AND assignee_cn.country_code = 'CN'             AND assignee_target.country_code = 'DE'             AND assignee_cn != assignee_target         GROUP BY             p.publication_number,             p.family_id,             p.filing_date,             p.publication_date,             p.inventor_harmonized,             p.assignee_harmonized,             p.cpc         LIMIT 50"
+        }
+      }
+    }
+  ]
+}

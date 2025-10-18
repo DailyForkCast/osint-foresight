@@ -1,0 +1,47 @@
+{
+  "cik": "0001739104",
+  "ticker": "ELAN",
+  "name": "Elanco Animal Health Inc",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2834",
+  "sicDescription": "Pharmaceutical Preparations",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "825497352",
+  "phone": "877-352-6261",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2500 INNOVATION WAY",
+      "street2": null,
+      "city": "GREENFIELD",
+      "stateOrCountry": "IN",
+      "zipCode": "46140",
+      "stateOrCountryDescription": "IN",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2500 INNOVATION WAY",
+      "street2": null,
+      "city": "GREENFIELD",
+      "stateOrCountry": "IN",
+      "zipCode": "46140",
+      "stateOrCountryDescription": "IN",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-07"
+  },
+  "filings_count": 860
+}

@@ -1,0 +1,48 @@
+{
+  "cik": "0000897077",
+  "ticker": "ALG",
+  "name": "ALAMO GROUP INC",
+  "detection_reasons": [
+    "offshore:bm",
+    "vie_structure"
+  ],
+  "sic": "3523",
+  "sicDescription": "Farm Machinery & Equipment",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "741621248",
+  "phone": "8303791480",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "P.O. BOX 549",
+      "street2": "1627 EAST WALNUT",
+      "city": "SEGUIN",
+      "stateOrCountry": "TX",
+      "zipCode": "78155",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1627 E WALNUT",
+      "street2": null,
+      "city": "SEGUIN",
+      "stateOrCountry": "TX",
+      "zipCode": "78155",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-18"
+  },
+  "filings_count": 1000
+}

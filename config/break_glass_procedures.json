@@ -1,0 +1,54 @@
+{
+  "emergency_access": {
+    "trigger": "System admin unavailable and critical issue",
+    "procedure": [
+      "1. Contact on-call supervisor",
+      "2. Document emergency in incident log",
+      "3. Use break-glass credentials from secure vault",
+      "4. Perform necessary actions",
+      "5. Document all actions taken",
+      "6. Reset credentials within 24 hours"
+    ],
+    "approval_required": "Director level",
+    "audit": "Mandatory within 48 hours"
+  },
+  "data_recovery": {
+    "trigger": "Data corruption or loss detected",
+    "procedure": [
+      "1. Isolate affected systems",
+      "2. Assess scope of data loss",
+      "3. Initiate backup restoration",
+      "4. Validate recovered data integrity",
+      "5. Document root cause",
+      "6. Update recovery procedures"
+    ],
+    "approval_required": "Data steward",
+    "audit": "Mandatory within 72 hours"
+  },
+  "compliance_override": {
+    "trigger": "Regulatory requirement conflicts with retention",
+    "procedure": [
+      "1. Document regulatory requirement",
+      "2. Obtain legal approval",
+      "3. Override retention policy",
+      "4. Set legal hold flag",
+      "5. Notify compliance team",
+      "6. Schedule policy review"
+    ],
+    "approval_required": "Legal counsel",
+    "audit": "Quarterly review"
+  },
+  "performance_degradation": {
+    "trigger": "System performance below 50% baseline",
+    "procedure": [
+      "1. Enable minimal processing mode",
+      "2. Disable non-critical monitors",
+      "3. Increase resource allocation",
+      "4. Clear cache and temporary files",
+      "5. Restart services sequentially",
+      "6. Monitor recovery metrics"
+    ],
+    "approval_required": "Technical lead",
+    "audit": "Post-incident review"
+  }
+}

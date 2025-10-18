@@ -1,0 +1,538 @@
+{
+  "original_path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\by_country\\HR_china\\collaborations_20250921_124455.json",
+  "profile": {
+    "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\by_country\\HR_china\\collaborations_20250921_124455.json",
+    "size": 755112,
+    "extension": ".json",
+    "encoding": "utf-8",
+    "line_count": 81,
+    "field_count": 13,
+    "parse_status": "success",
+    "schema": {
+      "paper_id": "string",
+      "doi": "unknown",
+      "title": "string",
+      "publication_year": "number",
+      "countries_collaborating": "array",
+      "institutions": "object",
+      "authors_by_country": "object",
+      "technology_categories": "array",
+      "collaboration_patterns": "array",
+      "temporal_context": "object",
+      "verification": "object",
+      "risk_assessment": "object",
+      "partner_country": "string"
+    },
+    "sample_records": [
+      {
+        "paper_id": "https://openalex.org/W2371037530",
+        "doi": null,
+        "title": "Significance of combined detection of CEA,CA125,CYFRA21-1 and NSE for lung cancer",
+        "publication_year": 2013,
+        "countries_collaborating": [
+          "CN",
+          "HR"
+        ],
+        "institutions": {
+          "HR": [
+            "Institute of Immunology"
+          ],
+          "CN": [
+            "Zhejiang University"
+          ]
+        },
+        "authors_by_country": {
+          "HR": [
+            "Ma Zhi (Institute of Immunology)"
+          ],
+          "CN": [
+            "Ma Zhi (Zhejiang University)"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "bri_launch_2013_2016",
+          "year": 2013,
+          "pre_bri_baseline": false,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_000.gz",
+          "line_number": 3256,
+          "extraction_command": "sed -n '3256p' part_000.gz | jq '.title'",
+          "paper_hash": "6611a741f9e2db16"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "HR"
+      },
+      {
+        "paper_id": "https://openalex.org/W2375702803",
+        "doi": null,
+        "title": "The Impact of Usage of Media and Computer to Polytechnic Students",
+        "publication_year": 2014,
+        "countries_collaborating": [
+          "CN",
+          "HR",
+          "TR"
+        ],
+        "institutions": {
+          "TR": [
+            "Police Academy"
+          ],
+          "HR": [
+            "Policijska akademija"
+          ],
+          "CN": [
+            "Zhejiang Police College"
+          ]
+        },
+        "authors_by_country": {
+          "TR": [
+            "Wang Ju (Police Academy)"
+          ],
+          "HR": [
+            "Wang Ju (Policijska akademija)"
+          ],
+          "CN": [
+            "Wang Ju (Zhejiang Police College)"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "bri_launch_2013_2016",
+          "year": 2014,
+          "pre_bri_baseline": false,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_000.gz",
+          "line_number": 596930,
+          "extraction_command": "sed -n '596930p' part_000.gz | jq '.title'",
+          "paper_hash": "729b17a38b66262b"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "HR"
+      },
+      {
+        "paper_id": "https://openalex.org/W2348966839",
+        "doi": null,
+        "title": "Clinical evaluation of the differentiating diagnosis of 102 patients with pleural effusion by detection of CEA,CYFRA21-1 and exfoliated cells",
+        "publication_year": 2011,
+        "countries_collaborating": [
+          "CN",
+          "HR",
+          "TR"
+        ],
+        "institutions": {
+          "TR": [
+            "Police Academy"
+          ],
+          "HR": [
+            "Policijska akademija"
+          ],
+          "CN": [
+            "Chinese People's Armed Police Force Engineering University"
+          ]
+        },
+        "authors_by_country": {
+          "TR": [
+            "Zhao Yong (Police Academy)"
+          ],
+          "HR": [
+            "Zhao Yong (Policijska akademija)"
+          ],
+          "CN": [
+            "Zhao Yong (Chinese People's Armed Police Force Engineering University)"
+          ]
+        },
+        "technology_categories": [
+          "nuclear_technology"
+        ],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "pre_bri_baseline_2000_2012",
+          "year": 2011,
+          "pre_bri_baseline": true,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_000.gz",
+          "line_number": 510644,
+          "extraction_command": "sed -n '510644p' part_000.gz | jq '.title'",
+          "paper_hash": "edf0fc5138258ebd"
+        },
+        "risk_assessment": {
+          "technology_risk": "CRITICAL",
+          "collaboration_risk": "LOW",
+          "overall_risk": "CRITICAL",
+          "strategic_concerns": [
+            "Critical dual-use technologies: nuclear_technology"
+          ]
+        },
+        "partner_country": "HR"
+      },
+      {
+        "paper_id": "https://openalex.org/W2394333840",
+        "doi": null,
+        "title": "Genetic polymorphisms of fifteen STR loci in Han population of Nanchong",
+        "publication_year": 2008,
+        "countries_collaborating": [
+          "CN",
+          "HR"
+        ],
+        "institutions": {
+          "HR": [
+            "Institute of Immunology"
+          ],
+          "CN": [
+            "North Sichuan Medical University"
+          ]
+        },
+        "authors_by_country": {
+          "HR": [
+            "Li Li (Institute of Immunology)"
+          ],
+          "CN": [
+            "Li Li (North Sichuan Medical University)"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "pre_bri_baseline_2000_2012",
+          "year": 2008,
+          "pre_bri_baseline": true,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_000.gz",
+          "line_number": 629754,
+          "extraction_command": "sed -n '629754p' part_000.gz | jq '.title'",
+          "paper_hash": "e2220cfae9ac5739"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "HR"
+      },
+      {
+        "paper_id": "https://openalex.org/W2348123482",
+        "doi": null,
+        "title": "Advances in the research of Leishmania live attenuated vaccine",
+        "publication_year": 2015,
+        "countries_collaborating": [
+          "CN",
+          "HR"
+        ],
+        "institutions": {
+          "HR": [
+            "Institute of Immunology"
+          ],
+          "CN": [
+            "North Sichuan Medical University"
+          ]
+        },
+        "authors_by_country": {
+          "HR": [
+            "Liu Pen (Institute of Immunology)"
+          ],
+          "CN": [
+            "Liu Pen (North Sichuan Medical University)"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "bri_launch_2013_2016",
+          "year": 2015,
+          "pre_bri_baseline": false,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_001.gz",
+          "line_number": 402842,
+          "extraction_command": "sed -n '402842p' part_001.gz | jq '.title'",
+          "paper_hash": "0c2d3a9ccf850825"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "HR"
+      }
+    ],
+    "modified": "2025-09-21T12:45:43.897634"
+  },
+  "sample_data": [
+    {
+      "paper_id": "https://openalex.org/W2371037530",
+      "doi": null,
+      "title": "Significance of combined detection of CEA,CA125,CYFRA21-1 and NSE for lung cancer",
+      "publication_year": 2013,
+      "countries_collaborating": [
+        "CN",
+        "HR"
+      ],
+      "institutions": {
+        "HR": [
+          "Institute of Immunology"
+        ],
+        "CN": [
+          "Zhejiang University"
+        ]
+      },
+      "authors_by_country": {
+        "HR": [
+          "Ma Zhi (Institute of Immunology)"
+        ],
+        "CN": [
+          "Ma Zhi (Zhejiang University)"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "bri_launch_2013_2016",
+        "year": 2013,
+        "pre_bri_baseline": false,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_000.gz",
+        "line_number": 3256,
+        "extraction_command": "sed -n '3256p' part_000.gz | jq '.title'",
+        "paper_hash": "6611a741f9e2db16"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "HR"
+    },
+    {
+      "paper_id": "https://openalex.org/W2375702803",
+      "doi": null,
+      "title": "The Impact of Usage of Media and Computer to Polytechnic Students",
+      "publication_year": 2014,
+      "countries_collaborating": [
+        "CN",
+        "HR",
+        "TR"
+      ],
+      "institutions": {
+        "TR": [
+          "Police Academy"
+        ],
+        "HR": [
+          "Policijska akademija"
+        ],
+        "CN": [
+          "Zhejiang Police College"
+        ]
+      },
+      "authors_by_country": {
+        "TR": [
+          "Wang Ju (Police Academy)"
+        ],
+        "HR": [
+          "Wang Ju (Policijska akademija)"
+        ],
+        "CN": [
+          "Wang Ju (Zhejiang Police College)"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "bri_launch_2013_2016",
+        "year": 2014,
+        "pre_bri_baseline": false,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_000.gz",
+        "line_number": 596930,
+        "extraction_command": "sed -n '596930p' part_000.gz | jq '.title'",
+        "paper_hash": "729b17a38b66262b"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "HR"
+    },
+    {
+      "paper_id": "https://openalex.org/W2348966839",
+      "doi": null,
+      "title": "Clinical evaluation of the differentiating diagnosis of 102 patients with pleural effusion by detection of CEA,CYFRA21-1 and exfoliated cells",
+      "publication_year": 2011,
+      "countries_collaborating": [
+        "CN",
+        "HR",
+        "TR"
+      ],
+      "institutions": {
+        "TR": [
+          "Police Academy"
+        ],
+        "HR": [
+          "Policijska akademija"
+        ],
+        "CN": [
+          "Chinese People's Armed Police Force Engineering University"
+        ]
+      },
+      "authors_by_country": {
+        "TR": [
+          "Zhao Yong (Police Academy)"
+        ],
+        "HR": [
+          "Zhao Yong (Policijska akademija)"
+        ],
+        "CN": [
+          "Zhao Yong (Chinese People's Armed Police Force Engineering University)"
+        ]
+      },
+      "technology_categories": [
+        "nuclear_technology"
+      ],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "pre_bri_baseline_2000_2012",
+        "year": 2011,
+        "pre_bri_baseline": true,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_000.gz",
+        "line_number": 510644,
+        "extraction_command": "sed -n '510644p' part_000.gz | jq '.title'",
+        "paper_hash": "edf0fc5138258ebd"
+      },
+      "risk_assessment": {
+        "technology_risk": "CRITICAL",
+        "collaboration_risk": "LOW",
+        "overall_risk": "CRITICAL",
+        "strategic_concerns": [
+          "Critical dual-use technologies: nuclear_technology"
+        ]
+      },
+      "partner_country": "HR"
+    },
+    {
+      "paper_id": "https://openalex.org/W2394333840",
+      "doi": null,
+      "title": "Genetic polymorphisms of fifteen STR loci in Han population of Nanchong",
+      "publication_year": 2008,
+      "countries_collaborating": [
+        "CN",
+        "HR"
+      ],
+      "institutions": {
+        "HR": [
+          "Institute of Immunology"
+        ],
+        "CN": [
+          "North Sichuan Medical University"
+        ]
+      },
+      "authors_by_country": {
+        "HR": [
+          "Li Li (Institute of Immunology)"
+        ],
+        "CN": [
+          "Li Li (North Sichuan Medical University)"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "pre_bri_baseline_2000_2012",
+        "year": 2008,
+        "pre_bri_baseline": true,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_000.gz",
+        "line_number": 629754,
+        "extraction_command": "sed -n '629754p' part_000.gz | jq '.title'",
+        "paper_hash": "e2220cfae9ac5739"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "HR"
+    },
+    {
+      "paper_id": "https://openalex.org/W2348123482",
+      "doi": null,
+      "title": "Advances in the research of Leishmania live attenuated vaccine",
+      "publication_year": 2015,
+      "countries_collaborating": [
+        "CN",
+        "HR"
+      ],
+      "institutions": {
+        "HR": [
+          "Institute of Immunology"
+        ],
+        "CN": [
+          "North Sichuan Medical University"
+        ]
+      },
+      "authors_by_country": {
+        "HR": [
+          "Liu Pen (Institute of Immunology)"
+        ],
+        "CN": [
+          "Liu Pen (North Sichuan Medical University)"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "bri_launch_2013_2016",
+        "year": 2015,
+        "pre_bri_baseline": false,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_001.gz",
+        "line_number": 402842,
+        "extraction_command": "sed -n '402842p' part_001.gz | jq '.title'",
+        "paper_hash": "0c2d3a9ccf850825"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "HR"
+    }
+  ]
+}

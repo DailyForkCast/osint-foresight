@@ -1,0 +1,48 @@
+{
+  "cik": "0002030482",
+  "ticker": "PLMKU",
+  "name": "Plum Acquisition Corp, IV",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "6770",
+  "sicDescription": "Blank Checks",
+  "category": "Non-accelerated filer<br>Smaller reporting company<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "E9",
+  "ein": "981795710",
+  "phone": "(929) 529-7125",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2021 FILLMORE ST. #2089",
+      "street2": null,
+      "city": "SAN FRANCISCO",
+      "stateOrCountry": "CA",
+      "zipCode": "94115",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2021 FILLMORE ST. #2089",
+      "street2": null,
+      "city": "SAN FRANCISCO",
+      "stateOrCountry": "CA",
+      "zipCode": "94115",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-14"
+  },
+  "filings_count": 40
+}

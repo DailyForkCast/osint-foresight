@@ -1,0 +1,48 @@
+{
+  "cik": "0001290900",
+  "ticker": "CVGI",
+  "name": "Commercial Vehicle Group, Inc.",
+  "detection_reasons": [
+    "offshore:vg",
+    "offshore:bm"
+  ],
+  "sic": "3714",
+  "sicDescription": "Motor Vehicle Parts & Accessories",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "411990662",
+  "phone": "614 289 5360",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "7800 WALTON PARKWAY",
+      "street2": null,
+      "city": "NEW ALBANY",
+      "stateOrCountry": "OH",
+      "zipCode": "43054",
+      "stateOrCountryDescription": "OH",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "7800 WALTON PARKWAY",
+      "street2": null,
+      "city": "NEW ALBANY",
+      "stateOrCountry": "OH",
+      "zipCode": "43054",
+      "stateOrCountryDescription": "OH",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-07"
+  },
+  "filings_count": 1001
+}

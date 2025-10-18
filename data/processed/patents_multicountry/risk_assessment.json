@@ -1,0 +1,53 @@
+[
+  {
+    "country_code": "US",
+    "country_name": "United States",
+    "total_patents": 50,
+    "critical_tech_patents": 4,
+    "high_risk_patents": 4,
+    "risk_score": 110,
+    "top_technologies": [
+      "other",
+      "telecommunications",
+      "artificial_intelligence"
+    ]
+  },
+  {
+    "country_code": "DE",
+    "country_name": "Germany",
+    "total_patents": 50,
+    "critical_tech_patents": 3,
+    "high_risk_patents": 2,
+    "risk_score": 90,
+    "top_technologies": [
+      "other",
+      "telecommunications",
+      "artificial_intelligence"
+    ]
+  },
+  {
+    "country_code": "JP",
+    "country_name": "Japan",
+    "total_patents": 50,
+    "critical_tech_patents": 1,
+    "high_risk_patents": 3,
+    "risk_score": 75,
+    "top_technologies": [
+      "other",
+      "telecommunications",
+      "nuclear"
+    ]
+  },
+  {
+    "country_code": "KR",
+    "country_name": "South Korea",
+    "total_patents": 50,
+    "critical_tech_patents": 2,
+    "high_risk_patents": 0,
+    "risk_score": 70,
+    "top_technologies": [
+      "other",
+      "semiconductors"
+    ]
+  }
+]

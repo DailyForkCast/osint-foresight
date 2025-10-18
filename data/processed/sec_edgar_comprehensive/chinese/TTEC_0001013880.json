@@ -1,0 +1,47 @@
+{
+  "cik": "0001013880",
+  "ticker": "TTEC",
+  "name": "TTEC Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7363",
+  "sicDescription": "Services-Help Supply Services",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "841291044",
+  "phone": "303-397-8100",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "100 CONGRESS AVENUE",
+      "street2": "SUITE 1425",
+      "city": "AUSTIN",
+      "stateOrCountry": "TX",
+      "zipCode": "78701",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "100 CONGRESS AVENUE",
+      "street2": "SUITE 1425",
+      "city": "AUSTIN",
+      "stateOrCountry": "TX",
+      "zipCode": "78701",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-07"
+  },
+  "filings_count": 1001
+}

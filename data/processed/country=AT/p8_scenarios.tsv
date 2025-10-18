@@ -1,7 +1,0 @@
-scenario_id	horizon	scenario_family	title	short_path	implications	confidence_LMH	notes
-S_U2	2y	Upside	VSC as Regional AI Magnet	EuroHPC + national push concentrates methods dev in Vienna	More AI co-pubs; software/tooling spillovers	L	
-S_B5	5y	Baseline	Measured Growth, EU-governed	EU programs sustain HPC/networking niches	Stable standards influence; moderate bench build-out	M	
-S_D10	10y	Downside	Bench Stagnation	Scopes not realized; funding flat	Dual-use benches remain thin; less leverage	L	
-S1	2y	Baseline	Compute-tight but standards-savvy	Constrained access to frontier compute	Skills deepen even if GPU access lags	M	From existing
-S2	5y	Upside	Standards-led competitiveness	Improved domestic/EuroHPC access	Dual-use sectors gain leverage via testbeds & WGs	M	From existing
-S3	10y	Downside	Fragmented exposure via supply chains	Patchy compute/testbeds	If governance weakens, leakage risks rise	L	From existing

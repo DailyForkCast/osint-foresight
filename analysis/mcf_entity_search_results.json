@@ -1,0 +1,1135 @@
+{
+  "summary": {
+    "total_mcf_mentions": 2778,
+    "critical_findings_count": 61,
+    "entities_found": 20
+  },
+  "entity_totals": {
+    "casc": {
+      "total": 99,
+      "risk": "CRITICAL",
+      "category": "Space/Satellites",
+      "files": [
+        "5836.dat",
+        "5847.dat",
+        "5848.dat"
+      ]
+    },
+    "bgi": {
+      "total": 1216,
+      "risk": "HIGH",
+      "category": "Biotechnology/Genomics",
+      "files": [
+        "5836.dat",
+        "5847.dat",
+        "5848.dat"
+      ]
+    },
+    "dji": {
+      "total": 945,
+      "risk": "HIGH",
+      "category": "Drones/UAV",
+      "files": [
+        "5836.dat",
+        "5847.dat",
+        "5848.dat"
+      ]
+    },
+    "cssc": {
+      "total": 54,
+      "risk": "CRITICAL",
+      "category": "Naval/Shipbuilding",
+      "files": [
+        "5836.dat",
+        "5847.dat",
+        "5848.dat"
+      ]
+    },
+    "avic": {
+      "total": 6,
+      "risk": "CRITICAL",
+      "category": "Aerospace/Defense",
+      "files": [
+        "5836.dat",
+        "5847.dat"
+      ]
+    },
+    "bytedance": {
+      "total": 26,
+      "risk": "HIGH",
+      "category": "Social Media/AI",
+      "files": [
+        "5836.dat",
+        "5847.dat",
+        "5848.dat"
+      ]
+    },
+    "alibaba": {
+      "total": 3,
+      "risk": "MEDIUM",
+      "category": "Cloud/E-commerce",
+      "files": [
+        "5836.dat",
+        "5847.dat"
+      ]
+    },
+    "sugon": {
+      "total": 18,
+      "risk": "CRITICAL",
+      "category": "Supercomputing",
+      "files": [
+        "5836.dat",
+        "5847.dat",
+        "5848.dat"
+      ]
+    },
+    "nuctech": {
+      "total": 11,
+      "risk": "CRITICAL",
+      "category": "Security Scanning",
+      "files": [
+        "5836.dat",
+        "5847.dat",
+        "5848.dat"
+      ]
+    },
+    "casic": {
+      "total": 10,
+      "risk": "CRITICAL",
+      "category": "Missiles/Space",
+      "files": [
+        "5836.dat",
+        "5847.dat"
+      ]
+    },
+    "tencent": {
+      "total": 3,
+      "risk": "MEDIUM",
+      "category": "Software/Gaming",
+      "files": [
+        "5847.dat"
+      ]
+    },
+    "zte": {
+      "total": 129,
+      "risk": "CRITICAL",
+      "category": "Telecommunications",
+      "files": [
+        "5847.dat"
+      ]
+    },
+    "huawei": {
+      "total": 125,
+      "risk": "CRITICAL",
+      "category": "Telecommunications/5G",
+      "files": [
+        "5847.dat"
+      ]
+    },
+    "smic": {
+      "total": 6,
+      "risk": "CRITICAL",
+      "category": "Semiconductors",
+      "files": [
+        "5847.dat",
+        "5848.dat"
+      ]
+    },
+    "csic": {
+      "total": 4,
+      "risk": "CRITICAL",
+      "category": "Naval/Defense",
+      "files": [
+        "5847.dat",
+        "5848.dat"
+      ]
+    },
+    "iflytek": {
+      "total": 2,
+      "risk": "HIGH",
+      "category": "AI/Voice Recognition",
+      "files": [
+        "5847.dat",
+        "5848.dat"
+      ]
+    },
+    "lenovo": {
+      "total": 71,
+      "risk": "MEDIUM",
+      "category": "Computing/Hardware",
+      "files": [
+        "5848.dat"
+      ]
+    },
+    "norinco": {
+      "total": 7,
+      "risk": "CRITICAL",
+      "category": "Defense/Weapons",
+      "files": [
+        "5848.dat"
+      ]
+    },
+    "cetc": {
+      "total": 15,
+      "risk": "CRITICAL",
+      "category": "Defense Electronics",
+      "files": [
+        "5848.dat"
+      ]
+    },
+    "hytera": {
+      "total": 28,
+      "risk": "HIGH",
+      "category": "Communications",
+      "files": [
+        "5848.dat"
+      ]
+    }
+  },
+  "file_details": {
+    "5836.dat": {
+      "casc": {
+        "count": 29,
+        "risk": "CRITICAL",
+        "category": "Space/Satellites",
+        "examples": [
+          {
+            "line_number": 64884,
+            "text": "155407264\t1434_G15AP00175_-none-_15.820_7\t20211027\tC\tRevision\t04\tproject grant (B)\tSW CASC\t7\tUniversity Of Arizona\t806345617\t014\tDepartment of the Interior (DOI)\t140G01\tOFC OF ACQUSITION  GRANTS-NATIONAL\t1434\tU.S. Geological Survey\t{higher_education,public_institution_of_higher_education}\tNot Recove"
+          },
+          {
+            "line_number": 64897,
+            "text": "155407221\t1434_G16AC00266_-none-_15.820_4\t20211028\tC\tRevision\t05\tcooperative agreement (B)\tSW CASC\t4\tUNIVERSITY OF ARIZONA\t806345617\t014\tDepartment of the Interior (DOI)\t140G01\tOFC OF ACQUSITION  GRANTS-NATIONAL\t1434\tU.S. Geological Survey\t{government,regional_and_state_government}\tNot Recovery Act\t"
+          },
+          {
+            "line_number": 64898,
+            "text": "155407345\t1434_G16AC00266_-none-_15.820_5\t20211028\tC\tRevision\t05\tcooperative agreement (B)\tSW CASC\t5\tUNIVERSITY OF ARIZONA\t806345617\t014\tDepartment of the Interior (DOI)\t140G01\tOFC OF ACQUSITION  GRANTS-NATIONAL\t1434\tU.S. Geological Survey\t{government,regional_and_state_government}\tNot Recovery Act\t"
+          }
+        ]
+      },
+      "bgi": {
+        "count": 13,
+        "risk": "HIGH",
+        "category": "Biotechnology/Genomics",
+        "examples": []
+      },
+      "dji": {
+        "count": 44,
+        "risk": "HIGH",
+        "category": "Drones/UAV",
+        "examples": []
+      },
+      "cssc": {
+        "count": 4,
+        "risk": "CRITICAL",
+        "category": "Naval/Shipbuilding",
+        "examples": [
+          {
+            "line_number": 1674501,
+            "text": "181011454\t7529_U01EY035252_U01EY035252-2630998027_93.370_000\t20241114\tC\tRevision\t05\tcooperative agreement (B)\tCell Therapy Program with Scale-up cGMP Manufacturing of Human Corneal Stromal Stem Cells - RFA-HL-23-019 RMIP II-Collaborative U01. Contact PI - Gary Yam Project Abstract Corneal blindness "
+          },
+          {
+            "line_number": 1674503,
+            "text": "181011452\t7529_U01EY035252_U01EY035252-3067088149_93.370_001\t20241114\tC\tRevision\t05\tcooperative agreement (B)\tCell Therapy Program with Scale-up cGMP Manufacturing of Human Corneal Stromal Stem Cells - RFA-HL-23-019 RMIP II-Collaborative U01. Contact PI - Gary Yam Project Abstract Corneal blindness "
+          },
+          {
+            "line_number": 2928488,
+            "text": "83084062\t7300_2803287000_-none-_59.012_1\t20180727\tA\tNew\t08\tguaranteed/insured loan (F)\tTO AID SMALL BUSINESSES WHICH ARE UNABLE TO OBTAIN FINANCING IN THE PRIVATE CREDIT MARKETPLACE\t1\tCSSC Associates, LLC\t\\N\t073\tSmall Business Administration (SBA)\t733510\tSMALL BUSINESS ADMINISTRATION\t7300\tSmall Busi"
+          }
+        ]
+      },
+      "avic": {
+        "count": 1,
+        "risk": "CRITICAL",
+        "category": "Aerospace/Defense",
+        "examples": [
+          {
+            "line_number": 1925599,
+            "text": "176046280\t12K3_AP23VSSPRS00C124_-none-_10.025_0002\t20240328\tC\tRevision\t05\tcooperative agreement (B)\t1. Award purpose: The purpose of this agreement is to improve animal disease traceability to find sources of disease and prevent spread of disease.  2. Activities to be performed: a. MDARD will partic"
+          }
+        ]
+      },
+      "bytedance": {
+        "count": 5,
+        "risk": "HIGH",
+        "category": "Social Media/AI",
+        "examples": []
+      },
+      "alibaba": {
+        "count": 1,
+        "risk": "MEDIUM",
+        "category": "Cloud/E-commerce",
+        "examples": []
+      },
+      "sugon": {
+        "count": 1,
+        "risk": "CRITICAL",
+        "category": "Supercomputing",
+        "examples": [
+          {
+            "line_number": 4194633,
+            "text": "139543861\t7300_1022458503_-none-_59.073_1\t20210218\tA\tNew\t08\tguaranteed/insured loan (F)\tTo aid small businesses in maintaining work force during COVID-19 pandemic.\t1\tTheresa Dixon\t\\N\t073\tSmall Business Administration (SBA)\t737010\tOFC OF CAPITAL ACCESS\t7300\tSmall Business Administration\t{individuals}"
+          }
+        ]
+      },
+      "nuctech": {
+        "count": 2,
+        "risk": "CRITICAL",
+        "category": "Security Scanning",
+        "examples": [
+          {
+            "line_number": 4393805,
+            "text": "176453635\t8900_DENE0009428_-none-_81.121_-none-\t20240424\tA\tNew\t04\tproject grant (B)\tGuidelines for Implementing Physical Vulnerability Assessments using Modeling and Simulation in the Nuclear Industry.\t\\N\tRHINOCORPS, LTD CO.\t\\N\t089\tDepartment of Energy (DOE)\t892432\tIDAHO OPERATIONS OFFICE\t8900\tDepar"
+          },
+          {
+            "line_number": 4522610,
+            "text": "176503483\t4900_2423343_-none-_47.084_000\t20240422\tA\tNew\t04\tproject grant (B)\tSBIR Phase I: A Fusion-Fast-Fission Reactor -The broader impact/commercial potential of this Phase I Small Business Innovation Research (SBIR) project is a safer, less expensive, proliferation-resistant hybrid nuclear techn"
+          }
+        ]
+      },
+      "casic": {
+        "count": 1,
+        "risk": "CRITICAL",
+        "category": "Missiles/Space",
+        "examples": [
+          {
+            "line_number": 4670099,
+            "text": "176532595\t8000_80NSSC19M0055_-none-_43.008_0\t20190222\tA\tNew\t05\tcooperative agreement (B)\tLOUISIANA S COMMITMENT TO AEROSPACE SCIENCE&TECHNOLOGY DEVELOPMENT HAS BEEN WELL ESTABLISHED OVER THE DECADES. WE HAVE A DIVERSE CADRE OF RESEARCHERS WORKING ON ACTIVE NASA&NASA-RELATED PROJECTS ACROSS INSTITUTI"
+          }
+        ]
+      }
+    },
+    "5847.dat": {
+      "nuctech": {
+        "count": 8,
+        "risk": "CRITICAL",
+        "category": "Security Scanning",
+        "examples": [
+          {
+            "line_number": 1636,
+            "text": "161537951\t8900_DENE0008816_-none-_81.121_0005\t20220628\tD\tAdjustment to Completed Project\t05\tcooperative agreement (B)\tCompetitive Cooperative Agreement:  U.S. Industry Opportunities for Advanced Nuclear Technology Development FOA #DE-FOA-0001817. \\nDeobligation of unused funds of ($1.08) from award "
+          },
+          {
+            "line_number": 155800,
+            "text": "161661635\t8900_DENE0008843_-none-_81.121_0003\t20220707\tC\tRevision\t05\tcooperative agreement (B)\tCompetitive Cooperative Agreement:  U.S. Industry Opportunities for Advanced Nuclear Technology Development FOA #DE-FOA-0001817\\nINTEGRAL AND SEPARATE EFFECTS TEST PROGRAM FOR THE INVESTIGATION AND VALIDAT"
+          },
+          {
+            "line_number": 1987561,
+            "text": "186013524\t8000_80NSSC25K7952_-none-_43.012_0\t20250710\tA\tNew\t04\tproject grant (B)\tTHE ACCELERATING SPACE SCIENCE WITH NUCLEAR TECHNOLOGY GRANT S GOAL IS TO SUPPORT A MEETING OF NUCLEAR PROPULSION AND POWER INNOVATORS (NUCLEAR COMMUNITY) AND THE SPACE SCIENCE COMMUNITY TO STIMULATE A CONVERGENCE BETWE"
+          }
+        ]
+      },
+      "sugon": {
+        "count": 6,
+        "risk": "CRITICAL",
+        "category": "Supercomputing",
+        "examples": [
+          {
+            "line_number": 78708,
+            "text": "161620973\t4900_2012127_-none-_47.049_002\t20220616\tB\tContinuation\t04\tproject grant (B)\tRUI: Adding Spin to a Gravitational Wave Detector Simulator -The recent detection of the tiny ripples in space and time known as gravitational waves has prompted astronomers to consider new ways to build more sensi"
+          },
+          {
+            "line_number": 536214,
+            "text": "161836645\t7300_2490319106_-none-_59.012_10\t20220714\tC\tRevision\t08\tguaranteed/insured loan (F)\tAwardType: Guaranteed/Insured Loans Activities to be performed: To provide guaranteed loans from lenders to eligible for profit small businesses which are unable to obtain financing in the private credit ma"
+          },
+          {
+            "line_number": 661174,
+            "text": "166273421\t7300_4447077902_-none-_59.008_8\t20230103\tC\tRevision\t07\tdirect loan (E)\tAwardType: Direct Loans Activities to be performed: Provide loans to small businesses and nonprofits impacted by the COVID-19 pandemic for uninsured or otherwise uncompensated economic injury. Deliverables: Loans Expect"
+          }
+        ]
+      },
+      "bgi": {
+        "count": 60,
+        "risk": "HIGH",
+        "category": "Biotechnology/Genomics",
+        "examples": []
+      },
+      "bytedance": {
+        "count": 20,
+        "risk": "HIGH",
+        "category": "Social Media/AI",
+        "examples": []
+      },
+      "casc": {
+        "count": 35,
+        "risk": "CRITICAL",
+        "category": "Space/Satellites",
+        "examples": [
+          {
+            "line_number": 186631,
+            "text": "161688598\t1448_F22AC01688_-none-_15.670_ORIG\t20220701\tA\tNew\t05\tcooperative agreement (B)\tThe Grassland and Sagebrush Ecosystems Teams Report (FWS 2021) mentions climate change as a key threat to sustained conservation of grassland bird populations and grassland associated aquatic species (e.g., Appe"
+          },
+          {
+            "line_number": 551973,
+            "text": "185923385\t1434_G18AC00320_-none-_15.820_15\t20250703\tC\tRevision\t05\tcooperative agreement (B)\tProject title: Southwest Climate Adaptation Science Center (SW CASC)  supplemental fundsProject dates: 9 8 2018 through 9 7 2024Award purpose:This project will focus on synthesis and improved dissemination of"
+          },
+          {
+            "line_number": 551975,
+            "text": "185923414\t1434_G19AC00086_-none-_15.820_14\t20250709\tC\tRevision\t05\tcooperative agreement (B)\tProject title: Hosting the South Central Climate Adaptation Science Center (supplemental year)Project dates: 8 1 2024  7 31 2026Award purpose: The South Central Climate Adaptation Science Center (SC CASC) is "
+          }
+        ]
+      },
+      "tencent": {
+        "count": 3,
+        "risk": "MEDIUM",
+        "category": "Software/Gaming",
+        "examples": []
+      },
+      "casic": {
+        "count": 9,
+        "risk": "CRITICAL",
+        "category": "Missiles/Space",
+        "examples": [
+          {
+            "line_number": 274418,
+            "text": "185830274\t8000_80NSSC20M0123_-none-_43.008_P00017\t20250624\tB\tContinuation\t05\tcooperative agreement (B)\tTHE MISSION OF THE WSGC IS TO USE THE EXCITEMENT AND VISION OF SPACE AND AEROSPACE SCIENCE TO EQUIP THE CITIZENS OF WISCONSIN WITH THE SCIENCE  TECHNOLOGY  ENGINEERING  AND MATHEMATICS TOOLS THEY N"
+          },
+          {
+            "line_number": 1593876,
+            "text": "162752750\t8000_80NSSC20M0123_-none-_43.008_P00005\t20220823\tB\tContinuation\t05\tcooperative agreement (B)\tTHE MISSION OF THE WSGC IS TO USE THE EXCITEMENT AND VISION OF SPACE AND AEROSPACE SCIENCE TO EQUIP THE CITIZENS OF WISCONSIN WITH THE SCIENCE  TECHNOLOGY  ENGINEERING  AND MATHEMATICS TOOLS THEY N"
+          },
+          {
+            "line_number": 1955682,
+            "text": "166618451\t8000_80NSSC20M0123_-none-_43.008_P00007\t20230126\tB\tContinuation\t05\tcooperative agreement (B)\tTHE MISSION OF THE WSGC IS TO USE THE EXCITEMENT AND VISION OF SPACE AND AEROSPACE SCIENCE TO EQUIP THE CITIZENS OF WISCONSIN WITH THE SCIENCE  TECHNOLOGY  ENGINEERING  AND MATHEMATICS TOOLS THEY N"
+          }
+        ]
+      },
+      "dji": {
+        "count": 64,
+        "risk": "HIGH",
+        "category": "Drones/UAV",
+        "examples": []
+      },
+      "zte": {
+        "count": 129,
+        "risk": "CRITICAL",
+        "category": "Telecommunications",
+        "examples": [
+          {
+            "line_number": 653927,
+            "text": "161911818\t7529_U01EB023829_U01EB023829-1331236595_93.286_001\t20220504\tC\tRevision\t05\tcooperative agreement (B)\tEnhanced MR for morphological characterization of ligaments, tendons and bone - PROJECT SUMMARY/ABSTRACT According to Council for Disability Awareness, diseases of the musculoskeletal system"
+          },
+          {
+            "line_number": 685935,
+            "text": "161958470\t7529_R01MH126518_R01MH126518-135491017_93.242_000\t20220218\tB\tContinuation\t04\tproject grant (B)\tCircuit Mechanisms Governing the Default Mode Network - PROJECT SUMMARY  Non-invasive functional magnetic resonance imaging (fMRI) has revolutionized our understanding of macroscopic functional b"
+          },
+          {
+            "line_number": 902425,
+            "text": "162174337\t2700_SCOSCRP0001182_SCOSCRP00011821120220718QMD3A69UY339_32.010_-none-\t20220718\tA\tNew\t06\tdirect payment for specified use, as a subsidy or other non-reimbursable direct financial aid (C)\tThe Reimbursement Program will use the funding appropriated under the CAA to reimburse the costs reason"
+          }
+        ]
+      },
+      "cssc": {
+        "count": 6,
+        "risk": "CRITICAL",
+        "category": "Naval/Shipbuilding",
+        "examples": [
+          {
+            "line_number": 678154,
+            "text": "161941990\t7529_F31EY030731_F31EY030731-905729682_93.867_000\t20220218\tB\tContinuation\t04\tproject grant (B)\tCharacterization of corneal stromal stem cells encapsulated within bioorthogonally crosslinked collagen gels for delivery to the ocular surface - When the cornea is damaged due to severe trauma o"
+          },
+          {
+            "line_number": 1230012,
+            "text": "185990809\t7529_U01EY035252_U01EY035252-3067088149_93.370_001\t20241114\tC\tRevision\t05\tcooperative agreement (B)\tCell Therapy Program with Scale-up cGMP Manufacturing of Human Corneal Stromal Stem Cells - RFA-HL-23-019 RMIP II-Collaborative U01. Contact PI - Gary Yam Project Abstract Corneal blindness "
+          },
+          {
+            "line_number": 1230013,
+            "text": "185985814\t7529_U01EY035252_U01EY035252-3435013625_93.370_003\t20250714\tC\tRevision\t05\tcooperative agreement (B)\tCell Therapy Program with Scale-up cGMP Manufacturing of Human Corneal Stromal Stem Cells - RFA-HL-23-019 RMIP II-Collaborative U01. Contact PI - Gary Yam Project Abstract Corneal blindness "
+          }
+        ]
+      },
+      "avic": {
+        "count": 5,
+        "risk": "CRITICAL",
+        "category": "Aerospace/Defense",
+        "examples": [
+          {
+            "line_number": 681947,
+            "text": "161950572\t7529_R01HL121776_R01HL121776-1779885964_93.837_000\t20220608\tB\tContinuation\t04\tproject grant (B)\tSuppression of AVIC inflammosteogenesis for prevention of CAVD progression - Project Summary Calcific aortic valve disease (CAVD) is common in the elderly. CAVD progression to significant aortic"
+          },
+          {
+            "line_number": 906011,
+            "text": "162177787\t12K3_AP22VSSPRS00C021_-none-_10.025_0001\t20220722\tC\tRevision\t05\tcooperative agreement (B)\tAward purpose: Official identification application and distribution, inaddition outreach to support Animal Disease Traceability activities inNevada.Activities to be performed:a. Oversee and encourage "
+          },
+          {
+            "line_number": 4768299,
+            "text": "167391538\t12K3_AP23VSSPRS00C063_-none-_10.025_-none-\t20230327\tA\tNew\t05\tcooperative agreement (B)\tAward purpose: Official identification application and distribution, in addition outreach to support Animal Disease Traceability activities in Utah. Activities to be performed: a. Conduct assigned traces"
+          }
+        ]
+      },
+      "huawei": {
+        "count": 125,
+        "risk": "CRITICAL",
+        "category": "Telecommunications/5G",
+        "examples": [
+          {
+            "line_number": 902425,
+            "text": "162174337\t2700_SCOSCRP0001182_SCOSCRP00011821120220718QMD3A69UY339_32.010_-none-\t20220718\tA\tNew\t06\tdirect payment for specified use, as a subsidy or other non-reimbursable direct financial aid (C)\tThe Reimbursement Program will use the funding appropriated under the CAA to reimburse the costs reason"
+          },
+          {
+            "line_number": 902426,
+            "text": "162174338\t2700_SCOSCRP0001178_SCOSCRP00011781120220718F84QG5KSNW25_32.010_-none-\t20220718\tA\tNew\t06\tdirect payment for specified use, as a subsidy or other non-reimbursable direct financial aid (C)\tThe Reimbursement Program will use the funding appropriated under the CAA to reimburse the costs reason"
+          },
+          {
+            "line_number": 902427,
+            "text": "162174339\t2700_SCOSCRP0001177_SCOSCRP00011771120220718Y2SFZY7PMZL5_32.010_-none-\t20220718\tA\tNew\t06\tdirect payment for specified use, as a subsidy or other non-reimbursable direct financial aid (C)\tThe Reimbursement Program will use the funding appropriated under the CAA to reimburse the costs reason"
+          }
+        ]
+      },
+      "alibaba": {
+        "count": 2,
+        "risk": "MEDIUM",
+        "category": "Cloud/E-commerce",
+        "examples": []
+      },
+      "smic": {
+        "count": 3,
+        "risk": "CRITICAL",
+        "category": "Semiconductors",
+        "examples": [
+          {
+            "line_number": 1121619,
+            "text": "185985582\t7529_R01CA284640_R01CA284640-2043746808_93.395_000\t20250716\tC\tRevision\t04\tproject grant (B)\tPathway-guided treatment of immune checkpoint inhibitor therapy-induced colon toxicity - Abstract Development of immune-related adverse effects (irAEs) is one of the significant challenges of curren"
+          },
+          {
+            "line_number": 2665571,
+            "text": "186592836\t7529_R01CA284640_R01CA284640-2533315392_93.395_001\t20250801\tB\tContinuation\t04\tproject grant (B)\tPathway-guided treatment of immune checkpoint inhibitor therapy-induced colon toxicity - Abstract Development of immune-related adverse effects (irAEs) is one of the significant challenges of cu"
+          },
+          {
+            "line_number": 3301366,
+            "text": "163046255\t7529_R01CA204021_R01CA204021-3511246290_93.396_000\t20220512\tB\tContinuation\t04\tproject grant (B)\tTarget MIC shedding to revive anti-tumor immunity - DESCRIPTION (provided by applicant):  In response to oncogenic stress, human epithelial cells express the MHC-I chain related molecule, MIC, t"
+          }
+        ]
+      },
+      "csic": {
+        "count": 3,
+        "risk": "CRITICAL",
+        "category": "Naval/Defense",
+        "examples": [
+          {
+            "line_number": 1944506,
+            "text": "166600651\t12H3_20226702137013_-none-_10.310_1\t20220308\tA\tNew\t04\tproject grant (B)\tAfrican swine fever (ASF) is a highly contagious and often lethal infectious disease of swine. Currently, strict control strategies remain the only effective way of ASF containment, typically replying on early disease "
+          },
+          {
+            "line_number": 3328277,
+            "text": "163074658\t7529_R01EB029450_R01EB029450-4195860784_93.286_000\t20220914\tB\tContinuation\t04\tproject grant (B)\tFabrication and Testing of a Novel PET insert for Simultaneous PET/MRI - Project Summary. PET (positron emission tomography) is the most sensitive imaging modality available that can be used bot"
+          },
+          {
+            "line_number": 4305335,
+            "text": "187159904\t7529_R01AI114685_R01AI114685-1104642559_93.855_000\t20250822\tB\tContinuation\t04\tproject grant (B)\tRepurposing human kinase inhibitor chemotypes for Neglected Tropical Diseases - SUMMARY/ABSTRACT  Human African trypanosomiasis (HAT) and Chagas disease (CD) are neglected tropical diseases (NTD"
+          }
+        ]
+      },
+      "iflytek": {
+        "count": 1,
+        "risk": "HIGH",
+        "category": "AI/Voice Recognition",
+        "examples": []
+      }
+    },
+    "5848.dat": {
+      "bgi": {
+        "count": 1143,
+        "risk": "HIGH",
+        "category": "Biotechnology/Genomics",
+        "examples": []
+      },
+      "dji": {
+        "count": 837,
+        "risk": "HIGH",
+        "category": "Drones/UAV",
+        "examples": []
+      },
+      "cssc": {
+        "count": 44,
+        "risk": "CRITICAL",
+        "category": "Naval/Shipbuilding",
+        "examples": [
+          {
+            "line_number": 18264,
+            "text": "193796352\t9700_9700_FA700021FG146GPC_0_FA805517A1105_0\tN\tNO\t2021-09-27 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\tMICROSOFT SURFACE PRO LAPTOPS TO SUPPORT USAFA CORONA CONFERENCE\t0\t\\N\tJC TECHNOLOGY INCORPORATED\t796555589\t097\tDepartment of Defense (DOD)\tFA7000\tFA7000  10 CONS LGC\t5700\tDEPT OF THE"
+          },
+          {
+            "line_number": 51509,
+            "text": "200734846\t9700_-none-_HC101315D0002_P00040_-none-_-none-\tN\tNO\t2022-01-20 00:00:00\tA\tADDITIONAL WORK (NEW AGREEMENT, JUSTIFICATION REQUIRED)\t\\N\t9700\t\\N\tCSSC - BASE PERIOD SERVICES\tP00040\t\\N\tINMARSAT GOVERNMENT, INC.\t\\N\t097\tDepartment of Defense (DOD)\tHC1013\tTELECOMMUNICATIONS DIVISION- HC1013\t97AK\tDE"
+          },
+          {
+            "line_number": 316723,
+            "text": "46989498\t7008_7008_HSCG3211J300016_0_HSCG3210DR00021_0\tN\tNO\t2011-05-16 00:00:00\t\\N\t\\N\t\\N\t7008\t8999999488\tENTRAINMENT AND SURVIVAL OF ASIAN CARP IN BARGE BALLAST TANKS EXPERIMENTS THE SCOPE OF THIS STATEMENT OF WORK (SOW) IS TO DETERMINE THE POTENTIAL FOR EARLY LIFE STAGES OF ASIAN CARP TO BE ENTRAIN"
+          }
+        ]
+      },
+      "lenovo": {
+        "count": 71,
+        "risk": "MEDIUM",
+        "category": "Computing/Hardware",
+        "examples": []
+      },
+      "sugon": {
+        "count": 11,
+        "risk": "CRITICAL",
+        "category": "Supercomputing",
+        "examples": [
+          {
+            "line_number": 60934,
+            "text": "194580504\t9700_-none-_N0017819D7940_P00006_-none-_-none-\tN\tNO\t2021-10-14 00:00:00\tM\tOTHER ADMINISTRATIVE ACTION\tNONE: NONE OF THE ABOVE\t9700\t\\N\tEO14042    SEAPORT-NXG\tP00006\t\\N\tKAIMETRIX, L.L.C.\t079165708\t097\tDepartment of Defense (DOD)\tN00178\tNSWC DAHLGREN\t1700\tDEPT OF THE NAVY\t0.00\t\\N\t{small_busin"
+          },
+          {
+            "line_number": 162858,
+            "text": "202382797\t4732_-none-_GS35F403DA_PS0009_-none-_-none-\tN\tNO\t2022-04-14 00:00:00\tM\tOTHER ADMINISTRATIVE ACTION\t\\N\t4732\t\\N\tFEDERAL SUPPLY SCHEDULE CONTRACT\tPS0009\t\\N\tKAIMETRIX, L.L.C.\t\\N\t047\tGeneral Services Administration (GSA)\t47QTCA\tGSA/FAS CENTER FOR IT SCHEDULE PROG\t4732\tFEDERAL ACQUISITION SERVIC"
+          },
+          {
+            "line_number": 162861,
+            "text": "202382798\t4732_-none-_GS35F403DA_PSA842_-none-_-none-\tN\tNO\t2022-04-13 00:00:00\tM\tOTHER ADMINISTRATIVE ACTION\t\\N\t4732\t\\N\tFEDERAL SUPPLY SCHEDULE CONTRACT\tPSA842\t\\N\tKAIMETRIX, L.L.C.\t\\N\t047\tGeneral Services Administration (GSA)\t47QTCA\tGSA/FAS CENTER FOR IT SCHEDULE PROG\t4732\tFEDERAL ACQUISITION SERVIC"
+          }
+        ]
+      },
+      "csic": {
+        "count": 1,
+        "risk": "CRITICAL",
+        "category": "Naval/Defense",
+        "examples": [
+          {
+            "line_number": 70044,
+            "text": "49817136\t9700_-none-_N0017812D6832_0_-none-_-none-\tN\tNO\t2012-07-15 00:00:00\t\\N\t\\N\t\\N\t9700\t\\N\tIGF::OT::IGF SEAPORT ENHANCED\t0\t\\N\t\\N\t\\N\t097\tDepartment of Defense (DOD)\tN00178\tNSWC DAHLGREN\t1700\tDEPT OF THE NAVY\t72549456595.00\t\\N\t{emerging_small_business,subchapter_s_corporation,category_business,small"
+          }
+        ]
+      },
+      "smic": {
+        "count": 3,
+        "risk": "CRITICAL",
+        "category": "Semiconductors",
+        "examples": [
+          {
+            "line_number": 107638,
+            "text": "132972816\t9700_-none-_N6311619P0568_0_-none-_0\tN\tNO\t2019-09-30 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\t448802 - SMIC/ID -101 PANELS\t0\t\\N\tBECTON, DICKINSON AND COMPANY\t122561087\t097\tDepartment of Defense (DOD)\tN63116\tNAVAL HEALTH RESEARCH CENTER\t1700\tDEPT OF THE NAVY\t23635.25\t23635.25\t{manufac"
+          },
+          {
+            "line_number": 129037,
+            "text": "200700032\t9700_-none-_N6311619P0568_P00002_-none-_0\tN\tNO\t2022-01-18 00:00:00\tC\tFUNDING ONLY ACTION\tNONE: NONE OF THE ABOVE\t9700\t\\N\t448802 - SMIC/ID -101 PANELS\tP00002\t\\N\tBECTON, DICKINSON AND COMPANY\t\\N\t097\tDepartment of Defense (DOD)\tN63116\tNAVAL HEALTH RESEARCH CENTER\t1700\tDEPT OF THE NAVY\t-2904.0"
+          },
+          {
+            "line_number": 1011841,
+            "text": "201301915\t9700_-none-_FA820719C0001_P00006_-none-_0\tN\tNO\t2022-01-31 00:00:00\tB\tSUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE\tNONE: NONE OF THE ABOVE\t9700\t\\N\tPA SYSTEM FOR NWC SMIC\tP00006\t\\N\tPAJARITO SCIENTIFIC CORPORATION\t\\N\t097\tDepartment of Defense (DOD)\tFA8207\tFA8207  AFNWC PZBC\t5700\tDEPT OF THE A"
+          }
+        ]
+      },
+      "norinco": {
+        "count": 7,
+        "risk": "CRITICAL",
+        "category": "Defense/Weapons",
+        "examples": [
+          {
+            "line_number": 125381,
+            "text": "200775108\t9700_-none-_SPE7M122V3269_0_-none-_0\tN\tNO\t2022-01-19 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\t8508795571!FILTER ELEMENT,FLUI\t0\t\\N\tSEVEN NORTH INDUSTRIES, INC.\t\\N\t097\tDepartment of Defense (DOD)\tSPE7M1\tDLA LAND AND MARITIME\t97AS\tDEFENSE LOGISTICS AGENCY\t5793.75\t5793.75\t{subchapter_s_c"
+          },
+          {
+            "line_number": 2406884,
+            "text": "196660357\t9700_-none-_SPE7M022P0566_0_-none-_0\tN\tNO\t2021-11-19 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\t8508681001!FILTER ELEMENT,FLUI\t0\t\\N\tSEVEN NORTH INDUSTRIES, INC.\t004234840\t097\tDepartment of Defense (DOD)\tSPE7M0\tDLA LAND AND MARITIME\t97AS\tDEFENSE LOGISTICS AGENCY\t2226.50\t2226.50\t{manufac"
+          },
+          {
+            "line_number": 3198405,
+            "text": "196799081\t9700_-none-_SPE7M022P0585_0_-none-_0\tN\tNO\t2021-11-23 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t9700\t\\N\t8508684939!FILTER ELEMENT,FLUI\t0\t\\N\tSEVEN NORTH INDUSTRIES, INC.\t004234840\t097\tDepartment of Defense (DOD)\tSPE7M0\tDLA LAND AND MARITIME\t97AS\tDEFENSE LOGISTICS AGENCY\t4248.75\t4248.75\t{categor"
+          }
+        ]
+      },
+      "casc": {
+        "count": 35,
+        "risk": "CRITICAL",
+        "category": "Space/Satellites",
+        "examples": [
+          {
+            "line_number": 253531,
+            "text": "195246855\t6800_-none-_68HERH20D0008_P00006_-none-_-none-\tN\tNO\t2022-01-25 00:00:00\tM\tOTHER ADMINISTRATIVE ACTION\tNONE: NONE OF THE ABOVE\t6800\t\\N\tTHE COMBINED ANALYTICAL SERVICES CONTRACTS (CASC) ANALYTICAL RESOURCES, INC. (ARI) MODIFICATION 6: CHANGE COR\tP00006\t\\N\tANALYTICAL RESOURCES INC\t147237721\t0"
+          },
+          {
+            "line_number": 253532,
+            "text": "195246859\t6800_-none-_68HERH20D0012_P00005_-none-_-none-\tN\tNO\t2022-01-25 00:00:00\tM\tOTHER ADMINISTRATIVE ACTION\tNONE: NONE OF THE ABOVE\t6800\t\\N\tTHE COMBINED ANALYTICAL SERVICES CONTRACTS (CASC)   MOD 5: UPDATE COR\tP00005\t\\N\tCHEMTEX ENVIRONMENTAL LABORATORY, INC.\t161783824\t068\tEnvironmental Protectio"
+          },
+          {
+            "line_number": 253534,
+            "text": "195246861\t6800_-none-_68HERH20D0014_P00005_-none-_-none-\tN\tNO\t2022-01-25 00:00:00\tM\tOTHER ADMINISTRATIVE ACTION\tNONE: NONE OF THE ABOVE\t6800\t\\N\tTHE COMBINED ANALYTICAL SERVICES CONTRACTS (CASC) MOD 5: CHANGE COR\tP00005\t\\N\tFRONTIER ANALYTICAL LABORATORY\t102279515\t068\tEnvironmental Protection Agency ("
+          }
+        ]
+      },
+      "bytedance": {
+        "count": 1,
+        "risk": "HIGH",
+        "category": "Social Media/AI",
+        "examples": []
+      },
+      "cetc": {
+        "count": 15,
+        "risk": "CRITICAL",
+        "category": "Defense Electronics",
+        "examples": [
+          {
+            "line_number": 590523,
+            "text": "21755536\t9700_-none-_N6247002D3803_0_-none-_-none-\tN\tNO\t2001-10-01 00:00:00\t\\N\t\\N\t\\N\t9700\t0\t\\N\t0\t\\N\t\\N\t\\N\t097\tDepartment of Defense (DOD)\tC2470\tNAVAL FACILITIES ENGINEERING COM\t1700\tDEPT OF THE NAVY\t0.00\t\\N\t{ability_one_program,other_than_small_business,category_business,special_designations}\t\\N\tNO\t"
+          },
+          {
+            "line_number": 590524,
+            "text": "51864714\t9700_-none-_N6247002D3803_P00040_-none-_-none-\tN\tNO\t2006-09-05 00:00:00\tB\tSUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE\t\\N\t9700\t0\tADDITIONAL SERVICES\tP00040\t\\N\t\\N\t\\N\t097\tDepartment of Defense (DOD)\tN40085\tNAVAL FAC ENGINEERING CMD MID LANT\t1700\tDEPT OF THE NAVY\t921.03\t\\N\t{ability_one_program"
+          },
+          {
+            "line_number": 590525,
+            "text": "35576299\t9700_-none-_N6247002D3803_P00042_-none-_-none-\tN\tNO\t2006-10-19 00:00:00\tM\tOTHER ADMINISTRATIVE ACTION\t\\N\t9700\t0\tDECREASE FUNDING\tP00042\t\\N\t\\N\t\\N\t097\tDepartment of Defense (DOD)\tN40085\tNAVAL FAC ENGINEERING CMD MID LANT\t1700\tDEPT OF THE NAVY\t-732.00\t\\N\t{ability_one_program,other_than_small_b"
+          }
+        ]
+      },
+      "hytera": {
+        "count": 28,
+        "risk": "HIGH",
+        "category": "Communications",
+        "examples": []
+      },
+      "iflytek": {
+        "count": 1,
+        "risk": "HIGH",
+        "category": "AI/Voice Recognition",
+        "examples": []
+      },
+      "nuctech": {
+        "count": 1,
+        "risk": "CRITICAL",
+        "category": "Security Scanning",
+        "examples": [
+          {
+            "line_number": 4816629,
+            "text": "96280754\t8900_8900_89243219FNE400021_0_DENE0008493_0\tN\tNO\t2018-11-28 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t8900\t\\N\tTO 5 SUPPORT TO NUCLEAR TECHNOLOGY CAMPAIGNS IGF::OT::IGF\t0\t\\N\tATKINS ENERGY FEDERAL EPC, INC.\t799017764\t089\tDepartment of Energy (DOE)\t892432\tIDAHO OPERATIONS OFFICE\t8900\tENERGY, DEPA"
+          }
+        ]
+      }
+    },
+    "5862.dat": {}
+  },
+  "critical_findings": [
+    {
+      "entity": "casc",
+      "file": "5836.dat",
+      "line": 64884,
+      "risk": "CRITICAL",
+      "category": "Space/Satellites"
+    },
+    {
+      "entity": "casc",
+      "file": "5836.dat",
+      "line": 64897,
+      "risk": "CRITICAL",
+      "category": "Space/Satellites"
+    },
+    {
+      "entity": "casc",
+      "file": "5836.dat",
+      "line": 64898,
+      "risk": "CRITICAL",
+      "category": "Space/Satellites"
+    },
+    {
+      "entity": "cssc",
+      "file": "5836.dat",
+      "line": 1674501,
+      "risk": "CRITICAL",
+      "category": "Naval/Shipbuilding"
+    },
+    {
+      "entity": "cssc",
+      "file": "5836.dat",
+      "line": 1674503,
+      "risk": "CRITICAL",
+      "category": "Naval/Shipbuilding"
+    },
+    {
+      "entity": "avic",
+      "file": "5836.dat",
+      "line": 1925599,
+      "risk": "CRITICAL",
+      "category": "Aerospace/Defense"
+    },
+    {
+      "entity": "cssc",
+      "file": "5836.dat",
+      "line": 2928488,
+      "risk": "CRITICAL",
+      "category": "Naval/Shipbuilding"
+    },
+    {
+      "entity": "sugon",
+      "file": "5836.dat",
+      "line": 4194633,
+      "risk": "CRITICAL",
+      "category": "Supercomputing"
+    },
+    {
+      "entity": "nuctech",
+      "file": "5836.dat",
+      "line": 4393805,
+      "risk": "CRITICAL",
+      "category": "Security Scanning"
+    },
+    {
+      "entity": "nuctech",
+      "file": "5836.dat",
+      "line": 4522610,
+      "risk": "CRITICAL",
+      "category": "Security Scanning"
+    },
+    {
+      "entity": "casic",
+      "file": "5836.dat",
+      "line": 4670099,
+      "risk": "CRITICAL",
+      "category": "Missiles/Space"
+    },
+    {
+      "entity": "nuctech",
+      "file": "5847.dat",
+      "line": 1636,
+      "risk": "CRITICAL",
+      "category": "Security Scanning"
+    },
+    {
+      "entity": "sugon",
+      "file": "5847.dat",
+      "line": 78708,
+      "risk": "CRITICAL",
+      "category": "Supercomputing"
+    },
+    {
+      "entity": "nuctech",
+      "file": "5847.dat",
+      "line": 155800,
+      "risk": "CRITICAL",
+      "category": "Security Scanning"
+    },
+    {
+      "entity": "casc",
+      "file": "5847.dat",
+      "line": 186631,
+      "risk": "CRITICAL",
+      "category": "Space/Satellites"
+    },
+    {
+      "entity": "casic",
+      "file": "5847.dat",
+      "line": 274418,
+      "risk": "CRITICAL",
+      "category": "Missiles/Space"
+    },
+    {
+      "entity": "sugon",
+      "file": "5847.dat",
+      "line": 536214,
+      "risk": "CRITICAL",
+      "category": "Supercomputing"
+    },
+    {
+      "entity": "casc",
+      "file": "5847.dat",
+      "line": 551973,
+      "risk": "CRITICAL",
+      "category": "Space/Satellites"
+    },
+    {
+      "entity": "casc",
+      "file": "5847.dat",
+      "line": 551975,
+      "risk": "CRITICAL",
+      "category": "Space/Satellites"
+    },
+    {
+      "entity": "zte",
+      "file": "5847.dat",
+      "line": 653927,
+      "risk": "CRITICAL",
+      "category": "Telecommunications"
+    },
+    {
+      "entity": "sugon",
+      "file": "5847.dat",
+      "line": 661174,
+      "risk": "CRITICAL",
+      "category": "Supercomputing"
+    },
+    {
+      "entity": "cssc",
+      "file": "5847.dat",
+      "line": 678154,
+      "risk": "CRITICAL",
+      "category": "Naval/Shipbuilding"
+    },
+    {
+      "entity": "avic",
+      "file": "5847.dat",
+      "line": 681947,
+      "risk": "CRITICAL",
+      "category": "Aerospace/Defense"
+    },
+    {
+      "entity": "zte",
+      "file": "5847.dat",
+      "line": 685935,
+      "risk": "CRITICAL",
+      "category": "Telecommunications"
+    },
+    {
+      "entity": "huawei",
+      "file": "5847.dat",
+      "line": 902425,
+      "risk": "CRITICAL",
+      "category": "Telecommunications/5G"
+    },
+    {
+      "entity": "zte",
+      "file": "5847.dat",
+      "line": 902425,
+      "risk": "CRITICAL",
+      "category": "Telecommunications"
+    },
+    {
+      "entity": "huawei",
+      "file": "5847.dat",
+      "line": 902426,
+      "risk": "CRITICAL",
+      "category": "Telecommunications/5G"
+    },
+    {
+      "entity": "huawei",
+      "file": "5847.dat",
+      "line": 902427,
+      "risk": "CRITICAL",
+      "category": "Telecommunications/5G"
+    },
+    {
+      "entity": "avic",
+      "file": "5847.dat",
+      "line": 906011,
+      "risk": "CRITICAL",
+      "category": "Aerospace/Defense"
+    },
+    {
+      "entity": "smic",
+      "file": "5847.dat",
+      "line": 1121619,
+      "risk": "CRITICAL",
+      "category": "Semiconductors"
+    },
+    {
+      "entity": "cssc",
+      "file": "5847.dat",
+      "line": 1230012,
+      "risk": "CRITICAL",
+      "category": "Naval/Shipbuilding"
+    },
+    {
+      "entity": "cssc",
+      "file": "5847.dat",
+      "line": 1230013,
+      "risk": "CRITICAL",
+      "category": "Naval/Shipbuilding"
+    },
+    {
+      "entity": "casic",
+      "file": "5847.dat",
+      "line": 1593876,
+      "risk": "CRITICAL",
+      "category": "Missiles/Space"
+    },
+    {
+      "entity": "csic",
+      "file": "5847.dat",
+      "line": 1944506,
+      "risk": "CRITICAL",
+      "category": "Naval/Defense"
+    },
+    {
+      "entity": "casic",
+      "file": "5847.dat",
+      "line": 1955682,
+      "risk": "CRITICAL",
+      "category": "Missiles/Space"
+    },
+    {
+      "entity": "nuctech",
+      "file": "5847.dat",
+      "line": 1987561,
+      "risk": "CRITICAL",
+      "category": "Security Scanning"
+    },
+    {
+      "entity": "smic",
+      "file": "5847.dat",
+      "line": 2665571,
+      "risk": "CRITICAL",
+      "category": "Semiconductors"
+    },
+    {
+      "entity": "smic",
+      "file": "5847.dat",
+      "line": 3301366,
+      "risk": "CRITICAL",
+      "category": "Semiconductors"
+    },
+    {
+      "entity": "csic",
+      "file": "5847.dat",
+      "line": 3328277,
+      "risk": "CRITICAL",
+      "category": "Naval/Defense"
+    },
+    {
+      "entity": "csic",
+      "file": "5847.dat",
+      "line": 4305335,
+      "risk": "CRITICAL",
+      "category": "Naval/Defense"
+    },
+    {
+      "entity": "avic",
+      "file": "5847.dat",
+      "line": 4768299,
+      "risk": "CRITICAL",
+      "category": "Aerospace/Defense"
+    },
+    {
+      "entity": "cssc",
+      "file": "5848.dat",
+      "line": 18264,
+      "risk": "CRITICAL",
+      "category": "Naval/Shipbuilding"
+    },
+    {
+      "entity": "cssc",
+      "file": "5848.dat",
+      "line": 51509,
+      "risk": "CRITICAL",
+      "category": "Naval/Shipbuilding"
+    },
+    {
+      "entity": "sugon",
+      "file": "5848.dat",
+      "line": 60934,
+      "risk": "CRITICAL",
+      "category": "Supercomputing"
+    },
+    {
+      "entity": "csic",
+      "file": "5848.dat",
+      "line": 70044,
+      "risk": "CRITICAL",
+      "category": "Naval/Defense"
+    },
+    {
+      "entity": "smic",
+      "file": "5848.dat",
+      "line": 107638,
+      "risk": "CRITICAL",
+      "category": "Semiconductors"
+    },
+    {
+      "entity": "norinco",
+      "file": "5848.dat",
+      "line": 125381,
+      "risk": "CRITICAL",
+      "category": "Defense/Weapons"
+    },
+    {
+      "entity": "smic",
+      "file": "5848.dat",
+      "line": 129037,
+      "risk": "CRITICAL",
+      "category": "Semiconductors"
+    },
+    {
+      "entity": "sugon",
+      "file": "5848.dat",
+      "line": 162858,
+      "risk": "CRITICAL",
+      "category": "Supercomputing"
+    },
+    {
+      "entity": "sugon",
+      "file": "5848.dat",
+      "line": 162861,
+      "risk": "CRITICAL",
+      "category": "Supercomputing"
+    },
+    {
+      "entity": "casc",
+      "file": "5848.dat",
+      "line": 253531,
+      "risk": "CRITICAL",
+      "category": "Space/Satellites"
+    },
+    {
+      "entity": "casc",
+      "file": "5848.dat",
+      "line": 253532,
+      "risk": "CRITICAL",
+      "category": "Space/Satellites"
+    },
+    {
+      "entity": "casc",
+      "file": "5848.dat",
+      "line": 253534,
+      "risk": "CRITICAL",
+      "category": "Space/Satellites"
+    },
+    {
+      "entity": "cssc",
+      "file": "5848.dat",
+      "line": 316723,
+      "risk": "CRITICAL",
+      "category": "Naval/Shipbuilding"
+    },
+    {
+      "entity": "cetc",
+      "file": "5848.dat",
+      "line": 590523,
+      "risk": "CRITICAL",
+      "category": "Defense Electronics"
+    },
+    {
+      "entity": "cetc",
+      "file": "5848.dat",
+      "line": 590524,
+      "risk": "CRITICAL",
+      "category": "Defense Electronics"
+    },
+    {
+      "entity": "cetc",
+      "file": "5848.dat",
+      "line": 590525,
+      "risk": "CRITICAL",
+      "category": "Defense Electronics"
+    },
+    {
+      "entity": "smic",
+      "file": "5848.dat",
+      "line": 1011841,
+      "risk": "CRITICAL",
+      "category": "Semiconductors"
+    },
+    {
+      "entity": "norinco",
+      "file": "5848.dat",
+      "line": 2406884,
+      "risk": "CRITICAL",
+      "category": "Defense/Weapons"
+    },
+    {
+      "entity": "norinco",
+      "file": "5848.dat",
+      "line": 3198405,
+      "risk": "CRITICAL",
+      "category": "Defense/Weapons"
+    },
+    {
+      "entity": "nuctech",
+      "file": "5848.dat",
+      "line": 4816629,
+      "risk": "CRITICAL",
+      "category": "Security Scanning"
+    }
+  ]
+}

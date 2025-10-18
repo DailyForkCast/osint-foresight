@@ -1,6 +1,0 @@
-indicator_id	indicator	threshold	favours_scenario	collection_plan	source_hint	notes
-E1	EuroHPC/VSC allocation to AT teams	≥ +20% YoY	Upside (2y/5y)	Track annual allocation reports	EuroHPC minutes; center PR	
-E2	New 17025 scopes in EMC/GNSS	≥ 6 labs with relevant scopes	Upside/Baseline (5y)	Quarterly registry scrape	Akkreditierung Austria	
-E3	IETF role elevation (IPPM/NTP)	Editor/Chair roles recurring	Upside/Baseline (2y/5y)	Roster diff every release	Datatracker acks	
-E4	CORDIS AT-participant wins	≥ +25 projects in Cluster 4/5	Upside (5y)	Annual export + delta	CORDIS API/export	
-E5	Ownership/JV in suppliers	≥ 2 material BO changes	Downside (control risk)	LEI/OC merge quarterly	GLEIF / OpenCorporates	

@@ -1,0 +1,47 @@
+{
+  "cik": "0001847986",
+  "ticker": "DFLI",
+  "name": "Dragonfly Energy Holdings Corp.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3690",
+  "sicDescription": "Miscellaneous Electrical Machinery, Equipment & Supplies",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "NV",
+  "ein": "851873463",
+  "phone": "(775) 622-3448",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "12915 OLD VIRGINIA ROAD",
+      "street2": null,
+      "city": "RENO,",
+      "stateOrCountry": "NV",
+      "zipCode": "89521",
+      "stateOrCountryDescription": "NV",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "12915 OLD VIRGINIA ROAD",
+      "street2": null,
+      "city": "RENO,",
+      "stateOrCountry": "NV",
+      "zipCode": "89521",
+      "stateOrCountryDescription": "NV",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-04"
+  },
+  "filings_count": 349
+}

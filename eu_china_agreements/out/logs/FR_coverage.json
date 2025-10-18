@@ -1,0 +1,40 @@
+{
+  "total_agreements": 53,
+  "validation_issues": [],
+  "coverage": {
+    "FR": {
+      "total": 53,
+      "national": 21,
+      "regional": 0,
+      "municipal": 30,
+      "institution": 2
+    }
+  },
+  "status_distribution": {
+    "unknown": 37,
+    "active": 16
+  },
+  "type_distribution": {
+    "treaty": 28,
+    "unknown": 10,
+    "MoU": 6,
+    "program": 4,
+    "framework": 3,
+    "sister_city": 2
+  },
+  "confidence_distribution": {
+    "low": 53
+  },
+  "date_coverage": {
+    "2017": 1,
+    "2025": 2,
+    "2024": 5,
+    "1946": 1,
+    "2023": 2
+  },
+  "kpis": {
+    "precision_at_official": 0.0,
+    "status_clarity_rate": 0.3018867924528302,
+    "date_completeness": 0.20754716981132076
+  }
+}

@@ -1,0 +1,218 @@
+# Universal Extraction Success Contract Tests v2.2
+# Configuration for validating extraction operations
+#
+# This file defines test cases for validating different data extraction
+# pipelines against the Universal Extraction Success Contract
+
+session: verify_v22_universal_extract
+artifacts_root: ./_verification_tests/verify_v22_universal_extract
+resource_caps:
+  cpu_percent: 85
+  ram_mb: 16384
+  wall_time_s: 5400
+
+# Environment variables for test paths
+env:
+  # TED Data
+  TED_IN: "F:/TED_Data/monthly"
+  TED_OUT: "C:/Projects/OSINT - Foresight/data/processed/ted_2023_2025"
+
+  # CORDIS Data
+  CORDIS_IN: "F:/CORDIS"
+  CORDIS_OUT: "C:/Projects/OSINT - Foresight/data/processed/cordis_unified"
+
+  # OpenAlex Data
+  OPENALEX_IN: "F:/OSINT_Backups/openalex"
+  OPENALEX_OUT: "C:/Projects/OSINT - Foresight/data/processed/openalex_multicountry_temporal"
+
+  # OpenAIRE Data
+  OPENAIRE_OUT: "C:/Projects/OSINT - Foresight/data/processed/openaire_comprehensive"
+
+  # Patents Data
+  PATENTS_OUT: "C:/Projects/OSINT - Foresight/data/processed/patents_multicountry"
+
+  # SEC EDGAR Data
+  SEC_EDGAR_OUT: "C:/Projects/OSINT - Foresight/data/processed/sec_edgar_comprehensive"
+
+# Test definitions using the verification_tools_starter_pack.py
+tests:
+  # ========== TED (Tenders Electronic Daily) Tests ==========
+  - id: TED_X1
+    name: "TED FS Delta Check"
+    cmd: "python tools/verification_tools_starter_pack.py fs_delta_check --after \"${TED_OUT}\""
+    expect_status: PASS
+    description: "Verify TED extraction created files, not just directories"
+
+  - id: TED_X3
+    name: "TED Ext/MIME Sanity"
+    cmd: "python tools/verification_tools_starter_pack.py ext_mime_hist --root \"${TED_OUT}\" --expect-ext .json,.xml --out-ext ted_ext.json --out-mime ted_mime.json"
+    expect_status: PASS
+    description: "Verify TED output contains expected file types"
+
+  - id: TED_X4
+    name: "TED Schema Probe"
+    cmd: "python tools/verification_tools_starter_pack.py ted_schema_probe --root ${TED_OUT} --samples 25"
+    expect_status: PASS
+    description: "Verify TED files contain expected procurement fields"
+
+  - id: TED_X5
+    name: "TED Coverage Delta"
+    cmd: "python tools/verification_tools_starter_pack.py coverage_delta --path \"${TED_OUT}\" --min 1048576"
+    expect_status: PASS
+    description: "Verify TED extraction meets minimum size requirement"
+
+  - id: TED_X6
+    name: "TED Openability"
+    cmd: "python tools/verification_tools_starter_pack.py openability_check --root \"${TED_OUT}\" --n 50"
+    expect_status: PASS
+    description: "Verify TED files are accessible and readable"
+
+  # ========== CORDIS Tests ==========
+  - id: CORDIS_X1
+    name: "CORDIS FS Delta Check"
+    cmd: "python tools/verification_tools_starter_pack.py fs_delta_check --after ${CORDIS_OUT}"
+    expect_status: PASS
+    description: "Verify CORDIS extraction created actual data files"
+
+  - id: CORDIS_X3
+    name: "CORDIS Ext/MIME Sanity"
+    cmd: "python tools/verification_tools_starter_pack.py ext_mime_hist --root ${CORDIS_OUT} --expect-ext .json,.db --out-ext cordis_ext.json --out-mime cordis_mime.json"
+    expect_status: PASS
+    description: "Verify CORDIS output contains expected formats"
+
+  - id: CORDIS_X4
+    name: "CORDIS Schema Probe"
+    cmd: "python tools/verification_tools_starter_pack.py schema_probe --root ${CORDIS_OUT} --samples 25 --fields project_id,participant_country,org_name"
+    expect_status: PASS
+    description: "Verify CORDIS data contains required EU research fields"
+
+  - id: CORDIS_X5
+    name: "CORDIS Coverage Delta"
+    cmd: "python tools/verification_tools_starter_pack.py coverage_delta --path ${CORDIS_OUT} --min 2MB"
+    expect_status: PASS
+    description: "Verify CORDIS meets minimum data volume"
+
+  # ========== OpenAlex Tests ==========
+  - id: OPENALEX_X1
+    name: "OpenAlex FS Delta Check"
+    cmd: "python tools/verification_tools_starter_pack.py fs_delta_check --after ${OPENALEX_OUT}"
+    expect_status: PASS
+    description: "Verify OpenAlex processing created output files"
+
+  - id: OPENALEX_X3
+    name: "OpenAlex Ext/MIME Sanity"
+    cmd: "python tools/verification_tools_starter_pack.py ext_mime_hist --root ${OPENALEX_OUT} --expect-ext .json --out-ext openalex_ext.json --out-mime openalex_mime.json"
+    expect_status: PASS
+    description: "Verify OpenAlex output format consistency"
+
+  - id: OPENALEX_X4
+    name: "OpenAlex Schema Probe"
+    cmd: "python tools/verification_tools_starter_pack.py schema_probe --root ${OPENALEX_OUT} --samples 25 --fields id,display_name,institution"
+    expect_status: PASS
+    description: "Verify OpenAlex academic metadata structure"
+
+  - id: OPENALEX_X5
+    name: "OpenAlex Coverage Delta"
+    cmd: "python tools/verification_tools_starter_pack.py coverage_delta --path ${OPENALEX_OUT} --min 100MB"
+    expect_status: PASS
+    description: "Verify OpenAlex substantial data collection"
+
+  - id: OPENALEX_X6
+    name: "OpenAlex JSON Stream Test"
+    cmd: "python tools/verification_tools_starter_pack.py stream_json --in-path ${OPENALEX_OUT}/germany_china_2020_2024.json --max 1000"
+    expect_status: PASS
+    description: "Verify OpenAlex JSON streaming capability"
+
+  # ========== OpenAIRE Tests ==========
+  - id: OPENAIRE_X1
+    name: "OpenAIRE FS Delta Check"
+    cmd: "python tools/verification_tools_starter_pack.py fs_delta_check --after ${OPENAIRE_OUT}"
+    expect_status: PASS
+    description: "Verify OpenAIRE extraction completeness"
+
+  - id: OPENAIRE_X3
+    name: "OpenAIRE Ext/MIME Sanity"
+    cmd: "python tools/verification_tools_starter_pack.py ext_mime_hist --root ${OPENAIRE_OUT} --expect-ext .json,.db --out-ext openaire_ext.json --out-mime openaire_mime.json"
+    expect_status: PASS
+    description: "Verify OpenAIRE output formats"
+
+  # ========== Patents Tests ==========
+  - id: PATENTS_X1
+    name: "Patents FS Delta Check"
+    cmd: "python tools/verification_tools_starter_pack.py fs_delta_check --after ${PATENTS_OUT}"
+    expect_status: PASS
+    description: "Verify patent data extraction"
+
+  - id: PATENTS_X3
+    name: "Patents Ext/MIME Sanity"
+    cmd: "python tools/verification_tools_starter_pack.py ext_mime_hist --root ${PATENTS_OUT} --expect-ext .json --out-ext patents_ext.json --out-mime patents_mime.json"
+    expect_status: PASS
+    description: "Verify patent data formats"
+
+  - id: PATENTS_X4
+    name: "Patents Schema Probe"
+    cmd: "python tools/verification_tools_starter_pack.py schema_probe --root ${PATENTS_OUT} --samples 25 --fields patent_id,title,assignee"
+    expect_status: PASS
+    description: "Verify patent metadata structure"
+
+  # ========== SEC EDGAR Tests ==========
+  - id: SEC_EDGAR_X1
+    name: "SEC EDGAR FS Delta Check"
+    cmd: "python tools/verification_tools_starter_pack.py fs_delta_check --after \"${SEC_EDGAR_OUT}\""
+    expect_status: PASS
+    description: "Verify SEC EDGAR extraction created files"
+
+  - id: SEC_EDGAR_X3
+    name: "SEC EDGAR Ext/MIME Sanity"
+    cmd: "python tools/verification_tools_starter_pack.py ext_mime_hist --root \"${SEC_EDGAR_OUT}\" --expect-ext .json --out-ext sec_edgar_ext.json --out-mime sec_edgar_mime.json"
+    expect_status: PASS
+    description: "Verify SEC EDGAR output format consistency"
+
+  - id: SEC_EDGAR_X4
+    name: "SEC EDGAR Schema Probe"
+    cmd: "python tools/verification_tools_starter_pack.py schema_probe --root \"${SEC_EDGAR_OUT}\" --samples 10 --fields cik,ticker,name,stateOfIncorporation"
+    expect_status: PASS
+    description: "Verify SEC EDGAR company metadata"
+
+  - id: SEC_EDGAR_X5
+    name: "SEC EDGAR Coverage Delta"
+    cmd: "python tools/verification_tools_starter_pack.py coverage_delta --path \"${SEC_EDGAR_OUT}\" --min 1MB"
+    expect_status: PASS
+    description: "Verify SEC EDGAR data volume meets minimum"
+
+  - id: SEC_EDGAR_X6
+    name: "SEC EDGAR Chinese Companies Validation"
+    cmd: "python tools/verification_tools_starter_pack.py openability_check --root \"${SEC_EDGAR_OUT}\" --n 10"
+    expect_status: PASS
+    description: "Verify SEC EDGAR files are accessible"
+
+# Aggregation tests (cross-source validation)
+aggregation_tests:
+  - id: AGGREGATE_ENUM_PARITY
+    name: "Cross-Source Enumeration Parity"
+    cmd: "python tools/verification_tools_starter_pack.py enum_parity --root C:/Projects/OSINT - Foresight/data/processed"
+    expect_status: PASS
+    description: "Verify consistent file enumeration across all sources"
+
+  - id: AGGREGATE_REACHABILITY
+    name: "Full Data Reachability Check"
+    cmd: "python tools/verification_tools_starter_pack.py reachability --roots C:/Projects/OSINT - Foresight/data/processed --out full_reachability.json"
+    expect_status: PASS
+    description: "Generate comprehensive reachability report for all processed data"
+
+# Failure scenarios (expected to fail for testing)
+negative_tests:
+  - id: EMPTY_DIR_TEST
+    name: "Test Empty Directory Detection"
+    cmd: "python tools/verification_tools_starter_pack.py fs_delta_check --after C:/Projects/OSINT - Foresight/data/processed/sec_edgar_comprehensive"
+    expect_status: FAIL
+    expect_error: "ERROR_EMPTY_EXTRACTION"
+    description: "Should fail on empty SEC EDGAR directory"
+
+# Performance benchmarks
+benchmarks:
+  - id: BENCH_LARGE_JSON
+    name: "Large JSON Streaming Performance"
+    cmd: "python tools/verification_tools_starter_pack.py stream_json --in-path ${OPENALEX_OUT}/germany_china_2020_2024.json --max 10000"
+    time_limit_s: 60
+    description: "Benchmark JSON streaming on large OpenAlex file"

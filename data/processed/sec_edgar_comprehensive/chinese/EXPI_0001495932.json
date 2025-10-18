@@ -1,0 +1,47 @@
+{
+  "cik": "0001495932",
+  "ticker": "EXPI",
+  "name": "eXp World Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6531",
+  "sicDescription": "Real Estate Agents & Managers (For Others)",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "980681092",
+  "phone": "360-685-4206",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2219 RIMLAND DR., SUITE 301",
+      "street2": null,
+      "city": "BELLINGHAM",
+      "stateOrCountry": "WA",
+      "zipCode": "98226",
+      "stateOrCountryDescription": "WA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2219 RIMLAND DR., SUITE 301",
+      "street2": null,
+      "city": "BELLINGHAM",
+      "stateOrCountry": "WA",
+      "zipCode": "98226",
+      "stateOrCountryDescription": "WA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-08"
+  },
+  "filings_count": 1000
+}

@@ -1,0 +1,56 @@
+{
+  "phase": 10,
+  "country": "Italy",
+  "generated": "2025-09-19T07:40:42.671615",
+  "assumptions_challenged": [
+    {
+      "assumption": "Leonardo helicopter sales are benign",
+      "challenge": "Dual-use technology with military applications",
+      "evidence_for": 3,
+      "evidence_against": 2,
+      "revised_assessment": "Commercial but requires monitoring",
+      "confidence": 0.7,
+      "uncertainty": 0.15
+    },
+    {
+      "assumption": "Academic collaboration is low-risk",
+      "challenge": "Knowledge transfer in sensitive areas",
+      "evidence_for": 2,
+      "evidence_against": 3,
+      "revised_assessment": "Selective risk in quantum/AI",
+      "confidence": 0.65,
+      "uncertainty": 0.2
+    }
+  ],
+  "alternative_hypotheses": {
+    "china_strategy": {
+      "hypothesis": "China prioritizes Germany/France over Italy",
+      "supporting_evidence": 4,
+      "contradicting_evidence": 2,
+      "plausibility": "High",
+      "implications": "Italy is secondary target",
+      "confidence": 0.6,
+      "uncertainty": 0.25
+    }
+  },
+  "blind_spots_identified": [
+    "Conference intelligence gaps",
+    "Indirect ownership chains",
+    "Academic talent flows",
+    "Cyber attribution"
+  ],
+  "collection_gaps": {
+    "critical": [
+      "Real-time conference monitoring",
+      "Talent program participation"
+    ],
+    "important": [
+      "Supply chain tier 2-3 visibility",
+      "Startup investment tracking"
+    ],
+    "nice_to_have": [
+      "Social media sentiment",
+      "Think tank influence"
+    ]
+  }
+}

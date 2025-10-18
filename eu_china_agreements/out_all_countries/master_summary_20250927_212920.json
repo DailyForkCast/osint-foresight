@@ -1,0 +1,456 @@
+{
+  "session_info": {
+    "timestamp": "2025-09-27T21:29:20.494223",
+    "start_time": "2025-09-27T21:28:17.164196",
+    "end_time": "2025-09-27T21:29:20.493226",
+    "duration_minutes": 1.0554838333333334,
+    "harvester_version": "Master EU-China Harvester v1.0",
+    "fabrication_risk": "ZERO",
+    "verification_status": "ALL_DATA_REQUIRES_MANUAL_VERIFICATION"
+  },
+  "statistics": {
+    "countries_total": 42,
+    "countries_processed": 42,
+    "countries_successful": 42,
+    "countries_failed": 0,
+    "total_agreements_found": 7,
+    "success_rate": 1.0
+  },
+  "by_region": {
+    "western_europe": {
+      "countries": [
+        "BE",
+        "FR",
+        "DE",
+        "IT",
+        "LU",
+        "NL",
+        "PT",
+        "ES"
+      ],
+      "processed": 8,
+      "successful": 8,
+      "total_agreements": 3
+    },
+    "eastern_europe": {
+      "countries": [
+        "AM",
+        "AZ",
+        "GE",
+        "AT",
+        "BG",
+        "CZ",
+        "HU",
+        "LI",
+        "PL",
+        "RO",
+        "SK",
+        "SI",
+        "CH"
+      ],
+      "processed": 13,
+      "successful": 13,
+      "total_agreements": 2
+    },
+    "nordic_baltic": {
+      "countries": [
+        "DK",
+        "EE",
+        "FI",
+        "IS",
+        "IE",
+        "LV",
+        "LT",
+        "NO",
+        "SE",
+        "GB"
+      ],
+      "processed": 10,
+      "successful": 10,
+      "total_agreements": 2
+    },
+    "balkans": {
+      "countries": [
+        "AL",
+        "BA",
+        "HR",
+        "XK",
+        "MK",
+        "ME",
+        "RS"
+      ],
+      "processed": 7,
+      "successful": 7,
+      "total_agreements": 0
+    },
+    "mediterranean": {
+      "countries": [
+        "CY",
+        "GR",
+        "MT",
+        "TR"
+      ],
+      "processed": 4,
+      "successful": 4,
+      "total_agreements": 0
+    }
+  },
+  "country_results": {
+    "BG": {
+      "country": "BG",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\BG_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "GE": {
+      "country": "GE",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\GE_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "AT": {
+      "country": "AT",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\AT_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "AZ": {
+      "country": "AZ",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\AZ_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "CZ": {
+      "country": "CZ",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\CZ_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "AM": {
+      "country": "AM",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\AM_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "HU": {
+      "country": "HU",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\HU_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "LI": {
+      "country": "LI",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\LI_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "RO": {
+      "country": "RO",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\RO_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "SK": {
+      "country": "SK",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\SK_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "SI": {
+      "country": "SI",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\SI_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "CH": {
+      "country": "CH",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\CH_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "DK": {
+      "country": "DK",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\DK_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "EE": {
+      "country": "EE",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\EE_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "FI": {
+      "country": "FI",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\FI_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "IS": {
+      "country": "IS",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\IS_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "IE": {
+      "country": "IE",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\IE_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "LV": {
+      "country": "LV",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\LV_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "LT": {
+      "country": "LT",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\LT_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "NO": {
+      "country": "NO",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\NO_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "SE": {
+      "country": "SE",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\SE_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "AL": {
+      "country": "AL",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\AL_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "BA": {
+      "country": "BA",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\BA_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "HR": {
+      "country": "HR",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\HR_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "XK": {
+      "country": "XK",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\XK_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "MK": {
+      "country": "MK",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\MK_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "ME": {
+      "country": "ME",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\ME_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "RS": {
+      "country": "RS",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\RS_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "CY": {
+      "country": "CY",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\CY_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "GR": {
+      "country": "GR",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\GR_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "TR": {
+      "country": "TR",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\TR_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "MT": {
+      "country": "MT",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\MT_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "BE": {
+      "country": "BE",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\BE_provenance_20250927_212817.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "IT": {
+      "country": "IT",
+      "agreements_found": 1,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\IT_provenance_20250927_212822.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "LU": {
+      "country": "LU",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\LU_provenance_20250927_212822.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "NL": {
+      "country": "NL",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\NL_provenance_20250927_212822.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "PT": {
+      "country": "PT",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\PT_provenance_20250927_212822.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "ES": {
+      "country": "ES",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\ES_provenance_20250927_212822.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "PL": {
+      "country": "PL",
+      "agreements_found": 2,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\PL_provenance_20250927_212823.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "GB": {
+      "country": "GB",
+      "agreements_found": 2,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\GB_provenance_20250927_212823.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "FR": {
+      "country": "FR",
+      "agreements_found": 2,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\FR_provenance_20250927_212830.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    },
+    "DE": {
+      "country": "DE",
+      "agreements_found": 0,
+      "verification_required": true,
+      "provenance_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\provenance\\DE_provenance_20250927_212920.json",
+      "all_data_status": "REQUIRES_MANUAL_VERIFICATION",
+      "status": "success"
+    }
+  },
+  "data_quality": {
+    "all_sources_documented": true,
+    "provenance_tracking": "COMPLETE",
+    "raw_files_saved": true,
+    "verification_required": true,
+    "fabrication_risk": "ZERO"
+  },
+  "warnings": [
+    "ALL DATA REQUIRES MANUAL VERIFICATION",
+    "DO NOT USE WITHOUT REVIEWING SOURCE DOCUMENTS",
+    "PROVENANCE FILES MUST BE CHECKED",
+    "RAW HTML FILES SAVED FOR VERIFICATION"
+  ],
+  "next_steps": [
+    "1. Review provenance files for each country",
+    "2. Manually verify high-confidence agreements",
+    "3. Cross-reference with official publications",
+    "4. Flag any suspicious or unverifiable data",
+    "5. Create verified dataset after manual review"
+  ]
+}

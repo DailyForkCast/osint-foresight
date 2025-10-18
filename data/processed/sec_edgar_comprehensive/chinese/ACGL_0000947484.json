@@ -1,0 +1,48 @@
+{
+  "cik": "0000947484",
+  "ticker": "ACGL",
+  "name": "ARCH CAPITAL GROUP LTD.",
+  "detection_reasons": [
+    "offshore:bermuda",
+    "offshore:bm"
+  ],
+  "sic": "6331",
+  "sicDescription": "Fire, Marine & Casualty Insurance",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "980374481",
+  "phone": "441-278-9250",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "WATERLOO HOUSE, GROUND FLOOR",
+      "street2": "100 PITTS BAY ROAD",
+      "city": "PEMBROKE",
+      "stateOrCountry": "D0",
+      "zipCode": "HM 08",
+      "stateOrCountryDescription": "Bermuda",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "WATERLOO HOUSE, GROUND FLOOR",
+      "street2": "100 PITTS BAY ROAD",
+      "city": "PEMBROKE",
+      "stateOrCountry": "D0",
+      "zipCode": "HM 08",
+      "stateOrCountryDescription": "Bermuda",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-05"
+  },
+  "filings_count": 1008
+}

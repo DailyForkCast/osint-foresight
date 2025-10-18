@@ -1,0 +1,50 @@
+{
+  "cik": "0002041829",
+  "ticker": "CHOW",
+  "name": "ChowChow Cloud International Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong",
+    "sic:7372"
+  ],
+  "sic": "7372",
+  "sicDescription": "Services-Prepackaged Software",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "(852) 9622 6161",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT 03, 23/F., AITKEN VANSON CENTRE,",
+      "street2": "NO. 61 HOI YUEN ROAD, KWUN TONG, KOWLOON",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "000000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "UNIT 03, 23/F., AITKEN VANSON CENTRE,",
+      "street2": "NO. 61 HOI YUEN ROAD, KWUN TONG, KOWLOON",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "000000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-18"
+  },
+  "filings_count": 15
+}

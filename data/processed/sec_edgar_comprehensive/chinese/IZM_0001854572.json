@@ -1,0 +1,53 @@
+{
+  "cik": "0001854572",
+  "ticker": "IZM",
+  "name": "ICZOOM Group Inc.",
+  "detection_reasons": [
+    "location:china",
+    "location:shenzhen",
+    "location:guangdong",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "5731",
+  "sicDescription": "Retail-Radio, Tv & Consumer Electronics Stores",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86 755 88603072",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ROOM 3801, BUILDING A, SUNHOPE E-METRO,",
+      "street2": "NO. 7018 CAI TIAN ROAD, FUTIAN DISTRICT,",
+      "city": "SHENZHEN, GUANGDONG",
+      "stateOrCountry": "F4",
+      "zipCode": "518000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "ROOM 3801, BUILDING A, SUNHOPE E-METRO,",
+      "street2": "NO. 7018 CAI TIAN ROAD, FUTIAN DISTRICT,",
+      "city": "SHENZHEN, GUANGDONG",
+      "stateOrCountry": "F4",
+      "zipCode": "518000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-06-18"
+  },
+  "filings_count": 124
+}

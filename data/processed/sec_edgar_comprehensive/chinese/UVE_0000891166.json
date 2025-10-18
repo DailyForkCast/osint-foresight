@@ -1,0 +1,44 @@
+{
+  "cik": "0000891166",
+  "ticker": "UVE",
+  "name": "UNIVERSAL INSURANCE HOLDINGS, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6331",
+  "sicDescription": "Fire, Marine & Casualty Insurance",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "650231984",
+  "phone": "954-958-1200",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1110 W. COMMERCIAL BLVD.",
+      "street2": "SUITE 100",
+      "city": "FORT LAUDERDALE",
+      "stateOrCountry": "FL",
+      "zipCode": "33309",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1110 W. COMMERCIAL BLVD.",
+      "street2": "SUITE 100",
+      "city": "FORT LAUDERDALE",
+      "stateOrCountry": "FL",
+      "zipCode": "33309",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1000
+}

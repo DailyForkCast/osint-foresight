@@ -1,0 +1,47 @@
+{
+  "cik": "0001796022",
+  "ticker": "STEP",
+  "name": "StepStone Group Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6282",
+  "sicDescription": "Investment Advice",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "843868757",
+  "phone": "1-212-351-6100",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "277 PARK AVENUE",
+      "street2": "45TH FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10172",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "277 PARK AVENUE",
+      "street2": "45TH FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10172",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-19"
+  },
+  "filings_count": 438
+}

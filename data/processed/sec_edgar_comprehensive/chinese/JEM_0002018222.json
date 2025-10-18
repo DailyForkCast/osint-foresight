@@ -1,0 +1,51 @@
+{
+  "cik": "0002018222",
+  "ticker": "JEM",
+  "name": "707 Cayman Holdings Ltd.",
+  "detection_reasons": [
+    "location:china",
+    "offshore:cayman",
+    "offshore:hong kong",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "5600",
+  "sicDescription": "Retail-Apparel & Accessory Stores",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "K3",
+  "ein": "000000000",
+  "phone": "(852)34718000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "5/F, AIA FINANCIAL CENTRE,",
+      "street2": "712 PRINCE EDWARD ROAD EAST, KOWLOON",
+      "city": "HONG KONG",
+      "stateOrCountry": "F4",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "5/F, AIA FINANCIAL CENTRE,",
+      "street2": "712 PRINCE EDWARD ROAD EAST, KOWLOON",
+      "city": "HONG KONG",
+      "stateOrCountry": "F4",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-13"
+  },
+  "filings_count": 41
+}

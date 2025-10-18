@@ -1,0 +1,47 @@
+{
+  "cik": "0001611005",
+  "ticker": "KEN",
+  "name": "Kenon Holdings Ltd.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "4911",
+  "sicDescription": "Electric Services",
+  "category": "Accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "U0",
+  "ein": "000000000",
+  "phone": "65 6351 1780",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1 TEMASEK AVENUE #37-02B",
+      "street2": "MILLENIA TOWER",
+      "city": "SINGAPORE",
+      "stateOrCountry": "U0",
+      "zipCode": "039192",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1 TEMASEK AVENUE #37-02B",
+      "street2": "MILLENIA TOWER",
+      "city": "SINGAPORE",
+      "stateOrCountry": "U0",
+      "zipCode": "039192",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-28"
+  },
+  "filings_count": 427
+}

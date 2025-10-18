@@ -1,0 +1,48 @@
+{
+  "cik": "0002033315",
+  "ticker": "KBAT",
+  "name": "KBAT Group Inc.",
+  "detection_reasons": [
+    "location:china",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "3560",
+  "sicDescription": "General Industrial Machinery & Equipment",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86 536 6083899",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "NO. 5999, MIZHOUDONGLU ZHUCHENG",
+      "street2": null,
+      "city": "WEIFANG CITY",
+      "stateOrCountry": "F4",
+      "zipCode": "262500",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "NO. 5999, MIZHOUDONGLU ZHUCHENG",
+      "street2": null,
+      "city": "WEIFANG CITY",
+      "stateOrCountry": "F4",
+      "zipCode": "262500",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 5
+}

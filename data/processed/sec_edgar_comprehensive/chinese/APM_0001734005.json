@@ -1,0 +1,48 @@
+{
+  "cik": "0001734005",
+  "ticker": "APM",
+  "name": "Aptorum Group Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "3829",
+  "sicDescription": "Measuring & Controlling Devices, NEC",
+  "category": "Non-accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "852 3953 7700",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "17 HANOVER SQUARE",
+      "street2": null,
+      "city": "LONDON",
+      "stateOrCountry": "X0",
+      "zipCode": "W1S 1BN",
+      "stateOrCountryDescription": "United Kingdom",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "17 HANOVER SQUARE",
+      "street2": null,
+      "city": "LONDON",
+      "stateOrCountry": "X0",
+      "zipCode": "W1S 1BN",
+      "stateOrCountryDescription": "United Kingdom",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-10"
+  },
+  "filings_count": 202
+}

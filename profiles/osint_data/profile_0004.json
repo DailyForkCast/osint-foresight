@@ -1,0 +1,101 @@
+{
+  "path": "F:\\OSINT_DATA\\usaspending_fixed_detection.db",
+  "size": 27918336,
+  "extension": ".db",
+  "encoding": "unknown",
+  "line_count": 200001,
+  "field_count": 1,
+  "parse_status": "success",
+  "schema": {
+    "contracts_fixed": {
+      "row_count": 200001,
+      "columns": [
+        "id",
+        "contract_id",
+        "vendor_name",
+        "vendor_country_code",
+        "contract_value",
+        "award_date",
+        "description",
+        "china_signals",
+        "china_confidence",
+        "is_china_related",
+        "is_eu_country",
+        "is_bri_country"
+      ]
+    }
+  },
+  "sample_records": [
+    [
+      1,
+      "GS04B4801810031",
+      "COX JR, J M",
+      "USA",
+      4881.14,
+      "2010-01-01",
+      "LEASE",
+      "",
+      0.0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      "DTSA2003D02087",
+      "KRUEGER INTERNATIONAL, INC.",
+      "",
+      450000.0,
+      "2005-04-29",
+      "GLASS FURNITURE",
+      "",
+      0.0,
+      0,
+      0,
+      0
+    ],
+    [
+      3,
+      "GSG07BA25894",
+      "OFFICEMAX INCORPORATED",
+      "USA",
+      634.88,
+      "2007-04-10",
+      "XEROX - SOLID INK STICKS FOR PHASER 8500 SERIES PRINTER, CYAN - 108R00669, CYAN,",
+      "",
+      0.0,
+      0,
+      0,
+      0
+    ],
+    [
+      4,
+      "F870",
+      "OWENS & MINOR DISTRIBUTION INC",
+      "USA",
+      22798.0,
+      "2008-10-23",
+      "4508975578!TRBO REGION 1",
+      "",
+      0.0,
+      0,
+      0,
+      0
+    ],
+    [
+      5,
+      "0002",
+      "SRI INTERNATIONAL",
+      "USA",
+      540872.0,
+      "2014-01-16",
+      "JNSEP SUPPORT",
+      "",
+      0.0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "modified": "2025-09-23T18:41:20"
+}

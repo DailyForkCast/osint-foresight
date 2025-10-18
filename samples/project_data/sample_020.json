@@ -1,0 +1,514 @@
+{
+  "original_path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\by_country\\MX_china\\collaborations_20250921_124455.json",
+  "profile": {
+    "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\by_country\\MX_china\\collaborations_20250921_124455.json",
+    "size": 1023442,
+    "extension": ".json",
+    "encoding": "utf-8",
+    "line_count": 218,
+    "field_count": 13,
+    "parse_status": "success",
+    "schema": {
+      "paper_id": "string",
+      "doi": "string",
+      "title": "string",
+      "publication_year": "number",
+      "countries_collaborating": "array",
+      "institutions": "object",
+      "authors_by_country": "object",
+      "technology_categories": "array",
+      "collaboration_patterns": "array",
+      "temporal_context": "object",
+      "verification": "object",
+      "risk_assessment": "object",
+      "partner_country": "string"
+    },
+    "sample_records": [
+      {
+        "paper_id": "https://openalex.org/W3211622245",
+        "doi": "https://doi.org/10.1115/imece2001/de-23298",
+        "title": "Failure Analysis and Redesign of Some Import Motor-Driven Devices of Valve",
+        "publication_year": 2001,
+        "countries_collaborating": [
+          "CN",
+          "MX"
+        ],
+        "institutions": {
+          "MX": [
+            "Universidad del Noreste"
+          ],
+          "CN": [
+            "Liaoning Water Conservancy Society"
+          ]
+        },
+        "authors_by_country": {
+          "MX": [
+            "Jiancheng Zhang (Universidad del Noreste)",
+            "Zhou Shichang (Universidad del Noreste)",
+            "Entao Zhou (Universidad del Noreste)"
+          ],
+          "CN": [
+            "Pengjie Liu (Liaoning Water Conservancy Society)",
+            "Guodong Li (Liaoning Water Conservancy Society)"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "pre_bri_baseline_2000_2012",
+          "year": 2001,
+          "pre_bri_baseline": true,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_001.gz",
+          "line_number": 347604,
+          "extraction_command": "sed -n '347604p' part_001.gz | jq '.title'",
+          "paper_hash": "1b01b2bd27aa7b7d"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "MX"
+      },
+      {
+        "paper_id": "https://openalex.org/W2385016725",
+        "doi": null,
+        "title": "Nordy inhibits advanced glycation bovine serum albumin-induced angiogenesis in vitro",
+        "publication_year": 2008,
+        "countries_collaborating": [
+          "CN",
+          "MX"
+        ],
+        "institutions": {
+          "MX": [
+            "Institute of Ophthalmology"
+          ],
+          "CN": [
+            "Southwest Hospital"
+          ]
+        },
+        "authors_by_country": {
+          "MX": [
+            "Jiang Xue (Institute of Ophthalmology)"
+          ],
+          "CN": [
+            "Jiang Xue (Southwest Hospital)",
+            "Liao Qiong (Southwest Hospital)"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "pre_bri_baseline_2000_2012",
+          "year": 2008,
+          "pre_bri_baseline": true,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_000.gz",
+          "line_number": 552500,
+          "extraction_command": "sed -n '552500p' part_000.gz | jq '.title'",
+          "paper_hash": "e39c3498daf70d7d"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "MX"
+      },
+      {
+        "paper_id": "https://openalex.org/W4247635020",
+        "doi": "https://doi.org/10.1002/9781119274681.ch15",
+        "title": "Numerical Simulation of Dendritic Growth of Fe\u2010C Binary Alloy with Natural Convection",
+        "publication_year": 2016,
+        "countries_collaborating": [
+          "CN",
+          "MX"
+        ],
+        "institutions": {
+          "MX": [
+            "Universidad del Noreste"
+          ],
+          "CN": [
+            "Ansteel (China)"
+          ]
+        },
+        "authors_by_country": {
+          "MX": [
+            "Weiling Wang (Universidad del Noreste)",
+            "Miaoyong Zhu (Universidad del Noreste)",
+            "Sen Luo (Universidad del Noreste)"
+          ],
+          "CN": [
+            "Sen Luo (Ansteel (China))"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "bri_launch_2013_2016",
+          "year": 2016,
+          "pre_bri_baseline": false,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_002.gz",
+          "line_number": 31294,
+          "extraction_command": "sed -n '31294p' part_002.gz | jq '.title'",
+          "paper_hash": "560d06a53d4c9901"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "MX"
+      },
+      {
+        "paper_id": "https://openalex.org/W4254208512",
+        "doi": "https://doi.org/10.1109/icassp.2012.6289162",
+        "title": "General Chair's Message",
+        "publication_year": 2012,
+        "countries_collaborating": [
+          "CN",
+          "MX"
+        ],
+        "institutions": {
+          "MX": [
+            "Universidad del Noreste"
+          ],
+          "CN": [
+            "Shenyang University of Technology"
+          ]
+        },
+        "authors_by_country": {
+          "MX": [
+            "Takao Nishitani (Universidad del Noreste)"
+          ],
+          "CN": [
+            "Hideaki Sakai (Shenyang University of Technology)"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "pre_bri_baseline_2000_2012",
+          "year": 2012,
+          "pre_bri_baseline": true,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_002.gz",
+          "line_number": 48130,
+          "extraction_command": "sed -n '48130p' part_002.gz | jq '.title'",
+          "paper_hash": "4843a65daa5151c2"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "MX"
+      },
+      {
+        "paper_id": "https://openalex.org/W1554121867",
+        "doi": "https://doi.org/10.1109/icca.2002.1229812",
+        "title": "BOF steelmaking endpoint control",
+        "publication_year": 2005,
+        "countries_collaborating": [
+          "CN",
+          "MX"
+        ],
+        "institutions": {
+          "MX": [
+            "Universidad del Noreste"
+          ],
+          "CN": [
+            "Shenyang University of Technology"
+          ]
+        },
+        "authors_by_country": {
+          "MX": [
+            "Junwu Tao (Universidad del Noreste)"
+          ],
+          "CN": [
+            "Shuming Xie (Shenyang University of Technology)"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "pre_bri_baseline_2000_2012",
+          "year": 2005,
+          "pre_bri_baseline": true,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_000.gz",
+          "line_number": 23240,
+          "extraction_command": "sed -n '23240p' part_000.gz | jq '.title'",
+          "paper_hash": "176f65293bc3df7b"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "MX"
+      }
+    ],
+    "modified": "2025-09-21T12:46:02.618383"
+  },
+  "sample_data": [
+    {
+      "paper_id": "https://openalex.org/W3211622245",
+      "doi": "https://doi.org/10.1115/imece2001/de-23298",
+      "title": "Failure Analysis and Redesign of Some Import Motor-Driven Devices of Valve",
+      "publication_year": 2001,
+      "countries_collaborating": [
+        "CN",
+        "MX"
+      ],
+      "institutions": {
+        "MX": [
+          "Universidad del Noreste"
+        ],
+        "CN": [
+          "Liaoning Water Conservancy Society"
+        ]
+      },
+      "authors_by_country": {
+        "MX": [
+          "Jiancheng Zhang (Universidad del Noreste)",
+          "Zhou Shichang (Universidad del Noreste)",
+          "Entao Zhou (Universidad del Noreste)"
+        ],
+        "CN": [
+          "Pengjie Liu (Liaoning Water Conservancy Society)",
+          "Guodong Li (Liaoning Water Conservancy Society)"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "pre_bri_baseline_2000_2012",
+        "year": 2001,
+        "pre_bri_baseline": true,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_001.gz",
+        "line_number": 347604,
+        "extraction_command": "sed -n '347604p' part_001.gz | jq '.title'",
+        "paper_hash": "1b01b2bd27aa7b7d"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "MX"
+    },
+    {
+      "paper_id": "https://openalex.org/W2385016725",
+      "doi": null,
+      "title": "Nordy inhibits advanced glycation bovine serum albumin-induced angiogenesis in vitro",
+      "publication_year": 2008,
+      "countries_collaborating": [
+        "CN",
+        "MX"
+      ],
+      "institutions": {
+        "MX": [
+          "Institute of Ophthalmology"
+        ],
+        "CN": [
+          "Southwest Hospital"
+        ]
+      },
+      "authors_by_country": {
+        "MX": [
+          "Jiang Xue (Institute of Ophthalmology)"
+        ],
+        "CN": [
+          "Jiang Xue (Southwest Hospital)",
+          "Liao Qiong (Southwest Hospital)"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "pre_bri_baseline_2000_2012",
+        "year": 2008,
+        "pre_bri_baseline": true,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_000.gz",
+        "line_number": 552500,
+        "extraction_command": "sed -n '552500p' part_000.gz | jq '.title'",
+        "paper_hash": "e39c3498daf70d7d"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "MX"
+    },
+    {
+      "paper_id": "https://openalex.org/W4247635020",
+      "doi": "https://doi.org/10.1002/9781119274681.ch15",
+      "title": "Numerical Simulation of Dendritic Growth of Fe\u2010C Binary Alloy with Natural Convection",
+      "publication_year": 2016,
+      "countries_collaborating": [
+        "CN",
+        "MX"
+      ],
+      "institutions": {
+        "MX": [
+          "Universidad del Noreste"
+        ],
+        "CN": [
+          "Ansteel (China)"
+        ]
+      },
+      "authors_by_country": {
+        "MX": [
+          "Weiling Wang (Universidad del Noreste)",
+          "Miaoyong Zhu (Universidad del Noreste)",
+          "Sen Luo (Universidad del Noreste)"
+        ],
+        "CN": [
+          "Sen Luo (Ansteel (China))"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "bri_launch_2013_2016",
+        "year": 2016,
+        "pre_bri_baseline": false,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_002.gz",
+        "line_number": 31294,
+        "extraction_command": "sed -n '31294p' part_002.gz | jq '.title'",
+        "paper_hash": "560d06a53d4c9901"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "MX"
+    },
+    {
+      "paper_id": "https://openalex.org/W4254208512",
+      "doi": "https://doi.org/10.1109/icassp.2012.6289162",
+      "title": "General Chair's Message",
+      "publication_year": 2012,
+      "countries_collaborating": [
+        "CN",
+        "MX"
+      ],
+      "institutions": {
+        "MX": [
+          "Universidad del Noreste"
+        ],
+        "CN": [
+          "Shenyang University of Technology"
+        ]
+      },
+      "authors_by_country": {
+        "MX": [
+          "Takao Nishitani (Universidad del Noreste)"
+        ],
+        "CN": [
+          "Hideaki Sakai (Shenyang University of Technology)"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "pre_bri_baseline_2000_2012",
+        "year": 2012,
+        "pre_bri_baseline": true,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_002.gz",
+        "line_number": 48130,
+        "extraction_command": "sed -n '48130p' part_002.gz | jq '.title'",
+        "paper_hash": "4843a65daa5151c2"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "MX"
+    },
+    {
+      "paper_id": "https://openalex.org/W1554121867",
+      "doi": "https://doi.org/10.1109/icca.2002.1229812",
+      "title": "BOF steelmaking endpoint control",
+      "publication_year": 2005,
+      "countries_collaborating": [
+        "CN",
+        "MX"
+      ],
+      "institutions": {
+        "MX": [
+          "Universidad del Noreste"
+        ],
+        "CN": [
+          "Shenyang University of Technology"
+        ]
+      },
+      "authors_by_country": {
+        "MX": [
+          "Junwu Tao (Universidad del Noreste)"
+        ],
+        "CN": [
+          "Shuming Xie (Shenyang University of Technology)"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "pre_bri_baseline_2000_2012",
+        "year": 2005,
+        "pre_bri_baseline": true,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_000.gz",
+        "line_number": 23240,
+        "extraction_command": "sed -n '23240p' part_000.gz | jq '.title'",
+        "paper_hash": "176f65293bc3df7b"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "MX"
+    }
+  ]
+}

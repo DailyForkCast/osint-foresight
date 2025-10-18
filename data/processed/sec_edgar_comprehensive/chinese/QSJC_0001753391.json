@@ -1,0 +1,49 @@
+{
+  "cik": "0001753391",
+  "ticker": "QSJC",
+  "name": "TANCHENG GROUP CO., LTD.",
+  "detection_reasons": [
+    "location:china",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "7370",
+  "sicDescription": "Services-Computer Programming, Data Processing, Etc.",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "NV",
+  "ein": "384086827",
+  "phone": "8613910972765",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "NO.32, HUILI TOWNSHIP, JIAOCHENG COUNTY,",
+      "street2": "SHANXI PROVINCE",
+      "city": "LVLIANG CITY",
+      "stateOrCountry": "F4",
+      "zipCode": "030500",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "NO.32, HUILI TOWNSHIP, JIAOCHENG COUNTY,",
+      "street2": "SHANXI PROVINCE",
+      "city": "LVLIANG CITY",
+      "stateOrCountry": "F4",
+      "zipCode": "030500",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-14"
+  },
+  "filings_count": 54
+}

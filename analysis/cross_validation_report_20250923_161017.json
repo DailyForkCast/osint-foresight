@@ -1,0 +1,864 @@
+{
+  "timestamp": "2025-09-23T16:10:17.200102",
+  "validations": {
+    "greece_gateway": {
+      "piraeus_port": {
+        "owner": "COSCO",
+        "ownership": "67%",
+        "investment": "\u20ac4.3B",
+        "source": "Terminal E",
+        "confidence": "HIGH"
+      },
+      "usaspending_contracts": [
+        {
+          "vendor": "MOTOR OIL (HELLAS) CORINTH REFINERIES S.A.",
+          "value": 320698112.45,
+          "china_signals": "",
+          "description": "FUEL, NAVAL DISTILLATE (F76); TURBINE FUEL, AVIATION (JA1); TURBINE FUEL, AVIATION (JP8)"
+        },
+        {
+          "vendor": "HELLENIC AEROSPACE INDUSTRY S.A.",
+          "value": 21476003.56,
+          "china_signals": "",
+          "description": "FALCON-STAR MODIFICATION"
+        },
+        {
+          "vendor": "CHENEGA ARCHITECTURE AND DESIGN SOLUTIONS, LLC",
+          "value": 1511242.54,
+          "china_signals": "",
+          "description": "THE HAF F-16 VIPER UPGRADE PROGRAM INCLUDES INTRUSION DETECTION AND ELECTRONIC SECURITY MEASURES AT SOUDA AIRBASE IN GREECE TO ENABLE PROPER SPARE PARTS AND MAINTENANCE STORAGE OF CRITICAL F-16 VIPER COCKPIT CONFIGURED REPAIRABLE PARTS."
+        },
+        {
+          "vendor": "TSONTOS, MICHAEL M., S.A.",
+          "value": 438600.45,
+          "china_signals": "",
+          "description": "EXTEND CCD FROM 17 JUN 2011 TO 30 DEC 2011 DUE TO GOV'T DELAYS."
+        },
+        {
+          "vendor": "FEDERAL EXPRESS CORPORATION",
+          "value": 386354.7,
+          "china_signals": "",
+          "description": "CIVIL RESERVE AIR FLEET - AIR TRANSPORTATION SERVICES"
+        },
+        {
+          "vendor": "GLOBAL DEFENSE LOGISTICS S.R.L.",
+          "value": 303356.0,
+          "china_signals": "",
+          "description": "MOD TO RECONCILE FINAL SERVICES IN SUPPORT OF USS UNIT PV 36727 IN SOUDA BAY."
+        },
+        {
+          "vendor": "MISCELLANEOUS FOREIGN AWARDEES",
+          "value": 155452.55,
+          "china_signals": "",
+          "description": "HEATING OIL FOR THE U.S. GOVERMENT INSTALLATIONS IN ATHENS AND THESSALONIKI."
+        },
+        {
+          "vendor": "NATIONAL SHIPPING AGENCY S.A.",
+          "value": 149000.0,
+          "china_signals": "",
+          "description": "MOD TO RECONCILE ACTUAL SERVICE QUANTITIES AS PER ACTUAL USAGE IN SUPPORT OF USNS KANAWHA PV 36106."
+        },
+        {
+          "vendor": "MISCELLANEOUS FOREIGN AWARDEES",
+          "value": 137134.55,
+          "china_signals": "",
+          "description": "ATHENS FAC - GARBAGE REMOVAL SERVICES CONTRACT"
+        },
+        {
+          "vendor": "INCHCAPE SHIPPING SERVICES DUBAI LLC",
+          "value": 127426.0,
+          "china_signals": "",
+          "description": "HSP SERVICES IN SUPPORT OF USS SULLIVANS PV 45851 IN SOUDA BAY, GREECE."
+        }
+      ],
+      "cordis_projects": []
+    },
+    "leonardo_exposure": {
+      "usaspending": [
+        {
+          "vendor": "LEONARDO SPA",
+          "country": "ITA",
+          "value": 12280.0,
+          "china_signals": "",
+          "source": "USAspending"
+        },
+        {
+          "vendor": "LEONARDO US CYBER AND SECURITY SOLUTIONS, LLC",
+          "country": "",
+          "value": 0.0,
+          "china_signals": "",
+          "source": "USAspending"
+        },
+        {
+          "vendor": "LEONARDO SPA",
+          "country": "ITA",
+          "value": 109938.4,
+          "china_signals": "",
+          "source": "USAspending"
+        },
+        {
+          "vendor": "LEONARDO US AIRCRAFT, LLC",
+          "country": "ITA",
+          "value": 49612.86,
+          "china_signals": "",
+          "source": "USAspending"
+        },
+        {
+          "vendor": "LEONARDO SPA",
+          "country": "ITA",
+          "value": 36715.18,
+          "china_signals": "",
+          "source": "USAspending"
+        },
+        {
+          "vendor": "LEONARDO US CYBER AND SECURITY SOLUTIONS, LLC",
+          "country": "USA",
+          "value": 102000.0,
+          "china_signals": "",
+          "source": "USAspending"
+        },
+        {
+          "vendor": "ALENIA MARCONI SYSTEMS (ASI) I",
+          "country": "USA",
+          "value": 122277.0,
+          "china_signals": "",
+          "source": "USAspending"
+        },
+        {
+          "vendor": "SELEX COMMUNICATIONS INC.",
+          "country": "USA",
+          "value": 7413.0,
+          "china_signals": "",
+          "source": "USAspending"
+        }
+      ],
+      "cordis": [],
+      "cross_reference": []
+    },
+    "zte_penetration": {
+      "usaspending_contracts": 9,
+      "contract_value": 1749553.2999999998,
+      "countries_affected": [
+        "ATG",
+        "USA"
+      ],
+      "sectors": "set()"
+    },
+    "bri_correlations": {
+      "ITA": {
+        "total_contracts": 251,
+        "total_value": 187722380.76,
+        "china_contracts": 0,
+        "china_value": 0,
+        "china_penetration_rate": 0.0
+      },
+      "POL": {
+        "total_contracts": 20,
+        "total_value": 14589067.29,
+        "china_contracts": 0,
+        "china_value": 0,
+        "china_penetration_rate": 0.0
+      },
+      "PRT": {
+        "total_contracts": 17,
+        "total_value": 1914453.67,
+        "china_contracts": 0,
+        "china_value": 0,
+        "china_penetration_rate": 0.0
+      },
+      "CZE": {
+        "total_contracts": 8,
+        "total_value": 102415175.10999998,
+        "china_contracts": 0,
+        "china_value": 0,
+        "china_penetration_rate": 0.0
+      },
+      "HUN": {
+        "total_contracts": 10,
+        "total_value": 14318723.11,
+        "china_contracts": 0,
+        "china_value": 0,
+        "china_penetration_rate": 0.0
+      },
+      "GRC": {
+        "total_contracts": 34,
+        "total_value": 346175796.88,
+        "china_contracts": 0,
+        "china_value": 0,
+        "china_penetration_rate": 0.0
+      }
+    },
+    "entity_networks": {
+      "china_tech": {
+        "companies": [
+          "HUAWEI",
+          "ZTE",
+          "DJI",
+          "HIKVISION",
+          "LENOVO"
+        ],
+        "connections": [
+          {
+            "entity": "AZTEC CONSTRUCTION & MECHANICAL, INC.",
+            "country": "ATG",
+            "contracts": 1,
+            "value": 373423.0,
+            "network": "china_tech"
+          },
+          {
+            "entity": "AZTEC CONSTRUCTION & MECHANICAL, INC.",
+            "country": "USA",
+            "contracts": 1,
+            "value": 1318177.7,
+            "network": "china_tech"
+          },
+          {
+            "entity": "AZTEC SOFTWARE, LLC",
+            "country": "USA",
+            "contracts": 1,
+            "value": 27125.0,
+            "network": "china_tech"
+          },
+          {
+            "entity": "AZTEK, INCORPORATED",
+            "country": "USA",
+            "contracts": 1,
+            "value": 10566.0,
+            "network": "china_tech"
+          },
+          {
+            "entity": "HAZTECH ENVIRONMENTAL SERVICES",
+            "country": "",
+            "contracts": 1,
+            "value": 1590.0,
+            "network": "china_tech"
+          },
+          {
+            "entity": "HAZTECH SYSTEMS, INC.",
+            "country": "USA",
+            "contracts": 1,
+            "value": 3342.0,
+            "network": "china_tech"
+          },
+          {
+            "entity": "RAI BIZTEK, INC.",
+            "country": "USA",
+            "contracts": 2,
+            "value": 13334.1,
+            "network": "china_tech"
+          },
+          {
+            "entity": "APPRAISAL SERVICES OF BEMIDJI INC",
+            "country": "USA",
+            "contracts": 1,
+            "value": 350.0,
+            "network": "china_tech"
+          },
+          {
+            "entity": "LIBYA OIL DJIBOUTI SA",
+            "country": "DJI",
+            "contracts": 1,
+            "value": 4906.73,
+            "network": "china_tech"
+          },
+          {
+            "entity": "NATIONAL OIL DJIBOUTI SAS",
+            "country": "DJI",
+            "contracts": 1,
+            "value": 31944.24,
+            "network": "china_tech"
+          },
+          {
+            "entity": "PRI-DJI A CONSTRUCTION JV",
+            "country": "USA",
+            "contracts": 2,
+            "value": 329617.0,
+            "network": "china_tech"
+          },
+          {
+            "entity": "PRI/DJI, A SERVICES JV",
+            "country": "USA",
+            "contracts": 2,
+            "value": 67315.0,
+            "network": "china_tech"
+          },
+          {
+            "entity": "TASHDJIAN, KEVORK VINCENT",
+            "country": "USA",
+            "contracts": 1,
+            "value": 20400.0,
+            "network": "china_tech"
+          }
+        ]
+      },
+      "eu_defense": {
+        "companies": [
+          "LEONARDO",
+          "THALES",
+          "AIRBUS",
+          "BAE",
+          "RHEINMETALL"
+        ],
+        "connections": [
+          {
+            "entity": "LEONARDO SPA",
+            "country": "ITA",
+            "contracts": 3,
+            "value": 158933.58,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "LEONARDO US AIRCRAFT, LLC",
+            "country": "ITA",
+            "contracts": 1,
+            "value": 49612.86,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "LEONARDO US CYBER AND SECURITY SOLUTIONS, LLC",
+            "country": "",
+            "contracts": 1,
+            "value": 0,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "LEONARDO US CYBER AND SECURITY SOLUTIONS, LLC",
+            "country": "USA",
+            "contracts": 1,
+            "value": 102000.0,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "THALES AUSTRALIA LIMITED",
+            "country": "AUS",
+            "contracts": 1,
+            "value": 4743604.61,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "THALES AVIONICS, INC.",
+            "country": "USA",
+            "contracts": 2,
+            "value": 67377.76000000001,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "THALES DEFENSE & SECURITY INC",
+            "country": "",
+            "contracts": 5,
+            "value": 0,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "THALES DEFENSE & SECURITY INC",
+            "country": "FRA",
+            "contracts": 1,
+            "value": 523902.75,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "THALES DEFENSE & SECURITY INC",
+            "country": "USA",
+            "contracts": 25,
+            "value": 27176626.58,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "THALES DEFENSE & SECURITY, INC.",
+            "country": "",
+            "contracts": 1,
+            "value": 0,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "THALES DEFENSE & SECURITY, INC.",
+            "country": "USA",
+            "contracts": 2,
+            "value": 3622983.0,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "THALES DIS USA INC.",
+            "country": "USA",
+            "contracts": 1,
+            "value": 132472.5,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "THALES MISSILE ELECTRONICS LTD",
+            "country": "GBR",
+            "contracts": 1,
+            "value": 16023065.5,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "THALES-RAYTHEON SYSTEMS COMPANY LLC",
+            "country": "USA",
+            "contracts": 2,
+            "value": 270289342.54,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "AIRBUS DS MILITARY AIRCRAFT, INC.",
+            "country": "USA",
+            "contracts": 6,
+            "value": 710803.4,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "AIRBUS HELICOPTERS, INC.",
+            "country": "",
+            "contracts": 1,
+            "value": 0,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "AIRBUS HELICOPTERS, INC.",
+            "country": "USA",
+            "contracts": 25,
+            "value": 1843136.31,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "AIRBUS U.S. SPACE & DEFENSE, INC.",
+            "country": "",
+            "contracts": 1,
+            "value": 0,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "AIRBUS U.S. SPACE & DEFENSE, INC.",
+            "country": "FRA",
+            "contracts": 1,
+            "value": 5062926.0,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "AIRBUS U.S. SPACE & DEFENSE, INC.",
+            "country": "USA",
+            "contracts": 11,
+            "value": 3243873.38,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "AIRBUS US SPACE & DEFENSE INC",
+            "country": "USA",
+            "contracts": 1,
+            "value": 97.11,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "ABAE",
+            "country": "USA",
+            "contracts": 1,
+            "value": 1517.42,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS (OPERATIONS) LIMITED",
+            "country": "GBR",
+            "contracts": 3,
+            "value": 871575.57,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS ADVANCED TECHNOLOGIES INC",
+            "country": "USA",
+            "contracts": 2,
+            "value": 3919397.0,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS AEROSPACE & DEFENSE GROUP INC.",
+            "country": "",
+            "contracts": 1,
+            "value": 0,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS AEROSPACE & DEFENSE GROUP INC.",
+            "country": "USA",
+            "contracts": 3,
+            "value": 2202421.0,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS AEROSPACE INC.",
+            "country": "USA",
+            "contracts": 2,
+            "value": 106220.0,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS AIRCRAFT CONTROLS",
+            "country": "USA",
+            "contracts": 2,
+            "value": 11828598.62,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS CONTROLS INC",
+            "country": "USA",
+            "contracts": 6,
+            "value": 233872.0,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS CONTROLS INC.",
+            "country": "",
+            "contracts": 1,
+            "value": 0,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS CONTROLS INC.",
+            "country": "USA",
+            "contracts": 4,
+            "value": 191245.08000000002,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS DATAGATE INC.",
+            "country": "USA",
+            "contracts": 1,
+            "value": 70962.45,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS FLIGHT SYSTEMS INC",
+            "country": "USA",
+            "contracts": 1,
+            "value": 11255785.0,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS GCS INTERNATIONAL LIMITED",
+            "country": "USA",
+            "contracts": 4,
+            "value": 1178657.87,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS GLOBAL COMBAT SYSTEMS LTD",
+            "country": "GBR",
+            "contracts": 10,
+            "value": 1064708.7,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS HAWAII SHIPYARDS INC.",
+            "country": "USA",
+            "contracts": 2,
+            "value": 975285.0,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS INFORMATION & ELECTRONIC SYSTEMS INTEGRATION INC",
+            "country": "USA",
+            "contracts": 2,
+            "value": 10271437.0,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS INFORMATION & ELECTRONIC SYSTEMS INTEGRATION INC.",
+            "country": "IRQ",
+            "contracts": 1,
+            "value": 1482896.0,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS INFORMATION & ELECTRONIC SYSTEMS INTEGRATION INC.",
+            "country": "USA",
+            "contracts": 13,
+            "value": 285818004.84000003,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+            "country": "",
+            "contracts": 4,
+            "value": 0,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+            "country": "USA",
+            "contracts": 63,
+            "value": 995811678.3299997,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INCORPORATED",
+            "country": "USA",
+            "contracts": 1,
+            "value": 3045.0,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS INFORMATION SOLUTIONS INC.",
+            "country": "USA",
+            "contracts": 15,
+            "value": 227679478.02999997,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS INFORMATION TECHNOLOGY LIMITED LIABILITY COMPANY",
+            "country": "USA",
+            "contracts": 5,
+            "value": 2511947.45,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS INTEGRATED DEFENSE",
+            "country": "USA",
+            "contracts": 3,
+            "value": 211291833.95,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS JACKSONVILLE SHIP REPAIR LLC",
+            "country": "USA",
+            "contracts": 50,
+            "value": 4824286286.8,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS LAND & ARMAMENTS L.P.",
+            "country": "SWE",
+            "contracts": 1,
+            "value": 16558.34,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS LAND & ARMAMENTS L.P.",
+            "country": "USA",
+            "contracts": 103,
+            "value": 905974293.6699997,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS LAND AND ARMAMENTS L.P.",
+            "country": "USA",
+            "contracts": 3,
+            "value": 1096445918.58,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS NATIONAL SECURITY SOLUTIONS INC.",
+            "country": "USA",
+            "contracts": 11,
+            "value": 226103773.29999998,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS NORFOLK SHIP REPAIR INC.",
+            "country": "USA",
+            "contracts": 23,
+            "value": 5204402140.8600025,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS ORDNANCE SYSTEMS INC.",
+            "country": "USA",
+            "contracts": 2,
+            "value": 28505300.0,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS PLC",
+            "country": "GBR",
+            "contracts": 11,
+            "value": 414158.2899999999,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS PLC",
+            "country": "USA",
+            "contracts": 3,
+            "value": 84933.4,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS PROTECTION SYSTEMS INC.",
+            "country": "USA",
+            "contracts": 10,
+            "value": 54391576.04,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS SAN DIEGO SHIP REPAIR INC.",
+            "country": "USA",
+            "contracts": 15,
+            "value": 3574496963.6,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS SAN FRANCISCO SHIP REPAIR INC.",
+            "country": "USA",
+            "contracts": 3,
+            "value": 4206253.68,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS SPACE & MISSION SYSTEMS INC.",
+            "country": "USA",
+            "contracts": 9,
+            "value": 307755308.21,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS SURVIVABILITY SYSTEMS LLC",
+            "country": "USA",
+            "contracts": 18,
+            "value": 52612135.46,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS TACTICAL VEHICLE SYSTEMS LP",
+            "country": "",
+            "contracts": 2,
+            "value": 0,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS TACTICAL VEHICLE SYSTEMS LP",
+            "country": "USA",
+            "contracts": 12,
+            "value": 461019.97,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS TECHNICAL SERVICES",
+            "country": "USA",
+            "contracts": 2,
+            "value": 578620584.92,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS TECHNOLOGY SOLUTIONS & SERVICES INC.",
+            "country": "",
+            "contracts": 4,
+            "value": 5000.0,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS TECHNOLOGY SOLUTIONS & SERVICES INC.",
+            "country": "DEU",
+            "contracts": 1,
+            "value": 605431.61,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS TECHNOLOGY SOLUTIONS & SERVICES INC.",
+            "country": "MDA",
+            "contracts": 1,
+            "value": 9915880.4,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE SYSTEMS TECHNOLOGY SOLUTIONS & SERVICES INC.",
+            "country": "USA",
+            "contracts": 75,
+            "value": 2740377374.2999997,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAE URBAN ECONOMICS, INC.",
+            "country": "USA",
+            "contracts": 1,
+            "value": 542621.0,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "BAEDERWOOD LP",
+            "country": "USA",
+            "contracts": 1,
+            "value": 1085.5,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "RHODA BAER PHOTOGRAPHY",
+            "country": "USA",
+            "contracts": 1,
+            "value": 5561.42,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "WISAG GEBAEUDEREINIGUNG RHOEN GMBH & CO. KG",
+            "country": "DEU",
+            "contracts": 2,
+            "value": 69712.92,
+            "network": "eu_defense"
+          },
+          {
+            "entity": "RHEINMETALL LANDSYSTEME GMBH",
+            "country": "DEU",
+            "contracts": 1,
+            "value": 617436.16,
+            "network": "eu_defense"
+          }
+        ]
+      },
+      "gateway_operators": {
+        "companies": [
+          "COSCO",
+          "HUTCHISON",
+          "PSA"
+        ],
+        "connections": [
+          {
+            "entity": "COSCO ENTERPRISES INC",
+            "country": "USA",
+            "contracts": 2,
+            "value": 83.8,
+            "network": "gateway_operators"
+          },
+          {
+            "entity": "COSCO INC",
+            "country": "USA",
+            "contracts": 1,
+            "value": -107.44,
+            "network": "gateway_operators"
+          },
+          {
+            "entity": "CAPSA SOLUTIONS LLC",
+            "country": "USA",
+            "contracts": 1,
+            "value": 3470.0,
+            "network": "gateway_operators"
+          },
+          {
+            "entity": "HIPSAVER INC.",
+            "country": "USA",
+            "contracts": 3,
+            "value": 465.67999999999995,
+            "network": "gateway_operators"
+          },
+          {
+            "entity": "PSA WORLDWIDE, LLC",
+            "country": "USA",
+            "contracts": 1,
+            "value": 7082.57,
+            "network": "gateway_operators"
+          },
+          {
+            "entity": "RADIOMOVIL DIPSA, S.A. DE C.V.",
+            "country": "USA",
+            "contracts": 2,
+            "value": 7394.4,
+            "network": "gateway_operators"
+          }
+        ]
+      }
+    }
+  },
+  "key_findings": [
+    "CONFIRMED: Greece Piraeus Port under Chinese (COSCO) control - 67% ownership, \u20ac4.3B investment",
+    "CONFIRMED: ZTE penetration in US federal contracts - 9 contracts, $1,749,553.30 total value",
+    "CHINA_TECH: 13 entities, $2,202,090.77 total contracts",
+    "EU_DEFENSE: 71 entities, $21,713,438,632.62 total contracts",
+    "GATEWAY_OPERATORS: 6 entities, $18,389.01 total contracts"
+  ],
+  "intelligence_gaps": [],
+  "recommendations": []
+}

@@ -1,0 +1,57 @@
+{
+  "original_path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\ted_2023_2025\\by_country\\SI_china\\summary.json",
+  "profile": {
+    "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\ted_2023_2025\\by_country\\SI_china\\summary.json",
+    "size": 235,
+    "extension": ".json",
+    "encoding": "utf-8",
+    "line_count": 1,
+    "field_count": 6,
+    "parse_status": "success",
+    "schema": {
+      "country": "string",
+      "total_contracts": "number",
+      "total_value": "number",
+      "years_active": "array",
+      "top_entities": "object",
+      "sectors": "object"
+    },
+    "sample_records": [
+      {
+        "country": "Slovenia",
+        "total_contracts": 3,
+        "total_value": 0.0,
+        "years_active": [
+          "2023"
+        ],
+        "top_entities": {
+          "generic": 2,
+          "zte": 1
+        },
+        "sectors": {
+          "unknown": 2,
+          "telecom": 1
+        }
+      }
+    ],
+    "modified": "2025-09-20T22:46:50.616880"
+  },
+  "sample_data": [
+    {
+      "country": "Slovenia",
+      "total_contracts": 3,
+      "total_value": 0.0,
+      "years_active": [
+        "2023"
+      ],
+      "top_entities": {
+        "generic": 2,
+        "zte": 1
+      },
+      "sectors": {
+        "unknown": 2,
+        "telecom": 1
+      }
+    }
+  ]
+}

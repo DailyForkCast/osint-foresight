@@ -1,0 +1,47 @@
+{
+  "cik": "0001794338",
+  "ticker": "IGIC",
+  "name": "International General Insurance Holdings Ltd.",
+  "detection_reasons": [
+    "offshore:bermuda"
+  ],
+  "sic": "6399",
+  "sicDescription": "Insurance Carriers, NEC",
+  "category": "Accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "D0",
+  "ein": "000000000",
+  "phone": "962 6 562 2009",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "74 ABDEL HAMID SHARAF STREET",
+      "street2": "P.O. BOX 941428",
+      "city": "AMMAN",
+      "stateOrCountry": "M2",
+      "zipCode": "11194",
+      "stateOrCountryDescription": "Jordan",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "74 ABDEL HAMID SHARAF STREET",
+      "street2": "P.O. BOX 941428",
+      "city": "AMMAN",
+      "stateOrCountry": "M2",
+      "zipCode": "11194",
+      "stateOrCountryDescription": "Jordan",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-03"
+  },
+  "filings_count": 234
+}

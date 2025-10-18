@@ -1,0 +1,52 @@
+{
+  "cik": "0001743102",
+  "ticker": "JFIN",
+  "name": "Jiayin Group Inc.",
+  "detection_reasons": [
+    "location:china",
+    "location:shanghai",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "6199",
+  "sicDescription": "Finance Services",
+  "category": "Accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86 2160828732",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "26TH FLOOR,BUILDING NO.1,YOUYOU CENTURY",
+      "street2": "PLAZA,428 SOUTH YANGGAO ROAD,PUDONG",
+      "city": "SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "200122",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "26TH FLOOR,BUILDING NO.1,YOUYOU CENTURY",
+      "street2": "PLAZA,428 SOUTH YANGGAO ROAD,PUDONG",
+      "city": "SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "200122",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-20"
+  },
+  "filings_count": 164
+}

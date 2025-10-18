@@ -1,0 +1,48 @@
+{
+  "cik": "0002054507",
+  "ticker": "HBNB",
+  "name": "Hotel101 Global Holdings Corp.",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "7011",
+  "sicDescription": "Hotels & Motels",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "65 6513 8565",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "20 CECIL STREET #04-03",
+      "street2": "PLUS BUILDING",
+      "city": "SINGAPORE",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Singapore",
+      "countryCode": "U0"
+    },
+    "business": {
+      "street1": "20 CECIL STREET #04-03",
+      "street2": "PLUS BUILDING",
+      "city": "SINGAPORE",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Singapore",
+      "countryCode": "U0"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-20"
+  },
+  "filings_count": 26
+}

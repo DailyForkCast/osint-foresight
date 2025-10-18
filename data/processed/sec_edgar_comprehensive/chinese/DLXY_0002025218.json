@@ -1,0 +1,48 @@
+{
+  "cik": "0002025218",
+  "ticker": "DLXY",
+  "name": "Delixy Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "5172",
+  "sicDescription": "Wholesale-Petroleum & Petroleum Products (No Bulk Stations)",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "(65)63370260",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "883 NORTH BRIGE ROAD",
+      "street2": "#04-01",
+      "city": "SINGAPORE",
+      "stateOrCountry": "U0",
+      "zipCode": "198785",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "883 NORTH BRIGE ROAD",
+      "street2": "#04-01",
+      "city": "SINGAPORE",
+      "stateOrCountry": "U0",
+      "zipCode": "198785",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-07-10"
+  },
+  "filings_count": 43
+}

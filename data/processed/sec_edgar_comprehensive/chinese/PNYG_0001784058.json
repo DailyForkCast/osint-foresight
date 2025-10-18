@@ -1,0 +1,51 @@
+{
+  "cik": "0001784058",
+  "ticker": "PNYG",
+  "name": "Pony Group Inc.",
+  "detection_reasons": [
+    "location:china",
+    "location:shenzhen",
+    "location:guangdong",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "7500",
+  "sicDescription": "Services-Automotive Repair, Services & Parking",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "833532241",
+  "phone": "86-0755-86665622",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ENGINEER EXPERIMENT BUILDING, A202",
+      "street2": "7 GAOXIN SOUTH AVENUE, NANSHAN DISTRICT",
+      "city": "SHENZHEN, GUANGDONG PROVINCE",
+      "stateOrCountry": "F4",
+      "zipCode": "518000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "ENGINEER EXPERIMENT BUILDING, A202",
+      "street2": "7 GAOXIN SOUTH AVENUE, NANSHAN DISTRICT",
+      "city": "SHENZHEN, GUANGDONG PROVINCE",
+      "stateOrCountry": "F4",
+      "zipCode": "518000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-13"
+  },
+  "filings_count": 60
+}

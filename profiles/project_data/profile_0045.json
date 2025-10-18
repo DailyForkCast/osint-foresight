@@ -1,0 +1,30 @@
+{
+  "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_germany_china\\checkpoint.json",
+  "size": 258,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 1,
+  "field_count": 4,
+  "parse_status": "success",
+  "schema": {
+    "timestamp": "string",
+    "files_processed": "number",
+    "stats": "object",
+    "collaborations_found": "number"
+  },
+  "sample_records": [
+    {
+      "timestamp": "2025-09-20T17:55:32.852784",
+      "files_processed": 50,
+      "stats": {
+        "total_papers": 318,
+        "germany_papers": 8,
+        "china_papers": 2,
+        "germany_china_collaborations": 0,
+        "errors": 0
+      },
+      "collaborations_found": 0
+    }
+  ],
+  "modified": "2025-09-20T17:55:32.854932"
+}

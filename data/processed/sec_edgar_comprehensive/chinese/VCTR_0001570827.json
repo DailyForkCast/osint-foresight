@@ -1,0 +1,48 @@
+{
+  "cik": "0001570827",
+  "ticker": "VCTR",
+  "name": "Victory Capital Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm",
+    "vie_structure"
+  ],
+  "sic": "6282",
+  "sicDescription": "Investment Advice",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "216-898-2400",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "4900 TIEDEMANN ROAD",
+      "street2": "4TH FLOOR",
+      "city": "BROOKLYN",
+      "stateOrCountry": "OH",
+      "zipCode": "44144",
+      "stateOrCountryDescription": "OH",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "4900 TIEDEMANN ROAD",
+      "street2": "4TH FLOOR",
+      "city": "BROOKLYN",
+      "stateOrCountry": "OH",
+      "zipCode": "44144",
+      "stateOrCountryDescription": "OH",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-10"
+  },
+  "filings_count": 678
+}

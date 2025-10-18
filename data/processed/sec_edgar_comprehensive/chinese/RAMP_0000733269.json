@@ -1,0 +1,47 @@
+{
+  "cik": "0000733269",
+  "ticker": "RAMP",
+  "name": "LiveRamp Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7374",
+  "sicDescription": "Services-Computer Processing & Data Preparation",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "710581897",
+  "phone": "866-352-3267",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "225 BUSH STREET",
+      "street2": "17TH FLOOR",
+      "city": "SAN FRANCISCO",
+      "stateOrCountry": "CA",
+      "zipCode": "94104",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "225 BUSH STREET",
+      "street2": "17TH FLOOR",
+      "city": "SAN FRANCISCO",
+      "stateOrCountry": "CA",
+      "zipCode": "94104",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-15"
+  },
+  "filings_count": 1003
+}

@@ -1,0 +1,527 @@
+{
+  "harvest_info": {
+    "timestamp": "2025-09-28T09:24:19.065793",
+    "start_time": "2025-09-28T09:24:18.214983",
+    "end_time": "2025-09-28T09:24:19.065793",
+    "duration_seconds": 0.85081,
+    "harvester_version": "Common Crawl Zero Fabrication v1.0"
+  },
+  "data_source": {
+    "provider": "Common Crawl Foundation",
+    "website": "https://commoncrawl.org/",
+    "terms_of_use": "https://commoncrawl.org/terms-of-use/",
+    "citation_required": true,
+    "attribution": "Data provided by Common Crawl Foundation"
+  },
+  "statistics": {
+    "total_results": 0,
+    "sister_cities": 0,
+    "university_partnerships": 0,
+    "government_agreements": 0
+  },
+  "quality_assurance": {
+    "fabrication_risk": "ZERO",
+    "all_data_sourced": true,
+    "provenance_complete": true,
+    "manual_verification_required": true,
+    "raw_data_preserved": true
+  },
+  "reports": {
+    "sister_cities": {
+      "search_type": "sister_cities",
+      "timestamp": "2025-09-28T09:24:18.528369",
+      "total_results": 0,
+      "search_patterns": [
+        "*.gov.*/sister-city*",
+        "*.city.*/partnership*china*",
+        "*.municipality.*/twin-city*",
+        "*.comune.*/gemellaggio*cina*",
+        "*.ville.*/jumelage*chine*",
+        "*.stadt.*/partnerschaft*china*"
+      ],
+      "results": [],
+      "provenance": {
+        "data_source": "Common Crawl Foundation",
+        "terms_of_use": "https://commoncrawl.org/terms-of-use/",
+        "citation_required": true,
+        "fabrication_risk": "ZERO",
+        "all_data_verified": false,
+        "manual_verification_required": true
+      },
+      "operations_log": [
+        {
+          "timestamp": "2025-09-28T09:24:18.214983",
+          "operation": "CDX_SEARCH_INITIATED",
+          "details": {
+            "url_pattern": "*.gov.*/sister-city*",
+            "crawl_id": "CC-MAIN-2024-10",
+            "limit": 50
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:18.264960",
+          "operation": "CDX_SEARCH_FAILED",
+          "details": {
+            "error": "CDX query failed: 404 Client Error: Not Found for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.gov.%2A%2Fsister-city%2A&output=json&limit=50"
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:18.265937",
+          "operation": "CDX_SEARCH_INITIATED",
+          "details": {
+            "url_pattern": "*.city.*/partnership*china*",
+            "crawl_id": "CC-MAIN-2024-10",
+            "limit": 50
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:18.312939",
+          "operation": "CDX_SEARCH_FAILED",
+          "details": {
+            "error": "CDX query failed: 404 Client Error: Not Found for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.city.%2A%2Fpartnership%2Achina%2A&output=json&limit=50"
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:18.313940",
+          "operation": "CDX_SEARCH_INITIATED",
+          "details": {
+            "url_pattern": "*.municipality.*/twin-city*",
+            "crawl_id": "CC-MAIN-2024-10",
+            "limit": 50
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:18.377010",
+          "operation": "CDX_SEARCH_FAILED",
+          "details": {
+            "error": "CDX query failed: 404 Client Error: Not Found for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.municipality.%2A%2Ftwin-city%2A&output=json&limit=50"
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:18.377977",
+          "operation": "CDX_SEARCH_INITIATED",
+          "details": {
+            "url_pattern": "*.comune.*/gemellaggio*cina*",
+            "crawl_id": "CC-MAIN-2024-10",
+            "limit": 50
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:18.445367",
+          "operation": "CDX_SEARCH_FAILED",
+          "details": {
+            "error": "CDX query failed: 503 Server Error: Service Temporarily Unavailable for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.comune.%2A%2Fgemellaggio%2Acina%2A&output=json&limit=50"
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:18.447421",
+          "operation": "CDX_SEARCH_INITIATED",
+          "details": {
+            "url_pattern": "*.ville.*/jumelage*chine*",
+            "crawl_id": "CC-MAIN-2024-10",
+            "limit": 50
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:18.488369",
+          "operation": "CDX_SEARCH_FAILED",
+          "details": {
+            "error": "CDX query failed: 503 Server Error: Service Temporarily Unavailable for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.ville.%2A%2Fjumelage%2Achine%2A&output=json&limit=50"
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:18.489369",
+          "operation": "CDX_SEARCH_INITIATED",
+          "details": {
+            "url_pattern": "*.stadt.*/partnerschaft*china*",
+            "crawl_id": "CC-MAIN-2024-10",
+            "limit": 50
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:18.527368",
+          "operation": "CDX_SEARCH_FAILED",
+          "details": {
+            "error": "CDX query failed: 503 Server Error: Service Temporarily Unavailable for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.stadt.%2A%2Fpartnerschaft%2Achina%2A&output=json&limit=50"
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:18.545724",
+          "operation": "CDX_SEARCH_INITIATED",
+          "details": {
+            "url_pattern": "*.edu*/international*china*",
+            "crawl_id": "CC-MAIN-2024-10",
+            "limit": 30
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:18.586225",
+          "operation": "CDX_SEARCH_FAILED",
+          "details": {
+            "error": "CDX query failed: 503 Server Error: Service Temporarily Unavailable for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.edu%2A%2Finternational%2Achina%2A&output=json&limit=30"
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:18.588224",
+          "operation": "CDX_SEARCH_INITIATED",
+          "details": {
+            "url_pattern": "*.ac.*/partnership*china*",
+            "crawl_id": "CC-MAIN-2024-10",
+            "limit": 30
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:18.638121",
+          "operation": "CDX_SEARCH_FAILED",
+          "details": {
+            "error": "CDX query failed: 503 Server Error: Service Temporarily Unavailable for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.ac.%2A%2Fpartnership%2Achina%2A&output=json&limit=30"
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:18.640093",
+          "operation": "CDX_SEARCH_INITIATED",
+          "details": {
+            "url_pattern": "*.uni-*/cooperation*china*",
+            "crawl_id": "CC-MAIN-2024-10",
+            "limit": 30
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:18.698327",
+          "operation": "CDX_SEARCH_FAILED",
+          "details": {
+            "error": "CDX query failed: 503 Server Error: Service Temporarily Unavailable for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.uni-%2A%2Fcooperation%2Achina%2A&output=json&limit=30"
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:18.699327",
+          "operation": "CDX_SEARCH_INITIATED",
+          "details": {
+            "url_pattern": "*.university.*/exchange*china*",
+            "crawl_id": "CC-MAIN-2024-10",
+            "limit": 30
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:18.763217",
+          "operation": "CDX_SEARCH_FAILED",
+          "details": {
+            "error": "CDX query failed: 404 Client Error: Not Found for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.university.%2A%2Fexchange%2Achina%2A&output=json&limit=30"
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:18.773217",
+          "operation": "CDX_SEARCH_INITIATED",
+          "details": {
+            "url_pattern": "*.gov.*/treaty*china*",
+            "crawl_id": "CC-MAIN-2024-10",
+            "limit": 20
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:18.849555",
+          "operation": "CDX_SEARCH_FAILED",
+          "details": {
+            "error": "CDX query failed: 503 Server Error: Service Temporarily Unavailable for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.gov.%2A%2Ftreaty%2Achina%2A&output=json&limit=20"
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:18.850557",
+          "operation": "CDX_SEARCH_INITIATED",
+          "details": {
+            "url_pattern": "*.gov.*/agreement*china*",
+            "crawl_id": "CC-MAIN-2024-10",
+            "limit": 20
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:18.918305",
+          "operation": "CDX_SEARCH_FAILED",
+          "details": {
+            "error": "CDX query failed: 503 Server Error: Service Temporarily Unavailable for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.gov.%2A%2Fagreement%2Achina%2A&output=json&limit=20"
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:18.919312",
+          "operation": "CDX_SEARCH_INITIATED",
+          "details": {
+            "url_pattern": "*.mfa.*/bilateral*china*",
+            "crawl_id": "CC-MAIN-2024-10",
+            "limit": 20
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:18.992355",
+          "operation": "CDX_SEARCH_FAILED",
+          "details": {
+            "error": "CDX query failed: 503 Server Error: Service Temporarily Unavailable for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.mfa.%2A%2Fbilateral%2Achina%2A&output=json&limit=20"
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:18.994354",
+          "operation": "CDX_SEARCH_INITIATED",
+          "details": {
+            "url_pattern": "*.foreign.*/memorandum*china*",
+            "crawl_id": "CC-MAIN-2024-10",
+            "limit": 20
+          }
+        },
+        {
+          "timestamp": "2025-09-28T09:24:19.060793",
+          "operation": "CDX_SEARCH_FAILED",
+          "details": {
+            "error": "CDX query failed: 503 Server Error: Service Temporarily Unavailable for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.foreign.%2A%2Fmemorandum%2Achina%2A&output=json&limit=20"
+          }
+        }
+      ]
+    },
+    "university_partnerships": {
+      "search_type": "university_partnerships",
+      "timestamp": "2025-09-28T09:24:18.768214",
+      "total_results": 0,
+      "results": [],
+      "data_attribution": "Common Crawl Foundation",
+      "zero_fabrication": true
+    },
+    "government_agreements": {
+      "search_type": "government_agreements",
+      "timestamp": "2025-09-28T09:24:19.061790",
+      "total_results": 0,
+      "results": [],
+      "provenance_complete": true,
+      "zero_fabrication": true
+    }
+  },
+  "usage_restrictions": [
+    "ALL DATA REQUIRES MANUAL VERIFICATION",
+    "CITATION TO COMMON CRAWL REQUIRED",
+    "NO WARRANTIES ON DATA ACCURACY",
+    "ORIGINAL SOURCES SHOULD BE CONSULTED"
+  ],
+  "operations_audit": [
+    {
+      "timestamp": "2025-09-28T09:24:18.214983",
+      "operation": "CDX_SEARCH_INITIATED",
+      "details": {
+        "url_pattern": "*.gov.*/sister-city*",
+        "crawl_id": "CC-MAIN-2024-10",
+        "limit": 50
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.264960",
+      "operation": "CDX_SEARCH_FAILED",
+      "details": {
+        "error": "CDX query failed: 404 Client Error: Not Found for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.gov.%2A%2Fsister-city%2A&output=json&limit=50"
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.265937",
+      "operation": "CDX_SEARCH_INITIATED",
+      "details": {
+        "url_pattern": "*.city.*/partnership*china*",
+        "crawl_id": "CC-MAIN-2024-10",
+        "limit": 50
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.312939",
+      "operation": "CDX_SEARCH_FAILED",
+      "details": {
+        "error": "CDX query failed: 404 Client Error: Not Found for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.city.%2A%2Fpartnership%2Achina%2A&output=json&limit=50"
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.313940",
+      "operation": "CDX_SEARCH_INITIATED",
+      "details": {
+        "url_pattern": "*.municipality.*/twin-city*",
+        "crawl_id": "CC-MAIN-2024-10",
+        "limit": 50
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.377010",
+      "operation": "CDX_SEARCH_FAILED",
+      "details": {
+        "error": "CDX query failed: 404 Client Error: Not Found for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.municipality.%2A%2Ftwin-city%2A&output=json&limit=50"
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.377977",
+      "operation": "CDX_SEARCH_INITIATED",
+      "details": {
+        "url_pattern": "*.comune.*/gemellaggio*cina*",
+        "crawl_id": "CC-MAIN-2024-10",
+        "limit": 50
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.445367",
+      "operation": "CDX_SEARCH_FAILED",
+      "details": {
+        "error": "CDX query failed: 503 Server Error: Service Temporarily Unavailable for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.comune.%2A%2Fgemellaggio%2Acina%2A&output=json&limit=50"
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.447421",
+      "operation": "CDX_SEARCH_INITIATED",
+      "details": {
+        "url_pattern": "*.ville.*/jumelage*chine*",
+        "crawl_id": "CC-MAIN-2024-10",
+        "limit": 50
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.488369",
+      "operation": "CDX_SEARCH_FAILED",
+      "details": {
+        "error": "CDX query failed: 503 Server Error: Service Temporarily Unavailable for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.ville.%2A%2Fjumelage%2Achine%2A&output=json&limit=50"
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.489369",
+      "operation": "CDX_SEARCH_INITIATED",
+      "details": {
+        "url_pattern": "*.stadt.*/partnerschaft*china*",
+        "crawl_id": "CC-MAIN-2024-10",
+        "limit": 50
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.527368",
+      "operation": "CDX_SEARCH_FAILED",
+      "details": {
+        "error": "CDX query failed: 503 Server Error: Service Temporarily Unavailable for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.stadt.%2A%2Fpartnerschaft%2Achina%2A&output=json&limit=50"
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.545724",
+      "operation": "CDX_SEARCH_INITIATED",
+      "details": {
+        "url_pattern": "*.edu*/international*china*",
+        "crawl_id": "CC-MAIN-2024-10",
+        "limit": 30
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.586225",
+      "operation": "CDX_SEARCH_FAILED",
+      "details": {
+        "error": "CDX query failed: 503 Server Error: Service Temporarily Unavailable for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.edu%2A%2Finternational%2Achina%2A&output=json&limit=30"
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.588224",
+      "operation": "CDX_SEARCH_INITIATED",
+      "details": {
+        "url_pattern": "*.ac.*/partnership*china*",
+        "crawl_id": "CC-MAIN-2024-10",
+        "limit": 30
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.638121",
+      "operation": "CDX_SEARCH_FAILED",
+      "details": {
+        "error": "CDX query failed: 503 Server Error: Service Temporarily Unavailable for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.ac.%2A%2Fpartnership%2Achina%2A&output=json&limit=30"
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.640093",
+      "operation": "CDX_SEARCH_INITIATED",
+      "details": {
+        "url_pattern": "*.uni-*/cooperation*china*",
+        "crawl_id": "CC-MAIN-2024-10",
+        "limit": 30
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.698327",
+      "operation": "CDX_SEARCH_FAILED",
+      "details": {
+        "error": "CDX query failed: 503 Server Error: Service Temporarily Unavailable for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.uni-%2A%2Fcooperation%2Achina%2A&output=json&limit=30"
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.699327",
+      "operation": "CDX_SEARCH_INITIATED",
+      "details": {
+        "url_pattern": "*.university.*/exchange*china*",
+        "crawl_id": "CC-MAIN-2024-10",
+        "limit": 30
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.763217",
+      "operation": "CDX_SEARCH_FAILED",
+      "details": {
+        "error": "CDX query failed: 404 Client Error: Not Found for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.university.%2A%2Fexchange%2Achina%2A&output=json&limit=30"
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.773217",
+      "operation": "CDX_SEARCH_INITIATED",
+      "details": {
+        "url_pattern": "*.gov.*/treaty*china*",
+        "crawl_id": "CC-MAIN-2024-10",
+        "limit": 20
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.849555",
+      "operation": "CDX_SEARCH_FAILED",
+      "details": {
+        "error": "CDX query failed: 503 Server Error: Service Temporarily Unavailable for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.gov.%2A%2Ftreaty%2Achina%2A&output=json&limit=20"
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.850557",
+      "operation": "CDX_SEARCH_INITIATED",
+      "details": {
+        "url_pattern": "*.gov.*/agreement*china*",
+        "crawl_id": "CC-MAIN-2024-10",
+        "limit": 20
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.918305",
+      "operation": "CDX_SEARCH_FAILED",
+      "details": {
+        "error": "CDX query failed: 503 Server Error: Service Temporarily Unavailable for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.gov.%2A%2Fagreement%2Achina%2A&output=json&limit=20"
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.919312",
+      "operation": "CDX_SEARCH_INITIATED",
+      "details": {
+        "url_pattern": "*.mfa.*/bilateral*china*",
+        "crawl_id": "CC-MAIN-2024-10",
+        "limit": 20
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.992355",
+      "operation": "CDX_SEARCH_FAILED",
+      "details": {
+        "error": "CDX query failed: 503 Server Error: Service Temporarily Unavailable for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.mfa.%2A%2Fbilateral%2Achina%2A&output=json&limit=20"
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:18.994354",
+      "operation": "CDX_SEARCH_INITIATED",
+      "details": {
+        "url_pattern": "*.foreign.*/memorandum*china*",
+        "crawl_id": "CC-MAIN-2024-10",
+        "limit": 20
+      }
+    },
+    {
+      "timestamp": "2025-09-28T09:24:19.060793",
+      "operation": "CDX_SEARCH_FAILED",
+      "details": {
+        "error": "CDX query failed: 503 Server Error: Service Temporarily Unavailable for url: https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=%2A.foreign.%2A%2Fmemorandum%2Achina%2A&output=json&limit=20"
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0000064463",
+  "ticker": "SLNHP",
+  "name": "Soluna Holdings, Inc",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6199",
+  "sicDescription": "Finance Services",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "NV",
+  "ein": "141462255",
+  "phone": "518-218-2500",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "325 WASHINGTON AVENUE EXTENSION",
+      "street2": null,
+      "city": "ALBANY",
+      "stateOrCountry": "NY",
+      "zipCode": "12205",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "325 WASHINGTON AVENUE EXTENSION",
+      "street2": null,
+      "city": "ALBANY",
+      "stateOrCountry": "NY",
+      "zipCode": "12205",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-23"
+  },
+  "filings_count": 1003
+}

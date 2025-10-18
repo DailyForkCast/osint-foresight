@@ -1,0 +1,47 @@
+{
+  "cik": "0002025416",
+  "ticker": "OWLS",
+  "name": "OBOOK HOLDINGS INC.",
+  "detection_reasons": [
+    "location:china",
+    "address:mailing",
+    "address:business",
+    "sic:7372"
+  ],
+  "sic": "7372",
+  "sicDescription": "Services-Prepackaged Software",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "886-2-6610-0180",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "9F., NO. 28, WENCHENG RD., BEITOU DIST.,",
+      "street2": null,
+      "city": "TAIPEI CITY",
+      "stateOrCountry": null,
+      "zipCode": "112",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Taiwan, Province of China",
+      "countryCode": "F5"
+    },
+    "business": {
+      "street1": "9F., NO. 28, WENCHENG RD., BEITOU DIST.,",
+      "street2": null,
+      "city": "TAIPEI CITY",
+      "stateOrCountry": null,
+      "zipCode": "112",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Taiwan, Province of China",
+      "countryCode": "F5"
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 10
+}

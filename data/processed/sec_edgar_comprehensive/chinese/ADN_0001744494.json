@@ -1,0 +1,48 @@
+{
+  "cik": "0001744494",
+  "ticker": "ADN",
+  "name": "ADVENT TECHNOLOGIES HOLDINGS, INC.",
+  "detection_reasons": [
+    "offshore:vg",
+    "offshore:bm"
+  ],
+  "sic": "3690",
+  "sicDescription": "Miscellaneous Electrical Machinery, Equipment & Supplies",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "830982969",
+  "phone": "857-264-7035",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "500 RUTHERFORD AVENUE",
+      "street2": "SUITE 102",
+      "city": "BOSTON",
+      "stateOrCountry": "MA",
+      "zipCode": "02129",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "500 RUTHERFORD AVENUE",
+      "street2": "SUITE 102",
+      "city": "BOSTON",
+      "stateOrCountry": "MA",
+      "zipCode": "02129",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-12"
+  },
+  "filings_count": 373
+}

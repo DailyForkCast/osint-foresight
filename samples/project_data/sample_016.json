@@ -1,0 +1,35 @@
+{
+  "original_path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\by_country\\CY_china\\metadata.json",
+  "profile": {
+    "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\by_country\\CY_china\\metadata.json",
+    "size": 163,
+    "extension": ".json",
+    "encoding": "utf-8",
+    "line_count": 1,
+    "field_count": 4,
+    "parse_status": "success",
+    "schema": {
+      "country_code": "string",
+      "country_name": "string",
+      "analysis_target": "string",
+      "created": "string"
+    },
+    "sample_records": [
+      {
+        "country_code": "CY",
+        "country_name": "Cyprus",
+        "analysis_target": "Cyprus-China research collaborations",
+        "created": "2025-09-20T22:05:26.894495"
+      }
+    ],
+    "modified": "2025-09-20T22:05:26.895511"
+  },
+  "sample_data": [
+    {
+      "country_code": "CY",
+      "country_name": "Cyprus",
+      "analysis_target": "Cyprus-China research collaborations",
+      "created": "2025-09-20T22:05:26.894495"
+    }
+  ]
+}

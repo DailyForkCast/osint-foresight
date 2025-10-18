@@ -1,0 +1,38 @@
+{
+  "verification_template": {
+    "url": "URL to verify",
+    "verified": false,
+    "verification_date": null,
+    "verified_by": null,
+    "is_actual_agreement": false,
+    "agreement_details": {
+      "type": null,
+      "parties": {
+        "european": [],
+        "chinese": []
+      },
+      "date_signed": null,
+      "date_effective": null,
+      "status": null,
+      "scope": [],
+      "key_provisions": [],
+      "value": null,
+      "duration": null,
+      "source_type": null,
+      "source_credibility": null
+    },
+    "evidence": {
+      "page_title": null,
+      "relevant_text": null,
+      "official_source": false,
+      "requires_translation": false
+    },
+    "red_flags": {
+      "is_spam": false,
+      "is_unrelated": false,
+      "is_duplicate": false,
+      "is_news_about_agreement": false,
+      "geographic_mismatch": false
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0001288855",
+  "ticker": "OPHC",
+  "name": "OptimumBank Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:ky"
+  ],
+  "sic": "6021",
+  "sicDescription": "National Commercial Banks",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "FL",
+  "ein": "000000000",
+  "phone": "954 776-2332",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2477 EAST COMMERCIAL BOULEVARD",
+      "street2": null,
+      "city": "FORT LAUDERDALE",
+      "stateOrCountry": "FL",
+      "zipCode": "33308",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2477 EAST COMMERCIAL BOULEVARD",
+      "street2": null,
+      "city": "FORT LAUDERDALE",
+      "stateOrCountry": "FL",
+      "zipCode": "33308",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-12"
+  },
+  "filings_count": 516
+}

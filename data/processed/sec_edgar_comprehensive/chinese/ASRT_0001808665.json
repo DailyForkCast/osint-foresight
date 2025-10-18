@@ -1,0 +1,47 @@
+{
+  "cik": "0001808665",
+  "ticker": "ASRT",
+  "name": "Assertio Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2834",
+  "sicDescription": "Pharmaceutical Preparations",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "850598378",
+  "phone": "(224) 419-7106",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "100 S. SAUNDERS ROAD",
+      "street2": "SUITE 300",
+      "city": "LAKE FOREST",
+      "stateOrCountry": "IL",
+      "zipCode": "60045",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "100 S. SAUNDERS ROAD",
+      "street2": "SUITE 300",
+      "city": "LAKE FOREST",
+      "stateOrCountry": "IL",
+      "zipCode": "60045",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-11"
+  },
+  "filings_count": 358
+}

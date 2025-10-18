@@ -1,0 +1,47 @@
+{
+  "cik": "0001003935",
+  "ticker": "NCSYF",
+  "name": "NICE Ltd.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7372",
+  "sicDescription": "Services-Prepackaged Software",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "972-9-775-3777",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "13 ZARCHIN STREET",
+      "street2": "P.O.B. 690",
+      "city": "RA'ANANA",
+      "stateOrCountry": "L3",
+      "zipCode": "43107",
+      "stateOrCountryDescription": "Israel",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "13 ZARCHIN STREET",
+      "street2": "P.O.B. 690",
+      "city": "RA'ANANA",
+      "stateOrCountry": "L3",
+      "zipCode": "43107",
+      "stateOrCountryDescription": "Israel",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-10"
+  },
+  "filings_count": 765
+}

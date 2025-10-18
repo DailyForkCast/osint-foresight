@@ -1,0 +1,47 @@
+{
+  "cik": "0001606163",
+  "ticker": "LMB",
+  "name": "Limbach Holdings, Inc.",
+  "detection_reasons": [
+    "vie_structure"
+  ],
+  "sic": "1700",
+  "sicDescription": "Construction - Special Trade Contractors",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "(412) 359-2100",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "797 COMMONWEALTH DRIVE",
+      "street2": null,
+      "city": "WARRENDALE",
+      "stateOrCountry": "PA",
+      "zipCode": "15086",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "797 COMMONWEALTH DRIVE",
+      "street2": null,
+      "city": "WARRENDALE",
+      "stateOrCountry": "PA",
+      "zipCode": "15086",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-07"
+  },
+  "filings_count": 644
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0001219601",
+  "ticker": "CCK",
+  "name": "CROWN HOLDINGS, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3411",
+  "sicDescription": "Metal Cans",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "PA",
+  "ein": "753099507",
+  "phone": "2156985100",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "14025 RIVEREDGE DRIVE, SUITE 300",
+      "street2": null,
+      "city": "TAMPA",
+      "stateOrCountry": "FL",
+      "zipCode": "33637",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "14025 RIVEREDGE DRIVE, SUITE 300",
+      "street2": null,
+      "city": "TAMPA",
+      "stateOrCountry": "FL",
+      "zipCode": "33637",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-23"
+  },
+  "filings_count": 1002
+}

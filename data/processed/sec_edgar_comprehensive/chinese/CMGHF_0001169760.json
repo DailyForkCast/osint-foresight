@@ -1,0 +1,46 @@
+{
+  "cik": "0001169760",
+  "ticker": "CMGHF",
+  "name": "CHAODA MODERN AGRICULTURE HOLDINGS LTD /FI",
+  "detection_reasons": [
+    "location:china",
+    "offshore:hong kong",
+    "address:business"
+  ],
+  "sic": "",
+  "sicDescription": "",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": null,
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": null,
+      "street2": null,
+      "city": null,
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "ROOM 2705 27TH FLOOR",
+      "street2": "CHINA RESOURCES BUILDING 26 HARBOUR RD",
+      "city": "WANCHAI",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 8
+}

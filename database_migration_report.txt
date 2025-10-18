@@ -1,0 +1,47 @@
+
+DATABASE MIGRATION REPORT
+=========================
+Time: 2025-09-26T05:13:21.365215
+
+Migration Summary:
+- Source: database\osint_master.db
+- Destination: F:\OSINT_WAREHOUSE\osint_master.db
+- Status: COMPLETE
+
+New Database Location: F:\OSINT_WAREHOUSE\osint_master.db
+Backup Location: F:\OSINT_WAREHOUSE\backups
+
+Database Statistics:
+  sec_edgar_companies: 805 records
+  sec_edgar_addresses: 1,610 records
+  sec_edgar_filings: 1,953 records
+  sec_edgar_chinese_indicators: 1,627 records
+  cordis_projects: 383 records
+  cordis_project_countries: 3,781 records
+  mcf_documents: 26 records
+  mcf_entities: 65 records
+  mcf_document_entities: 190 records
+  mcf_technologies: 16 records
+  intelligence_procurement: 1,355 records
+  intelligence_patents: 200 records
+  intelligence_publications: 450 records
+  intelligence_collaborations: 424 records
+
+Total Records: 12,885
+Database Size: 3.04 MB
+Free Space on F: drive: 5764 GB
+
+IMPORTANT: Database has been moved to F: drive
+==============================================
+All future operations should use: F:/OSINT_WAREHOUSE/osint_master.db
+
+Updated Scripts:
+- All import scripts now point to F: drive
+- Collection scripts updated
+- Comparison and merge scripts updated
+
+Benefits of F: Drive Location:
+- More storage space for growth
+- Better performance for large queries
+- Centralized with other OSINT data
+- Room for indexes and optimization

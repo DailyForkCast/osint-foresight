@@ -1,0 +1,44 @@
+{
+  "cik": "0001397911",
+  "ticker": "LPLA",
+  "name": "LPL Financial Holdings Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6200",
+  "sicDescription": "Security & Commodity Brokers, Dealers, Exchanges & Services",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "203717839",
+  "phone": "800-877-7210",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "4707 EXECUTIVE DRIVE",
+      "street2": null,
+      "city": "SAN DIEGO",
+      "stateOrCountry": "CA",
+      "zipCode": "92121",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "4707 EXECUTIVE DRIVE",
+      "street2": null,
+      "city": "SAN DIEGO",
+      "stateOrCountry": "CA",
+      "zipCode": "92121",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1002
+}

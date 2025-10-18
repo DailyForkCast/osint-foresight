@@ -1,0 +1,47 @@
+{
+  "cik": "0001530721",
+  "ticker": "CPRI",
+  "name": "Capri Holdings Ltd",
+  "detection_reasons": [
+    "offshore:vg"
+  ],
+  "sic": "3100",
+  "sicDescription": "Leather & Leather Products",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "D8",
+  "ein": "000000000",
+  "phone": "44 207 632 8600",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "90 WHITFIELD STREET",
+      "street2": "2ND FLOOR",
+      "city": "LONDON",
+      "stateOrCountry": "X0",
+      "zipCode": "W1T 4EZ",
+      "stateOrCountryDescription": "United Kingdom",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "90 WHITFIELD STREET",
+      "street2": "2ND FLOOR",
+      "city": "LONDON",
+      "stateOrCountry": "X0",
+      "zipCode": "W1T 4EZ",
+      "stateOrCountryDescription": "United Kingdom",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-07"
+  },
+  "filings_count": 767
+}

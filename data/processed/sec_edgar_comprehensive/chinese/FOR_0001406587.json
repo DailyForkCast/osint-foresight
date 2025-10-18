@@ -1,0 +1,48 @@
+{
+  "cik": "0001406587",
+  "ticker": "FOR",
+  "name": "Forestar Group Inc.",
+  "detection_reasons": [
+    "offshore:bm",
+    "vie_structure"
+  ],
+  "sic": "6500",
+  "sicDescription": "Real Estate",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "261336998",
+  "phone": "817-769-1860",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2221 E. LAMAR BLVD.",
+      "street2": "SUITE 790",
+      "city": "ARLINGTON",
+      "stateOrCountry": "TX",
+      "zipCode": "76006",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2221 E. LAMAR BLVD.",
+      "street2": "SUITE 790",
+      "city": "ARLINGTON",
+      "stateOrCountry": "TX",
+      "zipCode": "76006",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-07-23"
+  },
+  "filings_count": 1003
+}

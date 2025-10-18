@@ -1,0 +1,50 @@
+{
+  "cik": "0001716770",
+  "ticker": "WAFU",
+  "name": "Wah Fu Education Group Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:beijing",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "8200",
+  "sicDescription": "Services-Educational Services",
+  "category": "Non-accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "D8",
+  "ein": "000000000",
+  "phone": "86 10 57925024",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "RM 505 BLDG NO. 40, NO. 1 DISHENG N ST",
+      "street2": "ECONOMIC & TECHNOLOGICAL DEVELOP. ZONE",
+      "city": "BEIJING",
+      "stateOrCountry": "F4",
+      "zipCode": "100176",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "RM 505 BLDG NO. 40, NO. 1 DISHENG N ST",
+      "street2": "ECONOMIC & TECHNOLOGICAL DEVELOP. ZONE",
+      "city": "BEIJING",
+      "stateOrCountry": "F4",
+      "zipCode": "100176",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "20-F",
+    "date": "2025-07-31"
+  },
+  "filings_count": 73
+}

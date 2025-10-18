@@ -1,0 +1,52 @@
+{
+  "cik": "0001794350",
+  "ticker": "YALA",
+  "name": "Yalla Group Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:hangzhou",
+    "location:zhejiang",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing"
+  ],
+  "sic": "7370",
+  "sicDescription": "Services-Computer Programming, Data Processing, Etc.",
+  "category": "Accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "971-45877388",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "18TH FLOOR, HUAYE DEVELOPMENT CENTER",
+      "street2": "NO. 599, JIANYE ROAD, BINJIANG DISTRIC",
+      "city": "HANGZHOU",
+      "stateOrCountry": null,
+      "zipCode": "310000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "ZHEJIANG PROVINCE",
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "#226, BUILDING 16",
+      "street2": "DUBAI INTERNET CITY",
+      "city": "DUBAI",
+      "stateOrCountry": null,
+      "zipCode": "501913",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "DUBAI",
+      "country": "United Arab Emirates",
+      "countryCode": "C0"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-12"
+  },
+  "filings_count": 83
+}

@@ -1,0 +1,48 @@
+{
+  "cik": "0001964314",
+  "ticker": "JBDI",
+  "name": "JBDI Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "3412",
+  "sicDescription": "Metal Shipping Barrels, Drums, Kegs & Pails",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "65 6861 4150",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "34 GUL CRESCENT",
+      "street2": null,
+      "city": "SINGAPORE",
+      "stateOrCountry": "U0",
+      "zipCode": "629538",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "34 GUL CRESCENT",
+      "street2": null,
+      "city": "SINGAPORE",
+      "stateOrCountry": "U0",
+      "zipCode": "629538",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-13"
+  },
+  "filings_count": 46
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0000105634",
+  "ticker": "EME",
+  "name": "EMCOR Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "1731",
+  "sicDescription": "Electrical Work",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "112125338",
+  "phone": "203-849-7800",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "301 MERRITT SEVEN CORPORATE PARK",
+      "street2": "6TH FLOOR",
+      "city": "NORWALK",
+      "stateOrCountry": "CT",
+      "zipCode": "06851",
+      "stateOrCountryDescription": "CT",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "301 MERRITT SEVEN CORPORATE PK",
+      "street2": "6TH FLOOR",
+      "city": "NORWALK",
+      "stateOrCountry": "CT",
+      "zipCode": "06851",
+      "stateOrCountryDescription": "CT",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-07-31"
+  },
+  "filings_count": 1004
+}

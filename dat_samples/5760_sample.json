@@ -1,0 +1,61 @@
+{
+  "filename": "5760.dat",
+  "row_count": 148,
+  "column_count": 7,
+  "inferred_types": [
+    "integer",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text"
+  ],
+  "sample_data": [
+    [
+      "5041",
+      "Purchase Order",
+      null,
+      "A Purchase Order is an offer by the government established to buy supplies or services, including construction and research and development, upon specified terms and conditions, using simplified acquisition procedures.",
+      null,
+      "purchase-order",
+      null
+    ],
+    [
+      "4925",
+      "Action Type",
+      "Action Type",
+      "Provides information on the type of change made to an award. For example, the change may be the result of a continuation, revision, and/or adjustment to completed project.",
+      "Description (and corresponding code) that provides information on any changes made to the Federal prime award. There are typically multiple actions for each award.\\n\\n(Note: This definition encompasses current data elements \u2018Type of Action\u2019 for financial assistance and \u2018Reason for Modification\u2019 for procurement)",
+      "action-type",
+      null
+    ],
+    [
+      "5011",
+      "Multiple Award Schedule (MAS)",
+      null,
+      "A listing of contractors that have been awarded a contract by GSA that can be used by all federal agencies. This is also known as a Federal Supply Schedule (FSS).",
+      null,
+      "multiple-award-schedule-mas",
+      "[MAS Desk Reference](https://www.gsa.gov/portal/category/100755)"
+    ],
+    [
+      "4921",
+      "Account Breakdown by Award (File C)",
+      null,
+      "Account Breakdown by Award (File C) is one of the three files that each agency publishes to USAspending.gov in its financial data submission each month (or quarter for some agencies). The file stems from the agency\u2019s audited financial system and includes data on award spending only (i.e., excludes non-award spending). Account Breakdown by Award (File C) provides details such as the timing, type, and recipient for each award. \\nWhen you see a reference to Account Breakdown by Award (File C) on the site, the reference is to the dataset comprising all agency Files C and not one specific agency file.",
+      null,
+      "account-breakdown-by-award-file-c",
+      "See also:\\n\\n- [Account Balance (File A)](?glossary=account-balance-file-a)\\n- [Account Breakdown by Program Activity & Object Class (File B)](?glossary=account-breakdown-by-program-activity-object-class-file-b)\\n- [Awards Data (File D)](?glossary=awards-data-file-d)\\n\\nFor more information on data elements within each Account File, see our [Data Dictionary](https://www.usaspending.gov/data-dictionary)"
+    ],
+    [
+      "4923",
+      "Acquisition of Assets",
+      "Acquisition of Assets",
+      "This major object class includes an agency\u2019s procurement of assets, including those that have lost value (depreciated). Some examples of assets, according to this definition, include equipment, land, physical structures, investments, and loans.",
+      "This major object class covers object classes 31.0 through 33.0. Include\\ncapitalized (depreciated) assets and non-capitalized assets. This includes:\\n31.0 Equipment\\n32.0 Land and structures\\n33.0 Investments and loans\\n\\nEach specific object class is defined in OMB Circular A-11 Section 83.6.",
+      "acquisition-of-assets",
+      "Learn More: [Circular No. A-11](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/assets/a11_current_year/a11_2017.pdf)"
+    ]
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\national_procurement_automated\\CZ_automated_results_20250923_184213.json",
+  "size": 4586,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 1,
+  "field_count": 6,
+  "parse_status": "success",
+  "schema": {
+    "country": "string",
+    "search_date": "string",
+    "total_results": "number",
+    "chinese_entities_found": "number",
+    "companies_searched": "array",
+    "results": "array"
+  },
+  "sample_records": [
+    {
+      "country": "CZ",
+      "search_date": "2025-09-23T18:42:13.177278",
+      "total_results": 20,
+      "chinese_entities_found": 0,
+      "companies_searched": [
+        "Huawei",
+        "ZTE",
+        "Lenovo",
+        "Hikvision",
+        "DJI"
+      ],
+      "results": [
+        {
+          "search_term": "Huawei",
+          "text_content": "MENU CZ EN Change of language",
+          "has_chinese_entity": false,
+          "extracted_at": "2025-09-23T18:41:39.871925",
+          "id": "b503e4c4c09b"
+        },
+        {
+          "search_term": "Huawei",
+          "text_content": "CZ EN Change of language",
+          "has_chinese_entity": false,
+          "extracted_at": "2025-09-23T18:41:39.872924",
+          "id": "6dd1e41d796f"
+        },
+        {
+          "search_term": "ZTE",
+          "text_content": "MENU CZ EN Change of language",
+          "has_chinese_entity": false,
+          "extracted_at": "2025-09-23T18:41:43.204520",
+          "id": "b503e4c4c09b"
+        },
+        {
+          "search_term": "ZTE",
+          "text_content": "CZ EN Change of language",
+          "has_chinese_entity": false,
+          "extracted_at": "2025-09-23T18:41:43.204520",
+          "id": "6dd1e41d796f"
+        },
+        {
+          "search_term": "Lenovo",
+          "text_content": "MENU CZ EN Change of language",
+          "has_chinese_entity": false,
+          "extracted_at": "2025-09-23T18:41:47.711186",
+          "id": "b503e4c4c09b"
+        },
+        {
+          "search_term": "Lenovo",
+          "text_content": "CZ EN Change of language",
+          "has_chinese_entity": false,
+          "extracted_at": "2025-09-23T18:41:47.712187",
+          "id": "6dd1e41d796f"
+        },
+        {
+          "search_term": "Hikvision",
+          "text_content": "MENU CZ EN Change of language",
+          "has_chinese_entity": false,
+          "extracted_at": "2025-09-23T18:41:50.838478",
+          "id": "b503e4c4c09b"
+        },
+        {
+          "search_term": "Hikvision",
+          "text_content": "CZ EN Change of language",
+          "has_chinese_entity": false,
+          "extracted_at": "2025-09-23T18:41:50.838478",
+          "id": "6dd1e41d796f"
+        },
+        {
+          "search_term": "DJI",
+          "text_content": "MENU CZ EN Change of language",
+          "has_chinese_entity": false,
+          "extracted_at": "2025-09-23T18:41:54.495475",
+          "id": "b503e4c4c09b"
+        },
+        {
+          "search_term": "DJI",
+          "text_content": "CZ EN Change of language",
+          "has_chinese_entity": false,
+          "extracted_at": "2025-09-23T18:41:54.495475",
+          "id": "6dd1e41d796f"
+        },
+        {
+          "search_term": "Dahua",
+          "text_content": "MENU CZ EN Change of language",
+          "has_chinese_entity": false,
+          "extracted_at": "2025-09-23T18:41:57.818417",
+          "id": "b503e4c4c09b"
+        },
+        {
+          "search_term": "Dahua",
+          "text_content": "CZ EN Change of language",
+          "has_chinese_entity": false,
+          "extracted_at": "2025-09-23T18:41:57.818417",
+          "id": "6dd1e41d796f"
+        },
+        {
+          "search_term": "Xiaomi",
+          "text_content": "MENU CZ EN Change of language",
+          "has_chinese_entity": false,
+          "extracted_at": "2025-09-23T18:42:01.138437",
+          "id": "b503e4c4c09b"
+        },
+        {
+          "search_term": "Xiaomi",
+          "text_content": "CZ EN Change of language",
+          "has_chinese_entity": false,
+          "extracted_at": "2025-09-23T18:42:01.138437",
+          "id": "6dd1e41d796f"
+        },
+        {
+          "search_term": "Alibaba",
+          "text_content": "MENU CZ EN Change of language",
+          "has_chinese_entity": false,
+          "extracted_at": "2025-09-23T18:42:04.118587",
+          "id": "b503e4c4c09b"
+        },
+        {
+          "search_term": "Alibaba",
+          "text_content": "CZ EN Change of language",
+          "has_chinese_entity": false,
+          "extracted_at": "2025-09-23T18:42:04.118587",
+          "id": "6dd1e41d796f"
+        },
+        {
+          "search_term": "BYD",
+          "text_content": "MENU CZ EN Change of language",
+          "has_chinese_entity": false,
+          "extracted_at": "2025-09-23T18:42:07.117117",
+          "id": "b503e4c4c09b"
+        },
+        {
+          "search_term": "BYD",
+          "text_content": "CZ EN Change of language",
+          "has_chinese_entity": false,
+          "extracted_at": "2025-09-23T18:42:07.117706",
+          "id": "6dd1e41d796f"
+        },
+        {
+          "search_term": "CRRC",
+          "text_content": "MENU CZ EN Change of language",
+          "has_chinese_entity": false,
+          "extracted_at": "2025-09-23T18:42:11.176143",
+          "id": "b503e4c4c09b"
+        },
+        {
+          "search_term": "CRRC",
+          "text_content": "CZ EN Change of language",
+          "has_chinese_entity": false,
+          "extracted_at": "2025-09-23T18:42:11.176143",
+          "id": "6dd1e41d796f"
+        }
+      ]
+    }
+  ],
+  "modified": "2025-09-23T18:42:13.178391"
+}

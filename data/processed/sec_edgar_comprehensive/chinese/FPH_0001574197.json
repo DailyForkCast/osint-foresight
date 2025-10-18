@@ -1,0 +1,47 @@
+{
+  "cik": "0001574197",
+  "ticker": "FPH",
+  "name": "Five Point Holdings, LLC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6500",
+  "sicDescription": "Real Estate",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "270599397",
+  "phone": "(949) 349-1000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2000 FIVEPOINT, 4TH FLOOR",
+      "street2": null,
+      "city": "IRVINE",
+      "stateOrCountry": "CA",
+      "zipCode": "92618",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2000 FIVEPOINT, 4TH FLOOR",
+      "street2": null,
+      "city": "IRVINE",
+      "stateOrCountry": "CA",
+      "zipCode": "92618",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-22"
+  },
+  "filings_count": 433
+}

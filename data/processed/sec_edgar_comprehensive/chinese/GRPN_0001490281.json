@@ -1,0 +1,47 @@
+{
+  "cik": "0001490281",
+  "ticker": "GRPN",
+  "name": "Groupon, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7311",
+  "sicDescription": "Services-Advertising Agencies",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "270903295",
+  "phone": "3128728670",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "35 W. WACKER, FLOOR 25",
+      "street2": null,
+      "city": "CHICAGO",
+      "stateOrCountry": "IL",
+      "zipCode": "60601",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "35 W. WACKER, FLOOR 25",
+      "street2": null,
+      "city": "CHICAGO",
+      "stateOrCountry": "IL",
+      "zipCode": "60601",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-06"
+  },
+  "filings_count": 1000
+}

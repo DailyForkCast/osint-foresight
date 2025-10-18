@@ -1,0 +1,47 @@
+{
+  "cik": "0001810182",
+  "ticker": "ALXO",
+  "name": "ALX ONCOLOGY HOLDINGS INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2834",
+  "sicDescription": "Pharmaceutical Preparations",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "850642577",
+  "phone": "650-466-7125",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "323 ALLERTON AVENUE",
+      "street2": null,
+      "city": "SOUTH SAN FRANCISCO",
+      "stateOrCountry": "CA",
+      "zipCode": "94080",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "323 ALLERTON AVENUE",
+      "street2": null,
+      "city": "SOUTH SAN FRANCISCO",
+      "stateOrCountry": "CA",
+      "zipCode": "94080",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-12"
+  },
+  "filings_count": 361
+}

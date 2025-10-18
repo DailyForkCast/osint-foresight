@@ -1,0 +1,49 @@
+{
+  "cik": "0002035709",
+  "ticker": "PHOE",
+  "name": "Phoenix Asia Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong"
+  ],
+  "sic": "1700",
+  "sicDescription": "Construction - Special Trade Contractors",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "852 2838 9928",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "WORKSHOP B14, 8/F, BLOCK B",
+      "street2": "TONIC INDUSTRIAL CENTER, 19 LAM HING ST.",
+      "city": "KOWLOON BAY, HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "WORKSHOP B14, 8/F, BLOCK B",
+      "street2": "TONIC INDUSTRIAL CENTER, 19 LAM HING ST.",
+      "city": "KOWLOON BAY, HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-02"
+  },
+  "filings_count": 24
+}

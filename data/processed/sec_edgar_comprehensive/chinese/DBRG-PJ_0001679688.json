@@ -1,0 +1,47 @@
+{
+  "cik": "0001679688",
+  "ticker": "DBRG-PJ",
+  "name": "DigitalBridge Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6282",
+  "sicDescription": "Investment Advice",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "MD",
+  "ein": "464591526",
+  "phone": "561-544-7475",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "750 PARK OF COMMERCE DRIVE",
+      "street2": "SUITE 210",
+      "city": "BOCA RATON",
+      "stateOrCountry": "FL",
+      "zipCode": "33487",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "750 PARK OF COMMERCE DRIVE",
+      "street2": "SUITE 210",
+      "city": "BOCA RATON",
+      "stateOrCountry": "FL",
+      "zipCode": "33487",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-08"
+  },
+  "filings_count": 832
+}

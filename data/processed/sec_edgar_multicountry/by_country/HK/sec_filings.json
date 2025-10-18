@@ -1,0 +1,20 @@
+[
+  {
+    "form": "20-F",
+    "date": "2025-08-14",
+    "accession": "0001213900-25-076725",
+    "primary_doc": "ea0252263-20f_hongkong.htm",
+    "company": "Hong Kong Pharma Digital Technology Holdings Ltd",
+    "country": "HK",
+    "cik": "0002007702",
+    "risks": {
+      "china_exposure": true,
+      "technology_transfer": true,
+      "supply_chain": true,
+      "regulatory_risk": true,
+      "vie_structure": true,
+      "risk_score": 70,
+      "high_china_exposure": true
+    }
+  }
+]

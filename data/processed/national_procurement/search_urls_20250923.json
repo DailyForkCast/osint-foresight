@@ -1,0 +1,83 @@
+{
+  "PL": [
+    {
+      "company": "Huawei",
+      "url": "https://ezamowienia.gov.pl/search?q=Huawei",
+      "note": "Manual verification required"
+    },
+    {
+      "company": "ZTE",
+      "url": "https://ezamowienia.gov.pl/search?q=ZTE",
+      "note": "Manual verification required"
+    },
+    {
+      "company": "Lenovo",
+      "url": "https://ezamowienia.gov.pl/search?q=Lenovo",
+      "note": "Manual verification required"
+    },
+    {
+      "company": "Hikvision",
+      "url": "https://ezamowienia.gov.pl/search?q=Hikvision",
+      "note": "Manual verification required"
+    },
+    {
+      "company": "DJI",
+      "url": "https://ezamowienia.gov.pl/search?q=DJI",
+      "note": "Manual verification required"
+    }
+  ],
+  "CZ": [
+    {
+      "company": "Huawei",
+      "url": "https://nen.nipez.cz/en/search?q=Huawei",
+      "note": "English interface available"
+    },
+    {
+      "company": "ZTE",
+      "url": "https://nen.nipez.cz/en/search?q=ZTE",
+      "note": "English interface available"
+    },
+    {
+      "company": "Lenovo",
+      "url": "https://nen.nipez.cz/en/search?q=Lenovo",
+      "note": "English interface available"
+    },
+    {
+      "company": "Hikvision",
+      "url": "https://nen.nipez.cz/en/search?q=Hikvision",
+      "note": "English interface available"
+    },
+    {
+      "company": "DJI",
+      "url": "https://nen.nipez.cz/en/search?q=DJI",
+      "note": "English interface available"
+    }
+  ],
+  "SK": [
+    {
+      "company": "Huawei",
+      "url": "https://www.uvo.gov.sk/vyhladavanie?q=Huawei",
+      "note": "Slovak language interface"
+    },
+    {
+      "company": "ZTE",
+      "url": "https://www.uvo.gov.sk/vyhladavanie?q=ZTE",
+      "note": "Slovak language interface"
+    },
+    {
+      "company": "Lenovo",
+      "url": "https://www.uvo.gov.sk/vyhladavanie?q=Lenovo",
+      "note": "Slovak language interface"
+    },
+    {
+      "company": "Hikvision",
+      "url": "https://www.uvo.gov.sk/vyhladavanie?q=Hikvision",
+      "note": "Slovak language interface"
+    },
+    {
+      "company": "DJI",
+      "url": "https://www.uvo.gov.sk/vyhladavanie?q=DJI",
+      "note": "Slovak language interface"
+    }
+  ]
+}

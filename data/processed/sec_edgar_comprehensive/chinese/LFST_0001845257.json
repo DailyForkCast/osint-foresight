@@ -1,0 +1,47 @@
+{
+  "cik": "0001845257",
+  "ticker": "LFST",
+  "name": "LifeStance Health Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "8000",
+  "sicDescription": "Services-Health Services",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "602-767-2100",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "4800 N. SCOTTSDALE ROAD",
+      "street2": "SUITE 2500",
+      "city": "SCOTTSDALE",
+      "stateOrCountry": "AZ",
+      "zipCode": "85251",
+      "stateOrCountryDescription": "AZ",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "4800 N. SCOTTSDALE ROAD",
+      "street2": "SUITE 2500",
+      "city": "SCOTTSDALE",
+      "stateOrCountry": "AZ",
+      "zipCode": "85251",
+      "stateOrCountryDescription": "AZ",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-22"
+  },
+  "filings_count": 379
+}

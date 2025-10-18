@@ -1,0 +1,52 @@
+{
+  "cik": "0001529192",
+  "ticker": "VIPS",
+  "name": "Vipshop Holdings Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:guangzhou",
+    "offshore:ky",
+    "address:mailing",
+    "address:business",
+    "sic:5961"
+  ],
+  "sic": "5961",
+  "sicDescription": "Retail-Catalog & Mail-Order Houses",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "86 (20) 2233-0000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "VIPSHOP HEADQUARTERS, 128 DINGXIN ROAD",
+      "street2": "HAIZHU DISTRICT,",
+      "city": "Guangzhou",
+      "stateOrCountry": null,
+      "zipCode": "510335",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "CHINA",
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "VIPSHOP HEADQUARTERS, 128 DINGXIN ROAD",
+      "street2": "HAIZHU DISTRICT,",
+      "city": "Guangzhou",
+      "stateOrCountry": null,
+      "zipCode": "510335",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "CHINA",
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-14"
+  },
+  "filings_count": 268
+}

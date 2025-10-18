@@ -1,0 +1,84 @@
+{
+  "harvest_info": {
+    "timestamp": "2025-09-28T13:01:37.526455",
+    "start_time": "2025-09-28T13:01:30.901119",
+    "duration_minutes": 0.11042226666666667,
+    "harvester": "AWS Athena Production Harvester v1.0"
+  },
+  "data_attribution": {
+    "source": "Common Crawl Foundation",
+    "access_method": "AWS Athena",
+    "terms": "https://commoncrawl.org/terms-of-use/",
+    "citation_required": true
+  },
+  "statistics": {
+    "total_results": 0,
+    "sister_cities": 0,
+    "university_partnerships": 0,
+    "government_agreements": 0
+  },
+  "quality_control": {
+    "fabrication_risk": "ZERO",
+    "all_results_cited": true,
+    "verification_required": true,
+    "provenance_complete": true
+  },
+  "detailed_results": {
+    "sister_cities": {
+      "query_name": "sister_cities_historical_1990_2024",
+      "status": "failed",
+      "error": "FAILED",
+      "provenance": {
+        "query_id": "e8a00dcc57c84d74",
+        "execution_timestamp": "2025-09-28T13:01:30.901119",
+        "query_text": "\n        SELECT\n            url AS source_url,\n            url_host_name AS domain,\n            fetch_time AS crawl_date,\n            crawl,\n            content_digest AS content_hash,\n            warc_filename,\n            warc_record_offset AS warc_offset\n        FROM ccindex.ccindex\n        WHERE crawl IN ('CC-MAIN-2024-10', 'CC-MAIN-2024-18', 'CC-MAIN-2023-50',\n                        'CC-MAIN-2022-49', 'CC-MAIN-2021-49', 'CC-MAIN-2020-50',\n                        'CC-MAIN-2019-51', 'CC-MAIN-2018-51', 'CC-MAIN-2017-51')\n            AND (url_host_name LIKE '%.gov%' OR url_host_name LIKE '%.city%'\n                 OR url_host_name LIKE '%.municipality%' OR url_host_name LIKE '%.comune%'\n                 OR url_host_name LIKE '%.ville%' OR url_host_name LIKE '%.stadt%'\n                 OR url_host_name LIKE '%.eu%' OR url_host_name LIKE '%.europa.eu%')\n            AND (LOWER(url) LIKE '%sister%cit%' OR LOWER(url) LIKE '%twin%cit%'\n                 OR LOWER(url) LIKE '%partnership%' OR LOWER(url) LIKE '%städtepartner%'\n                 OR LOWER(url) LIKE '%jumelage%' OR LOWER(url) LIKE '%gemell%'\n                 OR LOWER(url) LIKE '%agreement%' OR LOWER(url) LIKE '%cooperation%')\n            AND (LOWER(url) LIKE '%china%' OR LOWER(url) LIKE '%chine%'\n                 OR LOWER(url) LIKE '%cina%' OR LOWER(url) LIKE '%beijing%'\n                 OR LOWER(url) LIKE '%shanghai%' OR LOWER(url) LIKE '%guangzhou%')\n        ORDER BY fetch_time DESC\n        LIMIT 2000\n        ",
+        "database": "ccindex",
+        "crawl_id": "CC-MAIN-2024-10",
+        "result_count": 0,
+        "s3_output_location": "s3://athena-eu-china-results-3a4d4e12/query-results/",
+        "data_source": "Common Crawl via AWS Athena",
+        "citation_template": "Common Crawl Foundation. ({year}). {description}. Dataset: {crawl}. Available at: https://commoncrawl.org/",
+        "verification_required": true,
+        "fabrication_risk": "ZERO"
+      }
+    },
+    "university_partnerships": {
+      "query_name": "university_partnerships",
+      "status": "failed",
+      "error": "FAILED",
+      "provenance": {
+        "query_id": "3b756c3acaa65c9d",
+        "execution_timestamp": "2025-09-28T13:01:33.183205",
+        "query_text": "\n        SELECT\n            url AS source_url,\n            url_host_name AS institution,\n            fetch_time AS crawl_date,\n            content_digest AS content_hash,\n            warc_filename,\n            warc_record_offset AS warc_offset\n        FROM ccindex.ccindex\n        WHERE crawl = 'CC-MAIN-2024-10'\n            AND (url_host_tld = 'edu' OR url_host_name LIKE '%.ac.%'\n                 OR url_host_name LIKE '%.uni-%' OR url_host_name LIKE '%.university%')\n            AND (LOWER(url_path) LIKE '%partnership%' OR LOWER(url_path) LIKE '%cooperation%'\n                 OR LOWER(url_path) LIKE '%exchange%' OR LOWER(url_path) LIKE '%collaboration%')\n            AND (LOWER(url) LIKE '%china%' OR LOWER(url) LIKE '%chinese%')\n        LIMIT 500\n        ",
+        "database": "ccindex",
+        "crawl_id": "CC-MAIN-2024-10",
+        "result_count": 0,
+        "s3_output_location": "s3://athena-eu-china-results-3a4d4e12/query-results/",
+        "data_source": "Common Crawl via AWS Athena",
+        "citation_template": "Common Crawl Foundation. ({year}). {description}. Dataset: {crawl}. Available at: https://commoncrawl.org/",
+        "verification_required": true,
+        "fabrication_risk": "ZERO"
+      }
+    },
+    "government_agreements": {
+      "query_name": "government_agreements",
+      "status": "failed",
+      "error": "FAILED",
+      "provenance": {
+        "query_id": "cb89e54297daf401",
+        "execution_timestamp": "2025-09-28T13:01:35.366920",
+        "query_text": "\n        SELECT\n            url AS source_url,\n            url_host_name AS government_domain,\n            fetch_time AS crawl_date,\n            content_digest AS content_hash,\n            warc_filename,\n            warc_record_offset AS warc_offset\n        FROM ccindex.ccindex\n        WHERE crawl = 'CC-MAIN-2024-10'\n            AND (url_host_name LIKE '%.gov.%' OR url_host_name LIKE '%.mfa.%'\n                 OR url_host_name LIKE '%.foreign.%' OR url_host_name LIKE '%.diplo%')\n            AND (LOWER(url_path) LIKE '%agreement%' OR LOWER(url_path) LIKE '%treaty%'\n                 OR LOWER(url_path) LIKE '%memorandum%' OR LOWER(url_path) LIKE '%bilateral%')\n            AND (LOWER(url) LIKE '%china%' OR LOWER(url) LIKE '%prc%')\n        LIMIT 300\n        ",
+        "database": "ccindex",
+        "crawl_id": "CC-MAIN-2024-10",
+        "result_count": 0,
+        "s3_output_location": "s3://athena-eu-china-results-3a4d4e12/query-results/",
+        "data_source": "Common Crawl via AWS Athena",
+        "citation_template": "Common Crawl Foundation. ({year}). {description}. Dataset: {crawl}. Available at: https://commoncrawl.org/",
+        "verification_required": true,
+        "fabrication_risk": "ZERO"
+      }
+    }
+  },
+  "all_results_consolidated": [],
+  "query_audit_log": []
+}

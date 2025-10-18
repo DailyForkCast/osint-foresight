@@ -1,0 +1,47 @@
+{
+  "cik": "0001841125",
+  "ticker": "BSLK",
+  "name": "Bolt Projects Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2860",
+  "sicDescription": "Industrial Organic Chemicals",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "861256660",
+  "phone": "6192484062",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2261 MARKET STREET, SUITE 5447",
+      "street2": null,
+      "city": "SAN FRANCISCO",
+      "stateOrCountry": "CA",
+      "zipCode": "94114",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2261 MARKET STREET, SUITE 5447",
+      "street2": null,
+      "city": "SAN FRANCISCO",
+      "stateOrCountry": "CA",
+      "zipCode": "94114",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-15"
+  },
+  "filings_count": 279
+}

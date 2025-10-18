@@ -1,0 +1,44 @@
+{
+  "cik": "0002027166",
+  "ticker": "NSNFY",
+  "name": "Nissin Foods Holdings Co., Ltd./ADR",
+  "detection_reasons": [
+    "offshore:ky"
+  ],
+  "sic": "",
+  "sicDescription": "",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "M0",
+  "ein": "000000000",
+  "phone": "212-816-6638",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "C/O CITIBANK, N.A.",
+      "street2": "388 GREENWICH STREET",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10013",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "28-1, 6-CHOME, SHINJUKU",
+      "street2": "SHINJUKU-KU",
+      "city": "TOKYO",
+      "stateOrCountry": "M0",
+      "zipCode": "160-8524",
+      "stateOrCountryDescription": "Japan",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 2
+}

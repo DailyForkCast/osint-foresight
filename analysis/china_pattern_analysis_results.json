@@ -1,0 +1,125 @@
+{
+  "5801": {
+    "file_size_gb": 78.76902912,
+    "lines_analyzed": 332480,
+    "china_mentions_found": 0,
+    "estimated_total_lines": 249758649,
+    "estimated_total_china_mentions": 0,
+    "china_percentage": 0.0,
+    "sample_matches": []
+  },
+  "5836": {
+    "file_size_gb": 124.723036864,
+    "lines_analyzed": 110410,
+    "china_mentions_found": 12,
+    "estimated_total_lines": 131326752,
+    "estimated_total_china_mentions": 14273,
+    "china_percentage": 0.010868580744497782,
+    "sample_matches": [
+      {
+        "line_num": 16094,
+        "pattern": "\\bchina\\b",
+        "context": "156805384\t12H2_5882608002F_-none-_10.700_2\t20210930\tC\tRevision\t11\tother reimbursable, contingent, intangible, or indirect financial assistance\tCapacity Building to Solve Complex Computational Challeng"
+      },
+      {
+        "line_num": 65985,
+        "pattern": "\\bchina\\b",
+        "context": "155408826\t1700_N000141613147_-none-_12.300_A00001\t20211027\tD\tAdjustment to Completed Project\t04\tproject grant (B)\tCHARACTERIZING THE KUROSHIO INTRUSION IN THE SOUTH CHINA SEA\tA00001\tUNIVERSITY OF MIAM"
+      },
+      {
+        "line_num": 66599,
+        "pattern": "\\bchina\\b",
+        "context": "157401631\t1900_SCH50019IN0049_-none-_19.040_003\t20211221\tC\tRevision\t04\tproject grant (B)\tDESCRIPTION MASKED FOR PII PURPOSES\t003\tINDIVIDUAL RECIPIENT\t\\N\t019\tDepartment of State (DOS)\t19CH50\tU.S. EMBAS"
+      },
+      {
+        "line_num": 66621,
+        "pattern": "\\bchina\\b",
+        "context": "157401665\t1900_SECAGD18CA0024_-none-_19.415_002\t20211223\tC\tRevision\t05\tcooperative agreement (B)\tTo approve a no-cost extension until 07/31/23.\t002\tNATIONAL COMMITTEE ON UNITED STATES-CHINA RELATIONS,"
+      },
+      {
+        "line_num": 74244,
+        "pattern": "\\bchina\\b",
+        "context": "100791753\t2800_-none-_2800202001310000006457_96.001_-none-\t20200131\tA\tNew\t10\tdirect payment with unrestricted use (retirement, pension, veterans benefits, etc.) (D)\tAggregate Disability Insurance (DI)"
+      }
+    ]
+  },
+  "5847": {
+    "file_size_gb": 126.500630561,
+    "lines_analyzed": 84179,
+    "china_mentions_found": 64,
+    "estimated_total_lines": 101553152,
+    "estimated_total_china_mentions": 77209,
+    "china_percentage": 0.07602846315589398,
+    "sample_matches": [
+      {
+        "line_num": 1215,
+        "pattern": "\\bcas\\b",
+        "context": "161537572\t6955_KY-2022-011_KY-2022-011-00-20.513_20.513_0\t20220701\tA\tNew\t04\tproject grant (B)\tThis grant application is for FFY 2021 Section 5310 Coronavirus Response and Relief Supplemental Appropria"
+      },
+      {
+        "line_num": 3432,
+        "pattern": "\\bcas\\b",
+        "context": "161545846\t7529_R01HL160856_R01HL160856-2539903218_93.837_000\t20220607\tA\tNew\t04\tproject grant (B)\tDeciphering a Novel LncRNA-mediated Lipid Droplet Transport System in Human Heart - Abstract The overar"
+      },
+      {
+        "line_num": 3492,
+        "pattern": "\\bchina\\b",
+        "context": "55047896\t2800_-none-_2800201209300000021292_96.002_-none-\t09/30/2012\t\\N\t\\N\t10\t\\N\t\\N\t\\N\tMultiple Recipients\t\\N\t028\tSocial Security Administration (SSA)\t\\N\t\\N\t2800\tSocial Security Administration\t\\N\t\\N\tN"
+      },
+      {
+        "line_num": 5565,
+        "pattern": "\\bbeijing\\b",
+        "context": "161554784\t7529_R01ES031986_R01ES031986-1331756166_93.113_000\t20220620\tB\tContinuation\t04\tproject grant (B)\tAir Pollution, Coronary Events and Atherosclerotic Progression in a Susceptible Population - A"
+      },
+      {
+        "line_num": 6767,
+        "pattern": "\\bchina\\b",
+        "context": "161562187\t7523_U01IP001106_U01IP001106-737207332_93.083_00\t20220628\tB\tContinuation\t05\tcooperative agreement (B)\tPublic Health Epidemiology of Influenza Virus Infection and Control in China\t00\tChinese "
+      }
+    ]
+  },
+  "5848": {
+    "file_size_gb": 222.44885959,
+    "lines_analyzed": 46414,
+    "china_mentions_found": 19985,
+    "estimated_total_lines": 98463609,
+    "estimated_total_china_mentions": 42396587,
+    "china_percentage": 43.05812901279786,
+    "sample_matches": [
+      {
+        "line_num": 1,
+        "pattern": "\\bcas\\b",
+        "context": "26055706\t3600_-none-_VA262P0728_SA4_-none-_-none-\tN\tNO\t2010-12-01 00:00:00\tB\tSUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE\t\\N\t3600\t100000\tONSITE DOCUMENT DESTRUCTION\tSA4\t\\N\t\\N\t\\N\t036\tDepartment of Vete"
+      },
+      {
+        "line_num": 2,
+        "pattern": "\\bcas\\b",
+        "context": "195017495\t4730_-none-_GS35F0105R_PSA839_-none-_-none-\tN\tNO\t2022-01-19 00:00:00\tM\tOTHER ADMINISTRATIVE ACTION\t\\N\t4730\t\\N\tFEDERAL SUPPLY SCHEDULE CONTRACT\tPSA839\t\\N\tDATA CONSULTING GROUP INCORPORATED\t78"
+      },
+      {
+        "line_num": 3,
+        "pattern": "\\bcas\\b",
+        "context": "195017504\t4730_-none-_GS35F0238N_PSA839_-none-_-none-\tN\tNO\t2022-01-19 00:00:00\tM\tOTHER ADMINISTRATIVE ACTION\t\\N\t4730\t\\N\tFEDERAL SUPPLY SCHEDULE CONTRACT\tPSA839\t\\N\tTELESIS SYSTEMS, INC.\t027685150\t047\tG"
+      },
+      {
+        "line_num": 5,
+        "pattern": "\\bcas\\b",
+        "context": "195017559\t4730_-none-_GS35F0286P_PO0052_-none-_-none-\tN\tNO\t2022-01-19 00:00:00\tM\tOTHER ADMINISTRATIVE ACTION\t\\N\t4730\t\\N\tFEDERAL SUPPLY SCHEDULE CONTRACT\tPO0052\t\\N\tC-CAT, LLC\t102872178\t047\tGeneral Serv"
+      },
+      {
+        "line_num": 6,
+        "pattern": "\\bcas\\b",
+        "context": "34427708\t3600_-none-_VA262P0728_SA5_-none-_-none-\tN\tNO\t2010-12-01 00:00:00\tB\tSUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE\t\\N\t3600\t100000\tONSITE DOCUMENT DESTRUCTION\tSA5\t\\N\t\\N\t\\N\t036\tDepartment of Vete"
+      }
+    ]
+  },
+  "5862": {
+    "file_size_gb": 52.052688606,
+    "lines_analyzed": 1335933,
+    "china_mentions_found": 0,
+    "estimated_total_lines": 663174462,
+    "estimated_total_china_mentions": 0,
+    "china_percentage": 0.0,
+    "sample_matches": []
+  }
+}

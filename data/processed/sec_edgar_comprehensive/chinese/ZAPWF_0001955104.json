@@ -1,0 +1,48 @@
+{
+  "cik": "0001955104",
+  "ticker": "ZAPWF",
+  "name": "Zapp Electric Vehicles Group Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "3751",
+  "sicDescription": "Motorcycles, Bicycles & Parts",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "6626543550",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "5 TECHNOLOGY PARK",
+      "street2": "COLINDEEP LANE",
+      "city": "LONDON",
+      "stateOrCountry": "X0",
+      "zipCode": "NW9 6BX",
+      "stateOrCountryDescription": "United Kingdom",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "5 TECHNOLOGY PARK",
+      "street2": "COLINDEEP LANE",
+      "city": "LONDON",
+      "stateOrCountry": "X0",
+      "zipCode": "NW9 6BX",
+      "stateOrCountryDescription": "United Kingdom",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-16"
+  },
+  "filings_count": 139
+}

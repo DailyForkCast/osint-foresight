@@ -1,0 +1,52 @@
+{
+  "cik": "0001825875",
+  "ticker": "RAYA",
+  "name": "Erayak Power Solution Group Inc.",
+  "detection_reasons": [
+    "location:china",
+    "location:zhejiang",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "3621",
+  "sicDescription": "Motors & Generators",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86-577-86829999",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "NO.528, 4TH AVENUE",
+      "street2": "BINHAI INDUSTRIAL PARK",
+      "city": "WENZHOU, ZHEJIANG",
+      "stateOrCountry": "F4",
+      "zipCode": "325025",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "NO.528, 4TH AVENUE",
+      "street2": "BINHAI INDUSTRIAL PARK",
+      "city": "WENZHOU, ZHEJIANG",
+      "stateOrCountry": "F4",
+      "zipCode": "325025",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-24"
+  },
+  "filings_count": 78
+}

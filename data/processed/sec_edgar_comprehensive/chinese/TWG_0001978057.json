@@ -1,0 +1,49 @@
+{
+  "cik": "0001978057",
+  "ticker": "TWG",
+  "name": "Top Wealth Group Holding Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong"
+  ],
+  "sic": "2090",
+  "sicDescription": "Miscellaneous Food Preparations & Kindred Products",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "85236158567",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "118 CONNAUGHT ROAD WEST, HONG KONG PLAZA",
+      "street2": "UNIT 714 & 715, 7F",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "118 CONNAUGHT ROAD WEST, HONG KONG PLAZA",
+      "street2": "UNIT 714 & 715, 7F",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-22"
+  },
+  "filings_count": 72
+}

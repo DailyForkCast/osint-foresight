@@ -1,0 +1,44 @@
+{
+  "cik": "0000713676",
+  "ticker": "PNC",
+  "name": "PNC FINANCIAL SERVICES GROUP, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6021",
+  "sicDescription": "National Commercial Banks",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "PA",
+  "ein": "251435979",
+  "phone": "888-762-2265",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "THE TOWER AT PNC PLAZA",
+      "street2": "300 FIFTH AVENUE",
+      "city": "PITTSBURGH",
+      "stateOrCountry": "PA",
+      "zipCode": "15222-2401",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "THE TOWER AT PNC PLAZA",
+      "street2": "300 FIFTH AVENUE",
+      "city": "PITTSBURGH",
+      "stateOrCountry": "PA",
+      "zipCode": "15222-2401",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1001
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0000940942",
+  "ticker": "HUBG",
+  "name": "Hub Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "4731",
+  "sicDescription": "Arrangement of  Transportation of  Freight & Cargo",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "IL",
+  "ein": "364007085",
+  "phone": "6302713653",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2001 HUB GROUP WAY",
+      "street2": null,
+      "city": "OAK BROOK",
+      "stateOrCountry": "IL",
+      "zipCode": "60523",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2001 HUB GROUP WAY",
+      "street2": null,
+      "city": "OAK BROOK",
+      "stateOrCountry": "IL",
+      "zipCode": "60523",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-23"
+  },
+  "filings_count": 1001
+}

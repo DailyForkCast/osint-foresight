@@ -1,0 +1,48 @@
+{
+  "cik": "0002047148",
+  "ticker": "CTW",
+  "name": "CTW Cayman",
+  "detection_reasons": [
+    "offshore:cayman",
+    "offshore:ky"
+  ],
+  "sic": "7374",
+  "sicDescription": "Services-Computer Processing & Data Preparation",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "M0",
+  "ein": "000000000",
+  "phone": "050-1748-6333",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "29F, ARK HILLS SENGOKUYAMA MORI TOWER",
+      "street2": "1 CHOME 1-9-10, ROPPONGI, MINATO CITY",
+      "city": "TOKYO",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Japan",
+      "countryCode": "M0"
+    },
+    "business": {
+      "street1": "29F, ARK HILLS SENGOKUYAMA MORI TOWER",
+      "street2": "1 CHOME 1-9-10, ROPPONGI, MINATO CITY",
+      "city": "TOKYO",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Japan",
+      "countryCode": "M0"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-11"
+  },
+  "filings_count": 28
+}

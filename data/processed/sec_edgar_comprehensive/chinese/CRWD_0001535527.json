@@ -1,0 +1,44 @@
+{
+  "cik": "0001535527",
+  "ticker": "CRWD",
+  "name": "CrowdStrike Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7372",
+  "sicDescription": "Services-Prepackaged Software",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "453788918",
+  "phone": "888-512-8906",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "206 E. 9TH STREET",
+      "street2": "SUITE 1400",
+      "city": "AUSTIN",
+      "stateOrCountry": "TX",
+      "zipCode": "78701",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "206 E. 9TH STREET",
+      "street2": "SUITE 1400",
+      "city": "AUSTIN",
+      "stateOrCountry": "TX",
+      "zipCode": "78701",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1006
+}

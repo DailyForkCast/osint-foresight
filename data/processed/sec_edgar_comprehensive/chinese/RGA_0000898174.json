@@ -1,0 +1,47 @@
+{
+  "cik": "0000898174",
+  "ticker": "RGA",
+  "name": "REINSURANCE GROUP OF AMERICA INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6311",
+  "sicDescription": "Life Insurance",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "MO",
+  "ein": "431627032",
+  "phone": "6367367000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "16600 SWINGLEY RIDGE ROAD",
+      "street2": null,
+      "city": "CHESTERFIELD",
+      "stateOrCountry": "MO",
+      "zipCode": "63017",
+      "stateOrCountryDescription": "MO",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "16600 SWINGLEY RIDGE ROAD",
+      "street2": null,
+      "city": "CHESTERFIELD",
+      "stateOrCountry": "MO",
+      "zipCode": "63017",
+      "stateOrCountryDescription": "MO",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-01"
+  },
+  "filings_count": 1000
+}

@@ -1,0 +1,52 @@
+{
+  "cik": "0001959224",
+  "ticker": "SWIN",
+  "name": "Solowin Holdings, Ltd.",
+  "detection_reasons": [
+    "location:china",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "6211",
+  "sicDescription": "Security Brokers, Dealers & Flotation Companies",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "202-869-0888",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ROOM 1910-1912A TOWER 3 CHINA HONG KONG",
+      "street2": "33 CANTON RD TSIM SHA TSUI",
+      "city": "KOWLOON",
+      "stateOrCountry": null,
+      "zipCode": "0000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "ROOM 1910-1912A TOWER 3 CHINA HONG KONG",
+      "street2": "33 CANTON RD TSIM SHA TSUI",
+      "city": "KOWLOON",
+      "stateOrCountry": null,
+      "zipCode": "0000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-03"
+  },
+  "filings_count": 79
+}

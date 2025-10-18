@@ -1,0 +1,47 @@
+{
+  "cik": "0001117057",
+  "ticker": "PLAG",
+  "name": "Planet Green Holdings Corp.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2030",
+  "sicDescription": "Canned, Frozen & Preservd Fruit, Veg & Food Specialties",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "NV",
+  "ein": "870430320",
+  "phone": "718-799-0380",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "130-30 31ST AVE, SUITE 512",
+      "street2": null,
+      "city": "FLUSHING",
+      "stateOrCountry": "NY",
+      "zipCode": "11354",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "130-30 31ST AVE, SUITE 512",
+      "street2": null,
+      "city": "FLUSHING",
+      "stateOrCountry": "NY",
+      "zipCode": "11354",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-10"
+  },
+  "filings_count": 540
+}

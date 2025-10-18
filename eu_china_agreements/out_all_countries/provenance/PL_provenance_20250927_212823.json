@@ -1,0 +1,94 @@
+{
+  "country": "PL",
+  "harvest_session": {
+    "start_time": "2025-09-27T21:28:17.187711",
+    "end_time": "2025-09-27T21:28:23.177463",
+    "total_operations": 9
+  },
+  "operations_log": [
+    {
+      "timestamp": "2025-09-27T21:28:17.187711",
+      "operation": "HARVEST_SESSION_START",
+      "details": {
+        "country": "PL"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T21:28:17.188710",
+      "operation": "FETCH_INITIATED",
+      "details": {
+        "url": "https://www.gov.pl/web/dyplomacja",
+        "country": "PL"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T21:28:18.704442",
+      "operation": "FETCH_COMPLETED",
+      "details": {
+        "url": "https://www.gov.pl/web/dyplomacja",
+        "status_code": 200,
+        "content_length": 48968,
+        "content_hash": "bc9da25a32df83f5a5a8a4c8d823eb19659787ce51631f7f6f7b9b9e543c8d9d",
+        "raw_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\raw_verified\\PL_www_gov_pl_20250927_212818_bc9da25a.html"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T21:28:18.707675",
+      "operation": "EXTRACTION_INITIATED",
+      "details": {
+        "url": "https://www.gov.pl/web/dyplomacja",
+        "country": "PL"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T21:28:18.729762",
+      "operation": "EXTRACTION_COMPLETED",
+      "details": {
+        "url": "https://www.gov.pl/web/dyplomacja",
+        "title_found": true,
+        "confidence": "low",
+        "agreement_indicators": 0
+      }
+    },
+    {
+      "timestamp": "2025-09-27T21:28:20.732950",
+      "operation": "FETCH_INITIATED",
+      "details": {
+        "url": "https://www.prezydent.pl",
+        "country": "PL"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T21:28:21.141494",
+      "operation": "FETCH_COMPLETED",
+      "details": {
+        "url": "https://www.prezydent.pl",
+        "status_code": 403,
+        "content_length": 7025,
+        "content_hash": "9332a5f919d8acd12221fb1ab4016b7e4a2b76e5f7352b01bea1e916095243e7",
+        "raw_file": "C:\\Projects\\OSINT - Foresight\\eu_china_agreements\\out_all_countries\\raw_verified\\PL_www_prezydent_pl_20250927_212821_9332a5f9.html"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T21:28:21.142492",
+      "operation": "EXTRACTION_INITIATED",
+      "details": {
+        "url": "https://www.prezydent.pl",
+        "country": "PL"
+      }
+    },
+    {
+      "timestamp": "2025-09-27T21:28:21.143491",
+      "operation": "EXTRACTION_COMPLETED",
+      "details": {
+        "url": "https://www.prezydent.pl",
+        "title_found": true,
+        "confidence": "low",
+        "agreement_indicators": 0
+      }
+    }
+  ],
+  "verification_status": "ALL_DATA_REQUIRES_MANUAL_VERIFICATION",
+  "fabrication_risk": "ZERO_FABRICATION_PROTOCOL_ENFORCED",
+  "usage_warning": "DO NOT USE WITHOUT MANUAL VERIFICATION OF SOURCE DOCUMENTS"
+}

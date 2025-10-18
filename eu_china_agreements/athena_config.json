@@ -1,0 +1,39 @@
+{
+  "aws_config": {
+    "region": "us-east-1",
+    "database": "default",
+    "results_bucket": "athena-eu-china-results-3a4d4e12",
+    "results_path": "s3://athena-eu-china-results-3a4d4e12/query-results/",
+    "profile": "default"
+  },
+  "common_crawl": {
+    "table": "ccindex",
+    "database": "ccindex",
+    "latest_crawl": "CC-MAIN-2024-10",
+    "crawl_history": [
+      "CC-MAIN-2024-10",
+      "CC-MAIN-2024-18",
+      "CC-MAIN-2024-22",
+      "CC-MAIN-2024-26"
+    ]
+  },
+  "search_templates": {
+    "sister_cities": {
+      "keywords": ["sister city", "sister cities", "jumelage", "städtepartnerschaft", "gemellaggio"],
+      "china_terms": ["china", "chinese", "beijing", "shanghai", "guangzhou", "chine", "chinois"]
+    },
+    "academic_partnerships": {
+      "keywords": ["university partnership", "research collaboration", "academic exchange", "cooperation agreement"],
+      "china_terms": ["china", "chinese", "tsinghua", "peking university", "fudan", "jiaotong"]
+    },
+    "government_agreements": {
+      "keywords": ["memorandum understanding", "cooperation agreement", "bilateral agreement", "partnership protocol"],
+      "china_terms": ["china", "chinese", "people's republic", "prc"]
+    }
+  },
+  "verification_settings": {
+    "max_results_per_query": 1000,
+    "timeout_seconds": 300,
+    "retry_attempts": 3
+  }
+}

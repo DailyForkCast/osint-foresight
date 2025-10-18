@@ -1,0 +1,51 @@
+{
+  "cik": "0001794276",
+  "ticker": "ZHJD",
+  "name": "Intelligent Hotel Group Ltd.",
+  "detection_reasons": [
+    "location:china",
+    "location:chengdu",
+    "location:sichuan",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "2870",
+  "sicDescription": "Agricultural Chemicals",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "NV",
+  "ein": "611948707",
+  "phone": "8602883232517",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "NO. 1408, NORTH DISTRICT, LIBAO BUILDING",
+      "street2": "KEHUA NORTH ROAD NO. 62, WUHOU DISTRICT",
+      "city": "CHENGDU, SICHUAN PROVINCE",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "NO. 1408, NORTH DISTRICT, LIBAO BUILDING",
+      "street2": "KEHUA NORTH ROAD NO. 62, WUHOU DISTRICT",
+      "city": "CHENGDU, SICHUAN PROVINCE",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-09"
+  },
+  "filings_count": 49
+}

@@ -1,0 +1,44 @@
+{
+  "cik": "0000759944",
+  "ticker": "CFG-PI",
+  "name": "CITIZENS FINANCIAL GROUP INC/RI",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6022",
+  "sicDescription": "State Commercial Banks",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "050412693",
+  "phone": "2039006715",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1 CITIZENS PLAZA",
+      "street2": null,
+      "city": "PROVIDENCE",
+      "stateOrCountry": "RI",
+      "zipCode": "02903",
+      "stateOrCountryDescription": "RI",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1 CITIZENS PLAZA",
+      "street2": null,
+      "city": "PROVIDENCE",
+      "stateOrCountry": "RI",
+      "zipCode": "02903",
+      "stateOrCountryDescription": "RI",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1000
+}

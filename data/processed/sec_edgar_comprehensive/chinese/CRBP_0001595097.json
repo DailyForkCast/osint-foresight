@@ -1,0 +1,47 @@
+{
+  "cik": "0001595097",
+  "ticker": "CRBP",
+  "name": "Corbus Pharmaceuticals Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2834",
+  "sicDescription": "Pharmaceutical Preparations",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "464348039",
+  "phone": "617-963-0103",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "500 RIVER RIDGE DRIVE",
+      "street2": null,
+      "city": "NORWOOD",
+      "stateOrCountry": "MA",
+      "zipCode": "02062",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "500 RIVER RIDGE DRIVE",
+      "street2": null,
+      "city": "NORWOOD",
+      "stateOrCountry": "MA",
+      "zipCode": "02062",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-16"
+  },
+  "filings_count": 718
+}

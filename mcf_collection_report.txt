@@ -1,0 +1,53 @@
+
+MCF Collection Report
+====================
+Collection Time: 2025-09-26T05:10:17.054969
+Database: database\osint_master.db
+
+Collection Statistics:
+- URLs Attempted: 28
+- Documents Collected: 8
+- Entities Extracted: 54
+- Errors: 18
+
+Database Totals:
+- Total Documents: 26
+- Total Entities: 65
+- Total Relationships: 190
+
+Top Entities by Mentions:
+  - AI (technologies): 17 mentions
+  - BRI (programs): 16 mentions
+  - CAC (government_bodies): 11 mentions
+  - CAS (institutes): 9 mentions
+  - 5G (technologies): 8 mentions
+  - ZTE (companies): 7 mentions
+  - AVIC (companies): 6 mentions
+  - 6G (technologies): 6 mentions
+  - SPACE (technologies): 6 mentions
+  - PLA (organizations): 6 mentions
+
+Documents by Source:
+  - uscc: 7 docs, 0.92 avg relevance
+  - F_drive_import: 5 docs, 0.50 avg relevance
+  - aspi: 2 docs, 0.95 avg relevance
+  - itif: 2 docs, 0.30 avg relevance
+  - jamestown: 2 docs, 1.00 avg relevance
+  - mcf_sources: 2 docs, 0.45 avg relevance
+  - state_dept: 2 docs, 0.71 avg relevance
+  - atlantic_council: 1 docs, 1.00 avg relevance
+  - cfr: 1 docs, 1.00 avg relevance
+  - cnas: 1 docs, 0.70 avg relevance
+  - csis: 1 docs, 1.00 avg relevance
+
+Errors:
+  - Failed https://www.state.gov/military-civil-fusion-and-the-peoples-republic-of-china/: 404 Client Error: Not Found for url: https://www.state.gov/military-civil-fusion-and-the-peoples-republic-of-china/
+  - Failed https://www.state.gov/chinas-predatory-economic-and-security-practices/: 404 Client Error: Not Found for url: https://www.state.gov/chinas-predatory-economic-and-security-practices/
+  - Failed https://www.csis.org/analysis/surveying-chinas-digital-silk-road: 404 Client Error: Not Found for url: https://www.csis.org/analysis/surveying-chinas-digital-silk-road
+  - Failed https://www.brookings.edu/articles/us-china-technology-competition/: 404 Client Error: Not Found for url: https://www.brookings.edu/articles/us-china-technology-competition/
+  - Failed https://www.brookings.edu/articles/racing-toward-zero-chinas-export-controls/: 404 Client Error: Not Found for url: https://www.brookings.edu/articles/racing-toward-zero-chinas-export-controls/
+  - Failed https://www.cfr.org/article/us-china-tech-cold-war-deepens: 404 Client Error: Not Found for url: https://www.cfr.org/article/us-china-tech-cold-war-deepens
+  - Failed https://www.rand.org/pubs/research_reports/RRA869-3.html: 404 Client Error: Not Found for url: https://www.rand.org/pubs/research_reports/RRA869-3.html
+  - Failed https://www.rand.org/topics/china-military.html: 404 Client Error: Not Found for url: https://www.rand.org/topics/china-military.html
+  - Failed https://www.rand.org/pubs/tools/TL389.html: 404 Client Error: Not Found for url: https://www.rand.org/pubs/tools/TL389.html
+  - Failed https://www.heritage.org/asia/commentary/chinas-military-civil-fusion-strategy-should-raise-red-flags: 404 Client Error: Not Found for url: https://www.heritage.org/asia/commentary/chinas-military-civil-fusion-strategy-should-raise-red-flags

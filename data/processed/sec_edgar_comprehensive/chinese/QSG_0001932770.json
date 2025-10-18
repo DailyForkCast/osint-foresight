@@ -1,0 +1,52 @@
+{
+  "cik": "0001932770",
+  "ticker": "QSG",
+  "name": "QuantaSing Group Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:beijing",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "8200",
+  "sicDescription": "Services-Educational Services",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86 10 64937857",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2/F, BUILDING D",
+      "street2": "RONSIN TECHNOLOGY CENTER",
+      "city": "CHAOYANG DISTRICT, BEIJING",
+      "stateOrCountry": "F4",
+      "zipCode": "100102",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2/F, BUILDING D",
+      "street2": "RONSIN TECHNOLOGY CENTER",
+      "city": "CHAOYANG DISTRICT, BEIJING",
+      "stateOrCountry": "F4",
+      "zipCode": "100102",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-17"
+  },
+  "filings_count": 72
+}

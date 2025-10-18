@@ -1,0 +1,20 @@
+{
+  "claim": "469.18 GB analyzed",
+  "evidence": [
+    {
+      "type": "Inventory Manifest",
+      "value": "503,778,935,260 bytes from manifest",
+      "source": "inventory_manifest.json"
+    },
+    {
+      "type": "OS Verification",
+      "value": "0 locations verified",
+      "source": "PowerShell Get-ChildItem"
+    },
+    {
+      "type": "Parse Logs",
+      "value": "1132 files profiled",
+      "source": "content_profiles.json"
+    }
+  ]
+}

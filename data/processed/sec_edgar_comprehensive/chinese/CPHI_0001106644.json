@@ -1,0 +1,49 @@
+{
+  "cik": "0001106644",
+  "ticker": "CPHI",
+  "name": "CHINA PHARMA HOLDINGS, INC.",
+  "detection_reasons": [
+    "location:china",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "2834",
+  "sicDescription": "Pharmaceutical Preparations",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "731564807",
+  "phone": "8689866811730",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2ND FLOOR, NO. 17, JINPAN ROAD",
+      "street2": "HAIKOU",
+      "city": "HAINAN PROVINCE",
+      "stateOrCountry": "F4",
+      "zipCode": "570216",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2ND FLOOR, NO. 17, JINPAN ROAD",
+      "street2": "HAIKOU",
+      "city": "HAINAN PROVINCE",
+      "stateOrCountry": "F4",
+      "zipCode": "570216",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-14"
+  },
+  "filings_count": 411
+}

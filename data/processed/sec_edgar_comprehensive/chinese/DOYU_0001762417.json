@@ -1,0 +1,53 @@
+{
+  "cik": "0001762417",
+  "ticker": "DOYU",
+  "name": "DouYu International Holdings Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:wuhan",
+    "location:hubei",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "7370",
+  "sicDescription": "Services-Computer Programming, Data Processing, Etc.",
+  "category": "Accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86 27 8775 0710",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "BLDING F4, OPTICAL VALLEY SOFTWARE PARK",
+      "street2": "GUANSHAN AVENUE,DONGHU DEVELOPMENT AREA",
+      "city": "WUHAN CITY, HUBEI PROVINCE",
+      "stateOrCountry": "F4",
+      "zipCode": "430073",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "BLDING F4, OPTICAL VALLEY SOFTWARE PARK",
+      "street2": "GUANSHAN AVENUE,DONGHU DEVELOPMENT AREA",
+      "city": "WUHAN CITY, HUBEI PROVINCE",
+      "stateOrCountry": "F4",
+      "zipCode": "430073",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-18"
+  },
+  "filings_count": 128
+}

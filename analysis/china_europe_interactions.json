@@ -1,0 +1,769 @@
+{
+  "timestamp": "2025-09-29T21:03:09.851787",
+  "by_country": {
+    "AT": {
+      "name": "Austria",
+      "interactions": {
+        "openalex": {
+          "count": 272,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "BE": {
+      "name": "Belgium",
+      "interactions": {
+        "openalex": {
+          "count": 330,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "BG": {
+      "name": "Bulgaria",
+      "interactions": {
+        "openalex": {
+          "count": 333,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "HR": {
+      "name": "Croatia",
+      "interactions": {
+        "openalex": {
+          "count": 81,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "CY": {
+      "name": "Cyprus",
+      "interactions": {
+        "openalex": {
+          "count": 16,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "CZ": {
+      "name": "Czech Republic",
+      "interactions": {
+        "openalex": {
+          "count": 1034,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "DK": {
+      "name": "Denmark",
+      "interactions": {
+        "openalex": {
+          "count": 179,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "EE": {
+      "name": "Estonia",
+      "interactions": {
+        "openalex": {
+          "count": 21,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "FI": {
+      "name": "Finland",
+      "interactions": {
+        "openalex": {
+          "count": 177,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "FR": {
+      "name": "France",
+      "interactions": {
+        "openalex": {
+          "count": 1642,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "DE": {
+      "name": "Germany",
+      "interactions": {
+        "openalex": {
+          "count": 1632,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "GR": {
+      "name": "Greece",
+      "interactions": {
+        "openalex": {
+          "count": 131,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "HU": {
+      "name": "Hungary",
+      "interactions": {
+        "openalex": {
+          "count": 183,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "IE": {
+      "name": "Ireland",
+      "interactions": {
+        "openalex": {
+          "count": 150,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "IT": {
+      "name": "Italy",
+      "interactions": {
+        "openalex": {
+          "count": 610,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "LV": {
+      "name": "Latvia",
+      "interactions": {
+        "openalex": {
+          "count": 163,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "LT": {
+      "name": "Lithuania",
+      "interactions": {
+        "openalex": {
+          "count": 58,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "LU": {
+      "name": "Luxembourg",
+      "interactions": {
+        "openalex": {
+          "count": 17,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "MT": {
+      "name": "Malta",
+      "interactions": {
+        "openalex": {
+          "count": 3,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "NL": {
+      "name": "Netherlands",
+      "interactions": {
+        "openalex": {
+          "count": 758,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "PL": {
+      "name": "Poland",
+      "interactions": {
+        "openalex": {
+          "count": 486,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "PT": {
+      "name": "Portugal",
+      "interactions": {
+        "openalex": {
+          "count": 87,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "RO": {
+      "name": "Romania",
+      "interactions": {
+        "openalex": {
+          "count": 99,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "SK": {
+      "name": "Slovakia",
+      "interactions": {
+        "openalex": {
+          "count": 128,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "SI": {
+      "name": "Slovenia",
+      "interactions": {
+        "openalex": {
+          "count": 111,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "ES": {
+      "name": "Spain",
+      "interactions": {
+        "openalex": {
+          "count": 472,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "SE": {
+      "name": "Sweden",
+      "interactions": {
+        "openalex": {
+          "count": 404,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "AL": {
+      "name": "Albania",
+      "interactions": {
+        "openalex": {
+          "count": 184,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "AM": {
+      "name": "Armenia",
+      "interactions": {
+        "openalex": {
+          "count": 10,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "BY": {
+      "name": "Belarus",
+      "interactions": {
+        "openalex": {
+          "count": 34,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "BA": {
+      "name": "Bosnia and Herzegovina",
+      "interactions": {
+        "openalex": {
+          "count": 6,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "GE": {
+      "name": "Georgia",
+      "interactions": {
+        "openalex": {
+          "count": 15,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "IS": {
+      "name": "Iceland",
+      "interactions": {
+        "openalex": {
+          "count": 10,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "XK": {
+      "name": "Kosovo",
+      "interactions": {
+        "openalex": {
+          "count": 1,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "ME": {
+      "name": "Montenegro",
+      "interactions": {
+        "openalex": {
+          "count": 7,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "MK": {
+      "name": "North Macedonia",
+      "interactions": {
+        "openalex": {
+          "count": 20,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "NO": {
+      "name": "Norway",
+      "interactions": {
+        "openalex": {
+          "count": 280,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "RU": {
+      "name": "Russia",
+      "interactions": {
+        "openalex": {
+          "count": 819,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "RS": {
+      "name": "Serbia",
+      "interactions": {
+        "openalex": {
+          "count": 208,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "CH": {
+      "name": "Switzerland",
+      "interactions": {
+        "openalex": {
+          "count": 445,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "TR": {
+      "name": "Turkey",
+      "interactions": {
+        "openalex": {
+          "count": 258,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "UA": {
+      "name": "Ukraine",
+      "interactions": {
+        "openalex": {
+          "count": 158,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "GB": {
+      "name": "United Kingdom",
+      "interactions": {
+        "openalex": {
+          "count": 3020,
+          "type": "academic_papers"
+        }
+      }
+    },
+    "KZ": {
+      "name": "Kazakhstan",
+      "interactions": {
+        "openalex": {
+          "count": 24,
+          "type": "academic_papers"
+        }
+      }
+    }
+  },
+  "by_category": {
+    "eu_members": {
+      "AT": 272,
+      "BE": 330,
+      "BG": 333,
+      "HR": 81,
+      "CY": 16,
+      "CZ": 1034,
+      "DK": 179,
+      "EE": 21,
+      "FI": 177,
+      "FR": 1642,
+      "DE": 1632,
+      "GR": 131,
+      "HU": 183,
+      "IE": 150,
+      "IT": 610,
+      "LV": 163,
+      "LT": 58,
+      "LU": 17,
+      "MT": 3,
+      "NL": 758,
+      "PL": 486,
+      "PT": 87,
+      "RO": 99,
+      "SK": 128,
+      "SI": 111,
+      "ES": 472,
+      "SE": 404
+    },
+    "bri_countries": {
+      "AT": 272,
+      "BG": 333,
+      "HR": 81,
+      "CZ": 1034,
+      "EE": 21,
+      "GR": 131,
+      "HU": 183,
+      "IT": 610,
+      "LV": 163,
+      "LT": 58,
+      "LU": 17,
+      "PL": 486,
+      "PT": 87,
+      "RO": 99,
+      "SK": 128,
+      "SI": 111,
+      "AL": 184,
+      "AM": 10,
+      "BY": 34,
+      "BA": 6,
+      "GE": 15,
+      "ME": 7,
+      "MK": 20,
+      "RU": 819,
+      "RS": 208,
+      "TR": 258,
+      "UA": 158,
+      "KZ": 24
+    },
+    "17_plus_1": {
+      "BG": 333,
+      "HR": 81,
+      "CZ": 1034,
+      "EE": 21,
+      "GR": 131,
+      "HU": 183,
+      "LV": 163,
+      "LT": 58,
+      "PL": 486,
+      "RO": 99,
+      "SK": 128,
+      "SI": 111,
+      "AL": 184,
+      "BA": 6,
+      "ME": 7,
+      "MK": 20,
+      "RS": 208
+    },
+    "central_asia": {
+      "KZ": 24
+    },
+    "other_europe": {}
+  },
+  "by_source": {
+    "openalex": {},
+    "ted": {},
+    "cordis": {},
+    "usaspending": {},
+    "patents": {},
+    "sec_edgar": {}
+  },
+  "by_type": {
+    "academic_collaboration": [],
+    "procurement_contracts": [],
+    "research_projects": [],
+    "corporate_relationships": [],
+    "patents": [],
+    "investments": []
+  },
+  "by_year": {
+    "2000": {
+      "FR": 687,
+      "SI": 39,
+      "BG": 159,
+      "RU": 298,
+      "CZ": 355,
+      "GB": 1146,
+      "NO": 97,
+      "DE": 730,
+      "AT": 107,
+      "UA": 33,
+      "LV": 96,
+      "IT": 218,
+      "HU": 64,
+      "BE": 131,
+      "CH": 155,
+      "ES": 164,
+      "NL": 190,
+      "TR": 129,
+      "IE": 64,
+      "SK": 55,
+      "SE": 151,
+      "PL": 156,
+      "GR": 40,
+      "RS": 76,
+      "RO": 33,
+      "HR": 46,
+      "BA": 1,
+      "FI": 62,
+      "LT": 16,
+      "AL": 73,
+      "DK": 66,
+      "AM": 2,
+      "BY": 15,
+      "KZ": 2,
+      "PT": 28,
+      "IS": 5,
+      "ME": 1,
+      "LU": 3,
+      "MK": 12,
+      "EE": 4,
+      "CY": 1
+    },
+    "2013": {
+      "FR": 525,
+      "GB": 961,
+      "CZ": 424,
+      "DE": 434,
+      "RU": 237,
+      "HR": 21,
+      "NO": 74,
+      "BE": 100,
+      "RO": 49,
+      "IT": 203,
+      "RS": 94,
+      "HU": 79,
+      "AT": 74,
+      "AL": 103,
+      "GR": 31,
+      "BG": 130,
+      "ES": 181,
+      "SE": 113,
+      "IE": 39,
+      "LV": 56,
+      "CH": 122,
+      "NL": 170,
+      "PL": 160,
+      "TR": 91,
+      "FI": 49,
+      "BA": 1,
+      "SI": 50,
+      "UA": 35,
+      "SK": 38,
+      "CY": 9,
+      "MK": 5,
+      "DK": 49,
+      "BY": 4,
+      "PT": 28,
+      "KZ": 7,
+      "ME": 1,
+      "EE": 8,
+      "LT": 7,
+      "LU": 4,
+      "AM": 3,
+      "GE": 3
+    },
+    "2017": {
+      "FR": 207,
+      "GR": 25,
+      "DE": 171,
+      "DK": 22,
+      "SE": 62,
+      "GB": 290,
+      "IT": 73,
+      "BG": 15,
+      "CZ": 38,
+      "NL": 68,
+      "RU": 106,
+      "AT": 31,
+      "HU": 12,
+      "ES": 50,
+      "RS": 12,
+      "FI": 29,
+      "SI": 8,
+      "PT": 15,
+      "AL": 7,
+      "PL": 31,
+      "BE": 45,
+      "NO": 24,
+      "UA": 32,
+      "TR": 17,
+      "SK": 16,
+      "MK": 3,
+      "XK": 1,
+      "LT": 4,
+      "BY": 10,
+      "RO": 8,
+      "KZ": 9,
+      "CH": 43,
+      "HR": 7,
+      "IE": 16,
+      "MT": 3,
+      "IS": 3,
+      "LU": 7,
+      "LV": 2,
+      "CY": 2,
+      "EE": 2,
+      "GE": 2,
+      "BA": 1,
+      "ME": 1,
+      "AM": 2
+    },
+    "2020": {
+      "CH": 80,
+      "AT": 22,
+      "NL": 296,
+      "SE": 34,
+      "GB": 202,
+      "FR": 85,
+      "DE": 98,
+      "RU": 65,
+      "HU": 16,
+      "FI": 18,
+      "NO": 51,
+      "CZ": 35,
+      "IT": 29,
+      "ES": 37,
+      "UA": 28,
+      "RO": 5,
+      "PT": 8,
+      "BE": 17,
+      "PL": 24,
+      "AM": 2,
+      "TR": 13,
+      "GR": 19,
+      "SI": 2,
+      "BA": 2,
+      "ME": 2,
+      "BG": 9,
+      "KZ": 4,
+      "DK": 8,
+      "IE": 18,
+      "BY": 2,
+      "SK": 4,
+      "EE": 3,
+      "GE": 8,
+      "RS": 3,
+      "IS": 1,
+      "LU": 2,
+      "CY": 2,
+      "HR": 2,
+      "LT": 1
+    },
+    "2022": {
+      "IT": 34,
+      "FI": 10,
+      "PL": 13,
+      "DE": 42,
+      "CH": 22,
+      "GR": 8,
+      "GB": 65,
+      "UA": 5,
+      "RU": 13,
+      "SE": 18,
+      "NL": 14,
+      "SI": 3,
+      "FR": 30,
+      "CZ": 8,
+      "AT": 16,
+      "NO": 7,
+      "IS": 1,
+      "BE": 10,
+      "IE": 8,
+      "BY": 1,
+      "ES": 10,
+      "EE": 3,
+      "DK": 7,
+      "BG": 3,
+      "HR": 3,
+      "RS": 3,
+      "TR": 6,
+      "SK": 2,
+      "GE": 2,
+      "PT": 5,
+      "RO": 2,
+      "AL": 1,
+      "LU": 1,
+      "ME": 2,
+      "CY": 2,
+      "LV": 1,
+      "LT": 1,
+      "HU": 1,
+      "AM": 1
+    }
+  },
+  "statistics": {
+    "total_interactions": 15076,
+    "countries_with_interactions": 44,
+    "top_collaborators": [
+      [
+        "GB",
+        3020
+      ],
+      [
+        "FR",
+        1642
+      ],
+      [
+        "DE",
+        1632
+      ],
+      [
+        "CZ",
+        1034
+      ],
+      [
+        "RU",
+        819
+      ],
+      [
+        "NL",
+        758
+      ],
+      [
+        "IT",
+        610
+      ],
+      [
+        "PL",
+        486
+      ],
+      [
+        "ES",
+        472
+      ],
+      [
+        "CH",
+        445
+      ]
+    ],
+    "by_year": {}
+  },
+  "patterns": {
+    "bri_concentration": 28,
+    "seventeen_plus_one_active": 17,
+    "central_asia_engagement": 1
+  }
+}

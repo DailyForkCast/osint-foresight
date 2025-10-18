@@ -1,0 +1,53 @@
+{
+  "cik": "0001381074",
+  "ticker": "RTCJF",
+  "name": "Baijiayun Group Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:nanjing",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business",
+    "sic:7372"
+  ],
+  "sic": "7372",
+  "sicDescription": "Services-Prepackaged Software",
+  "category": "Accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "025-57798192",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "24F, A1 SOUTH BLDING, NO. 32 FENGZHAN RD",
+      "street2": "YUHUATAI DISTRICT",
+      "city": "NANJING",
+      "stateOrCountry": "F4",
+      "zipCode": "210000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "24F, A1 SOUTH BLDING, NO. 32 FENGZHAN RD",
+      "street2": "YUHUATAI DISTRICT",
+      "city": "NANJING",
+      "stateOrCountry": "F4",
+      "zipCode": "210000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-18"
+  },
+  "filings_count": 277
+}

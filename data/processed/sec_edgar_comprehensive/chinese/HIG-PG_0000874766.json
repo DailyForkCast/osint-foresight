@@ -1,0 +1,48 @@
+{
+  "cik": "0000874766",
+  "ticker": "HIG-PG",
+  "name": "HARTFORD INSURANCE GROUP, INC.",
+  "detection_reasons": [
+    "offshore:vg",
+    "offshore:bm"
+  ],
+  "sic": "6331",
+  "sicDescription": "Fire, Marine & Casualty Insurance",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "133317783",
+  "phone": "8605475000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ONE HARTFORD PLAZA",
+      "street2": "LAW-HO-1-09",
+      "city": "HARTFORD",
+      "stateOrCountry": "CT",
+      "zipCode": "06155",
+      "stateOrCountryDescription": "CT",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "ONE HARTFORD PLAZA",
+      "street2": "LAW-HO-1-09",
+      "city": "HARTFORD",
+      "stateOrCountry": "CT",
+      "zipCode": "06155",
+      "stateOrCountryDescription": "CT",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-25"
+  },
+  "filings_count": 1004
+}

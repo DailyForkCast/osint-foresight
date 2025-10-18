@@ -1,0 +1,53 @@
+{
+  "cik": "0001895597",
+  "ticker": "ICG",
+  "name": "Intchains Group Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:shanghai",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business",
+    "sic:3674"
+  ],
+  "sic": "3674",
+  "sicDescription": "Semiconductors & Related Devices",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86 021 58961080",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "BUILDING 16, LANE 999,XINYUAN SOUTH ROAD",
+      "street2": "LIN-GANG SPECIAL AREA, PUDONG",
+      "city": "SHANGHAI",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "BUILDING 16, LANE 999,XINYUAN SOUTH ROAD",
+      "street2": "LIN-GANG SPECIAL AREA, PUDONG",
+      "city": "SHANGHAI",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-14"
+  },
+  "filings_count": 78
+}

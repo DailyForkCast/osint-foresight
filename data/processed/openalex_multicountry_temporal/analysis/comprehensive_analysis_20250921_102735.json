@@ -1,0 +1,19 @@
+{
+  "processing_summary": {
+    "timestamp": "2025-09-21T10:27:35.190988",
+    "total_papers_analyzed": 6279128,
+    "papers_with_china": 22876,
+    "files_processed": 560,
+    "processing_errors": 284
+  },
+  "country_risk_ranking": [],
+  "technology_risk_matrix": {},
+  "temporal_analysis": {},
+  "collaboration_patterns": {},
+  "verification": {
+    "data_source": "OpenAlex",
+    "zero_fabrication": true,
+    "all_findings_verifiable": true,
+    "recompute_command": "python process_openalex_multicountry_temporal.py --resume-checkpoint"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0000912061",
+  "ticker": "NHTC",
+  "name": "NATURAL HEALTH TRENDS CORP",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5190",
+  "sicDescription": "Wholesale-Miscellaneous Nondurable Goods",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "592705336",
+  "phone": "310-541-0888",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "609 DEEP VALLEY DRIVE, SUITE 395",
+      "street2": null,
+      "city": "ROLLING HILLS ESTATES",
+      "stateOrCountry": "CA",
+      "zipCode": "90274",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "609 DEEP VALLEY DRIVE, SUITE 395",
+      "street2": null,
+      "city": "ROLLING HILLS ESTATES",
+      "stateOrCountry": "CA",
+      "zipCode": "90274",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-07-30"
+  },
+  "filings_count": 930
+}

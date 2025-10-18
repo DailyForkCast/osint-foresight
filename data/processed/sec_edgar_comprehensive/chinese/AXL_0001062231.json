@@ -1,0 +1,47 @@
+{
+  "cik": "0001062231",
+  "ticker": "AXL",
+  "name": "AMERICAN AXLE & MANUFACTURING HOLDINGS INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3714",
+  "sicDescription": "Motor Vehicle Parts & Accessories",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "383161171",
+  "phone": "3137583600",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ONE DAUCH DRIVE",
+      "street2": null,
+      "city": "DETROIT",
+      "stateOrCountry": "MI",
+      "zipCode": "48211-1198",
+      "stateOrCountryDescription": "MI",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "ONE DAUCH DRIVE",
+      "street2": null,
+      "city": "DETROIT",
+      "stateOrCountry": "MI",
+      "zipCode": "48211-1198",
+      "stateOrCountryDescription": "MI",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-19"
+  },
+  "filings_count": 1001
+}

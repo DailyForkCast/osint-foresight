@@ -1,0 +1,48 @@
+{
+  "cik": "0001847345",
+  "ticker": "ASBPW",
+  "name": "Aspire Biopharma Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "2834",
+  "sicDescription": "Pharmaceutical Preparations",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "561-704-8527",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "23150 FASHION DRIVE, SUITE 232",
+      "street2": null,
+      "city": "ESTERO",
+      "stateOrCountry": "FL",
+      "zipCode": "33928",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "23150 FASHION DRIVE, SUITE 232",
+      "street2": null,
+      "city": "ESTERO",
+      "stateOrCountry": "FL",
+      "zipCode": "33928",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-22"
+  },
+  "filings_count": 170
+}

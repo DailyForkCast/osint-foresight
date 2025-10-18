@@ -1,0 +1,145 @@
+{
+  "summary": {
+    "lines_checked": 2000000,
+    "excluded_us_locations": 206,
+    "actual_china_found": 4843,
+    "percentage": 0.24215,
+    "extrapolated_total": 238429
+  },
+  "companies": {
+    "dji": 284,
+    "vivo": 38,
+    "lenovo": 23,
+    "chinaunicom": 2,
+    "smic": 3,
+    "comac": 13,
+    "crrc": 7,
+    "tcl": 13
+  },
+  "locations": {
+    "beijing": 88,
+    "shanghai": 24
+  },
+  "samples": [
+    {
+      "line_number": 629,
+      "matched_pattern": "\\bchina\\b(?!\\s+(lake|spring|grove|beach|creek|point|camp))",
+      "sample_text": "200739285\t4732_4732_47QSCC22F300X_0_47QSCC21A0003_0\tN\tNO\t2022-04-19 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t4732\t\\N\t2\" FLAT CHINA BRSTL WHT SOLVENT-PROOF CHI\t0\t\\N\tMSC INDUSTRIAL DIRECT CO., INC.\t\\N\t047\tGeneral Services Administration (GSA)\t47QSCC\tGSA/FAS CENTER OF INNOVATIVE ACQUIS\t4732\tFEDERAL ACQUISITION SERVICE\t1437.71\t1437.71\t{special_designations,us_owned_business,other_than_small_business,category_business,corporate_entity_not_tax_exempt}\t4J007\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED",
+      "field_count": 305
+    },
+    {
+      "line_number": 1756,
+      "matched_pattern": "\\bmade in china\\b",
+      "sample_text": "195023503\t4732_4732_47QSHA22F11GE_0_47QSHA21A0003_0\tN\tNO\t2022-01-18 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t4732\t\\N\tSCISSORS, LADIES (SEWING): MSP - 4,375. PRODUCT MADE IN CHINA. PLEASE SEE IPD OR LONG DESCRIPTION FOR FURTHER INFORMATION.\t0\t\\N\tGIGA, INC.\t096628409\t047\tGeneral Services Administration (GSA)\t47QSHA\tGSA/FAS HEARTLAND ACQUISITION CENTE\t4732\tFEDERAL ACQUISITION SERVICE\t19.80\t19.80\t{category_business,us_owned_business,small_business,special_designations,corporate_entity_not_tax_exempt}\t",
+      "field_count": 305
+    },
+    {
+      "line_number": 2399,
+      "matched_pattern": "\\bchina\\b(?!\\s+(lake|spring|grove|beach|creek|point|camp))",
+      "sample_text": "178784124\t1344_-none-_1333BJ21P00142002_0_-none-_0\tN\tNO\t2021-08-03 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t1344\t\\N\tIP DARTS DATABASE SUBSCRIPTION - CROSSBOW IP SERVICES, LLC\t0\t\\N\tCLARIVATE ANALYTICS (US) LLC\t002320455\t013\tDepartment of Commerce (DOC)\t1333BJ\tDEPT OF COMMERCE PTO\t1344\tUS PATENT AND TRADEMARK OFFICE\t5092.32\t5092.32\t{corporate_entity_not_tax_exempt,category_business,foreign_owned_and_us_located_business,other_than_small_business,foreign_owned_and_located_business,special_designations",
+      "field_count": 305
+    },
+    {
+      "line_number": 3662,
+      "matched_pattern": "\\bbeijing\\b",
+      "sample_text": "194596597\t1900_-none-_19CH5021P2607_P00003_-none-_0\tN\tNO\t2022-01-11 00:00:00\tB\tSUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE\tNONE: NONE OF THE ABOVE\t1900\t\\N\tWI-FI INFRASTRUCTURE INSTALLATION\tP00003\t\\N\tBEIJING TELECOM ENGINEERING BUREAU CO., LTD\t529062707\t019\tDepartment of State (DOS)\t19CH50\tU.S. EMBASSY BEIJING\t1900\tSTATE, DEPARTMENT OF\t4776.80\t4776.80\t{corporate_entity_not_tax_exempt,category_business,other_than_small_business,foreign_owned_and_located_business,special_designations}\tSGYQ1\tNO\tN\tC",
+      "field_count": 305
+    },
+    {
+      "line_number": 3683,
+      "matched_pattern": "\\bbeijing\\b",
+      "sample_text": "194470871\t1900_-none-_19CH5022P2240_0_-none-_0\tN\tNO\t2022-01-09 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t1900\t\\N\tBEIJING FAC NEC BUY DIESEL TO FILL UNDERGROUND DIESEL TANK\t0\t\\N\tBEIJING JUMING TIANSHENG COMPANY\t548343265\t019\tDepartment of State (DOS)\t19CH50\tU.S. EMBASSY BEIJING\t1900\tSTATE, DEPARTMENT OF\t80100.52\t80100.52\t{category_business,other_than_small_business,foreign_owned_and_located_business,special_designations,limited_liability_corporation,sole_proprietorship}\tSFFN1\tNO\tN\tCOMMERCIAL ITEM\tA\t",
+      "field_count": 305
+    },
+    {
+      "line_number": 4192,
+      "matched_pattern": "\\bshanghai\\b",
+      "sample_text": "193833665\t1900_-none-_19CH2522P6056_0_-none-_0\tN\tNO\t2021-12-23 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t1900\t\\N\tPACK-OUT FOR SUZIE OH (CONS)\t0\t\\N\tAGS FOUR WINDS INTERNATIONAL TRANSPORT SERVICES (SHANGHAI) CO., LTD GUANGZHOU BRANCH\t543421901\t019\tDepartment of State (DOS)\t19CH25\tAMERICAN CONSULATE GUANGZHOU\t1900\tSTATE, DEPARTMENT OF\t12856.92\t12856.92\t{category_business,special_designations,foreign_owned_and_located_business,other_than_small_business,corporate_entity_not_tax_exempt}\tSDLF9\tNO\tN\tCOMMER",
+      "field_count": 305
+    },
+    {
+      "line_number": 4196,
+      "matched_pattern": "\\bbeijing\\b",
+      "sample_text": "193827001\t1900_-none-_19CH5019D2000_P00008_-none-_-none-\tN\tNO\t2021-12-23 00:00:00\tB\tSUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE\tNONE: NONE OF THE ABOVE\t1900\t\\N\tLE STAFF HEALTH AND LIFE INSURANCE SERVICES\tP00008\t\\N\tAIA COMPANY LIMITED BEIJING BRANCH\t544865363\t019\tDepartment of State (DOS)\t19CH50\tU.S. EMBASSY BEIJING\t1900\tSTATE, DEPARTMENT OF\t0.00\t\\N\t{category_business,special_designations,foreign_owned_and_located_business,other_than_small_business,corporate_entity_not_tax_exempt}\tSDKB7\tNO\tN\tCOM",
+      "field_count": 305
+    },
+    {
+      "line_number": 5243,
+      "matched_pattern": "\\bchina\\b(?!\\s+(lake|spring|grove|beach|creek|point|camp))",
+      "sample_text": "195025715\t4732_4732_47QSWA22F1DWZ_0_47QSWA20A001K_0\tN\tNO\t2022-01-18 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t4732\t\\N\tABSORBER, OVERVOLTAGE: 6 OUTLETS; 15' L CORD; SUGE INDICATOR; ON/OFF SWITCH; UL 1449 CERTIFIED\t0\t\\N\tA-LINE ACCESSORIES INC.\t788852288\t047\tGeneral Services Administration (GSA)\t47QSWA\tGSA/FAS SCIENTFC,TEMP SVCS,ADINT\t4732\tFEDERAL ACQUISITION SERVICE\t24.68\t24.68\t{category_business,us_owned_business,small_business,special_designations,corporate_entity_not_tax_exempt,manufacturer_of_goo",
+      "field_count": 305
+    },
+    {
+      "line_number": 5314,
+      "matched_pattern": "\\bchina\\b(?!\\s+(lake|spring|grove|beach|creek|point|camp))",
+      "sample_text": "195025736\t4732_4732_47QSWA22F1DY7_0_GS07FGA427_0\tN\tNO\t2022-01-18 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t4732\t\\N\tSURGE SUPPRESSOR\t0\t\\N\tA-LINE ACCESSORIES INC.\t788852288\t047\tGeneral Services Administration (GSA)\t47QSWA\tGSA/FAS SCIENTFC,TEMP SVCS,ADINT\t4732\tFEDERAL ACQUISITION SERVICE\t72.60\t72.60\t{category_business,us_owned_business,small_business,special_designations,corporate_entity_not_tax_exempt,manufacturer_of_goods}\t43SB9\tNO\tN\tCOMMERCIAL ITEM PROCEDURES NOT USED\tD\tNO\tN\tD\tNOT CONSOLIDATED\tNOT ",
+      "field_count": 305
+    },
+    {
+      "line_number": 5319,
+      "matched_pattern": "\\bchina\\b(?!\\s+(lake|spring|grove|beach|creek|point|camp))",
+      "sample_text": "195025738\t4732_4732_47QSWA22F1DY9_0_47QSWA20A000G_0\tN\tNO\t2022-01-18 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t4732\t\\N\tPADLOCK\t0\t\\N\tINDUSTRIAL SUPPLY SOLUTIONS, INC.\t604864017\t047\tGeneral Services Administration (GSA)\t47QSWA\tGSA/FAS SCIENTFC,TEMP SVCS,ADINT\t4732\tFEDERAL ACQUISITION SERVICE\t109.50\t109.50\t{veteran_owned_business,category_business,us_owned_business,small_business,special_designations,corporate_entity_not_tax_exempt}\t1H4R3\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNOT APPLICABLE\tX\t",
+      "field_count": 305
+    },
+    {
+      "line_number": 5336,
+      "matched_pattern": "\\bchina\\b(?!\\s+(lake|spring|grove|beach|creek|point|camp))",
+      "sample_text": "195025758\t4732_4732_47QSWA22F1E00_0_47QSWA20A000G_0\tN\tNO\t2022-01-18 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t4732\t\\N\tPADLOCK\t0\t\\N\tINDUSTRIAL SUPPLY SOLUTIONS, INC.\t604864017\t047\tGeneral Services Administration (GSA)\t47QSWA\tGSA/FAS SCIENTFC,TEMP SVCS,ADINT\t4732\tFEDERAL ACQUISITION SERVICE\t65.70\t65.70\t{veteran_owned_business,category_business,us_owned_business,small_business,special_designations,corporate_entity_not_tax_exempt}\t1H4R3\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNOT APPLICABLE\tX\tNO",
+      "field_count": 305
+    },
+    {
+      "line_number": 5359,
+      "matched_pattern": "\\bchina\\b(?!\\s+(lake|spring|grove|beach|creek|point|camp))",
+      "sample_text": "195025774\t4732_4732_47QSWA22F1E12_0_47QSWA22T0001_0\tN\tNO\t2022-01-18 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t4732\t\\N\tHEADLAMP: USES THREE (3) AAA ALKALINE BATTERIES INCLUDED, ADJUSTABLE CLOTH STRAP FOR HEAD, HEAVY DUTY RUBBER STRAP FOR HELMET, VERTICAL ADJUSTMENT CAPABILITY, 73 METERS BEAM DISTANCE MINIMUM, 1500 CANDELA MINIMUM BEAM INTENSITY, RUN TIME ON BATT\t0\t\\N\tBEAM DISTRIBUTING, INC.\t038064981\t047\tGeneral Services Administration (GSA)\t47QSWA\tGSA/FAS SCIENTFC,TEMP SVCS,ADINT\t4732\tFEDERAL ACQUI",
+      "field_count": 305
+    },
+    {
+      "line_number": 5531,
+      "matched_pattern": "\\bbeijing\\b",
+      "sample_text": "202317287\t1900_-none-_19CH5022A2010_0_-none-_-none-\tN\tNO\t2022-05-19 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t1900\t\\N\tNOT FOREIGN AID ASSISTANCE\t0\t\\N\tSHANGHAI PANDA CULTURE DISSEMINATION CO., LTD.\t\\N\t019\tDepartment of State (DOS)\t19CH50\tU.S. EMBASSY BEIJING\t1900\tSTATE, DEPARTMENT OF\t85287.00\t\\N\t{us_owned_business,category_business,other_than_small_business,international_organization,special_designations}\tSCQE5\tNO\tN\tCOMMERCIAL ITEM PROCEDURES NOT USED\tD\t\\N\t\\N\tD\tNOT CONSOLIDATED\tNOT APPLICABLE\tX\tNOT ",
+      "field_count": 305
+    },
+    {
+      "line_number": 5547,
+      "matched_pattern": "\\bbeijing\\b",
+      "sample_text": "202317288\t1900_-none-_19CH5022A2011_0_-none-_-none-\tN\tNO\t2022-05-19 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t1900\t\\N\tIS NOT FOREIGN ASSISTANCE\t0\t\\N\tACADEMIC TRAVEL ABROAD, INC\t\\N\t019\tDepartment of State (DOS)\t19CH50\tU.S. EMBASSY BEIJING\t1900\tSTATE, DEPARTMENT OF\t85300.00\t\\N\t{subchapter_s_corporation,women_owned_small_business,us_owned_business,small_business,corporate_entity_not_tax_exempt,category_business,woman_owned_business,other_than_small_business,special_designations}\t0GR02\tNO\tN\tCOMMERCIAL ",
+      "field_count": 305
+    },
+    {
+      "line_number": 6262,
+      "matched_pattern": "\\bdji\\b",
+      "sample_text": "182334550\t1900_-none-_19DJ1021C0009_0_-none-_0\tN\tNO\t2021-09-15 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t1900\t\\N\tFAC-NEC CHANCERY HYDRONIC TREATMENT PM SERVICE CONTRACT FROM 10/01/2021 TO 09/30/2022\t0\t\\N\tFLUID SOLUTIONS, LLC\t832635440\t019\tDepartment of State (DOS)\t19DJ10\tU.S. EMBASSY DJIBOUTI\t1900\tSTATE, DEPARTMENT OF\t19980.00\t19980.00\t{limited_liability_corporation,special_designations,category_business,small_business,us_owned_business}\t597Y0\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNOT APPL",
+      "field_count": 305
+    },
+    {
+      "line_number": 6960,
+      "matched_pattern": "\\bchina\\b(?!\\s+(lake|spring|grove|beach|creek|point|camp))",
+      "sample_text": "202395627\t3600_-none-_36C10X22C0007_P00003_-none-_0\tN\tNO\t2022-05-20 00:00:00\tB\tSUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE\tNONE: NONE OF THE ABOVE\t3600\t\\N\tCOVID-19 TEST KITS\tP00003\t\\N\tBECTON, DICKINSON AND COMPANY\t\\N\t036\tDepartment of Veterans Affairs (VA)\t36C10X\tSAC FREDERICK (36C10X)\t3600\tVETERANS AFFAIRS, DEPARTMENT OF\t0.00\t0.00\t{us_owned_business,category_business,corporate_entity_not_tax_exempt,other_than_small_business,special_designations,manufacturer_of_goods}\t22790\tNO\tN\tCOMMERCIAL ITEM",
+      "field_count": 305
+    },
+    {
+      "line_number": 7157,
+      "matched_pattern": "\\bvivo\\b",
+      "sample_text": "195019810\t1524_1524_15DDHQ21F00000340_P00001_15DDHQ19A00000016_0\tN\tNO\t2022-01-19 00:00:00\tM\tOTHER ADMINISTRATIVE ACTION\tNONE: NONE OF THE ABOVE\t1524\t\\N\tCALL ORDER FOR SCIENTIFIC INVESTIGATION UNDER BPA NUMBER 15DDHQ19A00000016 FOR PHARMACOLOGICAL TESTING  EVALUATION OF ABUSE POTENTIAL OF SYNTHETIC OPIOIDS USING IN VIVO PHARMACOLOGICAL STUDIES.\tP00001\t\\N\tUNIVERSITY OF NORTH TEXAS HEALTH SCIENCE CENTER AT FORT WORTH\t110091808\t015\tDepartment of Justice (DOJ)\t15DDHQ\tHEADQUATERS\t1524\tDRUG ENFORCEMENT",
+      "field_count": 305
+    },
+    {
+      "line_number": 7549,
+      "matched_pattern": "\\bmade in china\\b",
+      "sample_text": "194587684\t4732_4732_47QSHA22F0YBF_0_47QSHA21A0008_0\tN\tNO\t2022-01-11 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t4732\t\\N\tSHEARS, STRAIGHT TRIMMERS: MSP - 29,568 PLEASE SEE IPD OR LONG DESCRIPTION FOR FURTHER DETAILS. PRODUCT MADE IN CHINA.\t0\t\\N\tPREMIER & COMPANIES INC.\t\\N\t047\tGeneral Services Administration (GSA)\t47QSHA\tGSA/FAS HEARTLAND ACQUISITION CENTE\t4732\tFEDERAL ACQUISITION SERVICE\t44.60\t44.60\t{category_business,small_business}\t3Z0C0\tNO\tN\tCOMMERCIAL ITEM\tA\tNO\tN\tD\tNOT CONSOLIDATED\tNOT APPLICABLE\t",
+      "field_count": 305
+    },
+    {
+      "line_number": 7578,
+      "matched_pattern": "\\bchina\\b(?!\\s+(lake|spring|grove|beach|creek|point|camp))",
+      "sample_text": "194587750\t4732_4732_47QSHA22F0YDK_0_47QSHA21A0001_0\tN\tNO\t2022-01-11 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t4732\t\\N\tHANDLE, HINGED, SEE ITEM PURCHASE DESCRIPTION IN CONTRACT ITEM MANUFACTURED IN CHINA IS ACCEPTABLE.\t0\t\\N\tAMERICAN KAL ENTERPRISES, INC.\t050785898\t047\tGeneral Services Administration (GSA)\t47QSHA\tGSA/FAS HEARTLAND ACQUISITION CENTE\t4732\tFEDERAL ACQUISITION SERVICE\t238.50\t238.50\t{asian_pacific_american_owned_business,small_business,corporate_entity_not_tax_exempt,category_business,man",
+      "field_count": 305
+    },
+    {
+      "line_number": 7640,
+      "matched_pattern": "\\bmade in china\\b",
+      "sample_text": "194587897\t4732_4732_47QSHA22F0YK8_0_47QSHA21A0003_0\tN\tNO\t2022-01-11 00:00:00\t\\N\t\\N\tNONE: NONE OF THE ABOVE\t4732\t\\N\tSHEARS, STRAIGHT TRIMMERS: MSP - 29,568 PLEASE SEE IPD OR LONG DESCRIPTION FOR FURTHER DETAILS. PRODUCT MADE IN CHINA.\t0\t\\N\tGIGA, INC.\t096628409\t047\tGeneral Services Administration (GSA)\t47QSHA\tGSA/FAS HEARTLAND ACQUISITION CENTE\t4732\tFEDERAL ACQUISITION SERVICE\t8.18\t8.18\t{small_business,corporate_entity_not_tax_exempt,category_business,us_owned_business,special_designations}\t8S706\t",
+      "field_count": 305
+    }
+  ]
+}

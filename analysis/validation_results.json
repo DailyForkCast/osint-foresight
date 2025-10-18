@@ -1,0 +1,126 @@
+{
+  "timestamp": "2025-09-29T21:03:56.658187",
+  "stages": {
+    "pre_extraction": {
+      "stage": "PRE_EXTRACTION",
+      "checks": [
+        {
+          "check": "file_integrity",
+          "status": "FAIL",
+          "details": [
+            "OpenAlex: 971 files, 0 corrupted",
+            "Corrupted: TED_monthly_2024_08.tar.gz",
+            "TED: 139 archives, 1 corrupted"
+          ]
+        },
+        {
+          "check": "archive_structure",
+          "status": "WARNING",
+          "details": [
+            "TED: Double-wrapped - 22 inner archives found"
+          ]
+        },
+        {
+          "check": "disk_space",
+          "status": "PASS",
+          "details": [
+            "F: Drive - Free: 5465.7GB, Total: 7451.7GB, Used: 26.7%"
+          ]
+        },
+        {
+          "check": "file_counts",
+          "status": "WARNING",
+          "details": [
+            "OpenAlex: Only 971 files (expected 1000s for full dataset)",
+            "USAspending: 74 .dat.gz files"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    "post_extraction": {
+      "stage": "POST_EXTRACTION",
+      "checks": [
+        {
+          "check": "record_counts",
+          "status": "WARNING",
+          "details": [
+            "China entities: 151 (expected >1000)",
+            "TED contracts: 0 (expected >100)",
+            "Patents: 8945 \u2713",
+            "SEC companies: 805 \u2713"
+          ]
+        },
+        {
+          "check": "data_completeness",
+          "status": "PASS",
+          "details": []
+        },
+        {
+          "check": "date_ranges",
+          "status": "PASS",
+          "details": []
+        },
+        {
+          "check": "encoding",
+          "status": "PASS",
+          "details": []
+        }
+      ],
+      "passed": true
+    },
+    "cross_source": {
+      "stage": "CROSS_SOURCE",
+      "checks": [
+        {
+          "check": "entity_consistency",
+          "status": "PASS",
+          "details": []
+        },
+        {
+          "check": "duplicates",
+          "status": "PASS",
+          "details": []
+        },
+        {
+          "check": "country_codes",
+          "status": "PASS",
+          "details": []
+        },
+        {
+          "check": "value_ranges",
+          "status": "PASS",
+          "details": []
+        }
+      ],
+      "passed": true
+    },
+    "final": {
+      "stage": "FINAL",
+      "checks": [
+        {
+          "check": "statistical_anomalies",
+          "status": "PASS",
+          "details": []
+        },
+        {
+          "check": "referential_integrity",
+          "status": "PASS",
+          "details": []
+        },
+        {
+          "check": "business_logic",
+          "status": "PASS",
+          "details": []
+        }
+      ],
+      "passed": true
+    }
+  },
+  "errors": [],
+  "warnings": [
+    "TED archives are double-wrapped",
+    "OpenAlex appears to be sample data only"
+  ],
+  "metrics": {}
+}

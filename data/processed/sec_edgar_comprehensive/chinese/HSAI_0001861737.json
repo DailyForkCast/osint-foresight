@@ -1,0 +1,52 @@
+{
+  "cik": "0001861737",
+  "ticker": "HSAI",
+  "name": "Hesai Group",
+  "detection_reasons": [
+    "location:china",
+    "location:shanghai",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "3569",
+  "sicDescription": "General Industrial Machinery & Equipment, NEC",
+  "category": "Accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86 21 31588240",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1588 ZHUGUANG ROAD",
+      "street2": "9TH FLOOR, BUILDING L2-B",
+      "city": "SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "201702",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1588 ZHUGUANG ROAD",
+      "street2": "9TH FLOOR, BUILDING L2-B",
+      "city": "SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "201702",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-11"
+  },
+  "filings_count": 82
+}

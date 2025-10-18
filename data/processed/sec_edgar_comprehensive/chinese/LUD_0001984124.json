@@ -1,0 +1,47 @@
+{
+  "cik": "0001984124",
+  "ticker": "LUD",
+  "name": "Luda Technology Group Ltd",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "3317",
+  "sicDescription": "Steel Pipe & Tubes",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "852 2994 8774",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT H, 13/F, KAISER ESTATE PHASE 2",
+      "street2": "47-53 MAN YUE STREET",
+      "city": "HUNG HOM, KOWLOON",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "UNIT H, 13/F, KAISER ESTATE PHASE 2",
+      "street2": "47-53 MAN YUE STREET",
+      "city": "HUNG HOM, KOWLOON",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-07-15"
+  },
+  "filings_count": 47
+}

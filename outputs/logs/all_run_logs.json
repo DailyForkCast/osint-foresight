@@ -1,0 +1,292 @@
+[
+  {
+    "run_id": "d9800b1e-b55a-452a-bd30-c6759d51f4aa",
+    "phase": "Phase 0",
+    "step": "readiness_check",
+    "status": "success",
+    "timestamp": "2025-09-24T18:13:55.005397",
+    "duration_seconds": null,
+    "metadata": {
+      "readiness_score": 0.8819400249642544,
+      "status": "CONDITIONAL"
+    }
+  },
+  {
+    "run_id": "d9800b1e-b55a-452a-bd30-c6759d51f4aa",
+    "phase": "Phase 1",
+    "step": "readiness_check",
+    "status": "success",
+    "timestamp": "2025-09-24T18:13:55.010965",
+    "duration_seconds": 0.005568,
+    "metadata": {
+      "readiness_score": 0.905089773336326,
+      "status": "READY"
+    }
+  },
+  {
+    "run_id": "d9800b1e-b55a-452a-bd30-c6759d51f4aa",
+    "phase": "Phase 2",
+    "step": "readiness_check",
+    "status": "success",
+    "timestamp": "2025-09-24T18:13:55.015978",
+    "duration_seconds": 0.005013,
+    "metadata": {
+      "readiness_score": 0.9265355500380301,
+      "status": "READY"
+    }
+  },
+  {
+    "run_id": "d9800b1e-b55a-452a-bd30-c6759d51f4aa",
+    "phase": "Phase 3",
+    "step": "readiness_check",
+    "status": "success",
+    "timestamp": "2025-09-24T18:13:55.019984",
+    "duration_seconds": 0.004006,
+    "metadata": {
+      "readiness_score": 0.8345056778245363,
+      "status": "CONDITIONAL"
+    }
+  },
+  {
+    "run_id": "d9800b1e-b55a-452a-bd30-c6759d51f4aa",
+    "phase": "Phase 4",
+    "step": "readiness_check",
+    "status": "success",
+    "timestamp": "2025-09-24T18:13:55.023986",
+    "duration_seconds": 0.004002,
+    "metadata": {
+      "readiness_score": 0.8641655015356497,
+      "status": "CONDITIONAL"
+    }
+  },
+  {
+    "run_id": "d9800b1e-b55a-452a-bd30-c6759d51f4aa",
+    "phase": "Phase 5",
+    "step": "readiness_check",
+    "status": "success",
+    "timestamp": "2025-09-24T18:13:55.027502",
+    "duration_seconds": 0.003516,
+    "metadata": {
+      "readiness_score": 0.9243722828513203,
+      "status": "READY"
+    }
+  },
+  {
+    "run_id": "d9800b1e-b55a-452a-bd30-c6759d51f4aa",
+    "phase": "Phase 6",
+    "step": "readiness_check",
+    "status": "success",
+    "timestamp": "2025-09-24T18:13:55.030510",
+    "duration_seconds": 0.003008,
+    "metadata": {
+      "readiness_score": 0.8768822826626432,
+      "status": "CONDITIONAL"
+    }
+  },
+  {
+    "run_id": "d9800b1e-b55a-452a-bd30-c6759d51f4aa",
+    "phase": "Phase 6",
+    "step": "access_control_setup",
+    "status": "success",
+    "timestamp": "2025-09-24T18:13:55.036512",
+    "duration_seconds": null,
+    "metadata": {
+      "roles_defined": 4,
+      "classifications": 4
+    }
+  },
+  {
+    "run_id": "d9800b1e-b55a-452a-bd30-c6759d51f4aa",
+    "phase": "Phase 6",
+    "step": "retention_setup",
+    "status": "success",
+    "timestamp": "2025-09-24T18:13:55.040510",
+    "duration_seconds": null,
+    "metadata": {
+      "policies_created": 4,
+      "clocks_started": 4
+    }
+  },
+  {
+    "run_id": "d9800b1e-b55a-452a-bd30-c6759d51f4aa",
+    "phase": "Phase 6",
+    "step": "quality_gate_data_ingestion",
+    "status": "success",
+    "timestamp": "2025-09-24T18:13:55.043028",
+    "duration_seconds": null,
+    "metadata": {
+      "metrics": {
+        "parse_success_rate": {
+          "threshold": 0.95,
+          "current": 0.97,
+          "status": "PASS"
+        },
+        "schema_compliance": {
+          "threshold": 0.9,
+          "current": 0.93,
+          "status": "PASS"
+        },
+        "data_completeness": {
+          "threshold": 0.85,
+          "current": 0.88,
+          "status": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "run_id": "d9800b1e-b55a-452a-bd30-c6759d51f4aa",
+    "phase": "Phase 6",
+    "step": "quality_gate_entity_resolution",
+    "status": "success",
+    "timestamp": "2025-09-24T18:13:55.053187",
+    "duration_seconds": null,
+    "metadata": {
+      "metrics": {
+        "precision": {
+          "threshold": 0.9,
+          "current": 0.92,
+          "status": "PASS"
+        },
+        "recall": {
+          "threshold": 0.85,
+          "current": 0.87,
+          "status": "PASS"
+        },
+        "alias_coverage": {
+          "threshold": 0.7,
+          "current": 0.75,
+          "status": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "run_id": "d9800b1e-b55a-452a-bd30-c6759d51f4aa",
+    "phase": "Phase 6",
+    "step": "quality_gate_china_signals",
+    "status": "success",
+    "timestamp": "2025-09-24T18:13:55.058149",
+    "duration_seconds": null,
+    "metadata": {
+      "metrics": {
+        "false_positive_rate": {
+          "threshold": 0.05,
+          "current": 0.03,
+          "status": "PASS"
+        },
+        "false_negative_rate": {
+          "threshold": 0.1,
+          "current": 0.08,
+          "status": "PASS"
+        },
+        "variant_coverage": {
+          "threshold": 0.8,
+          "current": 0.82,
+          "status": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "run_id": "d9800b1e-b55a-452a-bd30-c6759d51f4aa",
+    "phase": "Phase 6",
+    "step": "quality_gate_reconciliation",
+    "status": "success",
+    "timestamp": "2025-09-24T18:13:55.063380",
+    "duration_seconds": null,
+    "metadata": {
+      "metrics": {
+        "match_rate": {
+          "threshold": 0.75,
+          "current": 0.78,
+          "status": "PASS"
+        },
+        "discrepancy_delta": {
+          "threshold": 0.05,
+          "current": 0.03,
+          "status": "PASS"
+        },
+        "confidence_interval": {
+          "threshold": 0.95,
+          "current": 0.95,
+          "status": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "run_id": "d9800b1e-b55a-452a-bd30-c6759d51f4aa",
+    "phase": "Phase 6",
+    "step": "break_glass_setup",
+    "status": "success",
+    "timestamp": "2025-09-24T18:13:55.067352",
+    "duration_seconds": null,
+    "metadata": {
+      "procedures_defined": 4,
+      "approval_levels": 4
+    }
+  },
+  {
+    "run_id": "d9800b1e-b55a-452a-bd30-c6759d51f4aa",
+    "phase": "Phase 6",
+    "step": "monitor_data_ingestion",
+    "status": "success",
+    "timestamp": "2025-09-24T18:13:55.071343",
+    "duration_seconds": null,
+    "metadata": {
+      "process": "data_ingestion",
+      "status": "running",
+      "health": "healthy",
+      "throughput": "1000 records/sec",
+      "errors": 0,
+      "warnings": 2
+    }
+  },
+  {
+    "run_id": "d9800b1e-b55a-452a-bd30-c6759d51f4aa",
+    "phase": "Phase 6",
+    "step": "monitor_entity_resolution",
+    "status": "success",
+    "timestamp": "2025-09-24T18:13:55.075330",
+    "duration_seconds": null,
+    "metadata": {
+      "process": "entity_resolution",
+      "status": "idle",
+      "health": "healthy",
+      "last_run": "2025-09-24T18:13:55.071343",
+      "next_run": "2025-09-24T19:13:55.071343"
+    }
+  },
+  {
+    "run_id": "d9800b1e-b55a-452a-bd30-c6759d51f4aa",
+    "phase": "Phase 6",
+    "step": "monitor_china_signal_detection",
+    "status": "warning",
+    "timestamp": "2025-09-24T18:13:55.079865",
+    "duration_seconds": null,
+    "metadata": {
+      "process": "china_signal_detection",
+      "status": "running",
+      "health": "degraded",
+      "throughput": "500 records/sec",
+      "errors": 5,
+      "warnings": 12
+    }
+  },
+  {
+    "run_id": "d9800b1e-b55a-452a-bd30-c6759d51f4aa",
+    "phase": "Phase 6",
+    "step": "monitor_quality_monitoring",
+    "status": "success",
+    "timestamp": "2025-09-24T18:13:55.085865",
+    "duration_seconds": null,
+    "metadata": {
+      "process": "quality_monitoring",
+      "status": "running",
+      "health": "healthy",
+      "checks_passed": 47,
+      "checks_failed": 3
+    }
+  }
+]

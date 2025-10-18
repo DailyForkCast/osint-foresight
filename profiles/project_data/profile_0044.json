@@ -1,0 +1,44 @@
+{
+  "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_germany_china\\analysis_20250920_175532.json",
+  "size": 670,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 1,
+  "field_count": 5,
+  "parse_status": "success",
+  "schema": {
+    "summary": "object",
+    "temporal_analysis": "object",
+    "institutional_analysis": "object",
+    "technology_overlap": "object",
+    "verification": "object"
+  },
+  "sample_records": [
+    {
+      "summary": {
+        "total_papers_analyzed": 318,
+        "germany_papers": 8,
+        "china_papers": 2,
+        "germany_china_collaborations": 0,
+        "collaboration_rate": 0.0,
+        "processing_errors": 0
+      },
+      "temporal_analysis": {
+        "yearly_collaborations": {},
+        "trend": "DECREASING"
+      },
+      "institutional_analysis": {
+        "top_german_institutions": {},
+        "top_chinese_institutions": {}
+      },
+      "technology_overlap": {},
+      "verification": {
+        "data_source": "OpenAlex",
+        "processing_timestamp": "2025-09-20T17:55:32.863493",
+        "records_with_verification_hash": 0,
+        "recompute_command": "python process_openalex_germany_china.py"
+      }
+    }
+  ],
+  "modified": "2025-09-20T17:55:32.865510"
+}

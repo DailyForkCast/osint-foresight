@@ -1,0 +1,89 @@
+{
+  "generated": "2025-10-07T21:08:44.638644",
+  "manager_stats": {
+    "initialized": "2025-10-07T21:08:44.627661",
+    "validations_performed": 6,
+    "validations_passed": 1,
+    "validations_failed": 5,
+    "by_level": {},
+    "by_type": {
+      "data_quality": {
+        "passed": 0,
+        "failed": 1
+      },
+      "claim_evidence": {
+        "passed": 0,
+        "failed": 1
+      },
+      "multilingual": {
+        "passed": 1,
+        "failed": 1
+      },
+      "comprehensive": {
+        "passed": 0,
+        "failed": 1
+      },
+      "negative_evidence": {
+        "passed": 0,
+        "failed": 1
+      }
+    }
+  },
+  "validator_reports": {
+    "evidence": {
+      "generated": "2025-10-07T21:08:44.638644",
+      "total_claims": 1,
+      "valid_claims": 0,
+      "insufficient_evidence": 1,
+      "validity_rate": 0.0,
+      "common_issues": {
+        "Insufficient evidence quality: 0.80 < 0.80": 1
+      },
+      "by_claim_type": {},
+      "recommendations": [
+        "Strengthen evidence collection processes"
+      ]
+    },
+    "self_checking": {
+      "generated": "2025-10-07T21:08:44.638644",
+      "total_checks": 1,
+      "passed": 0,
+      "failed": 1,
+      "pass_rate": 0.0,
+      "common_issues": {
+        ".collaboration_count=222 outside rate range [0,1]": 1,
+        "Missing required fields: ['statement', 'evidence', 'confidence', 'source']": 1,
+        "Total 100 != sum of components 222": 1
+      },
+      "recommendations": [
+        "Review and update range validation rules",
+        "Urgent: Address systematic validation failures"
+      ]
+    }
+  },
+  "aggregate_metrics": {
+    "overall_pass_rate": 0.16666666666666666,
+    "by_type": {
+      "data_quality": {
+        "passed": 0,
+        "failed": 1
+      },
+      "claim_evidence": {
+        "passed": 0,
+        "failed": 1
+      },
+      "multilingual": {
+        "passed": 1,
+        "failed": 1
+      },
+      "comprehensive": {
+        "passed": 0,
+        "failed": 1
+      },
+      "negative_evidence": {
+        "passed": 0,
+        "failed": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "cik": "0001978527",
+  "ticker": "GVH",
+  "name": "Globavend Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "4731",
+  "sicDescription": "Arrangement of  Transportation of  Freight & Cargo",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "61 08 6141 3263",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "OFFICE 1401, LEVEL 14",
+      "street2": "197 ST GEORGES TCE",
+      "city": "PERTH, WA",
+      "stateOrCountry": null,
+      "zipCode": "6000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "AUSTRALIA",
+      "country": "Australia",
+      "countryCode": "C3"
+    },
+    "business": {
+      "street1": "OFFICE 1401, LEVEL 14",
+      "street2": "197 ST GEORGES TCE",
+      "city": "PERTH, WA",
+      "stateOrCountry": null,
+      "zipCode": "6000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "AUSTRALIA",
+      "country": "Australia",
+      "countryCode": "C3"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-17"
+  },
+  "filings_count": 73
+}

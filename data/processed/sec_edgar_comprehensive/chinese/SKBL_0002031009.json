@@ -1,0 +1,48 @@
+{
+  "cik": "0002031009",
+  "ticker": "SKBL",
+  "name": "Skyline Builders Group Holding Ltd",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:hong kong"
+  ],
+  "sic": "1700",
+  "sicDescription": "Construction - Special Trade Contractors",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "(852) 2811 9688",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "OFFICE A, 15/F, TOWER A, CAPITAL TOWER",
+      "street2": "NO. 38 WAI YIP STREET",
+      "city": "KOWLOON BAY",
+      "stateOrCountry": null,
+      "zipCode": "999077",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    },
+    "business": {
+      "street1": "OFFICE A, 15/F, TOWER A, CAPITAL TOWER",
+      "street2": "NO. 38 WAI YIP STREET",
+      "city": "KOWLOON BAY",
+      "stateOrCountry": null,
+      "zipCode": "999077",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-18"
+  },
+  "filings_count": 35
+}

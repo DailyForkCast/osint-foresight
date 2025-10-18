@@ -1,0 +1,47 @@
+{
+  "cik": "0000876167",
+  "ticker": "PRGS",
+  "name": "PROGRESS SOFTWARE CORP /MA",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7372",
+  "sicDescription": "Services-Prepackaged Software",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "042746201",
+  "phone": "781-280-4473",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "15 WAYSIDE ROAD, SUITE 400",
+      "street2": null,
+      "city": "BURLINGTON",
+      "stateOrCountry": "MA",
+      "zipCode": "01803",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "15 WAYSIDE ROAD, SUITE 400",
+      "street2": null,
+      "city": "BURLINGTON",
+      "stateOrCountry": "MA",
+      "zipCode": "01803",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-07-22"
+  },
+  "filings_count": 1001
+}

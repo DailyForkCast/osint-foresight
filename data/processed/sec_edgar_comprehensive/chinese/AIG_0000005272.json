@@ -1,0 +1,47 @@
+{
+  "cik": "0000005272",
+  "ticker": "AIG",
+  "name": "AMERICAN INTERNATIONAL GROUP, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6331",
+  "sicDescription": "Fire, Marine & Casualty Insurance",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": null,
+  "phone": "2127707000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1271 AVE OF THE AMERICAS",
+      "street2": "FL 37",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10020-1304",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1271 AVE OF THE AMERICAS",
+      "street2": "FL 37",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10020-1304",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-18"
+  },
+  "filings_count": 1005
+}

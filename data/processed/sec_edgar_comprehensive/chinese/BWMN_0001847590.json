@@ -1,0 +1,44 @@
+{
+  "cik": "0001847590",
+  "ticker": "BWMN",
+  "name": "Bowman Consulting Group Ltd.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "8742",
+  "sicDescription": "Services-Management Consulting Services",
+  "category": "Accelerated filer<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "541762351",
+  "phone": "703-464-1000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "12355 SUNRISE VALLEY DRIVE",
+      "street2": "SUITE 520",
+      "city": "RESTON",
+      "stateOrCountry": "VA",
+      "zipCode": "20191",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "12355 SUNRISE VALLEY DRIVE",
+      "street2": "SUITE 520",
+      "city": "RESTON",
+      "stateOrCountry": "VA",
+      "zipCode": "20191",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 436
+}

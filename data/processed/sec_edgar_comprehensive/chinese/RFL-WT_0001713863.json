@@ -1,0 +1,47 @@
+{
+  "cik": "0001713863",
+  "ticker": "RFL-WT",
+  "name": "Rafael Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2834",
+  "sicDescription": "Pharmaceutical Preparations",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "822296593",
+  "phone": "212-658-1450",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "520 BROAD STREET",
+      "street2": null,
+      "city": "NEWARK",
+      "stateOrCountry": "NJ",
+      "zipCode": "07120",
+      "stateOrCountryDescription": "NJ",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "520 BROAD STREET",
+      "street2": null,
+      "city": "NEWARK",
+      "stateOrCountry": "NJ",
+      "zipCode": "07120",
+      "stateOrCountryDescription": "NJ",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-07"
+  },
+  "filings_count": 371
+}

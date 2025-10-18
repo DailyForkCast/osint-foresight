@@ -1,0 +1,2264 @@
+[
+  {
+    "paper_id": "https://openalex.org/W2621191381",
+    "doi": null,
+    "title": "Loop-based Modeling of Parallel Communication Traces",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Laboratoire des Sciences de l'Ingénieur, de l'Informatique et de l'Imagerie"
+      ],
+      "CN": [
+        "Central Compilation & Translation Bureau"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Philippe Clauss (Laboratoire des Sciences de l'Ingénieur, de l'Informatique et de l'Imagerie)",
+        "Matthieu Kuhn (Laboratoire des Sciences de l'Ingénieur, de l'Informatique et de l'Imagerie)",
+        "Alain Ketterlin (Laboratoire des Sciences de l'Ingénieur, de l'Informatique et de l'Imagerie)",
+        "Stéphane Genaud (Laboratoire des Sciences de l'Ingénieur, de l'Informatique et de l'Imagerie)"
+      ],
+      "CN": [
+        "Philippe Clauss (Central Compilation & Translation Bureau)",
+        "Alain Ketterlin (Central Compilation & Translation Bureau)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 48,
+      "extraction_command": "sed -n '48p' part_000.gz | jq '.title'",
+      "paper_hash": "7dae73227c9de0ab"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W2221751767",
+    "doi": null,
+    "title": "Central-local authority relationships and the institutional process of city creation",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Institut d'Histoire Moderne et Contemporaine"
+      ],
+      "CN": [
+        "Development Research Center of the State Council",
+        "Nanfang Hospital"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Miguel Elosua (Institut d'Histoire Moderne et Contemporaine)"
+      ],
+      "CN": [
+        "Chi-Han Ai (Nanfang Hospital)",
+        "Shantong Li (Development Research Center of the State Council)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 10,
+      "extraction_command": "sed -n '10p' part_000.gz | jq '.title'",
+      "paper_hash": "9f121295cc885dbd"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W4288318115",
+    "doi": null,
+    "title": "Two- and three-dimensional numerical simulations of an evaporating liquid layer on a heated substrate",
+    "publication_year": 2019,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Laboratoire de Mécanique, Modélisation & Procédés Propres"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Paul G. Chen (Laboratoire de Mécanique, Modélisation & Procédés Propres)"
+      ],
+      "CN": [
+        "Q.S. Liu (Chinese Academy of Sciences)",
+        "W.J. Liu (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2019,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 103,
+      "extraction_command": "sed -n '103p' part_000.gz | jq '.title'",
+      "paper_hash": "0d0dbf9dafd07959"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W2984401232",
+    "doi": null,
+    "title": "Genetic determinism of abdominal fat tissue and relationships with body weight and egg quality in Rhode Island Red",
+    "publication_year": 2019,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Physiology, Environment, and Genetics for the Animal and Livestock Systems"
+      ],
+      "CN": [
+        "Novogene Bioinformatics Institute"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Sophie Allais (Physiology, Environment, and Genetics for the Animal and Livestock Systems)",
+        "Nicolas Bédère (Physiology, Environment, and Genetics for the Animal and Livestock Systems)",
+        "Florian Herry (Physiology, Environment, and Genetics for the Animal and Livestock Systems)",
+        "Frédéric Herault (Physiology, Environment, and Genetics for the Animal and Livestock Systems)",
+        "Pascale Le Roy (Physiology, Environment, and Genetics for the Animal and Livestock Systems)",
+        "David Picard Druet (Physiology, Environment, and Genetics for the Animal and Livestock Systems)"
+      ],
+      "CN": [
+        "Amandine Varenne (Novogene Bioinformatics Institute)",
+        "Thierry Burlot (Novogene Bioinformatics Institute)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2019,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 65,
+      "extraction_command": "sed -n '65p' part_000.gz | jq '.title'",
+      "paper_hash": "ce794d8e48a6b3ca"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W2912169378",
+    "doi": "https://doi.org/10.1145/3247129",
+    "title": "Session details: Multicore design solutions",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Techniques of Informatics and Microelectronics for Integrated Systems Architecture"
+      ],
+      "CN": [
+        "STMicroelectronics (China)"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Frédéric Pétrot (Techniques of Informatics and Microelectronics for Integrated Systems Architecture)"
+      ],
+      "CN": [
+        "Massimo Coppola (STMicroelectronics (China))"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 39969,
+      "extraction_command": "sed -n '39969p' part_000.gz | jq '.title'",
+      "paper_hash": "8dc35a59f1f9ee8e"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W3108889891",
+    "doi": null,
+    "title": "Effect of feed protein content and ventilation rate on litter quality in broiler houses",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Département Santé Animale"
+      ],
+      "CN": [
+        "Poultry Research Institute"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Filip Barbé (Département Santé Animale)"
+      ],
+      "CN": [
+        "K De Baere (Poultry Research Institute)",
+        "J. Zoons (Poultry Research Institute)",
+        "Jenny Löffel (Poultry Research Institute)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 5740,
+      "extraction_command": "sed -n '5740p' part_000.gz | jq '.title'",
+      "paper_hash": "d2a0b5d3b314a8b3"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W3135662037",
+    "doi": null,
+    "title": "Dietary protein content and ventilation rate affects litter quality, pododermatitis and water/feed ratio in broilers",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Département Santé Animale"
+      ],
+      "CN": [
+        "Poultry Research Institute"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Filip Barbé (Département Santé Animale)"
+      ],
+      "CN": [
+        "J. Zoons (Poultry Research Institute)",
+        "Jenny Löffel (Poultry Research Institute)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 5875,
+      "extraction_command": "sed -n '5875p' part_000.gz | jq '.title'",
+      "paper_hash": "715f0256464c2aab"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W4255113076",
+    "doi": "https://doi.org/10.1615/ichmt.2012.cht-12.80",
+    "title": "UNSTABLE ANISOTHERMAL MULTICOMPONENT CONVECTIVE FLOW: FROM SMALL TO LARGE SCALES",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "École Normale Supérieure Paris-Saclay",
+        "Centre National de la Recherche Scientifique",
+        "CY Cergy Paris Université"
+      ],
+      "CN": [
+        "Tianjin University of Commerce"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Rachid Bennacer (Centre National de la Recherche Scientifique)",
+        "Rachid Bennacer (CY Cergy Paris Université)",
+        "Rachid Bennacer (École Normale Supérieure Paris-Saclay)"
+      ],
+      "CN": [
+        "Rachid Bennacer (Tianjin University of Commerce)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 5784,
+      "extraction_command": "sed -n '5784p' part_000.gz | jq '.title'",
+      "paper_hash": "ea790a605e5ce54c"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W2063450183",
+    "doi": "https://doi.org/10.1615/ichmt.2009.turbulheatmasstransf.570",
+    "title": "Numerical investigation of turbulent flow in an annular duct partly filled with a porous substrate",
+    "publication_year": 2009,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "École Normale Supérieure Paris-Saclay",
+        "Centre National de la Recherche Scientifique",
+        "CY Cergy Paris Université"
+      ],
+      "CN": [
+        "Tianjin University of Commerce"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Rachid Bennacer (Centre National de la Recherche Scientifique)",
+        "Rachid Bennacer (CY Cergy Paris Université)",
+        "Rachid Bennacer (École Normale Supérieure Paris-Saclay)"
+      ],
+      "CN": [
+        "Rachid Bennacer (Tianjin University of Commerce)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2009,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1339,
+      "extraction_command": "sed -n '1339p' part_000.gz | jq '.title'",
+      "paper_hash": "e9777d0d8e7c12ca"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W2130347245",
+    "doi": "https://doi.org/10.1007/bfb0100047",
+    "title": "Quelques resultats de «mecanique stochastique»",
+    "publication_year": 1984,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Centre National de la Recherche Scientifique"
+      ],
+      "CN": [
+        "Shanghai American School"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "P. A. Meyer (Centre National de la Recherche Scientifique)"
+      ],
+      "CN": [
+        "Wan Zheng (Shanghai American School)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1984,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 13588,
+      "extraction_command": "sed -n '13588p' part_000.gz | jq '.title'",
+      "paper_hash": "f1c64c575df9aee2"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W3003126348",
+    "doi": null,
+    "title": "PREPARATION OF DENSE NANOCRYSTALLINE Bi2O3-Y2O3 SOLID ELECTROLYTE BY MICROWAVE PLASMA SINTERING",
+    "publication_year": 2007,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Catalyse",
+        "Unité de catalyse et de chimie du solide de Lille"
+      ],
+      "CN": [
+        "Shanghai Nanotechnology Promotion Center"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Rose‐Noëlle Vannier (Unité de catalyse et de chimie du solide de Lille)",
+        "M. Drache (Catalyse)",
+        "Rong Li (Unité de catalyse et de chimie du solide de Lille)",
+        "Rose‐Noëlle Vannier (Catalyse)",
+        "M. Drache (Unité de catalyse et de chimie du solide de Lille)",
+        "Rong Li (Catalyse)"
+      ],
+      "CN": [
+        "Qiang Zhen (Shanghai Nanotechnology Promotion Center)",
+        "Rong Li (Shanghai Nanotechnology Promotion Center)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2007,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 2696,
+      "extraction_command": "sed -n '2696p' part_005.gz | jq '.title'",
+      "paper_hash": "1b0dc70ff858a0f3"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W1678987376",
+    "doi": null,
+    "title": "Thermodynamic coherence of the Variational Average-Atom in Quantum Plasmas (VAAQP) approach",
+    "publication_year": 2009,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Institut Rayonnement-Matière de Saclay"
+      ],
+      "CN": [
+        "Institute of Theoretical Physics"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "R. Piron (Institut Rayonnement-Matière de Saclay)",
+        "T. Błeński (Institut Rayonnement-Matière de Saclay)"
+      ],
+      "CN": [
+        "B. Cichocki (Institute of Theoretical Physics)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2009,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 26538,
+      "extraction_command": "sed -n '26538p' part_000.gz | jq '.title'",
+      "paper_hash": "57596b5d39426be3"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W2183585544",
+    "doi": null,
+    "title": "Glottal flow models : waveforms, spectra and physical measurements",
+    "publication_year": 2002,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Laboratoire d'Informatique pour la Mécanique et les Sciences de l'Ingénieur"
+      ],
+      "CN": [
+        "Xi'an Conservatory of Music"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Boris Doval (Laboratoire d'Informatique pour la Mécanique et les Sciences de l'Ingénieur)",
+        "Nathalie Henrich Bernardoni (Laboratoire d'Informatique pour la Mécanique et les Sciences de l'Ingénieur)",
+        "Christophe d’Alessandro (Laboratoire d'Informatique pour la Mécanique et les Sciences de l'Ingénieur)"
+      ],
+      "CN": [
+        "Nathalie Henrich Bernardoni (Xi'an Conservatory of Music)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2002,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 55926,
+      "extraction_command": "sed -n '55926p' part_000.gz | jq '.title'",
+      "paper_hash": "2ab83bf77b01854a"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W2418171079",
+    "doi": "https://doi.org/10.1037/xhp0000163",
+    "title": "“Stress affects articulatory planning in reading aloud”: Correction to Sulpizio, Spinelli, and Burani (2015).",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Institut des Sciences Cognitives"
+      ],
+      "CN": [
+        "Institute of Linguistics"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Cristina Burani (Institut des Sciences Cognitives)"
+      ],
+      "CN": [
+        "Giacomo Spinelli (Institute of Linguistics)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 57062,
+      "extraction_command": "sed -n '57062p' part_000.gz | jq '.title'",
+      "paper_hash": "2776756ceacfa197"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W316776021",
+    "doi": null,
+    "title": "Optimisation globale de la commande d'un moteur synchrone à rotor bobiné. Effets sur la consommation simulée de Îhicules électriques et hybrides",
+    "publication_year": 2000,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Laboratoire Aménagement Économie Transports"
+      ],
+      "CN": [
+        "Chery Automobile (China)"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Rochdi Trigui (Laboratoire Aménagement Économie Transports)",
+        "François Badin (Laboratoire Aménagement Économie Transports)",
+        "Fabien Harel (Laboratoire Aménagement Économie Transports)",
+        "Bruno Jeanneret (Laboratoire Aménagement Économie Transports)"
+      ],
+      "CN": [
+        "S Derou (Chery Automobile (China))"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2000,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 58903,
+      "extraction_command": "sed -n '58903p' part_000.gz | jq '.title'",
+      "paper_hash": "e9e4e0afa7ef499b"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W4211265648",
+    "doi": null,
+    "title": "Evolution morphologique de la lagune à mangrove de la Manche-à-Eau (Guadeloupe, Antilles Françaises) de 1950-2004, et sa bathymétrie et sa courantologie en 2007",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Systématique, adaptation, évolution"
+      ],
+      "CN": [
+        "Guangxi Mangrove Research Center"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Jean-Luc Bouchereau (Systématique, adaptation, évolution)"
+      ],
+      "CN": [
+        "Murielle Mantran (Guangxi Mangrove Research Center)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_009.gz",
+      "line_number": 18371,
+      "extraction_command": "sed -n '18371p' part_009.gz | jq '.title'",
+      "paper_hash": "59723572a494855b"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W3123487787",
+    "doi": null,
+    "title": "Modélisation 3D des effets dégradants du cisaillement adiabatique sur la réponse d'un matériau viscoplastique",
+    "publication_year": 2003,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Laboratoire de Mécanique des Sols, Structures et Matériaux"
+      ],
+      "CN": [
+        "Guangzhou Institute of Advanced Technology"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "André Dragon (Laboratoire de Mécanique des Sols, Structures et Matériaux)",
+        "Hervé Trumel (Laboratoire de Mécanique des Sols, Structures et Matériaux)",
+        "T. de Rességuier (Laboratoire de Mécanique des Sols, Structures et Matériaux)",
+        "Patrice Longère (Laboratoire de Mécanique des Sols, Structures et Matériaux)"
+      ],
+      "CN": [
+        "Xavier Deprince (Guangzhou Institute of Advanced Technology)",
+        "Eric Petitpas (Guangzhou Institute of Advanced Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2003,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_003.gz",
+      "line_number": 15734,
+      "extraction_command": "sed -n '15734p' part_003.gz | jq '.title'",
+      "paper_hash": "57fd778f9d993af9"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W4206866089",
+    "doi": null,
+    "title": "An adaptative filtering method to evalute normal vectors and surface areas of 3d objects. Application to snow images from X-ray tomography",
+    "publication_year": 2005,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Laboratoire des Composites Thermo Structuraux",
+        "Laboratoire de Recherche en Informatique",
+        "Laboratoire Bordelais de Recherche en Informatique",
+        "Météo-France",
+        "Laboratoire d'Informatique en Images et Systèmes d'Information"
+      ],
+      "CN": [
+        "State Key Laboratory of Cryptology"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "David Cœurjolly (Laboratoire d'Informatique en Images et Systèmes d'Information)",
+        "R.A. Pieritz (Météo-France)",
+        "Olivier Teytaud (Laboratoire de Recherche en Informatique)",
+        "Cécile Coléou (Météo-France)",
+        "Jean-François Delesse (Laboratoire Bordelais de Recherche en Informatique)",
+        "Gérard L. Vignoles (Laboratoire des Composites Thermo Structuraux)",
+        "Jean-Bruno Brzoska (Météo-France)",
+        "Bernard Lesaffre (Météo-France)",
+        "Frédéric Flin (Météo-France)",
+        "Pascal Lamboley (Météo-France)"
+      ],
+      "CN": [
+        "Olivier Teytaud (State Key Laboratory of Cryptology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2005,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_004.gz",
+      "line_number": 9309,
+      "extraction_command": "sed -n '9309p' part_004.gz | jq '.title'",
+      "paper_hash": "36f5752da920f7b7"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W4206879297",
+    "doi": null,
+    "title": "Adaptive stopping criterion of PGD for edge elements based on equilibrated error estimates in magnetostatic Problems",
+    "publication_year": 2019,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Institut de Microélectronique, Electromagnétisme et Photonique",
+        "Laboratoire d'Électrotechnique et d'Électronique de Puissance de Lille"
+      ],
+      "CN": [
+        "Institute of Software",
+        "Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Thomas Henneron (Laboratoire d'Électrotechnique et d'Électronique de Puissance de Lille)",
+        "Zhuoxiang Ren (Institut de Microélectronique, Electromagnétisme et Photonique)",
+        "Zuqi Tang (Laboratoire d'Électrotechnique et d'Électronique de Puissance de Lille)"
+      ],
+      "CN": [
+        "Shuai Yang (Chinese Academy of Sciences)",
+        "Shuai Yang (Institute of Software)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2019,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_004.gz",
+      "line_number": 10901,
+      "extraction_command": "sed -n '10901p' part_004.gz | jq '.title'",
+      "paper_hash": "f542895f4a7efda1"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W4206881947",
+    "doi": null,
+    "title": "Modélisation de la résistance à la corrosion des matériaux céramiques vis-à-vis des condensats dans les échangeurs de chaleur (TES)",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Centre de Géosciences"
+      ],
+      "CN": [
+        "Cree (China)"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Laurent de Windt (Centre de Géosciences)"
+      ],
+      "CN": [
+        "Benoît Watremetz (Cree (China))"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_004.gz",
+      "line_number": 11240,
+      "extraction_command": "sed -n '11240p' part_004.gz | jq '.title'",
+      "paper_hash": "bb821decf4cafa36"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W4207091447",
+    "doi": null,
+    "title": "Model-assisted comparative analysis of sugar accumulation in fleshy fruits: grape, tomato, and peach",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Plantes et Système de Cultures Horticoles",
+        "Ecophysiologie et Génomique Fonctionnelle de la Vigne"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Valentina Baldazzi (Plantes et Système de Cultures Horticoles)",
+        "Huan Wu (Ecophysiologie et Génomique Fonctionnelle de la Vigne)",
+        "Cornelis van Leeuwen (Ecophysiologie et Génomique Fonctionnelle de la Vigne)",
+        "Nadia Bertin (Plantes et Système de Cultures Horticoles)",
+        "Zhanwu Dai (Ecophysiologie et Génomique Fonctionnelle de la Vigne)",
+        "Hélène Gautier (Plantes et Système de Cultures Horticoles)",
+        "Éric Gomès (Ecophysiologie et Génomique Fonctionnelle de la Vigne)",
+        "Michel M. Génard (Plantes et Système de Cultures Horticoles)"
+      ],
+      "CN": [
+        "Benhong Wu (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_004.gz",
+      "line_number": 15993,
+      "extraction_command": "sed -n '15993p' part_004.gz | jq '.title'",
+      "paper_hash": "976a1295a2e60dee"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W4232616974",
+    "doi": "https://doi.org/10.1057/9780230235755_1",
+    "title": "Introduction",
+    "publication_year": 2009,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "École Supérieure de Commerce de Rennes",
+        "Business France"
+      ],
+      "CN": [
+        "China Europe International Business School"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "François Lépineux (Business France)",
+        "François Lépineux (École Supérieure de Commerce de Rennes)"
+      ],
+      "CN": [
+        "Henri‐Claude de Bettignies (China Europe International Business School)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2009,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_006.gz",
+      "line_number": 25732,
+      "extraction_command": "sed -n '25732p' part_006.gz | jq '.title'",
+      "paper_hash": "74a4f7ffc5c13838"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W4309401217",
+    "doi": null,
+    "title": "The British Growth Crisis",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "FR",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University of Kent"
+      ],
+      "FR": [
+        "Centre d'études Européennes de Sciences Po"
+      ],
+      "CN": [
+        "Beihang University"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Peter Taylor‐Gooby (University of Kent)"
+      ],
+      "FR": [
+        "Colin Hay (Centre d'études Européennes de Sciences Po)"
+      ],
+      "CN": [
+        "Peter Taylor‐Gooby (Beihang University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_012.gz",
+      "line_number": 16454,
+      "extraction_command": "sed -n '16454p' part_012.gz | jq '.title'",
+      "paper_hash": "df053785db828302"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W3087250222",
+    "doi": null,
+    "title": "Evolution of calibrated particles during their compaction",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Laboratoire de Mécanique et d’Acoustique"
+      ],
+      "CN": [
+        "Beijing Research Institute of Uranium Geology"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Lise Hégron (Laboratoire de Mécanique et d’Acoustique)"
+      ],
+      "CN": [
+        "Lise Hégron (Beijing Research Institute of Uranium Geology)",
+        "Philippe Sornay (Beijing Research Institute of Uranium Geology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_011.gz",
+      "line_number": 850,
+      "extraction_command": "sed -n '850p' part_011.gz | jq '.title'",
+      "paper_hash": "6f176a4b92d8a361"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W2048159491",
+    "doi": "https://doi.org/10.1152/ajprenal.00365.2007",
+    "title": "Association of VASP with TRPC4 in PKG-mediated inhibition of the store-operated calcium response in mesangial cells",
+    "publication_year": 2007,
+    "countries_collaborating": [
+      "CN",
+      "FR",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Yale University",
+        "University of Nebraska Medical Center"
+      ],
+      "FR": [
+        "Laboratoire d’immunologie intégrative du cancer"
+      ],
+      "CN": [
+        "Shanghai Jiao Tong University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Jennifer L. Pluznick (Yale University)",
+        "Deann C. Settles (University of Nebraska Medical Center)"
+      ],
+      "FR": [
+        "Steven C. Sansom (Laboratoire d’immunologie intégrative du cancer)"
+      ],
+      "CN": [
+        "Xiaoxia Wang (Shanghai Jiao Tong University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2007,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1515,
+      "extraction_command": "sed -n '1515p' part_000.gz | jq '.title'",
+      "paper_hash": "e973679fa324bf8d"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W2072597280",
+    "doi": null,
+    "title": "A bioresorbable cardiovascular stent prepared from L -lactide, trimethylene carbonate and glycolide terpolymers",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Institut Européen des Membranes",
+        "Centre National de la Recherche Scientifique"
+      ],
+      "CN": [
+        "Fudan University",
+        "Shanghai Sixth People's Hospital"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Suming Li (Centre National de la Recherche Scientifique)",
+        "Suming Li (Institut Européen des Membranes)"
+      ],
+      "CN": [
+        "Zaishang Tan (Fudan University)",
+        "Jianting Dong (Fudan University)",
+        "Zhongyong Fan (Fudan University)",
+        "Lan Liao (Fudan University)",
+        "Zhiqian Lü (Shanghai Sixth People's Hospital)",
+        "Li Shi (Fudan University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1905,
+      "extraction_command": "sed -n '1905p' part_000.gz | jq '.title'",
+      "paper_hash": "6577352cb87adc0f"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W4205915201",
+    "doi": "https://doi.org/10.1063/1.4895615]",
+    "title": "Enhanced electrocaloric effect in lead-free BaTi 12x Sn x O 3 ceramics near room temperature",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Laboratoire de Mécanique, Modélisation & Procédés Propres"
+      ],
+      "CN": [
+        "Xi'an Jiaotong University"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Yang Liu (Laboratoire de Mécanique, Modélisation & Procédés Propres)",
+        "Brahim Dkhil (Laboratoire de Mécanique, Modélisation & Procédés Propres)"
+      ],
+      "CN": [
+        "Xiaojie Lou (Xi'an Jiaotong University)",
+        "Yonggang Yao (Xi'an Jiaotong University)",
+        "Yang Liu (Xi'an Jiaotong University)",
+        "Chenqi Liu (Xi'an Jiaotong University)",
+        "Dawei Zhang (Xi'an Jiaotong University)",
+        "Di Zhou (Xi'an Jiaotong University)",
+        "Xiaobing Ren (Xi'an Jiaotong University)",
+        "Zheng‐Dong Luo (Xi'an Jiaotong University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 724,
+      "extraction_command": "sed -n '724p' part_000.gz | jq '.title'",
+      "paper_hash": "85029bda7b36beba"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W2032706896",
+    "doi": "https://doi.org/10.1145/2783258.2783261",
+    "title": "SCRAM",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Institut National des Sciences Appliquées de Lyon",
+        "Université Claude Bernard Lyon 1"
+      ],
+      "CN": [
+        "Shanghai Jiao Tong University"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Issam Sahel (Institut National des Sciences Appliquées de Lyon)",
+        "Frédéric Le Mouël (Université Claude Bernard Lyon 1)",
+        "Issam Sahel (Université Claude Bernard Lyon 1)",
+        "Frédéric Le Mouël (Institut National des Sciences Appliquées de Lyon)"
+      ],
+      "CN": [
+        "Shiyou Qian (Shanghai Jiao Tong University)",
+        "Jian Cao (Shanghai Jiao Tong University)",
+        "Minglu Li (Shanghai Jiao Tong University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 3591,
+      "extraction_command": "sed -n '3591p' part_000.gz | jq '.title'",
+      "paper_hash": "07a78ba808d48a8d"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W2041828907",
+    "doi": "https://doi.org/10.1002/jgt.v62:3",
+    "title": "Star coloring of sparse graphs.",
+    "publication_year": 2009,
+    "countries_collaborating": [
+      "CN",
+      "FR",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Rutgers, The State University of New Jersey"
+      ],
+      "FR": [
+        "Laboratoire Bordelais de Recherche en Informatique",
+        "Université de Bordeaux"
+      ],
+      "CN": [
+        "Zhejiang Normal University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Daniel W. Cranston (Rutgers, The State University of New Jersey)"
+      ],
+      "FR": [
+        "André Raspaud (Université de Bordeaux)",
+        "Mickaël Montassier (Laboratoire Bordelais de Recherche en Informatique)",
+        "André Raspaud (Laboratoire Bordelais de Recherche en Informatique)",
+        "Mickaël Montassier (Université de Bordeaux)"
+      ],
+      "CN": [
+        "Yuehua Bu (Zhejiang Normal University)",
+        "Weifan Wang (Zhejiang Normal University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2009,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 2800,
+      "extraction_command": "sed -n '2800p' part_000.gz | jq '.title'",
+      "paper_hash": "003d84a74ba0156d"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W2170795484",
+    "doi": "https://doi.org/10.1787/308077407044",
+    "title": "The OECD Input-Output Database",
+    "publication_year": 2006,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Organisation de Coopération et de Développement Economiques"
+      ],
+      "CN": [
+        "58.com (China)"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Norihiko Yamano (Organisation de Coopération et de Développement Economiques)",
+        "Nadim Ahmad (Organisation de Coopération et de Développement Economiques)"
+      ],
+      "CN": [
+        "Norihiko Yamano (58.com (China))",
+        "Nadim Ahmad (58.com (China))"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2006,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 67,
+      "extraction_command": "sed -n '67p' part_000.gz | jq '.title'",
+      "paper_hash": "0531d021142318bc"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W2012615857",
+    "doi": "https://doi.org/10.1021/am900100q",
+    "title": "Preparation of Superhydrophobic Coatings on Zinc as Effective Corrosion Barriers",
+    "publication_year": 2009,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Centre National de la Recherche Scientifique",
+        "Laboratoire d’Electrochimie et de Physico-chimie des Matériaux et des Interfaces",
+        "Université Joseph Fourier",
+        "Institut d'électronique de microélectronique et de nanotechnologie"
+      ],
+      "CN": [
+        "Beijing Institute of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Wenguo Xu (Centre National de la Recherche Scientifique)",
+        "Wenguo Xu (Université Joseph Fourier)",
+        "Rabah Boukherroub (Université Joseph Fourier)",
+        "Hongqin Liu (Institut d'électronique de microélectronique et de nanotechnologie)",
+        "Wenguo Xu (Institut d'électronique de microélectronique et de nanotechnologie)",
+        "Rabah Boukherroub (Centre National de la Recherche Scientifique)",
+        "Sabine Szunerits (Université Joseph Fourier)",
+        "Sabine Szunerits (Laboratoire d’Electrochimie et de Physico-chimie des Matériaux et des Interfaces)",
+        "Sabine Szunerits (Centre National de la Recherche Scientifique)",
+        "Wenguo Xu (Laboratoire d’Electrochimie et de Physico-chimie des Matériaux et des Interfaces)",
+        "Rabah Boukherroub (Institut d'électronique de microélectronique et de nanotechnologie)",
+        "Hongqin Liu (Centre National de la Recherche Scientifique)",
+        "Rabah Boukherroub (Laboratoire d’Electrochimie et de Physico-chimie des Matériaux et des Interfaces)",
+        "Sabine Szunerits (Institut d'électronique de microélectronique et de nanotechnologie)",
+        "Hongqin Liu (Laboratoire d’Electrochimie et de Physico-chimie des Matériaux et des Interfaces)",
+        "Hongqin Liu (Université Joseph Fourier)"
+      ],
+      "CN": [
+        "Rabah Boukherroub (Beijing Institute of Technology)",
+        "Sabine Szunerits (Beijing Institute of Technology)",
+        "Hongqin Liu (Beijing Institute of Technology)",
+        "Wenguo Xu (Beijing Institute of Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2009,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 53,
+      "extraction_command": "sed -n '53p' part_000.gz | jq '.title'",
+      "paper_hash": "3cb3abed520c7675"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W1580461919",
+    "doi": "https://doi.org/10.1007/bfb0091544",
+    "title": "Wavelets and Singular Integrals on Curves and Surfaces",
+    "publication_year": 1991,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Université Paris-Sud"
+      ],
+      "CN": [
+        "Nankai University"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Guy C. David (Université Paris-Sud)"
+      ],
+      "CN": [
+        "Guy C. David (Nankai University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1991,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 305,
+      "extraction_command": "sed -n '305p' part_000.gz | jq '.title'",
+      "paper_hash": "10f909f958c5f68d"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W1964266642",
+    "doi": "https://doi.org/10.1161/circresaha.109.212530",
+    "title": "AMPKα2 Deletion Causes Aberrant Expression and Activation of NAD(P)H Oxidase and Consequent Endothelial Dysfunction In Vivo",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "CN",
+      "FR",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University of Oklahoma Health Sciences Center"
+      ],
+      "FR": [
+        "Inserm",
+        "Université Paris Cité",
+        "Institut Cochin"
+      ],
+      "CN": [
+        "Jinan University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Jian Xu (University of Oklahoma Health Sciences Center)",
+        "Chao Liu (University of Oklahoma Health Sciences Center)",
+        "Benoı̂t Viollet (University of Oklahoma Health Sciences Center)",
+        "Ming‐Hui Zou (University of Oklahoma Health Sciences Center)",
+        "Shuangxi Wang (University of Oklahoma Health Sciences Center)",
+        "Daoguang Yan (University of Oklahoma Health Sciences Center)",
+        "Miao Zhang (University of Oklahoma Health Sciences Center)",
+        "Zhonglin Xie (University of Oklahoma Health Sciences Center)",
+        "Bin Liang (University of Oklahoma Health Sciences Center)"
+      ],
+      "FR": [
+        "Daoguang Yan (Inserm)",
+        "Miao Zhang (Université Paris Cité)",
+        "Bin Liang (Inserm)",
+        "Chao Liu (Université Paris Cité)",
+        "Ming‐Hui Zou (Université Paris Cité)",
+        "Benoı̂t Viollet (Institut Cochin)",
+        "Zhonglin Xie (Inserm)",
+        "Zhonglin Xie (Institut Cochin)",
+        "Bin Liang (Université Paris Cité)",
+        "Benoı̂t Viollet (Inserm)",
+        "Bin Liang (Institut Cochin)",
+        "Daoguang Yan (Institut Cochin)",
+        "Chao Liu (Institut Cochin)",
+        "Shuangxi Wang (Université Paris Cité)",
+        "Miao Zhang (Institut Cochin)",
+        "Ming‐Hui Zou (Inserm)",
+        "Benoı̂t Viollet (Université Paris Cité)",
+        "Ming‐Hui Zou (Institut Cochin)",
+        "Zhonglin Xie (Université Paris Cité)",
+        "Jian Xu (Université Paris Cité)",
+        "Shuangxi Wang (Inserm)",
+        "Jian Xu (Institut Cochin)",
+        "Shuangxi Wang (Institut Cochin)",
+        "Chao Liu (Inserm)",
+        "Jian Xu (Inserm)",
+        "Daoguang Yan (Université Paris Cité)",
+        "Miao Zhang (Inserm)"
+      ],
+      "CN": [
+        "Jian Xu (Jinan University)",
+        "Shuangxi Wang (Jinan University)",
+        "Ming‐Hui Zou (Jinan University)",
+        "Bin Liang (Jinan University)",
+        "Chao Liu (Jinan University)",
+        "Daoguang Yan (Jinan University)",
+        "Zhonglin Xie (Jinan University)",
+        "Miao Zhang (Jinan University)",
+        "Benoı̂t Viollet (Jinan University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 717,
+      "extraction_command": "sed -n '717p' part_000.gz | jq '.title'",
+      "paper_hash": "9368de820cee8964"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W2000227185",
+    "doi": "https://doi.org/10.1039/b818607n",
+    "title": "Tetrathiafulvalene (TTF) derivatives: key building-blocks for switchable processes",
+    "publication_year": 2009,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Centre National de la Recherche Scientifique",
+        "Université d'Angers"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Marc Sallé (Université d'Angers)",
+        "Marc Sallé (Centre National de la Recherche Scientifique)",
+        "David Canevet (Centre National de la Recherche Scientifique)",
+        "David Canevet (Université d'Angers)"
+      ],
+      "CN": [
+        "Guanxin Zhang (Chinese Academy of Sciences)",
+        "Daoben Zhu (Chinese Academy of Sciences)",
+        "Deqing Zhang (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2009,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 195,
+      "extraction_command": "sed -n '195p' part_000.gz | jq '.title'",
+      "paper_hash": "76d3010183da2b20"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W2095283725",
+    "doi": "https://doi.org/10.1038/sj.onc.1209366",
+    "title": "Complex regulation of human androgen receptor expression by Wnt signaling in prostate cancer cells",
+    "publication_year": 2006,
+    "countries_collaborating": [
+      "CN",
+      "FR",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Columbia University Irving Medical Center"
+      ],
+      "FR": [
+        "Inserm",
+        "Université Paris-Est Créteil",
+        "Université Paris Cité",
+        "Centre Hospitalier Universitaire Henri-Mondor"
+      ],
+      "CN": [
+        "Peking University",
+        "Peking University First Hospital"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Jan Kitajewski (Columbia University Irving Medical Center)",
+        "Debra L. Bemis (Columbia University Irving Medical Center)",
+        "Ralph Buttyan (Columbia University Irving Medical Center)",
+        "M-W Chen (Columbia University Irving Medical Center)",
+        "Xuezhen Yang (Columbia University Irving Medical Center)",
+        "Jillian L. Capodice (Columbia University Irving Medical Center)",
+        "Mitchell C. Benson (Columbia University Irving Medical Center)"
+      ],
+      "FR": [
+        "Alexandre de la Taille (Université Paris-Est Créteil)",
+        "Francis Vacherot (Université Paris Cité)",
+        "Stéphane Terry (Inserm)",
+        "Francis Vacherot (Université Paris-Est Créteil)",
+        "Stéphane Terry (Centre Hospitalier Universitaire Henri-Mondor)",
+        "Francis Vacherot (Inserm)",
+        "Alexandre de la Taille (Inserm)",
+        "Stéphane Terry (Université Paris Cité)",
+        "Stéphane Terry (Université Paris-Est Créteil)",
+        "Alexandre de la Taille (Université Paris Cité)",
+        "Francis Vacherot (Centre Hospitalier Universitaire Henri-Mondor)",
+        "Alexandre de la Taille (Centre Hospitalier Universitaire Henri-Mondor)"
+      ],
+      "CN": [
+        "Yinglu Guo (Peking University First Hospital)",
+        "Yinglu Guo (Peking University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2006,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 42,
+      "extraction_command": "sed -n '42p' part_000.gz | jq '.title'",
+      "paper_hash": "07eb9080eb4b00e8"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W2150829366",
+    "doi": "https://doi.org/10.3732/ajb.94.7.1129",
+    "title": "Plant biomechanical strategies in response to frequent disturbance: uprooting of <i>Phyllostachys nidularia</i> (Poaceae) growing on landslide‐prone slopes in Sichuan, China",
+    "publication_year": 2007,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Département Génétique Animale",
+        "Arts et Métiers"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences",
+        "Institute of Automation"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Luc Jouneau (Arts et Métiers)",
+        "Adrien Lucas (Arts et Métiers)",
+        "Luc Jouneau (Département Génétique Animale)",
+        "Alexia Stokes (Arts et Métiers)"
+      ],
+      "CN": [
+        "Luc Jouneau (Chinese Academy of Sciences)",
+        "Adrien Lucas (Chinese Academy of Sciences)",
+        "Alexia Stokes (Chinese Academy of Sciences)",
+        "Alexia Stokes (Institute of Automation)",
+        "Luc Jouneau (Institute of Automation)",
+        "Adrien Lucas (Institute of Automation)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2007,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 82,
+      "extraction_command": "sed -n '82p' part_000.gz | jq '.title'",
+      "paper_hash": "ab04f4aeb67557b3"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W2100875546",
+    "doi": "https://doi.org/10.1109/igarss.2012.6351106",
+    "title": "Two steps multi-temporal Non-Local Means for SAR images",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Centre National de la Recherche Scientifique",
+        "Télécom Paris",
+        "Laboratoire Traitement et Communication de l’Information",
+        "Université Paris Dauphine-PSL"
+      ],
+      "CN": [
+        "Wuhan University"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Charles‐Alban Deledalle (Université Paris Dauphine-PSL)",
+        "Charles‐Alban Deledalle (Centre National de la Recherche Scientifique)",
+        "Xin Su (Télécom Paris)",
+        "Florence Tupin (Laboratoire Traitement et Communication de l’Information)",
+        "Florence Tupin (Télécom Paris)",
+        "Xin Su (Laboratoire Traitement et Communication de l’Information)"
+      ],
+      "CN": [
+        "Hong Sun (Wuhan University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_009.gz",
+      "line_number": 111,
+      "extraction_command": "sed -n '111p' part_009.gz | jq '.title'",
+      "paper_hash": "3466f899128ea7b5"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W4301158904",
+    "doi": "https://doi.org/10.1007/s11590-014-0722-1",
+    "title": "A note on the connection between Chaney’s derivatives and epi-derivatives",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Laboratoire Jacques-Louis Lions",
+        "Sorbonne Université"
+      ],
+      "CN": [
+        "South China Normal University"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Jean‐Paul Penot (Sorbonne Université)",
+        "Jean‐Paul Penot (Laboratoire Jacques-Louis Lions)"
+      ],
+      "CN": [
+        "Liren Huang (South China Normal University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_021.gz",
+      "line_number": 122,
+      "extraction_command": "sed -n '122p' part_021.gz | jq '.title'",
+      "paper_hash": "64fce32128886f5a"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W1509734678",
+    "doi": "https://doi.org/10.48550/arxiv.0807.2492",
+    "title": "Properties and Chemical Evolution of the M31 Disk: Comparison with the Milky Way",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Centre National de la Recherche Scientifique",
+        "Laboratoire d’Astrophysique de Marseille"
+      ],
+      "CN": [
+        "Shanghai Astronomical Observatory"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Nikos Prantzos (Centre National de la Recherche Scientifique)",
+        "S. Boissier (Laboratoire d’Astrophysique de Marseille)"
+      ],
+      "CN": [
+        "Jia Yin (Shanghai Astronomical Observatory)",
+        "Li Chen (Shanghai Astronomical Observatory)",
+        "Jinliang Hou (Shanghai Astronomical Observatory)",
+        "Ruixiang Chang (Shanghai Astronomical Observatory)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 386,
+      "extraction_command": "sed -n '386p' part_001.gz | jq '.title'",
+      "paper_hash": "6ee8090cfd56ea46"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W8819453",
+    "doi": "https://doi.org/10.1016/j.memsci.2003.12.005",
+    "title": "Immobilization of bio-macromolecules onto membranes via an adsorbed nanolayer",
+    "publication_year": 2004,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Centre National de la Recherche Scientifique",
+        "Université de Rouen Normandie",
+        "Chimie ParisTech",
+        "Polymères, Biopolymères, Surfaces"
+      ],
+      "CN": [
+        "Fudan University"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Quang Trong Nguyen (Centre National de la Recherche Scientifique)",
+        "Quang Trong Nguyen (Polymères, Biopolymères, Surfaces)",
+        "Karine Glinel (Université de Rouen Normandie)",
+        "Maxime Pontié (Centre National de la Recherche Scientifique)",
+        "Karine Glinel (Polymères, Biopolymères, Surfaces)",
+        "Quang Trong Nguyen (Université de Rouen Normandie)",
+        "Maxime Pontié (Chimie ParisTech)",
+        "Karine Glinel (Centre National de la Recherche Scientifique)"
+      ],
+      "CN": [
+        "Zhenghua Ping (Fudan University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2004,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_007.gz",
+      "line_number": 553,
+      "extraction_command": "sed -n '553p' part_007.gz | jq '.title'",
+      "paper_hash": "0fe37b1a21467891"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W2732565107",
+    "doi": "https://doi.org/10.1080/2162402x.2017.1341030",
+    "title": "Clinical relevance of tumor infiltrating lymphocytes, PD-L1 expression and correlation with HPV/p16 in head and neck cancer treated with bio- or chemo-radiotherapy",
+    "publication_year": 2017,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Inserm",
+        "Institut Gustave Roussy"
+      ],
+      "CN": [
+        "Shanghai Medical College of Fudan University",
+        "Fudan University Shanghai Cancer Center"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Ingrid Garberis (Institut Gustave Roussy)",
+        "Antonin Lévy (Institut Gustave Roussy)",
+        "Dan Ou (Institut Gustave Roussy)",
+        "Jean‐Yves Scoazec (Institut Gustave Roussy)",
+        "Julien Adam (Institut Gustave Roussy)",
+        "Dan Ou (Inserm)",
+        "Ingrid Breuskin (Institut Gustave Roussy)",
+        "Antonin Lévy (Inserm)",
+        "Stéphane Temam (Institut Gustave Roussy)",
+        "Philippe Gorphe (Institut Gustave Roussy)",
+        "Yungan Tao (Inserm)",
+        "Pierre Blanchard (Institut Gustave Roussy)",
+        "Odile Casiraghi (Institut Gustave Roussy)",
+        "Éric Deutsch (Inserm)",
+        "Éric Deutsch (Institut Gustave Roussy)",
+        "Yungan Tao (Institut Gustave Roussy)",
+        "France Nguyen (Institut Gustave Roussy)",
+        "François Janot (Institut Gustave Roussy)"
+      ],
+      "CN": [
+        "Dan Ou (Fudan University Shanghai Cancer Center)",
+        "Dan Ou (Shanghai Medical College of Fudan University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2017,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_004.gz",
+      "line_number": 2,
+      "extraction_command": "sed -n '2p' part_004.gz | jq '.title'",
+      "paper_hash": "b1a2cbff4e6a5576"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  },
+  {
+    "paper_id": "https://openalex.org/W4243087382",
+    "doi": "https://doi.org/10.2139/ssrn.1567476",
+    "title": "The Optimal Alternative to the Delta Hedge in the Black and Scholes (1973) World",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Université Paris 1 Panthéon-Sorbonne",
+        "École Supérieure des Sciences Économiques et Commerciales",
+        "Université Paris Cité"
+      ],
+      "CN": [
+        "Xi’an Jiaotong-Liverpool University"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Katarzyna Romaniuk (École Supérieure des Sciences Économiques et Commerciales)",
+        "Katarzyna Romaniuk (Université Paris Cité)",
+        "Katarzyna Romaniuk (Université Paris 1 Panthéon-Sorbonne)"
+      ],
+      "CN": [
+        "Katarzyna Romaniuk (Xi’an Jiaotong-Liverpool University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_028.gz",
+      "line_number": 475,
+      "extraction_command": "sed -n '475p' part_028.gz | jq '.title'",
+      "paper_hash": "03e3e8223e061142"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "FR"
+  }
+]

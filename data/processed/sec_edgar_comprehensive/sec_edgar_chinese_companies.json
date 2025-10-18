@@ -1,0 +1,267 @@
+{
+  "timestamp": "2025-09-25T19:23:50.424682",
+  "companies_processed": 31,
+  "chinese_companies": [
+    {
+      "ticker": "BABA",
+      "cik": "0001577552",
+      "name": "Alibaba Group Holding Ltd",
+      "state": "K3",
+      "latest_filing": {}
+    },
+    {
+      "ticker": "BIDU",
+      "cik": "0001329099",
+      "name": "Baidu, Inc.",
+      "state": "E9",
+      "latest_filing": {}
+    },
+    {
+      "ticker": "JD",
+      "cik": "0001549802",
+      "name": "JD.com, Inc.",
+      "state": "E9",
+      "latest_filing": {}
+    },
+    {
+      "ticker": "PDD",
+      "cik": "0001737806",
+      "name": "PDD Holdings Inc.",
+      "state": "E9",
+      "latest_filing": {
+        "form": "20-F",
+        "date": "2025-04-28"
+      }
+    },
+    {
+      "ticker": "TME",
+      "cik": "0001744676",
+      "name": "Tencent Music Entertainment Group",
+      "state": "E9",
+      "latest_filing": {}
+    },
+    {
+      "ticker": "BILI",
+      "cik": "0001723690",
+      "name": "Bilibili Inc.",
+      "state": "E9",
+      "latest_filing": {}
+    },
+    {
+      "ticker": "IQ",
+      "cik": "0001722608",
+      "name": "iQIYI, Inc.",
+      "state": "E9",
+      "latest_filing": {
+        "form": "20-F",
+        "date": "2025-03-27"
+      }
+    },
+    {
+      "ticker": "VIPS",
+      "cik": "0001529192",
+      "name": "Vipshop Holdings Ltd",
+      "state": "",
+      "latest_filing": {
+        "form": "20-F",
+        "date": "2025-04-17"
+      }
+    },
+    {
+      "ticker": "NTES",
+      "cik": "0001110646",
+      "name": "NetEase, Inc.",
+      "state": "",
+      "latest_filing": {}
+    },
+    {
+      "ticker": "WB",
+      "cik": "0001595761",
+      "name": "WEIBO Corp",
+      "state": "E9",
+      "latest_filing": {
+        "form": "20-F",
+        "date": "2025-04-15"
+      }
+    },
+    {
+      "ticker": "ATHM",
+      "cik": "0001527636",
+      "name": "Autohome Inc.",
+      "state": "",
+      "latest_filing": {}
+    },
+    {
+      "ticker": "MOMO",
+      "cik": "0001610601",
+      "name": "Hello Group Inc.",
+      "state": "",
+      "latest_filing": {
+        "form": "20-F",
+        "date": "2025-04-28"
+      }
+    },
+    {
+      "ticker": "NIO",
+      "cik": "0001736541",
+      "name": "NIO Inc.",
+      "state": "E9",
+      "latest_filing": {}
+    },
+    {
+      "ticker": "XPEV",
+      "cik": "0001810997",
+      "name": "XPENG INC.",
+      "state": "E9",
+      "latest_filing": {}
+    },
+    {
+      "ticker": "LI",
+      "cik": "0001791706",
+      "name": "Li Auto Inc.",
+      "state": "E9",
+      "latest_filing": {}
+    },
+    {
+      "ticker": "FUTU",
+      "cik": "0001754581",
+      "name": "Futu Holdings Ltd",
+      "state": "E9",
+      "latest_filing": {
+        "form": "20-F",
+        "date": "2025-04-14"
+      }
+    },
+    {
+      "ticker": "TIGR",
+      "cik": "0001756699",
+      "name": "UP Fintech Holding Ltd",
+      "state": "E9",
+      "latest_filing": {
+        "form": "20-F",
+        "date": "2025-04-23"
+      }
+    },
+    {
+      "ticker": "LU",
+      "cik": "0001816007",
+      "name": "Lufax Holding Ltd",
+      "state": "E9",
+      "latest_filing": {}
+    },
+    {
+      "ticker": "QFIN",
+      "cik": "0001741530",
+      "name": "Qfin Holdings, Inc.",
+      "state": "E9",
+      "latest_filing": {}
+    },
+    {
+      "ticker": "EDU",
+      "cik": "0001372920",
+      "name": "New Oriental Education & Technology Group Inc.",
+      "state": "E9",
+      "latest_filing": {
+        "form": "20-F",
+        "date": "2025-09-25"
+      }
+    },
+    {
+      "ticker": "TAL",
+      "cik": "0001499620",
+      "name": "TAL Education Group",
+      "state": "E9",
+      "latest_filing": {
+        "form": "20-F",
+        "date": "2025-06-16"
+      }
+    },
+    {
+      "ticker": "GOTU",
+      "cik": "0001768259",
+      "name": "Gaotu Techedu Inc.",
+      "state": "E9",
+      "latest_filing": {
+        "form": "20-F",
+        "date": "2025-04-22"
+      }
+    },
+    {
+      "ticker": "ZLAB",
+      "cik": "0001704292",
+      "name": "Zai Lab Ltd",
+      "state": "E9",
+      "latest_filing": {}
+    },
+    {
+      "ticker": "SVA",
+      "cik": "0001084201",
+      "name": "SINOVAC BIOTECH LTD",
+      "state": "B9",
+      "latest_filing": {}
+    },
+    {
+      "ticker": "BEKE",
+      "cik": "0001809587",
+      "name": "KE Holdings Inc.",
+      "state": "E9",
+      "latest_filing": {}
+    },
+    {
+      "ticker": "TUYA",
+      "cik": "0001829118",
+      "name": "Tuya Inc.",
+      "state": "E9",
+      "latest_filing": {}
+    },
+    {
+      "ticker": "YMM",
+      "cik": "0001838413",
+      "name": "Full Truck Alliance Co. Ltd.",
+      "state": "E9",
+      "latest_filing": {
+        "form": "20-F",
+        "date": "2025-04-14"
+      }
+    },
+    {
+      "ticker": "RLX",
+      "cik": "0001828365",
+      "name": "RLX Technology Inc.",
+      "state": "E9",
+      "latest_filing": {
+        "form": "20-F",
+        "date": "2025-04-17"
+      }
+    },
+    {
+      "ticker": "MNSO",
+      "cik": "0001815846",
+      "name": "MINISO Group Holding Ltd",
+      "state": "E9",
+      "latest_filing": {}
+    },
+    {
+      "ticker": "DDL",
+      "cik": "0001854545",
+      "name": "Dingdong (Cayman) Ltd",
+      "state": "E9",
+      "latest_filing": {
+        "form": "20-F",
+        "date": "2025-04-21"
+      }
+    },
+    {
+      "ticker": "API",
+      "cik": "0001802883",
+      "name": "Agora, Inc.",
+      "state": "E9",
+      "latest_filing": {
+        "form": "20-F",
+        "date": "2025-04-15"
+      }
+    }
+  ],
+  "filings": [],
+  "errors": []
+}

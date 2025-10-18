@@ -1,0 +1,47 @@
+{
+  "cik": "0001096343",
+  "ticker": "MKL",
+  "name": "MARKEL GROUP INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6331",
+  "sicDescription": "Fire, Marine & Casualty Insurance",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "VA",
+  "ein": "541959284",
+  "phone": "8047470136",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "4521 HIGHWOODS PKWY",
+      "street2": null,
+      "city": "GLEN ALLEN",
+      "stateOrCountry": "VA",
+      "zipCode": "23060",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "4521 HIGHWOODS PARKWAY",
+      "street2": null,
+      "city": "GLEN ALLEN",
+      "stateOrCountry": "VA",
+      "zipCode": "23060-6148",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-07-30"
+  },
+  "filings_count": 1002
+}

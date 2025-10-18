@@ -1,0 +1,47 @@
+{
+  "cik": "0002049187",
+  "ticker": "KMRK",
+  "name": "K-TECH SOLUTIONS CO LTD",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "3944",
+  "sicDescription": "Games, Toys & Children's Vehicles (No Dolls & Bicycles)",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "852 2741 3165",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT A, 7/F, MAI ON INDUSTRIAL BUILDING",
+      "street2": "17-21 KUNG YIP STREET, KWAI CHUNG",
+      "city": "NEW TERRITORIES",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "UNIT A, 7/F, MAI ON INDUSTRIAL BUILDING",
+      "street2": "17-21 KUNG YIP STREET, KWAI CHUNG",
+      "city": "NEW TERRITORIES",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "20-F",
+    "date": "2025-08-15"
+  },
+  "filings_count": 33
+}

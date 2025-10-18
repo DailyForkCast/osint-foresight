@@ -1,0 +1,47 @@
+{
+  "cik": "0000894871",
+  "ticker": "AREN",
+  "name": "Arena Group Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "4841",
+  "sicDescription": "Cable & Other Pay Television Services",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "680232575",
+  "phone": "212 321 5002",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "200 VESEY STREET",
+      "street2": "24TH FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10281",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "200 VESEY STREET",
+      "street2": "24TH FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10281",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-11"
+  },
+  "filings_count": 896
+}

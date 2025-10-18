@@ -1,0 +1,44 @@
+{
+  "cik": "0001521036",
+  "ticker": "LNTH",
+  "name": "Lantheus Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2835",
+  "sicDescription": "In Vitro & In Vivo Diagnostic Substances",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "352318913",
+  "phone": "978 671-8001",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "331 TREBLE COVE ROAD",
+      "street2": null,
+      "city": "NORTH BILLERICA",
+      "stateOrCountry": "MA",
+      "zipCode": "01862",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "331 TREBLE COVE ROAD",
+      "street2": null,
+      "city": "NORTH BILLERICA",
+      "stateOrCountry": "MA",
+      "zipCode": "01862",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1004
+}

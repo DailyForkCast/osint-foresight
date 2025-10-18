@@ -1,0 +1,79 @@
+{
+  "Chatham House": {
+    "name": "Chatham House",
+    "base_url": "https://www.chathamhouse.org",
+    "china_found": true,
+    "best_path": "/",
+    "mentions": 2
+  },
+  "IISS": {
+    "name": "IISS",
+    "base_url": "https://www.iiss.org",
+    "china_found": true,
+    "best_path": "/",
+    "mentions": 7
+  },
+  "ECFR": {
+    "name": "ECFR",
+    "base_url": "https://ecfr.eu",
+    "china_found": true,
+    "best_path": "/china",
+    "mentions": 22
+  },
+  "SWP": {
+    "name": "SWP",
+    "base_url": "https://www.swp-berlin.org",
+    "china_found": false,
+    "best_path": null,
+    "mentions": 0
+  },
+  "MERICS": {
+    "name": "MERICS",
+    "base_url": "https://merics.org",
+    "china_found": true,
+    "best_path": "/search?q=china",
+    "mentions": 51
+  },
+  "RUSI": {
+    "name": "RUSI",
+    "base_url": "https://rusi.org",
+    "china_found": false,
+    "best_path": null,
+    "mentions": 0
+  },
+  "DGAP": {
+    "name": "DGAP",
+    "base_url": "https://dgap.org",
+    "china_found": true,
+    "best_path": "/search?q=china",
+    "mentions": 1
+  },
+  "NUPI": {
+    "name": "NUPI",
+    "base_url": "https://www.nupi.no",
+    "china_found": false,
+    "best_path": null,
+    "mentions": 0
+  },
+  "FOI": {
+    "name": "FOI",
+    "base_url": "https://www.foi.se",
+    "china_found": false,
+    "best_path": null,
+    "mentions": 0
+  },
+  "FRS": {
+    "name": "FRS",
+    "base_url": "https://www.frstrategie.org",
+    "china_found": true,
+    "best_path": "/search?q=china",
+    "mentions": 35
+  },
+  "IAI": {
+    "name": "IAI",
+    "base_url": "https://www.iai.it",
+    "china_found": false,
+    "best_path": null,
+    "mentions": 0
+  }
+}

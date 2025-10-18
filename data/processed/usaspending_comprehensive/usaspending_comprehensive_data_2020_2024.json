@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "generated": "2025-09-21T17:19:30.210337",
+    "period": "2020-2024",
+    "total_matches": 0,
+    "total_value": 0
+  },
+  "statistics": {},
+  "priority_countries": {
+    "HU": {
+      "name": "Hungary",
+      "tier": 1,
+      "notes": "17+1 format leader, unrestricted Chinese access"
+    },
+    "GR": {
+      "name": "Greece",
+      "tier": 1,
+      "notes": "COSCO port control, BRI gateway to EU"
+    },
+    "IT": {
+      "name": "Italy",
+      "tier": 2,
+      "notes": "G7 country in BRI, Leonardo defense concerns"
+    },
+    "PL": {
+      "name": "Poland",
+      "tier": 2,
+      "notes": "Central Europe pivot, 5G battleground"
+    },
+    "PT": {
+      "name": "Portugal",
+      "tier": 2,
+      "notes": "Strategic Atlantic position"
+    },
+    "CZ": {
+      "name": "Czech Republic",
+      "tier": 2,
+      "notes": "Former pro-China, recent restrictions"
+    },
+    "DE": {
+      "name": "Germany",
+      "tier": 3,
+      "notes": "Target despite restrictions"
+    },
+    "FR": {
+      "name": "France",
+      "tier": 3,
+      "notes": "EU leader, technology transfer concerns"
+    },
+    "ES": {
+      "name": "Spain",
+      "tier": 3,
+      "notes": "Growing Chinese presence"
+    },
+    "BG": {
+      "name": "Bulgaria",
+      "tier": 4,
+      "notes": "BRI member"
+    },
+    "HR": {
+      "name": "Croatia",
+      "tier": 4,
+      "notes": "BRI member"
+    },
+    "EE": {
+      "name": "Estonia",
+      "tier": 4,
+      "notes": "BRI member"
+    },
+    "LV": {
+      "name": "Latvia",
+      "tier": 4,
+      "notes": "BRI member"
+    },
+    "LT": {
+      "name": "Lithuania",
+      "tier": 4,
+      "notes": "BRI member"
+    },
+    "LU": {
+      "name": "Luxembourg",
+      "tier": 4,
+      "notes": "BRI member"
+    },
+    "MT": {
+      "name": "Malta",
+      "tier": 4,
+      "notes": "BRI member"
+    },
+    "RO": {
+      "name": "Romania",
+      "tier": 4,
+      "notes": "BRI member"
+    },
+    "SK": {
+      "name": "Slovakia",
+      "tier": 4,
+      "notes": "BRI member"
+    },
+    "SI": {
+      "name": "Slovenia",
+      "tier": 4,
+      "notes": "BRI member"
+    },
+    "CY": {
+      "name": "Cyprus",
+      "tier": 4,
+      "notes": "BRI member"
+    },
+    "AT": {
+      "name": "Austria",
+      "tier": 5,
+      "notes": "EU member"
+    },
+    "BE": {
+      "name": "Belgium",
+      "tier": 5,
+      "notes": "EU member"
+    },
+    "DK": {
+      "name": "Denmark",
+      "tier": 5,
+      "notes": "EU member"
+    },
+    "FI": {
+      "name": "Finland",
+      "tier": 5,
+      "notes": "EU member"
+    },
+    "IE": {
+      "name": "Ireland",
+      "tier": 5,
+      "notes": "EU member"
+    },
+    "NL": {
+      "name": "Netherlands",
+      "tier": 5,
+      "notes": "EU member"
+    },
+    "SE": {
+      "name": "Sweden",
+      "tier": 5,
+      "notes": "EU member"
+    },
+    "IS": {
+      "name": "Iceland",
+      "tier": 6,
+      "notes": "EU+3 member"
+    },
+    "LI": {
+      "name": "Liechtenstein",
+      "tier": 6,
+      "notes": "EU+3 member"
+    },
+    "NO": {
+      "name": "Norway",
+      "tier": 6,
+      "notes": "EU+3 member"
+    },
+    "CN": {
+      "name": "China",
+      "tier": 0,
+      "notes": "Primary target"
+    },
+    "US": {
+      "name": "United States",
+      "tier": 0,
+      "notes": "Domestic analysis"
+    }
+  },
+  "matches": []
+}

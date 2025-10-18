@@ -1,0 +1,46 @@
+{
+  "cik": "0002047190",
+  "ticker": "TCGL",
+  "name": "TechCreate Group Ltd.",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:ky"
+  ],
+  "sic": "7374",
+  "sicDescription": "Services-Computer Processing & Data Preparation",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "65 6939 6354",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "HARNEYS FIDUCIARY (CAYMAN) LTD 4TH FLOOR",
+      "street2": "HARBOUR PLACE, 103 SOUTH CHURCH STREET",
+      "city": "GRAND CAYMAN KY1-1002",
+      "stateOrCountry": "E9",
+      "zipCode": "10240",
+      "stateOrCountryDescription": "Cayman Islands",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "HARNEYS FIDUCIARY (CAYMAN) LTD 4TH FLOOR",
+      "street2": "HARBOUR PLACE, 103 SOUTH CHURCH STREET",
+      "city": "GRAND CAYMAN KY1-1002",
+      "stateOrCountry": "E9",
+      "zipCode": "10240",
+      "stateOrCountryDescription": "Cayman Islands",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 8
+}

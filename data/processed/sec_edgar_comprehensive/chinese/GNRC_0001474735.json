@@ -1,0 +1,47 @@
+{
+  "cik": "0001474735",
+  "ticker": "GNRC",
+  "name": "GENERAC HOLDINGS INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3621",
+  "sicDescription": "Motors & Generators",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "205654756",
+  "phone": "888 436-3722",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "S45 W29290 HIGHWAY 59",
+      "street2": null,
+      "city": "WAUKESHA",
+      "stateOrCountry": "WI",
+      "zipCode": "53187",
+      "stateOrCountryDescription": "WI",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "S45 W29290 HIGHWAY 59",
+      "street2": null,
+      "city": "WAUKESHA",
+      "stateOrCountry": "WI",
+      "zipCode": "53187",
+      "stateOrCountryDescription": "WI",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-05"
+  },
+  "filings_count": 1003
+}

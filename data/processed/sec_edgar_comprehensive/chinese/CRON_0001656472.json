@@ -1,0 +1,47 @@
+{
+  "cik": "0001656472",
+  "ticker": "CRON",
+  "name": "Cronos Group Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2833",
+  "sicDescription": "Medicinal Chemicals & Botanical Products",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "A1",
+  "ein": "000000000",
+  "phone": "(416) 504-0004",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "6D - 7398 YONGE ST",
+      "street2": "PMB 732",
+      "city": "THORNHILL",
+      "stateOrCountry": "A6",
+      "zipCode": "L4J 8J2",
+      "stateOrCountryDescription": "Ontario, Canada",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "4491 CONCESSION RD 12",
+      "street2": null,
+      "city": "STAYNER",
+      "stateOrCountry": "A6",
+      "zipCode": "L0M 1S0",
+      "stateOrCountryDescription": "Ontario, Canada",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-29"
+  },
+  "filings_count": 445
+}

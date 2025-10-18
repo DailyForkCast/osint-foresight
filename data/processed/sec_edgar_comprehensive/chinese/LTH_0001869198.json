@@ -1,0 +1,44 @@
+{
+  "cik": "0001869198",
+  "ticker": "LTH",
+  "name": "Life Time Group Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7997",
+  "sicDescription": "Services-Membership Sports & Recreation Clubs",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "473481985",
+  "phone": "(952) 947-0000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2902 CORPORATE PLACE",
+      "street2": null,
+      "city": "CHANHASSEN",
+      "stateOrCountry": "MN",
+      "zipCode": "55317",
+      "stateOrCountryDescription": "MN",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2902 CORPORATE PLACE",
+      "street2": null,
+      "city": "CHANHASSEN",
+      "stateOrCountry": "MN",
+      "zipCode": "55317",
+      "stateOrCountryDescription": "MN",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 357
+}

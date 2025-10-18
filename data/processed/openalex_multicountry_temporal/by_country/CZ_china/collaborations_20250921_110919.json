@@ -1,0 +1,371 @@
+[
+  {
+    "paper_id": "https://openalex.org/W2361190174",
+    "doi": null,
+    "title": "Ming Confucians' Divergence and Development on Idea of Will",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "CZ"
+    ],
+    "institutions": {
+      "CZ": [
+        "Czech Academy of Sciences, Institute of Philosophy"
+      ],
+      "CN": [
+        "Shanghai Academy of Social Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "CZ": [
+        "Zhang Jin-zh (Czech Academy of Sciences, Institute of Philosophy)"
+      ],
+      "CN": [
+        "Zhang Jin-zh (Shanghai Academy of Social Sciences)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 20905,
+      "extraction_command": "sed -n '20905p' part_000.gz | jq '.title'",
+      "paper_hash": "6f99a21656b9c888"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "CZ"
+  },
+  {
+    "paper_id": "https://openalex.org/W2366555697",
+    "doi": null,
+    "title": "THE INVESTIGATION OF A NEW DISCRETE SAMPLING DEVICE AND IT'S APPLICATION IN FLAME ATOMIC ABSORPTION SPECTROMETRY",
+    "publication_year": 1992,
+    "countries_collaborating": [
+      "CN",
+      "CZ"
+    ],
+    "institutions": {
+      "CZ": [
+        "Czech Academy of Sciences, Institute of Geology"
+      ],
+      "CN": [
+        "Northwest Research Institute of Chemical Industry"
+      ]
+    },
+    "authors_by_country": {
+      "CZ": [
+        "Guo Xiaowei (Czech Academy of Sciences, Institute of Geology)"
+      ],
+      "CN": [
+        "Guo Xiaowei (Northwest Research Institute of Chemical Industry)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1992,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 5913,
+      "extraction_command": "sed -n '5913p' part_000.gz | jq '.title'",
+      "paper_hash": "087f625d82c2c2f5"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "CZ"
+  },
+  {
+    "paper_id": "https://openalex.org/W2319979133",
+    "doi": "https://doi.org/10.1364/jsap.2013.17p_d4_5",
+    "title": "Controlling Surface Plasmon Propagation in Silver Nanowire Networks",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "CZ"
+    ],
+    "institutions": {
+      "CZ": [
+        "Czech Academy of Sciences, Institute of Physics"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "CZ": [
+        "Hong Wei (Czech Academy of Sciences, Institute of Physics)",
+        "Hongxing Xu (Czech Academy of Sciences, Institute of Physics)"
+      ],
+      "CN": [
+        "Hongxing Xu (Chinese Academy of Sciences)",
+        "Hong Wei (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1975,
+      "extraction_command": "sed -n '1975p' part_000.gz | jq '.title'",
+      "paper_hash": "0737238e96fbf655"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "CZ"
+  },
+  {
+    "paper_id": "https://openalex.org/W653078599",
+    "doi": "https://doi.org/10.2753/csp1097-1467150375",
+    "title": "Adhere to and Carry Forward Mao Zedong Thought",
+    "publication_year": 1984,
+    "countries_collaborating": [
+      "CN",
+      "CZ"
+    ],
+    "institutions": {
+      "CZ": [
+        "Czech Academy of Sciences, Institute of Philosophy"
+      ],
+      "CN": [
+        "Chinese Academy of Social Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "CZ": [
+        "An Qimin (Czech Academy of Sciences, Institute of Philosophy)",
+        "Shaowu Zhang (Czech Academy of Sciences, Institute of Philosophy)",
+        "Yuheng Wang (Czech Academy of Sciences, Institute of Philosophy)"
+      ],
+      "CN": [
+        "An Qimin (Chinese Academy of Social Sciences)",
+        "Yuheng Wang (Chinese Academy of Social Sciences)",
+        "Shaowu Zhang (Chinese Academy of Social Sciences)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1984,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_010.gz",
+      "line_number": 60968,
+      "extraction_command": "sed -n '60968p' part_010.gz | jq '.title'",
+      "paper_hash": "5fd756eef3b8b8d9"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "CZ"
+  },
+  {
+    "paper_id": "https://openalex.org/W158649862",
+    "doi": "https://doi.org/10.1007/bfb0086445",
+    "title": "Braids and periodic solutions",
+    "publication_year": 1989,
+    "countries_collaborating": [
+      "BG",
+      "CN",
+      "CZ"
+    ],
+    "institutions": {
+      "BG": [
+        "Institute of Mathematics and Informatics"
+      ],
+      "CZ": [
+        "Czech Academy of Sciences, Institute of Mathematics"
+      ],
+      "CN": [
+        "Zhongshan Hospital"
+      ]
+    },
+    "authors_by_country": {
+      "BG": [
+        "Hai-Hua Huang (Institute of Mathematics and Informatics)",
+        "Boju Jiang (Institute of Mathematics and Informatics)"
+      ],
+      "CZ": [
+        "Boju Jiang (Czech Academy of Sciences, Institute of Mathematics)",
+        "Hai-Hua Huang (Czech Academy of Sciences, Institute of Mathematics)"
+      ],
+      "CN": [
+        "Boju Jiang (Zhongshan Hospital)",
+        "Hai-Hua Huang (Zhongshan Hospital)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1989,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 16424,
+      "extraction_command": "sed -n '16424p' part_000.gz | jq '.title'",
+      "paper_hash": "9ad86e840f79ca12"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "CZ"
+  },
+  {
+    "paper_id": "https://openalex.org/W2357858009",
+    "doi": null,
+    "title": "Construction of a Human Stable Transmembrane TNF-α Recombi nant Cell Lines",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "CZ"
+    ],
+    "institutions": {
+      "CZ": [
+        "Czech Academy of Sciences, Institute of Microbiology"
+      ],
+      "CN": [
+        "Academy of Military Medical Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "CZ": [
+        "Xi Tong (Czech Academy of Sciences, Institute of Microbiology)"
+      ],
+      "CN": [
+        "Xi Tong (Academy of Military Medical Sciences)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_003.gz",
+      "line_number": 3890,
+      "extraction_command": "sed -n '3890p' part_003.gz | jq '.title'",
+      "paper_hash": "738ad739b2c2487c"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "CZ"
+  },
+  {
+    "paper_id": "https://openalex.org/W2154175550",
+    "doi": "https://doi.org/10.1143/ptp.96.449",
+    "title": "Coupled Integrable Systems Associated with a Polynomial Spectral Problem and Their Virasoro Symmetry Algebras",
+    "publication_year": 1996,
+    "countries_collaborating": [
+      "BG",
+      "CN",
+      "CZ",
+      "DE",
+      "US"
+    ],
+    "institutions": {
+      "BG": [
+        "Institute of Mathematics and Informatics"
+      ],
+      "CZ": [
+        "Czech Academy of Sciences, Institute of Mathematics"
+      ],
+      "DE": [
+        "Paderborn University"
+      ],
+      "US": [
+        "University of Pennsylvania"
+      ],
+      "CN": [
+        "Fudan University"
+      ]
+    },
+    "authors_by_country": {
+      "BG": [
+        "Wen-Xiu Ma (Institute of Mathematics and Informatics)",
+        "ZIQING zhou (Institute of Mathematics and Informatics)"
+      ],
+      "CZ": [
+        "Wen-Xiu Ma (Czech Academy of Sciences, Institute of Mathematics)",
+        "ZIQING zhou (Czech Academy of Sciences, Institute of Mathematics)"
+      ],
+      "DE": [
+        "Wen-Xiu Ma (Paderborn University)"
+      ],
+      "US": [
+        "ZIQING zhou (University of Pennsylvania)"
+      ],
+      "CN": [
+        "ZIQING zhou (Fudan University)",
+        "Wen-Xiu Ma (Fudan University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1996,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_007.gz",
+      "line_number": 75,
+      "extraction_command": "sed -n '75p' part_007.gz | jq '.title'",
+      "paper_hash": "259e96a1efcacfda"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "CZ"
+  }
+]

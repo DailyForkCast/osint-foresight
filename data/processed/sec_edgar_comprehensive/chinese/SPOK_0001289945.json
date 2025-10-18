@@ -1,0 +1,44 @@
+{
+  "cik": "0001289945",
+  "ticker": "SPOK",
+  "name": "Spok Holdings, Inc",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "4812",
+  "sicDescription": "Radiotelephone Communications",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "161694797",
+  "phone": "800-611-8488",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3000 TECHNOLOGY DRIVE",
+      "street2": "SUITE 400",
+      "city": "PLANO",
+      "stateOrCountry": "TX",
+      "zipCode": "75074",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3000 TECHNOLOGY DRIVE",
+      "street2": "SUITE 400",
+      "city": "PLANO",
+      "stateOrCountry": "TX",
+      "zipCode": "75074",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1003
+}

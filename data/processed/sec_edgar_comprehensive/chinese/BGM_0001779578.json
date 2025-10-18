@@ -1,0 +1,52 @@
+{
+  "cik": "0001779578",
+  "ticker": "BGM",
+  "name": "BGM Group Ltd.",
+  "detection_reasons": [
+    "location:china",
+    "location:chengdu",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "2834",
+  "sicDescription": "Pharmaceutical Preparations",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86-028-64775180",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "NO. 152 HONGLIANG EAST 1ST STREET",
+      "street2": "NO. 1703, TIANFU NEW DISTRICT",
+      "city": "CHENGDU",
+      "stateOrCountry": "F4",
+      "zipCode": "610200",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "NO. 152 HONGLIANG EAST 1ST STREET",
+      "street2": "NO. 1703, TIANFU NEW DISTRICT",
+      "city": "CHENGDU",
+      "stateOrCountry": "F4",
+      "zipCode": "610200",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-14"
+  },
+  "filings_count": 133
+}

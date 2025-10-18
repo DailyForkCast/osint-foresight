@@ -1,0 +1,98 @@
+{
+  "investigation_date": "2025-09-19T20:00:12.145571",
+  "sources_investigated": 4,
+  "results": {
+    "NDU_CSCMA": {
+      "name": "NDU Center for Study of Chinese Military Affairs",
+      "base_url": "https://digitalcommons.ndu.edu",
+      "type": "Military Academic",
+      "focus": "Chinese military strategy and competition",
+      "working_paths": [
+        {
+          "path": "/cscma-allpubs/",
+          "mentions": 204,
+          "title": "All Publications | Center for the Study of Chinese Military Affairs | National Defense University"
+        },
+        {
+          "path": "/china-strategic-perspectives/",
+          "mentions": 593,
+          "title": "China Strategic Perspectives | Research and Case Studies | National Defense University"
+        },
+        {
+          "path": "/cscma-books/",
+          "mentions": 67,
+          "title": "Books and Book Chapters | Center for the Study of Chinese Military Affairs | National Defense Univer"
+        }
+      ],
+      "china_content_found": true,
+      "total_china_mentions": 864
+    },
+    "USCC": {
+      "name": "US-China Economic and Security Review Commission",
+      "base_url": "https://www.uscc.gov",
+      "type": "Congressional Commission",
+      "focus": "Economic and security implications of US-China relationship",
+      "working_paths": [
+        {
+          "path": "/Research",
+          "mentions": 77,
+          "title": "| U.S.- CHINA | ECONOMIC and SECURITY REVIEW COMMISSION"
+        },
+        {
+          "path": "/Annual-Reports",
+          "mentions": 31,
+          "title": "Annual Reports | U.S.- CHINA | ECONOMIC and SECURITY REVIEW COMMISSION"
+        },
+        {
+          "path": "/Hearings",
+          "mentions": 139,
+          "title": "Hearings | U.S.- CHINA | ECONOMIC and SECURITY REVIEW COMMISSION"
+        }
+      ],
+      "china_content_found": true,
+      "total_china_mentions": 247
+    },
+    "CRS": {
+      "name": "Congressional Research Service",
+      "base_url": "https://crsreports.congress.gov",
+      "type": "Congressional Research",
+      "focus": "Policy analysis for Congress on China issues",
+      "working_paths": [],
+      "china_content_found": false,
+      "total_china_mentions": 0
+    },
+    "CSET": {
+      "name": "Center for Security and Emerging Technology",
+      "base_url": "https://cset.georgetown.edu",
+      "type": "University/Government Partnership",
+      "focus": "China AI and emerging technology competition",
+      "working_paths": [
+        {
+          "path": "/research/",
+          "mentions": 61,
+          "title": "Publications | Center for Security and Emerging Technology"
+        },
+        {
+          "path": "/publications/",
+          "mentions": 61,
+          "title": "Publications | Center for Security and Emerging Technology"
+        },
+        {
+          "path": "/research/chinese-talent-program-tracker/",
+          "mentions": 81,
+          "title": "Chinese Talent Program Tracker | Center for Security and Emerging Technology"
+        }
+      ],
+      "china_content_found": true,
+      "total_china_mentions": 203
+    }
+  },
+  "recommendations": [
+    "NDU CSCMA - Priority for military strategy",
+    "USCC - Priority for economic/security nexus",
+    "DoD CMPR - Annual must-read report",
+    "CRS - Congress-focused analysis",
+    "CSET - AI/tech competition focus",
+    "State Dept - MCF and compliance"
+  ]
+}

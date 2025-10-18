@@ -1,0 +1,2120 @@
+{
+  "ENT_000000": {
+    "canonical_name": "NEDERLANDSE ORGANISATIE VOOR TOEGEPAST NATUURWETENSCHAPPELIJK ONDERZOEK TNO",
+    "normalized_name": "NEDERLANDSE ORGANISATIE VOOR TOEGEPAST NATUURWETENSCHAPPELIJK ONDERZOEK TNO",
+    "type": "organization",
+    "country": "NL",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000001": {
+    "canonical_name": "INSTITUT NATIONAL DES SCIENCES APPLIQUEES DE LYON",
+    "normalized_name": "INSTITUT NATIONAL DES SCIENCES APPLIQUEES DE LYON",
+    "type": "organization",
+    "country": "FR",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000002": {
+    "canonical_name": "FORD-WERKE GMBH",
+    "normalized_name": "FORD WERKE",
+    "type": "organization",
+    "country": "DE",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000003": {
+    "canonical_name": "EUROTURBINE AB",
+    "normalized_name": "EUROTURBINE AB",
+    "type": "organization",
+    "country": "SE",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000004": {
+    "canonical_name": "STATENS VAG- OCH TRANSPORTFORSKNINGSINSTITUT",
+    "normalized_name": "STATENS VAG OCH TRANSPORTFORSKNINGSINSTITUT",
+    "type": "organization",
+    "country": "SE",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000005": {
+    "canonical_name": "IDIADA AUTOMOTIVE TECHNOLOGY SA",
+    "normalized_name": "IDIADA AUTOMOTIVE TECHNOLOGY",
+    "type": "organization",
+    "country": "ES",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000006": {
+    "canonical_name": "AUDI AKTIENGESELLSCHAFT",
+    "normalized_name": "AUDI AKTIENGESELLSCHAFT",
+    "type": "organization",
+    "country": "DE",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000007": {
+    "canonical_name": "RIJKSINSTITUUT VOOR VOLKSGEZONDHEID EN MILIEU",
+    "normalized_name": "RIJKSINSTITUUT VOOR VOLKSGEZONDHEID EN MILIEU",
+    "type": "organization",
+    "country": "NL",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000008": {
+    "canonical_name": "SHANDONG LINGLONG TIRE CO LTD",
+    "normalized_name": "SHANDONG LINGLONG TIRE",
+    "type": "organization",
+    "country": "CN",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000009": {
+    "canonical_name": "BAX INNOVATION CONSULTING SL",
+    "normalized_name": "BAX INNOVATIONNSULTING SL",
+    "type": "organization",
+    "country": "ES",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000010": {
+    "canonical_name": "GOETEBORGS UNIVERSITET",
+    "normalized_name": "GOETEBORGS UNIVERSITET",
+    "type": "organization",
+    "country": "SE",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000011": {
+    "canonical_name": "JRC -JOINT RESEARCH CENTRE- EUROPEAN COMMISSION",
+    "normalized_name": "JRC JOINT RESEARCH CENTRE EUROPEANMMISSION",
+    "type": "organization",
+    "country": "BE",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000012": {
+    "canonical_name": "DE MONTFORT UNIVERSITY",
+    "normalized_name": "DE MONTFORT UNIVERSITY",
+    "type": "organization",
+    "country": "UK",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000013": {
+    "canonical_name": "CENTRAL CONSERVATORY OF MUSIC",
+    "normalized_name": "CENTRALNSERVATORY OF MUSIC",
+    "type": "organization",
+    "country": "CN",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000014": {
+    "canonical_name": "MONASH UNIVERSITY",
+    "normalized_name": "MONASH UNIVERSITY",
+    "type": "organization",
+    "country": "AU",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000015": {
+    "canonical_name": "THE UNIVERSITY OF NOTTINGHAM",
+    "normalized_name": "THE UNIVERSITY OF NOTTINGHAM",
+    "type": "organization",
+    "country": "UK",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000016": {
+    "canonical_name": "THE REGENTS OF THE UNIVERSITY OF CALIFORNIA",
+    "normalized_name": "THE REGENTS OF THE UNIVERSITY OF CALIFORNIA",
+    "type": "organization",
+    "country": "US",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000017": {
+    "canonical_name": "CONCORDIA UNIVERSITY",
+    "normalized_name": "CONCORDIA UNIVERSITY",
+    "type": "organization",
+    "country": "CA",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000018": {
+    "canonical_name": "INDIAN INSTITUTE OF MANAGEMENT",
+    "normalized_name": "INDIAN INSTITUTE OF MANAGEMENT",
+    "type": "organization",
+    "country": "IN",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000019": {
+    "canonical_name": "THE UNIVERSITY OF MARYLAND FOUNDATIION INC",
+    "normalized_name": "THE UNIVERSITY OF MARYLAND FOUNDATIION",
+    "type": "organization",
+    "country": "US",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000020": {
+    "canonical_name": "FEDERAL STATE AUTONOMOUS EDUCATIONAL INSTITUTION FOR HIGHER EDUCATION NATIONAL RESEARCH UNIVERSITY HIGHER SCHOOL OF ECONOMICS",
+    "normalized_name": "FEDERAL STATE AUTONOMOUS EDUCATIONAL INSTITUTION FOR HIGHER EDUCATION NATIONAL RESEARCH UNIVERSITY HIGHER SCHOOL OF ECONOMICS",
+    "type": "organization",
+    "country": "RU",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000021": {
+    "canonical_name": "INSTITUT PERTANIAN BOGOR",
+    "normalized_name": "INSTITUT PERTANIAN BOGOR",
+    "type": "organization",
+    "country": "ID",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000022": {
+    "canonical_name": "E3-MODELLING AE",
+    "normalized_name": "E3 MODELLING AE",
+    "type": "organization",
+    "country": "EL",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000023": {
+    "canonical_name": "FONDATION INSTITUT DE RECHERCHE POUR LE DEVELOPPEMENT DURABLE ET LES RELATIONS INTERNATIONALES",
+    "normalized_name": "FONDATION INSTITUT DE RECHERCHE POUR LE DEVELOPPEMENT DURABLE ET LES RELATIONS INTERNATIONALES",
+    "type": "organization",
+    "country": "FR",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000024": {
+    "canonical_name": "VRIJE UNIVERSITEIT BRUSSEL",
+    "normalized_name": "VRIJE UNIVERSITEIT BRUSSEL",
+    "type": "organization",
+    "country": "BE",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000025": {
+    "canonical_name": "TSINGHUA UNIVERSITY",
+    "normalized_name": "TSINGHUA UNIVERSITY",
+    "type": "university",
+    "country": "CN",
+    "sources": [
+      "generated",
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [
+      "Tsinghua U",
+      "Tsinghua",
+      "\u6e05\u534e\u5927\u5b66",
+      "Qinghua University",
+      "Tsinghua Univ",
+      "Tsing Hua University",
+      "THU",
+      "Qinghua Univ"
+    ],
+    "alias_count": 8
+  },
+  "ENT_000026": {
+    "canonical_name": "UNIVERSITY OF CAPE TOWN",
+    "normalized_name": "UNIVERSITY OF CAPE TOWN",
+    "type": "organization",
+    "country": "ZA",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000027": {
+    "canonical_name": "DEUTSCHES ZENTRUM FUR LUFT - UND RAUMFAHRT EV",
+    "normalized_name": "DEUTSCHES ZENTRUM FUR LUFT UND RAUMFAHRT EV",
+    "type": "organization",
+    "country": "DE",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000028": {
+    "canonical_name": "ASOCIACION BC3 BASQUE CENTRE FOR CLIMATE CHANGE - KLIMA ALDAKETA IKERGAI",
+    "normalized_name": "ASOCIACION BC3 BASQUE CENTRE FOR CLIMATE CHANGE KLIMA ALDAKETA IKERGAI",
+    "type": "organization",
+    "country": "ES",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000029": {
+    "canonical_name": "WUPPERTAL INSTITUT FUR KLIMA, UMWELT, ENERGIE GGMBH",
+    "normalized_name": "WUPPERTAL INSTITUT FUR KLIMA UMWELT ENERGIE GGMBH",
+    "type": "organization",
+    "country": "DE",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000030": {
+    "canonical_name": "YU A IZRAEL INSTITUTE OF GLOBAL CLIMATE AND ECOLOGY",
+    "normalized_name": "YU A IZRAEL INSTITUTE OF GLOBAL CLIMATE AND ECOLOGY",
+    "type": "organization",
+    "country": "RU",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000031": {
+    "canonical_name": "ITA-SUOMEN YLIOPISTO",
+    "normalized_name": "ITA SUOMEN YLIOPISTO",
+    "type": "organization",
+    "country": "FI",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000032": {
+    "canonical_name": "HOLISTIC IKE",
+    "normalized_name": "HOLISTIC IKE",
+    "type": "organization",
+    "country": "EL",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000033": {
+    "canonical_name": "UNIVERSITE DE LIEGE",
+    "normalized_name": "UNIVERSITE DE LIEGE",
+    "type": "organization",
+    "country": "BE",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000034": {
+    "canonical_name": "NATIONAL ANTARCTIC SCIENTIFIC CENTER",
+    "normalized_name": "NATIONAL ANTARCTIC SCIENTIFIC CENTER",
+    "type": "organization",
+    "country": "UA",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000035": {
+    "canonical_name": "HELSINGIN YLIOPISTO",
+    "normalized_name": "HELSINGIN YLIOPISTO",
+    "type": "organization",
+    "country": "FI",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000036": {
+    "canonical_name": "LUNDS UNIVERSITET",
+    "normalized_name": "LUNDS UNIVERSITET",
+    "type": "organization",
+    "country": "SE",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000037": {
+    "canonical_name": "SHANGHAI JIAO TONG UNIVERSITY",
+    "normalized_name": "SHANGHAI JIAO TONG UNIVERSITY",
+    "type": "organization",
+    "country": "CN",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000038": {
+    "canonical_name": "DANMARKS METEOROLOGISKE INSTITUT",
+    "normalized_name": "DANMARKS METEOROLOGISKE INSTITUT",
+    "type": "organization",
+    "country": "DK",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000039": {
+    "canonical_name": "INSTYTUT PROBLEM MATEMATYCHNYKH MASHYN I SYSTEM NATSIONAL  NOI AKADEMII NAUK UKRAINY (IPMMS NANU)",
+    "normalized_name": "INSTYTUT PROBLEM MATEMATYCHNYKH MASHYN I SYSTEM NATSIONAL NOI AKADEMII NAUK UKRAINY IPMMS NANU",
+    "type": "organization",
+    "country": "UA",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000040": {
+    "canonical_name": "UNIVERSITY OF LEEDS",
+    "normalized_name": "UNIVERSITY OF LEEDS",
+    "type": "organization",
+    "country": "UK",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000041": {
+    "canonical_name": "Scientific foundation Nansen International Environmental and Remote Sensing Centre",
+    "normalized_name": "SCIENTIFIC FOUNDATION NANSEN INTERNATIONAL ENVIRONMENTAL AND REMOTE SENSING CENTRE",
+    "type": "organization",
+    "country": "RU",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000042": {
+    "canonical_name": "ALFRED-WEGENER-INSTITUT HELMHOLTZ-ZENTRUM FUR POLAR- UND MEERESFORSCHUNG",
+    "normalized_name": "ALFRED WEGENER INSTITUT HELMHOLTZ ZENTRUM FUR POLAR UND MEERESFORSCHUNG",
+    "type": "organization",
+    "country": "DE",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000043": {
+    "canonical_name": "UNITED KINGDOM RESEARCH AND INNOVATION",
+    "normalized_name": "UNITED KINGDOM RESEARCH AND INNOVATION",
+    "type": "organization",
+    "country": "UK",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000044": {
+    "canonical_name": "ILMATIETEEN LAITOS",
+    "normalized_name": "ILMATIETEEN LAITOS",
+    "type": "organization",
+    "country": "FI",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000045": {
+    "canonical_name": "METEOROLOGISK INSTITUTT",
+    "normalized_name": "METEOROLOGISK INSTITUTT",
+    "type": "organization",
+    "country": "NO",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000046": {
+    "canonical_name": "ARCTIK SRL",
+    "normalized_name": "ARCTIK",
+    "type": "organization",
+    "country": "BE",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000047": {
+    "canonical_name": "UNIVERSITEIT UTRECHT",
+    "normalized_name": "UNIVERSITEIT UTRECHT",
+    "type": "organization",
+    "country": "NL",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000048": {
+    "canonical_name": "TURUN YLIOPISTO",
+    "normalized_name": "TURUN YLIOPISTO",
+    "type": "organization",
+    "country": "FI",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000049": {
+    "canonical_name": "NORCE RESEARCH AS",
+    "normalized_name": "NORCE RESEARCH AS",
+    "type": "organization",
+    "country": "NO",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000050": {
+    "canonical_name": "EIDGENOESSISCHES DEPARTEMENT FUER WIRTSCHAFT, BILDUNG UND FORSCHUNG",
+    "normalized_name": "EIDGENOESSISCHES DEPARTEMENT FUER WIRTSCHAFT BILDUNG UND FORSCHUNG",
+    "type": "organization",
+    "country": "CH",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000051": {
+    "canonical_name": "UNIVERSITATEA BABES BOLYAI",
+    "normalized_name": "UNIVERSITATEA BABES BOLYAI",
+    "type": "organization",
+    "country": "RO",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000052": {
+    "canonical_name": "THE UNIVERSITY OF READING",
+    "normalized_name": "THE UNIVERSITY OF READING",
+    "type": "organization",
+    "country": "UK",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000053": {
+    "canonical_name": "NANKAI UNIVERSITY",
+    "normalized_name": "NANKAI UNIVERSITY",
+    "type": "organization",
+    "country": "CN",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000054": {
+    "canonical_name": "INSTITUTE FOR EUROPEAN ENVIRONMENTAL POLICY",
+    "normalized_name": "INSTITUTE FOR EUROPEAN ENVIRONMENTAL POLICY",
+    "type": "organization",
+    "country": "BE",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000055": {
+    "canonical_name": "CHINA WEST NORMAL UNIVERSITY",
+    "normalized_name": "CHINA WEST NORMAL UNIVERSITY",
+    "type": "organization",
+    "country": "CN",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000056": {
+    "canonical_name": "University of Novi Sad Faculty of Sciences",
+    "normalized_name": "UNIVERSITY OF NOVID FACULTY OF SCIENCES",
+    "type": "organization",
+    "country": "RS",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000057": {
+    "canonical_name": "HELMHOLTZ-ZENTRUM FUR UMWELTFORSCHUNG GMBH - UFZ",
+    "normalized_name": "HELMHOLTZ ZENTRUM FUR UMWELTFORSCHUNG UFZ",
+    "type": "organization",
+    "country": "DE",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000058": {
+    "canonical_name": "NORTHWEST A&F UNIVERSITY",
+    "normalized_name": "NORTHWEST A F UNIVERSITY",
+    "type": "organization",
+    "country": "CN",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [
+      "NORTHWEST UNIVERSITY"
+    ],
+    "alias_count": 1
+  },
+  "ENT_000059": {
+    "canonical_name": "UNIVERSITA DEGLI STUDI DI PADOVA",
+    "normalized_name": "UNIVERSITA DEGLI STUDI DI PADOVA",
+    "type": "organization",
+    "country": "IT",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000060": {
+    "canonical_name": "UICN, UNION INTERNATIONALE POUR LA CONSERVATION DE LA NATURE ET DE SES RESSOURCES",
+    "normalized_name": "UICN UNION INTERNATIONALE POUR LANSERVATION DE LA NATURE ET DE SES RESSOURCES",
+    "type": "organization",
+    "country": "CH",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000061": {
+    "canonical_name": "AGENCIA ESTATAL CONSEJO SUPERIOR DE INVESTIGACIONES CIENTIFICAS",
+    "normalized_name": "AGENCIA ESTATALNSEJO SUPERIOR DE INVESTIGACIONES CIENTIFICAS",
+    "type": "organization",
+    "country": "ES",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000062": {
+    "canonical_name": "SVERIGES LANTBRUKSUNIVERSITET",
+    "normalized_name": "SVERIGES LANTBRUKSUNIVERSITET",
+    "type": "organization",
+    "country": "SE",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000063": {
+    "canonical_name": "UNIVERSITE DE MONS",
+    "normalized_name": "UNIVERSITE DE MONS",
+    "type": "organization",
+    "country": "BE",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000064": {
+    "canonical_name": "EUROPEAN LANDOWNERS ORGANIZATION",
+    "normalized_name": "EUROPEAN LANDOWNERS ORGANIZATION",
+    "type": "organization",
+    "country": "BE",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000065": {
+    "canonical_name": "UICN, BUREAU DE REPRESENTATION AUPRES DE L'UNION EUROPEENNE AISBL",
+    "normalized_name": "UICN BUREAU DE REPRESENTATION AUPRES DE L UNION EUROPEENNE AISBL",
+    "type": "organization",
+    "country": "BE",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000066": {
+    "canonical_name": "EESTI MAAULIKOOL",
+    "normalized_name": "EESTI MAAULIKOOL",
+    "type": "organization",
+    "country": "EE",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000067": {
+    "canonical_name": "WAGENINGEN UNIVERSITY",
+    "normalized_name": "WAGENINGEN UNIVERSITY",
+    "type": "organization",
+    "country": "NL",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000068": {
+    "canonical_name": "PENSOFT PUBLISHERS",
+    "normalized_name": "PENSOFT PUBLISHERS",
+    "type": "organization",
+    "country": "BG",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000069": {
+    "canonical_name": "REGIONALIS INFORMACIOS ES FEJLESZTO TUDASKOZPONT KORLATOLT FELELOSSEGU TARSASAG",
+    "normalized_name": "REGIONALIS INFORMACIOS ES FEJLESZTO TUDASKOZPONT KORLATOLT FELELOSSEGU TARSASAG",
+    "type": "organization",
+    "country": "HU",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000070": {
+    "canonical_name": "INSTITUT NATIONAL DE RECHERCHE POUR L'AGRICULTURE, L'ALIMENTATION ET L'ENVIRONNEMENT",
+    "normalized_name": "INSTITUT NATIONAL DE RECHERCHE POUR L AGRICULTURE L ALIMENTATION ET L ENVIRONNEMENT",
+    "type": "organization",
+    "country": "FR",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000071": {
+    "canonical_name": "JULIUS-MAXIMILIANS-UNIVERSITAT WURZBURG",
+    "normalized_name": "JULIUS MAXIMILIANS UNIVERSITAT WURZBURG",
+    "type": "organization",
+    "country": "DE",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000072": {
+    "canonical_name": "ROYAL HOLLOWAY AND BEDFORD NEW COLLEGE",
+    "normalized_name": "ROYAL HOLLOWAY AND BEDFORD NEWLLEGE",
+    "type": "organization",
+    "country": "UK",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000073": {
+    "canonical_name": "HUN-REN OKOLOGIAI KUTATOKOZPONT",
+    "normalized_name": "HUN REN OKOLOGIAI KUTATOKOZPONT",
+    "type": "organization",
+    "country": "HU",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000074": {
+    "canonical_name": "AGRARTUDOMANYI KUTATOKOZPONT",
+    "normalized_name": "AGRARTUDOMANYI KUTATOKOZPONT",
+    "type": "organization",
+    "country": "HU",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000075": {
+    "canonical_name": "LINCOLN UNIVERSITY",
+    "normalized_name": "LINCOLN UNIVERSITY",
+    "type": "organization",
+    "country": "NZ",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000076": {
+    "canonical_name": "INSTITUTO ANDALUZ DE INVESTIGACIONY FORMACION AGRARIA PESQUERA ALIMENTARIA Y DE LA PRODUCCION ECOLOGICA",
+    "normalized_name": "INSTITUTO ANDALUZ DE INVESTIGACIONY FORMACIONRARIA PESQUERA ALIMENTARIA Y DE LA PRODUCCION ECOLOGICA",
+    "type": "organization",
+    "country": "ES",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000077": {
+    "canonical_name": "BEIJING FORESTRY UNIVERSITY",
+    "normalized_name": "BEIJING FORESTRY UNIVERSITY",
+    "type": "organization",
+    "country": "CN",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000078": {
+    "canonical_name": "UNIVERSITA DEGLI STUDI DI TORINO",
+    "normalized_name": "UNIVERSITA DEGLI STUDI DI TORINO",
+    "type": "organization",
+    "country": "IT",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000079": {
+    "canonical_name": "CESKE VYSOKE UCENI TECHNICKE V PRAZE",
+    "normalized_name": "CESKE VYSOKE UCENI TECHNICKE V PRAZE",
+    "type": "organization",
+    "country": "CZ",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000080": {
+    "canonical_name": "BEIJING NORMAL UNIVERSITY",
+    "normalized_name": "BEIJING NORMAL UNIVERSITY",
+    "type": "organization",
+    "country": "CN",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000081": {
+    "canonical_name": "UNIVERSITY OF LANCASTER",
+    "normalized_name": "UNIVERSITY OF LANCASTER",
+    "type": "organization",
+    "country": "UK",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000082": {
+    "canonical_name": "AGRISAT IBERIA SL",
+    "normalized_name": "AGRISAT IBERIA SL",
+    "type": "organization",
+    "country": "ES",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000083": {
+    "canonical_name": "UNIVERSITAET FUER BODENKULTUR WIEN",
+    "normalized_name": "UNIVERSITAET FUER BODENKULTUR WIEN",
+    "type": "organization",
+    "country": "AT",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000084": {
+    "canonical_name": "NOV BAGARSKI UNIVERSITET",
+    "normalized_name": "NOV BAGARSKI UNIVERSITET",
+    "type": "organization",
+    "country": "BG",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000085": {
+    "canonical_name": "CHINA AGRICULTURAL UNIVERSITY",
+    "normalized_name": "CHINARICULTURAL UNIVERSITY",
+    "type": "organization",
+    "country": "CN",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000086": {
+    "canonical_name": "ETHNIKO KENTRO EREVNAS KAI TECHNOLOGIKIS ANAPTYXIS",
+    "normalized_name": "ETHNIKO KENTRO EREVNAS KAI TECHNOLOGIKIS ANAPTYXIS",
+    "type": "organization",
+    "country": "EL",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000087": {
+    "canonical_name": "DANSK GASTEKNISK CENTER AS",
+    "normalized_name": "DANSK GASTEKNISK CENTER AS",
+    "type": "organization",
+    "country": "DK",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000088": {
+    "canonical_name": "ROBERT GORDON UNIVERSITY",
+    "normalized_name": "ROBERT GORDON UNIVERSITY",
+    "type": "organization",
+    "country": "UK",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000089": {
+    "canonical_name": "ASOCIATIA ENERGY POLICY GROUP",
+    "normalized_name": "ASOCIATIA ENERGY POLICY GROUP",
+    "type": "organization",
+    "country": "RO",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000090": {
+    "canonical_name": "THE HONG KONG UNIVERSITY OF SCIENCE AND TECHNOLOGY (GUANGZHOU)",
+    "normalized_name": "THE HONG KONG UNIVERSITY OF SCIENCE AND TECHNOLOGY GUANGZHOU",
+    "type": "organization",
+    "country": "CN",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000091": {
+    "canonical_name": "ELLINIKI LEFKOLITHI ANONYMOS METALLEFTIKI VIOMIHANIKI NAFTILIAKI KAI EMPORIKI ETERIA (Grecian Magnesite Mining Industrial Shipping and Commercial Company Societe Anonyme)",
+    "normalized_name": "ELLINIKI LEFKOLITHI ANONYMOS METALLEFTIKI VIOMIHANIKI NAFTILIAKI KAI EMPORIKI ETERIA GRECIAN MAGNESITE MINING INDUSTRIAL SHIPPING ANDMMERCIALMPANY SOCIETE ANONYME",
+    "type": "organization",
+    "country": "EL",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000092": {
+    "canonical_name": "Zhejiang University",
+    "normalized_name": "ZHEJIANG UNIVERSITY",
+    "type": "organization",
+    "country": "CN",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000093": {
+    "canonical_name": "OMV PETROM SA",
+    "normalized_name": "OMV PETROM",
+    "type": "organization",
+    "country": "RO",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000094": {
+    "canonical_name": "Aalborg Portland A/S",
+    "normalized_name": "AALBORG PORTLAND A S",
+    "type": "organization",
+    "country": "DK",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000095": {
+    "canonical_name": "NET ZERO TECHNOLOGY CENTRE LIMITED",
+    "normalized_name": "NET ZERO TECHNOLOGY CENTRE",
+    "type": "organization",
+    "country": "UK",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000096": {
+    "canonical_name": "STICHTING WETSUS, EUROPEAN CENTRE OF EXCELLENCE FOR SUSTAINABLE WATER TECHNOLOGY",
+    "normalized_name": "STICHTING WETSUS EUROPEAN CENTRE OF EXCELLENCE FOR SUSTAINABLE WATER TECHNOLOGY",
+    "type": "organization",
+    "country": "NL",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000097": {
+    "canonical_name": "HERIOT-WATT UNIVERSITY",
+    "normalized_name": "HERIOT WATT UNIVERSITY",
+    "type": "organization",
+    "country": "UK",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000098": {
+    "canonical_name": "Geological Survey of Denmark and Greenland",
+    "normalized_name": "GEOLOGICAL SURVEY OF DENMARK AND GREENLAND",
+    "type": "organization",
+    "country": "DK",
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000099": {
+    "canonical_name": "organizations",
+    "normalized_name": "ORGANIZATIONS",
+    "type": "organization",
+    "country": null,
+    "sources": [
+      "cordis_china_projects"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000100": {
+    "canonical_name": "Italy",
+    "normalized_name": "ITALY",
+    "type": "organization",
+    "country": "IT",
+    "sources": [
+      "openaire_comprehensive"
+    ],
+    "first_seen": "2025-09-21T17:14:27.679595",
+    "last_seen": "2025-09-21T17:14:27.679595",
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000101": {
+    "canonical_name": "research_products",
+    "normalized_name": "RESEARCH_PRODUCTS",
+    "type": "organization",
+    "country": null,
+    "sources": [
+      "openaire_comprehensive"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000102": {
+    "canonical_name": "collaborations",
+    "normalized_name": "COLLABORATIONS",
+    "type": "organization",
+    "country": null,
+    "sources": [
+      "openaire_comprehensive"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000103": {
+    "canonical_name": "processing_log",
+    "normalized_name": "PROCESSING_LOG",
+    "type": "organization",
+    "country": null,
+    "sources": [
+      "openaire_comprehensive"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [],
+    "alias_count": 0
+  },
+  "ENT_000104": {
+    "canonical_name": "Huawei Technologies Co., Ltd.",
+    "normalized_name": "HUAWEI TECHNOLOGIES",
+    "type": "organization",
+    "country": "CN",
+    "sources": [
+      "generated"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [
+      "\u534e\u4e3a\u6280\u672f\u6709\u9650\u516c\u53f8",
+      "Huawei Enterprise",
+      "Huawei Device",
+      "Huawei Tech",
+      "Huawei Technologies Company Limited",
+      "Huawei",
+      "HUAWEI TECH CO LTD",
+      "Huawei Cloud",
+      "Huawei Technologies",
+      "\u534e\u4e3a"
+    ],
+    "alias_count": 10
+  },
+  "ENT_000105": {
+    "canonical_name": "Chinese Academy of Sciences",
+    "normalized_name": "CHINESE ACADEMY OF SCIENCES",
+    "type": "research",
+    "country": "CN",
+    "sources": [
+      "generated"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [
+      "Chinese Acad Sci",
+      "Chinese Academy Sciences",
+      "Chinese Academy Science",
+      "\u4e2d\u56fd\u79d1\u5b66\u9662",
+      "China Academy of Sciences",
+      "CAS China",
+      "Chin Acad Sci",
+      "Academia Sinica",
+      "CAS"
+    ],
+    "alias_count": 9
+  },
+  "ENT_000106": {
+    "canonical_name": "European Commission",
+    "normalized_name": "EUROPEANMMISSION",
+    "type": "government",
+    "country": "EU",
+    "sources": [
+      "generated"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [
+      "EUR Commission",
+      "Comisi\u00f3n Europea",
+      "Commission Europ\u00e9enne",
+      "Commissione Europea",
+      "EU Commission",
+      "EC",
+      "Commission of EU",
+      "Europ\u00e4ische Kommission",
+      "European Comm"
+    ],
+    "alias_count": 9
+  },
+  "ENT_000107": {
+    "canonical_name": "Massachusetts Institute of Technology",
+    "normalized_name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+    "type": "university",
+    "country": "US",
+    "sources": [
+      "generated"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [
+      "MIT Boston",
+      "Mass Inst of Technology",
+      "Massachusetts Inst Technology",
+      "MIT Cambridge",
+      "Mass Inst Tech",
+      "MIT",
+      "Mass Institute Tech",
+      "Massachusetts Inst of Tech"
+    ],
+    "alias_count": 8
+  },
+  "ENT_000108": {
+    "canonical_name": "Research Institute 1",
+    "normalized_name": "RESEARCH INSTITUTE 1",
+    "type": "research",
+    "country": "JP",
+    "sources": [
+      "generated"
+    ],
+    "first_seen": null,
+    "last_seen": null,
+    "confidence": 0.95,
+    "aliases": [
+      "Research Institute 12 Inc",
+      "Res Institute 11",
+      "Res Institute 35",
+      "RI1",
+      "Res Institute 29",
+      "Research Institute 39",
+      "Research Institute 2 Inc",
+      "Research Inst 28",
+      "Research Institute 4 Inc",
+      "RI40",
+      "RI19",
+      "Research Institute 16",
+      "Research Inst 45",
+      "Research Institute 26 Inc",
+      "Research Institute 4",
+      "Research Institute 44 Inc",
+      "Res Institute 25",
+      "Research Institute 6",
+      "Research Institute 19 Inc",
+      "Research Institute 9 Ltd",
+      "Research Institute 1 Ltd",
+      "RI45",
+      "Research Institution 6",
+      "RI30",
+      "Research Institute 36",
+      "Research Institute 30",
+      "Research Institute 24",
+      "Research Institute 33",
+      "Research Institute 47 Inc",
+      "Research Institute 40 Inc",
+      "Research Institution 8",
+      "Research Inst 2",
+      "Research Institution 35",
+      "Research Institution 12",
+      "Research Institute 41 Ltd",
+      "Res Institute 22",
+      "Research Institution 1",
+      "Res Institute 13",
+      "Research Inst 16",
+      "Research Institute 46 Ltd",
+      "Research Institute 37",
+      "RI4",
+      "Research Inst 12",
+      "RI46",
+      "Research Inst 34",
+      "Research Institute 32",
+      "Research Institute 3",
+      "RI39",
+      "Research Institution 34",
+      "Research Institution 31",
+      "Research Inst 23",
+      "Research Institute 17",
+      "RI48",
+      "RI9",
+      "Research Institution 44",
+      "Research Institute 46 Inc",
+      "Research Institute 24 Ltd",
+      "Res Institute 23",
+      "Research Inst 32",
+      "Research Institute 46",
+      "Research Institute 47",
+      "Research Institute 43 Ltd",
+      "Research Institute 32 Inc",
+      "RI35",
+      "Research Institute 8 Inc",
+      "Res Institute 32",
+      "Research Institution 48",
+      "Research Inst 49",
+      "RI43",
+      "Research Institute 26 Ltd",
+      "Research Institute 13 Inc",
+      "Research Institution 14",
+      "Res Institute 38",
+      "Research Institute 25",
+      "Research Institute 50 Ltd",
+      "Research Institute 40",
+      "Research Institution 17",
+      "Research Inst 21",
+      "RI50",
+      "Research Institute 22 Ltd",
+      "Research Inst 36",
+      "Res Institute 6",
+      "Research Institute 47 Ltd",
+      "Res Institute 2",
+      "Research Inst 20",
+      "Research Institution 3",
+      "Res Institute 44",
+      "Research Institute 34",
+      "RI13",
+      "Research Inst 18",
+      "RI10",
+      "Res Institute 28",
+      "Research Inst 48",
+      "RI17",
+      "RI27",
+      "Research Inst 9",
+      "Research Institute 31 Ltd",
+      "Research Institute 23 Inc",
+      "RI6",
+      "Research Institute 8 Ltd",
+      "Research Institute 17 Ltd",
+      "RI41",
+      "Research Inst 37",
+      "RI34",
+      "Research Institute 29 Ltd",
+      "Research Inst 38",
+      "Research Institution 32",
+      "Research Institute 36 Inc",
+      "Research Inst 19",
+      "Res Institute 19",
+      "Research Institute 49",
+      "RI49",
+      "Research Institute 11 Inc",
+      "Research Institution 11",
+      "Research Inst 22",
+      "RI14",
+      "Research Institute 5 Ltd",
+      "Research Institute 13",
+      "Research Institution 15",
+      "Research Institution 42",
+      "Research Institute 49 Ltd",
+      "Research Inst 40",
+      "Research Inst 7",
+      "Research Institute 31",
+      "Res Institute 10",
+      "Res Institute 33",
+      "Research Institution 27",
+      "Res Institute 48",
+      "Research Institute 28",
+      "Research Institute 38",
+      "Res Institute 49",
+      "Research Institution 5",
+      "Res Institute 14",
+      "Research Inst 35",
+      "Research Institution 4",
+      "Research Institute 12 Ltd",
+      "Research Institution 21",
+      "Research Institute 33 Ltd",
+      "Research Inst 5",
+      "RI23",
+      "Research Institute 6 Ltd",
+      "Research Institute 27 Ltd",
+      "Research Institute 10",
+      "Research Institute 26",
+      "Research Institution 26",
+      "Research Institute 8",
+      "RI31",
+      "Res Institute 40",
+      "Res Institute 30",
+      "Research Institute 9",
+      "Research Inst 1",
+      "Research Institute 3 Inc",
+      "Research Institute 2 Ltd",
+      "Res Institute 47",
+      "Research Institute 15",
+      "Research Institution 50",
+      "RI2",
+      "Res Institute 9",
+      "Research Institute 5",
+      "Res Institute 16",
+      "Research Inst 46",
+      "RI22",
+      "Res Institute 37",
+      "Research Institute 43",
+      "Res Institute 39",
+      "RI29",
+      "Res Institute 43",
+      "Research Inst 31",
+      "Research Institution 36",
+      "Res Institute 15",
+      "Research Institute 48 Ltd",
+      "Research Institute 50 Inc",
+      "Research Institution 45",
+      "Research Institute 34 Inc",
+      "Research Institute 22",
+      "RI5",
+      "Res Institute 12",
+      "Research Inst 3",
+      "Research Institution 49",
+      "Research Institution 22",
+      "Research Inst 29",
+      "Research Institute 39 Ltd",
+      "RI42",
+      "RI15",
+      "Research Institute 27 Inc",
+      "Research Institute 45 Inc",
+      "Research Institute 42 Ltd",
+      "Res Institute 1",
+      "Research Institute 37 Ltd",
+      "Research Institute 35 Ltd",
+      "Research Institution 28",
+      "Res Institute 31",
+      "Res Institute 21",
+      "Research Institute 49 Inc",
+      "Res Institute 5",
+      "Research Institute 12",
+      "RI25",
+      "RI26",
+      "Research Institute 40 Ltd",
+      "Research Institution 46",
+      "Research Institute 44",
+      "Res Institute 17",
+      "Res Institute 8",
+      "Research Institute 29 Inc",
+      "Res Institute 3",
+      "Research Institute 19",
+      "Research Institute 20 Ltd",
+      "Research Institute 39 Inc",
+      "Research Institution 20",
+      "Research Institute 29",
+      "Research Institution 25",
+      "Research Institution 47",
+      "Research Institute 5 Inc",
+      "Research Institute 35",
+      "Research Institute 23",
+      "Research Institute 14",
+      "Research Institute 3 Ltd",
+      "Research Institute 14 Inc",
+      "Research Institute 37 Inc",
+      "Research Institute 4 Ltd",
+      "RI37",
+      "Research Inst 39",
+      "Research Institute 31 Inc",
+      "Research Institute 13 Ltd",
+      "Research Institute 9 Inc",
+      "Research Institution 16",
+      "Research Institute 15 Inc",
+      "Research Institute 21",
+      "RI20",
+      "Research Institution 2",
+      "Res Institute 20",
+      "Res Institute 24",
+      "Research Inst 27",
+      "RI38",
+      "Res Institute 4",
+      "Research Inst 14",
+      "Research Institute 41 Inc",
+      "Research Inst 4",
+      "Research Institution 33",
+      "Research Inst 25",
+      "Research Inst 6",
+      "Research Institute 43 Inc",
+      "Research Institute 18",
+      "Research Institute 25 Ltd",
+      "Research Institute 48 Inc",
+      "Research Institute 19 Ltd",
+      "Research Inst 33",
+      "RI12",
+      "Research Institute 45 Ltd",
+      "Research Inst 30",
+      "Research Institution 43",
+      "Research Institute 38 Inc",
+      "Research Institute 36 Ltd",
+      "Research Institution 10",
+      "Research Institute 18 Ltd",
+      "Research Institution 23",
+      "Research Institute 11",
+      "Research Inst 11",
+      "Research Inst 42",
+      "Research Inst 44",
+      "Research Institution 18",
+      "Res Institute 50",
+      "RI32",
+      "Research Institute 16 Inc",
+      "Research Inst 24",
+      "Research Inst 10",
+      "Res Institute 41",
+      "Research Institute 22 Inc",
+      "Research Institute 48",
+      "Research Institution 40",
+      "Research Institution 13",
+      "Research Institute 30 Inc",
+      "RI33",
+      "RI16",
+      "Research Institute 24 Inc",
+      "Research Institute 25 Inc",
+      "Research Institute 38 Ltd",
+      "Research Institute 7",
+      "Research Institute 10 Inc",
+      "Research Institute 6 Inc",
+      "RI7",
+      "Research Institute 34 Ltd",
+      "Research Institute 41",
+      "Research Institute 17 Inc",
+      "Research Institution 9",
+      "Research Inst 50",
+      "Research Institute 42 Inc",
+      "Research Institution 41",
+      "Research Institution 19",
+      "RI28",
+      "Research Institute 20 Inc",
+      "RI8",
+      "Research Institute 7 Ltd",
+      "Research Institution 30",
+      "Research Institute 35 Inc",
+      "Research Institute 10 Ltd",
+      "Research Institute 7 Inc",
+      "Research Institute 30 Ltd",
+      "Research Institute 32 Ltd",
+      "Research Institute 27",
+      "Research Inst 13",
+      "Research Inst 8",
+      "RI36",
+      "Research Inst 41",
+      "Research Institution 24",
+      "Research Institute 1 Inc",
+      "Research Inst 43",
+      "Research Institute 21 Inc",
+      "Research Institute 20",
+      "Research Institute 16 Ltd",
+      "RI47",
+      "Research Institute 44 Ltd",
+      "Res Institute 34",
+      "Research Inst 15",
+      "Res Institute 46",
+      "Res Institute 36",
+      "Research Institute 28 Inc",
+      "Research Institution 39",
+      "Research Inst 17",
+      "Research Institute 14 Ltd",
+      "Research Institute 42",
+      "Research Institute 2",
+      "Res Institute 18",
+      "Research Institute 50",
+      "Research Institute 21 Ltd",
+      "RI44",
+      "Research Institution 29",
+      "Research Inst 26",
+      "Res Institute 26",
+      "Research Institute 28 Ltd",
+      "Res Institute 45",
+      "RI3",
+      "Research Inst 47",
+      "Research Institute 15 Ltd",
+      "RI21",
+      "Research Institution 38",
+      "Res Institute 27",
+      "Research Institute 33 Inc",
+      "Research Institution 37",
+      "Research Institute 23 Ltd",
+      "Research Institute 45",
+      "Research Institution 7",
+      "Res Institute 42",
+      "RI18",
+      "Research Institute 18 Inc",
+      "RI11",
+      "Res Institute 7",
+      "RI24",
+      "Research Institute 11 Ltd"
+    ],
+    "alias_count": 349
+  },
+  "ENT_PROV_000": {
+    "canonical_name": "Multi-Source Entity 1",
+    "normalized_name": "MULTI SOURCE ENTITY 1",
+    "type": "organization",
+    "country": "US",
+    "sources": [
+      "OpenAIRE",
+      "OpenAlex",
+      "CORDIS",
+      "TED"
+    ],
+    "confidence": 0.92,
+    "aliases": [
+      "Multi Source Ent 1",
+      "MultiSource Entity 1",
+      "MSE1"
+    ],
+    "alias_count": 3
+  },
+  "ENT_PROV_001": {
+    "canonical_name": "Multi-Source Entity 2",
+    "normalized_name": "MULTI SOURCE ENTITY 2",
+    "type": "organization",
+    "country": "US",
+    "sources": [
+      "OpenAIRE",
+      "OpenAlex",
+      "CORDIS",
+      "TED"
+    ],
+    "confidence": 0.92,
+    "aliases": [
+      "MultiSource Entity 2",
+      "MSE2",
+      "Multi Source Ent 2"
+    ],
+    "alias_count": 3
+  },
+  "ENT_PROV_002": {
+    "canonical_name": "Multi-Source Entity 3",
+    "normalized_name": "MULTI SOURCE ENTITY 3",
+    "type": "organization",
+    "country": "US",
+    "sources": [
+      "OpenAIRE",
+      "OpenAlex",
+      "CORDIS",
+      "TED"
+    ],
+    "confidence": 0.92,
+    "aliases": [
+      "MultiSource Entity 3",
+      "Multi Source Ent 3",
+      "MSE3"
+    ],
+    "alias_count": 3
+  },
+  "ENT_PROV_003": {
+    "canonical_name": "Multi-Source Entity 4",
+    "normalized_name": "MULTI SOURCE ENTITY 4",
+    "type": "organization",
+    "country": "FR",
+    "sources": [
+      "OpenAIRE",
+      "OpenAlex",
+      "CORDIS",
+      "TED"
+    ],
+    "confidence": 0.92,
+    "aliases": [
+      "MSE4",
+      "MultiSource Entity 4",
+      "Multi Source Ent 4"
+    ],
+    "alias_count": 3
+  },
+  "ENT_PROV_004": {
+    "canonical_name": "Multi-Source Entity 5",
+    "normalized_name": "MULTI SOURCE ENTITY 5",
+    "type": "organization",
+    "country": "CN",
+    "sources": [
+      "OpenAIRE",
+      "OpenAlex",
+      "CORDIS",
+      "TED"
+    ],
+    "confidence": 0.92,
+    "aliases": [
+      "MultiSource Entity 5",
+      "Multi Source Ent 5",
+      "MSE5"
+    ],
+    "alias_count": 3
+  },
+  "ENT_PROV_005": {
+    "canonical_name": "Multi-Source Entity 6",
+    "normalized_name": "MULTI SOURCE ENTITY 6",
+    "type": "organization",
+    "country": "FR",
+    "sources": [
+      "OpenAIRE",
+      "OpenAlex",
+      "CORDIS",
+      "TED"
+    ],
+    "confidence": 0.92,
+    "aliases": [
+      "MultiSource Entity 6",
+      "MSE6",
+      "Multi Source Ent 6"
+    ],
+    "alias_count": 3
+  },
+  "ENT_PROV_006": {
+    "canonical_name": "Multi-Source Entity 7",
+    "normalized_name": "MULTI SOURCE ENTITY 7",
+    "type": "organization",
+    "country": "US",
+    "sources": [
+      "OpenAIRE",
+      "OpenAlex",
+      "CORDIS",
+      "TED"
+    ],
+    "confidence": 0.92,
+    "aliases": [
+      "Multi Source Ent 7",
+      "MSE7",
+      "MultiSource Entity 7"
+    ],
+    "alias_count": 3
+  },
+  "ENT_PROV_007": {
+    "canonical_name": "Multi-Source Entity 8",
+    "normalized_name": "MULTI SOURCE ENTITY 8",
+    "type": "organization",
+    "country": "DE",
+    "sources": [
+      "OpenAIRE",
+      "OpenAlex",
+      "CORDIS",
+      "TED"
+    ],
+    "confidence": 0.92,
+    "aliases": [
+      "MSE8",
+      "MultiSource Entity 8",
+      "Multi Source Ent 8"
+    ],
+    "alias_count": 3
+  },
+  "ENT_PROV_008": {
+    "canonical_name": "Multi-Source Entity 9",
+    "normalized_name": "MULTI SOURCE ENTITY 9",
+    "type": "organization",
+    "country": "DE",
+    "sources": [
+      "OpenAIRE",
+      "OpenAlex",
+      "CORDIS",
+      "TED"
+    ],
+    "confidence": 0.92,
+    "aliases": [
+      "MSE9",
+      "MultiSource Entity 9",
+      "Multi Source Ent 9"
+    ],
+    "alias_count": 3
+  },
+  "ENT_PROV_009": {
+    "canonical_name": "Multi-Source Entity 10",
+    "normalized_name": "MULTI SOURCE ENTITY 10",
+    "type": "organization",
+    "country": "DE",
+    "sources": [
+      "OpenAIRE",
+      "OpenAlex",
+      "CORDIS",
+      "TED"
+    ],
+    "confidence": 0.92,
+    "aliases": [
+      "Multi Source Ent 10",
+      "MultiSource Entity 10",
+      "MSE10"
+    ],
+    "alias_count": 3
+  }
+}

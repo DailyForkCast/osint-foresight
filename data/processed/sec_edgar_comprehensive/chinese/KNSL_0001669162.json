@@ -1,0 +1,47 @@
+{
+  "cik": "0001669162",
+  "ticker": "KNSL",
+  "name": "Kinsale Capital Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6331",
+  "sicDescription": "Fire, Marine & Casualty Insurance",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "980664337",
+  "phone": "(804) 289-1300",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2035 MAYWILL STREET, SUITE 100",
+      "street2": null,
+      "city": "RICHMOND",
+      "stateOrCountry": "VA",
+      "zipCode": "23230",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2035 MAYWILL STREET, SUITE 100",
+      "street2": null,
+      "city": "RICHMOND",
+      "stateOrCountry": "VA",
+      "zipCode": "23230",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-07-24"
+  },
+  "filings_count": 599
+}

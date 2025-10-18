@@ -1,0 +1,47 @@
+{
+  "cik": "0001866816",
+  "ticker": "OPTXW",
+  "name": "SYNTEC OPTICS HOLDINGS, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3827",
+  "sicDescription": "Optical Instruments & Lenses",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "870816957",
+  "phone": "617-894-5238",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1111 LINCOLN ROAD",
+      "street2": "SUITE 500",
+      "city": "MIAMI BEACH",
+      "stateOrCountry": "FL",
+      "zipCode": "33139",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1111 LINCOLN ROAD",
+      "street2": "SUITE 500",
+      "city": "MIAMI BEACH",
+      "stateOrCountry": "FL",
+      "zipCode": "33139",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-24"
+  },
+  "filings_count": 157
+}

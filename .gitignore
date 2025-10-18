@@ -31,6 +31,24 @@ venv/
 /*.xlsx
 /*.pptx
 
+# Archive directories
+/archive/
+/ARCHIVED_*/
+
+# Temporary analysis files in root
+/*.json
+/*.md
+!README.md
+!README_*.md
+
+# Tools and utilities
+/tools/__pycache__/
+/tools/**/__pycache__/
+
+# Setup and configuration
+/setup/*.log
+/setup/*.tmp
+
 # Local config
 .env
 .env.local
@@ -129,3 +147,22 @@ data/conferences/
 F:/*
 /F/
 F/
+config/api_keys.json
+
+# Security - Never commit credentials
+.env.local
+.env
+*.key
+*.pem
+config/*credentials*
+config/*auth*
+config/api_keys.json
+config/patent_auth.json
+config/epo_credentials.json
+*_token.json
+*_secret*
+.env.local
+
+# CORDIS raw data files (too large for GitHub)
+countries/_global/data/cordis_raw/**/*.json
+!countries/_global/data/cordis_raw/metadata.json

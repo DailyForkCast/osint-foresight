@@ -1,0 +1,47 @@
+{
+  "cik": "0000891103",
+  "ticker": "MTCH",
+  "name": "Match Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7370",
+  "sicDescription": "Services-Computer Programming, Data Processing, Etc.",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "592712887",
+  "phone": "2145769352",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "8750 NORTH CENTRAL EXPRESSWAY",
+      "street2": "SUITE 1400",
+      "city": "DALLAS",
+      "stateOrCountry": "TX",
+      "zipCode": "75231",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "8750 NORTH CENTRAL EXPRESSWAY",
+      "street2": "SUITE 1400",
+      "city": "DALLAS",
+      "stateOrCountry": "TX",
+      "zipCode": "75231",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-20"
+  },
+  "filings_count": 1000
+}

@@ -1,0 +1,498 @@
+{
+  "timestamp": "2025-09-30T05:31:38.781774",
+  "total_countries": 81,
+  "expanded_coverage": {
+    "new_countries": 11,
+    "high_priority": 17,
+    "total_queue": 42
+  },
+  "data_sources": {
+    "openalex": 42,
+    "ted": 28,
+    "usaspending": 42,
+    "cordis": 33
+  },
+  "priority_breakdown": {
+    "priority_1": 11,
+    "priority_2": 6,
+    "priority_3": 6,
+    "priority_4": 19
+  },
+  "new_countries_list": [
+    "GB",
+    "NO",
+    "CH",
+    "IS",
+    "AL",
+    "BA",
+    "MK",
+    "ME",
+    "XK",
+    "AM",
+    "AZ"
+  ],
+  "queue": [
+    {
+      "country": "GB",
+      "priority": 1,
+      "reason": "Newly added - expanded coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "NO",
+      "priority": 1,
+      "reason": "Newly added - expanded coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "CH",
+      "priority": 1,
+      "reason": "Newly added - expanded coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "IS",
+      "priority": 1,
+      "reason": "Newly added - expanded coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "AL",
+      "priority": 1,
+      "reason": "Newly added - expanded coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "BA",
+      "priority": 1,
+      "reason": "Newly added - expanded coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "MK",
+      "priority": 1,
+      "reason": "Newly added - expanded coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "ME",
+      "priority": 1,
+      "reason": "Newly added - expanded coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "XK",
+      "priority": 1,
+      "reason": "Newly added - expanded coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "AM",
+      "priority": 1,
+      "reason": "Newly added - expanded coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "AZ",
+      "priority": 1,
+      "reason": "Newly added - expanded coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "HU",
+      "priority": 2,
+      "reason": "Gateway country - high Chinese penetration",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "GR",
+      "priority": 2,
+      "reason": "Gateway country - high Chinese penetration",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "IT",
+      "priority": 2,
+      "reason": "Gateway country - high Chinese penetration",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "PL",
+      "priority": 2,
+      "reason": "Gateway country - high Chinese penetration",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "RS",
+      "priority": 2,
+      "reason": "Gateway country - high Chinese penetration",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "TR",
+      "priority": 2,
+      "reason": "Gateway country - high Chinese penetration",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "DE",
+      "priority": 3,
+      "reason": "Major economy - high R&D volume",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "FR",
+      "priority": 3,
+      "reason": "Major economy - high R&D volume",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "ES",
+      "priority": 3,
+      "reason": "Major economy - high R&D volume",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "NL",
+      "priority": 3,
+      "reason": "Major economy - high R&D volume",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "BE",
+      "priority": 3,
+      "reason": "Major economy - high R&D volume",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "SE",
+      "priority": 3,
+      "reason": "Major economy - high R&D volume",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "AT",
+      "priority": 4,
+      "reason": "Comprehensive coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "BG",
+      "priority": 4,
+      "reason": "Comprehensive coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "CY",
+      "priority": 4,
+      "reason": "Comprehensive coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "CZ",
+      "priority": 4,
+      "reason": "Comprehensive coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "DK",
+      "priority": 4,
+      "reason": "Comprehensive coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "EE",
+      "priority": 4,
+      "reason": "Comprehensive coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "FI",
+      "priority": 4,
+      "reason": "Comprehensive coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "IE",
+      "priority": 4,
+      "reason": "Comprehensive coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "LT",
+      "priority": 4,
+      "reason": "Comprehensive coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "LV",
+      "priority": 4,
+      "reason": "Comprehensive coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "MT",
+      "priority": 4,
+      "reason": "Comprehensive coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "PT",
+      "priority": 4,
+      "reason": "Comprehensive coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "RO",
+      "priority": 4,
+      "reason": "Comprehensive coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "SI",
+      "priority": 4,
+      "reason": "Comprehensive coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "SK",
+      "priority": 4,
+      "reason": "Comprehensive coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "UA",
+      "priority": 4,
+      "reason": "Comprehensive coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "GE",
+      "priority": 4,
+      "reason": "Comprehensive coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "FO",
+      "priority": 4,
+      "reason": "Comprehensive coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    },
+    {
+      "country": "GL",
+      "priority": 4,
+      "reason": "Comprehensive coverage",
+      "sources": [
+        "openalex",
+        "ted",
+        "usaspending",
+        "cordis"
+      ]
+    }
+  ]
+}

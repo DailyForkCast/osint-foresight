@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-09-25T18:33:22.203545",
+  "status": "NOOP",
+  "checks": {
+    "non_empty_output": true,
+    "zero_byte_guard": true,
+    "noop_detected": true,
+    "noop_evidence": false
+  },
+  "metrics": {
+    "created_dirs": 0,
+    "created_files": 0,
+    "deleted_files": 0,
+    "bytes_added": 0,
+    "zero_byte_files": 0,
+    "new_zero_byte_files": 0
+  },
+  "failures": []
+}

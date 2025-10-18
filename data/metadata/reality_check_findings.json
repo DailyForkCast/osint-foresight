@@ -1,0 +1,94 @@
+{
+  "ted_status": {
+    "exists": true,
+    "total_items": 99,
+    "xml_files": 0,
+    "directories": 10,
+    "deep_structure": [
+      {
+        "path": "F:\\DECOMPRESSED_DATA\\ted_extracted\\TED_monthly_2024_08.tar\\08",
+        "file_count": 4,
+        "sample_files": [
+          "20240826_2024165.tar.gz",
+          "20240816_2024159.tar.gz",
+          "20240829_2024168.tar.gz",
+          "20240807_2024153.tar.gz"
+        ]
+      },
+      {
+        "path": "F:\\DECOMPRESSED_DATA\\ted_extracted\\TED_monthly_2024_12.tar\\12",
+        "file_count": 20,
+        "sample_files": [
+          "20241209_2024239.tar.gz",
+          "20241230_2024252.tar.gz",
+          "20241212_2024242.tar.gz",
+          "20241210_2024240.tar.gz",
+          "20241206_2024238.tar.gz"
+        ]
+      },
+      {
+        "path": "F:\\DECOMPRESSED_DATA\\ted_extracted\\TED_monthly_2024_11.tar\\11",
+        "file_count": 20,
+        "sample_files": [
+          "20241125_2024229.tar.gz",
+          "20241122_2024228.tar.gz",
+          "20241129_2024233.tar.gz",
+          "20241107_2024217.tar.gz",
+          "20241119_2024225.tar.gz"
+        ]
+      },
+      {
+        "path": "F:\\DECOMPRESSED_DATA\\ted_extracted\\TED_monthly_2024_10.tar\\10",
+        "file_count": 23,
+        "sample_files": [
+          "20241021_2024205.tar.gz",
+          "20241010_2024198.tar.gz",
+          "20241022_2024206.tar.gz",
+          "20241029_2024211.tar.gz",
+          "20241017_2024203.tar.gz"
+        ]
+      },
+      {
+        "path": "F:\\DECOMPRESSED_DATA\\ted_extracted\\TED_monthly_2024_01.tar\\01",
+        "file_count": 22,
+        "sample_files": [
+          "20240116_2024011.tar.gz",
+          "20240123_2024016.tar.gz",
+          "20240126_2024019.tar.gz",
+          "20240124_2024017.tar.gz",
+          "20240115_2024010.tar.gz"
+        ]
+      }
+    ]
+  },
+  "json_china_matches": [],
+  "tsv_insights": {
+    "files_analyzed": 2,
+    "total_columns": 374,
+    "sample_rows": 200,
+    "structure": "USASpending database tables"
+  },
+  "real_accessibility": {
+    "json_sample": "EXISTS (490.2 KB)",
+    "tsv_analysis": "EXISTS (0.2 KB)",
+    "postgres_scripts": "EXISTS (2 items)",
+    "overnight_script": "EXISTS (1.3 KB)",
+    "ted_extracted": "EXISTS (5 items)",
+    "usaspending_dat": "EXISTS (77 items)",
+    "parseable_files": 69,
+    "breakdown": {
+      "cordis_json": 21,
+      "postgres_tables": 45,
+      "json_sample": 1,
+      "tsv_structure": 2,
+      "ted_files": 0
+    }
+  },
+  "json_insights": {
+    "total_lines": 1000,
+    "dept_agriculture": 392,
+    "redacted_entries": 398,
+    "direct_payments": 640,
+    "china_matches": 0
+  }
+}

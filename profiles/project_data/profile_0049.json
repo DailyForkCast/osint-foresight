@@ -1,0 +1,28 @@
+{
+  "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\countries_config.json",
+  "size": 211,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 1,
+  "field_count": 6,
+  "parse_status": "success",
+  "schema": {
+    "total_countries": "number",
+    "target_country": "string",
+    "analysis_focus": "string",
+    "risk_assessment": "number",
+    "temporal_analysis": "number",
+    "technology_classification": "number"
+  },
+  "sample_records": [
+    {
+      "total_countries": 60,
+      "target_country": "CN",
+      "analysis_focus": "Research collaborations with China",
+      "risk_assessment": true,
+      "temporal_analysis": true,
+      "technology_classification": true
+    }
+  ],
+  "modified": "2025-09-20T22:05:27.164972"
+}

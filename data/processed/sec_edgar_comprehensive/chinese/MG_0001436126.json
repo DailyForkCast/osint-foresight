@@ -1,0 +1,48 @@
+{
+  "cik": "0001436126",
+  "ticker": "MG",
+  "name": "Mistras Group, Inc.",
+  "detection_reasons": [
+    "offshore:vg",
+    "offshore:bm"
+  ],
+  "sic": "8711",
+  "sicDescription": "Services-Engineering Services",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "223341267",
+  "phone": "609-716-4000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "195 CLARKSVILLE ROAD",
+      "street2": null,
+      "city": "PRINCETON JUNCTION",
+      "stateOrCountry": "NJ",
+      "zipCode": "08550",
+      "stateOrCountryDescription": "NJ",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "195 CLARKSVILLE ROAD",
+      "street2": null,
+      "city": "PRINCETON JUNCTION",
+      "stateOrCountry": "NJ",
+      "zipCode": "08550",
+      "stateOrCountryDescription": "NJ",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-10"
+  },
+  "filings_count": 1011
+}

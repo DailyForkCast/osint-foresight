@@ -1,0 +1,84 @@
+{
+  "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openaire_comprehensive\\openaire_comprehensive.db",
+  "size": 49766400,
+  "extension": ".db",
+  "encoding": "unknown",
+  "line_count": 7717,
+  "field_count": 5,
+  "parse_status": "success",
+  "schema": {
+    "country_overview": {
+      "row_count": 1,
+      "columns": [
+        "country_code",
+        "country_name",
+        "total_research_products",
+        "recent_publications",
+        "processing_date",
+        "processing_status"
+      ]
+    },
+    "research_products": {
+      "row_count": 3854,
+      "columns": [
+        "id",
+        "country_code",
+        "title",
+        "date_accepted",
+        "result_type",
+        "doi",
+        "processing_batch",
+        "raw_data"
+      ]
+    },
+    "sqlite_sequence": {
+      "row_count": 3,
+      "columns": [
+        "name",
+        "seq"
+      ]
+    },
+    "collaborations": {
+      "row_count": 3854,
+      "columns": [
+        "id",
+        "primary_country",
+        "partner_country",
+        "title",
+        "date_accepted",
+        "result_type",
+        "doi",
+        "num_countries",
+        "organizations",
+        "is_china_collaboration",
+        "processing_batch"
+      ]
+    },
+    "processing_log": {
+      "row_count": 5,
+      "columns": [
+        "id",
+        "country_code",
+        "batch_number",
+        "start_time",
+        "end_time",
+        "records_processed",
+        "collaborations_found",
+        "china_collaborations",
+        "status",
+        "error_message"
+      ]
+    }
+  },
+  "sample_records": [
+    [
+      "IT",
+      "Italy",
+      7277853,
+      133628,
+      "2025-09-21T17:14:27.679595",
+      "completed"
+    ]
+  ],
+  "modified": "2025-09-21T17:18:13.911134"
+}

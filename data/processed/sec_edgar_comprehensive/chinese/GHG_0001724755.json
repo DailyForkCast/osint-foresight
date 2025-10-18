@@ -1,0 +1,52 @@
+{
+  "cik": "0001724755",
+  "ticker": "GHG",
+  "name": "GreenTree Hospitality Group Ltd.",
+  "detection_reasons": [
+    "location:china",
+    "location:shanghai",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "7011",
+  "sicDescription": "Hotels & Motels",
+  "category": "Non-accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86-21-3617-4886",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1228 ZHONGSHAN NORTH ROAD",
+      "street2": "PUTUO DISTRICT",
+      "city": "SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "200065",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1228 ZHONGSHAN NORTH ROAD",
+      "street2": "PUTUO DISTRICT",
+      "city": "SHANGHAI",
+      "stateOrCountry": "F4",
+      "zipCode": "200065",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "20-F",
+    "date": "2025-04-30"
+  },
+  "filings_count": 109
+}

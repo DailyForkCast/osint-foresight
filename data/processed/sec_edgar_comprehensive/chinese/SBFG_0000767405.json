@@ -1,0 +1,47 @@
+{
+  "cik": "0000767405",
+  "ticker": "SBFG",
+  "name": "SB FINANCIAL GROUP, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6022",
+  "sicDescription": "State Commercial Banks",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "OH",
+  "ein": "341395608",
+  "phone": "4197838930",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "401 CLINTON STREET",
+      "street2": "PO BOX 467",
+      "city": "DEFIANCE",
+      "stateOrCountry": "OH",
+      "zipCode": "43512",
+      "stateOrCountryDescription": "OH",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "401 CLINTON ST",
+      "street2": null,
+      "city": "DEFIANCE",
+      "stateOrCountry": "OH",
+      "zipCode": "43512",
+      "stateOrCountryDescription": "OH",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-07"
+  },
+  "filings_count": 1000
+}

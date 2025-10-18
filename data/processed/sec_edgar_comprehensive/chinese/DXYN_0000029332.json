@@ -1,0 +1,47 @@
+{
+  "cik": "0000029332",
+  "ticker": "DXYN",
+  "name": "DIXIE GROUP INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2273",
+  "sicDescription": "Carpets & Rugs",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "TN",
+  "ein": "620183370",
+  "phone": "7068765814",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "PO BOX 2007",
+      "street2": null,
+      "city": "DALTON",
+      "stateOrCountry": "GA",
+      "zipCode": "30722",
+      "stateOrCountryDescription": "GA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "PO BOX 2007",
+      "street2": null,
+      "city": "DALTON",
+      "stateOrCountry": "GA",
+      "zipCode": "30722",
+      "stateOrCountryDescription": "GA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-08"
+  },
+  "filings_count": 1000
+}

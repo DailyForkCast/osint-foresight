@@ -1,0 +1,47 @@
+{
+  "cik": "0001661181",
+  "ticker": "ORGO",
+  "name": "Organogenesis Holdings Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2834",
+  "sicDescription": "Pharmaceutical Preparations",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "781-575-0775",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "85 DAN ROAD",
+      "street2": null,
+      "city": "CANTON",
+      "stateOrCountry": "MA",
+      "zipCode": "02021",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "85 DAN ROAD",
+      "street2": null,
+      "city": "CANTON",
+      "stateOrCountry": "MA",
+      "zipCode": "02021",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-25"
+  },
+  "filings_count": 614
+}

@@ -1,0 +1,49 @@
+{
+  "cik": "0001982444",
+  "ticker": "BDMDW",
+  "name": "Baird Medical Investment Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong"
+  ],
+  "sic": "3841",
+  "sicDescription": "Surgical & Medical Instruments & Apparatus",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86 159 1316 5120",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "18/F, OVEST",
+      "street2": "77 WING LOK STREET",
+      "city": "SHEUNG WAN",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "18/F, OVEST",
+      "street2": "77 WING LOK STREET",
+      "city": "SHEUNG WAN",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "20-F",
+    "date": "2025-05-15"
+  },
+  "filings_count": 50
+}

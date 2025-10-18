@@ -1,0 +1,49 @@
+{
+  "cik": "0000946112",
+  "ticker": "CDSG",
+  "name": "China Dongsheng International, Inc.",
+  "detection_reasons": [
+    "location:china",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "1000",
+  "sicDescription": "Metal Mining",
+  "category": "",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "223137907",
+  "phone": "86-432-4566702",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "JIFENG EAST ROAD GAOXIN DISTRICT",
+      "street2": "JILIN, JILIN PROVINCE",
+      "city": "PEOPLES REPUBLIC OF CHINA",
+      "stateOrCountry": "F4",
+      "zipCode": "000-00",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "JIFENG EAST ROAD GAOXIN DISTRICT",
+      "street2": "JILIN, JILIN PROVINCE",
+      "city": "PEOPLES REPUBLIC OF CHINA",
+      "stateOrCountry": "F4",
+      "zipCode": "000-00",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2008-08-26"
+  },
+  "filings_count": 111
+}

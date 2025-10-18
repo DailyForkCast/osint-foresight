@@ -1,0 +1,48 @@
+{
+  "cik": "0001991261",
+  "ticker": "SKK",
+  "name": "SKK Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "1623",
+  "sicDescription": "Water, Sewer, Pipeline, Comm & Power Line Construction",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "65 6334 3831",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "27 FIRST LOK YANG ROAD",
+      "street2": null,
+      "city": "SINGAPORE",
+      "stateOrCountry": "U0",
+      "zipCode": "629735",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "27 FIRST LOK YANG ROAD",
+      "street2": null,
+      "city": "SINGAPORE",
+      "stateOrCountry": "U0",
+      "zipCode": "629735",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "20-F",
+    "date": "2025-05-15"
+  },
+  "filings_count": 57
+}

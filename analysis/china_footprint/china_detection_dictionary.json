@@ -1,0 +1,74 @@
+{
+  "version": "1.0",
+  "generated": "2025-09-25T14:17:47.401887",
+  "categories": {
+    "explicit_mentions": {
+      "patterns": [
+        "\\bChina\\b",
+        "\\bChinese\\b",
+        "\\bPRC\\b",
+        "\\bBeijing\\b",
+        "\\bShanghai\\b",
+        "\\bShenzhen\\b",
+        "\\bGuangzhou\\b",
+        "\\bHuawei\\b",
+        "\\bAlibaba\\b",
+        "\\bTencent\\b",
+        "\\bBaidu\\b"
+      ],
+      "hits": 2,
+      "description": "Patterns for detecting explicit mentions"
+    },
+    "institutions": {
+      "patterns": [
+        "Chinese Academy",
+        "Tsinghua",
+        "Peking University",
+        "Fudan",
+        "Zhejiang University",
+        "CAS\\b"
+      ],
+      "hits": 0,
+      "description": "Patterns for detecting institutions"
+    },
+    "technology_areas": {
+      "patterns": [
+        "5G",
+        "AI",
+        "quantum",
+        "semiconductor",
+        "biotechnology",
+        "renewable energy"
+      ],
+      "hits": 44,
+      "description": "Patterns for detecting technology areas"
+    },
+    "cooperation_terms": {
+      "patterns": [
+        "collaboration",
+        "partnership",
+        "joint venture",
+        "technology transfer",
+        "cooperation agreement"
+      ],
+      "hits": 1,
+      "description": "Patterns for detecting cooperation terms"
+    },
+    "funding_sources": {
+      "patterns": [
+        "Belt and Road",
+        "BRI\\b",
+        "AIIB",
+        "Silk Road Fund",
+        "China Development Bank"
+      ],
+      "hits": 0,
+      "description": "Patterns for detecting funding sources"
+    }
+  },
+  "statistics": {
+    "total_patterns": 33,
+    "files_analyzed": 96,
+    "detection_rate": 11.458333333333332
+  }
+}

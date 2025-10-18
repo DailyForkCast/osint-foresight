@@ -1,0 +1,53 @@
+{
+  "cik": "0001733868",
+  "ticker": "CNF",
+  "name": "CNFinance Holdings Ltd.",
+  "detection_reasons": [
+    "location:china",
+    "location:guangzhou",
+    "location:guangdong",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "6199",
+  "sicDescription": "Finance Services",
+  "category": "Accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86-020-62316688",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "22/F, SOUTH FINANCE CTR, NO. 6 WUHENG RD",
+      "street2": "TIANHE DISTRICT, GUANGZHOU CITY",
+      "city": "GUANGDONG PROVINCE",
+      "stateOrCountry": "F4",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "22/F, SOUTH FINANCE CTR, NO. 6 WUHENG RD",
+      "street2": "TIANHE DISTRICT, GUANGZHOU CITY",
+      "city": "GUANGDONG PROVINCE",
+      "stateOrCountry": "F4",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-28"
+  },
+  "filings_count": 139
+}

@@ -1,0 +1,48 @@
+{
+  "cik": "0000313838",
+  "ticker": "SNEJF",
+  "name": "Sony Group Corp",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:bm"
+  ],
+  "sic": "3651",
+  "sicDescription": "Household Audio & Video Equipment",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "M0",
+  "ein": "000000000",
+  "phone": "81-3-6748-2111",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1-7-1, KONAN",
+      "street2": "MINATO-KU",
+      "city": "TOKYO",
+      "stateOrCountry": null,
+      "zipCode": "108-0075",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Japan",
+      "countryCode": "M0"
+    },
+    "business": {
+      "street1": "1-7-1, KONAN",
+      "street2": "MINATO-KU",
+      "city": "TOKYO",
+      "stateOrCountry": null,
+      "zipCode": "108-0075",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Japan",
+      "countryCode": "M0"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-17"
+  },
+  "filings_count": 1000
+}

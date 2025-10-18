@@ -1,0 +1,4830 @@
+[
+  {
+    "paper_id": "https://openalex.org/W3139723849",
+    "doi": null,
+    "title": "Fundamental scientific aspects of lithium ion batteries(XIII)—Electrochemical measurement",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "CZ"
+    ],
+    "institutions": {
+      "CZ": [
+        "Czech Academy of Sciences, Institute of Physics"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "CZ": [
+        "Shigan Ling (Czech Academy of Sciences, Institute of Physics)"
+      ],
+      "CN": [
+        "Shigan Ling (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 158158,
+      "extraction_command": "sed -n '158158p' part_001.gz | jq '.title'",
+      "paper_hash": "0166622b1d7dea6d"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W3144845080",
+    "doi": null,
+    "title": "Fundamental scientific aspects of lithium ion batteries(XI)——Lithium air and lithium sulfur batteries",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "CZ"
+    ],
+    "institutions": {
+      "CZ": [
+        "Czech Academy of Sciences, Institute of Physics"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "CZ": [
+        "Jiayu Peng (Czech Academy of Sciences, Institute of Physics)"
+      ],
+      "CN": [
+        "Jiayu Peng (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 756329,
+      "extraction_command": "sed -n '756329p' part_005.gz | jq '.title'",
+      "paper_hash": "cdbb20f7df3e8c0f"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2365903674",
+    "doi": null,
+    "title": "35 kJ/7 kW Conduction-cooled High T_c Superconducting Magnet Energy Storage",
+    "publication_year": 2006,
+    "countries_collaborating": [
+      "CA",
+      "CN"
+    ],
+    "institutions": {
+      "CA": [
+        "CAE (Canada)"
+      ],
+      "CN": [
+        "Jingdong (China)"
+      ]
+    },
+    "authors_by_country": {
+      "CA": [
+        "Jing Shi (CAE (Canada))"
+      ],
+      "CN": [
+        "Jing Shi (Jingdong (China))"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2006,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 606487,
+      "extraction_command": "sed -n '606487p' part_000.gz | jq '.title'",
+      "paper_hash": "68dc70778189e8b5"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2375562652",
+    "doi": null,
+    "title": "Lithium ion battery cathode material Li_4Ti_5O_(12) prepared by high-temperature solid method using metatitanic acid",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "IN"
+    ],
+    "institutions": {
+      "IN": [
+        "Institute of Chemical Technology"
+      ],
+      "CN": [
+        "Panzhihua University"
+      ]
+    },
+    "authors_by_country": {
+      "IN": [
+        "MA Guangqian (Institute of Chemical Technology)"
+      ],
+      "CN": [
+        "MA Guangqian (Panzhihua University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 213284,
+      "extraction_command": "sed -n '213284p' part_001.gz | jq '.title'",
+      "paper_hash": "6d6e53846a9b6a67"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2467905240",
+    "doi": null,
+    "title": "High capacitive amorphous barium nickel phosphate nanofibers for electrochemical energy storage",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "Queensland University of Technology"
+      ],
+      "CN": [
+        "Shanghai University of Engineering Science",
+        "Beihang University",
+        "Nanjing University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "John Bell (Queensland University of Technology)",
+        "Teng Wang (Queensland University of Technology)",
+        "Hongxia Wang (Queensland University of Technology)"
+      ],
+      "CN": [
+        "Jinzhang Liu (Beihang University)",
+        "Jiachang Zhao (Shanghai University of Engineering Science)",
+        "Qingli Hao (Nanjing University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 79322,
+      "extraction_command": "sed -n '79322p' part_005.gz | jq '.title'",
+      "paper_hash": "f8ce5f60a2a4343c"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2502906077",
+    "doi": "https://doi.org/10.1142/9789814415040_0082",
+    "title": "INVESTIGATION ON VO<sub>X</sub>/CNTS NANOCOMPOSITES ACT AS ELECTRODE OF SUPERCAPACITORS",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "RU"
+    ],
+    "institutions": {
+      "RU": [
+        "Ural Branch of the Russian Academy of Sciences",
+        "Institute of Solid State Chemistry"
+      ],
+      "CN": [
+        "Wuhan University of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "RU": [
+        "Г. С. Захарова (Ural Branch of the Russian Academy of Sciences)",
+        "Г. С. Захарова (Institute of Solid State Chemistry)"
+      ],
+      "CN": [
+        "Zhaolong Li (Wuhan University of Technology)",
+        "Quanyao Zhu (Wuhan University of Technology)",
+        "Shengnan Huang (Wuhan University of Technology)",
+        "Xiaoyan Zhang (Wuhan University of Technology)",
+        "Yue Yu (Wuhan University of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "advanced_materials",
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 412392,
+      "extraction_command": "sed -n '412392p' part_005.gz | jq '.title'",
+      "paper_hash": "e0a812633072f74b"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2513796273",
+    "doi": "https://doi.org/10.4028/www.scientific.net/amm.851.78",
+    "title": "Cotton-Fibers Used as Pore Former for the Anode with High Porosity and Long Cylindrical Pores of Solid Oxide Fuel Cells",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Hirosaki University"
+      ],
+      "CN": [
+        "Dalian University of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Abuliti Abudula (Hirosaki University)",
+        "国清 官 (Hirosaki University)"
+      ],
+      "CN": [
+        "Hong You (Dalian University of Technology)",
+        "Cong Zhao (Dalian University of Technology)",
+        "Bin Qu (Dalian University of Technology)",
+        "Can Li (Dalian University of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 487779,
+      "extraction_command": "sed -n '487779p' part_005.gz | jq '.title'",
+      "paper_hash": "53e7d02088692b84"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2523261691",
+    "doi": null,
+    "title": "Influence of Aquifer Thermal Energy Storage (ATES) on groundwater chemistry: an overview of several cases in Belgium",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "BE",
+      "CN"
+    ],
+    "institutions": {
+      "BE": [
+        "KU Leuven"
+      ],
+      "CN": [
+        "State Key Laboratory of Hydrology-Water Resources and Hydraulic Engineering"
+      ]
+    },
+    "authors_by_country": {
+      "BE": [
+        "Mathias Possemiers (KU Leuven)"
+      ],
+      "CN": [
+        "Marijke Huysmans (State Key Laboratory of Hydrology-Water Resources and Hydraulic Engineering)",
+        "Okke Batelaan (State Key Laboratory of Hydrology-Water Resources and Hydraulic Engineering)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 552771,
+      "extraction_command": "sed -n '552771p' part_005.gz | jq '.title'",
+      "paper_hash": "bebf954695687f76"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2562896454",
+    "doi": "https://doi.org/10.1142/9789813142589_0016",
+    "title": "Exploring Optimal Strategy of Microbial Fuel Cell-Assisted Bioremediation of Textile Dyes",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "TW"
+    ],
+    "institutions": {
+      "TW": [
+        "National Ilan University"
+      ],
+      "CN": [
+        "Yantai University"
+      ]
+    },
+    "authors_by_country": {
+      "TW": [
+        "Pei-Lin Yueh (National Ilan University)",
+        "Baipeng Chen (National Ilan University)"
+      ],
+      "CN": [
+        "Ke Han (Yantai University)",
+        "Li‐Tang Qin (Yantai University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_006.gz",
+      "line_number": 39061,
+      "extraction_command": "sed -n '39061p' part_006.gz | jq '.title'",
+      "paper_hash": "8e6d7ed17817da56"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2566338618",
+    "doi": null,
+    "title": "Using potassium catalytic gasification to improve the performance of solid oxide direct carbon fuel cells: Experimental characterization and elementary reaction modeling",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Massachusetts Institute of Technology"
+      ],
+      "CN": [
+        "Huaneng Clean Energy Research Institute",
+        "Tsinghua University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Ahmed F. Ghoniem (Massachusetts Institute of Technology)"
+      ],
+      "CN": [
+        "Hongjian Wang (Tsinghua University)",
+        "Xiankai Yu (Tsinghua University)",
+        "Ningsheng Cai (Tsinghua University)",
+        "Yixiang Shi (Tsinghua University)",
+        "Chen Li (Huaneng Clean Energy Research Institute)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_006.gz",
+      "line_number": 67629,
+      "extraction_command": "sed -n '67629p' part_006.gz | jq '.title'",
+      "paper_hash": "1551e1c9b7820f86"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2570708291",
+    "doi": "https://doi.org/10.1109/iecon.2016.7794049",
+    "title": "Novel hybrid modulation based isolated high-frequency three-phase bidirectional inverter for fuel cell vehicles",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CA",
+      "CN",
+      "SG"
+    ],
+    "institutions": {
+      "SG": [
+        "Nanyang Technological University"
+      ],
+      "CA": [
+        "Concordia University"
+      ],
+      "CN": [
+        "Harbin Institute of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "SG": [
+        "Xuewei Pan (Nanyang Technological University)",
+        "Peng Wang (Nanyang Technological University)",
+        "Yang Gu (Nanyang Technological University)"
+      ],
+      "CA": [
+        "Akshay Kumar Rathore (Concordia University)"
+      ],
+      "CN": [
+        "Xuewei Pan (Harbin Institute of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_006.gz",
+      "line_number": 96485,
+      "extraction_command": "sed -n '96485p' part_006.gz | jq '.title'",
+      "paper_hash": "bdb233afadc1d6ab"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4237492472",
+    "doi": "https://doi.org/10.21203/rs.2.22797/v1",
+    "title": "Graphene Modified Montmorillonite Based Phase Change Material for Thermal Energy Storage with Enhanced Interfacial Thermal Transfer",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "CN",
+      "KR"
+    ],
+    "institutions": {
+      "KR": [
+        "Jangan University"
+      ],
+      "CN": [
+        "Xi'an University of Architecture and Technology",
+        "Xi'an Jiaotong University"
+      ]
+    },
+    "authors_by_country": {
+      "KR": [
+        "Xiaoyu Li (Jangan University)"
+      ],
+      "CN": [
+        "Jun Yang (Xi'an University of Architecture and Technology)",
+        "Jianwei Wang (Xi'an Jiaotong University)",
+        "Hua Luo (Xi'an Jiaotong University)",
+        "Kang Peng (Xi'an Jiaotong University)",
+        "Hongjie Wang (Xi'an Jiaotong University)",
+        "Senhai Zhou (Xi'an Jiaotong University)",
+        "Pengfei Wan (Xi'an Jiaotong University)"
+      ]
+    },
+    "technology_categories": [
+      "advanced_materials",
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_010.gz",
+      "line_number": 164809,
+      "extraction_command": "sed -n '164809p' part_010.gz | jq '.title'",
+      "paper_hash": "fc8018d10c0835a1"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4393465036",
+    "doi": "https://doi.org/10.5281/zenodo.889984",
+    "title": "Dataset For \"Investigation Of Convective Transport In The Gas Diffusion Layer Used In Polymer Electrolyte Fuel Cell\"",
+    "publication_year": 2017,
+    "countries_collaborating": [
+      "BR",
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Imperial College London"
+      ],
+      "BR": [
+        "Instituto de Psicologia Comportamental de São Carlos"
+      ],
+      "CN": [
+        "Energy Research Institute"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Anthony Kucernak (Imperial College London)"
+      ],
+      "BR": [
+        "Joelma Perez (Instituto de Psicologia Comportamental de São Carlos)"
+      ],
+      "CN": [
+        "Otávio Beruski (Energy Research Institute)",
+        "Thiago Lopes (Energy Research Institute)"
+      ]
+    },
+    "technology_categories": [
+      "nuclear_technology",
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2017,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_012.gz",
+      "line_number": 179730,
+      "extraction_command": "sed -n '179730p' part_012.gz | jq '.title'",
+      "paper_hash": "6afe3e865c6df1e2"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: nuclear_technology"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4393831796",
+    "doi": "https://doi.org/10.5281/zenodo.889983",
+    "title": "Dataset For \"Investigation Of Convective Transport In The Gas Diffusion Layer Used In Polymer Electrolyte Fuel Cell\"",
+    "publication_year": 2017,
+    "countries_collaborating": [
+      "BR",
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Imperial College London"
+      ],
+      "BR": [
+        "Instituto de Psicologia Comportamental de São Carlos"
+      ],
+      "CN": [
+        "Energy Research Institute"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Anthony Kucernak (Imperial College London)"
+      ],
+      "BR": [
+        "Joelma Perez (Instituto de Psicologia Comportamental de São Carlos)"
+      ],
+      "CN": [
+        "Otávio Beruski (Energy Research Institute)",
+        "Thiago Lopes (Energy Research Institute)"
+      ]
+    },
+    "technology_categories": [
+      "nuclear_technology",
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2017,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_012.gz",
+      "line_number": 180578,
+      "extraction_command": "sed -n '180578p' part_012.gz | jq '.title'",
+      "paper_hash": "263f1b939b334781"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: nuclear_technology"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4285705632",
+    "doi": "https://doi.org/10.46855/energy-proceedings-1859",
+    "title": "Experimental Study of a Latent Heat Thermal Energy Storage Unit Encapsulated with Molten Salt/Copper Foam Composite Seeded with Nanoparticles",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University of Leeds",
+        "University of Hull"
+      ],
+      "CN": [
+        "Donghua University"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Xin Xiao (University of Leeds)",
+        "Xudong Zhao (University of Hull)",
+        "Xin Xiao (University of Hull)",
+        "Dongsheng Wen (University of Leeds)"
+      ],
+      "CN": [
+        "Hongwei Jia (Donghua University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_011.gz",
+      "line_number": 449089,
+      "extraction_command": "sed -n '449089p' part_011.gz | jq '.title'",
+      "paper_hash": "965df49d3f3231a1"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2352830594",
+    "doi": null,
+    "title": "Research Progress in Structure and Lithium Intercalation Mechanism of Carbon Anodes Materials for Lithium Ion Batteries",
+    "publication_year": 2009,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "Materials Science & Engineering"
+      ],
+      "CN": [
+        "Fuzhou University"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Zheng Min-zhi (Materials Science & Engineering)"
+      ],
+      "CN": [
+        "Zheng Min-zhi (Fuzhou University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2009,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 61044,
+      "extraction_command": "sed -n '61044p' part_005.gz | jq '.title'",
+      "paper_hash": "2f3e3ffa45c148ee"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2355106799",
+    "doi": null,
+    "title": "Research on Preparation and Properties of Plaster-based Phase Change Energy Storage Materials",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "Materials Science & Engineering"
+      ],
+      "CN": [
+        "Nanjing Tech University"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Chen Xiao-lon (Materials Science & Engineering)"
+      ],
+      "CN": [
+        "Chen Xiao-lon (Nanjing Tech University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 103463,
+      "extraction_command": "sed -n '103463p' part_005.gz | jq '.title'",
+      "paper_hash": "e34c23ad94fad231"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2358590774",
+    "doi": null,
+    "title": "Study on Unit Combination of Synchronized Power System Containing Energy Storage System and Large-scaled Wind Farm",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "IL"
+    ],
+    "institutions": {
+      "IL": [
+        "New Technology (Israel)"
+      ],
+      "CN": [
+        "Chongqing University"
+      ]
+    },
+    "authors_by_country": {
+      "IL": [
+        "Luo Lin (New Technology (Israel))"
+      ],
+      "CN": [
+        "Luo Lin (Chongqing University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 168641,
+      "extraction_command": "sed -n '168641p' part_005.gz | jq '.title'",
+      "paper_hash": "6ec7f33948974345"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2364434102",
+    "doi": null,
+    "title": "Modelling of water transport in PEM fuel cell",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University of Miami"
+      ],
+      "CN": [
+        "Xi'an Jiaotong University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Hongtan Liu (University of Miami)"
+      ],
+      "CN": [
+        "Hongtan Liu (Xi'an Jiaotong University)",
+        "Cheng Xu (Xi'an Jiaotong University)",
+        "Lie Jin Guo (Xi'an Jiaotong University)",
+        "Guangsheng Zhang (Xi'an Jiaotong University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 277513,
+      "extraction_command": "sed -n '277513p' part_005.gz | jq '.title'",
+      "paper_hash": "e9178afa9fe87336"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2385336086",
+    "doi": null,
+    "title": "Advance in Electrocatalysts for Polymer Electrolyte Membrane Fuel Cells",
+    "publication_year": 2005,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "Materials Science & Engineering"
+      ],
+      "CN": [
+        "Tongji University"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Jiang Weichun (Materials Science & Engineering)"
+      ],
+      "CN": [
+        "Jiang Weichun (Tongji University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2005,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_006.gz",
+      "line_number": 110607,
+      "extraction_command": "sed -n '110607p' part_006.gz | jq '.title'",
+      "paper_hash": "5517ba18cfe1719a"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2386844790",
+    "doi": null,
+    "title": "Progress in Research on Hydrogel Polymer Electrolytes for Supercapacitors",
+    "publication_year": 2011,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "Materials Science & Engineering"
+      ],
+      "CN": [
+        "Huaqiao University"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Jianming Lin (Materials Science & Engineering)"
+      ],
+      "CN": [
+        "Jianming Lin (Huaqiao University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2011,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_006.gz",
+      "line_number": 138550,
+      "extraction_command": "sed -n '138550p' part_006.gz | jq '.title'",
+      "paper_hash": "3458533172d38975"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1489753610",
+    "doi": "https://doi.org/10.23919/ecc.2009.7075074",
+    "title": "Modeling and control of hybrid power-train systems with a PEM fuel cell and supercapacitor",
+    "publication_year": 2009,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University of South Wales"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences",
+        "Institute of Automation",
+        "Central South University"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Shuai Liu (University of South Wales)"
+      ],
+      "CN": [
+        "Chunyan Li (Chinese Academy of Sciences)",
+        "Shuai Liu (Central South University)",
+        "Chunyan Li (Institute of Automation)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2009,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 171057,
+      "extraction_command": "sed -n '171057p' part_000.gz | jq '.title'",
+      "paper_hash": "4fa6e5052b6ac29d"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1493163801",
+    "doi": "https://doi.org/10.1007/978-3-319-48764-9_27",
+    "title": "The preparation and electrochemical performances of Al-Si/C nanocomposite anode for lithium ion battery",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "KR"
+    ],
+    "institutions": {
+      "KR": [
+        "Gyeongsang National University"
+      ],
+      "CN": [
+        "Dalian University of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "KR": [
+        "Wonjo Park (Gyeongsang National University)",
+        "Hyeongjo Kim (Gyeongsang National University)",
+        "Kelimu Tulugan (Gyeongsang National University)"
+      ],
+      "CN": [
+        "Chunjing Liu (Dalian University of Technology)",
+        "Fanghong Xue (Dalian University of Technology)",
+        "Xinglong Dong (Dalian University of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 172204,
+      "extraction_command": "sed -n '172204p' part_000.gz | jq '.title'",
+      "paper_hash": "efea5361a5851263"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1551956774",
+    "doi": "https://doi.org/10.1109/iecon.2014.7049094",
+    "title": "Hardware-in-the-loop validation of an air supply method for vehicular fuel cell applications",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Université de technologie de belfort-montbéliard"
+      ],
+      "CN": [
+        "Northwestern Polytechnical University"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Fei Gao (Université de technologie de belfort-montbéliard)"
+      ],
+      "CN": [
+        "Dongdong Zhao (Northwestern Polytechnical University)",
+        "Yigeng Huangfu (Northwestern Polytechnical University)",
+        "Manfeng Dou (Northwestern Polytechnical University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 192507,
+      "extraction_command": "sed -n '192507p' part_000.gz | jq '.title'",
+      "paper_hash": "c14d8085ffaa0c1c"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2507336537",
+    "doi": "https://doi.org/10.1149/ma2016-02/3/485",
+    "title": "An Self-Healing Effective Binder for Silicon Anodes in Lithium Ion Batteries",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "PL"
+    ],
+    "institutions": {
+      "PL": [
+        "Łukasiewicz Research Network - Institute of Non-Ferrous Metals"
+      ],
+      "CN": [
+        "General Research Institute for Nonferrous Metals (China)"
+      ]
+    },
+    "authors_by_country": {
+      "PL": [
+        "Han Wang (Łukasiewicz Research Network - Institute of Non-Ferrous Metals)",
+        "Bing Yu (Łukasiewicz Research Network - Institute of Non-Ferrous Metals)",
+        "Bimeng Shi (Łukasiewicz Research Network - Institute of Non-Ferrous Metals)"
+      ],
+      "CN": [
+        "Juanyu Yang (General Research Institute for Nonferrous Metals (China))",
+        "Zhaohui Wu (General Research Institute for Nonferrous Metals (China))"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_002.gz",
+      "line_number": 126701,
+      "extraction_command": "sed -n '126701p' part_002.gz | jq '.title'",
+      "paper_hash": "283985c366ca20f5"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2507739066",
+    "doi": "https://doi.org/10.1149/ma2016-02/39/2881",
+    "title": "Chromium Resistive BaCeO<sub>3</sub> Infiltrated La<sub>0.6</sub>Sr<sub>0.4</sub>Co<sub>0.2</sub>Fe<sub>0.8</sub>O<sub>3</sub> Cathode of Solid Oxide Fuel Cells",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "Curtin University"
+      ],
+      "CN": [
+        "Huazhong University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Na Ai (Curtin University)",
+        "Kongfa Chen (Curtin University)",
+        "San Ping Jiang (Curtin University)"
+      ],
+      "CN": [
+        "Meng Li (Huazhong University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_002.gz",
+      "line_number": 127236,
+      "extraction_command": "sed -n '127236p' part_002.gz | jq '.title'",
+      "paper_hash": "daa82f90f4d443af"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2512648927",
+    "doi": "https://doi.org/10.1149/ma2016-02/3/373",
+    "title": "Impedance Analysis of High Capacity Manganese Rich Cathode in Lithium Ion Batteries",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Lawrence Berkeley National Laboratory"
+      ],
+      "CN": [
+        "Guangzhou Automobile Group (China)"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Wenfeng Mao (Lawrence Berkeley National Laboratory)",
+        "Yanbao Fu (Lawrence Berkeley National Laboratory)",
+        "Vince Battaglia (Lawrence Berkeley National Laboratory)"
+      ],
+      "CN": [
+        "Wenfeng Mao (Guangzhou Automobile Group (China))"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_002.gz",
+      "line_number": 133291,
+      "extraction_command": "sed -n '133291p' part_002.gz | jq '.title'",
+      "paper_hash": "94fc3d8ffad68b3c"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2095784286",
+    "doi": "https://doi.org/10.1109/icdma.2010.282",
+    "title": "Parameter Study of Transport Processes with Catalytic Reactions in Intermediate Temperature Solid Oxide Fuel Cells",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "CN",
+      "SE"
+    ],
+    "institutions": {
+      "SE": [
+        "Lund University"
+      ],
+      "CN": [
+        "Dalian Maritime University"
+      ]
+    },
+    "authors_by_country": {
+      "SE": [
+        "Jinliang Yuan (Lund University)"
+      ],
+      "CN": [
+        "Guogang Yang (Dalian Maritime University)",
+        "Danting Yue (Dalian Maritime University)",
+        "Chao Yang (Dalian Maritime University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 13202,
+      "extraction_command": "sed -n '13202p' part_001.gz | jq '.title'",
+      "paper_hash": "37e1ba1307e0af2f"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2100263206",
+    "doi": "https://doi.org/10.1109/icmree.2011.5930916",
+    "title": "Synthesis of novel diamine with sulfobenzoyl side groups and its derivatives for PEM fuel cells",
+    "publication_year": 2011,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Yamaguchi University"
+      ],
+      "CN": [
+        "Tianjin University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Ken‐ichi Okamoto (Yamaguchi University)"
+      ],
+      "CN": [
+        "Yan Yin (Tianjin University)",
+        "Xiao-Le Yang (Tianjin University)",
+        "Qing Du (Tianjin University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2011,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 19494,
+      "extraction_command": "sed -n '19494p' part_001.gz | jq '.title'",
+      "paper_hash": "5a796252ab427951"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2105630576",
+    "doi": "https://doi.org/10.1109/cecnet.2011.5768808",
+    "title": "Effect of assembly pressure on performance of polymer electrolyte membrane fuel cells",
+    "publication_year": 2011,
+    "countries_collaborating": [
+      "CA",
+      "CN"
+    ],
+    "institutions": {
+      "CA": [
+        "University of Waterloo"
+      ],
+      "CN": [
+        "Tianjin University"
+      ]
+    },
+    "authors_by_country": {
+      "CA": [
+        "Xianguo Li (University of Waterloo)"
+      ],
+      "CN": [
+        "Yan Yin (Tianjin University)",
+        "Xianguo Li (Tianjin University)",
+        "Qing Du (Tianjin University)",
+        "Yibo Zhou (Tianjin University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2011,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 27253,
+      "extraction_command": "sed -n '27253p' part_001.gz | jq '.title'",
+      "paper_hash": "1a76f8d2f556b03f"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2246137083",
+    "doi": "https://doi.org/10.1149/ma2008-02/1/61",
+    "title": "Time/Space Distributions of O2 in Running Fuel Cells",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "GB",
+      "JP",
+      "US"
+    ],
+    "institutions": {
+      "GB": [
+        "Hitachi (United Kingdom)"
+      ],
+      "US": [
+        "Clean Energy (United States)"
+      ],
+      "JP": [
+        "University of Yamanashi",
+        "Fuji Electric (Japan)",
+        "Waseda University"
+      ],
+      "CN": [
+        "Shimadzu (China)"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Akira Tanaka (Hitachi (United Kingdom))"
+      ],
+      "US": [
+        "Kenji Miyatake (Clean Energy (United States))"
+      ],
+      "JP": [
+        "Yuta Ishigami (University of Yamanashi)",
+        "Kenji Takada (University of Yamanashi)",
+        "Kenji Miyatake (University of Yamanashi)",
+        "Hiroyuki Nishide (Waseda University)",
+        "Junji Inukai (University of Yamanashi)",
+        "Masahiro Watanabe (University of Yamanashi)",
+        "Makoto Aoki (Fuji Electric (Japan))"
+      ],
+      "CN": [
+        "Yuzo Nagumo (Shimadzu (China))"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 313817,
+      "extraction_command": "sed -n '313817p' part_001.gz | jq '.title'",
+      "paper_hash": "b9af5d4150902aa1"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2274171142",
+    "doi": "https://doi.org/10.1149/ma2013-02/5/321",
+    "title": "Solid Oxide Fuel Cell for a Methane Internal Reforming",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "KR",
+      "RU"
+    ],
+    "institutions": {
+      "RU": [
+        "Institute of Engineering Science"
+      ],
+      "KR": [
+        "Yeungnam University"
+      ],
+      "CN": [
+        "Shanghai Institute for Science of Science"
+      ]
+    },
+    "authors_by_country": {
+      "RU": [
+        "Young Min Park (Institute of Engineering Science)"
+      ],
+      "KR": [
+        "Haekyoung Kim (Yeungnam University)",
+        "Seung Ho Lee (Yeungnam University)"
+      ],
+      "CN": [
+        "Young Min Park (Shanghai Institute for Science of Science)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 329852,
+      "extraction_command": "sed -n '329852p' part_001.gz | jq '.title'",
+      "paper_hash": "56baba27b27cd758"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2275357660",
+    "doi": "https://doi.org/10.1149/ma2014-01/33/1266",
+    "title": "A Novel Hybrid Supercapacitor Electrode Utilizing Vertically Oriented Graphene Nanosheets Coated with Conformal Layer of Pseudocapacitive MnO2 Nanoparticles",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "TW",
+      "US"
+    ],
+    "institutions": {
+      "TW": [
+        "National Tsing Hua University"
+      ],
+      "US": [
+        "Vanderbilt University"
+      ],
+      "CN": [
+        "Sun Yat-sen University"
+      ]
+    },
+    "authors_by_country": {
+      "TW": [
+        "Jin‐Hua Huang (National Tsing Hua University)"
+      ],
+      "US": [
+        "Supil Raina (Vanderbilt University)",
+        "Shao Hua Hsu (Vanderbilt University)",
+        "Weng Poo Kang (Vanderbilt University)"
+      ],
+      "CN": [
+        "Shaozhi Deng (Sun Yat-sen University)",
+        "Jiajun Chen (Sun Yat-sen University)",
+        "Ning Xu (Sun Yat-sen University)",
+        "Y. Zhang (Sun Yat-sen University)"
+      ]
+    },
+    "technology_categories": [
+      "advanced_materials",
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 330919,
+      "extraction_command": "sed -n '330919p' part_001.gz | jq '.title'",
+      "paper_hash": "c2b410db547ee62b"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2275647514",
+    "doi": "https://doi.org/10.1149/ma2013-02/9/666",
+    "title": "Nano-Scale Morphology Control of Graphene, Conducting Polymer, and Carbon Nanotube Electrodes for High Performance Energy Storage",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Massachusetts Institute of Technology",
+        "Pennsylvania State University",
+        "American Institute of Aeronautics and Astronautics"
+      ],
+      "CN": [
+        "Shanghai Polytechnic University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Mehdi Ghaffari (Pennsylvania State University)",
+        "Noa Lachman (American Institute of Aeronautics and Astronautics)",
+        "Brian L. Wardle (American Institute of Aeronautics and Astronautics)",
+        "Noa Lachman (Massachusetts Institute of Technology)",
+        "Yue Zhou (Pennsylvania State University)",
+        "Qiming Zhang (Pennsylvania State University)",
+        "Brian L. Wardle (Massachusetts Institute of Technology)"
+      ],
+      "CN": [
+        "Haiping Xu (Shanghai Polytechnic University)"
+      ]
+    },
+    "technology_categories": [
+      "advanced_materials",
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 331134,
+      "extraction_command": "sed -n '331134p' part_001.gz | jq '.title'",
+      "paper_hash": "75347b510d587420"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2275715219",
+    "doi": "https://doi.org/10.1149/ma2014-02/6/508",
+    "title": "N/B Co-Doping Ultrathin Nanotube-Constructed Urchin Shaped Titania Enabling Superior Rate Capability for Advanced Lithium Ion Batteries",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "Materials Science & Engineering"
+      ],
+      "CN": [
+        "Huazhong University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Pei Hu (Materials Science & Engineering)",
+        "Chaoji Chen (Materials Science & Engineering)",
+        "Xianluo Hu (Materials Science & Engineering)",
+        "Yunhui Huang (Materials Science & Engineering)"
+      ],
+      "CN": [
+        "Pei Hu (Huazhong University of Science and Technology)",
+        "Chaoji Chen (Huazhong University of Science and Technology)",
+        "Xianluo Hu (Huazhong University of Science and Technology)",
+        "Yunhui Huang (Huazhong University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 331192,
+      "extraction_command": "sed -n '331192p' part_001.gz | jq '.title'",
+      "paper_hash": "96cbac4912e0a580"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2276462340",
+    "doi": "https://doi.org/10.1149/ma2014-03/2/129",
+    "title": "High Performance Supercapacitor Based on Lignin Derived Nanofibers",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "West Virginia University"
+      ],
+      "CN": [
+        "Zhejiang University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Mingjia Zhi (West Virginia University)",
+        "Nick Wu (West Virginia University)"
+      ],
+      "CN": [
+        "Mingjia Zhi (Zhejiang University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 331860,
+      "extraction_command": "sed -n '331860p' part_001.gz | jq '.title'",
+      "paper_hash": "4f6bbff6e3caca43"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2286331832",
+    "doi": "https://doi.org/10.1149/ma2014-03/3/329",
+    "title": "Invited Presentation: High-Performance Self-Humidifying Bipolar Membrane Fuel Cell with Unique Water Transport Property",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CA",
+      "CN"
+    ],
+    "institutions": {
+      "CA": [
+        "University of Victoria"
+      ],
+      "CN": [
+        "Beihang University"
+      ]
+    },
+    "authors_by_country": {
+      "CA": [
+        "Pang-Chieh Sui (University of Victoria)",
+        "Ned Djilali (University of Victoria)"
+      ],
+      "CN": [
+        "Sikan Peng (Beihang University)",
+        "Yan Xiang (Beihang University)",
+        "Shanfu Lu (Beihang University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 340292,
+      "extraction_command": "sed -n '340292p' part_001.gz | jq '.title'",
+      "paper_hash": "b6877bbd8d5b5e1d"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2287859286",
+    "doi": "https://doi.org/10.1149/ma2008-01/1/1",
+    "title": "Effect of Coating Amount of Polypyrrole in the Anode on the Cyclability of Lithium Ion Cell with Aqueous Solution Electrolyte",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "CZ"
+    ],
+    "institutions": {
+      "CZ": [
+        "Czech Academy of Sciences, Institute of Physics"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences",
+        "Central South University"
+      ]
+    },
+    "authors_by_country": {
+      "CZ": [
+        "Liquan Chen (Czech Academy of Sciences, Institute of Physics)"
+      ],
+      "CN": [
+        "Chenghuan Huang (Central South University)",
+        "Kelong Huang (Central South University)",
+        "Haibo Wang (Central South University)",
+        "Liquan Chen (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 341521,
+      "extraction_command": "sed -n '341521p' part_001.gz | jq '.title'",
+      "paper_hash": "74e18701ffcbacce"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4246993544",
+    "doi": "https://doi.org/10.1149/ma2019-02/42/2020",
+    "title": "(Invited) Updated Catalyst Activity Targets for Performance Parity in Hydroxide Exchange Membrane Fuel Cells",
+    "publication_year": 2019,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University of Delaware"
+      ],
+      "CN": [
+        "Beijing University of Chemical Technology"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Reza Abbasi (University of Delaware)",
+        "Brian P. Setzler (University of Delaware)",
+        "Yushan Yan (University of Delaware)",
+        "Teng Wang (University of Delaware)"
+      ],
+      "CN": [
+        "Zhongbin Zhuang (Beijing University of Chemical Technology)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2019,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_004.gz",
+      "line_number": 137804,
+      "extraction_command": "sed -n '137804p' part_004.gz | jq '.title'",
+      "paper_hash": "55dfa8d2b6abb165"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4247642275",
+    "doi": "https://doi.org/10.1149/ma2011-01/39/1860",
+    "title": "Facile Synthesis of Soluble Graphene Nanosheets and Its Promising Application in Fuel Cell Electrocatalysts",
+    "publication_year": 2011,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Pacific Northwest National Laboratory"
+      ],
+      "CN": [
+        "Harbin Institute of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Yuyan Shao (Pacific Northwest National Laboratory)",
+        "Mark Engelhard (Pacific Northwest National Laboratory)",
+        "Hong‐Gang Liao (Pacific Northwest National Laboratory)",
+        "Yuehe Lin (Pacific Northwest National Laboratory)"
+      ],
+      "CN": [
+        "Sheng Zhang (Harbin Institute of Technology)",
+        "Ge Ping Yin (Harbin Institute of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "advanced_materials",
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2011,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_004.gz",
+      "line_number": 165129,
+      "extraction_command": "sed -n '165129p' part_004.gz | jq '.title'",
+      "paper_hash": "71609544c25f5b16"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4249317674",
+    "doi": "https://doi.org/10.1149/ma2016-02/38/2720",
+    "title": "Review on Dimensionless Numbers Relevant for Polymer Electrolyte Fuel Cells",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "SE"
+    ],
+    "institutions": {
+      "SE": [
+        "Lund University"
+      ],
+      "CN": [
+        "University of Electronic Science and Technology of China"
+      ]
+    },
+    "authors_by_country": {
+      "SE": [
+        "Martin Andersson (Lund University)"
+      ],
+      "CN": [
+        "Tingshuai Li (University of Electronic Science and Technology of China)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_004.gz",
+      "line_number": 235381,
+      "extraction_command": "sed -n '235381p' part_004.gz | jq '.title'",
+      "paper_hash": "b8d4fdbc3622a80c"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1609087651",
+    "doi": "https://doi.org/10.1109/pesgm.2015.7286390",
+    "title": "Design of anti-windup compensation for energy storage based damping controller to enhance power system stability",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "DK"
+    ],
+    "institutions": {
+      "DK": [
+        "Aalborg University"
+      ],
+      "CN": [
+        "Huazhong University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "DK": [
+        "Zhe Chen (Aalborg University)",
+        "Jiakun Fang (Aalborg University)"
+      ],
+      "CN": [
+        "Shijie Cheng (Huazhong University of Science and Technology)",
+        "Jiakun Fang (Huazhong University of Science and Technology)",
+        "Jinyu Wen (Huazhong University of Science and Technology)",
+        "Wei Yao (Huazhong University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 30631,
+      "extraction_command": "sed -n '30631p' part_000.gz | jq '.title'",
+      "paper_hash": "cb7b066f6003f8a2"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2507815465",
+    "doi": "https://doi.org/10.48550/arxiv.1608.05221",
+    "title": "Application of Volterra Equations to Solve Unit Commitment Problem of Optimised Energy Storage and Generation",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "RU"
+    ],
+    "institutions": {
+      "RU": [
+        "Russian Academy of Sciences",
+        "Penza State University"
+      ],
+      "CN": [
+        "Hunan University"
+      ]
+    },
+    "authors_by_country": {
+      "RU": [
+        "Aleksandr Tynda (Penza State University)",
+        "Daniil Panasetsky (Russian Academy of Sciences)",
+        "А. В. Жуков (Russian Academy of Sciences)",
+        "Denis Sidorov (Russian Academy of Sciences)",
+        "Ildar Muftahov (Russian Academy of Sciences)"
+      ],
+      "CN": [
+        "Yong Li (Hunan University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 940,
+      "extraction_command": "sed -n '940p' part_001.gz | jq '.title'",
+      "paper_hash": "185b4c8d8add2071"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2528783602",
+    "doi": "https://doi.org/10.1049/pbpo088e_ch8",
+    "title": "Frequency regulation of smart grid via dynamic demand control and battery energy storage system",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University of Liverpool"
+      ],
+      "CN": [
+        "China University of Geosciences",
+        "Huazhong University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Qi Zhu (University of Liverpool)",
+        "Lin Jiang (University of Liverpool)"
+      ],
+      "CN": [
+        "Chuan‐Ke Zhang (China University of Geosciences)",
+        "Wei Yao (Huazhong University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 12256,
+      "extraction_command": "sed -n '12256p' part_001.gz | jq '.title'",
+      "paper_hash": "6e8f129b9705468c"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4285701635",
+    "doi": "https://doi.org/10.46855/energy-proceedings-6485",
+    "title": "Numerical Study on the Melting Performance of a Thermal Energy Storage Tube Filled With Metal Foam",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "CN",
+      "SE"
+    ],
+    "institutions": {
+      "SE": [
+        "Mälardalen University"
+      ],
+      "CN": [
+        "Xi'an Jiaotong University"
+      ]
+    },
+    "authors_by_country": {
+      "SE": [
+        "Xiaohu Yang (Mälardalen University)",
+        "Ya‐Ling He (Mälardalen University)"
+      ],
+      "CN": [
+        "Xiaohu Yang (Xi'an Jiaotong University)",
+        "Zhaoyang Niu (Xi'an Jiaotong University)",
+        "Hailong Li (Xi'an Jiaotong University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_003.gz",
+      "line_number": 97825,
+      "extraction_command": "sed -n '97825p' part_003.gz | jq '.title'",
+      "paper_hash": "60ebefde41e5107a"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4285702096",
+    "doi": "https://doi.org/10.46855/energy-proceedings-4326",
+    "title": "Performance Degradation and Fault Prediction Based Solid Oxide Fuel Cell System Optimum Control",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "Materials Science & Engineering"
+      ],
+      "CN": [
+        "Huazhong University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Jian Li (Materials Science & Engineering)"
+      ],
+      "CN": [
+        "Haobo Zhang (Huazhong University of Science and Technology)",
+        "Tianliang Cheng (Huazhong University of Science and Technology)",
+        "Hongchuan Qin (Huazhong University of Science and Technology)",
+        "Jianhua Jiang (Huazhong University of Science and Technology)",
+        "Jian Li (Huazhong University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_003.gz",
+      "line_number": 97867,
+      "extraction_command": "sed -n '97867p' part_003.gz | jq '.title'",
+      "paper_hash": "ebac7d5f6aac13d0"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4285709813",
+    "doi": "https://doi.org/10.46855/energy-proceedings-517",
+    "title": "Energy Storage Optimal Configuration with LifeCycle Cost–Benefit Analysis",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Electric Power Research Institute"
+      ],
+      "CN": [
+        "State Grid Corporation of China (China)",
+        "Tianjin University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Meng He (Electric Power Research Institute)",
+        "Zijin Li (Electric Power Research Institute)",
+        "Wei Wei (Electric Power Research Institute)",
+        "Jie Zhu (Electric Power Research Institute)",
+        "Tao Xu (Electric Power Research Institute)",
+        "He Zhao (Electric Power Research Institute)"
+      ],
+      "CN": [
+        "He Zhao (State Grid Corporation of China (China))",
+        "Meng He (State Grid Corporation of China (China))",
+        "Jie Zhu (State Grid Corporation of China (China))",
+        "Wei Wei (Tianjin University)",
+        "He Zhao (Tianjin University)",
+        "Wei Wei (State Grid Corporation of China (China))",
+        "Jie Zhu (Tianjin University)",
+        "Tao Xu (Tianjin University)",
+        "Tao Xu (State Grid Corporation of China (China))",
+        "Zijin Li (Tianjin University)",
+        "Meng He (Tianjin University)",
+        "Zijin Li (State Grid Corporation of China (China))"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_003.gz",
+      "line_number": 98009,
+      "extraction_command": "sed -n '98009p' part_003.gz | jq '.title'",
+      "paper_hash": "c1601485ea014d6e"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1984040315",
+    "doi": "https://doi.org/10.1002/cssc.201090004",
+    "title": "Cover Picture: Nanostructured Carbon and Carbon Nanocomposites for Electrochemical Energy Storage Applications (ChemSusChem 2/2010)",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "Fritz Haber Institute of the Max Planck Society"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Robert Schlögl (Fritz Haber Institute of the Max Planck Society)",
+        "D. S. Su (Fritz Haber Institute of the Max Planck Society)"
+      ],
+      "CN": [
+        "D. S. Su (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "advanced_materials",
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 15264,
+      "extraction_command": "sed -n '15264p' part_000.gz | jq '.title'",
+      "paper_hash": "49bfe5c73959094e"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2058012525",
+    "doi": "https://doi.org/10.1016/j.jinsphys.2013.05.001",
+    "title": "Corrigendum to “Energy storage and C:N:P variation in a holometabolous insect (Curculio davidi Fairmaire) larva across a climate gradient” [J. Insect Physiol. 59 (4) (2013) 408–415]",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University of St. Thomas - Minnesota"
+      ],
+      "CN": [
+        "Shanghai Jiao Tong University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Gaston E. Small (University of St. Thomas - Minnesota)"
+      ],
+      "CN": [
+        "Hongzhang Kang (Shanghai Jiao Tong University)",
+        "Xuan Zhou (Shanghai Jiao Tong University)",
+        "Chungjiang Liu (Shanghai Jiao Tong University)",
+        "Xiao Sun (Shanghai Jiao Tong University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 23923,
+      "extraction_command": "sed -n '23923p' part_000.gz | jq '.title'",
+      "paper_hash": "0dd9c565380b941b"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2973348532",
+    "doi": "https://doi.org/10.1002/anie.201909353",
+    "title": "Inside Cover: Atomically Dispersed Semimetallic Selenium on Porous Carbon Membrane as an Electrode for Hydrazine Fuel Cells (Angew. Chem. Int. Ed. 38/2019)",
+    "publication_year": 2019,
+    "countries_collaborating": [
+      "CN",
+      "SE"
+    ],
+    "institutions": {
+      "SE": [
+        "Stockholm University"
+      ],
+      "CN": [
+        "University of Chinese Academy of Sciences",
+        "Nankai University",
+        "Institute of Coal Chemistry"
+      ]
+    },
+    "authors_by_country": {
+      "SE": [
+        "Yucheng Wang (Stockholm University)",
+        "Jiayin Yuan (Stockholm University)"
+      ],
+      "CN": [
+        "Yue Shao (Nankai University)",
+        "Debao Li (Institute of Coal Chemistry)",
+        "Wu Zhou (University of Chinese Academy of Sciences)",
+        "Sihui Zhan (Nankai University)",
+        "Hong Wang (Nankai University)",
+        "Yunli Da (University of Chinese Academy of Sciences)",
+        "Qiang Wang (Institute of Coal Chemistry)",
+        "Tongzhou Wang (Nankai University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2019,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 84388,
+      "extraction_command": "sed -n '84388p' part_000.gz | jq '.title'",
+      "paper_hash": "a02a7fd851b79c86"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2973552898",
+    "doi": "https://doi.org/10.1002/ange.201909353",
+    "title": "Innentitelbild: Atomically Dispersed Semimetallic Selenium on Porous Carbon Membrane as an Electrode for Hydrazine Fuel Cells (Angew. Chem. 38/2019)",
+    "publication_year": 2019,
+    "countries_collaborating": [
+      "CN",
+      "SE"
+    ],
+    "institutions": {
+      "SE": [
+        "Stockholm University"
+      ],
+      "CN": [
+        "University of Chinese Academy of Sciences",
+        "Nankai University",
+        "Institute of Coal Chemistry"
+      ]
+    },
+    "authors_by_country": {
+      "SE": [
+        "Yucheng Wang (Stockholm University)",
+        "Jiayin Yuan (Stockholm University)"
+      ],
+      "CN": [
+        "Yue Shao (Nankai University)",
+        "Debao Li (Institute of Coal Chemistry)",
+        "Sihui Zhan (Nankai University)",
+        "Hong Wang (Nankai University)",
+        "Yunli Da (University of Chinese Academy of Sciences)",
+        "Tongzhou Wang (Nankai University)",
+        "Qiang Wang (Institute of Coal Chemistry)",
+        "Zhou Wu (University of Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2019,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 84395,
+      "extraction_command": "sed -n '84395p' part_000.gz | jq '.title'",
+      "paper_hash": "7f13ac89883579d8"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2113598870",
+    "doi": "https://doi.org/10.1002/er.1195",
+    "title": "Next generation fuel cell R&amp;D",
+    "publication_year": 2006,
+    "countries_collaborating": [
+      "CN",
+      "SE"
+    ],
+    "institutions": {
+      "SE": [
+        "KTH Royal Institute of Technology"
+      ],
+      "CN": [
+        "Harbin University",
+        "Hefei University of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "SE": [
+        "Bo Zhu (KTH Royal Institute of Technology)"
+      ],
+      "CN": [
+        "Bo Zhu (Harbin University)",
+        "Bo Zhu (Hefei University of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2006,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 849,
+      "extraction_command": "sed -n '849p' part_000.gz | jq '.title'",
+      "paper_hash": "96be7e36db04e368"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W3107400118",
+    "doi": "https://doi.org/10.1149/ma2016-01/5/503",
+    "title": "Unveiling the Dynamic Capacitive Storage Mechanism of Co<sub>3</sub>O<sub>4 </sub>@NiCo<sub>2</sub>O<sub>4</sub> Hybrid Nanoelectrodes for Supercapacitor Applications",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "IE",
+      "US"
+    ],
+    "institutions": {
+      "IE": [
+        "Trinity College Dublin"
+      ],
+      "US": [
+        "University of Virginia"
+      ],
+      "CN": [
+        "Beijing University of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "IE": [
+        "Hongzhou Zhang (Trinity College Dublin)"
+      ],
+      "US": [
+        "Xiaodong Li (University of Virginia)"
+      ],
+      "CN": [
+        "Yuefei Zhang (Beijing University of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 96277,
+      "extraction_command": "sed -n '96277p' part_000.gz | jq '.title'",
+      "paper_hash": "cc8854a0b04256f0"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1970279467",
+    "doi": "https://doi.org/10.1016/j.ijhydene.2014.09.133",
+    "title": "Corrigendum to “PEM fuel cell air-feed system observer design for automotive applications: An adaptive numerical differentiation approach” [Int J Hydrogen Energy 39 (2014) 17210–17221]",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Université de technologie de belfort-montbéliard"
+      ],
+      "CN": [
+        "Harbin Institute of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Jianxing Liu (Université de technologie de belfort-montbéliard)",
+        "Salah Laghrouche (Université de technologie de belfort-montbéliard)",
+        "Fayez Shakil Ahmed (Université de technologie de belfort-montbéliard)",
+        "Maxime Wack (Université de technologie de belfort-montbéliard)"
+      ],
+      "CN": [
+        "Jianxing Liu (Harbin Institute of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 52553,
+      "extraction_command": "sed -n '52553p' part_000.gz | jq '.title'",
+      "paper_hash": "30f3e8e37db47b37"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2078631696",
+    "doi": "https://doi.org/10.1016/j.cej.2008.02.019",
+    "title": "Erratum to “Preparation and characterization of Pt direct deposition on polypyrrole modified Nafion composite membranes for direct methanol fuel cell applications” [Chem. Eng. J. 133 (2007) 113–119]",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "Society for Chemical Engineering and Biotechnology"
+      ],
+      "CN": [
+        "Shanghai Jiao Tong University"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Klaus‐Michael Jüttner (Society for Chemical Engineering and Biotechnology)",
+        "Jean‐François Drillet (Society for Chemical Engineering and Biotechnology)",
+        "Roland Dittmeyer (Society for Chemical Engineering and Biotechnology)"
+      ],
+      "CN": [
+        "Lei Li (Shanghai Jiao Tong University)",
+        "Yongming Zhang (Shanghai Jiao Tong University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 65604,
+      "extraction_command": "sed -n '65604p' part_000.gz | jq '.title'",
+      "paper_hash": "f937c7eb87eae27d"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1989967762",
+    "doi": "https://doi.org/10.1002/anie.200990181",
+    "title": "Cover Picture: A Soluble and Highly Conductive Ionomer for High‐Performance Hydroxide Exchange Membrane Fuel Cells (Angew. Chem. Int. Ed. 35/2009)",
+    "publication_year": 2009,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University of California, Riverside"
+      ],
+      "CN": [
+        "Dalian University of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Yushan Yan (University of California, Riverside)",
+        "Rui Cai (University of California, Riverside)",
+        "Shuang Gu (University of California, Riverside)",
+        "Zhongwei Chen (University of California, Riverside)",
+        "Minwei Sun (University of California, Riverside)",
+        "Ting Luo (University of California, Riverside)",
+        "Yan Liu (University of California, Riverside)"
+      ],
+      "CN": [
+        "Gaohong He (Dalian University of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2009,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 40116,
+      "extraction_command": "sed -n '40116p' part_000.gz | jq '.title'",
+      "paper_hash": "d59e3d2b472bc92d"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1484427693",
+    "doi": "https://doi.org/10.1002/9781118585160.ch25",
+    "title": "One‐Pot Synthesis of Functionalized Few‐Walled Carbon Nanotube/MnO <sub>2</sub> Composite for High Performance Electrochemical Supercapacitors",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Duke University",
+        "United States Army Research Office"
+      ],
+      "CN": [
+        "Harbin Institute of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Jie Liu (Duke University)",
+        "Songtao Lu (Duke University)",
+        "Hongbo Zhang (Duke University)",
+        "Shutong Zhan (Duke University)",
+        "Yingwen Cheng (Duke University)",
+        "C. Varanasi (Duke University)",
+        "C. Varanasi (United States Army Research Office)"
+      ],
+      "CN": [
+        "Songtao Lu (Harbin Institute of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "advanced_materials",
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 4637,
+      "extraction_command": "sed -n '4637p' part_000.gz | jq '.title'",
+      "paper_hash": "9a65d5d716d1d6b5"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1963913167",
+    "doi": "https://doi.org/10.1115/micronano2008-70206",
+    "title": "Effect of Operating Temperature on the Water Removal in a Polymer Electrolyte Fuel Cell",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Hokkaido University"
+      ],
+      "CN": [
+        "Chongqing University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Wan-Yuan Shi (Hokkaido University)",
+        "Nobuyuki Oshima (Hokkaido University)",
+        "LitanKumar Saha (Hokkaido University)",
+        "Eru KURIHARA (Hokkaido University)"
+      ],
+      "CN": [
+        "Wan-Yuan Shi (Chongqing University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 6840,
+      "extraction_command": "sed -n '6840p' part_000.gz | jq '.title'",
+      "paper_hash": "7dfc941550899cde"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1974043277",
+    "doi": "https://doi.org/10.1115/icnmm2009-82181",
+    "title": "Transport Phenomena Within the Porous Cathode for PEM Fuel Cell",
+    "publication_year": 2009,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Hokkaido University"
+      ],
+      "CN": [
+        "Chongqing University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "LitanKumar Saha (Hokkaido University)",
+        "Nubuyuki Oshima (Hokkaido University)",
+        "Juanfang Liu (Hokkaido University)",
+        "Eru KURIHARA (Hokkaido University)"
+      ],
+      "CN": [
+        "Juanfang Liu (Chongqing University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2009,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 7294,
+      "extraction_command": "sed -n '7294p' part_000.gz | jq '.title'",
+      "paper_hash": "565c8ce2ad8b919f"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2035064052",
+    "doi": "https://doi.org/10.1115/fuelcell2009-85061",
+    "title": "Water Transport in the MEA of a PEM Fuel Cell",
+    "publication_year": 2009,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Hokkaido University"
+      ],
+      "CN": [
+        "Chongqing University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "JuanFang Liu (Hokkaido University)",
+        "Nobuyuki Oshima (Hokkaido University)",
+        "LitanKumar Saha (Hokkaido University)",
+        "Eru KURIHARA (Hokkaido University)"
+      ],
+      "CN": [
+        "JuanFang Liu (Chongqing University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2009,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 10080,
+      "extraction_command": "sed -n '10080p' part_000.gz | jq '.title'",
+      "paper_hash": "171b0f61bd52b35b"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2148695376",
+    "doi": null,
+    "title": "Supported Mixed Metal Nanoparticles and PFA-Nafion Nanocomposite Membrane for Low Temperature Fuel Cells",
+    "publication_year": 2005,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "The University of Sydney"
+      ],
+      "CN": [
+        "Anhui Jianzhu University"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Huanting Wang (The University of Sydney)"
+      ],
+      "CN": [
+        "Jin Liu (Anhui Jianzhu University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2005,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 13821,
+      "extraction_command": "sed -n '13821p' part_000.gz | jq '.title'",
+      "paper_hash": "e01a11faa30297a7"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2329394775",
+    "doi": "https://doi.org/10.1115/imece2015-50850",
+    "title": "Controlled-Fabrication of Sandwich-Structured NiO/Ni/NiO Nanotube Arrays for Energy Storage",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University of Michigan–Dearborn"
+      ],
+      "CN": [
+        "Xi'an Jiaotong University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Ben Q. Li (University of Michigan–Dearborn)"
+      ],
+      "CN": [
+        "Manman Zhang (Xi'an Jiaotong University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 17478,
+      "extraction_command": "sed -n '17478p' part_000.gz | jq '.title'",
+      "paper_hash": "282bcb276ae4e309"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2936632655",
+    "doi": "https://doi.org/10.1002/celc.201900348",
+    "title": "Front Cover: Hierarchical, Vertically‐Oriented Carbon Nanowall Foam Supercapacitor using Room Temperature Ionic Liquid Mixture for AC Line Filtering with Ultrahigh Energy Density (ChemElectroChem 8/2019)",
+    "publication_year": 2019,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "Queensland University of Technology",
+        "Commonwealth Scientific and Industrial Research Organisation"
+      ],
+      "CN": [
+        "Zhejiang University"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Kostya Ostrikov (Commonwealth Scientific and Industrial Research Organisation)",
+        "Kostya Ostrikov (Queensland University of Technology)"
+      ],
+      "CN": [
+        "Huachao Yang (Zhejiang University)",
+        "Jianhua Yan (Zhejiang University)",
+        "Kefa Cen (Zhejiang University)",
+        "Hao Shi (Zhejiang University)",
+        "Zheng Bo (Zhejiang University)",
+        "Chenxuan Xu (Zhejiang University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2019,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 5624,
+      "extraction_command": "sed -n '5624p' part_000.gz | jq '.title'",
+      "paper_hash": "3e77d95d640decd8"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2949807023",
+    "doi": "https://doi.org/10.46855/2020.06.30.15.19.001971",
+    "title": "Energy Storage Sharing in Smart Grid: A Modified Auction Based Approach",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "AU",
+      "CN",
+      "SG",
+      "US"
+    ],
+    "institutions": {
+      "SG": [
+        "Singapore University of Technology and Design"
+      ],
+      "US": [
+        "Princeton University"
+      ],
+      "AU": [
+        "Data61"
+      ],
+      "CN": [
+        "State Grid Corporation of China (China)",
+        "Zhejiang University of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "SG": [
+        "Wayes Tushar (Singapore University of Technology and Design)",
+        "Shisheng Huang (Singapore University of Technology and Design)",
+        "Bo Chai (Singapore University of Technology and Design)",
+        "and Yang (Singapore University of Technology and Design)",
+        "H. Vincent Poor (Singapore University of Technology and Design)",
+        "David B. Smith (Singapore University of Technology and Design)",
+        "Chau Yuen (Singapore University of Technology and Design)"
+      ],
+      "US": [
+        "Bo Chai (Princeton University)",
+        "Chau Yuen (Princeton University)",
+        "H. Vincent Poor (Princeton University)",
+        "David B. Smith (Princeton University)",
+        "Shisheng Huang (Princeton University)",
+        "and Yang (Princeton University)",
+        "Wayes Tushar (Princeton University)"
+      ],
+      "AU": [
+        "Chau Yuen (Data61)",
+        "Shisheng Huang (Data61)",
+        "Wayes Tushar (Data61)",
+        "and Yang (Data61)",
+        "David B. Smith (Data61)",
+        "H. Vincent Poor (Data61)",
+        "Bo Chai (Data61)"
+      ],
+      "CN": [
+        "H. Vincent Poor (Zhejiang University of Technology)",
+        "and Yang (State Grid Corporation of China (China))",
+        "Bo Chai (State Grid Corporation of China (China))",
+        "Bo Chai (Zhejiang University of Technology)",
+        "Shisheng Huang (Zhejiang University of Technology)",
+        "Shisheng Huang (State Grid Corporation of China (China))",
+        "Chau Yuen (Zhejiang University of Technology)",
+        "Wayes Tushar (Zhejiang University of Technology)",
+        "David B. Smith (Zhejiang University of Technology)",
+        "David B. Smith (State Grid Corporation of China (China))",
+        "Wayes Tushar (State Grid Corporation of China (China))",
+        "Chau Yuen (State Grid Corporation of China (China))",
+        "H. Vincent Poor (State Grid Corporation of China (China))",
+        "and Yang (Zhejiang University of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 4378,
+      "extraction_command": "sed -n '4378p' part_000.gz | jq '.title'",
+      "paper_hash": "06792861f17413ce"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2291294287",
+    "doi": "https://doi.org/10.1109/memsys.2016.7421856",
+    "title": "A coaxial carbon fiber micro supercapacitor",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University of California, Berkeley",
+        "U.S. Army Aviation and Missile Command"
+      ],
+      "CN": [
+        "South China University of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Yingxi Xie (University of California, Berkeley)",
+        "Mohan Sanghadasa (U.S. Army Aviation and Missile Command)",
+        "Caiwei Shen (University of California, Berkeley)",
+        "Liwei Lin (University of California, Berkeley)"
+      ],
+      "CN": [
+        "Yingxi Xie (South China University of Technology)",
+        "Yong Tang (South China University of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 30647,
+      "extraction_command": "sed -n '30647p' part_000.gz | jq '.title'",
+      "paper_hash": "eb84a990b62c1607"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2144372",
+    "doi": "https://doi.org/10.1109/icecc.2012.458",
+    "title": "Development of a Mathematical Model for the Complex Seepage Mechanism of Porous Electrode for a Proton Exchange Membrance Fuel Cell",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University of Nevada, Las Vegas"
+      ],
+      "CN": [
+        "Zhejiang Normal University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Pengtao Sun (University of Nevada, Las Vegas)"
+      ],
+      "CN": [
+        "Yousheng Xu (Zhejiang Normal University)",
+        "Hui He (Zhejiang Normal University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 22098,
+      "extraction_command": "sed -n '22098p' part_000.gz | jq '.title'",
+      "paper_hash": "624124031059c61a"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2093392328",
+    "doi": "https://doi.org/10.1039/c0cc05560c",
+    "title": "Highly ordered mesoporous Nafion membranes for fuel cells",
+    "publication_year": 2011,
+    "countries_collaborating": [
+      "AU",
+      "CN",
+      "SG"
+    ],
+    "institutions": {
+      "SG": [
+        "Nanyang Technological University"
+      ],
+      "AU": [
+        "Curtin University"
+      ],
+      "CN": [
+        "Beihang University"
+      ]
+    },
+    "authors_by_country": {
+      "SG": [
+        "Jinlin Lu (Nanyang Technological University)"
+      ],
+      "AU": [
+        "San Ping Jiang (Curtin University)",
+        "Jinlin Lu (Curtin University)"
+      ],
+      "CN": [
+        "Shanfu Lu (Beihang University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2011,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 2207,
+      "extraction_command": "sed -n '2207p' part_000.gz | jq '.title'",
+      "paper_hash": "7b6a445fd94d4c3b"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W3042635856",
+    "doi": "https://doi.org/10.1088/1742-6596/1578/1/012120",
+    "title": "Research on Energy Storage Technology in New Energy Power System Based on Computer Processing System",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "BG",
+      "CN"
+    ],
+    "institutions": {
+      "BG": [
+        "Economic Research Institute"
+      ],
+      "CN": [
+        "China Design Group (China)"
+      ]
+    },
+    "authors_by_country": {
+      "BG": [
+        "Luo Yuchao (Economic Research Institute)",
+        "Qiu Wang (Economic Research Institute)"
+      ],
+      "CN": [
+        "Qiu Wang (China Design Group (China))",
+        "Luo Yuchao (China Design Group (China))"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 17688,
+      "extraction_command": "sed -n '17688p' part_000.gz | jq '.title'",
+      "paper_hash": "e929b516fed80b3b"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2096650013",
+    "doi": "https://doi.org/10.1016/j.jpowsour.2008.08.100",
+    "title": "Modeling and simulation of a single direct carbon fuel cell",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University of Michigan"
+      ],
+      "CN": [
+        "Sichuan University",
+        "State Key Laboratory of Chemical Engineering",
+        "Tianjin University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Levi T. Thompson (University of Michigan)",
+        "Qinghua Liu (University of Michigan)"
+      ],
+      "CN": [
+        "Qinghua Liu (Tianjin University)",
+        "Qinghua Liu (State Key Laboratory of Chemical Engineering)",
+        "Yongdan Li (State Key Laboratory of Chemical Engineering)",
+        "Bin Liang (Sichuan University)",
+        "Yongdan Li (Tianjin University)",
+        "Chun Xia (Tianjin University)",
+        "Ye Tian (State Key Laboratory of Chemical Engineering)",
+        "Ye Tian (Tianjin University)",
+        "Chun Xia (State Key Laboratory of Chemical Engineering)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 2061,
+      "extraction_command": "sed -n '2061p' part_000.gz | jq '.title'",
+      "paper_hash": "6772c06f681d48c1"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2008263277",
+    "doi": "https://doi.org/10.1016/j.ijhydene.2009.12.008",
+    "title": "Electrochemical characteristics of solid oxide fuel cell cathodes prepared by infiltrating (La,Sr)MnO3 nanoparticles into yttria-stabilized bismuth oxide backbones",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University of South Carolina"
+      ],
+      "CN": [
+        "University of Science and Technology of China"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Fei Zhao (University of South Carolina)",
+        "Fanglin Chen (University of South Carolina)"
+      ],
+      "CN": [
+        "Changrong Xia (University of Science and Technology of China)",
+        "Zhiyi Jiang (University of Science and Technology of China)",
+        "Bo Ding (University of Science and Technology of China)",
+        "Fei Zhao (University of Science and Technology of China)",
+        "Zhiwei Lei (University of Science and Technology of China)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1042,
+      "extraction_command": "sed -n '1042p' part_000.gz | jq '.title'",
+      "paper_hash": "fbfa6b527e20d4b3"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2028136445",
+    "doi": "https://doi.org/10.1080/08957959108245580",
+    "title": "Crystallization behaviour of an anorphous lithium ionic conductor under high pressure",
+    "publication_year": 1991,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Laboratoire de Chimie"
+      ],
+      "CN": [
+        "Institute of Physics"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "C. Cros (Laboratoire de Chimie)"
+      ],
+      "CN": [
+        "Liquan Chen (Institute of Physics)",
+        "Zhongyi Shen (Institute of Physics)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1991,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 9778,
+      "extraction_command": "sed -n '9778p' part_000.gz | jq '.title'",
+      "paper_hash": "8cf4770979477cf9"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1968006904",
+    "doi": "https://doi.org/10.1039/b820170f",
+    "title": "Supercapacitors based on hybrid carbon nanofibers containing multiwalled carbon nanotubes",
+    "publication_year": 2009,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "Philipps University of Marburg"
+      ],
+      "CN": [
+        "Jiangxi Normal University"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Andreas Greiner (Philipps University of Marburg)",
+        "Shuiliang Chen (Philipps University of Marburg)",
+        "Agarwal Seema (Philipps University of Marburg)"
+      ],
+      "CN": [
+        "Xiao‐Ping Zhou (Jiangxi Normal University)",
+        "Haoqing Hou (Jiangxi Normal University)",
+        "Qiaohui Guo (Jiangxi Normal University)",
+        "Xiaoyan Li (Jiangxi Normal University)"
+      ]
+    },
+    "technology_categories": [
+      "advanced_materials",
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2009,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1174,
+      "extraction_command": "sed -n '1174p' part_000.gz | jq '.title'",
+      "paper_hash": "cc81079b5c130bed"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4243008836",
+    "doi": "https://doi.org/10.1515/energyo.0024.00007",
+    "title": "Influence of silica content in sulfonated polysulfone/phosphotungstic acid hybrid membranes on properties for fuel cell application",
+    "publication_year": 2018,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "In-Q-Tel"
+      ],
+      "CN": [
+        "Donghua University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Jiongxin Zhao (In-Q-Tel)"
+      ],
+      "CN": [
+        "Guoping Fei (Donghua University)",
+        "Jiongxin Zhao (Donghua University)",
+        "Yile Liang (Donghua University)",
+        "Jian Zhang (Donghua University)",
+        "Youwei Zhang (Donghua University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2018,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 24629,
+      "extraction_command": "sed -n '24629p' part_001.gz | jq '.title'",
+      "paper_hash": "04daa53eb396f861"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2101295498",
+    "doi": "https://doi.org/10.1016/j.elecom.2007.05.024",
+    "title": "Self-assembled Nafion–silica nanoparticles for elevated-high temperature polymer electrolyte membrane fuel cells",
+    "publication_year": 2007,
+    "countries_collaborating": [
+      "CN",
+      "SG"
+    ],
+    "institutions": {
+      "SG": [
+        "Nanyang Technological University"
+      ],
+      "CN": [
+        "Wuhan University of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "SG": [
+        "San Ping Jiang (Nanyang Technological University)"
+      ],
+      "CN": [
+        "Haolin Tang (Wuhan University of Technology)",
+        "Zhaohui Wan (Wuhan University of Technology)",
+        "Mu Pan (Wuhan University of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2007,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 2730,
+      "extraction_command": "sed -n '2730p' part_000.gz | jq '.title'",
+      "paper_hash": "89c66d674bf74581"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2127591042",
+    "doi": "https://doi.org/10.1002/aenm.201100223",
+    "title": "A Hierarchically Nanostructured Composite of MnO<sub>2</sub>/Conjugated Polymer/Graphene for High‐Performance Lithium Ion Batteries",
+    "publication_year": 2011,
+    "countries_collaborating": [
+      "CN",
+      "SG"
+    ],
+    "institutions": {
+      "SG": [
+        "Nanyang Technological University"
+      ],
+      "CN": [
+        "Southwest University"
+      ]
+    },
+    "authors_by_country": {
+      "SG": [
+        "Min Wang (Nanyang Technological University)",
+        "Chunxian Guo (Nanyang Technological University)",
+        "Xiong Wen Lou (Nanyang Technological University)",
+        "Tao Chen (Nanyang Technological University)",
+        "Chang Ming Li (Nanyang Technological University)"
+      ],
+      "CN": [
+        "Tao Chen (Southwest University)",
+        "Chang Ming Li (Southwest University)",
+        "Chunxian Guo (Southwest University)"
+      ]
+    },
+    "technology_categories": [
+      "advanced_materials",
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2011,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 844,
+      "extraction_command": "sed -n '844p' part_000.gz | jq '.title'",
+      "paper_hash": "ffdaabaab07ef04b"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1972256749",
+    "doi": "https://doi.org/10.1016/j.ijhydene.2004.11.006",
+    "title": "Direct ethanol PEM fuel cells: The case of platinum based anodes",
+    "publication_year": 2005,
+    "countries_collaborating": [
+      "CN",
+      "GR"
+    ],
+    "institutions": {
+      "GR": [
+        "University of Thessaly"
+      ],
+      "CN": [
+        "Dalian Institute of Chemical Physics"
+      ]
+    },
+    "authors_by_country": {
+      "GR": [
+        "Panagiotis Tsiakaras (University of Thessaly)"
+      ],
+      "CN": [
+        "Wu Zhou (Dalian Institute of Chemical Physics)",
+        "Seung‐Wan Song (Dalian Institute of Chemical Physics)",
+        "Grace Y. Sun (Dalian Institute of Chemical Physics)",
+        "Zhi‐You Zhou (Dalian Institute of Chemical Physics)",
+        "Qin Xin (Dalian Institute of Chemical Physics)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2005,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1813,
+      "extraction_command": "sed -n '1813p' part_000.gz | jq '.title'",
+      "paper_hash": "a97c0f56b79d5c53"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2158207346",
+    "doi": "https://doi.org/10.1021/nn2041279",
+    "title": "Flexible Solid-State Supercapacitors Based on Carbon Nanoparticles/MnO<sub>2</sub> Nanorods Hybrid Structure",
+    "publication_year": 2011,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Georgia Institute of Technology"
+      ],
+      "CN": [
+        "Huazhong University of Science and Technology",
+        "Sun Yat-sen University",
+        "Wuhan National Laboratory for Optoelectronics",
+        "Chongqing University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Zhong Lin Wang (Georgia Institute of Technology)",
+        "Xue Wang (Georgia Institute of Technology)"
+      ],
+      "CN": [
+        "Xu Xiao (Wuhan National Laboratory for Optoelectronics)",
+        "Xihong Lu (Sun Yat-sen University)",
+        "Longyan Yuan (Huazhong University of Science and Technology)",
+        "Xue Wang (Chongqing University)",
+        "Li Gong (Sun Yat-sen University)",
+        "Junjie Dai (Huazhong University of Science and Technology)",
+        "Bin Hu (Huazhong University of Science and Technology)",
+        "Zhong Lin Wang (Huazhong University of Science and Technology)",
+        "Teng Zhai (Huazhong University of Science and Technology)",
+        "Teng Zhai (Sun Yat-sen University)",
+        "Fengchao Zhang (Wuhan National Laboratory for Optoelectronics)",
+        "Xihong Lu (Huazhong University of Science and Technology)",
+        "Jun Zhou (Wuhan National Laboratory for Optoelectronics)",
+        "Fengchao Zhang (Huazhong University of Science and Technology)",
+        "Xu Xiao (Huazhong University of Science and Technology)",
+        "Junjie Dai (Wuhan National Laboratory for Optoelectronics)",
+        "Yexiang Tong (Sun Yat-sen University)",
+        "Zhong Lin Wang (Wuhan National Laboratory for Optoelectronics)",
+        "Teng Zhai (Wuhan National Laboratory for Optoelectronics)",
+        "Bin Hu (Wuhan National Laboratory for Optoelectronics)",
+        "Longyan Yuan (Wuhan National Laboratory for Optoelectronics)",
+        "Jian Chen (Sun Yat-sen University)",
+        "Chenguo Hu (Chongqing University)",
+        "Xihong Lu (Wuhan National Laboratory for Optoelectronics)",
+        "Jun Zhou (Huazhong University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2011,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1150,
+      "extraction_command": "sed -n '1150p' part_000.gz | jq '.title'",
+      "paper_hash": "0ae408fe8d2f3c03"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1964411248",
+    "doi": "https://doi.org/10.1109/mesa.2010.5552044",
+    "title": "Modeling and simulation of integrated coal gasification and solid oxide fuel cell system",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "CA",
+      "CN"
+    ],
+    "institutions": {
+      "CA": [
+        "University of Victoria"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "CA": [
+        "Zuomin Dong (University of Victoria)"
+      ],
+      "CN": [
+        "Han Li (Chinese Academy of Sciences)",
+        "Luning Xu (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_014.gz",
+      "line_number": 9747,
+      "extraction_command": "sed -n '9747p' part_014.gz | jq '.title'",
+      "paper_hash": "d0dafd20ee198160"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2007803870",
+    "doi": "https://doi.org/10.1039/c2cc31418e",
+    "title": "Hierarchical porous NiCo2O4 nanowires for high-rate supercapacitors",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "SG"
+    ],
+    "institutions": {
+      "SG": [
+        "Nanyang Technological University"
+      ],
+      "CN": [
+        "East China University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "SG": [
+        "Jan Ma (Nanyang Technological University)"
+      ],
+      "CN": [
+        "Hao Jiang (East China University of Science and Technology)",
+        "Chunzhong Li (East China University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1025,
+      "extraction_command": "sed -n '1025p' part_000.gz | jq '.title'",
+      "paper_hash": "0a26f09e19eaa085"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2558337639",
+    "doi": "https://doi.org/10.1109/nano.2016.7751433",
+    "title": "Laser direct writing micro-supercapacitors from graphene oxide films",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Tohoku University"
+      ],
+      "CN": [
+        "China Academy of Engineering Physics"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Akira Watanabe (Tohoku University)",
+        "Chao Lv (Tohoku University)",
+        "Jinguang Cai (Tohoku University)"
+      ],
+      "CN": [
+        "Chao Lv (China Academy of Engineering Physics)",
+        "Jinguang Cai (China Academy of Engineering Physics)"
+      ]
+    },
+    "technology_categories": [
+      "advanced_materials",
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 5888,
+      "extraction_command": "sed -n '5888p' part_001.gz | jq '.title'",
+      "paper_hash": "0d57b908836c0fa8"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2028413859",
+    "doi": "https://doi.org/10.1109/inec.2008.4585480",
+    "title": "Study of electrochemical supercapacitors utilizing carbon nanotubes electrodes and PVA-hybrid polyacid electrolytes",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "SG"
+    ],
+    "institutions": {
+      "SG": [
+        "Nanyang Technological University"
+      ],
+      "CN": [
+        "East China Normal University"
+      ]
+    },
+    "authors_by_country": {
+      "SG": [
+        "Xiao Wei Sun (Nanyang Technological University)",
+        "Zhuo Sun (Nanyang Technological University)",
+        "Beng Kang Tay (Nanyang Technological University)"
+      ],
+      "CN": [
+        "Fushuang Pang (East China Normal University)",
+        "Yanping Zhang (East China Normal University)",
+        "Yang Gao (East China Normal University)",
+        "Haibo Li (East China Normal University)",
+        "Zhejuan Zhang (East China Normal University)",
+        "Likun Pan (East China Normal University)"
+      ]
+    },
+    "technology_categories": [
+      "advanced_materials",
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 2203,
+      "extraction_command": "sed -n '2203p' part_001.gz | jq '.title'",
+      "paper_hash": "f79dc0354eb3186f"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2108007856",
+    "doi": "https://doi.org/10.1115/fuelcell2008-65130",
+    "title": "A High-Performance No-Chamber Fuel Cell Operated on Flame",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Washington State University"
+      ],
+      "CN": [
+        "Nanjing Tech University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Jeongmin Ahn (Washington State University)",
+        "Kang Wang (Washington State University)"
+      ],
+      "CN": [
+        "Zongping Shao (Nanjing Tech University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 4039,
+      "extraction_command": "sed -n '4039p' part_001.gz | jq '.title'",
+      "paper_hash": "c5ed35ca41d99c06"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2335056261",
+    "doi": "https://doi.org/10.1021/nl203903z",
+    "title": "Highly Conductive and Porous Activated Reduced Graphene Oxide Films for High-Power Supercapacitors",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "The University of Texas at Austin"
+      ],
+      "CN": [
+        "Donghua University",
+        "University of Science and Technology of China"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Meryl D. Stoller (The University of Texas at Austin)",
+        "Yaping Wu (The University of Texas at Austin)",
+        "Hengxing Ji (The University of Texas at Austin)",
+        "Brandon Clevenger (The University of Texas at Austin)",
+        "Stephen Perales (The University of Texas at Austin)",
+        "Yanwu Zhu (The University of Texas at Austin)",
+        "Xin Zhao (The University of Texas at Austin)",
+        "Rodney S. Ruoff (The University of Texas at Austin)",
+        "Lili Zhang (The University of Texas at Austin)",
+        "Shanthi Murali (The University of Texas at Austin)"
+      ],
+      "CN": [
+        "Xin Zhao (Donghua University)",
+        "Yanwu Zhu (University of Science and Technology of China)"
+      ]
+    },
+    "technology_categories": [
+      "advanced_materials",
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 682,
+      "extraction_command": "sed -n '682p' part_000.gz | jq '.title'",
+      "paper_hash": "733fe339a4012d1f"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2320575586",
+    "doi": "https://doi.org/10.1021/nn303530k",
+    "title": "Fiber-Based All-Solid-State Flexible Supercapacitors for Self-Powered Systems",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "TW",
+      "US"
+    ],
+    "institutions": {
+      "TW": [
+        "National Tsing Hua University"
+      ],
+      "US": [
+        "Georgia Institute of Technology"
+      ],
+      "CN": [
+        "Jinan University",
+        "Huazhong University of Science and Technology",
+        "Sun Yat-sen University",
+        "Wuhan National Laboratory for Optoelectronics"
+      ]
+    },
+    "authors_by_country": {
+      "TW": [
+        "Yu‐Lun Chueh (National Tsing Hua University)",
+        "Wen‐Chun Yen (National Tsing Hua University)"
+      ],
+      "US": [
+        "Zhong Lin Wang (Georgia Institute of Technology)"
+      ],
+      "CN": [
+        "Jun Zhou (Huazhong University of Science and Technology)",
+        "Wenhui Zhan (Huazhong University of Science and Technology)",
+        "Xu Xiao (Wuhan National Laboratory for Optoelectronics)",
+        "Tianqi Li (Huazhong University of Science and Technology)",
+        "Huanyu Jin (Huazhong University of Science and Technology)",
+        "Xianghui Zhang (Wuhan National Laboratory for Optoelectronics)",
+        "Yuanzhi Cao (Huazhong University of Science and Technology)",
+        "Yuan Gao (Wuhan National Laboratory for Optoelectronics)",
+        "Li Gong (Sun Yat-sen University)",
+        "Yuanzhi Cao (Wuhan National Laboratory for Optoelectronics)",
+        "Junwen Zhong (Wuhan National Laboratory for Optoelectronics)",
+        "Huanyu Jin (Wuhan National Laboratory for Optoelectronics)",
+        "Tianqi Li (Wuhan National Laboratory for Optoelectronics)",
+        "Wenhui Zhan (Wuhan National Laboratory for Optoelectronics)",
+        "Jun Zhou (Wuhan National Laboratory for Optoelectronics)",
+        "Peihua Yang (Jinan University)",
+        "Weijian Ni (Huazhong University of Science and Technology)",
+        "Xianghui Zhang (Huazhong University of Science and Technology)",
+        "Xu Xiao (Huazhong University of Science and Technology)",
+        "Kaifu Huo (Wuhan National Laboratory for Optoelectronics)",
+        "Jian Chen (Sun Yat-sen University)",
+        "Junwen Zhong (Huazhong University of Science and Technology)",
+        "Wenjie Mai (Jinan University)",
+        "Kaifu Huo (Huazhong University of Science and Technology)",
+        "Weijian Ni (Wuhan National Laboratory for Optoelectronics)",
+        "Yuan Gao (Huazhong University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1667,
+      "extraction_command": "sed -n '1667p' part_000.gz | jq '.title'",
+      "paper_hash": "b454f7fbad686998"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2017456432",
+    "doi": "https://doi.org/10.1021/cm801729y",
+    "title": "Synthesis and Electrochemical Property of Boron-Doped Mesoporous Carbon in Supercapacitor",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "Australian Research Council"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Zhi‐Gang Chen (Australian Research Council)",
+        "Dawei Wang (Australian Research Council)",
+        "Hui‐Ming Cheng (Australian Research Council)",
+        "Gao Qing Lu (Australian Research Council)",
+        "Feng Li (Australian Research Council)"
+      ],
+      "CN": [
+        "Feng Li (Chinese Academy of Sciences)",
+        "Hui‐Ming Cheng (Chinese Academy of Sciences)",
+        "Gao Qing Lu (Chinese Academy of Sciences)",
+        "Zhi‐Gang Chen (Chinese Academy of Sciences)",
+        "Dawei Wang (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 773,
+      "extraction_command": "sed -n '773p' part_000.gz | jq '.title'",
+      "paper_hash": "53bde3644c3ca473"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2799961884",
+    "doi": "https://doi.org/10.1038/s41598-018-24109-4",
+    "title": "Author Correction: Concise N-doped Carbon Nanosheets/Vanadium Nitride Nanoparticles Materials via Intercalative Polymerization for Supercapacitors",
+    "publication_year": 2018,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Frostburg State University",
+        "Xavier University of Louisiana"
+      ],
+      "CN": [
+        "Lanzhou University of Technology",
+        "South China University of Technology",
+        "Energy Research Institute"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Zhen Liu (Frostburg State University)",
+        "Zhe Wang (Xavier University of Louisiana)"
+      ],
+      "CN": [
+        "Long Kang (Lanzhou University of Technology)",
+        "Zhenghua Tang (Energy Research Institute)",
+        "Zhenghua Tang (South China University of Technology)",
+        "Ling‐Bin Kong (Lanzhou University of Technology)",
+        "Yongtao Tan (Lanzhou University of Technology)",
+        "Ying Liu (Lanzhou University of Technology)",
+        "Fen Ran (Lanzhou University of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2018,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_007.gz",
+      "line_number": 30,
+      "extraction_command": "sed -n '30p' part_007.gz | jq '.title'",
+      "paper_hash": "cf434898bf51beb9"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W3086415965",
+    "doi": "https://doi.org/10.1007/s10854-020-04400-9",
+    "title": "Fabrication of graphene/polyaniline nanofiber multilayer composite for supercapacitor electrodes via layer-by-layer vacuum filtration",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Nagoya University"
+      ],
+      "CN": [
+        "Shanghai Jiao Tong University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Motonobu Goto (Nagoya University)"
+      ],
+      "CN": [
+        "Rahul Navik (Shanghai Jiao Tong University)",
+        "Yaping Zhao (Shanghai Jiao Tong University)",
+        "Huijun Tan (Shanghai Jiao Tong University)",
+        "Ding Xiao (Shanghai Jiao Tong University)"
+      ]
+    },
+    "technology_categories": [
+      "advanced_materials",
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_013.gz",
+      "line_number": 50,
+      "extraction_command": "sed -n '50p' part_013.gz | jq '.title'",
+      "paper_hash": "3a2c6eb3feb492f6"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2228369058",
+    "doi": "https://doi.org/10.1149/ma2015-01/28/1664",
+    "title": "Spatially Resolved Electrochemical Impedance Measurement in a PEM Fuel Cell Using an Array of Reference Electrodes",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "National Physical Laboratory"
+      ],
+      "CN": [
+        "Harbin Institute of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Edward Brightman (National Physical Laboratory)",
+        "Gareth Hinds (National Physical Laboratory)"
+      ],
+      "CN": [
+        "Chao Lyu (Harbin Institute of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_027.gz",
+      "line_number": 2405,
+      "extraction_command": "sed -n '2405p' part_027.gz | jq '.title'",
+      "paper_hash": "7a5e953af3f923ae"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W903843555",
+    "doi": "https://doi.org/10.1007/s11581-015-1468-1",
+    "title": "Improved overall properties in La1–x Ca x Fe0.8Cr0.2O3–δ as cathode for intermediate temperature solid oxide fuel cells",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CA",
+      "CN",
+      "KR",
+      "NO"
+    ],
+    "institutions": {
+      "KR": [
+        "Jeonbuk National University"
+      ],
+      "NO": [
+        "University of Oslo"
+      ],
+      "CA": [
+        "University of Calgary"
+      ],
+      "CN": [
+        "Wuhan University of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "KR": [
+        "Kai Zhao (Jeonbuk National University)",
+        "Bok-Hee Kim (Jeonbuk National University)"
+      ],
+      "NO": [
+        "Min Chen (University of Oslo)"
+      ],
+      "CA": [
+        "Min Chen (University of Calgary)"
+      ],
+      "CN": [
+        "Jing Xiao (Wuhan University of Technology)",
+        "Qing Xu (Wuhan University of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_014.gz",
+      "line_number": 1632,
+      "extraction_command": "sed -n '1632p' part_014.gz | jq '.title'",
+      "paper_hash": "d1972eed65aad558"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2082917099",
+    "doi": "https://doi.org/10.1109/epc.2007.4520359",
+    "title": "Research on Drive System of Fuel Cell Electric Vehicles",
+    "publication_year": 2007,
+    "countries_collaborating": [
+      "CA",
+      "CN"
+    ],
+    "institutions": {
+      "CA": [
+        "Toronto Metropolitan University"
+      ],
+      "CN": [
+        "Tongji University"
+      ]
+    },
+    "authors_by_country": {
+      "CA": [
+        "Jinsong Kang (Toronto Metropolitan University)"
+      ],
+      "CN": [
+        "Guoqing Xu (Tongji University)",
+        "Jinsong Kang (Tongji University)"
+      ]
+    },
+    "technology_categories": [
+      "energy_storage"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2007,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_023.gz",
+      "line_number": 1576,
+      "extraction_command": "sed -n '1576p' part_023.gz | jq '.title'",
+      "paper_hash": "42756171e7c99547"
+    },
+    "risk_assessment": {
+      "technology_risk": "MEDIUM",
+      "collaboration_risk": "LOW",
+      "overall_risk": "MEDIUM",
+      "strategic_concerns": []
+    }
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "cik": "0001816723",
+  "ticker": "GRFXY",
+  "name": "Graphex Group Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong"
+  ],
+  "sic": "3620",
+  "sicDescription": "Electrical Industrial Apparatus",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "(852)25599438",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "11/F., COFCO TOWER, 262 GLOUCESTER ROAD,",
+      "street2": "CAUSEWAY BAY",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "11/F., COFCO TOWER, 262 GLOUCESTER ROAD,",
+      "street2": "CAUSEWAY BAY",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-29"
+  },
+  "filings_count": 113
+}

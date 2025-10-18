@@ -1,0 +1,52 @@
+{
+  "cik": "0002011458",
+  "ticker": "ZGM",
+  "name": "Zenta Group Co Ltd",
+  "detection_reasons": [
+    "location:china",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business",
+    "sic:8742"
+  ],
+  "sic": "8742",
+  "sicDescription": "Services-Management Consulting Services",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "853 6667 5966",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "AV. DO INFANTE D. HENRIQUE, NO. 43-53A,",
+      "street2": "MACAU SQUARE, 8TH FLOOR, UNIT J",
+      "city": "MACAU SAR",
+      "stateOrCountry": "F4",
+      "zipCode": "999078",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "AV. DO INFANTE D. HENRIQUE, NO. 43-53A,",
+      "street2": "MACAU SQUARE, 8TH FLOOR, UNIT J",
+      "city": "MACAU SAR",
+      "stateOrCountry": "F4",
+      "zipCode": "999078",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-11"
+  },
+  "filings_count": 17
+}

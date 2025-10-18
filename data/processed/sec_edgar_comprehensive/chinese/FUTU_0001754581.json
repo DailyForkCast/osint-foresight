@@ -1,0 +1,52 @@
+{
+  "cik": "0001754581",
+  "ticker": "FUTU",
+  "name": "Futu Holdings Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:shenzhen",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "6211",
+  "sicDescription": "Security Brokers, Dealers & Flotation Companies",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "8675525233312",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "9F UNIT 3 BUILDING C KEXING SCIENCE PARK",
+      "street2": "15 KEYUAN ROAD, TECHNOLOGY PARK",
+      "city": "NANSHAN DISTRICT, SHENZHEN",
+      "stateOrCountry": "F4",
+      "zipCode": "518057",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "9F UNIT 3 BUILDING C KEXING SCIENCE PARK",
+      "street2": "15 KEYUAN ROAD, TECHNOLOGY PARK",
+      "city": "NANSHAN DISTRICT, SHENZHEN",
+      "stateOrCountry": "F4",
+      "zipCode": "518057",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-20"
+  },
+  "filings_count": 127
+}

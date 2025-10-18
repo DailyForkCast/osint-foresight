@@ -1,0 +1,47 @@
+{
+  "cik": "0000845877",
+  "ticker": "AGM-A",
+  "name": "FEDERAL AGRICULTURAL MORTGAGE CORP",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6111",
+  "sicDescription": "Federal & Federally-Sponsored Credit Agencies",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "521578738",
+  "phone": "2028727700",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2100 PENNSYLVANIA AVE NW",
+      "street2": "SUITE 450N",
+      "city": "WASHINGTON",
+      "stateOrCountry": "DC",
+      "zipCode": "20037",
+      "stateOrCountryDescription": "DC",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2100 PENNSYLVANIA AVE NW",
+      "street2": "SUITE 450N",
+      "city": "WASHINGTON",
+      "stateOrCountry": "DC",
+      "zipCode": "20037",
+      "stateOrCountryDescription": "DC",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-25"
+  },
+  "filings_count": 1001
+}

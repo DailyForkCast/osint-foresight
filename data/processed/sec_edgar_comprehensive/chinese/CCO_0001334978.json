@@ -1,0 +1,47 @@
+{
+  "cik": "0001334978",
+  "ticker": "CCO",
+  "name": "Clear Channel Outdoor Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7310",
+  "sicDescription": "Services-Advertising",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "880318078",
+  "phone": "210-822-2828",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "4830 NORTH LOOP 1604W, SUITE 111",
+      "street2": null,
+      "city": "SAN ANTONIO",
+      "stateOrCountry": "TX",
+      "zipCode": "78249",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "4830 NORTH LOOP 1604W, SUITE 111",
+      "street2": null,
+      "city": "SAN ANTONIO",
+      "stateOrCountry": "TX",
+      "zipCode": "78249",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-09"
+  },
+  "filings_count": 1000
+}

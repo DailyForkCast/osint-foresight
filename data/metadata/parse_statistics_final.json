@@ -1,0 +1,31 @@
+{
+  "total": 98,
+  "successful": 20,
+  "failed": 78,
+  "by_type": {
+    ".gz": {
+      "success": 0,
+      "fail": 10
+    },
+    ".dat": {
+      "success": 0,
+      "fail": 67
+    },
+    ".json": {
+      "success": 20,
+      "fail": 1
+    }
+  },
+  "by_location": {
+    "osint_data": {
+      "files": 77,
+      "success": 0,
+      "fail": 77
+    },
+    "horizons_data": {
+      "files": 21,
+      "success": 20,
+      "fail": 1
+    }
+  }
+}

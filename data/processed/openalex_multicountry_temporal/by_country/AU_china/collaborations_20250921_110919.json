@@ -1,0 +1,604 @@
+[
+  {
+    "paper_id": "https://openalex.org/W3048421505",
+    "doi": "https://doi.org/10.48550/arxiv.2008.04743",
+    "title": "Scalable and Communication-efficient Decentralized Federated Edge Learning with Multi-blockchain Framework",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "AU",
+      "CA",
+      "CN",
+      "SG"
+    ],
+    "institutions": {
+      "CA": [
+        "BC Research (Canada)"
+      ],
+      "SG": [
+        "Nanyang Technological University",
+        "National University of Singapore"
+      ],
+      "AU": [
+        "Monash University"
+      ],
+      "CN": [
+        "Tsinghua University",
+        "Wuhan University of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "CA": [
+        "Cyril Leung (BC Research (Canada))"
+      ],
+      "SG": [
+        "Jiawen Kang (Nanyang Technological University)",
+        "Chunyan Miao (National University of Singapore)",
+        "Dusit Niyato (National University of Singapore)"
+      ],
+      "AU": [
+        "Yi Liu (Monash University)"
+      ],
+      "CN": [
+        "Chunxiao Jiang (Tsinghua University)",
+        "Yang Zhang (Wuhan University of Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1,
+      "extraction_command": "sed -n '1p' part_000.gz | jq '.title'",
+      "paper_hash": "8d076a53960e5636"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "AU"
+  },
+  {
+    "paper_id": "https://openalex.org/W2400170259",
+    "doi": null,
+    "title": "The MHC contains multiple genes potentially relevant to hemochromatosis.",
+    "publication_year": 1997,
+    "countries_collaborating": [
+      "AU",
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Harrisburg University of Science and Technology"
+      ],
+      "AU": [
+        "Royal Perth Hospital"
+      ],
+      "CN": [
+        "Institute of Forensic Science"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Michael J. Chorney (Harrisburg University of Science and Technology)"
+      ],
+      "AU": [
+        "Louise N. Daly (Royal Perth Hospital)",
+        "Peter Hollingsworth (Royal Perth Hospital)",
+        "Campbell S. Witt (Royal Perth Hospital)",
+        "Annette Hughes (Royal Perth Hospital)"
+      ],
+      "CN": [
+        "Guan K. Tay (Institute of Forensic Science)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1997,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1938,
+      "extraction_command": "sed -n '1938p' part_000.gz | jq '.title'",
+      "paper_hash": "3858d83c437d2d28"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "AU"
+  },
+  {
+    "paper_id": "https://openalex.org/W2102794294",
+    "doi": "https://doi.org/10.1111/j.1365-2494.1958.tb00108.x",
+    "title": "THE LOCAL INFLUENCE OF CATTLE DUNG AND URINE UPON THE YIELD AND BOTANICAL COMPOSITION OF PERMANENT PASTURE",
+    "publication_year": 1958,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "Katherine Hospital",
+        "Commonwealth Scientific and Industrial Research Organisation"
+      ],
+      "CN": [
+        "Institute of Grassland Research"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "M. J. T. Norman (Katherine Hospital)",
+        "M. J. T. Norman (Commonwealth Scientific and Industrial Research Organisation)"
+      ],
+      "CN": [
+        "J. O. Green (Institute of Grassland Research)",
+        "M. J. T. Norman (Institute of Grassland Research)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1958,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 375,
+      "extraction_command": "sed -n '375p' part_000.gz | jq '.title'",
+      "paper_hash": "181d5bdf5ce3642e"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "AU"
+  },
+  {
+    "paper_id": "https://openalex.org/W3096004323",
+    "doi": "https://doi.org/10.3389/fimmu.2020.615275",
+    "title": "Corrigendum: Interferon-α2b Treatment for COVID-19",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "AU",
+      "CA",
+      "CN"
+    ],
+    "institutions": {
+      "CA": [
+        "Prevention of Organ Failure",
+        "University of British Columbia",
+        "University of Toronto",
+        "University Health Network",
+        "St. Paul's Hospital",
+        "Toronto General Hospital"
+      ],
+      "AU": [
+        "The Kids Research Institute Australia"
+      ],
+      "CN": [
+        "Huazhong University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "CA": [
+        "Casey P. Shannon (Prevention of Organ Failure)",
+        "Scott J. Tebbutt (Prevention of Organ Failure)",
+        "Virginia Chen (Prevention of Organ Failure)",
+        "Eleanor N. Fish (University Health Network)",
+        "Virginia Chen (St. Paul's Hospital)",
+        "Virginia Chen (University of British Columbia)",
+        "Casey P. Shannon (St. Paul's Hospital)",
+        "Eleanor N. Fish (University of Toronto)",
+        "Casey P. Shannon (University of British Columbia)",
+        "Scott J. Tebbutt (St. Paul's Hospital)",
+        "Eleanor N. Fish (Toronto General Hospital)",
+        "Scott J. Tebbutt (University of British Columbia)"
+      ],
+      "AU": [
+        "Tobias R. Kollmann (The Kids Research Institute Australia)"
+      ],
+      "CN": [
+        "Qiong Zhou (Huazhong University of Science and Technology)",
+        "Xu Wang (Huazhong University of Science and Technology)",
+        "Zihao Wang (Huazhong University of Science and Technology)",
+        "Xiao‐Shan Wei (Huazhong University of Science and Technology)",
+        "Xuan Xiang (Huazhong University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 330,
+      "extraction_command": "sed -n '330p' part_000.gz | jq '.title'",
+      "paper_hash": "90172069d583d966"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "AU"
+  },
+  {
+    "paper_id": "https://openalex.org/W1980392696",
+    "doi": "https://doi.org/10.1006/jctb.1993.1046",
+    "title": "Symmetric Graphs of Order a Product of Two Distinct Primes",
+    "publication_year": 1993,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "The University of Western Australia"
+      ],
+      "CN": [
+        "Beijing Normal University"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Cheryl E. Praeger (The University of Western Australia)",
+        "R.J. Wang (The University of Western Australia)",
+        "Min Xu (The University of Western Australia)"
+      ],
+      "CN": [
+        "Min Xu (Beijing Normal University)",
+        "Cheryl E. Praeger (Beijing Normal University)",
+        "R.J. Wang (Beijing Normal University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1993,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 31,
+      "extraction_command": "sed -n '31p' part_000.gz | jq '.title'",
+      "paper_hash": "2a5e4bb9c8732e37"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "AU"
+  },
+  {
+    "paper_id": "https://openalex.org/W4200279765",
+    "doi": "https://doi.org/10.7287/peerj.12223v0.1/reviews/2",
+    "title": "Peer Review #2 of \"Prevalence of depression and its associated factors among adolescents in China during the early stage of the COVID-19 outbreak (v0.1)\"",
+    "publication_year": 2021,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "The University of Western Australia",
+        "The University of Notre Dame Australia"
+      ],
+      "CN": [
+        "Beijing Anding Hospital",
+        "Capital Medical University"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Gábor S. Ungvári (The University of Notre Dame Australia)",
+        "Gábor S. Ungvári (The University of Western Australia)"
+      ],
+      "CN": [
+        "Siman Lei (Beijing Anding Hospital)",
+        "Jia Luo (Capital Medical University)",
+        "Yuan Feng (Capital Medical University)",
+        "Yuan Feng (Beijing Anding Hospital)",
+        "Siman Lei (Capital Medical University)",
+        "Rui Liu (Beijing Anding Hospital)",
+        "Jia Luo (Beijing Anding Hospital)",
+        "Chen Xu (Beijing Anding Hospital)",
+        "Han Qi (Capital Medical University)",
+        "Rui Liu (Capital Medical University)",
+        "Han Qi (Beijing Anding Hospital)",
+        "Chen Xu (Capital Medical University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2021,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1549,
+      "extraction_command": "sed -n '1549p' part_000.gz | jq '.title'",
+      "paper_hash": "1290beddb8bd1268"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "AU"
+  },
+  {
+    "paper_id": "https://openalex.org/W4200281046",
+    "doi": "https://doi.org/10.7287/peerj.12223v0.1/reviews/1",
+    "title": "Peer Review #1 of \"Prevalence of depression and its associated factors among adolescents in China during the early stage of the COVID-19 outbreak (v0.1)\"",
+    "publication_year": 2021,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "The University of Western Australia",
+        "The University of Notre Dame Australia"
+      ],
+      "CN": [
+        "Beijing Anding Hospital",
+        "Capital Medical University"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Gábor S. Ungvári (The University of Notre Dame Australia)",
+        "Gábor S. Ungvári (The University of Western Australia)"
+      ],
+      "CN": [
+        "Siman Lei (Beijing Anding Hospital)",
+        "Jia Luo (Capital Medical University)",
+        "Yuan Feng (Capital Medical University)",
+        "Yuan Feng (Beijing Anding Hospital)",
+        "Siman Lei (Capital Medical University)",
+        "Rui Liu (Beijing Anding Hospital)",
+        "Jia Luo (Beijing Anding Hospital)",
+        "Chen Xu (Beijing Anding Hospital)",
+        "Han Qi (Capital Medical University)",
+        "Han Qi (Beijing Anding Hospital)",
+        "Rui Liu (Capital Medical University)",
+        "Chen Xu (Capital Medical University)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2021,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1550,
+      "extraction_command": "sed -n '1550p' part_000.gz | jq '.title'",
+      "paper_hash": "63b3040a3c0cc625"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "AU"
+  },
+  {
+    "paper_id": "https://openalex.org/W3003217347",
+    "doi": "https://doi.org/10.1038/s41586-020-2008-3",
+    "title": "A new coronavirus associated with human respiratory disease in China",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "The University of Sydney"
+      ],
+      "CN": [
+        "National Institute for Communicable Disease Control and Prevention",
+        "Central Hospital of Wuhan",
+        "Wuhan Center for Disease Control and Prevention",
+        "Shanghai Public Health Clinical Center",
+        "Huazhong University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Edward C. Holmes (The University of Sydney)"
+      ],
+      "CN": [
+        "Fa-Hui Dai (Shanghai Public Health Clinical Center)",
+        "Lin Xu (Shanghai Public Health Clinical Center)",
+        "Jun-Hua Tian (Wuhan Center for Disease Control and Prevention)",
+        "Yanmei Chen (Shanghai Public Health Clinical Center)",
+        "Ming-Li Yuan (Huazhong University of Science and Technology)",
+        "Fan Wu (Shanghai Public Health Clinical Center)",
+        "Zhao-Wu Tao (Huazhong University of Science and Technology)",
+        "Yǒng-Zhèn Zhāng (National Institute for Communicable Disease Control and Prevention)",
+        "Yi Liu (Shanghai Public Health Clinical Center)",
+        "Zhi-Gang Song (Shanghai Public Health Clinical Center)",
+        "Yi Hu (Huazhong University of Science and Technology)",
+        "Wen Wang (National Institute for Communicable Disease Control and Prevention)",
+        "Yu-Ling Zhang (Shanghai Public Health Clinical Center)",
+        "Qimin Wang (Shanghai Public Health Clinical Center)",
+        "Yuan-Yuan Pei (Shanghai Public Health Clinical Center)",
+        "Zhao Su (Huazhong University of Science and Technology)",
+        "Ming-Li Yuan (Central Hospital of Wuhan)",
+        "Bin Yu (Wuhan Center for Disease Control and Prevention)",
+        "Zhao-Wu Tao (Central Hospital of Wuhan)",
+        "Zhao Su (Central Hospital of Wuhan)",
+        "Yi Hu (Central Hospital of Wuhan)",
+        "Jiao-Jiao Zheng (Shanghai Public Health Clinical Center)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 107,
+      "extraction_command": "sed -n '107p' part_000.gz | jq '.title'",
+      "paper_hash": "af72d1430dcbf773"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "AU"
+  },
+  {
+    "paper_id": "https://openalex.org/W3216105902",
+    "doi": "https://doi.org/10.1088/1361-6463/ac3d5d",
+    "title": "Reduced breakdown voltage for in-liquid plasma discharges using moveable electrodes",
+    "publication_year": 2021,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "Queensland University of Technology",
+        "The University of Sydney"
+      ],
+      "CN": [
+        "Huazhong University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Tianqi Zhang (The University of Sydney)",
+        "Wenshao Li (Queensland University of Technology)",
+        "Rusen Zhou (The University of Sydney)",
+        "Jungmi Hong (The University of Sydney)",
+        "Jungmi Hong (Queensland University of Technology)",
+        "Rusen Zhou (Queensland University of Technology)",
+        "Renwu Zhou (The University of Sydney)",
+        "Patrick J. Cullen (The University of Sydney)",
+        "Kostya Ostrikov (Queensland University of Technology)"
+      ],
+      "CN": [
+        "Yubin Xian (Huazhong University of Science and Technology)",
+        "Dejiang Zhou (Huazhong University of Science and Technology)",
+        "Xinpei Lu (Huazhong University of Science and Technology)",
+        "Baowang Liu (Huazhong University of Science and Technology)",
+        "Yiyang Li (Huazhong University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2021,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_018.gz",
+      "line_number": 196,
+      "extraction_command": "sed -n '196p' part_018.gz | jq '.title'",
+      "paper_hash": "391c72420001373e"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "AU"
+  },
+  {
+    "paper_id": "https://openalex.org/W1011500093",
+    "doi": "https://doi.org/10.1007/978-94-011-5564-9_6",
+    "title": "Covering plants at night in the winter increased seed yield of transplanted oilseed rape (Brassica napus L. cv. Zheyouyou 2) on a low boron soil",
+    "publication_year": 1997,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "Murdoch University"
+      ],
+      "CN": [
+        "ZheJiang Academy of Agricultural Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "B. Dell (Murdoch University)",
+        "Zhengqian Ye (Murdoch University)",
+        "Longbin Huang (Murdoch University)",
+        "R.W. Bell (Murdoch University)"
+      ],
+      "CN": [
+        "Yuai Yang (ZheJiang Academy of Agricultural Sciences)"
+      ]
+    },
+    "technology_categories": [],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1997,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_018.gz",
+      "line_number": 51,
+      "extraction_command": "sed -n '51p' part_018.gz | jq '.title'",
+      "paper_hash": "53cd58155d95fac4"
+    },
+    "risk_assessment": {
+      "technology_risk": "LOW",
+      "collaboration_risk": "LOW",
+      "overall_risk": "LOW",
+      "strategic_concerns": []
+    },
+    "partner_country": "AU"
+  }
+]

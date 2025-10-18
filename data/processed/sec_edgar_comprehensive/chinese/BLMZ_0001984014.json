@@ -1,0 +1,49 @@
+{
+  "cik": "0001984014",
+  "ticker": "BLMZ",
+  "name": "Harrison Global Holdings Inc.",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:ky"
+  ],
+  "sic": "7819",
+  "sicDescription": "Services-Allied To Motion Picture Production",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "8105031384984",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "TOYO RECORDING 1F, 4-5-19 AKASAKA",
+      "street2": "MINATO-KU",
+      "city": "TOKYO",
+      "stateOrCountry": "NY",
+      "zipCode": "107-0052",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "TOYO RECORDING 1F, 4-5-19 AKASAKA",
+      "street2": "MINATO-KU",
+      "city": "TOKYO",
+      "stateOrCountry": "NY",
+      "zipCode": "107-0052",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-23"
+  },
+  "filings_count": 76
+}

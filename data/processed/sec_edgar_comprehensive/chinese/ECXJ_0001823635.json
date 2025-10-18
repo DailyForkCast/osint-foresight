@@ -1,0 +1,51 @@
+{
+  "cik": "0001823635",
+  "ticker": "ECXJ",
+  "name": "CXJ GROUP CO., Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:hangzhou",
+    "location:zhejiang",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "3714",
+  "sicDescription": "Motor Vehicle Parts & Accessories",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "NV",
+  "ein": "852041913",
+  "phone": "8618668175727",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ROOM 401 4THFLOOR, EAST BLOCK BUILDING 5",
+      "street2": "XINTIANDI BUSINESSCENTERNO7 ANQIAOGANGRD",
+      "city": "GONGSHU, HANGZHOU, ZHEJIANG",
+      "stateOrCountry": "F4",
+      "zipCode": "310017",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "ROOM 401 4THFLOOR, EAST BLOCK BUILDING 5",
+      "street2": "XINTIANDI BUSINESSCENTERNO7 ANQIAOGANGRD",
+      "city": "GONGSHU, HANGZHOU, ZHEJIANG",
+      "stateOrCountry": "F4",
+      "zipCode": "310017",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-K",
+    "date": "2025-09-15"
+  },
+  "filings_count": 76
+}

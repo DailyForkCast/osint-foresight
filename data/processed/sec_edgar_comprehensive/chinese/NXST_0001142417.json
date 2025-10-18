@@ -1,0 +1,47 @@
+{
+  "cik": "0001142417",
+  "ticker": "NXST",
+  "name": "NEXSTAR MEDIA GROUP, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "4833",
+  "sicDescription": "Television Broadcasting Stations",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "233083125",
+  "phone": "972-373-8800",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "545 EAST JOHN CARPENTER FREEWAY",
+      "street2": "SUITE 700",
+      "city": "IRVING",
+      "stateOrCountry": "TX",
+      "zipCode": "75062",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "545 EAST JOHN CARPENTER FREEWAY",
+      "street2": "SUITE 700",
+      "city": "IRVING",
+      "stateOrCountry": "TX",
+      "zipCode": "75062",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-19"
+  },
+  "filings_count": 1000
+}

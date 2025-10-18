@@ -1,0 +1,47 @@
+{
+  "cik": "0002046656",
+  "ticker": "HCHL",
+  "name": "Happy City Holdings Ltd",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "5812",
+  "sicDescription": "Retail-Eating  Places",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "852 9097 6798",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT B, 6/F, BLOCK B",
+      "street2": "GOLDEN DRAGON INDUSTRIAL BUILDING",
+      "city": "KWAI CHUNG, HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "UNIT B, 6/F, BLOCK B",
+      "street2": "GOLDEN DRAGON INDUSTRIAL BUILDING",
+      "city": "KWAI CHUNG, HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-07-11"
+  },
+  "filings_count": 22
+}

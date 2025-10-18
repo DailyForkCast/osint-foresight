@@ -1,0 +1,47 @@
+{
+  "cik": "0001487952",
+  "ticker": "VPG",
+  "name": "Vishay Precision Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3670",
+  "sicDescription": "Electronic Components & Accessories",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "270986328",
+  "phone": "484-321-5300",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3 GREAT VALLEY PARKWAY, SUITE 150",
+      "street2": null,
+      "city": "MALVERN",
+      "stateOrCountry": "PA",
+      "zipCode": "19355",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3 GREAT VALLEY PARKWAY, SUITE 150",
+      "street2": null,
+      "city": "MALVERN",
+      "stateOrCountry": "PA",
+      "zipCode": "19355",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-05"
+  },
+  "filings_count": 701
+}

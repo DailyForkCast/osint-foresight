@@ -1,0 +1,47 @@
+{
+  "cik": "0000873860",
+  "ticker": "ONIT",
+  "name": "ONITY GROUP INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6162",
+  "sicDescription": "Mortgage Bankers & Loan Correspondents",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "FL",
+  "ein": "650039856",
+  "phone": "561-682-8000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1661 WORTHINGTON ROAD",
+      "street2": "SUITE 100",
+      "city": "WEST PALM BEACH",
+      "stateOrCountry": "FL",
+      "zipCode": "33409",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1661 WORTHINGTON ROAD",
+      "street2": "SUITE 100",
+      "city": "WEST PALM BEACH",
+      "stateOrCountry": "FL",
+      "zipCode": "33409",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-05"
+  },
+  "filings_count": 1003
+}

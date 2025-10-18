@@ -1,0 +1,47 @@
+{
+  "cik": "0001867096",
+  "ticker": "XERS",
+  "name": "Xeris Biopharma Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2834",
+  "sicDescription": "Pharmaceutical Preparations",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "871082097",
+  "phone": "844-445-5704",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1375 WEST FULTON STREET, SUITE 1300",
+      "street2": null,
+      "city": "CHICAGO",
+      "stateOrCountry": "IL",
+      "zipCode": "60607",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1375 WEST FULTON STREET, SUITE 1300",
+      "street2": null,
+      "city": "CHICAGO",
+      "stateOrCountry": "IL",
+      "zipCode": "60607",
+      "stateOrCountryDescription": "IL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-07"
+  },
+  "filings_count": 246
+}

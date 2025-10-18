@@ -1,0 +1,44 @@
+{
+  "cik": "0001898496",
+  "ticker": "GETY",
+  "name": "Getty Images Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7389",
+  "sicDescription": "Services-Business Services, NEC",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "(206) 925-5000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "605 5TH AVENUE S.",
+      "street2": "SUITE 400",
+      "city": "SEATTLE",
+      "stateOrCountry": "WA",
+      "zipCode": "98104",
+      "stateOrCountryDescription": "WA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "605 5TH AVENUE S.",
+      "street2": "SUITE 400",
+      "city": "SEATTLE",
+      "stateOrCountry": "WA",
+      "zipCode": "98104",
+      "stateOrCountryDescription": "WA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 636
+}

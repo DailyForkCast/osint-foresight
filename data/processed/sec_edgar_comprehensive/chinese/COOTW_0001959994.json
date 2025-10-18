@@ -1,0 +1,48 @@
+{
+  "cik": "0001959994",
+  "ticker": "COOTW",
+  "name": "Australian Oilseeds Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "2070",
+  "sicDescription": "Fats & Oils",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "02 6942 4347",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "126-142 COWCUMBLA STREET",
+      "street2": null,
+      "city": "COOTAMUNDRA",
+      "stateOrCountry": "C3",
+      "zipCode": "2590",
+      "stateOrCountryDescription": "Australia",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "126-142 COWCUMBLA STREET",
+      "street2": null,
+      "city": "COOTAMUNDRA",
+      "stateOrCountry": "C3",
+      "zipCode": "2590",
+      "stateOrCountryDescription": "Australia",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-28"
+  },
+  "filings_count": 71
+}

@@ -1,0 +1,48 @@
+{
+  "cik": "0001928948",
+  "ticker": "HTCO",
+  "name": "High-Trend International Group",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "4412",
+  "sicDescription": "Deep Sea Foreign Transportation of  Freight",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "(65) 8304 8372",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "60 PAYA LEBAR ROAD",
+      "street2": "#06-17 PAYA LEBAR SQUARE",
+      "city": "SINGAPORE",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Singapore",
+      "countryCode": "U0"
+    },
+    "business": {
+      "street1": "60 PAYA LEBAR ROAD",
+      "street2": "#06-17 PAYA LEBAR SQUARE",
+      "city": "SINGAPORE",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Singapore",
+      "countryCode": "U0"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-28"
+  },
+  "filings_count": 90
+}

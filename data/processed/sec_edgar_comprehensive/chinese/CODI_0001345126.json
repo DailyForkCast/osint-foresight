@@ -1,0 +1,47 @@
+{
+  "cik": "0001345126",
+  "ticker": "CODI",
+  "name": "Compass Diversified Holdings",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2510",
+  "sicDescription": "Household Furniture",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "576218917",
+  "phone": "203-221-1703",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "301 RIVERSIDE AVENUE",
+      "street2": null,
+      "city": "WESTPORT",
+      "stateOrCountry": "CT",
+      "zipCode": "06880",
+      "stateOrCountryDescription": "CT",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "301 RIVERSIDE AVENUE",
+      "street2": null,
+      "city": "WESTPORT",
+      "stateOrCountry": "CT",
+      "zipCode": "06880",
+      "stateOrCountryDescription": "CT",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-10"
+  },
+  "filings_count": 1002
+}

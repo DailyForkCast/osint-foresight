@@ -1,0 +1,4617 @@
+[
+  {
+    "paper_id": "https://openalex.org/W3141623626",
+    "doi": null,
+    "title": "Application of Satellite Navigation Technology to PDA",
+    "publication_year": 2005,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Hanalei Watershed Hui"
+      ],
+      "CN": [
+        "Jiaozuo University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Hu Yong (Hanalei Watershed Hui)"
+      ],
+      "CN": [
+        "Ma Hong (Jiaozuo University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2005,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 161949,
+      "extraction_command": "sed -n '161949p' part_001.gz | jq '.title'",
+      "paper_hash": "63a4cbf88091094d"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2382722657",
+    "doi": null,
+    "title": "Genetic Diversity of Microsatellite Loci in Indigenous Goat Breeds in Shandong Province",
+    "publication_year": 2006,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Hagoromo International University"
+      ],
+      "CN": [
+        "Sanming University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Ma Yue (Hagoromo International University)"
+      ],
+      "CN": [
+        "Jian Wang (Sanming University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2006,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 603320,
+      "extraction_command": "sed -n '603320p' part_000.gz | jq '.title'",
+      "paper_hash": "e66520042958838c"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2921279832",
+    "doi": null,
+    "title": "Hochgenaue regionale Geoidbestimmung durch die Kombination von terrestrischen und Satellitendaten",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Institute of Navigation"
+      ],
+      "CN": [
+        "Institute of Geodesy and Geophysics"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Norbert Kühtreiber (Institute of Navigation)"
+      ],
+      "CN": [
+        "Daniel Rieser (Institute of Geodesy and Geophysics)",
+        "Christian Pock (Institute of Geodesy and Geophysics)",
+        "Torsten Mayer‐Gürr (Institute of Geodesy and Geophysics)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 317742,
+      "extraction_command": "sed -n '317742p' part_001.gz | jq '.title'",
+      "paper_hash": "973a933734d0a237"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W3023351153",
+    "doi": "https://doi.org/10.3390/ecas2016-c001",
+    "title": "A Satellite View of the Atmospheric Dry Intrusion and its Influences on the Mid-Latitude Disastrous Weather",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "NOAA Oceanic and Atmospheric Research"
+      ],
+      "CN": [
+        "China Meteorological Administration"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Yixuan Shou (NOAA Oceanic and Atmospheric Research)"
+      ],
+      "CN": [
+        "Yixuan Shou (China Meteorological Administration)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 437770,
+      "extraction_command": "sed -n '437770p' part_001.gz | jq '.title'",
+      "paper_hash": "0ec2cc36bbffc6c7"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2743532464",
+    "doi": "https://doi.org/10.2991/jimec-17.2017.27",
+    "title": "Integrating Global Open And Satellite-Based Information For Major Disaster Damage Assessment",
+    "publication_year": 2017,
+    "countries_collaborating": [
+      "AT",
+      "CN"
+    ],
+    "institutions": {
+      "AT": [
+        "United Nations Office on Drugs and Crime"
+      ],
+      "CN": [
+        "China National Commission for Disaster Reduction",
+        "Ministry of Civil Affairs"
+      ]
+    },
+    "authors_by_country": {
+      "AT": [
+        "Shirish Ravan (United Nations Office on Drugs and Crime)"
+      ],
+      "CN": [
+        "Yan Cui (China National Commission for Disaster Reduction)",
+        "Haixia He (China National Commission for Disaster Reduction)",
+        "Ming Liu (China National Commission for Disaster Reduction)",
+        "Suju Li (China National Commission for Disaster Reduction)",
+        "Suju Li (Ministry of Civil Affairs)",
+        "Yan Cui (Ministry of Civil Affairs)",
+        "Haixia He (Ministry of Civil Affairs)",
+        "Ming Liu (Ministry of Civil Affairs)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2017,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 161087,
+      "extraction_command": "sed -n '161087p' part_001.gz | jq '.title'",
+      "paper_hash": "49dd7cf0289885a2"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2380761143",
+    "doi": null,
+    "title": "Analysis of Control Coupling and Compensation Decoupling Performance for Spinning Missile",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Carl Albert State College"
+      ],
+      "CN": [
+        "China Aerospace Science and Industry Corporation (China)"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Jia Ba (Carl Albert State College)"
+      ],
+      "CN": [
+        "Jia Ba (China Aerospace Science and Industry Corporation (China))"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 521868,
+      "extraction_command": "sed -n '521868p' part_001.gz | jq '.title'",
+      "paper_hash": "37764d7947265ed6"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2896289613",
+    "doi": null,
+    "title": "Witness Seminar: RAF Bomber Command and the Cuban Missile Crisis, October 1962",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "MK"
+    ],
+    "institutions": {
+      "MK": [
+        "Ministry of Economy"
+      ],
+      "CN": [
+        "International College of Defence Studies"
+      ]
+    },
+    "authors_by_country": {
+      "MK": [
+        "Michael Kandiah (Ministry of Economy)"
+      ],
+      "CN": [
+        "David Jordán (International College of Defence Studies)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 198406,
+      "extraction_command": "sed -n '198406p' part_000.gz | jq '.title'",
+      "paper_hash": "6fc60289b11e393e"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2611745972",
+    "doi": null,
+    "title": "Improvement of the old reductions of irregular satellites using the first publications of the data",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Institut de Mécanique Céleste et de Calcul des Éphémérides"
+      ],
+      "CN": [
+        "Shanghai Astronomical Observatory"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Jean-Eudes Arlot (Institut de Mécanique Céleste et de Calcul des Éphémérides)",
+        "Shan-Na Li (Institut de Mécanique Céleste et de Calcul des Éphémérides)"
+      ],
+      "CN": [
+        "Shan-Na Li (Shanghai Astronomical Observatory)",
+        "Tao Hong (Shanghai Astronomical Observatory)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_003.gz",
+      "line_number": 278338,
+      "extraction_command": "sed -n '278338p' part_003.gz | jq '.title'",
+      "paper_hash": "a3996e1991d9aae0"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2613077654",
+    "doi": null,
+    "title": "Studies of sessile droplet evaporation onboard Chinese Scientific Satellite",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Laboratoire de Mécanique, Modélisation & Procédés Propres"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Paul Gang Chen (Laboratoire de Mécanique, Modélisation & Procédés Propres)",
+        "Xun Chen (Laboratoire de Mécanique, Modélisation & Procédés Propres)"
+      ],
+      "CN": [
+        "Q.S. Liu (Chinese Academy of Sciences)",
+        "Xun Chen (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_003.gz",
+      "line_number": 283937,
+      "extraction_command": "sed -n '283937p' part_003.gz | jq '.title'",
+      "paper_hash": "7007c235398bd4af"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2790431441",
+    "doi": "https://doi.org/10.1017/s1743921317006007",
+    "title": "On-sky verification of the 6-h periodic basic angle variations of the Gaia satellite",
+    "publication_year": 2017,
+    "countries_collaborating": [
+      "CN",
+      "IT"
+    ],
+    "institutions": {
+      "IT": [
+        "Osservatorio Astrofisico di Torino"
+      ],
+      "CN": [
+        "Shanghai Astronomical Observatory"
+      ]
+    },
+    "authors_by_country": {
+      "IT": [
+        "Alberto Vecchiato (Osservatorio Astrofisico di Torino)",
+        "M. Crosta (Osservatorio Astrofisico di Torino)",
+        "S. Liao (Osservatorio Astrofisico di Torino)",
+        "M. G. Lattanzi (Osservatorio Astrofisico di Torino)"
+      ],
+      "CN": [
+        "S. Liao (Shanghai Astronomical Observatory)",
+        "Zhaoxiang Qi (Shanghai Astronomical Observatory)",
+        "Zhenghong Tang (Shanghai Astronomical Observatory)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2017,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_003.gz",
+      "line_number": 516215,
+      "extraction_command": "sed -n '516215p' part_003.gz | jq '.title'",
+      "paper_hash": "b2417b848b5aa281"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2349693956",
+    "doi": null,
+    "title": "Research on Efficacy Evaluation Models of Dual Sources Decoying Anti-radiation Missile",
+    "publication_year": 2006,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "CAO Group (United States)"
+      ],
+      "CN": [
+        "PLA Electronic Engineering Institute"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Xue Ye-fei (CAO Group (United States))"
+      ],
+      "CN": [
+        "Pla Electronic (PLA Electronic Engineering Institute)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2006,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 148514,
+      "extraction_command": "sed -n '148514p' part_001.gz | jq '.title'",
+      "paper_hash": "b2f8a6e89ddb0a43"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2353492882",
+    "doi": null,
+    "title": "Least Squares Support Vector Regression Model Optimized by Genetic Algorithm for Navigation Satellite Clock Error Prediction",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "NL"
+    ],
+    "institutions": {
+      "NL": [
+        "Netherlands Institute for Radio Astronomy"
+      ],
+      "CN": [
+        "Shanghai Astronomical Observatory"
+      ]
+    },
+    "authors_by_country": {
+      "NL": [
+        "Liu Zhi-qian (Netherlands Institute for Radio Astronomy)"
+      ],
+      "CN": [
+        "Liu Zhi-qian (Shanghai Astronomical Observatory)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 158201,
+      "extraction_command": "sed -n '158201p' part_001.gz | jq '.title'",
+      "paper_hash": "13499a57d00eacbc"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2355130304",
+    "doi": null,
+    "title": "Encoding policy based on Beidou communication satellite for improving reliability of data transmission in hydrological telemetry system",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Electric Power Research Institute"
+      ],
+      "CN": [
+        "NARI Group (China)"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Xiong Guangy (Electric Power Research Institute)"
+      ],
+      "CN": [
+        "Xiong Guangy (NARI Group (China))"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 162386,
+      "extraction_command": "sed -n '162386p' part_001.gz | jq '.title'",
+      "paper_hash": "06ba0ac8eed60b16"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2355267308",
+    "doi": null,
+    "title": "Swing Performance Analysis of Rolling Ball Joint Socket Nozzle in a Certain Solid Propellant Rocket Motor",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Carl Albert State College"
+      ],
+      "CN": [
+        "China Aerospace Science and Industry Corporation (China)"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Zhao Yongzhong (Carl Albert State College)"
+      ],
+      "CN": [
+        "Zhao Yongzhong (China Aerospace Science and Industry Corporation (China))"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 162722,
+      "extraction_command": "sed -n '162722p' part_001.gz | jq '.title'",
+      "paper_hash": "e12e1b9a87f93041"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2356903909",
+    "doi": null,
+    "title": "Key Technique and Its Progress in Satellite Laser Ranging at High Repetition Rate",
+    "publication_year": 2007,
+    "countries_collaborating": [
+      "CN",
+      "RU"
+    ],
+    "institutions": {
+      "RU": [
+        "Institute of Metallurgy"
+      ],
+      "CN": [
+        "Automation Research and Design Institute of Metallurgical Industry (China)"
+      ]
+    },
+    "authors_by_country": {
+      "RU": [
+        "Yan Yang (Institute of Metallurgy)"
+      ],
+      "CN": [
+        "Yan Yang (Automation Research and Design Institute of Metallurgical Industry (China))"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2007,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 166851,
+      "extraction_command": "sed -n '166851p' part_001.gz | jq '.title'",
+      "paper_hash": "4a9a56c8dff3e5d7"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2357841151",
+    "doi": null,
+    "title": "An Electronic Reconnaissance Satellites Scheduling Technique Using Combinational Optimization Method",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "NL"
+    ],
+    "institutions": {
+      "NL": [
+        "Netherlands Institute for Radio Astronomy"
+      ],
+      "CN": [
+        "Shanghai Astronomical Observatory"
+      ]
+    },
+    "authors_by_country": {
+      "NL": [
+        "Zhang Zhihen (Netherlands Institute for Radio Astronomy)"
+      ],
+      "CN": [
+        "Zhang Zhihen (Shanghai Astronomical Observatory)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 169183,
+      "extraction_command": "sed -n '169183p' part_001.gz | jq '.title'",
+      "paper_hash": "54b46607232c2e67"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2366135644",
+    "doi": null,
+    "title": "Calculation and Test of Longitude & Latitude in Disseminated Area of GPS Satellite Navigation",
+    "publication_year": 2004,
+    "countries_collaborating": [
+      "CN",
+      "RS"
+    ],
+    "institutions": {
+      "RS": [
+        "Institute of Forestry"
+      ],
+      "CN": [
+        "Yunnan Academy of Forestry"
+      ]
+    },
+    "authors_by_country": {
+      "RS": [
+        "Zhao Ming-zhi (Institute of Forestry)"
+      ],
+      "CN": [
+        "Zhao Ming-zhi (Yunnan Academy of Forestry)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2004,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 189972,
+      "extraction_command": "sed -n '189972p' part_001.gz | jq '.title'",
+      "paper_hash": "b0142efd6b982ddf"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2374071117",
+    "doi": null,
+    "title": "Application of mt DNA and microsatellite markers to distinguish the released or non-released Japanese flounder Paralichthys olivaceus",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Genomics (United Kingdom)"
+      ],
+      "CN": [
+        "Chinese Academy of Fishery Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Tong Aipin (Genomics (United Kingdom))"
+      ],
+      "CN": [
+        "Tong Aipin (Chinese Academy of Fishery Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 209629,
+      "extraction_command": "sed -n '209629p' part_001.gz | jq '.title'",
+      "paper_hash": "a06b2012fc8c823e"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2374744246",
+    "doi": null,
+    "title": "LPV Modelingand Mixed H2/Hinf Design for Missile Autopilot",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Optica"
+      ],
+      "CN": [
+        "AVIC Optronics (China)"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Zhang Wanl (Optica)"
+      ],
+      "CN": [
+        "Zhang Wanl (AVIC Optronics (China))"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 211291,
+      "extraction_command": "sed -n '211291p' part_001.gz | jq '.title'",
+      "paper_hash": "0a4a71635bd68119"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2374902972",
+    "doi": null,
+    "title": "Analysis of Genetic Diversity of Major Tropical Chicken Species of China by Using Microsatellite Markers",
+    "publication_year": 2009,
+    "countries_collaborating": [
+      "CN",
+      "CZ"
+    ],
+    "institutions": {
+      "CZ": [
+        "Institute of Animal Science"
+      ],
+      "CN": [
+        "Chinese Academy of Agricultural Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "CZ": [
+        "MA Yue-hui (Institute of Animal Science)"
+      ],
+      "CN": [
+        "MA Yue-hui (Chinese Academy of Agricultural Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2009,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 211666,
+      "extraction_command": "sed -n '211666p' part_001.gz | jq '.title'",
+      "paper_hash": "d3ac308b7e2714c4"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2386933695",
+    "doi": null,
+    "title": "Polymorphism Research of Microsatellite Loci in Six Local Breeds of Sheep and Goat in Shanxi Province",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "CN",
+      "IN"
+    ],
+    "institutions": {
+      "IN": [
+        "Animal Husbandry & Veterinary"
+      ],
+      "CN": [
+        "Shanxi Academy of Agricultural Sciences",
+        "Animal Science Research Institute"
+      ]
+    },
+    "authors_by_country": {
+      "IN": [
+        "Liang Quan-zhong (Animal Husbandry & Veterinary)"
+      ],
+      "CN": [
+        "Liang Quan-zhong (Animal Science Research Institute)",
+        "Liang Quan-zhong (Shanxi Academy of Agricultural Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 240885,
+      "extraction_command": "sed -n '240885p' part_001.gz | jq '.title'",
+      "paper_hash": "a1f3d27a6ef9117a"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2390145964",
+    "doi": null,
+    "title": "On sterile mitogynogenetic Paralichthys olivaceus:histological observation and microsatellite screening",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Genomics (United Kingdom)"
+      ],
+      "CN": [
+        "Chinese Academy of Fishery Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Xiaoya Zhang (Genomics (United Kingdom))"
+      ],
+      "CN": [
+        "Xiaoya Zhang (Chinese Academy of Fishery Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 248710,
+      "extraction_command": "sed -n '248710p' part_001.gz | jq '.title'",
+      "paper_hash": "eea782583f5875cb"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W3150077624",
+    "doi": null,
+    "title": "Feedback-loop type transmission power control for TDMA satellite communication systems",
+    "publication_year": 1993,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "NTT (United States)"
+      ],
+      "CN": [
+        "Institute of Electrical Engineering"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Hiroshi Kazama (NTT (United States))",
+        "Takeo Atsugi (NTT (United States))"
+      ],
+      "CN": [
+        "Shuzo Kato (Institute of Electrical Engineering)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1993,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_003.gz",
+      "line_number": 233966,
+      "extraction_command": "sed -n '233966p' part_003.gz | jq '.title'",
+      "paper_hash": "03d403bcdf685a03"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W85328673",
+    "doi": null,
+    "title": "LOW C/N MODEM FOR SATELLITE TDMA NETWORK USE.",
+    "publication_year": 1986,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "NTT (United States)"
+      ],
+      "CN": [
+        "Institute of Electrical Engineering"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Mitsuru Seta (NTT (United States))",
+        "Masahiro Umehira (NTT (United States))",
+        "T. Miyo (NTT (United States))"
+      ],
+      "CN": [
+        "Shuzo Kato (Institute of Electrical Engineering)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1986,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_007.gz",
+      "line_number": 501076,
+      "extraction_command": "sed -n '501076p' part_007.gz | jq '.title'",
+      "paper_hash": "3dde9048f673ef29"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1974673472",
+    "doi": "https://doi.org/10.1109/cgncc.2014.7007382",
+    "title": "Optimal two-body satellite path control actuated by Coulomb forces in the Earth-Moon system",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CA",
+      "CN"
+    ],
+    "institutions": {
+      "CA": [
+        "Concordia University"
+      ],
+      "CN": [
+        "Harbin Institute of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "CA": [
+        "Youmin Zhang (Concordia University)",
+        "Jing Huang (Concordia University)"
+      ],
+      "CN": [
+        "Guangfu Ma (Harbin Institute of Technology)",
+        "Gang Liu (Harbin Institute of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 71931,
+      "extraction_command": "sed -n '71931p' part_001.gz | jq '.title'",
+      "paper_hash": "1795b870dcae4817"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2369561313",
+    "doi": null,
+    "title": "Analysis of Accelerometer Mounting Requirement for Satellite Gravity Gradiometry",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "CZ"
+    ],
+    "institutions": {
+      "CZ": [
+        "Czech Academy of Sciences, Institute of Geophysics"
+      ],
+      "CN": [
+        "Huazhong University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "CZ": [
+        "Zhu Zh (Czech Academy of Sciences, Institute of Geophysics)"
+      ],
+      "CN": [
+        "Zhu Zh (Huazhong University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_003.gz",
+      "line_number": 119910,
+      "extraction_command": "sed -n '119910p' part_003.gz | jq '.title'",
+      "paper_hash": "2e0a8927bd668bb2"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2774710029",
+    "doi": "https://doi.org/10.1109/igarss.2017.8127276",
+    "title": "Temporal upscaling of remote sensing instantaneous evapotranspiration estimated at two satellite overpass times",
+    "publication_year": 2017,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Centre National de la Recherche Scientifique",
+        "Laboratoire des Sciences de l'Ingénieur, de l'Informatique et de l'Imagerie"
+      ],
+      "CN": [
+        "University of Chinese Academy of Sciences",
+        "Institute of Geographic Sciences and Natural Resources Research",
+        "Chinese Academy of Agricultural Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Zhao‐Liang Li (Centre National de la Recherche Scientifique)",
+        "Zhao‐Liang Li (Laboratoire des Sciences de l'Ingénieur, de l'Informatique et de l'Imagerie)"
+      ],
+      "CN": [
+        "Hua Wu (Institute of Geographic Sciences and Natural Resources Research)",
+        "Bo‐Hui Tang (Institute of Geographic Sciences and Natural Resources Research)",
+        "Zhao‐Liang Li (Chinese Academy of Agricultural Sciences)",
+        "Ronglin Tang (Institute of Geographic Sciences and Natural Resources Research)",
+        "Tong Wang (University of Chinese Academy of Sciences)",
+        "Ronglin Tang (University of Chinese Academy of Sciences)",
+        "Bo‐Hui Tang (University of Chinese Academy of Sciences)",
+        "Hua Wu (University of Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2017,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_007.gz",
+      "line_number": 220088,
+      "extraction_command": "sed -n '220088p' part_007.gz | jq '.title'",
+      "paper_hash": "27a07164b114c559"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2149145397",
+    "doi": "https://doi.org/10.1109/igarss.1996.516948",
+    "title": "Satellite remote sensing and geographic information system for monitoring morphodynamics of the active Yellow River Delta, China",
+    "publication_year": 2002,
+    "countries_collaborating": [
+      "CN",
+      "NL",
+      "US"
+    ],
+    "institutions": {
+      "NL": [
+        "Utrecht University"
+      ],
+      "US": [
+        "University of Georgia"
+      ],
+      "CN": [
+        "Qingdao Institute of Marine Geology"
+      ]
+    },
+    "authors_by_country": {
+      "NL": [
+        "R. van Zuidam (Utrecht University)"
+      ],
+      "US": [
+        "Xiaojun Yang (University of Georgia)"
+      ],
+      "CN": [
+        "A. Van Gelder (Qingdao Institute of Marine Geology)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2002,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 134194,
+      "extraction_command": "sed -n '134194p' part_000.gz | jq '.title'",
+      "paper_hash": "40b532048970b7a3"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2313279272",
+    "doi": "https://doi.org/10.2514/6.2015-4305",
+    "title": "Beam Cooperation Based Dynamic Channel Assignment Scheme with Interference Threshold for Multi-beam Mobile Satellite Communication Network",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Ibaraki University"
+      ],
+      "CN": [
+        "Tsinghua University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Masahiro Umehira (Ibaraki University)"
+      ],
+      "CN": [
+        "Zhen Gao (Tsinghua University)",
+        "Ming Zhao (Tsinghua University)",
+        "Hang Li (Tsinghua University)",
+        "Jing Wang (Tsinghua University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_004.gz",
+      "line_number": 145711,
+      "extraction_command": "sed -n '145711p' part_004.gz | jq '.title'",
+      "paper_hash": "db77a5cfafc2026d"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2313938909",
+    "doi": "https://doi.org/10.2514/6.2015-0867",
+    "title": "Assessing Nanosatellite Cluster Launch Scenarios",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "IL"
+    ],
+    "institutions": {
+      "IL": [
+        "Technion – Israel Institute of Technology"
+      ],
+      "CN": [
+        "Beihang University"
+      ]
+    },
+    "authors_by_country": {
+      "IL": [
+        "Pini Gurfil (Technion – Israel Institute of Technology)"
+      ],
+      "CN": [
+        "Changxuan Wen (Beihang University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_004.gz",
+      "line_number": 152965,
+      "extraction_command": "sed -n '152965p' part_004.gz | jq '.title'",
+      "paper_hash": "b8db0859bcbbf531"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2366186695",
+    "doi": null,
+    "title": "[The increase in endocytosis of mouse skeletal muscle after denervation and the proliferation of satellite cells].",
+    "publication_year": 1993,
+    "countries_collaborating": [
+      "CN",
+      "CZ"
+    ],
+    "institutions": {
+      "CZ": [
+        "Czech Academy of Sciences, Institute of Physiology"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "CZ": [
+        "Tian Wh (Czech Academy of Sciences, Institute of Physiology)"
+      ],
+      "CN": [
+        "Tian Wh (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1993,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 310129,
+      "extraction_command": "sed -n '310129p' part_005.gz | jq '.title'",
+      "paper_hash": "b302a5160d4e32d5"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2378619007",
+    "doi": null,
+    "title": "Investigation of the optical atmospheric refraction for artificial satellites.",
+    "publication_year": 1974,
+    "countries_collaborating": [
+      "CN",
+      "TW"
+    ],
+    "institutions": {
+      "TW": [
+        "Academia Sinica"
+      ],
+      "CN": [
+        "Purple Mountain Observatory"
+      ]
+    },
+    "authors_by_country": {
+      "TW": [
+        "K. Y. Huang (Academia Sinica)"
+      ],
+      "CN": [
+        "K. Y. Huang (Purple Mountain Observatory)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1974,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 538677,
+      "extraction_command": "sed -n '538677p' part_005.gz | jq '.title'",
+      "paper_hash": "729da9ca103d2e83"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2389476433",
+    "doi": null,
+    "title": "PHOTOMETRIC-STUDY OF MUTUAL PHENOMENA OF GALILEAN SATELLITES",
+    "publication_year": 1978,
+    "countries_collaborating": [
+      "CN",
+      "TW"
+    ],
+    "institutions": {
+      "TW": [
+        "Academia Sinica"
+      ],
+      "CN": [
+        "Purple Mountain Observatory"
+      ]
+    },
+    "authors_by_country": {
+      "TW": [
+        "D. H. Chen (Academia Sinica)"
+      ],
+      "CN": [
+        "D. H. Chen (Purple Mountain Observatory)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1978,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_006.gz",
+      "line_number": 187286,
+      "extraction_command": "sed -n '187286p' part_006.gz | jq '.title'",
+      "paper_hash": "d4719f7fe527e1cc"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2399324281",
+    "doi": null,
+    "title": "[Distinguishing second primary tumors from lung metastasis in patients with postoperative non-small cell lung cancer by microsatellite analysis].",
+    "publication_year": 2007,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Thoracic Surgery Foundation"
+      ],
+      "CN": [
+        "Peking University Cancer Hospital",
+        "Peking University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Charles Lu (Thoracic Surgery Foundation)"
+      ],
+      "CN": [
+        "Jie Wang (Peking University Cancer Hospital)",
+        "Jie Wang (Peking University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2007,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_006.gz",
+      "line_number": 372255,
+      "extraction_command": "sed -n '372255p' part_006.gz | jq '.title'",
+      "paper_hash": "95dccbd27e05c058"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2962056515",
+    "doi": "https://doi.org/10.1088/1742-6596/1237/2/022080",
+    "title": "An Azimuth Frequency Domain NCS Algorithm for Missile-borne SAR",
+    "publication_year": 2019,
+    "countries_collaborating": [
+      "CN",
+      "PL"
+    ],
+    "institutions": {
+      "PL": [
+        "Maksymilian Pluta Institute of Applied Optics"
+      ],
+      "CN": [
+        "Xi'an Shiyou University"
+      ]
+    },
+    "authors_by_country": {
+      "PL": [
+        "Mingxuan Zhang (Maksymilian Pluta Institute of Applied Optics)"
+      ],
+      "CN": [
+        "Yan Zhang (Xi'an Shiyou University)",
+        "Xiaomin Shi (Xi'an Shiyou University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2019,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_010.gz",
+      "line_number": 28036,
+      "extraction_command": "sed -n '28036p' part_010.gz | jq '.title'",
+      "paper_hash": "ad7e6b795cfdd416"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W69885866",
+    "doi": "https://doi.org/10.1007/978-3-642-34203-5_2",
+    "title": "Combining Float Car Data and Multispectral Satellite Images to Extract Road Features and Networks",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University of Nottingham"
+      ],
+      "CN": [
+        "Tongji University"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Xiaolin Meng (University of Nottingham)"
+      ],
+      "CN": [
+        "Zhiwei Jian (Tongji University)",
+        "Chun Liu (Tongji University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_015.gz",
+      "line_number": 61387,
+      "extraction_command": "sed -n '61387p' part_015.gz | jq '.title'",
+      "paper_hash": "2daad7ea1ec0d230"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W88985638",
+    "doi": "https://doi.org/10.1007/978-3-642-24590-9_20",
+    "title": "Miscellaneous Issues: Ancient Structures, Propellant of Solid Rocket, Parts of Rocket and Generator",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CH",
+      "CN"
+    ],
+    "institutions": {
+      "CH": [
+        "École Polytechnique Fédérale de Lausanne"
+      ],
+      "CN": [
+        "Xi'an Jiaotong University"
+      ]
+    },
+    "authors_by_country": {
+      "CH": [
+        "Jianchun Li (École Polytechnique Fédérale de Lausanne)"
+      ],
+      "CN": [
+        "Mao-Hong Yu (Xi'an Jiaotong University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_015.gz",
+      "line_number": 88399,
+      "extraction_command": "sed -n '88399p' part_015.gz | jq '.title'",
+      "paper_hash": "ef2d984445c11a8a"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W89200097",
+    "doi": "https://doi.org/10.2172/4470990",
+    "title": "Progress report, SNAP aerospace nuclear safety program, October--December 1965",
+    "publication_year": 1966,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Westinghouse Electric (United States)"
+      ],
+      "CN": [
+        "Nuclear and Radiation Safety Center"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Robert L. Detterman (Westinghouse Electric (United States))"
+      ],
+      "CN": [
+        "Robert L. Detterman (Nuclear and Radiation Safety Center)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1966,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_015.gz",
+      "line_number": 88798,
+      "extraction_command": "sed -n '88798p' part_015.gz | jq '.title'",
+      "paper_hash": "0b368445199dec15"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2155879027",
+    "doi": "https://doi.org/10.1109/igarss.2008.4780157",
+    "title": "Validation of Multilayered Cloud Properties using A-Train Satellite Measurements",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Langley Research Center",
+        "Science Systems and Applications (United States)"
+      ],
+      "CN": [
+        "Lanzhou University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Yan Chen (Science Systems and Applications (United States))",
+        "Yuhong Yi (Science Systems and Applications (United States))",
+        "Kirk Ayers (Science Systems and Applications (United States))",
+        "Patrick Minnis (Langley Research Center)",
+        "Sunny Sun‐Mack (Science Systems and Applications (United States))"
+      ],
+      "CN": [
+        "Jianping Huang (Lanzhou University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 94365,
+      "extraction_command": "sed -n '94365p' part_000.gz | jq '.title'",
+      "paper_hash": "479ba5472244adfc"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1601843704",
+    "doi": "https://doi.org/10.1109/rams.2015.7105189",
+    "title": "An improved method for mission risk analysis of the satellite ACS",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CA",
+      "CN"
+    ],
+    "institutions": {
+      "CA": [
+        "University of Alberta"
+      ],
+      "CN": [
+        "China Astronaut Research and Training Center"
+      ]
+    },
+    "authors_by_country": {
+      "CA": [
+        "Ming J. Zuo (University of Alberta)"
+      ],
+      "CN": [
+        "Liming Ren (China Astronaut Research and Training Center)",
+        "Fuqiu Li (China Astronaut Research and Training Center)",
+        "Xiaopeng Li (China Astronaut Research and Training Center)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 209343,
+      "extraction_command": "sed -n '209343p' part_000.gz | jq '.title'",
+      "paper_hash": "50c8f93126c167bf"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2095345994",
+    "doi": "https://doi.org/10.1117/12.2068439",
+    "title": "Analysis of satellite-based aerosol optical thickness over China in 2013",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "NOAA National Environmental Satellite Data and Information Service",
+        "University of Maryland, College Park"
+      ],
+      "CN": [
+        "Shandong Jianzhu University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Xi Shao (University of Maryland, College Park)",
+        "Changyong Cao (NOAA National Environmental Satellite Data and Information Service)",
+        "Xi Shao (NOAA National Environmental Satellite Data and Information Service)"
+      ],
+      "CN": [
+        "Fei Meng (Shandong Jianzhu University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 12231,
+      "extraction_command": "sed -n '12231p' part_001.gz | jq '.title'",
+      "paper_hash": "055c77a69165247c"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2109280002",
+    "doi": "https://doi.org/10.1109/vetecf.1999.800283",
+    "title": "Investigation of DBF based co-channel signal separation and suppression for mobile satellite communications",
+    "publication_year": 2003,
+    "countries_collaborating": [
+      "CN",
+      "IE",
+      "US"
+    ],
+    "institutions": {
+      "IE": [
+        "University of Limerick"
+      ],
+      "US": [
+        "Motorola (United States)",
+        "Mansfield University"
+      ],
+      "CN": [
+        "China Institute Of Communications"
+      ]
+    },
+    "authors_by_country": {
+      "IE": [
+        "Mao Jian (University of Limerick)",
+        "Máirtín O’Droma (University of Limerick)"
+      ],
+      "US": [
+        "Guangkun Ji (Mansfield University)",
+        "Guangkun Ji (Motorola (United States))"
+      ],
+      "CN": [
+        "Lijia Ge (China Institute Of Communications)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2003,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 32435,
+      "extraction_command": "sed -n '32435p' part_001.gz | jq '.title'",
+      "paper_hash": "85be7a258d4b0137"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2112929928",
+    "doi": "https://doi.org/10.1109/icon.2000.875822",
+    "title": "Performance evaluation of a reliable broadcast scheme for satellite communications",
+    "publication_year": 2002,
+    "countries_collaborating": [
+      "CN",
+      "SG"
+    ],
+    "institutions": {
+      "SG": [
+        "Nanyang Technological University"
+      ],
+      "CN": [
+        "Huazhong University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "SG": [
+        "Liren Zhang (Nanyang Technological University)",
+        "K. R. Subramanian (Nanyang Technological University)",
+        "Jianhua He (Nanyang Technological University)"
+      ],
+      "CN": [
+        "Dong Donghua (Huazhong University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2002,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 37713,
+      "extraction_command": "sed -n '37713p' part_001.gz | jq '.title'",
+      "paper_hash": "61df368a4ed4a56d"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2156080576",
+    "doi": "https://doi.org/10.1109/igarss.1990.688482",
+    "title": "Satellite Photographic Mapping With Computer Optical Differential Projection Transformation System",
+    "publication_year": 2005,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Indiana State University"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Chengye Mao (Indiana State University)"
+      ],
+      "CN": [
+        "Fuxiang Xia (Chinese Academy of Sciences)",
+        "LI Hui-guo (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2005,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 105210,
+      "extraction_command": "sed -n '105210p' part_001.gz | jq '.title'",
+      "paper_hash": "81a1b2e9a5ca35ee"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4322714080",
+    "doi": "https://doi.org/10.5331/seppyo.76.1_45",
+    "title": "Glacier mass balance in Asian high mountains: Reconsideration of satellite gravimetry estimates",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Kyoto University",
+        "Hokkaido University"
+      ],
+      "CN": [
+        "Institute of Geodesy and Geophysics"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Kosuke Heki (Hokkaido University)",
+        "Koji Matsuo (Kyoto University)"
+      ],
+      "CN": [
+        "Koji Matsuo (Institute of Geodesy and Geophysics)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 47542,
+      "extraction_command": "sed -n '47542p' part_005.gz | jq '.title'",
+      "paper_hash": "7df2c5e5112a0e5a"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2384823155",
+    "doi": null,
+    "title": "Study on Key Technologies of Online Browsing the MICAPS Satellite Nephogram",
+    "publication_year": 2011,
+    "countries_collaborating": [
+      "BG",
+      "CN"
+    ],
+    "institutions": {
+      "BG": [
+        "College of Tourism"
+      ],
+      "CN": [
+        "University of Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "BG": [
+        "Xi Yantao (College of Tourism)"
+      ],
+      "CN": [
+        "Xi Yantao (University of Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2011,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 112768,
+      "extraction_command": "sed -n '112768p' part_001.gz | jq '.title'",
+      "paper_hash": "d39890c92b6e54fc"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2410025062",
+    "doi": "https://doi.org/10.3748/wjg.v3.i2.121",
+    "title": "Relationship between loss of heterozygosity of deleted in colorectal carcinoma gene microsatellites and prognosis of colorectal adenocarcinoma",
+    "publication_year": 2011,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Creative Research Enterprises (United States)"
+      ],
+      "CN": [
+        "Chinese PLA General Hospital",
+        "Academy of Military Medical Sciences",
+        "General Hospital of Jinan Military Command",
+        "West China Medical Center of Sichuan University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Zhiping Wang (Creative Research Enterprises (United States))",
+        "Guanghua Yang (Creative Research Enterprises (United States))",
+        "Yabing Gao (Creative Research Enterprises (United States))",
+        "Po Zhao (Creative Research Enterprises (United States))",
+        "Dewen Wang (Creative Research Enterprises (United States))",
+        "Pingyong Yi (Creative Research Enterprises (United States))",
+        "Xin-Zhao Xu (Creative Research Enterprises (United States))",
+        "Ying-Chuan Yu (Creative Research Enterprises (United States))"
+      ],
+      "CN": [
+        "Guanghua Yang (Chinese PLA General Hospital)",
+        "Zhiping Wang (Academy of Military Medical Sciences)",
+        "Xin-Zhao Xu (Academy of Military Medical Sciences)",
+        "Guanghua Yang (General Hospital of Jinan Military Command)",
+        "Xin-Zhao Xu (Chinese PLA General Hospital)",
+        "Dewen Wang (Chinese PLA General Hospital)",
+        "Xin-Zhao Xu (West China Medical Center of Sichuan University)",
+        "Zhiping Wang (West China Medical Center of Sichuan University)",
+        "Po Zhao (General Hospital of Jinan Military Command)",
+        "Pingyong Yi (West China Medical Center of Sichuan University)",
+        "Yabing Gao (General Hospital of Jinan Military Command)",
+        "Guanghua Yang (West China Medical Center of Sichuan University)",
+        "Dewen Wang (General Hospital of Jinan Military Command)",
+        "Dewen Wang (West China Medical Center of Sichuan University)",
+        "Pingyong Yi (Academy of Military Medical Sciences)",
+        "Ying-Chuan Yu (Academy of Military Medical Sciences)",
+        "Xin-Zhao Xu (General Hospital of Jinan Military Command)",
+        "Pingyong Yi (Chinese PLA General Hospital)",
+        "Zhiping Wang (Chinese PLA General Hospital)",
+        "Ying-Chuan Yu (West China Medical Center of Sichuan University)",
+        "Pingyong Yi (General Hospital of Jinan Military Command)",
+        "Yabing Gao (West China Medical Center of Sichuan University)",
+        "Guanghua Yang (Academy of Military Medical Sciences)",
+        "Dewen Wang (Academy of Military Medical Sciences)",
+        "Po Zhao (West China Medical Center of Sichuan University)",
+        "Ying-Chuan Yu (Chinese PLA General Hospital)",
+        "Zhiping Wang (General Hospital of Jinan Military Command)",
+        "Po Zhao (Chinese PLA General Hospital)",
+        "Yabing Gao (Academy of Military Medical Sciences)",
+        "Ying-Chuan Yu (General Hospital of Jinan Military Command)",
+        "Yabing Gao (Chinese PLA General Hospital)",
+        "Po Zhao (Academy of Military Medical Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2011,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 40224,
+      "extraction_command": "sed -n '40224p' part_000.gz | jq '.title'",
+      "paper_hash": "a6268ad1e89e40b6"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2547168787",
+    "doi": "https://doi.org/10.1109/igarss.2016.7729515",
+    "title": "Water discharge in East Africa from grace, satellite altimetry and Landsat data",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "EG"
+    ],
+    "institutions": {
+      "EG": [
+        "Minia University"
+      ],
+      "CN": [
+        "Shanghai Astronomical Observatory"
+      ]
+    },
+    "authors_by_country": {
+      "EG": [
+        "Ayman A. Hassan (Minia University)"
+      ],
+      "CN": [
+        "Shuanggen Jin (Shanghai Astronomical Observatory)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 18392,
+      "extraction_command": "sed -n '18392p' part_001.gz | jq '.title'",
+      "paper_hash": "1ed8f2e61e2399dd"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2547284859",
+    "doi": "https://doi.org/10.1109/igarss.2016.7729794",
+    "title": "Two-level active learning method for debris detection using VHR satellite imagery and local aerial surveys",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "NL"
+    ],
+    "institutions": {
+      "NL": [
+        "University of Twente"
+      ],
+      "CN": [
+        "Beijing Normal University",
+        "National Administration of Surveying, Mapping and Geoinformation of China",
+        "China University of Mining and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "NL": [
+        "Zhihua Xu (University of Twente)",
+        "Mengmeng Li (University of Twente)",
+        "Claudio Persello (University of Twente)"
+      ],
+      "CN": [
+        "Pengtianhao Wu (National Administration of Surveying, Mapping and Geoinformation of China)",
+        "Lixin Wu (China University of Mining and Technology)",
+        "Zhihua Xu (China University of Mining and Technology)",
+        "Zhihua Xu (Beijing Normal University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 18442,
+      "extraction_command": "sed -n '18442p' part_001.gz | jq '.title'",
+      "paper_hash": "2fccd42d6ca302c1"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W819193410",
+    "doi": null,
+    "title": "Satellite Detection of the Convection Generated Stresses in Earth",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Sigma Space (United States)",
+        "Goddard Space Flight Center"
+      ],
+      "CN": [
+        "Shanghai Astronomical Observatory"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Jiz-Hong Chen (Sigma Space (United States))",
+        "Han‐Shou Liu (Goddard Space Flight Center)"
+      ],
+      "CN": [
+        "Jinling Li (Shanghai Astronomical Observatory)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 25492,
+      "extraction_command": "sed -n '25492p' part_000.gz | jq '.title'",
+      "paper_hash": "5ceff47f7d5e0536"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2797223306",
+    "doi": "https://doi.org/10.7868/s0132342317030198",
+    "title": "CHANGES IN CALPAIN AND CASPASE GENE EXPRESSION AT THE mRNA LEVEL DURING BOVINE MUSCLE SATELLITE CELL MYOGENESIS AND THE CORRELATION BETWEEN THE CELL MODEL AND THE MUSCLE TISSUE, \"Биоорганическая химия\"",
+    "publication_year": 2017,
+    "countries_collaborating": [
+      "CN",
+      "KR"
+    ],
+    "institutions": {
+      "KR": [
+        "Jeonbuk National University"
+      ],
+      "CN": [
+        "Henan University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "KR": [
+        "Shu‐Huei Wang (Jeonbuk National University)"
+      ],
+      "CN": [
+        "W. Wang (Henan University of Science and Technology)",
+        "X. Y. (Henan University of Science and Technology)",
+        "Xiang Yu (Henan University of Science and Technology)",
+        "Y. B. Yang (Henan University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2017,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_002.gz",
+      "line_number": 3920,
+      "extraction_command": "sed -n '3920p' part_002.gz | jq '.title'",
+      "paper_hash": "82cf2cb95540e9a5"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2214138095",
+    "doi": null,
+    "title": "Zeitliche Variationen des Erdschwerefeldes aus Satellitenbeobachtungen - kann die Lucke zwischen GRACE und GFO geschlossen werden?",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "University of Stuttgart"
+      ],
+      "CN": [
+        "Institute of Geodesy and Geophysics"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Matthias Weigelt (University of Stuttgart)"
+      ],
+      "CN": [
+        "Matthias Weigelt (Institute of Geodesy and Geophysics)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 18525,
+      "extraction_command": "sed -n '18525p' part_001.gz | jq '.title'",
+      "paper_hash": "44e8a11d8278e975"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4393756103",
+    "doi": "https://doi.org/10.5281/zenodo.3524766",
+    "title": "The prediction data analyzed in \"Seasonal Arctic sea ice prediction using a newly developed fully coupled regional model with the assimilation of satellite sea ice observations\"",
+    "publication_year": 2019,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University at Albany, State University of New York"
+      ],
+      "CN": [
+        "Sun Yat-sen University",
+        "Tsinghua University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Jiping Liu (University at Albany, State University of New York)"
+      ],
+      "CN": [
+        "Shiming Xu (Tsinghua University)",
+        "Chao‐Yuan Yang (Sun Yat-sen University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2019,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_003.gz",
+      "line_number": 144615,
+      "extraction_command": "sed -n '144615p' part_003.gz | jq '.title'",
+      "paper_hash": "5d6e1822982a4615"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W109352604",
+    "doi": "https://doi.org/10.1007/978-3-642-33663-8_13",
+    "title": "Application of Multicarrier 2-Dimension Spread Spectrum in Aerospace TT&C",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Optica"
+      ],
+      "CN": [
+        "Air Force Engineering University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Wenge Yang (Optica)",
+        "Jinbao Wang (Optica)"
+      ],
+      "CN": [
+        "Dong Liu (Air Force Engineering University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 100269,
+      "extraction_command": "sed -n '100269p' part_000.gz | jq '.title'",
+      "paper_hash": "59508290dc7642fc"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W114914416",
+    "doi": null,
+    "title": "Sensor fault-tolerant observer applied in satellite attitude control",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "Queensland University of Technology"
+      ],
+      "CN": [
+        "Huazhong University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Rui Jiang (Queensland University of Technology)"
+      ],
+      "CN": [
+        "Zhaohui Cen (Huazhong University of Science and Technology)",
+        "Jiaolong Wei (Huazhong University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 105522,
+      "extraction_command": "sed -n '105522p' part_000.gz | jq '.title'",
+      "paper_hash": "772438c52021f7e0"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W118577985",
+    "doi": "https://doi.org/10.1007/978-3-642-25658-5_45",
+    "title": "Trajectory Optimization in Reentry Phase for Hypersonic Gliding Vehicles Using Swarm Intelligence Algorithms",
+    "publication_year": 2011,
+    "countries_collaborating": [
+      "CN",
+      "FI"
+    ],
+    "institutions": {
+      "FI": [
+        "Aalto University"
+      ],
+      "CN": [
+        "Harbin Institute of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "FI": [
+        "Xiaolei Wang (Aalto University)",
+        "Kai Zenger (Aalto University)",
+        "Ying Wu (Aalto University)",
+        "Xiao-Zhi Gao (Aalto University)"
+      ],
+      "CN": [
+        "Xianlin Huang (Harbin Institute of Technology)",
+        "Ying Wu (Harbin Institute of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2011,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 110120,
+      "extraction_command": "sed -n '110120p' part_000.gz | jq '.title'",
+      "paper_hash": "1f56c63401c91fad"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W128709879",
+    "doi": "https://doi.org/10.1109/iceice.2012.27",
+    "title": "A Method to Measure Missile Launching Stage Based on Sinusoidal FMCW Radar",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "CZ"
+    ],
+    "institutions": {
+      "CZ": [
+        "University of Defence"
+      ],
+      "CN": [
+        "National University of Defense Technology"
+      ]
+    },
+    "authors_by_country": {
+      "CZ": [
+        "Shuangxun Li (University of Defence)",
+        "Shengqiang Lou (University of Defence)"
+      ],
+      "CN": [
+        "Pu Cheng (National University of Defense Technology)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 118724,
+      "extraction_command": "sed -n '118724p' part_000.gz | jq '.title'",
+      "paper_hash": "902da70404c946f9"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W140022219",
+    "doi": "https://doi.org/10.1007/978-94-009-0551-1_39",
+    "title": "Real-Time Combination of Radar and Satellite Data for Very-Short-Period Precipitation Forecasting",
+    "publication_year": 1990,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Met Office"
+      ],
+      "CN": [
+        "Institute of Atmospheric Physics"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Richard G. Brown (Met Office)"
+      ],
+      "CN": [
+        "M. Cheng (Institute of Atmospheric Physics)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": null,
+      "year": 1990,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 124841,
+      "extraction_command": "sed -n '124841p' part_000.gz | jq '.title'",
+      "paper_hash": "9691f0f2bd3d4fa6"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2262641613",
+    "doi": "https://doi.org/10.1007/978-3-642-29187-6_36",
+    "title": "Estimation of Compass Satellite Differential Code Biases Using Combined GPS/Compass Observation",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "University of Stuttgart"
+      ],
+      "CN": [
+        "Wuhan University"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Xiaojing Lin (University of Stuttgart)"
+      ],
+      "CN": [
+        "Long Tang (Wuhan University)",
+        "Xiaohong Zhang (Wuhan University)",
+        "Yuyang Chen (Wuhan University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 34165,
+      "extraction_command": "sed -n '34165p' part_001.gz | jq '.title'",
+      "paper_hash": "ced8441073e18b73"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2010144851",
+    "doi": "https://doi.org/10.1109/igarss.2014.6946572",
+    "title": "Application of Hough Forests for the detection of grave mounds in high-resolution satellite imagery",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "Universität Hamburg",
+        "Hamburg Institut (Germany)"
+      ],
+      "CN": [
+        "State Key Laboratory of Information Engineering in Surveying Mapping and Remote Sensing",
+        "International Centre on Space Technologies for Natural and Cultural Heritage"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Gino Caspari (Universität Hamburg)",
+        "Gino Caspari (Hamburg Institut (Germany))"
+      ],
+      "CN": [
+        "Timo Balz (State Key Laboratory of Information Engineering in Surveying Mapping and Remote Sensing)",
+        "Mingsheng Liao (State Key Laboratory of Information Engineering in Surveying Mapping and Remote Sensing)",
+        "Xinyuan Wang (International Centre on Space Technologies for Natural and Cultural Heritage)",
+        "Liu Gang (State Key Laboratory of Information Engineering in Surveying Mapping and Remote Sensing)",
+        "Gino Caspari (State Key Laboratory of Information Engineering in Surveying Mapping and Remote Sensing)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 5453,
+      "extraction_command": "sed -n '5453p' part_000.gz | jq '.title'",
+      "paper_hash": "f8fba93177d78bbb"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1977977550",
+    "doi": "https://doi.org/10.5194/acp-13-5629-2013",
+    "title": "Corrigendum to &amp;quot;Tropospheric NO&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; vertical column densities over Beijing: results of the first three years of ground-based MAX-DOAS measurements (2008–2011) and satellite validation&amp;quot; published in Atmos. Chem. Phys., 13, 1547–1567, 2013",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "Max Planck Institute for Chemistry"
+      ],
+      "CN": [
+        "Chinese Academy of Meteorological Sciences",
+        "Beijing Meteorological Bureau"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Reza Shaiganfar (Max Planck Institute for Chemistry)",
+        "Steffen Beirle (Max Planck Institute for Chemistry)",
+        "Thomas Wagner (Max Planck Institute for Chemistry)"
+      ],
+      "CN": [
+        "Junli Jin (Chinese Academy of Meteorological Sciences)",
+        "Pengcheng Yan (Chinese Academy of Meteorological Sciences)",
+        "Jianzhong Ma (Chinese Academy of Meteorological Sciences)",
+        "Junli Jin (Beijing Meteorological Bureau)",
+        "Pengcheng Yan (Beijing Meteorological Bureau)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 21968,
+      "extraction_command": "sed -n '21968p' part_000.gz | jq '.title'",
+      "paper_hash": "d43929894e3acf9d"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2551751994",
+    "doi": "https://doi.org/10.1109/piers.2016.7734356",
+    "title": "The design of push-broom scanning satellite antenna",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "Queen Mary University of London"
+      ],
+      "CN": [
+        "Beijing University of Posts and Telecommunications"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Xiaohong Chen (Queen Mary University of London)"
+      ],
+      "CN": [
+        "Limei Qi (Beijing University of Posts and Telecommunications)",
+        "Bingbing Qi (Beijing University of Posts and Telecommunications)",
+        "Junsheng Yu (Beijing University of Posts and Telecommunications)",
+        "Xiaoming Liu (Beijing University of Posts and Telecommunications)",
+        "Yuan Yao (Beijing University of Posts and Telecommunications)",
+        "Hai Wang (Beijing University of Posts and Telecommunications)",
+        "Zhijiao Chen (Beijing University of Posts and Telecommunications)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 72412,
+      "extraction_command": "sed -n '72412p' part_000.gz | jq '.title'",
+      "paper_hash": "fc5abf762bfa7ffa"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2929639066",
+    "doi": "https://doi.org/10.14257/ijca.2016.9.2.24",
+    "title": "The Design of Overload Synchronizing Controller Based on the Model of Supersonic Missile’s Feature Points",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Weatherford College"
+      ],
+      "CN": [
+        "Naval Aeronautical and Astronautical University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Yuqiang Jin (Weatherford College)",
+        "Aili Liu (Weatherford College)"
+      ],
+      "CN": [
+        "Junwei Lei (Naval Aeronautical and Astronautical University)",
+        "Jun Peng (Naval Aeronautical and Astronautical University)",
+        "Yuqiang Jin (Naval Aeronautical and Astronautical University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 82667,
+      "extraction_command": "sed -n '82667p' part_000.gz | jq '.title'",
+      "paper_hash": "be7108bda65d05e4"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2960457733",
+    "doi": "https://doi.org/10.1007/978-981-13-3305-7_61",
+    "title": "Theoretical Analysis of Second Mode in Hypersonic Boundary Layer Above Porous Wall",
+    "publication_year": 2019,
+    "countries_collaborating": [
+      "CN",
+      "IT"
+    ],
+    "institutions": {
+      "IT": [
+        "University Niccolò Cusano"
+      ],
+      "CN": [
+        "China Aerodynamics Research and Development Center"
+      ]
+    },
+    "authors_by_country": {
+      "IT": [
+        "Tiziano Pagliaroli (University Niccolò Cusano)"
+      ],
+      "CN": [
+        "Yudong Zhang (China Aerodynamics Research and Development Center)",
+        "Peng Lv (China Aerodynamics Research and Development Center)",
+        "Jian Gong (China Aerodynamics Research and Development Center)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2019,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 91645,
+      "extraction_command": "sed -n '91645p' part_000.gz | jq '.title'",
+      "paper_hash": "17975ba8f6854b07"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2324775677",
+    "doi": "https://doi.org/10.1142/9781860949524_0022",
+    "title": "NUMERICAL SIMULATION OF 2-D REACTING FLOW IN NOZZLE OF LIQUID ROCKET MOTOR",
+    "publication_year": 2002,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "GTx (United States)"
+      ],
+      "CN": [
+        "Horological Research Institute of Light Industry"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Hongfu Qiang (GTx (United States))"
+      ],
+      "CN": [
+        "Hongfu Qiang (Horological Research Institute of Light Industry)",
+        "Xue-li Xia (Horological Research Institute of Light Industry)",
+        "Yang Yuecheng (Horological Research Institute of Light Industry)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2002,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 17199,
+      "extraction_command": "sed -n '17199p' part_000.gz | jq '.title'",
+      "paper_hash": "f4a69dfe5c74fa67"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1424377937",
+    "doi": "https://doi.org/10.4238/2015.august.14.7",
+    "title": "Isolation and characterization of novel polymorphic microsatellite loci in large yellow croaker (Larimichthys crocea)",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Tokyo University of Marine Science and Technology"
+      ],
+      "CN": [
+        "Hunan Agricultural University",
+        "Henan Normal University",
+        "Jimei University"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Takashi Sakamoto (Tokyo University of Marine Science and Technology)"
+      ],
+      "CN": [
+        "Xiao Ma (Hunan Agricultural University)",
+        "Xiao Ma (Henan Normal University)",
+        "X.Q. Wang (Hunan Agricultural University)",
+        "Dan Zeng (Hunan Agricultural University)",
+        "Z.Y. Wang (Jimei University)",
+        "Takashi Sakamoto (Hunan Agricultural University)",
+        "G.B. Lei C.Q. Xiong (Hunan Agricultural University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1115,
+      "extraction_command": "sed -n '1115p' part_000.gz | jq '.title'",
+      "paper_hash": "beef98078562d286"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1608965303",
+    "doi": "https://doi.org/10.1002/9780470061626.shm079",
+    "title": "Global Navigation Satellite Systems (<scp>GNSSs</scp>) for Monitoring Long Suspension Bridges",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University of Nottingham"
+      ],
+      "CN": [
+        "Southeast University"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Xiaolin Meng (University of Nottingham)"
+      ],
+      "CN": [
+        "Wei Huang (Southeast University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 38699,
+      "extraction_command": "sed -n '38699p' part_000.gz | jq '.title'",
+      "paper_hash": "f403ef72f00c5d50"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2099658325",
+    "doi": "https://doi.org/10.1109/glocom.1991.188438",
+    "title": "Transmission of SDH signals through future satellite channels using 16-ary QAM technique",
+    "publication_year": 2002,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "King's College London"
+      ],
+      "CN": [
+        "Institute of Electrical Engineering"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Orhan Gemikonakli (King's College London)",
+        "A.H. Aghvami (King's College London)"
+      ],
+      "CN": [
+        "Shuzo Kato (Institute of Electrical Engineering)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2002,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 64925,
+      "extraction_command": "sed -n '64925p' part_000.gz | jq '.title'",
+      "paper_hash": "98e0dd388c67c6c4"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1967091373",
+    "doi": "https://doi.org/10.1109/isot.2012.6403269",
+    "title": "Superresolution on pico- satellites using object tracking",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "Carl von Ossietzky Universität Oldenburg"
+      ],
+      "CN": [
+        "Zhejiang University"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Christian Dahmen (Carl von Ossietzky Universität Oldenburg)",
+        "Bernd Zeischke (Carl von Ossietzky Universität Oldenburg)",
+        "Sergej Fatikow (Carl von Ossietzky Universität Oldenburg)"
+      ],
+      "CN": [
+        "Honghao Wang (Zhejiang University)",
+        "Huiquan Wang (Zhejiang University)",
+        "Zhonghe Jin (Zhejiang University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 4831,
+      "extraction_command": "sed -n '4831p' part_000.gz | jq '.title'",
+      "paper_hash": "de187aee44b09fe5"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2126052470",
+    "doi": "https://doi.org/10.1111/j.1365-2966.2007.11902.x",
+    "title": "The alignment between satellites and central galaxies: theory versus observations",
+    "publication_year": 2007,
+    "countries_collaborating": [
+      "CN",
+      "DE",
+      "GB",
+      "US"
+    ],
+    "institutions": {
+      "GB": [
+        "SKA Observatory",
+        "University of Manchester",
+        "University of Oxford"
+      ],
+      "DE": [
+        "Max Planck Institute for Astrophysics",
+        "Max Planck Society",
+        "Max Planck Institute for Astronomy"
+      ],
+      "US": [
+        "University of Massachusetts Amherst"
+      ],
+      "CN": [
+        "Shanghai Astronomical Observatory"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Xi Kang (University of Oxford)",
+        "Shude Mao (University of Manchester)",
+        "Shude Mao (SKA Observatory)"
+      ],
+      "DE": [
+        "Frank C. van den Bosch (Max Planck Institute for Astronomy)",
+        "Cheng Li (Max Planck Society)",
+        "Cheng Li (Max Planck Institute for Astrophysics)",
+        "Xi Kang (Max Planck Institute for Astronomy)"
+      ],
+      "US": [
+        "H. J. Mo (University of Massachusetts Amherst)"
+      ],
+      "CN": [
+        "Xiaohu Yang (Shanghai Astronomical Observatory)",
+        "Y. P. Jing (Shanghai Astronomical Observatory)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2007,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 4555,
+      "extraction_command": "sed -n '4555p' part_000.gz | jq '.title'",
+      "paper_hash": "3cb5effd679f64a1"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2069685156",
+    "doi": "https://doi.org/10.1111/j.1365-2966.2008.14095.x",
+    "title": "Satellite kinematics - II. The halo mass-luminosity relation of central galaxies in SDSS",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "DE",
+      "US"
+    ],
+    "institutions": {
+      "DE": [
+        "Max Planck Institute for Astronomy"
+      ],
+      "US": [
+        "University of Massachusetts Amherst"
+      ],
+      "CN": [
+        "Shanghai Astronomical Observatory",
+        "Peking University"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Frank C. van den Bosch (Max Planck Institute for Astronomy)",
+        "Marcello Cacciato (Max Planck Institute for Astronomy)",
+        "Surhud More (Max Planck Institute for Astronomy)"
+      ],
+      "US": [
+        "Ran Li (University of Massachusetts Amherst)",
+        "H. J. Mo (University of Massachusetts Amherst)"
+      ],
+      "CN": [
+        "Xiaohu Yang (Shanghai Astronomical Observatory)",
+        "Ran Li (Peking University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1129,
+      "extraction_command": "sed -n '1129p' part_000.gz | jq '.title'",
+      "paper_hash": "b5d2749739536e1c"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2950914466",
+    "doi": "https://doi.org/10.48550/arxiv.1811.12114",
+    "title": "A Mixed Integer Linear Programming Model for Multi-Satellite Scheduling",
+    "publication_year": 2018,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "Heidelberg University"
+      ],
+      "CN": [
+        "China University of Geosciences"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Gerhard Reinelt (Heidelberg University)",
+        "Xiaoyu Chen (Heidelberg University)",
+        "Andreas Spitz (Heidelberg University)"
+      ],
+      "CN": [
+        "Xiaoyu Chen (China University of Geosciences)",
+        "Guangming Dai (China University of Geosciences)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2018,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 16033,
+      "extraction_command": "sed -n '16033p' part_001.gz | jq '.title'",
+      "paper_hash": "422c625b2e41989a"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1562097577",
+    "doi": "https://doi.org/10.1038/74238",
+    "title": "The direction of microsatellite mutations is dependent upon allele length",
+    "publication_year": 2000,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Boston University",
+        "Harvard University"
+      ],
+      "CN": [
+        "Anhui Medical University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Xiping Xu (Boston University)",
+        "Xin Xu (Harvard University)",
+        "Xiping Xu (Harvard University)",
+        "Mei Peng (Boston University)",
+        "Xin Xu (Boston University)",
+        "Mei Peng (Harvard University)"
+      ],
+      "CN": [
+        "Xiping Xu (Anhui Medical University)",
+        "Zhian Fang (Anhui Medical University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2000,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 862,
+      "extraction_command": "sed -n '862p' part_000.gz | jq '.title'",
+      "paper_hash": "1bd8bd8877731af6"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2165205212",
+    "doi": "https://doi.org/10.1111/j.1755-0998.2009.02750.x",
+    "title": "Rapid identification of thousands of copperhead snake (<i>Agkistrodon contortrix</i>) microsatellite loci from modest amounts of 454 shotgun genome sequence",
+    "publication_year": 2009,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "University of Central Florida",
+        "The University of Texas at Arlington"
+      ],
+      "CN": [
+        "Southeast University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Eric N. Smith (The University of Texas at Arlington)",
+        "Juan M. Daza (University of Central Florida)"
+      ],
+      "CN": [
+        "Wanjun Gu (Southeast University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2009,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 2817,
+      "extraction_command": "sed -n '2817p' part_000.gz | jq '.title'",
+      "paper_hash": "4461cba7e6f21257"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1980538347",
+    "doi": "https://doi.org/10.1109/agro-geoinformatics.2014.6910593",
+    "title": "Satellite remote sensing experiment on rotational effect of bean in rotation of rice and bean",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Agricultural & Applied Economics Association"
+      ],
+      "CN": [
+        "Naval University of Engineering"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Ling Sun (Agricultural & Applied Economics Association)"
+      ],
+      "CN": [
+        "Zesheng Zhu (Naval University of Engineering)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 5739,
+      "extraction_command": "sed -n '5739p' part_000.gz | jq '.title'",
+      "paper_hash": "557c785b61666fcf"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4243932492",
+    "doi": "https://doi.org/10.5194/acp-2020-639-supplement",
+    "title": "Supplementary material to &amp;quot;Analysis of atmospheric ammonia over South and East Asia based on the MOZART-4 model and its comparison with satellite and surface observations&amp;quot;",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "BE",
+      "CN",
+      "GB",
+      "IN"
+    ],
+    "institutions": {
+      "BE": [
+        "Université Libre de Bruxelles"
+      ],
+      "GB": [
+        "UK Centre for Ecology & Hydrology",
+        "University of Edinburgh"
+      ],
+      "IN": [
+        "Indian Institute of Tropical Meteorology",
+        "Centre for Development of Advanced Computing",
+        "India Meteorological Department",
+        "KIIT University"
+      ],
+      "CN": [
+        "China Agricultural University"
+      ]
+    },
+    "authors_by_country": {
+      "BE": [
+        "Pierre‐François Coheur (Université Libre de Bruxelles)",
+        "Lieven Clarisse (Université Libre de Bruxelles)",
+        "Martin Van Damme (Université Libre de Bruxelles)"
+      ],
+      "GB": [
+        "Jize Jiang (University of Edinburgh)",
+        "Andrea Móring (UK Centre for Ecology & Hydrology)",
+        "Mark A. Sutton (UK Centre for Ecology & Hydrology)",
+        "Andrea Móring (University of Edinburgh)"
+      ],
+      "IN": [
+        "Chinmay Jena (Indian Institute of Tropical Meteorology)",
+        "Pooja V. Pawar (Indian Institute of Tropical Meteorology)",
+        "Tapan Kumar Adhya (KIIT University)",
+        "Santosh Kulkarni (Centre for Development of Advanced Computing)",
+        "D. M. Lal (Indian Institute of Tropical Meteorology)",
+        "Divya E. Surendran (India Meteorological Department)",
+        "Sachin D. Ghude (Indian Institute of Tropical Meteorology)"
+      ],
+      "CN": [
+        "Jize Jiang (China Agricultural University)",
+        "Xuejun Liu (China Agricultural University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1052,
+      "extraction_command": "sed -n '1052p' part_000.gz | jq '.title'",
+      "paper_hash": "b10586fb719ba2e4"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4248896656",
+    "doi": "https://doi.org/10.5194/acp-2020-639",
+    "title": "Analysis of atmospheric ammonia over South and East Asia based on the MOZART-4 model and its comparison with satellite and surface observations",
+    "publication_year": 2020,
+    "countries_collaborating": [
+      "BE",
+      "CN",
+      "GB",
+      "IN"
+    ],
+    "institutions": {
+      "BE": [
+        "Université Libre de Bruxelles"
+      ],
+      "GB": [
+        "UK Centre for Ecology & Hydrology",
+        "University of Edinburgh"
+      ],
+      "IN": [
+        "Indian Institute of Tropical Meteorology",
+        "Centre for Development of Advanced Computing",
+        "India Meteorological Department",
+        "KIIT University"
+      ],
+      "CN": [
+        "China Agricultural University"
+      ]
+    },
+    "authors_by_country": {
+      "BE": [
+        "Pierre‐François Coheur (Université Libre de Bruxelles)",
+        "Lieven Clarisse (Université Libre de Bruxelles)",
+        "Martin Van Damme (Université Libre de Bruxelles)"
+      ],
+      "GB": [
+        "Jize Jiang (University of Edinburgh)",
+        "Andrea Móring (UK Centre for Ecology & Hydrology)",
+        "Mark A. Sutton (UK Centre for Ecology & Hydrology)",
+        "Andrea Móring (University of Edinburgh)"
+      ],
+      "IN": [
+        "Chinmay Jena (Indian Institute of Tropical Meteorology)",
+        "Pooja V. Pawar (Indian Institute of Tropical Meteorology)",
+        "Tapan Kumar Adhya (KIIT University)",
+        "Santosh Kulkarni (Centre for Development of Advanced Computing)",
+        "D. M. Lal (Indian Institute of Tropical Meteorology)",
+        "Divya E. Surendran (India Meteorological Department)",
+        "Sachin D. Ghude (Indian Institute of Tropical Meteorology)"
+      ],
+      "CN": [
+        "Jize Jiang (China Agricultural University)",
+        "Xuejun Liu (China Agricultural University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "trade_war_2020_2021",
+      "year": 2020,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1240,
+      "extraction_command": "sed -n '1240p' part_000.gz | jq '.title'",
+      "paper_hash": "8280ce5666b11cd4"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4254979083",
+    "doi": "https://doi.org/10.5194/acp-2017-106-supplement",
+    "title": "Supplementary material to &amp;quot;Temporal characteristics of atmospheric ammonia and nitrogen dioxide over China based on emission data, satellite observations and atmospheric transport modeling since 1980&amp;quot;",
+    "publication_year": 2017,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Oregon Department of Environmental Quality"
+      ],
+      "CN": [
+        "Nanjing University",
+        "China Agricultural University",
+        "Jiangsu Center for Collaborative Innovation in Geographical Information Resource Development and Application"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Yi Li (Oregon Department of Environmental Quality)"
+      ],
+      "CN": [
+        "Wuting Zhang (Nanjing University)",
+        "Xuehe Lu (Nanjing University)",
+        "Xuejun Liu (China Agricultural University)",
+        "Wen Xu (China Agricultural University)",
+        "Lei Liu (Nanjing University)",
+        "Xiuying Zhang (Nanjing University)",
+        "Yuehan Zhang (Nanjing University)",
+        "Wuting Zhang (Jiangsu Center for Collaborative Innovation in Geographical Information Resource Development and Application)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2017,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1434,
+      "extraction_command": "sed -n '1434p' part_000.gz | jq '.title'",
+      "paper_hash": "21910388c3d9c255"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W103073312",
+    "doi": "https://doi.org/10.1007/978-3-642-34289-9_26",
+    "title": "Twisted Helical Antenna for Satellite-Mobile Handset Using Dynamic Multi-objective Self-adapting Differential Evolution Algorithm",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University of Surrey"
+      ],
+      "CN": [
+        "China Academy of Space Technology",
+        "China University of Geosciences"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Steven Gao (University of Surrey)"
+      ],
+      "CN": [
+        "Hongyong Jing (China Academy of Space Technology)",
+        "Zhu Liu (China University of Geosciences)",
+        "Sanyou Zeng (China University of Geosciences)",
+        "Zhengjun Li (China Academy of Space Technology)",
+        "Lian Zhang (China University of Geosciences)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_007.gz",
+      "line_number": 2005,
+      "extraction_command": "sed -n '2005p' part_007.gz | jq '.title'",
+      "paper_hash": "ce56ef16cce67a28"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W134898299",
+    "doi": "https://doi.org/10.1007/978-3-642-37829-4_56",
+    "title": "Dynamic Surface Control of Hypersonic Aircraft with Parameter Estimation",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "DE"
+    ],
+    "institutions": {
+      "DE": [
+        "Freie Universität Berlin"
+      ],
+      "CN": [
+        "Northwestern Polytechnical University",
+        "Tsinghua University"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Hao Wu (Freie Universität Berlin)"
+      ],
+      "CN": [
+        "Bin Xu (Northwestern Polytechnical University)",
+        "Shixing Wang (Tsinghua University)",
+        "Fuchun Sun (Tsinghua University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_018.gz",
+      "line_number": 8366,
+      "extraction_command": "sed -n '8366p' part_018.gz | jq '.title'",
+      "paper_hash": "927511a1c4afd06c"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2329697339",
+    "doi": "https://doi.org/10.1080/14620316.2010.11512708",
+    "title": "Development of new microsatellite markers for molecular diversity analysis of<i>Citrus</i>species",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "CN",
+      "IN",
+      "KR"
+    ],
+    "institutions": {
+      "KR": [
+        "National Institute of Agricultural Science and Technology",
+        "Kongju National University"
+      ],
+      "IN": [
+        "Sardar Vallabhbhai Patel University of Agriculture & Technology"
+      ],
+      "CN": [
+        "Chinese Academy of Agricultural Sciences",
+        "Sericultural Research Institute",
+        "Jiangsu University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "KR": [
+        "M.C. Lee (National Institute of Agricultural Science and Technology)",
+        "Anupam Dixit (Kongju National University)",
+        "Gi‐An Lee (National Institute of Agricultural Science and Technology)",
+        "D.H. Lee (National Institute of Agricultural Science and Technology)",
+        "Jong‐Wook Chung (Kongju National University)",
+        "Yong‐Jin Park (Kongju National University)",
+        "C.H. Kim (Kongju National University)",
+        "Wei Zhao (Kongju National University)",
+        "Kyung‐Ho Ma (National Institute of Agricultural Science and Technology)",
+        "Jae Gyun Gwag (National Institute of Agricultural Science and Technology)"
+      ],
+      "IN": [
+        "Anupam Dixit (Sardar Vallabhbhai Patel University of Agriculture & Technology)"
+      ],
+      "CN": [
+        "Wei Zhao (Jiangsu University of Science and Technology)",
+        "Wei Zhao (Chinese Academy of Agricultural Sciences)",
+        "Wei Zhao (Sericultural Research Institute)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_018.gz",
+      "line_number": 259,
+      "extraction_command": "sed -n '259p' part_018.gz | jq '.title'",
+      "paper_hash": "6d103b1f86bff7fc"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2081168022",
+    "doi": "https://doi.org/10.2514/2.3959",
+    "title": "Imagery Payload Design for Passive Magnetically Stabilized Microsatellite",
+    "publication_year": 2003,
+    "countries_collaborating": [
+      "CN",
+      "TW"
+    ],
+    "institutions": {
+      "TW": [
+        "Tamkang University",
+        "National Central University"
+      ],
+      "CN": [
+        "Huawei Technologies (China)"
+      ]
+    },
+    "authors_by_country": {
+      "TW": [
+        "Chung‐Hsien Lin (National Central University)",
+        "Zuu‐Chang Hong (Tamkang University)"
+      ],
+      "CN": [
+        "Huan-Jung Lin (Huawei Technologies (China))"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2003,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_024.gz",
+      "line_number": 3672,
+      "extraction_command": "sed -n '3672p' part_024.gz | jq '.title'",
+      "paper_hash": "849597c04588075b"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2024685844",
+    "doi": "https://doi.org/10.1088/0256-307x/25/12/084",
+    "title": "Physical Explanation on Designing Three Axes as Different Resolution Indexes from GRACE Satellite-Borne Accelerometer",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "JP"
+    ],
+    "institutions": {
+      "JP": [
+        "Kyoto University"
+      ],
+      "CN": [
+        "Institute of Geodesy and Geophysics",
+        "Chinese Academy of Sciences",
+        "Wuhan University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "JP": [
+        "Wei Zheng (Kyoto University)"
+      ],
+      "CN": [
+        "Meijuan Yun (Wuhan University of Science and Technology)",
+        "Houze Xu (Institute of Geodesy and Geophysics)",
+        "Min Zhong (Institute of Geodesy and Geophysics)",
+        "Wei Zheng (Chinese Academy of Sciences)",
+        "Houze Xu (Chinese Academy of Sciences)",
+        "Wei Zheng (Institute of Geodesy and Geophysics)",
+        "Min Zhong (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_010.gz",
+      "line_number": 2692,
+      "extraction_command": "sed -n '2692p' part_010.gz | jq '.title'",
+      "paper_hash": "982a1924665d0942"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2143746473",
+    "doi": "https://doi.org/10.1088/0004-6256/136/5/2214",
+    "title": "CCD POSITIONS OF SATURN AND ITS MAJOR SATELLITES FROM 2002-2006",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Institut de Mécanique Céleste et de Calcul des Éphémérides",
+        "Centre National de la Recherche Scientifique",
+        "Université de Lille"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences",
+        "Yunnan Observatories",
+        "Jinan University"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "A. Vienne (Université de Lille)",
+        "Q. Y. Peng (Institut de Mécanique Céleste et de Calcul des Éphémérides)",
+        "J. Desmars (Centre National de la Recherche Scientifique)",
+        "Q. Y. Peng (Centre National de la Recherche Scientifique)",
+        "J. Desmars (Institut de Mécanique Céleste et de Calcul des Éphémérides)",
+        "A. Vienne (Centre National de la Recherche Scientifique)",
+        "J. Desmars (Université de Lille)",
+        "Q. Y. Peng (Université de Lille)",
+        "A. Vienne (Institut de Mécanique Céleste et de Calcul des Éphémérides)"
+      ],
+      "CN": [
+        "J. Desmars (Jinan University)",
+        "Q. Y. Peng (Chinese Academy of Sciences)",
+        "A. Vienne (Jinan University)",
+        "Q. Y. Peng (Yunnan Observatories)",
+        "Q. Y. Peng (Jinan University)",
+        "X. P. Wu (Jinan University)",
+        "L. Gan (Jinan University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_012.gz",
+      "line_number": 403,
+      "extraction_command": "sed -n '403p' part_012.gz | jq '.title'",
+      "paper_hash": "62765f1a43824fff"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2080565419",
+    "doi": "https://doi.org/10.1109/icca.2013.6565016",
+    "title": "Reference tracking control of hypersonic vehicles using switched linear parameter-varying approach",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "AU",
+      "CN",
+      "GB",
+      "NO"
+    ],
+    "institutions": {
+      "GB": [
+        "University of South Wales"
+      ],
+      "NO": [
+        "University of Agder"
+      ],
+      "AU": [
+        "Victoria University",
+        "University of South Australia"
+      ],
+      "CN": [
+        "Harbin Institute of Technology",
+        "Heilongjiang Institute of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Peng Shi (University of South Wales)"
+      ],
+      "NO": [
+        "Qiugang Lu (University of Agder)",
+        "Hamid Reza Karimi (University of Agder)"
+      ],
+      "AU": [
+        "Peng Shi (University of South Australia)",
+        "Peng Shi (Victoria University)"
+      ],
+      "CN": [
+        "Lixian Zhang (Heilongjiang Institute of Technology)",
+        "Lixian Zhang (Harbin Institute of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_022.gz",
+      "line_number": 10529,
+      "extraction_command": "sed -n '10529p' part_022.gz | jq '.title'",
+      "paper_hash": "5b9f1c23e8a2ced2"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2173496098",
+    "doi": "https://doi.org/10.1007/978-3-662-45931-7_12",
+    "title": "A New Approach to Satellite Time-series Co-registration for Landslide Monitoring",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "IT"
+    ],
+    "institutions": {
+      "IT": [
+        "Politecnico di Milano"
+      ],
+      "CN": [
+        "Tongji University"
+      ]
+    },
+    "authors_by_country": {
+      "IT": [
+        "Marco Gianinetto (Politecnico di Milano)",
+        "Luigi Barazzetti (Politecnico di Milano)"
+      ],
+      "CN": [
+        "Marco Scaioni (Tongji University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_016.gz",
+      "line_number": 1201,
+      "extraction_command": "sed -n '1201p' part_016.gz | jq '.title'",
+      "paper_hash": "a7d149e6c5c5c2d5"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1968194167",
+    "doi": "https://doi.org/10.1007/s12686-013-0106-3",
+    "title": "Development and characterization of 20 polymorphic microsatellite loci for the Lhasa schizothoracin Schizothorax waltoni",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "NZ"
+    ],
+    "institutions": {
+      "NZ": [
+        "Victoria University of Wellington"
+      ],
+      "CN": [
+        "Huazhong Agricultural University",
+        "Chinese Academy of Fishery Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "NZ": [
+        "Jonathan P. A. Gardner (Victoria University of Wellington)"
+      ],
+      "CN": [
+        "Kai-Jian Wei (Huazhong Agricultural University)",
+        "Xiang-Zhao Guo (Huazhong Agricultural University)",
+        "Qiwei Wei (Chinese Academy of Fishery Sciences)",
+        "Ruibin Yang (Huazhong Agricultural University)",
+        "Jonathan P. A. Gardner (Huazhong Agricultural University)",
+        "Wei Ji (Huazhong Agricultural University)",
+        "Guirong Zhang (Huazhong Agricultural University)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_021.gz",
+      "line_number": 8014,
+      "extraction_command": "sed -n '8014p' part_021.gz | jq '.title'",
+      "paper_hash": "c4dbe197752cecd9"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2060851037",
+    "doi": "https://doi.org/10.2514/6.2008-1153",
+    "title": "Surface-Pressure Measurements of Second-Mode Instability in Quiet Hypersonic Flow",
+    "publication_year": 2008,
+    "countries_collaborating": [
+      "CN",
+      "DE",
+      "US"
+    ],
+    "institutions": {
+      "DE": [
+        "Technische Universität Braunschweig"
+      ],
+      "US": [
+        "University of Minnesota System",
+        "Purdue University West Lafayette"
+      ],
+      "CN": [
+        "China Aerodynamics Research and Development Center"
+      ]
+    },
+    "authors_by_country": {
+      "DE": [
+        "Rolf Radespiel (Technische Universität Braunschweig)",
+        "Malte Estorf (Technische Universität Braunschweig)"
+      ],
+      "US": [
+        "Steven P. Schneider (Purdue University West Lafayette)",
+        "Heath Johnson (University of Minnesota System)"
+      ],
+      "CN": [
+        "Stefan Hein (China Aerodynamics Research and Development Center)"
+      ]
+    },
+    "technology_categories": [
+      "aerospace"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2008,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 771,
+      "extraction_command": "sed -n '771p' part_001.gz | jq '.title'",
+      "paper_hash": "62dfaf6b75f1ca38"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  }
+]

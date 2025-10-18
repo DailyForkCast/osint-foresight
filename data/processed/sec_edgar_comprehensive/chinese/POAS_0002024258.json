@@ -1,0 +1,47 @@
+{
+  "cik": "0002024258",
+  "ticker": "POAS",
+  "name": "Phaos Technology (Cayman) Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman"
+  ],
+  "sic": "3823",
+  "sicDescription": "Industrial Instruments For Measurement, Display, and Control",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "U0",
+  "ein": "000000000",
+  "phone": "65 6250 3877",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "83 SCIENCE PARK DR, #02-01 & #04-01A/B",
+      "street2": "THE CURIE, SINGAPORE SCIENCE PARK 1",
+      "city": "SINGAPORE",
+      "stateOrCountry": "U0",
+      "zipCode": "118258",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "83 SCIENCE PARK DR, #02-01 & #04-01A/B",
+      "street2": "THE CURIE, SINGAPORE SCIENCE PARK 1",
+      "city": "SINGAPORE",
+      "stateOrCountry": "U0",
+      "zipCode": "118258",
+      "stateOrCountryDescription": "Singapore",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "20-F",
+    "date": "2025-09-18"
+  },
+  "filings_count": 13
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0001113169",
+  "ticker": "TROW",
+  "name": "PRICE T ROWE GROUP INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6282",
+  "sicDescription": "Investment Advice",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "MD",
+  "ein": "522264646",
+  "phone": "4103452000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "HARBOR POINT",
+      "street2": "1307 POINT STREET",
+      "city": "BALTIMORE",
+      "stateOrCountry": "MD",
+      "zipCode": "21231",
+      "stateOrCountryDescription": "MD",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "HARBOR POINT",
+      "street2": "1307 POINT STREET",
+      "city": "BALTIMORE",
+      "stateOrCountry": "MD",
+      "zipCode": "21231",
+      "stateOrCountryDescription": "MD",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-04"
+  },
+  "filings_count": 1000
+}

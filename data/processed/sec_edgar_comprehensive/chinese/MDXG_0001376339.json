@@ -1,0 +1,47 @@
+{
+  "cik": "0001376339",
+  "ticker": "MDXG",
+  "name": "MIMEDX GROUP, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3841",
+  "sicDescription": "Surgical & Medical Instruments & Apparatus",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "262792552",
+  "phone": "(770) 651-9100",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1775 W OAK COMMONS COURT, NE",
+      "street2": null,
+      "city": "MARIETTA",
+      "stateOrCountry": "GA",
+      "zipCode": "30062",
+      "stateOrCountryDescription": "GA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1775 W OAK COMMONS COURT, NE",
+      "street2": null,
+      "city": "MARIETTA",
+      "stateOrCountry": "GA",
+      "zipCode": "30062",
+      "stateOrCountryDescription": "GA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-03"
+  },
+  "filings_count": 1000
+}

@@ -1,0 +1,50 @@
+{
+  "cik": "0001929783",
+  "ticker": "WOK",
+  "name": "WORK Medical Technology Group LTD",
+  "detection_reasons": [
+    "location:china",
+    "location:hangzhou",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "3841",
+  "sicDescription": "Surgical & Medical Instruments & Apparatus",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "F4",
+  "ein": "000000000",
+  "phone": "86-0571-82613568",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "BUILDING 23, NO. 2 TONGHUINAN RD.",
+      "street2": "XIAOSHAN DISTRICT",
+      "city": "HANGZHOU",
+      "stateOrCountry": null,
+      "zipCode": "311200",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "BUILDING 23, NO. 2 TONGHUINAN RD.",
+      "street2": "XIAOSHAN DISTRICT",
+      "city": "HANGZHOU",
+      "stateOrCountry": null,
+      "zipCode": "311200",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-12"
+  },
+  "filings_count": 89
+}

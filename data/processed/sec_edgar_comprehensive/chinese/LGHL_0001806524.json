@@ -1,0 +1,48 @@
+{
+  "cik": "0001806524",
+  "ticker": "LGHL",
+  "name": "Lion Group Holding Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "6211",
+  "sicDescription": "Security Brokers, Dealers & Flotation Companies",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "65 8877 3871",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "10 UBI CRESCENT, #06-51 (OFFICE 12)",
+      "street2": "UBI TECHPARK, LOBBY C",
+      "city": "SINGAPORE",
+      "stateOrCountry": null,
+      "zipCode": "408574",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Singapore",
+      "countryCode": "U0"
+    },
+    "business": {
+      "street1": "10 UBI CRESCENT, #06-51 (OFFICE 12)",
+      "street2": "UBI TECHPARK, LOBBY C",
+      "city": "SINGAPORE",
+      "stateOrCountry": null,
+      "zipCode": "408574",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Singapore",
+      "countryCode": "U0"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-11"
+  },
+  "filings_count": 186
+}

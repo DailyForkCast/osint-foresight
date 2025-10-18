@@ -1,0 +1,44 @@
+{
+  "cik": "0001638290",
+  "ticker": "MCFT",
+  "name": "MasterCraft Boat Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3730",
+  "sicDescription": "Ship & Boat Building & Repairing",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "061571747",
+  "phone": "(423) 884-2221",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "100 CHEROKEE COVE DRIVE",
+      "street2": null,
+      "city": "VONORE",
+      "stateOrCountry": "TN",
+      "zipCode": "37855",
+      "stateOrCountryDescription": "TN",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "100 CHEROKEE COVE DRIVE",
+      "street2": null,
+      "city": "VONORE",
+      "stateOrCountry": "TN",
+      "zipCode": "37855",
+      "stateOrCountryDescription": "TN",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 530
+}

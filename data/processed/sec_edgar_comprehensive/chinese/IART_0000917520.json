@@ -1,0 +1,47 @@
+{
+  "cik": "0000917520",
+  "ticker": "IART",
+  "name": "INTEGRA LIFESCIENCES HOLDINGS CORP",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3841",
+  "sicDescription": "Surgical & Medical Instruments & Apparatus",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "510317849",
+  "phone": "6092750500",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1100 CAMPUS ROAD",
+      "street2": null,
+      "city": "PRINCETON",
+      "stateOrCountry": "NJ",
+      "zipCode": "08540",
+      "stateOrCountryDescription": "NJ",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1100 CAMPUS ROAD",
+      "street2": null,
+      "city": "PRINCETON",
+      "stateOrCountry": "NJ",
+      "zipCode": "08540",
+      "stateOrCountryDescription": "NJ",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-07-31"
+  },
+  "filings_count": 1008
+}

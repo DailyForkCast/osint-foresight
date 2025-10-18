@@ -1,0 +1,47 @@
+{
+  "cik": "0001874071",
+  "ticker": "PDLB",
+  "name": "Ponce Financial Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6035",
+  "sicDescription": "Savings Institution, Federally Chartered",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "MD",
+  "ein": "000000000",
+  "phone": "718-931-9000EXT.1168",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2244 WESTCHESTER AVE",
+      "street2": null,
+      "city": "BRONX",
+      "stateOrCountry": "NY",
+      "zipCode": "10462",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2244 WESTCHESTER AVE",
+      "street2": null,
+      "city": "BRONX",
+      "stateOrCountry": "NY",
+      "zipCode": "10462",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-06"
+  },
+  "filings_count": 180
+}

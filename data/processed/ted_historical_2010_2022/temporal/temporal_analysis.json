@@ -1,0 +1,44 @@
+{
+  "periods": {
+    "baseline_2010_2012": {
+      "description": "Pre-BRI baseline",
+      "contracts": 0,
+      "entities": []
+    },
+    "bri_launch_2013_2016": {
+      "description": "Belt & Road Initiative launch",
+      "contracts": 0,
+      "entities": []
+    },
+    "expansion_2017_2019": {
+      "description": "Peak expansion period",
+      "contracts": 0,
+      "entities": []
+    },
+    "covid_2020_2022": {
+      "description": "COVID & security awareness",
+      "contracts": 1,
+      "entities": [
+        "generic"
+      ]
+    }
+  },
+  "entity_timeline": {
+    "generic": {
+      "first_appearance": "2022",
+      "peak_year": null,
+      "contracts_by_year": {
+        "2022": 1
+      }
+    }
+  },
+  "country_timeline": {
+    "PL": {
+      "first_china_contract": "2022",
+      "peak_year": null,
+      "contracts_by_year": {
+        "2022": 1
+      }
+    }
+  }
+}

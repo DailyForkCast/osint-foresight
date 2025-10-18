@@ -1,0 +1,234 @@
+{
+  "total_matches": 10,
+  "by_category": {
+    "manufactured": 5,
+    "other": 4,
+    "chinese_company": 1
+  },
+  "entities": {},
+  "contracts": [
+    {
+      "line_num": 2953,
+      "contract_id": "CONT_AWD_47QSHA22F1BBJ_4732_47QSHA21A0003_4732",
+      "amount": 16.36,
+      "description": "SHEARS, STRAIGHT TRIMMERS: MSP - 29,568 PLEASE SEE IPD OR LONG DESCRIPTION FOR FURTHER DETAILS. PRODUCT MADE IN CHINA.",
+      "vendor": "096628409",
+      "date": "",
+      "year": "",
+      "agency": "",
+      "location": "",
+      "category": "manufactured",
+      "risk_flags": [
+        "CHINESE_MANUFACTURED"
+      ]
+    },
+    {
+      "line_num": 3554,
+      "contract_id": "CONT_AWD_47QSSC25F6KWM_4732_47QSHA21A0003_4732",
+      "amount": 203.1,
+      "description": "SCISSORS, LADIES (SEWING):     MSP - 4,375. PRODUCT MADE IN CHINA.  PLEASE SEE IPD OR LONG DESCRIPTION FOR FURTHER INFORMATION.",
+      "vendor": "\\N",
+      "date": "",
+      "year": "",
+      "agency": "",
+      "location": "",
+      "category": "manufactured",
+      "risk_flags": [
+        "CHINESE_MANUFACTURED"
+      ]
+    },
+    {
+      "line_num": 3790,
+      "contract_id": "CONT_AWD_47QSSC25F8UX4_4732_47QSHA21A0003_4732",
+      "amount": 25.41,
+      "description": "SHEARS, STRAIGHT TRIMMERS:    MSP - 29,568PLEASE SEE IPD OR LONG DESCRIPTION FOR FURTHER DETAILS.  PRODUCT MADE IN CHINA.",
+      "vendor": "\\N",
+      "date": "",
+      "year": "",
+      "agency": "",
+      "location": "",
+      "category": "manufactured",
+      "risk_flags": [
+        "CHINESE_MANUFACTURED"
+      ]
+    },
+    {
+      "line_num": 4860,
+      "contract_id": "CONT_AWD_GS07B1521807151_4740_GS07B15218_4740",
+      "amount": 3300.0,
+      "description": "LEASE",
+      "vendor": "075751198",
+      "date": "2009-05-29",
+      "year": "2007-04-01",
+      "agency": "\\N",
+      "location": "",
+      "category": "other"
+    },
+    {
+      "line_num": 5211,
+      "contract_id": "ASST_NON_3282837106_073",
+      "amount": 18411.32,
+      "description": "TO AID SMALL BUSINESSES IN MAINTAINING WORK FORCE DURING COVID-19 PANDEMIC.",
+      "vendor": "\\N",
+      "date": "2021-01-04",
+      "year": "\\N",
+      "agency": "803",
+      "location": "",
+      "category": "chinese_company"
+    },
+    {
+      "line_num": 5434,
+      "contract_id": "CONT_AWD_47QSHA23F35PN_4732_47QSHA21A0003_4732",
+      "amount": 83.8,
+      "description": "SCISSORS, LADIES (SEWING):     MSP - 4,375. PRODUCT MADE IN CHINA.  PLEASE SEE IPD OR LONG DESCRIPTION FOR FURTHER INFORMATION.",
+      "vendor": "\\N",
+      "date": "",
+      "year": "",
+      "agency": "",
+      "location": "",
+      "category": "manufactured",
+      "risk_flags": [
+        "CHINESE_MANUFACTURED"
+      ]
+    },
+    {
+      "line_num": 5474,
+      "contract_id": "CONT_AWD_GSNPNBG55804_4730_GS14FK0006_4730",
+      "amount": 833.32,
+      "description": "CUSHIONING MA",
+      "vendor": "101391068",
+      "date": "2006-04-01",
+      "year": "2004-04-28",
+      "agency": "1173",
+      "location": "",
+      "category": "other"
+    },
+    {
+      "line_num": 5493,
+      "contract_id": "CONT_AWD_GSNPNBHH1325_4730_GS14FK0006_4730",
+      "amount": 555.66,
+      "description": "CUSHIONING MATERIAL, 24\" WIDE, 1/2\" THICK, 250 FT. PER ROLL, 2 MIL BACK AND 4 MIL BUBBLE FILM.",
+      "vendor": "101391068",
+      "date": "2005-08-02",
+      "year": "2004-11-18",
+      "agency": "\\N",
+      "location": "",
+      "category": "other"
+    },
+    {
+      "line_num": 5503,
+      "contract_id": "CONT_AWD_GSNPNBJE0825_4730_GS14FK0006_4730",
+      "amount": 388.8,
+      "description": "CUSHIONING MATERIAL",
+      "vendor": "\\N",
+      "date": "2024-09-28",
+      "year": "2005-04-04",
+      "agency": "1173",
+      "location": "",
+      "category": "other"
+    },
+    {
+      "line_num": 6520,
+      "contract_id": "CONT_AWD_47QSSC25F3Q43_4732_47QSHA21A0003_4732",
+      "amount": 15.2,
+      "description": "SHEARS, STRAIGHT TRIMMERS:    MSP - 29,568PLEASE SEE IPD OR LONG DESCRIPTION FOR FURTHER DETAILS.  PRODUCT MADE IN CHINA.",
+      "vendor": "\\N",
+      "date": "",
+      "year": "",
+      "agency": "",
+      "location": "",
+      "category": "manufactured",
+      "risk_flags": [
+        "CHINESE_MANUFACTURED"
+      ]
+    }
+  ],
+  "high_value": [],
+  "timeline": {
+    "2007-04-01": 1,
+    "2004-04-28": 1,
+    "2004-11-18": 1,
+    "2005-04-04": 1
+  },
+  "agencies": {
+    "803": 1,
+    "1173": 2
+  },
+  "suspicious": [
+    {
+      "line_num": 2953,
+      "contract_id": "CONT_AWD_47QSHA22F1BBJ_4732_47QSHA21A0003_4732",
+      "amount": 16.36,
+      "description": "SHEARS, STRAIGHT TRIMMERS: MSP - 29,568 PLEASE SEE IPD OR LONG DESCRIPTION FOR FURTHER DETAILS. PRODUCT MADE IN CHINA.",
+      "vendor": "096628409",
+      "date": "",
+      "year": "",
+      "agency": "",
+      "location": "",
+      "category": "manufactured",
+      "risk_flags": [
+        "CHINESE_MANUFACTURED"
+      ]
+    },
+    {
+      "line_num": 3554,
+      "contract_id": "CONT_AWD_47QSSC25F6KWM_4732_47QSHA21A0003_4732",
+      "amount": 203.1,
+      "description": "SCISSORS, LADIES (SEWING):     MSP - 4,375. PRODUCT MADE IN CHINA.  PLEASE SEE IPD OR LONG DESCRIPTION FOR FURTHER INFORMATION.",
+      "vendor": "\\N",
+      "date": "",
+      "year": "",
+      "agency": "",
+      "location": "",
+      "category": "manufactured",
+      "risk_flags": [
+        "CHINESE_MANUFACTURED"
+      ]
+    },
+    {
+      "line_num": 3790,
+      "contract_id": "CONT_AWD_47QSSC25F8UX4_4732_47QSHA21A0003_4732",
+      "amount": 25.41,
+      "description": "SHEARS, STRAIGHT TRIMMERS:    MSP - 29,568PLEASE SEE IPD OR LONG DESCRIPTION FOR FURTHER DETAILS.  PRODUCT MADE IN CHINA.",
+      "vendor": "\\N",
+      "date": "",
+      "year": "",
+      "agency": "",
+      "location": "",
+      "category": "manufactured",
+      "risk_flags": [
+        "CHINESE_MANUFACTURED"
+      ]
+    },
+    {
+      "line_num": 5434,
+      "contract_id": "CONT_AWD_47QSHA23F35PN_4732_47QSHA21A0003_4732",
+      "amount": 83.8,
+      "description": "SCISSORS, LADIES (SEWING):     MSP - 4,375. PRODUCT MADE IN CHINA.  PLEASE SEE IPD OR LONG DESCRIPTION FOR FURTHER INFORMATION.",
+      "vendor": "\\N",
+      "date": "",
+      "year": "",
+      "agency": "",
+      "location": "",
+      "category": "manufactured",
+      "risk_flags": [
+        "CHINESE_MANUFACTURED"
+      ]
+    },
+    {
+      "line_num": 6520,
+      "contract_id": "CONT_AWD_47QSSC25F3Q43_4732_47QSHA21A0003_4732",
+      "amount": 15.2,
+      "description": "SHEARS, STRAIGHT TRIMMERS:    MSP - 29,568PLEASE SEE IPD OR LONG DESCRIPTION FOR FURTHER DETAILS.  PRODUCT MADE IN CHINA.",
+      "vendor": "\\N",
+      "date": "",
+      "year": "",
+      "agency": "",
+      "location": "",
+      "category": "manufactured",
+      "risk_flags": [
+        "CHINESE_MANUFACTURED"
+      ]
+    }
+  ]
+}

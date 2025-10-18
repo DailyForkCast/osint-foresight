@@ -1,0 +1,46 @@
+{
+  "cik": "0002072315",
+  "ticker": "BENN",
+  "name": "Bend NovaTech Group Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:ky"
+  ],
+  "sic": "3440",
+  "sicDescription": "Fabricated Structural Metal Products",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "852-2186-9085",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "CRICKET SQUARE, HUTCHINS DRIVE",
+      "street2": "P.O. BOX 2681",
+      "city": "GRAND CAYMAN",
+      "stateOrCountry": null,
+      "zipCode": "KY1-1111",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Cayman Islands",
+      "countryCode": "E9"
+    },
+    "business": {
+      "street1": "CRICKET SQUARE, HUTCHINS DRIVE",
+      "street2": "P.O. BOX 2681",
+      "city": "GRAND CAYMAN",
+      "stateOrCountry": null,
+      "zipCode": "KY1-1111",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Cayman Islands",
+      "countryCode": "E9"
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 6
+}

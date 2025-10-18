@@ -1,0 +1,47 @@
+{
+  "cik": "0001862463",
+  "ticker": "AMODW",
+  "name": "ALPHA MODUS HOLDINGS, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6794",
+  "sicDescription": "Patent Owners & Lessors",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "863386030",
+  "phone": "(704) 252-5050",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "20311 CHARTWELL CENTER DR., #1469",
+      "street2": null,
+      "city": "CORNELIUS",
+      "stateOrCountry": "NC",
+      "zipCode": "28031",
+      "stateOrCountryDescription": "NC",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "20311 CHARTWELL CENTER DR., #1469",
+      "street2": null,
+      "city": "CORNELIUS",
+      "stateOrCountry": "NC",
+      "zipCode": "28031",
+      "stateOrCountryDescription": "NC",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-08"
+  },
+  "filings_count": 199
+}

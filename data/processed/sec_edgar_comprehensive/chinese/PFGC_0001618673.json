@@ -1,0 +1,47 @@
+{
+  "cik": "0001618673",
+  "ticker": "PFGC",
+  "name": "Performance Food Group Co",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5141",
+  "sicDescription": "Wholesale-Groceries, General Line",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "431983182",
+  "phone": "(804) 484-7700",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "12500 WEST CREEK PARKWAY",
+      "street2": null,
+      "city": "RICHMOND",
+      "stateOrCountry": "VA",
+      "zipCode": "23238",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "12500 WEST CREEK PARKWAY",
+      "street2": null,
+      "city": "RICHMOND",
+      "stateOrCountry": "VA",
+      "zipCode": "23238",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-23"
+  },
+  "filings_count": 1000
+}

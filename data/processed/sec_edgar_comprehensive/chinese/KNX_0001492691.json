@@ -1,0 +1,47 @@
+{
+  "cik": "0001492691",
+  "ticker": "KNX",
+  "name": "Knight-Swift Transportation Holdings Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "4213",
+  "sicDescription": "Trucking (No Local)",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "205589597",
+  "phone": "602-269-9700",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2200 SOUTH 75TH AVENUE",
+      "street2": null,
+      "city": "PHOENIX",
+      "stateOrCountry": "AZ",
+      "zipCode": "85043",
+      "stateOrCountryDescription": "AZ",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2200 SOUTH 75TH AVENUE",
+      "street2": null,
+      "city": "PHOENIX",
+      "stateOrCountry": "AZ",
+      "zipCode": "85043",
+      "stateOrCountryDescription": "AZ",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-07"
+  },
+  "filings_count": 1000
+}

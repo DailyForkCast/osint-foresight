@@ -1,0 +1,52 @@
+{
+  "cik": "0001928340",
+  "ticker": "GDHG",
+  "name": "GOLDEN HEAVEN GROUP HOLDINGS LTD.",
+  "detection_reasons": [
+    "location:china",
+    "location:fujian",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "7990",
+  "sicDescription": "Services-Miscellaneous Amusement & Recreation",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86 0599 8508022",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "NO.8 HAICHUAN ROAD, BANHOU",
+      "street2": "XIQIN TOWN, YANPING DISTRICT",
+      "city": "NANPING CITY, FUJIAN PROVINCE",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "NO.8 HAICHUAN ROAD, BANHOU",
+      "street2": "XIQIN TOWN, YANPING DISTRICT",
+      "city": "NANPING CITY, FUJIAN PROVINCE",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-06"
+  },
+  "filings_count": 120
+}

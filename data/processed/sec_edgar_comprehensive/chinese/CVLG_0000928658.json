@@ -1,0 +1,48 @@
+{
+  "cik": "0000928658",
+  "ticker": "CVLG",
+  "name": "COVENANT LOGISTICS GROUP, INC.",
+  "detection_reasons": [
+    "offshore:bm",
+    "vie_structure"
+  ],
+  "sic": "4213",
+  "sicDescription": "Trucking (No Local)",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "NV",
+  "ein": "880320154",
+  "phone": "4238211212",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "400 BIRMINGHAM HIGHWAY",
+      "street2": null,
+      "city": "CHATTANOOGA",
+      "stateOrCountry": "TN",
+      "zipCode": "37419",
+      "stateOrCountryDescription": "TN",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "400 BIRMINGHAM HIGHWAY",
+      "street2": null,
+      "city": "CHATTANOOGA",
+      "stateOrCountry": "TN",
+      "zipCode": "37419",
+      "stateOrCountryDescription": "TN",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-15"
+  },
+  "filings_count": 1000
+}

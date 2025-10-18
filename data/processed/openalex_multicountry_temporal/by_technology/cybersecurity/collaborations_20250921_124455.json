@@ -1,0 +1,1180 @@
+[
+  {
+    "paper_id": "https://openalex.org/W1974146085",
+    "doi": "https://doi.org/10.1109/iccda.2010.5541323",
+    "title": "A hyper chaos based encryption algorithm for data of network risk assessment",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Electric Power Research Institute"
+      ],
+      "CN": [
+        "Zhejiang Science and Technology Information Institute"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Xi He (Electric Power Research Institute)"
+      ],
+      "CN": [
+        "Dongning Zheng (Zhejiang Science and Technology Information Institute)",
+        "Fenlin Liu (Zhejiang Science and Technology Information Institute)",
+        "Xin Ge (Zhejiang Science and Technology Information Institute)",
+        "Wei Wang (Zhejiang Science and Technology Information Institute)"
+      ]
+    },
+    "technology_categories": [
+      "cybersecurity"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 250746,
+      "extraction_command": "sed -n '250746p' part_000.gz | jq '.title'",
+      "paper_hash": "7a441b122eca7149"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4383671906",
+    "doi": null,
+    "title": "Monoidic Codes in Cryptography",
+    "publication_year": 2011,
+    "countries_collaborating": [
+      "BR",
+      "CN"
+    ],
+    "institutions": {
+      "BR": [
+        "Hospital Universitário da Universidade de São Paulo"
+      ],
+      "CN": [
+        "State Key Laboratory of Cryptology"
+      ]
+    },
+    "authors_by_country": {
+      "BR": [
+        "Paulo S. L. M. Barreto (Hospital Universitário da Universidade de São Paulo)"
+      ],
+      "CN": [
+        "Rafael Misoczki (State Key Laboratory of Cryptology)"
+      ]
+    },
+    "technology_categories": [
+      "cybersecurity"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2011,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_010.gz",
+      "line_number": 141836,
+      "extraction_command": "sed -n '141836p' part_010.gz | jq '.title'",
+      "paper_hash": "4fa7e12272ffdcfc"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2491041217",
+    "doi": "https://doi.org/10.1364/3d.2016.jw4a.10",
+    "title": "Multiple-3D-object encryption based on the three-step phase shifting method and one single interference",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "KR"
+    ],
+    "institutions": {
+      "KR": [
+        "University of Suwon",
+        "Chungbuk National University"
+      ],
+      "CN": [
+        "Jilin University"
+      ]
+    },
+    "authors_by_country": {
+      "KR": [
+        "Nam Kim (Chungbuk National University)",
+        "Hui‐Ying Wu (Chungbuk National University)",
+        "Weina Li (Chungbuk National University)",
+        "Sang‐Keun Gil (University of Suwon)"
+      ],
+      "CN": [
+        "Mei-Lan Piao (Jilin University)"
+      ]
+    },
+    "technology_categories": [
+      "cybersecurity"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 318071,
+      "extraction_command": "sed -n '318071p' part_005.gz | jq '.title'",
+      "paper_hash": "700ff4a9a2053cb9"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1988224692",
+    "doi": "https://doi.org/10.1109/mines.2010.174",
+    "title": "Encryption Scheme Based on Invertible Watermarking",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Orange (France)"
+      ],
+      "CN": [
+        "Nanjing University of Information Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Shiguo Lian (Orange (France))"
+      ],
+      "CN": [
+        "Jinwei Wang (Nanjing University of Information Science and Technology)"
+      ]
+    },
+    "technology_categories": [
+      "cybersecurity"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 123763,
+      "extraction_command": "sed -n '123763p' part_000.gz | jq '.title'",
+      "paper_hash": "798694cd6a8042c2"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2374508261",
+    "doi": null,
+    "title": "Research and Implementation of Software and Hardware Encryption System",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "CN",
+      "HR",
+      "TR"
+    ],
+    "institutions": {
+      "TR": [
+        "Police Academy"
+      ],
+      "HR": [
+        "Policijska akademija"
+      ],
+      "CN": [
+        "China People's Police University"
+      ]
+    },
+    "authors_by_country": {
+      "TR": [
+        "Jia Ling (Police Academy)"
+      ],
+      "HR": [
+        "Jia Ling (Policijska akademija)"
+      ],
+      "CN": [
+        "Jia Ling (China People's Police University)"
+      ]
+    },
+    "technology_categories": [
+      "cybersecurity"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_005.gz",
+      "line_number": 462473,
+      "extraction_command": "sed -n '462473p' part_005.gz | jq '.title'",
+      "paper_hash": "974fb23fe422194f"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2390667939",
+    "doi": null,
+    "title": "Study on the Technology of Computer Network Security and Network Defense",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "CN",
+      "IN"
+    ],
+    "institutions": {
+      "IN": [
+        "Institute of Chemical Technology"
+      ],
+      "CN": [
+        "Jilin University of Chemical Technology"
+      ]
+    },
+    "authors_by_country": {
+      "IN": [
+        "Zhao Lian (Institute of Chemical Technology)"
+      ],
+      "CN": [
+        "Zhao Lian (Jilin University of Chemical Technology)"
+      ]
+    },
+    "technology_categories": [
+      "cybersecurity"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_006.gz",
+      "line_number": 209395,
+      "extraction_command": "sed -n '209395p' part_006.gz | jq '.title'",
+      "paper_hash": "b4d78b6ef9fc7a96"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1565266559",
+    "doi": "https://doi.org/10.1002/9781118188606.ch9",
+    "title": "Elliptic Curve Discrete Logarithm Based Cryptography",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Harvard University"
+      ],
+      "CN": [
+        "North China University of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Song Y. Yan (Harvard University)"
+      ],
+      "CN": [
+        "Song Y. Yan (North China University of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "cybersecurity"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 197010,
+      "extraction_command": "sed -n '197010p' part_000.gz | jq '.title'",
+      "paper_hash": "b1b06aa38d9922cd"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2467550619",
+    "doi": "https://doi.org/10.1061/9780784479896.215",
+    "title": "Evaluation and Improvement of a Freeway Network Security Prevention and Control System",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Old Dominion University"
+      ],
+      "CN": [
+        "Chang'an University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Yang Liu (Old Dominion University)",
+        "Jianyou Zhao (Old Dominion University)",
+        "Fang Zhong-quan (Old Dominion University)",
+        "Yang Zhao (Old Dominion University)"
+      ],
+      "CN": [
+        "Yang Liu (Chang'an University)",
+        "Jianyou Zhao (Chang'an University)",
+        "Yang Zhao (Chang'an University)",
+        "Fang Zhong-quan (Chang'an University)"
+      ]
+    },
+    "technology_categories": [
+      "cybersecurity"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_002.gz",
+      "line_number": 23170,
+      "extraction_command": "sed -n '23170p' part_002.gz | jq '.title'",
+      "paper_hash": "9ad3cc8cdedfc60a"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4246652009",
+    "doi": "https://doi.org/10.1504/ijsn.2017.084400",
+    "title": "Generic construction of role-based encryption in the standard model",
+    "publication_year": 2017,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Boston University",
+        "Boston Medical Center",
+        "University Medical Center"
+      ],
+      "CN": [
+        "Xi'an Jiaotong University"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Baojun Li (University Medical Center)",
+        "Baojun Li (Boston University)",
+        "Baojun Li (Boston Medical Center)"
+      ],
+      "CN": [
+        "LI Bao-hong (Xi'an Jiaotong University)",
+        "Yinliang Zhao (Xi'an Jiaotong University)"
+      ]
+    },
+    "technology_categories": [
+      "cybersecurity"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2017,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_004.gz",
+      "line_number": 124967,
+      "extraction_command": "sed -n '124967p' part_004.gz | jq '.title'",
+      "paper_hash": "e99ad44adbf1a618"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W4255538968",
+    "doi": "https://doi.org/10.1504/ijhpcn.2018.088878",
+    "title": "Fully secure hierarchical inner product encryption for privacy preserving keyword searching in cloud",
+    "publication_year": 2017,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "University of Wollongong"
+      ],
+      "CN": [
+        "Xidian University"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Yi Mu (University of Wollongong)"
+      ],
+      "CN": [
+        "Zhuanning Wang (Xidian University)",
+        "Yupu Hu (Xidian University)",
+        "Leyou Zhang (Xidian University)"
+      ]
+    },
+    "technology_categories": [
+      "cybersecurity"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2017,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_003.gz",
+      "line_number": 80285,
+      "extraction_command": "sed -n '80285p' part_003.gz | jq '.title'",
+      "paper_hash": "3bed0d563fc24cb1"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2115240784",
+    "doi": null,
+    "title": "Novel encryption model for multimedia data",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "FR"
+    ],
+    "institutions": {
+      "FR": [
+        "Orange (France)"
+      ],
+      "CN": [
+        "Wuhan University"
+      ]
+    },
+    "authors_by_country": {
+      "FR": [
+        "Shiguo Lian (Orange (France))"
+      ],
+      "CN": [
+        "Dengpan Ye (Wuhan University)"
+      ]
+    },
+    "technology_categories": [
+      "cybersecurity"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 44597,
+      "extraction_command": "sed -n '44597p' part_000.gz | jq '.title'",
+      "paper_hash": "53fbb5a72f478c34"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W119040470",
+    "doi": "https://doi.org/10.1007/978-1-4614-6747-2_4",
+    "title": "A Case of Security Encryption Storage System Based on SAN Environments",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "TW"
+    ],
+    "institutions": {
+      "TW": [
+        "Providence University",
+        "Overseas Chinese University"
+      ],
+      "CN": [
+        "Lanzhou University"
+      ]
+    },
+    "authors_by_country": {
+      "TW": [
+        "Chao‐Hung Hung (Providence University)",
+        "Jason C. Hung (Overseas Chinese University)",
+        "Kuan‐Ching Li (Providence University)"
+      ],
+      "CN": [
+        "Changyan Di (Lanzhou University)",
+        "Qi Yu (Lanzhou University)",
+        "Qingguo Zhou (Lanzhou University)",
+        "Rui Zhou (Lanzhou University)"
+      ]
+    },
+    "technology_categories": [
+      "cybersecurity"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 110726,
+      "extraction_command": "sed -n '110726p' part_000.gz | jq '.title'",
+      "paper_hash": "fd5feb39d77293a1"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1577274283",
+    "doi": "https://doi.org/10.1002/sec.874",
+    "title": "Special issue on applied cryptography for information and communication networks",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CH",
+      "CN",
+      "TW"
+    ],
+    "institutions": {
+      "TW": [
+        "Chang Gung University"
+      ],
+      "CH": [
+        "IBM Research - Zurich"
+      ],
+      "CN": [
+        "Fujian Normal University"
+      ]
+    },
+    "authors_by_country": {
+      "TW": [
+        "Der‐Chyuan Lou (Chang Gung University)"
+      ],
+      "CH": [
+        "Peter R. Müeller (IBM Research - Zurich)"
+      ],
+      "CN": [
+        "Xinyi Huang (Fujian Normal University)"
+      ]
+    },
+    "technology_categories": [
+      "cybersecurity"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 62352,
+      "extraction_command": "sed -n '62352p' part_000.gz | jq '.title'",
+      "paper_hash": "a12851e1055e8484"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2323385142",
+    "doi": "https://doi.org/10.1364/fio.2003.mt6",
+    "title": "Long-distance stable “plug and play” quantum cryptography system",
+    "publication_year": 2003,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "The University of Sydney"
+      ],
+      "CN": [
+        "East China Normal University"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Heping Zeng (The University of Sydney)"
+      ],
+      "CN": [
+        "Chunyuan Zhou (East China Normal University)",
+        "Hexiang Li (East China Normal University)",
+        "Guang Wu (East China Normal University)",
+        "Heping Zeng (East China Normal University)",
+        "Xiuliang Chen (East China Normal University)"
+      ]
+    },
+    "technology_categories": [
+      "quantum_computing",
+      "cybersecurity"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2003,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 11066,
+      "extraction_command": "sed -n '11066p' part_000.gz | jq '.title'",
+      "paper_hash": "822b78a2bd898304"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: quantum_computing"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W185629387",
+    "doi": "https://doi.org/10.1007/978-3-319-09644-5_1",
+    "title": "Fundamental Theory of Visual Cryptography",
+    "publication_year": 2014,
+    "countries_collaborating": [
+      "CN",
+      "NZ"
+    ],
+    "institutions": {
+      "NZ": [
+        "Auckland University of Technology"
+      ],
+      "CN": [
+        "Chinese Academy of Sciences"
+      ]
+    },
+    "authors_by_country": {
+      "NZ": [
+        "Wei Qi Yan (Auckland University of Technology)"
+      ],
+      "CN": [
+        "Feng Liu (Chinese Academy of Sciences)"
+      ]
+    },
+    "technology_categories": [
+      "cybersecurity"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2014,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 4452,
+      "extraction_command": "sed -n '4452p' part_000.gz | jq '.title'",
+      "paper_hash": "3148ced05e2c6512"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2016245303",
+    "doi": "https://doi.org/10.1109/iccda.2010.5541104",
+    "title": "Cryptanalysis of a certificateless encryption scheme",
+    "publication_year": 2010,
+    "countries_collaborating": [
+      "CN",
+      "ES"
+    ],
+    "institutions": {
+      "ES": [
+        "Universitat Rovira i Virgili"
+      ],
+      "CN": [
+        "Wuhan University",
+        "Xi'an University of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "ES": [
+        "Qianhong Wu (Universitat Rovira i Virgili)",
+        "Huanguo Zhang (Universitat Rovira i Virgili)",
+        "Lei Zhang (Universitat Rovira i Virgili)",
+        "Bo Qin (Universitat Rovira i Virgili)"
+      ],
+      "CN": [
+        "Lianjun Chen (Wuhan University)",
+        "Qianhong Wu (Wuhan University)",
+        "Bo Qin (Xi'an University of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "cybersecurity"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2010,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 6305,
+      "extraction_command": "sed -n '6305p' part_000.gz | jq '.title'",
+      "paper_hash": "d265e3e18babbdf3"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2947489931",
+    "doi": "https://doi.org/10.3217/jucs-025-03-0245",
+    "title": "CCA-Secure Deterministic Identity-Based Encryption Scheme",
+    "publication_year": 2019,
+    "countries_collaborating": [
+      "CA",
+      "CN",
+      "GB"
+    ],
+    "institutions": {
+      "GB": [
+        "University of Surrey"
+      ],
+      "CA": [
+        "University of Waterloo"
+      ],
+      "CN": [
+        "Shaanxi Normal University"
+      ]
+    },
+    "authors_by_country": {
+      "GB": [
+        "Yi Zhao (University of Surrey)",
+        "Kaitai Liang (University of Surrey)"
+      ],
+      "CA": [
+        "Liang Xue (University of Waterloo)"
+      ],
+      "CN": [
+        "Meijuan Huang (Shaanxi Normal University)",
+        "Bo Yang (Shaanxi Normal University)"
+      ]
+    },
+    "technology_categories": [
+      "cybersecurity"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2019,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 26635,
+      "extraction_command": "sed -n '26635p' part_000.gz | jq '.title'",
+      "paper_hash": "1d3e883b5ddab66f"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2224410019",
+    "doi": "https://doi.org/10.15388/informatica.2015.63",
+    "title": "A CCA2-Secure Multi-Decrypter Encryption Scheme Without Random Oracles",
+    "publication_year": 2015,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "University of South Australia"
+      ],
+      "CN": [
+        "East China Normal University",
+        "Shanghai Key Laboratory of Trustworthy Computing",
+        "Shanghai Jiao Tong University",
+        "Hangzhou Normal University"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Kim‐Kwang Raymond Choo (University of South Australia)"
+      ],
+      "CN": [
+        "Peng Zeng (Shanghai Key Laboratory of Trustworthy Computing)",
+        "Hongbing Wang (Shanghai Jiao Tong University)",
+        "Peng Zeng (East China Normal University)",
+        "Shengbao Wang (Hangzhou Normal University)"
+      ]
+    },
+    "technology_categories": [
+      "cybersecurity"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2015,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 5962,
+      "extraction_command": "sed -n '5962p' part_000.gz | jq '.title'",
+      "paper_hash": "c45bdd1c51cc8b47"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2559362369",
+    "doi": "https://doi.org/10.1007/s11042-016-4081-z",
+    "title": "Guest Editorial: Multimedia Social Network Security and Applications",
+    "publication_year": 2016,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "The University of Texas at San Antonio"
+      ],
+      "CN": [
+        "Henan University of Science and Technology"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Kim‐Kwang Raymond Choo (The University of Texas at San Antonio)"
+      ],
+      "CN": [
+        "Zhiyong Zhang (Henan University of Science and Technology)"
+      ]
+    },
+    "technology_categories": [
+      "cybersecurity"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2016,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 5158,
+      "extraction_command": "sed -n '5158p' part_000.gz | jq '.title'",
+      "paper_hash": "c29cd24ba9eb5ded"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2068176031",
+    "doi": "https://doi.org/10.1007/s11434-006-2012-5",
+    "title": "New field of cryptography: DNA cryptography",
+    "publication_year": 2006,
+    "countries_collaborating": [
+      "CA",
+      "CN"
+    ],
+    "institutions": {
+      "CA": [
+        "Queen's University"
+      ],
+      "CN": [
+        "Shanghai Jiao Tong University",
+        "Xidian University"
+      ]
+    },
+    "authors_by_country": {
+      "CA": [
+        "Lei Qin (Queen's University)"
+      ],
+      "CN": [
+        "Xuejia Lai (Shanghai Jiao Tong University)",
+        "Xiao Guo-zhen (Xidian University)",
+        "Mingxin Lu (Xidian University)"
+      ]
+    },
+    "technology_categories": [
+      "cybersecurity"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2006,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 1936,
+      "extraction_command": "sed -n '1936p' part_000.gz | jq '.title'",
+      "paper_hash": "a64b5ec1096beadd"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W1598997958",
+    "doi": "https://doi.org/10.1002/9781118188606.ch11",
+    "title": "Quantum Resistant Cryptography",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "US"
+    ],
+    "institutions": {
+      "US": [
+        "Harvard University"
+      ],
+      "CN": [
+        "North China University of Technology"
+      ]
+    },
+    "authors_by_country": {
+      "US": [
+        "Song Y. Yan (Harvard University)"
+      ],
+      "CN": [
+        "Song Y. Yan (North China University of Technology)"
+      ]
+    },
+    "technology_categories": [
+      "cybersecurity"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_001.gz",
+      "line_number": 3430,
+      "extraction_command": "sed -n '3430p' part_001.gz | jq '.title'",
+      "paper_hash": "3eecf23c8a8956bb"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2161852761",
+    "doi": "https://doi.org/10.1093/comjnl/bxt102",
+    "title": "Extend the Concept of Public Key Encryption with Delegated Search",
+    "publication_year": 2013,
+    "countries_collaborating": [
+      "CN",
+      "LU"
+    ],
+    "institutions": {
+      "LU": [
+        "University of Luxembourg"
+      ],
+      "CN": [
+        "Xidian University"
+      ]
+    },
+    "authors_by_country": {
+      "LU": [
+        "Qiang Tang (University of Luxembourg)"
+      ],
+      "CN": [
+        "Haiying Ma (Xidian University)",
+        "Xun Chen (Xidian University)"
+      ]
+    },
+    "technology_categories": [
+      "cybersecurity"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "bri_launch_2013_2016",
+      "year": 2013,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_012.gz",
+      "line_number": 987,
+      "extraction_command": "sed -n '987p' part_012.gz | jq '.title'",
+      "paper_hash": "de53644cf5c46242"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2154024803",
+    "doi": "https://doi.org/10.1109/glocom.2005.1577941",
+    "title": "A self-encryption authentication protocol with identity anonymity for teleconference services",
+    "publication_year": 2005,
+    "countries_collaborating": [
+      "CA",
+      "CN"
+    ],
+    "institutions": {
+      "CA": [
+        "University of Waterloo"
+      ],
+      "CN": [
+        "Tsinghua University"
+      ]
+    },
+    "authors_by_country": {
+      "CA": [
+        "Mingshui Shi (University of Waterloo)",
+        "Xuemin Shen (University of Waterloo)"
+      ],
+      "CN": [
+        "Chuang Lin (Tsinghua University)",
+        "Yixin Jiang (Tsinghua University)"
+      ]
+    },
+    "technology_categories": [
+      "cybersecurity"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2005,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_019.gz",
+      "line_number": 1831,
+      "extraction_command": "sed -n '1831p' part_019.gz | jq '.title'",
+      "paper_hash": "a459a506fc0ddea3"
+    },
+    "risk_assessment": {
+      "technology_risk": "HIGH",
+      "collaboration_risk": "LOW",
+      "overall_risk": "HIGH",
+      "strategic_concerns": []
+    }
+  }
+]

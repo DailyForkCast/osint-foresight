@@ -1,0 +1,44 @@
+{
+  "cik": "0001670076",
+  "ticker": "ULCC",
+  "name": "Frontier Group Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "4512",
+  "sicDescription": "Air Transportation, Scheduled",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "463681866",
+  "phone": "(720) 374-4490",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "4545 AIRPORT WAY",
+      "street2": null,
+      "city": "DENVER",
+      "stateOrCountry": "CO",
+      "zipCode": "80239",
+      "stateOrCountryDescription": "CO",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "4545 AIRPORT WAY",
+      "street2": null,
+      "city": "DENVER",
+      "stateOrCountry": "CO",
+      "zipCode": "80239",
+      "stateOrCountryDescription": "CO",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 552
+}

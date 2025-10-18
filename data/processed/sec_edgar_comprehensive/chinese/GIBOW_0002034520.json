@@ -1,0 +1,51 @@
+{
+  "cik": "0002034520",
+  "ticker": "GIBOW",
+  "name": "GIBO HOLDINGS Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:ky",
+    "offshore:hong kong",
+    "sic:7372"
+  ],
+  "sic": "7372",
+  "sicDescription": "Services-Prepackaged Software",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "60192886887",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "4TH FLOOR, HARBOUR PLACE",
+      "street2": "103 SOUTH CHURCH STREET, P.O. BOX 10240",
+      "city": "GRAND CAYMAN",
+      "stateOrCountry": "E9",
+      "zipCode": "KY1-1002",
+      "stateOrCountryDescription": "Cayman Islands",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "UNIT2912, 29/F, METROPLAZA TOWER 2",
+      "street2": "223 HING FONG ROAD, KWAI CHUNG, N.T.",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-22"
+  },
+  "filings_count": 30
+}

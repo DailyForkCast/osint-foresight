@@ -1,0 +1,48 @@
+{
+  "cik": "0000844150",
+  "ticker": "NWG",
+  "name": "NatWest Group plc",
+  "detection_reasons": [
+    "offshore:bm",
+    "vie_structure"
+  ],
+  "sic": "6029",
+  "sicDescription": "Commercial Banks, NEC",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "X0",
+  "ein": "000000000",
+  "phone": "441315568555",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "GOGARBURN",
+      "street2": "PO BOX 1000",
+      "city": "EDINBURGH, SCOTLAND",
+      "stateOrCountry": "X0",
+      "zipCode": "EH12 1HQ",
+      "stateOrCountryDescription": "United Kingdom",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "GOGARBURN",
+      "street2": "PO BOX 1000",
+      "city": "EDINBURGH, SCOTLAND",
+      "stateOrCountry": "X0",
+      "zipCode": "EH12 1HQ",
+      "stateOrCountryDescription": "United Kingdom",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-25"
+  },
+  "filings_count": 1003
+}

@@ -1,0 +1,44 @@
+{
+  "cik": "0001411207",
+  "ticker": "ALSN",
+  "name": "Allison Transmission Holdings Inc",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3714",
+  "sicDescription": "Motor Vehicle Parts & Accessories",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "(317) 242-5000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ONE ALLISON WAY",
+      "street2": null,
+      "city": "Indianapolis",
+      "stateOrCountry": "IN",
+      "zipCode": "46222",
+      "stateOrCountryDescription": "IN",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "ONE ALLISON WAY",
+      "street2": null,
+      "city": "Indianapolis",
+      "stateOrCountry": "IN",
+      "zipCode": "46222",
+      "stateOrCountryDescription": "IN",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1010
+}

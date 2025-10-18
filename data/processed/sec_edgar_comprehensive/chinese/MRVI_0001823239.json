@@ -1,0 +1,47 @@
+{
+  "cik": "0001823239",
+  "ticker": "MRVI",
+  "name": "MARAVAI LIFESCIENCES HOLDINGS, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2834",
+  "sicDescription": "Pharmaceutical Preparations",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "(858) 546-0004",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "10770 WATERIDGE CIRCLE SUITE 200",
+      "street2": null,
+      "city": "SAN DIEGO",
+      "stateOrCountry": "CA",
+      "zipCode": "92121",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "10770 WATERIDGE CIRCLE SUITE 200",
+      "street2": null,
+      "city": "SAN DIEGO",
+      "stateOrCountry": "CA",
+      "zipCode": "92121",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-11"
+  },
+  "filings_count": 363
+}

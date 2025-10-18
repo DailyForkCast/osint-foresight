@@ -1,0 +1,56 @@
+[
+  {
+    "type": "potential_duplicate",
+    "entity1": "ENT_000012",
+    "entity1_name": "DE MONTFORT UNIVERSITY",
+    "entity2": "ENT_000014",
+    "entity2_name": "MONASH UNIVERSITY",
+    "similarity": 0.717948717948718,
+    "recommendation": "Review for potential merge"
+  },
+  {
+    "type": "potential_duplicate",
+    "entity1": "ENT_000012",
+    "entity1_name": "DE MONTFORT UNIVERSITY",
+    "entity2": "ENT_000017",
+    "entity2_name": "CONCORDIA UNIVERSITY",
+    "similarity": 0.7142857142857143,
+    "recommendation": "Review for potential merge"
+  },
+  {
+    "type": "potential_duplicate",
+    "entity1": "ENT_000014",
+    "entity1_name": "MONASH UNIVERSITY",
+    "entity2": "ENT_000012",
+    "entity2_name": "DE MONTFORT UNIVERSITY",
+    "similarity": 0.717948717948718,
+    "recommendation": "Review for potential merge"
+  },
+  {
+    "type": "potential_duplicate",
+    "entity1": "ENT_000014",
+    "entity1_name": "MONASH UNIVERSITY",
+    "entity2": "ENT_000017",
+    "entity2_name": "CONCORDIA UNIVERSITY",
+    "similarity": 0.7567567567567568,
+    "recommendation": "Review for potential merge"
+  },
+  {
+    "type": "potential_duplicate",
+    "entity1": "ENT_000017",
+    "entity1_name": "CONCORDIA UNIVERSITY",
+    "entity2": "ENT_000012",
+    "entity2_name": "DE MONTFORT UNIVERSITY",
+    "similarity": 0.7142857142857143,
+    "recommendation": "Review for potential merge"
+  },
+  {
+    "type": "potential_duplicate",
+    "entity1": "ENT_000017",
+    "entity1_name": "CONCORDIA UNIVERSITY",
+    "entity2": "ENT_000014",
+    "entity2_name": "MONASH UNIVERSITY",
+    "similarity": 0.7567567567567568,
+    "recommendation": "Review for potential merge"
+  }
+]

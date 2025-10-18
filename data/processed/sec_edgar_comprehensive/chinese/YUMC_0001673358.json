@@ -1,0 +1,45 @@
+{
+  "cik": "0001673358",
+  "ticker": "YUMC",
+  "name": "Yum China Holdings, Inc.",
+  "detection_reasons": [
+    "location:china",
+    "offshore:bm"
+  ],
+  "sic": "5812",
+  "sicDescription": "Retail-Eating  Places",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "812421743",
+  "phone": "(469)980-2898",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "101 EAST PARK BOULEVARD, SUITE 805",
+      "street2": null,
+      "city": "PLANO",
+      "stateOrCountry": "TX",
+      "zipCode": "75074",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "101 EAST PARK BOULEVARD, SUITE 805",
+      "street2": null,
+      "city": "PLANO",
+      "stateOrCountry": "TX",
+      "zipCode": "75074",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1015
+}

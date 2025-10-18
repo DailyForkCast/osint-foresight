@@ -1,0 +1,58 @@
+{
+  "timestamp": "2025-09-20T17:53:22.965129",
+  "data_sources": {
+    "openalex": {
+      "name": "OpenAlex Academic Database",
+      "path": "F:/OSINT_Backups/openalex/data",
+      "size_gb": 420.66,
+      "status": "AVAILABLE",
+      "records_found": 0,
+      "records_processed": 11,
+      "last_checkpoint": null,
+      "sha256_sample": "ae0a6b38deb023b3"
+    },
+    "ted": {
+      "name": "TED EU Procurement",
+      "path": "F:/TED_Data/monthly",
+      "size_gb": 24.2,
+      "status": "AVAILABLE",
+      "records_found": 0,
+      "records_processed": 0,
+      "last_checkpoint": null,
+      "sha256_sample": "9833f7acb4b6dabf"
+    },
+    "cordis": {
+      "name": "CORDIS EU Projects",
+      "path": "F:/2025-09-14 Horizons",
+      "size_gb": 0.19,
+      "status": "AVAILABLE",
+      "records_found": 0,
+      "records_processed": 0,
+      "last_checkpoint": null,
+      "sha256_sample": "2865e10fc2c6aad1"
+    },
+    "sec_edgar": {
+      "name": "SEC EDGAR Filings",
+      "path": "F:/OSINT_DATA/COMPANIES",
+      "size_gb": 0.05,
+      "status": "AVAILABLE",
+      "records_found": 0,
+      "records_processed": 0,
+      "last_checkpoint": null,
+      "sha256_sample": "24bf2b74fdaa1616"
+    },
+    "epo_patents": {
+      "name": "EPO Patent Data",
+      "path": "F:/OSINT_DATA/EPO_PATENTS",
+      "size_gb": 0.12,
+      "status": "AVAILABLE",
+      "records_found": 0,
+      "records_processed": 0,
+      "last_checkpoint": null,
+      "sha256_sample": "e3b0c44298fc1c14"
+    }
+  },
+  "findings": [],
+  "statistics": {},
+  "insufficient_evidence": []
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0001498710",
+  "ticker": "FLYYQ",
+  "name": "Spirit Aviation Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "4512",
+  "sicDescription": "Air Transportation, Scheduled",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "",
+  "ein": "333711797",
+  "phone": "954-447-7920",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1731 RADIANT DRIVE",
+      "street2": null,
+      "city": "DANIA BEACH",
+      "stateOrCountry": "FL",
+      "zipCode": "33004",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1731 RADIANT DRIVE",
+      "street2": null,
+      "city": "DANIA BEACH",
+      "stateOrCountry": "FL",
+      "zipCode": "33004",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-03"
+  },
+  "filings_count": 1001
+}

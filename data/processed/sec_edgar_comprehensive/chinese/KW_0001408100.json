@@ -1,0 +1,47 @@
+{
+  "cik": "0001408100",
+  "ticker": "KW",
+  "name": "Kennedy-Wilson Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6500",
+  "sicDescription": "Real Estate",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "260508760",
+  "phone": "310-887-6400",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "151 S EL CAMINO DR",
+      "street2": null,
+      "city": "BEVERLY HILLS",
+      "stateOrCountry": "CA",
+      "zipCode": "90212",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "151 S EL CAMINO DR",
+      "street2": null,
+      "city": "BEVERLY HILLS",
+      "stateOrCountry": "CA",
+      "zipCode": "90212",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-18"
+  },
+  "filings_count": 1000
+}

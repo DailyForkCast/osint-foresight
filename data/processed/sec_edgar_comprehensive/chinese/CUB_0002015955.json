@@ -1,0 +1,48 @@
+{
+  "cik": "0002015955",
+  "ticker": "CUB",
+  "name": "Lionheart Holdings",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "6770",
+  "sicDescription": "Blank Checks",
+  "category": "Non-accelerated filer<br>Smaller reporting company<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "E9",
+  "ein": "981778167",
+  "phone": "3055733900",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "200 W. CYPRESS CREEK ROAD",
+      "street2": "SUITE 500",
+      "city": "FORT LAUDERDATE",
+      "stateOrCountry": "FL",
+      "zipCode": "33309",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "200 W. CYPRESS CREEK ROAD",
+      "street2": "SUITE 500",
+      "city": "FORT LAUDERDATE",
+      "stateOrCountry": "FL",
+      "zipCode": "33309",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-12"
+  },
+  "filings_count": 49
+}

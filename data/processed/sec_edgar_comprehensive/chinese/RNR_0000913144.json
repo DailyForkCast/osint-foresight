@@ -1,0 +1,48 @@
+{
+  "cik": "0000913144",
+  "ticker": "RNR",
+  "name": "RENAISSANCERE HOLDINGS LTD",
+  "detection_reasons": [
+    "offshore:bermuda",
+    "offshore:bm"
+  ],
+  "sic": "6331",
+  "sicDescription": "Fire, Marine & Casualty Insurance",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "D0",
+  "ein": "980138020",
+  "phone": "4412954513",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "RENAISSANCE HOUSE",
+      "street2": "12 CROW LANE",
+      "city": "PEMBROKE",
+      "stateOrCountry": "D0",
+      "zipCode": "HM19",
+      "stateOrCountryDescription": "Bermuda",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "RENAISSANCE HOUSE",
+      "street2": "12 CROW LANE",
+      "city": "PEMBROKE",
+      "stateOrCountry": "D0",
+      "zipCode": "HM19",
+      "stateOrCountryDescription": "Bermuda",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-07-24"
+  },
+  "filings_count": 1013
+}

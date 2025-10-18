@@ -1,0 +1,47 @@
+{
+  "cik": "0001464343",
+  "ticker": "ATLCZ",
+  "name": "Atlanticus Holdings Corp",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6141",
+  "sicDescription": "Personal Credit Institutions",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "GA",
+  "ein": "582336689",
+  "phone": "770-828-2000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "FIVE CONCOURSE PARKWAY",
+      "street2": "SUITE 300",
+      "city": "ATLANTA",
+      "stateOrCountry": "GA",
+      "zipCode": "30328",
+      "stateOrCountryDescription": "GA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "FIVE CONCOURSE PARKWAY",
+      "street2": "SUITE 300",
+      "city": "ATLANTA",
+      "stateOrCountry": "GA",
+      "zipCode": "30328",
+      "stateOrCountryDescription": "GA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-17"
+  },
+  "filings_count": 659
+}

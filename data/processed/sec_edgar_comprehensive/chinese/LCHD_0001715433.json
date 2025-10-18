@@ -1,0 +1,49 @@
+{
+  "cik": "0001715433",
+  "ticker": "LCHD",
+  "name": "Leader Capital Holdings Corp.",
+  "detection_reasons": [
+    "location:china",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "7371",
+  "sicDescription": "Services-Computer Programming Services",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "NV",
+  "ein": "371853394",
+  "phone": "852 3487 6378",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "RM. 711, 7F., NO. 89, SECTION 1,",
+      "street2": "ZHONGQING ROAD, NORTH DISTRICT,",
+      "city": "TAICHUNG",
+      "stateOrCountry": "F5",
+      "zipCode": "404638",
+      "stateOrCountryDescription": "Taiwan, Province of China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "RM. 711, 7F., NO. 89, SECTION 1,",
+      "street2": "ZHONGQING ROAD, NORTH DISTRICT,",
+      "city": "TAICHUNG",
+      "stateOrCountry": "F5",
+      "zipCode": "404638",
+      "stateOrCountryDescription": "Taiwan, Province of China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2023-10-10"
+  },
+  "filings_count": 97
+}

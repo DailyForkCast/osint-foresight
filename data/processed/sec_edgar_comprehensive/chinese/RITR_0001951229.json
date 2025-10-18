@@ -1,0 +1,49 @@
+{
+  "cik": "0001951229",
+  "ticker": "RITR",
+  "name": "Reitar Logtech Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong"
+  ],
+  "sic": "6510",
+  "sicDescription": "Real Estate Operators (No Developers) & Lessors",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "011 852 2554 5666",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT 801, 8/F, TOWER 2, THE QUAYSIDE",
+      "street2": "77 HOI BUN ROAD, KWUN TONG, KOWLOON",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "UNIT 801, 8/F, TOWER 2, THE QUAYSIDE",
+      "street2": "77 HOI BUN ROAD, KWUN TONG, KOWLOON",
+      "city": "HONG KONG",
+      "stateOrCountry": "K3",
+      "zipCode": "999077",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-09"
+  },
+  "filings_count": 57
+}

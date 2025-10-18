@@ -1,0 +1,48 @@
+{
+  "cik": "0000067088",
+  "ticker": "MUFG",
+  "name": "MITSUBISHI UFJ FINANCIAL GROUP INC",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:bm"
+  ],
+  "sic": "6029",
+  "sicDescription": "Commercial Banks, NEC",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "2125301784",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1251 AVENUE OF THE AMERICAS",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10020-1104",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "4-5, MARUNOUCHI 1-CHOME",
+      "street2": "CHIYODA-KU",
+      "city": "TOKYO",
+      "stateOrCountry": "M0",
+      "zipCode": "100-8330",
+      "stateOrCountryDescription": "Japan",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-12"
+  },
+  "filings_count": 1005
+}

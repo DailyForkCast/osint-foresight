@@ -1,0 +1,40 @@
+{
+  "dual_use_technologies": {
+    "CRITICAL": [
+      "artificial_intelligence",
+      "quantum_computing",
+      "semiconductors",
+      "nuclear_technology"
+    ],
+    "HIGH": [
+      "biotechnology",
+      "aerospace",
+      "telecommunications",
+      "cybersecurity"
+    ],
+    "MEDIUM": [
+      "advanced_materials",
+      "energy_storage"
+    ]
+  },
+  "risk_assessment_criteria": {
+    "technology_sensitivity": [
+      "CRITICAL",
+      "HIGH",
+      "MEDIUM",
+      "LOW"
+    ],
+    "collaboration_patterns": [
+      "technology_transfer",
+      "strategic_partnerships",
+      "funding_influence"
+    ],
+    "temporal_context": [
+      "pre_bri",
+      "bri_launch",
+      "expansion",
+      "trade_war",
+      "decoupling"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "cik": "0001758488",
+  "ticker": "OSW",
+  "name": "ONESPAWORLD HOLDINGS Ltd",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:bm"
+  ],
+  "sic": "7997",
+  "sicDescription": "Services-Membership Sports & Recreation Clubs",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "C5",
+  "ein": "000000000",
+  "phone": "242-322-2670",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "LOBOSKY MANAGEMENT CO. LTD., OFFICE #2",
+      "street2": "AIRPORT INDUSTRIAL PARK, BOX N-624",
+      "city": "NASSAU",
+      "stateOrCountry": "C5",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Bahamas",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "LOBOSKY MANAGEMENT CO. LTD., OFFICE #2",
+      "street2": "AIRPORT INDUSTRIAL PARK, BOX N-624",
+      "city": "NASSAU",
+      "stateOrCountry": "C5",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Bahamas",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 544
+}

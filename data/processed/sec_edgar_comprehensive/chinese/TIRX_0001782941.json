@@ -1,0 +1,52 @@
+{
+  "cik": "0001782941",
+  "ticker": "TIRX",
+  "name": "TIAN RUIXIANG HOLDINGS LTD",
+  "detection_reasons": [
+    "location:china",
+    "location:beijing",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "6411",
+  "sicDescription": "Insurance Agents, Brokers & Service",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "01087529409",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "21A JINGYUAN ART CENTER, 3 GUANGQU ROAD,",
+      "street2": "CHAOYANG DISTRICT,",
+      "city": "BEIJING",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "21A JINGYUAN ART CENTER, 3 GUANGQU ROAD,",
+      "street2": "CHAOYANG DISTRICT,",
+      "city": "BEIJING",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-12"
+  },
+  "filings_count": 131
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0000700923",
+  "ticker": "MYRG",
+  "name": "MYR GROUP INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "1623",
+  "sicDescription": "Water, Sewer, Pipeline, Comm & Power Line Construction",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "363158643",
+  "phone": "3032868000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "12121 GRANT STREET",
+      "street2": "SUITE 610",
+      "city": "THORNTON",
+      "stateOrCountry": "CO",
+      "zipCode": "80241",
+      "stateOrCountryDescription": "CO",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "12121 GRANT STREET",
+      "street2": "SUITE 610",
+      "city": "THORNTON",
+      "stateOrCountry": "CO",
+      "zipCode": "80241",
+      "stateOrCountryDescription": "CO",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-26"
+  },
+  "filings_count": 1000
+}

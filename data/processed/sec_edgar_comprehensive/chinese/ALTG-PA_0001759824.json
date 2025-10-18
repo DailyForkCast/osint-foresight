@@ -1,0 +1,47 @@
+{
+  "cik": "0001759824",
+  "ticker": "ALTG-PA",
+  "name": "ALTA EQUIPMENT GROUP INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5084",
+  "sicDescription": "Wholesale-Industrial Machinery & Equipment",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "832583782",
+  "phone": "(248) 449-6700",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "13211 MERRIMAN ROAD",
+      "street2": null,
+      "city": "LIVONIA",
+      "stateOrCountry": "MI",
+      "zipCode": "48150",
+      "stateOrCountryDescription": "MI",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "13211 MERRIMAN ROAD",
+      "street2": null,
+      "city": "LIVONIA",
+      "stateOrCountry": "MI",
+      "zipCode": "48150",
+      "stateOrCountryDescription": "MI",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-07"
+  },
+  "filings_count": 472
+}

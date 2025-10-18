@@ -1,0 +1,47 @@
+{
+  "cik": "0001475841",
+  "ticker": "NBHC",
+  "name": "National Bank Holdings Corp",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6021",
+  "sicDescription": "National Commercial Banks",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "270563799",
+  "phone": "303-892-8715",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "7800 EAST ORCHARD ROAD",
+      "street2": "SUITE 300",
+      "city": "GREENWOOD VILLAGE",
+      "stateOrCountry": "CO",
+      "zipCode": "80111",
+      "stateOrCountryDescription": "CO",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "7800 EAST ORCHARD ROAD",
+      "street2": "SUITE 300",
+      "city": "GREENWOOD VILLAGE",
+      "stateOrCountry": "CO",
+      "zipCode": "80111",
+      "stateOrCountryDescription": "CO",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-18"
+  },
+  "filings_count": 1006
+}

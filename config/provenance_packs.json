@@ -1,0 +1,432 @@
+[
+  {
+    "entity_id": "ENT_PROV_000",
+    "canonical_name": "Multi-Source Entity 1",
+    "sources": [
+      "OpenAIRE",
+      "OpenAlex",
+      "CORDIS",
+      "TED"
+    ],
+    "source_count": 4,
+    "aliases": [
+      "Multi Source Ent 1",
+      "MultiSource Entity 1",
+      "MSE1"
+    ],
+    "timeline_events": 0,
+    "provenance_chain": [
+      {
+        "source": "OpenAIRE",
+        "confidence": 0.8844999975780603,
+        "validation_method": "exact_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "OpenAlex",
+        "confidence": 0.8863644827281534,
+        "validation_method": "exact_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "CORDIS",
+        "confidence": 0.897993911694379,
+        "validation_method": "exact_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "TED",
+        "confidence": 0.9363593193955094,
+        "validation_method": "alias_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      }
+    ]
+  },
+  {
+    "entity_id": "ENT_PROV_001",
+    "canonical_name": "Multi-Source Entity 2",
+    "sources": [
+      "OpenAIRE",
+      "OpenAlex",
+      "CORDIS",
+      "TED"
+    ],
+    "source_count": 4,
+    "aliases": [
+      "MultiSource Entity 2",
+      "MSE2",
+      "Multi Source Ent 2"
+    ],
+    "timeline_events": 0,
+    "provenance_chain": [
+      {
+        "source": "OpenAIRE",
+        "confidence": 0.8505444498620072,
+        "validation_method": "exact_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "OpenAlex",
+        "confidence": 0.9651648742041201,
+        "validation_method": "alias_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "CORDIS",
+        "confidence": 0.8580206865273595,
+        "validation_method": "alias_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "TED",
+        "confidence": 0.9845174211796033,
+        "validation_method": "exact_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      }
+    ]
+  },
+  {
+    "entity_id": "ENT_PROV_002",
+    "canonical_name": "Multi-Source Entity 3",
+    "sources": [
+      "OpenAIRE",
+      "OpenAlex",
+      "CORDIS",
+      "TED"
+    ],
+    "source_count": 4,
+    "aliases": [
+      "MultiSource Entity 3",
+      "Multi Source Ent 3",
+      "MSE3"
+    ],
+    "timeline_events": 0,
+    "provenance_chain": [
+      {
+        "source": "OpenAIRE",
+        "confidence": 0.8791261971253151,
+        "validation_method": "fuzzy_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "OpenAlex",
+        "confidence": 0.9081750038150551,
+        "validation_method": "fuzzy_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "CORDIS",
+        "confidence": 0.9257867309878772,
+        "validation_method": "alias_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "TED",
+        "confidence": 0.9541352084769296,
+        "validation_method": "fuzzy_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      }
+    ]
+  },
+  {
+    "entity_id": "ENT_PROV_003",
+    "canonical_name": "Multi-Source Entity 4",
+    "sources": [
+      "OpenAIRE",
+      "OpenAlex",
+      "CORDIS",
+      "TED"
+    ],
+    "source_count": 4,
+    "aliases": [
+      "MSE4",
+      "MultiSource Entity 4",
+      "Multi Source Ent 4"
+    ],
+    "timeline_events": 0,
+    "provenance_chain": [
+      {
+        "source": "OpenAIRE",
+        "confidence": 0.9517030245135053,
+        "validation_method": "alias_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "OpenAlex",
+        "confidence": 0.9881876055967947,
+        "validation_method": "alias_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "CORDIS",
+        "confidence": 0.8667312413851752,
+        "validation_method": "fuzzy_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "TED",
+        "confidence": 0.887861573594729,
+        "validation_method": "alias_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      }
+    ]
+  },
+  {
+    "entity_id": "ENT_PROV_004",
+    "canonical_name": "Multi-Source Entity 5",
+    "sources": [
+      "OpenAIRE",
+      "OpenAlex",
+      "CORDIS",
+      "TED"
+    ],
+    "source_count": 4,
+    "aliases": [
+      "MultiSource Entity 5",
+      "Multi Source Ent 5",
+      "MSE5"
+    ],
+    "timeline_events": 0,
+    "provenance_chain": [
+      {
+        "source": "OpenAIRE",
+        "confidence": 0.8839329012099716,
+        "validation_method": "exact_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "OpenAlex",
+        "confidence": 0.9072040180153276,
+        "validation_method": "fuzzy_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "CORDIS",
+        "confidence": 0.9736874931034823,
+        "validation_method": "exact_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "TED",
+        "confidence": 0.8552992409168498,
+        "validation_method": "fuzzy_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      }
+    ]
+  },
+  {
+    "entity_id": "ENT_PROV_005",
+    "canonical_name": "Multi-Source Entity 6",
+    "sources": [
+      "OpenAIRE",
+      "OpenAlex",
+      "CORDIS",
+      "TED"
+    ],
+    "source_count": 4,
+    "aliases": [
+      "MultiSource Entity 6",
+      "MSE6",
+      "Multi Source Ent 6"
+    ],
+    "timeline_events": 0,
+    "provenance_chain": [
+      {
+        "source": "OpenAIRE",
+        "confidence": 0.9006101392311767,
+        "validation_method": "fuzzy_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "OpenAlex",
+        "confidence": 0.905385202006342,
+        "validation_method": "exact_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "CORDIS",
+        "confidence": 0.9651888149710837,
+        "validation_method": "fuzzy_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "TED",
+        "confidence": 0.9894862576389876,
+        "validation_method": "exact_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      }
+    ]
+  },
+  {
+    "entity_id": "ENT_PROV_006",
+    "canonical_name": "Multi-Source Entity 7",
+    "sources": [
+      "OpenAIRE",
+      "OpenAlex",
+      "CORDIS",
+      "TED"
+    ],
+    "source_count": 4,
+    "aliases": [
+      "Multi Source Ent 7",
+      "MSE7",
+      "MultiSource Entity 7"
+    ],
+    "timeline_events": 0,
+    "provenance_chain": [
+      {
+        "source": "OpenAIRE",
+        "confidence": 0.9800491629521496,
+        "validation_method": "alias_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "OpenAlex",
+        "confidence": 0.8762943903049919,
+        "validation_method": "alias_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "CORDIS",
+        "confidence": 0.9810582154802018,
+        "validation_method": "fuzzy_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "TED",
+        "confidence": 0.9188609516766613,
+        "validation_method": "exact_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      }
+    ]
+  },
+  {
+    "entity_id": "ENT_PROV_007",
+    "canonical_name": "Multi-Source Entity 8",
+    "sources": [
+      "OpenAIRE",
+      "OpenAlex",
+      "CORDIS",
+      "TED"
+    ],
+    "source_count": 4,
+    "aliases": [
+      "MSE8",
+      "MultiSource Entity 8",
+      "Multi Source Ent 8"
+    ],
+    "timeline_events": 0,
+    "provenance_chain": [
+      {
+        "source": "OpenAIRE",
+        "confidence": 0.952224461451662,
+        "validation_method": "alias_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "OpenAlex",
+        "confidence": 0.9106573028824794,
+        "validation_method": "fuzzy_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "CORDIS",
+        "confidence": 0.8587899233683944,
+        "validation_method": "exact_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "TED",
+        "confidence": 0.9412709779304225,
+        "validation_method": "alias_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      }
+    ]
+  },
+  {
+    "entity_id": "ENT_PROV_008",
+    "canonical_name": "Multi-Source Entity 9",
+    "sources": [
+      "OpenAIRE",
+      "OpenAlex",
+      "CORDIS",
+      "TED"
+    ],
+    "source_count": 4,
+    "aliases": [
+      "MSE9",
+      "MultiSource Entity 9",
+      "Multi Source Ent 9"
+    ],
+    "timeline_events": 0,
+    "provenance_chain": [
+      {
+        "source": "OpenAIRE",
+        "confidence": 0.8718416958854533,
+        "validation_method": "exact_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "OpenAlex",
+        "confidence": 0.9178992133330977,
+        "validation_method": "fuzzy_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "CORDIS",
+        "confidence": 0.9189576069684817,
+        "validation_method": "fuzzy_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "TED",
+        "confidence": 0.8990252308608945,
+        "validation_method": "exact_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      }
+    ]
+  },
+  {
+    "entity_id": "ENT_PROV_009",
+    "canonical_name": "Multi-Source Entity 10",
+    "sources": [
+      "OpenAIRE",
+      "OpenAlex",
+      "CORDIS",
+      "TED"
+    ],
+    "source_count": 4,
+    "aliases": [
+      "Multi Source Ent 10",
+      "MultiSource Entity 10",
+      "MSE10"
+    ],
+    "timeline_events": 0,
+    "provenance_chain": [
+      {
+        "source": "OpenAIRE",
+        "confidence": 0.9093275340523188,
+        "validation_method": "exact_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "OpenAlex",
+        "confidence": 0.95083560841806,
+        "validation_method": "exact_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "CORDIS",
+        "confidence": 0.9318752732061947,
+        "validation_method": "fuzzy_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      },
+      {
+        "source": "TED",
+        "confidence": 0.9146587276142342,
+        "validation_method": "alias_match",
+        "timestamp": "2025-09-24T18:12:16.369339"
+      }
+    ]
+  }
+]

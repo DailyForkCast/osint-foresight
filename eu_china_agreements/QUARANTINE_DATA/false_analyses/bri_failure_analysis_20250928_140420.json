@@ -1,0 +1,79 @@
+{
+  "analysis_date": "2025-09-28T14:04:20.993453",
+  "total_agreements_analyzed": 100,
+  "bri_analysis": {
+    "total": 2,
+    "by_type": {
+      "infrastructure": 0,
+      "ports": 1,
+      "railways": 0,
+      "energy": 0,
+      "digital": 0,
+      "financial": 0,
+      "other": 1
+    },
+    "sample_agreements": {
+      "ports": [
+        {
+          "url": "https://af.eureporter.co/world/china-2/china-eu/2024/04/19/join-hands-to-build-a-community-of-shared-future-and-create-a-brighter-future-for-china-belgium-all-round-partnership-of-friendly-cooperation-together/",
+          "domain": "af.eureporter.co"
+        }
+      ],
+      "other": [
+        {
+          "url": "https://www.euclaim.com/news/british-airways-is-launching-a-cooperation-with-china-southern",
+          "domain": "www.euclaim.com"
+        }
+      ]
+    }
+  },
+  "failed_projects": {
+    "total": 5,
+    "by_status": {
+      "cancelled": 0,
+      "suspended": 0,
+      "controversial": 0,
+      "renegotiated": 0,
+      "under_review": 5
+    },
+    "sample_projects": {
+      "under_review": [
+        {
+          "url": "https://www.eurasiareview.com/01102011-china-south-africa-boost-cooperation/",
+          "domain": "www.eurasiareview.com"
+        },
+        {
+          "url": "https://www.eurasiareview.com/05122018-china-was-desperate-for-a-trade-deal-but-g-20-agreement-is-a-mirage-oped/",
+          "domain": "www.eurasiareview.com"
+        },
+        {
+          "url": "https://www.isdp.eu/publication/book-review-thrassy-n-marketos-chinas-energy-geopolitics-shanghai-cooperation-organization-central-asia/",
+          "domain": "www.isdp.eu"
+        }
+      ]
+    }
+  },
+  "temporal_patterns": {
+    "craw": {
+      "total": 1,
+      "bri": 0,
+      "failed": 0
+    },
+    "2024": {
+      "total": 99,
+      "bri": 2,
+      "failed": 11
+    }
+  },
+  "sister_bri_overlap": 0,
+  "eu_country_involvement": {
+    "italy": 0,
+    "greece": 0,
+    "hungary": 0,
+    "poland": 0,
+    "portugal": 0,
+    "austria": 0,
+    "czech": 0,
+    "croatia": 0
+  }
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "form": "6-K",
+    "date": "2025-09-03",
+    "accession": "0001104659-25-086919",
+    "primary_doc": "tm2524950d1_6k.htm",
+    "company": "Sony Group Corp",
+    "country": "JP",
+    "cik": "0000313838",
+    "risks": {
+      "china_exposure": false,
+      "technology_transfer": false,
+      "supply_chain": false,
+      "regulatory_risk": false,
+      "vie_structure": true,
+      "risk_score": 10
+    }
+  },
+  {
+    "form": "6-K",
+    "date": "2025-08-06",
+    "accession": "0001193125-25-173921",
+    "primary_doc": "d31491d6k.htm",
+    "company": "HONDA MOTOR CO LTD",
+    "country": "JP",
+    "cik": "0000715153",
+    "risks": {
+      "china_exposure": false,
+      "technology_transfer": false,
+      "supply_chain": false,
+      "regulatory_risk": false,
+      "vie_structure": true,
+      "risk_score": 10
+    }
+  },
+  {
+    "form": "10-Q",
+    "date": "2025-08-07",
+    "accession": "0000950170-25-105148",
+    "primary_doc": "fxy-20250630.htm",
+    "company": "Invesco CurrencyShares Japanese Yen Trust",
+    "country": "JP",
+    "cik": "0001353613",
+    "risks": {
+      "china_exposure": false,
+      "technology_transfer": false,
+      "supply_chain": false,
+      "regulatory_risk": false,
+      "vie_structure": true,
+      "risk_score": 10
+    }
+  },
+  {
+    "form": "10-Q",
+    "date": "2025-05-08",
+    "accession": "0000950170-25-067197",
+    "primary_doc": "fxy-20250331.htm",
+    "company": "Invesco CurrencyShares Japanese Yen Trust",
+    "country": "JP",
+    "cik": "0001353613",
+    "risks": {
+      "china_exposure": false,
+      "technology_transfer": false,
+      "supply_chain": false,
+      "regulatory_risk": false,
+      "vie_structure": true,
+      "risk_score": 10
+    }
+  },
+  {
+    "form": "10-K",
+    "date": "2025-02-26",
+    "accession": "0000950170-25-027263",
+    "primary_doc": "fxy-20241231.htm",
+    "company": "Invesco CurrencyShares Japanese Yen Trust",
+    "country": "JP",
+    "cik": "0001353613",
+    "risks": {
+      "china_exposure": false,
+      "technology_transfer": false,
+      "supply_chain": true,
+      "regulatory_risk": true,
+      "vie_structure": true,
+      "risk_score": 30
+    }
+  }
+]

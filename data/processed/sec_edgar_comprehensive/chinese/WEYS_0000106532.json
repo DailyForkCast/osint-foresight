@@ -1,0 +1,47 @@
+{
+  "cik": "0000106532",
+  "ticker": "WEYS",
+  "name": "WEYCO GROUP INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5130",
+  "sicDescription": "Wholesale-Apparel, Piece Goods & Notions",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "WI",
+  "ein": "390702200",
+  "phone": "414-908-1600",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "333 W. ESTABROOK BOULEVARD",
+      "street2": null,
+      "city": "GLENDALE",
+      "stateOrCountry": "WI",
+      "zipCode": "53312",
+      "stateOrCountryDescription": "WI",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "333 W. ESTABROOK BOULEVARD",
+      "street2": null,
+      "city": "GLENDALE",
+      "stateOrCountry": "WI",
+      "zipCode": "53312",
+      "stateOrCountryDescription": "WI",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-16"
+  },
+  "filings_count": 1000
+}

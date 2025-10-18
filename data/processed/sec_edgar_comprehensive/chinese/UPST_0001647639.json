@@ -1,0 +1,44 @@
+{
+  "cik": "0001647639",
+  "ticker": "UPST",
+  "name": "Upstart Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6199",
+  "sicDescription": "Finance Services",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "464332431",
+  "phone": "(650) 204-1000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2950 S. DELAWARE STREET, SUITE 410",
+      "street2": null,
+      "city": "SAN MATEO",
+      "stateOrCountry": "CA",
+      "zipCode": "94403",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2950 S. DELAWARE STREET, SUITE 410",
+      "street2": null,
+      "city": "SAN MATEO",
+      "stateOrCountry": "CA",
+      "zipCode": "94403",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 808
+}

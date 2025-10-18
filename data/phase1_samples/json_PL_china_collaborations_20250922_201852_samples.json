@@ -1,0 +1,15 @@
+{
+  "dataset": "json_PL_china_collaborations_20250922_201852",
+  "source_path": "data\\processed\\openaire_verified\\PL_china_collaborations_20250922_201852.json",
+  "size_bytes": 14530,
+  "samples": {
+    "country": "PL",
+    "total_found": 1,
+    "method": "keyword_search",
+    "keywords_used": [
+      "China",
+      "Chinese"
+    ],
+    "collection_date": "2025-09-22T20:18:52.237278"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "cik": "0002053456",
+  "ticker": "TGE-WT",
+  "name": "Generation Essentials Group",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:ky"
+  ],
+  "sic": "2721",
+  "sicDescription": "Periodicals: Publishing or  Publishing & Printing",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "330142364597",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "PO BOX 2681, HUTCHINS DRIVE",
+      "street2": "CRICKET SQUARE, GRAND CAYMAN",
+      "city": "GEORGE TOWN",
+      "stateOrCountry": "E9",
+      "zipCode": "KY1-1111",
+      "stateOrCountryDescription": "Cayman Islands",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "PO BOX 2681, HUTCHINS DRIVE",
+      "street2": "CRICKET SQUARE, GRAND CAYMAN",
+      "city": "GEORGE TOWN",
+      "stateOrCountry": "E9",
+      "zipCode": "KY1-1111",
+      "stateOrCountryDescription": "Cayman Islands",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-22"
+  },
+  "filings_count": 48
+}

@@ -1,0 +1,44 @@
+{
+  "cik": "0000096223",
+  "ticker": "JEF",
+  "name": "Jefferies Financial Group Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6211",
+  "sicDescription": "Security Brokers, Dealers & Flotation Companies",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "NY",
+  "ein": "132615557",
+  "phone": "2124601900",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "520 MADISON AVENUE",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10022",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "520 MADISON AVENUE",
+      "street2": null,
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10022",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1002
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0001463833",
+  "ticker": "IDWM",
+  "name": "IDW MEDIA HOLDINGS, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7310",
+  "sicDescription": "Services-Advertising",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "264831346",
+  "phone": "973-438-3385",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "520 BROAD STREET",
+      "street2": null,
+      "city": "NEWARK",
+      "stateOrCountry": "NJ",
+      "zipCode": "07102",
+      "stateOrCountryDescription": "NJ",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "520 BROAD STREET",
+      "street2": null,
+      "city": "NEWARK",
+      "stateOrCountry": "NJ",
+      "zipCode": "07102",
+      "stateOrCountryDescription": "NJ",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2023-05-15"
+  },
+  "filings_count": 217
+}

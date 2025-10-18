@@ -1,0 +1,50 @@
+{
+  "cik": "0001954705",
+  "ticker": "FFFZ",
+  "name": "Fuxing China Group Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:fujian",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "3990",
+  "sicDescription": "Miscellaneous Manufacturing Industries",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "F4",
+  "ein": "000000000",
+  "phone": "86-595-85287788",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "HANGBIAN INDUSTRY AREA",
+      "street2": "LONGHU TOWN",
+      "city": "JINJIANG CITY, FUJIAN PROVINCE",
+      "stateOrCountry": "F4",
+      "zipCode": "362241",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "HANGBIAN INDUSTRY AREA",
+      "street2": "LONGHU TOWN",
+      "city": "JINJIANG CITY, FUJIAN PROVINCE",
+      "stateOrCountry": "F4",
+      "zipCode": "362241",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-15"
+  },
+  "filings_count": 42
+}

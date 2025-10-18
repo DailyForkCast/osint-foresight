@@ -1,0 +1,48 @@
+{
+  "cik": "0001734713",
+  "ticker": "BV",
+  "name": "BrightView Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm",
+    "vie_structure"
+  ],
+  "sic": "0700",
+  "sicDescription": "Agricultural Services",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "464190788",
+  "phone": "(484) 567-7204",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "980 JOLLY ROAD",
+      "street2": "SUITE 300",
+      "city": "BLUE BELL",
+      "stateOrCountry": "PA",
+      "zipCode": "19422",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "980 JOLLY ROAD",
+      "street2": "SUITE 300",
+      "city": "BLUE BELL",
+      "stateOrCountry": "PA",
+      "zipCode": "19422",
+      "stateOrCountryDescription": "PA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-06"
+  },
+  "filings_count": 568
+}

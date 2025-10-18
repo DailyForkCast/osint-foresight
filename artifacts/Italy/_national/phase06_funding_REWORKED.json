@@ -1,0 +1,81 @@
+{
+  "phase": 6,
+  "country": "Italy",
+  "generated": "2025-09-19T07:40:42.651631",
+  "public_funding": {
+    "national_rd_budget": {
+      "total": 9.2,
+      "unit": "billion EUR",
+      "year": 2024,
+      "allocation": {
+        "universities": 0.45,
+        "research_institutes": 0.3,
+        "business_rd": 0.25
+      },
+      "confidence": 0.9,
+      "uncertainty": 0.05
+    },
+    "eu_funding": {
+      "horizon_europe": 1.2,
+      "recovery_fund": 2.8,
+      "digital_europe": 0.4,
+      "unit": "billion EUR",
+      "china_participant_projects": 23,
+      "confidence": 0.85,
+      "uncertainty": 0.1
+    }
+  },
+  "chinese_investment": {
+    "direct_investment": {
+      "total": 2.3,
+      "unit": "billion EUR",
+      "sectors": {
+        "automotive": 0.8,
+        "energy": 0.5,
+        "technology": 0.3,
+        "infrastructure": 0.7
+      },
+      "confidence": 0.7,
+      "uncertainty": 0.15
+    },
+    "ownership_chains": {
+      "traced_to_china": 45,
+      "state_owned": 12,
+      "private_unclear": 15,
+      "verification_method": "LEI parent chains",
+      "opensanctions_checks": 8,
+      "confidence": 0.65,
+      "uncertainty": 0.2
+    }
+  },
+  "venture_capital": {
+    "chinese_vc_activity": {
+      "deals": 23,
+      "value": 234,
+      "unit": "million EUR",
+      "sectors": [
+        "AI",
+        "Biotech",
+        "Cleantech"
+      ],
+      "notable_investments": [
+        "AI startup in Milan",
+        "Battery tech in Turin",
+        "Robotics in Pisa"
+      ],
+      "confidence": 0.6,
+      "uncertainty": 0.25
+    }
+  },
+  "counterfactual_check": {
+    "chinese_investment_comparison": {
+      "italy": 2.3,
+      "germany": 3.4,
+      "france": 2.8,
+      "uk": 4.1,
+      "assessment": "Below major EU peers",
+      "confidence": 0.75,
+      "uncertainty": 0.15
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "original_path": "F:\\OSINT_DATA\\epo_provenance_collection\\provenance_log.jsonl",
+  "profile": {
+    "path": "F:\\OSINT_DATA\\epo_provenance_collection\\provenance_log.jsonl",
+    "size": 38687,
+    "extension": ".jsonl",
+    "encoding": "utf-8",
+    "line_count": 54,
+    "field_count": 3,
+    "parse_status": "success",
+    "schema": {
+      "timestamp": "string",
+      "action": "string",
+      "data": "object"
+    },
+    "sample_records": [
+      {
+        "timestamp": "2025-09-21T22:15:40.232049",
+        "action": "query_attempt",
+        "data": {
+          "query": "pa=china AND pa=germany",
+          "range": "1-1",
+          "url": "https://ops.epo.org/3.2/rest-services/published-data/search",
+          "timestamp": "2025-09-21T22:15:40.232049"
+        }
+      },
+      {
+        "timestamp": "2025-09-21T22:15:40.762922",
+        "action": "query_response",
+        "data": {
+          "query": "pa=china AND pa=germany",
+          "range": "1-1",
+          "status_code": 200,
+          "duration_ms": 530.873,
+          "response_size_bytes": 529,
+          "headers": {
+            "x-throttling-control": "idle (images=green:200, inpadoc=green:60, other=green:1000, retrieval=green:200, search=green:30)",
+            "cache-control": "must-revalidate, max-age=86400",
+            "vary": "Accept",
+            "x-elapsed-time": "146",
+            "etag": "\"0417af9f40510b8df81164e8ab974845c\"",
+            "content-type": "application/json;charset=utf-8",
+            "Content-Length": "529",
+            "date": "Mon, 22 Sep 2025 02:15:39 GMT",
+            "access-control-allow-methods": "POST",
+            "access-control-allow-origin": "*",
+            "via": "1.1 google, 1.1 google",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000, h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "x-api": "ops-v3.2",
+            "x-individualquotaperhour-used": "1719269",
+            "x-registeredquotaperweek-used": "1719269",
+            "x-epo-client-ip": "108.48.193.158",
+            "x-epo-forwarded": "[108.48.193.158, 34.120.53.27, 35.191.105.165]",
+            "access-control-allow-headers": "origin, x-requested-with, accept, content-type, authorization",
+            "x-request-id": "97ef05b7-8038-4257-8bcc-ec7321fa5faa",
+            "x-accel-buffering": "no",
+            "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload"
+          }
+        }
+      },
+      {
+        "timestamp": "2025-09-21T22:15:40.829943",
+        "action": "query_attempt",
+        "data": {
+          "query": "pa=china AND pa=germany",
+          "range": "1-100",
+          "url": "https://ops.epo.org/3.2/rest-services/published-data/search",
+          "timestamp": "2025-09-21T22:15:40.829943"
+        }
+      },
+      {
+        "timestamp": "2025-09-21T22:15:41.283557",
+        "action": "query_response",
+        "data": {
+          "query": "pa=china AND pa=germany",
+          "range": "1-100",
+          "status_code": 200,
+          "duration_ms": 453.61400000000003,
+          "response_size_bytes": 16690,
+          "headers": {
+            "x-throttling-control": "idle (images=green:200, inpadoc=green:60, other=green:1000, retrieval=green:200, search=green:30)",
+            "cache-control": "must-revalidate, max-age=86400",
+            "vary": "Accept",
+            "x-elapsed-time": "205",
+            "etag": "\"088c57a6b22f17dab13a14e3669241c2c\"",
+            "content-type": "application/json;charset=utf-8",
+            "Content-Length": "16690",
+            "date": "Mon, 22 Sep 2025 02:15:40 GMT",
+            "access-control-allow-methods": "POST",
+            "access-control-allow-origin": "*",
+            "via": "1.1 google, 1.1 google",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000, h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "x-api": "ops-v3.2",
+            "x-individualquotaperhour-used": "1735959",
+            "x-registeredquotaperweek-used": "1735959",
+            "x-epo-client-ip": "108.48.193.158",
+            "x-epo-forwarded": "[108.48.193.158, 34.120.53.27, 35.191.105.165]",
+            "access-control-allow-headers": "origin, x-requested-with, accept, content-type, authorization",
+            "x-request-id": "58d15228-ec5d-4546-9088-06fc42212902",
+            "x-accel-buffering": "no",
+            "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload"
+          }
+        }
+      },
+      {
+        "timestamp": "2025-09-21T22:15:43.358478",
+        "action": "query_attempt",
+        "data": {
+          "query": "pa=china AND pa=germany",
+          "range": "101-200",
+          "url": "https://ops.epo.org/3.2/rest-services/published-data/search",
+          "timestamp": "2025-09-21T22:15:43.358478"
+        }
+      }
+    ],
+    "modified": "2025-09-21T22:16:26"
+  },
+  "sample_data": [
+    {
+      "timestamp": "2025-09-21T22:15:40.232049",
+      "action": "query_attempt",
+      "data": {
+        "query": "pa=china AND pa=germany",
+        "range": "1-1",
+        "url": "https://ops.epo.org/3.2/rest-services/published-data/search",
+        "timestamp": "2025-09-21T22:15:40.232049"
+      }
+    },
+    {
+      "timestamp": "2025-09-21T22:15:40.762922",
+      "action": "query_response",
+      "data": {
+        "query": "pa=china AND pa=germany",
+        "range": "1-1",
+        "status_code": 200,
+        "duration_ms": 530.873,
+        "response_size_bytes": 529,
+        "headers": {
+          "x-throttling-control": "idle (images=green:200, inpadoc=green:60, other=green:1000, retrieval=green:200, search=green:30)",
+          "cache-control": "must-revalidate, max-age=86400",
+          "vary": "Accept",
+          "x-elapsed-time": "146",
+          "etag": "\"0417af9f40510b8df81164e8ab974845c\"",
+          "content-type": "application/json;charset=utf-8",
+          "Content-Length": "529",
+          "date": "Mon, 22 Sep 2025 02:15:39 GMT",
+          "access-control-allow-methods": "POST",
+          "access-control-allow-origin": "*",
+          "via": "1.1 google, 1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000, h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "x-api": "ops-v3.2",
+          "x-individualquotaperhour-used": "1719269",
+          "x-registeredquotaperweek-used": "1719269",
+          "x-epo-client-ip": "108.48.193.158",
+          "x-epo-forwarded": "[108.48.193.158, 34.120.53.27, 35.191.105.165]",
+          "access-control-allow-headers": "origin, x-requested-with, accept, content-type, authorization",
+          "x-request-id": "97ef05b7-8038-4257-8bcc-ec7321fa5faa",
+          "x-accel-buffering": "no",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-09-21T22:15:40.829943",
+      "action": "query_attempt",
+      "data": {
+        "query": "pa=china AND pa=germany",
+        "range": "1-100",
+        "url": "https://ops.epo.org/3.2/rest-services/published-data/search",
+        "timestamp": "2025-09-21T22:15:40.829943"
+      }
+    },
+    {
+      "timestamp": "2025-09-21T22:15:41.283557",
+      "action": "query_response",
+      "data": {
+        "query": "pa=china AND pa=germany",
+        "range": "1-100",
+        "status_code": 200,
+        "duration_ms": 453.61400000000003,
+        "response_size_bytes": 16690,
+        "headers": {
+          "x-throttling-control": "idle (images=green:200, inpadoc=green:60, other=green:1000, retrieval=green:200, search=green:30)",
+          "cache-control": "must-revalidate, max-age=86400",
+          "vary": "Accept",
+          "x-elapsed-time": "205",
+          "etag": "\"088c57a6b22f17dab13a14e3669241c2c\"",
+          "content-type": "application/json;charset=utf-8",
+          "Content-Length": "16690",
+          "date": "Mon, 22 Sep 2025 02:15:40 GMT",
+          "access-control-allow-methods": "POST",
+          "access-control-allow-origin": "*",
+          "via": "1.1 google, 1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000, h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "x-api": "ops-v3.2",
+          "x-individualquotaperhour-used": "1735959",
+          "x-registeredquotaperweek-used": "1735959",
+          "x-epo-client-ip": "108.48.193.158",
+          "x-epo-forwarded": "[108.48.193.158, 34.120.53.27, 35.191.105.165]",
+          "access-control-allow-headers": "origin, x-requested-with, accept, content-type, authorization",
+          "x-request-id": "58d15228-ec5d-4546-9088-06fc42212902",
+          "x-accel-buffering": "no",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-09-21T22:15:43.358478",
+      "action": "query_attempt",
+      "data": {
+        "query": "pa=china AND pa=germany",
+        "range": "101-200",
+        "url": "https://ops.epo.org/3.2/rest-services/published-data/search",
+        "timestamp": "2025-09-21T22:15:43.358478"
+      }
+    }
+  ]
+}

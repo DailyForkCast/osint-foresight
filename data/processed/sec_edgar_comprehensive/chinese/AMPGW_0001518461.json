@@ -1,0 +1,47 @@
+{
+  "cik": "0001518461",
+  "ticker": "AMPGW",
+  "name": "AmpliTech Group, Inc.",
+  "detection_reasons": [
+    "vie_structure"
+  ],
+  "sic": "3669",
+  "sicDescription": "Communications Equipment, NEC",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "NV",
+  "ein": "274566352",
+  "phone": "631-521-7831",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "155 PLANT AVENUE",
+      "street2": null,
+      "city": "HAUPPAUGE",
+      "stateOrCountry": "NY",
+      "zipCode": "11788",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "155 PLANT AVENUE",
+      "street2": null,
+      "city": "HAUPPAUGE",
+      "stateOrCountry": "NY",
+      "zipCode": "11788",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-14"
+  },
+  "filings_count": 330
+}

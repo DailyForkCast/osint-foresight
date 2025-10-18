@@ -1,0 +1,47 @@
+{
+  "cik": "0001427570",
+  "ticker": "HIND",
+  "name": "Vyome Holdings, Inc",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2834",
+  "sicDescription": "Pharmaceutical Preparations",
+  "category": "<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "949-429-6680",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1001 CALLE AMANECER",
+      "street2": null,
+      "city": "SAN CLEMENTE",
+      "stateOrCountry": "CA",
+      "zipCode": "92673",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1001 CALLE AMANECER",
+      "street2": null,
+      "city": "SAN CLEMENTE",
+      "stateOrCountry": "CA",
+      "zipCode": "92673",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-02"
+  },
+  "filings_count": 662
+}

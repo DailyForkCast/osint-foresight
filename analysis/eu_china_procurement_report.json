@@ -1,0 +1,363 @@
+{
+  "timestamp": "2025-09-28T14:00:31.096947",
+  "eu_countries_analyzed": 27,
+  "total_contracts": 34523,
+  "chinese_contracts": 8,
+  "by_country": {
+    "AT": {
+      "total_contracts": 181,
+      "chinese_contracts": 0,
+      "chinese_contractors": [],
+      "sectors_exposed": {},
+      "total_value_to_china": 0,
+      "critical_dependencies": []
+    },
+    "BE": {
+      "total_contracts": 64,
+      "chinese_contracts": 1,
+      "chinese_contractors": [
+        {
+          "name": "APELL National Center for Disaster Management Foundation (CN APELL)",
+          "confidence": 1.0,
+          "evidence": "IMMEDIATE ATTENTION: Confirmed Chinese entity",
+          "contract_id": "2024/S 020-055943",
+          "cpv_code": "[\"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\", \"80560000\"]",
+          "value": 2392200.0
+        }
+      ],
+      "sectors_exposed": {
+        "[\"": 1
+      },
+      "total_value_to_china": 2392200.0,
+      "critical_dependencies": []
+    },
+    "BG": {
+      "total_contracts": 942,
+      "chinese_contracts": 0,
+      "chinese_contractors": [],
+      "sectors_exposed": {},
+      "total_value_to_china": 0,
+      "critical_dependencies": []
+    },
+    "HR": {
+      "total_contracts": 277,
+      "chinese_contracts": 0,
+      "chinese_contractors": [],
+      "sectors_exposed": {},
+      "total_value_to_china": 0,
+      "critical_dependencies": []
+    },
+    "CY": {
+      "total_contracts": 119,
+      "chinese_contracts": 0,
+      "chinese_contractors": [],
+      "sectors_exposed": {},
+      "total_value_to_china": 0,
+      "critical_dependencies": []
+    },
+    "CZ": {
+      "total_contracts": 2444,
+      "chinese_contracts": 6,
+      "chinese_contractors": [
+        {
+          "name": "A.M.I. - Analytical Medical Instruments, s.r.o.",
+          "confidence": 0.65,
+          "evidence": "INVESTIGATE: Probably Chinese entity",
+          "contract_id": "2024/S 011-027906",
+          "cpv_code": "[\"50421000\", \"50421000\"]",
+          "value": 9132900.0
+        },
+        {
+          "name": "O2 Czech Republic a.s.",
+          "confidence": 0.9,
+          "evidence": "HIGH PRIORITY: Very likely Chinese entity",
+          "contract_id": "2024/S 011-028482",
+          "cpv_code": "[\"64200000\", \"64200000\"]",
+          "value": 38760.0
+        },
+        {
+          "name": "HELAGO-CZ, s.r.o.",
+          "confidence": 0.9,
+          "evidence": "HIGH PRIORITY: Very likely Chinese entity",
+          "contract_id": "2024/S 016-044408",
+          "cpv_code": "[\"38970000\", \"38970000\", \"38970000\"]",
+          "value": 168880.0
+        },
+        {
+          "name": "Dopravn\u011b in\u017een\u00fdrsk\u00e1 kancel\u00e1\u0159, s.r.o.",
+          "confidence": 0.9,
+          "evidence": "HIGH PRIORITY: Very likely Chinese entity",
+          "contract_id": "2024/S 019-052344",
+          "cpv_code": "[\"71000000\", \"71000000\"]",
+          "value": 1977700.0
+        },
+        {
+          "name": "MO Atelier s.r.o. ",
+          "confidence": 0.9,
+          "evidence": "HIGH PRIORITY: Very likely Chinese entity",
+          "contract_id": "2024/S 012-031911",
+          "cpv_code": "[\"71000000\"]",
+          "value": 4850000.0
+        },
+        {
+          "name": "Veolia Komodity \u010cR, s.r.o.",
+          "confidence": 0.9,
+          "evidence": "HIGH PRIORITY: Very likely Chinese entity",
+          "contract_id": "2024/S 015-040679",
+          "cpv_code": "[\"09123000\", \"09123000\", \"09123000\"]",
+          "value": 66000000.0
+        }
+      ],
+      "sectors_exposed": {
+        "[\"": 6
+      },
+      "total_value_to_china": 82168240.0,
+      "critical_dependencies": []
+    },
+    "DK": {
+      "total_contracts": 65,
+      "chinese_contracts": 0,
+      "chinese_contractors": [],
+      "sectors_exposed": {},
+      "total_value_to_china": 0,
+      "critical_dependencies": []
+    },
+    "EE": {
+      "total_contracts": 0,
+      "chinese_contracts": 0,
+      "chinese_contractors": [],
+      "sectors_exposed": {},
+      "total_value_to_china": 0,
+      "critical_dependencies": []
+    },
+    "FI": {
+      "total_contracts": 2,
+      "chinese_contracts": 0,
+      "chinese_contractors": [],
+      "sectors_exposed": {},
+      "total_value_to_china": 0,
+      "critical_dependencies": []
+    },
+    "FR": {
+      "total_contracts": 1656,
+      "chinese_contracts": 0,
+      "chinese_contractors": [],
+      "sectors_exposed": {},
+      "total_value_to_china": 0,
+      "critical_dependencies": []
+    },
+    "DE": {
+      "total_contracts": 689,
+      "chinese_contracts": 0,
+      "chinese_contractors": [],
+      "sectors_exposed": {},
+      "total_value_to_china": 0,
+      "critical_dependencies": []
+    },
+    "GR": {
+      "total_contracts": 356,
+      "chinese_contracts": 0,
+      "chinese_contractors": [],
+      "sectors_exposed": {},
+      "total_value_to_china": 0,
+      "critical_dependencies": []
+    },
+    "HU": {
+      "total_contracts": 2,
+      "chinese_contracts": 0,
+      "chinese_contractors": [],
+      "sectors_exposed": {},
+      "total_value_to_china": 0,
+      "critical_dependencies": []
+    },
+    "IE": {
+      "total_contracts": 40,
+      "chinese_contracts": 0,
+      "chinese_contractors": [],
+      "sectors_exposed": {},
+      "total_value_to_china": 0,
+      "critical_dependencies": []
+    },
+    "IT": {
+      "total_contracts": 748,
+      "chinese_contracts": 0,
+      "chinese_contractors": [],
+      "sectors_exposed": {},
+      "total_value_to_china": 0,
+      "critical_dependencies": []
+    },
+    "LV": {
+      "total_contracts": 0,
+      "chinese_contracts": 0,
+      "chinese_contractors": [],
+      "sectors_exposed": {},
+      "total_value_to_china": 0,
+      "critical_dependencies": []
+    },
+    "LT": {
+      "total_contracts": 227,
+      "chinese_contracts": 0,
+      "chinese_contractors": [],
+      "sectors_exposed": {},
+      "total_value_to_china": 0,
+      "critical_dependencies": []
+    },
+    "LU": {
+      "total_contracts": 17,
+      "chinese_contracts": 0,
+      "chinese_contractors": [],
+      "sectors_exposed": {},
+      "total_value_to_china": 0,
+      "critical_dependencies": []
+    },
+    "MT": {
+      "total_contracts": 23,
+      "chinese_contracts": 0,
+      "chinese_contractors": [],
+      "sectors_exposed": {},
+      "total_value_to_china": 0,
+      "critical_dependencies": []
+    },
+    "NL": {
+      "total_contracts": 3,
+      "chinese_contracts": 0,
+      "chinese_contractors": [],
+      "sectors_exposed": {},
+      "total_value_to_china": 0,
+      "critical_dependencies": []
+    },
+    "PL": {
+      "total_contracts": 1874,
+      "chinese_contracts": 0,
+      "chinese_contractors": [],
+      "sectors_exposed": {},
+      "total_value_to_china": 0,
+      "critical_dependencies": []
+    },
+    "PT": {
+      "total_contracts": 581,
+      "chinese_contracts": 1,
+      "chinese_contractors": [
+        {
+          "name": "Chongqing Taishan Cable Co., Ltd",
+          "confidence": 0.8785714285714284,
+          "evidence": "HIGH PRIORITY: Very likely Chinese entity",
+          "contract_id": "2024/S 016-044315",
+          "cpv_code": "[\"31321000\", \"31321000\", \"31321000\", \"31321000\"]",
+          "value": 5125095.0
+        }
+      ],
+      "sectors_exposed": {
+        "[\"": 1
+      },
+      "total_value_to_china": 5125095.0,
+      "critical_dependencies": []
+    },
+    "RO": {
+      "total_contracts": 164,
+      "chinese_contracts": 0,
+      "chinese_contractors": [],
+      "sectors_exposed": {},
+      "total_value_to_china": 0,
+      "critical_dependencies": []
+    },
+    "SK": {
+      "total_contracts": 1,
+      "chinese_contracts": 0,
+      "chinese_contractors": [],
+      "sectors_exposed": {},
+      "total_value_to_china": 0,
+      "critical_dependencies": []
+    },
+    "SI": {
+      "total_contracts": 184,
+      "chinese_contracts": 0,
+      "chinese_contractors": [],
+      "sectors_exposed": {},
+      "total_value_to_china": 0,
+      "critical_dependencies": []
+    },
+    "ES": {
+      "total_contracts": 1197,
+      "chinese_contracts": 0,
+      "chinese_contractors": [],
+      "sectors_exposed": {},
+      "total_value_to_china": 0,
+      "critical_dependencies": []
+    },
+    "SE": {
+      "total_contracts": 75,
+      "chinese_contracts": 0,
+      "chinese_contractors": [],
+      "sectors_exposed": {},
+      "total_value_to_china": 0,
+      "critical_dependencies": []
+    }
+  },
+  "by_sector": {},
+  "by_year": {
+    "2024": {
+      "total_contracts": 12084,
+      "chinese_contracts": 2,
+      "penetration_rate": 0.00016550810989738498
+    }
+  },
+  "critical_findings": [
+    {
+      "type": "Known Chinese Company",
+      "company": "ACTIVE ENERGY Ryszard Kasztelan",
+      "pattern_matched": "ZTE",
+      "contracts": 1,
+      "countries": "PL",
+      "total_value": 0
+    },
+    {
+      "type": "Known Chinese Company",
+      "company": "ARBYD CZ s.r.o.",
+      "pattern_matched": "BYD",
+      "contracts": 1,
+      "countries": "CZ",
+      "total_value": 10935846.0
+    },
+    {
+      "type": "Known Chinese Company",
+      "company": "Citonet Bydgoszcz sp. z o.o.",
+      "pattern_matched": "BYD",
+      "contracts": 1,
+      "countries": "PL",
+      "total_value": 1509378.5
+    },
+    {
+      "type": "Known Chinese Company",
+      "company": "Pojazdy Szynowe PESA Bydgoszcz Sp\u00f3\u0142ka Akcyjna",
+      "pattern_matched": "BYD",
+      "contracts": 1,
+      "countries": "PL",
+      "total_value": 471616000.0
+    },
+    {
+      "type": "Known Chinese Company",
+      "company": "Savicon Piotr Szulborski",
+      "pattern_matched": "AVIC",
+      "contracts": 1,
+      "countries": "PL",
+      "total_value": 2319416.0
+    },
+    {
+      "type": "Chinese Country Code",
+      "company": "Chongqing Taishan Cable Co., Ltd",
+      "country_code": "CN",
+      "contracts": 1,
+      "eu_countries": "PT"
+    },
+    {
+      "type": "Chinese Country Code",
+      "company": "JiangFeng Pipeline Group Co., Ltd",
+      "country_code": "CN",
+      "contracts": 1,
+      "eu_countries": "CN"
+    }
+  ],
+  "technology_transfers": [],
+  "high_risk_contracts": []
+}

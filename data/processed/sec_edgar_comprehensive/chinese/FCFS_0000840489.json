@@ -1,0 +1,49 @@
+{
+  "cik": "0000840489",
+  "ticker": "FCFS",
+  "name": "FirstCash Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:bm",
+    "vie_structure"
+  ],
+  "sic": "5900",
+  "sicDescription": "Retail-Miscellaneous Retail",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "752237318",
+  "phone": "817-258-2650",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1600 WEST 7TH STREET",
+      "street2": null,
+      "city": "FORT WORTH",
+      "stateOrCountry": "TX",
+      "zipCode": "76102",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1600 WEST 7TH STREET",
+      "street2": null,
+      "city": "FORT WORTH",
+      "stateOrCountry": "TX",
+      "zipCode": "76102",
+      "stateOrCountryDescription": "TX",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-21"
+  },
+  "filings_count": 1000
+}

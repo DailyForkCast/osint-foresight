@@ -1,0 +1,47 @@
+{
+  "cik": "0000910406",
+  "ticker": "HAIN",
+  "name": "HAIN CELESTIAL GROUP INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2000",
+  "sicDescription": "Food and Kindred Products",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "223240619",
+  "phone": "5165875000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "221 RIVER STREET, 12TH FLOOR",
+      "street2": null,
+      "city": "HOBOKEN",
+      "stateOrCountry": "NJ",
+      "zipCode": "07030",
+      "stateOrCountryDescription": "NJ",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "221 RIVER STREET, 12TH FLOOR",
+      "street2": null,
+      "city": "HOBOKEN",
+      "stateOrCountry": "NJ",
+      "zipCode": "07030",
+      "stateOrCountryDescription": "NJ",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-K",
+    "date": "2025-09-15"
+  },
+  "filings_count": 1000
+}

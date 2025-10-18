@@ -1,0 +1,233 @@
+{
+  "countries": {
+    "IT": {
+      "name": "Italy",
+      "native_name": "Italia",
+      "iso2": "IT",
+      "iso3": "ITA",
+      "languages": ["it", "en", "zh"],
+      "primary_language": "it",
+      "official_domains": [
+        "esteri.it",
+        "gazzettaufficiale.it",
+        "governo.it",
+        "senato.it",
+        "camera.it"
+      ],
+      "mfa_domain": "esteri.it",
+      "gazette_domain": "gazzettaufficiale.it",
+      "municipal_pattern": "comune.*",
+      "university_pattern": "(unive|unimi|unibo|uniroma|unito|unipd|unina|unifi|uniba|unige)\\.it",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "treaty", "protocol", "framework", "sister city", "twinning", "exchange"],
+        "it": ["accordo", "intesa", "protocollo", "memorandum", "gemellaggio", "trattato", "convenzione", "partenariato", "scambio"],
+        "zh": ["协议", "条约", "备忘录", "合作框架", "伙伴关系", "友好城市", "姐妹城市", "交流", "议定书"]
+      },
+      "status_keywords": {
+        "active": ["in vigore", "efficace", "attivo", "operativo"],
+        "suspended": ["sospeso", "moratoria", "congelato"],
+        "expired": ["scaduto", "terminato"],
+        "terminated": ["cessato", "denunciato", "risolto", "annullato"]
+      },
+      "type_mapping": {
+        "accordo": "treaty",
+        "trattato": "treaty",
+        "memorandum": "MoU",
+        "intesa": "MoU",
+        "gemellaggio": "sister_city",
+        "protocollo": "protocol",
+        "convenzione": "framework",
+        "programma": "program"
+      }
+    },
+    "DE": {
+      "name": "Germany",
+      "native_name": "Deutschland",
+      "iso2": "DE",
+      "iso3": "DEU",
+      "languages": ["de", "en", "zh"],
+      "primary_language": "de",
+      "official_domains": [
+        "auswaertiges-amt.de",
+        "bundesanzeiger.de",
+        "bundesregierung.de",
+        "bundestag.de",
+        "bundesrat.de"
+      ],
+      "mfa_domain": "auswaertiges-amt.de",
+      "gazette_domain": "bundesanzeiger.de",
+      "municipal_pattern": "stadt.*\\.de",
+      "university_pattern": "uni-.*\\.de",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "treaty", "protocol", "framework", "sister city", "twinning", "exchange"],
+        "de": ["Abkommen", "Vereinbarung", "Absichtserklärung", "Partnerschaft", "Städtepartnerschaft", "Vertrag", "Protokoll", "Kooperationsvereinbarung", "Austausch"],
+        "zh": ["协议", "条约", "备忘录", "合作框架", "伙伴关系", "友好城市", "姐妹城市", "交流", "议定书"]
+      },
+      "status_keywords": {
+        "active": ["in Kraft", "wirksam", "aktiv", "gültig"],
+        "suspended": ["ausgesetzt", "Moratorium"],
+        "expired": ["abgelaufen", "erloschen"],
+        "terminated": ["beendet", "gekündigt", "aufgehoben"]
+      },
+      "type_mapping": {
+        "Abkommen": "treaty",
+        "Vertrag": "treaty",
+        "Absichtserklärung": "MoU",
+        "MoU": "MoU",
+        "Städtepartnerschaft": "sister_city",
+        "Protokoll": "protocol",
+        "Kooperationsvereinbarung": "framework",
+        "Programm": "program"
+      }
+    },
+    "FR": {
+      "name": "France",
+      "native_name": "France",
+      "iso2": "FR",
+      "iso3": "FRA",
+      "languages": ["fr", "en", "zh"],
+      "primary_language": "fr",
+      "official_domains": [
+        "diplomatie.gouv.fr",
+        "legifrance.gouv.fr",
+        "gouvernement.fr",
+        "assemblee-nationale.fr",
+        "senat.fr"
+      ],
+      "mfa_domain": "diplomatie.gouv.fr",
+      "gazette_domain": "legifrance.gouv.fr",
+      "municipal_pattern": "ville-.*\\.fr",
+      "university_pattern": "univ-.*\\.fr",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "treaty", "protocol", "framework", "sister city", "twinning", "exchange"],
+        "fr": ["accord", "protocole d'accord", "mémorandum", "jumelage", "traité", "convention", "partenariat", "accord-cadre", "échange"],
+        "zh": ["协议", "条约", "备忘录", "合作框架", "伙伴关系", "友好城市", "姐妹城市", "交流", "议定书"]
+      },
+      "status_keywords": {
+        "active": ["en vigueur", "effectif", "actif", "applicable"],
+        "suspended": ["suspendu", "moratoire", "gelé"],
+        "expired": ["expiré", "échu", "caduc"],
+        "terminated": ["résilié", "dénoncé", "abrogé", "annulé"]
+      },
+      "type_mapping": {
+        "accord": "treaty",
+        "traité": "treaty",
+        "mémorandum": "MoU",
+        "protocole d'accord": "MoU",
+        "jumelage": "sister_city",
+        "protocole": "protocol",
+        "convention": "framework",
+        "accord-cadre": "framework",
+        "programme": "program"
+      }
+    },
+    "PL": {
+      "name": "Poland",
+      "native_name": "Polska",
+      "iso2": "PL",
+      "iso3": "POL",
+      "languages": ["pl", "en", "zh"],
+      "primary_language": "pl",
+      "official_domains": [
+        "gov.pl",
+        "isap.sejm.gov.pl",
+        "sejm.gov.pl",
+        "senat.gov.pl",
+        "prezydent.pl"
+      ],
+      "mfa_domain": "gov.pl/web/dyplomacja",
+      "gazette_domain": "isap.sejm.gov.pl",
+      "municipal_pattern": "um\\..*\\.pl",
+      "university_pattern": ".*\\.edu\\.pl",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "treaty", "protocol", "framework", "sister city", "twinning", "exchange"],
+        "pl": ["umowa", "porozumienie", "memorandum", "partnerstwo", "współpraca", "traktat", "protokół", "porozumienie ramowe", "wymiana"],
+        "zh": ["协议", "条约", "备忘录", "合作框架", "伙伴关系", "友好城市", "姐妹城市", "交流", "议定书"]
+      },
+      "status_keywords": {
+        "active": ["w mocy", "obowiązuje", "skuteczny", "aktywny"],
+        "suspended": ["zawieszony", "moratorium"],
+        "expired": ["wygasł", "przedawniony"],
+        "terminated": ["wypowiedziany", "rozwiązany", "unieważniony"]
+      },
+      "type_mapping": {
+        "umowa": "treaty",
+        "traktat": "treaty",
+        "memorandum": "MoU",
+        "porozumienie": "MoU",
+        "partnerstwo miast": "sister_city",
+        "protokół": "protocol",
+        "porozumienie ramowe": "framework",
+        "program": "program"
+      }
+    },
+    "ES": {
+      "name": "Spain",
+      "native_name": "España",
+      "iso2": "ES",
+      "iso3": "ESP",
+      "languages": ["es", "en", "zh"],
+      "primary_language": "es",
+      "official_domains": [
+        "exteriores.gob.es",
+        "boe.es",
+        "lamoncloa.gob.es",
+        "congreso.es",
+        "senado.es"
+      ],
+      "mfa_domain": "exteriores.gob.es",
+      "gazette_domain": "boe.es",
+      "municipal_pattern": "ayto.*\\.es",
+      "university_pattern": ".*\\.edu\\.es",
+      "search_terms": {
+        "en": ["agreement", "memorandum", "MoU", "partnership", "treaty", "protocol", "framework", "sister city", "twinning", "exchange"],
+        "es": ["acuerdo", "memorando", "protocolo de colaboración", "hermanamiento", "tratado", "convenio", "asociación", "acuerdo marco", "intercambio"],
+        "zh": ["协议", "条约", "备忘录", "合作框架", "伙伴关系", "友好城市", "姐妹城市", "交流", "议定书"]
+      },
+      "status_keywords": {
+        "active": ["en vigor", "vigente", "activo", "efectivo"],
+        "suspended": ["suspendido", "moratoria", "congelado"],
+        "expired": ["expirado", "vencido", "caducado"],
+        "terminated": ["rescindido", "denunciado", "anulado", "revocado"]
+      },
+      "type_mapping": {
+        "acuerdo": "treaty",
+        "tratado": "treaty",
+        "memorando": "MoU",
+        "protocolo": "protocol",
+        "hermanamiento": "sister_city",
+        "convenio": "framework",
+        "acuerdo marco": "framework",
+        "programa": "program"
+      }
+    }
+  },
+  "chinese_sources": {
+    "mfa": "fmprc.gov.cn",
+    "ccpit": "ccpit.org",
+    "embassies": {
+      "IT": "it.china-embassy.gov.cn",
+      "DE": "de.china-embassy.gov.cn",
+      "FR": "fr.china-embassy.gov.cn",
+      "PL": "pl.china-embassy.gov.cn",
+      "ES": "es.china-embassy.gov.cn"
+    }
+  },
+  "sector_keywords": {
+    "trade": ["trade", "commerce", "commercio", "Handel", "commerce", "handel", "comercio", "贸易"],
+    "sci_tech": ["science", "technology", "scienza", "tecnologia", "Wissenschaft", "Technologie", "science", "technologie", "nauka", "technologia", "ciencia", "tecnología", "科技", "科学"],
+    "education": ["education", "university", "educazione", "università", "Bildung", "Universität", "éducation", "université", "edukacja", "uniwersytet", "educación", "universidad", "教育", "大学"],
+    "culture": ["culture", "cultural", "cultura", "culturale", "Kultur", "kulturell", "culture", "culturel", "kultura", "kulturalny", "cultura", "cultural", "文化"],
+    "health": ["health", "medical", "salute", "medico", "Gesundheit", "medizinisch", "santé", "médical", "zdrowie", "medyczny", "salud", "médico", "卫生", "医疗"],
+    "ports": ["port", "maritime", "porto", "marittimo", "Hafen", "maritim", "port", "maritime", "port", "morski", "puerto", "marítimo", "港口", "海事"],
+    "policing": ["police", "security", "polizia", "sicurezza", "Polizei", "Sicherheit", "police", "sécurité", "policja", "bezpieczeństwo", "policía", "seguridad", "警察", "安全"],
+    "tourism": ["tourism", "tourist", "turismo", "turistico", "Tourismus", "touristisch", "tourisme", "touristique", "turystyka", "turystyczny", "turismo", "turístico", "旅游"],
+    "finance": ["finance", "financial", "finanza", "finanziario", "Finanz", "finanziell", "finance", "financier", "finanse", "finansowy", "finanzas", "financiero", "金融"],
+    "investment": ["investment", "invest", "investimento", "investire", "Investition", "investieren", "investissement", "investir", "inwestycja", "inwestować", "inversión", "invertir", "投资"],
+    "energy": ["energy", "power", "energia", "potenza", "Energie", "Strom", "énergie", "pouvoir", "energia", "moc", "energía", "poder", "能源", "电力"],
+    "environment": ["environment", "climate", "ambiente", "clima", "Umwelt", "Klima", "environnement", "climat", "środowisko", "klimat", "ambiente", "clima", "环境", "气候"],
+    "sports": ["sports", "sport", "sport", "Sport", "sport", "sport", "deporte", "体育", "运动"],
+    "justice": ["justice", "legal", "giustizia", "legale", "Justiz", "rechtlich", "justice", "légal", "sprawiedliwość", "prawny", "justicia", "legal", "司法", "法律"],
+    "urban": ["urban", "city planning", "urbano", "pianificazione", "städtisch", "Stadtplanung", "urbain", "urbanisme", "miejski", "planowanie", "urbano", "planificación", "城市", "规划"]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "cik": "0001702318",
+  "ticker": "AHG",
+  "name": "Akso Health Group",
+  "detection_reasons": [
+    "location:china",
+    "location:qingdao",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "7389",
+  "sicDescription": "Services-Business Services, NEC",
+  "category": "Non-accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86 152 1005 4919",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "RM 8201-4-4(A) 2ND FLOOR QIANTONGYUA BLD",
+      "street2": "NO. 44 MOSCOW RD QIANWAN BONDED PORT ARE",
+      "city": "QINGDAO PILOT FREE TRADE ZONE",
+      "stateOrCountry": "F4",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "RM 8201-4-4(A) 2ND FLOOR QIANTONGYUA BLD",
+      "street2": "NO. 44 MOSCOW RD QIANWAN BONDED PORT ARE",
+      "city": "QINGDAO PILOT FREE TRADE ZONE",
+      "stateOrCountry": "F4",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "20-F",
+    "date": "2025-08-14"
+  },
+  "filings_count": 185
+}

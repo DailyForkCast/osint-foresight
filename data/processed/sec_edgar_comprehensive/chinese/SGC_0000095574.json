@@ -1,0 +1,47 @@
+{
+  "cik": "0000095574",
+  "ticker": "SGC",
+  "name": "SUPERIOR GROUP OF COMPANIES, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2300",
+  "sicDescription": "Apparel & Other Finishd Prods of  Fabrics & Similar Matl",
+  "category": "Accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "FL",
+  "ein": "111385670",
+  "phone": "7273979611",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "200 CENTRAL AVENUE, SUITE 2000",
+      "street2": null,
+      "city": "ST. PETERSBURG",
+      "stateOrCountry": "FL",
+      "zipCode": "33701",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "200 CENTRAL AVENUE, SUITE 2000",
+      "street2": null,
+      "city": "ST. PETERSBURG",
+      "stateOrCountry": "FL",
+      "zipCode": "33701",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-19"
+  },
+  "filings_count": 1000
+}

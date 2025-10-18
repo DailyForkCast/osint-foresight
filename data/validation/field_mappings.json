@@ -1,0 +1,20 @@
+{
+  "horizons_data_.json": {
+    "original_fields": [
+      "attachment",
+      "contentUpdateDate",
+      "id",
+      "projectAcronym",
+      "projectID",
+      "rcn",
+      "title"
+    ],
+    "canonical_mappings": {
+      "contentUpdateDate": "date",
+      "id": "id",
+      "projectID": "id",
+      "title": "name"
+    },
+    "coverage": 57.14285714285714
+  }
+}

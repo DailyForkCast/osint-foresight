@@ -1,0 +1,50 @@
+{
+  "cik": "0001936817",
+  "ticker": "HXHX",
+  "name": "Haoxin Holdings Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:ningbo",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "4210",
+  "sicDescription": "Trucking & Courier Services (No Air)",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "F4",
+  "ein": "000000000",
+  "phone": "01186 5748786 5995",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ROOM 329-1, 329-2, NO. 1 XINGYE YI ROAD",
+      "street2": "NINGBO FREE TRADE ZONE",
+      "city": "NINGBO",
+      "stateOrCountry": "F4",
+      "zipCode": "315807",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "ROOM 329-1, 329-2, NO. 1 XINGYE YI ROAD",
+      "street2": "NINGBO FREE TRADE ZONE",
+      "city": "NINGBO",
+      "stateOrCountry": "F4",
+      "zipCode": "315807",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "20-F",
+    "date": "2025-04-30"
+  },
+  "filings_count": 52
+}

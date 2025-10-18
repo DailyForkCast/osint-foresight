@@ -1,0 +1,53 @@
+{
+  "cik": "0001775898",
+  "ticker": "UCL",
+  "name": "uCloudlink Group Inc.",
+  "detection_reasons": [
+    "location:china",
+    "location:beijing",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "4899",
+  "sicDescription": "Communications Services, NEC",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "852 31758988",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT 2214-RM1, 22/F, MIRA PLACE TOWER A",
+      "street2": "132 NATHAN ROAD, TSIM SHA TSUI, KOWLOON",
+      "city": "HONG KONG",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "UNIT 2214-RM1, 22/F, MIRA PLACE TOWER A",
+      "street2": "132 NATHAN ROAD, TSIM SHA TSUI, KOWLOON",
+      "city": "HONG KONG",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-13"
+  },
+  "filings_count": 160
+}

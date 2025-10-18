@@ -1,0 +1,49 @@
+{
+  "cik": "0002036307",
+  "ticker": "OFAL",
+  "name": "OFA Group",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong"
+  ],
+  "sic": "8711",
+  "sicDescription": "Services-Engineering Services",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "85221370122",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT B, 16/F, EASY TOWER, 609 TAI NAN WE",
+      "street2": null,
+      "city": "CHEUNG SHA WAN,",
+      "stateOrCountry": null,
+      "zipCode": "000000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    },
+    "business": {
+      "street1": "UNIT B, 16/F, EASY TOWER, 609 TAI NAN WE",
+      "street2": null,
+      "city": "CHEUNG SHA WAN,",
+      "stateOrCountry": null,
+      "zipCode": "000000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-25"
+  },
+  "filings_count": 38
+}

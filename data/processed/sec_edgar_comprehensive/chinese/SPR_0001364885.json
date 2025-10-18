@@ -1,0 +1,47 @@
+{
+  "cik": "0001364885",
+  "ticker": "SPR",
+  "name": "Spirit AeroSystems Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3728",
+  "sicDescription": "Aircraft Parts & Auxiliary Equipment, NEC",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "202436320",
+  "phone": "316.526.9000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3801 SOUTH OLIVER",
+      "street2": null,
+      "city": "WICHITA",
+      "stateOrCountry": "KS",
+      "zipCode": "67210",
+      "stateOrCountryDescription": "KS",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3801 SOUTH OLIVER",
+      "street2": null,
+      "city": "WICHITA",
+      "stateOrCountry": "KS",
+      "zipCode": "67210",
+      "stateOrCountryDescription": "KS",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-08"
+  },
+  "filings_count": 1000
+}

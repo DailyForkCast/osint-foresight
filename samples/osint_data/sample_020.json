@@ -1,0 +1,17 @@
+{
+  "original_path": "F:\\OSINT_DATA\\OpenSanctions\\raw_data\\us_trade_csl\\20250921_targets.nested.json",
+  "profile": {
+    "path": "F:\\OSINT_DATA\\OpenSanctions\\raw_data\\us_trade_csl\\20250921_targets.nested.json",
+    "size": 19268353,
+    "extension": ".json",
+    "encoding": "unknown",
+    "line_count": 0,
+    "field_count": 0,
+    "parse_status": "parse_error",
+    "schema": {},
+    "sample_records": [],
+    "modified": "2025-09-21T17:42:40",
+    "error": "Extra data: line 2 column 1 (char 1720)"
+  },
+  "sample_data": []
+}

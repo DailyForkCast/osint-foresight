@@ -1,0 +1,24 @@
+{
+  "scrape_date": "2025-09-23T18:50:42.471954",
+  "statistics": {
+    "pages_loaded": 3,
+    "searches_performed": 0,
+    "total_results_found": 6,
+    "chinese_entities_identified": 0,
+    "errors": 0
+  },
+  "by_country": {
+    "CZ": {
+      "total": 0,
+      "with_chinese_entities": 0
+    },
+    "PL": {
+      "total": 0,
+      "with_chinese_entities": 0
+    },
+    "SK": {
+      "total": 6,
+      "with_chinese_entities": 0
+    }
+  }
+}

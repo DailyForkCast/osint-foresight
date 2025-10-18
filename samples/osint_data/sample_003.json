@@ -1,0 +1,61 @@
+{
+  "original_path": "F:\\OSINT_DATA\\Trade_Facilities\\uncomtrade\\uncomtrade_v2.db",
+  "profile": {
+    "path": "F:\\OSINT_DATA\\Trade_Facilities\\uncomtrade\\uncomtrade_v2.db",
+    "size": 16384,
+    "extension": ".db",
+    "encoding": "unknown",
+    "line_count": 0,
+    "field_count": 3,
+    "parse_status": "success",
+    "schema": {
+      "bilateral_trade": {
+        "row_count": 0,
+        "columns": [
+          "id",
+          "year",
+          "reporter_code",
+          "reporter_desc",
+          "partner_code",
+          "partner_desc",
+          "flow_code",
+          "flow_desc",
+          "cmd_code",
+          "cmd_desc",
+          "primary_value",
+          "net_weight",
+          "gross_weight",
+          "qty_unit_code",
+          "qty",
+          "is_reported_by_partner"
+        ]
+      },
+      "sqlite_sequence": {
+        "row_count": 0,
+        "columns": [
+          "name",
+          "seq"
+        ]
+      },
+      "strategic_commodities": {
+        "row_count": 0,
+        "columns": [
+          "id",
+          "year",
+          "hs_chapter",
+          "category",
+          "partner_code",
+          "partner_desc",
+          "flow_code",
+          "flow_desc",
+          "trade_value",
+          "quantity",
+          "risk_level"
+        ]
+      }
+    },
+    "sample_records": [],
+    "modified": "2025-09-22T06:32:48"
+  },
+  "sample_data": []
+}

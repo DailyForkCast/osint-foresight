@@ -1,0 +1,44 @@
+{
+  "cik": "0000731766",
+  "ticker": "UNH",
+  "name": "UNITEDHEALTH GROUP INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6324",
+  "sicDescription": "Hospital & Medical Service Plans",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "411321939",
+  "phone": "1-800-328-5979",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1 HEALTH DRIVE",
+      "street2": null,
+      "city": "EDEN PRAIRIE",
+      "stateOrCountry": "MN",
+      "zipCode": "55344",
+      "stateOrCountryDescription": "MN",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1 HEALTH DRIVE",
+      "street2": null,
+      "city": "EDEN PRAIRIE",
+      "stateOrCountry": "MN",
+      "zipCode": "55344",
+      "stateOrCountryDescription": "MN",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1015
+}

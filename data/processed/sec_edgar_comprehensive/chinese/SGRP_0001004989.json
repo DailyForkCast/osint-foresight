@@ -1,0 +1,47 @@
+{
+  "cik": "0001004989",
+  "ticker": "SGRP",
+  "name": "SPAR Group, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7389",
+  "sicDescription": "Services-Business Services, NEC",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "330684451",
+  "phone": "2483647727",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1910 OPDYKE COURT",
+      "street2": null,
+      "city": "AUBURN HILLS",
+      "stateOrCountry": "MI",
+      "zipCode": "48326",
+      "stateOrCountryDescription": "MI",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1910 OPDYKE COURT",
+      "street2": null,
+      "city": "AUBURN HILLS",
+      "stateOrCountry": "MI",
+      "zipCode": "48326",
+      "stateOrCountryDescription": "MI",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-29"
+  },
+  "filings_count": 1000
+}

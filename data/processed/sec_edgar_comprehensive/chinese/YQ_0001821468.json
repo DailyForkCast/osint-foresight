@@ -1,0 +1,52 @@
+{
+  "cik": "0001821468",
+  "ticker": "YQ",
+  "name": "17 Education & Technology Group Inc.",
+  "detection_reasons": [
+    "location:china",
+    "location:beijing",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "8200",
+  "sicDescription": "Services-Educational Services",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86 10 59451082",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "16/F, BLOCK B, WANGJING GREENLAND CENTER",
+      "street2": "CHAOYANG DISTRICT",
+      "city": "BEIJING",
+      "stateOrCountry": "F4",
+      "zipCode": "100102",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "16/F, BLOCK B, WANGJING GREENLAND CENTER",
+      "street2": "CHAOYANG DISTRICT",
+      "city": "BEIJING",
+      "stateOrCountry": "F4",
+      "zipCode": "100102",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-04"
+  },
+  "filings_count": 88
+}

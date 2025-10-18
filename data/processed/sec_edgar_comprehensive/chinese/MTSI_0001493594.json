@@ -1,0 +1,44 @@
+{
+  "cik": "0001493594",
+  "ticker": "MTSI",
+  "name": "MACOM Technology Solutions Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3674",
+  "sicDescription": "Semiconductors & Related Devices",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "270306875",
+  "phone": "(978) 656-2500",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "100 CHELMSFORD STREET",
+      "street2": null,
+      "city": "LOWELL",
+      "stateOrCountry": "MA",
+      "zipCode": "01851",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "100 CHELMSFORD STREET",
+      "street2": null,
+      "city": "LOWELL",
+      "stateOrCountry": "MA",
+      "zipCode": "01851",
+      "stateOrCountryDescription": "MA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 1000
+}

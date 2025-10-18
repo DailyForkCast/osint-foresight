@@ -1,0 +1,47 @@
+{
+  "cik": "0000923796",
+  "ticker": "GEO",
+  "name": "GEO GROUP INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "1520",
+  "sicDescription": "General Bldg Contractors - Residential Bldgs",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "FL",
+  "ein": "650043078",
+  "phone": "561-893-0101",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "4955 TECHNOLOGY WAY",
+      "street2": null,
+      "city": "BOCA RATON",
+      "stateOrCountry": "FL",
+      "zipCode": "33431",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "4955 TECHNOLOGY WAY",
+      "street2": null,
+      "city": "BOCA RATON",
+      "stateOrCountry": "FL",
+      "zipCode": "33431",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-18"
+  },
+  "filings_count": 1002
+}

@@ -1,0 +1,44 @@
+{
+  "cik": "0001498612",
+  "ticker": "PSF",
+  "name": "Cohen & Steers Select Preferred & Income Fund, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "",
+  "sicDescription": "",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "212.832.3232",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1166 AVENUE OF THE AMERICAS",
+      "street2": "30TH FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10036",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1166 AVENUE OF THE AMERICAS",
+      "street2": "30TH FLOOR",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10036",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 282
+}

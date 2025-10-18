@@ -1,0 +1,2315 @@
+{
+  "path": "F:\\OSINT_DATA\\country=AT\\crossref\\publications_20250913.json",
+  "size": 40658042,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 3000,
+  "field_count": 33,
+  "parse_status": "success",
+  "schema": {
+    "indexed": "object",
+    "reference-count": "number",
+    "publisher": "string",
+    "issue": "string",
+    "license": "array",
+    "content-domain": "object",
+    "published-print": "object",
+    "abstract": "string",
+    "DOI": "string",
+    "type": "string",
+    "created": "object",
+    "update-policy": "string",
+    "source": "string",
+    "is-referenced-by-count": "number",
+    "title": "array",
+    "prefix": "string",
+    "volume": "string",
+    "author": "array",
+    "member": "string",
+    "container-title": "array",
+    "language": "string",
+    "link": "array",
+    "deposited": "object",
+    "score": "number",
+    "resource": "object",
+    "issued": "object",
+    "references-count": "number",
+    "journal-issue": "object",
+    "URL": "string",
+    "ISSN": "array",
+    "issn-type": "array",
+    "published": "object",
+    "article-number": "string"
+  },
+  "sample_records": [
+    {
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2025-07-30T15:37:34Z",
+        "timestamp": 1753889854049,
+        "version": "3.41.2"
+      },
+      "reference-count": 0,
+      "publisher": "American Diabetes Association",
+      "issue": "Supplement_1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                20
+              ]
+            ],
+            "date-time": "2025-06-20T00:00:00Z",
+            "timestamp": 1750377600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://www.diabetesjournals.org/content/license"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "diabetesjournals.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            20
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Introduction and Objective: Artificial Intelligence (AI) and Machine Learning (ML) have the potential to improve risk prediction by identifying complex patterns in clinical and laboratory data, surpassing traditional approaches. ML has already shown success in detecting metabolic diseases, including Type 2 Diabetes Mellitus (T2DM). However, the ability to accurately forecast T2DM incidence is even more beneficial, enabling earlier interventions and treatment.</jats:p>\n               <jats:p>Methods: This observational study aimed to leverage ML to predict the 4-year risk of developing T2DM. A cohort of 904 cardiovascular risk patients, initially free of T2DM, was analyzed at baseline, with data including anthropometric measurements, clinical and laboratory parameters, and recent metabolic biomarkers. Over four years of follow-up, 10.2% of the patients developed T2DM.</jats:p>\n               <jats:p>Results: The ML approach, utilizing the Caret package in R, applied 50 variables. Patients were randomly split into training and test cohorts (75:25), with oversampling used to address class imbalance in T2DM incidence. Recursive feature elimination (RFE) was employed to identify the most relevant variables. A Support Vector Machine (SVM) model with a linear kernel demonstrated the most promising predictive performance, achieving a balanced accuracy of 73%, a sensitivity of 74%, a specificity of 71%, and an AUC of 0.727. The top-ranked predictors for T2DM were glucose measurements (2-hour OGTT glucose, fasting glucose, and HbA1c), HDL-cholesterol, and the triglyceride-glucose (TyG) index.</jats:p>\n               <jats:p>Conclusion: In conclusion, ML proves to be a valuable tool for identifying individuals at risk of T2DM, paving the way for personalized medicine through earlier diagnosis and tailored interventions.</jats:p>\n               <jats:sec>\n                  <jats:title>Disclosure</jats:title>\n                  <jats:p>A. Leiherer: None. L. Schnetzer: None. S. Mink: None. A. Mader: None. A. Muendlein: None. B. Bermeitinger: None. T. Plattner: None. A. Vonbank: None. B. Larcher: None. C.H. Saely: None. P. Fraunberger: None. H. Drexel: None.</jats:p>\n               </jats:sec>",
+      "DOI": "10.2337/db25-1386-p",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            13
+          ]
+        ],
+        "date-time": "2025-06-13T06:30:22Z",
+        "timestamp": 1749796222000
+      },
+      "update-policy": "https://doi.org/10.2337/ada-journal-policies",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "1386-P: Machine Learning Predicts T2DM Incidence Using Basic Clinical and Laboratory Parameters"
+      ],
+      "prefix": "10.2337",
+      "volume": "74",
+      "author": [
+        {
+          "given": "ANDREAS",
+          "family": "LEIHERER",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        },
+        {
+          "given": "LAURA",
+          "family": "SCHNETZER",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        },
+        {
+          "given": "SYLVIA",
+          "family": "MINK",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        },
+        {
+          "given": "ARTHUR",
+          "family": "MADER",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        },
+        {
+          "given": "AXEL",
+          "family": "MUENDLEIN",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        },
+        {
+          "given": "BERNHARD",
+          "family": "BERMEITINGER",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        },
+        {
+          "given": "THOMAS",
+          "family": "PLATTNER",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        },
+        {
+          "given": "ALEXANDER",
+          "family": "VONBANK",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        },
+        {
+          "given": "BARBARA",
+          "family": "LARCHER",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        },
+        {
+          "given": "CHRISTOPH H.",
+          "family": "SAELY",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        },
+        {
+          "given": "PETER",
+          "family": "FRAUNBERGER",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        },
+        {
+          "given": "HEINZ",
+          "family": "DREXEL",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        }
+      ],
+      "member": "1167",
+      "container-title": [
+        "Diabetes"
+      ],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://diabetesjournals.org/diabetes/article/74/Supplement_1/1386-P/159899/1386-P-Machine-Learning-Predicts-T2DM-Incidence",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "https://diabetesjournals.org/diabetes/article/74/Supplement_1/1386-P/159899/1386-P-Machine-Learning-Predicts-T2DM-Incidence",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            20
+          ]
+        ],
+        "date-time": "2025-06-20T16:48:32Z",
+        "timestamp": 1750438112000
+      },
+      "score": 10.6378765,
+      "resource": {
+        "primary": {
+          "URL": "https://diabetesjournals.org/diabetes/article/74/Supplement_1/1386-P/159899/1386-P-Machine-Learning-Predicts-T2DM-Incidence"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            20
+          ]
+        ]
+      },
+      "references-count": 0,
+      "journal-issue": {
+        "issue": "Supplement_1",
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              20
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.2337/db25-1386-p",
+      "ISSN": [
+        "0012-1797"
+      ],
+      "issn-type": [
+        {
+          "type": "print",
+          "value": "0012-1797"
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            20
+          ]
+        ]
+      },
+      "article-number": "1386-P"
+    },
+    {
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            21
+          ]
+        ],
+        "date-time": "2025-08-21T18:14:19Z",
+        "timestamp": 1755800059956,
+        "version": "3.44.0"
+      },
+      "reference-count": 5,
+      "publisher": "IEEE",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                29
+              ]
+            ],
+            "date-time": "2025-06-29T00:00:00Z",
+            "timestamp": 1751155200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                29
+              ]
+            ],
+            "date-time": "2025-06-29T00:00:00Z",
+            "timestamp": 1751155200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100018461",
+          "name": "Silicon Austria Labs",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/100018461",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100007945",
+          "name": "Styrian Business Promotion Agency",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/501100007945",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            29
+          ]
+        ]
+      },
+      "DOI": "10.1109/transducers61432.2025.11111511",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            19
+          ]
+        ],
+        "date-time": "2025-08-19T18:06:19Z",
+        "timestamp": 1755626779000
+      },
+      "page": "1369-1372",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "2D Pattern Projection for Mode Coupling Analysis in Gimbal-Less Piezo-Actuated Resonant Scanning Micromirrors"
+      ],
+      "prefix": "10.1109",
+      "author": [
+        {
+          "given": "Adrien",
+          "family": "Piot",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Silicon Austria Labs GmbH,AUSTRIA"
+            }
+          ]
+        },
+        {
+          "given": "Sara R.P.",
+          "family": "Guerreiro",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Silicon Austria Labs GmbH,AUSTRIA"
+            }
+          ]
+        },
+        {
+          "given": "Rodrigo T.",
+          "family": "Rocha",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Silicon Austria Labs GmbH,AUSTRIA"
+            }
+          ]
+        },
+        {
+          "given": "Cl\u00e9ment",
+          "family": "Fleury",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Silicon Austria Labs GmbH,AUSTRIA"
+            }
+          ]
+        },
+        {
+          "given": "Takashi",
+          "family": "Sasaki",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Silicon Austria Labs GmbH,AUSTRIA"
+            }
+          ]
+        },
+        {
+          "given": "Anton",
+          "family": "Lagosh",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Silicon Austria Labs GmbH,AUSTRIA"
+            }
+          ]
+        },
+        {
+          "given": "Ale\u0161",
+          "family": "Travnik",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Silicon Austria Labs GmbH,AUSTRIA"
+            }
+          ]
+        },
+        {
+          "given": "Dominik",
+          "family": "Holzmann",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Silicon Austria Labs GmbH,AUSTRIA"
+            }
+          ]
+        },
+        {
+          "given": "Markus",
+          "family": "Bainschab",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Silicon Austria Labs GmbH,AUSTRIA"
+            }
+          ]
+        }
+      ],
+      "member": "263",
+      "reference": [
+        {
+          "key": "ref1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/JMEMS.2013.2295470"
+        },
+        {
+          "key": "ref2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/JSTQE.2014.2369499"
+        },
+        {
+          "key": "ref3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/s20226599"
+        },
+        {
+          "key": "ref4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00542-024-05749-1"
+        },
+        {
+          "key": "ref5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/DTIP58682.2023.10267932"
+        }
+      ],
+      "event": {
+        "name": "2025 23rd International Conference on Solid-State Sensors, Actuators and Microsystems (Transducers)",
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              29
+            ]
+          ]
+        },
+        "location": "Orlando, FL, USA",
+        "end": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              3
+            ]
+          ]
+        }
+      },
+      "container-title": [
+        "2025 23rd International Conference on Solid-State Sensors, Actuators and Microsystems (Transducers)"
+      ],
+      "link": [
+        {
+          "URL": "http://xplorestaging.ieee.org/ielx8/11108179/11109079/11111511.pdf?arnumber=11111511",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            20
+          ]
+        ],
+        "date-time": "2025-08-20T06:35:27Z",
+        "timestamp": 1755671727000
+      },
+      "score": 10.624015,
+      "resource": {
+        "primary": {
+          "URL": "https://ieeexplore.ieee.org/document/11111511/"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            29
+          ]
+        ]
+      },
+      "references-count": 5,
+      "URL": "https://doi.org/10.1109/transducers61432.2025.11111511",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            29
+          ]
+        ]
+      }
+    },
+    {
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            15
+          ]
+        ],
+        "date-time": "2025-08-15T00:00:22Z",
+        "timestamp": 1755216022526,
+        "version": "3.43.0"
+      },
+      "reference-count": 92,
+      "publisher": "MDPI AG",
+      "issue": "12",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                12,
+                23
+              ]
+            ],
+            "date-time": "2024-12-23T00:00:00Z",
+            "timestamp": 1734912000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100004955",
+          "name": "Austrian Research Promotion Agency",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "885340"
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100004955",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "www.mdpi.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Atmosphere"
+      ],
+      "abstract": "<jats:p>Urban environments experience amplified thermal stress due to the climate change, leading to increased health risks during extreme temperature events. Existing numerical weather prediction systems often lack the spatial resolution required to capture this phenomenon. This study assesses the efficacy of a coupled modeling system, the numerical weather prediction AROME model and the land-surface model SURFace EXternalis\u00e9e in a stand alone mode (SURFEX-SA), in forecasting air temperatures at high resolutions (2.5km to 100m) across four Austrian cities (Vienna, Linz, Klagenfurt and Innsbruck). The system is updated with the, according to the author\u2019s knowledge, most accurate land use and land cover input to evaluate the added value of incorporating detailed urban environmental representations. The analysis focuses on the years 2019, 2023, and 2024, examining both summer and winter seasons. SURFEX-SA demonstrates improved performance in specific scenarios, particularly during nighttime in rural and suburban areas during the warmer season. By comprehensively analyzing this prediction system with operational and citizen weather stations in a deterministic and probabilistic mode across several time periods and various skill scores, the findings of this study will enable readers to determine whether high-resolution forecasts are necessary in specific use cases.</jats:p>",
+      "DOI": "10.3390/atmos15121544",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            23
+          ]
+        ],
+        "date-time": "2024-12-23T04:33:29Z",
+        "timestamp": 1734928409000
+      },
+      "page": "1544",
+      "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "High-Resolution Air Temperature Forecasts in Urban Areas: A Meteorological Perspective on Their Added Value"
+      ],
+      "prefix": "10.3390",
+      "volume": "15",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9491-7175",
+          "authenticated-orcid": false,
+          "given": "Sandro M.",
+          "family": "Oswald",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "GeoSphere Austria, 1190 Vienna, Austria"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4187-1251",
+          "authenticated-orcid": false,
+          "given": "Stefan",
+          "family": "Schneider",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "GeoSphere Austria, 1190 Vienna, Austria"
+            }
+          ]
+        },
+        {
+          "given": "Claudia",
+          "family": "Hahn",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "GeoSphere Austria, 1190 Vienna, Austria"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7229-9505",
+          "authenticated-orcid": false,
+          "given": "Maja",
+          "family": "\u017duvela-Aloise",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "GeoSphere Austria, 1190 Vienna, Austria"
+            }
+          ]
+        },
+        {
+          "given": "Polly",
+          "family": "Schmederer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "GeoSphere Austria, 1190 Vienna, Austria"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2210-5201",
+          "authenticated-orcid": false,
+          "given": "Clemens",
+          "family": "Wastl",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "GeoSphere Austria, 1190 Vienna, Austria"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1969-9523",
+          "authenticated-orcid": false,
+          "given": "Brigitta",
+          "family": "Hollosi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "GeoSphere Austria, 1190 Vienna, Austria"
+            }
+          ]
+        }
+      ],
+      "member": "1968",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            23
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "ref_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "IPCC, Intergovernmental Panel on Climate Change (2022). Climate Change 2022\u2014Impacts, Adaptation and Vulnerability: Working Group II Contribution to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change, Cambridge University Press.",
+          "DOI": "10.1017/9781009325844"
+        },
+        {
+          "key": "ref_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "398",
+          "DOI": "10.1038/ngeo866",
+          "article-title": "Consistent geographical patterns of changes in high-impact European heatwaves",
+          "volume": "3",
+          "author": "Fischer",
+          "year": "2010",
+          "journal-title": "Nat. Geosci."
+        },
+        {
+          "key": "ref_3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Molina, M.O., S\u00e1nchez, E., and Guti\u00e9rrez, C. (2020). Future heat waves over the Mediterranean from an Euro-CORDEX regional climate model ensemble. Sci. Rep., 10.",
+          "DOI": "10.1038/s41598-020-65663-0"
+        },
+        {
+          "key": "ref_4",
+          "unstructured": "Landsberg, H.E. (1981). The Urban Climate, Elsevier Science."
+        },
+        {
+          "key": "ref_5",
+          "first-page": "1",
+          "article-title": "The energetic basis of the urban heat island",
+          "volume": "108",
+          "author": "Oke",
+          "year": "1982",
+          "journal-title": "Q. J. R. Meteorol. Soc."
+        },
+        {
+          "key": "ref_6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhou, B., Rybski, D., and Kropp, J.P. (2017). The role of city size and urban form in the surface urban heat island. Sci. Rep., 7.",
+          "DOI": "10.1038/s41598-017-04242-2"
+        },
+        {
+          "key": "ref_7",
+          "doi-asserted-by": "crossref",
+          "first-page": "106530",
+          "DOI": "10.1016/j.envint.2021.106530",
+          "article-title": "The winter urban heat island: Impacts on cold-related mortality in a highly urbanized European region for present and future climate",
+          "volume": "154",
+          "author": "Macintyre",
+          "year": "2021",
+          "journal-title": "Environ. Int."
+        },
+        {
+          "key": "ref_8",
+          "doi-asserted-by": "crossref",
+          "first-page": "101850",
+          "DOI": "10.1016/j.uclim.2024.101850",
+          "article-title": "High resolution modelling of the urban heat island of 100 European cities",
+          "volume": "54",
+          "author": "Lauwaet",
+          "year": "2024",
+          "journal-title": "Urban Clim."
+        },
+        {
+          "key": "ref_9",
+          "unstructured": "APCC14 (2014). Austrian Assessment Report Climate Change 2014 (AAR14), Austrian Panel on Climate Change (APCC)."
+        },
+        {
+          "key": "ref_10",
+          "doi-asserted-by": "crossref",
+          "first-page": "100582",
+          "DOI": "10.1016/j.uclim.2020.100582",
+          "article-title": "Using urban climate modelling and improved land use classifications to support climate change adaptation in urban environments: A case study for the city of Klagenfurt, Austria",
+          "volume": "31",
+          "author": "Oswald",
+          "year": "2020",
+          "journal-title": "Urban Clim."
+        },
+        {
+          "key": "ref_11",
+          "first-page": "1005",
+          "article-title": "Modelling reduction of urban heat load in Vienna by modifying surface properties of roofs",
+          "volume": "131",
+          "author": "Andre",
+          "year": "2017",
+          "journal-title": "Theor. Appl. Climatol."
+        },
+        {
+          "key": "ref_12",
+          "doi-asserted-by": "crossref",
+          "first-page": "100675",
+          "DOI": "10.1016/j.uclim.2020.100675",
+          "article-title": "Supporting climate proof planning with CLARITY\u2019s climate service and modelling of climate adaptation strategies\u2014The Linz use-case",
+          "volume": "34",
+          "author": "Kainz",
+          "year": "2020",
+          "journal-title": "Urban Clim."
+        },
+        {
+          "key": "ref_13",
+          "unstructured": "Preiss, J., Haertel, C., Brandenburg, C., and Damyanovic, D. (2024, June 14). Urban Heat Islands\u2014Strategieplan Wien. Urban Climate. Available online: https://www.wien.gv.at/umweltschutz/raum/uhi-strategieplan.html."
+        },
+        {
+          "key": "ref_14",
+          "unstructured": "Municipality of City of Linz (2024, June 17). Linzer Klimastrategie. Available online: https://www.linz.at/umwelt/104199.php."
+        },
+        {
+          "key": "ref_15",
+          "doi-asserted-by": "crossref",
+          "first-page": "270",
+          "DOI": "10.1191/0309133306pp484pr",
+          "article-title": "Applied climatology: Urban climate",
+          "volume": "30",
+          "author": "Souch",
+          "year": "2006",
+          "journal-title": "Prog. Phys. Geogr. Earth Environ."
+        },
+        {
+          "key": "ref_16",
+          "doi-asserted-by": "crossref",
+          "first-page": "193",
+          "DOI": "10.1007/s00484-006-0058-3",
+          "article-title": "Heat wave impacts on mortality in Shanghai, 1998 and 2003",
+          "volume": "51",
+          "author": "Tan",
+          "year": "2006",
+          "journal-title": "Int. J. Biometeorol."
+        },
+        {
+          "key": "ref_17",
+          "doi-asserted-by": "crossref",
+          "first-page": "711",
+          "DOI": "10.1097/EDE.0b013e318176bfcd",
+          "article-title": "Heat Effects on Mortality in 15 European Cities",
+          "volume": "19",
+          "author": "Baccini",
+          "year": "2008",
+          "journal-title": "Epidemiology"
+        },
+        {
+          "key": "ref_18",
+          "doi-asserted-by": "crossref",
+          "first-page": "566",
+          "DOI": "10.1289/ehp.1103759",
+          "article-title": "The Impact of Heat Waves on Mortality in Seven Major Cities in Korea",
+          "volume": "120",
+          "author": "Son",
+          "year": "2012",
+          "journal-title": "Environ. Health Perspect."
+        },
+        {
+          "key": "ref_19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Morabito, M., Crisci, A., Messeri, A., Messeri, G., Betti, G., Orlandini, S., Raschi, A., and Maracchi, G. (2017). Increasing Heatwave Hazards in the Southeastern European Union Capitals. Atmosphere, 8.",
+          "DOI": "10.3390/atmos8070115"
+        },
+        {
+          "key": "ref_20",
+          "doi-asserted-by": "crossref",
+          "first-page": "1027",
+          "DOI": "10.1093/aje/kwv260",
+          "article-title": "Changes in Susceptibility to Heat During the Summer: A Multicountry Analysis",
+          "volume": "183",
+          "author": "Gasparrini",
+          "year": "2016",
+          "journal-title": "Am. J. Epidemiol."
+        },
+        {
+          "key": "ref_21",
+          "doi-asserted-by": "crossref",
+          "first-page": "369",
+          "DOI": "10.1016/S0140-6736(14)62114-0",
+          "article-title": "Mortality risk attributable to high and low ambient temperature: A multicountry observational study",
+          "volume": "386",
+          "author": "Gasparrini",
+          "year": "2015",
+          "journal-title": "Lancet"
+        },
+        {
+          "key": "ref_22",
+          "doi-asserted-by": "crossref",
+          "first-page": "e415",
+          "DOI": "10.1016/S2542-5196(21)00081-4",
+          "article-title": "Global, regional, and national burden of mortality associated with non-optimal ambient temperatures from 2000 to 2019: A three-stage modelling study",
+          "volume": "5",
+          "author": "Zhao",
+          "year": "2021",
+          "journal-title": "Lancet Planet. Health"
+        },
+        {
+          "key": "ref_23",
+          "doi-asserted-by": "crossref",
+          "first-page": "e271",
+          "DOI": "10.1016/S2542-5196(23)00023-2",
+          "article-title": "Excess mortality attributed to heat and cold: A health impact assessment study in 854 cities in Europe",
+          "volume": "7",
+          "author": "Masselot",
+          "year": "2023",
+          "journal-title": "Lancet Planet. Health"
+        },
+        {
+          "key": "ref_24",
+          "unstructured": "Bergler, E., and Hopfgartner, M.C. (2024, June 13). Die Oesterreichische Strategie zur Anpassung an den Klimawandel Teil 2. Aktionsplan Handlungsempfehlungen fuer die Umsetzung. Available online: https://www.bmk.gv.at/themen/klima_umwelt/klimaschutz/anpassungsstrategie/publikationen/oe_strategie.html."
+        },
+        {
+          "key": "ref_25",
+          "unstructured": "EUMETNET, E.N.o.N.M.S. (2024, May 24). MeteoAlarm. Available online: https://meteoalarm.org/en/live/."
+        },
+        {
+          "key": "ref_26",
+          "doi-asserted-by": "crossref",
+          "first-page": "3419",
+          "DOI": "10.5194/gmd-12-3419-2019",
+          "article-title": "Climate projections of a multivariate heat stress index: The role of downscaling and bias correction",
+          "volume": "12",
+          "author": "Casanueva",
+          "year": "2019",
+          "journal-title": "Geosci. Model Dev."
+        },
+        {
+          "key": "ref_27",
+          "doi-asserted-by": "crossref",
+          "first-page": "976",
+          "DOI": "10.1175/2010MWR3425.1",
+          "article-title": "The AROME-France Convective-Scale Operational Model",
+          "volume": "139",
+          "author": "Seity",
+          "year": "2011",
+          "journal-title": "Mon. Weather Rev."
+        },
+        {
+          "key": "ref_28",
+          "doi-asserted-by": "crossref",
+          "first-page": "1431",
+          "DOI": "10.1002/qj.3986",
+          "article-title": "C-LAEF: Convection-permitting Limited-Area Ensemble Forecasting system",
+          "volume": "147",
+          "author": "Wastl",
+          "year": "2021",
+          "journal-title": "Q. J. R. Meteorol. Soc."
+        },
+        {
+          "key": "ref_29",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1127/metz/4/1995/3",
+          "article-title": "Generalization of the streamfunction\u2013vorticity method to three dimensions",
+          "volume": "3",
+          "author": "Sievers",
+          "year": "1995",
+          "journal-title": "Meteorol. Z."
+        },
+        {
+          "key": "ref_30",
+          "unstructured": "Sievers, U. (2024, March 12). Das kleinskalige Stromungsmodell MUKLIMO_3 Teil 1: Theoretische Grundlagen, PC-Basisversion und Validierung. Berichte des Deutschen Wetterdienstes. Available online: https://refubium.fu-berlin.de/handle/fub188/19051."
+        },
+        {
+          "key": "ref_31",
+          "unstructured": "Sievers, U. (2024, March 12). Das kleinskalige Stromungsmodell MUKLIMO_3 Teil 2: Thermodynamische Erweiterungen. Berichte des Deutschen Wetterdienstes. Available online: https://refubium.fu-berlin.de/handle/fub188/18630."
+        },
+        {
+          "key": "ref_32",
+          "doi-asserted-by": "crossref",
+          "first-page": "1181",
+          "DOI": "10.1007/s00704-021-03580-6",
+          "article-title": "Applying urban climate model in prediction mode\u2014Evaluation of MUKLIMO_3 model performance for Austrian cities based on the summer period of 2019",
+          "volume": "144",
+          "author": "Hollosi",
+          "year": "2021",
+          "journal-title": "Theor. Appl. Climatol."
+        },
+        {
+          "key": "ref_33",
+          "doi-asserted-by": "crossref",
+          "first-page": "e2200",
+          "DOI": "10.1002/met.2200",
+          "article-title": "Machine learning bias correction and downscaling of urban heatwave temperature predictions from kilometre to hectometre scale",
+          "volume": "31",
+          "author": "Blunn",
+          "year": "2024",
+          "journal-title": "Meteorol. Appl."
+        },
+        {
+          "key": "ref_34",
+          "doi-asserted-by": "crossref",
+          "first-page": "929",
+          "DOI": "10.5194/gmd-6-929-2013",
+          "article-title": "The SURFEXv7.2 land and ocean surface platform for coupled or offline simulation of earth surface variables and fluxes",
+          "volume": "6",
+          "author": "Masson",
+          "year": "2013",
+          "journal-title": "Geosci. Model Dev."
+        },
+        {
+          "key": "ref_35",
+          "doi-asserted-by": "crossref",
+          "first-page": "357",
+          "DOI": "10.1023/A:1002463829265",
+          "article-title": "A Physically-Based Scheme For The Urban Energy Budget In Atmospheric Models",
+          "volume": "94",
+          "author": "Masson",
+          "year": "2000",
+          "journal-title": "Bound.-Layer Meteorol."
+        },
+        {
+          "key": "ref_36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Delcloo, A., Hamdi, R., Deckmyn, A., De Backer, H., For\u00eat, G., Termonia, P., and Van Langenhove, H. (2014). A One Year Evaluation of the CTM CHIMERE Using SURFEX/TEB Within the High Resolution NWP Models ALARO and ALADIN for Belgium. Air Pollution Modeling and Its Application XXIII, Springer International Publishing.",
+          "DOI": "10.1007/978-3-319-04379-1_81"
+        },
+        {
+          "key": "ref_37",
+          "doi-asserted-by": "crossref",
+          "first-page": "23",
+          "DOI": "10.5194/gmd-7-23-2014",
+          "article-title": "Evaluating the performance of SURFEXv5 as a new land surface scheme for the ALADINcy36 and ALARO-0 models",
+          "volume": "7",
+          "author": "Hamdi",
+          "year": "2014",
+          "journal-title": "Geosci. Model Dev."
+        },
+        {
+          "key": "ref_38",
+          "doi-asserted-by": "crossref",
+          "first-page": "223",
+          "DOI": "10.5194/gmd-10-223-2017",
+          "article-title": "Reinitialised versus continuous regional climate simulations using ALARO-0 coupled to the land surface model SURFEXv5",
+          "volume": "10",
+          "author": "Berckmans",
+          "year": "2017",
+          "journal-title": "Geosci. Model Dev."
+        },
+        {
+          "key": "ref_39",
+          "doi-asserted-by": "crossref",
+          "first-page": "13",
+          "DOI": "10.1007/s10584-022-03434-8",
+          "article-title": "The summer cooling effect under the projected restoration of Aral Sea in Central Asia",
+          "volume": "174",
+          "author": "He",
+          "year": "2022",
+          "journal-title": "Clim. Chang."
+        },
+        {
+          "key": "ref_40",
+          "doi-asserted-by": "crossref",
+          "first-page": "5609",
+          "DOI": "10.5194/gmd-13-5609-2020",
+          "article-title": "Multi-layer coupling between SURFEX-TEB-v9.0 and Meso-NH-v5.3 for modelling the urban climate of high-rise cities",
+          "volume": "13",
+          "author": "Schoetter",
+          "year": "2020",
+          "journal-title": "Geosci. Model Dev."
+        },
+        {
+          "key": "ref_41",
+          "doi-asserted-by": "crossref",
+          "first-page": "29",
+          "DOI": "10.1017/S1350482705001519",
+          "article-title": "ECOCLIMAP: A global database of land surface parameters at 1 km resolution",
+          "volume": "12",
+          "author": "Champeaux",
+          "year": "2005",
+          "journal-title": "Meteorol. Appl."
+        },
+        {
+          "key": "ref_42",
+          "unstructured": "European Union (2018). Copernicus Land Monitoring Service\u2014Urban Atlas, European Environment Agency (EEA)."
+        },
+        {
+          "key": "ref_43",
+          "unstructured": "GeoVille GmbH (2018, September 18). Land Information System Austria (LISA). Available online: https://austria-in-space.at/en/projects/2010/land-information-system-austria.php."
+        },
+        {
+          "key": "ref_44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Napoly, A., Grassmann, T., Meier, F., and Fenner, D. (2018). Development and Application of a Statistically-Based Quality Control for Crowdsourced Air Temperature Data. Front. Earth Sci., 6.",
+          "DOI": "10.3389/feart.2018.00118"
+        },
+        {
+          "key": "ref_45",
+          "doi-asserted-by": "crossref",
+          "first-page": "525",
+          "DOI": "10.1127/metz/2017/0861",
+          "article-title": "Intra and inter \u2018local climate zone\u2019 variability of air temperature as observed by crowdsourced citizen weather stations in Berlin, Germany",
+          "volume": "26",
+          "author": "Fenner",
+          "year": "2017",
+          "journal-title": "Meteorol. Z."
+        },
+        {
+          "key": "ref_46",
+          "doi-asserted-by": "crossref",
+          "first-page": "100597",
+          "DOI": "10.1016/j.uclim.2020.100597",
+          "article-title": "Case-study of neighborhood-scale summertime urban air temperature for the City of Vienna using crowd-sourced data",
+          "volume": "32",
+          "author": "Feichtinger",
+          "year": "2020",
+          "journal-title": "Urban Clim."
+        },
+        {
+          "key": "ref_47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fenner, D., Bechtel, B., Demuzere, M., Kittner, J., and Meier, F. (2021). CrowdQC+\u2014A Quality-Control for Crowdsourced Air-Temperature Observations Enabling World-Wide Urban Climate Applications. Front. Environ. Sci., 9.",
+          "DOI": "10.3389/fenvs.2021.720747"
+        },
+        {
+          "key": "ref_48",
+          "doi-asserted-by": "crossref",
+          "first-page": "155",
+          "DOI": "10.1002/qj.522",
+          "article-title": "Dynamical kernel of the Aladin\u2013NH spectral limited-area model: Revised formulation and sensitivity experiments",
+          "volume": "136",
+          "author": "Vivoda",
+          "year": "2010",
+          "journal-title": "Q. J. R. Meteorol. Soc."
+        },
+        {
+          "key": "ref_49",
+          "doi-asserted-by": "crossref",
+          "first-page": "90",
+          "DOI": "10.1007/s00585-997-0090-6",
+          "article-title": "The Meso-NH Atmospheric Simulation System. Part I: Adiabatic formulation and control simulations",
+          "volume": "16",
+          "author": "Lafore",
+          "year": "1998",
+          "journal-title": "Ann. Geophys."
+        },
+        {
+          "key": "ref_50",
+          "first-page": "1",
+          "article-title": "A turbulence scheme allowing for mesoscale and large-eddy simulations",
+          "volume": "126",
+          "author": "Cuxart",
+          "year": "2000",
+          "journal-title": "Q. J. R. Meteorol. Soc."
+        },
+        {
+          "key": "ref_51",
+          "doi-asserted-by": "crossref",
+          "first-page": "83",
+          "DOI": "10.1007/s10546-009-9388-0",
+          "article-title": "A Parameterization of Dry Thermals and Shallow Cumuli for Mesoscale Numerical Weather Prediction",
+          "volume": "132",
+          "author": "Pergaud",
+          "year": "2009",
+          "journal-title": "Bound.-Layer Meteorol."
+        },
+        {
+          "key": "ref_52",
+          "unstructured": "Pinty, J.P., and Jabouille, P. (1998, January 17\u201321). A mixed-phase cloud parameterization for use in mesoscale non-hydrostatic model: Simulations of a squall line and of orographic precipitations. Proceedings of the Conference of Cloud Physics, Washington, DC, USA."
+        },
+        {
+          "key": "ref_53",
+          "doi-asserted-by": "crossref",
+          "first-page": "16663",
+          "DOI": "10.1029/97JD00237",
+          "article-title": "Radiative transfer for inhomogeneous atmospheres: RRTM, a validated correlated-k model for the longwave",
+          "volume": "102",
+          "author": "Mlawer",
+          "year": "1997",
+          "journal-title": "J. Geophys. Res. Atmos."
+        },
+        {
+          "key": "ref_54",
+          "doi-asserted-by": "crossref",
+          "first-page": "257",
+          "DOI": "10.5194/gmd-11-257-2018",
+          "article-title": "The ALADIN System and its canonical model configurations AROME CY41T1 and ALARO CY40T1",
+          "volume": "11",
+          "author": "Termonia",
+          "year": "2018",
+          "journal-title": "Geosci. Model Dev."
+        },
+        {
+          "key": "ref_55",
+          "first-page": "405",
+          "article-title": "A lateral boundary formulation for multi-level prediction models",
+          "volume": "102",
+          "author": "Davies",
+          "year": "1976",
+          "journal-title": "Q. J. R. Meteorol. Soc."
+        },
+        {
+          "key": "ref_56",
+          "doi-asserted-by": "crossref",
+          "first-page": "997",
+          "DOI": "10.1175/1520-0493(2000)128<0997:IOANAS>2.0.CO;2",
+          "article-title": "Implementation of a New Assimilation Scheme for Soil and Surface Variables in a Global NWP Model",
+          "volume": "128",
+          "author": "Giard",
+          "year": "2000",
+          "journal-title": "Mon. Weather Rev."
+        },
+        {
+          "key": "ref_57",
+          "doi-asserted-by": "crossref",
+          "first-page": "3833",
+          "DOI": "10.1016/j.rse.2008.06.006",
+          "article-title": "Development of a two-band enhanced vegetation index without a blue band",
+          "volume": "112",
+          "author": "Jiang",
+          "year": "2008",
+          "journal-title": "Remote Sens. Environ."
+        },
+        {
+          "key": "ref_58",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kang, Y., \u00d6zdo\u011fan, M., Zipper, S., Rom\u00e1n, M., Walker, J., Hong, S., Marshall, M., Magliulo, V., Moreno, J., and Alonso, L. (2016). How Universal Is the Relationship between Remotely Sensed Vegetation Indices and Crop Leaf Area Index? A Global Assessment. Remote Sens., 8.",
+          "DOI": "10.3390/rs8070597"
+        },
+        {
+          "key": "ref_59",
+          "doi-asserted-by": "crossref",
+          "first-page": "18",
+          "DOI": "10.1016/j.rse.2017.06.031",
+          "article-title": "Google Earth Engine: Planetary-Scale Geospatial Analysis for Everyone",
+          "volume": "202",
+          "author": "Gorelick",
+          "year": "2017",
+          "journal-title": "Remote Sens. Environ."
+        },
+        {
+          "key": "ref_60",
+          "doi-asserted-by": "crossref",
+          "first-page": "1885",
+          "DOI": "10.1002/joc.4819",
+          "article-title": "Urban meteorological modeling using WRF: A sensitivity study",
+          "volume": "37",
+          "author": "Sharma",
+          "year": "2016",
+          "journal-title": "Int. J. Climatol."
+        },
+        {
+          "key": "ref_61",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Buncic, D. (2016). Superforecasting: The Art and Science of Prediction. By Philip Tetlock and Dan Gardner. Risks, 4.",
+          "DOI": "10.3390/risks4030024"
+        },
+        {
+          "key": "ref_62",
+          "doi-asserted-by": "crossref",
+          "first-page": "191",
+          "DOI": "10.1175/1520-0450(1963)002<0191:OSPF>2.0.CO;2",
+          "article-title": "On Subjective Probability Forecasting",
+          "volume": "2",
+          "author": "Sanders",
+          "year": "1963",
+          "journal-title": "J. Appl. Meteorol."
+        },
+        {
+          "key": "ref_63",
+          "doi-asserted-by": "crossref",
+          "first-page": "783",
+          "DOI": "10.1080/01621459.1971.10482346",
+          "article-title": "Elicitation of Personal Probabilities and Expectations",
+          "volume": "66",
+          "author": "Savage",
+          "year": "1971",
+          "journal-title": "J. Am. Stat. Assoc."
+        },
+        {
+          "key": "ref_64",
+          "doi-asserted-by": "crossref",
+          "first-page": "177",
+          "DOI": "10.1175/WAF-D-13-00103.1",
+          "article-title": "A Probabilistic Derivation of Heidke Skill Score",
+          "volume": "29",
+          "year": "2014",
+          "journal-title": "Weather Forecast."
+        },
+        {
+          "key": "ref_65",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2",
+          "article-title": "Verification of forecasts expressed in terms of probability",
+          "volume": "78",
+          "author": "Brier",
+          "year": "1950",
+          "journal-title": "Mon. Weather Rev."
+        },
+        {
+          "key": "ref_66",
+          "doi-asserted-by": "crossref",
+          "first-page": "1395",
+          "DOI": "10.1287/mnsc.40.11.1395",
+          "article-title": "Evaluating Probabilities: Asymmetric Scoring Rules",
+          "volume": "40",
+          "author": "Winkler",
+          "year": "1994",
+          "journal-title": "Manag. Sci."
+        },
+        {
+          "key": "ref_67",
+          "doi-asserted-by": "crossref",
+          "first-page": "180",
+          "DOI": "10.2307/2178916",
+          "article-title": "A Treatise on Probability",
+          "volume": "31",
+          "author": "Lewis",
+          "year": "1922",
+          "journal-title": "Philos. Rev."
+        },
+        {
+          "key": "ref_68",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, J., Mellers, B., Ungar, L., and Satop\u00e4\u00e4, V. (2023). Fair Skill Brier Score: Evaluating Probabilistic Forecasts of One-Off Events with Different Numbers of Categorical Outcomes. SSRN Electron. J.",
+          "DOI": "10.2139/ssrn.4556542"
+        },
+        {
+          "key": "ref_69",
+          "doi-asserted-by": "crossref",
+          "first-page": "3491",
+          "DOI": "10.1175/MWR-D-18-0106.1",
+          "article-title": "A \u201cMeta\u201d Analysis of the Fractions Skill Score: The Limiting Case and Implications for Aggregation",
+          "volume": "149",
+          "author": "Mittermaier",
+          "year": "2021",
+          "journal-title": "Mon. Weather Rev."
+        },
+        {
+          "key": "ref_70",
+          "unstructured": "Singleton, A., and Deckmyn, A. (2024, April 10). Harp: Harp, R package Version 0.2.2. Available online: https://github.com/harphub/harp."
+        },
+        {
+          "key": "ref_71",
+          "unstructured": "(2024, August 26). Google Maps from the city of Vienna. Available online: https://www.google.ca/maps/@48.1989061,16.3670219,2320m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI0MTEwNi4wIKXMDSoASAFQAw."
+        },
+        {
+          "key": "ref_72",
+          "doi-asserted-by": "crossref",
+          "first-page": "3597",
+          "DOI": "10.1002/joc.4940",
+          "article-title": "Can the crowdsourcing data paradigm take atmospheric science to a new level? A case study of the urban heat island of London quantified using Netatmo weather stations",
+          "volume": "37",
+          "author": "Chapman",
+          "year": "2017",
+          "journal-title": "Int. J. Climatol."
+        },
+        {
+          "key": "ref_73",
+          "doi-asserted-by": "crossref",
+          "first-page": "170",
+          "DOI": "10.1016/j.uclim.2017.01.006",
+          "article-title": "Crowdsourcing air temperature from citizen weather stations for urban climate research",
+          "volume": "19",
+          "author": "Meier",
+          "year": "2017",
+          "journal-title": "Urban Clim."
+        },
+        {
+          "key": "ref_74",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1241",
+          "DOI": "10.1002/joc.5447",
+          "article-title": "Implications of employing detailed urban canopy parameters for mesoscale climate modelling: A comparison between WUDAPT and GIS databases over Vienna, Austria",
+          "volume": "38",
+          "author": "Hammerberg",
+          "year": "2018",
+          "journal-title": "Int. J. Climatol."
+        },
+        {
+          "key": "ref_75",
+          "doi-asserted-by": "crossref",
+          "first-page": "E43",
+          "DOI": "10.1175/BAMS-D-18-0237.1",
+          "article-title": "Adopting Citizen Observations in Operational Weather Prediction",
+          "volume": "101",
+          "author": "Nipen",
+          "year": "2020",
+          "journal-title": "Bull. Am. Meteorol. Soc."
+        },
+        {
+          "key": "ref_76",
+          "doi-asserted-by": "crossref",
+          "first-page": "111791",
+          "DOI": "10.1016/j.rse.2020.111791",
+          "article-title": "Hyperlocal mapping of urban air temperature using remote sensing and crowdsourced weather data",
+          "volume": "242",
+          "author": "Venter",
+          "year": "2020",
+          "journal-title": "Remote Sens. Environ."
+        },
+        {
+          "key": "ref_77",
+          "doi-asserted-by": "crossref",
+          "first-page": "100739",
+          "DOI": "10.1016/j.uclim.2020.100739",
+          "article-title": "Mapping urban temperature using crowd-sensing data and machine learning",
+          "volume": "35",
+          "author": "Zumwald",
+          "year": "2021",
+          "journal-title": "Urban Clim."
+        },
+        {
+          "key": "ref_78",
+          "doi-asserted-by": "crossref",
+          "first-page": "44041",
+          "DOI": "10.1088/1748-9326/ac5c0f",
+          "article-title": "Evidence of horizontal urban heat advection in London using six years of data from a citizen weather station network",
+          "volume": "17",
+          "author": "Brousse",
+          "year": "2022",
+          "journal-title": "Environ. Res. Lett."
+        },
+        {
+          "key": "ref_79",
+          "doi-asserted-by": "crossref",
+          "first-page": "153",
+          "DOI": "10.5194/asr-17-153-2020",
+          "article-title": "TITAN automatic spatial quality control of meteorological in-situ observations",
+          "volume": "17",
+          "author": "Lussana",
+          "year": "2020",
+          "journal-title": "Adv. Sci. Res."
+        },
+        {
+          "key": "ref_80",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hahn, C., Garcia-Marti, I., Sugier, J., Emsley, F., Beaulant, A.L., Oram, L., Strandberg, E., Lindgren, E., Sunter, M., and Ziska, F. (2022). Observations from Personal Weather Stations\u2014EUMETNET Interests and Experience. Climate, 10.",
+          "DOI": "10.3390/cli10120192"
+        },
+        {
+          "key": "ref_81",
+          "unstructured": "Grassmann, T., Napoly, A., Meier, F., and Fenner, D. (2023, October 10). R package-Quality control for crowdsourced data from CWS. Available online: https://depositonce.tu-berlin.de/items/efbe2b0f-1339-4bf1-ab48-3459481e6ebf."
+        },
+        {
+          "key": "ref_82",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Karl, T.R., Nicholls, N., and Ghazi, A. (1999). Clivar/GCOS/WMO workshop on indices and indicators for climate extremes workshop summary. Weather and Climate Extremes: Changes, Variations and a Perspective from the Insurance Industry, Springer.",
+          "DOI": "10.1007/978-94-015-9265-9"
+        },
+        {
+          "key": "ref_83",
+          "first-page": "e0000162",
+          "article-title": "Trends in Tropical Nights and their Effects on Mortality in Switzerland across 50 years",
+          "volume": "2022",
+          "author": "Rippstein",
+          "year": "2022",
+          "journal-title": "ISEE Conf. Abstr."
+        },
+        {
+          "key": "ref_84",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hagen, M., and Weihs, P. (2023). Mortality during Heatwaves and Tropical Nights in Vienna between 1998 and 2022. Atmosphere, 14.",
+          "DOI": "10.3390/atmos14101498"
+        },
+        {
+          "key": "ref_85",
+          "doi-asserted-by": "crossref",
+          "first-page": "163",
+          "DOI": "10.1002/met.57",
+          "article-title": "Assessing the spatial and temporal variation in the skill of precipitation forecasts from an NWP model",
+          "volume": "15",
+          "author": "Roberts",
+          "year": "2008",
+          "journal-title": "Meteorol. Appl."
+        },
+        {
+          "key": "ref_86",
+          "unstructured": "Enzinger, S. (2024, August 26). Bodenverbrauch in Oesterreich. Available online: https://www.umweltbundesamt.at/news221202."
+        },
+        {
+          "key": "ref_87",
+          "unstructured": "European Union (2021). Copernicus Land Monitoring Service\u2014CORINE Land Cover, European Environment Agency (EEA)."
+        },
+        {
+          "key": "ref_88",
+          "unstructured": "Zanaga, D., Van De Kerchove, R., De Keersmaecker, W., Souverijns, N., Brockmann, C., Quast, R., Wevers, J., Grosu, A., Paccini, A., and Vergnaud, S. (2022, March 15). ESA WorldCover 10 m 2020 v100. Zenodo, Available online: https://zenodo.org/records/5571936."
+        },
+        {
+          "key": "ref_89",
+          "doi-asserted-by": "crossref",
+          "first-page": "7",
+          "DOI": "10.1016/j.isprsjprs.2014.09.002",
+          "article-title": "Global land cover mapping at 30 m resolution: A POK-based operational approach",
+          "volume": "103",
+          "author": "Chen",
+          "year": "2015",
+          "journal-title": "ISPRS J. Photogramm. Remote Sens."
+        },
+        {
+          "key": "ref_90",
+          "first-page": "103265",
+          "article-title": "Cross-resolution national-scale land-cover mapping based on noisy label learning: A case study of China",
+          "volume": "118",
+          "author": "Liu",
+          "year": "2023",
+          "journal-title": "Int. J. Appl. Earth Obs. Geoinf."
+        },
+        {
+          "key": "ref_91",
+          "doi-asserted-by": "crossref",
+          "first-page": "104982",
+          "DOI": "10.1016/j.scs.2023.104982",
+          "article-title": "Investigating the relationship between air temperature and the intensity of urban development using on-site measurement, satellite imagery and machine learning",
+          "volume": "100",
+          "author": "Lau",
+          "year": "2024",
+          "journal-title": "Sustain. Cities Soc."
+        },
+        {
+          "key": "ref_92",
+          "doi-asserted-by": "crossref",
+          "first-page": "100632",
+          "DOI": "10.1016/j.uclim.2020.100632",
+          "article-title": "High resolution simulation of Stockholm\u2019s air temperature and its interactions with urban development",
+          "volume": "32",
+          "author": "Amorim",
+          "year": "2020",
+          "journal-title": "Urban Clim."
+        }
+      ],
+      "updated-by": [
+        {
+          "updated": {
+            "date-parts": [
+              [
+                2024,
+                12,
+                23
+              ]
+            ],
+            "date-time": "2024-12-23T00:00:00Z",
+            "timestamp": 1734912000000
+          },
+          "DOI": "10.3390/atmos16020200",
+          "type": "correction",
+          "source": "publisher",
+          "label": "Correction"
+        }
+      ],
+      "container-title": [
+        "Atmosphere"
+      ],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.mdpi.com/2073-4433/15/12/1544/pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            3
+          ]
+        ],
+        "date-time": "2025-08-03T14:48:16Z",
+        "timestamp": 1754232496000
+      },
+      "score": 10.611295,
+      "resource": {
+        "primary": {
+          "URL": "https://www.mdpi.com/2073-4433/15/12/1544"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            23
+          ]
+        ]
+      },
+      "references-count": 92,
+      "journal-issue": {
+        "issue": "12",
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "atmos15121544"
+      ],
+      "URL": "https://doi.org/10.3390/atmos15121544",
+      "ISSN": [
+        "2073-4433"
+      ],
+      "issn-type": [
+        {
+          "type": "electronic",
+          "value": "2073-4433"
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            23
+          ]
+        ]
+      }
+    },
+    {
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            21
+          ]
+        ],
+        "date-time": "2025-08-21T18:16:52Z",
+        "timestamp": 1755800212789,
+        "version": "3.44.0"
+      },
+      "reference-count": 12,
+      "publisher": "IEEE",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                29
+              ]
+            ],
+            "date-time": "2025-06-29T00:00:00Z",
+            "timestamp": 1751155200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                29
+              ]
+            ],
+            "date-time": "2025-06-29T00:00:00Z",
+            "timestamp": 1751155200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            29
+          ]
+        ]
+      },
+      "DOI": "10.1109/transducers61432.2025.11111115",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            19
+          ]
+        ],
+        "date-time": "2025-08-19T18:06:19Z",
+        "timestamp": 1755626779000
+      },
+      "page": "1429-1432",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Piezoelectric Micromirror with Integrated Resonant Sensor"
+      ],
+      "prefix": "10.1109",
+      "author": [
+        {
+          "given": "Takashi",
+          "family": "Sasaki",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Silicon Austria Labs,Austria"
+            }
+          ]
+        },
+        {
+          "given": "Adrien",
+          "family": "Piot",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Silicon Austria Labs,Austria"
+            }
+          ]
+        },
+        {
+          "given": "Rodrigo T.",
+          "family": "Rocha",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Silicon Austria Labs,Austria"
+            }
+          ]
+        },
+        {
+          "given": "Anton",
+          "family": "Lagosh",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Silicon Austria Labs,Austria"
+            }
+          ]
+        },
+        {
+          "given": "Sara R.P.",
+          "family": "Guerreiro",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Silicon Austria Labs,Austria"
+            }
+          ]
+        },
+        {
+          "given": "Cl\u00e9ment",
+          "family": "Fleury",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Silicon Austria Labs,Austria"
+            }
+          ]
+        },
+        {
+          "given": "Dominik",
+          "family": "Holzmann",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Silicon Austria Labs,Austria"
+            }
+          ]
+        },
+        {
+          "given": "Ale\u0161",
+          "family": "Travnik",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Silicon Austria Labs,Austria"
+            }
+          ]
+        }
+      ],
+      "member": "263",
+      "reference": [
+        {
+          "doi-asserted-by": "publisher",
+          "key": "ref1",
+          "DOI": "10.1117/12.2576526"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "ref2",
+          "DOI": "10.1088/1361-6439/aca101"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "ref3",
+          "DOI": "10.1109/TIE.2022.3174235"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "ref4",
+          "DOI": "10.3390/mi8070215"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "ref5",
+          "DOI": "10.1088/1361-6439/aae051"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "ref6",
+          "DOI": "10.3390/s20226599"
+        },
+        {
+          "key": "ref7",
+          "first-page": "895",
+          "article-title": "Multimode MEMS Mirror for Homogeneous Illumination in Resonant Scanning Operation",
+          "volume-title": "2023 22nd International Conference on Solid-State Sensors, Actuators and Microsystems (Transducers)",
+          "author": "Bainschab",
+          "year": "2023"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "ref8",
+          "DOI": "10.1007/978-1-84882-694-6_52"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "ref9",
+          "DOI": "10.1117/12.2078618"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "ref10",
+          "DOI": "10.3390/mi7040057"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "ref11",
+          "DOI": "10.1117/12.715814"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "ref12",
+          "DOI": "10.1016/j.sna.2022.113829"
+        }
+      ],
+      "event": {
+        "name": "2025 23rd International Conference on Solid-State Sensors, Actuators and Microsystems (Transducers)",
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              29
+            ]
+          ]
+        },
+        "location": "Orlando, FL, USA",
+        "end": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              3
+            ]
+          ]
+        }
+      },
+      "container-title": [
+        "2025 23rd International Conference on Solid-State Sensors, Actuators and Microsystems (Transducers)"
+      ],
+      "link": [
+        {
+          "URL": "http://xplorestaging.ieee.org/ielx8/11108179/11109079/11111115.pdf?arnumber=11111115",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            20
+          ]
+        ],
+        "date-time": "2025-08-20T06:29:27Z",
+        "timestamp": 1755671367000
+      },
+      "score": 10.602527,
+      "resource": {
+        "primary": {
+          "URL": "https://ieeexplore.ieee.org/document/11111115/"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            29
+          ]
+        ]
+      },
+      "references-count": 12,
+      "URL": "https://doi.org/10.1109/transducers61432.2025.11111115",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            29
+          ]
+        ]
+      }
+    },
+    {
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2025-07-30T15:37:24Z",
+        "timestamp": 1753889844945,
+        "version": "3.41.2"
+      },
+      "reference-count": 0,
+      "publisher": "American Diabetes Association",
+      "issue": "Supplement_1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                20
+              ]
+            ],
+            "date-time": "2025-06-20T00:00:00Z",
+            "timestamp": 1750377600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://www.diabetesjournals.org/content/license"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "diabetesjournals.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            20
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Introduction and Objective: The rise of Big Data necessitates artificial intelligence-driven analyses to extract valuable insights, particularly for risk prediction in high-risk patient populations. This observational study applied machine learning (ML) algorithms to predict 5-year overall mortality in heart failure patients with type 2 diabetes mellitus (T2DM) or prediabetes.</jats:p>\n               <jats:p>Methods: A cohort of 290 heart failure patients with T2DM or prediabetes was followed for 5 years, during which 54% of participants died. The dataset comprised 470 variables, e.g. anthropometric, clinical, social, family history, and lifestyle factors. After preprocessing, the data were analyzed using ML techniques implemented in R\u2019s caret package. The dataset was split into training (75%) and test (25%) subsets.</jats:p>\n               <jats:p>Results: Among the ML models tested, the Random Forest algorithm demonstrated the best predictive performance, with a sensitivity of 82%, specificity of 89%, and overall accuracy of 85%. Clinical parameters were the most significant predictors, with the multimorbidity marker Glypican-4, hemoglobin, and glomerular filtration rate identified as the top three contributors.</jats:p>\n               <jats:p>Conclusion: In conclusion, ML-based Big Data analysis holds great potential for predicting mortality risk in pre-/diabetic heart failure patients, paving the way for personalized and timely interventions.</jats:p>\n               <jats:p/>\n               <jats:sec>\n                  <jats:title>Disclosure</jats:title>\n                  <jats:p>A. Leiherer: None. A. Muendlein: None. L. Schnetzer: None. S. Mink: None. C. Heinzle: None. E. Brandtner: None. K. Geiger: None. S. Gaenger: None. B. Bermeitinger: None. T. Plattner: None. A. Vonbank: None. A. Mader: None. B. Larcher: None. C.H. Saely: None. P. Fraunberger: None. H. Drexel: None.</jats:p>\n               </jats:sec>",
+      "DOI": "10.2337/db25-425-p",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            13
+          ]
+        ],
+        "date-time": "2025-06-13T07:07:31Z",
+        "timestamp": 1749798451000
+      },
+      "update-policy": "https://doi.org/10.2337/ada-journal-policies",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "425-P: Machine Learning Identifies Glypican 4 as Key Predictor of Five-Year Mortality in Heart Failure Patients with Prediabetes or Diabetes"
+      ],
+      "prefix": "10.2337",
+      "volume": "74",
+      "author": [
+        {
+          "given": "ANDREAS",
+          "family": "LEIHERER",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        },
+        {
+          "given": "AXEL",
+          "family": "MUENDLEIN",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        },
+        {
+          "given": "LAURA",
+          "family": "SCHNETZER",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        },
+        {
+          "given": "SYLVIA",
+          "family": "MINK",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        },
+        {
+          "given": "CHRISTINE",
+          "family": "HEINZLE",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        },
+        {
+          "given": "EVA",
+          "family": "MARIA BRANDTNER",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        },
+        {
+          "given": "KATHRIN",
+          "family": "GEIGER",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        },
+        {
+          "given": "STELLA",
+          "family": "GAENGER",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        },
+        {
+          "given": "BERNHARD",
+          "family": "BERMEITINGER",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        },
+        {
+          "given": "THOMAS",
+          "family": "PLATTNER",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        },
+        {
+          "given": "ALEXANDER",
+          "family": "VONBANK",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        },
+        {
+          "given": "ARTHUR",
+          "family": "MADER",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        },
+        {
+          "given": "BARBARA",
+          "family": "LARCHER",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        },
+        {
+          "given": "CHRISTOPH H.",
+          "family": "SAELY",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        },
+        {
+          "given": "PETER",
+          "family": "FRAUNBERGER",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        },
+        {
+          "given": "HEINZ",
+          "family": "DREXEL",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dornbirn, Austria, Feldkirch, Austria, Triesen, Liechtenstein"
+            }
+          ]
+        }
+      ],
+      "member": "1167",
+      "container-title": [
+        "Diabetes"
+      ],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://diabetesjournals.org/diabetes/article/74/Supplement_1/425-P/160335/425-P-Machine-Learning-Identifies-Glypican-4-as",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "https://diabetesjournals.org/diabetes/article/74/Supplement_1/425-P/160335/425-P-Machine-Learning-Identifies-Glypican-4-as",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            20
+          ]
+        ],
+        "date-time": "2025-06-20T17:12:29Z",
+        "timestamp": 1750439549000
+      },
+      "score": 10.577567,
+      "resource": {
+        "primary": {
+          "URL": "https://diabetesjournals.org/diabetes/article/74/Supplement_1/425-P/160335/425-P-Machine-Learning-Identifies-Glypican-4-as"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            20
+          ]
+        ]
+      },
+      "references-count": 0,
+      "journal-issue": {
+        "issue": "Supplement_1",
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              20
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.2337/db25-425-p",
+      "ISSN": [
+        "0012-1797"
+      ],
+      "issn-type": [
+        {
+          "type": "print",
+          "value": "0012-1797"
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            20
+          ]
+        ]
+      },
+      "article-number": "425-P"
+    }
+  ],
+  "modified": "2025-09-13T15:27:26"
+}

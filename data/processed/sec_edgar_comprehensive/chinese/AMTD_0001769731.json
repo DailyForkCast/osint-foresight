@@ -1,0 +1,49 @@
+{
+  "cik": "0001769731",
+  "ticker": "AMTD",
+  "name": "AMTD IDEA GROUP",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hk"
+  ],
+  "sic": "6199",
+  "sicDescription": "Finance Services",
+  "category": "Accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "33 0 1 4236 4597",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "66 RUE JEAN-JACQUES ROUSSEAU",
+      "street2": null,
+      "city": "PARIS",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "France",
+      "countryCode": "I0"
+    },
+    "business": {
+      "street1": "66 RUE JEAN-JACQUES ROUSSEAU",
+      "street2": null,
+      "city": "PARIS",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "France",
+      "countryCode": "I0"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-20"
+  },
+  "filings_count": 123
+}

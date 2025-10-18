@@ -1,0 +1,122 @@
+[
+  {
+    "path": "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONreports-json\\reportSummaries.json",
+    "size": 2225163,
+    "records": 5449,
+    "schema_fields": 7
+  },
+  {
+    "path": "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojectPublications-json\\projectPublications.json",
+    "size": 23871828,
+    "records": 33858,
+    "schema_fields": 16
+  },
+  {
+    "path": "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\project.json",
+    "size": 48552633,
+    "records": 18265,
+    "schema_fields": 20
+  },
+  {
+    "path": "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\euroSciVoc.json",
+    "size": 8939312,
+    "records": 37414,
+    "schema_fields": 5
+  },
+  {
+    "path": "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\topics.json",
+    "size": 2428945,
+    "records": 18265,
+    "schema_fields": 3
+  },
+  {
+    "path": "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\webItem.json",
+    "size": 943,
+    "records": 4,
+    "schema_fields": 7
+  },
+  {
+    "path": "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\policyPriorities.json",
+    "size": 2336114,
+    "records": 17948,
+    "schema_fields": 2
+  },
+  {
+    "path": "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\organization.json",
+    "size": 99202650,
+    "records": 115056,
+    "schema_fields": 25
+  },
+  {
+    "path": "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\webLink.json",
+    "size": 10383970,
+    "records": 29078,
+    "schema_fields": 9
+  },
+  {
+    "path": "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojects-json (1)\\legalBasis.json",
+    "size": 3558682,
+    "records": 23908,
+    "schema_fields": 4
+  },
+  {
+    "path": "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-HORIZONprojectDeliverables-json\\projectDeliverables.json",
+    "size": 18957858,
+    "records": 28454,
+    "schema_fields": 10
+  },
+  {
+    "path": "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\project.json",
+    "size": 91383831,
+    "records": 35389,
+    "schema_fields": 20
+  },
+  {
+    "path": "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\euroSciVoc.json",
+    "size": 27190886,
+    "records": 111426,
+    "schema_fields": 5
+  },
+  {
+    "path": "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\topics.json",
+    "size": 4146707,
+    "records": 35389,
+    "schema_fields": 3
+  },
+  {
+    "path": "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\webItem.json",
+    "size": 2393,
+    "records": 10,
+    "schema_fields": 7
+  },
+  {
+    "path": "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\organization.json",
+    "size": 153393600,
+    "records": 178414,
+    "schema_fields": 25
+  },
+  {
+    "path": "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\webLink.json",
+    "size": 78428124,
+    "records": 222026,
+    "schema_fields": 9
+  },
+  {
+    "path": "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projects-json\\legalBasis.json",
+    "size": 11617585,
+    "records": 65799,
+    "schema_fields": 4
+  },
+  {
+    "path": "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020projectDeliverables-json\\projectDeliverables.json",
+    "size": 118618404,
+    "records": 188459,
+    "schema_fields": 10
+  },
+  {
+    "path": "F:\\DECOMPRESSED_DATA\\horizons_data\\Horizons\\cordis-h2020reports-json\\reportSummaries.json",
+    "size": 14778125,
+    "records": 34483,
+    "schema_fields": 7
+  }
+]

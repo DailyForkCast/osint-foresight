@@ -1,0 +1,47 @@
+{
+  "cik": "0000889132",
+  "ticker": "PKX",
+  "name": "POSCO HOLDINGS INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3312",
+  "sicDescription": "Steel Works, Blast Furnaces & Rolling Mills (Coke Ovens)",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "02-3457-0114",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "POSCO CENTER",
+      "street2": "440 TEHERAN-RO",
+      "city": "GANGNAM-GU, SEOUL",
+      "stateOrCountry": "M5",
+      "zipCode": "06194",
+      "stateOrCountryDescription": "Korea, Republic of",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "POSCO CENTER",
+      "street2": "440 TEHERAN-RO",
+      "city": "GANGNAM-GU, SEOUL",
+      "stateOrCountry": "M5",
+      "zipCode": "06194",
+      "stateOrCountryDescription": "Korea, Republic of",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-17"
+  },
+  "filings_count": 1001
+}

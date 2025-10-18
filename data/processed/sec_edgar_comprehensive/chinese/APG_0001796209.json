@@ -1,0 +1,44 @@
+{
+  "cik": "0001796209",
+  "ticker": "APG",
+  "name": "APi Group Corp",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7340",
+  "sicDescription": "Services-To Dwellings & Other Buildings",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "981510303",
+  "phone": "651-636-4320",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "C/O API GROUP, INC.",
+      "street2": "1100 OLD HIGHWAY 8 NW",
+      "city": "NEW BRIGHTON",
+      "stateOrCountry": "MN",
+      "zipCode": "55112",
+      "stateOrCountryDescription": "MN",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "C/O API GROUP, INC.",
+      "street2": "1100 OLD HIGHWAY 8 NW",
+      "city": "NEW BRIGHTON",
+      "stateOrCountry": "MN",
+      "zipCode": "55112",
+      "stateOrCountryDescription": "MN",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 464
+}

@@ -1,0 +1,47 @@
+{
+  "cik": "0001260221",
+  "ticker": "TDG",
+  "name": "TransDigm Group INC",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3728",
+  "sicDescription": "Aircraft Parts & Auxiliary Equipment, NEC",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "510484716",
+  "phone": "216 706 2960",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "1350 EUCLID AVENUE",
+      "street2": "SUITE 1600",
+      "city": "CLEVELAND",
+      "stateOrCountry": "OH",
+      "zipCode": "44115",
+      "stateOrCountryDescription": "OH",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "1350 EUCLID AVENUE",
+      "street2": "SUITE 1600",
+      "city": "CLEVELAND",
+      "stateOrCountry": "OH",
+      "zipCode": "44115",
+      "stateOrCountryDescription": "OH",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-18"
+  },
+  "filings_count": 1004
+}

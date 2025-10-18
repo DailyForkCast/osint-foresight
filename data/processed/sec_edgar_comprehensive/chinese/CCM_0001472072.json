@@ -1,0 +1,52 @@
+{
+  "cik": "0001472072",
+  "ticker": "CCM",
+  "name": "Concord Medical Services Holdings Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:beijing",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "8011",
+  "sicDescription": "Services-Offices & Clinics of  Doctors of  Medicine",
+  "category": "Non-accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "(86)10-5825-6867",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ROOM 26A1-26A5, EAST TOWER, HANWEI",
+      "street2": "BUILDING NO. 7 GUANGHUA ROAD",
+      "city": "CHAOYANG DISTRICT, BEIJING",
+      "stateOrCountry": null,
+      "zipCode": "100020",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "ROOM 26A1-26A5, EAST TOWER, HANWEI",
+      "street2": "BUILDING NO. 7 GUANGHUA ROAD",
+      "city": "CHAOYANG DISTRICT, BEIJING",
+      "stateOrCountry": null,
+      "zipCode": "100020",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-28"
+  },
+  "filings_count": 198
+}

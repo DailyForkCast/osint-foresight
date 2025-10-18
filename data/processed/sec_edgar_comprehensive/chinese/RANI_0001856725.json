@@ -1,0 +1,47 @@
+{
+  "cik": "0001856725",
+  "ticker": "RANI",
+  "name": "Rani Therapeutics Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2834",
+  "sicDescription": "Pharmaceutical Preparations",
+  "category": "Non-accelerated filer<br>Smaller reporting company<br>Emerging growth company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "000000000",
+  "phone": "(408) 457-3700",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "2051 RINGWOOD AVENUE",
+      "street2": null,
+      "city": "SAN JOSE",
+      "stateOrCountry": "CA",
+      "zipCode": "95131",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "2051 RINGWOOD AVENUE",
+      "street2": null,
+      "city": "SAN JOSE",
+      "stateOrCountry": "CA",
+      "zipCode": "95131",
+      "stateOrCountryDescription": "CA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-07"
+  },
+  "filings_count": 311
+}

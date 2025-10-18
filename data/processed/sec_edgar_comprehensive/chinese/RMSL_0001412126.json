@@ -1,0 +1,47 @@
+{
+  "cik": "0001412126",
+  "ticker": "RMSL",
+  "name": "RemSleep Holdings Inc.",
+  "detection_reasons": [
+    "offshore:bvi"
+  ],
+  "sic": "7200",
+  "sicDescription": "Services-Personal Services",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "NV",
+  "ein": "383759675",
+  "phone": "(727) 955-4465",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "14175 ICOT BVLD. SUITE 300",
+      "street2": null,
+      "city": "CLEARWATER",
+      "stateOrCountry": "FL",
+      "zipCode": "33760",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "14175 ICOT BVLD. SUITE 300",
+      "street2": null,
+      "city": "CLEARWATER",
+      "stateOrCountry": "FL",
+      "zipCode": "33760",
+      "stateOrCountryDescription": "FL",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-14"
+  },
+  "filings_count": 260
+}

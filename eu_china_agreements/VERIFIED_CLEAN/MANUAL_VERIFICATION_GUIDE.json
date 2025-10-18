@@ -1,0 +1,53 @@
+{
+  "verification_steps": [
+    {
+      "step": 1,
+      "action": "Visit the URL",
+      "check": "Does the page load? Is it accessible?"
+    },
+    {
+      "step": 2,
+      "action": "Check page title and content",
+      "check": "Is this about an actual agreement/partnership/cooperation?"
+    },
+    {
+      "step": 3,
+      "action": "Identify parties",
+      "check": "Which European entity? Which Chinese entity?"
+    },
+    {
+      "step": 4,
+      "action": "Check agreement type",
+      "check": "MOU, Treaty, Partnership, Trade Deal, Investment?"
+    },
+    {
+      "step": 5,
+      "action": "Find date and status",
+      "check": "When signed? Still active?"
+    },
+    {
+      "step": 6,
+      "action": "Verify source credibility",
+      "check": "Official government site? News report? Think tank?"
+    }
+  ],
+  "red_flags_to_reject": [
+    "Industrial machinery advertisements",
+    "Stock photos",
+    "Language learning sites",
+    "Dating/casino/shopping sites",
+    "Login pages",
+    "News ABOUT agreements (not the agreements themselves)",
+    "Academic analysis (not actual agreements)",
+    "URLs with geographic mismatches"
+  ],
+  "accept_criteria": [
+    "Official government announcement of agreement",
+    "Embassy/consulate announcement",
+    "University partnership announcements",
+    "Trade association agreements",
+    "Sister city partnership documents",
+    "Investment agreements",
+    "Actual signed MOUs/treaties"
+  ]
+}

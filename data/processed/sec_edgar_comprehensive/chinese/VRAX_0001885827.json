@@ -1,0 +1,48 @@
+{
+  "cik": "0001885827",
+  "ticker": "VRAX",
+  "name": "Virax Biolabs Group Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "2835",
+  "sicDescription": "In Vitro & In Vivo Diagnostic Substances",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "44 020 7788 7414",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "BIOCITY GLASGOW",
+      "street2": "BO'NESS ROAD, NEWHOUSE",
+      "city": "LANARKSHIRE",
+      "stateOrCountry": "X0",
+      "zipCode": "ML1 5UH",
+      "stateOrCountryDescription": "United Kingdom",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "BIOCITY GLASGOW",
+      "street2": "BO'NESS ROAD, NEWHOUSE",
+      "city": "LANARKSHIRE",
+      "stateOrCountry": "X0",
+      "zipCode": "ML1 5UH",
+      "stateOrCountryDescription": "United Kingdom",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-07-30"
+  },
+  "filings_count": 116
+}

@@ -1,0 +1,48 @@
+{
+  "cik": "0001971828",
+  "ticker": "ENGS",
+  "name": "Energys Group Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "1731",
+  "sicDescription": "Electrical Work",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "44 1403 786212",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "FRANKLYN HOUSE, DAUX ROAD",
+      "street2": "BILLINGSHURST",
+      "city": "WEST SUSSEX",
+      "stateOrCountry": "X0",
+      "zipCode": "RH14 9SJ",
+      "stateOrCountryDescription": "United Kingdom",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "FRANKLYN HOUSE, DAUX ROAD",
+      "street2": "BILLINGSHURST",
+      "city": "WEST SUSSEX",
+      "stateOrCountry": "X0",
+      "zipCode": "RH14 9SJ",
+      "stateOrCountryDescription": "United Kingdom",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-02"
+  },
+  "filings_count": 56
+}

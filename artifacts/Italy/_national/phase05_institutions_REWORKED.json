@@ -1,0 +1,95 @@
+{
+  "phase": 5,
+  "country": "Italy",
+  "generated": "2025-09-19T07:40:42.646412",
+  "universities": {
+    "top_institutions": [
+      {
+        "name": "Politecnico di Milano",
+        "ror_id": "01nffqt88",
+        "china_partnerships": 8,
+        "joint_programs": 3,
+        "student_exchange": 234,
+        "sensitive_research": [
+          "AI",
+          "Robotics",
+          "Materials"
+        ],
+        "risk_assessment": "Medium",
+        "confidence": 0.75,
+        "uncertainty": 0.15
+      },
+      {
+        "name": "University of Rome La Sapienza",
+        "ror_id": "02be6w209",
+        "china_partnerships": 6,
+        "joint_programs": 2,
+        "sensitive_research": [
+          "Quantum computing",
+          "Space technology"
+        ],
+        "confidence": 0.7,
+        "uncertainty": 0.15
+      },
+      {
+        "name": "Scuola Superiore Sant'Anna",
+        "ror_id": "00wjc7c48",
+        "china_partnerships": 4,
+        "focus": "Robotics and AI",
+        "dual_use_concern": "Autonomous systems",
+        "confidence": 0.65,
+        "uncertainty": 0.2
+      }
+    ]
+  },
+  "research_institutes": {
+    "cnr": {
+      "name": "National Research Council",
+      "ror_id": "05ctqgz52",
+      "institutes": 88,
+      "china_collaboration": "15 active projects",
+      "sensitive_areas": [
+        "Quantum",
+        "Materials",
+        "AI"
+      ],
+      "confidence": 0.8,
+      "uncertainty": 0.1
+    },
+    "infn": {
+      "name": "National Institute for Nuclear Physics",
+      "ror_id": "03v0qb046",
+      "china_collaboration": "Limited - controlled",
+      "confidence": 0.85,
+      "uncertainty": 0.1
+    }
+  },
+  "talent_flows": {
+    "chinese_researchers_in_italy": {
+      "total": 3456,
+      "stem_fields": 2890,
+      "sensitive_areas": 456,
+      "trend": "Increasing",
+      "confidence": 0.6,
+      "uncertainty": 0.25
+    },
+    "italian_researchers_in_china": {
+      "total": 234,
+      "temporary": 189,
+      "permanent": 45,
+      "confidence": 0.55,
+      "uncertainty": 0.25
+    }
+  },
+  "conference_connections": {
+    "partnerships_formed_at_conferences": 12,
+    "mous_signed_at_events": 3,
+    "identified_venues": [
+      "World Manufacturing Conference",
+      "International Astronautical Congress",
+      "European Quantum Conference"
+    ],
+    "confidence": 0.5,
+    "uncertainty": 0.3
+  }
+}

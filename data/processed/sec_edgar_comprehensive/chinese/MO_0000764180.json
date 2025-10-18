@@ -1,0 +1,47 @@
+{
+  "cik": "0000764180",
+  "ticker": "MO",
+  "name": "ALTRIA GROUP, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "2111",
+  "sicDescription": "Cigarettes",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "VA",
+  "ein": "133260245",
+  "phone": "(804) 274-2200",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "6601 WEST BROAD STREET",
+      "street2": null,
+      "city": "RICHMOND",
+      "stateOrCountry": "VA",
+      "zipCode": "23230",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "6601 WEST BROAD STREET",
+      "street2": null,
+      "city": "RICHMOND",
+      "stateOrCountry": "VA",
+      "zipCode": "23230",
+      "stateOrCountryDescription": "VA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-06"
+  },
+  "filings_count": 1001
+}

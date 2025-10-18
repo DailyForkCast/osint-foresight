@@ -1,0 +1,34 @@
+{
+  "path": "F:\\OSINT_DATA\\Italy\\USASPENDING\\LEONARDO_DRS_INC._20250916.json",
+  "size": 220,
+  "extension": ".json",
+  "encoding": "utf-8",
+  "line_count": 1,
+  "field_count": 7,
+  "parse_status": "success",
+  "schema": {
+    "company": "string",
+    "parent": "string",
+    "duns": "string",
+    "cage_codes": "array",
+    "awards": "array",
+    "total_awards": "number",
+    "total_value": "number"
+  },
+  "sample_records": [
+    {
+      "company": "LEONARDO DRS, INC.",
+      "parent": "Leonardo S.p.A",
+      "duns": "080318379",
+      "cage_codes": [
+        "1YQE8",
+        "64678",
+        "0YPM0"
+      ],
+      "awards": [],
+      "total_awards": 0,
+      "total_value": 0
+    }
+  ],
+  "modified": "2025-09-16T20:24:12"
+}

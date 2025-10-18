@@ -1,0 +1,53 @@
+{
+  "cik": "0002023311",
+  "ticker": "AAPG",
+  "name": "ASCENTAGE PHARMA GROUP INTERNATIONAL",
+  "detection_reasons": [
+    "location:china",
+    "location:suzhou",
+    "location:jiangsu",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "2834",
+  "sicDescription": "Pharmaceutical Preparations",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86 512 8555 7777",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "68 XINQING ROAD",
+      "street2": "SUZHOU INDUSTRIAL PARK",
+      "city": "SUZHOU , JIANGSU",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "68 XINQING ROAD",
+      "street2": "SUZHOU INDUSTRIAL PARK",
+      "city": "SUZHOU , JIANGSU",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-28"
+  },
+  "filings_count": 56
+}

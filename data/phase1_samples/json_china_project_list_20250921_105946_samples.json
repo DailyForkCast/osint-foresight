@@ -1,0 +1,59 @@
+{
+  "dataset": "json_china_project_list_20250921_105946",
+  "source_path": "data\\processed\\cordis_multicountry\\china_project_list_20250921_105946.json",
+  "size_bytes": 172643,
+  "samples": [
+    {
+      "id": 734391,
+      "acronym": "Second. R.I.",
+      "title": "Secondment for the development of Research  Innovation  in Biomaterial Rapid Prototyping",
+      "chinese_orgs": [
+        "SICHUAN UNIVERSITY",
+        "MEDPRIN REGENERATIVE MEDICAL TECHNOLOGIES CO. LTD",
+        "SHANGHAI TECHNOLOGY INNOVATION CENTER"
+      ],
+      "countries": [
+        "UK",
+        "IT",
+        "CN"
+      ]
+    },
+    {
+      "id": 101182598,
+      "acronym": "C-NET",
+      "title": "CO2 valorisation NETwork",
+      "chinese_orgs": [
+        "BEIJING FORESTRY UNIVERSITY"
+      ],
+      "countries": [
+        "UK",
+        "NO",
+        "CN",
+        "ES",
+        "IT",
+        "AT"
+      ]
+    },
+    {
+      "id": 101004776,
+      "acronym": "UNTANGLED",
+      "title": "Untangling the impacts of technological transformations, globalisation and demographic change to foster shared prosperity in Europe",
+      "chinese_orgs": [
+        "INSTITUTE OF POPULATION AND LABOR ECONOMICS CHINESE ACADEMY OF SOCIAL SCIENCES"
+      ],
+      "countries": [
+        "IT",
+        "BE",
+        "CN",
+        "ZA",
+        "CO",
+        "DE",
+        "IE",
+        "FR",
+        "PL",
+        "AT",
+        "LU"
+      ]
+    }
+  ]
+}

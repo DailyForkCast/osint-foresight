@@ -1,0 +1,47 @@
+{
+  "cik": "0001101215",
+  "ticker": "BFH",
+  "name": "BREAD FINANCIAL HOLDINGS, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "6141",
+  "sicDescription": "Personal Credit Institutions",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "311429215",
+  "phone": "6147294000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "3095 LOYALTY CIRCLE",
+      "street2": null,
+      "city": "COLUMBUS",
+      "stateOrCountry": "OH",
+      "zipCode": "43219",
+      "stateOrCountryDescription": "OH",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "3095 LOYALTY CIRCLE",
+      "street2": null,
+      "city": "COLUMBUS",
+      "stateOrCountry": "OH",
+      "zipCode": "43219",
+      "stateOrCountryDescription": "OH",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-09"
+  },
+  "filings_count": 1002
+}

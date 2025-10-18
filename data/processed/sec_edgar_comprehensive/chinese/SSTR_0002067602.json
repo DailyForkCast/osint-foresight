@@ -1,0 +1,46 @@
+{
+  "cik": "0002067602",
+  "ticker": "SSTR",
+  "name": "Solar Strategy Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong"
+  ],
+  "sic": "1700",
+  "sicDescription": "Construction - Special Trade Contractors",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "852 63890843",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ROOM 515-517, 5/F.",
+      "street2": "12W, HONG KONG SCIENCE PARK",
+      "city": "TAI PO",
+      "stateOrCountry": null,
+      "zipCode": "NULL",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "N.T.",
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    },
+    "business": {
+      "street1": "ROOM 515-517, 5/F.",
+      "street2": "12W, HONG KONG SCIENCE PARK",
+      "city": "TAI PO",
+      "stateOrCountry": null,
+      "zipCode": "NULL",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "N.T.",
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 6
+}

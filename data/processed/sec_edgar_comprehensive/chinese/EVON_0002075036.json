@@ -1,0 +1,46 @@
+{
+  "cik": "0002075036",
+  "ticker": "EVON",
+  "name": "EvoNexus Group LTD",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong"
+  ],
+  "sic": "7370",
+  "sicDescription": "Services-Computer Programming, Data Processing, Etc.",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86 135 2118 9363",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT 56, 5/F, UNION HING YIP BLDG.",
+      "street2": "NO.20 HING YIP STREET",
+      "city": "KWUN TONG",
+      "stateOrCountry": null,
+      "zipCode": "999077",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    },
+    "business": {
+      "street1": "UNIT 56, 5/F, UNION HING YIP BLDG.",
+      "street2": "NO.20 HING YIP STREET",
+      "city": "KWUN TONG",
+      "stateOrCountry": null,
+      "zipCode": "999077",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "Hong Kong",
+      "countryCode": "K3"
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 4
+}

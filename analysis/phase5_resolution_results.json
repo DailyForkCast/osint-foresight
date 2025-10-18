@@ -1,0 +1,740 @@
+{
+  "generated": "2025-09-25T14:22:01.412770",
+  "entities_extracted": 195,
+  "entities_resolved": 163,
+  "ner_recall": 16.7,
+  "entities_with_metadata": [
+    {
+      "id": "organizations_0",
+      "name": "AS",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_1",
+      "name": "METHANE",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_2",
+      "name": "ELECTRICAL",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_3",
+      "name": "CYCLING",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_4",
+      "name": "CONDUITS",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_5",
+      "name": "CONDUCTIVE",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_6",
+      "name": "FASTEST",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_7",
+      "name": "MIMET",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_8",
+      "name": "IN",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_9",
+      "name": "MINERALS",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_10",
+      "name": "ESR",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_11",
+      "name": "ZENODO",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_12",
+      "name": "EV",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_13",
+      "name": "European Union",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_14",
+      "name": "HORIZON",
+      "type": "organizations",
+      "sources": 3,
+      "frequency": 3
+    },
+    {
+      "id": "organizations_15",
+      "name": "OPTIMALMINE",
+      "type": "organizations",
+      "sources": 2,
+      "frequency": 2
+    },
+    {
+      "id": "organizations_16",
+      "name": "FET",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_17",
+      "name": "DRU",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_18",
+      "name": "UNEW",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_19",
+      "name": "European Commission",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_20",
+      "name": "SIGNED",
+      "type": "organizations",
+      "sources": 2,
+      "frequency": 2
+    },
+    {
+      "id": "organizations_21",
+      "name": "HSAFE",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_22",
+      "name": "MSCA",
+      "type": "organizations",
+      "sources": 3,
+      "frequency": 3
+    },
+    {
+      "id": "organizations_23",
+      "name": "TMA",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_24",
+      "name": "EU",
+      "type": "organizations",
+      "sources": 4,
+      "frequency": 4
+    },
+    {
+      "id": "organizations_25",
+      "name": "SE",
+      "type": "organizations",
+      "sources": 2,
+      "frequency": 2
+    },
+    {
+      "id": "organizations_26",
+      "name": "LUCIA",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_27",
+      "name": "HES",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_28",
+      "name": "QUEENSLAND",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_29",
+      "name": "MEDET",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_30",
+      "name": "ST",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_31",
+      "name": "ASAREL",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_32",
+      "name": "COLUMBIA",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_33",
+      "name": "THE",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_34",
+      "name": "SME",
+      "type": "organizations",
+      "sources": 3,
+      "frequency": 3
+    },
+    {
+      "id": "organizations_35",
+      "name": "AGRONOMY",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_36",
+      "name": "UBC",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_37",
+      "name": "BRITISH",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_38",
+      "name": "AD",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_39",
+      "name": "UNIVERSITY",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_40",
+      "name": "PRC",
+      "type": "organizations",
+      "sources": 2,
+      "frequency": 2
+    },
+    {
+      "id": "organizations_41",
+      "name": "CA",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_42",
+      "name": "AU",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_43",
+      "name": "OF",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_44",
+      "name": "BG",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_45",
+      "name": "ROAD",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_46",
+      "name": "VANCOUVER",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_47",
+      "name": "PPGMS",
+      "type": "organizations",
+      "sources": 4,
+      "frequency": 4
+    },
+    {
+      "id": "organizations_48",
+      "name": "FARBES",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_49",
+      "name": "VLF",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_50",
+      "name": "TESTUDO",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_51",
+      "name": "COROB",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_52",
+      "name": "CLINT",
+      "type": "organizations",
+      "sources": 2,
+      "frequency": 2
+    },
+    {
+      "id": "organizations_53",
+      "name": "ERC",
+      "type": "organizations",
+      "sources": 2,
+      "frequency": 2
+    },
+    {
+      "id": "organizations_54",
+      "name": "HE",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_55",
+      "name": "CS",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_56",
+      "name": "LE",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_57",
+      "name": "HEALIN",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_58",
+      "name": "EE",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_59",
+      "name": "LI",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_60",
+      "name": "LC",
+      "type": "organizations",
+      "sources": 2,
+      "frequency": 2
+    },
+    {
+      "id": "organizations_61",
+      "name": "WEF",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_62",
+      "name": "RIA",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_63",
+      "name": "AI",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_64",
+      "name": "CLA",
+      "type": "organizations",
+      "sources": 2,
+      "frequency": 2
+    },
+    {
+      "id": "organizations_65",
+      "name": "REINDEER",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_66",
+      "name": "ML",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_67",
+      "name": "COG",
+      "type": "organizations",
+      "sources": 2,
+      "frequency": 2
+    },
+    {
+      "id": "organizations_68",
+      "name": "CSIS",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_69",
+      "name": "ICT",
+      "type": "organizations",
+      "sources": 3,
+      "frequency": 3
+    },
+    {
+      "id": "organizations_70",
+      "name": "HLI",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_71",
+      "name": "PPP",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_72",
+      "name": "HPC",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_73",
+      "name": "DE",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_74",
+      "name": "WATER",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_75",
+      "name": "ATHINA",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_76",
+      "name": "AE",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_77",
+      "name": "REC",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_78",
+      "name": "AX",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_79",
+      "name": "GMBH",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_80",
+      "name": "NL",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_81",
+      "name": "KLIMARECHENZENTRUM",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_82",
+      "name": "PANORMOU",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_83",
+      "name": "IHE",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_84",
+      "name": "INSTITUTE",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_85",
+      "name": "MODELLING",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_86",
+      "name": "WESTVEST",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_87",
+      "name": "FOR",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_88",
+      "name": "DEUTSCHES",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_89",
+      "name": "DELFT",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_90",
+      "name": "EL",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_91",
+      "name": "STICHTING",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_92",
+      "name": "EDUCATION",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_93",
+      "name": "BUNDESSTRASSE",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_94",
+      "name": "LEADERSHIP",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_95",
+      "name": "CHALLENGES",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_96",
+      "name": "INDUSTRIAL",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_97",
+      "name": "SOCIETAL",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_98",
+      "name": "REACHOUT",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    },
+    {
+      "id": "organizations_99",
+      "name": "WWU",
+      "type": "organizations",
+      "sources": 1,
+      "frequency": 1
+    }
+  ],
+  "multi_source_entities": [
+    {
+      "entity": "HORIZON",
+      "type": "organizations",
+      "sources": 3
+    },
+    {
+      "entity": "MSCA",
+      "type": "organizations",
+      "sources": 3
+    },
+    {
+      "entity": "EU",
+      "type": "organizations",
+      "sources": 4
+    },
+    {
+      "entity": "SME",
+      "type": "organizations",
+      "sources": 3
+    },
+    {
+      "entity": "PPGMS",
+      "type": "organizations",
+      "sources": 4
+    },
+    {
+      "entity": "ICT",
+      "type": "organizations",
+      "sources": 3
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "cik": "0001066923",
+  "ticker": "FTFT",
+  "name": "Future FinTech Group Inc.",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:bm"
+  ],
+  "sic": "7389",
+  "sicDescription": "Services-Business Services, NEC",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "FL",
+  "ein": "980222013",
+  "phone": "888-622-1218",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "AMERICAS TOWER, 1177 AVENUE OF THE AMERI",
+      "street2": "SUITE 5100",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10036",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "AMERICAS TOWER, 1177 AVENUE OF THE AMERI",
+      "street2": "SUITE 5100",
+      "city": "NEW YORK",
+      "stateOrCountry": "NY",
+      "zipCode": "10036",
+      "stateOrCountryDescription": "NY",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-22"
+  },
+  "filings_count": 733
+}

@@ -1,0 +1,48 @@
+{
+  "cik": "0002062440",
+  "ticker": "KYIV",
+  "name": "Kyivstar Group Ltd.",
+  "detection_reasons": [
+    "offshore:ky",
+    "offshore:bermuda"
+  ],
+  "sic": "4812",
+  "sicDescription": "Radiotelephone Communications",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "D0",
+  "ein": "000000000",
+  "phone": "380672207271",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT 517, LEVEL 5, INDEX TOWER, DIFC",
+      "street2": "(DUBAI INTERNATIONAL FINANCIAL CENTER)",
+      "city": "DUBAI",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "United Arab Emirates",
+      "countryCode": "C0"
+    },
+    "business": {
+      "street1": "UNIT 517, LEVEL 5, INDEX TOWER, DIFC",
+      "street2": "(DUBAI INTERNATIONAL FINANCIAL CENTER)",
+      "city": "DUBAI",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": null,
+      "country": "United Arab Emirates",
+      "countryCode": "C0"
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-05"
+  },
+  "filings_count": 35
+}

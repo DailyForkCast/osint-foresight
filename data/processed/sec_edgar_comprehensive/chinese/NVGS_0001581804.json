@@ -1,0 +1,47 @@
+{
+  "cik": "0001581804",
+  "ticker": "NVGS",
+  "name": "Navigator Holdings Ltd.",
+  "detection_reasons": [
+    "offshore:vg"
+  ],
+  "sic": "4412",
+  "sicDescription": "Deep Sea Foreign Transportation of  Freight",
+  "category": "Accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "1T",
+  "ein": "000000000",
+  "phone": "44 (0) 20 7340 4852",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "VERDE BUILDING",
+      "street2": "10 BRESSENDEN PLACE",
+      "city": "LONDON",
+      "stateOrCountry": "X0",
+      "zipCode": "SW1E 5DH",
+      "stateOrCountryDescription": "United Kingdom",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "VERDE BUILDING",
+      "street2": "10 BRESSENDEN PLACE",
+      "city": "LONDON",
+      "stateOrCountry": "X0",
+      "zipCode": "SW1E 5DH",
+      "stateOrCountryDescription": "United Kingdom",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-08-12"
+  },
+  "filings_count": 237
+}

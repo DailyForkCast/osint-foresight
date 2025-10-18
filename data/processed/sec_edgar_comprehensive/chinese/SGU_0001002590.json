@@ -1,0 +1,47 @@
+{
+  "cik": "0001002590",
+  "ticker": "SGU",
+  "name": "STAR GROUP, L.P.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5990",
+  "sicDescription": "Retail-Retail Stores, NEC",
+  "category": "Accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "061437793",
+  "phone": "2033287300",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "9 WEST BROAD STREET",
+      "street2": "SUITE 310",
+      "city": "STAMFORD",
+      "stateOrCountry": "CT",
+      "zipCode": "06902",
+      "stateOrCountryDescription": "CT",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "9 WEST BROAD STREET",
+      "street2": "SUITE 310",
+      "city": "STAMFORD",
+      "stateOrCountry": "CT",
+      "zipCode": "06902",
+      "stateOrCountryDescription": "CT",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-08-06"
+  },
+  "filings_count": 815
+}

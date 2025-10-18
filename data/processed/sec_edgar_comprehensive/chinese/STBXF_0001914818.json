@@ -1,0 +1,45 @@
+{
+  "cik": "0001914818",
+  "ticker": "STBXF",
+  "name": "Starbox Group Holdings Ltd.",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "7310",
+  "sicDescription": "Services-Advertising",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "603 2781 9066",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "VO2-03-07, VELOCITY OFFICE 2",
+      "street2": "LINGKARAN SV, SUNWAY VELOCITY",
+      "city": "KUALA LUMPUR",
+      "stateOrCountry": "N8",
+      "zipCode": "55100",
+      "stateOrCountryDescription": "Malaysia",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "VO2-03-07, VELOCITY OFFICE 2",
+      "street2": "LINGKARAN SV, SUNWAY VELOCITY",
+      "city": "KUALA LUMPUR",
+      "stateOrCountry": "N8",
+      "zipCode": "55100",
+      "stateOrCountryDescription": "Malaysia",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 160
+}

@@ -1,0 +1,48 @@
+{
+  "cik": "0001989930",
+  "ticker": "FGL",
+  "name": "Founder Group Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman"
+  ],
+  "sic": "1700",
+  "sicDescription": "Construction - Special Trade Contractors",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "603-3358 5638",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "NO. 17, JALAN ASTANA 1D",
+      "street2": "BANDAR BUKIT RAJA, 41050 KLANG",
+      "city": "SELANGOR DARUL EHSAN",
+      "stateOrCountry": "N8",
+      "zipCode": "41050",
+      "stateOrCountryDescription": "Malaysia",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "NO. 17, JALAN ASTANA 1D",
+      "street2": "BANDAR BUKIT RAJA, 41050 KLANG",
+      "city": "SELANGOR DARUL EHSAN",
+      "stateOrCountry": "N8",
+      "zipCode": "41050",
+      "stateOrCountryDescription": "Malaysia",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-07-29"
+  },
+  "filings_count": 36
+}

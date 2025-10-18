@@ -1,0 +1,51 @@
+{
+  "cik": "0001324759",
+  "ticker": "HGYN",
+  "name": "HONG YUAN HOLDING GROUP",
+  "detection_reasons": [
+    "location:china",
+    "location:chengdu",
+    "location:sichuan",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "2821",
+  "sicDescription": "Plastic Materials, Synth Resins & Nonvulcan Elastomers",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "NV",
+  "ein": "000000000",
+  "phone": "861 8999250338",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "NO. 3, 21ST FLOOR, BUILDING 1, NO. 176",
+      "street2": "JIQING 1ST ROAD",
+      "city": "CHENGDU HIGH-TECH ZONE",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "CHINA (SICHUAN) PILOT FREE TRA",
+      "country": "China",
+      "countryCode": "F4"
+    },
+    "business": {
+      "street1": "NO. 3, 21ST FLOOR, BUILDING 1, NO. 176",
+      "street2": "JIQING 1ST ROAD",
+      "city": "CHENGDU HIGH-TECH ZONE",
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
+      "foreignStateTerritory": "CHINA (SICHUAN) PILOT FREE TRA",
+      "country": "China",
+      "countryCode": "F4"
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-19"
+  },
+  "filings_count": 392
+}

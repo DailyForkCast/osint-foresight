@@ -1,0 +1,44 @@
+{
+  "cik": "0002049323",
+  "ticker": "AMPM",
+  "name": "AM PM Group Ltd",
+  "detection_reasons": [
+    "offshore:hong kong"
+  ],
+  "sic": "7900",
+  "sicDescription": "Services-Amusement & Recreation Services",
+  "category": "",
+  "entityType": "other",
+  "stateOfIncorporation": "",
+  "ein": "000000000",
+  "phone": "852 2887 9911",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ROOM D, 9/F, YHC TOWER",
+      "street2": "1 SHEUNG YUET ROAD",
+      "city": "KOWLOON BAY",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "ROOM D, 9/F, YHC TOWER",
+      "street2": "1 SHEUNG YUET ROAD",
+      "city": "KOWLOON BAY",
+      "stateOrCountry": "K3",
+      "zipCode": "00000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": null,
+  "filings_count": 6
+}

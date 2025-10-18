@@ -1,0 +1,524 @@
+{
+  "original_path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\by_country\\BG_china\\collaborations_20250921_124455.json",
+  "profile": {
+    "path": "C:\\Projects\\OSINT - Foresight\\data\\processed\\openalex_multicountry_temporal\\by_country\\BG_china\\collaborations_20250921_124455.json",
+    "size": 1060669,
+    "extension": ".json",
+    "encoding": "utf-8",
+    "line_count": 333,
+    "field_count": 13,
+    "parse_status": "success",
+    "schema": {
+      "paper_id": "string",
+      "doi": "unknown",
+      "title": "string",
+      "publication_year": "number",
+      "countries_collaborating": "array",
+      "institutions": "object",
+      "authors_by_country": "object",
+      "technology_categories": "array",
+      "collaboration_patterns": "array",
+      "temporal_context": "object",
+      "verification": "object",
+      "risk_assessment": "object",
+      "partner_country": "string"
+    },
+    "sample_records": [
+      {
+        "paper_id": "https://openalex.org/W2421767",
+        "doi": null,
+        "title": "UTJECAJ IZAZVANOG MITARENJA NA HORMONSKI STATUS STARIH KOKO\u0160I NESILICA",
+        "publication_year": 2008,
+        "countries_collaborating": [
+          "BG",
+          "CN"
+        ],
+        "institutions": {
+          "BG": [
+            "Institute of Biology and Immunology of Reproduction"
+          ],
+          "CN": [
+            "Institute of Animal Sciences"
+          ]
+        },
+        "authors_by_country": {
+          "BG": [
+            "Rossitza Konakchieva (Institute of Biology and Immunology of Reproduction)"
+          ],
+          "CN": [
+            "Natasha Gjorgovska (Institute of Animal Sciences)"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "pre_bri_baseline_2000_2012",
+          "year": 2008,
+          "pre_bri_baseline": true,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_000.gz",
+          "line_number": 285122,
+          "extraction_command": "sed -n '285122p' part_000.gz | jq '.title'",
+          "paper_hash": "7c9fd648c9cd12cc"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "BG"
+      },
+      {
+        "paper_id": "https://openalex.org/W2371026149",
+        "doi": null,
+        "title": "Behavior Characteristics,Spatial Transition of Floating Population and HIV/AIDS Spread",
+        "publication_year": 2005,
+        "countries_collaborating": [
+          "BG",
+          "CN"
+        ],
+        "institutions": {
+          "BG": [
+            "College of Tourism"
+          ],
+          "CN": [
+            "Yunnan Normal University"
+          ]
+        },
+        "authors_by_country": {
+          "BG": [
+            "Hu Yanhua (College of Tourism)"
+          ],
+          "CN": [
+            "Hu Yanhua (Yunnan Normal University)"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "pre_bri_baseline_2000_2012",
+          "year": 2005,
+          "pre_bri_baseline": true,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_000.gz",
+          "line_number": 3247,
+          "extraction_command": "sed -n '3247p' part_000.gz | jq '.title'",
+          "paper_hash": "91ba6d1e8777da1b"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "BG"
+      },
+      {
+        "paper_id": "https://openalex.org/W2355226500",
+        "doi": null,
+        "title": "Research on Constructing Modern Wheat Industry System in Yanjin County",
+        "publication_year": 2013,
+        "countries_collaborating": [
+          "BG",
+          "CN"
+        ],
+        "institutions": {
+          "BG": [
+            "Institute of Agricultural Economics"
+          ],
+          "CN": [
+            "Rural Development Institute",
+            "Henan Academy of Agricultural Sciences"
+          ]
+        },
+        "authors_by_country": {
+          "BG": [
+            "Cai Shi-zhon (Institute of Agricultural Economics)"
+          ],
+          "CN": [
+            "Cai Shi-zhon (Rural Development Institute)",
+            "Cai Shi-zhon (Henan Academy of Agricultural Sciences)"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "bri_launch_2013_2016",
+          "year": 2013,
+          "pre_bri_baseline": false,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_000.gz",
+          "line_number": 189663,
+          "extraction_command": "sed -n '189663p' part_000.gz | jq '.title'",
+          "paper_hash": "2aa64e1ecc83d52f"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "BG"
+      },
+      {
+        "paper_id": "https://openalex.org/W2361481188",
+        "doi": null,
+        "title": "Review on Studying Efficiency Mechanism of Domestic Vegetable Production and Circulation",
+        "publication_year": 2015,
+        "countries_collaborating": [
+          "BG",
+          "CN"
+        ],
+        "institutions": {
+          "BG": [
+            "Institute of Agricultural Economics"
+          ],
+          "CN": [
+            "Guangdong Academy of Agricultural Sciences",
+            "Rural Development Institute"
+          ]
+        },
+        "authors_by_country": {
+          "BG": [
+            "Dong Ga (Institute of Agricultural Economics)"
+          ],
+          "CN": [
+            "Dong Ga (Rural Development Institute)",
+            "Dong Ga (Guangdong Academy of Agricultural Sciences)"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "bri_launch_2013_2016",
+          "year": 2015,
+          "pre_bri_baseline": false,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_000.gz",
+          "line_number": 196622,
+          "extraction_command": "sed -n '196622p' part_000.gz | jq '.title'",
+          "paper_hash": "5b959ca4e121110b"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "BG"
+      },
+      {
+        "paper_id": "https://openalex.org/W2361490896",
+        "doi": null,
+        "title": "The Mathematical Model of a Repairable Computer System",
+        "publication_year": 2010,
+        "countries_collaborating": [
+          "BG",
+          "CN",
+          "CZ"
+        ],
+        "institutions": {
+          "BG": [
+            "Institute of Mathematics and Informatics"
+          ],
+          "CZ": [
+            "Czech Academy of Sciences, Institute of Mathematics"
+          ],
+          "CN": [
+            "Academy of Mathematics and Systems Science"
+          ]
+        },
+        "authors_by_country": {
+          "BG": [
+            "Zhu Guangtian (Institute of Mathematics and Informatics)"
+          ],
+          "CZ": [
+            "Zhu Guangtian (Czech Academy of Sciences, Institute of Mathematics)"
+          ],
+          "CN": [
+            "Zhu Guangtian (Academy of Mathematics and Systems Science)"
+          ]
+        },
+        "technology_categories": [],
+        "collaboration_patterns": [],
+        "temporal_context": {
+          "period": "pre_bri_baseline_2000_2012",
+          "year": 2010,
+          "pre_bri_baseline": true,
+          "post_restrictions": false
+        },
+        "verification": {
+          "source_file": "part_000.gz",
+          "line_number": 196631,
+          "extraction_command": "sed -n '196631p' part_000.gz | jq '.title'",
+          "paper_hash": "7ca7207945f61356"
+        },
+        "risk_assessment": {
+          "technology_risk": "LOW",
+          "collaboration_risk": "LOW",
+          "overall_risk": "LOW",
+          "strategic_concerns": []
+        },
+        "partner_country": "BG"
+      }
+    ],
+    "modified": "2025-09-21T12:45:32.040044"
+  },
+  "sample_data": [
+    {
+      "paper_id": "https://openalex.org/W2421767",
+      "doi": null,
+      "title": "UTJECAJ IZAZVANOG MITARENJA NA HORMONSKI STATUS STARIH KOKO\u0160I NESILICA",
+      "publication_year": 2008,
+      "countries_collaborating": [
+        "BG",
+        "CN"
+      ],
+      "institutions": {
+        "BG": [
+          "Institute of Biology and Immunology of Reproduction"
+        ],
+        "CN": [
+          "Institute of Animal Sciences"
+        ]
+      },
+      "authors_by_country": {
+        "BG": [
+          "Rossitza Konakchieva (Institute of Biology and Immunology of Reproduction)"
+        ],
+        "CN": [
+          "Natasha Gjorgovska (Institute of Animal Sciences)"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "pre_bri_baseline_2000_2012",
+        "year": 2008,
+        "pre_bri_baseline": true,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_000.gz",
+        "line_number": 285122,
+        "extraction_command": "sed -n '285122p' part_000.gz | jq '.title'",
+        "paper_hash": "7c9fd648c9cd12cc"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "BG"
+    },
+    {
+      "paper_id": "https://openalex.org/W2371026149",
+      "doi": null,
+      "title": "Behavior Characteristics,Spatial Transition of Floating Population and HIV/AIDS Spread",
+      "publication_year": 2005,
+      "countries_collaborating": [
+        "BG",
+        "CN"
+      ],
+      "institutions": {
+        "BG": [
+          "College of Tourism"
+        ],
+        "CN": [
+          "Yunnan Normal University"
+        ]
+      },
+      "authors_by_country": {
+        "BG": [
+          "Hu Yanhua (College of Tourism)"
+        ],
+        "CN": [
+          "Hu Yanhua (Yunnan Normal University)"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "pre_bri_baseline_2000_2012",
+        "year": 2005,
+        "pre_bri_baseline": true,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_000.gz",
+        "line_number": 3247,
+        "extraction_command": "sed -n '3247p' part_000.gz | jq '.title'",
+        "paper_hash": "91ba6d1e8777da1b"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "BG"
+    },
+    {
+      "paper_id": "https://openalex.org/W2355226500",
+      "doi": null,
+      "title": "Research on Constructing Modern Wheat Industry System in Yanjin County",
+      "publication_year": 2013,
+      "countries_collaborating": [
+        "BG",
+        "CN"
+      ],
+      "institutions": {
+        "BG": [
+          "Institute of Agricultural Economics"
+        ],
+        "CN": [
+          "Rural Development Institute",
+          "Henan Academy of Agricultural Sciences"
+        ]
+      },
+      "authors_by_country": {
+        "BG": [
+          "Cai Shi-zhon (Institute of Agricultural Economics)"
+        ],
+        "CN": [
+          "Cai Shi-zhon (Rural Development Institute)",
+          "Cai Shi-zhon (Henan Academy of Agricultural Sciences)"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "bri_launch_2013_2016",
+        "year": 2013,
+        "pre_bri_baseline": false,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_000.gz",
+        "line_number": 189663,
+        "extraction_command": "sed -n '189663p' part_000.gz | jq '.title'",
+        "paper_hash": "2aa64e1ecc83d52f"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "BG"
+    },
+    {
+      "paper_id": "https://openalex.org/W2361481188",
+      "doi": null,
+      "title": "Review on Studying Efficiency Mechanism of Domestic Vegetable Production and Circulation",
+      "publication_year": 2015,
+      "countries_collaborating": [
+        "BG",
+        "CN"
+      ],
+      "institutions": {
+        "BG": [
+          "Institute of Agricultural Economics"
+        ],
+        "CN": [
+          "Guangdong Academy of Agricultural Sciences",
+          "Rural Development Institute"
+        ]
+      },
+      "authors_by_country": {
+        "BG": [
+          "Dong Ga (Institute of Agricultural Economics)"
+        ],
+        "CN": [
+          "Dong Ga (Rural Development Institute)",
+          "Dong Ga (Guangdong Academy of Agricultural Sciences)"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "bri_launch_2013_2016",
+        "year": 2015,
+        "pre_bri_baseline": false,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_000.gz",
+        "line_number": 196622,
+        "extraction_command": "sed -n '196622p' part_000.gz | jq '.title'",
+        "paper_hash": "5b959ca4e121110b"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "BG"
+    },
+    {
+      "paper_id": "https://openalex.org/W2361490896",
+      "doi": null,
+      "title": "The Mathematical Model of a Repairable Computer System",
+      "publication_year": 2010,
+      "countries_collaborating": [
+        "BG",
+        "CN",
+        "CZ"
+      ],
+      "institutions": {
+        "BG": [
+          "Institute of Mathematics and Informatics"
+        ],
+        "CZ": [
+          "Czech Academy of Sciences, Institute of Mathematics"
+        ],
+        "CN": [
+          "Academy of Mathematics and Systems Science"
+        ]
+      },
+      "authors_by_country": {
+        "BG": [
+          "Zhu Guangtian (Institute of Mathematics and Informatics)"
+        ],
+        "CZ": [
+          "Zhu Guangtian (Czech Academy of Sciences, Institute of Mathematics)"
+        ],
+        "CN": [
+          "Zhu Guangtian (Academy of Mathematics and Systems Science)"
+        ]
+      },
+      "technology_categories": [],
+      "collaboration_patterns": [],
+      "temporal_context": {
+        "period": "pre_bri_baseline_2000_2012",
+        "year": 2010,
+        "pre_bri_baseline": true,
+        "post_restrictions": false
+      },
+      "verification": {
+        "source_file": "part_000.gz",
+        "line_number": 196631,
+        "extraction_command": "sed -n '196631p' part_000.gz | jq '.title'",
+        "paper_hash": "7ca7207945f61356"
+      },
+      "risk_assessment": {
+        "technology_risk": "LOW",
+        "collaboration_risk": "LOW",
+        "overall_risk": "LOW",
+        "strategic_concerns": []
+      },
+      "partner_country": "BG"
+    }
+  ]
+}

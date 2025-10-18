@@ -1,0 +1,53 @@
+{
+  "cik": "0001696355",
+  "ticker": "BEDU",
+  "name": "Bright Scholar Education Holdings Ltd",
+  "detection_reasons": [
+    "location:china",
+    "location:foshan",
+    "location:guangdong",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "8200",
+  "sicDescription": "Services-Educational Services",
+  "category": "Non-accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86 757 6683 2507",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "NO.1, COUNTRY GARDEN ROAD",
+      "street2": "BEIJIAO TOWN, SHUNDE DISTRICT",
+      "city": "FOSHAN, GUANGDONG",
+      "stateOrCountry": "F4",
+      "zipCode": "528300",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "NO.1, COUNTRY GARDEN ROAD",
+      "street2": "BEIJIAO TOWN, SHUNDE DISTRICT",
+      "city": "FOSHAN, GUANGDONG",
+      "stateOrCountry": "F4",
+      "zipCode": "528300",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-06-20"
+  },
+  "filings_count": 211
+}

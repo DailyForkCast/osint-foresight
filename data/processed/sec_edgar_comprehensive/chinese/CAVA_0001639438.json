@@ -1,0 +1,47 @@
+{
+  "cik": "0001639438",
+  "ticker": "CAVA",
+  "name": "CAVA GROUP, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "5812",
+  "sicDescription": "Retail-Eating  Places",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "473426661",
+  "phone": "202.400.2920",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "14 RIDGE SQUARE NW",
+      "street2": "SUITE 500",
+      "city": "WASHINGTON",
+      "stateOrCountry": "DC",
+      "zipCode": "20016",
+      "stateOrCountryDescription": "DC",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "14 RIDGE SQUARE NW",
+      "street2": "SUITE 500",
+      "city": "WASHINGTON",
+      "stateOrCountry": "DC",
+      "zipCode": "20016",
+      "stateOrCountryDescription": "DC",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-13"
+  },
+  "filings_count": 295
+}

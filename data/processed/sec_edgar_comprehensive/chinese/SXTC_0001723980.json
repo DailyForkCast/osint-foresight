@@ -1,0 +1,49 @@
+{
+  "cik": "0001723980",
+  "ticker": "SXTC",
+  "name": "China SXT Pharmaceuticals, Inc.",
+  "detection_reasons": [
+    "location:china",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "2834",
+  "sicDescription": "Pharmaceutical Preparations",
+  "category": "Non-accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "D8",
+  "ein": "000000000",
+  "phone": "8652386298290",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "178 TAIDONG ROAD NORTH",
+      "street2": null,
+      "city": "TAIZHOU",
+      "stateOrCountry": "F4",
+      "zipCode": "225300",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "178 TAIDONG ROAD NORTH",
+      "street2": null,
+      "city": "TAIZHOU",
+      "stateOrCountry": "F4",
+      "zipCode": "225300",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "20-F",
+    "date": "2025-07-31"
+  },
+  "filings_count": 137
+}

@@ -1,0 +1,51 @@
+{
+  "cik": "0001268896",
+  "ticker": "CILJF",
+  "name": "CHINA LIFE INSURANCE CO LTD",
+  "detection_reasons": [
+    "location:china",
+    "location:beijing",
+    "offshore:bm",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "6311",
+  "sicDescription": "Life Insurance",
+  "category": "Large accelerated filer",
+  "entityType": "other",
+  "stateOfIncorporation": "F4",
+  "ein": "000000000",
+  "phone": "861063633333",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "16 FINANCIAL STREET",
+      "street2": "XICHENG DISTRICT",
+      "city": "BEIJING",
+      "stateOrCountry": "F4",
+      "zipCode": "100033",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "16 FINANCIAL STREET",
+      "street2": "XICHENG DISTRICT",
+      "city": "BEIJING",
+      "stateOrCountry": "F4",
+      "zipCode": "100033",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2023-11-13"
+  },
+  "filings_count": 1000
+}

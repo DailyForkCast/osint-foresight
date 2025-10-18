@@ -1,0 +1,32 @@
+[
+  {
+    "contract_id": "2023/S 194-605605",
+    "authority_country": "ES",
+    "chinese_entity": "generic",
+    "chinese_entity_type": "subsidiary",
+    "value": 0.0,
+    "currency": "EUR",
+    "date": "20231009",
+    "sector": "unknown",
+    "technology_categories": [],
+    "risk_level": "LOW",
+    "evidence": [],
+    "source_file": "F:\\TED_Data\\monthly\\2023\\TED_monthly_2023_10.tar.gz",
+    "verification_command": "tar -xzf 'F:\\TED_Data\\monthly\\2023\\TED_monthly_2023_10.tar.gz' -O '10/20231009_2023194.tar.gz/20231009_194/00605605_2023.xml' | grep -n 'China'"
+  },
+  {
+    "contract_id": "2023/S 237-745245",
+    "authority_country": "ES",
+    "chinese_entity": "generic",
+    "chinese_entity_type": "subsidiary",
+    "value": 0.0,
+    "currency": "EUR",
+    "date": "20231208",
+    "sector": "unknown",
+    "technology_categories": [],
+    "risk_level": "LOW",
+    "evidence": [],
+    "source_file": "F:\\TED_Data\\monthly\\2023\\TED_monthly_2023_12.tar.gz",
+    "verification_command": "tar -xzf 'F:\\TED_Data\\monthly\\2023\\TED_monthly_2023_12.tar.gz' -O '12/20231208_2023237.tar.gz/20231208_237/00745245_2023.xml' | grep -n 'China'"
+  }
+]

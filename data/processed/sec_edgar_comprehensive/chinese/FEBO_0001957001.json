@@ -1,0 +1,49 @@
+{
+  "cik": "0001957001",
+  "ticker": "FEBO",
+  "name": "Fenbo Holdings Ltd",
+  "detection_reasons": [
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "offshore:hong kong"
+  ],
+  "sic": "3634",
+  "sicDescription": "Electric Housewares & Fans",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "852-2343-3328",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "UNIT J, 19/F, WORLD TECH CENTRE",
+      "street2": "95 HOW MING ROAD",
+      "city": "KWUN TONG, KOWLOON",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "UNIT J, 19/F, WORLD TECH CENTRE",
+      "street2": "95 HOW MING ROAD",
+      "city": "KWUN TONG, KOWLOON",
+      "stateOrCountry": "K3",
+      "zipCode": "0000",
+      "stateOrCountryDescription": "Hong Kong",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-19"
+  },
+  "filings_count": 68
+}

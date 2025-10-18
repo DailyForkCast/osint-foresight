@@ -1,0 +1,47 @@
+{
+  "cik": "0001411579",
+  "ticker": "AMC",
+  "name": "AMC ENTERTAINMENT HOLDINGS, INC.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7830",
+  "sicDescription": "Services-Motion Picture Theaters",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "260303916",
+  "phone": "913-213-2000",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "ONE AMC WAY",
+      "street2": "11500 ASH STREET",
+      "city": "LEAWOOD",
+      "stateOrCountry": "KS",
+      "zipCode": "66211",
+      "stateOrCountryDescription": "KS",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "ONE AMC WAY",
+      "street2": "11500 ASH STREET",
+      "city": "LEAWOOD",
+      "stateOrCountry": "KS",
+      "zipCode": "66211",
+      "stateOrCountryDescription": "KS",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-08-11"
+  },
+  "filings_count": 1001
+}

@@ -1,0 +1,98 @@
+{
+  "roles": {
+    "admin": {
+      "permissions": [
+        "read",
+        "write",
+        "delete",
+        "execute",
+        "approve"
+      ],
+      "data_access": "full",
+      "retention_override": true
+    },
+    "analyst": {
+      "permissions": [
+        "read",
+        "write",
+        "execute"
+      ],
+      "data_access": "restricted",
+      "retention_override": false
+    },
+    "viewer": {
+      "permissions": [
+        "read"
+      ],
+      "data_access": "limited",
+      "retention_override": false
+    },
+    "auditor": {
+      "permissions": [
+        "read",
+        "audit"
+      ],
+      "data_access": "full_readonly",
+      "retention_override": false
+    }
+  },
+  "data_classifications": {
+    "public": {
+      "access_level": 1,
+      "encryption": false,
+      "audit_required": false
+    },
+    "internal": {
+      "access_level": 2,
+      "encryption": false,
+      "audit_required": true
+    },
+    "confidential": {
+      "access_level": 3,
+      "encryption": true,
+      "audit_required": true
+    },
+    "restricted": {
+      "access_level": 4,
+      "encryption": true,
+      "audit_required": true,
+      "two_factor": true
+    }
+  },
+  "source_classifications": {
+    "CORDIS": "public",
+    "OpenAIRE": "public",
+    "OpenAlex": "internal",
+    "TED": "public",
+    "USASpending": "public",
+    "SEC_EDGAR": "public",
+    "entity_resolution": "confidential",
+    "china_signals": "restricted"
+  },
+  "access_matrix": {
+    "admin": {
+      "public": "full",
+      "internal": "full",
+      "confidential": "full",
+      "restricted": "full"
+    },
+    "analyst": {
+      "public": "read_write",
+      "internal": "read_write",
+      "confidential": "none",
+      "restricted": "none"
+    },
+    "viewer": {
+      "public": "read",
+      "internal": "none",
+      "confidential": "none",
+      "restricted": "none"
+    },
+    "auditor": {
+      "public": "read",
+      "internal": "read",
+      "confidential": "read",
+      "restricted": "read"
+    }
+  }
+}

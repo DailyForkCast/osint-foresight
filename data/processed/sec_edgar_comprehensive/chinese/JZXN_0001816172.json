@@ -1,0 +1,53 @@
+{
+  "cik": "0001816172",
+  "ticker": "JZXN",
+  "name": "Jiuzi Holdings, Inc.",
+  "detection_reasons": [
+    "location:china",
+    "location:hangzhou",
+    "location:zhejiang",
+    "offshore:cayman islands",
+    "offshore:cayman",
+    "address:mailing",
+    "address:business"
+  ],
+  "sic": "5500",
+  "sicDescription": "Retail-Auto Dealers & Gasoline Stations",
+  "category": "Non-accelerated filer<br>Emerging growth company",
+  "entityType": "other",
+  "stateOfIncorporation": "E9",
+  "ein": "000000000",
+  "phone": "86 09372689523",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "NO.168 QIANJIANG NONGCHANG GENGWEN ROAD",
+      "street2": "15TH FL, XIAOSHAN DIST., HANGZHOU CITY",
+      "city": "ZHEJIANG PROVINCE",
+      "stateOrCountry": "F4",
+      "zipCode": "310000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "NO.168 QIANJIANG NONGCHANG GENGWEN ROAD",
+      "street2": "15TH FL, XIAOSHAN DIST., HANGZHOU CITY",
+      "city": "ZHEJIANG PROVINCE",
+      "stateOrCountry": "F4",
+      "zipCode": "310000",
+      "stateOrCountryDescription": "China",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "6-K",
+    "date": "2025-09-25"
+  },
+  "filings_count": 142
+}

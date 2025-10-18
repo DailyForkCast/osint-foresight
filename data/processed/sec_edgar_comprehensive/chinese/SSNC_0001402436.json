@@ -1,0 +1,47 @@
+{
+  "cik": "0001402436",
+  "ticker": "SSNC",
+  "name": "SS&C Technologies Holdings Inc",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "7372",
+  "sicDescription": "Services-Prepackaged Software",
+  "category": "Large accelerated filer",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "710987913",
+  "phone": "860-298-4500",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "80 LAMBERTON RD",
+      "street2": null,
+      "city": "WINDSOR",
+      "stateOrCountry": "CT",
+      "zipCode": "06095",
+      "stateOrCountryDescription": "CT",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "80 LAMBERTON RD",
+      "street2": null,
+      "city": "WINDSOR",
+      "stateOrCountry": "CT",
+      "zipCode": "06095",
+      "stateOrCountryDescription": "CT",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "10-Q",
+    "date": "2025-07-30"
+  },
+  "filings_count": 883
+}

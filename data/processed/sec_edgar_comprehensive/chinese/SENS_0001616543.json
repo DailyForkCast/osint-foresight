@@ -1,0 +1,47 @@
+{
+  "cik": "0001616543",
+  "ticker": "SENS",
+  "name": "Senseonics Holdings, Inc.",
+  "detection_reasons": [
+    "offshore:bm"
+  ],
+  "sic": "3823",
+  "sicDescription": "Industrial Instruments For Measurement, Display, and Control",
+  "category": "Non-accelerated filer<br>Smaller reporting company",
+  "entityType": "operating",
+  "stateOfIncorporation": "DE",
+  "ein": "471210911",
+  "phone": "(301) 515-7260",
+  "website": "",
+  "addresses": {
+    "mailing": {
+      "street1": "20451 SENECA MEADOWS PARKWAY",
+      "street2": null,
+      "city": "GERMANTOWN",
+      "stateOrCountry": "MD",
+      "zipCode": "20876",
+      "stateOrCountryDescription": "MD",
+      "isForeignLocation": 0,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "business": {
+      "street1": "20451 SENECA MEADOWS PARKWAY",
+      "street2": null,
+      "city": "GERMANTOWN",
+      "stateOrCountry": "MD",
+      "zipCode": "20876",
+      "stateOrCountryDescription": "MD",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    }
+  },
+  "latest_filing": {
+    "form": "8-K",
+    "date": "2025-09-04"
+  },
+  "filings_count": 809
+}

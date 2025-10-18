@@ -1,0 +1,158 @@
+[
+  {
+    "paper_id": "https://openalex.org/W2067905519",
+    "doi": "https://doi.org/10.1109/paap.2012.48",
+    "title": "Fast Quantum Algorithms of Solving an Instance of Quadratic Congruence on a Quantum Computer",
+    "publication_year": 2012,
+    "countries_collaborating": [
+      "CN",
+      "TW"
+    ],
+    "institutions": {
+      "TW": [
+        "National University of Kaohsiung"
+      ],
+      "CN": [
+        "Wuhan Institute of Physics and Mathematics"
+      ]
+    },
+    "authors_by_country": {
+      "TW": [
+        "Weng-Long Chang (National University of Kaohsiung)"
+      ],
+      "CN": [
+        "Mang Feng (Wuhan Institute of Physics and Mathematics)"
+      ]
+    },
+    "technology_categories": [
+      "quantum_computing"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2012,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 303144,
+      "extraction_command": "sed -n '303144p' part_000.gz | jq '.title'",
+      "paper_hash": "5b8f7e86e953389c"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: quantum_computing"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2752743379",
+    "doi": "https://doi.org/10.48550/arxiv.1709.00378",
+    "title": "Space-efficient classical and quantum algorithms for the shortest vector problem",
+    "publication_year": 2017,
+    "countries_collaborating": [
+      "CN",
+      "TW"
+    ],
+    "institutions": {
+      "TW": [
+        "Institute of Information Science, Academia Sinica"
+      ],
+      "CN": [
+        "China Institute Of Communications"
+      ]
+    },
+    "authors_by_country": {
+      "TW": [
+        "Yanlin Chen (Institute of Information Science, Academia Sinica)",
+        "Kai-Min Chung (Institute of Information Science, Academia Sinica)"
+      ],
+      "CN": [
+        "Ching–Yi Lai (China Institute Of Communications)"
+      ]
+    },
+    "technology_categories": [
+      "quantum_computing"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "expansion_2017_2019",
+      "year": 2017,
+      "pre_bri_baseline": false,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_002.gz",
+      "line_number": 21046,
+      "extraction_command": "sed -n '21046p' part_002.gz | jq '.title'",
+      "paper_hash": "76016dca2b0ade55"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: quantum_computing"
+      ]
+    }
+  },
+  {
+    "paper_id": "https://openalex.org/W2323385142",
+    "doi": "https://doi.org/10.1364/fio.2003.mt6",
+    "title": "Long-distance stable “plug and play” quantum cryptography system",
+    "publication_year": 2003,
+    "countries_collaborating": [
+      "AU",
+      "CN"
+    ],
+    "institutions": {
+      "AU": [
+        "The University of Sydney"
+      ],
+      "CN": [
+        "East China Normal University"
+      ]
+    },
+    "authors_by_country": {
+      "AU": [
+        "Heping Zeng (The University of Sydney)"
+      ],
+      "CN": [
+        "Chunyuan Zhou (East China Normal University)",
+        "Hexiang Li (East China Normal University)",
+        "Guang Wu (East China Normal University)",
+        "Heping Zeng (East China Normal University)",
+        "Xiuliang Chen (East China Normal University)"
+      ]
+    },
+    "technology_categories": [
+      "quantum_computing",
+      "cybersecurity"
+    ],
+    "collaboration_patterns": [],
+    "temporal_context": {
+      "period": "pre_bri_baseline_2000_2012",
+      "year": 2003,
+      "pre_bri_baseline": true,
+      "post_restrictions": false
+    },
+    "verification": {
+      "source_file": "part_000.gz",
+      "line_number": 11066,
+      "extraction_command": "sed -n '11066p' part_000.gz | jq '.title'",
+      "paper_hash": "822b78a2bd898304"
+    },
+    "risk_assessment": {
+      "technology_risk": "CRITICAL",
+      "collaboration_risk": "LOW",
+      "overall_risk": "CRITICAL",
+      "strategic_concerns": [
+        "Critical dual-use technologies: quantum_computing"
+      ]
+    }
+  }
+]
