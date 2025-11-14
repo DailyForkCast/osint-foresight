@@ -21,6 +21,35 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
+# ============================================================================
+# SECURITY: SQL injection prevention through identifier validation
+# ============================================================================
+
+def validate_sql_identifier(identifier):
+    """
+    SECURITY: Validate SQL identifier (table or column name).
+    Only allows alphanumeric characters and underscores.
+    Prevents SQL injection from dynamic SQL construction.
+    """
+    if not identifier:
+        raise ValueError("Identifier cannot be empty")
+
+    # Check for valid characters only (alphanumeric + underscore)
+    if not re.match(r'^[a-zA-Z0-9_]+$', identifier):
+        raise ValueError(f"Invalid identifier: {identifier}. Contains illegal characters.")
+
+    # Check length (SQLite limit is 1024, we use 100 for safety)
+    if len(identifier) > 100:
+        raise ValueError(f"Identifier too long: {identifier}")
+
+    # Blacklist dangerous SQL keywords
+    dangerous_keywords = {'DROP', 'DELETE', 'UPDATE', 'INSERT', 'ALTER', 'CREATE',
+                         'EXEC', 'EXECUTE', 'UNION', 'SELECT', '--', ';', '/*', '*/'}
+    if identifier.upper() in dangerous_keywords:
+        raise ValueError(f"Identifier contains SQL keyword: {identifier}")
+
+    return identifier
+
 
 class DataValidationFramework:
     """Comprehensive validation at multiple stages"""
@@ -279,7 +308,9 @@ class DataValidationFramework:
         
         for table_name, min_expected, description in tables_to_check:
             try:
-                cursor.execute(f"SELECT COUNT(*) FROM {table_name}")
+                # SECURITY: Validate table name before use in SQL
+                safe_table = validate_sql_identifier(table_name)
+                cursor.execute(f"SELECT COUNT(*) FROM {safe_table}")
                 count = cursor.fetchone()[0]
                 
                 if count < min_expected:

@@ -8,11 +8,41 @@ import json
 import csv
 import sqlite3
 import gzip
+import re
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from datetime import datetime
 import random
 import os
+
+# ============================================================================
+# SECURITY: SQL injection prevention through identifier validation
+# ============================================================================
+
+def validate_sql_identifier(identifier):
+    """
+    SECURITY: Validate SQL identifier (table or column name).
+    Only allows alphanumeric characters and underscores.
+    Prevents SQL injection from dynamic SQL construction.
+    """
+    if not identifier:
+        raise ValueError("Identifier cannot be empty")
+
+    # Check for valid characters only (alphanumeric + underscore)
+    if not re.match(r'^[a-zA-Z0-9_]+$', identifier):
+        raise ValueError(f"Invalid identifier: {identifier}. Contains illegal characters.")
+
+    # Check length (SQLite limit is 1024, we use 100 for safety)
+    if len(identifier) > 100:
+        raise ValueError(f"Identifier too long: {identifier}")
+
+    # Blacklist dangerous SQL keywords
+    dangerous_keywords = {'DROP', 'DELETE', 'UPDATE', 'INSERT', 'ALTER', 'CREATE',
+                         'EXEC', 'EXECUTE', 'UNION', 'SELECT', '--', ';', '/*', '*/'}
+    if identifier.upper() in dangerous_keywords:
+        raise ValueError(f"Identifier contains SQL keyword: {identifier}")
+
+    return identifier
 
 class ContentProfiler:
     def __init__(self):
@@ -82,15 +112,18 @@ class ContentProfiler:
 
             for table in tables:
                 table_name = table[0]
-                cursor.execute(f"SELECT COUNT(*) FROM {table_name}")
+                # SECURITY: Validate table name before use in SQL
+                safe_table = validate_sql_identifier(table_name)
+
+                cursor.execute(f"SELECT COUNT(*) FROM {safe_table}")
                 count = cursor.fetchone()[0]
                 total_records += count
 
-                cursor.execute(f"PRAGMA table_info({table_name})")
+                cursor.execute(f"PRAGMA table_info({safe_table})")
                 columns = [col[1] for col in cursor.fetchall()]
 
                 # Get sample records
-                cursor.execute(f"SELECT * FROM {table_name} LIMIT 3")
+                cursor.execute(f"SELECT * FROM {safe_table} LIMIT 3")
                 sample_rows = cursor.fetchall()
 
                 table_info[table_name] = {

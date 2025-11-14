@@ -1,168 +1,299 @@
-# Temporary files
-~$*
-*.tmp
-*.bak
-Thumbs.db
+# ============================================================================
+# OSINT-Foresight .gitignore - Comprehensive Data Exclusion
+# ============================================================================
 
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-.venv/
+# ============================================================================
+# DATABASES - Never commit (all stored on F: drive)
+# ============================================================================
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
 
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb_checkpoints
+# ============================================================================
+# DATA FILES - All analysis data on external drives
+# ============================================================================
+# Spreadsheets (except templates)
+*.xlsx
+*.xls
+!*template*.xlsx
+!*Template*.xlsx
 
-# IDE
-.vscode/
-!.vscode/tasks.json
-!.vscode/settings.json
-.idea/
-*.swp
-*.swo
-
-# Output files in root (should be in out/)
-/*.docx
-/*.xlsx
-/*.pptx
-
-# Archive directories
-/archive/
-/ARCHIVED_*/
-
-# Temporary analysis files in root
-/*.json
-/*.md
-!README.md
-!README_*.md
-
-# Tools and utilities
-/tools/__pycache__/
-/tools/**/__pycache__/
-
-# Setup and configuration
-/setup/*.log
-/setup/*.tmp
-
-# Local config
-.env
-.env.local
-*.local
-
-# BigQuery credentials
-*credentials*.json
-*service-account*.json
-
-# Large data files
+# Data formats
 *.csv
+*.tsv
+*.dat
+*.parquet
 !metric_catalog.csv
 !procurement_signals.csv
 !forecast_registry.csv
 !evidence_master.csv
 
-# Data (raw and screenshots not versioned)
-/data/raw/
-/evidence/screenshots/
+# Archives (data too large for git)
+*.zip
+*.gz
+*.tar
+*.tar.gz
+*.7z
+*.rar
 
-# OS/IDE
+# JSON data files (not config)
+*_data.json
+*_results.json
+*_output.json
+*_report.json
+*_analysis.json
+*_export.json
+*_dump.json
+*_cache.json
+
+# ============================================================================
+# ANALYSIS OUTPUTS - Temporary/working files only
+# ============================================================================
+# Keep analysis reports (.md) but not intermediate data
+analysis/**/*.json
+analysis/**/*.txt
+analysis/**/*.xlsx
+analysis/**/*.csv
+# Exception: Keep markdown analysis reports
+!analysis/**/*.md
+
+# Audit outputs directory
+audit_outputs/
+
+# ============================================================================
+# SCRIPTS - Temporary and test files
+# ============================================================================
+# Test/debug/scratch scripts
+test_*.py
+temp_*.py
+scratch_*.py
+debug_*.py
+quick_*.py
+tmp_*.py
+*_test_*.py
+*_temp_*.py
+*_scratch_*.py
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ============================================================================
+# USER GUIDES AND QUICK REFERENCE - Root directory cleanup
+# ============================================================================
+# Quick reference text files (keep in docs/ instead)
+/*_QUICK_REFERENCE.txt
+/*_CHECKLIST.txt
+/*_GUIDE*.txt
+/*_STYLE_GUIDE.txt
+/*_MENU.txt
+/*_STATUS.txt
+/*_DATA.txt
+/*_REFERENCE.txt
+/*_COMPLETION_NOTE.txt
+/*_changes.txt
+
+# Batch scripts (automation, not source code)
+*.bat
+*.cmd
+
+# PowerPoint and templates (outputs, not source)
+/*.pptx
+/*.ppt
+PowerPoint_Templates/
+*Presentations*/
+Enhanced_Slides*/
+End-to-end-workflow-test/
+
+# ============================================================================
+# LOGS AND TEMPORARY FILES
+# ============================================================================
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+~$*
+Thumbs.db
 .DS_Store
 
-# Analysis outputs
-project_structure_analysis.json
-reorganization_report_*.txt
-structure_analysis_*.txt
+# Processing logs
+*_log.txt
+*_log.json
+processing_*.log
+collection_*.log
 
-# Temporary organization directories
-/temp/
-/archive/
+# ============================================================================
+# IDE AND EDITOR FILES
+# ============================================================================
+.vscode/
+!.vscode/tasks.json
+!.vscode/settings.json
+.idea/
+*.sublime-project
+*.sublime-workspace
 
-# Log files
-*.log
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
 
-# QA runs and analysis temp files
-qa_run_*
-comprehensive_qa_*
+# ============================================================================
+# CREDENTIALS AND SECRETS - CRITICAL
+# ============================================================================
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*credentials*.json
+*service-account*.json
+*_token.json
+*_secret*
+*_auth*.json
+config/api_keys.json
+config/patent_auth.json
+config/epo_credentials.json
+config/*credentials*
+config/*auth*
 
-# Large external data sources (store on external drive only)
+# Exception: Example files are OK
+!.env.example
+!*credentials.example.json
+
+# ============================================================================
+# EXTERNAL DRIVE MIRRORS - F: drive data
+# ============================================================================
+F:/
+/F/
+F:/*
+
+# ============================================================================
+# LARGE DATASET DIRECTORIES
+# ============================================================================
 # CORDIS data
-out/*/cordis_data/*.json
-out/*/cordis_data/*.csv
+cordis_data/
 /cordis_data/
+*/cordis_data/
+out/*/cordis_data/
 
 # OpenAlex data
-out/*/openalex_data/
+openalex_data/
 /openalex_data/
+*/openalex_data/
+out/*/openalex_data/
 *.openalex.json
 *_openalex_*.json
 
 # Patent databases
-out/*/patents_data/
+patents_data/
 /patents_data/
+*/patents_data/
+out/*/patents_data/
 *_patents_*.json
 *_patents_*.csv
 
 # Other large datasets
-out/*/large_datasets/
+large_datasets/
 /large_datasets/
+*/large_datasets/
+out/*/large_datasets/
 *.bigquery.json
 *_export_*.json
 *_export_*.csv
 
-# Any file over 50MB
-*.json.large
-*.csv.large
-
-# OSINT Data Collection - External Drive Only
 # Country analysis results
-/data/country_analysis/
 data/country_analysis/
+/data/country_analysis/
 */country_analysis/
 
 # Fusion pipeline results
-/data/fusion_results/
 data/fusion_results/
+/data/fusion_results/
 */fusion_results/
 
 # USPTO monitoring data
-/data/uspto_monitoring/
 data/uspto_monitoring/
+/data/uspto_monitoring/
 */uspto_monitoring/
 
 # GitHub dependency scan results
-/data/github_dependencies/
 data/github_dependencies/
+/data/github_dependencies/
 */github_dependencies/
 
 # Conference data from CrossRef
-/data/conferences/
 data/conferences/
+/data/conferences/
 */conferences/
 
-# All F: drive mirror data (external drive only)
-F:/*
-/F/
-F/
-config/api_keys.json
+# Raw data (all on external drive)
+data/raw/
+/data/raw/
 
-# Security - Never commit credentials
-.env.local
-.env
-*.key
-*.pem
-config/*credentials*
-config/*auth*
-config/api_keys.json
-config/patent_auth.json
-config/epo_credentials.json
-*_token.json
-*_secret*
-.env.local
+# Screenshots (not versioned)
+evidence/screenshots/
 
-# CORDIS raw data files (too large for GitHub)
+# CORDIS raw data files (too large)
 countries/_global/data/cordis_raw/**/*.json
 !countries/_global/data/cordis_raw/metadata.json
+
+# ============================================================================
+# ARCHIVE DIRECTORIES
+# ============================================================================
+archive/
+/archive/
+ARCHIVED_*/
+/ARCHIVED_*/
+
+# Temporary organization directories
+temp/
+/temp/
+
+# ============================================================================
+# BUILD AND DISTRIBUTION
+# ============================================================================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ============================================================================
+# BACKUP FILES
+# ============================================================================
+*.backup
+*.backup.*
+*_backup_*
+*.bak.*
+
+# README backups (keep main README.md)
+README.md.backup*
+
+# ============================================================================
+# PROJECT SPECIFIC EXCLUSIONS
+# ============================================================================
+# QA runs and analysis temp files
+qa_run_*
+comprehensive_qa_*
+
+# Organization analysis outputs
+project_structure_analysis.json
+reorganization_report_*.txt
+structure_analysis_*.txt
+
+# Any file over 50MB markers
+*.json.large
+*.csv.large

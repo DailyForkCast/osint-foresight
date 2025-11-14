@@ -5,10 +5,40 @@ Integrate CORDIS, OpenSanctions, OpenAIRE, GLEIF, and SEC EDGAR into master OSIN
 
 import sqlite3
 import json
+import re
 import logging
 from pathlib import Path
 from datetime import datetime
 import pandas as pd
+
+# ============================================================================
+# SECURITY: SQL injection prevention through identifier validation
+# ============================================================================
+
+def validate_sql_identifier(identifier):
+    """
+    SECURITY: Validate SQL identifier (table or column name).
+    Only allows alphanumeric characters and underscores.
+    Prevents SQL injection from dynamic SQL construction.
+    """
+    if not identifier:
+        raise ValueError("Identifier cannot be empty")
+
+    # Check for valid characters only (alphanumeric + underscore)
+    if not re.match(r'^[a-zA-Z0-9_]+$', identifier):
+        raise ValueError(f"Invalid identifier: {identifier}. Contains illegal characters.")
+
+    # Check length (SQLite limit is 1024, we use 100 for safety)
+    if len(identifier) > 100:
+        raise ValueError(f"Identifier too long: {identifier}")
+
+    # Blacklist dangerous SQL keywords
+    dangerous_keywords = {'DROP', 'DELETE', 'UPDATE', 'INSERT', 'ALTER', 'CREATE',
+                         'EXEC', 'EXECUTE', 'UNION', 'SELECT', '--', ';', '/*', '*/'}
+    if identifier.upper() in dangerous_keywords:
+        raise ValueError(f"Identifier contains SQL keyword: {identifier}")
+
+    return identifier
 
 # Setup logging
 logging.basicConfig(
@@ -136,9 +166,13 @@ class OSINTIntegrator:
                 table_name = table[0]
                 new_table = f"sanctions_{table_name}"
 
+                # SECURITY: Validate table names before use in SQL
+                safe_table_name = validate_sql_identifier(table_name)
+                safe_new_table = validate_sql_identifier(new_table)
+
                 # Check if table has China-related content
                 cursor.execute(f"""
-                    SELECT COUNT(*) FROM sanctions.{table_name}
+                    SELECT COUNT(*) FROM sanctions.{safe_table_name}
                     WHERE
                         (LOWER(CAST(name AS TEXT)) LIKE '%china%' OR
                          LOWER(CAST(name AS TEXT)) LIKE '%chinese%' OR
@@ -151,7 +185,7 @@ class OSINTIntegrator:
                     china_count = cursor.fetchone()[0]
                     if china_count > 0:
                         logging.info(f"  Copying {table_name} with China entities...")
-                        cursor.execute(f"CREATE TABLE IF NOT EXISTS {new_table} AS SELECT * FROM sanctions.{table_name}")
+                        cursor.execute(f"CREATE TABLE IF NOT EXISTS {safe_new_table} AS SELECT * FROM sanctions.{safe_table_name}")
                 except:
                     # If query fails, try copying anyway
                     pass
@@ -210,13 +244,16 @@ class OSINTIntegrator:
             # Sample first table to understand structure
             if tables:
                 sample_table = tables[0][0]
-                cursor_openaire.execute(f"PRAGMA table_info({sample_table})")
+                # SECURITY: Validate table name before use in SQL
+                safe_sample_table = validate_sql_identifier(sample_table)
+
+                cursor_openaire.execute(f"PRAGMA table_info({safe_sample_table})")
                 columns = cursor_openaire.fetchall()
                 logging.info(f"Sample table {sample_table} columns: {[c[1] for c in columns]}")
 
                 # Get sample of China-related records
                 cursor_openaire.execute(f"""
-                    SELECT * FROM {sample_table}
+                    SELECT * FROM {safe_sample_table}
                     WHERE LOWER(CAST(organizations AS TEXT)) LIKE '%china%'
                        OR LOWER(CAST(countries AS TEXT)) LIKE '%china%'
                        OR LOWER(CAST(countries AS TEXT)) LIKE '%cn%'
@@ -257,9 +294,14 @@ class OSINTIntegrator:
 
                 for table in tables:
                     table_name = table[0]
+                    # SECURITY: Validate table name before use in SQL
+                    safe_table_name = validate_sql_identifier(table_name)
+                    new_table_name = f"gleif_{table_name}"
+                    safe_new_table = validate_sql_identifier(new_table_name)
+
                     cursor.execute(f"""
-                        CREATE TABLE IF NOT EXISTS gleif_{table_name} AS
-                        SELECT * FROM gleif.{table_name}
+                        CREATE TABLE IF NOT EXISTS {safe_new_table} AS
+                        SELECT * FROM gleif.{safe_table_name}
                     """)
 
                 cursor.execute("DETACH DATABASE gleif")

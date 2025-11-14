@@ -8,11 +8,41 @@ import json
 import sqlite3
 import os
 import random
+import re
 from pathlib import Path
 from datetime import datetime
 import hashlib
 import pandas as pd
 import csv
+
+# ============================================================================
+# SECURITY: SQL injection prevention through identifier validation
+# ============================================================================
+
+def validate_sql_identifier(identifier):
+    """
+    SECURITY: Validate SQL identifier (table or column name).
+    Only allows alphanumeric characters and underscores.
+    Prevents SQL injection from dynamic SQL construction.
+    """
+    if not identifier:
+        raise ValueError("Identifier cannot be empty")
+
+    # Check for valid characters only (alphanumeric + underscore)
+    if not re.match(r'^[a-zA-Z0-9_]+$', identifier):
+        raise ValueError(f"Invalid identifier: {identifier}. Contains illegal characters.")
+
+    # Check length (SQLite limit is 1024, we use 100 for safety)
+    if len(identifier) > 100:
+        raise ValueError(f"Identifier too long: {identifier}")
+
+    # Blacklist dangerous SQL keywords
+    dangerous_keywords = {'DROP', 'DELETE', 'UPDATE', 'INSERT', 'ALTER', 'CREATE',
+                         'EXEC', 'EXECUTE', 'UNION', 'SELECT', '--', ';', '/*', '*/'}
+    if identifier.upper() in dangerous_keywords:
+        raise ValueError(f"Identifier contains SQL keyword: {identifier}")
+
+    return identifier
 
 class EnhancedContentProfiler:
     def __init__(self):
@@ -187,14 +217,16 @@ class EnhancedContentProfiler:
 
             for table in tables:
                 table_name = table[0]
+                # SECURITY: Validate table name before use in SQL
+                safe_table = validate_sql_identifier(table_name)
 
                 # Get row count
-                cursor.execute(f"SELECT COUNT(*) FROM {table_name}")
+                cursor.execute(f"SELECT COUNT(*) FROM {safe_table}")
                 row_count = cursor.fetchone()[0]
                 total_rows += row_count
 
                 # Get column info
-                cursor.execute(f"PRAGMA table_info({table_name})")
+                cursor.execute(f"PRAGMA table_info({safe_table})")
                 columns = cursor.fetchall()
 
                 profile['schema'][table_name] = {
@@ -204,7 +236,7 @@ class EnhancedContentProfiler:
 
                 # Sample records from first table
                 if not profile['sample_records'] and row_count > 0:
-                    cursor.execute(f"SELECT * FROM {table_name} LIMIT 5")
+                    cursor.execute(f"SELECT * FROM {safe_table} LIMIT 5")
                     profile['sample_records'] = cursor.fetchall()
 
             profile['line_count'] = total_rows

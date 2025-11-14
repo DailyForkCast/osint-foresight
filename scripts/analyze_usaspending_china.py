@@ -14,6 +14,35 @@ from datetime import datetime
 import csv
 import logging
 
+# ============================================================================
+# SECURITY: SQL injection prevention through identifier validation
+# ============================================================================
+
+def validate_sql_identifier(identifier):
+    """
+    SECURITY: Validate SQL identifier (table or column name).
+    Only allows alphanumeric characters and underscores.
+    Prevents SQL injection from dynamic SQL construction.
+    """
+    if not identifier:
+        raise ValueError("Identifier cannot be empty")
+
+    # Check for valid characters only (alphanumeric + underscore)
+    if not re.match(r'^[a-zA-Z0-9_]+$', identifier):
+        raise ValueError(f"Invalid identifier: {identifier}. Contains illegal characters.")
+
+    # Check length (SQLite limit is 1024, we use 100 for safety)
+    if len(identifier) > 100:
+        raise ValueError(f"Identifier too long: {identifier}")
+
+    # Blacklist dangerous SQL keywords
+    dangerous_keywords = {'DROP', 'DELETE', 'UPDATE', 'INSERT', 'ALTER', 'CREATE',
+                         'EXEC', 'EXECUTE', 'UNION', 'SELECT', '--', ';', '/*', '*/'}
+    if identifier.upper() in dangerous_keywords:
+        raise ValueError(f"Identifier contains SQL keyword: {identifier}")
+
+    return identifier
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
@@ -177,30 +206,34 @@ class USAspendingChinaAnalyzer:
                 # Check for China-related content
                 for table in tables[:3]:  # Check first 3 tables
                     table_name = table[0]
-                    
+                    # SECURITY: Validate table name before use in SQL
+                    safe_table = validate_sql_identifier(table_name)
+
                     # Get column names
-                    cursor.execute(f"PRAGMA table_info({table_name})")
+                    cursor.execute(f"PRAGMA table_info({safe_table})")
                     columns = [col[1] for col in cursor.fetchall()]
-                    
+
                     # Search text columns for China
-                    text_columns = [col for col in columns if 'name' in col.lower() or 
+                    text_columns = [col for col in columns if 'name' in col.lower() or
                                    'description' in col.lower() or 'vendor' in col.lower() or
                                    'recipient' in col.lower() or 'country' in col.lower()]
-                    
+
                     if text_columns:
                         print(f"\n  Checking table '{table_name}' columns: {text_columns[:3]}")
-                        
+
                         for col in text_columns[:2]:  # Check first 2 text columns
+                            # SECURITY: Validate column name before use in SQL
+                            safe_col = validate_sql_identifier(col)
                             query = f"""
-                                SELECT COUNT(*), {col}
-                                FROM {table_name}
-                                WHERE LOWER({col}) LIKE '%china%'
-                                   OR LOWER({col}) LIKE '%chinese%'
-                                   OR LOWER({col}) LIKE '%beijing%'
-                                   OR LOWER({col}) LIKE '%huawei%'
+                                SELECT COUNT(*), {safe_col}
+                                FROM {safe_table}
+                                WHERE LOWER({safe_col}) LIKE '%china%'
+                                   OR LOWER({safe_col}) LIKE '%chinese%'
+                                   OR LOWER({safe_col}) LIKE '%beijing%'
+                                   OR LOWER({safe_col}) LIKE '%huawei%'
                                 LIMIT 5
                             """
-                            
+
                             try:
                                 cursor.execute(query)
                                 results = cursor.fetchall()

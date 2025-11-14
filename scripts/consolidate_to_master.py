@@ -6,9 +6,39 @@ Complete the database architecture simplification
 
 import sqlite3
 import os
+import re
 from pathlib import Path
 from datetime import datetime
 import shutil
+
+# ============================================================================
+# SECURITY: SQL injection prevention through identifier validation
+# ============================================================================
+
+def validate_sql_identifier(identifier):
+    """
+    SECURITY: Validate SQL identifier (table, column, view, or index name).
+    Only allows alphanumeric characters and underscores.
+    Prevents SQL injection from dynamic SQL construction.
+    """
+    if not identifier:
+        raise ValueError("Identifier cannot be empty")
+
+    # Check for valid characters only (alphanumeric + underscore)
+    if not re.match(r'^[a-zA-Z0-9_]+$', identifier):
+        raise ValueError(f"Invalid identifier: {identifier}. Contains illegal characters.")
+
+    # Check length (SQLite limit is 1024, we use 100 for safety)
+    if len(identifier) > 100:
+        raise ValueError(f"Identifier too long: {identifier}")
+
+    # Blacklist dangerous SQL keywords
+    dangerous_keywords = {'DROP', 'DELETE', 'UPDATE', 'INSERT', 'ALTER', 'CREATE',
+                         'EXEC', 'EXECUTE', 'UNION', 'SELECT', '--', ';', '/*', '*/'}
+    if identifier.upper() in dangerous_keywords:
+        raise ValueError(f"Identifier contains SQL keyword: {identifier}")
+
+    return identifier
 
 class DatabaseConsolidator:
     def __init__(self):
@@ -68,6 +98,10 @@ class DatabaseConsolidator:
                 for table_name in table_list:
                     new_table_name = f"ted_{table_name}" if not table_name.startswith("ted_") else table_name
 
+                    # SECURITY: Validate table names before use in SQL
+                    safe_table_name = validate_sql_identifier(table_name)
+                    safe_new_table = validate_sql_identifier(new_table_name)
+
                     # Check if table exists in source
                     master_cursor.execute(
                         "SELECT name FROM source_db.sqlite_master WHERE type='table' AND name=?",
@@ -79,16 +113,16 @@ class DatabaseConsolidator:
                         continue
 
                     # Drop table if exists in master
-                    master_cursor.execute(f"DROP TABLE IF EXISTS {new_table_name}")
+                    master_cursor.execute(f"DROP TABLE IF EXISTS {safe_new_table}")
 
                     # Copy table structure and data
                     master_cursor.execute(f"""
-                        CREATE TABLE {new_table_name} AS
-                        SELECT * FROM source_db.{table_name}
+                        CREATE TABLE {safe_new_table} AS
+                        SELECT * FROM source_db.{safe_table_name}
                     """)
 
                     # Get row count
-                    master_cursor.execute(f"SELECT COUNT(*) FROM {new_table_name}")
+                    master_cursor.execute(f"SELECT COUNT(*) FROM {safe_new_table}")
                     row_count = master_cursor.fetchone()[0]
 
                     self.log_message(f"    [OK] Imported {new_table_name}: {row_count:,} rows")
@@ -138,6 +172,10 @@ class DatabaseConsolidator:
                 for table_name in tables:
                     new_table_name = table_name if table_name.startswith("openalex_") else f"openalex_{table_name}"
 
+                    # SECURITY: Validate table names before use in SQL
+                    safe_table_name = validate_sql_identifier(table_name)
+                    safe_new_table = validate_sql_identifier(new_table_name)
+
                     # Check if table exists in source
                     master_cursor.execute(
                         "SELECT name FROM source_db.sqlite_master WHERE type='table' AND name=?",
@@ -149,16 +187,16 @@ class DatabaseConsolidator:
                         continue
 
                     # Drop table if exists
-                    master_cursor.execute(f"DROP TABLE IF EXISTS {new_table_name}")
+                    master_cursor.execute(f"DROP TABLE IF EXISTS {safe_new_table}")
 
                     # Copy table
                     master_cursor.execute(f"""
-                        CREATE TABLE {new_table_name} AS
-                        SELECT * FROM source_db.{table_name}
+                        CREATE TABLE {safe_new_table} AS
+                        SELECT * FROM source_db.{safe_table_name}
                     """)
 
                     # Get row count
-                    master_cursor.execute(f"SELECT COUNT(*) FROM {new_table_name}")
+                    master_cursor.execute(f"SELECT COUNT(*) FROM {safe_new_table}")
                     row_count = master_cursor.fetchone()[0]
 
                     self.log_message(f"    [OK] Imported {new_table_name}: {row_count:,} rows")
@@ -225,8 +263,10 @@ class DatabaseConsolidator:
 
         for view_name, view_sql in views:
             try:
-                cursor.execute(f"DROP VIEW IF EXISTS {view_name}")
-                cursor.execute(f"CREATE VIEW {view_name} AS {view_sql}")
+                # SECURITY: Validate view name before use in SQL
+                safe_view_name = validate_sql_identifier(view_name)
+                cursor.execute(f"DROP VIEW IF EXISTS {safe_view_name}")
+                cursor.execute(f"CREATE VIEW {safe_view_name} AS {view_sql}")
                 self.log_message(f"  [OK] Created view: {view_name}")
             except Exception as e:
                 self.log_message(f"  [FAIL] Failed to create {view_name}: {e}")
@@ -267,8 +307,11 @@ class DatabaseConsolidator:
 
         for index_name, index_def in indexes:
             try:
-                cursor.execute(f"DROP INDEX IF EXISTS {index_name}")
-                cursor.execute(f"CREATE INDEX {index_name} ON {index_def}")
+                # SECURITY: Validate index name before use in SQL
+                # Note: index_def comes from hardcoded list above, but we validate index_name
+                safe_index_name = validate_sql_identifier(index_name)
+                cursor.execute(f"DROP INDEX IF EXISTS {safe_index_name}")
+                cursor.execute(f"CREATE INDEX {safe_index_name} ON {index_def}")
                 self.log_message(f"  [OK] Created index: {index_name}")
             except Exception as e:
                 # Some tables might not exist yet

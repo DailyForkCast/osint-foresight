@@ -6,10 +6,40 @@ Aligns sources for cross-analysis and identifies join opportunities
 
 import json
 import sqlite3
+import re
 from pathlib import Path
 from datetime import datetime
 import pandas as pd
 from collections import defaultdict
+
+# ============================================================================
+# SECURITY: SQL injection prevention through identifier validation
+# ============================================================================
+
+def validate_sql_identifier(identifier):
+    """
+    SECURITY: Validate SQL identifier (table or column name).
+    Only allows alphanumeric characters and underscores.
+    Prevents SQL injection from dynamic SQL construction.
+    """
+    if not identifier:
+        raise ValueError("Identifier cannot be empty")
+
+    # Check for valid characters only (alphanumeric + underscore)
+    if not re.match(r'^[a-zA-Z0-9_]+$', identifier):
+        raise ValueError(f"Invalid identifier: {identifier}. Contains illegal characters.")
+
+    # Check length (SQLite limit is 1024, we use 100 for safety)
+    if len(identifier) > 100:
+        raise ValueError(f"Identifier too long: {identifier}")
+
+    # Blacklist dangerous SQL keywords
+    dangerous_keywords = {'DROP', 'DELETE', 'UPDATE', 'INSERT', 'ALTER', 'CREATE',
+                         'EXEC', 'EXECUTE', 'UNION', 'SELECT', '--', ';', '/*', '*/'}
+    if identifier.upper() in dangerous_keywords:
+        raise ValueError(f"Identifier contains SQL keyword: {identifier}")
+
+    return identifier
 
 class SchemaAnalyzer:
     def __init__(self):
@@ -41,7 +71,9 @@ class SchemaAnalyzer:
         schema_info = {}
         for table in tables:
             table_name = table[0]
-            cursor.execute(f"PRAGMA table_info({table_name})")
+            # SECURITY: Validate table name before use in SQL
+            safe_table = validate_sql_identifier(table_name)
+            cursor.execute(f"PRAGMA table_info({safe_table})")
             columns = cursor.fetchall()
 
             # Map columns to canonical fields
@@ -54,13 +86,16 @@ class SchemaAnalyzer:
                         break
 
             # Check data quality
-            cursor.execute(f"SELECT COUNT(*) FROM {table_name}")
+            # SECURITY: safe_table already validated above
+            cursor.execute(f"SELECT COUNT(*) FROM {safe_table}")
             total_rows = cursor.fetchone()[0]
 
             quality_metrics = {}
             if total_rows > 0:
                 for col_name, canonical in column_mapping.items():
-                    cursor.execute(f"SELECT COUNT(*) FROM {table_name} WHERE {col_name} IS NOT NULL AND {col_name} != ''")
+                    # SECURITY: Validate column name before use in SQL
+                    safe_col = validate_sql_identifier(col_name)
+                    cursor.execute(f"SELECT COUNT(*) FROM {safe_table} WHERE {safe_col} IS NOT NULL AND {safe_col} != ''")
                     non_null = cursor.fetchone()[0]
                     quality_metrics[canonical] = (non_null / total_rows) * 100
 

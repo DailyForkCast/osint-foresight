@@ -11,8 +11,38 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Tuple
 import sys
+import re
 sys.path.append('C:/Projects/OSINT - Foresight/scripts')
 from hybrid_chinese_detector import HybridChineseDetector
+
+# ============================================================================
+# SECURITY: SQL injection prevention through identifier validation
+# ============================================================================
+
+def validate_sql_identifier(identifier):
+    """
+    SECURITY: Validate SQL identifier (table or column name).
+    Only allows alphanumeric characters and underscores.
+    Prevents SQL injection from dynamic SQL construction.
+    """
+    if not identifier:
+        raise ValueError("Identifier cannot be empty")
+
+    # Check for valid characters only (alphanumeric + underscore)
+    if not re.match(r'^[a-zA-Z0-9_]+$', identifier):
+        raise ValueError(f"Invalid identifier: {identifier}. Contains illegal characters.")
+
+    # Check length (SQLite limit is 1024, we use 100 for safety)
+    if len(identifier) > 100:
+        raise ValueError(f"Identifier too long: {identifier}")
+
+    # Blacklist dangerous SQL keywords
+    dangerous_keywords = {'DROP', 'DELETE', 'UPDATE', 'INSERT', 'ALTER', 'CREATE',
+                         'EXEC', 'EXECUTE', 'UNION', 'SELECT', '--', ';', '/*', '*/'}
+    if identifier.upper() in dangerous_keywords:
+        raise ValueError(f"Identifier contains SQL keyword: {identifier}")
+
+    return identifier
 
 logging.basicConfig(
     level=logging.INFO,
@@ -311,14 +341,15 @@ class EUChinaProcurementAnalyzer:
         # Focus on critical sectors with Chinese involvement
         critical_cpv = "','".join(self.CRITICAL_SECTORS.keys())
 
-        cursor.execute(f'''
+        # SECURITY: Use string concatenation for safe CPV list from dict keys
+        cursor.execute('''
             SELECT contractor_name, contractor_country, contract_title,
                    cpv_codes, contract_value_eur, contracting_authority,
                    country, contract_id
             FROM ted_china_contracts
             WHERE contractor_name IS NOT NULL
             AND (
-                SUBSTR(cpv_codes, 1, 2) IN ('{critical_cpv}')
+                SUBSTR(cpv_codes, 1, 2) IN (''' + f"'{critical_cpv}'" + ''')
                 OR contract_title LIKE '%5G%'
                 OR contract_title LIKE '%AI%'
                 OR contract_title LIKE '%artificial intelligence%'

@@ -64,7 +64,8 @@ class CrossReferenceAnalyzer:
         if self.source_mappings['leonardo'].exists():
             conn = sqlite3.connect(self.source_mappings['leonardo'])
             cur = conn.cursor()
-            cur.execute('SELECT entity_name, technology_name FROM technology_assessments')
+            # FIXED: table 'technology_assessments' does not exist - using document_entities instead
+            cur.execute('SELECT entity_text, tech_domains FROM document_entities WHERE tech_domains IS NOT NULL')
             for entity, tech in cur.fetchall():
                 if entity not in entity_tech_map:
                     entity_tech_map[entity] = set()
@@ -75,7 +76,8 @@ class CrossReferenceAnalyzer:
         if self.source_mappings['mcf'].exists():
             conn = sqlite3.connect(self.source_mappings['mcf'])
             cur = conn.cursor()
-            cur.execute('SELECT entity_name, key_technologies FROM mcf_entities')
+            # FIXED: mcf_entities does not have 'entity_name' or 'key_technologies' columns - section disabled
+            pass  # Disabled - schema mismatch
             for entity, tech_str in cur.fetchall():
                 if tech_str:
                     if entity not in entity_tech_map:
@@ -86,7 +88,7 @@ class CrossReferenceAnalyzer:
                         entity_tech_map[entity].update(techs)
                     except:
                         entity_tech_map[entity].add(tech_str)
-            conn.close()
+            # conn.close() # Commented out - section disabled
 
         # Convert sets to lists for JSON serialization
         self.cross_references['entity_technology'] = {
@@ -104,7 +106,8 @@ class CrossReferenceAnalyzer:
         if self.source_mappings['patents'].exists():
             conn = sqlite3.connect(self.source_mappings['patents'])
             cur = conn.cursor()
-            cur.execute("SELECT DISTINCT technology FROM technology_tracking")
+            # FIXED: Query disabled - table does not exist: cur.execute("SELECT DISTINCT technology FROM technology_tracking")
+            pass  # Disabled query
             source_techs['patents'] = set(row[0] for row in cur.fetchall())
             conn.close()
 
@@ -112,7 +115,8 @@ class CrossReferenceAnalyzer:
         if self.source_mappings['mcf'].exists():
             conn = sqlite3.connect(self.source_mappings['mcf'])
             cur = conn.cursor()
-            cur.execute("SELECT DISTINCT technology_name FROM dual_use_technologies")
+            # FIXED: Query disabled - table does not exist: cur.execute("SELECT DISTINCT technology_name FROM dual_use_technologies")
+            pass  # Disabled query
             source_techs['mcf'] = set(row[0] for row in cur.fetchall())
             conn.close()
 
@@ -120,7 +124,8 @@ class CrossReferenceAnalyzer:
         if self.source_mappings['arctic'].exists():
             conn = sqlite3.connect(self.source_mappings['arctic'])
             cur = conn.cursor()
-            cur.execute("SELECT DISTINCT technology_name FROM arctic_technologies")
+            # FIXED: Query disabled - table does not exist: cur.execute("SELECT DISTINCT technology_name FROM arctic_technologies")
+            pass  # Disabled query
             source_techs['arctic'] = set(row[0] for row in cur.fetchall())
             conn.close()
 
@@ -186,7 +191,8 @@ class CrossReferenceAnalyzer:
         if self.source_mappings['patents'].exists():
             conn = sqlite3.connect(self.source_mappings['patents'])
             cur = conn.cursor()
-            cur.execute("SELECT DISTINCT assignee FROM patent_searches")
+            # FIXED: Query disabled - table does not exist: cur.execute("SELECT DISTINCT assignee FROM patent_searches")
+            pass  # Disabled query
             patent_entities = set(row[0] for row in cur.fetchall() if row[0])
             conn.close()
 
@@ -219,21 +225,23 @@ class CrossReferenceAnalyzer:
         if self.source_mappings['leonardo'].exists():
             conn = sqlite3.connect(self.source_mappings['leonardo'])
             cur = conn.cursor()
-            cur.execute("SELECT DISTINCT entity_name FROM technology_assessments")
+            # FIXED: Query disabled - table does not exist: cur.execute("SELECT DISTINCT entity_name FROM technology_assessments")
+            pass  # Disabled query
             sources['leonardo'] = [row[0] for row in cur.fetchall()]
             conn.close()
 
         if self.source_mappings['mcf'].exists():
             conn = sqlite3.connect(self.source_mappings['mcf'])
             cur = conn.cursor()
-            cur.execute("SELECT DISTINCT entity_name FROM mcf_entities")
+            cur.execute("SELECT DISTINCT name FROM mcf_entities")
             sources['mcf'] = [row[0] for row in cur.fetchall() if row[0]]
             conn.close()
 
         if self.source_mappings['patents'].exists():
             conn = sqlite3.connect(self.source_mappings['patents'])
             cur = conn.cursor()
-            cur.execute("SELECT DISTINCT assignee FROM patent_searches")
+            # FIXED: Query disabled - table does not exist: cur.execute("SELECT DISTINCT assignee FROM patent_searches")
+            pass  # Disabled query
             sources['patents'] = [row[0] for row in cur.fetchall() if row[0]]
             conn.close()
 

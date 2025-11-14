@@ -1,4 +1,36 @@
 #!/usr/bin/env python3
+import re
+
+# ============================================================================
+# SECURITY: SQL injection prevention through identifier validation
+# ============================================================================
+
+def validate_sql_identifier(identifier):
+    """
+    SECURITY: Validate SQL identifier (table or column name).
+    Only allows alphanumeric characters and underscores.
+    Prevents SQL injection from dynamic SQL construction.
+    """
+    if not identifier:
+        raise ValueError("Identifier cannot be empty")
+
+    # Check for valid characters only (alphanumeric + underscore)
+    if not re.match(r'^[a-zA-Z0-9_]+$', identifier):
+        raise ValueError(f"Invalid identifier: {identifier}. Contains illegal characters.")
+
+    # Check length (SQLite limit is 1024, we use 100 for safety)
+    if len(identifier) > 100:
+        raise ValueError(f"Identifier too long: {identifier}")
+
+    # Blacklist dangerous SQL keywords
+    dangerous_keywords = {'DROP', 'DELETE', 'UPDATE', 'INSERT', 'ALTER', 'CREATE',
+                         'EXEC', 'EXECUTE', 'UNION', 'SELECT', '--', ';', '/*', '*/'}
+    if identifier.upper() in dangerous_keywords:
+        raise ValueError(f"Identifier contains SQL keyword: {identifier}")
+
+    return identifier
+
+
 """
 Final batch processor to complete all remaining OSINT data integration
 Processes remaining EPO Patents and GLEIF entities sequentially to avoid locking
@@ -303,7 +335,9 @@ class FinalProcessor:
 
         for table in tables:
             try:
-                cursor.execute(f"SELECT COUNT(*) FROM {table}")
+                # SECURITY: Validate table name before use in SQL
+                safe_table = validate_sql_identifier(table)
+                cursor.execute(f"SELECT COUNT(*) FROM {safe_table}")
                 counts[table] = cursor.fetchone()[0]
             except:
                 counts[table] = 0

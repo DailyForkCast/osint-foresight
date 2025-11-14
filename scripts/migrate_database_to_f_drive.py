@@ -7,6 +7,7 @@ Consolidates both databases into one master database on F: drive
 import sqlite3
 import shutil
 import logging
+import re
 from pathlib import Path
 from datetime import datetime
 
@@ -15,6 +16,35 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
+
+# ============================================================================
+# SECURITY: SQL injection prevention through identifier validation
+# ============================================================================
+
+def validate_sql_identifier(identifier):
+    """
+    SECURITY: Validate SQL identifier (table or column name).
+    Only allows alphanumeric characters and underscores.
+    Prevents SQL injection from dynamic SQL construction.
+    """
+    if not identifier:
+        raise ValueError("Identifier cannot be empty")
+
+    # Check for valid characters only (alphanumeric + underscore)
+    if not re.match(r'^[a-zA-Z0-9_]+$', identifier):
+        raise ValueError(f"Invalid identifier: {identifier}. Contains illegal characters.")
+
+    # Check length (SQLite limit is 1024, we use 100 for safety)
+    if len(identifier) > 100:
+        raise ValueError(f"Identifier too long: {identifier}")
+
+    # Blacklist dangerous SQL keywords
+    dangerous_keywords = {'DROP', 'DELETE', 'UPDATE', 'INSERT', 'ALTER', 'CREATE',
+                         'EXEC', 'EXECUTE', 'UNION', 'SELECT', '--', ';', '/*', '*/'}
+    if identifier.upper() in dangerous_keywords:
+        raise ValueError(f"Identifier contains SQL keyword: {identifier}")
+
+    return identifier
 
 class DatabaseMigrator:
     """Migrate and consolidate databases to F: drive"""
@@ -72,7 +102,9 @@ class DatabaseMigrator:
 
             for table in tables:
                 try:
-                    f_cursor.execute(f"SELECT COUNT(*) FROM {table}")
+                    # SECURITY: Validate table name before use in SQL
+                    safe_table = validate_sql_identifier(table)
+                    f_cursor.execute(f"SELECT COUNT(*) FROM {safe_table}")
                     count = f_cursor.fetchone()[0]
                     logging.info(f"  {table}: {count:,} records")
                 except:
@@ -154,7 +186,9 @@ Database Statistics:
         for table_name in tables:
             table = table_name[0]
             if not table.startswith('sqlite_'):
-                cursor.execute(f"SELECT COUNT(*) FROM {table}")
+                # SECURITY: Validate table name before use in SQL
+                safe_table = validate_sql_identifier(table)
+                cursor.execute(f"SELECT COUNT(*) FROM {safe_table}")
                 count = cursor.fetchone()[0]
                 if count > 0:
                     report += f"  {table}: {count:,} records\n"

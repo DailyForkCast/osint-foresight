@@ -6,9 +6,39 @@ Identify redundant databases for archival/deletion
 
 import sqlite3
 import os
+import re
 from pathlib import Path
 import json
 from datetime import datetime
+
+# ============================================================================
+# SECURITY: SQL injection prevention through identifier validation
+# ============================================================================
+
+def validate_sql_identifier(identifier):
+    """
+    SECURITY: Validate SQL identifier (table or column name).
+    Only allows alphanumeric characters and underscores.
+    Prevents SQL injection from dynamic SQL construction.
+    """
+    if not identifier:
+        raise ValueError("Identifier cannot be empty")
+
+    # Check for valid characters only (alphanumeric + underscore)
+    if not re.match(r'^[a-zA-Z0-9_]+$', identifier):
+        raise ValueError(f"Invalid identifier: {identifier}. Contains illegal characters.")
+
+    # Check length (SQLite limit is 1024, we use 100 for safety)
+    if len(identifier) > 100:
+        raise ValueError(f"Identifier too long: {identifier}")
+
+    # Blacklist dangerous SQL keywords
+    dangerous_keywords = {'DROP', 'DELETE', 'UPDATE', 'INSERT', 'ALTER', 'CREATE',
+                         'EXEC', 'EXECUTE', 'UNION', 'SELECT', '--', ';', '/*', '*/'}
+    if identifier.upper() in dangerous_keywords:
+        raise ValueError(f"Identifier contains SQL keyword: {identifier}")
+
+    return identifier
 
 def get_database_info(db_path):
     """Get comprehensive info about a database"""
@@ -38,16 +68,19 @@ def get_database_info(db_path):
 
         for table_name in tables:
             table_name = table_name[0]
+            # SECURITY: Validate table name before use in SQL
+            safe_table = validate_sql_identifier(table_name)
+
             # Get row count
-            cursor.execute(f"SELECT COUNT(*) FROM {table_name}")
+            cursor.execute(f"SELECT COUNT(*) FROM {safe_table}")
             row_count = cursor.fetchone()[0]
 
             # Get sample data for comparison
-            cursor.execute(f"SELECT * FROM {table_name} LIMIT 5")
+            cursor.execute(f"SELECT * FROM {safe_table} LIMIT 5")
             sample_rows = cursor.fetchall()
 
             # Get column names
-            cursor.execute(f"PRAGMA table_info({table_name})")
+            cursor.execute(f"PRAGMA table_info({safe_table})")
             columns = [col[1] for col in cursor.fetchall()]
 
             info['tables'][table_name] = {

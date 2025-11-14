@@ -12,9 +12,14 @@ import gzip
 import json
 import sqlite3
 import re
+import sys
 from pathlib import Path
 from datetime import datetime
 from typing import Optional, List, Dict, Any
+
+# Import language detection helper for European language false positive filtering
+sys.path.insert(0, str(Path(__file__).parent))
+from language_detection_helper import EuropeanLanguageDetector
 
 
 class USAspending305Processor:
@@ -30,17 +35,58 @@ class USAspending305Processor:
         'chn'  # China country code
     }
 
+    # CRITICAL: Taiwan exclusion patterns
+    TAIWAN_EXCLUSIONS = {
+        'taiwan', 'twn', 'republic of china', 'roc', 'taipei',
+        'formosa', 'chinese taipei'
+    }
+
     # Hong Kong detection
     HONG_KONG = {'hong kong', 'hongkong', 'hkg', 'h.k.', 'hk'}
 
     # Chinese name indicators
     CHINESE_NAME_PATTERNS = {
+        # Major cities
         'beijing', 'shanghai', 'guangzhou', 'shenzhen',
+        'hong kong',  # Also catches "Hong-Kong" after normalization
         'china', 'chinese', 'sino',
+
+        # Tech companies (BIS Entity List)
         'huawei', 'hwawei', 'huawai', 'huwei',  # Huawei + common misspellings
         'zte',
+        'hikvision', 'dahua',
+        'hytera',
+
+        # Other major companies
         'alibaba', 'tencent', 'baidu', 'lenovo',
-        'haier', 'xiaomi', 'byd', 'geely'
+        'haier', 'xiaomi', 'byd', 'geely',
+
+        # Defense/aerospace (BIS Entity List)
+        'comac', 'avic', 'norinco', 'cssc',
+
+        # Semiconductor (BIS Entity List)
+        'semiconductor manufacturing international',
+        'smic',
+
+        # Research institutions (BIS Entity List)
+        'academy of military medical sciences',
+        'china academy of aerospace',
+        'china electronics technology group',
+        'cetc',
+
+        # Universities (BIS Entity List) - Major Chinese universities
+        'beihang university',
+        'harbin institute of technology',
+        'harbin engineering university',
+        'northwestern polytechnical university',
+        'nanjing university of aeronautics',
+        'nanjing university of science and technology',
+        'national university of defense technology',
+        'sichuan university',
+        'tianjin university',
+        'tsinghua', 'peking university',
+        'chinese academy of sciences',
+        'chinese academy',
     }
 
     # Known false positives to exclude
@@ -52,6 +98,9 @@ class USAspending305Processor:
         'san antonio',
         'china beach',  # California location
         'china cove',
+        'indochina',  # Historical region, not PRC
+        'indo-china',
+        'french indochina',
         # Restaurant chains
         'china king',
         'china king restaurant',
@@ -71,7 +120,24 @@ class USAspending305Processor:
         'vecchini',
         'zecchin',
         # US companies with Chinese-sounding names
-        'cosco fire protection',  # Not COSCO shipping
+        'cosco fire protection',  # US fire protection company (owned by German Minimax), not COSCO Shipping
+        'cosco fire',
+        'american cosco',  # American COSCO (not China COSCO Shipping)
+        # European companies/joint ventures with Chinese-related names
+        'sino european',  # European joint ventures
+        'sino-german',
+        'euro-china',
+        'sino-french',
+        'sino-italian',
+        # Language service companies (translation/interpreting, not China-based)
+        'chinese language services',  # e.g., ACTA CHINESE LANGUAGE SERVICES LLC
+        'chinese language service',
+        'chinese translation services',
+        'chinese translation service',
+        'chinese interpreting services',
+        'chinese interpreting service',
+        'chinese interpreter services',
+        'chinese interpretation services',
         # Round 4: Entity name substring false positives
         'comac pump',  # Comac Pump & Well LLC (not COMAC aircraft)
         'comac well',
@@ -84,6 +150,13 @@ class USAspending305Processor:
         'vista gorgonio',  # Vista Gorgonio Inc
         'pri/djv',  # PRI/DJI Construction JV (not DJI drones)
         "avic's travel",  # Avic's Travel LLC (not AVIC)
+        # Round 5: Audit-discovered false positives (2025-11-03)
+        'china wok',  # US restaurant
+        'chinese historical society',  # US cultural organizations
+        'chinese american museum',  # US museum
+        'museum of chinese',  # US museums
+        'chinati foundation',  # US art museum (Marfa, Texas)
+        'china, michigan',  # US town
     }
 
     # 305-column schema based on deep analysis
@@ -234,6 +307,9 @@ class USAspending305Processor:
         self.output_dir = Path("C:/Projects/OSINT - Foresight/data/processed/usaspending_305")
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
+        # Initialize European language false positive detector
+        self.language_detector = EuropeanLanguageDetector(confidence_threshold=0.8)
+
         self.stats = {
             'total_records': 0,
             'china_detected': 0,
@@ -293,9 +369,10 @@ class USAspending305Processor:
 
         country_lower = country.lower().strip()
 
-        # CRITICAL: Taiwan (ROC) is NOT China (PRC)
-        if 'taiwan' in country_lower or country_lower == 'twn':
-            return False
+        # CRITICAL: Taiwan (ROC) is NOT China (PRC) - check all Taiwan patterns
+        for taiwan_pattern in self.TAIWAN_EXCLUSIONS:
+            if taiwan_pattern in country_lower:
+                return False
 
         # Check for false positives (restaurants, locations, etc.)
         for false_positive in self.FALSE_POSITIVES:
@@ -314,43 +391,106 @@ class USAspending305Processor:
     def _has_chinese_name(self, name: str) -> bool:
         """Check if name suggests Chinese entity with proper word boundaries.
 
-        Includes normalization to catch spaced obfuscation (e.g., "H u a w e i").
+        Includes normalization to catch obfuscation:
+        - Spaced: "H u a w e i"
+        - Hyphenated: "Hua-wei"
+        - Punctuated: "Hua.wei", "Hua,wei"
+        - Unicode: Zero-width spaces, Cyrillic lookalikes
         """
         if not name:
             return False
 
-        name_lower = name.lower()
+        # PRIORITY 2.1: Unicode normalization (remove zero-width, normalize lookalikes)
+        import unicodedata
 
-        # CRITICAL FIX: Exclude Taiwan's official name
-        # "GOVERNMENT OF THE REPUBLIC OF CHINA (TAIWAN)" contains "CHINA"
-        # but refers to Taiwan (ROC), not PRC
-        if 'republic of china' in name_lower and 'taiwan' in name_lower:
-            return False
+        # Remove zero-width characters
+        name_clean = name
+        zero_width_chars = [
+            '\u200B',  # Zero-width space
+            '\u200C',  # Zero-width non-joiner
+            '\u200D',  # Zero-width joiner
+            '\uFEFF',  # Zero-width no-break space
+        ]
+        for zwc in zero_width_chars:
+            name_clean = name_clean.replace(zwc, '')
 
-        # Also exclude if just "taiwan" appears
-        if 'taiwan' in name_lower:
-            return False
+        # Normalize Unicode to NFD (decomposed) then remove combining marks
+        name_clean = unicodedata.normalize('NFD', name_clean)
+
+        # Map Cyrillic/Greek lookalikes to Latin equivalents
+        cyrillic_to_latin = {
+            'а': 'a', 'А': 'A',  # Cyrillic a
+            'е': 'e', 'Е': 'E',  # Cyrillic e/ye
+            'о': 'o', 'О': 'O',  # Cyrillic o
+            'р': 'p', 'Р': 'P',  # Cyrillic r
+            'с': 'c', 'С': 'C',  # Cyrillic s
+            'у': 'y', 'У': 'Y',  # Cyrillic u
+            'х': 'x', 'Х': 'X',  # Cyrillic kh
+            'Н': 'H',            # Cyrillic N (looks like Latin H)
+            'Т': 'T',            # Cyrillic T (looks like Latin T)
+            'Η': 'H',            # Greek capital Eta
+        }
+        for cyr, lat in cyrillic_to_latin.items():
+            name_clean = name_clean.replace(cyr, lat)
+
+        name_lower = name_clean.lower()
+
+        # CRITICAL: Taiwan exclusion - check all patterns
+        for taiwan_pattern in self.TAIWAN_EXCLUSIONS:
+            if taiwan_pattern in name_lower:
+                return False
 
         # Check for false positives first
         for false_positive in self.FALSE_POSITIVES:
             if false_positive in name_lower:
                 return False
 
-        # NEW: Create normalized version (remove spaces for pattern matching)
-        name_normalized = re.sub(r'\s+', '', name_lower)
+        # PRIORITY 1.2: Enhanced normalization (remove spaces, hyphens, punctuation)
+        # This catches: "H u a w e i", "Hua-wei", "Hua.wei", "Hua_wei", etc.
+        name_normalized = re.sub(r'[\s\-._/,]+', '', name_lower)
 
         # Check Chinese name patterns
+        pattern_matched = False
         for pattern in self.CHINESE_NAME_PATTERNS:
             # Try exact match with word boundaries first
             word_pattern = r'\b' + re.escape(pattern) + r'\b'
             if re.search(word_pattern, name_lower):
-                return True
+                pattern_matched = True
+                break
 
-            # NEW: Try normalized match (catches "H u a w e i" as "huawei")
-            pattern_normalized = re.sub(r'\s+', '', pattern)
-            if len(pattern_normalized) >= 5:  # Only for substantial patterns
-                if pattern_normalized in name_normalized:
-                    return True
+            # Try normalized match (catches "H u a w e i", "Hua-wei Technologies", etc.)
+            # Use SAME normalization as the name (remove spaces, hyphens, punctuation)
+            pattern_normalized = re.sub(r'[\s\-._/,]+', '', pattern)
+
+            # Reduce threshold to catch "zte" (3 letters)
+            if len(pattern_normalized) >= 3:  # Allow 3+ letter patterns
+                # Use only LEADING word boundary (allows "huawei" to match in "huaweitechnologies")
+                # This catches "Hua-wei Technologies" where normalized is "huaweitechnologies"
+                norm_pattern_regex = r'\b' + re.escape(pattern_normalized)
+                if re.search(norm_pattern_regex, name_normalized):
+                    pattern_matched = True
+                    break
+
+        # If pattern matched, check for European language false positives
+        if pattern_matched:
+            # CRITICAL FIX: Only use language detector for longer strings WITHOUT company suffixes
+            # Short strings like "ZTE" get falsely detected as European languages
+            # Company names like "ZTE Corporation" get falsely detected as Italian
+            # Skip language detection for:
+            # 1. Names < 10 characters
+            # 2. Names with company suffixes (Corporation, LLC, Inc, etc.)
+            company_suffixes = [
+                'corporation', 'corp', 'inc', 'llc', 'ltd', 'limited',
+                'company', 'co', 'gmbh', 'ag', 'sa', 'technologies'
+            ]
+            has_company_suffix = any(suffix in name_lower for suffix in company_suffixes)
+
+            if len(name) >= 10 and not has_company_suffix:
+                # Use language detector to filter European language false positives
+                lang_result = self.language_detector.analyze_text(name)
+                if lang_result.is_likely_false_positive:
+                    return False  # European language false positive detected
+            return True
 
         return False
 

@@ -8,6 +8,69 @@ import os
 from datetime import datetime
 import shutil
 
+# SECURITY: Whitelist of allowed table names to prevent SQL injection
+ALLOWED_TABLES = {
+    'entities',
+    'entity_aliases',
+    'collaborations',
+    'technologies',
+    'publications',
+    'funding',
+    'procurement',
+    'risk_indicators',
+    'intelligence_events',
+    'data_provenance',
+    'cross_references',
+    'china_entities',
+    'patents',
+    'patent_collection_stats'
+}
+
+# SECURITY: Whitelist of allowed column names for index creation
+ALLOWED_COLUMNS = {
+    'company_name',
+    'technology_area',
+    'country',
+    'publication_date',
+    'entity_name_english',
+    'entity_type'
+}
+
+# SECURITY: Whitelist of allowed index names
+ALLOWED_INDEXES = {
+    'idx_patents_company',
+    'idx_patents_tech',
+    'idx_patents_country',
+    'idx_patents_date',
+    'idx_china_entities_name',
+    'idx_china_entities_type'
+}
+
+def validate_table_name(table_name):
+    """
+    SECURITY: Validate table name against whitelist to prevent SQL injection.
+    Only use table names from trusted hardcoded list.
+    """
+    if table_name not in ALLOWED_TABLES:
+        raise ValueError(f"Invalid table name: {table_name}. Not in whitelist.")
+    return table_name
+
+def validate_column_name(column_name):
+    """
+    SECURITY: Validate column name against whitelist to prevent SQL injection.
+    """
+    if column_name not in ALLOWED_COLUMNS:
+        raise ValueError(f"Invalid column name: {column_name}. Not in whitelist.")
+    return column_name
+
+def validate_index_name(index_name):
+    """
+    SECURITY: Validate index name against whitelist to prevent SQL injection.
+    """
+    if index_name not in ALLOWED_INDEXES:
+        raise ValueError(f"Invalid index name: {index_name}. Not in whitelist.")
+    return index_name
+
 def merge_databases():
     source_db = "F:/OSINT_DATA/osint_master.db"
     target_db = "F:/OSINT_WAREHOUSE/osint_master.db"
@@ -32,22 +95,7 @@ def merge_databases():
     target_cursor = target_conn.cursor()
 
     # Tables to migrate from OSINT_DATA
-    tables_to_migrate = [
-        'entities',
-        'entity_aliases',
-        'collaborations',
-        'technologies',
-        'publications',
-        'funding',
-        'procurement',
-        'risk_indicators',
-        'intelligence_events',
-        'data_provenance',
-        'cross_references',
-        'china_entities',
-        'patents',
-        'patent_collection_stats'
-    ]
+    tables_to_migrate = list(ALLOWED_TABLES)
 
     print("\n[2] Migrating tables from OSINT_DATA to OSINT_WAREHOUSE:")
 
@@ -55,16 +103,19 @@ def merge_databases():
 
     for table in tables_to_migrate:
         try:
+            # SECURITY: Validate table name against whitelist
+            safe_table = validate_table_name(table)
+
             # Check if table exists in source
-            source_cursor.execute(f"SELECT COUNT(*) FROM {table}")
+            source_cursor.execute(f"SELECT COUNT(*) FROM {safe_table}")
             source_count = source_cursor.fetchone()[0]
 
             if source_count == 0:
-                print(f"    - {table}: No data to migrate")
+                print(f"    - {safe_table}: No data to migrate")
                 continue
 
             # Get table structure from source
-            source_cursor.execute(f"PRAGMA table_info({table})")
+            source_cursor.execute(f"PRAGMA table_info({safe_table})")
             columns_info = source_cursor.fetchall()
             column_names = [col[1] for col in columns_info]
 
@@ -72,7 +123,7 @@ def merge_databases():
             target_cursor.execute("""
                 SELECT name FROM sqlite_master
                 WHERE type='table' AND name=?
-            """, (table,))
+            """, (safe_table,))
 
             table_exists = target_cursor.fetchone() is not None
 
@@ -81,26 +132,26 @@ def merge_databases():
                 source_cursor.execute(f"""
                     SELECT sql FROM sqlite_master
                     WHERE type='table' AND name=?
-                """, (table,))
+                """, (safe_table,))
                 create_sql = source_cursor.fetchone()[0]
 
                 target_cursor.execute(create_sql)
-                print(f"    - {table}: Created table")
+                print(f"    - {safe_table}: Created table")
 
             # Migrate data
-            source_cursor.execute(f"SELECT * FROM {table}")
+            source_cursor.execute(f"SELECT * FROM {safe_table}")
             rows = source_cursor.fetchall()
 
-            if table == 'patents':
+            if safe_table == 'patents':
                 # For patents, use INSERT OR IGNORE to avoid duplicates
                 placeholders = ','.join(['?' for _ in column_names])
-                insert_sql = f"INSERT OR IGNORE INTO {table} ({','.join(column_names)}) VALUES ({placeholders})"
+                insert_sql = f"INSERT OR IGNORE INTO {safe_table} ({','.join(column_names)}) VALUES ({placeholders})"
             else:
                 # For other tables, use INSERT OR REPLACE
                 placeholders = ','.join(['?' for _ in column_names])
-                insert_sql = f"INSERT OR REPLACE INTO {table} ({','.join(column_names)}) VALUES ({placeholders})"
+                insert_sql = f"INSERT OR REPLACE INTO {safe_table} ({','.join(column_names)}) VALUES ({placeholders})"
 
-            rows_before = target_cursor.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0] if table_exists else 0
+            rows_before = target_cursor.execute(f"SELECT COUNT(*) FROM {safe_table}").fetchone()[0] if table_exists else 0
 
             for row in rows:
                 try:
@@ -111,10 +162,10 @@ def merge_databases():
 
             target_conn.commit()
 
-            rows_after = target_cursor.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0]
+            rows_after = target_cursor.execute(f"SELECT COUNT(*) FROM {safe_table}").fetchone()[0]
             rows_added = rows_after - rows_before
 
-            print(f"    - {table}: Added {rows_added:,} rows (total now: {rows_after:,})")
+            print(f"    - {safe_table}: Added {rows_added:,} rows (total now: {rows_after:,})")
             total_rows_migrated += rows_added
 
         except Exception as e:
@@ -134,8 +185,12 @@ def merge_databases():
 
     for index_name, table_name, column_name in indexes:
         try:
-            target_cursor.execute(f"CREATE INDEX IF NOT EXISTS {index_name} ON {table_name}({column_name})")
-            print(f"    Created index: {index_name}")
+            # SECURITY: Validate all identifiers (index, table, column) before use
+            safe_index = validate_index_name(index_name)
+            safe_table = validate_table_name(table_name)
+            safe_column = validate_column_name(column_name)
+            target_cursor.execute(f"CREATE INDEX IF NOT EXISTS {safe_index} ON {safe_table}({safe_column})")
+            print(f"    Created index: {safe_index}")
         except Exception as e:
             print(f"    Index {index_name} - skipped: {e}")
 
@@ -153,8 +208,10 @@ def merge_databases():
     total_rows = 0
     for table in tables:
         table_name = table[0]
-        if table_name != 'sqlite_sequence':
-            count = target_cursor.execute(f"SELECT COUNT(*) FROM {table_name}").fetchone()[0]
+        if table_name != 'sqlite_sequence' and table_name in ALLOWED_TABLES:
+            # SECURITY: Only count tables from our whitelist
+            safe_table = validate_table_name(table_name)
+            count = target_cursor.execute(f"SELECT COUNT(*) FROM {safe_table}").fetchone()[0]
             if count > 0:
                 total_rows += count
                 if count > 100:  # Only show tables with significant data

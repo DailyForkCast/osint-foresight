@@ -7,11 +7,41 @@ Uses the existing osint_master.db at F:/OSINT_WAREHOUSE/
 import sqlite3
 import pandas as pd
 import json
+import re
 from pathlib import Path
 from datetime import datetime
 import logging
 from typing import Dict, List, Optional
 import csv
+
+# ============================================================================
+# SECURITY: SQL injection prevention through identifier validation
+# ============================================================================
+
+def validate_sql_identifier(identifier):
+    """
+    SECURITY: Validate SQL identifier (table, column, or index name).
+    Only allows alphanumeric characters and underscores.
+    Prevents SQL injection from dynamic SQL construction.
+    """
+    if not identifier:
+        raise ValueError("Identifier cannot be empty")
+
+    # Check for valid characters only (alphanumeric + underscore)
+    if not re.match(r'^[a-zA-Z0-9_]+$', identifier):
+        raise ValueError(f"Invalid identifier: {identifier}. Contains illegal characters.")
+
+    # Check length (SQLite limit is 1024, we use 100 for safety)
+    if len(identifier) > 100:
+        raise ValueError(f"Identifier too long: {identifier}")
+
+    # Blacklist dangerous SQL keywords
+    dangerous_keywords = {'DROP', 'DELETE', 'UPDATE', 'INSERT', 'ALTER', 'CREATE',
+                         'EXEC', 'EXECUTE', 'UNION', 'SELECT', '--', ';', '/*', '*/'}
+    if identifier.upper() in dangerous_keywords:
+        raise ValueError(f"Identifier contains SQL keyword: {identifier}")
+
+    return identifier
 
 class SQLiteImporter:
     def __init__(self):
@@ -98,7 +128,8 @@ class SQLiteImporter:
 
             # Check if already imported
             cursor = self.conn.cursor()
-            cursor.execute(f"SELECT name FROM sqlite_master WHERE type='table' AND name=?", (table_name,))
+            # SECURITY: Avoid f-string in execute() even when using parameterized query
+            cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name=?", (table_name,))
             if cursor.fetchone():
                 self.logger.info(f"Table {table_name} already exists, skipping")
                 return True
@@ -155,8 +186,10 @@ class SQLiteImporter:
 
                 # Record metadata
                 metadata_table = f"{table_prefix}_metadata"
+                # SECURITY: Validate table name before use in SQL
+                safe_metadata_table = validate_sql_identifier(metadata_table)
                 cursor.execute(f"""
-                    INSERT OR REPLACE INTO {metadata_table}
+                    INSERT OR REPLACE INTO {safe_metadata_table}
                     (table_name, source_file, rows, columns, import_date)
                     VALUES (?, ?, ?, ?, ?)
                 """, (table_name, str(filepath), total_rows, len(first_chunk.columns), datetime.now()))
@@ -239,16 +272,22 @@ class SQLiteImporter:
             for table in tables:
                 table_name = table[0]
 
+                # SECURITY: Validate table name before use in SQL
+                safe_table = validate_sql_identifier(table_name)
+
                 # Get first column (usually an ID or key field)
-                cursor.execute(f"PRAGMA table_info({table_name})")
+                cursor.execute(f"PRAGMA table_info({safe_table})")
                 columns = cursor.fetchall()
 
                 if columns:
                     first_col = columns[0][1]  # Get column name
+                    # SECURITY: Validate column and index names
+                    safe_first_col = validate_sql_identifier(first_col)
                     index_name = f"idx_{table_name}_{first_col}"
+                    safe_index_name = validate_sql_identifier(index_name)
 
                     try:
-                        cursor.execute(f"CREATE INDEX IF NOT EXISTS {index_name} ON {table_name}({first_col})")
+                        cursor.execute(f"CREATE INDEX IF NOT EXISTS {safe_index_name} ON {safe_table}({safe_first_col})")
                         self.logger.info(f"Created index on {table_name}.{first_col}")
                     except Exception as e:
                         self.logger.warning(f"Could not create index on {table_name}: {e}")

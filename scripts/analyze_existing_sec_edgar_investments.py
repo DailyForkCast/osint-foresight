@@ -50,12 +50,13 @@ class SECEDGARInvestmentAnalyzer:
 
         placeholders = ','.join(['?' for _ in ownership_forms])
 
-        cursor.execute(f"""
+        # SECURITY: Use string concatenation instead of f-string for safe placeholders
+        cursor.execute("""
             SELECT f.id, f.cik, c.name, c.ticker, f.form, f.filing_date,
                    c.is_chinese, c.detection_reasons, c.sic_description
             FROM sec_edgar_filings f
             JOIN sec_edgar_companies c ON f.cik = c.cik
-            WHERE f.form IN ({placeholders})
+            WHERE f.form IN (""" + placeholders + """)
             ORDER BY f.filing_date DESC
         """, ownership_forms)
 

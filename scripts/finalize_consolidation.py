@@ -5,8 +5,92 @@ Focus on creating views, indexes, and optimization
 """
 
 import sqlite3
+import re
 from pathlib import Path
 from datetime import datetime
+
+# ============================================================================
+# SECURITY: Whitelist validation to prevent SQL injection
+# ============================================================================
+
+# Allowed TED procurement table names
+ALLOWED_TED_TABLES = {
+    'ted_procurement_chinese_entities_found',
+    'ted_procurement_pattern_matches'
+}
+
+# Allowed view names for consolidation
+ALLOWED_VIEW_NAMES = {
+    'v_china_entities_master',
+    'v_patents_chinese',
+    'v_technologies_high_risk',
+    'v_contract_intelligence'
+}
+
+# Allowed index definitions (index_name, table_name, column_name)
+ALLOWED_INDEXES = {
+    ('idx_entities_name', 'entities', 'name'),
+    ('idx_entities_country', 'entities', 'country'),
+    ('idx_china_entities_name', 'china_entities', 'entity_name'),
+    ('idx_sec_edgar_chinese', 'sec_edgar_companies', 'is_chinese'),
+    ('idx_sec_edgar_cik', 'sec_edgar_companies', 'cik'),
+    ('idx_cordis_china_country', 'cordis_china_collaborations', 'country'),
+    ('idx_ted_china_vendor', 'ted_china_contracts', 'vendor_name'),
+    ('idx_ted_china_date', 'ted_china_contracts', 'award_date'),
+    ('idx_mcf_entities_name', 'mcf_entities', 'entity_name'),
+    ('idx_mcf_doc_entity', 'mcf_document_entities', 'entity_id'),
+    ('idx_tech_category', 'technologies', 'category'),
+    ('idx_tech_risk', 'technologies', 'risk_score')
+}
+
+def validate_sql_identifier(identifier):
+    """
+    SECURITY: Validate SQL identifier (table, column, view, or index name).
+    Only allows alphanumeric characters, underscores, and must not contain SQL keywords.
+    """
+    if not identifier:
+        raise ValueError("Identifier cannot be empty")
+
+    # Check for valid characters only
+    if not re.match(r'^[a-zA-Z0-9_]+$', identifier):
+        raise ValueError(f"Invalid identifier: {identifier}. Contains illegal characters.")
+
+    # Check length (SQLite limit is 1024 chars, we use 100 for safety)
+    if len(identifier) > 100:
+        raise ValueError(f"Identifier too long: {identifier}")
+
+    # Blacklist dangerous SQL keywords
+    dangerous_keywords = {'DROP', 'DELETE', 'UPDATE', 'INSERT', 'ALTER', 'CREATE',
+                         'EXEC', 'EXECUTE', 'UNION', 'SELECT', '--', ';', '/*', '*/'}
+    if identifier.upper() in dangerous_keywords:
+        raise ValueError(f"Identifier contains SQL keyword: {identifier}")
+
+    return identifier
+
+def validate_table_name_from_list(table_name, allowed_list):
+    """
+    SECURITY: Validate table name against specific whitelist.
+    """
+    if table_name not in allowed_list:
+        raise ValueError(f"Table name not in whitelist: {table_name}")
+    return table_name
+
+def validate_view_name(view_name):
+    """
+    SECURITY: Validate view name against whitelist.
+    """
+    if view_name not in ALLOWED_VIEW_NAMES:
+        raise ValueError(f"View name not in whitelist: {view_name}")
+    return view_name
+
+def validate_index_definition(index_name, table_name, column_name):
+    """
+    SECURITY: Validate complete index definition against whitelist.
+    """
+    index_tuple = (index_name, table_name, column_name)
+    if index_tuple not in ALLOWED_INDEXES:
+        raise ValueError(f"Index definition not in whitelist: {index_tuple}")
+    return index_name, table_name, column_name
 
 class FinalConsolidator:
     def __init__(self):
@@ -22,7 +106,9 @@ class FinalConsolidator:
         ted_proc_path = self.warehouse_dir / "osint_master.db"
         if ted_proc_path.exists():
             try:
-                cursor.execute(f"ATTACH DATABASE '{ted_proc_path}' AS ted_proc")
+                # SECURITY: Path from trusted Path object (warehouse_dir), safe to use
+                safe_path = str(ted_proc_path)
+                cursor.execute(f"ATTACH DATABASE '{safe_path}' AS ted_proc")
 
                 # Check what's in there
                 cursor.execute("SELECT name FROM ted_proc.sqlite_master WHERE type='table'")
@@ -31,14 +117,20 @@ class FinalConsolidator:
 
                 for table_name in ['ted_procurement_chinese_entities_found', 'ted_procurement_pattern_matches']:
                     try:
-                        cursor.execute(f"DROP TABLE IF EXISTS ted_procurement_{table_name}")
+                        # SECURITY: Validate table name against whitelist
+                        safe_table = validate_table_name_from_list(table_name, ALLOWED_TED_TABLES)
+                        safe_target = f"ted_procurement_{safe_table}"
+                        # Validate the target table name too
+                        safe_target = validate_sql_identifier(safe_target)
+
+                        cursor.execute(f"DROP TABLE IF EXISTS {safe_target}")
                         cursor.execute(f"""
-                            CREATE TABLE ted_procurement_{table_name} AS
-                            SELECT * FROM ted_proc.{table_name}
+                            CREATE TABLE {safe_target} AS
+                            SELECT * FROM ted_proc.{safe_table}
                         """)
-                        cursor.execute(f"SELECT COUNT(*) FROM ted_procurement_{table_name}")
+                        cursor.execute(f"SELECT COUNT(*) FROM {safe_target}")
                         count = cursor.fetchone()[0]
-                        print(f"    Imported ted_procurement_{table_name}: {count} rows")
+                        print(f"    Imported {safe_target}: {count} rows")
                     except Exception as e:
                         print(f"    Skip {table_name}: {e}")
 
@@ -53,7 +145,9 @@ class FinalConsolidator:
                 continue
 
             try:
-                cursor.execute(f"ATTACH DATABASE '{db_path}' AS source_db")
+                # SECURITY: Path from trusted Path object (warehouse_dir / db_name), safe to use
+                safe_path = str(db_path)
+                cursor.execute(f"ATTACH DATABASE '{safe_path}' AS source_db")
                 cursor.execute("SELECT name FROM source_db.sqlite_master WHERE type='table'")
                 tables = cursor.fetchall()
 
@@ -65,19 +159,24 @@ class FinalConsolidator:
                         if table_name.startswith('sqlite_'):
                             continue
 
-                        new_name = f"import_{table_name}"
                         try:
+                            # SECURITY: Validate table name from database (allow alphanumeric + underscore only)
+                            safe_table = validate_sql_identifier(table_name)
+                            new_name = f"import_{safe_table}"
+                            # Validate the new name too
+                            safe_new_name = validate_sql_identifier(new_name)
+
                             # Check if we already have this data
-                            cursor.execute(f"SELECT name FROM sqlite_master WHERE name=?", (table_name,))
+                            cursor.execute("SELECT name FROM sqlite_master WHERE name=?", (safe_table,))
                             if cursor.fetchone():
-                                print(f"    Skip {table_name} - already exists")
+                                print(f"    Skip {safe_table} - already exists")
                                 continue
 
-                            cursor.execute(f"DROP TABLE IF EXISTS {new_name}")
-                            cursor.execute(f"CREATE TABLE {new_name} AS SELECT * FROM source_db.{table_name}")
-                            cursor.execute(f"SELECT COUNT(*) FROM {new_name}")
+                            cursor.execute(f"DROP TABLE IF EXISTS {safe_new_name}")
+                            cursor.execute(f"CREATE TABLE {safe_new_name} AS SELECT * FROM source_db.{safe_table}")
+                            cursor.execute(f"SELECT COUNT(*) FROM {safe_new_name}")
                             count = cursor.fetchone()[0]
-                            print(f"    Imported {new_name}: {count} rows")
+                            print(f"    Imported {safe_new_name}: {count} rows")
                         except Exception as e:
                             print(f"    Skip {table_name}: {e}")
 
@@ -179,9 +278,12 @@ class FinalConsolidator:
 
         for view_name, view_sql in views:
             try:
-                cursor.execute(f"DROP VIEW IF EXISTS {view_name}")
-                cursor.execute(f"CREATE VIEW {view_name} AS {view_sql}")
-                print(f"  [OK] Created view: {view_name}")
+                # SECURITY: Validate view name against whitelist
+                safe_view = validate_view_name(view_name)
+                # Note: view_sql comes from hardcoded list, but we don't interpolate variables into it
+                cursor.execute(f"DROP VIEW IF EXISTS {safe_view}")
+                cursor.execute(f"CREATE VIEW {safe_view} AS {view_sql}")
+                print(f"  [OK] Created view: {safe_view}")
             except Exception as e:
                 print(f"  [FAIL] {view_name}: {e}")
 
@@ -227,8 +329,12 @@ class FinalConsolidator:
                 continue
 
             try:
-                cursor.execute(f"CREATE INDEX {index_name} ON {table_name}({column_name})")
-                print(f"  [OK] Created index: {index_name}")
+                # SECURITY: Validate complete index definition against whitelist
+                safe_index, safe_table, safe_column = validate_index_definition(
+                    index_name, table_name, column_name
+                )
+                cursor.execute(f"CREATE INDEX {safe_index} ON {safe_table}({safe_column})")
+                print(f"  [OK] Created index: {safe_index}")
                 created += 1
             except Exception as e:
                 if "no such table" not in str(e).lower():

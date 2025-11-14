@@ -5,8 +5,38 @@ Deep analysis of OpenAIRE database structure to understand how to extract China-
 
 import sqlite3
 import json
+import re
 from pathlib import Path
 from datetime import datetime
+
+# ============================================================================
+# SECURITY: SQL injection prevention through identifier validation
+# ============================================================================
+
+def validate_sql_identifier(identifier):
+    """
+    SECURITY: Validate SQL identifier (table or column name).
+    Only allows alphanumeric characters and underscores.
+    Prevents SQL injection from dynamic SQL construction.
+    """
+    if not identifier:
+        raise ValueError("Identifier cannot be empty")
+
+    # Check for valid characters only (alphanumeric + underscore)
+    if not re.match(r'^[a-zA-Z0-9_]+$', identifier):
+        raise ValueError(f"Invalid identifier: {identifier}. Contains illegal characters.")
+
+    # Check length (SQLite limit is 1024, we use 100 for safety)
+    if len(identifier) > 100:
+        raise ValueError(f"Identifier too long: {identifier}")
+
+    # Blacklist dangerous SQL keywords
+    dangerous_keywords = {'DROP', 'DELETE', 'UPDATE', 'INSERT', 'ALTER', 'CREATE',
+                         'EXEC', 'EXECUTE', 'UNION', 'SELECT', '--', ';', '/*', '*/'}
+    if identifier.upper() in dangerous_keywords:
+        raise ValueError(f"Identifier contains SQL keyword: {identifier}")
+
+    return identifier
 
 def analyze_openaire_structure():
     """Comprehensive analysis of OpenAIRE database structure"""
@@ -40,11 +70,14 @@ def analyze_openaire_structure():
 
     for table in tables:
         table_name = table[0]
+        # SECURITY: Validate table name before use in SQL
+        safe_table = validate_sql_identifier(table_name)
+
         print(f"\n### Table: {table_name}")
         print("-" * 40)
 
         # Get column info
-        cursor.execute(f"PRAGMA table_info({table_name})")
+        cursor.execute(f"PRAGMA table_info({safe_table})")
         columns = cursor.fetchall()
 
         print(f"Columns ({len(columns)}):")
@@ -54,7 +87,7 @@ def analyze_openaire_structure():
             print(f"  ... and {len(columns) - 10} more columns")
 
         # Get row count
-        cursor.execute(f"SELECT COUNT(*) FROM {table_name}")
+        cursor.execute(f"SELECT COUNT(*) FROM {safe_table}")
         row_count = cursor.fetchone()[0]
         print(f"\nRow count: {row_count:,}")
 
@@ -83,7 +116,7 @@ def analyze_openaire_structure():
                     where_clauses.append(f"LOWER(CAST({col} AS TEXT)) LIKE '%{pattern}%'")
 
                 query = f"""
-                    SELECT COUNT(*) FROM {table_name}
+                    SELECT COUNT(*) FROM {safe_table}
                     WHERE {' OR '.join(where_clauses)}
                     LIMIT 1
                 """
@@ -96,7 +129,7 @@ def analyze_openaire_structure():
 
                         # Get sample records
                         sample_query = f"""
-                            SELECT * FROM {table_name}
+                            SELECT * FROM {safe_table}
                             WHERE {' OR '.join(where_clauses)}
                             LIMIT 3
                         """
@@ -124,9 +157,11 @@ def analyze_openaire_structure():
 
     for table in tables:
         table_name = table[0]
+        # SECURITY: Validate table name before use in SQL
+        safe_table = validate_sql_identifier(table_name)
 
         # Get columns
-        cursor.execute(f"PRAGMA table_info({table_name})")
+        cursor.execute(f"PRAGMA table_info({safe_table})")
         columns = cursor.fetchall()
         text_columns = [col[1] for col in columns if col[2] in ('TEXT', 'VARCHAR', 'CHAR')]
 
@@ -141,7 +176,7 @@ def analyze_openaire_structure():
 
         try:
             query = f"""
-                SELECT COUNT(*) FROM {table_name}
+                SELECT COUNT(*) FROM {safe_table}
                 WHERE {' OR '.join(where_clauses)}
             """
             cursor.execute(query)
@@ -167,8 +202,11 @@ def analyze_openaire_structure():
         for table in research_tables:
             print(f"  - {table}")
 
+            # SECURITY: Validate table name before use in SQL
+            safe_table = validate_sql_identifier(table)
+
             # Deep dive into this table
-            cursor.execute(f"PRAGMA table_info({table})")
+            cursor.execute(f"PRAGMA table_info({safe_table})")
             columns = cursor.fetchall()
 
             # Look for country, organization, author fields
@@ -184,19 +222,21 @@ def analyze_openaire_structure():
     if country_tables:
         print(f"\nFound {len(country_tables)} country-related tables:")
         for table in country_tables:
-            cursor.execute(f"SELECT COUNT(*) FROM {table}")
+            # SECURITY: Validate table name before use in SQL
+            safe_table = validate_sql_identifier(table)
+            cursor.execute(f"SELECT COUNT(*) FROM {safe_table}")
             count = cursor.fetchone()[0]
             print(f"  - {table}: {count:,} records")
 
             # Check specifically for China
-            cursor.execute(f"PRAGMA table_info({table})")
+            cursor.execute(f"PRAGMA table_info({safe_table})")
             columns = cursor.fetchall()
 
             for col in columns:
                 if 'country' in col[1].lower() or 'code' in col[1].lower():
                     try:
                         cursor.execute(f"""
-                            SELECT DISTINCT {col[1]} FROM {table}
+                            SELECT DISTINCT {col[1]} FROM {safe_table}
                             WHERE LOWER(CAST({col[1]} AS TEXT)) IN ('china', 'cn', 'chn')
                             LIMIT 5
                         """)
