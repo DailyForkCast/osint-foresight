@@ -48,6 +48,15 @@
 *_dump.json
 *_cache.json
 
+# Specific root-level data files (not tracked config)
+/*_sources.json
+/*_sources_v*.json
+/PHASE*_*.json
+/PM_Dashboard_*.xlsx
+/*INVENTORY.json
+/*SAMPLE.json
+/*AUDIT*.json
+
 # ============================================================================
 # ANALYSIS OUTPUTS - Temporary/working files only
 # ============================================================================
@@ -106,6 +115,11 @@ venv.bak/
 /*_REFERENCE.txt
 /*_COMPLETION_NOTE.txt
 /*_changes.txt
+/QUICK_*.txt
+/SPOTLIGHT_*.txt
+
+# SQL files in root (keep in schema/ or scripts/)
+/*.sql
 
 # Batch scripts (automation, not source code)
 *.bat

@@ -1,0 +1,83 @@
+#!/usr/bin/env python3
+"""
+Production runner for 206-column USAspending file.
+
+Processes 5876.dat.gz (4.9 GB) with Taiwan exclusion.
+Output: F:/OSINT_WAREHOUSE/osint_master.db (table: usaspending_china_comprehensive)
+"""
+
+import sys
+from pathlib import Path
+
+# Add scripts directory to path
+sys.path.insert(0, str(Path(__file__).parent / 'scripts'))
+
+from process_usaspending_comprehensive import USAspendingComprehensiveProcessor
+
+
+def main():
+    """Run production processing on 206-column file."""
+
+    print("="*80)
+    print("USAspending 206-Column PRODUCTION RUN")
+    print("="*80)
+    print("\nTarget file:")
+    print("  - 5876.dat.gz (4.9 GB)")
+    print("\nDatabase: F:/OSINT_WAREHOUSE/osint_master.db")
+    print("Table: usaspending_china_comprehensive")
+    print("="*80)
+
+    # Initialize processor
+    processor = USAspendingComprehensiveProcessor()
+
+    # Define file to process
+    data_file = Path("F:/OSINT_DATA/USAspending/extracted_data/5876.dat.gz")
+
+    if not data_file.exists():
+        print(f"\nERROR: File not found: {data_file}")
+        return
+
+    # Process full file (no max_records limit)
+    try:
+        detections = processor.process_file(data_file)
+        processor.stats['files_processed'] += 1
+
+        print(f"\n{'='*80}")
+        print("PRODUCTION RUN COMPLETE")
+        print(f"{'='*80}")
+        processor.print_summary()
+
+        # Save results
+        processor.save_results(detections, data_file.stem)
+
+        # Save checkpoint
+        import json
+        from datetime import datetime
+
+        checkpoint = {
+            'completion_date': datetime.now().isoformat(),
+            'files_processed': processor.stats['files_processed'],
+            'total_records': processor.stats['total_records'],
+            'total_detections': processor.stats['china_detected'],
+            'total_value': processor.stats['total_value'],
+            'detection_rate': processor.stats['china_detected'] / max(processor.stats['total_records'], 1),
+            'format': '206-column-comprehensive',
+            'note': 'Taiwan (ROC) excluded from China (PRC) detection. Multi-field comprehensive detection.',
+        }
+
+        checkpoint_path = processor.output_dir / "checkpoint.json"
+        with open(checkpoint_path, 'w') as f:
+            json.dump(checkpoint, f, indent=2)
+
+        print(f"\nCheckpoint saved: {checkpoint_path}")
+        print(f"Database: F:/OSINT_WAREHOUSE/osint_master.db")
+        print(f"Table: usaspending_china_comprehensive")
+
+    except Exception as e:
+        print(f"\nERROR: {e}")
+        import traceback
+        traceback.print_exc()
+
+
+if __name__ == '__main__':
+    main()
