@@ -1,0 +1,343 @@
+#!/usr/bin/env python3
+"""
+Enhanced PRC Contractor Detection
+Uses multiple signals: country code, addresses, postal codes, administrative divisions, SOE matching
+"""
+
+import sqlite3
+import json
+import re
+from pathlib import Path
+from datetime import datetime
+
+DB_PATH = "F:/OSINT_WAREHOUSE/osint_master.db"
+OUTPUT_FILE = Path("C:/Projects/OSINT - Foresight/analysis/TED_ENHANCED_PRC_ANALYSIS.json")
+
+# Load reference data
+with open('C:/Projects/OSINT - Foresight/data/prc_identifiers.json') as f:
+    prc_id = json.load(f)
+
+with open('C:/Projects/OSINT - Foresight/data/prc_soe_database.json') as f:
+    soe_db = json.load(f)
+
+class EnhancedPRCDetector:
+    def __init__(self):
+        self.conn = sqlite3.connect(DB_PATH)
+        self.cur = self.conn.cursor()
+
+        # Build flat SOE list
+        self.soe_names = set()
+        for category, companies in soe_db['central_soes'].items():
+            self.soe_names.update([c.lower() for c in companies])
+        self.soe_names.update([c.lower() for c in soe_db['provincial_municipal_soes']])
+
+        # Add all aliases
+        for aliases in soe_db['aliases_variants'].values():
+            self.soe_names.update([a.lower() for a in aliases])
+
+        # Add all known subsidiaries
+        for subs in soe_db['known_subsidiaries'].values():
+            self.soe_names.update([s.lower() for s in subs])
+
+        print(f"Loaded {len(self.soe_names)} SOE names and variants")
+
+    def check_postal_code(self, address):
+        """Check if address contains PRC postal code"""
+        if not address:
+            return False, None
+
+        # Look for 6-digit postal codes
+        postal_pattern = r'\b[1-9]\d{5}\b'
+        matches = re.findall(postal_pattern, address)
+
+        for match in matches:
+            code = int(match)
+            # PRC postal codes are 100000-999999
+            if 100000 <= code <= 999999:
+                return True, match
+
+        return False, None
+
+    def check_administrative_division(self, text):
+        """Check if text contains PRC administrative divisions"""
+        if not text:
+            return []
+
+        text_lower = text.lower()
+        found = []
+
+        for division in prc_id['administrative_divisions']:
+            if division in text_lower:
+                found.append(division)
+
+        return found
+
+    def check_street_pattern(self, address):
+        """Check for PRC street naming patterns"""
+        if not address:
+            return []
+
+        address_lower = address.lower()
+        found = []
+
+        for suffix in prc_id['street_suffixes']:
+            # Look for patterns like "Beijing Lu", "Nanjing Road"
+            pattern = rf'\b\w+\s+{suffix}\b'
+            if re.search(pattern, address_lower):
+                found.append(suffix)
+
+        return found
+
+    def check_building_indicators(self, text):
+        """Check for PRC building naming patterns"""
+        if not text:
+            return []
+
+        text_lower = text.lower()
+        found = []
+
+        for indicator in prc_id['building_indicators']:
+            if indicator in text_lower:
+                found.append(indicator)
+
+        return found
+
+    def check_soe_match(self, contractor_name):
+        """Check if contractor name matches known PRC SOE"""
+        if not contractor_name:
+            return False, []
+
+        name_lower = contractor_name.lower()
+        matches = []
+
+        for soe in self.soe_names:
+            if len(soe) <= 3:  # Skip very short names
+                continue
+
+            # Word boundary matching for short names
+            if len(soe) <= 8:
+                pattern = rf'\b{re.escape(soe)}\b'
+                if re.search(pattern, name_lower):
+                    matches.append(soe)
+            else:
+                if soe in name_lower:
+                    matches.append(soe)
+
+        return len(matches) > 0, matches
+
+    def check_parent_company(self, text):
+        """Check if text indicates PRC parent company"""
+        if not text:
+            return []
+
+        text_lower = text.lower()
+        found = []
+
+        for indicator in prc_id['parent_company_indicators']:
+            if indicator in text_lower:
+                found.append(indicator)
+
+        return found
+
+    def calculate_confidence_score(self, signals):
+        """Calculate confidence score based on multiple signals"""
+        score = 0
+        evidence = []
+
+        # Country code = highest weight
+        if signals['country_code'] == 'CN':
+            score += 100
+            evidence.append('country_code_CN')
+        elif signals['country_code'] == 'HK':
+            score += 50
+            evidence.append('country_code_HK')
+
+        # SOE match = very high confidence
+        if signals['soe_match']:
+            score += 80
+            evidence.append(f"soe_match: {', '.join(signals['soe_matches'][:3])}")
+
+        # Postal code = high confidence
+        if signals['postal_code']:
+            score += 60
+            evidence.append(f"postal_code: {signals['postal_code']}")
+
+        # Administrative division = high confidence
+        if signals['admin_divisions']:
+            score += 50
+            evidence.append(f"admin_division: {', '.join(signals['admin_divisions'][:2])}")
+
+        # Street pattern = medium confidence
+        if signals['street_patterns']:
+            score += 30
+            evidence.append(f"street_pattern: {', '.join(signals['street_patterns'][:2])}")
+
+        # Building indicators = low confidence (common worldwide)
+        if signals['building_indicators']:
+            score += 10
+            evidence.append('building_indicators')
+
+        # Parent company indicators
+        if signals['parent_indicators']:
+            score += 20
+            evidence.append('parent_company_indicator')
+
+        # Determine confidence level
+        if score >= 100:
+            confidence = 'VERY_HIGH'
+        elif score >= 60:
+            confidence = 'HIGH'
+        elif score >= 30:
+            confidence = 'MEDIUM'
+        else:
+            confidence = 'LOW'
+
+        return score, confidence, evidence
+
+    def analyze_contractor(self, name, country, address):
+        """Analyze single contractor with all signals"""
+        signals = {
+            'country_code': country,
+            'postal_code': None,
+            'admin_divisions': [],
+            'street_patterns': [],
+            'building_indicators': [],
+            'soe_match': False,
+            'soe_matches': [],
+            'parent_indicators': []
+        }
+
+        # Check postal code
+        has_postal, postal = self.check_postal_code(address)
+        if has_postal:
+            signals['postal_code'] = postal
+
+        # Check administrative divisions
+        admin_divs = self.check_administrative_division(address)
+        if admin_divs:
+            signals['admin_divisions'] = admin_divs
+
+        # Check street patterns
+        street_pats = self.check_street_pattern(address)
+        if street_pats:
+            signals['street_patterns'] = street_pats
+
+        # Check building indicators
+        building_inds = self.check_building_indicators(address)
+        if building_inds:
+            signals['building_indicators'] = building_inds
+
+        # Check SOE match
+        is_soe, soe_matches = self.check_soe_match(name)
+        if is_soe:
+            signals['soe_match'] = True
+            signals['soe_matches'] = soe_matches
+
+        # Check parent company indicators
+        parent_inds = self.check_parent_company(name)
+        if parent_inds:
+            signals['parent_indicators'] = parent_inds
+
+        # Calculate confidence
+        score, confidence, evidence = self.calculate_confidence_score(signals)
+
+        return {
+            'signals': signals,
+            'score': score,
+            'confidence': confidence,
+            'evidence': evidence
+        }
+
+    def analyze_all_contractors(self):
+        """Analyze all contractors in database"""
+        print("\n" + "="*80)
+        print("ENHANCED PRC CONTRACTOR ANALYSIS")
+        print("="*80)
+
+        # Get all contractors
+        self.cur.execute("""
+            SELECT id, contractor_name, contractor_country, contractor_address,
+                   contract_title, publication_date, source_archive
+            FROM ted_contractors
+        """)
+
+        results = {
+            'very_high': [],
+            'high': [],
+            'medium': [],
+            'low': []
+        }
+
+        total = 0
+        for row in self.cur.fetchall():
+            total += 1
+            if total % 10000 == 0:
+                print(f"Processed {total:,} contractors...")
+
+            contractor_id, name, country, address, title, date, archive = row
+
+            analysis = self.analyze_contractor(name, country, address)
+
+            confidence = analysis['confidence'].lower()
+
+            # Only store medium and above
+            if confidence in ['very_high', 'high', 'medium']:
+                results[confidence].append({
+                    'id': contractor_id,
+                    'name': name,
+                    'country': country,
+                    'address': address,
+                    'title': title,
+                    'date': date,
+                    'archive': archive,
+                    'score': analysis['score'],
+                    'confidence': analysis['confidence'],
+                    'evidence': analysis['evidence']
+                })
+
+        print(f"\nTotal contractors analyzed: {total:,}")
+        print(f"VERY HIGH confidence: {len(results['very_high'])}")
+        print(f"HIGH confidence: {len(results['high'])}")
+        print(f"MEDIUM confidence: {len(results['medium'])}")
+
+        return results
+
+    def generate_report(self, results):
+        """Generate comprehensive report"""
+        # Save to JSON FIRST (before any printing)
+        report = {
+            'generated': datetime.now().isoformat(),
+            'methodology': 'Enhanced multi-signal PRC detection',
+            'signals_used': [
+                'country_code',
+                'postal_codes',
+                'administrative_divisions',
+                'street_patterns',
+                'building_indicators',
+                'soe_matching',
+                'parent_company_indicators'
+            ],
+            'total_analyzed': sum(len(results[k]) for k in results),
+            'very_high_confidence': len(results['very_high']),
+            'high_confidence': len(results['high']),
+            'medium_confidence': len(results['medium']),
+            'contractors': {
+                'very_high': results['very_high'],
+                'high': results['high'],
+                'medium': results['medium'][:50]  # Limit medium to 50
+            }
+        }
+
+        OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+        with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+            json.dump(report, f, indent=2, ensure_ascii=False)
+
+        print(f"\n\nReport saved to: {OUTPUT_FILE}")
+
+        return report
+
+if __name__ == '__main__':
+    detector = EnhancedPRCDetector()
+    results = detector.analyze_all_contractors()
+    detector.generate_report(results)
+    detector.conn.close()

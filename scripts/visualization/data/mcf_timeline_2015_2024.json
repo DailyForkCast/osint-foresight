@@ -1,0 +1,375 @@
+{
+  "metadata": {
+    "title": "MCF Governance Evolution Timeline 2015-2024",
+    "source": "Public sources: Chinese government documents, academic research",
+    "note": "Key milestones in MCF institutional and legal development"
+  },
+  "periods": {
+    "2015-2016": {
+      "name": "Foundation Period",
+      "description": "Establishment of MCF framework",
+      "color": "#E74C3C"
+    },
+    "2017-2019": {
+      "name": "Expansion Period",
+      "description": "Legal framework development",
+      "color": "#3498DB"
+    },
+    "2020-2021": {
+      "name": "Consolidation Period",
+      "description": "COVID-19 response and tech focus",
+      "color": "#F39C12"
+    },
+    "2022-2024": {
+      "name": "Intensification Period",
+      "description": "Decoupling response and self-reliance",
+      "color": "#27AE60"
+    }
+  },
+  "events": [
+    {
+      "date": "2015-03",
+      "year": 2015,
+      "period": "2015-2016",
+      "layer": 1,
+      "event": "Made in China 2025 Strategy Announced",
+      "description": "10-year plan to upgrade Chinese manufacturing with focus on 10 strategic sectors",
+      "governance_layer": "Strategic Direction",
+      "impact": "high",
+      "institutions": ["State Council", "MIIT"]
+    },
+    {
+      "date": "2015-07",
+      "year": 2015,
+      "period": "2015-2016",
+      "layer": 3,
+      "event": "National Security Law Enacted",
+      "description": "Broad definition of national security including economic, technological, and information security",
+      "governance_layer": "Legal Framework",
+      "impact": "high",
+      "institutions": ["NPC Standing Committee"]
+    },
+    {
+      "date": "2016-03",
+      "year": 2016,
+      "period": "2015-2016",
+      "layer": 1,
+      "event": "13th Five-Year Plan Released",
+      "description": "Emphasized innovation-driven development and MCF integration",
+      "governance_layer": "Strategic Direction",
+      "impact": "high",
+      "institutions": ["State Council", "NDRC"]
+    },
+    {
+      "date": "2016-07",
+      "year": 2016,
+      "period": "2015-2016",
+      "layer": 4,
+      "event": "Central MCF Development Commission Established",
+      "description": "Top-level coordinating body chaired by Xi Jinping",
+      "governance_layer": "Institutional Coordination",
+      "impact": "critical",
+      "institutions": ["Central MCF Commission"]
+    },
+    {
+      "date": "2017-01",
+      "year": 2017,
+      "period": "2017-2019",
+      "layer": 2,
+      "event": "MCF Development Strategy Outline",
+      "description": "Comprehensive roadmap for civilian-military integration",
+      "governance_layer": "Policy Formulation",
+      "impact": "high",
+      "institutions": ["Central MCF Commission", "CMC"]
+    },
+    {
+      "date": "2017-06",
+      "year": 2017,
+      "period": "2017-2019",
+      "layer": 3,
+      "event": "National Intelligence Law",
+      "description": "Requires all Chinese organizations to support intelligence work",
+      "governance_layer": "Legal Framework",
+      "impact": "critical",
+      "institutions": ["NPC Standing Committee", "MSS"]
+    },
+    {
+      "date": "2017-10",
+      "year": 2017,
+      "period": "2017-2019",
+      "layer": 1,
+      "event": "19th Party Congress - MCF Elevated",
+      "description": "MCF designated as national strategy, enshrined in Party Constitution",
+      "governance_layer": "Strategic Direction",
+      "impact": "critical",
+      "institutions": ["CCP Central Committee"]
+    },
+    {
+      "date": "2018-03",
+      "year": 2018,
+      "period": "2017-2019",
+      "layer": 4,
+      "event": "SASTIND Reorganization",
+      "description": "State Administration for Science, Technology and Industry for National Defense restructured",
+      "governance_layer": "Institutional Coordination",
+      "impact": "medium",
+      "institutions": ["SASTIND", "MIIT"]
+    },
+    {
+      "date": "2018-04",
+      "year": 2018,
+      "period": "2017-2019",
+      "layer": 5,
+      "event": "Military-Civil Innovation Alliances Launched",
+      "description": "Regional innovation alliances established in key technology hubs",
+      "governance_layer": "Implementation Mechanisms",
+      "impact": "high",
+      "institutions": ["MCF Regional Offices"]
+    },
+    {
+      "date": "2018-12",
+      "year": 2018,
+      "period": "2017-2019",
+      "layer": 2,
+      "event": "MCF Promotion Law Draft Circulated",
+      "description": "Proposed dedicated law for MCF (not yet enacted as of 2024)",
+      "governance_layer": "Policy Formulation",
+      "impact": "medium",
+      "institutions": ["Central MCF Commission"]
+    },
+    {
+      "date": "2019-10",
+      "year": 2019,
+      "period": "2017-2019",
+      "layer": 3,
+      "event": "Cryptography Law Enacted",
+      "description": "Regulates commercial cryptography with national security implications",
+      "governance_layer": "Legal Framework",
+      "impact": "medium",
+      "institutions": ["NPC Standing Committee"]
+    },
+    {
+      "date": "2020-06",
+      "year": 2020,
+      "period": "2020-2021",
+      "layer": 1,
+      "event": "Dual Circulation Strategy Announced",
+      "description": "Emphasis on domestic circulation and technological self-reliance",
+      "governance_layer": "Strategic Direction",
+      "impact": "high",
+      "institutions": ["CCP Central Committee", "State Council"]
+    },
+    {
+      "date": "2020-10",
+      "year": 2020,
+      "period": "2020-2021",
+      "layer": 3,
+      "event": "Export Control Law",
+      "description": "Framework for controlling exports of dual-use items and technologies",
+      "governance_layer": "Legal Framework",
+      "impact": "high",
+      "institutions": ["MOFCOM", "SASTIND"]
+    },
+    {
+      "date": "2020-11",
+      "year": 2020,
+      "period": "2020-2021",
+      "layer": 1,
+      "event": "14th Five-Year Plan Outline Released",
+      "description": "Strengthened MCF, focus on strategic emerging industries",
+      "governance_layer": "Strategic Direction",
+      "impact": "high",
+      "institutions": ["State Council", "NDRC"]
+    },
+    {
+      "date": "2021-06",
+      "year": 2021,
+      "period": "2020-2021",
+      "layer": 3,
+      "event": "Data Security Law",
+      "description": "National security review for data activities",
+      "governance_layer": "Legal Framework",
+      "impact": "high",
+      "institutions": ["CAC", "MSS"]
+    },
+    {
+      "date": "2021-09",
+      "year": 2021,
+      "period": "2020-2021",
+      "layer": 3,
+      "event": "Personal Information Protection Law",
+      "description": "Data privacy law with national security carve-outs",
+      "governance_layer": "Legal Framework",
+      "impact": "medium",
+      "institutions": ["NPC Standing Committee"]
+    },
+    {
+      "date": "2022-06",
+      "year": 2022,
+      "period": "2022-2024",
+      "layer": 4,
+      "event": "National Technology Centers Expansion",
+      "description": "Expansion of national-level technology innovation centers",
+      "governance_layer": "Institutional Coordination",
+      "impact": "high",
+      "institutions": ["MOST", "NDRC"]
+    },
+    {
+      "date": "2022-10",
+      "year": 2022,
+      "period": "2022-2024",
+      "layer": 1,
+      "event": "20th Party Congress - Self-Reliance Emphasis",
+      "description": "Technology self-reliance elevated as top priority",
+      "governance_layer": "Strategic Direction",
+      "impact": "critical",
+      "institutions": ["CCP Central Committee"]
+    },
+    {
+      "date": "2023-03",
+      "year": 2023,
+      "period": "2022-2024",
+      "layer": 4,
+      "event": "Central Science and Technology Commission Established",
+      "description": "New apex body for coordinating S&T policy",
+      "governance_layer": "Institutional Coordination",
+      "impact": "critical",
+      "institutions": ["Central S&T Commission"]
+    },
+    {
+      "date": "2023-05",
+      "year": 2023,
+      "period": "2022-2024",
+      "layer": 5,
+      "event": "Whole-Nation System 2.0",
+      "description": "Enhanced state mobilization for key technology breakthroughs",
+      "governance_layer": "Implementation Mechanisms",
+      "impact": "high",
+      "institutions": ["MOST", "CAS"]
+    },
+    {
+      "date": "2023-07",
+      "year": 2023,
+      "period": "2022-2024",
+      "layer": 3,
+      "event": "Foreign Relations Law",
+      "description": "Legal framework for countering foreign sanctions",
+      "governance_layer": "Legal Framework",
+      "impact": "high",
+      "institutions": ["NPC Standing Committee"]
+    },
+    {
+      "date": "2024-01",
+      "year": 2024,
+      "period": "2022-2024",
+      "layer": 2,
+      "event": "New Quality Productive Forces Concept",
+      "description": "Xi Jinping introduces concept emphasizing innovation and technology",
+      "governance_layer": "Policy Formulation",
+      "impact": "high",
+      "institutions": ["CCP Central Committee"]
+    },
+    {
+      "date": "2024-05",
+      "year": 2024,
+      "period": "2022-2024",
+      "layer": 5,
+      "event": "Semiconductor Manufacturing Megafund Phase 3",
+      "description": "$47.5 billion fund for chip industry",
+      "governance_layer": "Implementation Mechanisms",
+      "impact": "critical",
+      "institutions": ["MIIT", "MOF", "SASAC"]
+    },
+    {
+      "date": "2024-09",
+      "year": 2024,
+      "period": "2022-2024",
+      "layer": 6,
+      "event": "SOE Technology Innovation Mandates",
+      "description": "SASAC directs all central SOEs to prioritize tech innovation",
+      "governance_layer": "Execution Entities",
+      "impact": "high",
+      "institutions": ["SASAC", "Central SOEs"]
+    }
+  ],
+  "layer_evolution": {
+    "Layer_1_Strategic": {
+      "2015": 2,
+      "2016": 1,
+      "2017": 2,
+      "2018": 0,
+      "2019": 0,
+      "2020": 2,
+      "2021": 0,
+      "2022": 2,
+      "2023": 0,
+      "2024": 1
+    },
+    "Layer_2_Policy": {
+      "2015": 0,
+      "2016": 0,
+      "2017": 1,
+      "2018": 1,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 1
+    },
+    "Layer_3_Legal": {
+      "2015": 1,
+      "2016": 0,
+      "2017": 1,
+      "2018": 0,
+      "2019": 1,
+      "2020": 1,
+      "2021": 2,
+      "2022": 0,
+      "2023": 1,
+      "2024": 0
+    },
+    "Layer_4_Coordination": {
+      "2015": 0,
+      "2016": 1,
+      "2017": 0,
+      "2018": 1,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 1,
+      "2023": 1,
+      "2024": 0
+    },
+    "Layer_5_Implementation": {
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 1,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 1,
+      "2024": 1
+    },
+    "Layer_6_Execution": {
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 1
+    }
+  },
+  "key_trends": {
+    "2015-2016": "MCF framework establishment with strategic planning documents",
+    "2017-2019": "Legal framework construction, 5 major laws enacted",
+    "2020-2021": "COVID response and tech self-reliance push, 3 critical laws",
+    "2022-2024": "Intensified focus on implementation, new institutions, massive funding"
+  }
+}

@@ -1,0 +1,54 @@
+// China MCF Governance Structure
+digraph MCF_Governance_Hierarchy {
+	bgcolor=white fontname=Arial fontsize=14 nodesep=0.5 rankdir=TB ranksep=0.8 splines=ortho
+	node [fontcolor="#2C3E50" fontname=Arial fontsize=11 margin="0.3,0.2" shape=box style="filled,rounded"]
+	edge [arrowsize=0.8 color="#34495E" penwidth=2]
+	xi [label="Xi Jinping
+General Secretary, President, CMC Chair" fillcolor="#E74C3C" fontcolor=white fontsize=14 shape=box style="filled,rounded,bold"]
+	mcf_commission [label="Central MCF Commission
+(Chair: Xi Jinping)" fillcolor="#C0392B" fontcolor=white fontsize=12 style="filled,rounded"]
+	xi -> mcf_commission [label=Chairs fontsize=10]
+	state_council [label="State Council
+(Government Executive)" fillcolor="#3498DB" fontcolor=white fontsize=12]
+	mcf_commission -> state_council [label=Coordinates fontsize=10]
+	cmc [label="Central Military Commission
+(Chair: Xi Jinping)" fillcolor="#E67E22" fontcolor=white fontsize=12]
+	mcf_commission -> cmc [label=Coordinates fontsize=10]
+	miit [label="MIIT
+Industrial Technology" fillcolor="#3498DB" fontcolor=white fontsize=10]
+	state_council -> miit [fontsize=9]
+	most [label="MOST
+Research Coordination" fillcolor="#3498DB" fontcolor=white fontsize=10]
+	state_council -> most [fontsize=9]
+	moe [label="MOE
+Talent Pipeline" fillcolor="#3498DB" fontcolor=white fontsize=10]
+	state_council -> moe [fontsize=9]
+	ndrc [label="NDRC
+Strategic Planning" fillcolor="#9B59B6" fontcolor=white fontsize=10]
+	state_council -> ndrc [fontsize=9]
+	sasac [label="SASAC
+SOE Oversight" fillcolor="#9B59B6" fontcolor=white fontsize=10]
+	state_council -> sasac [fontsize=9]
+	mss [label="Ministry of State Security
+Intelligence Collection" fillcolor="#8E44AD" fontcolor=white fontsize=10]
+	mcf_commission -> mss [label=Directs fontsize=9]
+	pla_ssf [label="PLA Strategic Support Force
+Cyber, Space, EW" fillcolor="#E67E22" fontcolor=white fontsize=10]
+	cmc -> pla_ssf [fontsize=9]
+	sastind [label="SASTIND
+Defense Technology" fillcolor="#D35400" fontcolor=white fontsize=10]
+	cmc -> sastind [fontsize=9]
+	cas [label="Chinese Academy
+of Sciences" fillcolor="#F39C12" fontsize=9]
+	most -> cas [fontsize=8]
+	soes [label="State-Owned
+Enterprises
+(AVIC, NORINCO, CETC)" fillcolor="#27AE60" fontsize=9]
+	sasac -> soes [fontsize=8]
+	university_labs [label="University Defense Labs
+(Tsinghua, Beihang, NUDT)" fillcolor="#16A085" fontsize=9]
+	moe -> university_labs [fontsize=8]
+	cas -> soes [label="Technology Transfer" color="#95A5A6" fontsize=8 style=dashed]
+	university_labs -> pla_ssf [label="Research Collaboration" color="#95A5A6" fontsize=8 style=dashed]
+	soes -> pla_ssf [label=Procurement color="#95A5A6" fontsize=8 style=dashed]
+}

@@ -1,0 +1,37 @@
+// MCF Command and Control Flows
+digraph MCF_Command_Flow {
+	bgcolor=white fontname=Arial fontsize=12 rankdir=LR
+	node [fontname=Arial shape=box style="filled,rounded"]
+	xi [label="Xi Jinping" fillcolor="#E74C3C" fontcolor=white fontsize=14 shape=ellipse]
+	mcf [label="Central MCF
+Commission" fillcolor="#C0392B" fontcolor=white]
+	sc [label="State Council" fillcolor="#3498DB" fontcolor=white]
+	cmc [label="Central Military
+Commission" fillcolor="#E67E22" fontcolor=white]
+	miit [label=MIIT fillcolor="#3498DB"]
+	ndrc [label=NDRC fillcolor="#9B59B6" fontcolor=white]
+	sasac [label=SASAC fillcolor="#9B59B6" fontcolor=white]
+	ssf [label="PLA SSF" fillcolor="#E67E22" fontcolor=white]
+	soes [label=SOEs fillcolor="#27AE60" fontcolor=white]
+	cas [label=CAS fillcolor="#F39C12"]
+	xi -> mcf [label=Chairs color="#8E44AD" fontsize=10]
+	xi -> cmc [label=Chairs color="#8E44AD" fontsize=10]
+	mcf -> sc [label=Coordinates color="#E74C3C" fontsize=10]
+	mcf -> cmc [label=Coordinates color="#E74C3C" fontsize=10]
+	sc -> miit [label=Directs color="#3498DB" fontsize=9]
+	sc -> ndrc [label=Directs color="#3498DB" fontsize=9]
+	sc -> sasac [label=Directs color="#3498DB" fontsize=9]
+	cmc -> ssf [label=Commands color="#8E44AD" fontsize=9]
+	sasac -> soes [label=Controls color="#C0392B" fontsize=9]
+	ndrc -> cas [label=Funds color="#F39C12" fontsize=9]
+	soes -> ssf [label=Procures color="#95A5A6" fontsize=8 style=dashed]
+	cas -> soes [label="Tech Transfer" color="#95A5A6" fontsize=8 style=dashed]
+	subgraph cluster_legend {
+		fontsize=12 label="Relationship Types"
+		leg_commands [label=Commands fillcolor="#8E44AD" fontcolor=white shape=note]
+		leg_directs [label=Directs fillcolor="#3498DB" fontcolor=white shape=note]
+		leg_coordinates [label=Coordinates fillcolor="#E74C3C" fontcolor=white shape=note]
+		leg_funds [label=Funds fillcolor="#F39C12" shape=note]
+		leg_controls [label=Controls fillcolor="#C0392B" fontcolor=white shape=note]
+	}
+}

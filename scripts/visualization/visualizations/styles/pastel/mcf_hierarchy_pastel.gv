@@ -1,0 +1,53 @@
+digraph MCF_Hierarchy_pastel {
+	bgcolor=white fontname=Arial fontsize=16 nodesep=0.6 rankdir=TB ranksep=1.0 splines=ortho
+	node [fontcolor="#2C3E50" fontname=Arial fontsize=16 margin="0.4,0.3" shape=box style="filled,rounded"]
+	edge [arrowsize=1.0 color="#34495E" penwidth=2.5]
+	xi [label="Xi Jinping
+General Secretary, President, CMC Chair" fillcolor="#FADBD8" fontcolor=white fontsize=18 style="filled,rounded,bold"]
+	mcf_commission [label="Central MCF Commission
+(Chair: Xi Jinping)" fillcolor="#FADBD8" fontcolor=white fontsize=16]
+	state_council [label="State Council
+(Government Executive)" fillcolor="#D6EAF8" fontcolor=white fontsize=16]
+	cmc [label="Central Military Commission
+(Chair: Xi Jinping)" fillcolor="#FDEBD0" fontcolor=white fontsize=16]
+	miit [label="MIIT
+Industrial Technology" fillcolor="#D1F2EB" fontcolor=white fontsize=14]
+	most [label="MOST
+Research Coordination" fillcolor="#D1F2EB" fontcolor=white fontsize=14]
+	moe [label="MOE
+Talent Pipeline" fillcolor="#D1F2EB" fontcolor=white fontsize=14]
+	ndrc [label="NDRC
+Strategic Planning" fillcolor="#E8DAEF" fontcolor=white fontsize=14]
+	sasac [label="SASAC
+SOE Oversight" fillcolor="#E8DAEF" fontcolor=white fontsize=14]
+	mss [label="Ministry of State Security
+Intelligence Collection" fillcolor="#E8DAEF" fontcolor=white fontsize=14]
+	pla_ssf [label="PLA Strategic Support Force
+Cyber, Space, EW" fillcolor="#F5B7B1" fontcolor=white fontsize=14]
+	sastind [label="SASTIND
+Defense Technology" fillcolor="#F5B7B1" fontcolor=white fontsize=14]
+	cas [label="Chinese Academy
+of Sciences" fillcolor="#FDEBD0" fontsize=14]
+	soes [label="State-Owned
+Enterprises
+(AVIC, NORINCO, CETC)" fillcolor="#D5F4E6" fontcolor=white fontsize=14]
+	university_labs [label="University Defense Labs
+(Tsinghua, Beihang, NUDT)" fillcolor="#D1F2EB" fontsize=14]
+	xi -> mcf_commission [label=Chairs fontsize=12]
+	mcf_commission -> state_council [label=Coordinates fontsize=12]
+	mcf_commission -> cmc [label=Coordinates fontsize=12]
+	state_council -> miit [fontsize=11]
+	state_council -> most [fontsize=11]
+	state_council -> moe [fontsize=11]
+	state_council -> ndrc [fontsize=11]
+	state_council -> sasac [fontsize=11]
+	mcf_commission -> mss [label=Directs fontsize=11]
+	cmc -> pla_ssf [fontsize=11]
+	cmc -> sastind [fontsize=11]
+	most -> cas [fontsize=10]
+	sasac -> soes [fontsize=10]
+	moe -> university_labs [fontsize=10]
+	cas -> soes [label="Tech Transfer" color="#95A5A6" fontsize=10 style=dashed]
+	university_labs -> pla_ssf [label=Research color="#95A5A6" fontsize=10 style=dashed]
+	soes -> pla_ssf [label=Procurement color="#95A5A6" fontsize=10 style=dashed]
+}

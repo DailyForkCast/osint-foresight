@@ -1,0 +1,61 @@
+// MCF Institutional Architecture by Tier
+digraph MCF_Institutional_Layers {
+	bgcolor=white fontname=Arial fontsize=12 nodesep=0.8 rankdir=TB ranksep=1.2 splines=line
+	node [fontname=Arial shape=box style=filled]
+	edge [color="#34495E" penwidth=1.5]
+	subgraph cluster_tier1 {
+		color="#FADBD8" fontsize=14 label="Tier 1: Central Leadership" style=filled
+		tier1_mcf [label="Central MCF
+Commission" fillcolor="#E74C3C" fontcolor=white]
+		tier1_sc [label="State Council" fillcolor="#E74C3C" fontcolor=white]
+		tier1_cmc [label="Central Military
+Commission" fillcolor="#E74C3C" fontcolor=white]
+	}
+	subgraph cluster_tier2 {
+		color="#D6EAF8" fontsize=14 label="Tier 2: Key Ministries & Commissions" style=filled
+		tier2_miit [label=MIIT fillcolor="#3498DB" fontcolor=white]
+		tier2_most [label=MOST fillcolor="#3498DB" fontcolor=white]
+		tier2_ndrc [label=NDRC fillcolor="#9B59B6" fontcolor=white]
+		tier2_sasac [label=SASAC fillcolor="#9B59B6" fontcolor=white]
+		tier2_mss [label=MSS fillcolor="#8E44AD" fontcolor=white]
+	}
+	subgraph cluster_tier3 {
+		color="#FCF3CF" fontsize=14 label="Tier 3: Key Agencies" style=filled
+		tier3_cas [label="Chinese Academy
+of Sciences" fillcolor="#F39C12"]
+		tier3_ssf [label="PLA Strategic
+Support Force" fillcolor="#E67E22" fontcolor=white]
+		tier3_sastind [label=SASTIND fillcolor="#D35400" fontcolor=white]
+	}
+	subgraph cluster_tier4 {
+		color="#D5D8DC" fontsize=14 label="Tier 4: Provincial Implementation" style=filled
+		tier4_provincial [label="Provincial MCF
+Offices (31)" fillcolor="#95A5A6" fontcolor=white]
+		tier4_zones [label="Development
+Zones" fillcolor="#95A5A6" fontcolor=white]
+	}
+	subgraph cluster_tier5 {
+		color="#D5F4E6" fontsize=14 label="Tier 5: Implementation Entities" style=filled
+		tier5_soes [label="State-Owned
+Enterprises" fillcolor="#27AE60" fontcolor=white]
+		tier5_unis [label="University
+Defense Labs" fillcolor="#16A085" fontcolor=white]
+		tier5_talent [label="Talent Recruitment
+Programs" fillcolor="#1ABC9C" fontcolor=white]
+	}
+	tier1_mcf -> tier1_sc
+	tier1_mcf -> tier1_cmc
+	tier1_sc -> tier2_miit
+	tier1_sc -> tier2_most
+	tier1_sc -> tier2_ndrc
+	tier1_sc -> tier2_sasac
+	tier1_mcf -> tier2_mss
+	tier2_most -> tier3_cas
+	tier1_cmc -> tier3_ssf
+	tier1_cmc -> tier3_sastind
+	tier1_sc -> tier4_provincial
+	tier2_ndrc -> tier4_zones
+	tier2_sasac -> tier5_soes
+	tier2_most -> tier5_unis
+	tier2_mss -> tier5_talent
+}
