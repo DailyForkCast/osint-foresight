@@ -1,0 +1,444 @@
+# Think Tank Global Collector - Source Rules Registry
+# Defines publication paths, selectors, and fetch parameters for each source
+
+# ============================================================================
+# UNITED STATES & CANADA
+# ============================================================================
+
+csis.org:
+  region: US_CAN
+  name: "Center for Strategic and International Studies"
+  publications_paths:
+    - "/analysis"
+    - "/features/reports"
+    - "/papers"
+  date_selectors:
+    - "time[datetime]"
+    - ".published-date"
+    - "meta[property='article:published_time']"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+    - "a.download"
+  priority: high
+
+cset.georgetown.edu:
+  region: US_CAN
+  name: "Georgetown CSET"
+  publications_paths:
+    - "/publications"
+    - "/research"
+  date_selectors:
+    - "time"
+    - "meta[property='article:published_time']"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: high
+
+www.rand.org:
+  region: US_CAN
+  name: "RAND Corporation"
+  publications_paths:
+    - "/pubs"
+    - "/research"
+  date_selectors:
+    - "time"
+    - ".pub-date"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+    - "a.download-btn"
+  priority: high
+
+www.brookings.edu:
+  region: US_CAN
+  name: "Brookings Institution"
+  publications_paths:
+    - "/research"
+    - "/articles"
+  date_selectors:
+    - "time"
+    - "meta[property='article:published_time']"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: medium
+
+www.atlanticcouncil.org:
+  region: US_CAN
+  name: "Atlantic Council"
+  publications_paths:
+    - "/in-depth-research-reports"
+    - "/blogs"
+  date_selectors:
+    - "time"
+    - ".date"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: high
+
+carnegieendowment.org:
+  region: US_CAN
+  name: "Carnegie Endowment"
+  publications_paths:
+    - "/publications"
+    - "/research"
+  date_selectors:
+    - "time"
+    - "meta[property='article:published_time']"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: medium
+
+www.stimson.org:
+  region: US_CAN
+  name: "Stimson Center"
+  publications_paths:
+    - "/publications"
+  date_selectors:
+    - "time"
+    - ".pub-date"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: medium
+
+hai.stanford.edu:
+  region: US_CAN
+  name: "Stanford HAI"
+  publications_paths:
+    - "/research"
+    - "/publications"
+  date_selectors:
+    - "time"
+    - "meta[name='date']"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: high
+
+cisac.fsi.stanford.edu:
+  region: US_CAN
+  name: "Stanford CISAC"
+  publications_paths:
+    - "/publications"
+  date_selectors:
+    - "time"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: high
+
+www.belfercenter.org:
+  region: US_CAN
+  name: "Harvard Belfer Center"
+  publications_paths:
+    - "/publication"
+  date_selectors:
+    - "time"
+    - ".date"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: high
+
+www.cigionline.org:
+  region: US_CAN
+  name: "CIGI (Canada)"
+  publications_paths:
+    - "/publications"
+  date_selectors:
+    - "time"
+    - "meta[property='article:published_time']"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: high
+
+www.cgai.ca:
+  region: US_CAN
+  name: "CGAI (Canada)"
+  publications_paths:
+    - "/publications"
+  date_selectors:
+    - "time"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: medium
+
+munkschool.utoronto.ca:
+  region: US_CAN
+  name: "Munk School / Citizen Lab"
+  publications_paths:
+    - "/research"
+    - "/publications"
+  date_selectors:
+    - "time"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: high
+
+# ============================================================================
+# EUROPE
+# ============================================================================
+
+merics.org:
+  region: EUROPE
+  name: "MERICS"
+  publications_paths:
+    - "/en/publications"
+  date_selectors:
+    - "time"
+    - "meta[property='article:published_time']"
+  pdf_selectors:
+    - "a[href*='.pdf']"
+  priority: high
+
+www.swp-berlin.org:
+  region: EUROPE
+  name: "SWP (Germany)"
+  publications_paths:
+    - "/en/publications"
+  date_selectors:
+    - "time"
+    - ".date"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: high
+
+www.ifri.org:
+  region: EUROPE
+  name: "IFRI (France)"
+  publications_paths:
+    - "/en/publications"
+  date_selectors:
+    - "time"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: high
+
+www.iiss.org:
+  region: EUROPE
+  name: "IISS"
+  publications_paths:
+    - "/publications"
+  date_selectors:
+    - "time"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: high
+
+www.chathamhouse.org:
+  region: EUROPE
+  name: "Chatham House"
+  publications_paths:
+    - "/publications"
+  date_selectors:
+    - "time"
+    - "meta[property='article:published_time']"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: high
+
+rusi.org:
+  region: EUROPE
+  name: "RUSI"
+  publications_paths:
+    - "/explore-our-research/publications"
+  date_selectors:
+    - "time"
+    - "span.date"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: high
+
+bruegel.org:
+  region: EUROPE
+  name: "Bruegel"
+  publications_paths:
+    - "/publications"
+  date_selectors:
+    - "time"
+    - "meta[name='date']"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: high
+
+www.ceps.eu:
+  region: EUROPE
+  name: "CEPS"
+  publications_paths:
+    - "/publications"
+  date_selectors:
+    - "time"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: medium
+
+ceias.eu:
+  region: EUROPE
+  name: "CEIAS"
+  publications_paths:
+    - "/publications"
+  date_selectors:
+    - "time"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: high
+
+www.foi.se:
+  region: EUROPE
+  name: "FOI (Sweden)"
+  publications_paths:
+    - "/en/publications"
+  date_selectors:
+    - "time"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: high
+
+www.nupi.no:
+  region: EUROPE
+  name: "NUPI (Norway)"
+  publications_paths:
+    - "/en/publications"
+  date_selectors:
+    - "time"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: medium
+
+www.fiia.fi:
+  region: EUROPE
+  name: "FIIA (Finland)"
+  publications_paths:
+    - "/en/publications"
+  date_selectors:
+    - "time"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: medium
+
+css.ethz.ch:
+  region: EUROPE
+  name: "ETH Zurich CSS"
+  publications_paths:
+    - "/en/publications"
+  date_selectors:
+    - "time"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: high
+
+# ============================================================================
+# ASIA-PACIFIC
+# ============================================================================
+
+www.aspi.org.au:
+  region: APAC
+  name: "ASPI"
+  publications_paths:
+    - "/report"
+    - "/topic/technology"
+  date_selectors:
+    - "time"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: high
+
+www.lowyinstitute.org:
+  region: APAC
+  name: "Lowy Institute"
+  publications_paths:
+    - "/publications"
+  date_selectors:
+    - "time"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: high
+
+www.rsis.edu.sg:
+  region: APAC
+  name: "RSIS (NTU)"
+  publications_paths:
+    - "/research/publications"
+  date_selectors:
+    - "time"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: medium
+
+www.nids.mod.go.jp:
+  region: APAC
+  name: "NIDS (Japan)"
+  publications_paths:
+    - "/english/publication"
+  date_selectors:
+    - "time"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: medium
+
+www.orfonline.org:
+  region: APAC
+  name: "ORF (India)"
+  publications_paths:
+    - "/research"
+  date_selectors:
+    - "time"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: medium
+
+# ============================================================================
+# ARCTIC
+# ============================================================================
+
+www.thearcticinstitute.org:
+  region: ARCTIC
+  name: "Arctic Institute"
+  publications_paths:
+    - "/publications"
+  date_selectors:
+    - "time"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: high
+
+www.wilsoncenter.org:
+  region: ARCTIC
+  name: "Wilson Center Polar Institute"
+  publications_paths:
+    - "/program/polar-institute"
+    - "/publications"
+  date_selectors:
+    - "time"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: high
+
+arcticcircle.org:
+  region: ARCTIC
+  name: "Arctic Circle (Reykjavik)"
+  publications_paths:
+    - "/resources"
+  date_selectors:
+    - "time"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+  priority: medium
+
+# ============================================================================
+# DEFAULT RULES (fallback for unconfigured sources)
+# ============================================================================
+
+default:
+  publications_paths:
+    - "/publications"
+    - "/research"
+    - "/reports"
+    - "/documents"
+  date_selectors:
+    - "time"
+    - "meta[property='article:published_time']"
+    - "meta[name='date']"
+    - ".date"
+    - ".pub-date"
+    - ".published-date"
+  pdf_selectors:
+    - "a[href$='.pdf']"
+    - "a[href*='.pdf']"
+    - "a.download"
+  priority: medium

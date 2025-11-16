@@ -1,0 +1,444 @@
+{
+  "_comment": "OpenAlex V3 Expanded Relevant Topics - Captures UNCERTAIN_TOPIC_MISMATCH cases",
+  "_methodology": "Follows USPTO NULL data handling approach - expanded to catch ambiguous but relevant topics",
+  "_version": "3.0",
+  "_date": "2025-10-12",
+
+  "AI": {
+    "core_patterns": [
+      "artificial intelligence",
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "natural language processing",
+      "computer vision",
+      "reinforcement learning"
+    ],
+    "applied_patterns": [
+      "computational intelligence",
+      "pattern recognition",
+      "data mining",
+      "intelligent systems",
+      "expert systems",
+      "knowledge representation",
+      "fuzzy logic",
+      "genetic algorithm",
+      "evolutionary computation",
+      "swarm intelligence"
+    ],
+    "technical_patterns": [
+      "optimization",
+      "data science",
+      "predictive analytics",
+      "classification",
+      "clustering",
+      "regression",
+      "supervised learning",
+      "unsupervised learning",
+      "statistical learning",
+      "bayesian"
+    ],
+    "application_domains": [
+      "image recognition",
+      "speech recognition",
+      "recommendation systems",
+      "autonomous systems",
+      "robotics control",
+      "decision support"
+    ]
+  },
+
+  "Quantum": {
+    "core_patterns": [
+      "quantum",
+      "qubit",
+      "quantum computing",
+      "quantum information",
+      "quantum mechanics",
+      "quantum physics"
+    ],
+    "applied_patterns": [
+      "quantum entanglement",
+      "quantum cryptography",
+      "quantum communication",
+      "quantum simulation",
+      "quantum sensing",
+      "quantum metrology",
+      "quantum optics",
+      "quantum algorithm",
+      "quantum error correction",
+      "quantum gate"
+    ],
+    "technical_patterns": [
+      "superconducting qubit",
+      "ion trap",
+      "topological",
+      "quantum annealing",
+      "quantum supremacy",
+      "quantum advantage",
+      "decoherence",
+      "quantum state"
+    ],
+    "physics_patterns": [
+      "condensed matter",
+      "many-body",
+      "atomic physics",
+      "photonics"
+    ]
+  },
+
+  "Space": {
+    "core_patterns": [
+      "space",
+      "aerospace",
+      "astrophysics",
+      "planetary",
+      "orbital",
+      "satellite",
+      "astronautics",
+      "celestial mechanics"
+    ],
+    "applied_patterns": [
+      "spacecraft",
+      "launch vehicle",
+      "rocket",
+      "propulsion",
+      "space mission",
+      "space exploration",
+      "space station",
+      "mars",
+      "lunar",
+      "interplanetary"
+    ],
+    "technical_patterns": [
+      "satellite communication",
+      "remote sensing",
+      "earth observation",
+      "space debris",
+      "orbital mechanics",
+      "attitude control",
+      "guidance navigation",
+      "reentry",
+      "hypersonic"
+    ],
+    "science_patterns": [
+      "cosmology",
+      "exoplanet",
+      "stellar",
+      "galactic",
+      "gravitational wave",
+      "solar system",
+      "space weather",
+      "magnetosphere"
+    ]
+  },
+
+  "Semiconductors": {
+    "core_patterns": [
+      "semiconductor",
+      "microelectronics",
+      "integrated circuit",
+      "vlsi",
+      "transistor",
+      "electronic device",
+      "solid-state electronics"
+    ],
+    "applied_patterns": [
+      "chip design",
+      "circuit design",
+      "logic design",
+      "analog circuit",
+      "digital circuit",
+      "mixed-signal",
+      "system-on-chip",
+      "asic",
+      "fpga"
+    ],
+    "technical_patterns": [
+      "device physics",
+      "fabrication",
+      "lithography",
+      "etching",
+      "deposition",
+      "doping",
+      "cmos",
+      "mosfet",
+      "finfet",
+      "gaas",
+      "gan",
+      "sic",
+      "wide bandgap"
+    ],
+    "materials_patterns": [
+      "silicon",
+      "gallium arsenide",
+      "gallium nitride",
+      "silicon carbide",
+      "compound semiconductor",
+      "heterostructure"
+    ],
+    "application_patterns": [
+      "power electronics",
+      "rf electronics",
+      "microwave",
+      "optoelectronics",
+      "photonics"
+    ]
+  },
+
+  "Smart_City": {
+    "core_patterns": [
+      "smart city",
+      "urban",
+      "iot",
+      "internet of things",
+      "sensor network",
+      "intelligent transportation",
+      "smart grid",
+      "urban computing"
+    ],
+    "applied_patterns": [
+      "smart home",
+      "smart building",
+      "building automation",
+      "smart infrastructure",
+      "smart mobility",
+      "urban planning",
+      "traffic management",
+      "parking management",
+      "street lighting"
+    ],
+    "technical_patterns": [
+      "wireless sensor",
+      "edge computing",
+      "fog computing",
+      "data analytics",
+      "real-time monitoring",
+      "cyber-physical system",
+      "m2m communication",
+      "energy management"
+    ],
+    "application_domains": [
+      "urban environment",
+      "sustainability",
+      "smart energy",
+      "waste management",
+      "water management",
+      "public safety",
+      "urban resilience"
+    ]
+  },
+
+  "Neuroscience": {
+    "core_patterns": [
+      "neuroscience",
+      "neurology",
+      "brain",
+      "cognitive",
+      "neural",
+      "neuroimaging",
+      "brain science",
+      "neurophysiology"
+    ],
+    "applied_patterns": [
+      "brain-computer interface",
+      "bci",
+      "neuroprosthetics",
+      "neural engineering",
+      "brain mapping",
+      "connectome",
+      "optogenetics",
+      "neuroplasticity"
+    ],
+    "technical_patterns": [
+      "fmri",
+      "eeg",
+      "meg",
+      "electroencephalography",
+      "brain imaging",
+      "neural recording",
+      "calcium imaging",
+      "electrophysiology"
+    ],
+    "biology_patterns": [
+      "synaptic",
+      "neuron",
+      "neural circuit",
+      "neurotransmitter",
+      "cortex",
+      "hippocampus",
+      "amygdala",
+      "prefrontal"
+    ],
+    "cognitive_patterns": [
+      "memory",
+      "learning",
+      "attention",
+      "perception",
+      "decision making",
+      "consciousness",
+      "emotion"
+    ]
+  },
+
+  "Biotechnology": {
+    "core_patterns": [
+      "biotechnology",
+      "genetic engineering",
+      "molecular biology",
+      "synthetic biology",
+      "genomics",
+      "gene therapy",
+      "bioengineering"
+    ],
+    "applied_patterns": [
+      "crispr",
+      "gene editing",
+      "genome editing",
+      "protein engineering",
+      "metabolic engineering",
+      "cell engineering",
+      "tissue engineering",
+      "biomanufacturing"
+    ],
+    "technical_patterns": [
+      "genome sequencing",
+      "dna sequencing",
+      "bioinformatics",
+      "computational biology",
+      "systems biology",
+      "omics",
+      "proteomics",
+      "transcriptomics"
+    ],
+    "medical_patterns": [
+      "gene therapy",
+      "cell therapy",
+      "immunotherapy",
+      "vaccine",
+      "antibody",
+      "therapeutic",
+      "drug discovery",
+      "personalized medicine"
+    ],
+    "industrial_patterns": [
+      "bioprocess",
+      "fermentation",
+      "enzyme",
+      "biofuel",
+      "biomaterial",
+      "bioplastic"
+    ]
+  },
+
+  "Advanced_Materials": {
+    "core_patterns": [
+      "materials science",
+      "nanomaterial",
+      "nanotechnology",
+      "materials engineering",
+      "condensed matter",
+      "materials physics"
+    ],
+    "applied_patterns": [
+      "graphene",
+      "carbon nanotube",
+      "2d material",
+      "quantum dot",
+      "nanoparticle",
+      "nanostructure",
+      "thin film",
+      "coating",
+      "metamaterial",
+      "smart material"
+    ],
+    "technical_patterns": [
+      "materials synthesis",
+      "materials characterization",
+      "crystal structure",
+      "microstructure",
+      "nanostructure",
+      "surface science",
+      "interface",
+      "self-assembly"
+    ],
+    "functional_patterns": [
+      "superconductor",
+      "magnetic material",
+      "photonic",
+      "plasmonic",
+      "piezoelectric",
+      "thermoelectric",
+      "shape memory",
+      "phase change"
+    ],
+    "application_patterns": [
+      "composite",
+      "biomaterial",
+      "structural material",
+      "electronic material",
+      "optical material",
+      "energy material",
+      "catalysis"
+    ]
+  },
+
+  "Energy": {
+    "core_patterns": [
+      "energy",
+      "renewable energy",
+      "battery",
+      "fuel cell",
+      "solar cell",
+      "energy storage",
+      "power engineering"
+    ],
+    "applied_patterns": [
+      "photovoltaic",
+      "solar energy",
+      "wind energy",
+      "hydroelectric",
+      "geothermal",
+      "nuclear energy",
+      "fusion energy",
+      "hydrogen energy",
+      "bioenergy"
+    ],
+    "technical_patterns": [
+      "lithium ion",
+      "solid state battery",
+      "supercapacitor",
+      "electrochemical",
+      "energy conversion",
+      "power electronics",
+      "grid integration",
+      "energy efficiency",
+      "energy management"
+    ],
+    "solar_patterns": [
+      "perovskite",
+      "silicon solar",
+      "thin film solar",
+      "organic solar",
+      "solar thermal",
+      "concentrated solar"
+    ],
+    "grid_patterns": [
+      "smart grid",
+      "microgrid",
+      "power system",
+      "transmission",
+      "distribution",
+      "energy dispatch",
+      "demand response"
+    ],
+    "sustainability_patterns": [
+      "carbon capture",
+      "carbon sequestration",
+      "energy transition",
+      "decarbonization",
+      "clean energy",
+      "sustainable energy"
+    ]
+  }
+}

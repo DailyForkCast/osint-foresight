@@ -1,0 +1,468 @@
+{
+  "metadata": {
+    "title": "Semiconductor Critical Minerals HS Code Mapping",
+    "version": "1.0",
+    "date_created": "2025-11-10",
+    "purpose": "Map semiconductor_critical_minerals database table to specific HS codes for supply chain tracking",
+    "zero_fabrication_compliance": true,
+    "source_table": "semiconductor_critical_minerals (F:/OSINT_WAREHOUSE/osint_master.db)",
+    "sources": [
+      "WCO Harmonized System 2022",
+      "US BIS Export Control Classifications",
+      "Wassenaar Arrangement Dual-Use List",
+      "US Geological Survey Mineral Commodity Summaries 2024"
+    ]
+  },
+
+  "mineral_hs_mappings": [
+    {
+      "id": 1,
+      "mineral_name": "Silicon",
+      "mineral_description": "Ultra-pure silicon (99.9999999% - 9N)",
+      "primary_use": "Wafer substrate, Epitaxial layers",
+      "supply_chain_risk": "LOW",
+      "primary_suppliers": ["China", "Norway", "United States"],
+      "china_market_share": "70% metallurgical silicon, <10% ultra-pure",
+      "strategic_importance": "CRITICAL",
+      "hs_codes": [
+        {
+          "hs_code": "280461",
+          "description": "Silicon containing by weight ≥99.99% of silicon",
+          "usage": "High-purity polysilicon (solar-grade 6N, needs further purification to 9-11N for semiconductors)",
+          "trade_classification": "Primary material",
+          "typical_purity": "99.99-99.9999% (4N-6N)",
+          "next_step": "Zone refining to achieve 9-11N for semiconductor wafers",
+          "annual_global_trade": "$10-15B (2023 estimate)",
+          "china_export_controls": "Export licensing required (2023)"
+        },
+        {
+          "hs_code": "280469",
+          "description": "Silicon containing by weight <99.99% of silicon",
+          "usage": "Metallurgical-grade silicon, feedstock for polysilicon",
+          "trade_classification": "Raw material",
+          "typical_purity": "98-99.5% (metallurgical-grade)",
+          "china_dominance": "70% global supply",
+          "strategic_concern": "MEDIUM - China controls upstream supply"
+        },
+        {
+          "hs_code": "381800",
+          "description": "Chemical elements doped for use in electronics",
+          "usage": "Doped silicon wafers (p-type, n-type), epitaxial silicon",
+          "trade_classification": "Processed substrate",
+          "typical_purity": "99.9999999-99.999999999% (9N-11N)",
+          "major_suppliers": ["Japan Shin-Etsu 50%", "Japan SUMCO 25%", "Germany Siltronic", "Taiwan GlobalWafers"],
+          "strategic_concern": "HIGH - Concentrated suppliers, essential for all chip manufacturing"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "mineral_name": "Gallium",
+      "mineral_description": "",
+      "primary_use": "GaN power devices, RF amplifiers, LEDs",
+      "supply_chain_risk": "HIGH",
+      "primary_suppliers": ["China (80%+ global supply)"],
+      "china_market_share": "98%",
+      "strategic_importance": "CRITICAL",
+      "hs_codes": [
+        {
+          "hs_code": "280450",
+          "description": "Gallium",
+          "usage": "Raw gallium metal, GaN substrate production",
+          "trade_classification": "Critical mineral - China export ban",
+          "china_export_ban": "August 2023 - export licensing required",
+          "applications": ["5G infrastructure", "Military radar", "Satellite communications", "Power electronics"],
+          "annual_global_production": "~600 metric tons (2023)",
+          "substitutes": "Limited - Silicon carbide (SiC) for some power applications, but not RF",
+          "strategic_concern": "CRITICAL - Chinese monopoly, export restrictions, military applications",
+          "us_response": "Domestic production R&D, stockpile considerations"
+        },
+        {
+          "hs_code": "381800",
+          "description": "Gallium arsenide (GaAs), Gallium nitride (GaN) doped wafers",
+          "usage": "Compound semiconductor substrates",
+          "major_suppliers": ["USA Wolfspeed", "Japan Sumitomo", "Germany FBH"],
+          "applications": ["High-frequency RF", "Power amplifiers", "LEDs", "Laser diodes"],
+          "china_market_share": "Lower (~30%) for processed GaAs/GaN wafers",
+          "strategic_concern": "MEDIUM - More diverse suppliers than raw gallium"
+        },
+        {
+          "hs_code": "285000",
+          "description": "Gallium nitride and other nitrides",
+          "usage": "GaN powder for substrate growth, epitaxial layers",
+          "applications": "High-power, high-frequency devices",
+          "strategic_concern": "HIGH - Essential for military radar, 5G"
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "mineral_name": "Germanium",
+      "mineral_description": "",
+      "primary_use": "SiGe transistors, Infrared optics, Fiber optics",
+      "supply_chain_risk": "HIGH",
+      "primary_suppliers": ["China (60%+ global supply)"],
+      "china_market_share": "60%",
+      "strategic_importance": "CRITICAL",
+      "hs_codes": [
+        {
+          "hs_code": "280490",
+          "description": "Germanium and articles thereof (includes germanium waste and scrap)",
+          "usage": "Raw germanium, refined metal",
+          "trade_classification": "Critical mineral - China export ban",
+          "china_export_ban": "August 2023 - export licensing required",
+          "applications": ["Fiber optic cables", "Infrared night vision", "SiGe high-frequency transistors", "Solar cells (space)"],
+          "annual_global_production": "~120 metric tons (2023)",
+          "recycling": "~30% from scrap/waste recovery",
+          "strategic_concern": "HIGH - China dominance, dual-use (military infrared)",
+          "substitutes": "Limited for infrared optics; silicon for some transistor applications"
+        },
+        {
+          "hs_code": "381800",
+          "description": "Silicon-germanium (SiGe) compounds doped",
+          "usage": "SiGe heterojunction bipolar transistors (HBT)",
+          "applications": "High-frequency RF, automotive radar (77 GHz), 5G base stations",
+          "major_suppliers": ["USA", "Taiwan", "Germany"],
+          "strategic_concern": "MEDIUM - More diverse processing"
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "mineral_name": "Rare Earth Elements",
+      "sub_materials": ["Lanthanum", "Cerium", "Praseodymium", "Neodymium", "Europium", "Terbium", "Dysprosium", "Yttrium"],
+      "primary_use": "Magnets, Polishing compounds, Phosphors, Catalysts",
+      "supply_chain_risk": "VERY HIGH",
+      "primary_suppliers": ["China (70%+ global supply)"],
+      "china_market_share": "85% processing, 70% mining",
+      "strategic_importance": "CRITICAL",
+      "hs_codes": [
+        {
+          "hs_code": "280530",
+          "description": "Rare-earth metals, scandium and yttrium",
+          "usage": "Rare earth metal ingots, refined metals",
+          "trade_classification": "Critical minerals - Strategic stockpile materials",
+          "china_dominance": "85% global refining, 70% mining",
+          "applications": ["High-strength permanent magnets (Nd, Dy)", "Phosphors (Eu, Tb, Y)", "Polishing (Ce)", "Catalysts (La, Ce)"],
+          "military_criticality": ["Missile guidance systems (Nd magnets)", "Jet engines (high-temp magnets)", "Laser rangefinders (Nd)", "Electronic warfare (various)"],
+          "us_production": "Mountain Pass, California (operational 2023) - only US source",
+          "strategic_concern": "CRITICAL - Near-monopoly by China, essential for defense systems"
+        },
+        {
+          "hs_code": "284610",
+          "description": "Cerium compounds",
+          "usage": "Cerium oxide (ceria) for polishing, catalysts",
+          "applications": "Semiconductor wafer polishing (CMP), catalytic converters",
+          "china_market_share": "90%+",
+          "substitutes": "Some alternatives for polishing, but cerium most effective"
+        },
+        {
+          "hs_code": "284690",
+          "description": "Compounds of rare-earth metals, yttrium or scandium",
+          "usage": "Neodymium compounds, dysprosium compounds, terbium compounds",
+          "applications": ["NdFeB magnet production", "Phosphors for displays/LEDs", "Dopants"],
+          "strategic_concern": "CRITICAL - China processes >90% rare earth compounds globally"
+        },
+        {
+          "hs_code": "845011",
+          "description": "Washing machines (household) - INDIRECT RELEVANCE",
+          "note": "Permanent magnet motors in appliances use NdFeB magnets (rare earth downstream)",
+          "inclusion_reason": "Illustrates pervasive use of rare earth magnets in consumer electronics"
+        }
+      ]
+    },
+
+    {
+      "id": 5,
+      "mineral_name": "Neon Gas (Ultra-high purity)",
+      "mineral_description": "",
+      "primary_use": "Excimer lasers for lithography",
+      "supply_chain_risk": "HIGH",
+      "primary_suppliers": ["Ukraine", "Russia"],
+      "china_market_share": "Increasing - 10-15% (expanding)",
+      "strategic_importance": "CRITICAL",
+      "hs_codes": [
+        {
+          "hs_code": "280429",
+          "description": "Rare gases - Other (includes neon, krypton, xenon)",
+          "usage": "Ultra-high purity neon for excimer lasers in lithography",
+          "trade_classification": "Critical gas - Semiconductor manufacturing essential",
+          "purity_requirements": "99.999% (5N) minimum for ArF excimer lasers",
+          "applications": ["Deep ultraviolet (DUV) lithography at 193nm", "Plasma etching (neon as carrier gas)"],
+          "supply_shock": "2022 Ukraine war disrupted 50% global supply (Ukraine/Russia 70% pre-war)",
+          "price_impact": "10x price spike (2022), stabilized by mid-2023",
+          "china_response": "Rapid expansion of air separation capacity 2022-2024",
+          "strategic_concern": "CRITICAL - Single point of failure for <7nm chip production",
+          "mitigation": ["China built domestic capacity", "US/Taiwan stockpiling", "Recycling systems deployed"],
+          "current_status": "Supply stabilized (2024), but geopolitical risk remains"
+        }
+      ]
+    },
+
+    {
+      "id": 6,
+      "mineral_name": "Argon, Xenon, Krypton",
+      "mineral_description": "",
+      "primary_use": "Plasma etching, Ion implantation, Ambient control",
+      "supply_chain_risk": "MEDIUM",
+      "primary_suppliers": ["Global - Air separation plants"],
+      "china_market_share": "~30% global production",
+      "strategic_importance": "HIGH",
+      "hs_codes": [
+        {
+          "hs_code": "280421",
+          "description": "Argon",
+          "usage": "Plasma etching, sputtering, inert atmosphere for crystal growth",
+          "trade_classification": "Industrial gas - Widely available",
+          "applications": ["Reactive ion etching (RIE)", "Physical vapor deposition (PVD)", "Ion implantation"],
+          "supply_risk": "LOW - Produced at cryogenic air separation plants worldwide",
+          "purity_requirements": "99.999% (5N) for semiconductor applications",
+          "strategic_concern": "LOW - Not supply-constrained"
+        },
+        {
+          "hs_code": "280429",
+          "description": "Rare gases - Other (krypton, xenon)",
+          "usage": "Xenon: Ion implantation, etching. Krypton: Insulation, lasers",
+          "applications": ["Xenon difluoride (XeF2) for silicon etching", "Ion implantation for doping", "Excimer lasers (KrF, XeCl)"],
+          "supply_risk": "MEDIUM - More expensive, less common than argon/neon",
+          "purity_requirements": "99.995% (4.5N) typical",
+          "strategic_concern": "MEDIUM - Limited suppliers, but not critical bottleneck"
+        }
+      ]
+    },
+
+    {
+      "id": 7,
+      "mineral_name": "Fluorine Compounds",
+      "sub_materials": ["Hydrogen fluoride (HF)", "Sulfur hexafluoride (SF6)", "Nitrogen trifluoride (NF3)"],
+      "primary_use": "Etching, Cleaning, CVD processes",
+      "supply_chain_risk": "MEDIUM",
+      "primary_suppliers": ["China", "Japan", "USA", "Europe"],
+      "china_market_share": "40-50%",
+      "strategic_importance": "HIGH",
+      "hs_codes": [
+        {
+          "hs_code": "281111",
+          "description": "Hydrogen fluoride (hydrofluoric acid)",
+          "usage": "Silicon etching, oxide removal, cleaning",
+          "trade_classification": "Hazardous chemical - Export controlled",
+          "purity_requirements": "Electronic grade (99.99%+), ultra-pure for advanced nodes",
+          "applications": ["Silicon dioxide etching", "Native oxide removal", "Wafer cleaning"],
+          "japan_south_korea_dispute": "2019 Japan export restrictions to South Korea caused crisis",
+          "strategic_concern": "HIGH - Japan-Korea trade dispute demonstrated vulnerability",
+          "environmental_hazard": "Extremely corrosive, toxic - handling challenges",
+          "substitutes": "None for many etching applications"
+        },
+        {
+          "hs_code": "281290",
+          "description": "Halides and halide oxides of non-metals (includes NF3, SF6)",
+          "usage": "NF3: Chamber cleaning. SF6: Plasma etching, insulation",
+          "applications": ["NF3 replaces CF4 for CVD chamber cleaning (lower global warming)", "SF6 deep trench etching"],
+          "environmental_concern": "SF6 is most potent greenhouse gas (23,500x CO2), phase-out pressure",
+          "strategic_concern": "MEDIUM - Multiple suppliers, but NF3 production concentrated",
+          "china_capacity": "Expanded NF3 production 2020-2024"
+        }
+      ]
+    },
+
+    {
+      "id": 8,
+      "mineral_name": "Tungsten",
+      "mineral_description": "",
+      "primary_use": "Interconnects, Vias, Gate electrodes",
+      "supply_chain_risk": "MEDIUM",
+      "primary_suppliers": ["China", "Vietnam", "Russia"],
+      "china_market_share": "85% processing, 60% mining",
+      "strategic_importance": "HIGH",
+      "hs_codes": [
+        {
+          "hs_code": "260110",
+          "description": "Tungsten ores and concentrates",
+          "usage": "Raw tungsten ore (wolframite, scheelite)",
+          "china_dominance": "60% mining, 85% refining",
+          "applications": "Feedstock for tungsten metal production",
+          "strategic_concern": "MEDIUM-HIGH - China processing dominance"
+        },
+        {
+          "hs_code": "810194",
+          "description": "Tungsten, unwrought (including bars and rods)",
+          "usage": "Tungsten metal for sputtering targets, CVD",
+          "applications": ["Tungsten vias in multi-layer interconnects", "Gate electrodes (before high-k/metal gate)", "X-ray targets"],
+          "semiconductor_use": "Critical for sub-65nm nodes (copper interconnect barrier)",
+          "strategic_concern": "HIGH - Essential for advanced logic, memory"
+        },
+        {
+          "hs_code": "284920",
+          "description": "Tungsten carbide (also under carbides)",
+          "usage": "Cutting tools, wear-resistant coatings",
+          "applications": "Tungsten carbide not directly used in semiconductors, but in manufacturing equipment",
+          "china_market_share": "60% tungsten carbide",
+          "strategic_concern": "MEDIUM"
+        }
+      ]
+    },
+
+    {
+      "id": 9,
+      "mineral_name": "Cobalt",
+      "mineral_description": "",
+      "primary_use": "Copper barrier layers, Advanced interconnects",
+      "supply_chain_risk": "HIGH",
+      "primary_suppliers": ["Democratic Republic of Congo (70%)", "China (refining)"],
+      "china_market_share": "80% refining",
+      "strategic_importance": "HIGH",
+      "hs_codes": [
+        {
+          "hs_code": "260500",
+          "description": "Cobalt ores and concentrates",
+          "usage": "Raw cobalt ore",
+          "supply_concentration": "DRC 70% global mining",
+          "ethical_concerns": "Artisanal mining with documented child labor, human rights abuses",
+          "china_control": "Chinese companies control major DRC mines, 80% global cobalt refining",
+          "strategic_concern": "HIGH - Geographic and processing concentration"
+        },
+        {
+          "hs_code": "810520",
+          "description": "Cobalt mattes and other intermediate products; unwrought cobalt",
+          "usage": "Refined cobalt metal",
+          "applications": ["Li-ion battery cathodes (NMC, NCA)", "Semiconductor interconnect barrier layers", "Superalloys for jet engines"],
+          "semiconductor_relevance": "Cobalt barrier layers for copper interconnects at advanced nodes (<10nm)",
+          "battery_competition": "Battery demand (EVs) competing with semiconductor demand",
+          "strategic_concern": "CRITICAL - Dual bottleneck (mining + refining both concentrated)"
+        },
+        {
+          "hs_code": "282200",
+          "description": "Cobalt oxides and hydroxides",
+          "usage": "Cobalt oxide for battery cathode precursors",
+          "applications": "LiCoO2, NMC, NCA battery materials (primarily)",
+          "semiconductor_use": "Limited direct use, but cobalt salts used in some processes",
+          "china_refining": "90%+ cobalt chemicals processed in China"
+        }
+      ]
+    },
+
+    {
+      "id": 10,
+      "mineral_name": "Tantalum",
+      "mineral_description": "",
+      "primary_use": "Capacitors, Barrier layers",
+      "supply_chain_risk": "MEDIUM",
+      "primary_suppliers": ["Rwanda", "Democratic Republic of Congo", "Brazil"],
+      "china_market_share": "20-30% processing",
+      "strategic_importance": "MEDIUM-HIGH",
+      "hs_codes": [
+        {
+          "hs_code": "261590",
+          "description": "Niobium, tantalum ores and concentrates (combined)",
+          "usage": "Tantalite ore (coltan)",
+          "conflict_mineral": "Dodd-Frank conflict mineral (DRC sourcing concerns)",
+          "ethical_sourcing": "Responsible Minerals Initiative (RMI) certification common",
+          "supply_concentration": "DRC/Rwanda 50%+, but more diverse than cobalt",
+          "strategic_concern": "MEDIUM - Conflict mineral, but more diverse sources"
+        },
+        {
+          "hs_code": "810320",
+          "description": "Tantalum, unwrought (including bars and rods)",
+          "usage": "Refined tantalum metal",
+          "applications": ["Tantalum capacitors (miniature, high-reliability)", "Sputtering targets for barrier layers", "Superalloys"],
+          "semiconductor_criticality": "Tantalum capacitors used in power management ICs, high-reliability systems",
+          "military_use": "Military electronics, aerospace (high-temperature stability)",
+          "strategic_concern": "MEDIUM-HIGH - Conflict mineral, essential for miniaturized electronics"
+        }
+      ]
+    },
+
+    {
+      "id": 11,
+      "mineral_name": "Indium",
+      "mineral_description": "",
+      "primary_use": "ITO (Indium Tin Oxide), Solders, Compound semiconductors",
+      "supply_chain_risk": "HIGH",
+      "primary_suppliers": ["China (50%+ global supply)"],
+      "china_market_share": "50%",
+      "strategic_importance": "HIGH",
+      "hs_codes": [
+        {
+          "hs_code": "811292",
+          "description": "Indium, unwrought",
+          "usage": "Refined indium metal",
+          "applications": ["ITO transparent conductors (displays, touchscreens)", "InGaAs compound semiconductors", "Low-temperature solders"],
+          "supply_risk": "HIGH - Byproduct of zinc refining, no primary indium mines",
+          "china_dominance": "50% global supply, 70% ITO production",
+          "display_criticality": "Essential for LCD, OLED displays",
+          "strategic_concern": "HIGH - No substitutes for ITO in many applications, byproduct dependency"
+        },
+        {
+          "hs_code": "381800",
+          "description": "Indium phosphide (InP), Indium gallium arsenide (InGaAs) doped",
+          "usage": "Compound semiconductor substrates",
+          "applications": ["High-speed fiber optic transceivers", "Millimeter-wave devices", "Infrared detectors"],
+          "strategic_concern": "MEDIUM-HIGH - Critical for telecom, military infrared"
+        }
+      ]
+    },
+
+    {
+      "id": 12,
+      "mineral_name": "Hafnium",
+      "mineral_description": "",
+      "primary_use": "High-k dielectrics, Gate oxides",
+      "supply_chain_risk": "HIGH",
+      "primary_suppliers": ["France", "USA", "China"],
+      "china_market_share": "30-40%",
+      "strategic_importance": "CRITICAL",
+      "hs_codes": [
+        {
+          "hs_code": "811292",
+          "description": "Unwrought hafnium (Note: May also be classified under this code with indium)",
+          "usage": "Hafnium metal, hafnium sponge",
+          "applications": ["High-k dielectric layers (HfO2) for sub-22nm transistors", "Nuclear reactor control rods"],
+          "criticality": "CRITICAL - Essential for all advanced logic, memory <22nm",
+          "supply_chain": "Byproduct of zirconium refining (hafnium/zirconium separation)",
+          "strategic_concern": "CRITICAL - Enables Moore's Law continuation, no substitutes",
+          "export_controls": "BIS ECCN 1C235 (nuclear dual-use)",
+          "node_dependency": "Intel 45nm (2007) first commercial HfO2, now universal <22nm"
+        },
+        {
+          "hs_code": "284990",
+          "description": "Carbides (includes hafnium carbide - HfC)",
+          "usage": "Ultra-high temperature ceramics",
+          "applications": "Hypersonic vehicle thermal protection (military), not semiconductors",
+          "note": "HfO2 (hafnium oxide) for semiconductors classified under 381800 when doped/processed"
+        }
+      ]
+    }
+  ],
+
+  "sql_integration_script": {
+    "description": "SQL commands to add HS code columns to existing semiconductor_critical_minerals table",
+    "file_location": "scripts/add_hs_codes_to_minerals_table.sql",
+    "commands": [
+      "ALTER TABLE semiconductor_critical_minerals ADD COLUMN hs_codes_primary TEXT;",
+      "ALTER TABLE semiconductor_critical_minerals ADD COLUMN hs_codes_all TEXT;",
+      "ALTER TABLE semiconductor_critical_minerals ADD COLUMN hs_code_count INTEGER;",
+      "-- Update statements to populate from this JSON file --"
+    ]
+  },
+
+  "trade_analysis_queries": {
+    "description": "Sample SQL queries for supply chain analysis using HS codes",
+    "examples": [
+      {
+        "query_purpose": "China gallium exports by destination (HS 280450)",
+        "sql_template": "SELECT reporter_country, partner_country, SUM(trade_value_usd) FROM comtrade_data WHERE commodity_code = '280450' AND reporter_country = 'CN' AND year >= 2020 GROUP BY partner_country ORDER BY SUM(trade_value_usd) DESC;"
+      },
+      {
+        "query_purpose": "EU dependency on China rare earths (HS 280530, 284610, 284690)",
+        "sql_template": "SELECT commodity_code, SUM(import_value) FROM eurostat_comext WHERE partner_country = 'CN' AND commodity_code IN ('280530', '284610', '284690') AND year = 2024 GROUP BY commodity_code;"
+      },
+      {
+        "query_purpose": "US imports of doped silicon wafers (HS 381800) by source country",
+        "sql_template": "SELECT partner_country, SUM(import_value), SUM(import_quantity_kg) FROM usitc_trade WHERE hs_code = '381800' AND reporter = 'USA' AND trade_flow = 'Import' AND year = 2024 GROUP BY partner_country;"
+      }
+    ]
+  }
+}

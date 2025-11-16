@@ -1,0 +1,158 @@
+{
+  "framework_version": "2.0",
+  "description": "Enhanced Chinese Entity Detection Framework with SOEs, Universities, and Government Entities",
+  "scoring_system": {
+    "description": "Hierarchical scoring system with entity type and risk-level weighting",
+    "confidence_thresholds": {
+      "VERY_HIGH": 100,
+      "HIGH": 70,
+      "MEDIUM": 50,
+      "LOW": 30
+    },
+    "entity_categories": {
+      "country_codes": {
+        "points": 100,
+        "description": "Direct country code match",
+        "examples": ["CN", "CHN", "HK", "MO", "MAC"]
+      },
+      "seven_sons_universities": {
+        "points": 95,
+        "description": "Seven Sons of National Defense universities",
+        "risk_level": "VERY_HIGH",
+        "count": 7
+      },
+      "defense_conglomerates": {
+        "points": 90,
+        "description": "Major state-owned defense industry conglomerates",
+        "risk_level": "VERY_HIGH",
+        "count": 12
+      },
+      "military_institutions": {
+        "points": 90,
+        "description": "PLA military academies and research institutes",
+        "risk_level": "VERY_HIGH",
+        "count": 52
+      },
+      "defense_research_institutes": {
+        "points": 85,
+        "description": "Defense-related research institutes (CAEP, CARDC, etc.)",
+        "risk_level": "VERY_HIGH",
+        "count": 23
+      },
+      "soe_companies": {
+        "points": 80,
+        "description": "State-owned enterprises",
+        "risk_level": "HIGH",
+        "count": 49
+      },
+      "known_private_companies": {
+        "points": 75,
+        "description": "Known major Chinese private companies",
+        "risk_level": "MEDIUM-HIGH",
+        "count": 23
+      },
+      "defense_universities": {
+        "points": 70,
+        "description": "Universities with defense research programs (ASPI tracker)",
+        "risk_level": "HIGH",
+        "count": 759
+      },
+      "government_entities": {
+        "points": 70,
+        "description": "Government ministries, academies, and agencies",
+        "risk_level": "HIGH",
+        "count": 20
+      },
+      "chinese_cities": {
+        "points": 50,
+        "description": "Major Chinese cities",
+        "risk_level": "MEDIUM",
+        "count": 42
+      },
+      "chinese_provinces": {
+        "points": 40,
+        "description": "Chinese provinces and autonomous regions",
+        "risk_level": "MEDIUM",
+        "count": 32
+      }
+    }
+  },
+  "detection_logic": {
+    "multi_signal_bonus": {
+      "description": "Additional points when multiple signals detected",
+      "two_signals": 10,
+      "three_or_more_signals": 20
+    },
+    "entity_resolution": {
+      "description": "Handle entity name variations",
+      "case_insensitive": true,
+      "remove_punctuation": true,
+      "handle_chinese_characters": true,
+      "handle_abbreviations": true
+    },
+    "subsidiary_detection": {
+      "description": "Detect foreign subsidiaries of Chinese entities",
+      "keywords": ["LIMITED", "LTD", "LLC", "INC", "CORPORATION", "CORP"],
+      "apply_parent_score": true
+    }
+  },
+  "data_sources": {
+    "aspi_china_defence_universities": {
+      "file": "data/external/aspi/MISP_china_defence_universities.json",
+      "description": "ASPI China Defence Universities Tracker (159 institutions)",
+      "version": "Pre-September 2025"
+    },
+    "aspi_china_tech_map": {
+      "file": "C:/Users/mrear/Downloads/data.csv",
+      "description": "ASPI China Tech Map - Chinese company infrastructure",
+      "companies_extracted": 5
+    },
+    "manual_soe_list": {
+      "description": "Manually curated list of major SOEs",
+      "count": 36
+    },
+    "manual_government_list": {
+      "description": "Government entities and patterns",
+      "count": 20
+    },
+    "enhanced_entities_json": {
+      "file": "data/chinese_entities_enhanced.json",
+      "description": "Consolidated entity database",
+      "total_entities": 847
+    }
+  },
+  "usage_notes": [
+    "Load enhanced entity lists from data/chinese_entities_enhanced.json",
+    "Apply scoring hierarchically: highest matching category determines base score",
+    "Add multi-signal bonus if multiple independent signals detected",
+    "For subsidiaries, inherit parent entity score with subsidiary flag",
+    "Consider entity type when flagging risk level in reports"
+  ],
+  "changelog": {
+    "v2.0": {
+      "date": "2025-10-10",
+      "changes": [
+        "Added Seven Sons of Defense category (95 points)",
+        "Added defense conglomerates category (90 points)",
+        "Added military institutions category (90 points)",
+        "Added defense research institutes category (85 points)",
+        "Added SOE category (80 points)",
+        "Added government entities category (70 points)",
+        "Expanded universities from 159 to 759 (including aliases)",
+        "Integrated ASPI China Defence Universities Tracker data",
+        "Integrated ASPI China Tech Map company data",
+        "Added multi-signal bonus system"
+      ]
+    },
+    "v1.0": {
+      "date": "2025-10-09",
+      "changes": [
+        "Initial framework with 10-tier scoring",
+        "Country codes (100 points)",
+        "Known companies (80 points)",
+        "Cities (50 points)",
+        "Provinces (40 points)"
+      ]
+    }
+  }
+}

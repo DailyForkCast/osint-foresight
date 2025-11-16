@@ -1,0 +1,490 @@
+{
+  "_comment": "Brain-Computer Interface (BCI) Event Series Catalog",
+  "_version": "1.0",
+  "_created": "2025-10-26",
+  "_purpose": "Track Chinese participation in BCI conferences and exhibitions (1970s-2025)",
+  "_strategic_rationale": "China Brain Project (2016-2031) explicitly targets human-machine hybrid intelligence; monitor EU-China BCI collaboration and technology transfer risks",
+
+  "tier_1_critical": [
+    {
+      "series_name": "IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+      "organizer": "IEEE Systems, Man, and Cybernetics Society",
+      "typical_location": "Rotating global (Europe, Asia, Americas)",
+      "frequency": "Annual",
+      "typical_month": "October",
+      "technology_domains": "Brain_Computer_Interface, AI, Cybernetics",
+      "strategic_priority": "CRITICAL",
+      "website": "https://ieeesmc.org/",
+      "intelligence_rationale": "Major BCI research presentations, Chinese Academy of Sciences heavy participation",
+      "european_venues": "Multiple (Milan 2022, Copenhagen 2024)",
+      "first_held": "1973"
+    },
+    {
+      "series_name": "International BCI Meeting (BCI Meeting)",
+      "organizer": "BCI Society",
+      "typical_location": "Rotating (Europe, North America, Asia)",
+      "frequency": "Biennial",
+      "typical_month": "May-June",
+      "technology_domains": "Brain_Computer_Interface, Neuroscience",
+      "strategic_priority": "CRITICAL",
+      "website": "https://bcisociety.org/bci-meeting/",
+      "intelligence_rationale": "Premier BCI conference, track Chinese research presentations and collaborations",
+      "european_venues": "Graz 2011, Würzburg 2013, Asilomar 2016, Brussels 2018",
+      "first_held": "2010"
+    },
+    {
+      "series_name": "Society for Neuroscience Annual Meeting",
+      "organizer": "Society for Neuroscience (SfN)",
+      "typical_location": "United States (occasionally Europe)",
+      "frequency": "Annual",
+      "typical_month": "November",
+      "technology_domains": "Neuroscience, Brain_Computer_Interface",
+      "strategic_priority": "HIGH",
+      "website": "https://www.sfn.org/meetings/",
+      "intelligence_rationale": "World's largest neuroscience conference, BCI sessions with Chinese researchers",
+      "european_venues": "None (occasional EU satellite events)",
+      "first_held": "1971"
+    },
+    {
+      "series_name": "Brain-Computer Interface Society Conference (BCI Society)",
+      "organizer": "Brain-Computer Interface Society",
+      "typical_location": "Rotating global",
+      "frequency": "Annual",
+      "typical_month": "Varies",
+      "technology_domains": "Brain_Computer_Interface",
+      "strategic_priority": "CRITICAL",
+      "website": "https://bcisociety.org/",
+      "intelligence_rationale": "Primary BCI research community forum",
+      "first_held": "2010"
+    }
+  ],
+
+  "tier_2_high": [
+    {
+      "series_name": "IEEE International Conference on Neural Engineering (ICNE / NER)",
+      "organizer": "IEEE Engineering in Medicine and Biology Society",
+      "typical_location": "Rotating global",
+      "frequency": "Biennial",
+      "typical_month": "April-May",
+      "technology_domains": "Brain_Computer_Interface, Neural Engineering, Neuroprosthetics",
+      "strategic_priority": "HIGH",
+      "website": "https://ner.embs.org/",
+      "intelligence_rationale": "Neural interface hardware and BCI engineering focus",
+      "european_venues": "Antalya 2013, Rome 2017",
+      "first_held": "2003"
+    },
+    {
+      "series_name": "International Conference on Brain-Computer Interface (BCI)",
+      "organizer": "Graz University of Technology / g.tec",
+      "typical_location": "Graz, Austria (primary)",
+      "frequency": "Annual",
+      "typical_month": "September",
+      "technology_domains": "Brain_Computer_Interface",
+      "strategic_priority": "HIGH",
+      "website": "https://www.gtec.at/bci-conference/",
+      "intelligence_rationale": "European BCI hub, g.tec commercial BCI systems, Chinese company participation",
+      "european_venues": "Graz, Austria (permanent)",
+      "first_held": "2011"
+    },
+    {
+      "series_name": "European Symposium on Artificial Neural Networks (ESANN)",
+      "organizer": "d-side",
+      "typical_location": "Bruges, Belgium",
+      "frequency": "Annual",
+      "typical_month": "April",
+      "technology_domains": "AI, Brain_Computer_Interface, Machine Learning",
+      "strategic_priority": "MEDIUM",
+      "website": "https://www.esann.org/",
+      "intelligence_rationale": "Neural network decoders for BCI, AI-BCI integration research",
+      "european_venues": "Bruges, Belgium (permanent)",
+      "first_held": "1993"
+    },
+    {
+      "series_name": "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "organizer": "IEEE Signal Processing Society",
+      "typical_location": "Rotating global",
+      "frequency": "Annual",
+      "typical_month": "May",
+      "technology_domains": "Signal Processing, Brain_Computer_Interface",
+      "strategic_priority": "MEDIUM",
+      "website": "https://2025.ieeeicassp.org/",
+      "intelligence_rationale": "BCI signal processing algorithms, Chinese signal processing researchers",
+      "european_venues": "Multiple (Prague 2011, Florence 2014, Brighton 2019, Rhodes 2023)",
+      "first_held": "1976"
+    },
+    {
+      "series_name": "International Conference on Rehabilitation Robotics (ICORR)",
+      "organizer": "IEEE Robotics and Automation Society",
+      "typical_location": "Rotating global",
+      "frequency": "Biennial",
+      "typical_month": "June-July",
+      "technology_domains": "Brain_Computer_Interface, Robotics, Neuroprosthetics",
+      "strategic_priority": "MEDIUM",
+      "website": "https://www.rehabrobotics.org/",
+      "intelligence_rationale": "BCI-controlled prosthetics and exoskeletons, dual-use military applications",
+      "european_venues": "Multiple (Zurich 2011, London 2017)",
+      "first_held": "1990"
+    }
+  ],
+
+  "tier_3_medium": [
+    {
+      "series_name": "International Conference on Human-Computer Interaction (HCII)",
+      "organizer": "HCI International",
+      "typical_location": "Rotating global",
+      "frequency": "Annual",
+      "typical_month": "June-July",
+      "technology_domains": "Brain_Computer_Interface, Human-Computer Interaction",
+      "strategic_priority": "MEDIUM",
+      "website": "http://www.hcii.org/",
+      "intelligence_rationale": "BCI user interfaces and human factors research",
+      "european_venues": "Multiple (Crete 2003, Stockholm 2020, Copenhagen 2023)",
+      "first_held": "1984"
+    },
+    {
+      "series_name": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
+      "organizer": "IEEE Engineering in Medicine and Biology Society",
+      "typical_location": "Rotating global",
+      "frequency": "Annual",
+      "typical_month": "July-August",
+      "technology_domains": "Biomedical Engineering, Brain_Computer_Interface",
+      "strategic_priority": "MEDIUM",
+      "website": "https://embc.embs.org/",
+      "intelligence_rationale": "Medical BCI applications, rehabilitation technology",
+      "european_venues": "Multiple (Milan 2015, Berlin 2019, Glasgow 2022)",
+      "first_held": "1979"
+    },
+    {
+      "series_name": "Augmented Human International Conference (AH)",
+      "organizer": "ACM SIGCHI",
+      "typical_location": "Rotating global",
+      "frequency": "Annual",
+      "typical_month": "March",
+      "technology_domains": "Brain_Computer_Interface, Human Augmentation",
+      "strategic_priority": "MEDIUM",
+      "website": "http://www.augmented-human.com/",
+      "intelligence_rationale": "Human enhancement BCIs, cognitive augmentation research (China priority area)",
+      "european_venues": "Multiple (Stuttgart 2011, Geneva 2014, London 2016)",
+      "first_held": "2010"
+    },
+    {
+      "series_name": "NeurIPS (Neural Information Processing Systems)",
+      "organizer": "NeurIPS Foundation",
+      "typical_location": "Rotating (primarily North America, occasional Europe)",
+      "frequency": "Annual",
+      "typical_month": "December",
+      "technology_domains": "AI, Machine Learning, Brain_Computer_Interface",
+      "strategic_priority": "MEDIUM",
+      "website": "https://neurips.cc/",
+      "intelligence_rationale": "AI/ML for neural decoding, Chinese AI-BCI researchers",
+      "european_venues": "None (primarily Vancouver/New Orleans, Barcelona 2016)",
+      "first_held": "1987"
+    }
+  ],
+
+  "tier_4_specialized": [
+    {
+      "series_name": "Berlin Brain-Computer Interface Workshop",
+      "organizer": "Berlin Institute of Technology",
+      "typical_location": "Berlin, Germany",
+      "frequency": "Irregular (historically biennial)",
+      "typical_month": "Varies",
+      "technology_domains": "Brain_Computer_Interface",
+      "strategic_priority": "MEDIUM",
+      "website": "https://www.bbci.de/",
+      "intelligence_rationale": "German BCI research hub, European-Chinese academic collaboration risk",
+      "european_venues": "Berlin, Germany (permanent)",
+      "first_held": "2004"
+    },
+    {
+      "series_name": "International Workshop on Brain-Machine Interfaces (BMI)",
+      "organizer": "Varies",
+      "typical_location": "Japan, Europe, Asia rotating",
+      "frequency": "Annual",
+      "typical_month": "Varies",
+      "technology_domains": "Brain_Computer_Interface",
+      "strategic_priority": "LOW",
+      "intelligence_rationale": "Asia-Pacific BCI community, Chinese participation common",
+      "first_held": "2013"
+    },
+    {
+      "series_name": "TOBI Workshop (Tools for Brain-Computer Interaction)",
+      "organizer": "EU TOBI Project",
+      "typical_location": "Europe",
+      "frequency": "Irregular",
+      "typical_month": "Varies",
+      "technology_domains": "Brain_Computer_Interface, Software Tools",
+      "strategic_priority": "LOW",
+      "website": "http://www.tobi-project.org/",
+      "intelligence_rationale": "BCI software standardization, open-source tool development",
+      "european_venues": "Multiple EU countries",
+      "first_held": "2009",
+      "project_ended": "2013"
+    }
+  ],
+
+  "china_specific_events": [
+    {
+      "series_name": "China Brain Science and Brain-Inspired Intelligence Forum",
+      "organizer": "Chinese Academy of Sciences / Chinese Institute for Brain Research",
+      "typical_location": "Beijing, China",
+      "frequency": "Annual",
+      "typical_month": "Varies",
+      "technology_domains": "Neuroscience, Brain_Computer_Interface, AI",
+      "strategic_priority": "CRITICAL",
+      "intelligence_rationale": "China Brain Project primary forum, European researcher invitations tracked",
+      "first_held": "~2017"
+    },
+    {
+      "series_name": "World Artificial Intelligence Conference (WAIC) - BCI Track",
+      "organizer": "Shanghai Municipal Government / Various",
+      "typical_location": "Shanghai, China",
+      "frequency": "Annual",
+      "typical_month": "July",
+      "technology_domains": "AI, Brain_Computer_Interface",
+      "strategic_priority": "HIGH",
+      "website": "https://www.worldaic.com.cn/",
+      "intelligence_rationale": "BCI sessions, Chinese BCI companies (NeuCyber, BrainCo), European partnerships",
+      "first_held": "2018"
+    },
+    {
+      "series_name": "China Cognitive Science Conference (CCSC)",
+      "organizer": "Chinese Cognitive Science Society",
+      "typical_location": "China (rotating cities)",
+      "frequency": "Annual",
+      "typical_month": "Varies",
+      "technology_domains": "Cognitive Science, Neuroscience, Brain_Computer_Interface",
+      "strategic_priority": "MEDIUM",
+      "intelligence_rationale": "Cognitive BCI research, brain-inspired AI",
+      "first_held": "~2005"
+    }
+  ],
+
+  "commercial_trade_shows": [
+    {
+      "series_name": "Neurotechnology World Summit",
+      "organizer": "Various",
+      "typical_location": "Rotating global",
+      "frequency": "Annual",
+      "typical_month": "Varies",
+      "technology_domains": "Brain_Computer_Interface, Neurotechnology",
+      "strategic_priority": "MEDIUM",
+      "intelligence_rationale": "Commercial BCI products, Chinese neurotechnology companies",
+      "first_held": "~2018"
+    },
+    {
+      "series_name": "Consumer Electronics Show (CES) - Health & Wellness / Digital Health",
+      "organizer": "Consumer Technology Association",
+      "typical_location": "Las Vegas, USA",
+      "frequency": "Annual",
+      "typical_month": "January",
+      "technology_domains": "Brain_Computer_Interface, Consumer Electronics",
+      "strategic_priority": "MEDIUM",
+      "website": "https://www.ces.tech/",
+      "intelligence_rationale": "Consumer BCI products, Chinese BCI companies (BrainCo, etc.)",
+      "first_held": "1967"
+    }
+  ],
+
+  "ecosystem_adjacent_events": [
+    {
+      "series_name": "SPIE Photonics West - Optogenetics & Optical Manipulation",
+      "organizer": "SPIE (International Society for Optics and Photonics)",
+      "typical_location": "San Francisco, USA",
+      "frequency": "Annual",
+      "typical_month": "January-February",
+      "technology_domains": "Optogenetics, Photonics, Neural Control",
+      "strategic_priority": "HIGH",
+      "website": "https://spie.org/photonics-west",
+      "intelligence_rationale": "Optogenetics equipment and techniques, Chinese researchers purchasing optical neural control systems",
+      "european_venues": "None (US-based, but European satellite conferences)",
+      "first_held": "1971",
+      "bci_relevance": "Optogenetics enables precise neural control for BCI applications"
+    },
+    {
+      "series_name": "IEEE International Ultrasonics Symposium (IUS)",
+      "organizer": "IEEE Ultrasonics, Ferroelectrics, and Frequency Control Society",
+      "typical_location": "Rotating global",
+      "frequency": "Annual",
+      "typical_month": "September-October",
+      "technology_domains": "Ultrasound, FUS Neuromodulation, Neural Dust",
+      "strategic_priority": "HIGH",
+      "website": "https://2025.ieee-ius.org/",
+      "intelligence_rationale": "Focused ultrasound neuromodulation, ultrasound-powered implants (neural dust), Chinese FUS research surge 2020-2025",
+      "european_venues": "Multiple (Tours 2019, Glasgow 2024 planned)",
+      "first_held": "1966",
+      "bci_relevance": "FUS = non-invasive neuromodulation, neural dust = wireless BCI power"
+    },
+    {
+      "series_name": "Materials Research Society (MRS) Fall/Spring Meetings - Bioelectronics Symposium",
+      "organizer": "Materials Research Society",
+      "typical_location": "Boston (Spring) / Phoenix (Fall), USA",
+      "frequency": "Biannual",
+      "typical_month": "April (Spring), November (Fall)",
+      "technology_domains": "Graphene Electrodes, Flexible Electronics, Biocompatible Materials",
+      "strategic_priority": "MEDIUM",
+      "website": "https://www.mrs.org/meetings-events",
+      "intelligence_rationale": "Graphene neural electrodes, carbon nanotube electrodes, biocompatible coatings for BCI implants",
+      "european_venues": "None (US-based)",
+      "first_held": "1973",
+      "bci_relevance": "Advanced electrode materials enable higher-performance BCIs"
+    },
+    {
+      "series_name": "Graphene Conference Series (Graphene Week)",
+      "organizer": "Graphene Flagship / Phantoms Foundation",
+      "typical_location": "Europe (rotating)",
+      "frequency": "Annual",
+      "typical_month": "June",
+      "technology_domains": "Graphene, 2D Materials, Neural Electrodes",
+      "strategic_priority": "MEDIUM",
+      "website": "https://graphene-flagship.eu/",
+      "intelligence_rationale": "Graphene neural interfaces, European-Chinese graphene research collaborations",
+      "european_venues": "Multiple EU countries (Barcelona, Manchester, Helsinki, etc.)",
+      "first_held": "~2013",
+      "bci_relevance": "Graphene electrodes are next-generation BCI hardware"
+    },
+    {
+      "series_name": "IEEE International MEMS Conference",
+      "organizer": "IEEE",
+      "typical_location": "Rotating global",
+      "frequency": "Annual",
+      "typical_month": "January",
+      "technology_domains": "MEMS, Neural Dust, Miniaturized Sensors",
+      "strategic_priority": "MEDIUM",
+      "website": "https://www.ieee-mems.org/",
+      "intelligence_rationale": "Neural dust microfabrication, wireless neural sensors, Chinese MEMS research for neural implants",
+      "european_venues": "Multiple (Amsterdam 2016, Belfast 2018, Munich 2021)",
+      "first_held": "1987",
+      "bci_relevance": "MEMS fabrication enables neural dust and miniaturized BCIs"
+    },
+    {
+      "series_name": "International Society for Therapeutic Ultrasound (ISTU) Symposium",
+      "organizer": "ISTU",
+      "typical_location": "Rotating global",
+      "frequency": "Biennial",
+      "typical_month": "Varies",
+      "technology_domains": "Focused Ultrasound, tFUS Neuromodulation",
+      "strategic_priority": "HIGH",
+      "website": "https://www.istu.org/",
+      "intelligence_rationale": "Focused ultrasound brain therapy, Chinese FUS neuromodulation research explosion",
+      "european_venues": "Multiple (Barcelona 2012, Utrecht 2014)",
+      "first_held": "2001",
+      "bci_relevance": "FUS enables non-invasive neuromodulation for closed-loop BCIs"
+    },
+    {
+      "series_name": "Annual Meeting of the Organization for Human Brain Mapping (OHBM)",
+      "organizer": "OHBM",
+      "typical_location": "Rotating global",
+      "frequency": "Annual",
+      "typical_month": "June",
+      "technology_domains": "Neuroimaging, fMRI, BCI",
+      "strategic_priority": "MEDIUM",
+      "website": "https://www.humanbrainmapping.org/",
+      "intelligence_rationale": "fMRI-based BCIs, brain mapping for BCI target identification, Chinese neuroimaging research",
+      "european_venues": "Multiple (Geneva 2016, Rome 2019, Glasgow 2022)",
+      "first_held": "1995",
+      "bci_relevance": "Brain mapping identifies optimal BCI target regions"
+    },
+    {
+      "series_name": "International Conference on Robotics and Automation (ICRA) - Human-Robot Interaction Track",
+      "organizer": "IEEE Robotics and Automation Society",
+      "typical_location": "Rotating global",
+      "frequency": "Annual",
+      "typical_month": "May",
+      "technology_domains": "Neural Prosthetics, Exoskeletons, Neural Swarms",
+      "strategic_priority": "HIGH",
+      "website": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra",
+      "intelligence_rationale": "BCI-controlled robots, neural prosthetics, neural swarm control, Chinese robotics + BCI integration",
+      "european_venues": "Multiple (Stockholm 2016, Paris 2020, London 2023)",
+      "first_held": "1984",
+      "bci_relevance": "Robotic applications of BCIs (prosthetics, exoskeletons, swarms)"
+    },
+    {
+      "series_name": "International Conference on Intelligent Robots and Systems (IROS) - Neurorobotics Workshop",
+      "organizer": "IEEE/RSJ",
+      "typical_location": "Rotating global",
+      "frequency": "Annual",
+      "typical_month": "October",
+      "technology_domains": "Neurorobotics, Neural Swarms, BCI-Robot Control",
+      "strategic_priority": "HIGH",
+      "website": "https://ieee-iros.org/",
+      "intelligence_rationale": "Neural control of robot swarms, brain-controlled robotics, Chinese neurorobotics research",
+      "european_venues": "Multiple (Hamburg 2015, Madrid 2018, Prague 2021)",
+      "first_held": "1988",
+      "bci_relevance": "Neural swarm control, BCI-robot interfaces"
+    },
+    {
+      "series_name": "Biophysical Society Annual Meeting - Optogenetics Symposium",
+      "organizer": "Biophysical Society",
+      "typical_location": "USA (rotating cities)",
+      "frequency": "Annual",
+      "typical_month": "February",
+      "technology_domains": "Optogenetics, Light-Sensitive Proteins",
+      "strategic_priority": "MEDIUM",
+      "website": "https://www.biophysics.org/",
+      "intelligence_rationale": "Optogenetic protein engineering, Chinese optogenetics tool development",
+      "european_venues": "None (US-based)",
+      "first_held": "1957",
+      "bci_relevance": "Optogenetics enables cell-type-specific neural control for BCIs"
+    },
+    {
+      "series_name": "International Conference on Swarm Intelligence (ICSI)",
+      "organizer": "Varies",
+      "typical_location": "China (often)",
+      "frequency": "Annual",
+      "typical_month": "July-August",
+      "technology_domains": "Swarm Robotics, Multi-Agent Systems, Neural Swarm Control",
+      "strategic_priority": "HIGH",
+      "website": "http://www.ic-si.org/",
+      "intelligence_rationale": "Watch for BCI + swarm sessions, neural swarm control papers, Chinese leadership in swarm + BCI",
+      "european_venues": "Some (Paris, Rome in rotation)",
+      "first_held": "2010",
+      "bci_relevance": "Neural swarm control = CRITICAL military application"
+    },
+    {
+      "series_name": "American Society for Neural Therapy and Repair (ASNR) Annual Meeting",
+      "organizer": "ASNR",
+      "typical_location": "USA",
+      "frequency": "Annual",
+      "typical_month": "April",
+      "technology_domains": "Neural Repair, Regenerative Medicine, Neural Prosthetics",
+      "strategic_priority": "LOW",
+      "website": "https://www.asntr.org/",
+      "intelligence_rationale": "Neural regeneration interfaces, peripheral nerve interfaces for prosthetics",
+      "european_venues": "None (US-based)",
+      "first_held": "~2006",
+      "bci_relevance": "Regenerative peripheral nerve interfaces improve BCI control"
+    }
+  ],
+
+  "historical_milestones": {
+    "1973": "Jacques Vidal coins 'brain-computer interface' term (UCLA)",
+    "1977": "First BCI experiment - Vidal's VEP cursor control",
+    "1988": "First BCI workshop organized by Niels Birbaumer",
+    "1991": "Wolpaw demonstrates cursor control using mu-rhythm",
+    "1999": "First BCI communication device for ALS patients (Birbaumer)",
+    "2000": "BCI2000 development begins (Wadsworth Center / University of Tübingen)",
+    "2004": "First BrainGate human trial (Matt Nagle)",
+    "2010": "First International BCI Meeting established",
+    "2013": "BNCI Horizon 2020 roadmap project launched (EU)",
+    "2016": "China Brain Project officially launched",
+    "2020": "Neuralink pig demo, Synchron FDA Breakthrough Device",
+    "2024": "Neuralink first human implant (Noland Arbaugh), China BCI ethics guidelines"
+  },
+
+  "_collection_priorities": {
+    "tier_1_critical": "Track 100% of Chinese participation (exhibitors, speakers, papers)",
+    "tier_2_high": "Track Chinese exhibitors and keynote speakers",
+    "tier_3_medium": "Track Chinese-authored papers and panel participation",
+    "tier_4_specialized": "Opportunistic tracking if data available",
+    "china_specific_events": "Track European researcher participation"
+  },
+
+  "_intelligence_queries": [
+    "Which European BCI researchers present at China Brain Science Forum?",
+    "Which Chinese BCI companies exhibit at European conferences?",
+    "What is the trend in EU-China co-authored BCI papers at major conferences?",
+    "Which PLA-affiliated institutions present BCI research at European venues?",
+    "Are there EU-China joint BCI sessions or workshops at major conferences?"
+  ]
+}

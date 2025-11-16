@@ -1,0 +1,190 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Cross-Reference Entity Schema",
+  "description": "Schema for entities in cross-reference analysis output (entities.ndjson)",
+  "type": "object",
+  "required": [
+    "run_id",
+    "entity_id",
+    "canonical_name",
+    "entity_type",
+    "country_iso3",
+    "china_connections",
+    "aggregate_risk",
+    "detector_versions",
+    "incomplete_fields"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string",
+      "description": "Unique identifier for this analysis run",
+      "pattern": "^[a-zA-Z0-9_-]+$"
+    },
+    "entity_id": {
+      "type": "string",
+      "description": "Unique entity identifier (uuid or hash)",
+      "minLength": 1
+    },
+    "canonical_name": {
+      "type": "string",
+      "description": "Canonical entity name (deduplicated, normalized)",
+      "minLength": 1
+    },
+    "entity_type": {
+      "type": "string",
+      "enum": ["company", "institution", "individual", "unknown"],
+      "description": "Type of entity"
+    },
+    "country_iso3": {
+      "type": "string",
+      "description": "ISO 3166-1 alpha-3 country code",
+      "pattern": "^[A-Z]{3}$"
+    },
+    "china_connections": {
+      "type": "array",
+      "description": "Array of China connection detections",
+      "items": {
+        "type": "object",
+        "required": [
+          "detection_id",
+          "detector_id",
+          "confidence_score",
+          "evidence",
+          "temporal_range"
+        ],
+        "properties": {
+          "detection_id": {
+            "type": "string",
+            "description": "Unique detection identifier",
+            "minLength": 1
+          },
+          "detector_id": {
+            "type": "string",
+            "description": "Detector version (e.g., 'psc_nationality_strict_v3.0')",
+            "pattern": "^[a-z0-9_]+_v[0-9]+\\.[0-9]+$"
+          },
+          "confidence_score": {
+            "type": "number",
+            "description": "Confidence score (0-100)",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "evidence": {
+            "type": "object",
+            "description": "ANTI-FABRICATION: Complete provenance required",
+            "required": [
+              "file_id_or_url",
+              "record_id_or_line",
+              "field_name",
+              "field_value",
+              "extraction_method"
+            ],
+            "properties": {
+              "file_id_or_url": {
+                "type": "string",
+                "description": "Source file path or URL",
+                "minLength": 1
+              },
+              "record_id_or_line": {
+                "type": "string",
+                "description": "Record ID or line number",
+                "minLength": 1
+              },
+              "field_name": {
+                "type": "string",
+                "description": "Field name that triggered detection",
+                "minLength": 1
+              },
+              "field_value": {
+                "type": "string",
+                "description": "Exact field value (or JSON if multiple)",
+                "minLength": 1
+              },
+              "extraction_method": {
+                "type": "string",
+                "description": "How the value was extracted",
+                "enum": [
+                  "direct_field_read",
+                  "keyword_match",
+                  "regex_match",
+                  "fuzzy_match",
+                  "ml_classification"
+                ]
+              },
+              "feature_hash": {
+                "type": "string",
+                "description": "SHA-256 hash of source record for verification (optional but recommended)",
+                "pattern": "^sha256:[a-f0-9]{64}$"
+              }
+            }
+          },
+          "temporal_range": {
+            "type": "object",
+            "required": ["valid_from", "valid_to", "inferred"],
+            "properties": {
+              "valid_from": {
+                "type": "string",
+                "description": "Start date (ISO 8601 or 'unknown')",
+                "pattern": "^([0-9]{4}-[0-9]{2}-[0-9]{2}|unknown)$"
+              },
+              "valid_to": {
+                "type": "string",
+                "description": "End date (ISO 8601 or '9999-12-31' for current)",
+                "pattern": "^([0-9]{4}-[0-9]{2}-[0-9]{2}|9999-12-31)$"
+              },
+              "inferred": {
+                "type": "boolean",
+                "description": "Whether temporal range was inferred vs. explicit"
+              }
+            }
+          },
+          "incomplete": {
+            "type": "boolean",
+            "description": "Whether this detection has incomplete/partial data"
+          },
+          "human_verified": {
+            "type": "boolean",
+            "description": "Whether a human analyst reviewed this detection"
+          }
+        }
+      }
+    },
+    "aggregate_risk": {
+      "type": "object",
+      "required": ["posterior_probability", "risk_score", "risk_level"],
+      "properties": {
+        "posterior_probability": {
+          "type": "number",
+          "description": "Bayesian posterior probability (0-1)",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "risk_score": {
+          "type": "integer",
+          "description": "Risk score (0-100)",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "risk_level": {
+          "type": "string",
+          "enum": ["CLEAN", "LOW", "MEDIUM", "HIGH", "CRITICAL"],
+          "description": "Categorical risk level"
+        }
+      }
+    },
+    "detector_versions": {
+      "type": "object",
+      "description": "Versions of all detectors that analyzed this entity",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "incomplete_fields": {
+      "type": "array",
+      "description": "List of fields that could not be populated",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

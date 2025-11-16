@@ -1,0 +1,44 @@
+{
+  "phase2_config": {
+    "description": "Phase 2: Detector Correlation & Bayesian Fusion (4 detectors: PSC + USAspending + CORDIS + OpenAIRE)",
+    "prior_probability": 0.014,
+    "min_entities_for_correlation": 10,
+    "correlation_threshold": 0.7
+  },
+  "detectors": [
+    {
+      "detector_id": "psc_strict_v3.0",
+      "version": "v3.0",
+      "description": "PSC nationality-first strict detection",
+      "output_file": "data/processed/psc_strict_v3/detections.ndjson",
+      "status_file": "data/processed/psc_strict_v3/statistics.json"
+    },
+    {
+      "detector_id": "usaspending_v2.0",
+      "version": "v2.0",
+      "description": "USAspending China contract detection with CompleteEuropeanValidator v3.0",
+      "output_file": "data/processed/usaspending_china/detections.ndjson",
+      "status_file": "data/processed/usaspending_china/statistics.json"
+    },
+    {
+      "detector_id": "cordis_v1.0",
+      "version": "v1.0",
+      "description": "CORDIS EU research project Chinese participation detection",
+      "output_file": "data/processed/cordis_v1/detections.ndjson",
+      "status_file": "data/processed/cordis_v1/statistics.json"
+    },
+    {
+      "detector_id": "openaire_v1.0",
+      "version": "v1.0",
+      "description": "OpenAIRE research collaboration detection",
+      "output_file": "data/processed/openaire_v1/detections.ndjson",
+      "status_file": "data/processed/openaire_v1/statistics.json"
+    }
+  ],
+  "gold_set": "validation/gold_set.csv",
+  "scripts": {
+    "correlation_matrix": "scripts/detector_correlation_matrix.py",
+    "cross_validation": "scripts/cross_validation_reporter.py",
+    "bayesian_fusion": "scripts/bayesian_fusion_engine.py"
+  }
+}

@@ -1,0 +1,1159 @@
+{
+  "metadata": {
+    "title": "Comprehensive Semiconductor Technology Taxonomy",
+    "version": "1.0",
+    "date_created": "2025-11-02",
+    "source": "Integrated from SIA State of Industry 2025, WSTS Historical Billings Aug 2025, ETO Datasets, Industry Analysis",
+    "purpose": "Complete semiconductor intelligence framework covering technology, research, equipment, materials, and applications",
+    "zero_fabrication_compliance": true
+  },
+
+  "semiconductor_value_chain": {
+    "upstream": {
+      "description": "Raw materials and inputs required for semiconductor manufacturing",
+      "categories": [
+        {
+          "name": "Critical Minerals & Raw Materials",
+          "items": [
+            {
+              "material": "Silicon",
+              "purity": "Ultra-pure silicon (99.9999999% - 9N)",
+              "applications": ["Wafer substrate", "Epitaxial layers"],
+              "supply_chain_risk": "LOW",
+              "major_suppliers": ["China", "Norway", "United States"],
+              "strategic_importance": "CRITICAL"
+            },
+            {
+              "material": "Gallium",
+              "applications": ["GaN power devices", "RF amplifiers", "LEDs"],
+              "supply_chain_risk": "HIGH",
+              "major_suppliers": ["China (80%+ global supply)"],
+              "strategic_importance": "CRITICAL",
+              "export_controls": "China export restrictions 2023"
+            },
+            {
+              "material": "Germanium",
+              "applications": ["SiGe transistors", "Infrared optics", "Fiber optics"],
+              "supply_chain_risk": "HIGH",
+              "major_suppliers": ["China (60%+ global supply)"],
+              "strategic_importance": "CRITICAL",
+              "export_controls": "China export restrictions 2023"
+            },
+            {
+              "material": "Rare Earth Elements",
+              "sub_materials": ["Lanthanum", "Cerium", "Praseodymium", "Neodymium", "Europium", "Terbium", "Dysprosium", "Yttrium"],
+              "applications": ["Magnets", "Polishing compounds", "Phosphors", "Catalysts"],
+              "supply_chain_risk": "VERY HIGH",
+              "major_suppliers": ["China (70%+ global supply)"],
+              "strategic_importance": "CRITICAL"
+            },
+            {
+              "material": "Neon Gas (Ultra-high purity)",
+              "applications": ["Excimer lasers for lithography"],
+              "supply_chain_risk": "HIGH",
+              "major_suppliers": ["Ukraine", "Russia"],
+              "strategic_importance": "CRITICAL",
+              "2022_supply_shock": "Ukraine war disruption"
+            },
+            {
+              "material": "Argon, Xenon, Krypton",
+              "applications": ["Plasma etching", "Ion implantation", "Ambient control"],
+              "supply_chain_risk": "MEDIUM",
+              "strategic_importance": "HIGH"
+            },
+            {
+              "material": "Fluorine Compounds",
+              "sub_materials": ["Hydrogen fluoride (HF)", "Sulfur hexafluoride (SF6)", "Nitrogen trifluoride (NF3)"],
+              "applications": ["Etching", "Cleaning", "CVD processes"],
+              "supply_chain_risk": "MEDIUM",
+              "environmental_concerns": "Global warming potential (SF6)"
+            },
+            {
+              "material": "Tungsten",
+              "applications": ["Interconnects", "Vias", "Gate electrodes"],
+              "supply_chain_risk": "MEDIUM",
+              "major_suppliers": ["China", "Vietnam", "Russia"]
+            },
+            {
+              "material": "Cobalt",
+              "applications": ["Copper barrier layers", "Advanced interconnects"],
+              "supply_chain_risk": "HIGH",
+              "major_suppliers": ["Democratic Republic of Congo (70%)", "China (refining)"]
+            },
+            {
+              "material": "Tantalum",
+              "applications": ["Capacitors", "Barrier layers"],
+              "supply_chain_risk": "MEDIUM",
+              "major_suppliers": ["Rwanda", "Democratic Republic of Congo", "Brazil"]
+            },
+            {
+              "material": "Indium",
+              "applications": ["ITO (Indium Tin Oxide)", "Solders", "Compound semiconductors"],
+              "supply_chain_risk": "HIGH",
+              "major_suppliers": ["China (50%+ global supply)"]
+            },
+            {
+              "material": "Hafnium",
+              "applications": ["High-k dielectrics", "Gate oxides"],
+              "supply_chain_risk": "HIGH",
+              "strategic_importance": "CRITICAL",
+              "note": "Essential for sub-7nm nodes"
+            }
+          ]
+        },
+        {
+          "name": "Specialty Gases",
+          "items": [
+            "Silane (SiH4)", "Disilane (Si2H6)", "Ammonia (NH3)", "Phosphine (PH3)",
+            "Arsine (AsH3)", "Boron trichloride (BCl3)", "Diborane (B2H6)",
+            "Germane (GeH4)", "Methane (CH4)", "Hydrogen (H2)", "Nitrogen (N2)",
+            "Oxygen (O2)", "Helium (He)"
+          ],
+          "applications": ["CVD", "ALD", "Doping", "Etching", "Carrier gases"],
+          "supply_chain_concentration": "Asia 60%, US 20%, Europe 15%, Others 5%"
+        },
+        {
+          "name": "Wet Chemicals",
+          "categories": [
+            {
+              "type": "Acids",
+              "chemicals": ["Sulfuric acid (H2SO4)", "Hydrochloric acid (HCl)", "Nitric acid (HNO3)", "Phosphoric acid (H3PO4)", "Hydrofluoric acid (HF)"],
+              "applications": ["Cleaning", "Etching", "Surface preparation"]
+            },
+            {
+              "type": "Bases",
+              "chemicals": ["Ammonium hydroxide (NH4OH)", "Tetramethylammonium hydroxide (TMAH)", "Potassium hydroxide (KOH)"],
+              "applications": ["Cleaning", "Photoresist development", "Etching"]
+            },
+            {
+              "type": "Solvents",
+              "chemicals": ["Isopropyl alcohol (IPA)", "Acetone", "N-Methyl-2-pyrrolidone (NMP)", "Ethylene glycol"],
+              "applications": ["Cleaning", "Resist stripping", "Surface treatment"]
+            }
+          ]
+        },
+        {
+          "name": "Photoresist Materials",
+          "types": [
+            {
+              "name": "EUV Photoresist",
+              "wavelength": "13.5 nm",
+              "applications": ["Sub-7nm lithography", "Advanced logic", "Leading-edge memory"],
+              "suppliers": ["JSR", "Tokyo Ohka Kogyo", "Shin-Etsu Chemical", "DuPont"],
+              "strategic_importance": "CRITICAL",
+              "supply_chain_concentration": "Japan dominant"
+            },
+            {
+              "name": "ArF Immersion Photoresist",
+              "wavelength": "193 nm",
+              "applications": ["7nm-14nm nodes", "Multi-patterning"],
+              "maturity": "Mature"
+            },
+            {
+              "name": "KrF Photoresist",
+              "wavelength": "248 nm",
+              "applications": ["Mature nodes 28nm+"],
+              "maturity": "Mature"
+            },
+            {
+              "name": "i-line Photoresist",
+              "wavelength": "365 nm",
+              "applications": ["Legacy nodes 130nm+"],
+              "maturity": "Mature"
+            }
+          ]
+        },
+        {
+          "name": "CMP (Chemical Mechanical Planarization) Slurries",
+          "types": ["Oxide slurry", "Metal slurry", "Barrier slurry", "Tungsten slurry", "Copper slurry"],
+          "applications": ["Wafer planarization", "Interconnect formation"],
+          "major_suppliers": ["Cabot Microelectronics", "DuPont", "Fujimi", "Hitachi Chemical"]
+        },
+        {
+          "name": "Advanced Substrates",
+          "items": [
+            {
+              "type": "Silicon Wafers",
+              "sizes": ["150mm (6-inch)", "200mm (8-inch)", "300mm (12-inch)", "450mm (18-inch - future)"],
+              "suppliers": ["Shin-Etsu (Japan)", "SUMCO (Japan)", "Siltronic (Germany)", "SK Siltron (South Korea)", "GlobalWafers (Taiwan)"],
+              "market_concentration": "Top 5 = 95%+ global supply",
+              "strategic_importance": "CRITICAL"
+            },
+            {
+              "type": "Silicon-on-Insulator (SOI)",
+              "applications": ["RF devices", "Low-power logic", "Automotive"],
+              "suppliers": ["Soitec (France - 75%+ market share)", "Shin-Etsu"],
+              "strategic_importance": "HIGH"
+            },
+            {
+              "type": "Silicon Carbide (SiC) Wafers",
+              "applications": ["Power devices", "EV inverters", "5G infrastructure"],
+              "suppliers": ["Wolfspeed (US)", "II-VI (US)", "SiCrystal (Germany)", "ROHM (Japan)"],
+              "market_growth": "30%+ CAGR",
+              "strategic_importance": "CRITICAL"
+            },
+            {
+              "type": "Gallium Nitride (GaN) Substrates",
+              "applications": ["RF power amplifiers", "Fast chargers", "LEDs"],
+              "strategic_importance": "CRITICAL"
+            },
+            {
+              "type": "Sapphire Wafers",
+              "applications": ["LED manufacturing", "GaN epitaxy"],
+              "major_suppliers": ["China (60%+ global supply)"]
+            }
+          ]
+        }
+      ]
+    },
+
+    "core_manufacturing": {
+      "description": "Semiconductor fabrication and manufacturing processes",
+      "process_nodes": {
+        "leading_edge": {
+          "nodes": ["3nm", "2nm", "1.4nm (A14)", "1nm"],
+          "manufacturers": ["TSMC", "Samsung", "Intel"],
+          "applications": ["AI accelerators", "High-performance compute", "Advanced mobile processors"],
+          "capital_intensity": "EXTREME ($20B+ per fab)",
+          "strategic_importance": "CRITICAL"
+        },
+        "advanced": {
+          "nodes": ["5nm", "7nm", "10nm"],
+          "manufacturers": ["TSMC", "Samsung", "Intel"],
+          "applications": ["Mobile processors", "GPUs", "High-end computing"],
+          "strategic_importance": "HIGH"
+        },
+        "mature": {
+          "nodes": ["14nm", "16nm", "22nm", "28nm", "40nm"],
+          "manufacturers": ["TSMC", "Samsung", "GlobalFoundries", "UMC", "SMIC"],
+          "applications": ["Automotive", "Industrial", "IoT", "Consumer electronics"],
+          "strategic_importance": "HIGH",
+          "note": "Critical for automotive and industrial applications"
+        },
+        "legacy": {
+          "nodes": ["65nm", "90nm", "130nm", "180nm", "250nm+"],
+          "manufacturers": ["Multiple global foundries"],
+          "applications": ["Power management", "Analog", "RF", "Sensors", "MCUs"],
+          "strategic_importance": "MEDIUM-HIGH"
+        }
+      },
+
+      "manufacturing_process_steps": [
+        {
+          "step": 1,
+          "name": "Wafer Preparation",
+          "sub_steps": ["Crystal growing (Czochralski process)", "Ingot slicing", "Wafer polishing", "Cleaning"],
+          "equipment_types": ["Crystal pullers", "Wire saws", "CMP tools", "Cleaning systems"]
+        },
+        {
+          "step": 2,
+          "name": "Oxidation / Thin Film Deposition",
+          "technologies": [
+            {
+              "name": "Thermal Oxidation",
+              "applications": ["Gate oxide", "Field oxide"],
+              "temperature": "800-1200°C"
+            },
+            {
+              "name": "Chemical Vapor Deposition (CVD)",
+              "types": ["PECVD", "LPCVD", "UHVCVD", "MOCVD"],
+              "materials": ["Silicon dioxide", "Silicon nitride", "Polysilicon", "Tungsten", "Copper"]
+            },
+            {
+              "name": "Physical Vapor Deposition (PVD)",
+              "types": ["Sputtering", "Evaporation"],
+              "materials": ["Aluminum", "Titanium", "Copper", "Tantalum"]
+            },
+            {
+              "name": "Atomic Layer Deposition (ALD)",
+              "applications": ["High-k dielectrics", "Barrier layers", "Advanced nodes"],
+              "advantage": "Atomic-level thickness control",
+              "strategic_importance": "CRITICAL for sub-7nm"
+            },
+            {
+              "name": "Electroplating",
+              "materials": ["Copper interconnects"],
+              "applications": ["Dual damascene process"]
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "name": "Lithography",
+          "technologies": [
+            {
+              "name": "Extreme Ultraviolet (EUV) Lithography",
+              "wavelength": "13.5 nm",
+              "resolution": "Sub-7nm nodes",
+              "equipment_supplier": "ASML (Netherlands - monopoly)",
+              "equipment_cost": "$150M+ per system",
+              "strategic_importance": "CRITICAL",
+              "export_controls": "US-Dutch restrictions on China",
+              "dependency_risk": "Single supplier (ASML)"
+            },
+            {
+              "name": "Deep Ultraviolet (DUV) Immersion Lithography",
+              "wavelength": "193 nm (ArF)",
+              "resolution": "7nm+ nodes with multi-patterning",
+              "equipment_suppliers": ["ASML", "Nikon", "Canon"]
+            },
+            {
+              "name": "KrF Lithography",
+              "wavelength": "248 nm",
+              "applications": ["Mature nodes"]
+            },
+            {
+              "name": "i-line Lithography",
+              "wavelength": "365 nm",
+              "applications": ["Legacy nodes"]
+            }
+          ],
+          "support_processes": ["Photoresist coating", "Soft bake", "Exposure", "Post-exposure bake", "Development", "Hard bake"]
+        },
+        {
+          "step": 4,
+          "name": "Etching",
+          "types": [
+            {
+              "name": "Plasma Etching (Dry Etch)",
+              "technologies": ["Reactive Ion Etching (RIE)", "Inductively Coupled Plasma (ICP)", "Capacitively Coupled Plasma (CCP)"],
+              "applications": ["High aspect ratio features", "Anisotropic etching"],
+              "strategic_importance": "CRITICAL"
+            },
+            {
+              "name": "Wet Etching",
+              "applications": ["Isotropic etching", "Cleaning", "Sacrificial layer removal"],
+              "chemicals": ["HF", "H2SO4/H2O2", "NH4OH/H2O2"]
+            },
+            {
+              "name": "Atomic Layer Etching (ALE)",
+              "applications": ["Sub-5nm nodes", "Ultra-precise material removal"],
+              "strategic_importance": "EMERGING CRITICAL"
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "name": "Doping / Ion Implantation",
+          "technologies": [
+            {
+              "name": "Ion Implantation",
+              "dopants": ["Boron (p-type)", "Phosphorus (n-type)", "Arsenic (n-type)", "Antimony (n-type)"],
+              "applications": ["Junction formation", "Well implants", "Threshold adjust"],
+              "equipment_suppliers": ["Applied Materials", "Axcelis"]
+            },
+            {
+              "name": "Diffusion",
+              "applications": ["Legacy processes", "Drive-in"],
+              "temperature": "800-1200°C"
+            },
+            {
+              "name": "Rapid Thermal Annealing (RTA)",
+              "applications": ["Dopant activation", "Damage repair"],
+              "strategic_importance": "HIGH"
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "name": "Chemical Mechanical Planarization (CMP)",
+          "applications": ["Wafer planarization", "Dielectric CMP", "Metal CMP", "STI CMP"],
+          "consumables": ["Slurries", "Pads", "Conditioning disks"],
+          "equipment_suppliers": ["Applied Materials", "Ebara"],
+          "strategic_importance": "CRITICAL"
+        },
+        {
+          "step": 7,
+          "name": "Metrology & Inspection",
+          "types": [
+            {
+              "name": "Critical Dimension (CD) Measurement",
+              "technologies": ["CD-SEM", "Scatterometry", "AFM"],
+              "applications": ["Line width measurement", "Process control"]
+            },
+            {
+              "name": "Defect Inspection",
+              "technologies": ["Optical inspection", "E-beam inspection"],
+              "equipment_suppliers": ["KLA", "Applied Materials", "Hitachi"],
+              "strategic_importance": "CRITICAL"
+            },
+            {
+              "name": "Film Thickness Measurement",
+              "technologies": ["Ellipsometry", "Reflectometry", "XRF"],
+              "applications": ["Thin film characterization"]
+            },
+            {
+              "name": "Overlay Metrology",
+              "applications": ["Layer alignment verification"],
+              "critical_for": "Multi-patterning, EUV"
+            }
+          ]
+        },
+        {
+          "step": 8,
+          "name": "Interconnect Formation",
+          "technologies": [
+            {
+              "name": "Dual Damascene",
+              "process": ["Dielectric deposition", "Via/trench patterning", "Barrier deposition", "Copper seed", "Copper electroplating", "CMP"],
+              "materials": ["Copper", "Low-k dielectrics", "Ultra-low-k dielectrics"],
+              "strategic_importance": "HIGH"
+            },
+            {
+              "name": "Alternative Interconnects",
+              "emerging_materials": ["Ruthenium", "Cobalt", "Graphene (research)"],
+              "drivers": ["Lower resistance at small dimensions", "Improved reliability"]
+            }
+          ]
+        }
+      ],
+
+      "packaging_assembly_test": {
+        "description": "Backend processes to complete semiconductor devices",
+        "packaging_types": [
+          {
+            "name": "Advanced Packaging",
+            "technologies": [
+              {
+                "type": "2.5D Packaging",
+                "description": "Silicon interposer connects multiple dies",
+                "applications": ["High-performance compute", "AI accelerators", "GPUs"],
+                "key_players": ["TSMC (CoWoS)", "Intel (EMIB)", "Samsung"],
+                "strategic_importance": "CRITICAL"
+              },
+              {
+                "type": "3D Packaging / Chiplet",
+                "technologies": ["Through-Silicon Via (TSV)", "Hybrid bonding", "Micro-bump"],
+                "applications": ["High-bandwidth memory (HBM)", "CPU+GPU integration", "AI chips"],
+                "advantages": ["Higher bandwidth", "Lower power", "Yield improvement"],
+                "strategic_importance": "CRITICAL",
+                "industry_initiatives": ["UCIe (Universal Chiplet Interconnect Express)"]
+              },
+              {
+                "type": "Fan-Out Wafer-Level Packaging (FOWLP)",
+                "applications": ["Mobile processors", "RF devices"],
+                "advantages": ["Thin profile", "Good thermal performance"],
+                "key_players": ["TSMC (InFO)", "ASE", "Amkor"]
+              },
+              {
+                "type": "System-in-Package (SiP)",
+                "applications": ["Mobile devices", "IoT", "Wearables"],
+                "integration": ["Multiple dies", "Passives", "Memory"]
+              }
+            ]
+          },
+          {
+            "name": "Traditional Packaging",
+            "types": [
+              "Wire Bond (most common)",
+              "Flip Chip",
+              "Ball Grid Array (BGA)",
+              "Quad Flat Package (QFP)",
+              "Small Outline Package (SOP)",
+              "Dual In-line Package (DIP)"
+            ],
+            "applications": ["Mature nodes", "Cost-sensitive products", "Industrial", "Automotive"]
+          }
+        ],
+
+        "assembly_test_operations": [
+          {
+            "process": "Die Attach",
+            "description": "Mounting die to substrate or leadframe",
+            "materials": ["Die attach adhesive", "Solder"]
+          },
+          {
+            "process": "Wire Bonding",
+            "types": ["Gold wire", "Copper wire", "Aluminum wire"],
+            "equipment": ["Wire bonders"]
+          },
+          {
+            "process": "Molding / Encapsulation",
+            "materials": ["Epoxy molding compound"],
+            "purpose": "Mechanical protection"
+          },
+          {
+            "process": "Marking",
+            "methods": ["Laser marking", "Ink marking"],
+            "information": ["Part number", "Date code", "Traceability"]
+          },
+          {
+            "process": "Final Test",
+            "tests": ["Functional test", "DC parametric test", "AC timing test", "Burn-in (reliability)"],
+            "equipment": ["Automatic Test Equipment (ATE)"],
+            "equipment_suppliers": ["Advantest", "Teradyne"],
+            "strategic_importance": "HIGH"
+          }
+        ],
+
+        "osat_providers": {
+          "description": "Outsourced Semiconductor Assembly and Test",
+          "major_players": [
+            {"name": "ASE Technology", "country": "Taiwan", "market_share": "~20%"},
+            {"name": "Amkor Technology", "country": "USA", "facilities": "Global"},
+            {"name": "JCET", "country": "China"},
+            {"name": "PTI (Powertech)", "country": "Taiwan"},
+            {"name": "TFME (TongFu Microelectronics)", "country": "China"},
+            {"name": "UTAC", "country": "Singapore"},
+            {"name": "ChipMOS", "country": "Taiwan"}
+          ],
+          "geographic_concentration": "Asia 85%+",
+          "strategic_importance": "HIGH"
+        }
+      }
+    },
+
+    "downstream_applications": {
+      "description": "End-use applications and markets for semiconductors",
+      "market_segments": [
+        {
+          "segment": "Computing & AI",
+          "market_share_2024": "34.9%",
+          "growth_driver": "PRIMARY",
+          "sub_categories": [
+            {
+              "application": "Artificial Intelligence / Machine Learning",
+              "chip_types": ["AI accelerators (GPUs)", "TPUs", "NPUs", "FPGAs", "ASICs"],
+              "key_suppliers": ["NVIDIA", "AMD", "Intel", "Google (TPU)", "AWS (Trainium/Inferentia)"],
+              "market_growth": "40%+ CAGR",
+              "strategic_importance": "CRITICAL",
+              "use_cases": ["Training", "Inference", "Edge AI", "Data center AI"]
+            },
+            {
+              "application": "Data Centers / Cloud Computing",
+              "chip_types": ["Server CPUs", "Data center GPUs", "Network processors", "Storage controllers"],
+              "key_suppliers": ["Intel", "AMD", "NVIDIA", "Marvell", "Broadcom"]
+            },
+            {
+              "application": "High-Performance Computing (HPC)",
+              "applications": ["Scientific computing", "Weather modeling", "Drug discovery", "Financial modeling"],
+              "chip_types": ["Server CPUs", "Accelerators", "Interconnect chips"]
+            },
+            {
+              "application": "Personal Computers",
+              "chip_types": ["CPUs", "GPUs", "Chipsets", "Memory", "Storage controllers"],
+              "market_maturity": "Mature",
+              "recent_boost": "AI PC trend"
+            },
+            {
+              "application": "Quantum Computing",
+              "status": "EMERGING",
+              "chip_types": ["Qubit controllers", "Cryogenic electronics", "RF control chips"],
+              "strategic_importance": "CRITICAL (long-term)"
+            }
+          ]
+        },
+        {
+          "segment": "Communications",
+          "market_share_2024": "33.0%",
+          "sub_categories": [
+            {
+              "application": "Smartphones / Mobile Devices",
+              "chip_types": ["Application processors (SoCs)", "Baseband processors", "RF transceivers", "Power management ICs (PMICs)", "Memory"],
+              "key_suppliers": ["Qualcomm", "MediaTek", "Apple (A-series/M-series)", "Samsung"],
+              "strategic_importance": "HIGH"
+            },
+            {
+              "application": "5G / 6G Infrastructure",
+              "chip_types": ["Base station processors", "Massive MIMO", "RF front-end", "Optical transceivers"],
+              "key_suppliers": ["Qualcomm", "Intel", "Marvell", "Broadcom", "Huawei (restricted)"],
+              "strategic_importance": "CRITICAL",
+              "geopolitical_dimension": "US-China competition"
+            },
+            {
+              "application": "Network Equipment",
+              "chip_types": ["Switch chips", "Router processors", "Network processors", "PHY chips"],
+              "key_suppliers": ["Broadcom", "Marvell", "Intel", "Cisco"],
+              "applications": ["Enterprise networks", "Carrier networks", "Data center networks"]
+            },
+            {
+              "application": "Satellite Communications",
+              "chip_types": ["Transceivers", "Signal processors", "Radiation-hardened chips"],
+              "applications": ["LEO constellations (Starlink, OneWeb)", "GEO satellites"],
+              "strategic_importance": "HIGH"
+            }
+          ]
+        },
+        {
+          "segment": "Automotive",
+          "market_share_2024": "12.7%",
+          "growth_rate": "15%+ CAGR",
+          "strategic_importance": "CRITICAL",
+          "sub_categories": [
+            {
+              "application": "Electric Vehicle (EV) Powertrain",
+              "chip_types": [
+                {
+                  "type": "Power Semiconductors",
+                  "technologies": ["Silicon Carbide (SiC) MOSFETs", "SiC diodes", "IGBT modules"],
+                  "applications": ["Traction inverters", "DC-DC converters", "On-board chargers"],
+                  "key_suppliers": ["Wolfspeed", "Infineon", "STMicroelectronics", "ON Semiconductor", "ROHM"],
+                  "supply_chain_risk": "HIGH",
+                  "strategic_importance": "CRITICAL"
+                },
+                {
+                  "type": "Battery Management Systems (BMS)",
+                  "chip_types": ["Monitoring ICs", "Protection ICs", "Balancing ICs"],
+                  "key_suppliers": ["Texas Instruments", "Analog Devices", "NXP", "Infineon"]
+                }
+              ]
+            },
+            {
+              "application": "Advanced Driver Assistance Systems (ADAS) / Autonomous Driving",
+              "chip_types": ["Vision processors", "Radar ICs", "LiDAR processors", "Sensor fusion SoCs", "AI accelerators"],
+              "key_suppliers": ["NVIDIA (Drive platform)", "Mobileye (Intel)", "Qualcomm", "NXP", "Tesla (FSD chip)"],
+              "strategic_importance": "CRITICAL",
+              "levels": ["L2 ADAS", "L3 conditional automation", "L4/L5 full autonomy"]
+            },
+            {
+              "application": "Infotainment & Connectivity",
+              "chip_types": ["Application processors", "Display controllers", "Audio processors", "V2X communication"],
+              "key_suppliers": ["Qualcomm", "NXP", "Renesas", "Texas Instruments"]
+            },
+            {
+              "application": "Body Electronics & Comfort",
+              "chip_types": ["Microcontrollers (MCUs)", "Sensors", "Actuator drivers", "Power management"],
+              "applications": ["Door controls", "Seat controls", "Climate control", "Lighting"]
+            }
+          ],
+          "reliability_requirements": "EXTREME (AEC-Q100)",
+          "supply_chain_lessons": "2021-2022 chip shortage"
+        },
+        {
+          "segment": "Industrial Applications",
+          "market_share_2024": "8.4%",
+          "sub_categories": [
+            {
+              "application": "Industrial Automation & Robotics",
+              "chip_types": ["Industrial MCUs", "Motor control ICs", "Industrial communication (EtherCAT, PROFINET)", "Vision processors"],
+              "key_suppliers": ["Texas Instruments", "Infineon", "NXP", "Renesas", "STMicroelectronics"]
+            },
+            {
+              "application": "Factory Automation & Industry 4.0",
+              "chip_types": ["Edge AI processors", "Industrial IoT", "Sensor interfaces", "PLCs"],
+              "strategic_importance": "HIGH"
+            },
+            {
+              "application": "Power Management & Conversion",
+              "chip_types": ["AC-DC converters", "DC-DC converters", "Power factor correction", "Motor drives"],
+              "applications": ["Industrial power supplies", "Renewable energy", "Grid infrastructure"]
+            },
+            {
+              "application": "Medical Electronics",
+              "chip_types": ["Medical imaging processors", "Patient monitoring", "Implantable device ICs", "Diagnostic equipment"],
+              "reliability_requirements": "EXTREME (FDA regulated)"
+            }
+          ]
+        },
+        {
+          "segment": "Consumer Electronics",
+          "market_share_2024": "9.9%",
+          "sub_categories": [
+            {
+              "application": "Smart Home / IoT",
+              "chip_types": ["Wi-Fi SoCs", "Bluetooth/BLE", "Zigbee/Thread", "Matter-enabled chips", "Low-power MCUs"],
+              "key_suppliers": ["Espressif", "Nordic Semi", "Silicon Labs", "Qualcomm", "MediaTek"],
+              "growth_driver": "IoT proliferation"
+            },
+            {
+              "application": "Wearables",
+              "chip_types": ["Ultra-low-power SoCs", "Sensors (IMU, heart rate)", "Power management"],
+              "applications": ["Smartwatches", "Fitness trackers", "AR glasses"],
+              "key_suppliers": ["Apple", "Qualcomm", "MediaTek"]
+            },
+            {
+              "application": "Gaming Consoles",
+              "chip_types": ["Custom SoCs", "Graphics processors", "Memory"],
+              "key_suppliers": ["AMD (custom chips for Sony/Microsoft)", "NVIDIA"]
+            },
+            {
+              "application": "Television & Displays",
+              "chip_types": ["Display controllers", "Video processors", "Smart TV SoCs"],
+              "applications": ["4K/8K TVs", "OLED/MicroLED", "AR/VR displays"]
+            }
+          ]
+        },
+        {
+          "segment": "Government / Defense / Aerospace",
+          "market_share_2024": "1.0%",
+          "strategic_importance": "CRITICAL",
+          "sub_categories": [
+            {
+              "application": "Military & Defense Systems",
+              "chip_types": ["Radiation-hardened processors", "Secure processors", "RF transceivers", "Radar processors", "EW (Electronic Warfare)"],
+              "requirements": ["Radiation tolerance", "Extended temperature", "Anti-tamper", "Secure supply chain"],
+              "key_suppliers": ["Microchip", "Xilinx (AMD)", "Intel", "BAE Systems", "Northrop Grumman"],
+              "strategic_importance": "CRITICAL",
+              "restrictions": "ITAR, export controls"
+            },
+            {
+              "application": "Aerospace",
+              "chip_types": ["Flight control processors", "Avionics", "Satellite processors"],
+              "reliability": "EXTREME (DO-254, DO-178C)"
+            },
+            {
+              "application": "Cybersecurity & Encryption",
+              "chip_types": ["Hardware security modules (HSM)", "Trusted Platform Modules (TPM)", "Secure enclaves", "Quantum-resistant crypto"],
+              "strategic_importance": "CRITICAL"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+  "semiconductor_equipment": {
+    "description": "Capital equipment used in semiconductor manufacturing",
+    "us_market_share": "41% (2024)",
+    "categories": [
+      {
+        "category": "Lithography Equipment",
+        "total_market_2024": "$20B+ estimated",
+        "suppliers": [
+          {
+            "company": "ASML",
+            "country": "Netherlands",
+            "market_share": "85%+",
+            "products": ["EUV scanners ($150M+)", "DUV immersion scanners", "DUV dry scanners"],
+            "strategic_importance": "CRITICAL",
+            "monopoly_position": "EUV (100%)",
+            "geopolitical_factor": "US-Dutch export controls on China"
+          },
+          {
+            "company": "Nikon",
+            "country": "Japan",
+            "market_share": "~10%",
+            "products": ["DUV immersion", "i-line"]
+          },
+          {
+            "company": "Canon",
+            "country": "Japan",
+            "market_share": "~5%",
+            "products": ["i-line", "Nanoimprint (emerging)"]
+          }
+        ]
+      },
+      {
+        "category": "Deposition Equipment",
+        "sub_categories": [
+          {
+            "type": "CVD (Chemical Vapor Deposition)",
+            "suppliers": ["Applied Materials (US)", "Lam Research (US)", "Tokyo Electron (Japan)", "ASM International (Netherlands)"],
+            "us_dominance": "High"
+          },
+          {
+            "type": "ALD (Atomic Layer Deposition)",
+            "suppliers": ["Applied Materials (US)", "ASM International (Netherlands)", "Tokyo Electron (Japan)"],
+            "strategic_importance": "CRITICAL for advanced nodes"
+          },
+          {
+            "type": "PVD (Physical Vapor Deposition)",
+            "suppliers": ["Applied Materials (US - dominant)", "Ulvac (Japan)", "Canon Anelva (Japan)"],
+            "us_dominance": "Very High"
+          },
+          {
+            "type": "Electroplating",
+            "suppliers": ["Applied Materials (US)", "Lam Research (US)", "Ebara (Japan)"],
+            "applications": ["Copper interconnects"]
+          }
+        ]
+      },
+      {
+        "category": "Etch Equipment",
+        "suppliers": [
+          {
+            "company": "Lam Research",
+            "country": "USA",
+            "market_share": "~50%",
+            "products": ["Conductor etch", "Dielectric etch", "Through-Silicon Via (TSV)"],
+            "strategic_importance": "CRITICAL"
+          },
+          {
+            "company": "Applied Materials",
+            "country": "USA",
+            "market_share": "~25%",
+            "products": ["Etch systems", "Atomic Layer Etch (ALE)"]
+          },
+          {
+            "company": "Tokyo Electron",
+            "country": "Japan",
+            "market_share": "~25%"
+          }
+        ],
+        "us_market_share": "75%+",
+        "strategic_importance": "CRITICAL"
+      },
+      {
+        "category": "CMP (Chemical Mechanical Planarization)",
+        "suppliers": [
+          {
+            "company": "Applied Materials",
+            "country": "USA",
+            "market_share": "~60%",
+            "products": ["CMP systems", "Post-CMP cleaning"]
+          },
+          {
+            "company": "Ebara",
+            "country": "Japan",
+            "market_share": "~30%"
+          }
+        ],
+        "strategic_importance": "HIGH"
+      },
+      {
+        "category": "Ion Implantation",
+        "suppliers": [
+          {
+            "company": "Applied Materials",
+            "country": "USA",
+            "market_share": "~70%",
+            "products": ["High-current implanters", "Medium-current", "High-energy"]
+          },
+          {
+            "company": "Axcelis Technologies",
+            "country": "USA",
+            "market_share": "~30%"
+          }
+        ],
+        "us_market_share": "100%",
+        "strategic_importance": "HIGH"
+      },
+      {
+        "category": "Metrology & Inspection",
+        "suppliers": [
+          {
+            "company": "KLA Corporation",
+            "country": "USA",
+            "market_share": "~50%",
+            "products": ["Wafer inspection", "Mask inspection", "CD metrology", "Overlay metrology", "Film measurement"],
+            "strategic_importance": "CRITICAL"
+          },
+          {
+            "company": "Applied Materials",
+            "country": "USA",
+            "market_share": "~20%",
+            "products": ["E-beam inspection", "Review SEM"]
+          },
+          {
+            "company": "Hitachi High-Tech",
+            "country": "Japan",
+            "market_share": "~15%",
+            "products": ["CD-SEM", "Defect review"]
+          },
+          {
+            "company": "ASML",
+            "country": "Netherlands",
+            "products": ["Holistic lithography metrology"]
+          }
+        ],
+        "us_market_share": "70%+",
+        "strategic_importance": "CRITICAL"
+      },
+      {
+        "category": "Thermal Processing",
+        "types": ["Rapid Thermal Processing (RTP)", "Furnaces", "Anneal"],
+        "suppliers": ["Applied Materials (US)", "Kokusai Electric (Japan)", "Tokyo Electron (Japan)", "ASM International (Netherlands)"]
+      },
+      {
+        "category": "Cleaning Equipment",
+        "suppliers": ["Screen Holdings (Japan)", "Tokyo Electron (Japan)", "Lam Research (US)", "SEMES (South Korea)"],
+        "applications": ["Pre-deposition clean", "Post-etch clean", "Post-CMP clean"]
+      },
+      {
+        "category": "Assembly & Packaging Equipment",
+        "sub_categories": [
+          {
+            "type": "Die Attach",
+            "suppliers": ["Besi (Netherlands)", "ASM Pacific Technology (Hong Kong)", "K&S (US)"]
+          },
+          {
+            "type": "Wire Bonding",
+            "suppliers": ["K&S (US)", "ASM Pacific Technology (Hong Kong)", "Shinkawa (Japan)"]
+          },
+          {
+            "type": "Advanced Packaging (TSV, hybrid bonding)",
+            "suppliers": ["Besi (Netherlands)", "Applied Materials (US)", "Tokyo Electron (Japan)", "EV Group (Austria)"],
+            "strategic_importance": "CRITICAL"
+          },
+          {
+            "type": "Molding",
+            "suppliers": ["Besi (Netherlands)", "ASM Pacific Technology (Hong Kong)", "TOWA (Japan)"]
+          }
+        ]
+      },
+      {
+        "category": "Test Equipment",
+        "suppliers": [
+          {
+            "company": "Advantest",
+            "country": "Japan",
+            "market_share": "~45%",
+            "products": ["Memory test", "SoC test"]
+          },
+          {
+            "company": "Teradyne",
+            "country": "USA",
+            "market_share": "~35%",
+            "products": ["SoC test", "Memory test", "Image sensor test"]
+          },
+          {
+            "company": "Cohu",
+            "country": "USA",
+            "products": ["Test handlers", "Contactors"]
+          }
+        ]
+      }
+    ],
+
+    "supply_chain_concentration": {
+      "us_companies": ["Applied Materials", "Lam Research", "KLA", "Axcelis", "Teradyne"],
+      "japan_companies": ["Tokyo Electron", "Advantest", "Screen Holdings", "Kokusai Electric"],
+      "europe_companies": ["ASML (Netherlands)", "ASM International (Netherlands)", "Besi (Netherlands)"],
+      "strategic_vulnerability": "High geographic concentration in US-allied countries",
+      "china_dependence": "LOW (minimal Chinese equipment suppliers for advanced nodes)",
+      "us_policy_leverage": "Very high - equipment export controls effective"
+    }
+  },
+
+  "research_areas": {
+    "description": "Key R&D focus areas for semiconductor advancement",
+    "us_rd_spending_2024": "$62.7 billion (17.7% of revenue)",
+    "categories": [
+      {
+        "area": "Advanced Process Technology",
+        "sub_areas": [
+          "Sub-2nm node development",
+          "Gate-All-Around (GAA) transistors",
+          "Nanosheet transistors",
+          "Forksheet transistors (sub-2nm)",
+          "Complementary FET (CFET)",
+          "Backside power delivery",
+          "High numerical aperture EUV (High-NA EUV 0.55)",
+          "EUV pellicles",
+          "Multi-patterning alternatives"
+        ],
+        "strategic_importance": "CRITICAL",
+        "funding_agencies": ["NSF", "NIST", "DOE Office of Science", "CHIPS R&D"]
+      },
+      {
+        "area": "Alternative Computing Architectures",
+        "sub_areas": [
+          "Quantum computing (superconducting qubits, ion trap, topological)",
+          "Neuromorphic computing",
+          "Photonic computing / Silicon photonics",
+          "Spintronics",
+          "In-memory computing",
+          "Compute-in-memory (CIM)",
+          "Processing-in-memory (PIM)",
+          "3D stacked memory with logic"
+        ],
+        "strategic_importance": "CRITICAL (next-generation computing)",
+        "timeframe": "5-15 years"
+      },
+      {
+        "area": "Advanced Materials",
+        "sub_areas": [
+          "2D materials (Graphene, MoS2, hBN)",
+          "High-k dielectrics",
+          "Work function metals",
+          "Low-resistance interconnects (Ruthenium, Cobalt)",
+          "Topological insulators",
+          "Phase-change materials (PCM)",
+          "Ferroelectric materials",
+          "Wide bandgap semiconductors (SiC, GaN)",
+          "Ultra-wide bandgap (Ga2O3, Diamond, AlN)"
+        ],
+        "strategic_importance": "CRITICAL"
+      },
+      {
+        "area": "Advanced Packaging & Heterogeneous Integration",
+        "sub_areas": [
+          "Chiplet architectures",
+          "UCIe (Universal Chiplet Interconnect Express) standard",
+          "Hybrid bonding at sub-10μm pitch",
+          "Glass substrates for packaging",
+          "Through-Silicon Via (TSV) for 3D integration",
+          "Micro-bump technology",
+          "Fan-out wafer-level packaging (FOWLP) innovations",
+          "Thermal management for 3D stacks"
+        ],
+        "strategic_importance": "CRITICAL",
+        "us_program": "NAPMP (National Advanced Packaging Manufacturing Program)"
+      },
+      {
+        "area": "AI-Specific Semiconductor Design",
+        "sub_areas": [
+          "Tensor processing architectures",
+          "Sparse neural network acceleration",
+          "Low-precision arithmetic (INT4, INT8, FP8)",
+          "Neural network pruning and quantization",
+          "Transformer acceleration",
+          "Large language model (LLM) inference optimization",
+          "Edge AI efficiency",
+          "Analog AI computing"
+        ],
+        "strategic_importance": "CRITICAL",
+        "growth": "Primary demand driver for 2024-2030"
+      },
+      {
+        "area": "Power Semiconductor Innovation",
+        "sub_areas": [
+          "SiC MOSFET efficiency improvements",
+          "GaN-on-Silicon scaling",
+          "Vertical GaN devices",
+          "Ultra-wide bandgap research (Ga2O3)",
+          "Higher voltage ratings (>10kV)",
+          "Improved thermal management",
+          "Integration with gate drivers"
+        ],
+        "applications": ["EV powertrains", "Renewable energy", "Data center power"],
+        "strategic_importance": "CRITICAL"
+      },
+      {
+        "area": "Memory Technology",
+        "sub_areas": [
+          "DRAM scaling below 10nm",
+          "High-Bandwidth Memory (HBM) - HBM3E, HBM4",
+          "3D NAND scaling (300+ layers)",
+          "Emerging non-volatile memory (NVM)",
+          "MRAM (Magnetoresistive RAM)",
+          "FeRAM (Ferroelectric RAM)",
+          "PCRAM (Phase-Change RAM)",
+          "ReRAM (Resistive RAM)",
+          "CXL (Compute Express Link) memory expansion"
+        ],
+        "strategic_importance": "CRITICAL",
+        "ai_driver": "HBM critical for AI training/inference"
+      },
+      {
+        "area": "Photonics & Optical Interconnects",
+        "sub_areas": [
+          "Silicon photonics integration",
+          "Co-packaged optics",
+          "On-chip optical interconnects",
+          "Optical computing",
+          "LiDAR for automotive",
+          "Optical transceivers for data centers"
+        ],
+        "strategic_importance": "HIGH",
+        "applications": ["Data center interconnects", "AI compute", "Autonomous vehicles"]
+      },
+      {
+        "area": "Semiconductor Manufacturing Research",
+        "sub_areas": [
+          "Digital twin for fabs",
+          "AI-driven process optimization",
+          "Atomic-scale precision manufacturing",
+          "Directed self-assembly (DSA)",
+          "Extreme ultraviolet (EUV) mask technology",
+          "Computational lithography",
+          "Machine learning for yield enhancement",
+          "Sustainability in manufacturing"
+        ],
+        "us_programs": ["NSTC (National Semiconductor Technology Center)", "SMART USA"]
+      },
+      {
+        "area": "Security & Trust",
+        "sub_areas": [
+          "Hardware security primitives",
+          "Physical unclonable functions (PUF)",
+          "Side-channel attack resistance",
+          "Supply chain security",
+          "Trusted execution environments (TEE)",
+          "Post-quantum cryptography hardware",
+          "Secure boot and attestation"
+        ],
+        "strategic_importance": "CRITICAL",
+        "government_focus": "DOD, NIST"
+      }
+    ]
+  },
+
+  "geopolitical_factors": {
+    "description": "Strategic considerations affecting semiconductor industry",
+    "us_policy_framework": {
+      "chips_act": {
+        "manufacturing_grants": "$39B",
+        "rd_funding": "$13B",
+        "tax_credit": "35% Advanced Manufacturing Investment Credit (AMIC) - increased from 25% in July 2025",
+        "objective": "Triple US chipmaking capacity by 2032",
+        "jobs_impact": "500,000+ jobs (68,000 direct fab jobs, 122,000 construction, 320,000 economy-wide)",
+        "investment_catalyzed": "$500B+ private sector (100+ projects in 28 states)"
+      },
+      "export_controls": {
+        "china_restrictions": [
+          "Advanced computing chips (AI/HPC)",
+          "Semiconductor manufacturing equipment (SME)",
+          "EDA software for advanced nodes",
+          "Sub-14nm manufacturing technology"
+        ],
+        "allied_coordination": ["US-Netherlands-Japan trilateral controls", "Wassenaar Arrangement"],
+        "effectiveness": "High - limits China's access to leading-edge technology"
+      }
+    },
+
+    "china_semiconductor_strategy": {
+      "goals": {
+        "self_sufficiency": "70% by 2025 (target)",
+        "current_status": "~16% self-sufficiency in advanced chips (2024)",
+        "major_bottlenecks": ["EUV lithography", "Advanced materials", "EDA tools", "Manufacturing equipment"]
+      },
+      "funding": {
+        "big_fund_iii": "$47B+ (2024)",
+        "total_committed": "$200B+ in subsidies and investments",
+        "super_deduction": "220% R&D tax deduction for chip companies"
+      },
+      "focus_areas": [
+        "Mature node capacity (14nm-28nm+)",
+        "Memory (DRAM, NAND)",
+        "Power semiconductors",
+        "Analog and sensors",
+        "Equipment self-reliance",
+        "Alternative architectures (chiplets, RISC-V)"
+      ],
+      "leading_companies": [
+        "SMIC (manufacturing - 14nm capable, 7nm limited production)",
+        "Hua Hong Semiconductor",
+        "YMTC (3D NAND memory)",
+        "CXMT (DRAM memory)",
+        "Huawei HiSilicon (fabless design - restricted)",
+        "Shanghai Micro Electronics (lithography equipment - lagging ASML)"
+      ]
+    },
+
+    "supply_chain_chokepoints": {
+      "critical_dependencies": [
+        {
+          "item": "EUV Lithography",
+          "supplier": "ASML (Netherlands - monopoly)",
+          "vulnerability": "Single point of failure",
+          "mitigation": "None (no alternatives exist)"
+        },
+        {
+          "item": "Neon Gas",
+          "suppliers": "Ukraine/Russia",
+          "2022_lesson": "War caused supply disruption",
+          "mitigation": "Diversification efforts underway"
+        },
+        {
+          "item": "Rare Earth Elements",
+          "supplier": "China (70%+ global supply)",
+          "vulnerability": "Geopolitical leverage",
+          "mitigation": "MP Materials (US), Lynas (Australia) expansion"
+        },
+        {
+          "item": "Advanced Packaging",
+          "concentration": "Taiwan 60%+",
+          "vulnerability": "Geographic concentration",
+          "mitigation": "US capacity expansion (Intel, Amkor)"
+        },
+        {
+          "item": "Leading-Edge Logic",
+          "concentration": "Taiwan (TSMC 90%+), Samsung",
+          "vulnerability": "Taiwan geopolitical risk",
+          "mitigation": "TSMC Arizona fabs, Intel expansion, Samsung Texas"
+        }
+      ]
+    }
+  }
+}

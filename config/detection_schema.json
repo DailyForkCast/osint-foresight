@@ -1,0 +1,116 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "China Connection Detection Schema",
+  "description": "Schema for individual China connection detections",
+  "type": "object",
+  "required": [
+    "detection_id",
+    "detector_id",
+    "confidence_score",
+    "evidence",
+    "temporal_range"
+  ],
+  "properties": {
+    "detection_id": {
+      "type": "string",
+      "description": "Unique detection identifier (uuid or hash)",
+      "minLength": 1
+    },
+    "detector_id": {
+      "type": "string",
+      "description": "Detector version identifier",
+      "pattern": "^[a-z0-9_]+_v[0-9]+\\.[0-9]+$",
+      "examples": [
+        "psc_nationality_strict_v3.0",
+        "usaspending_vendor_v2.1",
+        "sec_edgar_cik_v1.0",
+        "openalex_collaboration_v2.3"
+      ]
+    },
+    "confidence_score": {
+      "type": "number",
+      "description": "Detection confidence (0-100)",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "evidence": {
+      "type": "object",
+      "description": "Complete provenance for anti-fabrication enforcement",
+      "required": [
+        "file_id_or_url",
+        "record_id_or_line",
+        "field_name",
+        "field_value",
+        "extraction_method"
+      ],
+      "properties": {
+        "file_id_or_url": {
+          "type": "string",
+          "description": "Source file path or URL",
+          "minLength": 1
+        },
+        "record_id_or_line": {
+          "type": "string",
+          "description": "Record ID or line number in source",
+          "minLength": 1
+        },
+        "field_name": {
+          "type": "string",
+          "description": "Field that triggered detection",
+          "minLength": 1
+        },
+        "field_value": {
+          "type": "string",
+          "description": "Exact value from field (or JSON if multiple)",
+          "minLength": 1
+        },
+        "extraction_method": {
+          "type": "string",
+          "enum": [
+            "direct_field_read",
+            "keyword_match",
+            "regex_match",
+            "fuzzy_match",
+            "ml_classification"
+          ],
+          "description": "How the value was extracted"
+        },
+        "feature_hash": {
+          "type": "string",
+          "description": "SHA-256 hash of source record",
+          "pattern": "^sha256:[a-f0-9]{64}$"
+        }
+      }
+    },
+    "temporal_range": {
+      "type": "object",
+      "required": ["valid_from", "valid_to", "inferred"],
+      "properties": {
+        "valid_from": {
+          "type": "string",
+          "description": "Start date (ISO 8601)",
+          "pattern": "^([0-9]{4}-[0-9]{2}-[0-9]{2}|unknown)$"
+        },
+        "valid_to": {
+          "type": "string",
+          "description": "End date (9999-12-31 if current)",
+          "pattern": "^([0-9]{4}-[0-9]{2}-[0-9]{2}|9999-12-31)$"
+        },
+        "inferred": {
+          "type": "boolean",
+          "description": "Was temporal range inferred?"
+        }
+      }
+    },
+    "incomplete": {
+      "type": "boolean",
+      "description": "Is this detection incomplete/partial?",
+      "default": false
+    },
+    "human_verified": {
+      "type": "boolean",
+      "description": "Has a human reviewed this detection?",
+      "default": false
+    }
+  }
+}

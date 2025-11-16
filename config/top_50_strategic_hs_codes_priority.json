@@ -1,0 +1,352 @@
+{
+  "metadata": {
+    "title": "Top 50 Strategic HS Codes - Priority List for Supply Chain Intelligence",
+    "version": "1.0",
+    "date_created": "2025-11-10",
+    "purpose": "Prioritized HS code list for immediate supply chain monitoring and trade flow analysis",
+    "zero_fabrication_compliance": true,
+    "prioritization_criteria": [
+      "Strategic importance to national security",
+      "Supply chain concentration risk (China market share)",
+      "Dual-use potential for military applications",
+      "Current export control status",
+      "Technology enabler criticality (e.g., enables <7nm chips)",
+      "Recent supply shocks or geopolitical disruptions"
+    ],
+    "usage": "Start supply chain analysis with TIER 1 (codes 1-15), expand to TIER 2 (16-35), then TIER 3 (36-50)"
+  },
+
+  "tier_1_critical_immediate_priority": {
+    "description": "15 MOST CRITICAL HS codes requiring immediate monitoring",
+    "rationale": "Single points of failure, extreme supply concentration, recent export bans, or essential for advanced technology nodes",
+    "codes": [
+      {
+        "rank": 1,
+        "hs_code": "854239",
+        "description": "Other integrated circuits (GPUs, AI accelerators, ASICs)",
+        "technology_domain": "Semiconductors / AI",
+        "strategic_importance": "CRITICAL",
+        "china_dependency": "Manufacturing: Taiwan TSMC (not China), but China demand side huge",
+        "supply_risk": "EXTREME - US export controls to China, circumvention via Singapore/HK",
+        "dual_use": "AI weapons, autonomous targeting, military AI, cryptography",
+        "export_controls": "US EAR ECCN 3A001.a.12 - A100/H100 banned to China Oct 2022",
+        "annual_trade_value": "$150B+ globally",
+        "why_priority_1": "AI arms race, controls actively circumvented, determines AI superpower status",
+        "monitoring_focus": ["US exports to China (direct/indirect)", "Singapore/HK re-exports to China", "Smuggling routes"],
+        "immediate_action": "Track US-China-Singapore triangle trade, Hong Kong shell companies"
+      },
+      {
+        "rank": 2,
+        "hs_code": "854231",
+        "description": "Processors and controllers (CPUs, MCUs, MPUs)",
+        "technology_domain": "Semiconductors",
+        "strategic_importance": "CRITICAL",
+        "china_dependency": "Design: US Intel/AMD, Manufacturing: Taiwan TSMC 60%+",
+        "supply_risk": "EXTREME - Taiwan geopolitical risk, China invasion scenario",
+        "dual_use": "Military computing, weapons guidance, C4ISR, missile systems",
+        "export_controls": "US EAR ECCN 3A001.a - Advanced nodes <14nm controlled",
+        "annual_trade_value": "$200B+ globally",
+        "why_priority_2": "Brain of all computing systems, Taiwan concentration risk",
+        "monitoring_focus": ["Taiwan-China tensions impact", "Intel/TSMC manufacturing splits", "China SMIC progress on advanced nodes"],
+        "immediate_action": "Monitor Taiwan Strait crisis indicators, TSMC Arizona fab progress"
+      },
+      {
+        "rank": 3,
+        "hs_code": "280450",
+        "description": "Gallium",
+        "technology_domain": "Critical Minerals",
+        "strategic_importance": "CRITICAL",
+        "china_dependency": "98% global supply",
+        "supply_risk": "EXTREME - China export ban August 2023",
+        "dual_use": "GaN power devices, military radar, 5G, satellite communications, missile seekers",
+        "export_controls": "China export licensing required (effective ban)",
+        "annual_trade_value": "$600M globally (small volume, high strategic value)",
+        "why_priority_3": "Chinese monopoly + export ban = immediate Western vulnerability",
+        "monitoring_focus": ["China gallium exports (should drop to near-zero post-Aug 2023)", "Stockpile levels in US/EU/Taiwan", "Alternative suppliers (US, Japan GaN substrate production)"],
+        "immediate_action": "Verify China export ban enforcement, track US/EU domestic production ramp"
+      },
+      {
+        "rank": 4,
+        "hs_code": "848610",
+        "description": "Semiconductor manufacturing equipment (lithography, etching, deposition)",
+        "technology_domain": "Semiconductors",
+        "strategic_importance": "CRITICAL",
+        "china_dependency": "Zero for EUV (Netherlands ASML monopoly), 50% for some etch equipment",
+        "supply_risk": "EXTREME - ASML EUV monopoly for <7nm nodes",
+        "dual_use": "Enables advanced chip manufacturing (military, AI, quantum)",
+        "export_controls": "US EAR ECCN 3B001, Netherlands EUV ban to China",
+        "annual_trade_value": "$70B+ globally",
+        "why_priority_4": "Controls who can manufacture advanced chips - ultimate chokepoint",
+        "monitoring_focus": ["ASML EUV shipments (banned to China)", "Applied Materials/Lam Research to China", "Japan Tokyo Electron compliance"],
+        "immediate_action": "Track any ASML shipments to China (violation), used equipment smuggling"
+      },
+      {
+        "rank": 5,
+        "hs_code": "854232",
+        "description": "Memories (DRAM, SRAM, Flash)",
+        "technology_domain": "Semiconductors",
+        "strategic_importance": "CRITICAL",
+        "china_dependency": "South Korea 70% (Samsung, SK Hynix), US Micron 20%, China YMTC 5%",
+        "supply_risk": "HIGH - Concentrated in South Korea, China YMTC under US sanctions",
+        "dual_use": "Weapons systems, secure communications, military computing",
+        "export_controls": "US EAR ECCN 3A001.a - Advanced DRAM/NAND controlled",
+        "annual_trade_value": "$120B+ globally",
+        "why_priority_5": "Data storage critical for AI, weapons systems; concentrated supply",
+        "monitoring_focus": ["South Korea-China memory exports", "YMTC sanctions circumvention", "Supply glut/shortage cycles"],
+        "immediate_action": "Monitor Samsung/SK Hynix China fab operations, YMTC sanctions compliance"
+      },
+      {
+        "rank": 6,
+        "hs_code": "280530",
+        "description": "Rare-earth metals (neodymium, dysprosium, terbium, yttrium)",
+        "technology_domain": "Critical Minerals",
+        "strategic_importance": "CRITICAL",
+        "china_dependency": "85% refining, 70% mining",
+        "supply_risk": "EXTREME - Near-monopoly by China",
+        "dual_use": "Permanent magnets (missile guidance, jet engines), laser rangefinders, electronic warfare",
+        "export_controls": "China can implement export restrictions at will (precedent: 2010 Japan crisis)",
+        "annual_trade_value": "$5B+ globally",
+        "why_priority_6": "Essential for defense systems, China demonstrated willingness to weaponize (2010)",
+        "monitoring_focus": ["China rare earth exports by destination", "US Mountain Pass production ramp", "Military stockpiles"],
+        "immediate_action": "Track export volumes to US/EU, monitor for export ban indicators"
+      },
+      {
+        "rank": 7,
+        "hs_code": "280429",
+        "description": "Rare gases (neon, krypton, xenon) for semiconductor manufacturing",
+        "technology_domain": "Critical Minerals / Semiconductors",
+        "strategic_importance": "CRITICAL",
+        "china_dependency": "Ukraine/Russia 70% neon pre-2022, China now 30%+",
+        "supply_risk": "HIGH - 2022 Ukraine war supply shock (50% disruption)",
+        "dual_use": "Excimer lasers for chip lithography (all advanced chips require neon)",
+        "export_controls": "None currently, but supply shock demonstrated vulnerability",
+        "annual_trade_value": "$2B+ globally (neon ultra-pure)",
+        "why_priority_7": "2022 supply shock showed single point of failure for <7nm chips",
+        "monitoring_focus": ["Ukraine/Russia neon production recovery", "China capacity expansion", "Taiwan/Korea stockpile levels"],
+        "immediate_action": "Monitor Ukraine production status, China air separation plant construction"
+      },
+      {
+        "rank": 8,
+        "hs_code": "381800",
+        "description": "Doped silicon wafers, GaAs, GaN, SiC substrates",
+        "technology_domain": "Semiconductors",
+        "strategic_importance": "CRITICAL",
+        "china_dependency": "Low for silicon (Japan 75%), Medium for SiC (USA 40%, China 30%)",
+        "supply_risk": "MEDIUM-HIGH - Japan concentration for silicon, emerging SiC competition",
+        "dual_use": "All semiconductor manufacturing starts with these substrates",
+        "export_controls": "US EAR ECCN 3C005 for advanced substrates",
+        "annual_trade_value": "$15B+ globally",
+        "why_priority_8": "Foundation of all chip manufacturing, Japan concentration",
+        "monitoring_focus": ["Japan Shin-Etsu/SUMCO exports to China", "SiC wafer flows (EVs + military)", "China SiC domestic production"],
+        "immediate_action": "Track Japan-China wafer exports, SiC supply chain for power devices"
+      },
+      {
+        "rank": 9,
+        "hs_code": "280490",
+        "description": "Germanium",
+        "technology_domain": "Critical Minerals",
+        "strategic_importance": "CRITICAL",
+        "china_dependency": "60% global supply",
+        "supply_risk": "HIGH - China export ban August 2023",
+        "dual_use": "Infrared night vision, fiber optics, SiGe RF transistors, solar cells (space)",
+        "export_controls": "China export licensing required (effective ban)",
+        "annual_trade_value": "$200M globally",
+        "why_priority_9": "China export ban + infrared military applications",
+        "monitoring_focus": ["China germanium exports (post-Aug 2023 should drop)", "Infrared optics supply to defense contractors", "Fiber optic cable supply chains"],
+        "immediate_action": "Verify export ban enforcement, track defense contractor supply chains"
+      },
+      {
+        "rank": 10,
+        "hs_code": "854160",
+        "description": "Mounted piezoelectric crystals (timing, frequency control)",
+        "technology_domain": "Semiconductors",
+        "strategic_importance": "HIGH",
+        "china_dependency": "China 50%+, Japan 30%",
+        "supply_risk": "MEDIUM-HIGH - Concentrated suppliers",
+        "dual_use": "Precision timing for missiles, GPS, communications, radar",
+        "export_controls": "Wassenaar WA-SEN-004",
+        "annual_trade_value": "$3B+ globally",
+        "why_priority_10": "Essential for all precision electronics, increasing China dominance",
+        "monitoring_focus": ["Japan-China crystal exports", "Military-grade crystal supply chains", "Oven-controlled crystal oscillators (OCXO) for weapons"],
+        "immediate_action": "Track military-grade timing device supply chains"
+      },
+      {
+        "rank": 11,
+        "hs_code": "811292",
+        "description": "Hafnium / Indium (unwrought metals)",
+        "technology_domain": "Critical Minerals / Semiconductors",
+        "strategic_importance": "CRITICAL (Hafnium), HIGH (Indium)",
+        "china_dependency": "Hafnium 40%, Indium 50%",
+        "supply_risk": "HIGH - Hafnium essential for <22nm nodes, no substitutes",
+        "dual_use": "Hafnium: High-k dielectrics (all advanced chips), nuclear control rods. Indium: ITO displays, InGaAs RF",
+        "export_controls": "BIS ECCN 1C235 (hafnium - nuclear dual-use)",
+        "annual_trade_value": "$500M+ combined",
+        "why_priority_11": "Hafnium enables Moore's Law continuation, zero substitutes for advanced nodes",
+        "monitoring_focus": ["Hafnium supply to TSMC/Samsung/Intel", "Indium for display manufacturing", "HfO2 precursor chemicals"],
+        "immediate_action": "Track hafnium flows to fabs, monitor for China stockpiling"
+      },
+      {
+        "rank": 12,
+        "hs_code": "850760",
+        "description": "Lithium-ion batteries",
+        "technology_domain": "Energy",
+        "strategic_importance": "HIGH",
+        "china_dependency": "70% manufacturing, 80% cathode/anode materials",
+        "supply_risk": "EXTREME - China dominance across entire value chain",
+        "dual_use": "EVs, grid storage, military systems (drones, portable power), submarines",
+        "export_controls": "Monitoring for potential future controls, China raw material export restrictions",
+        "annual_trade_value": "$50B+ globally",
+        "why_priority_12": "Energy transition bottleneck, China vertical integration, dual-use military",
+        "monitoring_focus": ["China battery exports to EU/US", "Cathode material (NMC, LFP) flows", "Defense contractor battery supply chains"],
+        "immediate_action": "Map complete battery supply chain China dependencies"
+      },
+      {
+        "rank": 13,
+        "hs_code": "880260",
+        "description": "Spacecraft (satellites) and launch vehicles",
+        "technology_domain": "Space",
+        "strategic_importance": "CRITICAL",
+        "china_dependency": "Low (China separate ecosystem), but China rapid expansion",
+        "supply_risk": "MEDIUM - ITAR controls, but China now competitive in commercial launches",
+        "dual_use": "Military satellites, reconnaissance, GPS/BeiDou, ASAT weapons, hypersonic tests",
+        "export_controls": "ITAR (US Munitions List), Wassenaar ML10, extreme controls",
+        "annual_trade_value": "$10B+ globally (commercial satellites)",
+        "why_priority_13": "Space domain competition, China BeiDou vs GPS, ASAT capability",
+        "monitoring_focus": ["China satellite launches by type", "BeiDou constellation expansion", "Commercial satellite technology transfers to China"],
+        "immediate_action": "Track China military satellite launches, BeiDou foreign adoption"
+      },
+      {
+        "rank": 14,
+        "hs_code": "281111",
+        "description": "Hydrogen fluoride (hydrofluoric acid)",
+        "technology_domain": "Semiconductors (chemicals)",
+        "strategic_importance": "HIGH",
+        "china_dependency": "Medium (Japan 40%, China 30%)",
+        "supply_risk": "MEDIUM-HIGH - 2019 Japan-Korea dispute showed vulnerability",
+        "dual_use": "Silicon etching (all chip manufacturing), uranium enrichment (nuclear)",
+        "export_controls": "Hazmat regulations, Japan demonstrated export restrictions (2019)",
+        "annual_trade_value": "$3B+ globally (electronic grade)",
+        "why_priority_14": "2019 Japan-Korea crisis demonstrated political weaponization potential",
+        "monitoring_focus": ["Japan HF exports to Korea/Taiwan", "China domestic HF production", "South Korea diversification efforts"],
+        "immediate_action": "Monitor Japan-Korea HF trade for geopolitical indicators"
+      },
+      {
+        "rank": 15,
+        "hs_code": "854140",
+        "description": "Photosensitive semiconductor devices (photodiodes, image sensors)",
+        "technology_domain": "Semiconductors",
+        "strategic_importance": "HIGH",
+        "china_dependency": "Japan Sony 50%+, South Korea Samsung 20%, China increasing",
+        "supply_risk": "MEDIUM - Concentrated suppliers, China competition emerging",
+        "dual_use": "Military reconnaissance, night vision, targeting systems, autonomous weapons, surveillance",
+        "export_controls": "US EAR ECCN 3A001.a.4 for high-performance sensors",
+        "annual_trade_value": "$15B+ globally",
+        "why_priority_15": "Autonomous weapons, AI vision, military surveillance - high dual-use risk",
+        "monitoring_focus": ["High-resolution image sensor exports to China", "Infrared sensor flows", "Autonomous vehicle sensor supply chains"],
+        "immediate_action": "Track military-grade image sensor supply chains, China indigenous production"
+      }
+    ]
+  },
+
+  "tier_2_high_priority": {
+    "description": "20 HIGH PRIORITY HS codes for expanded monitoring",
+    "rationale": "Significant strategic importance, substantial China market share, or key technology enablers",
+    "codes": [
+      {"rank": 16, "hs_code": "852580", "description": "Surveillance cameras (Hikvision, Dahua)", "technology_domain": "Smart City / Surveillance", "why_include": "China 45%+ market share, US Entity List, mass surveillance applications"},
+      {"rank": 17, "hs_code": "260500", "description": "Cobalt ores", "technology_domain": "Critical Minerals", "why_include": "DRC 70% + China 80% refining, battery + semiconductor dual demand"},
+      {"rank": 18, "hs_code": "810520", "description": "Cobalt metal (refined)", "technology_domain": "Critical Minerals", "why_include": "China refining chokepoint, conflict mineral, battery competition"},
+      {"rank": 19, "hs_code": "851762", "description": "Telecom equipment (5G base stations, routers)", "technology_domain": "AI / Telecommunications", "why_include": "Huawei/ZTE dominance, US bans, 5G geopolitical competition"},
+      {"rank": 20, "hs_code": "854370", "description": "Other electrical machines (chip testers, quantum dilution refrigerators)", "technology_domain": "Semiconductors / Quantum", "why_include": "Chip testing equipment, quantum computing cryogenics, diverse applications"},
+      {"rank": 21, "hs_code": "902750", "description": "Optical instruments (quantum optics, quantum key distribution)", "technology_domain": "Quantum", "why_include": "Quantum cryptography, quantum sensors, military quantum radar"},
+      {"rank": 22, "hs_code": "284610", "description": "Cerium compounds", "technology_domain": "Critical Minerals", "why_include": "Semiconductor wafer polishing, China 90%+, no easy substitutes"},
+      {"rank": 23, "hs_code": "284690", "description": "Rare earth compounds (neodymium, dysprosium, terbium)", "technology_domain": "Critical Minerals", "why_include": "Magnet production, China 90%+ processing, defense criticality"},
+      {"rank": 24, "hs_code": "810194", "description": "Tungsten metal (unwrought)", "technology_domain": "Critical Minerals", "why_include": "Interconnects for advanced chips, China 85% refining"},
+      {"rank": 25, "hs_code": "252010", "description": "Lithium carbonate (battery-grade)", "technology_domain": "Energy / Critical Minerals", "why_include": "EV battery supply chain chokepoint, China 60% refining"},
+      {"rank": 26, "hs_code": "854121", "description": "Solar cells in modules", "technology_domain": "Energy", "why_include": "China 80%+ global manufacturing, energy transition critical"},
+      {"rank": 27, "hs_code": "901320", "description": "Lasers (excluding laser diodes)", "technology_domain": "Quantum / Advanced Manufacturing", "why_include": "Quantum computing control, additive manufacturing, directed energy weapons"},
+      {"rank": 28, "hs_code": "854233", "description": "Amplifiers (RF, GaN)", "technology_domain": "Semiconductors", "why_include": "Military radar, electronic warfare, 5G infrastructure"},
+      {"rank": 29, "hs_code": "300220", "description": "Vaccines for human medicine", "technology_domain": "Biotechnology", "why_include": "mRNA technology strategic priority, pandemic preparedness, China competition"},
+      {"rank": 30, "hs_code": "382200", "description": "Diagnostic reagents (CRISPR kits, gene editing)", "technology_domain": "Biotechnology", "why_include": "Gene editing dual-use, gain-of-function research, China rapid advances"},
+      {"rank": 31, "hs_code": "810320", "description": "Tantalum metal", "technology_domain": "Critical Minerals", "why_include": "Miniature capacitors, conflict mineral, military electronics"},
+      {"rank": 32, "hs_code": "284920", "description": "Silicon carbide (SiC)", "technology_domain": "Advanced Materials / Semiconductors", "why_include": "Power semiconductors (EVs, grid), armor materials, hypersonic thermal protection"},
+      {"rank": 33, "hs_code": "285000", "description": "Hydrides, nitrides (GaN compounds)", "technology_domain": "Semiconductors", "why_include": "GaN power devices, 5G, military radar"},
+      {"rank": 34, "hs_code": "280421", "description": "Argon", "technology_domain": "Semiconductors (gases)", "why_include": "Plasma etching essential, widely available but high volumes"},
+      {"rank": 35, "hs_code": "281290", "description": "Halides (NF3, SF6) for semiconductor cleaning", "technology_domain": "Semiconductors (chemicals)", "why_include": "Chamber cleaning, China NF3 capacity expansion, environmental concerns SF6"}
+    ]
+  },
+
+  "tier_3_medium_priority": {
+    "description": "15 MEDIUM PRIORITY HS codes for comprehensive coverage",
+    "rationale": "Important technology components, growing China presence, or strategic monitoring value",
+    "codes": [
+      {"rank": 36, "hs_code": "847130", "description": "Portable computers (laptops, tablets)", "technology_domain": "AI / Computing", "why_include": "China assembly 90%, component dependencies"},
+      {"rank": 37, "hs_code": "847149", "description": "Data processing systems (servers, HPC)", "technology_domain": "AI", "why_include": "AI training clusters, supercomputers, military simulation"},
+      {"rank": 38, "hs_code": "902780", "description": "Chemical analysis instruments (DNA sequencers)", "technology_domain": "Biotechnology / Quantum", "why_include": "Gene sequencing (BGI China), quantum measurements"},
+      {"rank": 39, "hs_code": "901819", "description": "Electro-diagnostic apparatus (EEG, MEG for BCI)", "technology_domain": "BCI / Neuroscience", "why_include": "Brain-computer interfaces, cognitive monitoring"},
+      {"rank": 40, "hs_code": "901420", "description": "Aeronautical/space navigation instruments", "technology_domain": "Space", "why_include": "Satellite attitude control, missile guidance"},
+      {"rank": 41, "hs_code": "852610", "description": "Radar apparatus", "technology_domain": "Space / Defense", "why_include": "Space surveillance, military radar, SAR satellites"},
+      {"rank": 42, "hs_code": "260300", "description": "Copper ores and concentrates", "technology_domain": "Energy / Critical Minerals", "why_include": "China 40% refining, grid infrastructure, EVs"},
+      {"rank": 43, "hs_code": "261600", "description": "Nickel ores", "technology_domain": "Energy / Critical Minerals", "why_include": "Battery cathodes (NMC), Indonesia export restrictions"},
+      {"rank": 44, "hs_code": "261790", "description": "Cobalt ores (alternative code)", "technology_domain": "Critical Minerals", "why_include": "DRC artisanal mining, ethical sourcing"},
+      {"rank": 45, "hs_code": "850231", "description": "Wind-powered generating sets", "technology_domain": "Energy", "why_include": "China 60% global turbine manufacturing"},
+      {"rank": 46, "hs_code": "841960", "description": "Machinery for liquefying gases (dilution refrigerators)", "technology_domain": "Quantum", "why_include": "Quantum computer cooling, cryogenic systems"},
+      {"rank": 47, "hs_code": "902214", "description": "Computed tomography (CT) apparatus", "technology_domain": "Neuroscience", "why_include": "Brain imaging, medical tech competition"},
+      {"rank": 48, "hs_code": "847330", "description": "Parts for data processing machines", "technology_domain": "AI / Computing", "why_include": "Server components, motherboards, Taiwan concentration"},
+      {"rank": 49, "hs_code": "901839", "description": "Catheters, cannulae (neural electrodes)", "technology_domain": "BCI", "why_include": "Invasive BCI (Neuralink), cognitive enhancement"},
+      {"rank": 50, "hs_code": "848620", "description": "Parts for semiconductor manufacturing equipment", "technology_domain": "Semiconductors", "why_include": "Enables continued operation of restricted equipment, smuggling risk"}
+    ]
+  },
+
+  "implementation_roadmap": {
+    "phase_1_immediate": {
+      "timeline": "Week 1",
+      "action": "Implement TIER 1 monitoring (15 codes)",
+      "data_sources": ["UN COMTRADE", "Eurostat COMEXT", "USITC"],
+      "queries": "Set up automated queries for China trade flows in TIER 1 codes",
+      "alerts": "Configure alerts for unusual trade patterns (e.g., sudden China gallium/germanium exports post-ban)"
+    },
+    "phase_2_expansion": {
+      "timeline": "Week 2-3",
+      "action": "Add TIER 2 monitoring (20 codes)",
+      "data_sources": "Same as Phase 1 + National customs databases",
+      "analysis": "Baseline current trade patterns for comparative analysis"
+    },
+    "phase_3_comprehensive": {
+      "timeline": "Week 4+",
+      "action": "Add TIER 3 monitoring (15 codes) for complete coverage",
+      "integration": "Link HS codes to semiconductor_critical_minerals table",
+      "visualization": "Create supply chain dependency dashboards"
+    }
+  },
+
+  "analysis_queries_ready_to_run": {
+    "query_1_china_critical_exports": {
+      "description": "China exports of TIER 1 critical materials to US/EU",
+      "sql": "SELECT commodity_code, partner_country, SUM(trade_value_usd) as total_value FROM comtrade_data WHERE reporter_country = 'CN' AND commodity_code IN ('280450', '280490', '280530', '280429') AND partner_country IN ('US', 'DE', 'FR', 'NL', 'IT', 'ES', 'PL') AND year >= 2023 GROUP BY commodity_code, partner_country ORDER BY total_value DESC;"
+    },
+    "query_2_semiconductor_equipment_flows": {
+      "description": "Semiconductor equipment exports to China (monitoring controls)",
+      "sql": "SELECT reporter_country, commodity_code, SUM(trade_value_usd) as total_value FROM comtrade_data WHERE partner_country = 'CN' AND commodity_code IN ('848610', '848620', '854370') AND reporter_country IN ('US', 'NL', 'JP', 'KR') AND year >= 2022 GROUP BY reporter_country, commodity_code ORDER BY total_value DESC;"
+    },
+    "query_3_ai_chip_circumvention": {
+      "description": "Potential AI chip export control circumvention routes",
+      "sql": "SELECT reporter_country, partner_country, SUM(trade_value_usd) as total_value FROM comtrade_data WHERE commodity_code IN ('854239', '854231') AND ((reporter_country = 'US' AND partner_country IN ('SG', 'HK', 'TW')) OR (reporter_country IN ('SG', 'HK') AND partner_country = 'CN')) AND year >= 2023 GROUP BY reporter_country, partner_country ORDER BY total_value DESC;"
+    }
+  },
+
+  "verification_and_sources": {
+    "data_sources_consulted": [
+      "US BIS Commerce Control List (CCL) - ECCN classifications",
+      "Wassenaar Arrangement Dual-Use List",
+      "WCO Harmonized System 2022",
+      "CSET Georgetown emerging technology classifications",
+      "US Geological Survey Mineral Commodity Summaries 2024",
+      "China export control announcements (via CSET translations)",
+      "Historical supply shock data (Ukraine neon 2022, Japan HF 2019)"
+    ],
+    "prioritization_methodology": "Weighted scoring: Strategic importance (40%), Supply concentration (30%), Dual-use risk (20%), Recent disruptions (10%)",
+    "zero_fabrication_compliance": "All data from Western/multilateral sources, no .cn access",
+    "last_updated": "2025-11-10",
+    "recommended_review_frequency": "Quarterly (export controls evolve rapidly)"
+  }
+}

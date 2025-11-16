@@ -1,0 +1,701 @@
+{
+  "_comment": "Expanded Stage 1 keywords for OpenAlex processing - V4 configuration",
+  "_version": "5.1",
+  "_created": "2025-10-22",
+  "_methodology": "Curated technology keywords - null_data_driven sections removed due to contamination",
+  "AI": {
+    "core_keywords": [
+      "artificial intelligence",
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "natural language processing",
+      "computer vision"
+    ],
+    "methods_keywords": [
+      "reinforcement learning",
+      "supervised learning",
+      "unsupervised learning",
+      "transfer learning",
+      "federated learning",
+      "few-shot learning",
+      "zero-shot learning",
+      "semi-supervised learning"
+    ],
+    "architectures_keywords": [
+      "transformer",
+      "convolutional neural",
+      "recurrent neural",
+      "generative adversarial",
+      "autoencoder",
+      "attention mechanism",
+      "neural architecture search"
+    ],
+    "models_keywords": [
+      "large language model",
+      "generative ai",
+      "llm",
+      "gpt",
+      "bert",
+      "diffusion model"
+    ],
+    "applications_keywords": [
+      "chatbot",
+      "cognitive computing",
+      "intelligent agent",
+      "expert system",
+      "knowledge representation",
+      "automated reasoning",
+      "swarm intelligence",
+      "evolutionary algorithm"
+    ]
+  },
+  "Quantum": {
+    "core_keywords": [
+      "quantum computing",
+      "quantum information",
+      "quantum mechanics",
+      "quantum physics",
+      "qubit",
+      "quantum bit"
+    ],
+    "quantum_phenomena": [
+      "quantum entanglement",
+      "quantum superposition",
+      "quantum coherence",
+      "quantum decoherence",
+      "quantum state",
+      "quantum measurement",
+      "quantum interference"
+    ],
+    "quantum_technologies": [
+      "quantum cryptography",
+      "quantum key distribution",
+      "quantum communication",
+      "quantum network",
+      "quantum channel",
+      "quantum sensing",
+      "quantum sensor",
+      "quantum radar",
+      "quantum metrology"
+    ],
+    "quantum_computing_tech": [
+      "quantum algorithm",
+      "quantum gate",
+      "quantum circuit",
+      "quantum processor",
+      "quantum annealing",
+      "quantum simulation",
+      "quantum error correction",
+      "quantum supremacy"
+    ],
+    "quantum_hardware": [
+      "superconducting qubit",
+      "topological qubit",
+      "ion trap",
+      "quantum dot",
+      "qubit array",
+      "quantum register"
+    ]
+  },
+  "Space": {
+    "core_keywords": [
+      "space technology",
+      "space system",
+      "space mission",
+      "space exploration",
+      "aerospace",
+      "astronautics"
+    ],
+    "spacecraft_keywords": [
+      "satellite",
+      "spacecraft",
+      "cubesat",
+      "microsatellite",
+      "nanosatellite",
+      "space station",
+      "space probe",
+      "reentry vehicle"
+    ],
+    "propulsion_keywords": [
+      "rocket propulsion",
+      "launch vehicle",
+      "space propulsion",
+      "electric propulsion",
+      "ion thruster"
+    ],
+    "operations_keywords": [
+      "orbital mechanics",
+      "space navigation",
+      "space communication",
+      "space debris",
+      "space weather",
+      "space environment"
+    ],
+    "missions_keywords": [
+      "mars mission",
+      "lunar exploration",
+      "deep space",
+      "interplanetary",
+      "planetary science",
+      "space resources",
+      "asteroid mining"
+    ],
+    "science_keywords": [
+      "astrophysics",
+      "exoplanet",
+      "gravitational wave",
+      "space telescope",
+      "remote sensing",
+      "earth observation",
+      "ionosphere",
+      "magnetosphere",
+      "solar wind"
+    ]
+  },
+  "Semiconductors": {
+    "core_keywords": [
+      "semiconductor",
+      "semiconductor device",
+      "semiconductor chip",
+      "microchip",
+      "integrated circuit",
+      "electronic chip"
+    ],
+    "devices_keywords": [
+      "transistor",
+      "mosfet",
+      "finfet",
+      "gate-all-around",
+      "tfet",
+      "power semiconductor"
+    ],
+    "materials_keywords": [
+      "silicon wafer",
+      "gaas device",
+      "gan device",
+      "sic device",
+      "wide bandgap semiconductor",
+      "silicon carbide",
+      "gallium nitride"
+    ],
+    "manufacturing_keywords": [
+      "semiconductor manufacturing",
+      "semiconductor process",
+      "chip fabrication",
+      "wafer processing",
+      "photolithography",
+      "euv lithography",
+      "chemical vapor deposition",
+      "atomic layer deposition",
+      "doping process",
+      "etching process"
+    ],
+    "design_keywords": [
+      "chip design",
+      "ic design",
+      "asic design",
+      "fpga",
+      "soc design",
+      "vlsi design",
+      "analog circuit",
+      "digital circuit",
+      "mixed signal"
+    ],
+    "technology_keywords": [
+      "cmos technology",
+      "bipolar technology",
+      "circuit integration",
+      "chiplet architecture",
+      "heterogeneous integration",
+      "3d integration",
+      "system on chip"
+    ]
+  },
+  "Smart_City": {
+    "core_keywords": [
+      "smart city",
+      "intelligent city",
+      "digital city",
+      "connected city",
+      "urban computing",
+      "city platform"
+    ],
+    "iot_keywords": [
+      "internet of things",
+      "urban iot",
+      "city sensors",
+      "sensor network",
+      "urban sensor network",
+      "wireless sensor"
+    ],
+    "infrastructure_keywords": [
+      "smart infrastructure",
+      "connected infrastructure",
+      "smart grid",
+      "smart building",
+      "smart home",
+      "smart lighting",
+      "smart parking"
+    ],
+    "transportation_keywords": [
+      "intelligent transportation system",
+      "smart mobility",
+      "traffic management system",
+      "connected vehicle",
+      "autonomous vehicle urban"
+    ],
+    "management_keywords": [
+      "urban planning",
+      "urban analytics",
+      "urban data",
+      "city data",
+      "urban automation",
+      "urban management",
+      "city management"
+    ],
+    "technology_keywords": [
+      "5g city",
+      "digital twin city",
+      "urban dashboard",
+      "smart environment",
+      "civic tech",
+      "urban informatics"
+    ]
+  },
+  "Neuroscience": {
+    "core_keywords": [
+      "neuroscience",
+      "neurology",
+      "brain science",
+      "cognitive neuroscience",
+      "neural science"
+    ],
+    "brain_structure": [
+      "brain",
+      "cortex",
+      "hippocampus",
+      "cerebellum",
+      "brain region",
+      "neural circuit",
+      "neural pathway"
+    ],
+    "imaging_keywords": [
+      "brain imaging",
+      "neuroimaging",
+      "fmri",
+      "electroencephalography",
+      "eeg recording",
+      "meg",
+      "brain mapping",
+      "brain scan"
+    ],
+    "neural_activity": [
+      "neuron activity",
+      "neural activity",
+      "brain activity",
+      "neural firing",
+      "spike train",
+      "neural encoding",
+      "neural dynamics"
+    ],
+    "mechanisms_keywords": [
+      "synaptic transmission",
+      "neurotransmitter",
+      "neural plasticity",
+      "neuroplasticity",
+      "brain connectivity",
+      "neural network biology",
+      "brain function",
+      "cognitive function"
+    ],
+    "technology_keywords": [
+      "brain-computer interface",
+      "bci system",
+      "neural interface",
+      "neuroprosthetics",
+      "optogenetics",
+      "connectome",
+      "brain signal"
+    ]
+  },
+  "Biotechnology": {
+    "core_keywords": [
+      "biotechnology",
+      "bioengineering",
+      "biotech",
+      "synthetic biology",
+      "biomolecular engineering"
+    ],
+    "genetic_engineering": [
+      "crispr",
+      "gene editing",
+      "genetic engineering",
+      "gene therapy",
+      "genome sequencing",
+      "dna sequencing",
+      "gene expression",
+      "gene regulation",
+      "recombinant dna"
+    ],
+    "protein_engineering": [
+      "protein engineering",
+      "recombinant protein",
+      "monoclonal antibody",
+      "antibody engineering"
+    ],
+    "cell_engineering": [
+      "cell therapy",
+      "cell engineering",
+      "tissue engineering",
+      "stem cell engineering"
+    ],
+    "medical_biotech": [
+      "mrna vaccine",
+      "immunotherapy",
+      "biologic drug",
+      "molecular diagnostics",
+      "biosensor"
+    ],
+    "industrial_biotech": [
+      "bioinformatics",
+      "bioprocess",
+      "fermentation technology",
+      "metabolic engineering",
+      "biomanufacturing"
+    ]
+  },
+  "Advanced_Materials": {
+    "core_keywords": [
+      "advanced material",
+      "functional material",
+      "smart material",
+      "materials science",
+      "materials engineering"
+    ],
+    "nanomaterials": [
+      "nanomaterial",
+      "nanostructure",
+      "nanocomposite",
+      "nanofiber",
+      "nanowire",
+      "nanoparticle",
+      "nanotechnology"
+    ],
+    "carbon_materials": [
+      "graphene",
+      "carbon nanotube",
+      "fullerene",
+      "carbon fiber"
+    ],
+    "2d_materials": [
+      "2d material",
+      "two-dimensional material",
+      "monolayer",
+      "van der waals material"
+    ],
+    "quantum_materials": [
+      "quantum material",
+      "topological material",
+      "quantum dot",
+      "superconductor",
+      "superconductive material"
+    ],
+    "functional_materials": [
+      "metamaterial",
+      "photonic crystal",
+      "phase change material",
+      "shape memory alloy",
+      "self-healing material",
+      "piezoelectric material",
+      "ferroelectric material",
+      "multiferroic",
+      "thermoelectric material"
+    ],
+    "composites": [
+      "composite material",
+      "advanced composite",
+      "biomaterial",
+      "aerogel",
+      "thin film"
+    ]
+  },
+  "Energy": {
+    "core_keywords": [
+      "energy technology",
+      "energy system",
+      "energy conversion",
+      "power generation",
+      "renewable energy"
+    ],
+    "solar_keywords": [
+      "solar cell",
+      "photovoltaic",
+      "solar panel",
+      "solar energy",
+      "perovskite solar cell",
+      "thin film solar"
+    ],
+    "storage_keywords": [
+      "battery technology",
+      "energy storage",
+      "solid state battery",
+      "lithium battery",
+      "grid scale storage",
+      "flow battery"
+    ],
+    "hydrogen_keywords": [
+      "hydrogen fuel cell",
+      "fuel cell",
+      "hydrogen energy",
+      "hydrogen production",
+      "hydrogen storage",
+      "electrolysis"
+    ],
+    "nuclear_keywords": [
+      "fusion energy",
+      "nuclear fusion",
+      "nuclear fusion reactor",
+      "fusion reactor",
+      "tokamak"
+    ],
+    "wind_keywords": [
+      "wind turbine",
+      "wind energy",
+      "wind power",
+      "offshore wind"
+    ],
+    "other_renewable": [
+      "geothermal energy",
+      "hydroelectric",
+      "tidal energy",
+      "ocean energy",
+      "biofuel",
+      "biomass energy"
+    ],
+    "grid_keywords": [
+      "smart grid",
+      "microgrid",
+      "power grid",
+      "grid integration",
+      "energy management",
+      "power electronics"
+    ],
+    "efficiency_keywords": [
+      "energy efficiency",
+      "carbon capture",
+      "carbon storage",
+      "energy harvesting"
+    ]
+  },
+  "Brain_Computer_Interface": {
+    "core_keywords": [
+      "brain-computer interface",
+      "brain computer interface",
+      "bci system",
+      "neural interface",
+      "brain-machine interface",
+      "neural control",
+      "brain machine interface"
+    ],
+    "invasive_bci": [
+      "invasive bci",
+      "intracortical recording",
+      "microelectrode array",
+      "utah array",
+      "electrocorticography",
+      "ecog recording",
+      "deep brain stimulation",
+      "cortical implant",
+      "neural implant"
+    ],
+    "non_invasive_bci": [
+      "non-invasive bci",
+      "eeg bci",
+      "electroencephalography",
+      "eeg recording",
+      "meg",
+      "magnetoencephalography",
+      "fmri bci",
+      "functional mri",
+      "fnirs",
+      "near-infrared spectroscopy"
+    ],
+    "semi_invasive_bci": [
+      "semi-invasive bci",
+      "endovascular bci",
+      "subdural electrode",
+      "ecog electrode"
+    ],
+    "signal_processing": [
+      "neural decoding",
+      "brain signal processing",
+      "neural signal decoding",
+      "feature extraction",
+      "signal classification",
+      "pattern recognition",
+      "motor imagery",
+      "event-related potential",
+      "p300 speller",
+      "steady-state visual evoked potential",
+      "ssvep",
+      "sensorimotor rhythm",
+      "smr"
+    ],
+    "applications_medical": [
+      "neuroprosthetics",
+      "neural prosthetics",
+      "motor rehabilitation",
+      "stroke rehabilitation",
+      "locked-in syndrome",
+      "assistive technology",
+      "communication aid",
+      "wheelchair control",
+      "prosthetic limb control",
+      "spinal cord injury"
+    ],
+    "applications_enhancement": [
+      "cognitive enhancement",
+      "attention modulation",
+      "memory enhancement",
+      "sleep regulation",
+      "neural feedback",
+      "neurofeedback",
+      "brain training"
+    ],
+    "applications_military": [
+      "drone swarm control",
+      "human-machine teaming",
+      "exoskeleton control",
+      "soldier enhancement",
+      "cognitive augmentation"
+    ],
+    "hardware_technology": [
+      "neural electrode",
+      "brain sensor",
+      "amplifier",
+      "wireless bci",
+      "wearable bci",
+      "portable eeg",
+      "dry electrode",
+      "wet electrode",
+      "active electrode"
+    ],
+    "ai_ml_keywords": [
+      "deep learning bci",
+      "machine learning decoding",
+      "neural network decoder",
+      "convolutional neural network eeg",
+      "recurrent neural network brain",
+      "adaptive bci",
+      "transfer learning bci"
+    ],
+    "china_specific": [
+      "china brain project",
+      "qiyuan lab",
+      "neucyber",
+      "human-machine hybrid intelligence",
+      "brain-inspired intelligence"
+    ],
+    "ecosystem_optogenetics": [
+      "optogenetics",
+      "optogenetic",
+      "channelrhodopsin",
+      "halorhodopsin",
+      "light-activated neurons",
+      "light-sensitive proteins",
+      "opsin",
+      "photostimulation",
+      "optogenetic control",
+      "optical neural control"
+    ],
+    "ecosystem_neural_dust": [
+      "neural dust",
+      "ultrasound-powered implant",
+      "ultrasonic neural sensor",
+      "neurograins",
+      "wireless neural sensor",
+      "piezoelectric neural",
+      "ultrasound power transfer",
+      "acoustic neural interface",
+      "batteryless neural implant"
+    ],
+    "ecosystem_focused_ultrasound": [
+      "focused ultrasound",
+      "transcranial focused ultrasound",
+      "tfus",
+      "ultrasound neuromodulation",
+      "ultrasonic brain stimulation",
+      "low-intensity focused ultrasound",
+      "lifu",
+      "acoustic neuromodulation",
+      "ultrasound brain therapy"
+    ],
+    "ecosystem_advanced_electrodes": [
+      "graphene electrode",
+      "graphene neural interface",
+      "carbon nanotube electrode",
+      "flexible neural electrode",
+      "biocompatible electrode",
+      "conductive polymer electrode",
+      "pedot electrode",
+      "nanoporous electrode",
+      "high-density electrode array"
+    ],
+    "ecosystem_brain_to_brain": [
+      "brain-to-brain interface",
+      "brain to brain communication",
+      "synthetic telepathy",
+      "neural telepathy",
+      "brainnet",
+      "direct brain communication",
+      "multi-brain interface",
+      "brain-to-brain transmission"
+    ],
+    "ecosystem_neural_swarms": [
+      "neural swarm control",
+      "brain-controlled swarm",
+      "bci swarm robotics",
+      "multi-agent brain control",
+      "thought-controlled drones",
+      "neural multi-robot",
+      "brain swarm interface",
+      "cognitive swarm control"
+    ],
+    "ecosystem_tms_tdcs": [
+      "transcranial magnetic stimulation",
+      "tms",
+      "transcranial direct current stimulation",
+      "tdcs",
+      "non-invasive brain stimulation",
+      "nibs",
+      "repetitive tms",
+      "rtms",
+      "transcranial electrical stimulation"
+    ],
+    "ecosystem_neural_authentication": [
+      "brainwave biometrics",
+      "neural authentication",
+      "eeg authentication",
+      "brain-based authentication",
+      "cognitive biometrics",
+      "brainprint",
+      "neural signature",
+      "brain pattern authentication"
+    ],
+    "ecosystem_cognitive_enhancement": [
+      "nootropics",
+      "cognitive enhancer",
+      "neuroenhancement",
+      "pharmacological cognitive enhancement",
+      "brain-computer pharmacology",
+      "modafinil",
+      "ampakine",
+      "cognitive performance drug"
+    ]
+  },
+  "_cleaned": "2025-10-26",
+  "_cleanup_reason": "Removed null_data_driven keywords - high false positive rate",
+  "_updated": "2025-10-26 - Added Brain_Computer_Interface as 10th technology domain",
+  "_ecosystem_added": "2025-10-26 - Added 90+ ecosystem technology keywords across 9 categories"
+}

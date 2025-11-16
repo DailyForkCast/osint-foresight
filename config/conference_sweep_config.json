@@ -1,0 +1,166 @@
+{
+  "sweep_configuration": {
+    "run_frequency": "weekly",
+    "run_day": "Sunday",
+    "run_time": "22:00",
+    "years_ahead": 5,
+    "monitoring_period": "2025-2030",
+    "alert_threshold_days": 30
+  },
+  "conference_series": {
+    "CES": {
+      "organizer": "Consumer Technology Association",
+      "website": "https://www.ces.tech",
+      "typical_month": "January",
+      "typical_location": "Las Vegas, USA",
+      "technology_domain": "Consumer Electronics",
+      "importance": "critical",
+      "chinese_participation_history": "high",
+      "notes": "~1,000 Chinese companies at peak (2018-2020). Declined to ~200 during COVID (2021-2023)."
+    },
+    "MWC_Barcelona": {
+      "organizer": "GSMA",
+      "website": "https://www.mwcbarcelona.com",
+      "typical_month": "February",
+      "typical_location": "Barcelona, Spain",
+      "technology_domain": "Mobile/Telecommunications",
+      "importance": "critical",
+      "chinese_participation_history": "high",
+      "notes": "Record 109,000 attendance (2019). Huawei, ZTE major presence. 100+ Chinese companies even during COVID."
+    },
+    "IFA": {
+      "organizer": "gfu Consumer & Home Electronics",
+      "website": "https://www.ifa-berlin.com",
+      "typical_month": "September",
+      "typical_location": "Berlin, Germany",
+      "technology_domain": "Consumer Electronics",
+      "importance": "critical",
+      "chinese_participation_history": "high",
+      "notes": "770+ Chinese companies (2019 = 39.7% of exhibitors). Highest Chinese concentration documented."
+    },
+    "MWC_Shanghai": {
+      "organizer": "GSMA",
+      "website": "https://www.mwcshanghai.com",
+      "typical_month": "June",
+      "typical_location": "Shanghai, China",
+      "technology_domain": "Mobile/Telecommunications",
+      "importance": "medium",
+      "chinese_participation_history": "very_high",
+      "notes": "China-based event. High Chinese participation but limited Western media coverage. Use archived sources only."
+    },
+    "Computex": {
+      "organizer": "TAITRA",
+      "website": "https://www.computex.biz",
+      "typical_month": "May-June",
+      "typical_location": "Taipei, Taiwan",
+      "technology_domain": "Computing/IT",
+      "importance": "high",
+      "chinese_participation_history": "high",
+      "notes": "Asia-based, significant Chinese exhibitor presence. Focus on semiconductors, PC components."
+    },
+    "CES_Asia": {
+      "organizer": "Consumer Technology Association",
+      "website": "https://www.cesasia.cn",
+      "typical_month": "May-June",
+      "typical_location": "Shanghai, China",
+      "technology_domain": "Consumer Electronics",
+      "importance": "low",
+      "chinese_participation_history": "very_high",
+      "notes": "DISCONTINUED after 2019. Last held 2019. China-based CES variant."
+    }
+  },
+  "western_media_sources": {
+    "tier1_tech_news": [
+      "https://techcrunch.com",
+      "https://www.theverge.com",
+      "https://arstechnica.com",
+      "https://www.cnet.com"
+    ],
+    "tier2_consumer_electronics": [
+      "https://www.digitaltrends.com",
+      "https://www.engadget.com",
+      "https://www.tomsguide.com",
+      "https://www.tomshardware.com"
+    ],
+    "tier3_mobile_specialist": [
+      "https://www.gsmarena.com",
+      "https://www.androidauthority.com",
+      "https://www.phonearena.com"
+    ],
+    "tier4_european_sources": [
+      "https://www.whathifi.com",
+      "https://www.avforums.com",
+      "https://www.pocket-lint.com"
+    ]
+  },
+  "search_strategies": {
+    "conference_announcement": [
+      "{series} {year} dates announcement",
+      "{series} {year} exhibitor list",
+      "{series} {year} attendance statistics"
+    ],
+    "chinese_participation": [
+      "{series} {year} Chinese companies exhibitors",
+      "{series} {year} Huawei ZTE TCL Lenovo",
+      "{series} {year} China participation"
+    ],
+    "product_launches": [
+      "{series} {year} Huawei launch announcement",
+      "{series} {year} Chinese brand new products",
+      "{series} {year} innovation awards China"
+    ]
+  },
+  "entity_list_tracking": {
+    "companies": [
+      "Huawei Technologies",
+      "DJI",
+      "SMIC",
+      "YMTC"
+    ],
+    "enforcement_patterns": {
+      "US_shows": "Entity List companies absent from US shows after 2020",
+      "EU_shows": "Entity List companies continue participating at European shows",
+      "note": "Track presence/absence patterns to identify enforcement changes"
+    }
+  },
+  "data_quality_standards": {
+    "minimum_verification": "All data must have Western media source citation",
+    "fabrication_policy": "ZERO TOLERANCE - NO fabricated data ever",
+    "cn_domain_policy": "NEVER access .cn domains directly - archived versions only",
+    "confidence_levels": [
+      "confirmed - Detailed primary source from Western media",
+      "confirmed_presence - Verified attendance but limited details",
+      "pending_verification - Discovered but needs Western source verification"
+    ]
+  },
+  "alert_rules": {
+    "new_conference_announced": {
+      "priority": "high",
+      "action": "Create collection script within 7 days"
+    },
+    "exhibitor_list_published": {
+      "priority": "critical",
+      "action": "Begin Western media verification immediately"
+    },
+    "entity_list_company_participation": {
+      "priority": "high",
+      "action": "Document enforcement pattern changes"
+    },
+    "format_change": {
+      "priority": "medium",
+      "action": "Track virtual/hybrid/in-person transitions"
+    }
+  },
+  "report_generation": {
+    "frequency": "weekly",
+    "output_directory": "C:/Projects/OSINT-Foresight/reports/weekly_conference_sweep",
+    "format": "text",
+    "include_sections": [
+      "database_status",
+      "upcoming_conferences",
+      "coverage_gaps",
+      "action_items",
+      "entity_list_tracking"
+    ]
+  }
+}

@@ -1,0 +1,871 @@
+{
+  "metadata": {
+    "title": "Strategic HS Code Comprehensive Mapping",
+    "version": "1.0",
+    "date_created": "2025-11-10",
+    "purpose": "Complete HS code framework for supply chain intelligence and trade flow analysis",
+    "zero_fabrication_compliance": true,
+    "sources": [
+      "US BIS Export Administration Regulations (EAR)",
+      "Wassenaar Arrangement Dual-Use List",
+      "WCO Harmonized System 2022",
+      "CSET Technology Classifications",
+      "OECD STRI Database"
+    ],
+    "coverage": "10 strategic technology domains, 200+ HS codes",
+    "classification_system": "HS 2022 (6-digit international standard)"
+  },
+
+  "technology_domains": {
+
+    "semiconductors": {
+      "description": "Semiconductor devices, integrated circuits, manufacturing equipment",
+      "strategic_importance": "CRITICAL",
+      "total_hs_codes": 35,
+      "hs_codes": {
+        "8541": {
+          "description": "Semiconductor devices & light-emitting diodes (LEDs)",
+          "strategic_importance": "HIGH",
+          "dual_use": true,
+          "export_controls": ["Wassenaar WA-SEN-004", "US EAR ECCN 3A001.a"],
+          "subcodes": {
+            "854110": {
+              "description": "Diodes (excluding photodiodes & LEDs)",
+              "applications": ["Power rectification", "Signal processing", "RF circuits"],
+              "critical_suppliers": ["Taiwan", "South Korea", "China", "Japan"]
+            },
+            "854121": {
+              "description": "Solar cells in modules or panels",
+              "applications": ["Solar power generation", "Space applications"],
+              "critical_suppliers": ["China (80%+ global)", "Vietnam", "Malaysia"]
+            },
+            "854129": {
+              "description": "Solar cells, not in modules",
+              "applications": ["Solar cell manufacturing", "Custom installations"],
+              "critical_suppliers": ["China", "Taiwan", "South Korea"]
+            },
+            "854140": {
+              "description": "Photosensitive semiconductor devices (photodiodes, phototransistors)",
+              "applications": ["Optical communications", "Sensors", "Imaging"],
+              "dual_use_risk": "HIGH - Night vision, military sensors"
+            },
+            "854150": {
+              "description": "Semiconductor-based transducers",
+              "applications": ["MEMS sensors", "Pressure sensors", "Accelerometers"],
+              "dual_use_risk": "MEDIUM - Guidance systems, inertial navigation"
+            },
+            "854160": {
+              "description": "Crystals, mounted",
+              "applications": ["Frequency control", "Timing circuits"],
+              "critical_suppliers": ["Japan", "China", "Taiwan"]
+            }
+          }
+        },
+        "8542": {
+          "description": "Electronic integrated circuits",
+          "strategic_importance": "CRITICAL",
+          "dual_use": true,
+          "export_controls": ["Wassenaar WA-SEN-003", "US EAR ECCN 3A001.a.3-12", "China Export Controls 2023"],
+          "subcodes": {
+            "854231": {
+              "description": "Processors and controllers (CPUs, MCUs, MPUs)",
+              "applications": ["Computing", "AI/ML", "Automotive", "Industrial control"],
+              "critical_suppliers": ["Taiwan TSMC", "Intel USA", "Samsung Korea", "China SMIC"],
+              "dual_use_risk": "CRITICAL - Military computing, weapons guidance, C4ISR",
+              "china_export_controls": "GPUs >600 TOPS restricted Oct 2023",
+              "leading_edge_nodes": ["3nm (TSMC)", "4nm (Samsung)", "7nm (China max)"]
+            },
+            "854232": {
+              "description": "Memories (DRAM, SRAM, Flash)",
+              "applications": ["Data storage", "Computing", "Mobile devices"],
+              "critical_suppliers": ["South Korea (Samsung, SK Hynix 70%)", "US Micron", "China YMTC"],
+              "dual_use_risk": "HIGH - Weapons systems, secure communications",
+              "supply_concentration": "Top 3 suppliers control 95% global market"
+            },
+            "854233": {
+              "description": "Amplifiers",
+              "applications": ["RF amplification", "Analog signal processing"],
+              "critical_suppliers": ["USA", "Netherlands", "Japan"],
+              "dual_use_risk": "HIGH - Radar, electronic warfare"
+            },
+            "854239": {
+              "description": "Other integrated circuits (includes GPUs, AI accelerators, ASICs)",
+              "applications": ["AI training", "Cryptomining", "Graphics", "Specialized computing"],
+              "critical_suppliers": ["NVIDIA USA", "AMD USA", "Taiwan TSMC (manufacturing)"],
+              "dual_use_risk": "CRITICAL - AI weapons, autonomous systems, cryptography",
+              "us_export_controls": "A100/H100 restricted to China (Oct 2022)",
+              "china_demand": "Massive for AI development, circumvention via Singapore/HK"
+            }
+          }
+        },
+        "8486": {
+          "description": "Semiconductor manufacturing equipment & parts",
+          "strategic_importance": "CRITICAL",
+          "dual_use": true,
+          "export_controls": ["Wassenaar WA-SEN-001/002", "US EAR ECCN 3B001-3B002", "Netherlands EUV Controls"],
+          "subcodes": {
+            "848610": {
+              "description": "Manufacturing machines for semiconductor devices or flat panel displays",
+              "applications": ["Wafer fabrication", "Lithography", "Etching", "Deposition"],
+              "critical_suppliers": ["Netherlands ASML (EUV monopoly)", "USA Applied Materials", "Japan Tokyo Electron"],
+              "dual_use_risk": "CRITICAL - Controls who can manufacture advanced chips",
+              "bottlenecks": ["ASML EUV machines (100% monopoly for <7nm)", "Nikon/Canon DUV (Japan)", "Lam Research etch (USA 50%)"],
+              "china_restrictions": "EUV banned, DUV <28nm restricted (Netherlands 2023)"
+            },
+            "848620": {
+              "description": "Parts and accessories for semiconductor manufacturing equipment",
+              "applications": ["Maintenance", "Upgrades", "Replacement components"],
+              "critical_suppliers": ["USA", "Japan", "Netherlands"],
+              "dual_use_risk": "HIGH - Enables continued operation of restricted equipment"
+            }
+          }
+        },
+        "8543": {
+          "description": "Electrical machines and apparatus (includes semiconductor testing)",
+          "strategic_importance": "HIGH",
+          "subcodes": {
+            "854370": {
+              "description": "Other electrical machines and apparatus (includes chip testers)",
+              "applications": ["Semiconductor testing", "Quality control", "Failure analysis"],
+              "critical_suppliers": ["USA KLA", "Japan Advantest", "USA Teradyne"]
+            }
+          }
+        },
+        "3818": {
+          "description": "Chemical elements doped for electronics",
+          "strategic_importance": "HIGH",
+          "dual_use": true,
+          "subcodes": {
+            "381800": {
+              "description": "Doped silicon, doped compounds (GaAs, InP, SiC, GaN)",
+              "applications": ["Wafer substrates", "Epitaxial layers", "Power devices"],
+              "critical_suppliers": ["Japan Shin-Etsu (silicon 50%)", "Japan SUMCO", "Germany SiC", "USA Wolfspeed (SiC)"],
+              "china_market_share": "Low for advanced substrates (<10%)"
+            }
+          }
+        },
+        "2804": {
+          "description": "Silicon and other metalloids",
+          "strategic_importance": "MEDIUM-HIGH",
+          "subcodes": {
+            "280461": {
+              "description": "Silicon containing ≥99.99% silicon (high purity)",
+              "applications": ["Solar cells", "Semiconductor wafers (after purification to 11N)"],
+              "critical_suppliers": ["China 70%", "Norway", "USA"],
+              "china_export_controls": "Export licensing 2023"
+            },
+            "280469": {
+              "description": "Silicon containing <99.99%",
+              "applications": ["Metallurgical silicon", "Industrial applications"],
+              "critical_suppliers": ["China 60%", "Brazil", "Norway"]
+            },
+            "280450": {
+              "description": "Gallium",
+              "applications": ["GaN power devices", "RF amplifiers", "LEDs", "5G infrastructure"],
+              "critical_suppliers": ["China 98% global supply"],
+              "china_export_controls": "Export ban August 2023",
+              "strategic_importance": "CRITICAL - China monopoly",
+              "substitutes": "Limited, expensive"
+            },
+            "280490": {
+              "description": "Germanium and other metalloids",
+              "applications": ["Fiber optics", "Infrared optics", "SiGe transistors"],
+              "critical_suppliers": ["China 60% global supply"],
+              "china_export_controls": "Export ban August 2023",
+              "strategic_importance": "HIGH - China dominance"
+            }
+          }
+        },
+        "2845": {
+          "description": "Rare earth elements and compounds",
+          "strategic_importance": "CRITICAL",
+          "subcodes": {
+            "284590": {
+              "description": "Rare earth compounds (scandium, yttrium, lanthanides)",
+              "applications": ["Magnets (neodymium)", "Polishing (cerium)", "Phosphors (europium, terbium)", "Catalysts"],
+              "critical_suppliers": ["China 85% global supply", "USA Mountain Pass", "Australia"],
+              "strategic_importance": "CRITICAL - Essential for defense systems",
+              "military_uses": ["Missile guidance", "Precision weapons", "Jet engines", "Communications"],
+              "us_domestic_production": "Only Mountain Pass CA (operational 2023)"
+            }
+          }
+        },
+        "2804_gases": {
+          "description": "Industrial gases for semiconductor manufacturing",
+          "strategic_importance": "HIGH",
+          "subcodes": {
+            "280421": {
+              "description": "Argon",
+              "applications": ["Plasma etching", "Ion implantation", "Inert atmosphere"],
+              "critical_suppliers": ["Air separation plants globally"],
+              "supply_risk": "LOW - Widely available"
+            },
+            "280429": {
+              "description": "Other noble gases (neon, krypton, xenon)",
+              "applications": ["Neon: Excimer lasers for lithography (CRITICAL)", "Krypton/Xenon: Ion implantation"],
+              "critical_suppliers": ["Ukraine/Russia 70% global neon", "China increasing production"],
+              "supply_shock": "2022 Ukraine war disrupted 50% global neon supply",
+              "strategic_importance": "CRITICAL - No easy substitutes for neon in lithography"
+            }
+          }
+        }
+      }
+    },
+
+    "artificial_intelligence": {
+      "description": "AI/ML hardware, specialized processors, neuromorphic chips",
+      "strategic_importance": "CRITICAL",
+      "total_hs_codes": 15,
+      "hs_codes": {
+        "854239_ai": {
+          "description": "AI accelerators and GPUs (subset of 854239)",
+          "note": "Same HS code as general ICs, requires additional classification",
+          "strategic_importance": "CRITICAL",
+          "examples": ["NVIDIA A100/H100", "Google TPU", "AMD Instinct", "Intel Habana"],
+          "us_export_controls": "A100/H100/H800 to China banned Oct 2022/2023",
+          "dual_use_risk": "CRITICAL - Autonomous weapons, AI surveillance, military AI"
+        },
+        "8471": {
+          "description": "Automatic data processing machines (computers)",
+          "strategic_importance": "HIGH",
+          "subcodes": {
+            "847130": {
+              "description": "Portable computers (laptops, tablets)",
+              "applications": ["Personal computing", "Mobile workstations"],
+              "critical_suppliers": ["China assembly 90%", "Taiwan components"]
+            },
+            "847141": {
+              "description": "Data processing machines with CPU, I/O, storage",
+              "applications": ["Desktop computers", "Workstations"],
+              "critical_suppliers": ["China assembly", "Taiwan components", "USA design"]
+            },
+            "847149": {
+              "description": "Other data processing systems",
+              "applications": ["Servers", "Mainframes", "HPC clusters"],
+              "dual_use_risk": "HIGH - AI training clusters, weapons simulation"
+            },
+            "847150": {
+              "description": "Processing units (CPUs, GPUs as discrete units)",
+              "applications": ["Computer components", "Upgrades"],
+              "note": "Overlap with 854231 for integrated circuits"
+            }
+          }
+        },
+        "8517": {
+          "description": "Telecom equipment (includes edge AI devices)",
+          "strategic_importance": "HIGH",
+          "subcodes": {
+            "851762": {
+              "description": "Machines for reception, conversion, transmission (includes edge AI)",
+              "applications": ["Routers", "Switches", "5G base stations", "Edge AI devices"],
+              "critical_suppliers": ["China Huawei/ZTE", "Sweden Ericsson", "Finland Nokia", "USA Cisco"],
+              "us_restrictions": "Huawei/ZTE banned from US networks (2019-2020)",
+              "dual_use_risk": "HIGH - Communications interception, AI surveillance"
+            }
+          }
+        },
+        "8473": {
+          "description": "Parts for computing equipment",
+          "strategic_importance": "MEDIUM-HIGH",
+          "subcodes": {
+            "847330": {
+              "description": "Parts and accessories for data processing machines",
+              "applications": ["Server components", "Motherboards", "Power supplies", "Cooling"],
+              "critical_suppliers": ["Taiwan", "China", "USA"]
+            }
+          }
+        }
+      }
+    },
+
+    "quantum_technology": {
+      "description": "Quantum computing, quantum communications, quantum sensors",
+      "strategic_importance": "CRITICAL",
+      "total_hs_codes": 12,
+      "note": "Quantum tech often classified under general scientific instruments - requires end-use verification",
+      "hs_codes": {
+        "9027": {
+          "description": "Instruments for physical/chemical analysis",
+          "strategic_importance": "HIGH",
+          "dual_use": true,
+          "subcodes": {
+            "902750": {
+              "description": "Instruments using optical radiations (includes quantum optics equipment)",
+              "applications": ["Quantum key distribution", "Photonic quantum computers", "Quantum sensors"],
+              "critical_suppliers": ["USA", "China", "Germany", "UK"],
+              "dual_use_risk": "CRITICAL - Quantum cryptography, quantum radar",
+              "export_controls": "Wassenaar WA-SEN-005 (quantum cryptography)"
+            },
+            "902780": {
+              "description": "Other spectrum analyzers and measuring instruments",
+              "applications": ["Quantum state measurement", "Cryogenic instrumentation"],
+              "critical_suppliers": ["USA", "Germany", "Japan"]
+            }
+          }
+        },
+        "9030": {
+          "description": "Oscilloscopes, spectrum analyzers, signal analyzers",
+          "strategic_importance": "HIGH",
+          "subcodes": {
+            "903082": {
+              "description": "Instruments for measuring or checking semiconductor devices",
+              "applications": ["Quantum chip testing", "Superconducting qubit measurement"],
+              "critical_suppliers": ["USA Keysight", "Japan Advantest", "Germany Rohde & Schwarz"]
+            }
+          }
+        },
+        "8543": {
+          "description": "Electrical apparatus (includes quantum computing components)",
+          "strategic_importance": "HIGH",
+          "subcodes": {
+            "854370": {
+              "description": "Other electrical machines (includes dilution refrigerators for quantum)",
+              "applications": ["Quantum computer cooling", "Cryogenic systems", "Superconducting circuits"],
+              "critical_suppliers": ["Finland Bluefors", "UK Oxford Instruments", "USA"]
+            }
+          }
+        },
+        "8419": {
+          "description": "Machinery for heating/cooling (includes cryogenic for quantum)",
+          "strategic_importance": "MEDIUM-HIGH",
+          "subcodes": {
+            "841960": {
+              "description": "Machinery for liquefying air or gases",
+              "applications": ["Helium-3 systems", "Dilution refrigerators (<10 millikelvin)"],
+              "critical_suppliers": ["Finland", "UK", "USA", "Germany"],
+              "dual_use_risk": "MEDIUM - Required for quantum computers and superconducting systems"
+            }
+          }
+        },
+        "9013": {
+          "description": "Liquid crystal devices, lasers",
+          "strategic_importance": "HIGH",
+          "subcodes": {
+            "901320": {
+              "description": "Lasers (excluding laser diodes)",
+              "applications": ["Quantum computing control", "Quantum communications", "Atomic clocks"],
+              "critical_suppliers": ["USA", "Germany", "China"],
+              "dual_use_risk": "HIGH - Quantum key distribution, precision targeting"
+            }
+          }
+        }
+      }
+    },
+
+    "space_technology": {
+      "description": "Satellites, launch vehicles, space systems",
+      "strategic_importance": "CRITICAL",
+      "total_hs_codes": 18,
+      "hs_codes": {
+        "8802": {
+          "description": "Aircraft, spacecraft, and launch vehicles",
+          "strategic_importance": "CRITICAL",
+          "dual_use": true,
+          "export_controls": ["ITAR (USA)", "EU Dual-Use Regulation", "Wassenaar ML10"],
+          "subcodes": {
+            "880260": {
+              "description": "Spacecraft (including satellites) and launch vehicles",
+              "applications": ["Communications satellites", "Earth observation", "GPS/navigation", "Military reconnaissance"],
+              "critical_suppliers": ["USA", "Europe ESA", "Russia", "China", "India"],
+              "dual_use_risk": "CRITICAL - Military satellites, ASAT weapons, hypersonic test platforms",
+              "china_capabilities": ["BeiDou navigation", "Yaogan reconnaissance", "Anti-satellite weapons tested"]
+            }
+          }
+        },
+        "8525": {
+          "description": "Transmission apparatus (includes satellite ground equipment)",
+          "strategic_importance": "HIGH",
+          "subcodes": {
+            "852580": {
+              "description": "Television cameras, digital cameras (includes satellite imaging)",
+              "applications": ["Satellite imagery sensors", "Reconnaissance cameras"],
+              "critical_suppliers": ["USA", "France", "Germany", "Israel"],
+              "dual_use_risk": "HIGH - Military reconnaissance, targeting"
+            }
+          }
+        },
+        "8526": {
+          "description": "Radar apparatus, radio navigational aid apparatus",
+          "strategic_importance": "CRITICAL",
+          "dual_use": true,
+          "subcodes": {
+            "852610": {
+              "description": "Radar apparatus",
+              "applications": ["Space surveillance", "Tracking", "Early warning", "SAR satellites"],
+              "critical_suppliers": ["USA", "Europe", "Israel"],
+              "dual_use_risk": "CRITICAL - Military radar, missile tracking, space warfare"
+            },
+            "852691": {
+              "description": "Radio navigational aid apparatus (includes GPS receivers)",
+              "applications": ["Satellite navigation", "Precision timing", "Positioning"],
+              "dual_use_risk": "HIGH - Missile guidance, precision weapons"
+            }
+          }
+        },
+        "9014": {
+          "description": "Direction finding compasses, navigational instruments",
+          "strategic_importance": "HIGH",
+          "subcodes": {
+            "901420": {
+              "description": "Instruments and appliances for aeronautical or space navigation",
+              "applications": ["Satellite attitude control", "Star trackers", "Inertial measurement units"],
+              "critical_suppliers": ["USA", "France", "Germany"],
+              "dual_use_risk": "CRITICAL - Missile guidance, precision weapons"
+            }
+          }
+        }
+      }
+    },
+
+    "brain_computer_interface": {
+      "description": "Neural interfaces, brain-computer interaction systems",
+      "strategic_importance": "HIGH",
+      "total_hs_codes": 10,
+      "note": "Emerging technology, classification may overlap with medical devices",
+      "hs_codes": {
+        "9018": {
+          "description": "Medical instruments (includes neural interfaces)",
+          "strategic_importance": "MEDIUM-HIGH",
+          "subcodes": {
+            "901819": {
+              "description": "Electro-diagnostic apparatus (includes EEG for BCI)",
+              "applications": ["Non-invasive BCI", "EEG-based systems", "Medical diagnosis"],
+              "critical_suppliers": ["USA", "Germany", "Japan"],
+              "dual_use_risk": "MEDIUM - Cognitive monitoring, neural surveillance potential"
+            },
+            "901839": {
+              "description": "Catheters, cannulae and similar (includes neural electrodes)",
+              "applications": ["Invasive BCI", "Implantable electrodes", "Neural recording"],
+              "critical_suppliers": ["USA Neuralink", "USA Blackrock", "Germany"],
+              "dual_use_risk": "HIGH - Cognitive enhancement, soldier augmentation"
+            }
+          }
+        },
+        "9027": {
+          "description": "Instruments for physical/chemical analysis (includes neural signal processing)",
+          "strategic_importance": "MEDIUM",
+          "subcodes": {
+            "902780": {
+              "description": "Other instruments (includes neural signal analyzers)",
+              "applications": ["Neural signal processing", "Brain activity measurement"],
+              "critical_suppliers": ["USA", "Germany", "China"]
+            }
+          }
+        },
+        "8543": {
+          "description": "Electrical machines (includes neural stimulators)",
+          "strategic_importance": "MEDIUM",
+          "subcodes": {
+            "854370": {
+              "description": "Other electrical machines (includes neural stimulation devices)",
+              "applications": ["Neural stimulation", "Cognitive enhancement devices", "Therapeutic BCI"],
+              "critical_suppliers": ["USA", "Germany", "Switzerland"]
+            }
+          }
+        }
+      }
+    },
+
+    "advanced_materials": {
+      "description": "Graphene, nanomaterials, advanced composites, metamaterials",
+      "strategic_importance": "HIGH",
+      "total_hs_codes": 20,
+      "hs_codes": {
+        "3801": {
+          "description": "Graphite and carbon products",
+          "strategic_importance": "MEDIUM-HIGH",
+          "subcodes": {
+            "380110": {
+              "description": "Artificial graphite",
+              "applications": ["Battery anodes", "Thermal management", "Composite materials"],
+              "critical_suppliers": ["China 70%", "Japan", "USA"]
+            },
+            "380120": {
+              "description": "Colloidal or semi-colloidal graphite",
+              "applications": ["Lubricants", "Coatings", "Advanced materials"],
+              "critical_suppliers": ["China", "Germany"]
+            }
+          }
+        },
+        "2849": {
+          "description": "Carbides (silicon carbide, tungsten carbide)",
+          "strategic_importance": "HIGH",
+          "subcodes": {
+            "284920": {
+              "description": "Silicon carbide",
+              "applications": ["Power semiconductors", "LEDs", "Abrasives", "Armor materials"],
+              "critical_suppliers": ["USA Wolfspeed", "Germany SiC", "China", "Japan"],
+              "dual_use_risk": "HIGH - Next-gen power electronics, vehicle armor",
+              "military_applications": ["EV power systems", "Directed energy weapons", "Hypersonic vehicle thermal protection"]
+            },
+            "284990": {
+              "description": "Other carbides (tungsten, boron, etc)",
+              "applications": ["Cutting tools", "Wear-resistant coatings", "Nuclear applications"],
+              "critical_suppliers": ["China tungsten carbide 60%", "USA", "Germany"]
+            }
+          }
+        },
+        "2850": {
+          "description": "Hydrides, nitrides, azides, silicides, borides",
+          "strategic_importance": "MEDIUM-HIGH",
+          "subcodes": {
+            "285000": {
+              "description": "Hydrides, nitrides (including gallium nitride)",
+              "applications": ["GaN power devices", "LEDs", "RF amplifiers", "5G"],
+              "critical_suppliers": ["Japan", "USA", "China"],
+              "dual_use_risk": "HIGH - Military radar, electronic warfare"
+            }
+          }
+        },
+        "7108": {
+          "description": "Gold (used in advanced electronics)",
+          "strategic_importance": "MEDIUM",
+          "subcodes": {
+            "710820": {
+              "description": "Gold in semi-manufactured forms",
+              "applications": ["Bonding wire in semiconductors", "RF connectors", "Satellite electronics"],
+              "critical_suppliers": ["Global - Switzerland refining hub"],
+              "note": "Essential for high-reliability electronics"
+            }
+          }
+        },
+        "7110": {
+          "description": "Platinum group metals",
+          "strategic_importance": "HIGH",
+          "subcodes": {
+            "711029": {
+              "description": "Platinum in semi-manufactured forms",
+              "applications": ["Catalytic converters", "Fuel cells", "Thermocouples", "Lab equipment"],
+              "critical_suppliers": ["South Africa 70%", "Russia 20%", "Zimbabwe"],
+              "supply_risk": "HIGH - Concentrated sources, geopolitical risk"
+            }
+          }
+        },
+        "3824": {
+          "description": "Chemical products and preparations (includes nanomaterials)",
+          "strategic_importance": "MEDIUM-HIGH",
+          "subcodes": {
+            "382490": {
+              "description": "Other chemical products (includes graphene, carbon nanotubes)",
+              "applications": ["Advanced composites", "Energy storage", "Electronics"],
+              "critical_suppliers": ["China", "USA", "UK Cambridge", "South Korea"],
+              "note": "Catch-all category, requires end-use classification"
+            }
+          }
+        }
+      }
+    },
+
+    "biotechnology": {
+      "description": "Gene editing tools, vaccines, biologics, lab equipment",
+      "strategic_importance": "HIGH",
+      "total_hs_codes": 15,
+      "hs_codes": {
+        "3002": {
+          "description": "Human blood, vaccines, toxins, cultures",
+          "strategic_importance": "HIGH",
+          "dual_use": true,
+          "subcodes": {
+            "300220": {
+              "description": "Vaccines for human medicine",
+              "applications": ["Immunization", "Pandemic response", "mRNA vaccines"],
+              "critical_suppliers": ["USA Pfizer/Moderna", "Germany BioNTech", "UK AstraZeneca", "China Sinovac/Sinopharm"],
+              "dual_use_risk": "MEDIUM - Gain-of-function research concerns",
+              "covid_relevance": "mRNA technology strategic priority"
+            },
+            "300230": {
+              "description": "Vaccines for veterinary medicine",
+              "applications": ["Livestock protection", "Disease prevention"],
+              "critical_suppliers": ["USA", "EU", "China"]
+            }
+          }
+        },
+        "3004": {
+          "description": "Medicaments (therapeutic or prophylactic)",
+          "strategic_importance": "MEDIUM-HIGH",
+          "subcodes": {
+            "300450": {
+              "description": "Medicaments containing vitamins or provitamins",
+              "applications": ["Nutritional supplements", "Medical treatments"],
+              "critical_suppliers": ["China API 80%+", "India", "USA/EU branded"]
+            }
+          }
+        },
+        "3822": {
+          "description": "Diagnostic or laboratory reagents",
+          "strategic_importance": "MEDIUM-HIGH",
+          "subcodes": {
+            "382200": {
+              "description": "Diagnostic reagents on backing (includes CRISPR kits, gene editing tools)",
+              "applications": ["Medical diagnostics", "Gene editing", "Lab research"],
+              "critical_suppliers": ["USA", "China", "Germany", "Switzerland"],
+              "dual_use_risk": "HIGH - CRISPR/gene editing, gain-of-function research"
+            }
+          }
+        },
+        "9027": {
+          "description": "Instruments for analysis (includes gene sequencers)",
+          "strategic_importance": "HIGH",
+          "subcodes": {
+            "902780": {
+              "description": "Other instruments (includes DNA sequencers, mass spectrometers)",
+              "applications": ["Gene sequencing", "Proteomics", "Metabolomics"],
+              "critical_suppliers": ["USA Illumina/Thermo Fisher", "China BGI", "UK Oxford Nanopore"],
+              "dual_use_risk": "MEDIUM - Genomic surveillance, bioweapons research concerns"
+            }
+          }
+        },
+        "8419": {
+          "description": "Machinery for heating/cooling (includes bioreactors, incubators)",
+          "strategic_importance": "MEDIUM",
+          "subcodes": {
+            "841989": {
+              "description": "Other machinery (includes bioreactors for cell culture)",
+              "applications": ["Vaccine production", "Biologics manufacturing", "Cell therapy"],
+              "critical_suppliers": ["Germany", "USA", "Switzerland"]
+            }
+          }
+        }
+      }
+    },
+
+    "energy": {
+      "description": "Batteries, fuel cells, solar, energy storage",
+      "strategic_importance": "HIGH",
+      "total_hs_codes": 18,
+      "hs_codes": {
+        "8507": {
+          "description": "Electric accumulators (batteries)",
+          "strategic_importance": "HIGH",
+          "subcodes": {
+            "850760": {
+              "description": "Lithium-ion batteries",
+              "applications": ["EVs", "Grid storage", "Consumer electronics", "Military systems"],
+              "critical_suppliers": ["China CATL/BYD 60%+", "South Korea LG/Samsung", "Japan Panasonic"],
+              "china_dominance": "70% global manufacturing, 80% cathode/anode materials",
+              "strategic_importance": "CRITICAL - EV transition, grid reliability, defense applications"
+            },
+            "850780": {
+              "description": "Other accumulators (includes solid-state, Na-ion)",
+              "applications": ["Next-gen EVs", "Grid-scale storage", "Specialized applications"],
+              "critical_suppliers": ["China leading Na-ion", "USA solid-state R&D", "Japan"]
+            }
+          }
+        },
+        "8502": {
+          "description": "Electric generating sets and rotary converters",
+          "strategic_importance": "MEDIUM-HIGH",
+          "subcodes": {
+            "850231": {
+              "description": "Wind-powered generating sets",
+              "applications": ["Wind farms", "Offshore wind", "Distributed generation"],
+              "critical_suppliers": ["China 60% global", "Denmark Vestas", "Spain Siemens Gamesa", "USA GE"],
+              "china_dominance": "Turbine manufacturing concentrated in China"
+            },
+            "850240": {
+              "description": "Electric rotary converters (includes power electronics for renewables)",
+              "applications": ["Inverters", "Grid integration", "Frequency conversion"],
+              "critical_suppliers": ["China", "Germany", "USA"]
+            }
+          }
+        },
+        "8506": {
+          "description": "Primary cells and batteries (non-rechargeable)",
+          "strategic_importance": "LOW-MEDIUM",
+          "subcodes": {
+            "850650": {
+              "description": "Lithium primary cells",
+              "applications": ["Military systems", "Medical devices", "Long-duration sensors"],
+              "critical_suppliers": ["China", "Japan", "USA"]
+            }
+          }
+        },
+        "2520": {
+          "description": "Lithium compounds (for battery manufacturing)",
+          "strategic_importance": "CRITICAL",
+          "subcodes": {
+            "252010": {
+              "description": "Lithium carbonate (battery-grade)",
+              "applications": ["Cathode materials", "Battery electrolytes"],
+              "critical_suppliers": ["Australia mining", "Chile mining", "China refining 60%+"],
+              "supply_concentration": "China controls refining, creating chokepoint",
+              "strategic_importance": "CRITICAL - EV supply chain bottleneck"
+            }
+          }
+        },
+        "2603": {
+          "description": "Copper ores and concentrates",
+          "strategic_importance": "MEDIUM",
+          "subcodes": {
+            "260300": {
+              "description": "Copper ores (essential for electrical systems)",
+              "applications": ["Wiring", "Motors", "Transformers", "Grid infrastructure"],
+              "critical_suppliers": ["Chile 30%", "Peru 10%", "China 8% mining but 40% refining"],
+              "china_refining_dominance": "Controls 40% global copper refining capacity"
+            }
+          }
+        },
+        "2609": {
+          "description": "Tin ores and concentrates",
+          "strategic_importance": "MEDIUM",
+          "subcodes": {
+            "260900": {
+              "description": "Tin ores (solder for electronics)",
+              "applications": ["Electronic solder", "Coatings", "Alloys"],
+              "critical_suppliers": ["Indonesia", "Myanmar", "China", "Peru"],
+              "supply_risk": "MEDIUM - Concentrated sources"
+            }
+          }
+        },
+        "2617": {
+          "description": "Cobalt ores and concentrates",
+          "strategic_importance": "HIGH",
+          "subcodes": {
+            "261790": {
+              "description": "Cobalt ores (battery cathodes)",
+              "applications": ["Li-ion cathodes (NMC, NCA)", "Superalloys", "Magnets"],
+              "critical_suppliers": ["DRC 70%", "China refining 80%"],
+              "ethical_concerns": "Artisanal mining in DRC (child labor)",
+              "strategic_importance": "HIGH - Battery supply chain, no easy substitutes"
+            }
+          }
+        },
+        "2616": {
+          "description": "Nickel ores",
+          "strategic_importance": "HIGH",
+          "subcodes": {
+            "261600": {
+              "description": "Nickel ores (battery cathodes, stainless steel)",
+              "applications": ["NMC cathodes", "Stainless steel", "Superalloys"],
+              "critical_suppliers": ["Indonesia 37%", "Philippines 16%", "Russia 10%", "Canada"],
+              "supply_risk": "MEDIUM-HIGH - Concentrated, Indonesia export restrictions"
+            }
+          }
+        }
+      }
+    },
+
+    "neuroscience": {
+      "description": "Neural research equipment, cognitive measurement, brain imaging",
+      "strategic_importance": "MEDIUM-HIGH",
+      "total_hs_codes": 8,
+      "note": "Overlaps with BCI, medical devices",
+      "hs_codes": {
+        "9018": {
+          "description": "Medical instruments (includes brain imaging)",
+          "strategic_importance": "MEDIUM-HIGH",
+          "subcodes": {
+            "901819": {
+              "description": "Electro-diagnostic apparatus (includes EEG, MEG)",
+              "applications": ["Brain activity measurement", "Cognitive research", "Clinical diagnosis"],
+              "critical_suppliers": ["USA", "Germany", "Japan"],
+              "dual_use_risk": "MEDIUM - Cognitive assessment, neural surveillance"
+            }
+          }
+        },
+        "9022": {
+          "description": "Apparatus based on X-rays or radiation (includes MRI, PET)",
+          "strategic_importance": "MEDIUM-HIGH",
+          "subcodes": {
+            "902214": {
+              "description": "Computed tomography apparatus",
+              "applications": ["Brain imaging", "Stroke diagnosis"],
+              "critical_suppliers": ["USA GE/Philips", "Germany Siemens", "Japan Canon"]
+            },
+            "902221": {
+              "description": "Apparatus based on alpha, beta, gamma radiation (includes PET)",
+              "applications": ["Brain metabolism imaging", "Alzheimer's research"],
+              "critical_suppliers": ["USA", "Germany", "Japan"]
+            }
+          }
+        },
+        "9027": {
+          "description": "Chemical/physical analysis instruments",
+          "strategic_importance": "MEDIUM",
+          "subcodes": {
+            "902780": {
+              "description": "Other instruments (includes neurochemical analyzers)",
+              "applications": ["Neurotransmitter measurement", "Brain chemistry analysis"],
+              "critical_suppliers": ["USA", "Germany", "China"]
+            }
+          }
+        }
+      }
+    },
+
+    "smart_city": {
+      "description": "IoT sensors, surveillance, smart infrastructure",
+      "strategic_importance": "MEDIUM-HIGH",
+      "total_hs_codes": 12,
+      "hs_codes": {
+        "8525": {
+          "description": "Transmission apparatus (includes surveillance cameras)",
+          "strategic_importance": "MEDIUM-HIGH",
+          "dual_use": true,
+          "subcodes": {
+            "852580": {
+              "description": "Television cameras, digital cameras (includes surveillance)",
+              "applications": ["CCTV", "Facial recognition", "Smart city monitoring"],
+              "critical_suppliers": ["China Hikvision/Dahua 45%+", "South Korea Hanwha", "Japan Sony"],
+              "us_restrictions": "Hikvision/Dahua on Entity List (2019)",
+              "dual_use_risk": "HIGH - Mass surveillance, social credit systems, Xinjiang use"
+            }
+          }
+        },
+        "8517": {
+          "description": "Telecommunications equipment (includes IoT devices)",
+          "strategic_importance": "MEDIUM-HIGH",
+          "subcodes": {
+            "851762": {
+              "description": "Machines for reception, conversion, transmission (includes IoT gateways)",
+              "applications": ["Smart city networks", "IoT hubs", "Edge computing"],
+              "critical_suppliers": ["China", "USA Cisco", "South Korea"]
+            },
+            "851770": {
+              "description": "Parts (includes IoT sensors)",
+              "applications": ["Environmental sensors", "Traffic sensors", "Smart meters"],
+              "critical_suppliers": ["China dominates low-cost sensors", "Germany Bosch", "USA Honeywell"]
+            }
+          }
+        },
+        "8543": {
+          "description": "Electrical machines (includes smart infrastructure controllers)",
+          "strategic_importance": "MEDIUM",
+          "subcodes": {
+            "854370": {
+              "description": "Other electrical machines (includes smart grid controllers)",
+              "applications": ["Traffic control", "Smart lighting", "Energy management"],
+              "critical_suppliers": ["USA", "Germany Siemens", "China"]
+            }
+          }
+        }
+      }
+    }
+
+  },
+
+  "cross_cutting_codes": {
+    "description": "HS codes relevant to multiple technology domains",
+    "codes": {
+      "8471": "Computing equipment (AI, semiconductors, smart city)",
+      "8517": "Telecom equipment (AI, smart city, 5G)",
+      "9027": "Analysis instruments (quantum, biotech, neuroscience)",
+      "9018": "Medical instruments (BCI, neuroscience, biotech)",
+      "8543": "Electrical apparatus (quantum, BCI, smart city)",
+      "2804": "Critical elements (semiconductors, energy, advanced materials)"
+    }
+  },
+
+  "usage_notes": {
+    "hs_classification": "Harmonized System 2022 (6-digit codes are internationally standardized, 8+ digits vary by country)",
+    "dual_use_determination": "Requires end-use verification and exporter/importer classification",
+    "export_controls": "Check BIS EAR, Wassenaar Arrangement, EU Dual-Use Regulation, country-specific controls",
+    "supply_chain_analysis": "Cross-reference with COMTRADE, Eurostat COMEXT, WITS for trade flow data",
+    "data_sources": [
+      "UN COMTRADE (global trade statistics)",
+      "Eurostat COMEXT (EU detailed trade)",
+      "WITS World Bank (tariffs and trade)",
+      "National customs agencies"
+    ]
+  }
+}
