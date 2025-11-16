@@ -29,7 +29,9 @@
       "Bash(unzip:*)",
       "Bash(find:*)",
       "Bash(sort:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git rm:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []

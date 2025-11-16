@@ -268,7 +268,7 @@ countries/_global/data/cordis_raw/**/*.json
 # ============================================================================
 # ARCHIVE DIRECTORIES
 # ============================================================================
-archive/
+# Root-level archive only (not scripts/archive/)
 /archive/
 ARCHIVED_*/
 /ARCHIVED_*/
